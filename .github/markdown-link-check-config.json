@@ -1,0 +1,9 @@
+{
+  "ignorePatterns": [
+    {"pattern": "^https://github.com/YOUR_USERNAME"},
+    {"pattern": "^http://localhost"}
+  ],
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s"
+}

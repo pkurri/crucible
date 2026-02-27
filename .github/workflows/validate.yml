@@ -1,0 +1,70 @@
+name: Validate Skills
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check all skills have frontmatter
+        run: |
+          failed=0
+          for skill_dir in skills/*/; do
+            skill_file="$skill_dir/SKILL.md"
+            if [ ! -f "$skill_file" ]; then
+              echo "❌ Missing SKILL.md in $skill_dir"
+              failed=1
+              continue
+            fi
+            if ! grep -q "^---" "$skill_file"; then
+              echo "❌ Missing frontmatter in $skill_file"
+              failed=1
+            else
+              echo "✅ $skill_file"
+            fi
+          done
+          exit $failed
+
+      - name: Check all skills have name and description
+        run: |
+          failed=0
+          for skill_file in skills/*/SKILL.md; do
+            if ! grep -q "^name:" "$skill_file"; then
+              echo "❌ Missing 'name:' in $skill_file"
+              failed=1
+            fi
+            if ! grep -q "^description:" "$skill_file"; then
+              echo "❌ Missing 'description:' in $skill_file"
+              failed=1
+            fi
+          done
+          exit $failed
+
+      - name: Check templates have required files
+        run: |
+          failed=0
+          for template_dir in templates/*/; do
+            if [ ! -f "$template_dir/README.md" ]; then
+              echo "❌ Missing README.md in $template_dir"
+              failed=1
+            fi
+            if [ ! -f "$template_dir/.env.example" ]; then
+              echo "❌ Missing .env.example in $template_dir"
+              failed=1
+            fi
+            echo "✅ $template_dir"
+          done
+          exit $failed
+
+      - name: Validate skill count
+        run: |
+          count=$(ls -d skills/*/ | wc -l)
+          echo "Total skills: $count"
+          template_count=$(ls -d templates/*/ | wc -l)
+          echo "Total templates: $template_count"

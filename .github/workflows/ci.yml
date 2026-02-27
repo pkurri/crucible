@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-skills:
+    name: Validate Skill Frontmatter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install yaml parser
+        run: npm install -g js-yaml
+      - name: Validate all SKILL.md frontmatter
+        run: |
+          find skills -name "SKILL.md" | while read f; do
+            echo "Checking $f..."
+            # Extract frontmatter and validate required fields
+            python3 -c "
+          import sys, re
+          content = open('$f').read()
+          fm_match = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
+          if not fm_match:
+              print(f'ERROR: No frontmatter in $f')
+              sys.exit(1)
+          fm = fm_match.group(1)
+          for field in ['name:', 'description:', 'triggers:']:
+              if field not in fm:
+                  print(f'ERROR: Missing {field} in $f')
+                  sys.exit(1)
+          print('OK: $f')
+          "
+          done
+
+  check-templates:
+    name: Check Templates Have Required Files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check template structure
+        run: |
+          for dir in templates/*/; do
+            template=$(basename "$dir")
+            echo "Checking template: $template"
+            if [ ! -f "$dir/README.md" ]; then
+              echo "ERROR: $template missing README.md"
+              exit 1
+            fi
+            if [ ! -f "$dir/.env.example" ]; then
+              echo "ERROR: $template missing .env.example"
+              exit 1
+            fi
+            echo "OK: $template"
+          done
+
+  lint-markdown:
+    name: Lint Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for broken markdown links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          config-file: '.github/markdown-link-check-config.json'
