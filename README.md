@@ -2,9 +2,9 @@
 
 > **Where ideas get forged into production.**
 
-[![Skills](https://img.shields.io/badge/skills-13-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-23-blue)](./skills/)
 [![Templates](https://img.shields.io/badge/templates-5-green)](./templates/)
-[![Compatible](https://img.shields.io/badge/Claude%20Code-compatible-purple)](https://docs.anthropic.com/en/docs/claude-code)
+[![CI](https://github.com/pkurri/crucible/workflows/CI/badge.svg)](https://github.com/pkurri/crucible/actions)
 [![License](https://img.shields.io/badge/license-MIT-gray)](./LICENSE)
 
 Crucible is a **production-grade Claude Code skill pack** built for engineers who ship real products. It goes far beyond starter templates — every skill encodes real production wisdom, multi-agent orchestration patterns, and composable workflows that chain together intelligently.
@@ -168,6 +168,38 @@ crucible/
 The bar for inclusion: **would this save an experienced engineer 30+ minutes on a real project?**
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+### Quick Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/pkurri/crucible.git
+cd crucible
+
+# Install Node.js (uses .nvmrc)
+nvm install
+nvm use
+
+# Install development dependencies
+npm install
+
+# Run validation locally
+npm run validate
+
+# Format code
+npm run format
+
+# Run all checks
+npm run check
+```
+
+---
+
+## Security
+
+🔒 This project takes security seriously. Report vulnerabilities privately at `security@crucible.dev`.
+
+See [SECURITY.md](./SECURITY.md) for our security policy and responsible disclosure process.
 
 ---
 

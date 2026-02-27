@@ -43,6 +43,10 @@ jobs:
               echo "❌ Missing 'description:' in $skill_file"
               failed=1
             fi
+            if ! grep -q "^triggers:" "$skill_file"; then
+              echo "❌ Missing 'triggers:' in $skill_file"
+              failed=1
+            fi
           done
           exit $failed
 
@@ -68,3 +72,31 @@ jobs:
           echo "Total skills: $count"
           template_count=$(ls -d templates/*/ | wc -l)
           echo "Total templates: $template_count"
+          
+          # Ensure we have the expected number of skills
+          if [ "$count" -lt 20 ]; then
+            echo "❌ Expected at least 20 skills, found $count"
+            exit 1
+          fi
+          
+          # Ensure we have the expected number of templates
+          if [ "$template_count" -lt 5 ]; then
+            echo "❌ Expected at least 5 templates, found $template_count"
+            exit 1
+          fi
+
+  check-duplicates:
+    name: Check for Duplicate Skills
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for duplicate skill names
+        run: |
+          failed=0
+          names=$(grep -h "^name:" skills/*/SKILL.md | sed 's/^name: //' | sort | uniq -d)
+          if [ -n "$names" ]; then
+            echo "❌ Duplicate skill names found:"
+            echo "$names"
+            failed=1
+          fi
+          exit $failed

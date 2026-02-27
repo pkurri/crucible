@@ -1,0 +1,42 @@
+{
+  "name": "crucible",
+  "version": "1.0.0",
+  "description": "Production-grade Claude Code skill pack built for engineers who ship real products",
+  "scripts": {
+    "validate": "npm run validate-skills && npm run validate-templates",
+    "validate-skills": "node scripts/validate-skills.js",
+    "validate-templates": "node scripts/validate-templates.js",
+    "format": "prettier --write \"**/*.{md,json,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{md,json,yml,yaml}\"",
+    "lint:markdown": "markdownlint \"**/*.md\" --ignore node_modules",
+    "check": "npm run validate && npm run format:check && npm run lint:markdown",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "markdownlint-cli": "^0.37.0",
+    "prettier": "^3.0.0",
+    "yaml": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkurri/crucible.git"
+  },
+  "keywords": [
+    "claude-code",
+    "skills",
+    "templates",
+    "ai",
+    "development",
+    "productivity"
+  ],
+  "author": "Prasad Kurri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pkurri/crucible/issues"
+  },
+  "homepage": "https://github.com/pkurri/crucible#readme"
+}

@@ -23,18 +23,27 @@ jobs:
             echo "Checking $f..."
             # Extract frontmatter and validate required fields
             python3 -c "
-          import sys, re
+          import sys, re, yaml
           content = open('$f').read()
           fm_match = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
           if not fm_match:
               print(f'ERROR: No frontmatter in $f')
               sys.exit(1)
           fm = fm_match.group(1)
-          for field in ['name:', 'description:', 'triggers:']:
-              if field not in fm:
-                  print(f'ERROR: Missing {field} in $f')
+          try:
+              data = yaml.safe_load(fm)
+              required = ['name', 'description', 'triggers']
+              for field in required:
+                  if field not in data:
+                      print(f'ERROR: Missing {field} in $f')
+                      sys.exit(1)
+              if not isinstance(data['triggers'], list) or len(data['triggers']) < 3:
+                  print(f'ERROR: triggers must be a list with at least 3 items in $f')
                   sys.exit(1)
-          print('OK: $f')
+              print(f'OK: $f')
+          except yaml.YAMLError as e:
+              print(f'ERROR: Invalid YAML in $f: {e}')
+              sys.exit(1)
           "
           done
 
@@ -56,8 +65,33 @@ jobs:
               echo "ERROR: $template missing .env.example"
               exit 1
             fi
+            # Check if template has package.json and it's valid
+            if [ -f "$dir/package.json" ]; then
+              if ! node -e "JSON.parse(require('fs').readFileSync('$dir/package.json', 'utf8'))" 2>/dev/null; then
+                echo "ERROR: $template has invalid package.json"
+                exit 1
+              fi
+            fi
             echo "OK: $template"
           done
+
+  security-scan:
+    name: Security Scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          scan-ref: '.'
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+      - name: Upload Trivy scan results
+        uses: github/codeql-action/upload-sarif@v2
+        if: always()
+        with:
+          sarif_file: 'trivy-results.sarif'
 
   lint-markdown:
     name: Lint Markdown
