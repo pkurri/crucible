@@ -56,6 +56,18 @@ export function Header() {
           >
             TELEMETRY
           </Link>
+          <Link 
+            href="/intel" 
+            className={`hover:text-[#ff8c00] transition-colors ${pathname === '/intel' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
+          >
+            INTEL
+          </Link>
+          <Link 
+            href="/foundry" 
+            className={`hover:text-[#ff8c00] transition-colors ${pathname === '/foundry' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
+          >
+            THE FOUNDRY
+          </Link>
         </div>
 
         {/* Status Badge */}
