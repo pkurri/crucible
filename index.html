@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crucible | The Industrial AI Forge</title>
+    <meta
+      name="description"
+      content="Crucible: Production-grade Claude Code skill packs. Forge your ideas into high-performance AI agents."
+    />
+
+    <!-- Design System -->
+    <link rel="stylesheet" href="src/styles/index.css" />
+    <link rel="stylesheet" href="src/styles/components.css" />
+
+    <style>
+      /* Component Specific Overrides & Layout for landing page */
+      .page-container {
+        max-width: var(--container-max);
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+
+      header {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--industrial-slate);
+        position: sticky;
+        top: 0;
+        background: rgba(10, 10, 10, 0.8);
+        backdrop-filter: blur(10px);
+        z-index: 100;
+      }
+
+      .logo {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: var(--molten-amber);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .logo-icon {
+        width: 24px;
+        height: 24px;
+        background: var(--molten-amber);
+        clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        display: inline-block;
+      }
+
+      nav ul {
+        display: flex;
+        gap: 1.5rem;
+      }
+
+      /* Hero Section */
+      .hero {
+        padding: 8rem 0;
+        text-align: center;
+        position: relative;
+      }
+
+      .hero h1 {
+        font-size: 4.5rem;
+        line-height: 1.1;
+        margin-bottom: 2rem;
+        color: #fff;
+      }
+
+      .hero h1 span {
+        color: var(--molten-amber);
+        position: relative;
+      }
+
+      .hero h1 span::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: var(--molten-amber);
+        box-shadow: 0 0 10px var(--molten-amber);
+      }
+
+      .hero p {
+        font-size: 1.25rem;
+        max-width: 700px;
+        margin: 0 auto 3rem;
+        color: #a0a0a0;
+      }
+
+      /* Forge Status */
+      .forge-status {
+        position: absolute;
+        top: 2rem;
+        right: 0;
+        transform: rotate(5deg);
+      }
+
+      /* Section Title */
+      .section-header {
+        margin-bottom: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+
+      .section-header h2 {
+        font-size: 2.5rem;
+      }
+
+      /* Grid Layouts */
+      .armory-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 2rem;
+        margin-bottom: 6rem;
+      }
+
+      .brick-title {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .brick-icon {
+        font-size: 1.5rem;
+        color: var(--molten-amber);
+      }
+
+      .energy-bar {
+        height: 4px;
+        background: #2a2a2a;
+        margin-top: 1.5rem;
+        border-radius: 2px;
+        overflow: hidden;
+      }
+
+      .energy-fill {
+        height: 100%;
+        background: var(--molten-amber);
+        box-shadow: 0 0 5px var(--molten-amber);
+      }
+
+      /* Footer */
+      footer {
+        padding: 4rem 0;
+        border-top: 1px solid var(--industrial-slate);
+        text-align: center;
+        color: #555;
+        font-size: 0.9rem;
+      }
+
+      footer .logo {
+        justify-content: center;
+        margin-bottom: 1.5rem;
+        filter: grayscale(1);
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-container">
+      <!-- Navigation -->
+      <header>
+        <div class="logo">
+          <span class="logo-icon"></span>
+          CRUCIBLE
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#armory" class="nav-link">The Armory</a></li>
+            <li><a href="#samples" class="nav-link">Core Samples</a></li>
+            <li><a href="#flux" class="nav-link">Real-time Flux</a></li>
+            <li><a href="#hearth" class="nav-link">The Hearth</a></li>
+          </ul>
+        </nav>
+        <div class="badge-status">
+          <span class="status-dot"></span>
+          CORE ONLINE
+        </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="animate-pulse forge-status">
+          <div class="brick" style="padding: 1rem; font-size: 0.8rem">
+            <span class="font-mono">PRESSURE: 850MPa</span><br />
+            <span class="font-mono" style="color: var(--molten-amber)"
+              >HEAT: 1400°C</span
+            >
+          </div>
+        </div>
+        <h1>Forge Your <br /><span>AI Armory</span></h1>
+        <p>
+          Production-grade skill packs for Claude Code. Don't just build agents
+          — forge high-performance, resilient, and multi-agent systems with
+          industrial precision.
+        </p>
+        <div class="hero-actions">
+          <button class="btn-molten">Enter the Forge</button>
+        </div>
+      </section>
+
+      <!-- The Armory -->
+      <section id="armory">
+        <div class="section-header">
+          <div>
+            <span class="font-mono" style="color: var(--molten-amber)"
+              >// COMPONENT CATALOG</span
+            >
+            <h2>The Armory</h2>
+          </div>
+          <a href="#" style="text-decoration: underline; color: #888"
+            >BROWSE CATALOG</a
+          >
+        </div>
+
+        <div class="armory-grid">
+          <div class="brick">
+            <div class="brick-title">
+              <h3>Workflow Launch</h3>
+              <span class="brick-icon">⚙️</span>
+            </div>
+            <p>
+              Full product build sequence: intake, architect, build, test, and
+              deploy in one seamless flow.
+            </p>
+            <div class="energy-bar">
+              <div class="energy-fill" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="brick">
+            <div class="brick-title">
+              <h3>Neon Postgres</h3>
+              <span class="brick-icon">⚡</span>
+            </div>
+            <p>
+              Deep database integration knowledge: branching, pooling,
+              migrations, and RLS patterns.
+            </p>
+            <div class="energy-bar">
+              <div class="energy-fill" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <div class="brick">
+            <div class="brick-title">
+              <h3>Review Security</h3>
+              <span class="brick-icon">🛡️</span>
+            </div>
+            <p>
+              Automated security gatekeeper: OWASP audit, secrets scanning, and
+              threat modelling.
+            </p>
+            <div class="energy-bar">
+              <div class="energy-fill" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Real-time Flux -->
+      <section id="flux" style="margin-bottom: 8rem">
+        <div class="section-header">
+          <div>
+            <span class="font-mono" style="color: var(--molten-amber)"
+              >// LIVE TELEMETRY</span
+            >
+            <h2>Real-time Flux</h2>
+          </div>
+        </div>
+
+        <div class="brick" style="padding: 1rem">
+          <div class="flux-feed" id="flux-console">
+            <div class="flux-entry">
+              <span class="flux-timestamp">[12:04:15]</span>
+              <span class="flux-cmd">INITIAZING CORE...</span>
+            </div>
+            <div class="flux-entry">
+              <span class="flux-timestamp">[12:04:16]</span> CALIBRATING THERMAL
+              SENSORS [OK]
+            </div>
+            <div class="flux-entry">
+              <span class="flux-timestamp">[12:04:18]</span> LOADING SKILL:
+              <span style="color: var(--molten-amber)"
+                >workflow-launch-sequence</span
+              >
+            </div>
+            <div class="flux-entry">
+              <span class="flux-timestamp">[12:04:20]</span> SPARKING
+              MULTI-AGENT ORCHESTRATION...
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="logo">
+          <span class="logo-icon"></span>
+          CRUCIBLE
+        </div>
+        <p>
+          &copy; 2026 Crucible Industrial. Built for the next generation of
+          engineers.
+        </p>
+      </footer>
+    </div>
+
+    <!-- Socket.io for Real-time Flux -->
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script>
+      const consoleEl = document.getElementById('flux-console');
+      const statusDot = document.querySelector('.status-dot');
+
+      // Connect to Forge Server
+      const socket = io('http://localhost:3003');
+
+      socket.on('connect', () => {
+        addLog('CORE LINK ESTABLISHED', 'success');
+        statusDot.style.background = 'var(--success-green)';
+        statusDot.style.boxShadow = '0 0 10px var(--success-green)';
+      });
+
+      socket.on('disconnect', () => {
+        addLog('CORE LINK SEVERED - RECONNECTING...', 'error');
+        statusDot.style.background = 'var(--error-red)';
+        statusDot.style.boxShadow = '0 0 10px var(--error-red)';
+      });
+
+      socket.on('flux-entry', (data) => {
+        addLog(data.message, data.type);
+      });
+
+      function addLog(message, type) {
+        const entry = document.createElement('div');
+        entry.className = 'flux-entry';
+        const time = `[${new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'})}]`;
+        
+        let color = '';
+        if (type === 'error') color = 'color: var(--error-red)';
+        if (type === 'success') color = 'color: var(--success-green)';
+        if (type === 'system') color = 'color: var(--molten-amber)';
+
+        entry.innerHTML = `<span class="flux-timestamp">${time}</span> <span style="${color}">${message}</span>`;
+        
+        consoleEl.appendChild(entry);
+        consoleEl.scrollTop = consoleEl.scrollHeight;
+        
+        if (consoleEl.children.length > 30) {
+          consoleEl.removeChild(consoleEl.children[0]);
+        }
+      }
+    </script>
+  </body>
+</html>

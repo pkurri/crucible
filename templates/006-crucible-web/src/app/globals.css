@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --obsidian-dark: #0a0a0a;
+  --molten-amber: #ff8c00;
+  --forged-silver: #e0e0e0;
+  --industrial-slate: #2a2a2a;
+  --success-green: #00ff88;
+  --error-red: #ff3333;
+}
+
+@layer base {
+  body {
+    background-color: var(--obsidian-dark);
+    color: var(--forged-silver);
+    font-family: var(--font-outfit), sans-serif;
+    /* Subtle industrial shimmer background overlay */
+    background-image: 
+      radial-gradient(circle at 50% 0%, rgba(255,140,0,0.05) 0%, transparent 50%),
+      linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 100% 100%, 50px 50px, 50px 50px;
+    background-position: center top, top center, top center;
+  }
+}
+
+@layer components {
+  /* Industrial Bento Brick */
+  .brick {
+    @apply bg-[#111] border-2 border-transparent transition-all duration-300 relative overflow-hidden;
+    box-shadow: 
+      0 4px 6px -1px rgba(0,0,0,0.5),
+      inset 0 1px 0 rgba(255,255,255,0.05),
+      inset 0 -2px 0 rgba(0,0,0,0.8);
+  }
+  
+  .brick:hover {
+    @apply border-[#333];
+    transform: translateY(-2px);
+    box-shadow: 
+      0 10px 15px -3px rgba(0,0,0,0.8),
+      0 0 15px rgba(255,140,0,0.1),
+      inset 0 1px 0 rgba(255,255,255,0.05),
+      inset 0 -2px 0 rgba(0,0,0,0.8);
+  }
+
+  /* Structural Hover Effect (Heavy Press) */
+  .brick:active {
+    transform: translateY(2px);
+    box-shadow: 
+      inset 0 2px 4px rgba(0,0,0,0.8),
+      inset 0 -1px 0 rgba(255,255,255,0.05);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono), monospace;
+  }
+}
+
+@layer utilities {
+  .pulse-molten {
+    animation: pulse-amber 2s infinite ease-in-out;
+  }
+}
+
+@keyframes pulse-amber {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(255, 140, 0, 0.2);
+    border-color: rgba(255, 140, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(255, 140, 0, 0.6);
+    border-color: rgba(255, 140, 0, 0.8);
+  }
+}

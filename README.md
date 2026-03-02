@@ -2,20 +2,20 @@
 
 > **Where ideas get forged into production.**
 
-[![Skills](https://img.shields.io/badge/skills-23-blue)](./skills/)
-[![Templates](https://img.shields.io/badge/templates-5-green)](./templates/)
+[![Skills](https://img.shields.io/badge/skills-300+-blue)](./skills/)
+[![Templates](https://img.shields.io/badge/templates-200-green)](./templates/)
 [![CI](https://github.com/pkurri/crucible/workflows/CI/badge.svg)](https://github.com/pkurri/crucible/actions)
 [![License](https://img.shields.io/badge/license-MIT-gray)](./LICENSE)
 
 Crucible is a **production-grade Claude Code skill pack** built for engineers who ship real products. It goes far beyond starter templates — every skill encodes real production wisdom, multi-agent orchestration patterns, and composable workflows that chain together intelligently.
 
-Most "ship faster" kits give you files. **Crucible gives you judgment** — Claude learns your stack, your constraints, and how to make the right architectural decisions with you.
+Most "crucible" kits give you files. **Crucible gives you judgment** — Claude learns your stack, your constraints, and how to make the right architectural decisions with you.
 
 ---
 
 ## Why Crucible Beats the Alternatives
 
-| | ship-faster / clones | Crucible |
+| | crucible / clones | Crucible |
 |---|---|---|
 | Architecture | Flat CLAUDE.md files | Composable, layered skill system |
 | Agent patterns | Single-agent only | Multi-agent orchestration built-in |
@@ -47,6 +47,8 @@ Expand-Archive -Force $tmp "$env:TEMP\crucible"
 Copy-Item -Recurse -Force "$env:TEMP\crucible\crucible-main\skills\*" "$HOME\.claude\skills\"
 Write-Host "✅ Crucible installed"
 ```
+
+**🎯 IDE Auto-Setup**: The installer automatically detects your IDE (Windsurf, Cursor, Cascade, VS Code) and generates appropriate configuration files. See [IDE Integration Guide](./docs/ide-integration.md) for details.
 
 ### Install individual skills only
 ```bash
@@ -80,6 +82,13 @@ Skills are organized into four capability layers. They compose — use any combi
 | [`review-architecture`](./skills/review-architecture/) | System design, coupling analysis, scalability, ADR generation |
 | [`review-security`](./skills/review-security/) | OWASP Top 10, secrets scanning, dependency audit, threat modelling |
 
+### 🤖 Agent Framework Skills — Autonomous AI systems
+| Skill | Description |
+|---|---|
+| [`openclaw`](./skills/openclaw/) | OpenClaw agent framework: 6-stage pipeline, lane queues, production reliability |
+| [`picoclaw`](./skills/picoclaw/) | PicoClaw lightweight agents: <10MB RAM, edge deployment, $10 hardware |
+| [`workflow-agent-orchestration`](./skills/workflow-agent-orchestration/) | Multi-agent coordination: team building, communication protocols, hybrid deployment |
+
 ### 🛠 Service Skills — Deep integration knowledge
 | Skill | Description |
 |---|---|
@@ -95,21 +104,39 @@ Skills are organized into four capability layers. They compose — use any combi
 
 ## Templates
 
-Five production-ready starting points. Not "hello world" — real architectural decisions already made.
+**200 production-ready templates** across 25 categories. Not "hello world" — real architectural decisions already made.
 
 ```bash
-cd templates/001-ai-saas-core
+cd templates/031-ai-code-reviewer
 cp .env.example .env.local
-pnpm install && pnpm dev
+npm install && npm run dev
 ```
 
-| # | Template | Stack | Best for |
+### Featured Templates
+
+| # | Template | Category | Description |
 |---|---|---|---|
-| [001](./templates/001-ai-saas-core/) | `ai-saas-core` | Next.js 15, Neon, Stripe, Resend, Vercel AI SDK | AI as core product feature |
-| [002](./templates/002-conversational-api/) | `conversational-api` | Hono, Neon, Redis, Vercel AI SDK | Stateful conversation API |
-| [003](./templates/003-multi-tenant-saas/) | `multi-tenant-saas` | Next.js 15, Neon (RLS), Stripe, Clerk | Org-scoped multi-tenant apps |
-| [004](./templates/004-event-pipeline/) | `event-pipeline` | Cloudflare Workers, R2, Queues, D1 | Edge-native event ingestion |
-| [005](./templates/005-realtime-collab/) | `realtime-collab` | Next.js, Liveblocks, Neon, Clerk | Multi-user realtime collaboration |
+| [031](./templates/031-ai-code-reviewer/) | `ai-code-reviewer` | AI/ML | Automated code review with AI analysis |
+| [046](./templates/046-subscription-management/) | SaaS | Complete subscription billing platform |
+| [061](./templates/061-security-audit-platform/) | Security | Automated security scanning tool |
+| [071](./templates/071-real-time-analytics-engine/) | Analytics | Stream processing platform |
+| [081](./templates/081-ci-cd-orchestrator/) | DevOps | Multi-cloud CI/CD automation |
+| [094](./templates/094-e-commerce-platform/) | Web | Full-featured online store |
+
+**📚 [View All 200 Templates →](./templates/CATALOG.md)** | **[Extended Catalog (101-200) →](./templates/EXTENDED_CATALOG.md)**
+
+### Template Categories
+
+- 🤖 **AI & Machine Learning** (15) - Code review, ML deployment, chatbots, vision
+- 💼 **SaaS & Business** (15) - CRM, project management, invoicing, HR
+- 🛡️ **Security & Compliance** (10) - Auditing, compliance, access control
+- 📊 **Analytics & Data** (10) - Real-time analytics, data warehouses, A/B testing
+- 🚀 **DevOps & Infrastructure** (10) - CI/CD, IaC, K8s, monitoring
+- 🌐 **Web & Mobile** (10) - PWAs, e-commerce, CMS, streaming
+
+**Plus 130 more templates covering enterprise, healthcare, education, finance, manufacturing, hospitality, real estate, transportation, and specialized domains.**
+
+**📊 [View All 300+ Skills →](./skills/EXTENDED_CATALOG.md)**
 
 ---
 
@@ -130,6 +157,20 @@ Claude with Crucible:
   7. observe                   → instruments PostHog + Sentry from day 0
 ```
 
+**New: AI Agent Systems**
+
+```
+You: "Build an autonomous deployment pipeline with edge monitoring"
+
+Claude with Crucible:
+  1. workflow-agent-orchestration → designs multi-agent system
+  2. openclaw                     → coordinator + deployment agents (cloud)
+  3. picoclaw                     → monitoring agents (Raspberry Pi edge devices)
+  4. neon                         → stores agent state and execution history
+  5. observe                      → tracks agent performance metrics
+  6. review-security              → validates agent allowlists and sandboxing
+```
+
 Skills are additive — install more skills, get smarter orchestration.
 
 ---
@@ -145,8 +186,12 @@ crucible/
 │   └── <service>/           # Deep service knowledge (neon, stripe, etc.)
 ├── templates/
 │   └── NNN-<slug>/          # Runnable production starting points
-├── snippets/                # Reference implementations
-├── docs/                    # Architecture decisions, skill authoring guide
+├── docs/                    # Architecture decisions, guides
+│   ├── skill-authoring-guide.md
+│   ├── ide-integration.md   # IDE setup and usage
+│   └── architecture-decisions.md
+├── setup-ide.js             # Auto-generates IDE configs
+├── install.sh / install.ps1 # Installation scripts
 └── .github/workflows/       # CI: lint, validate skill YAML, test templates
 ```
 

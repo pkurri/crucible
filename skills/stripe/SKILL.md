@@ -1,134 +1,152 @@
 ---
 name: stripe
-description: >
-  Stripe integration: subscriptions, one-time payments, webhooks, customer portal,
-  metered billing. Full patterns for SaaS billing. Use for any payment feature.
-triggers:
-  - "stripe"
-  - "payments"
-  - "subscription"
-  - "billing"
-  - "metered"
+description: "Billing and payment operations for Stripe: customers, products, prices, invoices, payment links, subscriptions, refunds, disputes, balance. Triggers: create customer, create product, create invoice, generate payment link, query transactions, process refunds, manage subscriptions, view disputes, check balance. Money operations require confirmation. MCP is optional — works with Dashboard/CLI too."
+allowed-tools:
+  - Read
+  - Bash
+  - WebFetch
+  - stripe_*
 ---
 
-# Service: Stripe
+# Stripe Billing Operations
 
-Full Stripe integration patterns for SaaS products.
+Execute billing and payment operations on Stripe: customers, products, invoices, payment links, subscriptions, refunds, and disputes.
 
-## Setup
+> **MCP is optional.** This skill works with MCP (auto), Stripe CLI, or Dashboard. See [BACKENDS.md](BACKENDS.md) for execution options.
 
-```bash
-pnpm add stripe @stripe/stripe-js
+## Three Hard Rules
+
+1. **Read before write** — Before creating customer/product/price, check if it already exists to avoid duplicates
+2. **Money operations require confirmation** — Refunds, subscription changes, dispute updates must be confirmed before execution
+3. **When in doubt, search** — If unsure about object ID or parameters, search first, don't guess
+
+## Security Rules
+
+| Operation Type | Rule |
+|----------------|------|
+| Read (list, get, search) | Execute directly |
+| Create (customer, product, price, invoice) | Check for duplicates first |
+| Money (refund, subscription cancel/update, dispute) | Display details → Await confirmation → Execute |
+| Mode | Test mode by default. Live requires explicit "live mode" + double confirmation |
+
+## Dangerous Actions (Require Confirmation)
+
+Before executing these operations:
+
+1. **Display** — Show object ID and key fields
+2. **Explain impact** — Amount, timing, consequences
+3. **Await confirmation** — Wait for explicit "confirm"/"yes"/"proceed"
+4. **Execute and receipt** — Return result + object ID + status
+
+| Action | Risk |
+|--------|------|
+| `create_refund` | Money leaves account |
+| `cancel_subscription` | Revenue loss |
+| `update_subscription` | Contract change |
+| `update_dispute` | Legal implications |
+
+Example confirmation prompt:
+```
+About to execute refund:
+- PaymentIntent: pi_xxx
+- Amount: $50.00 (full amount)
+- Reason: requested_by_customer
+
+Reply "confirm" to proceed, or "cancel" to abort.
 ```
 
-```typescript
-// src/lib/stripe.ts
-import Stripe from 'stripe'
+## Common Workflows
 
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2024-12-18.acacia',
-  typescript: true,
-})
+### Create Customer
+```
+1. Search/list to check if customer exists (by email)
+2. If not exists, create_customer(name, email, metadata)
+3. Return cus_xxx + key info
 ```
 
-## Subscription Checkout
-
-```typescript
-// src/app/api/checkout/route.ts
-import { stripe } from '@/lib/stripe'
-
-export async function POST(req: Request) {
-  const { priceId, userId, userEmail } = await req.json()
-
-  // Get or create Stripe customer
-  let customerId = await getStripeCustomerId(userId)
-  if (!customerId) {
-    const customer = await stripe.customers.create({ email: userEmail })
-    customerId = customer.id
-    await saveStripeCustomerId(userId, customerId)
-  }
-
-  const session = await stripe.checkout.sessions.create({
-    customer: customerId,
-    mode: 'subscription',
-    line_items: [{ price: priceId, quantity: 1 }],
-    success_url: `${process.env.NEXT_PUBLIC_APP_URL}/dashboard?success=true`,
-    cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/pricing`,
-    subscription_data: {
-      metadata: { userId },
-    },
-  })
-
-  return Response.json({ url: session.url })
-}
+### Create Product and Price
+```
+1. List products to check if already exists
+2. create_product(name, description)
+3. create_price(product=prod_xxx, unit_amount=cents, currency)
+4. Return prod_xxx + price_xxx
 ```
 
-## Webhook Handler
-
-```typescript
-// src/app/api/webhooks/stripe/route.ts
-import { stripe } from '@/lib/stripe'
-
-export async function POST(req: Request) {
-  const body = await req.text()
-  const sig = req.headers.get('stripe-signature')!
-
-  let event: Stripe.Event
-  try {
-    event = stripe.webhooks.constructEvent(body, sig, process.env.STRIPE_WEBHOOK_SECRET!)
-  } catch {
-    return new Response('Invalid signature', { status: 400 })
-  }
-
-  switch (event.type) {
-    case 'checkout.session.completed': {
-      const session = event.data.object
-      await activateSubscription(session.metadata!.userId, session.subscription as string)
-      break
-    }
-    case 'customer.subscription.deleted': {
-      const sub = event.data.object
-      await deactivateSubscription(sub.metadata.userId)
-      break
-    }
-    case 'invoice.payment_failed': {
-      const invoice = event.data.object
-      await notifyPaymentFailed(invoice.customer as string)
-      break
-    }
-  }
-
-  return new Response('OK', { status: 200 })
-}
+### Create and Send Invoice
+```
+1. Confirm customer ID (list_customers if unknown)
+2. create_invoice(customer=cus_xxx, collection_method, days_until_due)
+3. create_invoice_item(invoice=inv_xxx, price=price_xxx, quantity)
+4. finalize_invoice(invoice=inv_xxx)
+5. Return inv_xxx + hosted_invoice_url
 ```
 
-## Customer Portal
-
-```typescript
-// Let users manage their subscription
-export async function POST(req: Request) {
-  const { customerId } = await req.json()
-  const session = await stripe.billingPortal.sessions.create({
-    customer: customerId,
-    return_url: `${process.env.NEXT_PUBLIC_APP_URL}/dashboard`,
-  })
-  return Response.json({ url: session.url })
-}
+### Create Payment Link
+```
+1. Confirm price ID (list_prices if unknown)
+2. create_payment_link(line_items=[{price, quantity}])
+3. Return payment link URL
 ```
 
-## Environment Variables
-
+### Refund (Dangerous)
 ```
-STRIPE_SECRET_KEY=sk_live_xxxx
-STRIPE_PUBLISHABLE_KEY=pk_live_xxxx
-STRIPE_WEBHOOK_SECRET=whsec_xxxx
-# Price IDs from Stripe dashboard
-STRIPE_PRICE_PRO_MONTHLY=price_xxxx
-STRIPE_PRICE_PRO_ANNUAL=price_xxxx
+1. list_payment_intents to find target payment
+2. Display pi_xxx + amount + customer info
+3. Request user confirmation
+4. create_refund(payment_intent=pi_xxx, amount?, reason)
+5. Return re_xxx + status
 ```
 
-## Local Webhook Testing
-
-```bash
-stripe listen --forward-to localhost:3000/api/webhooks/stripe
+### Cancel Subscription (Dangerous)
 ```
+1. list_subscriptions(customer=cus_xxx) to find target
+2. Display sub_xxx + status + next billing date
+3. Ask: cancel immediately or at period end?
+4. After confirmation, cancel_subscription(subscription=sub_xxx)
+5. Return cancellation result
+```
+
+## Default Configuration
+
+- **Currency**: Use user-specified; else use existing object's currency; else ask
+- **Amount**: Accept decimals, auto-convert to smallest unit (e.g., $19.99 → 1999)
+- **Output**: Object type + ID + key fields + next steps
+
+## Limitations
+
+These operations are NOT available via standard tools:
+- ❌ Create PaymentIntent / charge directly
+- ❌ Create subscription (only list/update/cancel)
+- ❌ Create Promotion Code (only coupon)
+- ❌ Delete objects
+
+For these, use Dashboard or API directly.
+
+## File-based Pipeline
+
+When integrating into multi-step workflows:
+
+```
+runs/<workflow>/active/<run_id>/
+├── proposal.md                # Requirements / objective
+├── context.json               # Known IDs (customer, invoice, etc.)
+├── tasks.md                   # Checklist + approval gate
+├── evidence/stripe-actions.md # Operations to execute (money ops written here first)
+├── evidence/receipt.md        # Results + object IDs
+└── logs/events.jsonl          # Optional tool call summary (no sensitive data)
+```
+
+## Error Handling
+
+| Situation | Action |
+|-----------|--------|
+| Object doesn't exist | Search to find correct ID |
+| Parameter error | Check documentation for correct format |
+| Insufficient permissions | Check API key scope |
+| Network error | Retry or check connection |
+
+## Related Files
+
+- [BACKENDS.md](BACKENDS.md) — Execution options (MCP/CLI/Dashboard)
+- [SETUP.md](SETUP.md) — MCP configuration (optional)
+- [tools.md](tools.md) — Detailed tool parameters

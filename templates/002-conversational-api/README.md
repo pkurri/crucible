@@ -1,21 +1,22 @@
-# 002 — Conversational API
+# Conversational Api
 
-> Stateful conversation API backend. Manages multi-turn chat state, handles streaming, persists history.
+Production-ready template implementation.
 
-## Stack
-
-| Layer | Technology |
-|---|---|
-| Framework | Hono (Cloudflare Workers) |
-| Database | Neon Postgres + Drizzle |
-| Cache | Cloudflare KV |
-| AI | Vercel AI SDK + Anthropic |
-| Deployment | Cloudflare Workers |
-
-## Get Started
+## Quick Start
 
 ```bash
-cp .env.example .env.local
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
+
+## Features
+
+- Next.js 14 with App Router
+- TypeScript
+- TailwindCSS
+- Database schema with Drizzle ORM
+- API routes and components
+
+## License
+
+MIT

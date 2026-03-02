@@ -1,158 +1,452 @@
 ---
 name: workflow-multi-agent-build
 description: >
-  Orchestrates parallel sub-agents for complex builds. Spawns a Frontend Agent,
-  Backend Agent, and Data Agent that work simultaneously from shared contracts.
-  Use for COMPLEXITY 3+ builds or any project with clearly separated concerns.
+  Enhanced multi-agent build system with Voxyz-style coordination. Spawns specialized
+  agents (Frontend, Backend, Data, DevOps, QA) with role-based communication,
+  dependency management, and centralized coordination. Use for complex projects
+  requiring parallel development with clear agent boundaries and handoffs.
 triggers:
   - "in parallel"
   - "simultaneously"
   - "multi-agent"
   - "split the work"
+  - "coordinate agents"
+  - "agent handoffs"
+  - "parallel development"
 ---
 
 # Workflow: Multi-Agent Build
 
-You are the **Build Coordinator**. You decompose a build into parallel workstreams, spawn specialized agents, define shared contracts, and synthesize results.
+You are the **Build Coordinator**. You orchestrate specialized agents working in parallel, manage dependencies, coordinate handoffs, and synthesize results into a cohesive system.
 
-**When to use:** Any project where frontend + backend + data can be worked in parallel without blocking each other (COMPLEXITY 3+).
-
----
-
-## Step 1: Decompose
-
-Analyze the build and identify workstreams. Default decomposition:
-
-| Agent | Owns | Produces |
-|---|---|---|
-| **Frontend Agent** | UI components, pages, routing, client state | `/src/app/**`, `/src/components/**` |
-| **Backend Agent** | API routes, business logic, external integrations | `/src/app/api/**`, `/src/lib/**` |
-| **Data Agent** | Schema, migrations, seed data, query functions | `/src/db/**`, `drizzle.config.ts` |
-
-Custom agents for larger projects:
-- **Auth Agent** — identity, sessions, RBAC
-- **Payments Agent** — Stripe flows, webhook handling
-- **Email Agent** — templates, sending logic, event triggers
+**When to use:** Complex projects where multiple components can be developed simultaneously with clear interfaces and agent boundaries.
 
 ---
 
-## Step 2: Define Shared Contracts
+## Agent Roles & Responsibilities
 
-**Before any agent writes code**, define the contracts they share:
+| Agent | Scope | Communication | Deliverables |
+|---|---|---|---|
+| **Frontend Agent** | UI, components, client state, routing | PM, QA, Backend | React components, pages, client hooks |
+| **Backend Agent** | API routes, business logic, integrations | Frontend, Data, DevOps, QA | API endpoints, services, middleware |
+| **Data Agent** | Schema, migrations, queries, seed data | Backend, DevOps | Database schema, migrations, query functions |
+| **DevOps Agent** | Infrastructure, CI/CD, deployment, monitoring | Backend, Data, PM | Infrastructure as code, pipelines, monitoring |
+| **QA Agent** | Test strategy, automation, quality validation | All agents | Test suites, test plans, quality reports |
+
+---
+
+## Step 1: Project Decomposition
+
+Analyze requirements and identify agent workstreams:
 
 ```typescript
-// contracts.ts — defines the API surface between agents
-// Data Agent produces these types
-export interface User {
-  id: string;
-  email: string;
-  name: string;
-  createdAt: Date;
+interface ProjectDecomposition {
+  agents: {
+    frontend: {
+      scope: string[]
+      dependencies: string[]
+      deliverables: string[]
+    }
+    backend: {
+      scope: string[]
+      dependencies: string[]
+      deliverables: string[]
+    }
+    data: {
+      scope: string[]
+      dependencies: string[]
+      deliverables: string[]
+    }
+    devops?: {
+      scope: string[]
+      dependencies: string[]
+      deliverables: string[]
+    }
+    qa?: {
+      scope: string[]
+      dependencies: string[]
+      deliverables: string[]
+    }
+  }
+  timeline: {
+    phase1: string[] // Planning & contracts
+    phase2: string[] // Parallel development
+    phase3: string[] // Integration & testing
+    phase4: string[] // Deployment & monitoring
+  }
 }
-
-// Backend Agent produces these endpoints
-// GET  /api/users/:id → User
-// POST /api/users     → User
-// PATCH /api/users/:id → User
-
-// Frontend Agent consumes the endpoints above
-// using these client functions:
-// fetchUser(id: string): Promise<User>
-// createUser(data: CreateUserInput): Promise<User>
 ```
-
-**Gate:** All agents must agree on contracts before starting. No agent proceeds until contracts are signed off.
 
 ---
 
-## Step 3: Spawn Agents
+## Step 2: Define Communication Protocols
 
-Dispatch agents with their specific context:
+### Agent Message Format
+```typescript
+interface AgentMessage {
+  from: AgentRole
+  to: AgentRole | 'all' | 'coordinator'
+  type: 'request' | 'response' | 'update' | 'blocker' | 'handoff'
+  priority: 'low' | 'medium' | 'high' | 'critical'
+  subject: string
+  content: string
+  artifacts?: ArtifactReference[]
+  dependencies?: DependencyReference[]
+  deadline?: Date
+}
+```
+
+### Handoff Protocol
+```typescript
+interface AgentHandoff {
+  from: AgentRole
+  to: AgentRole
+  deliverables: Deliverable[]
+  requirements: Requirement[]
+  validation: ValidationCriteria[]
+  signoff: boolean
+  timestamp: Date
+}
+```
+
+---
+
+## Step 3: Contract Definition
+
+Before agents start work, define shared contracts:
+
+```typescript
+// contracts/shared-types.ts
+export interface User {
+  id: string
+  email: string
+  name: string
+  role: UserRole
+  createdAt: Date
+  updatedAt: Date
+}
+
+export interface CreateUserData {
+  email: string
+  name: string
+  role: UserRole
+}
+
+// contracts/api-contracts.ts
+export interface APIContract {
+  'GET /api/users/:id': {
+    response: User
+    auth: 'required'
+    rateLimit: '100/hour'
+  }
+  'POST /api/users': {
+    request: CreateUserData
+    response: User
+    auth: 'required'
+    validation: 'zod'
+  }
+}
+
+// contracts/data-contracts.ts
+export interface DataContract {
+  users: {
+    table: 'users'
+    schema: UserSchema
+    indexes: ['email', 'role']
+    rls: true
+  }
+}
+```
+
+**Contract Validation Gate:** All agents must review and approve contracts before development begins.
+
+---
+
+## Step 4: Agent Briefing & Deployment
 
 ### Frontend Agent Brief
 ```
-You are the Frontend Agent for [project].
-Your scope: UI only — no business logic, no direct DB access.
-Stack: Next.js 15 App Router, Tailwind CSS, shadcn/ui, React Query
-Contracts: [paste contracts.ts]
-Design system: [minimal/standard/custom]
-Tasks:
-  1. Build layout and navigation
-  2. Implement pages: [list pages]
-  3. Wire up API calls using the contract functions
-  4. Handle all loading, error, and empty states
-  5. Make it responsive (mobile-first)
-Do NOT modify anything outside /src/app and /src/components.
+ROLE: Frontend Agent
+SCOPE: UI components, pages, client state, routing
+STACK: Next.js 15, Tailwind CSS, shadcn/ui, React Query, TypeScript
+CONTRACTS: [paste shared contracts]
+COMMUNICATION: Report to coordinator, coordinate with Backend (APIs) and QA (testing)
+
+TASKS:
+1. Set up project structure and routing
+2. Implement layout and navigation components
+3. Build pages: [list specific pages]
+4. Create client hooks for API calls (matching contracts)
+5. Handle loading, error, and empty states
+6. Implement responsive design (mobile-first)
+7. Add accessibility features
+
+BOUNDARIES:
+- ✅ /src/app/**, /src/components/**, /src/hooks/**
+- ❌ No direct database access
+- ❌ No business logic in UI
+- ❌ No API route implementation
+
+HANDOFFS:
+- → Backend: API requirements, mock data for testing
+- → QA: Component specifications, user interaction flows
+- ← Backend: Working API endpoints
+- ← QA: Test results, bug reports
 ```
 
 ### Backend Agent Brief
 ```
-You are the Backend Agent for [project].
-Your scope: API routes and business logic — no UI, no direct SQL.
-Stack: Next.js Route Handlers (or Hono), Zod validation, typed errors
-Contracts: [paste contracts.ts]
-Tasks:
-  1. Implement route handlers for each contract endpoint
-  2. Add Zod validation for all inputs
-  3. Integrate external services: [Stripe/Resend/etc.]
-  4. Return typed responses matching contracts
-  5. Add rate limiting to public endpoints
-Do NOT modify anything outside /src/app/api and /src/lib.
+ROLE: Backend Agent
+SCOPE: API routes, business logic, external integrations
+STACK: Next.js Route Handlers, Zod validation, TypeScript, error handling
+CONTRACTS: [paste shared contracts]
+COMMUNICATION: Report to coordinator, coordinate with Frontend (APIs), Data (schema), DevOps (deployment)
+
+TASKS:
+1. Implement API route handlers matching contracts
+2. Add Zod validation for all inputs/outputs
+3. Implement business logic and services
+4. Integrate external services: [list services]
+5. Add authentication and authorization
+6. Implement rate limiting and error handling
+7. Create API documentation
+
+BOUNDARIES:
+- ✅ /src/app/api/**, /src/lib/services/**
+- ❌ No UI components
+- ❌ No direct database queries (use Data Agent functions)
+- ❌ No frontend-specific logic
+
+HANDOFFS:
+- → Frontend: API endpoints, response formats
+- → Data: Query function requirements
+- → DevOps: Deployment requirements
+- ← Frontend: API feedback, integration issues
+- ← Data: Query functions, schema updates
 ```
 
 ### Data Agent Brief
 ```
-You are the Data Agent for [project].
-Your scope: Database schema, migrations, query functions.
-Stack: Drizzle ORM, Neon Postgres
-Contracts: [paste contracts.ts]
-Tasks:
-  1. Design schema for: [entities]
-  2. Write Drizzle schema file
-  3. Generate migration
-  4. Write typed query functions matching contract return types
-  5. Set up Row Level Security policies
-  6. Write seed data for development
-Do NOT write API routes or UI components.
+ROLE: Data Agent
+SCOPE: Database schema, migrations, query functions, seed data
+STACK: Drizzle ORM, Neon Postgres, TypeScript
+CONTRACTS: [paste shared contracts]
+COMMUNICATION: Report to coordinator, coordinate with Backend (queries), DevOps (database setup)
+
+TASKS:
+1. Design database schema for all entities
+2. Write Drizzle schema definitions
+3. Generate and run migrations
+4. Create typed query functions
+5. Implement Row Level Security policies
+6. Write seed data for development
+7. Set up database backups and monitoring
+
+BOUNDARIES:
+- ✅ /src/db/**, drizzle.config.ts
+- ❌ No API routes
+- ❌ No UI components
+- ❌ No business logic
+
+HANDOFFS:
+- → Backend: Query functions, schema types
+- → DevOps: Database setup requirements
+- ← Backend: Query function requests
+- ← DevOps: Infrastructure updates
 ```
 
 ---
 
-## Step 4: Coordinate
+## Step 5: Parallel Execution & Coordination
 
-Monitor agent progress and handle blockers:
+### Agent Communication Flow
+```typescript
+class BuildCoordinator {
+  private agents: Map<AgentRole, Agent>
+  private messageBus: MessageBus
+  private taskTracker: TaskTracker
 
-**Common blockers and resolutions:**
+  async coordinateBuild(): Promise<BuildResult> {
+    // Phase 1: Contract agreement
+    await this.ensureContractAgreement()
+    
+    // Phase 2: Parallel development
+    const parallelTasks = [
+      this.deployAgent('frontend'),
+      this.deployAgent('backend'),
+      this.deployAgent('data'),
+      this.deployAgent('devops'),
+      this.deployAgent('qa')
+    ]
+    
+    // Monitor progress and handle blockers
+    this.monitorAgentProgress()
+    this.handleBlockers()
+    
+    // Phase 3: Integration
+    await this.coordinateIntegration()
+    
+    // Phase 4: Testing & Deployment
+    await this.coordinateTesting()
+    await this.coordinateDeployment()
+    
+    return this.synthesizeResults()
+  }
+}
+```
 
-| Blocker | Resolution |
-|---|---|
-| Frontend blocked on API not ready | Frontend builds with mock data matching contracts |
-| Backend blocked on schema not ready | Backend uses in-memory types, swaps to DB functions later |
-| Contract change needed | Stop all agents, update contracts, resume with updated brief |
-| Merge conflict | Contracts define boundaries — conflicts mean an agent overstepped scope |
+### Blocker Resolution Protocol
+```typescript
+interface BlockerResolution {
+  type: 'dependency' | 'contract' | 'scope' | 'technical'
+  severity: 'low' | 'medium' | 'high' | 'critical'
+  affectedAgents: AgentRole[]
+  resolution: string
+  prevention: string
+}
 
-**Check-in cadence:**
-- After each agent completes a task, synthesize before moving to next
-- Flag scope violations immediately — an agent touching outside its boundary is a warning sign
+const commonBlockers = {
+  'frontend_blocked_on_api': {
+    resolution: 'Frontend uses mock data matching contracts',
+    prevention: 'Define contracts before starting development'
+  },
+  'backend_blocked_on_schema': {
+    resolution: 'Backend uses in-memory types, swaps to DB functions',
+    prevention: 'Data agent provides schema first'
+  },
+  'contract_change_needed': {
+    resolution: 'Stop all agents, update contracts, resume with updated brief',
+    prevention: 'Thorough contract review phase'
+  }
+}
+```
 
 ---
 
-## Step 5: Synthesize
+## Step 6: Integration & Synthesis
 
-When all agents complete:
+When agents complete their work:
 
-1. **Integration test** — connect all three layers end-to-end
-2. **Contract verification** — every endpoint exists, every type matches
-3. **Cross-agent review** — look for seams: auth gaps, error handling mismatches
-4. **Hand off to `workflow-feature-cycle` Stage 4** — ship it
+### 1. Integration Testing
+```typescript
+const integrationTests = [
+  testFrontendToBackendAPI(),
+  testBackendToDataQueries(),
+  testEndToEndUserFlows(),
+  testAuthenticationAcrossLayers(),
+  testErrorPropagation()
+]
+```
+
+### 2. Contract Verification
+- All API endpoints exist and match contracts
+- All database queries match expected types
+- All frontend components use correct API calls
+- Error handling is consistent across layers
+
+### 3. Cross-Agent Review
+- Look for integration gaps
+- Verify authentication flows across all layers
+- Check error handling consistency
+- Validate performance requirements
+
+### 4. Quality Assurance
+- QA agent runs comprehensive test suite
+- Performance testing under load
+- Security testing and vulnerability scanning
+- Accessibility testing
 
 ---
 
-## Anti-patterns
+## Step 7: Deployment Handoff
 
-❌ **Don't** let agents share mutable state  
-❌ **Don't** let Frontend Agent make direct DB calls  
-❌ **Don't** start agents before contracts are defined  
-❌ **Don't** let an agent own more than one layer  
-✅ **Do** keep contracts minimal — only what's needed to connect the layers  
-✅ **Do** use TypeScript types as the contract format — they're enforced by the compiler
+### DevOps Integration
+```typescript
+interface DeploymentConfig {
+  infrastructure: {
+    database: string
+    redis: string
+    cdn: string
+    monitoring: string
+  }
+  pipeline: {
+    stages: string[]
+    environments: string[]
+    rollback: boolean
+  }
+  monitoring: {
+    metrics: string[]
+    alerts: string[]
+    logging: string
+  }
+}
+```
+
+### Production Readiness Checklist
+- [ ] All integration tests passing
+- [ ] Performance benchmarks met
+- [ ] Security scan clean
+- [ ] Monitoring and alerting configured
+- [ ] Backup and recovery procedures tested
+- [ ] Documentation complete
+
+---
+
+## Output Format
+
+```
+## Multi-Agent Build Execution
+
+### 🏗️ Project: [Project Name]
+### 👥 Agents: 5 specialized agents
+### ⏱️ Duration: [X days]
+
+### Agent Performance:
+- **Frontend Agent**: ✅ Complete (X components, Y pages)
+- **Backend Agent**: ✅ Complete (X APIs, Y services)
+- **Data Agent**: ✅ Complete (X tables, Y migrations)
+- **DevOps Agent**: ✅ Complete (Infrastructure, CI/CD)
+- **QA Agent**: ✅ Complete (X tests, Y% coverage)
+
+### Communication Metrics:
+- **Messages**: X total
+- **Handoffs**: X successful
+- **Blockers**: X resolved
+- **Avg Response Time**: X hours
+
+### Deliverables Status:
+- [x] Shared contracts defined and approved
+- [x] Frontend application built
+- [x] Backend APIs implemented
+- [x] Database schema and migrations
+- [x] Infrastructure and deployment pipeline
+- [x] Test suite and quality assurance
+- [x] Documentation and monitoring
+
+### Integration Results:
+- **API Tests**: X passing, Y failing
+- **End-to-End Tests**: X passing, Y failing
+- **Performance**: Within requirements
+- **Security**: No critical vulnerabilities
+
+### Ready for Deployment: ✅ Yes / ❌ No
+```
+
+---
+
+## Anti-patterns & Best Practices
+
+### ❌ Anti-patterns
+- Don't let agents share mutable state directly
+- Don't allow scope violations (agent working outside boundaries)
+- Don't start development before contracts are approved
+- Don't skip handoff validation steps
+- Don't ignore cross-agent communication
+
+### ✅ Best Practices
+- Keep contracts minimal but complete
+- Use TypeScript types as contract enforcement
+- Maintain clear agent boundaries
+- Document all handoffs and decisions
+- Monitor agent performance and communication
+- Run integration tests frequently during development

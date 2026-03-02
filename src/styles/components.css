@@ -1,0 +1,111 @@
+/* Industrial Bento Bricks (Cards) */
+.brick {
+  background: var(--industrial-slate);
+  border: var(--border-width) solid var(--forged-silver);
+  border-radius: var(--radius-md);
+  padding: 2rem;
+  box-shadow: var(--shadow-industrial);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.brick:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 7px 7px 0px 0px var(--obsidian), 0 0 20px var(--molten-glow);
+  border-color: var(--molten-amber);
+}
+
+.brick:active {
+  transform: translate(2px, 2px);
+  box-shadow: var(--shadow-active);
+}
+
+/* Navigation Bricks */
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+}
+
+.nav-link:hover {
+  border-color: var(--molten-amber);
+  color: var(--molten-amber);
+  background: rgba(255, 140, 0, 0.05);
+}
+
+/* Primary Button - The Molten Button */
+.btn-molten {
+  background: var(--molten-amber);
+  color: var(--obsidian);
+  font-weight: 800;
+  padding: 1rem 2.5rem;
+  border: var(--border-width) solid var(--obsidian);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-industrial);
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+}
+
+.btn-molten:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px var(--obsidian);
+  background: #ffa500;
+}
+
+.btn-molten:active {
+  transform: translate(2px, 2px);
+  box-shadow: var(--shadow-active);
+}
+
+/* Mono Status Badge */
+.badge-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  background: rgba(0, 255, 136, 0.1);
+  color: var(--success-green);
+  border: 1px solid var(--success-green);
+  border-radius: var(--radius-lg);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--success-green);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--success-green);
+}
+
+/* Flux Feed (Terminal) */
+.flux-feed {
+  background: #000;
+  border: 1px solid var(--industrial-slate);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  height: 300px;
+  overflow-y: auto;
+  color: #a0a0a0;
+}
+
+.flux-entry {
+  margin-bottom: 0.5rem;
+  border-left: 2px solid var(--industrial-slate);
+  padding-left: 0.75rem;
+}
+
+.flux-timestamp {
+  color: #555;
+}
+
+.flux-cmd {
+  color: var(--success-green);
+}

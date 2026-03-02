@@ -1,18 +1,18 @@
-import { pgTable, text, timestamp, uuid } from 'drizzle-orm/pg-core'
+import { pgTable, serial, varchar, timestamp, text, integer, boolean } from 'drizzle-orm/pg-core';
 
-// All tenant data scoped to org_id — RLS enforces isolation
-export const organizations = pgTable('organizations', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  clerkOrgId: text('clerk_org_id').notNull().unique(),
-  name: text('name').notNull(),
-  stripeCustomerId: text('stripe_customer_id'),
-  plan: text('plan', { enum: ['free', 'pro', 'enterprise'] }).notNull().default('free'),
-  createdAt: timestamp('created_at').defaultNow().notNull(),
-})
+export const users = pgTable('users', {
+  id: serial('id').primaryKey(),
+  email: varchar('email', { length: 255 }).notNull().unique(),
+  name: varchar('name', { length: 255 }),
+  createdAt: timestamp('created_at').defaultNow(),
+});
 
-export const projects = pgTable('projects', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  orgId: uuid('org_id').references(() => organizations.id).notNull(),
-  name: text('name').notNull(),
-  createdAt: timestamp('created_at').defaultNow().notNull(),
-})
+export const items = pgTable('items', {
+  id: serial('id').primaryKey(),
+  title: varchar('title', { length: 255 }).notNull(),
+  description: text('description'),
+  userId: integer('user_id').references(() => users.id),
+  status: varchar('status', { length: 50 }).default('active'),
+  createdAt: timestamp('created_at').defaultNow(),
+  updatedAt: timestamp('updated_at').defaultNow(),
+});

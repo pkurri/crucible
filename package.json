@@ -12,7 +12,15 @@
     "check": "npm run validate && npm run format:check && npm run lint:markdown",
     "prepare": "husky install"
   },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
   "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.0.0",
     "husky": "^8.0.3",
     "markdownlint-cli": "^0.37.0",
     "prettier": "^3.0.0",
@@ -40,3 +48,4 @@
   },
   "homepage": "https://github.com/pkurri/crucible#readme"
 }
+

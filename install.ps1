@@ -27,3 +27,18 @@ Write-Host "✅ Crucible installed! Skills available in $SkillsDir"
 Write-Host ""
 Write-Host "Installed skills:"
 Get-ChildItem $SkillsDir | ForEach-Object { Write-Host "  - $($_.Name)" }
+
+# Run IDE auto-setup if Node.js is available
+if (Get-Command node -ErrorAction SilentlyContinue) {
+  Write-Host ""
+  Write-Host "🔧 Setting up IDE configurations..."
+  $SetupScript = Join-Path $ExtractedSkills.FullName "setup-ide.js"
+  if (Test-Path $SetupScript) {
+    Push-Location $HOME
+    & node $SetupScript 2>$null
+    Pop-Location
+  }
+}
+
+Write-Host ""
+Write-Host "💡 Tip: Run 'node setup-ide.js' in any project to generate IDE configs"

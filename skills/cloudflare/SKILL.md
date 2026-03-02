@@ -1,147 +1,145 @@
 ---
 name: cloudflare
-description: >
-  Cloudflare platform patterns: Workers, R2 object storage, KV for edge cache,
-  Durable Objects for stateful edge, Queues for background jobs. Use when
-  building edge-native or globally distributed applications.
-triggers:
-  - "cloudflare"
-  - "workers"
-  - "edge"
-  - "r2"
-  - "durable objects"
-  - "cloudflare kv"
+description: "Infrastructure operations for Cloudflare: Workers, KV, R2, D1, Hyperdrive, observability, builds, audit logs. Triggers: worker/KV/R2/D1/logs/build/deploy/audit. Three permission tiers: Diagnose (read-only), Change (write requires confirmation), Super Admin (isolated environment). Write operations follow read-first, confirm, execute, verify pattern. MCP is optional — works with Wrangler CLI/Dashboard too."
+allowed-tools:
+  - Read
+  - Bash
+  - WebFetch
 ---
 
-# Service: Cloudflare Platform
+# Cloudflare Infrastructure Operations
 
-Build globally distributed applications that run at the edge.
+Manage Cloudflare services: Workers, KV, R2, D1, Hyperdrive, Observability, Builds, and Audit Logs.
 
-## Workers Setup (Hono)
+> **MCP is optional.** This skill works with MCP (auto), Wrangler CLI, or Dashboard. See [BACKENDS.md](BACKENDS.md) for execution options.
 
-```bash
-pnpm create hono@latest my-api --template cloudflare-workers
-pnpm add hono
+## Permission Tiers
+
+| Tier | Purpose | Scope | Risk Control |
+|------|---------|-------|--------------|
+| **Diagnose** | Read-only/query/troubleshoot | Observability, Builds, Audit | Default entry, no writes |
+| **Change** | Create/modify/delete resources | KV, R2, D1, Hyperdrive | Requires confirmation + verification |
+| **Super Admin** | Highest privileges | All + Container Sandbox | Only in isolated/test environments |
+
+## Security Rules
+
+### Read Operations
+1. **Define scope first** — account / worker / resource ID
+2. **No account set?** — List accounts first, then set active
+3. **Evidence required** — Conclusions must have logs/screenshots/audit records
+
+### Write Operations (Three-step Flow)
+```
+1. Plan: Read current state first (list/get)
+2. Confirm: Output precise change (name/ID/impact), await user confirmation
+3. Execute: create/delete/update
+4. Verify: audit logs + observability confirm no new errors
 ```
 
-```typescript
-// src/index.ts
-import { Hono } from 'hono'
-import { cors } from 'hono/cors'
-import { zValidator } from '@hono/zod-validator'
-import { z } from 'zod'
+### Prohibited Actions
+- ❌ Execute create/delete/update without confirmation
+- ❌ Delete production resources (unless user explicitly says "delete production xxx")
+- ❌ Use Super Admin privileges in non-isolated environments
+- ❌ Use container sandbox as persistent environment
 
-type Bindings = {
-  DB: D1Database
-  BUCKET: R2Bucket
-  KV: KVNamespace
-}
+## Operation Categories
 
-const app = new Hono<{ Bindings: Bindings }>()
+### Diagnose Tier (Read-only)
 
-app.use('/*', cors())
+| Category | What You Can Do |
+|----------|-----------------|
+| **Observability** | Query worker logs/metrics, discover fields, explore values |
+| **Builds** | List build history, get build details, view build logs |
+| **Browser** | Fetch page HTML, convert to markdown, take screenshots |
+| **Audit** | Pull change history by time range |
+| **Workers** | List workers, get details, view source code |
 
-app.get('/health', (c) => c.json({ ok: true }))
+### Change Tier (Write Operations)
 
-app.post('/items',
-  zValidator('json', z.object({ name: z.string(), content: z.string() })),
-  async (c) => {
-    const { name, content } = c.req.valid('json')
-    await c.env.DB.prepare('INSERT INTO items (name, content) VALUES (?, ?)')
-      .bind(name, content).run()
-    return c.json({ ok: true }, 201)
-  }
-)
+| Resource | Operations |
+|----------|------------|
+| **KV** | List, get, create ⚠️, update ⚠️, delete ⚠️ |
+| **R2** | List, get, create ⚠️, delete ⚠️ |
+| **D1** | List, get, query, create ⚠️, delete ⚠️ |
+| **Hyperdrive** | List, get, create ⚠️, edit ⚠️, delete ⚠️ |
 
-export default app
+⚠️ = Requires confirmation
+
+### Super Admin Tier (Container Sandbox)
+
+Temporary container for isolated tasks (~10 min lifecycle):
+- Initialize, execute commands, read/write/delete files
+- Use for: running tests, reproducing issues, parsing data
+- NOT for: persistent state, production workloads
+
+## Common Workflows
+
+### Troubleshooting Flow
+```
+1. Clarify symptoms → worker name / time range / error type
+2. Query observability to pull logs/metrics
+3. If build-related → get build logs
+4. If page-related → take screenshot to reproduce
+5. Trace changes → pull audit logs
+6. Summarize: root cause + evidence + fix recommendations
 ```
 
-## wrangler.toml
-
-```toml
-name = "my-api"
-main = "src/index.ts"
-compatibility_date = "2024-01-01"
-
-[[d1_databases]]
-binding = "DB"
-database_name = "my-db"
-database_id = "xxxx"
-
-[[r2_buckets]]
-binding = "BUCKET"
-bucket_name = "my-bucket"
-
-[[kv_namespaces]]
-binding = "KV"
-id = "xxxx"
+### Resource Management Flow
+```
+1. List accounts → set active account
+2. List resources (KV / R2 / D1)
+3. Plan changes → present to user
+4. Execute after confirmation
+5. Verify: audit logs + observability shows no errors
 ```
 
-## R2 — Object Storage
+## Output Format
 
-```typescript
-// Upload a file
-await c.env.BUCKET.put(`uploads/${userId}/${filename}`, file, {
-  httpMetadata: { contentType: file.type },
-  customMetadata: { uploadedBy: userId },
-})
+- **Language**: English
+- **Structure**: Conclusion → Key data/evidence → Tool call summary → Next steps
+- **Write operations**: Must clearly list operations and impact scope
 
-// Get a file
-const object = await c.env.BUCKET.get(`uploads/${userId}/${filename}`)
-if (!object) return c.notFound()
-return new Response(object.body, {
-  headers: { 'content-type': object.httpMetadata?.contentType ?? 'application/octet-stream' }
-})
+Example:
+```
+✅ Investigation complete: worker `api-gateway` experienced 5xx spike between 18:00-18:30
 
-// Generate signed URL (temporary access)
-const url = await c.env.BUCKET.createMultipartUpload(`uploads/${key}`)
+Root cause: New code deployed threw TypeError when processing /v2/users
+Evidence:
+- Logs: 18:02 first occurrence of "Cannot read property 'id' of undefined"
+- Audit: 18:00 user dev@example.com deployed new version
+- Metrics: error_rate jumped from 0.1% to 12%
+
+Recommendation: Roll back to previous version, or fix /v2/users handler
 ```
 
-## KV — Edge Cache
+## File-based Pipeline
 
-```typescript
-// Cache expensive computation at the edge
-const cacheKey = `user:${userId}:profile`
-const cached = await c.env.KV.get(cacheKey, 'json')
-if (cached) return c.json(cached)
+When integrating into multi-step workflows:
 
-const profile = await fetchProfileFromDB(userId)
-await c.env.KV.put(cacheKey, JSON.stringify(profile), {
-  expirationTtl: 300  // 5 minutes
-})
-return c.json(profile)
+```
+runs/<workflow>/active/<run_id>/
+├── proposal.md                # Symptoms/objectives
+├── context.json               # Account/worker/resource/time_range
+├── tasks.md                   # Checklist + approval gate
+├── evidence/observability.md
+├── evidence/audit.md
+├── evidence/screenshots/
+├── evidence/change-plan.md    # Write operations written here first
+├── evidence/report.md         # Conclusion + evidence + next steps
+└── logs/events.jsonl          # Optional tool call summary
 ```
 
-## Queues — Background Jobs
+## Error Handling
 
-```typescript
-// Producer: enqueue a job
-await c.env.QUEUE.send({ type: 'send-email', to: email, template: 'welcome' })
+| Situation | Action |
+|-----------|--------|
+| Account not set | Run accounts_list → set_active_account first |
+| Resource doesn't exist | Verify ID/name, list available resources |
+| Insufficient permissions | Explain required permissions, check API token scope |
+| Observability query too broad | Split into smaller time ranges |
 
-// Consumer: process jobs
-export default {
-  async queue(batch: MessageBatch, env: Env) {
-    for (const msg of batch.messages) {
-      const job = msg.body as { type: string; to: string; template: string }
-      if (job.type === 'send-email') {
-        await sendEmail(job.to, job.template)
-        msg.ack()
-      }
-    }
-  }
-}
-```
+## Related Files
 
-## Deployment
-
-```bash
-# Deploy to production
-pnpm dlx wrangler deploy
-
-# Set secrets
-wrangler secret put ANTHROPIC_API_KEY
-wrangler secret put STRIPE_SECRET_KEY
-
-# Tail logs in real-time
-wrangler tail
-```
+- [BACKENDS.md](BACKENDS.md) — Execution options (MCP/CLI/Dashboard)
+- [SETUP.md](SETUP.md) — MCP configuration (optional)
+- [scenarios.md](scenarios.md) — 20 real-world scenario examples

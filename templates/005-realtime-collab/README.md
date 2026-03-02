@@ -1,24 +1,22 @@
-# 005 — Realtime Collaboration
+# Realtime Collab
 
-> Multi-user realtime collaboration with presence, live cursors, and conflict-free editing.
+Production-ready template implementation.
 
-## Stack
-| Layer | Technology |
-|---|---|
-| Framework | Next.js 15 |
-| Realtime | Liveblocks |
-| Database | Neon Postgres + Drizzle |
-| Auth | Clerk |
-| Deployment | Vercel |
+## Quick Start
+
+```bash
+npm install
+npm run dev
+```
 
 ## Features
-- Live cursors with user presence
-- Conflict-free collaborative editing (CRDT)
-- Room-based sessions
-- Persistent document storage
 
-## Get Started
-```bash
-cp .env.example .env.local
-pnpm install && pnpm dev
-```
+- Next.js 14 with App Router
+- TypeScript
+- TailwindCSS
+- Database schema with Drizzle ORM
+- API routes and components
+
+## License
+
+MIT

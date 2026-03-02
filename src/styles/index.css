@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=JetBrains+Mono:wght@400;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+  /* Color Palette - Modern Industrial Forge */
+  --obsidian: #0a0a0a;
+  --industrial-slate: #1a1a1a;
+  --forged-silver: #e0e0e0;
+  --molten-amber: #ff8c00;
+  --molten-glow: rgba(255, 140, 0, 0.4);
+  --error-red: #ff4d4d;
+  --success-green: #00ff88;
+
+  /* Layout */
+  --border-width: 2px;
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --container-max: 1200px;
+
+  /* Shadow - Hard Neobrutalist style but with a technical twist */
+  --shadow-industrial: 4px 4px 0px 0px var(--obsidian);
+  --shadow-active: 1px 1px 0px 0px var(--obsidian);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--obsidian);
+  color: var(--forged-silver);
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Background Shimmer Effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    rgba(255, 140, 0, 0.03) 1px,
+    rgba(255, 140, 0, 0.03) 2px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+.heading-serif {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Utility Animations */
+@keyframes pulse-molten {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+    box-shadow: 0 0 20px var(--molten-glow);
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 40px var(--molten-glow);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+    box-shadow: 0 0 20px var(--molten-glow);
+  }
+}
+
+@keyframes scan-line {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.animate-pulse {
+  animation: pulse-molten 3s infinite ease-in-out;
+}
