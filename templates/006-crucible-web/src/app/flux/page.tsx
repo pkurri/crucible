@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
-import { io } from 'socket.io-client';
+import { createClient } from '@supabase/supabase-js';
 import { motion } from 'framer-motion';
 import { Activity, Radio, ExternalLink, Zap } from 'lucide-react';
 import dynamic from 'next/dynamic';
@@ -110,23 +110,41 @@ export default function FluxPage() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Connect to Forge Server on Port 3003
-    const socket = io('http://localhost:3003');
+    // Connect to Supabase Realtime Live Telemetry Log
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+    
+    if (!supabaseUrl || !supabaseKey) {
+        addLog('CRITICAL: Missing Supabase credentials for live telemetry.', 'error');
+        return;
+    }
 
-    socket.on('connect', () => {
-      addLog('CORE LINK ESTABLISHED WITH FORGE SERVER', 'success');
-    });
+    const supabase = createClient(supabaseUrl, supabaseKey);
 
-    socket.on('flux_update', (data) => {
-      addLog(data.message, data.type || 'info');
-    });
+    const channel = supabase.channel('forge-telemetry-feed')
+      .on(
+        'postgres_changes',
+        { event: 'INSERT', schema: 'public', table: 'forge_events' },
+        (payload) => {
+          const { event_type, message } = payload.new;
+          
+          let type = 'info';
+          if (event_type === 'SUCCESS' || event_type === 'DEPLOY') type = 'success';
+          if (event_type === 'ERROR' || event_type === 'WARN') type = 'error';
 
-    socket.on('disconnect', () => {
-      addLog('CORE LINK LOST. ATTEMPTING RECONNECTION...', 'error');
-    });
+          addLog(`[${event_type}] ${message}`, type);
+        }
+      )
+      .subscribe((status) => {
+        if (status === 'SUBSCRIBED') {
+          addLog('CORE LINK ESTABLISHED WITH PRODUCTION FORGE DB', 'success');
+        } else if (status === 'CLOSED' || status === 'CHANNEL_ERROR') {
+          addLog('CORE LINK LOST. CHECKING CONNECTION...', 'error');
+        }
+      });
 
     return () => {
-      socket.disconnect();
+      supabase.removeChannel(channel);
     };
   }, []);
 
@@ -210,7 +228,7 @@ export default function FluxPage() {
                 <div className="w-3 h-3 rounded-full bg-[#ff8c00]"></div>
                 <div className="w-3 h-3 rounded-full bg-[#00ff88]"></div>
               </div>
-              <div className="ml-4 font-mono text-[10px] text-[#888] tracking-widest">FORGE_TERMINAL // PORT_3003</div>
+              <div className="ml-4 font-mono text-[10px] text-[#888] tracking-widest">FORGE_TERMINAL // SUPABASE_REALTIME</div>
             </div>
 
             <div className="bg-[#050505] p-6 flex-1 overflow-y-auto font-mono text-sm relative z-10" ref={scrollRef}>

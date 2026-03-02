@@ -1,3 +1,3 @@
-# Reactive Engine Protocol
+# Edge Engine Protocol
 
 Autonomously forged skill designed to optimize https://react.dev operations at scale.

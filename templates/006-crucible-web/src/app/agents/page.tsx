@@ -1,74 +1,61 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { createClient } from '@supabase/supabase-js';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Shield, Eye, Box, Code, Cpu, Activity, Zap, Layers, Network, Fingerprint, Database, Rocket } from 'lucide-react';
 
-const forgeAgents = [
-  { 
-    id: 'tungsten', 
-    name: 'Tungsten', 
-    role: 'Core Architect', 
-    status: 'Structuring foundational data schemas...', 
-    heat: '3200°C', 
-    color: '#ff8c00', // Forge Orange
-    bg: 'bg-[#ff8c00]/10',
-    icon: Layers
-  },
-  { 
-    id: 'cobalt', 
-    name: 'Cobalt', 
-    role: 'Threat Vanguard', 
-    status: 'Scanning for zero-day ingress points...', 
-    heat: '1400°C', 
-    color: '#3b82f6', // Deep Blue
-    bg: 'bg-[#3b82f6]/10',
-    icon: Shield
-  },
-  { 
-    id: 'plasma', 
-    name: 'Plasma', 
-    role: 'Growth Injector', 
-    status: 'Accelerating market loop friction...', 
-    heat: '8000°C', 
-    color: '#a855f7', // High-Energy Purple
-    bg: 'bg-[#a855f7]/10',
-    icon: Zap
-  },
-  { 
-    id: 'carbon', 
-    name: 'Carbon', 
-    role: 'Data Synthesizer', 
-    status: 'Bonding disparate data structures...', 
-    heat: '3500°C', 
-    color: '#00ff88', // Matrix Green
-    bg: 'bg-[#00ff88]/10',
-    icon: Database
-  },
-  { 
-    id: 'titanium', 
-    name: 'Titanium', 
-    role: 'Deployment Frame', 
-    status: 'Hardening edge containers...', 
-    heat: '1600°C', 
-    color: '#94a3b8', // Slate Silver
-    bg: 'bg-[#94a3b8]/10',
-    icon: Box
-  },
-  { 
-    id: 'ignis', 
-    name: 'Ignis', 
-    role: 'Execution Engine', 
-    status: 'Igniting build sequence...', 
-    heat: '6000°C', 
-    color: '#ff3333', // Crimson Heat
-    bg: 'bg-[#ff3333]/10',
-    icon: Rocket
-  }
-];
-
 export default function FoundrySwarmPage() {
-  const [activeAgent, setActiveAgent] = useState('tungsten');
+  const [activeAgent, setActiveAgent] = useState('api-gateway-builder');
+  
+  const [agents, setAgents] = useState([
+    { id: 'api-gateway-builder', name: 'API Gateway', role: 'Infrastructure Architect', status: 'Routing external traffic to microservices...', heat: '3200°C', color: '#ff8c00', bg: 'bg-[#ff8c00]/10', icon: Layers },
+    { id: 'review-clean-code', name: 'Code Reviewer', role: 'Quality Assurance', status: 'Scanning AST for cyclomatic complexity...', heat: '1400°C', color: '#3b82f6', bg: 'bg-[#3b82f6]/10', icon: Shield },
+    { id: 'cloud-optimizer', name: 'Cloud Optimizer', role: 'Database Engineer', status: 'Tuning indexing and connection pools...', heat: '8000°C', color: '#a855f7', bg: 'bg-[#a855f7]/10', icon: Database },
+    { id: 'ml-deployment', name: 'ML Deployer', role: 'AI Infrastructure', status: 'Loading tensor weights into edge VRAM...', heat: '3500°C', color: '#00ff88', bg: 'bg-[#00ff88]/10', icon: Zap },
+    { id: 'kubernetes-mgr', name: 'K8s Manager', role: 'Deployment Frame', status: 'Hardening edge containers & pods...', heat: '1600°C', color: '#94a3b8', bg: 'bg-[#94a3b8]/10', icon: Box },
+    { id: 'e-commerce', name: 'E-Commerce Agent', role: 'Product Engineer', status: 'Igniting checkout sequence build...', heat: '6000°C', color: '#ff3333', bg: 'bg-[#ff3333]/10', icon: Rocket }
+  ]);
+
+  useEffect(() => {
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+    if (!supabaseUrl || !supabaseKey) return;
+    
+    const supabase = createClient(supabaseUrl, supabaseKey);
+
+    const channel = supabase.channel('agents-feed')
+      .on(
+        'postgres_changes',
+        { event: 'INSERT', schema: 'public', table: 'forge_events' },
+        (payload) => {
+           const { event_type, message } = payload.new;
+           
+           setAgents(prev => {
+             // Let the swarm dynamically react to live backend telemetry
+             const randomIndex = Math.floor(Math.random() * prev.length);
+             const targetId = prev[randomIndex].id;
+             setActiveAgent(targetId);
+             
+             return prev.map(agent => {
+               if (agent.id === targetId) {
+                 return {
+                   ...agent,
+                   status: `[${event_type}] ${message.substring(0, 50)}...`,
+                   heat: `${Math.floor(Math.random() * 6000 + 4000)}°C`
+                 };
+               }
+               return agent;
+             });
+           });
+        }
+      )
+      .subscribe();
+
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, []);
 
   return (
     <div className="min-h-screen pt-24 pb-24 bg-[#050505] selection:bg-[#ff8c00]/30 relative overflow-hidden flex justify-center">
@@ -155,9 +142,9 @@ export default function FoundrySwarmPage() {
               <motion.div animate={{ rotate: -360 }} transition={{ duration: 180, repeat: Infinity, ease: "linear" }} className="absolute w-[600px] h-[600px] rounded-full border border-[#222]" />
 
               {/* Rendering Agents around the core using math to position them in a circle */}
-              {forgeAgents.map((agent, index) => {
+              {agents.map((agent, index) => {
                  const radius = 280; // Distance from center
-                 const angle = (Math.PI * 2 * index) / forgeAgents.length - Math.PI / 2; // Start from top
+                 const angle = (Math.PI * 2 * index) / agents.length - Math.PI / 2; // Start from top
                  
                  const x = Math.cos(angle) * radius;
                  const y = Math.sin(angle) * radius;
@@ -221,7 +208,7 @@ export default function FoundrySwarmPage() {
            <div className="xl:col-span-4 h-full flex flex-col">
               
               <AnimatePresence mode="wait">
-                 {forgeAgents.map((agent) => (
+                 {agents.map((agent) => (
                     activeAgent === agent.id && (
                        <motion.div 
                          key={agent.id}
@@ -264,9 +251,9 @@ export default function FoundrySwarmPage() {
                              <div className="col-span-2 bg-[#111] border border-[#222] p-4 rounded-xl">
                                 <div className="text-[#888] font-mono text-[10px] uppercase tracking-widest mb-2">Current Directives</div>
                                 <div className="font-mono text-xs text-[#00ff88] leading-relaxed bg-[#050505] p-3 rounded border border-[#222]">
-                                   > Executing neural pass #4992<br/>
+                                   {'>'} Executing neural pass #4992<br/>
                                    {`> ${agent.status}`}<br/>
-                                   > Synchronizing state vector to central crucible...
+                                   {'>'} Synchronizing state vector to central crucible...
                                 </div>
                              </div>
                           </div>

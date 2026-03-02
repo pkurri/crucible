@@ -7,6 +7,8 @@ import skillsData from '@/data/skills.json'
 export default function SkillsPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
+  const [currentPage, setCurrentPage] = useState(1)
+  const itemsPerPage = 12
 
   const categories = ['all', ...Array.from(new Set(skillsData.map(s => s.category)))]
 
@@ -18,6 +20,14 @@ export default function SkillsPage() {
     
     return matchesSearch && matchesCategory
   })
+
+  // Pagination logic
+  const totalPages = Math.max(1, Math.ceil(filteredSkills.length / itemsPerPage))
+  const startIndex = (currentPage - 1) * itemsPerPage
+  const visibleSkills = filteredSkills.slice(startIndex, startIndex + itemsPerPage)
+
+  const nextPage = () => setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+  const prevPage = () => setCurrentPage((prev) => Math.max(prev - 1, 1))
 
   // Basic icon mapping based on fuzzy match of category
   const getCategoryIcon = (category: string) => {
@@ -53,7 +63,7 @@ export default function SkillsPage() {
               type="text"
               placeholder="Search internal logic arrays..."
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => { setSearchQuery(e.target.value); setCurrentPage(1); }}
               className="w-full pl-12 pr-4 py-4 rounded-none border border-[#2a2a2a] bg-[#111] text-[#e0e0e0] font-mono focus:outline-none focus:border-[#ff8c00] transition-colors"
             />
           </div>
@@ -61,7 +71,7 @@ export default function SkillsPage() {
             {categories.map((cat) => (
               <button
                 key={cat}
-                onClick={() => setSelectedCategory(cat)}
+                onClick={() => { setSelectedCategory(cat); setCurrentPage(1); }}
                 className={`px-4 py-3 font-mono text-xs tracking-wider uppercase transition-colors border ${
                   selectedCategory === cat
                     ? 'bg-[#ff8c00] text-black border-[#ff8c00]'
@@ -74,6 +84,29 @@ export default function SkillsPage() {
           </div>
         </div>
 
+        {/* Pagination Controls */}
+        {filteredSkills.length > itemsPerPage && (
+          <div className="flex justify-end gap-2 mb-8">
+            <button 
+              onClick={prevPage} 
+              disabled={currentPage === 1}
+              className="px-4 py-2 bg-[#111] hover:bg-[#222] disabled:opacity-50 text-white font-mono text-sm border border-[#333] transition-colors"
+            >
+              &lt; PREV
+            </button>
+            <div className="px-4 py-2 font-mono text-[#888] text-sm border border-[#2a2a2a] bg-[#050505]">
+              {currentPage} / {totalPages}
+            </div>
+            <button 
+              onClick={nextPage} 
+              disabled={currentPage === totalPages}
+              className="px-4 py-2 bg-[#111] hover:bg-[#222] disabled:opacity-50 text-white font-mono text-sm border border-[#333] transition-colors"
+            >
+              NEXT &gt;
+            </button>
+          </div>
+        )}
+
         {/* Skills Grid */}
         {filteredSkills.length === 0 ? (
           <div className="p-12 text-center border-2 border-dashed border-[#2a2a2a]">
@@ -83,9 +116,9 @@ export default function SkillsPage() {
           </div>
         ) : (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredSkills.map((skill) => (
+            {visibleSkills.map((skill) => (
               <div
-                key={skill.id}
+                key={skill.id + Math.random()}
                 className="brick p-6 flex flex-col h-full cursor-url('/crosshair.svg'), pointer group"
               >
                 <div className="flex items-start justify-between mb-4 border-b border-[#2a2a2a] pb-4">

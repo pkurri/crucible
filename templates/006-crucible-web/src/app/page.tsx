@@ -1,22 +1,58 @@
+"use client";
+
+import { useState } from 'react';
 import templateData from '@/data/templates.json';
 
 export default function Home() {
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 12;
+
+  const totalPages = Math.ceil(templateData.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const visibleTemplates = templateData.slice(startIndex, startIndex + itemsPerPage);
+
+  const nextPage = () => setCurrentPage((prev) => Math.min(prev + 1, totalPages));
+  const prevPage = () => setCurrentPage((prev) => Math.max(prev - 1, 1));
+
   return (
     <main className="min-h-screen pt-12 pb-24">
       <div className="max-w-[1920px] mx-auto px-6">
-        <div className="mb-16 border-b border-[#2a2a2a] pb-8">
-          <h1 className="text-5xl md:text-7xl font-black text-[#e0e0e0] mb-4 tracking-tight">
-            THE ARMORY
-          </h1>
-          <p className="font-mono text-[#ff8c00] text-sm tracking-widest uppercase">
-            // 100 Production-Ready Architecture Templates
-          </p>
+        <div className="mb-12 border-b border-[#2a2a2a] pb-8 flex flex-col md:flex-row justify-between items-end gap-6">
+          <div>
+            <h1 className="text-5xl md:text-7xl font-black text-[#e0e0e0] mb-4 tracking-tight">
+              THE ARMORY
+            </h1>
+            <p className="font-mono text-[#ff8c00] text-sm tracking-widest uppercase flex items-center gap-3">
+              <span className="w-2 h-2 bg-[#ff8c00] animate-pulse rounded-full"></span>
+              {templateData.length} Autonomous Architecture Templates
+            </p>
+          </div>
+
+          <div className="flex gap-2">
+            <button 
+              onClick={prevPage} 
+              disabled={currentPage === 1}
+              className="px-4 py-2 bg-[#111] hover:bg-[#222] disabled:opacity-50 text-white font-mono text-sm border border-[#333] transition-colors"
+            >
+              &lt; PREV
+            </button>
+            <div className="px-4 py-2 font-mono text-[#888] text-sm border border-[#2a2a2a] bg-[#050505]">
+              {currentPage} / {totalPages}
+            </div>
+            <button 
+              onClick={nextPage} 
+              disabled={currentPage === totalPages}
+              className="px-4 py-2 bg-[#111] hover:bg-[#222] disabled:opacity-50 text-white font-mono text-sm border border-[#333] transition-colors"
+            >
+              NEXT &gt;
+            </button>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {templateData.map((tpl) => (
+          {visibleTemplates.map((tpl) => (
             <TemplateCard
-              key={tpl.number}
+              key={tpl.number + tpl.name}
               number={tpl.number}
               name={tpl.name}
               category={tpl.category}

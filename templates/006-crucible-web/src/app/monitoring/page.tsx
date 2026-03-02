@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { createClient } from '@supabase/supabase-js'
 import { BarChart3, TrendingUp, Users, Zap, Clock, MessageSquare, Target, AlertCircle, Scan } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { SpotlightCard } from '@/components/ui/SpotlightCard'
@@ -86,28 +87,111 @@ const RadarVisualizer = () => {
   )
 }
 
-const MOCK_AGENTS = [
-  { id: '1', name: 'Frontend Dev', role: 'frontend-developer', productivity: 92, communication: 88, collaboration: 95, quality: 90 },
-  { id: '2', name: 'Backend Dev', role: 'backend-developer', productivity: 87, communication: 92, collaboration: 89, quality: 94 },
-  { id: '3', name: 'Product Manager', role: 'product-manager', productivity: 95, communication: 98, collaboration: 93, quality: 91 },
-  { id: '4', name: 'DevOps', role: 'devops-engineer', productivity: 89, communication: 85, collaboration: 87, quality: 92 },
-]
-
-const METRICS_HISTORY = [
-  { time: '0900', productivity: 75, communication: 80, collaboration: 70 },
-  { time: '1000', productivity: 82, communication: 85, collaboration: 78 },
-  { time: '1100', productivity: 88, communication: 87, collaboration: 85 },
-  { time: '1200', productivity: 85, communication: 90, collaboration: 88 },
-  { time: '1300', productivity: 90, communication: 92, collaboration: 91 },
-  { time: '1400', productivity: 91, communication: 89, collaboration: 90 },
-]
-
 export default function MonitoringPage() {
   const [selectedMetric, setSelectedMetric] = useState<'productivity' | 'communication' | 'collaboration'>('productivity')
 
-  const avgProductivity = Math.round(MOCK_AGENTS.reduce((sum, a) => sum + a.productivity, 0) / MOCK_AGENTS.length)
-  const avgCommunication = Math.round(MOCK_AGENTS.reduce((sum, a) => sum + a.communication, 0) / MOCK_AGENTS.length)
-  const avgCollaboration = Math.round(MOCK_AGENTS.reduce((sum, a) => sum + a.collaboration, 0) / MOCK_AGENTS.length)
+  // Real-Time Stateful Agents replacing MOCK_AGENTS
+  const [agents, setAgents] = useState([
+    { id: '1', name: 'Gather Core', role: 'data-scraper', productivity: 92, communication: 88, collaboration: 95, quality: 90 },
+    { id: '2', name: 'Analyzer', role: 'pattern-recognition', productivity: 87, communication: 92, collaboration: 89, quality: 94 },
+    { id: '3', name: 'Forge Engine', role: 'code-synthesis', productivity: 95, communication: 98, collaboration: 93, quality: 91 },
+    { id: '4', name: 'Deployer', role: 'fs-operations', productivity: 89, communication: 85, collaboration: 87, quality: 92 },
+  ]);
+
+  // Real-Time Stateful Metrics History replacing METRICS_HISTORY
+  const [metricsHistory, setMetricsHistory] = useState([
+    { time: 'T-5m', productivity: 75, communication: 80, collaboration: 70 },
+    { time: 'T-4m', productivity: 82, communication: 85, collaboration: 78 },
+    { time: 'T-3m', productivity: 88, communication: 87, collaboration: 85 },
+    { time: 'T-2m', productivity: 85, communication: 90, collaboration: 88 },
+    { time: 'T-1m', productivity: 90, communication: 92, collaboration: 91 },
+    { time: 'NOW', productivity: 91, communication: 89, collaboration: 90 },
+  ]);
+
+  const [activeProcesses, setActiveProcesses] = useState(1);
+  const [alerts, setAlerts] = useState<any[]>([]);
+
+  useEffect(() => {
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+    if (!supabaseUrl || !supabaseKey) return;
+    
+    const supabase = createClient(supabaseUrl, supabaseKey);
+
+    const updateAgentStat = (name: string, stat: string, amount: number) => {
+       setAgents(prev => prev.map(a => {
+         if (a.name === name) {
+            const val = { ...a };
+            val[stat as keyof typeof val] = Math.min(100, Math.max(0, (val[stat as keyof typeof val] as number) + amount)) as never;
+            return val;
+         }
+         return a;
+       }));
+    };
+
+    const channel = supabase.channel('monitoring-feed')
+      .on(
+        'postgres_changes',
+        { event: 'INSERT', schema: 'public', table: 'forge_events' },
+        (payload) => {
+           const { event_type, message } = payload.new;
+           
+           // Make the dashboard react dynamically to the live Forge!
+           setActiveProcesses(prev => Math.min(prev + 1, 12));
+           setTimeout(() => setActiveProcesses(prev => Math.max(prev - 1, 1)), 5000);
+           
+           if (event_type === 'GATHER') {
+             updateAgentStat('Gather Core', 'productivity', 2);
+           } else if (event_type === 'ANALYZE') {
+             updateAgentStat('Analyzer', 'productivity', 3);
+           } else if (event_type === 'FORGE' || event_type === 'STORE') {
+             updateAgentStat('Forge Engine', 'productivity', 5);
+             updateAgentStat('Forge Engine', 'quality', 2);
+           } else if (event_type === 'DEPLOY') {
+             updateAgentStat('Deployer', 'productivity', 6);
+             updateAgentStat('Deployer', 'collaboration', 4);
+             
+             setMetricsHistory(prev => {
+                const newTick = {
+                  time: new Date().toLocaleTimeString([], { hour12: false, hour: '2-digit', minute:'2-digit', second:'2-digit' }),
+                  productivity: Math.min(100, prev[prev.length-1].productivity + 2),
+                  communication: Math.min(100, prev[prev.length-1].communication + 1),
+                  collaboration: Math.min(100, prev[prev.length-1].collaboration + 1)
+                };
+                return [...prev.slice(1), newTick];
+             });
+           }
+           
+           if (event_type === 'ERROR' || event_type === 'WARN') {
+             setAlerts(prev => [{
+               id: Date.now(),
+               type: 'error',
+               title: 'System Anomaly',
+               message: message,
+               time: 'JUST NOW'
+             }, ...prev].slice(0, 3));
+             updateAgentStat('Forge Engine', 'quality', -5);
+           } else if (event_type === 'SUCCESS') {
+             setAlerts(prev => [{
+               id: Date.now(),
+               type: 'success',
+               title: 'Optimal Execution',
+               message: message,
+               time: 'JUST NOW'
+             }, ...prev].slice(0, 3));
+           }
+        }
+      )
+      .subscribe();
+
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, []);
+
+  const avgProductivity = Math.round(agents.reduce((sum, a) => sum + a.productivity, 0) / agents.length)
+  const avgCommunication = Math.round(agents.reduce((sum, a) => sum + a.communication, 0) / agents.length)
+  const avgCollaboration = Math.round(agents.reduce((sum, a) => sum + a.collaboration, 0) / agents.length)
 
   const getScoreColor = (score: number) => {
     if (score >= 90) return 'text-[#00ff88]'
@@ -192,7 +276,7 @@ export default function MonitoringPage() {
               </div>
               <Clock className="h-5 w-5 text-[#888]" />
             </div>
-            <div className="text-4xl font-black text-white mb-2">12</div>
+            <div className="text-4xl font-black text-white mb-2">{activeProcesses}</div>
             <div className="text-xs font-mono tracking-widest text-[#888] uppercase">Active_Processes</div>
           </div>
         </div>
@@ -221,7 +305,7 @@ export default function MonitoringPage() {
 
               {/* Simple Bar Chart */}
               <div className="space-y-6 pt-4">
-                {METRICS_HISTORY.map((data, idx) => (
+                {metricsHistory.map((data, idx) => (
                   <motion.div 
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -229,9 +313,8 @@ export default function MonitoringPage() {
                     key={idx} 
                     className="flex items-center gap-6"
                   >
-                    <span className="text-sm font-mono text-[#555] w-12 shrink-0">{data.time}</span>
+                    <span className="text-sm font-mono text-[#555] w-16 shrink-0">{data.time}</span>
                     <div className="flex-1 bg-[#0f0f0f] border border-[#2a2a2a] h-10 relative overflow-hidden group">
-                      {/* Voxyz Magic Animated Border Hover Effect inside the bar container */}
                       <div className="absolute left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#ff8c00]/50 to-transparent top-0 animate-scan hidden group-hover:block z-20"></div>
                       
                       <div
@@ -253,7 +336,7 @@ export default function MonitoringPage() {
               <h2 className="text-xl font-black text-white uppercase tracking-widest">Agent Diagnostics</h2>
             </div>
             <div className="space-y-4">
-              {MOCK_AGENTS.sort((a, b) => b.productivity - a.productivity).map((agent, idx) => (
+              {agents.sort((a, b) => b.productivity - a.productivity).map((agent, idx) => (
                 <div key={agent.id} className="bg-[#0f0f0f] border border-[#2a2a2a] p-5 hover:border-[#ff8c00]/50 transition-colors">
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-4">
@@ -301,30 +384,27 @@ export default function MonitoringPage() {
             <h2 className="text-xl font-black text-white uppercase tracking-widest">System Anomalies</h2>
           </div>
           <div className="space-y-4">
-            <div className="bg-[#1a0505] border-l-4 border-[#ff3333] p-5">
-              <div className="flex items-start gap-4">
-                <AlertCircle className="h-6 w-6 text-[#ff3333] mt-0.5 shrink-0 animate-pulse" />
-                <div>
-                  <div className="font-bold text-white uppercase tracking-wide mb-1">Latency Spike Detected</div>
-                  <div className="text-sm font-mono text-[#aaa]">
-                    DEVOPS_AGENT_RESPONSE_TIME_INCREASED_BY_25%_IN_T-1H
+            {alerts.length === 0 && (
+              <div className="text-[#555] font-mono text-sm">NO ANOMALIES DETECTED IN CURRENT CYCLE</div>
+            )}
+            {alerts.map(alert => (
+              <div key={alert.id} className={`bg-[#${alert.type === 'error' ? '1a0505' : '051a15'}] border-l-4 border-[#${alert.type === 'error' ? 'ff3333' : '00ff88'}] p-5`}>
+                <div className="flex items-start gap-4">
+                  {alert.type === 'error' ? (
+                     <AlertCircle className="h-6 w-6 text-[#ff3333] mt-0.5 shrink-0 animate-pulse" />
+                  ) : (
+                     <TrendingUp className="h-6 w-6 text-[#00ff88] mt-0.5 shrink-0" />
+                  )}
+                  <div>
+                    <div className="font-bold text-white uppercase tracking-wide mb-1">{alert.title}</div>
+                    <div className="text-sm font-mono text-[#aaa]">
+                      {alert.message}
+                    </div>
+                    <div className={`text-[10px] font-mono mt-3 tracking-widest uppercase text-[#${alert.type === 'error' ? 'ff3333' : '00ff88'}]/70`}>{alert.time}</div>
                   </div>
-                  <div className="text-[10px] font-mono text-[#ff3333]/70 mt-3 tracking-widest uppercase">T-MINUS 15:00 MIN</div>
                 </div>
               </div>
-            </div>
-            <div className="bg-[#051a15] border-l-4 border-[#00ff88] p-5">
-              <div className="flex items-start gap-4">
-                <TrendingUp className="h-6 w-6 text-[#00ff88] mt-0.5 shrink-0" />
-                <div>
-                  <div className="font-bold text-white uppercase tracking-wide mb-1">Optimal Swarm Interaction</div>
-                  <div className="text-sm font-mono text-[#aaa]">
-                    FRONTEND_AND_BACKEND_SWARMS_SHOWING_PEAK_COHESION_ON_PROCESS_CHECKOUT_SYS
-                  </div>
-                  <div className="text-[10px] font-mono text-[#00ff88]/70 mt-3 tracking-widest uppercase">T-MINUS 01:00 HR</div>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
 

@@ -170,16 +170,16 @@ export default function AdvancedStagePage() {
 
                   {/* Data Packets flowing */}
                   {[...Array(3)].map((_, i) => (
-                     <motion.circle key={`p1-${i}`} r="3" fill="#ff3333" style={{ filter: 'drop-shadow(0 0 10px #ff3333)' }}
+                     <motion.circle key={`p1-${i}`} r="3" fill="#ff3333"
                         animate={{ offsetDistance: ["0%", "100%"] }}
-                        style={{ offsetPath: "path('M 50% 50% C 30% 20%, 20% 40%, 20% 30%')" }}
+                        style={{ filter: 'drop-shadow(0 0 10px #ff3333)', offsetPath: "path('M 50% 50% C 30% 20%, 20% 40%, 20% 30%')" }}
                         transition={{ duration: 2, repeat: Infinity, ease: "linear", delay: i * 0.7 }}
                      />
                   ))}
                   {[...Array(3)].map((_, i) => (
-                     <motion.circle key={`p2-${i}`} r="3" fill="#00ff88" style={{ filter: 'drop-shadow(0 0 10px #00ff88)' }}
+                     <motion.circle key={`p2-${i}`} r="3" fill="#00ff88"
                         animate={{ offsetDistance: ["0%", "100%"] }}
-                        style={{ offsetPath: "path('M 50% 50% C 70% 30%, 80% 50%, 80% 40%')" }}
+                        style={{ filter: 'drop-shadow(0 0 10px #00ff88)', offsetPath: "path('M 50% 50% C 70% 30%, 80% 50%, 80% 40%')" }}
                         transition={{ duration: 2.5, repeat: Infinity, ease: "linear", delay: i * 0.8 }}
                      />
                   ))}
