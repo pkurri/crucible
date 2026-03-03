@@ -44,14 +44,18 @@ async function tryOpenAICompatible(
 }
 
 export async function generateText(prompt: string): Promise<string> {
-  const geminiKey     = process.env.GEMINI_API_KEY;
-  const cerebrasKey   = process.env.CEREBRAS_API_KEY;
-  const groqKey       = process.env.GROQ_API_KEY;
-  const sambaNovaKey  = process.env.SAMBANOVA_API_KEY;
-  const togetherKey   = process.env.TOGETHER_API_KEY;
-  const mistralKey    = process.env.MISTRAL_API_KEY;
-  const openRouterKey = process.env.OPENROUTER_API_KEY;
-  const anthropicKey  = process.env.ANTHROPIC_API_KEY;
+  const geminiKey      = process.env.GEMINI_API_KEY;
+  const cfToken        = process.env.CLOUDFLARE_API_KEY;
+  const cfAccount      = process.env.CLOUDFLARE_ACCOUNT_ID;
+  const deepseekKey    = process.env.DEEPSEEK_API_KEY;
+  const fireworksKey   = process.env.FIREWORKS_API_KEY;
+  const cerebrasKey    = process.env.CEREBRAS_API_KEY;
+  const groqKey        = process.env.GROQ_API_KEY;
+  const sambaNovaKey   = process.env.SAMBANOVA_API_KEY;
+  const togetherKey    = process.env.TOGETHER_API_KEY;
+  const mistralKey     = process.env.MISTRAL_API_KEY;
+  const openRouterKey  = process.env.OPENROUTER_API_KEY;
+  const anthropicKey   = process.env.ANTHROPIC_API_KEY;
 
   const errors: string[] = [];
 
@@ -64,14 +68,60 @@ export async function generateText(prompt: string): Promise<string> {
         model: 'gemini-2.5-flash',
         contents: prompt,
       });
-      if (response.text) {
-        console.log('[ROUTER] ✓ Gemini succeeded');
-        return response.text;
-      }
+      if (response.text) return response.text;
     } catch (e: any) {
-      const msg = e.message?.substring(0, 120) || 'unknown';
-      console.warn(`[ROUTER] ✗ Gemini: ${msg}`);
-      errors.push(`Gemini: ${msg}`);
+      console.warn(`[ROUTER] ✗ Gemini: ${e.message?.substring(0, 120)}`);
+      errors.push(`Gemini: ${e.message}`);
+    }
+  }
+
+  // ─── 1.1 Cloudflare Workers AI (10,000 req/day free) ──────────────────
+  if (cfToken && cfAccount) {
+    const cfModels = ['@cf/meta/llama-3.1-8b-instruct', '@cf/meta/llama-3-8b-instruct', '@cf/mistral/mistral-7b-instruct-v0.1'];
+    for (const model of cfModels) {
+      try {
+        console.log(`[ROUTER] Trying Cloudflare Workers AI ${model}...`);
+        const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${cfAccount}/ai/run/${model}`, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${cfToken}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ messages: [{ role: 'user', content: prompt }] }),
+        });
+        if (res.ok) {
+          const data = await res.json();
+          if (data.result?.response) return data.result.response;
+        }
+      } catch (e: any) {
+        console.warn(`[ROUTER] ✗ Cloudflare (${model}): ${e.message?.substring(0, 120)}`);
+        errors.push(`Cloudflare(${model}): ${e.message}`);
+      }
+    }
+  }
+
+  // ─── 1.2 DeepSeek Direct (High precision) ──────────────────────────────
+  if (deepseekKey) {
+    for (const model of ['deepseek-chat', 'deepseek-reasoner']) {
+      try {
+        console.log(`[ROUTER] Trying DeepSeek Direct ${model}...`);
+        const text = await tryOpenAICompatible('https://api.deepseek.com/v1/chat/completions', deepseekKey, model, prompt, 'DeepSeek');
+        if (text) return text;
+      } catch (e: any) {
+        console.warn(`[ROUTER] ✗ DeepSeek (${model}): ${e.message?.substring(0, 120)}`);
+        errors.push(`DeepSeek(${model}): ${e.message}`);
+      }
+    }
+  }
+
+  // ─── 1.3 Fireworks AI ($1 free credit / low cost) ─────────────────────
+  if (fireworksKey) {
+    for (const model of ['accounts/fireworks/models/llama-v3p1-70b-instruct', 'accounts/fireworks/models/llama-v3p1-8b-instruct']) {
+      try {
+        console.log(`[ROUTER] Trying Fireworks AI ${model}...`);
+        const text = await tryOpenAICompatible('https://api.fireworks.ai/inference/v1/chat/completions', fireworksKey, model, prompt, 'Fireworks');
+        if (text) return text;
+      } catch (e: any) {
+        console.warn(`[ROUTER] ✗ Fireworks (${model}): ${e.message?.substring(0, 120)}`);
+        errors.push(`Fireworks(${model}): ${e.message}`);
+      }
     }
   }
 

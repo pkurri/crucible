@@ -32,6 +32,10 @@ async function tryOpenAICompat(url: string, key: string, model: string, prompt: 
 
 export async function generateWithYield(systemPrompt: string): Promise<string> {
   const geminiKey    = process.env.GEMINI_API_KEY;
+  const cfToken      = process.env.CLOUDFLARE_API_KEY;
+  const cfAccount    = process.env.CLOUDFLARE_ACCOUNT_ID;
+  const deepseekKey  = process.env.DEEPSEEK_API_KEY;
+  const fireKey      = process.env.FIREWORKS_API_KEY;
   const cerebrasKey  = process.env.CEREBRAS_API_KEY;
   const groqKey      = process.env.GROQ_API_KEY;
   const sambaKey     = process.env.SAMBANOVA_API_KEY;
@@ -52,6 +56,60 @@ export async function generateWithYield(systemPrompt: string): Promise<string> {
     } catch (e: any) {
       console.warn(`${WARN} Gemini: ${e.message?.substring(0, 80)}`);
       errors.push(`Gemini: ${e.message}`);
+    }
+  }
+
+  // 1.1 Cloudflare Workers AI (10,000 req/day free) - NEW
+  if (cfToken && cfAccount) {
+    const cfModels = [
+      '@cf/meta/llama-3.1-8b-instruct',
+      '@cf/meta/llama-3-8b-instruct',
+      '@cf/mistral/mistral-7b-instruct-v0.1'
+    ];
+    for (const model of cfModels) {
+      try {
+        console.log(`${PREFIX} Cloudflare Workers AI ${model}...`);
+        const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${cfAccount}/ai/run/${model}`, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${cfToken}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ messages: [{ role: 'user', content: systemPrompt }] }),
+        });
+        if (res.ok) {
+          const data = await res.json();
+          if (data.result?.response) return data.result.response;
+        }
+      } catch (e: any) {
+        console.warn(`${WARN} Cloudflare (${model}): ${e.message?.substring(0, 80)}`);
+        errors.push(`Cloudflare(${model}): ${e.message}`);
+      }
+    }
+  }
+
+  // 1.2 DeepSeek Direct (High priority reasoning) - NEW
+  if (deepseekKey) {
+    for (const model of ['deepseek-chat', 'deepseek-reasoner']) {
+      try {
+        console.log(`${PREFIX} DeepSeek Direct ${model}...`);
+        const text = await tryOpenAICompat('https://api.deepseek.com/v1/chat/completions', deepseekKey, model, systemPrompt);
+        if (text) return text;
+      } catch (e: any) {
+        console.warn(`${WARN} DeepSeek Direct (${model}): ${e.message?.substring(0, 80)}`);
+        errors.push(`DeepSeek(${model}): ${e.message}`);
+      }
+    }
+  }
+
+  // 1.3 Fireworks AI ($1 free credit / low cost) - NEW
+  if (fireKey) {
+    for (const model of ['accounts/fireworks/models/llama-v3p1-70b-instruct', 'accounts/fireworks/models/llama-v3p1-8b-instruct']) {
+      try {
+        console.log(`${PREFIX} Fireworks AI ${model}...`);
+        const text = await tryOpenAICompat('https://api.fireworks.ai/inference/v1/chat/completions', fireKey, model, systemPrompt);
+        if (text) return text;
+      } catch (e: any) {
+        console.warn(`${WARN} Fireworks (${model}): ${e.message?.substring(0, 80)}`);
+        errors.push(`Fireworks(${model}): ${e.message}`);
+      }
     }
   }
 
