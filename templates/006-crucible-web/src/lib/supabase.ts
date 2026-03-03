@@ -1,10 +1,12 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL?.replace('.supabase.com', '.supabase.co') || '';
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
 
 // Singleton pattern — ensures only ONE GoTrueClient instance exists in the browser
 let _client: SupabaseClient | null = null;
+let _adminClient: SupabaseClient | null = null;
 
 export function getSupabase(): SupabaseClient {
   if (!_client) {
@@ -18,7 +20,14 @@ export function getSupabase(): SupabaseClient {
   return _client;
 }
 
-// Named export for convenience in server components / API routes
+export function getSupabaseAdmin(): SupabaseClient {
+  if (!_adminClient) {
+    _adminClient = createClient(supabaseUrl, supabaseServiceKey || supabaseAnonKey);
+  }
+  return _adminClient;
+}
+
+// Named exports for convenience
 export const supabase = getSupabase();
 
 export type Transmission = {

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { supabase } from '@/lib/supabase';
 import { generateText } from '@/lib/ai-router';
 
 // Batch generates 10 articles across AI domains.
@@ -16,14 +16,6 @@ export async function GET(request: Request) {
     }
   }
 
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  if (!supabaseUrl || !supabaseKey) {
-    return NextResponse.json({ error: 'Missing credentials' }, { status: 500 });
-  }
-
-  const supabase = createClient(supabaseUrl, supabaseKey);
   const count = 10;
   const results: any[] = [];
   const errors: string[] = [];

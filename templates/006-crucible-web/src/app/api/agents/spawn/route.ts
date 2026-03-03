@@ -1,18 +1,10 @@
 import { NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { supabase } from '@/lib/supabase';
 import { GoogleGenAI } from '@google/genai';
 
 export async function POST() {
   try {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
     const geminiKey = process.env.GEMINI_API_KEY;
-
-    if (!supabaseUrl || !supabaseKey) {
-      return NextResponse.json({ error: 'Missing Supabase credentials' }, { status: 500 });
-    }
-
-    const supabase = createClient(supabaseUrl, supabaseKey);
 
     // Fetch existing agents
     const { data: existingAgents } = await supabase

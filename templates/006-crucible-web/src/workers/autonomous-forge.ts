@@ -1,4 +1,4 @@
-import { createClient } from '@supabase/supabase-js';
+import { supabase } from '../lib/supabase.js';
 import fs from 'fs';
 import path from 'path';
 import * as cheerio from 'cheerio';
@@ -8,16 +8,6 @@ import { generateWithYield } from './ai-router.js';
 
 // Load environment variables from .env.local
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'dummy'; // Added dummy for local dev
-
-if (!supabaseUrl || !supabaseKey) {
-  console.error("❌ CRITICAL: Missing Supabase credentials in .env.local");
-  process.exit(1);
-}
-
-const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Telemetry Logger Function
 async function logTelemetry(eventType: string, message: string) {

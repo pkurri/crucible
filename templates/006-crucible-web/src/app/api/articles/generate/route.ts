@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { supabase } from '@/lib/supabase';
 import { generateText } from '@/lib/ai-router';
 
 // Fallback topics only used if Supabase table is empty
@@ -13,14 +13,6 @@ const FALLBACK_TOPICS = [
 
 export async function POST(request: Request) {
   try {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-    if (!supabaseUrl || !supabaseKey) {
-      return NextResponse.json({ error: 'Missing Supabase credentials' }, { status: 500 });
-    }
-
-    const supabase = createClient(supabaseUrl, supabaseKey);
 
     // Get topic from request body
     let topic: string | null = null;
