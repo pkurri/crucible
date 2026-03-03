@@ -1,114 +1,185 @@
 import { GoogleGenAI } from '@google/genai';
 
 /**
- * Multi-API Fallback Router
- * Purpose: Ensures the Autonomous Engine never halts due to rate limits (429s).
- * Strategy: Round-robin through available free tier AI providers.
+ * Multi-API Fallback Router — Worker/Orchestrator Version
+ * Priority: Gemini → Cerebras → Groq → SambaNova → Together AI → Mistral → OpenRouter → Anthropic
+ * Every provider has a FREE tier with daily/monthly limits.
+ * Sign up links:
+ *   - Cerebras:     https://cloud.cerebras.ai    (free tier, ultra fast Llama)
+ *   - Groq:         https://console.groq.com     (free tier, ~14,400 req/day)
+ *   - SambaNova:    https://cloud.sambanova.ai   (free tier, fast Llama/DeepSeek)
+ *   - Together AI:  https://api.together.ai      (free $5 credit + free models)
+ *   - Mistral:      https://console.mistral.ai   (free tier, 1 req/sec)
+ *   - OpenRouter:   https://openrouter.ai        (free :free models)
  */
+
+const PREFIX = '\x1b[35m[ROUTER]\x1b[0m';
+const WARN   = '\x1b[33m[ROUTER WAIT]\x1b[0m';
+
+async function tryOpenAICompat(url: string, key: string, model: string, prompt: string): Promise<string | null> {
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Authorization': `Bearer ${key}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ model, messages: [{ role: 'user', content: prompt }], temperature: 0.7, max_tokens: 4096 }),
+  });
+  if (!res.ok) {
+    const body = await res.text().catch(() => '');
+    throw new Error(`HTTP ${res.status}: ${body.substring(0, 200)}`);
+  }
+  const data = await res.json();
+  return data.choices?.[0]?.message?.content || null;
+}
+
 export async function generateWithYield(systemPrompt: string): Promise<string> {
-    const geminiKey = process.env.GEMINI_API_KEY;
-    const groqKey = process.env.GROQ_API_KEY;
-    const anthropicKey = process.env.ANTHROPIC_API_KEY;
-    const openRouterKey = process.env.OPENROUTER_API_KEY;
+  const geminiKey    = process.env.GEMINI_API_KEY;
+  const cerebrasKey  = process.env.CEREBRAS_API_KEY;
+  const groqKey      = process.env.GROQ_API_KEY;
+  const sambaKey     = process.env.SAMBANOVA_API_KEY;
+  const togetherKey  = process.env.TOGETHER_API_KEY;
+  const mistralKey   = process.env.MISTRAL_API_KEY;
+  const openRouter   = process.env.OPENROUTER_API_KEY;
+  const anthropicKey = process.env.ANTHROPIC_API_KEY;
 
-    let errors: any[] = [];
+  const errors: string[] = [];
 
-    // 1. Primary: Gemini 2.5 Flash
-    if (geminiKey) {
-        try {
-            console.log(`\x1b[36m[ROUTER]\x1b[0m Attempting Primary Engine (Gemini 2.5 Flash)...`);
-            const ai = new GoogleGenAI({ apiKey: geminiKey });
-            const response = await ai.models.generateContent({
-                model: 'gemini-2.5-flash',
-                contents: systemPrompt,
-            });
-            if (response.text) return response.text;
-        } catch (e: any) {
-            console.warn(`\x1b[33m[ROUTER WAIT]\x1b[0m Gemini failed (${e.message}). Yielding to fallback...`);
-            errors.push(e);
-        }
+  // 1. Gemini 2.5 Flash (1,500 req/day free)
+  if (geminiKey) {
+    try {
+      console.log(`${PREFIX} Gemini 2.5 Flash...`);
+      const ai = new GoogleGenAI({ apiKey: geminiKey });
+      const r = await ai.models.generateContent({ model: 'gemini-2.5-flash', contents: systemPrompt });
+      if (r.text) return r.text;
+    } catch (e: any) {
+      console.warn(`${WARN} Gemini: ${e.message?.substring(0, 80)}`);
+      errors.push(`Gemini: ${e.message}`);
     }
+  }
 
-    // 2. Fallback: Groq LLaMA-3 (Extremely fast, free tier)
-    if (groqKey) {
-        try {
-            console.log(`\x1b[35m[ROUTER]\x1b[0m Attempting Fallback Alpha (Groq LLaMA-3 70B)...`);
-            const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${groqKey}`,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    model: 'llama3-70b-8192',
-                    messages: [{ role: 'user', content: systemPrompt }],
-                    temperature: 0.7
-                })
-            });
-            if (!res.ok) throw new Error(`Groq HTTP error: ${res.status}`);
-            const data = await res.json();
-            if (data.choices?.[0]?.message?.content) {
-                return data.choices[0].message.content;
-            }
-        } catch (e: any) {
-            console.warn(`\x1b[33m[ROUTER WAIT]\x1b[0m Groq failed (${e.message}). Yielding to next...`);
-            errors.push(e);
-        }
+  // 2. Cerebras (free tier, extremely fast)
+  if (cerebrasKey) {
+    for (const model of ['llama3.1-70b', 'llama3.1-8b', 'llama-4-scout-17b-16e-instruct']) {
+      try {
+        console.log(`${PREFIX} Cerebras ${model}...`);
+        const text = await tryOpenAICompat('https://api.cerebras.ai/v1/chat/completions', cerebrasKey, model, systemPrompt);
+        if (text) return text;
+      } catch (e: any) {
+        console.warn(`${WARN} Cerebras (${model}): ${e.message?.substring(0, 80)}`);
+        errors.push(`Cerebras(${model}): ${e.message}`);
+      }
     }
+  }
 
-    // 3. Fallback: OpenRouter (Free tier models)
-    if (openRouterKey) {
-        try {
-            console.log(`\x1b[35m[ROUTER]\x1b[0m Attempting Fallback Beta (OpenRouter Liquid)...`);
-            const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${openRouterKey}`,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    model: 'liquid/lfm-40b:free', // Using a high-quality free model
-                    messages: [{ role: 'user', content: systemPrompt }],
-                })
-            });
-            if (!res.ok) throw new Error(`OpenRouter HTTP error: ${res.status}`);
-            const data = await res.json();
-            if (data.choices?.[0]?.message?.content) {
-                return data.choices[0].message.content;
-            }
-        } catch (e: any) {
-             console.warn(`\x1b[33m[ROUTER WAIT]\x1b[0m OpenRouter failed (${e.message}). Yielding to next...`);
-             errors.push(e);
-        }
+  // 3. Groq (14,400 req/day free)
+  if (groqKey) {
+    for (const model of ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'mixtral-8x7b-32768', 'gemma2-9b-it']) {
+      try {
+        console.log(`${PREFIX} Groq ${model}...`);
+        const text = await tryOpenAICompat('https://api.groq.com/openai/v1/chat/completions', groqKey, model, systemPrompt);
+        if (text) return text;
+      } catch (e: any) {
+        console.warn(`${WARN} Groq (${model}): ${e.message?.substring(0, 80)}`);
+        errors.push(`Groq(${model}): ${e.message}`);
+      }
     }
+  }
 
-    // 4. Fallback: Anthropic (Claude 3 Haiku)
-    if (anthropicKey) {
-        try {
-            console.log(`\x1b[35m[ROUTER]\x1b[0m Attempting Fallback Gamma (Anthropic Claude 3 Haiku)...`);
-            const res = await fetch('https://api.anthropic.com/v1/messages', {
-                method: 'POST',
-                headers: {
-                    'x-api-key': anthropicKey,
-                    'anthropic-version': '2023-06-01',
-                    'content-type': 'application/json'
-                },
-                body: JSON.stringify({
-                    model: 'claude-3-haiku-20240307',
-                    max_tokens: 4000,
-                    messages: [{ role: 'user', content: systemPrompt }]
-                })
-            });
-            if (!res.ok) throw new Error(`Anthropic HTTP error: ${res.status}`);
-            const data = await res.json();
-            if (data.content?.[0]?.text) {
-                return data.content[0].text;
-            }
-        } catch (e: any) {
-             console.warn(`\x1b[33m[ROUTER WAIT]\x1b[0m Anthropic failed (${e.message}).`);
-             errors.push(e);
-        }
+  // 4. SambaNova (free tier, fast)
+  if (sambaKey) {
+    for (const model of ['Meta-Llama-3.3-70B-Instruct', 'DeepSeek-R1-Distill-Llama-70B', 'Qwen2.5-72B-Instruct']) {
+      try {
+        console.log(`${PREFIX} SambaNova ${model}...`);
+        const text = await tryOpenAICompat('https://api.sambanova.ai/v1/chat/completions', sambaKey, model, systemPrompt);
+        if (text) return text;
+      } catch (e: any) {
+        console.warn(`${WARN} SambaNova (${model}): ${e.message?.substring(0, 80)}`);
+        errors.push(`SambaNova(${model}): ${e.message}`);
+      }
     }
+  }
 
-    throw new Error(`All available AI Router paths exhausted. Errors: ${errors.map(e => e.message).join(' | ')}`);
+  // 5. Together AI (free models + $5 credit)
+  if (togetherKey) {
+    for (const model of [
+      'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-Free',
+      'meta-llama/Llama-3.3-70B-Instruct-Turbo-Free',
+      'deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free',
+    ]) {
+      try {
+        console.log(`${PREFIX} Together AI ${model}...`);
+        const text = await tryOpenAICompat('https://api.together.xyz/v1/chat/completions', togetherKey, model, systemPrompt);
+        if (text) return text;
+      } catch (e: any) {
+        console.warn(`${WARN} Together (${model}): ${e.message?.substring(0, 80)}`);
+        errors.push(`Together(${model}): ${e.message}`);
+      }
+    }
+  }
+
+  // 6. Mistral Direct (free tier, 1 req/sec)
+  if (mistralKey) {
+    try {
+      console.log(`${PREFIX} Mistral (mistral-small-latest)...`);
+      const text = await tryOpenAICompat('https://api.mistral.ai/v1/chat/completions', mistralKey, 'mistral-small-latest', systemPrompt);
+      if (text) return text;
+    } catch (e: any) {
+      console.warn(`${WARN} Mistral: ${e.message?.substring(0, 80)}`);
+      errors.push(`Mistral: ${e.message}`);
+    }
+  }
+
+  // 7. OpenRouter (free :free models pool)
+  if (openRouter) {
+    const freeModels = [
+      'deepseek/deepseek-chat:free', 'deepseek/deepseek-r1:free',
+      'moonshotai/moonshot-v1-8k:free',
+      'meta-llama/llama-3.1-8b-instruct:free', 'meta-llama/llama-3-8b-instruct:free',
+      'mistralai/mistral-7b-instruct:free', 'mistralai/mistral-small-3.1-24b-instruct:free',
+      'microsoft/phi-3-mini-128k-instruct:free', 'microsoft/phi-3-medium-128k-instruct:free',
+      'qwen/qwen-2-7b-instruct:free', 'qwen/qwen2.5-7b-instruct:free',
+      'google/gemma-2-9b-it:free', 'google/gemma-3-4b-it:free',
+      'nousresearch/hermes-3-llama-3.1-8b:free',
+    ];
+    for (const model of freeModels) {
+      try {
+        console.log(`${PREFIX} OpenRouter ${model}...`);
+        const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${openRouter}`,
+            'Content-Type': 'application/json',
+            'HTTP-Referer': 'https://crucible.dev',
+            'X-Title': 'Crucible AI Forge',
+          },
+          body: JSON.stringify({ model, messages: [{ role: 'user', content: systemPrompt }], temperature: 0.7 }),
+        });
+        if (!res.ok) throw new Error(`OpenRouter HTTP error: ${res.status}`);
+        const data = await res.json();
+        const text = data.choices?.[0]?.message?.content;
+        if (text) return text;
+      } catch (e: any) {
+        console.warn(`${WARN} OpenRouter (${model}): ${e.message?.substring(0, 80)}`);
+        errors.push(`OpenRouter(${model}): ${e.message}`);
+      }
+    }
+  }
+
+  // 8. Anthropic Claude Haiku (last resort)
+  if (anthropicKey) {
+    try {
+      console.log(`${PREFIX} Anthropic Claude 3.5 Haiku...`);
+      const res = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: { 'x-api-key': anthropicKey, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
+        body: JSON.stringify({ model: 'claude-3-5-haiku-20241022', max_tokens: 4096, messages: [{ role: 'user', content: systemPrompt }] }),
+      });
+      if (!res.ok) throw new Error(`Anthropic HTTP error: ${res.status}`);
+      const data = await res.json();
+      if (data.content?.[0]?.text) return data.content[0].text;
+    } catch (e: any) {
+      console.warn(`${WARN} Anthropic: ${e.message?.substring(0, 80)}`);
+      errors.push(`Anthropic: ${e.message}`);
+    }
+  }
+
+  throw new Error(`All available AI Router paths exhausted. Errors: ${JSON.stringify(errors)}`);
 }
