@@ -11,47 +11,51 @@ export interface IForgeAgent {
   execute(supabase: SupabaseClient): Promise<AgentResult>;
 }
 
-export interface AgentResult {
-  success: boolean;
-  message: string;
-  data?: any;
-}
-
 /**
- * Robust JSON extraction and sanitization for AI outputs
+ * Robust JSON extraction and sanitization for AI outputs.
+ * Designed to handle markdown wrappers, truncated responses, and unescaped newlines.
  */
 export function safeParseJSON(text: string): any {
+  if (!text) throw new Error('Empty AI response.');
+
+  // 1. Extract potential JSON block
+  const start = Math.min(
+    text.indexOf('{') === -1 ? Infinity : text.indexOf('{'),
+    text.indexOf('[') === -1 ? Infinity : text.indexOf('[')
+  );
+  const end = Math.max(text.lastIndexOf('}'), text.lastIndexOf(']'));
+
+  if (start === Infinity || end === -1 || start >= end) {
+    throw new Error('No valid JSON structure found in output.');
+  }
+
+  let jsonStr = text.substring(start, end + 1);
+
+  // 2. Try simple parse first
   try {
-    // 1. Extract the potential JSON block
-    const start = Math.min(
-      text.indexOf('{') === -1 ? Infinity : text.indexOf('{'),
-      text.indexOf('[') === -1 ? Infinity : text.indexOf('[')
-    );
-    const end = Math.max(text.lastIndexOf('}'), text.lastIndexOf(']'));
+    return JSON.parse(jsonStr);
+  } catch (e) {
+    // 3. Fallback: targeted repairs
+    
+    // Remove non-printable control characters (BEL, NUL, etc.) but keep whitespace
+    jsonStr = jsonStr.replace(/[\u0000-\u0008\u000B-\u000C\u000E-\u001F\u007F-\u009F]/g, '');
 
-    if (start === Infinity || end === -1 || start >= end) {
-      throw new Error('No valid JSON structure found in output.');
-    }
+    // Heuristic: Escape newlines that appear INSIDE a string.
+    // Logic: If a newline is NOT followed by a structural char like quote, comma, bracket, space-colon, 
+    // it's likely a raw newline within a descriptive field.
+    jsonStr = jsonStr.replace(/([^,\[\{\}\:\s])\n+(?!"|\s*[\}\]\]])/g, '$1\\n');
 
-    let jsonStr = text.substring(start, end + 1);
-
-    // 2. Try simple parse first
     try {
       return JSON.parse(jsonStr);
-    } catch (e) {
-      // 3. Fallback: targeted repairs for Llama/Cloudflare common issues
-      
-      // Remove non-printable control characters except \n, \r, \t
-      jsonStr = jsonStr.replace(/[\u0000-\u0009\u000B-\u000C\u000E-\u001F\u007F-\u009F]/g, '');
-
-      // Heuristic: Escape newlines that are NOT preceded by a structural char like { [ , :
-      // This helps repair unescaped newlines inside string values.
-      jsonStr = jsonStr.replace(/([^\{\}\[\]\, \: \n\r\t])[\n\r]+/g, '$1\\n');
-
-      return JSON.parse(jsonStr);
+    } catch (e2: any) {
+      // 4. Final attempt: Remove all newlines and see if it helps (some models output multi-line string values)
+      try {
+        const cleaned = jsonStr.replace(/\n+/g, ' ');
+        return JSON.parse(cleaned);
+      } catch (e3: any) {
+        throw new Error(`JSON Robustness Error: ${e2.message}. Position logic failed. Text sample: ${text.substring(0, 50)}...`);
+      }
     }
-  } catch (err: any) {
-    throw new Error(`JSON Robustness Error: ${err.message}. Text sample: ${text.substring(0, 50)}...`);
   }
 }
 
