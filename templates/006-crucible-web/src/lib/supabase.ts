@@ -1,16 +1,21 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace('.supabase.com', '.supabase.co') || '';
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || '';
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim() || '';
-
 // Singleton pattern — ensures only ONE GoTrueClient instance exists in the browser
 let _client: SupabaseClient | null = null;
 let _adminClient: SupabaseClient | null = null;
 
 export function getSupabase(): SupabaseClient {
   if (!_client) {
-    _client = createClient(supabaseUrl, supabaseAnonKey, {
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace('.supabase.com', '.supabase.co') || '';
+    const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || '';
+
+    if (!url || !key) {
+      console.warn('⚠️ Supabase credentials missing! URL:', !!url, 'Key:', !!key);
+    } else {
+      console.log('🔌 Initializing Supabase client for project:', url.split('//')[1]?.split('.')[0]);
+    }
+
+    _client = createClient(url, key, {
       auth: {
         persistSession: true,
         autoRefreshToken: true,
@@ -22,13 +27,22 @@ export function getSupabase(): SupabaseClient {
 
 export function getSupabaseAdmin(): SupabaseClient {
   if (!_adminClient) {
-    _adminClient = createClient(supabaseUrl, supabaseServiceKey || supabaseAnonKey);
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace('.supabase.com', '.supabase.co') || '';
+    const key = (process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)?.trim() || '';
+    _adminClient = createClient(url, key);
   }
   return _adminClient;
 }
 
-// Named exports for convenience
-export const supabase = getSupabase();
+// Named export with Lazy Initialization via Proxy
+// This ensures that the client is only created when first used,
+// preventing issues with environment variables not being ready during module load.
+export const supabase = new Proxy({} as SupabaseClient, {
+  get(_, prop) {
+    const client = getSupabase();
+    return (client as any)[prop];
+  }
+});
 
 export type Transmission = {
   id: string;
