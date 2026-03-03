@@ -63,37 +63,47 @@ export async function generateText(prompt: string): Promise<string> {
     }
   }
 
-  // 3. OpenRouter (meta-llama/llama-3-8b-instruct:free)
+  // 3. OpenRouter (Cycles through Free Models)
   if (openRouterKey) {
-    try {
-      console.log('[ROUTER] Trying OpenRouter llama-3-8b-instruct:free...');
-      const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${openRouterKey}`,
-          'Content-Type': 'application/json',
-          'HTTP-Referer': 'https://crucible.dev',
-          'X-Title': 'Crucible AI Forge',
-        },
-        body: JSON.stringify({
-          model: 'meta-llama/llama-3-8b-instruct:free',
-          messages: [{ role: 'user', content: prompt }],
-          temperature: 0.7,
-        }),
-      });
-      if (!res.ok) {
-        const errBody = await res.text().catch(() => '');
-        throw new Error(`HTTP ${res.status}: ${errBody.substring(0, 200)}`);
+    const freeModels = [
+      'meta-llama/llama-3-8b-instruct:free',
+      'mistralai/mistral-7b-instruct:free',
+      'qwen/qwen-2-7b-instruct:free',
+      'google/gemma-2-9b-it:free',
+    ];
+
+    // Try a couple of free models before giving up on OpenRouter
+    for (const model of freeModels) {
+      try {
+        console.log(`[ROUTER] Trying OpenRouter ${model}...`);
+        const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${openRouterKey}`,
+            'Content-Type': 'application/json',
+            'HTTP-Referer': 'https://crucible.dev',
+            'X-Title': 'Crucible AI Forge',
+          },
+          body: JSON.stringify({
+            model: model,
+            messages: [{ role: 'user', content: prompt }],
+            temperature: 0.7,
+          }),
+        });
+        if (!res.ok) {
+          const errBody = await res.text().catch(() => '');
+          throw new Error(`HTTP ${res.status}: ${errBody.substring(0, 200)}`);
+        }
+        const data = await res.json();
+        const content = data.choices?.[0]?.message?.content;
+        if (content) {
+          console.log(`[ROUTER] ✓ OpenRouter (${model}) succeeded`);
+          return content;
+        }
+      } catch (e: any) {
+        console.warn(`[ROUTER] ✗ OpenRouter (${model}): ${e.message?.substring(0, 120)}`);
+        errors.push(`OpenRouter (${model}): ${e.message?.substring(0, 120)}`);
       }
-      const data = await res.json();
-      const content = data.choices?.[0]?.message?.content;
-      if (content) {
-        console.log('[ROUTER] ✓ OpenRouter succeeded');
-        return content;
-      }
-    } catch (e: any) {
-      console.warn(`[ROUTER] ✗ OpenRouter: ${e.message?.substring(0, 120)}`);
-      errors.push(`OpenRouter: ${e.message?.substring(0, 120)}`);
     }
   }
 

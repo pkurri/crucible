@@ -7,6 +7,7 @@ import {
   TrendScoutAgent,
   AgentSpawnerAgent,
   BuilderAgent,
+  TemplateArchitectAgent,
   IForgeAgent,
 } from './agent-definitions.js';
 
@@ -36,6 +37,7 @@ const AGENTS: IForgeAgent[] = [
   new ContentWriterAgent(),
   new TrendScoutAgent(),
   new AgentSpawnerAgent(),
+  new TemplateArchitectAgent(),
   new BuilderAgent(),
 ];
 

@@ -35,12 +35,17 @@ async function logTelemetry(supabase: SupabaseClient, agentId: string, eventType
 // AGENT 1: Market Analyst
 // ═══════════════════════════════════════════════════════
 
-const ANALYST_TARGETS = [
-  'https://vercel.com/blog',
-  'https://supabase.com/blog',
-  'https://react.dev/blog',
-  'https://openai.com/blog',
-  'https://developers.googleblog.com',
+const COMPETITIVE_DOMAINS = [
+  'Developer Tooling & Infrastructure',
+  'AI Coding Assistants',
+  'Vector Databases & RAG Systems',
+  'Serverless Edge Computing',
+  'Multi-Agent Frameworks',
+  'Enterprise Security & Compliance',
+  'Data Pipeline Orchestration',
+  'Frontend UI Component Libraries',
+  'API Gateways & Management',
+  'Automated QA & Testing'
 ];
 
 export class MarketAnalystAgent implements IForgeAgent {
@@ -48,20 +53,24 @@ export class MarketAnalystAgent implements IForgeAgent {
   type = 'analyst';
 
   async execute(supabase: SupabaseClient): Promise<AgentResult> {
-    const targetUrl = ANALYST_TARGETS[Math.floor(Math.random() * ANALYST_TARGETS.length)];
-    await logTelemetry(supabase, this.type, 'GATHER', `Targeting ${targetUrl} for market intelligence...`);
+    const domain = COMPETITIVE_DOMAINS[Math.floor(Math.random() * COMPETITIVE_DOMAINS.length)];
+    await logTelemetry(supabase, this.type, 'GATHER', `Analyzing competitive landscape for: ${domain}`);
 
     try {
-      const prompt = `You are a senior market analyst for a developer tools platform called Crucible.
-Analyze the latest trends from ${targetUrl} and provide a structured market insight.
+      const prompt = `You are a Senior Market Intelligence AI for a B2B SaaS platform called Crucible.
+Your task is to analyze the competitive landscape for the following domain:
+🎯 DOMAIN: ${domain}
 
-Output a raw JSON object (no markdown, no explanation):
+Identify 2-3 leading competitors or open-source solutions currently dominating this space.
+Analyze their approach, and identify a "Market Gap" where Crucible could build a superior, AI-first platform template.
+
+Output a RAW JSON object ONLY (no markdown formatting, no explanations):
 {
-  "insight_title": "Brief title of the insight",
-  "content": "2-3 paragraph analysis of trends, opportunities, and threats",
+  "insight_title": "Brief title of the competitive analysis",
+  "content": "2-3 paragraphs analyzing the competitors and the specific market gap.",
   "component_type": "market_trend",
-  "tags": ["tag1", "tag2", "tag3"],
-  "opportunity_score": 7
+  "tags": ["competitor-analysis", "tag1", "tag2"],
+  "opportunity_score": 8
 }`;
 
       let text = await generateWithYield(prompt);
@@ -75,9 +84,9 @@ Output a raw JSON object (no markdown, no explanation):
       const finalEmbedding = mockEmbedding.map(val => val / normalized);
 
       const { error } = await supabase.from('market_research').insert({
-        source_url: targetUrl,
+        source_url: `competitive_analysis://${domain.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
         component_type: insight.component_type || 'market_trend',
-        aesthetic_tags: insight.tags || ['market', 'analysis'],
+        aesthetic_tags: insight.tags || ['market', 'analysis', 'competitors'],
         content: `${insight.insight_title}\n\n${insight.content}`,
         embedding: finalEmbedding,
       });
@@ -85,7 +94,7 @@ Output a raw JSON object (no markdown, no explanation):
       if (error) throw error;
 
       await logTelemetry(supabase, this.type, 'SUCCESS', `Market insight stored: ${insight.insight_title}`);
-      return { success: true, message: `Analyzed ${targetUrl}`, data: insight };
+      return { success: true, message: `Analyzed domain: ${domain}`, data: insight };
 
     } catch (e: any) {
       await logTelemetry(supabase, this.type, 'ERROR', `Analysis failed: ${e.message}`);
@@ -443,6 +452,104 @@ Output a RAW JSON array ONLY (no markdown formatting, no explanations):
       await supabase.from('forge_blueprints').update({ status: 'failed' }).eq('id', blueprint.id);
       await logTelemetry(supabase, this.type, 'FATAL', `Construction failed for ${blueprint.name}: ${err.message}`);
       return { success: false, message: `Failed to construct blueprint: ${err.message}` };
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// AGENT 6: Template Architect
+// ═══════════════════════════════════════════════════════
+
+export class TemplateArchitectAgent implements IForgeAgent {
+  name = 'Template Architect';
+  type = 'architect';
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    await logTelemetry(supabase, this.type, 'SCAN', 'Scanning market research for new platform template ideas...');
+
+    try {
+      // 1. Gather recent trends
+      const { data: trends } = await supabase
+        .from('market_research')
+        .select('content')
+        .order('created_at', { ascending: false })
+        .limit(3);
+
+      const trendContext = trends?.map(t => t.content).join('\n---\n') || 'General SaaS patterns';
+
+      // 2. Gather existing template IDs to avoid duplicate concepts (just names)
+      const { data: existingTemplates } = await supabase
+        .from('forge_templates')
+        .select('name, category')
+        .limit(10);
+      
+      const existingContext = existingTemplates
+        ? existingTemplates.map(t => `- ${t.name} (${t.category})`).join('\n')
+        : 'None';
+
+      const prompt = `You are the Template Architect AI in the Crucible Forge.
+Your job is to invent ONE new, highly-demanded software platform template based on recent market trends.
+
+Recent Market Context:
+${trendContext}
+
+Recently built templates to AVOID duplicating exactly:
+${existingContext}
+
+Output a raw JSON object (no markdown, no explanation) representing the new template:
+{
+  "template_id": "unique-kebab-case-id",
+  "name": "Creative Platform Name",
+  "category": "e.g., Development, Security, AI, Data, E-Commerce, etc.",
+  "description": "2-3 sentences describing what the template builds and its value.",
+  "icon": "Lucide icon name (e.g., BrainCircuit, Shield, Database, Cloud, Zap, Fingerprint, Lock, Terminal)",
+  "tier": "Free" | "Pro" | "Enterprise",
+  "complexity": "Low" | "Medium" | "High",
+  "estimated_setup": "e.g., 2-5 minutes",
+  "included_agents": ["Agent1", "Agent2"],
+  "capabilities": ["Capability 1", "Capability 2"],
+  "integrations": ["Integration 1", "Integration 2"]
+}`;
+
+      let text = await generateWithYield(prompt);
+      text = text.replace(/```json/g, '').replace(/```/g, '').trim();
+      const newTemplate = JSON.parse(text);
+
+      // Check if ID already exists
+      const { data: check } = await supabase
+        .from('forge_templates')
+        .select('id')
+        .eq('template_id', newTemplate.template_id)
+        .single();
+
+      if (check) {
+        await logTelemetry(supabase, this.type, 'SKIP', `Template ${newTemplate.template_id} already exists.`);
+        return { success: true, message: `Template ${newTemplate.template_id} exists`, data: null };
+      }
+
+      // 3. Insert into forge_templates
+      const { error } = await supabase.from('forge_templates').insert({
+        template_id: newTemplate.template_id,
+        name: newTemplate.name,
+        category: newTemplate.category,
+        description: newTemplate.description,
+        icon: newTemplate.icon || 'Box',
+        tier: newTemplate.tier || 'Pro',
+        complexity: newTemplate.complexity || 'Medium',
+        estimated_setup: newTemplate.estimated_setup || '5 minutes',
+        included_agents: newTemplate.included_agents || [],
+        capabilities: newTemplate.capabilities || [],
+        integrations: newTemplate.integrations || []
+      });
+
+      if (error) throw error;
+
+      await logTelemetry(supabase, this.type, 'ARCHITECT', `Designed new template: "${newTemplate.name}"`);
+      return { success: true, message: `Created template: ${newTemplate.name}`, data: newTemplate };
+
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Template architecture failed: ${e.message}`);
+      return { success: false, message: e.message };
     }
   }
 }
