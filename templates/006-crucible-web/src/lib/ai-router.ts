@@ -63,16 +63,33 @@ export async function generateText(prompt: string): Promise<string> {
     }
   }
 
-  // 3. OpenRouter (Cycles through Free Models)
+  // 3. OpenRouter (Cycles through Free Models — largest pool first)
   if (openRouterKey) {
     const freeModels = [
+      // DeepSeek — excellent reasoning, free tier
+      'deepseek/deepseek-chat:free',
+      'deepseek/deepseek-r1:free',
+      // Kimi (Moonshot AI) — strong instruction following
+      'moonshotai/moonshot-v1-8k:free',
+      // Meta Llama family
+      'meta-llama/llama-3.1-8b-instruct:free',
       'meta-llama/llama-3-8b-instruct:free',
+      // Mistral family
       'mistralai/mistral-7b-instruct:free',
+      'mistralai/mistral-small-3.1-24b-instruct:free',
+      // Microsoft Phi-3
+      'microsoft/phi-3-mini-128k-instruct:free',
+      'microsoft/phi-3-medium-128k-instruct:free',
+      // Qwen (Alibaba)
       'qwen/qwen-2-7b-instruct:free',
+      'qwen/qwen2.5-7b-instruct:free',
+      // Google Gemma
       'google/gemma-2-9b-it:free',
+      'google/gemma-3-4b-it:free',
+      // Others
+      'nousresearch/hermes-3-llama-3.1-8b:free',
     ];
 
-    // Try a couple of free models before giving up on OpenRouter
     for (const model of freeModels) {
       try {
         console.log(`[ROUTER] Trying OpenRouter ${model}...`);
