@@ -582,7 +582,8 @@ Output a raw JSON object (no markdown, no explanation) representing the new temp
         estimated_setup: newTemplate.estimated_setup || '5 minutes',
         included_agents: newTemplate.included_agents || [],
         capabilities: newTemplate.capabilities || [],
-        integrations: newTemplate.integrations || []
+        integrations: newTemplate.integrations || [],
+        agent_id: this.type
       });
 
       if (error) throw error;
@@ -732,6 +733,16 @@ export class ForgeOverseerAgent implements IForgeAgent {
       const { data: templates } = await supabase.from('forge_templates').select('id, name');
       const { data: blueprints } = await supabase.from('forge_blueprints').select('id, status, name');
 
+      // 2. Identify and RESET failed blueprints (RETRY MECHANISM)
+      const failed = blueprints?.filter(b => b.status === 'failed') || [];
+      if (failed.length > 0) {
+        await logTelemetry(supabase, this.type, 'RECOVER', `Found ${failed.length} failed blueprints. Initiating re-queue...`);
+        for (const b of failed) {
+          await supabase.from('forge_blueprints').update({ status: 'queued' }).eq('id', b.id);
+          await logTelemetry(supabase, this.type, 'RETRY', `Resetting blueprint: ${b.name}`);
+        }
+      }
+
       const prompt = `You are the Forge Overseer.
 You audit the current state of blueprints and templates to suggest maintenance or evolution actions.
 
@@ -742,8 +753,7 @@ Building/Failed: ${blueprints?.filter(b => b.status === 'building' || b.status =
 Output a RAW JSON object (no markdown, no explanation):
 {
   "audit_report": "Summary of platform health",
-  "suggested_maintenance": "e.g., Retry failed blueprints, consolidate templates",
-  "evolution_path": "What is the next big architectural shift?"
+  "suggested_maintenance": "RETRY_SEQUENCE_INITIATED"
 }`;
 
       let text = await generateWithYield(prompt);
@@ -751,10 +761,74 @@ Output a RAW JSON object (no markdown, no explanation):
 
       await logTelemetry(supabase, this.type, 'HEALTH', audit.audit_report);
       
-      return { success: true, message: `Audit complete: ${audit.audit_report.substring(0, 50)}...`, data: audit };
+      return { success: true, message: `Audit complete. Retried ${failed.length} failures.`, data: audit };
 
     } catch (e: any) {
       await logTelemetry(supabase, this.type, 'ERROR', `Overseer audit failed: ${e.message}`);
+      return { success: false, message: e.message };
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// AGENT 10: Stage Manager (Narrative Broadcast)
+// ═══════════════════════════════════════════════════════
+
+export class StageManagerAgent implements IForgeAgent {
+  name = 'Stage Manager';
+  type = 'stage_manager';
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    await logTelemetry(supabase, this.type, 'SCAN', 'Consolidating platform events for holographic broadcast...');
+
+    try {
+      // 1. Gather recent activity
+      const [{ data: events }, { data: assets }, { data: articles }] = await Promise.all([
+        supabase.from('forge_events').select('*').order('created_at', { ascending: false }).limit(10),
+        supabase.from('forged_assets').select('*').order('created_at', { ascending: false }).limit(5),
+        supabase.from('generated_articles').select('*').order('created_at', { ascending: false }).limit(3),
+      ]);
+
+      const context = JSON.stringify({ events, assets, articles });
+
+      const prompt = `You are the Stage Manager AI for Crucible. 
+Your job is to generate a "Holographic Broadcast" — a compelling, industrial-themed update for the platform's social feed.
+Analyze the following platform activity and generate ONE highly engaging update:
+
+ACTIVITY:
+${context}
+
+Rules:
+- Tone: Sci-fi, Industrial, High-Stakes.
+- Content: Describe a recent success or a state shift in the forge.
+- Output a RAW JSON object ONLY:
+{
+  "broadcast_title": "Short catchy title",
+  "content": "1-2 sentences of narrative text",
+  "status": "ACTIVE" | "STABLE" | "CRITICAL",
+  "broadcast_type": "THREAT_SCAN" | "INDEXING" | "INSIGHT" | "SYNC" | "FORGE_UPDATE"
+}`;
+
+      let text = await generateWithYield(prompt);
+      const broadcast = safeParseJSON(text);
+
+      await supabase.from('forge_events').insert({
+        event_type: 'BROADCAST',
+        message: `${broadcast.broadcast_title}: ${broadcast.content}`,
+        agent_id: this.type,
+        metadata: {
+          broadcast_type: broadcast.broadcast_type,
+          status: broadcast.status,
+          title: broadcast.broadcast_title,
+          content: broadcast.content
+        }
+      });
+
+      await logTelemetry(supabase, this.type, 'BROADCAST', `Holographic update deployed: ${broadcast.broadcast_title}`);
+      return { success: true, message: `Broadcasted: ${broadcast.broadcast_title}`, data: broadcast };
+
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Broadcast failed: ${e.message}`);
       return { success: false, message: e.message };
     }
   }

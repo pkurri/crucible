@@ -7,16 +7,40 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
 async function fetchTransmissions(): Promise<Transmission[]> {
-  const { data, error } = await supabase
+  // 1. Fetch from legacy transmissions
+  const { data: trans, error } = await supabase
     .from('transmissions')
     .select('*')
     .order('published_at', { ascending: false });
 
   if (error) {
     console.error('Error fetching transmissions:', error);
-    return [];
   }
-  return data as Transmission[];
+
+  // 2. Fetch from market_research (Agent Insights)
+  const { data: research } = await supabase
+    .from('market_research')
+    .select('*')
+    .order('created_at', { ascending: false })
+    .limit(20);
+
+  const researchTrans: Transmission[] = (research || []).map(r => ({
+    id: r.id,
+    title: r.component_type?.toUpperCase().replace('_', ' ') || 'INTEL REPORT',
+    summary: r.content?.substring(0, 160) + '...',
+    content: r.content,
+    source_type: 'agent',
+    author_name: r.source_url?.includes('intel-manager') ? 'Intel Manager' : 'Market Analyst',
+    agent_id: 'analyst',
+    tags: r.aesthetic_tags || [],
+    published_at: r.created_at
+  }));
+
+  const all = [...(trans || []), ...researchTrans].sort((a, b) => 
+    new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
+  );
+
+  return all as Transmission[];
 }
 
 export default async function IntelPage() {

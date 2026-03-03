@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 type Architect = {
@@ -101,7 +101,17 @@ function StationCard({ architect, index }: { architect: Architect; index: number
 }
 
 export function Conveyor() {
+  const [agents, setAgents] = useState<any[]>([]);
   const scrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    async function fetchAgents() {
+      const res = await fetch('/api/agents/list');
+      const data = await res.json();
+      if (data.agents) setAgents(data.agents);
+    }
+    fetchAgents();
+  }, []);
 
   return (
     <div className="relative">
@@ -115,17 +125,33 @@ export function Conveyor() {
       {/* Horizontal scroll rail */}
       <div
         ref={scrollRef}
-        className="flex gap-5 overflow-x-auto pb-4"
-        style={{ scrollbarWidth: 'thin', scrollbarColor: '#ff8c00 #111' }}
+        className="flex gap-5 overflow-x-auto pb-4 scrollbar-thin scrollbar-track-[#111] scrollbar-thumb-[#ff8c00]/30"
       >
-        {architects.map((a, i) => (
-          <StationCard key={a.id} architect={a} index={i} />
+        {agents.map((agent: any, i: number) => (
+          <StationCard 
+            key={agent.id} 
+            architect={{
+              id: `NODE-${agent.type.toUpperCase()}`,
+              name: agent.name,
+              role: agent.description,
+              station: `STATION-${agent.type.toUpperCase()}`,
+              specialty: agent.capabilities?.[0] || 'Cybernetic Forge',
+              status: agent.status.toUpperCase(),
+              output: `TASK_ID: ${agent.tasks_completed || 0}`
+            }} 
+            index={i} 
+          />
         ))}
+        {agents.length === 0 && (
+          <div className="py-12 px-8 font-mono text-[10px] text-[#222] tracking-widest border border-dashed border-[#1a1a1a] rounded-xl">
+            AWAITING DEPLOYMENT OF AUTONOMOUS NODES...
+          </div>
+        )}
       </div>
 
       {/* Rail indicator lines */}
       <div className="mt-2 flex gap-1">
-        {architects.map((_, i) => (
+        {agents.map((_: any, i: number) => (
           <div key={i} className="h-[2px] flex-1 bg-[#1a1a1a]" />
         ))}
       </div>

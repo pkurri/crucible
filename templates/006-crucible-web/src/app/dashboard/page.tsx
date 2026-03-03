@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   Bot, FileText, Zap, Play, Plus, RefreshCw, TrendingUp,
   Activity, Clock, CheckCircle, AlertCircle, Cpu, Sparkles,
-  BarChart3, Eye, ChevronRight, Radio,
+  BarChart3, Eye, ChevronRight, Radio, Layers
 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 
@@ -18,6 +18,7 @@ interface Agent {
   status: string;
   capabilities: string[];
   tasks_completed: number;
+  templates_forged: number;
   last_active_at: string | null;
   created_at: string;
 }
@@ -78,10 +79,18 @@ export default function CommandCenterPage() {
   };
 
   const fetchAgents = useCallback(async () => {
+    const supabase = getSupabase();
     try {
-      const res = await fetch('/api/agents/list');
-      const data = await res.json();
-      if (data.agents) setAgents(data.agents);
+      const { data: agentData } = await supabase.from('agents_registry').select('*').order('created_at', { ascending: true });
+      const { data: templateData } = await supabase.from('forge_templates').select('agent_id');
+      
+      if (agentData) {
+        const enrichedAgents = agentData.map(a => ({
+          ...a,
+          templates_forged: templateData?.filter(t => t.agent_id === a.type).length || 0
+        }));
+        setAgents(enrichedAgents);
+      }
     } catch { /* silent */ }
   }, []);
 
@@ -282,7 +291,7 @@ export default function CommandCenterPage() {
               <h2 className="font-mono text-sm text-[#888] uppercase tracking-widest">Active Agents</h2>
             </div>
 
-            <div className="space-y-3">
+            <div className="space-y-3 max-h-[700px] overflow-y-auto pr-2 scrollbar-thin scrollbar-track-[#0a0a0c] scrollbar-thumb-[#222]">
               <AnimatePresence>
                 {agents.map((agent, i) => {
                   const color = STATUS_COLORS[agent.status] || '#555';
@@ -315,9 +324,15 @@ export default function CommandCenterPage() {
                       <p className="text-[#444] font-mono text-[10px] leading-relaxed mb-3 line-clamp-2">{agent.description}</p>
 
                       <div className="flex items-center justify-between pt-2 border-t border-[#111]">
-                        <div className="flex items-center gap-1 text-[#333]">
-                          <CheckCircle className="w-3 h-3" />
-                          <span className="font-mono text-[10px]">{agent.tasks_completed || 0} tasks</span>
+                        <div className="flex items-center gap-3">
+                          <div className="flex items-center gap-1 text-[#333]">
+                            <CheckCircle className="w-3 h-3" />
+                            <span className="font-mono text-[10px]">{agent.tasks_completed || 0} tasks</span>
+                          </div>
+                          <div className="flex items-center gap-1 text-[#333]">
+                            <Layers className="w-3 h-3" />
+                            <span className="font-mono text-[10px]">{agent.templates_forged || 0} templates</span>
+                          </div>
                         </div>
                         <span className="font-mono text-[10px] text-[#333]">{timeAgo(agent.last_active_at)}</span>
                       </div>

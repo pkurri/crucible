@@ -2,13 +2,7 @@
 
 import { useRef, useEffect, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-
-const STATS = [
-  { value: 8, label: 'FORGE ROUTES', suffix: '', color: '#ff8c00' },
-  { value: 3, label: 'LIVE 3D SCENES', suffix: '', color: '#ff8c00' },
-  { value: 2, label: 'REALTIME CHANNELS', suffix: '', color: '#ff8c00' },
-  { value: 100, label: 'SSR COMPATIBLE', suffix: '%', color: '#00ff88' },
-];
+import { supabase } from '@/lib/supabase';
 
 function CountUp({ to, suffix, color, active }: { to: number; suffix: string; color: string; active: boolean }) {
   const [count, setCount] = useState(0);
@@ -42,6 +36,28 @@ function CountUp({ to, suffix, color, active }: { to: number; suffix: string; co
 export function StatsCounter() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-60px' });
+  const [stats, setStats] = useState([
+    { value: 0, label: 'FORGE TEMPLATES', suffix: '', color: '#ff8c00' },
+    { value: 0, label: 'ACTIVE AGENTS', suffix: '', color: '#ff8c00' },
+    { value: 0, label: 'FORGED ASSETS', suffix: '', color: '#ff8c00' },
+    { value: 100, label: 'AUTONOMY YIELD', suffix: '%', color: '#00ff88' },
+  ]);
+
+  useEffect(() => {
+    async function fetchStats() {
+      const { count: tplCount } = await supabase.from('forge_templates').select('*', { count: 'exact', head: true });
+      const { count: agentCount } = await supabase.from('agents_registry').select('*', { count: 'exact', head: true });
+      const { count: assetCount } = await supabase.from('forged_assets').select('*', { count: 'exact', head: true });
+
+      setStats([
+        { value: tplCount || 0, label: 'FORGE TEMPLATES', suffix: '', color: '#ff8c00' },
+        { value: agentCount || 0, label: 'ACTIVE AGENTS', suffix: '', color: '#ff8c00' },
+        { value: assetCount || 0, label: 'FORGED ASSETS', suffix: '', color: '#ff8c00' },
+        { value: 100, label: 'AUTONOMY YIELD', suffix: '%', color: '#00ff88' },
+      ]);
+    }
+    fetchStats();
+  }, []);
 
   return (
     <section
@@ -49,7 +65,7 @@ export function StatsCounter() {
       className="border-y border-[#1a1a1a] bg-[#050505] py-16"
     >
       <div className="max-w-5xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-px bg-[#0f0f0f]">
-        {STATS.map((stat, i) => (
+        {stats.map((stat, i) => (
           <motion.div
             key={stat.label}
             initial={{ opacity: 0, y: 20 }}

@@ -15,6 +15,7 @@ import {
   BlueprintSpawnerAgent,
   IntelManagerAgent,
   ForgeOverseerAgent,
+  StageManagerAgent,
   IForgeAgent,
 } from './agent-definitions.js';
 
@@ -31,6 +32,7 @@ const AGENTS: IForgeAgent[] = [
   new AgentSpawnerAgent(),
   new IntelManagerAgent(),
   new ForgeOverseerAgent(),
+  new StageManagerAgent(),
 ];
 
 let cycleCount = 0;

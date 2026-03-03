@@ -3,22 +3,36 @@
 import { useState, useEffect } from 'react';
 import { getSupabase } from '@/lib/supabase';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Shield, Eye, Box, Code, Cpu, Activity, Zap, Layers, Network, Fingerprint, Database, Rocket } from 'lucide-react';
+import { Shield, Eye, Box, Code, Cpu, Activity, Zap, Layers, Network, Fingerprint, Database, Rocket, Bot } from 'lucide-react';
 
 export default function FoundrySwarmPage() {
-  const [activeAgent, setActiveAgent] = useState('api-gateway-builder');
-  
-  const [agents, setAgents] = useState([
-    { id: 'api-gateway-builder', name: 'API Gateway', role: 'Infrastructure Architect', status: 'Routing external traffic to microservices...', heat: '3200°C', color: '#ff8c00', bg: 'bg-[#ff8c00]/10', icon: Layers },
-    { id: 'review-clean-code', name: 'Code Reviewer', role: 'Quality Assurance', status: 'Scanning AST for cyclomatic complexity...', heat: '1400°C', color: '#3b82f6', bg: 'bg-[#3b82f6]/10', icon: Shield },
-    { id: 'cloud-optimizer', name: 'Cloud Optimizer', role: 'Database Engineer', status: 'Tuning indexing and connection pools...', heat: '8000°C', color: '#a855f7', bg: 'bg-[#a855f7]/10', icon: Database },
-    { id: 'ml-deployment', name: 'ML Deployer', role: 'AI Infrastructure', status: 'Loading tensor weights into edge VRAM...', heat: '3500°C', color: '#00ff88', bg: 'bg-[#00ff88]/10', icon: Zap },
-    { id: 'kubernetes-mgr', name: 'K8s Manager', role: 'Deployment Frame', status: 'Hardening edge containers & pods...', heat: '1600°C', color: '#94a3b8', bg: 'bg-[#94a3b8]/10', icon: Box },
-    { id: 'e-commerce', name: 'E-Commerce Agent', role: 'Product Engineer', status: 'Igniting checkout sequence build...', heat: '6000°C', color: '#ff3333', bg: 'bg-[#ff3333]/10', icon: Rocket }
-  ]);
+  const [activeAgent, setActiveAgent] = useState<string | null>(null);
+  const [agents, setAgents] = useState<any[]>([]);
 
   useEffect(() => {
     const supabase = getSupabase();
+
+    const fetchAgents = async () => {
+      const { data: agentData } = await supabase.from('agents_registry').select('*');
+      const { data: templateData } = await supabase.from('forge_templates').select('agent_id');
+      
+      if (agentData) {
+        setAgents(agentData.map((a, idx) => ({
+          id: a.id,
+          name: a.name,
+          role: a.type,
+          status: a.description?.substring(0, 50) + '...',
+          heat: `${Math.floor(Math.random() * 6000 + 4000)}°C`,
+          color: ['#ff8c00', '#3b82f6', '#a855f7', '#00ff88', '#94a3b8', '#ff3333'][idx % 6],
+          icon: [Layers, Shield, Database, Zap, Box, Rocket][idx % 6],
+          templates_forged: templateData?.filter(t => t.agent_id === a.type).length || 0,
+          assets_built: a.tasks_completed || 0
+        })));
+        if (agentData.length > 0) setActiveAgent(agentData[0].id);
+      }
+    };
+
+    fetchAgents();
 
     const channel = supabase.channel('agents-feed')
       .on(
@@ -28,7 +42,7 @@ export default function FoundrySwarmPage() {
            const { event_type, message } = payload.new;
            
            setAgents(prev => {
-             // Let the swarm dynamically react to live backend telemetry
+             if (prev.length === 0) return prev;
              const randomIndex = Math.floor(Math.random() * prev.length);
              const targetId = prev[randomIndex].id;
              setActiveAgent(targetId);
@@ -190,9 +204,19 @@ export default function FoundrySwarmPage() {
                         <div className="font-mono text-[9px] text-[#555] h-8 leading-tight">
                           {agent.status}
                         </div>
-                        <div className="mt-2 pt-2 border-t border-[#222] flex justify-between items-center">
-                           <span className="font-mono text-[9px] uppercase text-[#666]">Core Temp:</span>
-                           <span className="font-mono text-[10px] font-bold" style={{ color: agent.color }}>{agent.heat}</span>
+                        <div className="mt-2 pt-2 border-t border-[#222] flex flex-col gap-1">
+                           <div className="flex justify-between items-center">
+                              <span className="font-mono text-[9px] uppercase text-[#666]">Templates Forged:</span>
+                              <span className="font-mono text-[10px] font-bold text-white">{agent.templates_forged || 0}</span>
+                           </div>
+                           <div className="flex justify-between items-center">
+                              <span className="font-mono text-[9px] uppercase text-[#666]">Assets Built:</span>
+                              <span className="font-mono text-[10px] font-bold text-white">{agent.assets_built || 0}</span>
+                           </div>
+                           <div className="flex justify-between items-center mt-1">
+                              <span className="font-mono text-[9px] uppercase text-[#666]">Core Temp:</span>
+                              <span className="font-mono text-[10px] font-bold" style={{ color: agent.color }}>{agent.heat}</span>
+                           </div>
                         </div>
                      </motion.div>
                    </div>

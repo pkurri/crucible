@@ -252,9 +252,16 @@ function TemplateCard({
       <div className="absolute inset-0 bg-gradient-to-br from-[#ff8c00]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
       
       <div className="flex justify-between items-start mb-6 relative z-10">
-        <span className="font-mono text-[#ff8c00] font-bold text-sm tracking-wider">
-          TPL-{template.template_id}
-        </span>
+        <div className="flex flex-col gap-1">
+          <span className="font-mono text-[#ff8c00] font-bold text-sm tracking-wider">
+            TPL-{template.template_id}
+          </span>
+          {template.agent_id && (
+            <span className="font-mono text-[9px] text-[#555] flex items-center gap-1 uppercase tracking-tighter">
+              <Bot className="w-2.5 h-2.5" /> Forged by {template.agent_id}
+            </span>
+          )}
+        </div>
         <span className="text-[9px] font-mono top-right tracking-widest px-2 py-1 bg-[#111] text-[#666] border border-[#222] rounded group-hover:bg-[#ff8c00]/10 group-hover:text-[#ff8c00] group-hover:border-[#ff8c00]/20 transition-colors">
           {template.category.toUpperCase()}
         </span>

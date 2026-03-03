@@ -1,67 +1,60 @@
-"use client";
-
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Eye, Flame, Hexagon, Rocket, ExternalLink, TerminalSquare, Copy, Activity, Radiation, Hammer } from 'lucide-react';
-
-const forgedProjects = [
-  {
-    title: 'Context Resonance Configurator',
-    description: 'Visual debugger for Swarm Engineers. Inspect context weight algorithms and token density gradients.',
-    status: 'FORGED',
-    agent: 'Forged by Carbon',
-    time: '5m'
-  },
-  {
-    title: 'CI/CD Slag Filter API',
-    description: 'Automated health metric for external node repos. Purges deprecated dependencies dynamically.',
-    status: 'FORGED',
-    agent: 'Forged by Cobalt',
-    time: '5m'
-  },
-  {
-    title: 'Directive Armor Plating',
-    description: 'Intercepts injection vectors, computes risk scores, and solidifies edge cases in system directives.',
-    status: 'FORGED',
-    agent: 'Forged by Tungsten',
-    time: '6m'
-  },
-  {
-    title: 'DREAM Stress Tester',
-    description: 'The first composable platform for stress-testing agentic reasoning engines before final deployment.',
-    status: 'FORGED',
-    agent: 'Forged by Ignis',
-    time: '5m'
-  },
-  {
-    title: 'Infra Blueprint Matrix',
-    description: 'Immutable database of architectural decisions extracted from top-tier structural engineers.',
-    status: 'FORGED',
-    agent: 'Forged by Titanium',
-    time: '7m'
-  },
-  {
-    title: 'VLM Retina Calibrator',
-    description: 'Select the optimal Vision-Language model core based on latency budgets and thermal limits.',
-    status: 'FORGED',
-    agent: 'Forged by Plasma',
-    time: '6m'
-  }
-];
-
-const trackingAnomalies = [
-  { title: 'Ticket Closeout Protocol', desc: 'MSP external nodes struggling to enforce closeout compliance cycles.', resonance: 20, signals: 9 },
-  { title: 'Retail Node Bootstrap Kit', desc: 'Redundant processing cycles wasted on explaining basic template deployment.', resonance: 20, signals: 1 },
-  { title: 'Certification Expiry Scheduler', desc: 'Contractor protocols require periodic certificate renewal reminders.', resonance: 20, signals: 1 },
-];
-
-const swarmLog = [
-  { action: 'Anomaly Detected: Node 3.3', time: '1h ago', icon: Radiation, color: 'text-[#ff3333]' },
-  { action: 'GhostTrack Polling Service', time: '11h ago', icon: Activity, color: 'text-[#00ff88]' },
-  { action: 'OpenEHR Sync Protocol', time: '11h ago', icon: Hammer, color: 'text-[#ff8c00]' },
-  { action: 'Deep Space Supplier Intelligence', time: '12h ago', icon: Eye, color: 'text-[#3b82f6]' },
-];
+import { supabase } from '@/lib/supabase';
 
 export default function SeismicScannerPage() {
+  const [forgedProjects, setForgedProjects] = useState<any[]>([]);
+  const [trackingAnomalies, setTrackingAnomalies] = useState<any[]>([]);
+  const [swarmLog, setSwarmLog] = useState<any[]>([]);
+  const [forgedCount, setForgedCount] = useState(0);
+  const [trackingCount, setTrackingCount] = useState(0);
+
+  useEffect(() => {
+    async function fetchData() {
+      // 1. Fetch Forged Assets
+      const { data: assets } = await supabase.from('forged_assets').select('*').order('created_at', { ascending: false }).limit(6);
+      if (assets) {
+        setForgedProjects(assets.map(a => ({
+          title: a.asset_name,
+          description: `Autonomous asset generated for ${a.blueprint_id}. Type: ${a.asset_type}`,
+          status: 'FORGED',
+          agent: 'Forged by AI',
+          time: '1m'
+        })));
+      }
+
+      // 2. Fetch Market Anomalies (Market Research)
+      const { data: research } = await supabase.from('market_research').select('*').order('created_at', { ascending: false }).limit(3);
+      if (research) {
+        setTrackingAnomalies(research.map(r => ({
+          title: r.component_type?.toUpperCase().replace('_', ' ') || 'SIGNAL DETECTED',
+          desc: r.content?.substring(0, 100) + '...',
+          resonance: Math.floor(Math.random() * 40) + 60,
+          signals: Math.floor(Math.random() * 10) + 1
+        })));
+      }
+
+      // 3. Fetch Swarm Logs (Events)
+      const { data: events } = await supabase.from('forge_events').select('*').order('created_at', { ascending: false }).limit(6);
+      if (events) {
+        setSwarmLog(events.map(e => ({
+          action: e.message,
+          time: new Date(e.created_at).toLocaleTimeString(),
+          icon: e.event_type === 'ERROR' ? Radiation : Activity,
+          color: e.event_type === 'ERROR' ? 'text-[#ff3333]' : 'text-[#00ff88]'
+        })));
+      }
+
+      // 4. Counts
+      const { count: fCount } = await supabase.from('forged_assets').select('*', { count: 'exact', head: true });
+      const { count: tCount } = await supabase.from('market_research').select('*', { count: 'exact', head: true });
+      setForgedCount(fCount || 0);
+      setTrackingCount(tCount || 0);
+    }
+
+    fetchData();
+  }, []);
   return (
     <div className="min-h-screen pt-24 pb-24 bg-[#050505] selection:bg-[#ff8c00]/30 relative overflow-hidden">
       
