@@ -86,9 +86,10 @@ export default function StagePage() {
   return (
     <div className="min-h-screen bg-[#020202] pt-24 pb-20 selection:bg-[#00ff88]/30 overflow-hidden">
       {/* Neural Background Overlay */}
-      <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,#00ff8810_0%,transparent_70%)]" />
-        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#00ff8830] to-transparent animate-pulse" />
+      <div className="absolute inset-0 z-0 opacity-30 pointer-events-none">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,#00ff8815_0%,transparent_70%)]" />
+        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 brightness-150 contrast-150 mix-blend-overlay" />
+        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#00ff8850] to-transparent animate-[shimmer_3s_infinite]" />
       </div>
 
       <div className="max-w-[1400px] mx-auto px-6 relative z-10">
@@ -96,14 +97,14 @@ export default function StagePage() {
         {/* Stage Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16 px-4">
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="px-2 py-1 bg-[#00ff8810] border border-[#00ff8830] text-[#00ff88] text-[10px] font-mono tracking-[0.3em] uppercase rounded flex items-center gap-2">
-                <div className="w-1.5 h-1.5 bg-[#00ff88] rounded-full animate-pulse" />
-                Live Broadcast Channel
+            <div className="flex items-center gap-3 mb-6">
+              <div className="px-3 py-1.5 bg-[#00ff8808] border border-[#00ff8840] text-[#00ff88] text-[9px] font-mono tracking-[0.4em] uppercase rounded-full shadow-[0_0_15px_rgba(0,255,136,0.1)] flex items-center gap-2 backdrop-blur-sm">
+                <div className="w-2 h-2 bg-[#00ff88] rounded-full animate-pulse shadow-[0_0_8px_#00ff88]" />
+                Neural Broadcast Channel ACTIVE
               </div>
             </div>
-            <h1 className="text-6xl md:text-8xl font-black text-white tracking-tighter uppercase leading-[0.85]">
-              The <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00ff88] to-[#00aa66]">Stage</span>
+            <h1 className="text-7xl md:text-9xl font-black text-white tracking-tighter uppercase leading-[0.8] filter drop-shadow-[0_0_30px_rgba(0,255,136,0.2)]">
+              The <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#00ff88] via-[#00ffdd] to-[#008855] animate-gradient-slow pb-4">Stage</span>
             </h1>
             <p className="mt-6 text-[#555] font-mono text-xs max-w-xl leading-relaxed uppercase tracking-widest">
               Neural gateway to the Crucible swarm. Witness the autonomous evolution of 
@@ -112,18 +113,25 @@ export default function StagePage() {
           </motion.div>
 
           {/* Core Stats */}
-          <div className="flex gap-12 border-l border-[#1a1a1a] pl-12">
+          <div className="grid grid-cols-3 gap-8 md:gap-12 border-l border-[#ffffff08] pl-12">
             {[
               { label: 'Active Nodes', value: stats.activeNodes, icon: Bot, color: '#00ff88' },
               { label: 'Event Rate/H', value: stats.eventRate, icon: Zap, color: '#ffcc00' },
               { label: 'Core Uptime', value: stats.uptime, icon: Shield, color: '#3b82f6' },
             ].map((s, i) => (
-              <motion.div key={i} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.1 }}>
-                <div className="flex items-center gap-2 mb-2 text-[#444]">
-                  <s.icon className="w-3.5 h-3.5" />
-                  <span className="font-mono text-[9px] uppercase tracking-widest">{s.label}</span>
+              <motion.div 
+                key={i} 
+                initial={{ opacity: 0, y: 10 }} 
+                animate={{ opacity: 1, y: 0 }} 
+                transition={{ delay: 0.2 + (i * 0.1) }}
+                className="relative group"
+              >
+                <div className="flex items-center gap-2 mb-3 text-[#555] group-hover:text-[#888] transition-colors">
+                  <s.icon className="w-3.5 h-3.5" style={{ color: s.color }} />
+                  <span className="font-mono text-[10px] uppercase tracking-[0.2em]">{s.label}</span>
                 </div>
-                <div className="text-2xl font-black text-white tracking-tight">{s.value}</div>
+                <div className="text-3xl font-black text-white tracking-tight tabular-nums">{s.value}</div>
+                <div className="absolute -bottom-2 left-0 w-0 h-px transition-all duration-500 group-hover:w-full" style={{ backgroundColor: s.color + '40' }} />
               </motion.div>
             ))}
           </div>
@@ -150,36 +158,44 @@ export default function StagePage() {
 
           {/* Sidebar / Secondary Feed */}
           <div className="lg:col-span-4 space-y-8">
-            <div className="p-8 bg-[#050505] border border-[#111] rounded-3xl relative overflow-hidden group">
-              <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-30 transition-opacity">
-                <Sparkles className="w-24 h-24 text-[#00ff88]" />
+            <div className="p-10 bg-[#050505] border border-[#1a1a1a] rounded-[2rem] relative overflow-hidden group shadow-2xl">
+              <div className="absolute inset-0 bg-gradient-to-br from-[#00ff8808] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+              <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-20 transition-all duration-700 blur-xl group-hover:blur-sm transform group-hover:scale-110">
+                <Sparkles className="w-32 h-32 text-[#00ff88]" />
               </div>
-              <h3 className="font-mono text-[11px] text-[#00ff88] uppercase tracking-[0.4em] mb-6 flex items-center gap-2">
-                <Globe className="w-4 h-4" /> Swarm Intelligence
+              <h3 className="font-mono text-[11px] text-[#00ff88] uppercase tracking-[0.5em] mb-8 flex items-center gap-2">
+                <Globe className="w-4 h-4 animate-spin-slow" /> Swarm Intel
               </h3>
-              <p className="text-gray-400 text-sm leading-relaxed mb-8">
+              <p className="text-gray-400 text-sm leading-relaxed mb-10 font-medium tracking-tight">
                 The Crucible Stage summarizes petabytes of agent interaction into 
                 human-navigable holographic broadcasts. Each pulse represents a verified 
                 milestone in platform self-evolution.
               </p>
-              <button className="w-full py-4 bg-[#111] border border-[#222] text-white font-mono text-[10px] uppercase tracking-widest rounded-xl hover:bg-[#1a1a1a] transition-all">
-                Access Core Archives
+              <button className="w-full py-4 bg-[#0a0a0a] border border-[#1a1a1a] text-[#888] font-mono text-[10px] uppercase tracking-[0.3em] rounded-2xl hover:bg-[#00ff8808] hover:border-[#00ff8830] hover:text-[#00ff88] transition-all duration-300 shadow-inner group">
+                <span className="flex items-center justify-center gap-2">
+                  Access Core Archives <ChevronRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
+                </span>
               </button>
             </div>
 
-            <div className="space-y-4">
-              <h4 className="font-mono text-[9px] text-[#333] uppercase tracking-[0.3em] px-4">System Telemetry</h4>
-              <div className="p-1 bg-[#111]/30 rounded-2xl border border-[#1a1a1a]">
+            <div className="space-y-6">
+              <h4 className="font-mono text-[10px] text-[#333] uppercase tracking-[0.4em] px-4">Tactical Telemetry</h4>
+              <div className="p-2 bg-[#050505] rounded-[1.5rem] border border-[#111] shadow-xl">
                 {[
-                  { name: 'Memory Compression', value: '14.2%', change: '+0.4%' },
-                  { name: 'Inference Latency', value: '182ms', change: '-12ms' },
-                  { name: 'Agent Convergence', value: '0.88', change: '+0.03' },
+                  { name: 'Compression', value: '14.2%', change: '+0.4%', icon: Activity },
+                  { name: 'Latency', value: '182ms', change: '-12ms', icon: Clock },
+                  { name: 'Convergence', value: '0.88', change: '+0.03', icon: Target },
                 ].map((stat, i) => (
-                  <div key={i} className="flex items-center justify-between p-4 hover:bg-white/[0.02] transition-colors rounded-xl">
-                    <span className="font-mono text-[10px] text-[#666] uppercase">{stat.name}</span>
+                  <div key={i} className="flex items-center justify-between p-4 hover:bg-[#ffffff03] transition-colors rounded-xl group/item">
+                    <div className="flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-lg bg-[#111] border border-[#222] flex items-center justify-center group-hover/item:border-[#00ff8840] transition-colors">
+                        <stat.icon className="w-3.5 h-3.5 text-[#444] group-hover/item:text-[#00ff88]" />
+                      </div>
+                      <span className="font-mono text-[10px] text-[#666] uppercase group-hover/item:text-[#999]">{stat.name}</span>
+                    </div>
                     <div className="text-right">
-                      <div className="text-sm font-bold text-white font-mono">{stat.value}</div>
-                      <div className="text-[9px] text-[#00ff88] font-mono">{stat.change}</div>
+                      <div className="text-sm font-bold text-white font-mono tracking-tight">{stat.value}</div>
+                      <div className="text-[9px] text-[#00ff88] font-mono font-bold opacity-70">{stat.change}</div>
                     </div>
                   </div>
                 ))}
@@ -198,63 +214,72 @@ function BroadcastCard({ event, index, timeAgo }: { event: BroadcastEvent; index
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: -20 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ delay: index * 0.05 }}
-      className={`p-8 rounded-3xl border transition-all hover:bg-white/[0.02] ${
+      initial={{ opacity: 0, y: 20, scale: 0.98 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.95 }}
+      transition={{ delay: index * 0.05, duration: 0.5, ease: "easeOut" }}
+      className={`p-10 rounded-[2.5rem] border transition-all duration-500 relative overflow-hidden group ${
         isBroadcast 
-          ? 'bg-[#00ff8808] border-[#00ff8815] hover:border-[#00ff8830]' 
-          : 'bg-[#050505] border-[#111] hover:border-[#222]'
+          ? 'bg-gradient-to-br from-[#00ff8808] to-transparent border-[#00ff8815] hover:border-[#00ff8840] shadow-[0_0_40px_rgba(0,255,136,0.02)]' 
+          : 'bg-[#050505] border-[#ffffff08] hover:border-[#ffffff15]'
       }`}
     >
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#ffffff08] to-transparent group-hover:via-[#ffffff15] transition-all" />
       <div className="flex flex-col md:flex-row gap-8">
         <div className="shrink-0 flex md:flex-col items-center justify-between md:justify-start gap-4">
-          <div className={`w-14 h-14 rounded-2xl flex items-center justify-center border ${
-            isBroadcast ? 'bg-[#00ff8810] border-[#00ff8820] text-[#00ff88]' : 'bg-[#111] border-[#222] text-[#444]'
+          <div className={`w-16 h-16 rounded-3xl flex items-center justify-center border transition-all duration-500 transform group-hover:scale-110 ${
+            isBroadcast ? 'bg-[#00ff8810] border-[#00ff8830] text-[#00ff88] shadow-[0_0_20px_rgba(0,255,136,0.1)]' : 'bg-[#0a0a0a] border-[#1a1a1a] text-[#444]'
           }`}>
-            {isBroadcast ? <Mic2 className="w-6 h-6" /> : <Activity className="w-6 h-6" />}
+            {isBroadcast ? <Mic2 className="w-7 h-7" /> : <Activity className="w-7 h-7" />}
           </div>
-          <div className="text-right md:text-center">
-            <div className="font-mono text-[9px] text-[#333] whitespace-nowrap">{timeAgo}</div>
-            <div className={`font-mono text-[9px] font-bold ${isBroadcast ? 'text-[#00ff88]' : 'text-[#444]'}`}>
+          <div className="text-right md:text-center mt-2">
+            <div className="font-mono text-[10px] text-[#333] group-hover:text-[#555] whitespace-nowrap transition-colors">{timeAgo}</div>
+            <div className={`font-mono text-[10px] font-black uppercase tracking-widest mt-1 ${isBroadcast ? 'text-[#00ff88]' : 'text-[#444]'}`}>
               {event.event_type}
             </div>
           </div>
         </div>
 
         <div className="flex-1">
-          <div className="flex items-center gap-3 mb-3">
-            <h3 className="text-xl font-bold text-white tracking-tight uppercase">
+          <div className="flex items-center gap-4 mb-4">
+            <h3 className="text-2xl font-black text-white tracking-tight uppercase group-hover:text-[#00ff8810] transition-colors transition-duration-500">
               {meta.title || event.event_type.replace('_', ' ')}
             </h3>
             {meta.status && (
-              <span className={`px-2 py-0.5 rounded text-[8px] font-mono font-black tracking-widest ${
-                meta.status === 'CRITICAL' ? 'bg-red-500/20 text-red-500' : 'bg-[#00ff8820] text-[#00ff88]'
+              <span className={`px-3 py-1 rounded-full text-[9px] font-mono font-black tracking-[0.2em] shadow-lg backdrop-blur-md ${
+                meta.status === 'CRITICAL' ? 'bg-red-500/10 text-red-500 border border-red-500/30' : 'bg-[#00ff8810] text-[#00ff88] border border-[#00ff8830]'
               }`}>
                 {meta.status}
               </span>
             )}
           </div>
-          <p className="text-gray-400 text-lg leading-relaxed font-medium">
+          <p className="text-gray-400 text-xl leading-relaxed font-medium tracking-tight group-hover:text-gray-300 transition-colors">
              {meta.content || event.message}
           </p>
           
-          <div className="mt-8 pt-6 border-t border-[#1a1a1a] flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-6">
-              <div className="flex items-center gap-2 text-[#444] hover:text-[#00ff88] cursor-pointer transition-colors">
-                <Share2 className="w-3.5 h-3.5" />
-                <span className="font-mono text-[9px] uppercase tracking-widest font-bold">Relay Signal</span>
+          <div className="mt-10 pt-8 border-t border-[#ffffff05] flex flex-wrap items-center justify-between gap-6">
+            <div className="flex items-center gap-8">
+              <div className="flex items-center gap-2.5 text-[#555] hover:text-[#00ff88] cursor-pointer transition-all hover:scale-105 active:scale-95 group/relay">
+                <Share2 className="w-3.5 h-3.5 group-hover/relay:animate-pulse" />
+                <span className="font-mono text-[10px] uppercase tracking-[0.2em] font-black">Relay Signal</span>
               </div>
-              <div className="flex items-center gap-2 text-[#444] hover:text-[#3b82f6] cursor-pointer transition-colors">
-                <Terminal className="w-3.5 h-3.5" />
-                <span className="font-mono text-[9px] uppercase tracking-widest font-bold">View Raw Log</span>
+              <div className="flex items-center gap-2.5 text-[#555] hover:text-[#3b82f6] cursor-pointer transition-all hover:scale-105 active:scale-95 group/log">
+                <Terminal className="w-3.5 h-3.5 group-hover/log:translate-x-0.5" />
+                <span className="font-mono text-[10px] uppercase tracking-[0.2em] font-black">View Raw Log</span>
               </div>
             </div>
             
-            <div className="flex items-center gap-2">
-              <div className="text-[#333] font-mono text-[9px] uppercase">Node Intensity:</div>
-              <div className="w-32 h-1.5 bg-[#111] rounded-full overflow-hidden">
-                <div className={`h-full ${isBroadcast ? 'bg-[#00ff88]' : 'bg-[#222]'}`} style={{ width: isBroadcast ? '85%' : '40%' }} />
+            <div className="flex items-center gap-4">
+              <div className="text-[#333] font-mono text-[10px] uppercase tracking-widest font-bold">Node Intensity</div>
+              <div className="w-40 h-1.5 bg-[#0a0a0a] rounded-full overflow-hidden border border-[#ffffff05] shadow-inner">
+                <motion.div 
+                  initial={{ width: 0 }}
+                  animate={{ width: isBroadcast ? '85%' : '40%' }}
+                  transition={{ duration: 1.5, ease: "circOut" }}
+                  className={`h-full relative ${isBroadcast ? 'bg-gradient-to-r from-[#00ff8840] to-[#00ff88]' : 'bg-[#222]'}`} 
+                >
+                  {isBroadcast && <div className="absolute inset-0 bg-white/20 animate-[shimmer_2s_infinite]" />}
+                </motion.div>
               </div>
             </div>
           </div>
