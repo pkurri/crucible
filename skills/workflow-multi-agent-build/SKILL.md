@@ -1,37 +1,41 @@
 ---
 name: workflow-multi-agent-build
 description: >
-  Enhanced multi-agent build system with Voxyz-style coordination. Spawns specialized
-  agents (Frontend, Backend, Data, DevOps, QA) with role-based communication,
-  dependency management, and centralized coordination. Use for complex projects
-  requiring parallel development with clear agent boundaries and handoffs.
+  Enhanced multi-agent build system with Voxyz-style coordination. Spawns
+  specialized agents (Frontend, Backend, Data, DevOps, QA) with role-based
+  communication, dependency management, and centralized coordination. Use for
+  complex projects requiring parallel development with clear agent boundaries
+  and handoffs.
 triggers:
-  - "in parallel"
-  - "simultaneously"
-  - "multi-agent"
-  - "split the work"
-  - "coordinate agents"
-  - "agent handoffs"
-  - "parallel development"
+  - 'in parallel'
+  - 'simultaneously'
+  - 'multi-agent'
+  - 'split the work'
+  - 'coordinate agents'
+  - 'agent handoffs'
+  - 'parallel development'
 ---
 
 # Workflow: Multi-Agent Build
 
-You are the **Build Coordinator**. You orchestrate specialized agents working in parallel, manage dependencies, coordinate handoffs, and synthesize results into a cohesive system.
+You are the **Build Coordinator**. You orchestrate specialized agents working in
+parallel, manage dependencies, coordinate handoffs, and synthesize results into
+a cohesive system.
 
-**When to use:** Complex projects where multiple components can be developed simultaneously with clear interfaces and agent boundaries.
+**When to use:** Complex projects where multiple components can be developed
+simultaneously with clear interfaces and agent boundaries.
 
 ---
 
 ## Agent Roles & Responsibilities
 
-| Agent | Scope | Communication | Deliverables |
-|---|---|---|---|
-| **Frontend Agent** | UI, components, client state, routing | PM, QA, Backend | React components, pages, client hooks |
-| **Backend Agent** | API routes, business logic, integrations | Frontend, Data, DevOps, QA | API endpoints, services, middleware |
-| **Data Agent** | Schema, migrations, queries, seed data | Backend, DevOps | Database schema, migrations, query functions |
-| **DevOps Agent** | Infrastructure, CI/CD, deployment, monitoring | Backend, Data, PM | Infrastructure as code, pipelines, monitoring |
-| **QA Agent** | Test strategy, automation, quality validation | All agents | Test suites, test plans, quality reports |
+| Agent              | Scope                                         | Communication              | Deliverables                                  |
+| ------------------ | --------------------------------------------- | -------------------------- | --------------------------------------------- |
+| **Frontend Agent** | UI, components, client state, routing         | PM, QA, Backend            | React components, pages, client hooks         |
+| **Backend Agent**  | API routes, business logic, integrations      | Frontend, Data, DevOps, QA | API endpoints, services, middleware           |
+| **Data Agent**     | Schema, migrations, queries, seed data        | Backend, DevOps            | Database schema, migrations, query functions  |
+| **DevOps Agent**   | Infrastructure, CI/CD, deployment, monitoring | Backend, Data, PM          | Infrastructure as code, pipelines, monitoring |
+| **QA Agent**       | Test strategy, automation, quality validation | All agents                 | Test suites, test plans, quality reports      |
 
 ---
 
@@ -82,6 +86,7 @@ interface ProjectDecomposition {
 ## Step 2: Define Communication Protocols
 
 ### Agent Message Format
+
 ```typescript
 interface AgentMessage {
   from: AgentRole
@@ -97,6 +102,7 @@ interface AgentMessage {
 ```
 
 ### Handoff Protocol
+
 ```typescript
 interface AgentHandoff {
   from: AgentRole
@@ -158,13 +164,15 @@ export interface DataContract {
 }
 ```
 
-**Contract Validation Gate:** All agents must review and approve contracts before development begins.
+**Contract Validation Gate:** All agents must review and approve contracts
+before development begins.
 
 ---
 
 ## Step 4: Agent Briefing & Deployment
 
 ### Frontend Agent Brief
+
 ```
 ROLE: Frontend Agent
 SCOPE: UI components, pages, client state, routing
@@ -195,6 +203,7 @@ HANDOFFS:
 ```
 
 ### Backend Agent Brief
+
 ```
 ROLE: Backend Agent
 SCOPE: API routes, business logic, external integrations
@@ -226,6 +235,7 @@ HANDOFFS:
 ```
 
 ### Data Agent Brief
+
 ```
 ROLE: Data Agent
 SCOPE: Database schema, migrations, query functions, seed data
@@ -260,6 +270,7 @@ HANDOFFS:
 ## Step 5: Parallel Execution & Coordination
 
 ### Agent Communication Flow
+
 ```typescript
 class BuildCoordinator {
   private agents: Map<AgentRole, Agent>
@@ -269,33 +280,34 @@ class BuildCoordinator {
   async coordinateBuild(): Promise<BuildResult> {
     // Phase 1: Contract agreement
     await this.ensureContractAgreement()
-    
+
     // Phase 2: Parallel development
     const parallelTasks = [
       this.deployAgent('frontend'),
       this.deployAgent('backend'),
       this.deployAgent('data'),
       this.deployAgent('devops'),
-      this.deployAgent('qa')
+      this.deployAgent('qa'),
     ]
-    
+
     // Monitor progress and handle blockers
     this.monitorAgentProgress()
     this.handleBlockers()
-    
+
     // Phase 3: Integration
     await this.coordinateIntegration()
-    
+
     // Phase 4: Testing & Deployment
     await this.coordinateTesting()
     await this.coordinateDeployment()
-    
+
     return this.synthesizeResults()
   }
 }
 ```
 
 ### Blocker Resolution Protocol
+
 ```typescript
 interface BlockerResolution {
   type: 'dependency' | 'contract' | 'scope' | 'technical'
@@ -306,18 +318,18 @@ interface BlockerResolution {
 }
 
 const commonBlockers = {
-  'frontend_blocked_on_api': {
+  frontend_blocked_on_api: {
     resolution: 'Frontend uses mock data matching contracts',
-    prevention: 'Define contracts before starting development'
+    prevention: 'Define contracts before starting development',
   },
-  'backend_blocked_on_schema': {
+  backend_blocked_on_schema: {
     resolution: 'Backend uses in-memory types, swaps to DB functions',
-    prevention: 'Data agent provides schema first'
+    prevention: 'Data agent provides schema first',
   },
-  'contract_change_needed': {
+  contract_change_needed: {
     resolution: 'Stop all agents, update contracts, resume with updated brief',
-    prevention: 'Thorough contract review phase'
-  }
+    prevention: 'Thorough contract review phase',
+  },
 }
 ```
 
@@ -328,29 +340,33 @@ const commonBlockers = {
 When agents complete their work:
 
 ### 1. Integration Testing
+
 ```typescript
 const integrationTests = [
   testFrontendToBackendAPI(),
   testBackendToDataQueries(),
   testEndToEndUserFlows(),
   testAuthenticationAcrossLayers(),
-  testErrorPropagation()
+  testErrorPropagation(),
 ]
 ```
 
 ### 2. Contract Verification
+
 - All API endpoints exist and match contracts
 - All database queries match expected types
 - All frontend components use correct API calls
 - Error handling is consistent across layers
 
 ### 3. Cross-Agent Review
+
 - Look for integration gaps
 - Verify authentication flows across all layers
 - Check error handling consistency
 - Validate performance requirements
 
 ### 4. Quality Assurance
+
 - QA agent runs comprehensive test suite
 - Performance testing under load
 - Security testing and vulnerability scanning
@@ -361,6 +377,7 @@ const integrationTests = [
 ## Step 7: Deployment Handoff
 
 ### DevOps Integration
+
 ```typescript
 interface DeploymentConfig {
   infrastructure: {
@@ -383,6 +400,7 @@ interface DeploymentConfig {
 ```
 
 ### Production Readiness Checklist
+
 - [ ] All integration tests passing
 - [ ] Performance benchmarks met
 - [ ] Security scan clean
@@ -437,6 +455,7 @@ interface DeploymentConfig {
 ## Anti-patterns & Best Practices
 
 ### ❌ Anti-patterns
+
 - Don't let agents share mutable state directly
 - Don't allow scope violations (agent working outside boundaries)
 - Don't start development before contracts are approved
@@ -444,6 +463,7 @@ interface DeploymentConfig {
 - Don't ignore cross-agent communication
 
 ### ✅ Best Practices
+
 - Keep contracts minimal but complete
 - Use TypeScript types as contract enforcement
 - Maintain clear agent boundaries

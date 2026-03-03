@@ -1,18 +1,22 @@
 ---
 name: real-time-analytics
-description: Real-time event processing and analytics platform with streaming data pipelines. Use when building analytics dashboards, processing event streams, monitoring KPIs, or analyzing user behavior in real-time.
+description:
+  Real-time event processing and analytics platform with streaming data
+  pipelines. Use when building analytics dashboards, processing event streams,
+  monitoring KPIs, or analyzing user behavior in real-time.
 triggers:
-  - "real-time analytics"
-  - "event streaming"
-  - "analytics dashboard"
-  - "metrics"
-  - "KPI"
-  - "monitoring"
+  - 'real-time analytics'
+  - 'event streaming'
+  - 'analytics dashboard'
+  - 'metrics'
+  - 'KPI'
+  - 'monitoring'
 ---
 
 # Real-Time Analytics Engine
 
-Stream processing platform for real-time event analytics, metrics aggregation, and live dashboards.
+Stream processing platform for real-time event analytics, metrics aggregation,
+and live dashboards.
 
 ## Capabilities
 
@@ -36,6 +40,7 @@ Events → Kafka → Processors → ClickHouse → Dashboard
 @skill real-time-analytics
 
 Set up analytics for my SaaS:
+
 - Events: page_views, signups, payments
 - Retention cohorts
 - Real-time revenue dashboard
@@ -45,16 +50,16 @@ Set up analytics for my SaaS:
 
 ```typescript
 interface AnalyticsEvent {
-  event_id: string;
-  event_type: 'page_view' | 'click' | 'purchase';
-  user_id: string;
-  timestamp: Date;
-  properties: Record<string, any>;
+  event_id: string
+  event_type: 'page_view' | 'click' | 'purchase'
+  user_id: string
+  timestamp: Date
+  properties: Record<string, any>
   context: {
-    url: string;
-    referrer: string;
-    device: string;
-  };
+    url: string
+    referrer: string
+    device: string
+  }
 }
 ```
 
@@ -62,7 +67,7 @@ interface AnalyticsEvent {
 
 ```typescript
 // 1. Ingest events
-await kafka.produce('events', event);
+await kafka.produce('events', event)
 
 // 2. Process stream
 stream.process({
@@ -70,16 +75,16 @@ stream.process({
   window: '1 minute',
   aggregations: {
     count: 'count()',
-    revenue: 'sum(amount)'
-  }
-});
+    revenue: 'sum(amount)',
+  },
+})
 
 // 3. Store metrics
 await clickhouse.insert('metrics', {
   timestamp: Date.now(),
   metric_name: 'active_users',
-  value: 1500
-});
+  value: 1500,
+})
 ```
 
 ## Dashboard Widgets
@@ -94,7 +99,7 @@ await clickhouse.insert('metrics', {
 
 ```sql
 -- Daily active users
-SELECT 
+SELECT
   toDate(timestamp) as date,
   uniqExact(user_id) as dau
 FROM events
@@ -103,7 +108,7 @@ GROUP BY date
 ORDER BY date;
 
 -- Real-time events per second
-SELECT 
+SELECT
   toStartOfInterval(timestamp, INTERVAL 1 SECOND) as second,
   count() as events
 FROM events

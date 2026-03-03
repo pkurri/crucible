@@ -7,10 +7,13 @@ tags: async, server-actions, route-handler, nextjs, performance
 
 ## Avoid Waterfall Chains in Route Handlers / Server Actions
 
-In a route handler / server action, start independent work immediately even if you need auth first. Await the minimum dependency, then join the rest.
+In a route handler / server action, start independent work immediately even if
+you need auth first. Await the minimum dependency, then join the rest.
 
 **Detect:**
-- Handler does `await auth()` then `await fetchConfig()` then `await fetchData()`.
+
+- Handler does `await auth()` then `await fetchConfig()` then
+  `await fetchData()`.
 
 **Incorrect (waterfall):**
 
@@ -19,7 +22,7 @@ export async function GET() {
   const session = await auth()
   const config = await fetchConfig()
   const data = await fetchData(session.user.id)
-  return Response.json({ config, data })
+  return Response.json({config, data})
 }
 ```
 
@@ -31,8 +34,10 @@ export async function GET() {
   const configPromise = fetchConfig()
 
   const session = await sessionPromise
-  const [config, data] = await Promise.all([configPromise, fetchData(session.user.id)])
-  return Response.json({ config, data })
+  const [config, data] = await Promise.all([
+    configPromise,
+    fetchData(session.user.id),
+  ])
+  return Response.json({config, data})
 }
 ```
-

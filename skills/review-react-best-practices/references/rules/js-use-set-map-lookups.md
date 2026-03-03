@@ -7,9 +7,11 @@ tags: js, performance, set, map
 
 ## Use Set/Map for Repeated Lookups
 
-If you repeatedly check membership, use a `Set` (O(1)) instead of `array.includes` (O(n)).
+If you repeatedly check membership, use a `Set` (O(1)) instead of
+`array.includes` (O(n)).
 
 **Detect:**
+
 - Nested loops with `includes`/`find` inside.
 
 **Incorrect:**
@@ -28,4 +30,3 @@ for (const id of ids) {
   if (blocked.has(id)) continue
 }
 ```
-

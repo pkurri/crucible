@@ -1,4 +1,4 @@
-# Developer Skill Gap Analysis From Github Language 
+# Developer Skill Gap Analysis From Github Language
 
 Production-ready template implementation.
 

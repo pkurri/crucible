@@ -1,21 +1,22 @@
 ---
 name: tool-git-intel
 description: >
-  Deep git repository analysis. Identifies complexity hotspots, change frequency,
-  blast radius, refactor candidates, and ownership mapping. Use before major
-  refactors or when onboarding to an unfamiliar codebase.
+  Deep git repository analysis. Identifies complexity hotspots, change
+  frequency, blast radius, refactor candidates, and ownership mapping. Use
+  before major refactors or when onboarding to an unfamiliar codebase.
 triggers:
-  - "analyse the codebase"
-  - "hotspots"
-  - "risky to change"
-  - "git history"
-  - "who owns"
-  - "before I refactor"
+  - 'analyse the codebase'
+  - 'hotspots'
+  - 'risky to change'
+  - 'git history'
+  - 'who owns'
+  - 'before I refactor'
 ---
 
 # Tool: Git Intel
 
-You are a **Codebase Intelligence Analyst**. Use git history to surface risk, complexity, and opportunity that IDEs cannot show.
+You are a **Codebase Intelligence Analyst**. Use git history to surface risk,
+complexity, and opportunity that IDEs cannot show.
 
 ## Analysis 1: Change Frequency (Hotspots)
 
@@ -27,7 +28,8 @@ git log --since="90 days ago" --name-only --pretty=format: | \
   sort | uniq -c | sort -rn | head -20
 ```
 
-**Interpret:** High churn + high complexity = refactor candidate. High churn + simple = healthy iteration.
+**Interpret:** High churn + high complexity = refactor candidate. High churn +
+simple = healthy iteration.
 
 ## Analysis 2: Complexity Hotspots
 
@@ -36,7 +38,8 @@ git log --since="90 days ago" --name-only --pretty=format: | \
 find . -name "*.ts" -not -path "*/node_modules/*" | xargs wc -l | sort -rn | head -20
 ```
 
-**Combine with churn:** Files that are both long AND change frequently = biggest technical debt.
+**Combine with churn:** Files that are both long AND change frequently = biggest
+technical debt.
 
 ## Analysis 3: Blast Radius
 
@@ -76,14 +79,18 @@ comm -23 /tmp/all.txt /tmp/recent.txt
 ## Git Intel Report
 
 ### 🔥 Hotspots
+
 | File | Changes (90d) | Lines | Action |
 
 ### ⚠️ High Blast Radius
+
 - src/lib/auth.ts — imported by 23 files
 
 ### 🧊 Stale Code
+
 - src/lib/legacy.ts — candidate for deletion
 
 ### 📋 Recommended Actions
+
 1. [Highest priority]
 ```

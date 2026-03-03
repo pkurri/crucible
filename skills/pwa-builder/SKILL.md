@@ -1,17 +1,21 @@
 ---
 name: pwa-builder
-description: Progressive Web App builder with offline support, service workers, and native-like experience. Use when building PWAs, implementing offline functionality, adding push notifications, or optimizing for mobile.
+description:
+  Progressive Web App builder with offline support, service workers, and
+  native-like experience. Use when building PWAs, implementing offline
+  functionality, adding push notifications, or optimizing for mobile.
 triggers:
-  - "PWA"
-  - "offline"
-  - "service worker"
-  - "progressive web app"
-  - "push notifications"
+  - 'PWA'
+  - 'offline'
+  - 'service worker'
+  - 'progressive web app'
+  - 'push notifications'
 ---
 
 # PWA Builder
 
-Build Progressive Web Apps with offline support, caching strategies, and native-like features.
+Build Progressive Web Apps with offline support, caching strategies, and
+native-like features.
 
 ## Capabilities
 
@@ -27,6 +31,7 @@ Build Progressive Web Apps with offline support, caching strategies, and native-
 @skill pwa-builder
 
 Convert my Next.js app to a PWA:
+
 - Offline: Cache pages and API
 - Icons: Generate all sizes
 - Manifest: Complete web app manifest
@@ -37,13 +42,13 @@ Convert my Next.js app to a PWA:
 
 ```typescript
 // sw.ts
-import { precacheAndRoute } from 'workbox-precaching';
-import { registerRoute } from 'workbox-routing';
-import { StaleWhileRevalidate, CacheFirst } from 'workbox-strategies';
-import { ExpirationPlugin } from 'workbox-expiration';
+import {precacheAndRoute} from 'workbox-precaching'
+import {registerRoute} from 'workbox-routing'
+import {StaleWhileRevalidate, CacheFirst} from 'workbox-strategies'
+import {ExpirationPlugin} from 'workbox-expiration'
 
 // Precache pages and assets
-precacheAndRoute(self.__WB_MANIFEST);
+precacheAndRoute(self.__WB_MANIFEST)
 
 // Cache API calls
 registerRoute(
@@ -53,11 +58,11 @@ registerRoute(
     plugins: [
       new ExpirationPlugin({
         maxEntries: 100,
-        maxAgeSeconds: 24 * 60 * 60 // 24 hours
-      })
-    ]
+        maxAgeSeconds: 24 * 60 * 60, // 24 hours
+      }),
+    ],
   })
-);
+)
 
 // Cache images
 registerRoute(
@@ -67,31 +72,31 @@ registerRoute(
     plugins: [
       new ExpirationPlugin({
         maxEntries: 60,
-        maxAgeSeconds: 30 * 24 * 60 * 60 // 30 days
-      })
-    ]
+        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+      }),
+    ],
   })
-);
+)
 
 // Background sync
-self.addEventListener('sync', (event) => {
+self.addEventListener('sync', event => {
   if (event.tag === 'sync-posts') {
-    event.waitUntil(syncPosts());
+    event.waitUntil(syncPosts())
   }
-});
+})
 
 // Push notifications
-self.addEventListener('push', (event) => {
-  const data = event.data.json();
-  
+self.addEventListener('push', event => {
+  const data = event.data.json()
+
   event.waitUntil(
     self.registration.showNotification(data.title, {
       body: data.body,
       icon: '/icon-192x192.png',
-      data: data.url
+      data: data.url,
     })
-  );
-});
+  )
+})
 ```
 
 ## Web App Manifest
@@ -132,27 +137,27 @@ self.addEventListener('push', (event) => {
 
 ```typescript
 // hooks/useOffline.ts
-import { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react'
 
 export function useOffline() {
-  const [isOffline, setIsOffline] = useState(false);
+  const [isOffline, setIsOffline] = useState(false)
 
   useEffect(() => {
-    const handleOnline = () => setIsOffline(false);
-    const handleOffline = () => setIsOffline(true);
+    const handleOnline = () => setIsOffline(false)
+    const handleOffline = () => setIsOffline(true)
 
-    window.addEventListener('online', handleOnline);
-    window.addEventListener('offline', handleOffline);
+    window.addEventListener('online', handleOnline)
+    window.addEventListener('offline', handleOffline)
 
-    setIsOffline(!navigator.onLine);
+    setIsOffline(!navigator.onLine)
 
     return () => {
-      window.removeEventListener('online', handleOnline);
-      window.removeEventListener('offline', handleOffline);
-    };
-  }, []);
+      window.removeEventListener('online', handleOnline)
+      window.removeEventListener('offline', handleOffline)
+    }
+  }, [])
 
-  return isOffline;
+  return isOffline
 }
 ```
 
@@ -161,35 +166,36 @@ export function useOffline() {
 ```typescript
 // lib/notifications.ts
 export async function subscribeToPush() {
-  const registration = await navigator.serviceWorker.ready;
-  
+  const registration = await navigator.serviceWorker.ready
+
   const subscription = await registration.pushManager.subscribe({
     userVisibleOnly: true,
-    applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
-  });
+    applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
+  })
 
   // Send subscription to server
   await fetch('/api/push-subscribe', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(subscription)
-  });
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(subscription),
+  })
 }
 
 export async function sendNotification(title: string, body: string) {
-  const registration = await navigator.serviceWorker.ready;
-  
+  const registration = await navigator.serviceWorker.ready
+
   registration.showNotification(title, {
     body,
     icon: '/icon-192x192.png',
-    badge: '/badge-72x72.png'
-  });
+    badge: '/badge-72x72.png',
+  })
 }
 ```
 
 ## Best Practices
 
-1. **Caching Strategy**: Cache-first for static, stale-while-revalidate for dynamic
+1. **Caching Strategy**: Cache-first for static, stale-while-revalidate for
+   dynamic
 2. **Update Flow**: Show update available toast
 3. **Storage**: Use IndexedDB for large data
 4. **Performance**: Lighthouse score 90+

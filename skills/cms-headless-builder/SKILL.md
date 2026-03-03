@@ -1,14 +1,18 @@
 ---
 name: cms-headless-builder
-description: Headless CMS builder with content modeling, rich text editing, media management, and API delivery. Use when building content management systems, creating editorial workflows, managing digital assets, or delivering content via APIs.
+description:
+  Headless CMS builder with content modeling, rich text editing, media
+  management, and API delivery. Use when building content management systems,
+  creating editorial workflows, managing digital assets, or delivering content
+  via APIs.
 triggers:
-  - "CMS"
-  - "headless CMS"
-  - "content management"
-  - "content modeling"
-  - "rich text"
-  - "Strapi"
-  - "Contentful"
+  - 'CMS'
+  - 'headless CMS'
+  - 'content management'
+  - 'content modeling'
+  - 'rich text'
+  - 'Strapi'
+  - 'Contentful'
 ---
 
 # Headless CMS Builder
@@ -29,6 +33,7 @@ Build headless content management systems with flexible content modeling.
 @skill cms-headless-builder
 
 Create a headless CMS:
+
 - Content types: Articles, Products, Pages
 - Rich text: Markdown + blocks
 - Media: Image optimization
@@ -47,42 +52,42 @@ const contentTypes = {
         name: 'title',
         type: 'text',
         required: true,
-        validations: { maxLength: 200 }
+        validations: {maxLength: 200},
       },
       {
         name: 'slug',
         type: 'slug',
         required: true,
-        pattern: '^[a-z0-9-]+$'
+        pattern: '^[a-z0-9-]+$',
       },
       {
         name: 'content',
         type: 'rich-text',
-        required: true
+        required: true,
       },
       {
         name: 'author',
         type: 'reference',
         reference: 'author',
-        required: true
+        required: true,
       },
       {
         name: 'tags',
         type: 'array',
-        items: { type: 'text' }
+        items: {type: 'text'},
       },
       {
         name: 'featuredImage',
         type: 'asset',
-        mimeTypes: ['image/*']
+        mimeTypes: ['image/*'],
       },
       {
         name: 'publishedAt',
-        type: 'datetime'
-      }
-    ]
-  }
-};
+        type: 'datetime',
+      },
+    ],
+  },
+}
 ```
 
 ## Rich Text Editor
@@ -120,7 +125,7 @@ function Editor() {
     <RichTextEditor
       content={initialContent}
       onChange={(content) => saveContent(content)}
-      
+
       // Plugins
       plugins={[
         'heading',
@@ -158,23 +163,23 @@ const typeDefs = gql`
       limit: Int
       offset: Int
     ): [Article!]!
-    
+
     article(slug: String!): Article
   }
-`;
+`
 
 // REST API
 app.get('/api/articles', async (req, res) => {
-  const { filter, sort, limit, offset } = req.query;
-  
+  const {filter, sort, limit, offset} = req.query
+
   const articles = await cms.getArticles({
     filter,
     sort,
-    pagination: { limit, offset }
-  });
-  
-  res.json(articles);
-});
+    pagination: {limit, offset},
+  })
+
+  res.json(articles)
+})
 ```
 
 ## Media Management
@@ -188,7 +193,7 @@ const uploadImage = async (file: File) => {
       format: 'webp',
       quality: 80
     },
-    
+
     // Generate variants
     variants: [
       { name: 'thumbnail', width: 300, height: 200 },
@@ -196,7 +201,7 @@ const uploadImage = async (file: File) => {
       { name: 'large', width: 1600 }
     ]
   });
-  
+
   return asset;
 };
 
@@ -217,25 +222,25 @@ const article = {
   translations: {
     en: {
       title: 'English Title',
-      content: '...'
+      content: '...',
     },
     es: {
       title: 'Título en Español',
-      content: '...'
+      content: '...',
     },
     fr: {
       title: 'Titre en Français',
-      content: '...'
-    }
-  }
-};
+      content: '...',
+    },
+  },
+}
 
 // Query with locale
 const localizedArticle = await cms.getArticle({
   id: 'article-1',
   locale: 'es',
-  fallback: 'en'
-});
+  fallback: 'en',
+})
 ```
 
 ## Features

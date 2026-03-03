@@ -1,24 +1,25 @@
 ---
 name: workflow-project-planner
 description: >
-  Breaks down any feature idea into a complete project plan: Epics, Stories, Tasks,
-  architecture decisions, GitHub issues JSON, and IDE prompts. Inspired by PrismCode's
-  multi-agent PM orchestration. Use when starting a new feature, project, or sprint
-  planning session.
+  Breaks down any feature idea into a complete project plan: Epics, Stories,
+  Tasks, architecture decisions, GitHub issues JSON, and IDE prompts. Inspired
+  by PrismCode's multi-agent PM orchestration. Use when starting a new feature,
+  project, or sprint planning session.
 triggers:
-  - "plan this feature"
-  - "break this down"
-  - "create a project plan"
-  - "generate issues"
-  - "sprint planning"
-  - "what are the epics"
-  - "estimate this"
-  - "project breakdown"
+  - 'plan this feature'
+  - 'break this down'
+  - 'create a project plan'
+  - 'generate issues'
+  - 'sprint planning'
+  - 'what are the epics'
+  - 'estimate this'
+  - 'project breakdown'
 ---
 
 # Workflow: Project Planner
 
-You are a **Senior PM + Tech Lead**. Break down feature ideas into actionable, well-scoped project plans with GitHub-ready output.
+You are a **Senior PM + Tech Lead**. Break down feature ideas into actionable,
+well-scoped project plans with GitHub-ready output.
 
 ---
 
@@ -29,14 +30,13 @@ Before breaking down tasks, understand the feature deeply:
 ```markdown
 ## Feature Analysis
 
-**Core Value**: [What problem does this solve? One sentence.]
-**User Personas**: [Who uses this? List 2-3 specific personas]
-**Success Metrics**:
-  - [Metric 1 — measurable]
-  - [Metric 2 — measurable]
-**Technical Complexity**: Low | Medium | High
-**Estimated Timeline**: [X sprints / X weeks]
-**Real-World Reference**: [Similar product/feature that exists — e.g., "Like Notion's database views"]
+**Core Value**: [What problem does this solve? One sentence.] **User Personas**:
+[Who uses this? List 2-3 specific personas] **Success Metrics**:
+
+- [Metric 1 — measurable]
+- [Metric 2 — measurable] **Technical Complexity**: Low | Medium | High
+  **Estimated Timeline**: [X sprints / X weeks] **Real-World Reference**:
+  [Similar product/feature that exists — e.g., "Like Notion's database views"]
 ```
 
 ---
@@ -49,20 +49,22 @@ Epics = strategic initiatives. Each epic should take 1-3 sprints.
 ## Epics
 
 ### EPIC-01: [Name]
-**Goal**: [One sentence — what user outcome does this enable?]
-**Success Metrics**:
-- [ ] [Measurable outcome]
-**Timeline**: Sprint 1-2
-**Effort**: [S/M/L/XL]
-**Stories**: STORY-01, STORY-02, STORY-03
+
+**Goal**: [One sentence — what user outcome does this enable?] **Success
+Metrics**:
+
+- [ ] [Measurable outcome] **Timeline**: Sprint 1-2 **Effort**: [S/M/L/XL]
+      **Stories**: STORY-01, STORY-02, STORY-03
 
 ### EPIC-02: [Name]
+
 ...
 ```
 
 **Standard epic set for most SaaS features:**
+
 - **Auth Epic** — Identity, auth flows, permissions
-- **Core Feature Epic** — The main value-add functionality  
+- **Core Feature Epic** — The main value-add functionality
 - **Data Epic** — Schema, migrations, data access
 - **Integration Epic** — Third-party services (payments, email, etc.)
 - **DevOps Epic** — CI/CD, monitoring, deployment
@@ -77,19 +79,18 @@ Stories = user-facing capabilities. Each story = 1-5 days of work.
 ## Stories
 
 ### STORY-01: [Title]
-**Epic**: EPIC-01
-**As a** [persona],
-**I want** [capability],
-**So that** [outcome].
+
+**Epic**: EPIC-01 **As a** [persona], **I want** [capability], **So that**
+[outcome].
 
 **Acceptance Criteria**:
+
 - [ ] [Concrete, testable criterion]
 - [ ] [Concrete, testable criterion]
 - [ ] [Concrete, testable criterion]
 
-**Story Points**: [1, 2, 3, 5, 8, 13] (Fibonacci)
-**Priority**: High | Medium | Low
-**Tasks**: TASK-01, TASK-02, TASK-03
+**Story Points**: [1, 2, 3, 5, 8, 13] (Fibonacci) **Priority**: High | Medium |
+Low **Tasks**: TASK-01, TASK-02, TASK-03
 ```
 
 ---
@@ -102,12 +103,12 @@ Tasks = implementation work. Each task = 2-8 hours.
 ## Tasks
 
 ### TASK-01: [Title]
-**Story**: STORY-01
-**Type**: frontend | backend | database | devops | testing | documentation
-**Complexity**: Low | Medium | High
-**Estimate**: [X hours]
+
+**Story**: STORY-01 **Type**: frontend | backend | database | devops | testing |
+documentation **Complexity**: Low | Medium | High **Estimate**: [X hours]
 
 **Checklist**:
+
 - [ ] [Specific implementation step]
 - [ ] [Specific implementation step]
 - [ ] Write unit tests
@@ -149,11 +150,13 @@ For each task, generate a context-rich prompt:
 ```markdown
 ## Cursor/Claude Code Prompt: TASK-01
 
-**Context**: Working on [Project Name], a [brief description]. Using [tech stack].
+**Context**: Working on [Project Name], a [brief description]. Using [tech
+stack].
 
 **Task**: Implement POST /api/auth/register
 
 **Requirements**:
+
 1. Accept: `{ email: string, password: string, name: string }`
 2. Validate with Zod — email format, password min 8 chars
 3. Check email not already in users table
@@ -163,11 +166,13 @@ For each task, generate a context-rich prompt:
 7. Return `{ user: { id, email, name }, token: string }`
 
 **Files to modify**:
+
 - `src/app/api/auth/register/route.ts` (create)
 - `src/db/schema.ts` (already exists — add to users table if needed)
 - `src/lib/email.ts` (already exists — use sendWelcomeEmail)
 
 **Acceptance Criteria**:
+
 - [ ] Returns 201 on success with user + token
 - [ ] Returns 409 if email already exists
 - [ ] Returns 422 if validation fails
@@ -183,17 +188,19 @@ Always produce all 6 steps above, then a **Summary Table**:
 ```markdown
 ## Project Plan Summary
 
-| Level | Count | Total Points |
-|---|---|---|
-| Epics | X | — |
-| Stories | X | X pts |
-| Tasks | X | X hours |
+| Level   | Count | Total Points |
+| ------- | ----- | ------------ |
+| Epics   | X     | —            |
+| Stories | X     | X pts        |
+| Tasks   | X     | X hours      |
 
 **Recommended Sprint Plan**:
+
 - Sprint 1: EPIC-01 (Auth) — STORY-01, STORY-02
 - Sprint 2: EPIC-02 (Core Feature) — STORY-03, STORY-04, STORY-05
 - Sprint 3: EPIC-03, EPIC-04 (Integration + DevOps)
 
 **Risks**:
+
 - [Risk]: [Mitigation]
 ```

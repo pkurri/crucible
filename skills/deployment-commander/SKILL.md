@@ -5,12 +5,12 @@ description: >
   branch, test results before any deployment. Post-deploy health verification.
   Use before running any deployment script or pushing to production.
 triggers:
-  - "deploy"
-  - "deploy to production"
-  - "ship to prod"
-  - "release"
-  - "push to production"
-  - "go live"
+  - 'deploy'
+  - 'deploy to production'
+  - 'ship to prod'
+  - 'release'
+  - 'push to production'
+  - 'go live'
 ---
 
 # Skill: Deployment Commander
@@ -24,6 +24,7 @@ Safe, verified deployments. Never deploy without pre-flight checks.
 Run ALL checks before any deployment. Block if any fail.
 
 ### Check 1: Git Status
+
 ```bash
 # Must be clean — no uncommitted changes
 git status --porcelain
@@ -32,6 +33,7 @@ git status --porcelain
 ```
 
 ### Check 2: Correct Branch
+
 ```bash
 git branch --show-current
 # Expected: main (or production, release/x.y.z)
@@ -39,6 +41,7 @@ git branch --show-current
 ```
 
 ### Check 3: Tests Passed
+
 ```bash
 pnpm test
 # Fail if: any test failures
@@ -46,6 +49,7 @@ pnpm test
 ```
 
 ### Check 4: No Pending Migrations
+
 ```bash
 pnpm db:status
 # Fail if: pending migrations not applied to staging
@@ -70,13 +74,15 @@ Commander:
   9. 📊 Report: success/failure with logs
 ```
 
-**Never auto-deploy without user confirmation.** Always propose → wait → execute.
+**Never auto-deploy without user confirmation.** Always propose → wait →
+execute.
 
 ---
 
 ## Deployment Scripts
 
 ### Vercel
+
 ```bash
 #!/bin/bash
 set -euo pipefail
@@ -94,6 +100,7 @@ echo "✅ Deployment successful"
 ```
 
 ### Cloudflare Workers
+
 ```bash
 #!/bin/bash
 set -euo pipefail
@@ -111,6 +118,7 @@ echo "✅ Deployment successful"
 ```
 
 ### Run Migrations in Production
+
 ```bash
 #!/bin/bash
 set -euo pipefail
@@ -159,11 +167,12 @@ Always have a rollback ready before deploying:
 # Vercel — instant rollback to previous deployment
 vercel rollback
 
-# Cloudflare Workers — rollback to previous version  
+# Cloudflare Workers — rollback to previous version
 wrangler rollback
 
 # Database — run rollback migration if prepared
 pnpm db:rollback
 ```
 
-**Rule:** If health check fails within 5 minutes of deploy → rollback immediately, investigate after.
+**Rule:** If health check fails within 5 minutes of deploy → rollback
+immediately, investigate after.

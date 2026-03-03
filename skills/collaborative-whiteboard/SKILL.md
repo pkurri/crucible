@@ -1,13 +1,17 @@
 ---
 name: collaborative-whiteboard
-description: Real-time collaborative whiteboard with drawing, shapes, sticky notes, and multi-user support using CRDTs. Use when building collaborative tools, implementing real-time collaboration, creating drawing apps, or enabling multi-user editing.
+description:
+  Real-time collaborative whiteboard with drawing, shapes, sticky notes, and
+  multi-user support using CRDTs. Use when building collaborative tools,
+  implementing real-time collaboration, creating drawing apps, or enabling
+  multi-user editing.
 triggers:
-  - "whiteboard"
-  - "collaborative"
-  - "drawing"
-  - "real-time collaboration"
-  - "multi-user"
-  - "CRDT"
+  - 'whiteboard'
+  - 'collaborative'
+  - 'drawing'
+  - 'real-time collaboration'
+  - 'multi-user'
+  - 'CRDT'
 ---
 
 # Collaborative Whiteboard
@@ -28,6 +32,7 @@ Real-time collaborative whiteboard with CRDT-based synchronization.
 @skill collaborative-whiteboard
 
 Create a collaborative whiteboard:
+
 - Tools: Pen, shapes, text, sticky notes
 - Collaboration: Real-time sync
 - Export: PNG, PDF
@@ -37,18 +42,18 @@ Create a collaborative whiteboard:
 ## CRDT Setup
 
 ```typescript
-import * as Y from 'yjs';
-import { WebsocketProvider } from 'y-websocket';
+import * as Y from 'yjs'
+import {WebsocketProvider} from 'y-websocket'
 
-const doc = new Y.Doc();
+const doc = new Y.Doc()
 const provider = new WebsocketProvider(
   'wss://collab.example.com',
   'room-name',
   doc
-);
+)
 
 // Shared canvas elements
-const elements = doc.getMap('elements');
+const elements = doc.getMap('elements')
 
 // Add element
 elements.set('element-1', {
@@ -58,13 +63,13 @@ elements.set('element-1', {
   y: 100,
   width: 200,
   height: 150,
-  color: '#ff0000'
-});
+  color: '#ff0000',
+})
 
 // Listen for changes
 elements.observe(() => {
-  renderCanvas(elements.toJSON());
-});
+  renderCanvas(elements.toJSON())
+})
 ```
 
 ## Whiteboard Component
@@ -78,7 +83,7 @@ export function Whiteboard({ roomId }: { roomId: string }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [tool, setTool] = useState<'pen' | 'rect' | 'text'>('pen');
   const [elements, setElements] = useState<Element[]>([]);
-  
+
   useEffect(() => {
     const doc = new Y.Doc();
     const provider = new WebsocketProvider(
@@ -86,31 +91,31 @@ export function Whiteboard({ roomId }: { roomId: string }) {
       roomId,
       doc
     );
-    
+
     const yElements = doc.getMap('elements');
-    
+
     yElements.observe(() => {
       setElements(Array.from(yElements.values()));
     });
-    
+
     return () => provider.destroy();
   }, [roomId]);
-  
+
   const handleDraw = (e: MouseEvent) => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-    
+
     const rect = canvas.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    
+
     if (tool === 'pen') {
       // Add point to current stroke
     } else if (tool === 'rect') {
       // Create rectangle
     }
   };
-  
+
   return (
     <div>
       <Toolbar tool={tool} onToolChange={setTool} />
@@ -132,24 +137,24 @@ export function Whiteboard({ roomId }: { roomId: string }) {
 // Cursors.tsx
 function UserCursors({ roomId }: { roomId: string }) {
   const [cursors, setCursors] = useState<Map<string, Cursor>>(new Map());
-  
+
   useEffect(() => {
     const awareness = provider.awareness;
-    
+
     awareness.on('change', () => {
       const users = Array.from(awareness.getStates().entries());
       const cursorMap = new Map();
-      
+
       users.forEach(([clientId, state]) => {
         if (state.cursor) {
           cursorMap.set(clientId, state.cursor);
         }
       });
-      
+
       setCursors(cursorMap);
     });
   }, [roomId]);
-  
+
   const handleMouseMove = (e: MouseEvent) => {
     const awareness = provider.awareness;
     awareness.setLocalStateField('cursor', {
@@ -159,7 +164,7 @@ function UserCursors({ roomId }: { roomId: string }) {
       color: currentUser.color
     });
   };
-  
+
   return (
     <div onMouseMove={handleMouseMove}>
       {Array.from(cursors.entries()).map(([clientId, cursor]) => (
@@ -190,21 +195,21 @@ function UserCursors({ roomId }: { roomId: string }) {
 
 ```typescript
 // Save to IndexedDB
-import { IndexeddbPersistence } from 'y-indexeddb';
+import {IndexeddbPersistence} from 'y-indexeddb'
 
-const persistence = new IndexeddbPersistence('whiteboard', doc);
+const persistence = new IndexeddbPersistence('whiteboard', doc)
 
 // Export
 const exportWhiteboard = () => {
-  const state = Y.encodeStateAsUpdate(doc);
-  return Buffer.from(state).toString('base64');
-};
+  const state = Y.encodeStateAsUpdate(doc)
+  return Buffer.from(state).toString('base64')
+}
 
 // Import
 const importWhiteboard = (base64: string) => {
-  const state = Buffer.from(base64, 'base64');
-  Y.applyUpdate(doc, new Uint8Array(state));
-};
+  const state = Buffer.from(base64, 'base64')
+  Y.applyUpdate(doc, new Uint8Array(state))
+}
 ```
 
 ## Integration

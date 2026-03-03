@@ -1,7 +1,7 @@
 ---
 title: Rule Title Here
 impact: MEDIUM
-impactDescription: "optional (e.g., avoids 1 RTT / reduces bundle by X)"
+impactDescription: 'optional (e.g., avoids 1 RTT / reduces bundle by X)'
 tags: tag1, tag2
 ---
 
@@ -12,6 +12,7 @@ tags: tag1, tag2
 Brief explanation of the rule and why it matters.
 
 **Detect:**
+
 - Symptoms: ...
 - Signals in code: ...
 
@@ -28,5 +29,5 @@ Brief explanation of the rule and why it matters.
 ```
 
 References:
-- https://example.com
 
+- https://example.com

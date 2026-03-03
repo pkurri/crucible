@@ -1,19 +1,24 @@
 ---
 name: notification-system-builder
-description: Multi-channel notification system with email, SMS, push, and in-app notifications with preference management and delivery tracking. Use when building notification systems, sending transactional emails, implementing push notifications, or managing user preferences.
+description:
+  Multi-channel notification system with email, SMS, push, and in-app
+  notifications with preference management and delivery tracking. Use when
+  building notification systems, sending transactional emails, implementing push
+  notifications, or managing user preferences.
 triggers:
-  - "notifications"
-  - "email"
-  - "SMS"
-  - "push notifications"
-  - "Resend"
-  - "Twilio"
-  - "FCM"
+  - 'notifications'
+  - 'email'
+  - 'SMS'
+  - 'push notifications'
+  - 'Resend'
+  - 'Twilio'
+  - 'FCM'
 ---
 
 # Notification System Builder
 
-Multi-channel notification system with email, SMS, push, and in-app notifications.
+Multi-channel notification system with email, SMS, push, and in-app
+notifications.
 
 ## Capabilities
 
@@ -29,6 +34,7 @@ Multi-channel notification system with email, SMS, push, and in-app notification
 @skill notification-system-builder
 
 Set up notifications:
+
 - Channels: Email, Push
 - Providers: Resend, FCM
 - Templates: Welcome, Order confirmation
@@ -83,8 +89,8 @@ const orderConfirmationEmail = {
     </ul>
     <p>Total: ${{total}}</p>
   `,
-  text: 'Thank you! Order {{orderId}} confirmed. Total: ${{total}}'
-};
+  text: 'Thank you! Order {{orderId}} confirmed. Total: ${{total}}',
+}
 
 // Push notification template
 const orderConfirmationPush = {
@@ -93,9 +99,9 @@ const orderConfirmationPush = {
   body: 'Order {{orderId}} has been confirmed. Total: ${{total}}',
   data: {
     orderId: '{{orderId}}',
-    screen: 'order-details'
-  }
-};
+    screen: 'order-details',
+  },
+}
 ```
 
 ## User Preferences
@@ -111,32 +117,32 @@ const preferences = {
       categories: {
         marketing: false,
         transactional: true,
-        updates: true
-      }
+        updates: true,
+      },
     },
     sms: {
       enabled: true,
       phone: '+1234567890',
       categories: {
         marketing: false,
-        urgent: true
-      }
+        urgent: true,
+      },
     },
     push: {
       enabled: true,
       tokens: ['fcm-token-1'],
       categories: {
-        all: true
-      }
-    }
+        all: true,
+      },
+    },
   },
   quietHours: {
     enabled: true,
     start: '22:00',
     end: '08:00',
-    timezone: 'America/New_York'
-  }
-};
+    timezone: 'America/New_York',
+  },
+}
 ```
 
 ## Batch Notifications
@@ -146,16 +152,16 @@ const preferences = {
 await service.sendBatch({
   template: 'weekly-newsletter',
   recipients: [
-    { userId: 'user-1', data: { name: 'John' } },
-    { userId: 'user-2', data: { name: 'Jane' } }
+    {userId: 'user-1', data: {name: 'John'}},
+    {userId: 'user-2', data: {name: 'Jane'}},
   ],
-  
+
   // Rate limiting
   rateLimit: {
     maxPerSecond: 100,
-    maxPerMinute: 1000
-  }
-});
+    maxPerMinute: 1000,
+  },
+})
 ```
 
 ## Delivery Tracking

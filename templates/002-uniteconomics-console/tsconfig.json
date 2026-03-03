@@ -4,24 +4,16 @@
     "experimentalDecorators": true,
     "useDefineForClassFields": false,
     "module": "ESNext",
-    "lib": [
-      "ES2022",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
-    "types": [
-      "node"
-    ],
+    "types": ["node"],
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
     "allowJs": true,
     "jsx": "react-jsx",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     },
     "allowImportingTsExtensions": true,
     "noEmit": true,
@@ -36,9 +28,7 @@
     "resolveJsonModule": true,
     "strictNullChecks": true
   },
-  "exclude": [
-    "vite.config.ts"
-  ],
+  "exclude": ["vite.config.ts"],
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",

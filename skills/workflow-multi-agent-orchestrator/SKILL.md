@@ -1,54 +1,62 @@
 ---
 name: workflow-multi-agent-orchestrator
 description: >
-  Voxyz-style multi-agent orchestration system that coordinates 6+ specialized agents
-  (Product Manager, Architect, Frontend Dev, Backend Dev, DevOps, QA) with role-based
-  communication, task distribution, and centralized coordination. Use for complex projects
-  requiring multiple specialized agents working in parallel with clear handoffs.
+  Voxyz-style multi-agent orchestration system that coordinates 6+ specialized
+  agents (Product Manager, Architect, Frontend Dev, Backend Dev, DevOps, QA)
+  with role-based communication, task distribution, and centralized
+  coordination. Use for complex projects requiring multiple specialized agents
+  working in parallel with clear handoffs.
 triggers:
-  - "multi-agent team"
-  - "orchestrate agents"
-  - "coordinate multiple agents"
-  - "agent team lead"
-  - "voxyz style agents"
-  - "6 agents working together"
-  - "agent coordination"
+  - 'multi-agent team'
+  - 'orchestrate agents'
+  - 'coordinate multiple agents'
+  - 'agent team lead'
+  - 'voxyz style agents'
+  - '6 agents working together'
+  - 'agent coordination'
 ---
 
 # Workflow: Multi-Agent Orchestrator
 
-Voxyz-inspired multi-agent orchestration with role-based coordination, communication patterns, and centralized task management.
+Voxyz-inspired multi-agent orchestration with role-based coordination,
+communication patterns, and centralized task management.
 
 ---
 
 ## Agent Roles
 
 ### 1. Product Manager Agent
+
 - **Scope**: Requirements gathering, user stories, prioritization
 - **Communicates**: All agents (coordination)
 - **Artifacts**: PRD, user stories, acceptance criteria
 
-### 2. Architect Agent  
+### 2. Architect Agent
+
 - **Scope**: System design, technical decisions, integration patterns
 - **Communicates**: All agents (technical guidance)
 - **Artifacts**: Architecture diagrams, ADRs, API contracts
 
 ### 3. Frontend Agent
+
 - **Scope**: UI/UX implementation, component architecture, user flows
 - **Communicates**: PM, QA, Architect
 - **Artifacts**: Components, pages, user interfaces
 
 ### 4. Backend Agent
+
 - **Scope**: API development, database design, business logic
 - **Communicates**: PM, Architect, DevOps, QA
 - **Artifacts**: APIs, services, database schemas
 
 ### 5. DevOps Agent
+
 - **Scope**: Infrastructure, CI/CD, deployment, monitoring
 - **Communicates**: Backend, Architect, PM
 - **Artifacts**: Infrastructure as code, pipelines, monitoring
 
 ### 6. QA Agent
+
 - **Scope**: Testing strategy, test automation, quality assurance
 - **Communicates**: All agents (quality validation)
 - **Artifacts**: Test suites, test plans, quality reports
@@ -58,6 +66,7 @@ Voxyz-inspired multi-agent orchestration with role-based coordination, communica
 ## Orchestration Patterns
 
 ### Phase 1: Kickoff & Planning
+
 ```
 PM Agent: Gather requirements → Create PRD → Distribute to all agents
 Architect Agent: Review PRD → Design system → Share architecture
@@ -65,6 +74,7 @@ All Agents: Review architecture → Provide feedback → Confirm approach
 ```
 
 ### Phase 2: Parallel Development
+
 ```
 Frontend Agent: Build UI components → Coordinate with Backend on APIs
 Backend Agent: Build APIs → Coordinate with DevOps on infrastructure
@@ -73,6 +83,7 @@ QA Agent: Create test plans → Coordinate with all on testing strategy
 ```
 
 ### Phase 3: Integration & Testing
+
 ```
 All Agents: Integrate work → Resolve dependencies → Test together
 QA Agent: Run integration tests → Report issues → Coordinate fixes
@@ -80,6 +91,7 @@ DevOps Agent: Deploy to staging → Monitor performance
 ```
 
 ### Phase 4: Deployment & Monitoring
+
 ```
 DevOps Agent: Deploy to production → Monitor systems
 PM Agent: Validate features → Gather feedback
@@ -91,6 +103,7 @@ All Agents: Monitor performance → Address issues → Plan improvements
 ## Communication Protocols
 
 ### Agent-to-Agent Messages
+
 ```typescript
 interface AgentMessage {
   from: AgentRole
@@ -106,6 +119,7 @@ interface AgentMessage {
 ```
 
 ### Standup Updates
+
 ```typescript
 interface AgentStandup {
   agent: AgentRole
@@ -118,6 +132,7 @@ interface AgentStandup {
 ```
 
 ### Handoff Protocol
+
 ```typescript
 interface AgentHandoff {
   from: AgentRole
@@ -135,6 +150,7 @@ interface AgentHandoff {
 ## Implementation Template
 
 ### 1. Orchestration Setup
+
 ```typescript
 // src/orchestration/AgentOrchestrator.ts
 export class AgentOrchestrator {
@@ -163,7 +179,7 @@ export class AgentOrchestrator {
     await this.runPhase('planning', [
       'pm.gather_requirements',
       'architect.design_system',
-      'all.review_architecture'
+      'all.review_architecture',
     ])
 
     // Phase 2: Development
@@ -171,21 +187,21 @@ export class AgentOrchestrator {
       'frontend.build_components',
       'backend.build_apis',
       'devops.setup_infrastructure',
-      'qa.create_tests'
+      'qa.create_tests',
     ])
 
     // Phase 3: Integration
     await this.runPhase('integration', [
       'all.integrate_work',
       'qa.run_integration_tests',
-      'devops.deploy_staging'
+      'devops.deploy_staging',
     ])
 
     // Phase 4: Deployment
     await this.runPhase('deployment', [
       'devops.deploy_production',
       'pm.validate_features',
-      'all.monitor_performance'
+      'all.monitor_performance',
     ])
 
     return this.getProjectResult()
@@ -194,6 +210,7 @@ export class AgentOrchestrator {
 ```
 
 ### 2. Agent Base Class
+
 ```typescript
 // src/agents/BaseAgent.ts
 export abstract class BaseAgent {
@@ -221,7 +238,7 @@ export abstract class BaseAgent {
       to,
       type: 'update',
       priority: 'medium',
-      ...message
+      ...message,
     })
   }
 
@@ -230,7 +247,7 @@ export abstract class BaseAgent {
       type: 'request',
       subject: `Handoff to ${to}`,
       content: `Ready to handoff deliverables`,
-      artifacts: deliverables.map(d => d.id)
+      artifacts: deliverables.map(d => d.id),
     })
   }
 }
@@ -241,24 +258,26 @@ export abstract class BaseAgent {
 ## Task Distribution
 
 ### Parallel Task Execution
+
 ```typescript
 const parallelTasks = [
   agent('frontend').buildComponents(),
   agent('backend').buildAPIs(),
   agent('devops').setupInfrastructure(),
-  agent('qa').createTestPlans()
+  agent('qa').createTestPlans(),
 ]
 
 const results = await Promise.allSettled(parallelTasks)
 ```
 
 ### Dependency Management
+
 ```typescript
 const taskGraph = {
   'frontend.components': ['backend.apis', 'architect.design'],
   'backend.apis': ['architect.design', 'devops.database'],
   'qa.integration_tests': ['frontend.components', 'backend.apis'],
-  'devops.deployment': ['all.features_complete']
+  'devops.deployment': ['all.features_complete'],
 }
 ```
 
@@ -267,6 +286,7 @@ const taskGraph = {
 ## Output Format
 
 ### Project Execution Summary
+
 ```
 ## Multi-Agent Project Execution
 
@@ -276,7 +296,7 @@ const taskGraph = {
 
 ### Phase Results:
 - **Planning**: ✅ Complete (2 days)
-- **Development**: ✅ Complete (5 days) 
+- **Development**: ✅ Complete (5 days)
 - **Integration**: ✅ Complete (2 days)
 - **Deployment**: ✅ Complete (1 day)
 
@@ -314,30 +334,32 @@ const taskGraph = {
 ## Usage Examples
 
 ### Start Multi-Agent Project
+
 ```typescript
 const orchestrator = new AgentOrchestrator({
-  name: "E-commerce Platform",
-  timeline: "8 weeks",
+  name: 'E-commerce Platform',
+  timeline: '8 weeks',
   team: {
     pm: true,
     architect: true,
     frontend: true,
     backend: true,
     devops: true,
-    qa: true
-  }
+    qa: true,
+  },
 })
 
 const result = await orchestrator.executeProject()
 ```
 
 ### Monitor Agent Activity
+
 ```typescript
-orchestrator.on('agentUpdate', (update) => {
+orchestrator.on('agentUpdate', update => {
   console.log(`${update.agent}: ${update.status}`)
 })
 
-orchestrator.on('blocker', (blocker) => {
+orchestrator.on('blocker', blocker => {
   console.warn(`Blocker: ${blocker.description}`)
   // Auto-escalate critical blockers
 })

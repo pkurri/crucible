@@ -1,10 +1,12 @@
 # MarginLedger Design System
 
-> Professional data-dense dashboard for AI cost analysis. Trust-building, data-driven, precision-focused.
+> Professional data-dense dashboard for AI cost analysis. Trust-building,
+> data-driven, precision-focused.
 
 ## Design Philosophy
 
-- **Data-Dense + Swiss Modernism**: Maximum information visibility with clean mathematical grid
+- **Data-Dense + Swiss Modernism**: Maximum information visibility with clean
+  mathematical grid
 - **Trust through clarity**: Financial data requires precision and readability
 - **Progressive disclosure**: Show summary first, drill-down on demand
 
@@ -14,35 +16,35 @@
 
 ### Core Palette
 
-| Token | Hex | Tailwind | Usage |
-|-------|-----|----------|-------|
-| `--bg-primary` | `#F8FAFC` | `slate-50` | Page background |
-| `--bg-secondary` | `#FFFFFF` | `white` | Cards, panels |
-| `--bg-tertiary` | `#F1F5F9` | `slate-100` | Hover states, subtle sections |
-| `--text-primary` | `#0F172A` | `slate-900` | Headings, important text |
-| `--text-secondary` | `#475569` | `slate-600` | Body text |
-| `--text-muted` | `#94A3B8` | `slate-400` | Captions, placeholders |
-| `--border` | `#E2E8F0` | `slate-200` | Borders, dividers |
+| Token              | Hex       | Tailwind    | Usage                         |
+| ------------------ | --------- | ----------- | ----------------------------- |
+| `--bg-primary`     | `#F8FAFC` | `slate-50`  | Page background               |
+| `--bg-secondary`   | `#FFFFFF` | `white`     | Cards, panels                 |
+| `--bg-tertiary`    | `#F1F5F9` | `slate-100` | Hover states, subtle sections |
+| `--text-primary`   | `#0F172A` | `slate-900` | Headings, important text      |
+| `--text-secondary` | `#475569` | `slate-600` | Body text                     |
+| `--text-muted`     | `#94A3B8` | `slate-400` | Captions, placeholders        |
+| `--border`         | `#E2E8F0` | `slate-200` | Borders, dividers             |
 
 ### Semantic Colors
 
-| Token | Hex | Tailwind | Usage |
-|-------|-----|----------|-------|
-| `--primary` | `#0F172A` | `slate-900` | Primary actions, brand |
-| `--primary-hover` | `#1E293B` | `slate-800` | Primary hover |
-| `--accent` | `#3B82F6` | `blue-500` | Links, data highlights |
-| `--cta` | `#F97316` | `orange-500` | Call-to-action buttons |
-| `--cta-hover` | `#EA580C` | `orange-600` | CTA hover |
+| Token             | Hex       | Tailwind     | Usage                  |
+| ----------------- | --------- | ------------ | ---------------------- |
+| `--primary`       | `#0F172A` | `slate-900`  | Primary actions, brand |
+| `--primary-hover` | `#1E293B` | `slate-800`  | Primary hover          |
+| `--accent`        | `#3B82F6` | `blue-500`   | Links, data highlights |
+| `--cta`           | `#F97316` | `orange-500` | Call-to-action buttons |
+| `--cta-hover`     | `#EA580C` | `orange-600` | CTA hover              |
 
 ### Status Colors (Margin Health)
 
-| Status | Hex | Tailwind | Condition |
-|--------|-----|----------|-----------|
-| `--profit-high` | `#059669` | `emerald-600` | margin ≥ target |
-| `--profit-ok` | `#10B981` | `emerald-500` | margin > 0 |
-| `--warning` | `#D97706` | `amber-600` | 0 < margin < target |
-| `--danger` | `#DC2626` | `red-600` | margin ≤ 0 |
-| `--danger-bg` | `#FEF2F2` | `red-50` | Danger card background |
+| Status          | Hex       | Tailwind      | Condition              |
+| --------------- | --------- | ------------- | ---------------------- |
+| `--profit-high` | `#059669` | `emerald-600` | margin ≥ target        |
+| `--profit-ok`   | `#10B981` | `emerald-500` | margin > 0             |
+| `--warning`     | `#D97706` | `amber-600`   | 0 < margin < target    |
+| `--danger`      | `#DC2626` | `red-600`     | margin ≤ 0             |
+| `--danger-bg`   | `#FEF2F2` | `red-50`      | Danger card background |
 
 ### Heatmap Gradient (Demo Moment)
 
@@ -68,23 +70,24 @@ Colors: #DC2626 → #F59E0B → #10B981 → #059669
 
 ### Type Scale
 
-| Element | Size | Weight | Line Height | Class |
-|---------|------|--------|-------------|-------|
-| Display | 48px | 700 | 1.1 | `text-5xl font-bold` |
-| H1 | 36px | 700 | 1.2 | `text-4xl font-bold` |
-| H2 | 24px | 600 | 1.3 | `text-2xl font-semibold` |
-| H3 | 18px | 600 | 1.4 | `text-lg font-semibold` |
-| Body | 16px | 400 | 1.6 | `text-base` |
-| Small | 14px | 400 | 1.5 | `text-sm` |
-| Caption | 12px | 500 | 1.4 | `text-xs font-medium` |
-| Data/Mono | 14px | 500 | 1.4 | `font-mono text-sm font-medium` |
+| Element   | Size | Weight | Line Height | Class                           |
+| --------- | ---- | ------ | ----------- | ------------------------------- |
+| Display   | 48px | 700    | 1.1         | `text-5xl font-bold`            |
+| H1        | 36px | 700    | 1.2         | `text-4xl font-bold`            |
+| H2        | 24px | 600    | 1.3         | `text-2xl font-semibold`        |
+| H3        | 18px | 600    | 1.4         | `text-lg font-semibold`         |
+| Body      | 16px | 400    | 1.6         | `text-base`                     |
+| Small     | 14px | 400    | 1.5         | `text-sm`                       |
+| Caption   | 12px | 500    | 1.4         | `text-xs font-medium`           |
+| Data/Mono | 14px | 500    | 1.4         | `font-mono text-sm font-medium` |
 
 ### Usage Rules
 
 - **Headings**: Inter, semibold/bold, tight tracking (`tracking-tight`)
 - **Body**: Inter, regular, relaxed line height
 - **Data/Numbers**: JetBrains Mono, medium weight
-- **Labels**: Inter, medium, uppercase for section headers (`uppercase tracking-wide`)
+- **Labels**: Inter, medium, uppercase for section headers
+  (`uppercase tracking-wide`)
 
 ---
 
@@ -92,16 +95,16 @@ Colors: #DC2626 → #F59E0B → #10B981 → #059669
 
 ### Spacing Scale
 
-| Token | Value | Usage |
-|-------|-------|-------|
-| `--space-1` | 4px | Tight gaps |
-| `--space-2` | 8px | Icon gaps, inline spacing |
-| `--space-3` | 12px | Compact padding |
-| `--space-4` | 16px | Standard padding |
-| `--space-6` | 24px | Card padding |
-| `--space-8` | 32px | Section gaps |
-| `--space-12` | 48px | Large section spacing |
-| `--space-20` | 80px | Page section margins |
+| Token        | Value | Usage                     |
+| ------------ | ----- | ------------------------- |
+| `--space-1`  | 4px   | Tight gaps                |
+| `--space-2`  | 8px   | Icon gaps, inline spacing |
+| `--space-3`  | 12px  | Compact padding           |
+| `--space-4`  | 16px  | Standard padding          |
+| `--space-6`  | 24px  | Card padding              |
+| `--space-8`  | 32px  | Section gaps              |
+| `--space-12` | 48px  | Large section spacing     |
+| `--space-20` | 80px  | Page section margins      |
 
 ### Container
 
@@ -113,11 +116,15 @@ Colors: #DC2626 → #F59E0B → #10B981 → #059669
 }
 
 @media (min-width: 640px) {
-  .container { padding: 0 24px; }
+  .container {
+    padding: 0 24px;
+  }
 }
 
 @media (min-width: 1024px) {
-  .container { padding: 0 32px; }
+  .container {
+    padding: 0 32px;
+  }
 }
 ```
 
@@ -135,7 +142,7 @@ Colors: #DC2626 → #F59E0B → #10B981 → #059669
 
 ```tsx
 // Primary (CTA)
-className="bg-slate-900 text-white hover:bg-slate-800 
+className="bg-slate-900 text-white hover:bg-slate-800
            px-4 py-2 rounded-md font-medium text-sm
            transition-colors duration-200
            focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2
@@ -169,7 +176,7 @@ className="p-6"
 ### Input
 
 ```tsx
-className="w-full px-3 py-2 
+className="w-full px-3 py-2
            border border-slate-300 rounded-md
            text-slate-900 placeholder:text-slate-400
            focus:outline-none focus:ring-2 focus:ring-slate-900 focus:border-transparent
@@ -195,13 +202,14 @@ className="... bg-red-100 text-red-800"
 
 ```tsx
 // Header
-className="bg-slate-100 text-slate-600 uppercase text-xs font-semibold tracking-wider"
+className =
+  'bg-slate-100 text-slate-600 uppercase text-xs font-semibold tracking-wider'
 
 // Row hover
-className="hover:bg-slate-50 transition-colors"
+className = 'hover:bg-slate-50 transition-colors'
 
 // Numeric cells
-className="text-right font-mono"
+className = 'text-right font-mono'
 ```
 
 ---
@@ -210,11 +218,11 @@ className="text-right font-mono"
 
 ### Timing
 
-| Type | Duration | Easing |
-|------|----------|--------|
-| Micro (hover, focus) | 150ms | `ease-out` |
-| Standard (modals, cards) | 200ms | `ease-out` |
-| Complex (page transitions) | 300ms | `ease-in-out` |
+| Type                       | Duration | Easing        |
+| -------------------------- | -------- | ------------- |
+| Micro (hover, focus)       | 150ms    | `ease-out`    |
+| Standard (modals, cards)   | 200ms    | `ease-out`    |
+| Complex (page transitions) | 300ms    | `ease-in-out` |
 
 ### Motion Tokens
 
@@ -227,7 +235,9 @@ className="text-right font-mono"
 
 /* Respect user preferences */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
@@ -238,27 +248,27 @@ className="text-right font-mono"
 
 ```tsx
 // Fade in up (entry animation)
-className="animate-fade-in-up"
+className = 'animate-fade-in-up'
 // keyframes: 0% { opacity: 0; transform: translateY(10px); }
 //           100% { opacity: 1; transform: translateY(0); }
 
 // Pulse (loading, attention)
-className="animate-pulse"
+className = 'animate-pulse'
 
 // Spin (loading indicator only)
-className="animate-spin"
+className = 'animate-spin'
 ```
 
 ### Interaction States
 
-| State | Effect |
-|-------|--------|
-| Hover (card) | `shadow` increase, no layout shift |
-| Hover (button) | Background color change |
-| Hover (row) | Background `slate-50` |
-| Focus | `ring-2 ring-slate-900 ring-offset-2` |
-| Active | Slightly darker background |
-| Disabled | `opacity-50 cursor-not-allowed` |
+| State          | Effect                                |
+| -------------- | ------------------------------------- |
+| Hover (card)   | `shadow` increase, no layout shift    |
+| Hover (button) | Background color change               |
+| Hover (row)    | Background `slate-50`                 |
+| Focus          | `ring-2 ring-slate-900 ring-offset-2` |
+| Active         | Slightly darker background            |
+| Disabled       | `opacity-50 cursor-not-allowed`       |
 
 ---
 
@@ -268,13 +278,13 @@ className="animate-spin"
 
 ```tsx
 const chartColors = {
-  profit: '#059669',    // emerald-600
-  warning: '#D97706',   // amber-600
-  danger: '#DC2626',    // red-600
-  neutral: '#64748B',   // slate-500
-  grid: '#E2E8F0',      // slate-200
+  profit: '#059669', // emerald-600
+  warning: '#D97706', // amber-600
+  danger: '#DC2626', // red-600
+  neutral: '#64748B', // slate-500
+  grid: '#E2E8F0', // slate-200
   reference: '#94A3B8', // slate-400 (dashed)
-};
+}
 ```
 
 ### Heatmap / Bubble Map (Demo Moment)
@@ -283,15 +293,15 @@ const chartColors = {
 // Size: Revenue (larger = more revenue)
 // Color: Margin health
 const getMarginColor = (marginPercent: number, target: number) => {
-  if (marginPercent < 0) return '#DC2626';      // danger
-  if (marginPercent < target) return '#D97706'; // warning  
-  if (marginPercent < target * 1.5) return '#10B981'; // ok
-  return '#059669'; // high profit
-};
+  if (marginPercent < 0) return '#DC2626' // danger
+  if (marginPercent < target) return '#D97706' // warning
+  if (marginPercent < target * 1.5) return '#10B981' // ok
+  return '#059669' // high profit
+}
 
 // Opacity for density
 // Glow effect for danger customers
-className="animate-pulse" // subtle pulse for margin < 0
+className = 'animate-pulse' // subtle pulse for margin < 0
 ```
 
 ### Tooltip Style
@@ -323,25 +333,25 @@ contentStyle={{
 
 ## Responsive Breakpoints
 
-| Breakpoint | Width | Usage |
-|------------|-------|-------|
-| `sm` | 640px | Mobile landscape |
-| `md` | 768px | Tablet |
-| `lg` | 1024px | Desktop |
-| `xl` | 1280px | Large desktop |
-| `2xl` | 1536px | Ultra-wide |
+| Breakpoint | Width  | Usage            |
+| ---------- | ------ | ---------------- |
+| `sm`       | 640px  | Mobile landscape |
+| `md`       | 768px  | Tablet           |
+| `lg`       | 1024px | Desktop          |
+| `xl`       | 1280px | Large desktop    |
+| `2xl`      | 1536px | Ultra-wide       |
 
 ### Mobile-First Patterns
 
 ```tsx
 // Stack on mobile, grid on desktop
-className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
+className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'
 
 // Hide on mobile
-className="hidden sm:block"
+className = 'hidden sm:block'
 
 // Responsive padding
-className="px-4 sm:px-6 lg:px-8"
+className = 'px-4 sm:px-6 lg:px-8'
 ```
 
 ---

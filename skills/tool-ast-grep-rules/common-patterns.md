@@ -1,6 +1,7 @@
 # Common ast-grep Patterns
 
 ## Contents
+
 - [JavaScript/TypeScript](#javascripttypescript)
 - [Python](#python)
 - [Go](#go)
@@ -31,12 +32,14 @@ rule:
 ### Replace console.log with logger
 
 **Input:**
+
 ```javascript
-console.log("debug message");
-console.log(data, options);
+console.log('debug message')
+console.log(data, options)
 ```
 
 **Rule:**
+
 ```yaml
 id: replace-console-log
 language: JavaScript
@@ -46,9 +49,10 @@ fix: logger.log($$$ARGS)
 ```
 
 **Output:**
+
 ```javascript
-logger.log("debug message");
-logger.log(data, options);
+logger.log('debug message')
+logger.log(data, options)
 ```
 
 ### Migrate var to const/let
@@ -85,12 +89,14 @@ rule:
 ### Replace print with logging
 
 **Input:**
+
 ```python
 print("Starting process")
 print(f"Value: {value}")
 ```
 
 **Rule:**
+
 ```yaml
 id: replace-print
 language: Python
@@ -100,6 +106,7 @@ fix: logging.info($$$ARGS)
 ```
 
 **Output:**
+
 ```python
 logging.info("Starting process")
 logging.info(f"Value: {value}")

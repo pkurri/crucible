@@ -1,18 +1,22 @@
 ---
 name: e-commerce-platform
-description: Full-featured e-commerce platform with product catalog, shopping cart, checkout, payments, and order management. Use when building online stores, marketplaces, or any commerce functionality.
+description:
+  Full-featured e-commerce platform with product catalog, shopping cart,
+  checkout, payments, and order management. Use when building online stores,
+  marketplaces, or any commerce functionality.
 triggers:
-  - "e-commerce"
-  - "online store"
-  - "shopping cart"
-  - "checkout"
-  - "product catalog"
-  - "marketplace"
+  - 'e-commerce'
+  - 'online store'
+  - 'shopping cart'
+  - 'checkout'
+  - 'product catalog'
+  - 'marketplace'
 ---
 
 # E-commerce Platform
 
-Complete e-commerce solution with product management, shopping cart, Stripe payments, and order fulfillment.
+Complete e-commerce solution with product management, shopping cart, Stripe
+payments, and order fulfillment.
 
 ## Capabilities
 
@@ -29,6 +33,7 @@ Complete e-commerce solution with product management, shopping cart, Stripe paym
 @skill e-commerce-platform
 
 Build an e-commerce store:
+
 - Products: Clothing, accessories
 - Payment: Stripe
 - Shipping: USPS, FedEx
@@ -78,25 +83,25 @@ Build an e-commerce store:
 
 ```typescript
 // 1. Cart validation
-const cart = await validateCart(cartId);
+const cart = await validateCart(cartId)
 
 // 2. Create Stripe PaymentIntent
 const paymentIntent = await stripe.paymentIntents.create({
   amount: cart.total * 100,
   currency: 'usd',
-  automatic_payment_methods: { enabled: true }
-});
+  automatic_payment_methods: {enabled: true},
+})
 
 // 3. Create order
 const order = await createOrder({
   userId,
   items: cart.items,
   total: cart.total,
-  paymentIntentId: paymentIntent.id
-});
+  paymentIntentId: paymentIntent.id,
+})
 
 // 4. Confirm payment (webhook)
-await updateOrderStatus(order.id, 'paid');
+await updateOrderStatus(order.id, 'paid')
 ```
 
 ## Integration

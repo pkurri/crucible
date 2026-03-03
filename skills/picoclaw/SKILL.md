@@ -1,24 +1,28 @@
 ---
 name: picoclaw
 description: >
-  Ultra-lightweight AI agent framework in Go: <10MB memory footprint, runs on $10 hardware,
-  1-second boot time, sandboxed workspace execution, cron-based heartbeat tasks, multi-channel
-  support (Telegram, Discord, Slack), persistent memory with JSONL sessions, and security
-  boundaries. Use when building resource-constrained AI agents, edge deployments, or
-  micro-orchestration systems.
+  Ultra-lightweight AI agent framework in Go: <10MB memory footprint, runs on
+  $10 hardware, 1-second boot time, sandboxed workspace execution, cron-based
+  heartbeat tasks, multi-channel support (Telegram, Discord, Slack), persistent
+  memory with JSONL sessions, and security boundaries. Use when building
+  resource-constrained AI agents, edge deployments, or micro-orchestration
+  systems.
 triggers:
-  - "picoclaw"
-  - "lightweight agent"
-  - "edge ai agent"
-  - "resource constrained"
-  - "micro agent"
-  - "go agent framework"
-  - "minimal footprint"
+  - 'picoclaw'
+  - 'lightweight agent'
+  - 'edge ai agent'
+  - 'resource constrained'
+  - 'micro agent'
+  - 'go agent framework'
+  - 'minimal footprint'
 ---
 
 # PicoClaw: Ultra-Lightweight AI Agent Framework
 
-PicoClaw is an ultra-efficient AI assistant framework built in Go, designed to run on minimal hardware (<10MB RAM, $10 devices) while maintaining full agent capabilities. It's a production-ready alternative to heavier frameworks when resource constraints matter.
+PicoClaw is an ultra-efficient AI assistant framework built in Go, designed to
+run on minimal hardware (<10MB RAM, $10 devices) while maintaining full agent
+capabilities. It's a production-ready alternative to heavier frameworks when
+resource constraints matter.
 
 ## Core Characteristics
 
@@ -30,7 +34,8 @@ PicoClaw is an ultra-efficient AI assistant framework built in Go, designed to r
 
 ## Architecture Overview
 
-PicoClaw follows a simplified agent architecture optimized for resource efficiency:
+PicoClaw follows a simplified agent architecture optimized for resource
+efficiency:
 
 ```
 ┌─────────────────────────────────────────┐
@@ -62,7 +67,8 @@ PicoClaw follows a simplified agent architecture optimized for resource efficien
 
 ## Workspace Layout
 
-PicoClaw stores all data in a configured workspace (default: `~/.picoclaw/workspace`):
+PicoClaw stores all data in a configured workspace (default:
+`~/.picoclaw/workspace`):
 
 ```
 ~/.picoclaw/workspace/
@@ -150,7 +156,8 @@ PicoClaw supports zero-code provider addition via `model_list`:
 
 ## Security Sandbox
 
-PicoClaw runs in a sandboxed environment by default to prevent unauthorized access.
+PicoClaw runs in a sandboxed environment by default to prevent unauthorized
+access.
 
 ### Workspace Restriction
 
@@ -166,6 +173,7 @@ PicoClaw runs in a sandboxed environment by default to prevent unauthorized acce
 ```
 
 When `restrict_to_workspace: true`, these tools are sandboxed:
+
 - `read_file` - Can only read files within workspace
 - `write_file` - Can only write files within workspace
 - `list_dir` - Can only list workspace directories
@@ -211,16 +219,16 @@ func validatePath(path string, workspace string) (string, error) {
     if err != nil {
         return "", err
     }
-    
+
     absWorkspace, err := filepath.Abs(workspace)
     if err != nil {
         return "", err
     }
-    
+
     if !strings.HasPrefix(absPath, absWorkspace) {
         return "", fmt.Errorf("Path outside workspace boundary")
     }
-    
+
     return absPath, nil
 }
 ```
@@ -281,19 +289,19 @@ func main() {
     a := agent.New(agent.Config{
         Workspace: "~/.picoclaw/workspace",
     })
-    
+
     c := cron.New()
-    
+
     // Daily briefing at 8 AM
     c.AddFunc("0 8 * * *", func() {
         a.Execute("Generate daily briefing from calendar and emails")
     })
-    
+
     // Check system health every hour
     c.AddFunc("0 * * * *", func() {
         a.Execute("Check system health and alert if issues found")
     })
-    
+
     c.Start()
     a.Run()
 }
@@ -317,23 +325,23 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-    
+
     a := agent.New(agent.Config{
         Workspace: "~/.picoclaw/workspace",
     })
-    
+
     u := tgbotapi.NewUpdate(0)
     u.Timeout = 60
     updates := bot.GetUpdatesChan(u)
-    
+
     for update := range updates {
         if update.Message == nil {
             continue
         }
-        
+
         sessionID := fmt.Sprintf("telegram_%d", update.Message.Chat.ID)
         response := a.ProcessMessage(sessionID, update.Message.Text)
-        
+
         msg := tgbotapi.NewMessage(update.Message.Chat.ID, response)
         bot.Send(msg)
     }
@@ -355,22 +363,22 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-    
+
     a := agent.New(agent.Config{
         Workspace: "~/.picoclaw/workspace",
     })
-    
+
     dg.AddHandler(func(s *discordgo.Session, m *discordgo.MessageCreate) {
         if m.Author.ID == s.State.User.ID {
             return
         }
-        
+
         sessionID := fmt.Sprintf("discord_%s", m.ChannelID)
         response := a.ProcessMessage(sessionID, m.Content)
-        
+
         s.ChannelMessageSend(m.ChannelID, response)
     })
-    
+
     dg.Open()
     select {}
 }
@@ -547,15 +555,15 @@ config := agent.Config{
 
 ## Comparison: PicoClaw vs OpenClaw
 
-| Feature | OpenClaw | PicoClaw |
-|---------|----------|----------|
-| Memory Footprint | ~1GB | <10MB (99% smaller) |
-| Boot Time | ~5s | 1s (5x faster) |
-| Language | Python/Node.js | Go |
-| Min Hardware | Mac mini ($600) | Raspberry Pi Zero ($10) |
-| Architecture | 6-stage pipeline | Simplified 3-stage |
-| Deployment | Docker required | Single binary |
-| Use Case | Full-featured agents | Resource-constrained, edge |
+| Feature          | OpenClaw             | PicoClaw                   |
+| ---------------- | -------------------- | -------------------------- |
+| Memory Footprint | ~1GB                 | <10MB (99% smaller)        |
+| Boot Time        | ~5s                  | 1s (5x faster)             |
+| Language         | Python/Node.js       | Go                         |
+| Min Hardware     | Mac mini ($600)      | Raspberry Pi Zero ($10)    |
+| Architecture     | 6-stage pipeline     | Simplified 3-stage         |
+| Deployment       | Docker required      | Single binary              |
+| Use Case         | Full-featured agents | Resource-constrained, edge |
 
 ## Best Practices
 
@@ -581,7 +589,7 @@ workspace/
 {
   "model_list": [
     {
-      "model_name": "gpt-3.5-turbo",  // ✅ Fast, cheap
+      "model_name": "gpt-3.5-turbo", // ✅ Fast, cheap
       "litellm_params": {
         "model": "openai/gpt-3.5-turbo"
       }
@@ -611,7 +619,8 @@ config := agent.Config{
 
 When building lightweight agents with Crucible + PicoClaw:
 
-1. **Use workflow-multi-agent-build** for micro-orchestration across multiple PicoClaw instances
+1. **Use workflow-multi-agent-build** for micro-orchestration across multiple
+   PicoClaw instances
 2. **Apply testing skill** for validating resource constraints
 3. **Use observe skill** with lightweight monitoring (avoid heavy APM)
 4. **Deploy to edge** using Raspberry Pi or low-cost VPS
@@ -634,13 +643,13 @@ func main() {
             MaxSessions: 1,
         },
     })
-    
+
     // Register custom tool
     a.RegisterTool("check_disk", func(args map[string]interface{}) (string, error) {
         // Check disk space
         return "Disk usage: 45%", nil
     })
-    
+
     // Heartbeat: Check system every 5 minutes
     ticker := time.NewTicker(5 * time.Minute)
     for range ticker.C {
@@ -664,6 +673,7 @@ func main() {
 ## Output Format
 
 When using this skill, provide:
+
 1. **Deployment configuration** optimized for resource constraints
 2. **Memory budget** and optimization strategies
 3. **Workspace layout** with minimal footprint

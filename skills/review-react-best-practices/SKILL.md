@@ -1,11 +1,17 @@
 ---
 name: review-react-best-practices
-description: "Review or refactor React / Next.js code for performance and reliability using a prioritized rule library (waterfalls, bundle size, server/client data fetching, re-renders, rendering). Use when writing React components, Next.js pages (App Router), optimizing bundle size, improving performance, or doing a React/Next.js performance review."
+description:
+  'Review or refactor React / Next.js code for performance and reliability using
+  a prioritized rule library (waterfalls, bundle size, server/client data
+  fetching, re-renders, rendering). Use when writing React components, Next.js
+  pages (App Router), optimizing bundle size, improving performance, or doing a
+  React/Next.js performance review.'
 ---
 
 # React Best Practices Review (Performance-First)
 
-Use this skill to turn “React feels slow / Next.js page is heavy / too many requests” into a **repeatable, prioritized review**.
+Use this skill to turn “React feels slow / Next.js page is heavy / too many
+requests” into a **repeatable, prioritized review**.
 
 This skill is intentionally built like a rule library:
 
@@ -17,7 +23,8 @@ This skill is intentionally built like a rule library:
 Use when:
 
 - Building or refactoring React components
-- Working in Next.js (App Router) on RSC boundaries, Server Actions, data fetching
+- Working in Next.js (App Router) on RSC boundaries, Server Actions, data
+  fetching
 - Reviewing PRs for performance regressions
 - Bundle size increases / slow HMR / cold start issues
 - UI jank / unnecessary re-renders / hydration issues
@@ -29,7 +36,8 @@ Use when:
 3. Then **MEDIUM** (re-render + rendering).
 4. Then **LOW-MEDIUM** micro-optimizations (JS hot paths).
 
-Section ordering lives in: [`references/rules/_sections.md`](references/rules/_sections.md)
+Section ordering lives in:
+[`references/rules/_sections.md`](references/rules/_sections.md)
 
 ## How to use the rules efficiently
 
@@ -76,4 +84,5 @@ If running in a crucible run directory, persist the report to:
 Rules live in:
 
 - [`references/rules/`](references/rules/)
-- Rule template: [`references/rules/_template.md`](references/rules/_template.md)
+- Rule template:
+  [`references/rules/_template.md`](references/rules/_template.md)

@@ -1,3 +1,4 @@
 # Distributed Orchestrator Protocol
 
-Autonomously forged skill designed to optimize https://www.voxyz.space operations at scale.
+Autonomously forged skill designed to optimize https://www.voxyz.space
+operations at scale.

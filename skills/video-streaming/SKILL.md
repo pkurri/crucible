@@ -1,13 +1,16 @@
 ---
 name: video-streaming
-description: Video streaming platform with adaptive bitrate streaming (HLS/DASH), live streaming, and video analytics. Use when building video platforms, implementing streaming, adding video content, or analyzing video engagement.
+description:
+  Video streaming platform with adaptive bitrate streaming (HLS/DASH), live
+  streaming, and video analytics. Use when building video platforms,
+  implementing streaming, adding video content, or analyzing video engagement.
 triggers:
-  - "video streaming"
-  - "HLS"
-  - "DASH"
-  - "live streaming"
-  - "video player"
-  - "adaptive bitrate"
+  - 'video streaming'
+  - 'HLS'
+  - 'DASH'
+  - 'live streaming'
+  - 'video player'
+  - 'adaptive bitrate'
 ---
 
 # Video Streaming Platform
@@ -28,6 +31,7 @@ Video streaming with adaptive bitrate, live streaming, and analytics.
 @skill video-streaming
 
 Set up video streaming:
+
 - Format: HLS
 - Resolutions: 1080p, 720p, 480p
 - CDN: CloudFront
@@ -38,7 +42,7 @@ Set up video streaming:
 
 ```typescript
 // Transcode video to multiple formats
-import { transcode } from '@crucible/video';
+import {transcode} from '@crucible/video'
 
 const job = await transcode({
   input: 's3://bucket/raw/video.mp4',
@@ -46,24 +50,24 @@ const job = await transcode({
     {
       format: 'hls',
       resolutions: ['1080p', '720p', '480p'],
-      codec: 'h264'
+      codec: 'h264',
     },
     {
       format: 'dash',
       resolutions: ['1080p', '720p'],
-      codec: 'h264'
-    }
-  ]
-});
+      codec: 'h264',
+    },
+  ],
+})
 
 // Monitor progress
-job.on('progress', (percent) => {
-  console.log(`Transcoding: ${percent}%`);
-});
+job.on('progress', percent => {
+  console.log(`Transcoding: ${percent}%`)
+})
 
-job.on('complete', (outputs) => {
-  console.log('Transcoding complete:', outputs);
-});
+job.on('complete', outputs => {
+  console.log('Transcoding complete:', outputs)
+})
 ```
 
 ## Video Player
@@ -79,12 +83,12 @@ function VideoPage() {
       poster="/poster.jpg"
       controls
       autoplay={false}
-      
+
       // Analytics
       onPlay={() => analytics.track('video_play')}
       onProgress={(time) => analytics.track('video_progress', { time })}
       onComplete={() => analytics.track('video_complete')}
-      
+
       // Customization
       theme="dark"
       primaryColor="#ff0000"
@@ -97,23 +101,23 @@ function VideoPage() {
 
 ```typescript
 // WebRTC for low-latency streaming
-import { LiveStream } from '@crucible/video';
+import {LiveStream} from '@crucible/video'
 
 const stream = new LiveStream({
   mode: 'webrtc', // or 'rtmp'
   quality: '1080p',
-  frameRate: 30
-});
+  frameRate: 30,
+})
 
 // Start streaming
 await stream.start({
   ingestUrl: 'rtmp://live.example.com/stream',
-  streamKey: 'stream-key-123'
-});
+  streamKey: 'stream-key-123',
+})
 
 // View live stream
-const viewer = stream.createViewer();
-viewer.play('https://live.example.com/hls/stream.m3u8');
+const viewer = stream.createViewer()
+viewer.play('https://live.example.com/hls/stream.m3u8')
 ```
 
 ## HLS Playlist

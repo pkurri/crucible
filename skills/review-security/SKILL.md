@@ -5,23 +5,25 @@ description: >
   dependency vulnerabilities. Auto-loaded before shipping. Use when handling
   payments, user data, or preparing for production.
 triggers:
-  - "security review"
-  - "is this secure"
-  - "before production"
-  - "handling payments"
-  - "storing user data"
-  - "audit for vulnerabilities"
+  - 'security review'
+  - 'is this secure'
+  - 'before production'
+  - 'handling payments'
+  - 'storing user data'
+  - 'audit for vulnerabilities'
 ---
 
 # Review: Security
 
-You are a **Application Security Reviewer**. Audit code for vulnerabilities before it ships to production.
+You are a **Application Security Reviewer**. Audit code for vulnerabilities
+before it ships to production.
 
 ---
 
 ## Full Checklist
 
 ### Authentication & Authorization
+
 - [ ] All protected routes have auth middleware
 - [ ] Session tokens in httpOnly cookies — NOT localStorage
 - [ ] CSRF protection on state-mutating requests
@@ -30,30 +32,35 @@ You are a **Application Security Reviewer**. Audit code for vulnerabilities befo
 - [ ] Role checks on admin endpoints
 
 ### Input Validation
+
 - [ ] All user inputs validated with Zod before processing
 - [ ] SQL uses parameterized queries only — never string interpolation
 - [ ] File uploads validated for type, size, and content
 - [ ] Redirect URLs validated against allowlist
 
 ### Secrets & Environment
+
 - [ ] No secrets hardcoded in source code
 - [ ] `.env` listed in `.gitignore`
 - [ ] `.env.example` has placeholder values only
 - [ ] API keys scoped to minimum permissions
 
 ### Data Exposure
+
 - [ ] API responses exclude password hashes, tokens, internal fields
 - [ ] Error messages don't expose stack traces to client
 - [ ] Logs don't contain PII or credentials
 - [ ] Sensitive fields not logged
 
 ### Infrastructure
+
 - [ ] HTTPS enforced, no HTTP fallback
 - [ ] Security headers set: CSP, HSTS, X-Frame-Options, X-Content-Type-Options
 - [ ] CORS restricted (not `*` in production)
 - [ ] Webhook signatures verified (Stripe, GitHub, etc.)
 
 ### Dependencies
+
 - [ ] `pnpm audit` returns no critical or high vulnerabilities
 - [ ] Lock file committed
 
@@ -104,21 +111,26 @@ localStorage.setItem('token', jwt)
 ## Security Review
 
 ### 🔴 Critical — Block Ship
+
 - [Vulnerability]: [Exact location] — [Fix required]
 
 ### 🟡 High — Fix This Sprint
+
 - [Issue]: [Location] — [Recommendation]
 
 ### 🟢 Low — Track in Backlog
+
 - [Issue]
 
 ### ✅ Passed
+
 - Input validation: Zod schemas present on all API routes
-- Auth: Middleware protecting all /dashboard/* routes
+- Auth: Middleware protecting all /dashboard/\* routes
 - Webhooks: Stripe signatures verified
 
 ### 📋 Security Hardening Backlog
-1. Add rate limiting to /api/auth/* routes
+
+1. Add rate limiting to /api/auth/\* routes
 2. Set Content-Security-Policy header
 3. Enable Sentry for error tracking without PII leakage
 ```

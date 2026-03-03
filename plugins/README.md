@@ -7,7 +7,9 @@
 
 ## Overview
 
-The Crucible Plugin System enables third-party extensions to integrate seamlessly with the platform. Plugins can add new templates, skills, workflows, and integrations without modifying core code.
+The Crucible Plugin System enables third-party extensions to integrate
+seamlessly with the platform. Plugins can add new templates, skills, workflows,
+and integrations without modifying core code.
 
 ---
 
@@ -69,16 +71,8 @@ Every plugin requires a `crucible.plugin.json` manifest file:
   "license": "MIT",
   "type": "template|skill|integration|workflow|ui",
   "entry": "dist/index.js",
-  "hooks": [
-    "template:register",
-    "skill:register",
-    "cli:command"
-  ],
-  "permissions": [
-    "read:templates",
-    "write:skills",
-    "execute:scripts"
-  ],
+  "hooks": ["template:register", "skill:register", "cli:command"],
+  "permissions": ["read:templates", "write:skills", "execute:scripts"],
   "dependencies": {
     "@crucible/core": ">=1.0.0"
   },
@@ -124,34 +118,34 @@ my-crucible-plugin/
 
 ```typescript
 // src/index.ts
-import { CruciblePlugin, HookContext } from '@crucible/core';
+import {CruciblePlugin, HookContext} from '@crucible/core'
 
 export default class MyPlugin implements CruciblePlugin {
-  name = 'my-crucible-plugin';
-  version = '1.0.0';
+  name = 'my-crucible-plugin'
+  version = '1.0.0'
 
   async activate(context: HookContext): Promise<void> {
     // Register hooks
-    context.on('template:register', this.registerTemplates.bind(this));
-    context.on('skill:register', this.registerSkills.bind(this));
-    
+    context.on('template:register', this.registerTemplates.bind(this))
+    context.on('skill:register', this.registerSkills.bind(this))
+
     // Initialize plugin
-    console.log('MyPlugin activated');
+    console.log('MyPlugin activated')
   }
 
   async deactivate(): Promise<void> {
     // Cleanup
-    console.log('MyPlugin deactivated');
+    console.log('MyPlugin deactivated')
   }
 
   private async registerTemplates(context: HookContext) {
-    const templates = await context.loadTemplates('./templates');
-    return templates;
+    const templates = await context.loadTemplates('./templates')
+    return templates
   }
 
   private async registerSkills(context: HookContext) {
-    const skills = await context.loadSkills('./skills');
-    return skills;
+    const skills = await context.loadSkills('./skills')
+    return skills
   }
 }
 ```
@@ -227,21 +221,21 @@ npx crucible plugin watch ./my-plugin
 
 ```typescript
 // tests/plugin.test.ts
-import { PluginTester } from '@crucible/testing';
-import MyPlugin from '../src/index';
+import {PluginTester} from '@crucible/testing'
+import MyPlugin from '../src/index'
 
 describe('MyPlugin', () => {
-  const tester = new PluginTester();
+  const tester = new PluginTester()
 
   beforeEach(async () => {
-    await tester.loadPlugin(MyPlugin);
-  });
+    await tester.loadPlugin(MyPlugin)
+  })
 
   it('should register templates', async () => {
-    const templates = await tester.triggerHook('template:register');
-    expect(templates).toHaveLength(3);
-  });
-});
+    const templates = await tester.triggerHook('template:register')
+    expect(templates).toHaveLength(3)
+  })
+})
 ```
 
 ---
@@ -268,6 +262,7 @@ Plugins must declare required permissions:
 ### Sandbox Restrictions
 
 Plugins run in a sandboxed environment:
+
 - No direct filesystem access (use APIs)
 - No network access without permission
 - No process spawning
@@ -278,13 +273,13 @@ Plugins run in a sandboxed environment:
 
 ## Official Plugins
 
-| Plugin | Description | Install |
-|--------|-------------|---------|
-| `@crucible/plugin-vercel` | Vercel deployment integration | `npm i @crucible/plugin-vercel` |
-| `@crucible/plugin-aws` | AWS service integration | `npm i @crucible/plugin-aws` |
-| `@crucible/plugin-supabase` | Supabase integration | `npm i @crucible/plugin-supabase` |
-| `@crucible/plugin-stripe` | Stripe payment integration | `npm i @crucible/plugin-stripe` |
-| `@crucible/plugin-github` | GitHub workflow automation | `npm i @crucible/plugin-github` |
+| Plugin                      | Description                   | Install                           |
+| --------------------------- | ----------------------------- | --------------------------------- |
+| `@crucible/plugin-vercel`   | Vercel deployment integration | `npm i @crucible/plugin-vercel`   |
+| `@crucible/plugin-aws`      | AWS service integration       | `npm i @crucible/plugin-aws`      |
+| `@crucible/plugin-supabase` | Supabase integration          | `npm i @crucible/plugin-supabase` |
+| `@crucible/plugin-stripe`   | Stripe payment integration    | `npm i @crucible/plugin-stripe`   |
+| `@crucible/plugin-github`   | GitHub workflow automation    | `npm i @crucible/plugin-github`   |
 
 ---
 

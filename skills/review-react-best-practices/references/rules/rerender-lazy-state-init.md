@@ -7,9 +7,11 @@ tags: rerender, useState, performance
 
 ## Use Lazy State Initialization for Expensive Defaults
 
-If your default state is expensive to compute, pass a function to `useState` so it runs once.
+If your default state is expensive to compute, pass a function to `useState` so
+it runs once.
 
 **Detect:**
+
 - `useState(expensiveFn())` or large parsing in initial state.
 
 **Incorrect:**
@@ -23,4 +25,3 @@ const [value] = useState(expensiveParse(raw))
 ```tsx
 const [value] = useState(() => expensiveParse(raw))
 ```
-

@@ -5,9 +5,8 @@
 ```markdown
 # Documentation Consistency Review Report
 
-> Review Date: YYYY-MM-DD
-> Project: [Project Name]
-> Review Scope: README.md, docs/**/*.md
+> Review Date: YYYY-MM-DD Project: [Project Name] Review Scope: README.md,
+> docs/\*_/_.md
 
 ## Issue List
 
@@ -22,7 +21,7 @@
 
 ## Single Issue Item Template
 
-```markdown
+````markdown
 ### [Number]. [One-sentence problem summary]
 
 - **Severity**: P0 / P1 / P2 / P3 / Pending Evidence
@@ -39,12 +38,15 @@
     [Brief quote of key implementation/config]
     ```
 - **Impact**:
-  - [How will it mislead users/callers/developers? What consequences might occur?]
+  - [How will it mislead users/callers/developers? What consequences might
+    occur?]
 - **Suggestion (minimal fix)**:
-  - [Suggest modifying "documentation" or "code"? Provide minimal viable fix direction]
+  - [Suggest modifying "documentation" or "code"? Provide minimal viable fix
+    direction]
 - **Related Principle**:
-  - [Code is truth / Contracts first / User-facing commitments first / Security default tightening / Terminology consistency / Reproducibility]
-```
+  - [Code is truth / Contracts first / User-facing commitments first / Security
+    default tightening / Terminology consistency / Reproducibility]
+````
 
 ---
 
@@ -65,14 +67,14 @@
 
 ### Summary Statistics
 
-| Level | Count |
-|-------|-------|
-| P0 Blocker | x |
-| P1 Major | x |
-| P2 Minor | x |
-| P3 Nit | x |
-| Pending Evidence | x |
-| **Total** | **x** |
+| Level            | Count |
+| ---------------- | ----- |
+| P0 Blocker       | x     |
+| P1 Major         | x     |
+| P2 Minor         | x     |
+| P3 Nit           | x     |
+| Pending Evidence | x     |
+| **Total**        | **x** |
 
 ### Suggested Fix Priority
 
@@ -87,13 +89,13 @@
 
 ### Change Impact
 
-| Impact Area | Required | Notes |
-|-------------|----------|-------|
-| Demo Update | Yes/No | [Specific notes] |
-| Screenshot Update | Yes/No | [Specific notes] |
-| Script Update | Yes/No | [Specific notes] |
-| Changelog | Yes/No | [Specific notes] |
-| External Notification | Yes/No | [Specific notes] |
+| Impact Area           | Required | Notes            |
+| --------------------- | -------- | ---------------- |
+| Demo Update           | Yes/No   | [Specific notes] |
+| Screenshot Update     | Yes/No   | [Specific notes] |
+| Script Update         | Yes/No   | [Specific notes] |
+| Changelog             | Yes/No   | [Specific notes] |
+| External Notification | Yes/No   | [Specific notes] |
 ```
 
 ---
@@ -119,9 +121,11 @@
     }
     ```
 - **Impact**:
-  - Users/auditors will mistakenly believe the app has security isolation enabled, but there's actually XSS attack risk
+  - Users/auditors will mistakenly believe the app has security isolation
+    enabled, but there's actually XSS attack risk
 - **Suggestion (minimal fix)**:
-  - Modify code to set `contextIsolation` to `true`, and expose necessary APIs through preload script
+  - Modify code to set `contextIsolation` to `true`, and expose necessary APIs
+    through preload script
 - **Related Principle**:
   - Security default tightening, Code is truth
 
@@ -140,7 +144,7 @@
     ```
   - Code excerpt:
     ```typescript
-    return { id, name, email, created_at, updated_at }; // snake_case
+    return {id, name, email, created_at, updated_at} // snake_case
     ```
 - **Impact**:
   - Frontend using camelCase per documentation won't get values

@@ -1,6 +1,7 @@
 # Language-Specific Patterns
 
 ## Table of Contents
+
 - [TypeScript/JavaScript](#typescriptjavascript)
 - [Python](#python)
 - [Go](#go)
@@ -12,61 +13,63 @@
 ### Overuse of `any` Type
 
 ```typescript
-// ❌ 
+// ❌
 function process(data: any) {
-  return data.value;
+  return data.value
 }
 
-// ✅ 
+// ✅
 interface DataPayload {
-  value: string;
+  value: string
 }
 function process(data: DataPayload) {
-  return data.value;
+  return data.value
 }
 ```
 
 ### Callback Hell
 
 ```typescript
-// ❌ 
-getUser(id, (user) => {
-  getOrders(user.id, (orders) => {
-    processOrders(orders, (result) => {
+// ❌
+getUser(id, user => {
+  getOrders(user.id, orders => {
+    processOrders(orders, result => {
       sendNotification(result, () => {
-        console.log('done');
-      });
-    });
-  });
-});
+        console.log('done')
+      })
+    })
+  })
+})
 
-// ✅ 
-const user = await getUser(id);
-const orders = await getOrders(user.id);
-const result = await processOrders(orders);
-await sendNotification(result);
+// ✅
+const user = await getUser(id)
+const orders = await getOrders(user.id)
+const result = await processOrders(orders)
+await sendNotification(result)
 ```
 
 ### Missing Optional Chaining
 
 ```typescript
-// ❌ 
-if (user && user.profile && user.profile.address && user.profile.address.city) {}
+// ❌
+if (user && user.profile && user.profile.address && user.profile.address.city) {
+}
 
-// ✅ 
-if (user?.profile?.address?.city) {}
+// ✅
+if (user?.profile?.address?.city) {
+}
 ```
 
 ### Destructuring Assignment
 
 ```typescript
-// ❌ 
-const name = user.name;
-const email = user.email;
-const age = user.age;
+// ❌
+const name = user.name
+const email = user.email
+const age = user.age
 
-// ✅ 
-const { name, email, age } = user;
+// ✅
+const {name, email, age} = user
 ```
 
 ---
@@ -98,7 +101,7 @@ def add_item(item, items=[]):
     items.append(item)
     return items
 
-# ✅ 
+# ✅
 def add_item(item, items=None):
     if items is None:
         items = []
@@ -109,13 +112,13 @@ def add_item(item, items=None):
 ### Bare Except
 
 ```python
-# ❌ 
+# ❌
 try:
     risky_operation()
 except:
     pass
 
-# ✅ 
+# ✅
 try:
     risky_operation()
 except SpecificError as e:
@@ -125,21 +128,21 @@ except SpecificError as e:
 ### String Concatenation
 
 ```python
-# ❌ 
+# ❌
 message = "Hello " + name + "! You have " + str(count) + " messages."
 
-# ✅ 
+# ✅
 message = f"Hello {name}! You have {count} messages."
 ```
 
 ### Missing Type Hints
 
 ```python
-# ❌ 
+# ❌
 def process(data):
     return data['value']
 
-# ✅ 
+# ✅
 from typing import TypedDict
 
 class DataPayload(TypedDict):
@@ -156,10 +159,10 @@ def process(data: DataPayload) -> str:
 ### Ignoring Errors
 
 ```go
-// ❌ 
+// ❌
 result, _ := someFunction()
 
-// ✅ 
+// ✅
 result, err := someFunction()
 if err != nil {
     return fmt.Errorf("someFunction failed: %w", err)
@@ -194,13 +197,13 @@ func main() {
 ### Overuse of Empty Interface
 
 ```go
-// ❌ 
+// ❌
 func process(data interface{}) {
     v := data.(map[string]interface{})
     // ...
 }
 
-// ✅ 
+// ✅
 type Payload struct {
     Value string `json:"value"`
 }
@@ -213,7 +216,7 @@ func process(data Payload) {
 ### Deep Nesting
 
 ```go
-// ❌ 
+// ❌
 func process(order *Order) error {
     if order != nil {
         if order.Items != nil {

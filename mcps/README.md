@@ -7,7 +7,10 @@
 
 ## Overview
 
-Crucible MCP (Model Context Protocol) servers provide standardized interfaces for AI models to interact with external tools, services, and data sources. Each MCP server exposes capabilities through a well-defined protocol that enables secure, structured communication between AI agents and external systems.
+Crucible MCP (Model Context Protocol) servers provide standardized interfaces
+for AI models to interact with external tools, services, and data sources. Each
+MCP server exposes capabilities through a well-defined protocol that enables
+secure, structured communication between AI agents and external systems.
 
 ---
 
@@ -145,56 +148,56 @@ claude --mcp-servers stripe,supabase,github
 
 ### Cloud Services
 
-| Server | Description | Tools |
-|--------|-------------|-------|
+| Server           | Description                    | Tools     |
+| ---------------- | ------------------------------ | --------- |
 | `mcp-cloudflare` | Cloudflare Workers, KV, R2, D1 | 15+ tools |
-| `mcp-aws` | AWS S3, Lambda, RDS, etc. | 25+ tools |
-| `mcp-gcp` | Google Cloud Platform | 20+ tools |
-| `mcp-azure` | Microsoft Azure services | 18+ tools |
+| `mcp-aws`        | AWS S3, Lambda, RDS, etc.      | 25+ tools |
+| `mcp-gcp`        | Google Cloud Platform          | 20+ tools |
+| `mcp-azure`      | Microsoft Azure services       | 18+ tools |
 
 ### Database & Storage
 
-| Server | Description | Tools |
-|--------|-------------|-------|
+| Server         | Description              | Tools     |
+| -------------- | ------------------------ | --------- |
 | `mcp-supabase` | Supabase Postgres & Auth | 12+ tools |
-| `mcp-neon` | Neon Serverless Postgres | 8+ tools |
-| `mcp-mongodb` | MongoDB operations | 10+ tools |
-| `mcp-redis` | Redis cache operations | 6+ tools |
+| `mcp-neon`     | Neon Serverless Postgres | 8+ tools  |
+| `mcp-mongodb`  | MongoDB operations       | 10+ tools |
+| `mcp-redis`    | Redis cache operations   | 6+ tools  |
 
 ### Payment & Commerce
 
-| Server | Description | Tools |
-|--------|-------------|-------|
-| `mcp-stripe` | Stripe payments | 20+ tools |
+| Server        | Description              | Tools     |
+| ------------- | ------------------------ | --------- |
+| `mcp-stripe`  | Stripe payments          | 20+ tools |
 | `mcp-shopify` | Shopify store management | 15+ tools |
-| `mcp-paypal` | PayPal integration | 8+ tools |
+| `mcp-paypal`  | PayPal integration       | 8+ tools  |
 
 ### Development Tools
 
-| Server | Description | Tools |
-|--------|-------------|-------|
-| `mcp-github` | GitHub repositories, issues, PRs | 25+ tools |
-| `mcp-gitlab` | GitLab integration | 20+ tools |
-| `mcp-vercel` | Vercel deployments | 10+ tools |
-| `mcp-docker` | Docker container management | 12+ tools |
-| `mcp-kubernetes` | K8s cluster operations | 15+ tools |
+| Server           | Description                      | Tools     |
+| ---------------- | -------------------------------- | --------- |
+| `mcp-github`     | GitHub repositories, issues, PRs | 25+ tools |
+| `mcp-gitlab`     | GitLab integration               | 20+ tools |
+| `mcp-vercel`     | Vercel deployments               | 10+ tools |
+| `mcp-docker`     | Docker container management      | 12+ tools |
+| `mcp-kubernetes` | K8s cluster operations           | 15+ tools |
 
 ### AI & ML Services
 
-| Server | Description | Tools |
-|--------|-------------|-------|
-| `mcp-openai` | OpenAI GPT, DALL-E, Whisper | 8+ tools |
-| `mcp-anthropic` | Claude API operations | 6+ tools |
-| `mcp-huggingface` | Hugging Face models | 10+ tools |
+| Server            | Description                 | Tools     |
+| ----------------- | --------------------------- | --------- |
+| `mcp-openai`      | OpenAI GPT, DALL-E, Whisper | 8+ tools  |
+| `mcp-anthropic`   | Claude API operations       | 6+ tools  |
+| `mcp-huggingface` | Hugging Face models         | 10+ tools |
 
 ### Communication
 
-| Server | Description | Tools |
-|--------|-------------|-------|
-| `mcp-slack` | Slack messaging | 12+ tools |
+| Server        | Description            | Tools     |
+| ------------- | ---------------------- | --------- |
+| `mcp-slack`   | Slack messaging        | 12+ tools |
 | `mcp-discord` | Discord bot operations | 10+ tools |
-| `mcp-resend` | Email sending | 5+ tools |
-| `mcp-twilio` | SMS and voice | 8+ tools |
+| `mcp-resend`  | Email sending          | 5+ tools  |
+| `mcp-twilio`  | SMS and voice          | 8+ tools  |
 
 ---
 
@@ -223,15 +226,15 @@ my-mcp-server/
 
 ```typescript
 // src/index.ts
-import { Server } from '@modelcontextprotocol/sdk/server/index.js';
-import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import {Server} from '@modelcontextprotocol/sdk/server/index.js'
+import {StdioServerTransport} from '@modelcontextprotocol/sdk/server/stdio.js'
 import {
   CallToolRequestSchema,
   ListToolsRequestSchema,
-} from '@modelcontextprotocol/sdk/types.js';
+} from '@modelcontextprotocol/sdk/types.js'
 
 class MyMCPServer {
-  private server: Server;
+  private server: Server
 
   constructor() {
     this.server = new Server(
@@ -244,9 +247,9 @@ class MyMCPServer {
           tools: {},
         },
       }
-    );
+    )
 
-    this.setupHandlers();
+    this.setupHandlers()
   }
 
   private setupHandlers(): void {
@@ -269,17 +272,17 @@ class MyMCPServer {
             },
           },
         ],
-      };
-    });
+      }
+    })
 
     // Execute tool
-    this.server.setRequestHandler(CallToolRequestSchema, async (request) => {
+    this.server.setRequestHandler(CallToolRequestSchema, async request => {
       if (request.params.name === 'my_tool') {
-        const { param1 } = request.params.arguments;
-        
+        const {param1} = request.params.arguments
+
         // Implement tool logic
-        const result = await this.myToolLogic(param1);
-        
+        const result = await this.myToolLogic(param1)
+
         return {
           content: [
             {
@@ -287,27 +290,27 @@ class MyMCPServer {
               text: JSON.stringify(result, null, 2),
             },
           ],
-        };
+        }
       }
 
-      throw new Error(`Unknown tool: ${request.params.name}`);
-    });
+      throw new Error(`Unknown tool: ${request.params.name}`)
+    })
   }
 
   private async myToolLogic(param1: string): Promise<any> {
     // Tool implementation
-    return { result: `Processed: ${param1}` };
+    return {result: `Processed: ${param1}`}
   }
 
   async run(): Promise<void> {
-    const transport = new StdioServerTransport();
-    await this.server.connect(transport);
-    console.error('MCP server running on stdio');
+    const transport = new StdioServerTransport()
+    await this.server.connect(transport)
+    console.error('MCP server running on stdio')
   }
 }
 
-const server = new MyMCPServer();
-server.run().catch(console.error);
+const server = new MyMCPServer()
+server.run().catch(console.error)
 ```
 
 ### 3. Tool Definition
@@ -315,10 +318,10 @@ server.run().catch(console.error);
 ```typescript
 // src/tools/index.ts
 export interface ToolDefinition {
-  name: string;
-  description: string;
-  inputSchema: object;
-  handler: (args: any) => Promise<any>;
+  name: string
+  description: string
+  inputSchema: object
+  handler: (args: any) => Promise<any>
 }
 
 export const tools: ToolDefinition[] = [
@@ -335,17 +338,17 @@ export const tools: ToolDefinition[] = [
         params: {
           type: 'array',
           description: 'Query parameters',
-          items: { type: 'string' },
+          items: {type: 'string'},
         },
       },
       required: ['sql'],
     },
-    handler: async (args) => {
+    handler: async args => {
       // Implementation
-      return { rows: [] };
+      return {rows: []}
     },
   },
-];
+]
 ```
 
 ### 4. Package and Publish
@@ -379,35 +382,35 @@ export const tools: ToolDefinition[] = [
 ```typescript
 // Initialize
 interface InitializeRequest {
-  jsonrpc: '2.0';
-  id: number;
-  method: 'initialize';
+  jsonrpc: '2.0'
+  id: number
+  method: 'initialize'
   params: {
-    protocolVersion: string;
-    capabilities: object;
+    protocolVersion: string
+    capabilities: object
     clientInfo: {
-      name: string;
-      version: string;
-    };
-  };
+      name: string
+      version: string
+    }
+  }
 }
 
 // List Tools
 interface ListToolsRequest {
-  jsonrpc: '2.0';
-  id: number;
-  method: 'tools/list';
+  jsonrpc: '2.0'
+  id: number
+  method: 'tools/list'
 }
 
 // Call Tool
 interface CallToolRequest {
-  jsonrpc: '2.0';
-  id: number;
-  method: 'tools/call';
+  jsonrpc: '2.0'
+  id: number
+  method: 'tools/call'
   params: {
-    name: string;
-    arguments: object;
-  };
+    name: string
+    arguments: object
+  }
 }
 ```
 
@@ -416,24 +419,24 @@ interface CallToolRequest {
 ```typescript
 // Tool List Response
 interface ListToolsResponse {
-  jsonrpc: '2.0';
-  id: number;
+  jsonrpc: '2.0'
+  id: number
   result: {
-    tools: ToolDefinition[];
-  };
+    tools: ToolDefinition[]
+  }
 }
 
 // Tool Call Response
 interface CallToolResponse {
-  jsonrpc: '2.0';
-  id: number;
+  jsonrpc: '2.0'
+  id: number
   result: {
     content: Array<{
-      type: 'text' | 'image' | 'resource';
-      [key: string]: any;
-    }>;
-    isError?: boolean;
-  };
+      type: 'text' | 'image' | 'resource'
+      [key: string]: any
+    }>
+    isError?: boolean
+  }
 }
 ```
 
@@ -446,15 +449,15 @@ interface CallToolResponse {
 ```typescript
 // src/auth.ts
 export class AuthManager {
-  private apiKey: string;
+  private apiKey: string
 
   constructor() {
-    this.apiKey = process.env.MCP_API_KEY || '';
+    this.apiKey = process.env.MCP_API_KEY || ''
   }
 
   validateRequest(request: any): boolean {
     // Validate API key or token
-    return request.headers?.authorization === `Bearer ${this.apiKey}`;
+    return request.headers?.authorization === `Bearer ${this.apiKey}`
   }
 }
 ```
@@ -463,15 +466,15 @@ export class AuthManager {
 
 ```typescript
 // Validate tool inputs
-import { z } from 'zod';
+import {z} from 'zod'
 
 const QuerySchema = z.object({
   sql: z.string().max(1000),
   params: z.array(z.string()).optional(),
-});
+})
 
 export function validateInput(args: unknown) {
-  return QuerySchema.parse(args);
+  return QuerySchema.parse(args)
 }
 ```
 
@@ -480,22 +483,22 @@ export function validateInput(args: unknown) {
 ```typescript
 // src/rate-limiter.ts
 export class RateLimiter {
-  private requests: Map<string, number[]> = new Map();
+  private requests: Map<string, number[]> = new Map()
 
   checkLimit(clientId: string, maxRequests: number = 100): boolean {
-    const now = Date.now();
-    const window = 60 * 1000; // 1 minute
-    
-    const requests = this.requests.get(clientId) || [];
-    const recent = requests.filter(t => now - t < window);
-    
+    const now = Date.now()
+    const window = 60 * 1000 // 1 minute
+
+    const requests = this.requests.get(clientId) || []
+    const recent = requests.filter(t => now - t < window)
+
     if (recent.length >= maxRequests) {
-      return false;
+      return false
     }
-    
-    recent.push(now);
-    this.requests.set(clientId, recent);
-    return true;
+
+    recent.push(now)
+    this.requests.set(clientId, recent)
+    return true
   }
 }
 ```
@@ -506,34 +509,35 @@ export class RateLimiter {
 
 ```typescript
 // tests/server.test.ts
-import { MyMCPServer } from '../src/index';
-import { Client } from '@modelcontextprotocol/sdk/client/index.js';
-import { InMemoryTransport } from '@modelcontextprotocol/sdk/inMemory.js';
+import {MyMCPServer} from '../src/index'
+import {Client} from '@modelcontextprotocol/sdk/client/index.js'
+import {InMemoryTransport} from '@modelcontextprotocol/sdk/inMemory.js'
 
 describe('MyMCPServer', () => {
-  let client: Client;
-  let server: MyMCPServer;
+  let client: Client
+  let server: MyMCPServer
 
   beforeEach(async () => {
-    const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
-    
-    server = new MyMCPServer();
-    await server.connect(serverTransport);
-    
-    client = new Client({ name: 'test-client', version: '1.0.0' });
-    await client.connect(clientTransport);
-  });
+    const [clientTransport, serverTransport] =
+      InMemoryTransport.createLinkedPair()
+
+    server = new MyMCPServer()
+    await server.connect(serverTransport)
+
+    client = new Client({name: 'test-client', version: '1.0.0'})
+    await client.connect(clientTransport)
+  })
 
   it('should list tools', async () => {
-    const tools = await client.listTools();
-    expect(tools.tools).toHaveLength(1);
-  });
+    const tools = await client.listTools()
+    expect(tools.tools).toHaveLength(1)
+  })
 
   it('should execute tool', async () => {
-    const result = await client.callTool('my_tool', { param1: 'test' });
-    expect(result.content[0].text).toContain('Processed');
-  });
-});
+    const result = await client.callTool('my_tool', {param1: 'test'})
+    expect(result.content[0].text).toContain('Processed')
+  })
+})
 ```
 
 ---

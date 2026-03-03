@@ -3,12 +3,13 @@
 ## Supported Versions
 
 | Version | Supported          |
-|---------|--------------------|
+| ------- | ------------------ |
 | main    | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in Crucible, please report it to us privately before disclosing it publicly.
+If you discover a security vulnerability in Crucible, please report it to us
+privately before disclosing it publicly.
 
 ### How to Report
 
@@ -16,6 +17,7 @@ If you discover a security vulnerability in Crucible, please report it to us pri
 - **PGP Key**: Available on request
 
 Please include:
+
 - Detailed description of the vulnerability
 - Steps to reproduce (if applicable)
 - Potential impact assessment
@@ -40,4 +42,5 @@ This project follows security best practices:
 
 ### Acknowledgments
 
-We thank security researchers for helping keep Crucible safe. All valid security reports will be acknowledged and credited in our security advisories.
+We thank security researchers for helping keep Crucible safe. All valid security
+reports will be acknowledged and credited in our security advisories.

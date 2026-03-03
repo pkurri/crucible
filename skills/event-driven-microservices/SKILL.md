@@ -1,13 +1,16 @@
 ---
 name: event-driven-microservices
-description: Event-driven microservices architecture with message brokers, CQRS pattern, and eventual consistency. Use when building distributed systems, implementing event sourcing, designing microservices, or setting up async communication.
+description:
+  Event-driven microservices architecture with message brokers, CQRS pattern,
+  and eventual consistency. Use when building distributed systems, implementing
+  event sourcing, designing microservices, or setting up async communication.
 triggers:
-  - "microservices"
-  - "event-driven"
-  - "message queue"
-  - "CQRS"
-  - "event sourcing"
-  - "distributed system"
+  - 'microservices'
+  - 'event-driven'
+  - 'message queue'
+  - 'CQRS'
+  - 'event sourcing'
+  - 'distributed system'
 ---
 
 # Event-Driven Microservices
@@ -28,6 +31,7 @@ Event-driven architecture with message brokers, CQRS, and eventual consistency.
 @skill event-driven-microservices
 
 Design an event-driven system:
+
 - Services: Order, Payment, Inventory, Shipping
 - Events: OrderCreated, PaymentProcessed, InventoryReserved
 - Broker: Kafka
@@ -71,7 +75,7 @@ await bus.publish('order.created', {
 // Subscribe to events
 bus.subscribe('payment.processed', async (event) => {
   const { orderId, status } = event;
-  
+
   if (status === 'success') {
     await reserveInventory(orderId);
   } else {
@@ -94,9 +98,9 @@ class CreateOrderCommand {
 @CommandHandler(CreateOrderCommand)
 class CreateOrderHandler {
   async execute(command: CreateOrderCommand) {
-    const order = await this.repository.create(command);
-    await this.eventBus.publish('order.created', order);
-    return order;
+    const order = await this.repository.create(command)
+    await this.eventBus.publish('order.created', order)
+    return order
   }
 }
 
@@ -106,8 +110,8 @@ class GetOrdersHandler {
   async execute(query: GetOrdersQuery) {
     return this.readModel.find({
       userId: query.userId,
-      status: query.status
-    });
+      status: query.status,
+    })
   }
 }
 ```
@@ -115,59 +119,59 @@ class GetOrdersHandler {
 ## Saga Pattern
 
 ```typescript
-import { Saga } from '@crucible/microservices';
+import {Saga} from '@crucible/microservices'
 
 const orderSaga = new Saga('order-processing')
   .step('reserve-payment')
-  .invoke(async (ctx) => {
-    await paymentService.charge(ctx.order.paymentMethod);
+  .invoke(async ctx => {
+    await paymentService.charge(ctx.order.paymentMethod)
   })
-  .withCompensation(async (ctx) => {
-    await paymentService.refund(ctx.paymentId);
+  .withCompensation(async ctx => {
+    await paymentService.refund(ctx.paymentId)
   })
-  
+
   .step('reserve-inventory')
-  .invoke(async (ctx) => {
-    await inventoryService.reserve(ctx.order.items);
+  .invoke(async ctx => {
+    await inventoryService.reserve(ctx.order.items)
   })
-  .withCompensation(async (ctx) => {
-    await inventoryService.release(ctx.reservationId);
+  .withCompensation(async ctx => {
+    await inventoryService.release(ctx.reservationId)
   })
-  
+
   .step('create-shipment')
-  .invoke(async (ctx) => {
-    await shippingService.create(ctx.order);
-  });
+  .invoke(async ctx => {
+    await shippingService.create(ctx.order)
+  })
 
 // Execute saga
-const result = await orderSaga.execute({ order });
+const result = await orderSaga.execute({order})
 ```
 
 ## Event Sourcing
 
 ```typescript
 class OrderAggregate {
-  private events: Event[] = [];
-  private state: OrderState;
+  private events: Event[] = []
+  private state: OrderState
 
   applyEvent(event: Event) {
-    this.events.push(event);
-    
+    this.events.push(event)
+
     switch (event.type) {
       case 'OrderCreated':
-        this.state = { status: 'pending', ...event.data };
-        break;
+        this.state = {status: 'pending', ...event.data}
+        break
       case 'OrderPaid':
-        this.state.status = 'paid';
-        break;
+        this.state.status = 'paid'
+        break
       case 'OrderShipped':
-        this.state.status = 'shipped';
-        break;
+        this.state.status = 'shipped'
+        break
     }
   }
 
   getUncommittedEvents() {
-    return this.events;
+    return this.events
   }
 }
 ```
@@ -175,16 +179,16 @@ class OrderAggregate {
 ## Circuit Breaker
 
 ```typescript
-import { CircuitBreaker } from '@crucible/microservices';
+import {CircuitBreaker} from '@crucible/microservices'
 
 const breaker = new CircuitBreaker({
   failureThreshold: 5,
-  resetTimeout: 30000
-});
+  resetTimeout: 30000,
+})
 
 const result = await breaker.execute(async () => {
-  return await inventoryService.checkStock(itemId);
-});
+  return await inventoryService.checkStock(itemId)
+})
 ```
 
 ## Integration

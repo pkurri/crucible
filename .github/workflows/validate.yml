@@ -72,13 +72,13 @@ jobs:
           echo "Total skills: $count"
           template_count=$(ls -d templates/*/ | wc -l)
           echo "Total templates: $template_count"
-          
+
           # Ensure we have the expected number of skills
           if [ "$count" -lt 20 ]; then
             echo "❌ Expected at least 20 skills, found $count"
             exit 1
           fi
-          
+
           # Ensure we have the expected number of templates
           if [ "$template_count" -lt 5 ]; then
             echo "❌ Expected at least 5 templates, found $template_count"

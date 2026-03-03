@@ -7,9 +7,11 @@ tags: async, suspense, nextjs, streaming, performance
 
 ## Use Suspense Boundaries to Stream Slow Subtrees
 
-When a subtree is slow (data fetching, heavy component), wrap it in a `Suspense` boundary so the rest of the page can render sooner.
+When a subtree is slow (data fetching, heavy component), wrap it in a `Suspense`
+boundary so the rest of the page can render sooner.
 
 **Detect:**
+
 - A page blocks on slow data before rendering anything useful.
 - Large layouts that wait for the slowest component.
 
@@ -25,7 +27,7 @@ export default async function Page() {
 **Correct (stream slow part):**
 
 ```tsx
-import { Suspense } from "react"
+import {Suspense} from 'react'
 
 export default function Page() {
   return (
@@ -40,5 +42,5 @@ export default function Page() {
 ```
 
 References:
-- https://react.dev/reference/react/Suspense
 
+- https://react.dev/reference/react/Suspense

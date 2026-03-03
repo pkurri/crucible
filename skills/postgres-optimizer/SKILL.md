@@ -2,23 +2,25 @@
 name: postgres-optimizer
 description: >
   Expert PostgreSQL optimization: slow query diagnosis, index strategy, pgvector
-  for semantic search (HNSW/IVFFlat), connection pooling, vacuum tuning.
-  Use when debugging slow queries, setting up vector search, or scaling a Postgres DB.
+  for semantic search (HNSW/IVFFlat), connection pooling, vacuum tuning. Use
+  when debugging slow queries, setting up vector search, or scaling a Postgres
+  DB.
 triggers:
-  - "postgres"
-  - "postgresql"
-  - "slow query"
-  - "database performance"
-  - "pgvector"
-  - "vector search"
-  - "semantic search"
-  - "database index"
-  - "query optimization"
+  - 'postgres'
+  - 'postgresql'
+  - 'slow query'
+  - 'database performance'
+  - 'pgvector'
+  - 'vector search'
+  - 'semantic search'
+  - 'database index'
+  - 'query optimization'
 ---
 
 # Skill: Postgres Optimizer
 
-Diagnose and fix PostgreSQL performance issues. Specializes in pgvector for semantic search.
+Diagnose and fix PostgreSQL performance issues. Specializes in pgvector for
+semantic search.
 
 ---
 
@@ -93,6 +95,7 @@ CREATE INDEX CONCURRENTLY idx_users_active_email
 ```
 
 **Rules:**
+
 - Always index foreign keys
 - Index columns used in WHERE, ORDER BY, JOIN
 - Use `CONCURRENTLY` in production to avoid locking

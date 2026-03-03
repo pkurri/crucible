@@ -7,16 +7,18 @@ tags: js, dom, css, performance
 
 ## Batch DOM Style Changes via Classes
 
-Avoid repeatedly mutating inline styles in loops. Prefer toggling classes or using a single style write.
+Avoid repeatedly mutating inline styles in loops. Prefer toggling classes or
+using a single style write.
 
 **Detect:**
+
 - Many `.style.* =` writes inside loops/scroll handlers.
 
 **Incorrect:**
 
 ```ts
 for (const el of nodes) {
-  el.style.opacity = "0.5"
+  el.style.opacity = '0.5'
 }
 ```
 
@@ -24,7 +26,6 @@ for (const el of nodes) {
 
 ```ts
 for (const el of nodes) {
-  el.classList.add("isDimmed")
+  el.classList.add('isDimmed')
 }
 ```
-

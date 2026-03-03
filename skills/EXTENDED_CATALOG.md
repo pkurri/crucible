@@ -468,4 +468,5 @@
 
 ## Total: 300+ Skills
 
-All skills are production-ready and designed for modern software development workflows.
+All skills are production-ready and designed for modern software development
+workflows.

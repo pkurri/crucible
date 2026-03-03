@@ -2,16 +2,17 @@
 name: automation-code
 description: >
   Best practices for shell scripting, CI/CD pipelines, and task automation.
-  Covers safety-first bash patterns, idempotency, Python automation, and CI ordering.
-  Use when writing shell scripts, GitHub Actions, or any automation logic.
+  Covers safety-first bash patterns, idempotency, Python automation, and CI
+  ordering. Use when writing shell scripts, GitHub Actions, or any automation
+  logic.
 triggers:
-  - "shell script"
-  - "bash script"
-  - "automate"
-  - "ci/cd"
-  - "pipeline"
-  - "github actions"
-  - "automation"
+  - 'shell script'
+  - 'bash script'
+  - 'automate'
+  - 'ci/cd'
+  - 'pipeline'
+  - 'github actions'
+  - 'automation'
 ---
 
 # Skill: Automation Code
@@ -139,15 +140,15 @@ if __name__ == "__main__":
 jobs:
   quality:
     steps:
-      - name: Type check      # Fastest — fail first
+      - name: Type check # Fastest — fail first
         run: pnpm tsc --noEmit
-      - name: Lint            # Fast
+      - name: Lint # Fast
         run: pnpm lint
-      - name: Unit tests      # Medium
+      - name: Unit tests # Medium
         run: pnpm test
-      - name: Build           # Slow — run last
+      - name: Build # Slow — run last
         run: pnpm build
-      - name: E2E tests       # Slowest — only if everything passes
+      - name: E2E tests # Slowest — only if everything passes
         run: pnpm test:e2e
 ```
 
@@ -156,7 +157,7 @@ jobs:
 ```yaml
 - name: Deploy
   env:
-    API_KEY: ${{ secrets.API_KEY }}   # ✅ from GitHub Secrets
+    API_KEY: ${{ secrets.API_KEY }} # ✅ from GitHub Secrets
   run: ./deploy.sh
   # Never: API_KEY=hardcoded_value
 ```
@@ -167,5 +168,5 @@ jobs:
 - uses: actions/setup-node@v4
   with:
     node-version: 20
-    cache: pnpm          # Cache node_modules automatically
+    cache: pnpm # Cache node_modules automatically
 ```

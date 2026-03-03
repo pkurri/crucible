@@ -1,10 +1,12 @@
 # Cloudflare MCP Scenario Examples
 
-20 real-world development scenarios, each annotated with required tools and execution flow.
+20 real-world development scenarios, each annotated with required tools and
+execution flow.
 
 ## Observability (Troubleshooting)
 
 ### 1. Worker 5xx Spike Investigation
+
 ```
 User: My worker had a 5xx spike starting yesterday at 18:00, find the most likely cause and evidence.
 Execution:
@@ -15,6 +17,7 @@ Execution:
 ```
 
 ### 2. CPU Trend Analysis
+
 ```
 User: Pull the CPU time trend for worker `api-gateway` over the last 24h, tell me if there are abnormal spikes.
 Execution:
@@ -27,6 +30,7 @@ Execution:
 ## Builds (Build Troubleshooting)
 
 ### 3. Build History Review
+
 ```
 User: List the last 5 builds for `frontend-app`, why did the latest one fail?
 Execution:
@@ -37,6 +41,7 @@ Execution:
 ```
 
 ### 4. Build Log Analysis
+
 ```
 User: Pull logs for build UUID xxx, help me extract the first failure cause and possible fixes.
 Execution:
@@ -49,6 +54,7 @@ Execution:
 ## Browser Rendering (Page Capture)
 
 ### 5. Page Screenshot Verification
+
 ```
 User: Take a screenshot of https://my-site.com, see if the top banner loaded.
 Execution:
@@ -58,6 +64,7 @@ Execution:
 ```
 
 ### 6. Page to Markdown Conversion
+
 ```
 User: Convert an online error page to markdown, I need to paste it into an incident postmortem.
 Execution:
@@ -69,6 +76,7 @@ Execution:
 ## Audit Logs (Change Tracking)
 
 ### 7. DNS Change Tracking
+
 ```
 User: Who changed the DNS records yesterday at noon? Give me the audit records.
 Execution:
@@ -78,6 +86,7 @@ Execution:
 ```
 
 ### 8. Weekly Change Report
+
 ```
 User: Summarize Worker-related key config changes from the past 7 days into a report.
 Execution:
@@ -90,6 +99,7 @@ Execution:
 ## KV Management
 
 ### 9. List KV Namespaces
+
 ```
 User: List all KV namespaces in my account, find ones named like `prod-*`.
 Execution:
@@ -100,6 +110,7 @@ Execution:
 ```
 
 ### 10. Create KV Namespace
+
 ```
 User: Create a KV namespace called `feature-flags`, and tell me how to bind it to a worker.
 Execution:
@@ -110,6 +121,7 @@ Execution:
 ```
 
 ### 11. Batch Delete KV (Dangerous)
+
 ```
 User: Delete all KV namespaces starting with `temp-*` (list them first for my confirmation).
 Execution:
@@ -124,6 +136,7 @@ Execution:
 ## R2 Management
 
 ### 12. R2 Cleanup Recommendations
+
 ```
 User: List R2 buckets, find ones that might be unused, give me cleanup recommendations.
 Execution:
@@ -134,6 +147,7 @@ Execution:
 ```
 
 ### 13. Create R2 Bucket + Code Example
+
 ```
 User: Create an R2 bucket called `uploads-prod`, and give me a minimal worker code snippet to read/write it.
 Execution:
@@ -146,6 +160,7 @@ Execution:
 ## D1 Management
 
 ### 14. D1 Query
+
 ```
 User: List D1 databases, run `SELECT COUNT(*) FROM users;`.
 Execution:
@@ -156,6 +171,7 @@ Execution:
 ```
 
 ### 15. D1 Migration Dry Run (Complete Flow)
+
 ```
 User: I need a temporary D1 for migration dry run: create, run schema, insert test data, then delete (give me confirmation points at each step).
 Execution:
@@ -170,6 +186,7 @@ Execution:
 ## Hyperdrive Management
 
 ### 16. Hyperdrive Config Analysis
+
 ```
 User: List Hyperdrive configs, help me find which one connects to the production database, and suggest cache strategy improvements.
 Execution:
@@ -182,6 +199,7 @@ Execution:
 ## Workers Code
 
 ### 17. Worker Source Code Inspection
+
 ```
 User: Pull the source code for worker `my-worker-script`, I suspect it has an env variable wrong.
 Execution:
@@ -194,6 +212,7 @@ Execution:
 ## Container Sandbox
 
 ### 18. Run Tests
+
 ```
 User: In the sandbox, clone this repo, run tests, paste any failing tests and errors.
 Execution:
@@ -205,6 +224,7 @@ Execution:
 ```
 
 ### 19. Data Analysis
+
 ```
 User: Use Python to parse this log/metric export, calculate p95 and error rate changes.
 Execution:
@@ -218,6 +238,7 @@ Execution:
 ## End-to-End Workflows
 
 ### 20. Build Failure Full-chain Troubleshooting
+
 ```
 User: Create an automated troubleshooting flow: from build failure → find logs → fix recommendations → verify production recovery.
 Execution:
@@ -233,8 +254,13 @@ Execution:
 
 ## General Principles
 
-1. **Read before write**: Always list/get current state before any write operation
-2. **Explicit confirmation**: Write operations must present plan, await user confirmation
-3. **Post-execution verification**: Audit logs + observability confirm no anomalies
-4. **Evidence chain**: Troubleshooting conclusions must have logs/metrics/screenshots supporting them
-5. **Split requests**: Break complex queries into smaller pieces to avoid context overload
+1. **Read before write**: Always list/get current state before any write
+   operation
+2. **Explicit confirmation**: Write operations must present plan, await user
+   confirmation
+3. **Post-execution verification**: Audit logs + observability confirm no
+   anomalies
+4. **Evidence chain**: Troubleshooting conclusions must have
+   logs/metrics/screenshots supporting them
+5. **Split requests**: Break complex queries into smaller pieces to avoid
+   context overload

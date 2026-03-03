@@ -1,36 +1,41 @@
 ---
 name: review-code
 description: >
-  Thorough code review covering functionality, security (CWE), readability,
-  and performance. Outputs findings as CRITICAL / SUGGESTION / NITPICK.
-  Use when reviewing PRs, auditing code quality, or before merging.
+  Thorough code review covering functionality, security (CWE), readability, and
+  performance. Outputs findings as CRITICAL / SUGGESTION / NITPICK. Use when
+  reviewing PRs, auditing code quality, or before merging.
 triggers:
-  - "review this code"
-  - "review my code"
-  - "code review"
-  - "check this code"
-  - "is this code good"
-  - "review the PR"
-  - "audit this"
+  - 'review this code'
+  - 'review my code'
+  - 'code review'
+  - 'check this code'
+  - 'is this code good'
+  - 'review the PR'
+  - 'audit this'
 ---
 
 # Skill: Code Review
 
-Structured, thorough code review. Output findings as CRITICAL / SUGGESTION / NITPICK.
+Structured, thorough code review. Output findings as CRITICAL / SUGGESTION /
+NITPICK.
 
 ---
 
 ## Review Checklist
 
 ### 1. Functionality & Logic
+
 - [ ] Does the code solve the stated problem?
 - [ ] Are there obvious bugs or logic errors?
-- [ ] Are edge cases handled? (null inputs, empty arrays, negative numbers, zero)
+- [ ] Are edge cases handled? (null inputs, empty arrays, negative numbers,
+      zero)
 - [ ] Are race conditions possible in async code?
 - [ ] Are error paths handled (not just the happy path)?
 
 ### 2. Security (CWE Focus)
-- [ ] **SQL Injection** — Are queries parameterized? No string interpolation in SQL?
+
+- [ ] **SQL Injection** — Are queries parameterized? No string interpolation in
+      SQL?
 - [ ] **Secrets** — No hardcoded API keys, passwords, or tokens?
 - [ ] **Input Validation** — Is all user input validated before use?
 - [ ] **XSS** — Is user content sanitized before rendering?
@@ -38,6 +43,7 @@ Structured, thorough code review. Output findings as CRITICAL / SUGGESTION / NIT
 - [ ] **Error Exposure** — Do error messages leak internal details?
 
 ### 3. Readability & Maintainability
+
 - [ ] Variable/function names are descriptive (`userId` not `u`)
 - [ ] Functions do one thing (Single Responsibility)
 - [ ] Public functions/methods have docstrings/JSDoc
@@ -45,6 +51,7 @@ Structured, thorough code review. Output findings as CRITICAL / SUGGESTION / NIT
 - [ ] Dead code removed
 
 ### 4. Performance
+
 - [ ] No N+1 queries (queries inside loops)
 - [ ] No expensive operations inside loops
 - [ ] `async/await` used correctly for I/O (no blocking calls)
@@ -52,12 +59,15 @@ Structured, thorough code review. Output findings as CRITICAL / SUGGESTION / NIT
 - [ ] Caching used where appropriate
 
 ### 5. TypeScript/Python Specific
+
 **TypeScript:**
+
 - [ ] No `any` types
 - [ ] Proper error typing in catch blocks
 - [ ] Zod validation on API inputs
 
 **Python:**
+
 - [ ] Pydantic models for request/response
 - [ ] All I/O is `async`
 - [ ] No blocking calls in async functions
@@ -68,7 +78,7 @@ Structured, thorough code review. Output findings as CRITICAL / SUGGESTION / NIT
 
 Always structure findings as:
 
-```
+````
 ## Code Review: [filename or PR title]
 
 ### [CRITICAL] Must Fix Before Merge
@@ -78,27 +88,30 @@ Always structure findings as:
 **Fix**:
 ```code
 // Fixed version
-```
+````
 
 ### [SUGGESTION] Improvements
-**Issue**: [What could be better]
-**Location**: `file.ts:15`
-**Why**: [Performance/maintainability reason]
-**Suggestion**:
+
+**Issue**: [What could be better] **Location**: `file.ts:15` **Why**:
+[Performance/maintainability reason] **Suggestion**:
+
 ```code
 // Better version
 ```
 
 ### [NITPICK] Style/Polish
+
 - `file.ts:8` — Variable name `d` → rename to `document`
 - `file.ts:23` — Missing JSDoc on public function
 
 ### Summary
+
 - Criticals: X (must fix)
 - Suggestions: X (should fix)
 - Nitpicks: X (optional)
 - **Verdict**: ✅ Approve | 🔄 Request Changes | ❌ Block
-```
+
+````
 
 ---
 
@@ -131,4 +144,4 @@ try {
   logger.error("doSomething failed", { error: e })
   throw e
 }
-```
+````

@@ -1,6 +1,7 @@
 # ast-grep Rule Syntax Reference
 
 ## Contents
+
 - [Atomic Rules](#atomic-rules)
 - [Composite Rules](#composite-rules)
 - [Relational Rules](#relational-rules)
@@ -41,6 +42,7 @@ rule:
 ```
 
 ESQuery-style selector (v0.39.1+):
+
 ```yaml
 rule:
   kind: call_expression > identifier
@@ -48,12 +50,13 @@ rule:
 
 ### `regex`
 
-Matches node text with Rust regex. **Always combine with other rules** for performance:
+Matches node text with Rust regex. **Always combine with other rules** for
+performance:
 
 ```yaml
 rule:
   kind: identifier
-  regex: "^debug"
+  regex: '^debug'
 ```
 
 ### `nthChild`
@@ -67,6 +70,7 @@ rule:
 ```
 
 Advanced:
+
 ```yaml
 rule:
   nthChild:
@@ -211,17 +215,17 @@ rule:
 
 ## Pattern Syntax
 
-| Syntax | Description | Example |
-|--------|-------------|---------|
-| `$NAME` | Match exactly one AST node | `console.log($GREETING)` |
-| `$$$ARGS` | Match zero or more nodes | `console.log($$$ARGS)` |
-| `$_NAME` | Non-capturing (independent match) | `$_FUNC($_FUNC)` |
-| `$$VAR` | Capture unnamed nodes | `async function $$NAME() {}` |
+| Syntax    | Description                       | Example                      |
+| --------- | --------------------------------- | ---------------------------- |
+| `$NAME`   | Match exactly one AST node        | `console.log($GREETING)`     |
+| `$$$ARGS` | Match zero or more nodes          | `console.log($$$ARGS)`       |
+| `$_NAME`  | Non-capturing (independent match) | `$_FUNC($_FUNC)`             |
+| `$$VAR`   | Capture unnamed nodes             | `async function $$NAME() {}` |
 
 **Variable Capturing**: Same name = same content.
 
 ```yaml
-pattern: $A == $A  # matches: a == a, 1 == 1; not: a == b
+pattern: $A == $A # matches: a == a, 1 == 1; not: a == b
 ```
 
 ---
@@ -263,6 +267,7 @@ fix: $NEW_VAR
 ```
 
 **String style** (v0.38.3+):
+
 ```yaml
 transform:
   LIST: substring($GEN, startChar=1, endChar=-1)

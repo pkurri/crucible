@@ -1,18 +1,22 @@
 ---
 name: ci-cd-orchestrator
-description: Multi-cloud CI/CD pipeline automation platform with support for Docker, Kubernetes, and serverless deployments. Use when setting up CI/CD pipelines, automating deployments, managing release workflows, or implementing GitOps.
+description:
+  Multi-cloud CI/CD pipeline automation platform with support for Docker,
+  Kubernetes, and serverless deployments. Use when setting up CI/CD pipelines,
+  automating deployments, managing release workflows, or implementing GitOps.
 triggers:
-  - "CI/CD"
-  - "pipeline"
-  - "deployment"
-  - "automate deploy"
-  - "GitOps"
-  - "release"
+  - 'CI/CD'
+  - 'pipeline'
+  - 'deployment'
+  - 'automate deploy'
+  - 'GitOps'
+  - 'release'
 ---
 
 # CI/CD Orchestrator
 
-Multi-cloud CI/CD platform supporting Docker, Kubernetes, and serverless deployments with GitOps workflows.
+Multi-cloud CI/CD platform supporting Docker, Kubernetes, and serverless
+deployments with GitOps workflows.
 
 ## Capabilities
 
@@ -28,6 +32,7 @@ Multi-cloud CI/CD platform supporting Docker, Kubernetes, and serverless deploym
 @skill ci-cd-orchestrator
 
 Set up CI/CD for my project:
+
 - Repository: github.com/org/app
 - Build: Docker
 - Deploy: Kubernetes
@@ -84,8 +89,8 @@ stages:
 await deploy.docker({
   image: 'myapp:latest',
   registry: 'ghcr.io/org/repo',
-  tags: ['latest', 'v1.0.0']
-});
+  tags: ['latest', 'v1.0.0'],
+})
 ```
 
 ### Kubernetes
@@ -94,8 +99,8 @@ await deploy.docker({
 await deploy.kubernetes({
   namespace: 'production',
   manifests: ['./k8s/deployment.yaml'],
-  strategy: 'rolling'
-});
+  strategy: 'rolling',
+})
 ```
 
 ### Serverless
@@ -103,8 +108,8 @@ await deploy.kubernetes({
 ```typescript
 await deploy.serverless({
   provider: 'vercel',
-  regions: ['iad1', 'sfo1']
-});
+  regions: ['iad1', 'sfo1'],
+})
 ```
 
 ## Features

@@ -1,18 +1,23 @@
 ---
 name: graphql-federation-gateway
-description: GraphQL Federation Gateway for composing multiple GraphQL microservices into a unified schema. Use when building federated GraphQL architectures, composing multiple services, implementing schema stitching, or setting up Apollo Federation.
+description:
+  GraphQL Federation Gateway for composing multiple GraphQL microservices into a
+  unified schema. Use when building federated GraphQL architectures, composing
+  multiple services, implementing schema stitching, or setting up Apollo
+  Federation.
 triggers:
-  - "GraphQL"
-  - "federation"
-  - "gateway"
-  - "schema stitching"
-  - "Apollo"
-  - "microservices"
+  - 'GraphQL'
+  - 'federation'
+  - 'gateway'
+  - 'schema stitching'
+  - 'Apollo'
+  - 'microservices'
 ---
 
 # GraphQL Federation Gateway
 
-Federated GraphQL architecture for composing multiple services into a unified schema.
+Federated GraphQL architecture for composing multiple services into a unified
+schema.
 
 ## Capabilities
 
@@ -28,6 +33,7 @@ Federated GraphQL architecture for composing multiple services into a unified sc
 @skill graphql-federation-gateway
 
 Set up GraphQL Federation:
+
 - Gateway: Apollo Gateway
 - Subgraphs: Users, Orders, Products
 - Auth: JWT
@@ -38,32 +44,32 @@ Set up GraphQL Federation:
 
 ```typescript
 // gateway.ts
-import { ApolloGateway, IntrospectAndCompose } from '@apollo/gateway';
-import { ApolloServer } from '@apollo/server';
+import {ApolloGateway, IntrospectAndCompose} from '@apollo/gateway'
+import {ApolloServer} from '@apollo/server'
 
 const gateway = new ApolloGateway({
   supergraphSdl: new IntrospectAndCompose({
     subgraphs: [
-      { name: 'users', url: 'http://users:4001/graphql' },
-      { name: 'orders', url: 'http://orders:4002/graphql' },
-      { name: 'products', url: 'http://products:4003/graphql' }
-    ]
-  })
-});
+      {name: 'users', url: 'http://users:4001/graphql'},
+      {name: 'orders', url: 'http://orders:4002/graphql'},
+      {name: 'products', url: 'http://products:4003/graphql'},
+    ],
+  }),
+})
 
 const server = new ApolloServer({
   gateway,
-  introspection: true
-});
+  introspection: true,
+})
 ```
 
 ## Subgraph Definition
 
 ```typescript
 // subgraphs/users/index.ts
-import { ApolloServer } from '@apollo/server';
-import { buildSubgraphSchema } from '@apollo/subgraph';
-import { gql } from 'graphql-tag';
+import {ApolloServer} from '@apollo/server'
+import {buildSubgraphSchema} from '@apollo/subgraph'
+import {gql} from 'graphql-tag'
 
 const typeDefs = gql`
   extend type Query {
@@ -77,25 +83,25 @@ const typeDefs = gql`
     name: String
     orders: [Order] @external
   }
-`;
+`
 
 const resolvers = {
   Query: {
-    user: (_, { id }) => db.users.findById(id),
-    me: (_, __, { user }) => db.users.findById(user.id)
+    user: (_, {id}) => db.users.findById(id),
+    me: (_, __, {user}) => db.users.findById(user.id),
   },
-  
+
   User: {
-    orders: (user) => ({
+    orders: user => ({
       __typename: 'Order',
-      userId: user.id
-    })
-  }
-};
+      userId: user.id,
+    }),
+  },
+}
 
 const server = new ApolloServer({
-  schema: buildSubgraphSchema({ typeDefs, resolvers })
-});
+  schema: buildSubgraphSchema({typeDefs, resolvers}),
+})
 ```
 
 ## Entity Resolution
@@ -105,12 +111,12 @@ const server = new ApolloServer({
 const resolvers = {
   Order: {
     user: {
-      resolveReference: async (order) => {
-        return db.users.findById(order.userId);
-      }
-    }
-  }
-};
+      resolveReference: async order => {
+        return db.users.findById(order.userId)
+      },
+    },
+  },
+}
 ```
 
 ## Query Example
@@ -141,13 +147,13 @@ query GetUserWithOrders {
 ```typescript
 const server = new ApolloServer({
   gateway,
-  context: async ({ req }) => {
-    const token = req.headers.authorization || '';
-    const user = await validateToken(token);
-    
-    return { user };
-  }
-});
+  context: async ({req}) => {
+    const token = req.headers.authorization || ''
+    const user = await validateToken(token)
+
+    return {user}
+  },
+})
 ```
 
 ## Features

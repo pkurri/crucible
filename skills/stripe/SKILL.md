@@ -1,6 +1,12 @@
 ---
 name: stripe
-description: "Billing and payment operations for Stripe: customers, products, prices, invoices, payment links, subscriptions, refunds, disputes, balance. Triggers: create customer, create product, create invoice, generate payment link, query transactions, process refunds, manage subscriptions, view disputes, check balance. Money operations require confirmation. MCP is optional — works with Dashboard/CLI too."
+description:
+  'Billing and payment operations for Stripe: customers, products, prices,
+  invoices, payment links, subscriptions, refunds, disputes, balance. Triggers:
+  create customer, create product, create invoice, generate payment link, query
+  transactions, process refunds, manage subscriptions, view disputes, check
+  balance. Money operations require confirmation. MCP is optional — works with
+  Dashboard/CLI too.'
 allowed-tools:
   - Read
   - Bash
@@ -10,24 +16,29 @@ allowed-tools:
 
 # Stripe Billing Operations
 
-Execute billing and payment operations on Stripe: customers, products, invoices, payment links, subscriptions, refunds, and disputes.
+Execute billing and payment operations on Stripe: customers, products, invoices,
+payment links, subscriptions, refunds, and disputes.
 
-> **MCP is optional.** This skill works with MCP (auto), Stripe CLI, or Dashboard. See [BACKENDS.md](BACKENDS.md) for execution options.
+> **MCP is optional.** This skill works with MCP (auto), Stripe CLI, or
+> Dashboard. See [BACKENDS.md](BACKENDS.md) for execution options.
 
 ## Three Hard Rules
 
-1. **Read before write** — Before creating customer/product/price, check if it already exists to avoid duplicates
-2. **Money operations require confirmation** — Refunds, subscription changes, dispute updates must be confirmed before execution
-3. **When in doubt, search** — If unsure about object ID or parameters, search first, don't guess
+1. **Read before write** — Before creating customer/product/price, check if it
+   already exists to avoid duplicates
+2. **Money operations require confirmation** — Refunds, subscription changes,
+   dispute updates must be confirmed before execution
+3. **When in doubt, search** — If unsure about object ID or parameters, search
+   first, don't guess
 
 ## Security Rules
 
-| Operation Type | Rule |
-|----------------|------|
-| Read (list, get, search) | Execute directly |
-| Create (customer, product, price, invoice) | Check for duplicates first |
-| Money (refund, subscription cancel/update, dispute) | Display details → Await confirmation → Execute |
-| Mode | Test mode by default. Live requires explicit "live mode" + double confirmation |
+| Operation Type                                      | Rule                                                                           |
+| --------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Read (list, get, search)                            | Execute directly                                                               |
+| Create (customer, product, price, invoice)          | Check for duplicates first                                                     |
+| Money (refund, subscription cancel/update, dispute) | Display details → Await confirmation → Execute                                 |
+| Mode                                                | Test mode by default. Live requires explicit "live mode" + double confirmation |
 
 ## Dangerous Actions (Require Confirmation)
 
@@ -38,14 +49,15 @@ Before executing these operations:
 3. **Await confirmation** — Wait for explicit "confirm"/"yes"/"proceed"
 4. **Execute and receipt** — Return result + object ID + status
 
-| Action | Risk |
-|--------|------|
-| `create_refund` | Money leaves account |
-| `cancel_subscription` | Revenue loss |
-| `update_subscription` | Contract change |
-| `update_dispute` | Legal implications |
+| Action                | Risk                 |
+| --------------------- | -------------------- |
+| `create_refund`       | Money leaves account |
+| `cancel_subscription` | Revenue loss         |
+| `update_subscription` | Contract change      |
+| `update_dispute`      | Legal implications   |
 
 Example confirmation prompt:
+
 ```
 About to execute refund:
 - PaymentIntent: pi_xxx
@@ -58,6 +70,7 @@ Reply "confirm" to proceed, or "cancel" to abort.
 ## Common Workflows
 
 ### Create Customer
+
 ```
 1. Search/list to check if customer exists (by email)
 2. If not exists, create_customer(name, email, metadata)
@@ -65,6 +78,7 @@ Reply "confirm" to proceed, or "cancel" to abort.
 ```
 
 ### Create Product and Price
+
 ```
 1. List products to check if already exists
 2. create_product(name, description)
@@ -73,6 +87,7 @@ Reply "confirm" to proceed, or "cancel" to abort.
 ```
 
 ### Create and Send Invoice
+
 ```
 1. Confirm customer ID (list_customers if unknown)
 2. create_invoice(customer=cus_xxx, collection_method, days_until_due)
@@ -82,6 +97,7 @@ Reply "confirm" to proceed, or "cancel" to abort.
 ```
 
 ### Create Payment Link
+
 ```
 1. Confirm price ID (list_prices if unknown)
 2. create_payment_link(line_items=[{price, quantity}])
@@ -89,6 +105,7 @@ Reply "confirm" to proceed, or "cancel" to abort.
 ```
 
 ### Refund (Dangerous)
+
 ```
 1. list_payment_intents to find target payment
 2. Display pi_xxx + amount + customer info
@@ -98,6 +115,7 @@ Reply "confirm" to proceed, or "cancel" to abort.
 ```
 
 ### Cancel Subscription (Dangerous)
+
 ```
 1. list_subscriptions(customer=cus_xxx) to find target
 2. Display sub_xxx + status + next billing date
@@ -108,13 +126,16 @@ Reply "confirm" to proceed, or "cancel" to abort.
 
 ## Default Configuration
 
-- **Currency**: Use user-specified; else use existing object's currency; else ask
-- **Amount**: Accept decimals, auto-convert to smallest unit (e.g., $19.99 → 1999)
+- **Currency**: Use user-specified; else use existing object's currency; else
+  ask
+- **Amount**: Accept decimals, auto-convert to smallest unit (e.g., $19.99
+  → 1999)
 - **Output**: Object type + ID + key fields + next steps
 
 ## Limitations
 
 These operations are NOT available via standard tools:
+
 - ❌ Create PaymentIntent / charge directly
 - ❌ Create subscription (only list/update/cancel)
 - ❌ Create Promotion Code (only coupon)
@@ -138,12 +159,12 @@ runs/<workflow>/active/<run_id>/
 
 ## Error Handling
 
-| Situation | Action |
-|-----------|--------|
-| Object doesn't exist | Search to find correct ID |
-| Parameter error | Check documentation for correct format |
-| Insufficient permissions | Check API key scope |
-| Network error | Retry or check connection |
+| Situation                | Action                                 |
+| ------------------------ | -------------------------------------- |
+| Object doesn't exist     | Search to find correct ID              |
+| Parameter error          | Check documentation for correct format |
+| Insufficient permissions | Check API key scope                    |
+| Network error            | Retry or check connection              |
 
 ## Related Files
 

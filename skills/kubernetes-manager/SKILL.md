@@ -1,17 +1,21 @@
 ---
 name: kubernetes-manager
-description: Kubernetes cluster management and application deployment with Helm charts, monitoring, and auto-scaling. Use when deploying to K8s, managing clusters, setting up Helm, or configuring ingress and services.
+description:
+  Kubernetes cluster management and application deployment with Helm charts,
+  monitoring, and auto-scaling. Use when deploying to K8s, managing clusters,
+  setting up Helm, or configuring ingress and services.
 triggers:
-  - "Kubernetes"
-  - "K8s"
-  - "Helm"
-  - "deploy to cluster"
-  - "container orchestration"
+  - 'Kubernetes'
+  - 'K8s'
+  - 'Helm'
+  - 'deploy to cluster'
+  - 'container orchestration'
 ---
 
 # Kubernetes Manager
 
-Complete Kubernetes management with deployments, services, ingress, and Helm charts.
+Complete Kubernetes management with deployments, services, ingress, and Helm
+charts.
 
 ## Capabilities
 
@@ -28,6 +32,7 @@ Complete Kubernetes management with deployments, services, ingress, and Helm cha
 @skill kubernetes-manager
 
 Deploy my app to Kubernetes:
+
 - Image: ghcr.io/org/app:v1.0
 - Replicas: 3
 - Resources: 1 CPU, 2GB RAM
@@ -58,11 +63,11 @@ spec:
             - containerPort: 3000
           resources:
             requests:
-              memory: "512Mi"
-              cpu: "250m"
+              memory: '512Mi'
+              cpu: '250m'
             limits:
-              memory: "1Gi"
-              cpu: "500m"
+              memory: '1Gi'
+              cpu: '500m'
           livenessProbe:
             httpGet:
               path: /health
@@ -94,7 +99,7 @@ kind: Ingress
 metadata:
   name: my-app
   annotations:
-    cert-manager.io/cluster-issuer: "letsencrypt"
+    cert-manager.io/cluster-issuer: 'letsencrypt'
 spec:
   tls:
     - hosts:
@@ -122,7 +127,7 @@ name: my-app
 description: A Helm chart for my application
 type: application
 version: 1.0.0
-appVersion: "1.0.0"
+appVersion: '1.0.0'
 
 dependencies:
   - name: postgresql

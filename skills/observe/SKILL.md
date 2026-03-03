@@ -2,15 +2,16 @@
 name: observe
 description: >
   Observability stack: PostHog for product analytics, Sentry for error tracking,
-  Axiom for structured logs. Patterns for instrumenting a Next.js app from day 0.
+  Axiom for structured logs. Patterns for instrumenting a Next.js app from day
+  0.
 triggers:
-  - "analytics"
-  - "error tracking"
-  - "posthog"
-  - "sentry"
-  - "logging"
-  - "observability"
-  - "instrument"
+  - 'analytics'
+  - 'error tracking'
+  - 'posthog'
+  - 'sentry'
+  - 'logging'
+  - 'observability'
+  - 'instrument'
 ---
 
 # Service: Observability
@@ -19,11 +20,11 @@ Instrument your app on day 0, not after something breaks.
 
 ## Stack
 
-| Tool | Purpose | What to capture |
-|---|---|---|
-| PostHog | Product analytics | User actions, feature flags, funnels |
-| Sentry | Error tracking | Exceptions, performance, replay |
-| Axiom | Structured logs | Server logs, background jobs, audit trail |
+| Tool    | Purpose           | What to capture                           |
+| ------- | ----------------- | ----------------------------------------- |
+| PostHog | Product analytics | User actions, feature flags, funnels      |
+| Sentry  | Error tracking    | Exceptions, performance, replay           |
+| Axiom   | Structured logs   | Server logs, background jobs, audit trail |
 
 ## PostHog Setup
 
@@ -35,14 +36,14 @@ pnpm add posthog-js posthog-node
 // src/providers/posthog.tsx
 'use client'
 import posthog from 'posthog-js'
-import { PostHogProvider } from 'posthog-js/react'
-import { useEffect } from 'react'
+import {PostHogProvider} from 'posthog-js/react'
+import {useEffect} from 'react'
 
-export function PHProvider({ children }: { children: React.ReactNode }) {
+export function PHProvider({children}: {children: React.ReactNode}) {
   useEffect(() => {
     posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
-      api_host: '/ingest',  // proxy through your domain
-      capture_pageview: false,  // manual for SPA
+      api_host: '/ingest', // proxy through your domain
+      capture_pageview: false, // manual for SPA
     })
   }, [])
   return <PostHogProvider client={posthog}>{children}</PostHogProvider>
@@ -51,10 +52,10 @@ export function PHProvider({ children }: { children: React.ReactNode }) {
 
 ```typescript
 // Track events anywhere
-import { usePostHog } from 'posthog-js/react'
+import {usePostHog} from 'posthog-js/react'
 
 const posthog = usePostHog()
-posthog.capture('feature_used', { feature: 'export', format: 'csv' })
+posthog.capture('feature_used', {feature: 'export', format: 'csv'})
 ```
 
 ## Sentry Setup
@@ -72,9 +73,9 @@ try {
   await riskyOperation()
 } catch (error) {
   Sentry.captureException(error, {
-    extra: { userId, context: 'payment-processing' }
+    extra: {userId, context: 'payment-processing'},
   })
-  throw error  // re-throw after capturing
+  throw error // re-throw after capturing
 }
 ```
 
@@ -86,24 +87,29 @@ pnpm add @axiomhq/js
 
 ```typescript
 // src/lib/logger.ts
-import { Axiom } from '@axiomhq/js'
+import {Axiom} from '@axiomhq/js'
 
-const axiom = new Axiom({ token: process.env.AXIOM_TOKEN! })
+const axiom = new Axiom({token: process.env.AXIOM_TOKEN!})
 
 export const logger = {
   info: (message: string, data?: object) =>
-    axiom.ingest(process.env.AXIOM_DATASET!, [{ level: 'info', message, ...data }]),
+    axiom.ingest(process.env.AXIOM_DATASET!, [
+      {level: 'info', message, ...data},
+    ]),
   error: (message: string, error?: unknown, data?: object) =>
-    axiom.ingest(process.env.AXIOM_DATASET!, [{
-      level: 'error', message,
-      error: error instanceof Error ? error.message : String(error),
-      ...data
-    }]),
+    axiom.ingest(process.env.AXIOM_DATASET!, [
+      {
+        level: 'error',
+        message,
+        error: error instanceof Error ? error.message : String(error),
+        ...data,
+      },
+    ]),
 }
 
 // Usage
-logger.info('User subscribed', { userId, plan: 'pro' })
-logger.error('Payment failed', error, { userId, amount: 4900 })
+logger.info('User subscribed', {userId, plan: 'pro'})
+logger.error('Payment failed', error, {userId, amount: 4900})
 ```
 
 ## Environment Variables

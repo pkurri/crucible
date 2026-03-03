@@ -1,18 +1,18 @@
 ---
 name: unit-test-code
 description: >
-  Standards for writing robust, isolated unit tests. Covers pytest (Python)
-  and Vitest (TypeScript) patterns: fixtures, mocking, AAA structure, coverage
+  Standards for writing robust, isolated unit tests. Covers pytest (Python) and
+  Vitest (TypeScript) patterns: fixtures, mocking, AAA structure, coverage
   strategy. Use when writing or reviewing test suites.
 triggers:
-  - "write tests"
-  - "unit test"
-  - "pytest"
-  - "vitest"
-  - "test this function"
-  - "add tests"
-  - "test coverage"
-  - "mock"
+  - 'write tests'
+  - 'unit test'
+  - 'pytest'
+  - 'vitest'
+  - 'test this function'
+  - 'add tests'
+  - 'test coverage'
+  - 'mock'
 ---
 
 # Skill: Unit Test Code
@@ -146,16 +146,16 @@ async def test_create_user_invalid_email_returns_422(client):
 
 ```typescript
 // vitest.config.ts
-import { defineConfig } from "vitest/config"
+import {defineConfig} from 'vitest/config'
 
 export default defineConfig({
   test: {
-    environment: "node",
+    environment: 'node',
     globals: true,
-    setupFiles: ["./src/test/setup.ts"],
+    setupFiles: ['./src/test/setup.ts'],
     coverage: {
-      reporter: ["text", "lcov"],
-      threshold: { lines: 80, functions: 80 },
+      reporter: ['text', 'lcov'],
+      threshold: {lines: 80, functions: 80},
     },
   },
 })
@@ -165,14 +165,14 @@ export default defineConfig({
 
 ```typescript
 // src/lib/__tests__/pricing.test.ts
-import { describe, it, expect, vi, beforeEach } from "vitest"
-import { calculateDiscount, processPayment } from "../pricing"
+import {describe, it, expect, vi, beforeEach} from 'vitest'
+import {calculateDiscount, processPayment} from '../pricing'
 
-describe("calculateDiscount", () => {
-  it("applies 20% for annual plan", () => {
+describe('calculateDiscount', () => {
+  it('applies 20% for annual plan', () => {
     // Arrange
     const price = 100
-    const plan = "annual"
+    const plan = 'annual'
 
     // Act
     const result = calculateDiscount(price, plan)
@@ -181,40 +181,47 @@ describe("calculateDiscount", () => {
     expect(result).toBe(80)
   })
 
-  it("returns original price for monthly plan", () => {
-    expect(calculateDiscount(100, "monthly")).toBe(100)
+  it('returns original price for monthly plan', () => {
+    expect(calculateDiscount(100, 'monthly')).toBe(100)
   })
 
-  it("throws for negative price", () => {
-    expect(() => calculateDiscount(-10, "monthly")).toThrow("Price must be positive")
+  it('throws for negative price', () => {
+    expect(() => calculateDiscount(-10, 'monthly')).toThrow(
+      'Price must be positive'
+    )
   })
 })
 
-describe("processPayment", () => {
+describe('processPayment', () => {
   beforeEach(() => {
     vi.clearAllMocks()
   })
 
-  it("calls Stripe with correct amount", async () => {
+  it('calls Stripe with correct amount', async () => {
     // Arrange
-    const mockStripe = vi.mock("../stripe", () => ({
-      createPaymentIntent: vi.fn().mockResolvedValue({ id: "pi_123", status: "succeeded" })
+    const mockStripe = vi.mock('../stripe', () => ({
+      createPaymentIntent: vi
+        .fn()
+        .mockResolvedValue({id: 'pi_123', status: 'succeeded'}),
     }))
 
     // Act
-    const result = await processPayment({ amount: 4900, currency: "usd" })
+    const result = await processPayment({amount: 4900, currency: 'usd'})
 
     // Assert
-    expect(result.status).toBe("succeeded")
+    expect(result.status).toBe('succeeded')
   })
 
-  it("throws PaymentError on Stripe failure", async () => {
-    vi.mock("../stripe", () => ({
-      createPaymentIntent: vi.fn().mockRejectedValue(new Error("Card declined"))
+  it('throws PaymentError on Stripe failure', async () => {
+    vi.mock('../stripe', () => ({
+      createPaymentIntent: vi
+        .fn()
+        .mockRejectedValue(new Error('Card declined')),
     }))
 
-    await expect(processPayment({ amount: 4900, currency: "usd" }))
-      .rejects.toThrow("PaymentError")
+    await expect(
+      processPayment({amount: 4900, currency: 'usd'})
+    ).rejects.toThrow('PaymentError')
   })
 })
 ```
@@ -223,12 +230,13 @@ describe("processPayment", () => {
 
 ## Coverage Strategy
 
-| Priority | What to Test | Tool |
-|---|---|---|
-| ⭐⭐⭐ | Business logic (pricing, auth, billing) | Unit tests |
-| ⭐⭐⭐ | API input validation | Unit tests |
-| ⭐⭐⭐ | Error paths and edge cases | Unit tests |
-| ⭐⭐ | Service layer (DB operations) | Unit + Integration |
-| ⭐ | UI components | Vitest + Testing Library |
+| Priority | What to Test                            | Tool                     |
+| -------- | --------------------------------------- | ------------------------ |
+| ⭐⭐⭐   | Business logic (pricing, auth, billing) | Unit tests               |
+| ⭐⭐⭐   | API input validation                    | Unit tests               |
+| ⭐⭐⭐   | Error paths and edge cases              | Unit tests               |
+| ⭐⭐     | Service layer (DB operations)           | Unit + Integration       |
+| ⭐       | UI components                           | Vitest + Testing Library |
 
-**Never test:** framework internals, third-party library behavior, trivial getters/setters.
+**Never test:** framework internals, third-party library behavior, trivial
+getters/setters.

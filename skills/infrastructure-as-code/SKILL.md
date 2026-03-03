@@ -1,13 +1,16 @@
 ---
 name: infrastructure-as-code
-description: Terraform and Pulumi template generator with state management and multi-cloud support. Use when provisioning cloud infrastructure, managing IaC, setting up Terraform, or deploying to AWS/Azure/GCP.
+description:
+  Terraform and Pulumi template generator with state management and multi-cloud
+  support. Use when provisioning cloud infrastructure, managing IaC, setting up
+  Terraform, or deploying to AWS/Azure/GCP.
 triggers:
-  - "infrastructure"
-  - "Terraform"
-  - "IaC"
-  - "cloud provisioning"
-  - "AWS"
-  - "GCP"
+  - 'infrastructure'
+  - 'Terraform'
+  - 'IaC'
+  - 'cloud provisioning'
+  - 'AWS'
+  - 'GCP'
 ---
 
 # Infrastructure as Code
@@ -28,6 +31,7 @@ Generate and manage cloud infrastructure with Terraform and Pulumi templates.
 @skill infrastructure-as-code
 
 Generate Terraform for:
+
 - Provider: AWS
 - Resources: VPC, ECS, RDS
 - Environment: Production
@@ -45,7 +49,7 @@ terraform {
       version = "~> 5.0"
     }
   }
-  
+
   backend "s3" {
     bucket = "my-terraform-state"
     key    = "production/terraform.tfstate"
@@ -59,10 +63,10 @@ provider "aws" {
 
 module "vpc" {
   source = "./modules/vpc"
-  
+
   name = "${var.project}-vpc"
   cidr = "10.0.0.0/16"
-  
+
   azs             = ["${var.region}a", "${var.region}b"]
   private_subnets = ["10.0.1.0/24", "10.0.2.0/24"]
   public_subnets  = ["10.0.101.0/24", "10.0.102.0/24"]
@@ -73,24 +77,24 @@ module "vpc" {
 
 ```typescript
 // index.ts
-import * as pulumi from '@pulumi/pulumi';
-import * as aws from '@pulumi/aws';
+import * as pulumi from '@pulumi/pulumi'
+import * as aws from '@pulumi/aws'
 
 const vpc = new aws.ec2.Vpc('main', {
   cidrBlock: '10.0.0.0/16',
   tags: {
-    Name: 'production-vpc'
-  }
-});
+    Name: 'production-vpc',
+  },
+})
 
 const subnet = new aws.ec2.Subnet('public', {
   vpcId: vpc.id,
   cidrBlock: '10.0.1.0/24',
-  availabilityZone: 'us-east-1a'
-});
+  availabilityZone: 'us-east-1a',
+})
 
-export const vpcId = vpc.id;
-export const subnetId = subnet.id;
+export const vpcId = vpc.id
+export const subnetId = subnet.id
 ```
 
 ## Modules

@@ -1,17 +1,21 @@
 ---
 name: developer-portal-builder
-description: Developer portal and API documentation platform with interactive API explorer, code samples, and authentication guides. Use when building developer portals, creating API documentation, setting up API marketplaces, or managing API keys.
+description:
+  Developer portal and API documentation platform with interactive API explorer,
+  code samples, and authentication guides. Use when building developer portals,
+  creating API documentation, setting up API marketplaces, or managing API keys.
 triggers:
-  - "developer portal"
-  - "API documentation"
-  - "API explorer"
-  - "documentation"
-  - "API reference"
+  - 'developer portal'
+  - 'API documentation'
+  - 'API explorer'
+  - 'documentation'
+  - 'API reference'
 ---
 
 # Developer Portal Builder
 
-Create developer portals with API documentation, interactive explorer, and code samples.
+Create developer portals with API documentation, interactive explorer, and code
+samples.
 
 ## Capabilities
 
@@ -27,6 +31,7 @@ Create developer portals with API documentation, interactive explorer, and code 
 @skill developer-portal-builder
 
 Create a developer portal:
+
 - APIs: REST, GraphQL
 - Languages: JavaScript, Python, Go
 - Features: Interactive playground
@@ -37,24 +42,24 @@ Create a developer portal:
 
 ```typescript
 // Load OpenAPI spec
-const spec = await loadOpenAPISpec('./openapi.yaml');
+const spec = await loadOpenAPISpec('./openapi.yaml')
 
 // Generate documentation
 const docs = generateDocs(spec, {
   theme: 'dark',
   layout: 'three-panel',
-  
+
   // Features
   tryItOut: true,
   codeSamples: ['javascript', 'python', 'curl'],
-  
+
   // Customization
   logo: '/logo.svg',
   colors: {
     primary: '#3b82f6',
-    secondary: '#10b981'
-  }
-});
+    secondary: '#10b981',
+  },
+})
 ```
 
 ## Interactive API Explorer
@@ -68,9 +73,9 @@ export function APIPlayground({ endpoint }: { endpoint: Endpoint }) {
     headers: {},
     body: endpoint.exampleRequest
   });
-  
+
   const [response, setResponse] = useState<Response | null>(null);
-  
+
   const executeRequest = async () => {
     const res = await fetch(request.url, {
       method: request.method,
@@ -80,14 +85,14 @@ export function APIPlayground({ endpoint }: { endpoint: Endpoint }) {
       },
       body: JSON.stringify(request.body)
     });
-    
+
     setResponse({
       status: res.status,
       headers: Object.fromEntries(res.headers),
       body: await res.json()
     });
   };
-  
+
   return (
     <div className="api-playground">
       <RequestBuilder
@@ -138,8 +143,8 @@ curl -X POST https://api.example.com/users \\
     "name": "John Doe",
     "email": "john@example.com"
   }'
-`
-};
+`,
+}
 ```
 
 ## Authentication Guide
@@ -153,9 +158,7 @@ All API requests require authentication using an API key.
 
 Include your API key in the Authorization header:
 
-\`\`\`http
-Authorization: Bearer YOUR_API_KEY
-\`\`\`
+\`\`\`http Authorization: Bearer YOUR_API_KEY \`\`\`
 
 ### Getting an API Key
 
@@ -166,6 +169,7 @@ Authorization: Bearer YOUR_API_KEY
 ### Scopes
 
 API keys have the following scopes:
+
 - `read`: Read access to resources
 - `write`: Create and update resources
 - `admin`: Full access including deletes

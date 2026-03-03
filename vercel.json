@@ -1,5 +1,11 @@
 {
   "buildCommand": "cd templates/006-crucible-web && npm install --include=dev --legacy-peer-deps && npm run build",
   "outputDirectory": "templates/006-crucible-web/.next",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/articles/generate-batch",
+      "schedule": "0 8 * * *"
+    }
+  ]
 }

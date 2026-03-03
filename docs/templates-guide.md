@@ -6,7 +6,9 @@ Complete guide to all 100 Crucible templates for rapid application development.
 
 ## Overview
 
-Crucible provides 100 production-ready templates across 15 categories, each designed to accelerate development of modern applications. All templates include:
+Crucible provides 100 production-ready templates across 15 categories, each
+designed to accelerate development of modern applications. All templates
+include:
 
 - **Complete source code** - Ready to deploy
 - **Documentation** - Setup guides and API docs
@@ -150,6 +152,7 @@ template-name/
 ## Technology Stack
 
 ### Frontend
+
 - **React** 18.3.1+
 - **TypeScript** 5.3.3+
 - **Next.js** 14+ (where applicable)
@@ -157,12 +160,14 @@ template-name/
 - **Radix UI** / **shadcn/ui**
 
 ### Backend
+
 - **Node.js** 18.16.0+
 - **Python** 3.11+ (ML templates)
 - **PostgreSQL** (via Supabase)
 - **Redis** (caching)
 
 ### Infrastructure
+
 - **Docker** & **Docker Compose**
 - **AWS** / **Vercel** / **Cloudflare**
 - **GitHub Actions** (CI/CD)

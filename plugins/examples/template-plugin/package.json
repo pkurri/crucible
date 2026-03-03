@@ -10,7 +10,11 @@
     "dev": "tsc --watch",
     "test": "vitest"
   },
-  "keywords": ["crucible", "plugin", "template"],
+  "keywords": [
+    "crucible",
+    "plugin",
+    "template"
+  ],
   "author": "Crucible Team",
   "license": "MIT",
   "peerDependencies": {
@@ -23,7 +27,13 @@
   },
   "crucible": {
     "type": "template",
-    "hooks": ["template:register", "template:before-render"],
-    "permissions": ["read:templates", "write:files"]
+    "hooks": [
+      "template:register",
+      "template:before-render"
+    ],
+    "permissions": [
+      "read:templates",
+      "write:files"
+    ]
   }
 }

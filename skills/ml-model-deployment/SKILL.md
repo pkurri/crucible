@@ -1,17 +1,21 @@
 ---
 name: ml-model-deployment
-description: MLOps platform for deploying, monitoring, and versioning ML models. Use when deploying ML models, managing model versions, setting up A/B tests, or monitoring model performance in production.
+description:
+  MLOps platform for deploying, monitoring, and versioning ML models. Use when
+  deploying ML models, managing model versions, setting up A/B tests, or
+  monitoring model performance in production.
 triggers:
-  - "deploy model"
-  - "ML model"
-  - "model versioning"
-  - "A/B test model"
-  - "monitor model"
+  - 'deploy model'
+  - 'ML model'
+  - 'model versioning'
+  - 'A/B test model'
+  - 'monitor model'
 ---
 
 # ML Model Deployment Platform
 
-Complete MLOps platform for managing ML model lifecycle: deployment, versioning, A/B testing, and monitoring.
+Complete MLOps platform for managing ML model lifecycle: deployment, versioning,
+A/B testing, and monitoring.
 
 ## Capabilities
 
@@ -27,6 +31,7 @@ Complete MLOps platform for managing ML model lifecycle: deployment, versioning,
 @skill ml-model-deployment
 
 Deploy this model to production:
+
 - Model: sentiment-analysis-v2.pkl
 - Framework: scikit-learn
 - Required resources: 2 CPU, 4GB RAM

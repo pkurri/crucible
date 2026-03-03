@@ -1,13 +1,16 @@
 ---
 name: data-pipeline-builder
-description: ETL pipeline builder for data extraction, transformation, and loading with support for batch and streaming processing. Use when building data pipelines, setting up ETL jobs, processing large datasets, or creating data workflows.
+description:
+  ETL pipeline builder for data extraction, transformation, and loading with
+  support for batch and streaming processing. Use when building data pipelines,
+  setting up ETL jobs, processing large datasets, or creating data workflows.
 triggers:
-  - "ETL"
-  - "data pipeline"
-  - "data processing"
-  - "batch job"
-  - "data warehouse"
-  - "Airflow"
+  - 'ETL'
+  - 'data pipeline'
+  - 'data processing'
+  - 'batch job'
+  - 'data warehouse'
+  - 'Airflow'
 ---
 
 # Data Pipeline Builder
@@ -28,6 +31,7 @@ ETL and ELT pipeline builder for data integration, transformation, and loading.
 @skill data-pipeline-builder
 
 Build a data pipeline:
+
 - Source: PostgreSQL (users table)
 - Transform: Clean emails, validate data
 - Destination: Snowflake (analytics.users)
@@ -38,12 +42,12 @@ Build a data pipeline:
 
 ```typescript
 // pipeline.ts
-import { Pipeline } from '@crucible/data';
+import {Pipeline} from '@crucible/data'
 
 const pipeline = new Pipeline({
   name: 'user-analytics',
   schedule: '0 2 * * *', // Daily at 2 AM
-});
+})
 
 // Extract
 pipeline.extract({
@@ -51,9 +55,9 @@ pipeline.extract({
   query: 'SELECT * FROM users WHERE updated_at > {{ last_run }}',
   connection: {
     host: 'db.example.com',
-    database: 'production'
-  }
-});
+    database: 'production',
+  },
+})
 
 // Transform
 pipeline.transform({
@@ -61,13 +65,13 @@ pipeline.transform({
     {
       name: 'clean-email',
       operation: 'lowercase',
-      column: 'email'
+      column: 'email',
     },
     {
       name: 'validate-phone',
       operation: 'regex',
       column: 'phone',
-      pattern: '^\+?[1-9]\d{1,14}$'
+      pattern: '^\+?[1-9]\d{1,14}$',
     },
     {
       name: 'enrich',
@@ -76,21 +80,21 @@ pipeline.transform({
       lookup: {
         table: 'countries',
         key: 'code',
-        values: ['name', 'region']
-      }
-    }
-  ]
-});
+        values: ['name', 'region'],
+      },
+    },
+  ],
+})
 
 // Load
 pipeline.load({
   destination: 'snowflake',
   table: 'analytics.users',
   mode: 'upsert',
-  keys: ['id']
-});
+  keys: ['id'],
+})
 
-export default pipeline;
+export default pipeline
 ```
 
 ## Transform Operations
@@ -100,7 +104,7 @@ export default pipeline;
 { operation: 'filter', condition: 'age > 18' }
 
 // Aggregate
-{ 
+{
   operation: 'aggregate',
   groupBy: ['country'],
   metrics: {
@@ -132,17 +136,17 @@ export default pipeline;
 
 ```typescript
 // Track pipeline runs
-pipeline.on('start', (context) => {
-  console.log(`Pipeline ${context.name} started`);
-});
+pipeline.on('start', context => {
+  console.log(`Pipeline ${context.name} started`)
+})
 
-pipeline.on('complete', (context) => {
-  console.log(`Pipeline completed: ${context.rows} rows processed`);
-});
+pipeline.on('complete', context => {
+  console.log(`Pipeline completed: ${context.rows} rows processed`)
+})
 
 pipeline.on('error', (error, context) => {
-  console.error(`Pipeline failed: ${error.message}`);
-});
+  console.error(`Pipeline failed: ${error.message}`)
+})
 ```
 
 ## Features

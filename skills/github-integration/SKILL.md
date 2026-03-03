@@ -3,22 +3,23 @@ name: github-integration
 description: >
   Deep GitHub automation: auto-create issues as Epics/Stories/Tasks with labels,
   milestones, and project fields. GitHub Actions for CI/CD, PR automation,
-  auto-assignment, labeling workflows. Use when automating GitHub project management
-  or setting up issue-driven development workflows.
+  auto-assignment, labeling workflows. Use when automating GitHub project
+  management or setting up issue-driven development workflows.
 triggers:
-  - "github"
-  - "github issues"
-  - "github actions"
-  - "auto-create issues"
-  - "project automation"
-  - "PR automation"
-  - "labels"
-  - "milestones"
+  - 'github'
+  - 'github issues'
+  - 'github actions'
+  - 'auto-create issues'
+  - 'project automation'
+  - 'PR automation'
+  - 'labels'
+  - 'milestones'
 ---
 
 # Service: GitHub Integration
 
-Deep GitHub automation patterns — from issue creation to full project management workflows.
+Deep GitHub automation patterns — from issue creation to full project management
+workflows.
 
 ---
 
@@ -30,7 +31,7 @@ pnpm add @octokit/rest @octokit/graphql
 
 ```typescript
 // src/lib/github.ts
-import { Octokit } from '@octokit/rest'
+import {Octokit} from '@octokit/rest'
 
 export const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
@@ -51,50 +52,61 @@ PrismCode uses a 3-level hierarchy. Mirror it with labels:
 
 ```typescript
 // src/lib/issues.ts
-import { octokit } from './github'
+import {octokit} from './github'
 
 type IssueType = 'epic' | 'story' | 'task'
 
-const LABELS: Record<IssueType, { color: string; description: string }> = {
-  epic:  { color: '7C3AED', description: 'Strategic initiative spanning multiple sprints' },
-  story: { color: '06B6D4', description: 'User-facing feature or capability' },
-  task:  { color: '10B981', description: 'Implementation work item' },
+const LABELS: Record<IssueType, {color: string; description: string}> = {
+  epic: {
+    color: '7C3AED',
+    description: 'Strategic initiative spanning multiple sprints',
+  },
+  story: {color: '06B6D4', description: 'User-facing feature or capability'},
+  task: {color: '10B981', description: 'Implementation work item'},
 }
 
 // Create all labels in one shot
 export async function setupLabels(owner: string, repo: string) {
   const domainLabels = {
-    frontend:      { color: 'EC4899', description: 'Frontend/UI work' },
-    backend:       { color: '8B5CF6', description: 'Backend/API work' },
-    database:      { color: 'F59E0B', description: 'Database schema or queries' },
-    devops:        { color: '6366F1', description: 'CI/CD, deployment, infrastructure' },
-    'priority:high':   { color: 'D73A4A', description: 'High priority' },
-    'priority:medium': { color: 'FFA500', description: 'Medium priority' },
-    'priority:low':    { color: '90EE90', description: 'Low priority' },
+    frontend: {color: 'EC4899', description: 'Frontend/UI work'},
+    backend: {color: '8B5CF6', description: 'Backend/API work'},
+    database: {color: 'F59E0B', description: 'Database schema or queries'},
+    devops: {color: '6366F1', description: 'CI/CD, deployment, infrastructure'},
+    'priority:high': {color: 'D73A4A', description: 'High priority'},
+    'priority:medium': {color: 'FFA500', description: 'Medium priority'},
+    'priority:low': {color: '90EE90', description: 'Low priority'},
   }
 
-  const allLabels = { ...LABELS, ...domainLabels }
+  const allLabels = {...LABELS, ...domainLabels}
 
-  for (const [name, { color, description }] of Object.entries(allLabels)) {
-    await octokit.issues.createLabel({ owner, repo, name, color, description })
+  for (const [name, {color, description}] of Object.entries(allLabels)) {
+    await octokit.issues
+      .createLabel({owner, repo, name, color, description})
       .catch(() => {}) // Ignore if already exists
   }
 }
 
 // Create an Epic
-export async function createEpic(owner: string, repo: string, epic: {
-  title: string
-  goal: string
-  successMetrics: string[]
-  timeline: string
-  effort: number
-}) {
-  const body = `## 🎯 Goal\n${epic.goal}\n\n## ✅ Success Metrics\n${
-    epic.successMetrics.map(m => `- ${m}`).join('\n')
-  }\n\n## 📅 Timeline\n${epic.timeline}\n\n## 📊 Effort\n${epic.effort} story points`
+export async function createEpic(
+  owner: string,
+  repo: string,
+  epic: {
+    title: string
+    goal: string
+    successMetrics: string[]
+    timeline: string
+    effort: number
+  }
+) {
+  const body = `## 🎯 Goal\n${epic.goal}\n\n## ✅ Success Metrics\n${epic.successMetrics
+    .map(m => `- ${m}`)
+    .join(
+      '\n'
+    )}\n\n## 📅 Timeline\n${epic.timeline}\n\n## 📊 Effort\n${epic.effort} story points`
 
   return octokit.issues.create({
-    owner, repo,
+    owner,
+    repo,
     title: `[EPIC] ${epic.title}`,
     body,
     labels: ['epic'],
@@ -102,22 +114,28 @@ export async function createEpic(owner: string, repo: string, epic: {
 }
 
 // Create a Story linked to an Epic
-export async function createStory(owner: string, repo: string, story: {
-  epicNumber: number
-  title: string
-  asA: string
-  iWant: string
-  soThat: string
-  acceptanceCriteria: string[]
-  storyPoints: number
-  priority: 'high' | 'medium' | 'low'
-}) {
-  const body = `## 👤 User Story\nAs a **${story.asA}**, I want **${story.iWant}** so that **${story.soThat}**\n\n` +
+export async function createStory(
+  owner: string,
+  repo: string,
+  story: {
+    epicNumber: number
+    title: string
+    asA: string
+    iWant: string
+    soThat: string
+    acceptanceCriteria: string[]
+    storyPoints: number
+    priority: 'high' | 'medium' | 'low'
+  }
+) {
+  const body =
+    `## 👤 User Story\nAs a **${story.asA}**, I want **${story.iWant}** so that **${story.soThat}**\n\n` +
     `## ✅ Acceptance Criteria\n${story.acceptanceCriteria.map(c => `- [ ] ${c}`).join('\n')}\n\n` +
     `## 🔗 Epic\n#${story.epicNumber}\n\n## 📊 Story Points: ${story.storyPoints}`
 
   return octokit.issues.create({
-    owner, repo,
+    owner,
+    repo,
     title: `[STORY] ${story.title}`,
     body,
     labels: ['story', `priority:${story.priority}`],
@@ -125,14 +143,18 @@ export async function createStory(owner: string, repo: string, story: {
 }
 
 // Bulk import issues from JSON
-export async function bulkCreateIssues(owner: string, repo: string, issues: Array<{
-  title: string
-  body: string
-  labels: string[]
-}>) {
+export async function bulkCreateIssues(
+  owner: string,
+  repo: string,
+  issues: Array<{
+    title: string
+    body: string
+    labels: string[]
+  }>
+) {
   const results = []
   for (const issue of issues) {
-    const result = await octokit.issues.create({ owner, repo, ...issue })
+    const result = await octokit.issues.create({owner, repo, ...issue})
     results.push(result.data)
     await new Promise(r => setTimeout(r, 500)) // Rate limiting: 2/sec
   }
@@ -160,7 +182,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 20 }
+        with: {node-version: 20}
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint
       - run: pnpm typecheck
@@ -201,15 +223,15 @@ jobs:
 # .github/labeler.yml
 frontend:
   - changed-files:
-    - any-glob-to-any-file: ['src/app/**', 'src/components/**']
+      - any-glob-to-any-file: ['src/app/**', 'src/components/**']
 
 backend:
   - changed-files:
-    - any-glob-to-any-file: ['src/app/api/**', 'src/lib/**']
+      - any-glob-to-any-file: ['src/app/api/**', 'src/lib/**']
 
 database:
   - changed-files:
-    - any-glob-to-any-file: ['src/db/**', 'drizzle/**']
+      - any-glob-to-any-file: ['src/db/**', 'drizzle/**']
 ```
 
 ---
@@ -255,48 +277,54 @@ jobs:
 ## Issue Templates
 
 ```markdown
-<!-- .github/ISSUE_TEMPLATE/epic.md -->
----
-name: Epic
-about: Strategic initiative spanning multiple sprints
-labels: epic
+## <!-- .github/ISSUE_TEMPLATE/epic.md -->
+
+name: Epic about: Strategic initiative spanning multiple sprints labels: epic
+
 ---
 
 ## 🎯 Goal
+
 [What strategic objective does this achieve?]
 
 ## ✅ Success Metrics
+
 - [ ] Metric 1
 - [ ] Metric 2
 
 ## 📋 Stories
+
 - [ ] #story-number
 
 ## 📅 Timeline
+
 [Sprint X - Sprint Y]
 ```
 
 ```markdown
-<!-- .github/ISSUE_TEMPLATE/task.md -->
----
-name: Task
-about: Implementation work item
-labels: task
+## <!-- .github/ISSUE_TEMPLATE/task.md -->
+
+name: Task about: Implementation work item labels: task
+
 ---
 
 ## 📋 Description
+
 [What needs to be implemented?]
 
 ## ✅ Checklist
+
 - [ ] Step 1
 - [ ] Step 2
 - [ ] Tests written
 - [ ] PR opened
 
 ## 🔗 Story
+
 #story-number
 
 ## ⏱ Estimate
+
 [X hours]
 ```
 
@@ -306,19 +334,24 @@ labels: task
 
 ```markdown
 <!-- .github/pull_request_template.md -->
+
 ## Summary
+
 [What does this PR do?]
 
 ## Related Issues
+
 Closes #[issue-number]
 
 ## Type of Change
+
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Breaking change
 - [ ] Documentation
 
 ## Testing
+
 - [ ] Unit tests pass
 - [ ] E2E tests pass
 - [ ] Tested manually

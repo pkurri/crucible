@@ -15,15 +15,19 @@
 
 ## 1. README Features
 
-- [ ] Do all features/capabilities in README have clear implementations or entry points?
+- [ ] Do all features/capabilities in README have clear implementations or entry
+      points?
 - [ ] Are there deprecated or hidden features still documented in README?
-- [ ] Do documented supported platforms/protocols/formats match actual code support?
-- [ ] Do version numbers and dependency versions match package.json/requirements.txt?
+- [ ] Do documented supported platforms/protocols/formats match actual code
+      support?
+- [ ] Do version numbers and dependency versions match
+      package.json/requirements.txt?
 - [ ] Does project architecture diagram reflect current directory structure?
 
 ## 2. External Interfaces and Contracts
 
-- [ ] Do API examples, parameters, and return values in docs match OpenAPI/proto/schema/TS types?
+- [ ] Do API examples, parameters, and return values in docs match
+      OpenAPI/proto/schema/TS types?
 - [ ] Do endpoints/methods claimed in docs actually exist in code?
 - [ ] Are new interfaces in code not yet updated in docs?
 - [ ] Are request/response field names consistent?
@@ -77,7 +81,8 @@
 ## 8. Terminology and Naming
 
 - [ ] Do type names/enum names/module names match documentation terminology?
-- [ ] Do status enum values correspond to Chinese descriptions in docs one-to-one?
+- [ ] Do status enum values correspond to Chinese descriptions in docs
+      one-to-one?
 - [ ] Can example code compile/run?
 - [ ] Have referenced functions/types/modules been renamed or moved?
 - [ ] Are links valid (no 404s)?

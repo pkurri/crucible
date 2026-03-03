@@ -1,22 +1,24 @@
 ---
 name: tool-agent-logger
 description: >
-  Structured logging for multi-agent systems using Winston. Includes agent activity
-  logging, GitHub API call tracking, performance metrics, and Sentry error capture
-  with wrapAsync patterns. Use in any TypeScript/Node.js project needing structured logs.
+  Structured logging for multi-agent systems using Winston. Includes agent
+  activity logging, GitHub API call tracking, performance metrics, and Sentry
+  error capture with wrapAsync patterns. Use in any TypeScript/Node.js project
+  needing structured logs.
 triggers:
-  - "add logging"
-  - "structured logging"
-  - "winston"
-  - "agent logging"
-  - "log agent activity"
-  - "performance logging"
-  - "error tracking node"
+  - 'add logging'
+  - 'structured logging'
+  - 'winston'
+  - 'agent logging'
+  - 'log agent activity'
+  - 'performance logging'
+  - 'error tracking node'
 ---
 
 # Tool: Agent Logger
 
-Structured logging for multi-agent TypeScript systems. Winston for logs, Sentry for errors, performance tracking built in.
+Structured logging for multi-agent TypeScript systems. Winston for logs, Sentry
+for errors, performance tracking built in.
 
 ---
 
@@ -41,57 +43,83 @@ const NODE_ENV = process.env.NODE_ENV || 'development'
 const logger = winston.createLogger({
   level: LOG_LEVEL,
   format: winston.format.combine(
-    winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-    winston.format.errors({ stack: true }),
+    winston.format.timestamp({format: 'YYYY-MM-DD HH:mm:ss'}),
+    winston.format.errors({stack: true}),
     winston.format.json()
   ),
-  defaultMeta: { service: 'crucible' },
+  defaultMeta: {service: 'crucible'},
   transports: [],
 })
 
 // Dev: pretty console output
 if (NODE_ENV !== 'production') {
-  logger.add(new winston.transports.Console({
-    format: winston.format.combine(
-      winston.format.colorize(),
-      winston.format.timestamp({ format: 'HH:mm:ss' }),
-      winston.format.printf(({ timestamp, level, message, ...meta }) => {
-        let msg = `${timestamp} [${level}]: ${message}`
-        if (Object.keys(meta).length > 0) msg += ` ${JSON.stringify(meta)}`
-        return msg
-      })
-    )
-  }))
+  logger.add(
+    new winston.transports.Console({
+      format: winston.format.combine(
+        winston.format.colorize(),
+        winston.format.timestamp({format: 'HH:mm:ss'}),
+        winston.format.printf(({timestamp, level, message, ...meta}) => {
+          let msg = `${timestamp} [${level}]: ${message}`
+          if (Object.keys(meta).length > 0) msg += ` ${JSON.stringify(meta)}`
+          return msg
+        })
+      ),
+    })
+  )
 }
 
 // Prod: file output
 if (NODE_ENV === 'production') {
-  logger.add(new winston.transports.File({
-    filename: path.join('logs', 'error.log'),
-    level: 'error'
-  }))
-  logger.add(new winston.transports.File({
-    filename: path.join('logs', 'combined.log')
-  }))
+  logger.add(
+    new winston.transports.File({
+      filename: path.join('logs', 'error.log'),
+      level: 'error',
+    })
+  )
+  logger.add(
+    new winston.transports.File({
+      filename: path.join('logs', 'combined.log'),
+    })
+  )
 }
 
 // Typed helper methods
 export const loggers = {
   // Log agent activity
   agent: (agentName: string, action: string, meta?: Record<string, unknown>) =>
-    logger.info(`Agent: ${agentName} — ${action}`, { component: 'agent', agentName, ...meta }),
+    logger.info(`Agent: ${agentName} — ${action}`, {
+      component: 'agent',
+      agentName,
+      ...meta,
+    }),
 
   // Log GitHub API calls
   github: (action: string, meta?: Record<string, unknown>) =>
-    logger.info(`GitHub: ${action}`, { component: 'github', ...meta }),
+    logger.info(`GitHub: ${action}`, {component: 'github', ...meta}),
 
   // Log performance metrics
-  perf: (operation: string, durationMs: number, meta?: Record<string, unknown>) =>
-    logger.info(`Perf: ${operation} took ${durationMs}ms`, { component: 'perf', durationMs, ...meta }),
+  perf: (
+    operation: string,
+    durationMs: number,
+    meta?: Record<string, unknown>
+  ) =>
+    logger.info(`Perf: ${operation} took ${durationMs}ms`, {
+      component: 'perf',
+      durationMs,
+      ...meta,
+    }),
 
   // Log issue/PR operations
-  issue: (operation: string, issueNumber: number, meta?: Record<string, unknown>) =>
-    logger.info(`Issue #${issueNumber}: ${operation}`, { component: 'issue', issueNumber, ...meta }),
+  issue: (
+    operation: string,
+    issueNumber: number,
+    meta?: Record<string, unknown>
+  ) =>
+    logger.info(`Issue #${issueNumber}: ${operation}`, {
+      component: 'issue',
+      issueNumber,
+      ...meta,
+    }),
 }
 
 export default logger
@@ -119,10 +147,19 @@ if (SENTRY_DSN) {
 }
 
 // Capture exception — always logs, optionally sends to Sentry
-export function captureException(error: Error, context?: Record<string, unknown>): void {
-  logger.error('Exception captured', { error: error.message, stack: error.stack, ...context })
+export function captureException(
+  error: Error,
+  context?: Record<string, unknown>
+): void {
+  logger.error('Exception captured', {
+    error: error.message,
+    stack: error.stack,
+    ...context,
+  })
   if (SENTRY_DSN) {
-    Sentry.captureException(error, { contexts: context ? { custom: context } : undefined })
+    Sentry.captureException(error, {
+      contexts: context ? {custom: context} : undefined,
+    })
   }
 }
 
@@ -135,7 +172,7 @@ export function wrapAsync<T extends (...args: unknown[]) => Promise<unknown>>(
     try {
       return await fn(...args)
     } catch (error) {
-      captureException(error as Error, { ...context, args })
+      captureException(error as Error, {...context, args})
       throw error
     }
   }) as T
@@ -148,7 +185,7 @@ export function breadcrumb(
   data?: Record<string, unknown>
 ): void {
   if (SENTRY_DSN) {
-    Sentry.addBreadcrumb({ category, message, level: 'info', data })
+    Sentry.addBreadcrumb({category, message, level: 'info', data})
   }
 }
 
@@ -164,36 +201,39 @@ export async function flushAndExit(code = 0): Promise<never> {
 ## Usage Patterns
 
 ```typescript
-import logger, { loggers } from '@/utils/logger'
-import { captureException, wrapAsync, breadcrumb } from '@/utils/sentry'
+import logger, {loggers} from '@/utils/logger'
+import {captureException, wrapAsync, breadcrumb} from '@/utils/sentry'
 
 // Agent activity log
-loggers.agent('PM Agent', 'Generating epics', { feature: 'auth', complexity: 'medium' })
+loggers.agent('PM Agent', 'Generating epics', {
+  feature: 'auth',
+  complexity: 'medium',
+})
 
 // Performance tracking
 const start = Date.now()
 await doExpensiveWork()
-loggers.perf('issue-import', Date.now() - start, { count: 25 })
+loggers.perf('issue-import', Date.now() - start, {count: 25})
 
 // GitHub API log
-loggers.github('createIssue', { title: 'User Registration', repo: 'myapp' })
+loggers.github('createIssue', {title: 'User Registration', repo: 'myapp'})
 
 // Wrap risky async functions
-const safeImport = wrapAsync(importIssues, { context: 'bulk-import' })
+const safeImport = wrapAsync(importIssues, {context: 'bulk-import'})
 await safeImport(issues)
 
 // Manual error capture
 try {
   await riskyOperation()
 } catch (error) {
-  captureException(error as Error, { userId, operation: 'payment' })
+  captureException(error as Error, {userId, operation: 'payment'})
   throw error
 }
 
 // Add breadcrumb trail for debugging
-breadcrumb('agent', 'PM Agent started', { featureId: 'feat-123' })
-breadcrumb('agent', 'Epics generated', { count: 5 })
-breadcrumb('github', 'Issues created', { count: 25 })
+breadcrumb('agent', 'PM Agent started', {featureId: 'feat-123'})
+breadcrumb('agent', 'Epics generated', {count: 5})
+breadcrumb('github', 'Issues created', {count: 25})
 ```
 
 ---
@@ -211,6 +251,7 @@ SENTRY_DSN=https://xxxx@sentry.io/xxxx
 ## Log Output Examples
 
 **Development (colorized console):**
+
 ```
 10:23:15 [info]: Agent: PM Agent — Generating epics {"component":"agent","agentName":"PM Agent","feature":"auth"}
 10:23:16 [info]: Perf: epic-generation took 1243ms {"component":"perf","durationMs":1243}
@@ -218,6 +259,14 @@ SENTRY_DSN=https://xxxx@sentry.io/xxxx
 ```
 
 **Production (JSON file):**
+
 ```json
-{"level":"info","message":"Agent: PM Agent — Generating epics","component":"agent","agentName":"PM Agent","timestamp":"2025-02-26 10:23:15","service":"crucible"}
+{
+  "level": "info",
+  "message": "Agent: PM Agent — Generating epics",
+  "component": "agent",
+  "agentName": "PM Agent",
+  "timestamp": "2025-02-26 10:23:15",
+  "service": "crucible"
+}
 ```

@@ -6,7 +6,9 @@ Complete guide to all 100+ Crucible skills for AI-powered development workflows.
 
 ## Overview
 
-Crucible skills are specialized AI capabilities that enhance your development workflow. Each skill is designed to automate specific tasks, provide expert guidance, or integrate with external services.
+Crucible skills are specialized AI capabilities that enhance your development
+workflow. Each skill is designed to automate specific tasks, provide expert
+guidance, or integrate with external services.
 
 **Total Skills:** 100+  
 **Categories:** 12  
@@ -21,9 +23,7 @@ Crucible skills are specialized AI capabilities that enhance your development wo
 Skills are invoked using the `@skill` syntax:
 
 ```markdown
-@skill review-code
-@skill workflow-feature-shipper
-@skill tool-git-intel
+@skill review-code @skill workflow-feature-shipper @skill tool-git-intel
 ```
 
 ### Chaining Skills
@@ -31,9 +31,7 @@ Skills are invoked using the `@skill` syntax:
 Combine multiple skills for complex workflows:
 
 ```markdown
-@skill review-architecture
-@skill review-security
-@skill review-performance
+@skill review-architecture @skill review-security @skill review-performance
 ```
 
 ---
@@ -42,7 +40,8 @@ Combine multiple skills for complex workflows:
 
 ### 🔍 Code Review & Quality (15)
 
-**review-architecture** - Analyzes architectural patterns and provides recommendations  
+**review-architecture** - Analyzes architectural patterns and provides
+recommendations  
 **review-clean-code** - Evaluates code against Clean Code principles  
 **review-code** - General code quality assessment  
 **review-doc-consistency** - Verifies documentation matches implementation  
@@ -215,12 +214,15 @@ Combine multiple skills for complex workflows:
 
 ```markdown
 # Review architecture first
+
 @skill review-architecture
 
 # Then check code quality
+
 @skill review-clean-code
 
 # Finally verify security
+
 @skill review-security
 ```
 
@@ -228,12 +230,15 @@ Combine multiple skills for complex workflows:
 
 ```markdown
 # Plan the feature
+
 @skill workflow-project-planner
 
 # Build with best practices
+
 @skill review-react-best-practices
 
 # Ship it
+
 @skill workflow-feature-shipper
 ```
 
@@ -241,12 +246,15 @@ Combine multiple skills for complex workflows:
 
 ```markdown
 # Design AWS architecture
+
 @skill aws-architect
 
 # Generate Terraform
+
 @skill terraform-generator
 
 # Set up monitoring
+
 @skill tool-agent-monitoring
 ```
 
@@ -270,15 +278,19 @@ skills/my-custom-skill/
 # My Custom Skill
 
 ## Description
+
 What this skill does
 
 ## Usage
+
 How to use it
 
 ## Examples
+
 Code examples
 
 ## Configuration
+
 Required setup
 ```
 

@@ -1,6 +1,9 @@
 ---
 name: deep-research
-description: "Research a topic thoroughly in this repo and return a structured summary with file references. Use when you need to understand how something works, find patterns across modules, or audit implementations."
+description:
+  'Research a topic thoroughly in this repo and return a structured summary with
+  file references. Use when you need to understand how something works, find
+  patterns across modules, or audit implementations.'
 metadata:
   stage: tool
   tags:
@@ -28,7 +31,8 @@ Research $ARGUMENTS thoroughly.
 - Start broad: use Glob to find likely modules.
 - Then go deep: use Grep to locate exact identifiers and call sites.
 - Read the top-ranked files and follow references until the flow is clear.
-- Stop when you hit diminishing returns (two additional searches yield no new information).
+- Stop when you hit diminishing returns (two additional searches yield no new
+  information).
 
 ## Rules
 

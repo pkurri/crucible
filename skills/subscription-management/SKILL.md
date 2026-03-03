@@ -1,18 +1,22 @@
 ---
 name: subscription-management
-description: Complete subscription billing platform with Stripe integration, usage tracking, and invoicing. Use when implementing SaaS billing, managing subscriptions, setting up payment flows, or tracking customer usage.
+description:
+  Complete subscription billing platform with Stripe integration, usage
+  tracking, and invoicing. Use when implementing SaaS billing, managing
+  subscriptions, setting up payment flows, or tracking customer usage.
 triggers:
-  - "subscription"
-  - "billing"
-  - "stripe"
-  - "payment"
-  - "invoice"
-  - "metered billing"
+  - 'subscription'
+  - 'billing'
+  - 'stripe'
+  - 'payment'
+  - 'invoice'
+  - 'metered billing'
 ---
 
 # Subscription Management
 
-Complete SaaS billing platform with Stripe integration. Supports multiple pricing models, usage tracking, and automated invoicing.
+Complete SaaS billing platform with Stripe integration. Supports multiple
+pricing models, usage tracking, and automated invoicing.
 
 ## Capabilities
 
@@ -28,6 +32,7 @@ Complete SaaS billing platform with Stripe integration. Supports multiple pricin
 @skill subscription-management
 
 Set up subscription billing for my SaaS:
+
 - Plans: Starter ($29/mo), Pro ($99/mo), Enterprise (custom)
 - Features: Usage-based API calls
 - Trial: 14 days free

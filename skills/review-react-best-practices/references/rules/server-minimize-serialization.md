@@ -7,9 +7,11 @@ tags: server, serialization, nextjs, rsc, performance
 
 ## Minimize Serialization at Client / RSC Boundaries
 
-Passing large objects across boundaries (RSC → Client Component props) increases payload size and serialization cost.
+Passing large objects across boundaries (RSC → Client Component props) increases
+payload size and serialization cost.
 
 **Detect:**
+
 - Client components receiving huge objects with many unused fields.
 - Passing `Date`, `Map`, class instances (non-serializable) across boundaries.
 
@@ -24,6 +26,5 @@ Passing large objects across boundaries (RSC → Client Component props) increas
 
 ```tsx
 // Only pass what the client needs (serializable primitives)
-<ClientWidget user={{ id: user.id, name: user.name }} />
+<ClientWidget user={{id: user.id, name: user.name}} />
 ```
-

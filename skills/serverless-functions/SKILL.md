@@ -1,18 +1,23 @@
 ---
 name: serverless-functions
-description: Serverless functions platform with AWS Lambda, Vercel Functions, and Cloudflare Workers support. Use when building serverless applications, deploying edge functions, creating API endpoints, or implementing event-driven compute.
+description:
+  Serverless functions platform with AWS Lambda, Vercel Functions, and
+  Cloudflare Workers support. Use when building serverless applications,
+  deploying edge functions, creating API endpoints, or implementing event-driven
+  compute.
 triggers:
-  - "serverless"
-  - "Lambda"
-  - "Cloudflare Workers"
-  - "Vercel Functions"
-  - "edge functions"
-  - "FaaS"
+  - 'serverless'
+  - 'Lambda'
+  - 'Cloudflare Workers'
+  - 'Vercel Functions'
+  - 'edge functions'
+  - 'FaaS'
 ---
 
 # Serverless Functions Platform
 
-Build and deploy serverless functions across multiple providers: AWS Lambda, Vercel, Cloudflare Workers.
+Build and deploy serverless functions across multiple providers: AWS Lambda,
+Vercel, Cloudflare Workers.
 
 ## Capabilities
 
@@ -28,6 +33,7 @@ Build and deploy serverless functions across multiple providers: AWS Lambda, Ver
 @skill serverless-functions
 
 Create a serverless function:
+
 - Provider: Vercel
 - Type: API endpoint
 - Route: /api/webhook
@@ -38,29 +44,26 @@ Create a serverless function:
 
 ```typescript
 // api/webhook.ts
-import type { VercelRequest, VercelResponse } from '@vercel/node';
+import type {VercelRequest, VercelResponse} from '@vercel/node'
 
-export default function handler(
-  req: VercelRequest,
-  res: VercelResponse
-) {
+export default function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
+    return res.status(405).json({error: 'Method not allowed'})
   }
 
-  const { event, data } = req.body;
-  
+  const {event, data} = req.body
+
   // Process webhook
-  await processWebhook(event, data);
-  
-  return res.status(200).json({ received: true });
+  await processWebhook(event, data)
+
+  return res.status(200).json({received: true})
 }
 
 // Config
 export const config = {
   runtime: 'nodejs18.x',
-  maxDuration: 30
-};
+  maxDuration: 30,
+}
 ```
 
 ## Cloudflare Workers
@@ -68,8 +71,8 @@ export const config = {
 ```typescript
 // src/index.ts
 export interface Env {
-  DATABASE_URL: string;
-  API_KEY: string;
+  DATABASE_URL: string
+  API_KEY: string
 }
 
 export default {
@@ -78,40 +81,40 @@ export default {
     env: Env,
     ctx: ExecutionContext
   ): Promise<Response> {
-    const url = new URL(request.url);
-    
+    const url = new URL(request.url)
+
     if (url.pathname === '/api/users') {
-      const users = await getUsers(env.DATABASE_URL);
-      return Response.json(users);
+      const users = await getUsers(env.DATABASE_URL)
+      return Response.json(users)
     }
-    
-    return new Response('Not found', { status: 404 });
-  }
-};
+
+    return new Response('Not found', {status: 404})
+  },
+}
 ```
 
 ## AWS Lambda
 
 ```typescript
 // functions/process-order/index.ts
-import { APIGatewayEvent, APIGatewayProxyResult } from 'aws-lambda';
+import {APIGatewayEvent, APIGatewayProxyResult} from 'aws-lambda'
 
 export const handler = async (
   event: APIGatewayEvent
 ): Promise<APIGatewayProxyResult> => {
-  const order = JSON.parse(event.body);
-  
+  const order = JSON.parse(event.body)
+
   // Process order
-  await processOrder(order);
-  
+  await processOrder(order)
+
   return {
     statusCode: 200,
-    body: JSON.stringify({ 
+    body: JSON.stringify({
       message: 'Order processed',
-      orderId: order.id 
-    })
-  };
-};
+      orderId: order.id,
+    }),
+  }
+}
 ```
 
 ## Event-Driven Functions
@@ -120,29 +123,29 @@ export const handler = async (
 // S3 Event Handler
 export const handler = async (event: S3Event) => {
   for (const record of event.Records) {
-    const bucket = record.s3.bucket.name;
-    const key = record.s3.object.key;
-    
+    const bucket = record.s3.bucket.name
+    const key = record.s3.object.key
+
     // Process uploaded file
-    await processFile(bucket, key);
+    await processFile(bucket, key)
   }
-};
+}
 
 // SQS Handler
 export const handler = async (event: SQSEvent) => {
   for (const message of event.Records) {
-    const data = JSON.parse(message.body);
-    
+    const data = JSON.parse(message.body)
+
     // Process message
-    await processMessage(data);
+    await processMessage(data)
   }
-};
+}
 
 // Scheduled (Cron)
 export const handler = async () => {
   // Run daily cleanup
-  await cleanupOldData();
-};
+  await cleanupOldData()
+}
 ```
 
 ## Local Development

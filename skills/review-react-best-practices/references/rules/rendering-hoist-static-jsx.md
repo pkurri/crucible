@@ -7,9 +7,11 @@ tags: rendering, jsx, performance
 
 ## Hoist Static JSX Out of Render
 
-If JSX is static (doesn’t depend on props/state), define it outside the component to avoid recreating elements every render.
+If JSX is static (doesn’t depend on props/state), define it outside the
+component to avoid recreating elements every render.
 
 **Detect:**
+
 - Large static SVG/markup created inside component body.
 
 **Incorrect:**
@@ -30,4 +32,3 @@ function Banner() {
   return <div>{Icon} Hello</div>
 }
 ```
-

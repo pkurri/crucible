@@ -1,14 +1,18 @@
 ---
 name: cloud-database-optimizer
-description: Cloud database optimization and management for PostgreSQL, MySQL, and NoSQL databases with automated tuning, scaling, and monitoring. Use when optimizing database performance, managing cloud databases, implementing sharding, or setting up replication.
+description:
+  Cloud database optimization and management for PostgreSQL, MySQL, and NoSQL
+  databases with automated tuning, scaling, and monitoring. Use when optimizing
+  database performance, managing cloud databases, implementing sharding, or
+  setting up replication.
 triggers:
-  - "database optimization"
-  - "PostgreSQL"
-  - "MySQL"
-  - "Neon"
-  - "Supabase"
-  - "PlanetScale"
-  - "database scaling"
+  - 'database optimization'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'Neon'
+  - 'Supabase'
+  - 'PlanetScale'
+  - 'database scaling'
 ---
 
 # Cloud Database Optimizer
@@ -29,6 +33,7 @@ Optimize and manage cloud databases with automated tuning and scaling.
 @skill cloud-database-optimizer
 
 Optimize my PostgreSQL database:
+
 - Provider: Neon
 - Issues: Slow queries, connection limits
 - Goal: Improve performance by 50%
@@ -41,16 +46,16 @@ Optimize my PostgreSQL database:
 const analysis = await analyzeQueries({
   connectionString: process.env.DATABASE_URL,
   minDuration: 100, // ms
-  limit: 50
-});
+  limit: 50,
+})
 
 // Recommend indexes
 const recommendations = analysis.map(query => ({
   query: query.sql,
   duration: query.avgTime,
   index: suggestIndex(query.sql),
-  impact: calculateImpact(query)
-}));
+  impact: calculateImpact(query),
+}))
 ```
 
 ## Connection Pooling
@@ -61,17 +66,17 @@ const pooler = new ConnectionPooler({
   maxConnections: 20,
   minConnections: 5,
   idleTimeout: 30000,
-  
+
   // Pool modes
   mode: 'transaction', // session, transaction, statement
-  
+
   // Server settings
   server: {
     host: 'db.example.com',
     port: 5432,
-    database: 'app'
-  }
-});
+    database: 'app',
+  },
+})
 ```
 
 ## Read Replicas
@@ -81,24 +86,24 @@ const pooler = new ConnectionPooler({
 const cluster = new DatabaseCluster({
   primary: {
     host: 'primary.db.example.com',
-    write: true
+    write: true,
   },
   replicas: [
-    { host: 'replica-1.db.example.com', region: 'us-east' },
-    { host: 'replica-2.db.example.com', region: 'us-west' }
+    {host: 'replica-1.db.example.com', region: 'us-east'},
+    {host: 'replica-2.db.example.com', region: 'us-west'},
   ],
-  
+
   routing: {
     reads: 'nearest-replica',
-    writes: 'primary'
-  }
-});
+    writes: 'primary',
+  },
+})
 
 // Route queries
 const db = cluster.getConnection({
   operation: 'read',
-  region: 'us-east'
-});
+  region: 'us-east',
+})
 ```
 
 ## Performance Monitoring
@@ -106,21 +111,21 @@ const db = cluster.getConnection({
 ```typescript
 // Track database metrics
 const metrics = new DatabaseMetrics({
-  connectionString: process.env.DATABASE_URL
-});
+  connectionString: process.env.DATABASE_URL,
+})
 
 // Alert on issues
-metrics.on('slowQuery', (query) => {
+metrics.on('slowQuery', query => {
   if (query.duration > 1000) {
-    alert(`Slow query detected: ${query.sql}`);
+    alert(`Slow query detected: ${query.sql}`)
   }
-});
+})
 
-metrics.on('highConnections', (count) => {
+metrics.on('highConnections', count => {
   if (count > 80) {
-    scaleUpConnections();
+    scaleUpConnections()
   }
-});
+})
 ```
 
 ## Automated Backups
@@ -132,20 +137,20 @@ const backup = new DatabaseBackup({
   retention: 30, // Keep 30 days
   compression: true,
   encryption: 'AES256',
-  
+
   // Destination
   destination: {
     type: 's3',
     bucket: 'db-backups',
-    prefix: 'production/'
-  }
-});
+    prefix: 'production/',
+  },
+})
 
 // Restore
 await backup.restore({
   timestamp: '2024-01-15T02:00:00Z',
-  target: 'new-database'
-});
+  target: 'new-database',
+})
 ```
 
 ## Features

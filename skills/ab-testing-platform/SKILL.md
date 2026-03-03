@@ -1,18 +1,22 @@
 ---
 name: ab-testing-platform
-description: A/B testing and experimentation platform for feature rollouts, conversion optimization, and statistical analysis. Use when running experiments, testing features, measuring conversion, or analyzing experiment results.
+description:
+  A/B testing and experimentation platform for feature rollouts, conversion
+  optimization, and statistical analysis. Use when running experiments, testing
+  features, measuring conversion, or analyzing experiment results.
 triggers:
-  - "A/B test"
-  - "experiment"
-  - "split test"
-  - "feature flag"
-  - "conversion optimization"
-  - "experimentation"
+  - 'A/B test'
+  - 'experiment'
+  - 'split test'
+  - 'feature flag'
+  - 'conversion optimization'
+  - 'experimentation'
 ---
 
 # A/B Testing Platform
 
-Experimentation platform for A/B tests, feature flags, and conversion optimization.
+Experimentation platform for A/B tests, feature flags, and conversion
+optimization.
 
 ## Capabilities
 
@@ -28,6 +32,7 @@ Experimentation platform for A/B tests, feature flags, and conversion optimizati
 @skill ab-testing-platform
 
 Create an A/B test:
+
 - Name: New checkout flow
 - Variants: Current vs New
 - Metric: Conversion rate
@@ -38,44 +43,42 @@ Create an A/B test:
 ## Experiment Setup
 
 ```typescript
-import { Experiment } from '@crucible/experiments';
+import {Experiment} from '@crucible/experiments'
 
 const experiment = new Experiment({
   name: 'checkout-redesign',
   description: 'Test new checkout flow',
-  
+
   variants: [
-    { id: 'control', name: 'Current', weight: 0.5 },
-    { id: 'treatment', name: 'New Design', weight: 0.5 }
+    {id: 'control', name: 'Current', weight: 0.5},
+    {id: 'treatment', name: 'New Design', weight: 0.5},
   ],
-  
+
   metrics: [
     {
       name: 'conversion',
       type: 'conversion',
-      event: 'purchase_completed'
+      event: 'purchase_completed',
     },
     {
       name: 'revenue',
       type: 'revenue',
       event: 'purchase_completed',
-      value: 'amount'
-    }
+      value: 'amount',
+    },
   ],
-  
+
   targeting: {
     percentage: 100,
-    rules: [
-      { attribute: 'country', operator: 'in', value: ['US', 'CA'] }
-    ]
-  }
-});
+    rules: [{attribute: 'country', operator: 'in', value: ['US', 'CA']}],
+  },
+})
 
 // Assign user to variant
-const variant = await experiment.assign(userId);
+const variant = await experiment.assign(userId)
 
 // Track events
-experiment.track(userId, 'purchase_completed', { amount: 99.99 });
+experiment.track(userId, 'purchase_completed', {amount: 99.99})
 ```
 
 ## Feature Flags

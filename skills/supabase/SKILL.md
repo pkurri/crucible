@@ -1,6 +1,12 @@
 ---
 name: supabase
-description: "Database operations for Supabase: query/write/migration/logs/type generation. Triggers: query/statistics/export/insert/update/delete/fix/backfill/migrate/logs/alerts/type generation. Does not trigger for: pure architecture discussion or code planning. Write operations require confirmation; UPDATE/DELETE without WHERE is refused. MCP is optional — works with CLI/Console too."
+description:
+  'Database operations for Supabase: query/write/migration/logs/type generation.
+  Triggers:
+  query/statistics/export/insert/update/delete/fix/backfill/migrate/logs/alerts/type
+  generation. Does not trigger for: pure architecture discussion or code
+  planning. Write operations require confirmation; UPDATE/DELETE without WHERE
+  is refused. MCP is optional — works with CLI/Console too.'
 allowed-tools:
   - Read
   - Bash
@@ -10,50 +16,67 @@ allowed-tools:
 
 # Supabase Database Operations
 
-Execute database operations on Supabase: queries, writes, migrations, and diagnostics.
+Execute database operations on Supabase: queries, writes, migrations, and
+diagnostics.
 
-> **MCP is optional.** This skill works with MCP (auto), Supabase CLI, psql, or Dashboard. See [BACKENDS.md](BACKENDS.md) for execution options.
+> **MCP is optional.** This skill works with MCP (auto), Supabase CLI, psql, or
+> Dashboard. See [BACKENDS.md](BACKENDS.md) for execution options.
 
 ## Scope
 
 **Applies to:**
-- Database actions on Supabase: query/statistics/export, write (after confirmation), migration (DDL), type generation, query logs/advisors
+
+- Database actions on Supabase: query/statistics/export, write (after
+  confirmation), migration (DDL), type generation, query logs/advisors
 
 **Does not apply to:**
+
 - Project-side integration (env/client code/data access layer)  
-  → Use `workflow-crucible` (Step 6) for project setup; this skill handles DB-side actions only
+  → Use `workflow-crucible` (Step 6) for project setup; this skill handles
+  DB-side actions only
 
 **Called by:**
+
 - `workflow-crucible` uses this skill as DB operation foundation
 
 ## Postgres Best Practices (Built-in)
 
-crucible vendors Supabase's Postgres best practices under `references/postgres-best-practices/`.
+crucible vendors Supabase's Postgres best practices under
+`references/postgres-best-practices/`.
 
 Consult it when:
+
 - Writing/reviewing/optimizing SQL queries
 - Designing indexes, schema changes, or RLS policies
 - Diagnosing performance, locking, or connection issues
 
 Source of truth:
+
 - Full guide: `references/postgres-best-practices/AGENTS.md`
 - Individual rules: `references/postgres-best-practices/rules/*.md`
 
-When proposing changes, cite the relevant rule file path (for example: `references/postgres-best-practices/rules/query-missing-indexes.md`) and keep changes minimal.
+When proposing changes, cite the relevant rule file path (for example:
+`references/postgres-best-practices/rules/query-missing-indexes.md`) and keep
+changes minimal.
 
 ## Security Rules (Must Follow)
 
 1. **Read first**: Always check schema before any operation
-2. **Default LIMIT 50**: All SELECT queries default to `LIMIT 50`, unless user explicitly requests more
+2. **Default LIMIT 50**: All SELECT queries default to `LIMIT 50`, unless user
+   explicitly requests more
 3. **Write operation confirmation**: INSERT/UPDATE/DELETE must before execution:
    - Display the SQL to be executed
    - State expected number of affected rows
    - Await explicit user confirmation
-4. **No bare writes**: UPDATE/DELETE without WHERE condition → refuse directly, do not execute
-5. **Batch threshold**: Affecting > 100 rows → force double confirmation + suggest `SELECT count(*)` first
+4. **No bare writes**: UPDATE/DELETE without WHERE condition → refuse directly,
+   do not execute
+5. **Batch threshold**: Affecting > 100 rows → force double confirmation +
+   suggest `SELECT count(*)` first
 6. **DDL via migration**: Schema changes must use migrations, not direct DDL
-7. **Production environment**: Write disabled by default; only allow when user explicitly says "execute on prod" and double confirms
-8. **Sensitive fields**: email/phone/token/password are masked or not returned by default, unless user explicitly requests
+7. **Production environment**: Write disabled by default; only allow when user
+   explicitly says "execute on prod" and double confirms
+8. **Sensitive fields**: email/phone/token/password are masked or not returned
+   by default, unless user explicitly requests
 
 ## Operation Flow
 
@@ -82,16 +105,19 @@ runs/<workflow>/active/<run_id>/
 ## Output Format
 
 - **Language**: English
-- **Structure**: Conclusion → Key numbers → Executed SQL → Result table (max 50 rows)
-- **Overflow handling**: Truncate + show total count + optional export/pagination
+- **Structure**: Conclusion → Key numbers → Executed SQL → Result table (max 50
+  rows)
+- **Overflow handling**: Truncate + show total count + optional
+  export/pagination
 
 Example:
+
 ```
 ✅ Query complete: 142 new users in the last 7 days
 
 Executed SQL:
-SELECT DATE(created_at) as date, COUNT(*) as count 
-FROM user_profiles 
+SELECT DATE(created_at) as date, COUNT(*) as count
+FROM user_profiles
 WHERE created_at > NOW() - INTERVAL '7 days'
 GROUP BY DATE(created_at) ORDER BY date DESC;
 
@@ -104,16 +130,17 @@ GROUP BY DATE(created_at) ORDER BY date DESC;
 
 ## Error Handling
 
-| Situation | Action |
-|-----------|--------|
-| SQL syntax error | Return error summary + fix suggestions |
-| Insufficient permissions | Explain required permissions + alternatives |
-| No data returned | Explain possible reasons (conditions too strict? data doesn't exist?) |
-| RLS blocked | Suggest checking RLS policy or using service_role |
+| Situation                | Action                                                                |
+| ------------------------ | --------------------------------------------------------------------- |
+| SQL syntax error         | Return error summary + fix suggestions                                |
+| Insufficient permissions | Explain required permissions + alternatives                           |
+| No data returned         | Explain possible reasons (conditions too strict? data doesn't exist?) |
+| RLS blocked              | Suggest checking RLS policy or using service_role                     |
 
 ## Example Workflows
 
 ### Read: Simple Query
+
 ```
 User: Get registered user count for the last 7 days, by day
 
@@ -123,6 +150,7 @@ User: Get registered user count for the last 7 days, by day
 ```
 
 ### Read: Complex Query
+
 ```
 User: Find projects that have runs but all failed
 
@@ -132,6 +160,7 @@ User: Find projects that have runs but all failed
 ```
 
 ### Write: Insert
+
 ```
 User: Create a new run for project xxx
 
@@ -141,6 +170,7 @@ User: Create a new run for project xxx
 ```
 
 ### Write: Update
+
 ```
 User: Change run abc's status to completed
 
@@ -150,6 +180,7 @@ User: Change run abc's status to completed
 ```
 
 ### Dangerous: Delete
+
 ```
 User: Delete all runs where status = 'failed'
 
@@ -160,6 +191,7 @@ User: Delete all runs where status = 'failed'
 ```
 
 ### Dangerous: DELETE without WHERE
+
 ```
 User: Clear the runs table
 
@@ -171,14 +203,15 @@ User: Clear the runs table
 ## Schema Discovery
 
 Get latest schema at runtime:
+
 ```sql
 -- List all tables
-SELECT table_name FROM information_schema.tables 
+SELECT table_name FROM information_schema.tables
 WHERE table_schema = 'public';
 
 -- View table structure
-SELECT column_name, data_type, is_nullable 
-FROM information_schema.columns 
+SELECT column_name, data_type, is_nullable
+FROM information_schema.columns
 WHERE table_name = '<table_name>';
 ```
 

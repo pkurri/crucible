@@ -1,22 +1,24 @@
 ---
 name: python-backend-expert
 description: >
-  Expert Python backend patterns: FastAPI, Pydantic v2, AsyncIO, dependency injection,
-  SQLAlchemy async, and AI service integration. Use for any Python API development.
+  Expert Python backend patterns: FastAPI, Pydantic v2, AsyncIO, dependency
+  injection, SQLAlchemy async, and AI service integration. Use for any Python
+  API development.
 triggers:
-  - "fastapi"
-  - "python backend"
-  - "python api"
-  - "pydantic"
-  - "asyncio"
-  - "python"
-  - "sqlalchemy"
-  - "async python"
+  - 'fastapi'
+  - 'python backend'
+  - 'python api'
+  - 'pydantic'
+  - 'asyncio'
+  - 'python'
+  - 'sqlalchemy'
+  - 'async python'
 ---
 
 # Skill: Python Backend Expert
 
-Production-grade FastAPI patterns with Pydantic v2, async SQLAlchemy, and AI service integration.
+Production-grade FastAPI patterns with Pydantic v2, async SQLAlchemy, and AI
+service integration.
 
 ---
 

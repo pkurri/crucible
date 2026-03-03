@@ -2,41 +2,47 @@
 
 ## Style Identity: **Dark Tech / Data Command Center**
 
-A sleek, high-tech aesthetic that feels like a professional data operations center. Deep backgrounds with vibrant accent glows create focus on critical information while particle animations bring data to life.
+A sleek, high-tech aesthetic that feels like a professional data operations
+center. Deep backgrounds with vibrant accent glows create focus on critical
+information while particle animations bring data to life.
 
 ---
 
 ## Color Palette
 
 ### Base Colors
+
 ```css
---bg-primary: #0a0a0f;      /* Deep void black */
---bg-secondary: #12121a;    /* Card backgrounds */
---bg-tertiary: #1a1a24;     /* Elevated surfaces */
---bg-hover: #22222e;        /* Interactive hover states */
+--bg-primary: #0a0a0f; /* Deep void black */
+--bg-secondary: #12121a; /* Card backgrounds */
+--bg-tertiary: #1a1a24; /* Elevated surfaces */
+--bg-hover: #22222e; /* Interactive hover states */
 ```
 
 ### Text Colors
+
 ```css
---text-primary: #f0f0f5;    /* Primary text - near white */
---text-secondary: #8888a0;  /* Secondary text - muted */
---text-tertiary: #5a5a70;   /* Tertiary text - subtle */
---text-inverse: #0a0a0f;    /* Text on light backgrounds */
+--text-primary: #f0f0f5; /* Primary text - near white */
+--text-secondary: #8888a0; /* Secondary text - muted */
+--text-tertiary: #5a5a70; /* Tertiary text - subtle */
+--text-inverse: #0a0a0f; /* Text on light backgrounds */
 ```
 
 ### Accent Colors (Neon Glow)
+
 ```css
---accent-cyan: #00f0ff;     /* Primary accent - data, links */
+--accent-cyan: #00f0ff; /* Primary accent - data, links */
 --accent-cyan-glow: rgba(0, 240, 255, 0.15);
---accent-magenta: #ff00aa;  /* Alerts, blockers, critical */
+--accent-magenta: #ff00aa; /* Alerts, blockers, critical */
 --accent-magenta-glow: rgba(255, 0, 170, 0.15);
---accent-lime: #a0ff00;     /* Success, completed, positive */
+--accent-lime: #a0ff00; /* Success, completed, positive */
 --accent-lime-glow: rgba(160, 255, 0, 0.15);
---accent-amber: #ffaa00;    /* Warnings, aging, attention */
+--accent-amber: #ffaa00; /* Warnings, aging, attention */
 --accent-amber-glow: rgba(255, 170, 0, 0.15);
 ```
 
 ### Semantic Colors
+
 ```css
 --status-overloaded: var(--accent-amber);
 --status-blocked: var(--accent-magenta);
@@ -45,10 +51,19 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ```
 
 ### Gradients
+
 ```css
 --gradient-card: linear-gradient(135deg, #12121a 0%, #1a1a24 100%);
---gradient-glow-cyan: radial-gradient(ellipse at center, rgba(0, 240, 255, 0.1) 0%, transparent 70%);
---gradient-glow-magenta: radial-gradient(ellipse at center, rgba(255, 0, 170, 0.1) 0%, transparent 70%);
+--gradient-glow-cyan: radial-gradient(
+  ellipse at center,
+  rgba(0, 240, 255, 0.1) 0%,
+  transparent 70%
+);
+--gradient-glow-magenta: radial-gradient(
+  ellipse at center,
+  rgba(255, 0, 170, 0.1) 0%,
+  transparent 70%
+);
 --gradient-hero: linear-gradient(180deg, #0a0a0f 0%, #12121a 50%, #0a0a0f 100%);
 ```
 
@@ -57,28 +72,33 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ## Typography
 
 ### Font Stack
+
 ```css
 --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 ```
 
 ### Scale
-| Token | Size | Weight | Use Case |
-|-------|------|--------|----------|
-| `display-xl` | 56px | 700 | Hero headlines |
-| `display-lg` | 40px | 700 | Section titles |
-| `heading-lg` | 24px | 600 | Card titles |
-| `heading-md` | 18px | 600 | Subsections |
-| `body-lg` | 16px | 400 | Primary body |
-| `body-md` | 14px | 400 | Secondary body |
-| `body-sm` | 12px | 400 | Captions |
-| `mono-md` | 13px | 500 | Data, codes, stats |
-| `mono-sm` | 11px | 400 | Labels, IDs |
+
+| Token        | Size | Weight | Use Case           |
+| ------------ | ---- | ------ | ------------------ |
+| `display-xl` | 56px | 700    | Hero headlines     |
+| `display-lg` | 40px | 700    | Section titles     |
+| `heading-lg` | 24px | 600    | Card titles        |
+| `heading-md` | 18px | 600    | Subsections        |
+| `body-lg`    | 16px | 400    | Primary body       |
+| `body-md`    | 14px | 400    | Secondary body     |
+| `body-sm`    | 12px | 400    | Captions           |
+| `mono-md`    | 13px | 500    | Data, codes, stats |
+| `mono-sm`    | 11px | 400    | Labels, IDs        |
 
 ### Text Glow Effect (for emphasis)
+
 ```css
 .text-glow-cyan {
-  text-shadow: 0 0 20px rgba(0, 240, 255, 0.5), 0 0 40px rgba(0, 240, 255, 0.2);
+  text-shadow:
+    0 0 20px rgba(0, 240, 255, 0.5),
+    0 0 40px rgba(0, 240, 255, 0.2);
 }
 ```
 
@@ -127,7 +147,8 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 
 /* Glow effects */
 --glow-cyan: 0 0 20px rgba(0, 240, 255, 0.3), 0 0 40px rgba(0, 240, 255, 0.1);
---glow-magenta: 0 0 20px rgba(255, 0, 170, 0.3), 0 0 40px rgba(255, 0, 170, 0.1);
+--glow-magenta:
+  0 0 20px rgba(255, 0, 170, 0.3), 0 0 40px rgba(255, 0, 170, 0.1);
 --glow-lime: 0 0 20px rgba(160, 255, 0, 0.3), 0 0 40px rgba(160, 255, 0, 0.1);
 ```
 
@@ -136,6 +157,7 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ## Component Patterns
 
 ### Cards
+
 ```
 - Background: var(--bg-secondary)
 - Border: var(--border-subtle)
@@ -147,6 +169,7 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ### Buttons
 
 **Primary (CTA)**
+
 ```
 - Background: var(--accent-cyan)
 - Text: var(--text-inverse)
@@ -156,6 +179,7 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ```
 
 **Secondary**
+
 ```
 - Background: transparent
 - Border: var(--border-glow-cyan)
@@ -164,12 +188,14 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ```
 
 **Danger/Alert**
+
 ```
 - Background: var(--accent-magenta)
 - Shadow: var(--glow-magenta)
 ```
 
 ### Inputs
+
 ```
 - Background: var(--bg-tertiary)
 - Border: var(--border-subtle)
@@ -179,6 +205,7 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ```
 
 ### Stats/Metrics Display
+
 ```
 - Large mono numbers with accent color
 - Subtle glow behind critical values
@@ -190,6 +217,7 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ## Animation Principles
 
 ### Timing
+
 ```css
 --duration-fast: 150ms;
 --duration-normal: 250ms;
@@ -201,6 +229,7 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ```
 
 ### Motion Guidelines
+
 1. **Particles**: Continuous, organic movement (2-4s cycles)
 2. **Hover states**: Quick response (150ms)
 3. **Page transitions**: Smooth fade + subtle slide (300ms)
@@ -212,9 +241,11 @@ A sleek, high-tech aesthetic that feels like a professional data operations cent
 ## Particle System Specifications
 
 ### Particle Field (Core Feature)
+
 The signature "flow field" animation where data points flow and converge:
 
 **Visual Behavior:**
+
 - Particles represent individual kanban cards
 - Flow toward assignee clusters
 - Color-coded by status (cyan=active, magenta=blocked, amber=aging)
@@ -222,6 +253,7 @@ The signature "flow field" animation where data points flow and converge:
 - Smooth physics-based movement with attraction/repulsion
 
 **Technical Specs:**
+
 ```
 - Canvas-based rendering (WebGL if possible)
 - 100-300 particles for typical board
@@ -231,6 +263,7 @@ The signature "flow field" animation where data points flow and converge:
 ```
 
 **Interaction:**
+
 - Hover on particle: expand + show card title tooltip
 - Click: highlight related cards
 - Assignee nodes act as gravity wells
@@ -240,6 +273,7 @@ The signature "flow field" animation where data points flow and converge:
 ## Page-Specific Guidelines
 
 ### Landing Page
+
 - Full-bleed dark gradient background
 - Hero with display-xl text + cyan glow
 - Subtle particle animation in background (ambient)
@@ -247,18 +281,21 @@ The signature "flow field" animation where data points flow and converge:
 - "Before/After" comparison with dramatic glow difference
 
 ### Import Flow
+
 - Centered card on dark void
 - Code editor aesthetic for JSON input (mono font, syntax-ish colors)
 - Step indicators with glow progression
 - File drop zone with dashed cyan border
 
 ### Processing
+
 - Particle convergence animation (cards → clusters)
 - Progress steps with sequential glow activation
 - Ambient particle field in background
 - "Analyzing" text with typing/pulse effect
 
 ### Dashboard
+
 - **Header stats**: Large glowing numbers, grid layout
 - **Particle field**: Main visual - cards flowing to assignee nodes
 - **Team load section**: Dark cards with status-colored accents
@@ -266,6 +303,7 @@ The signature "flow field" animation where data points flow and converge:
 - Nav bar: Frosted glass effect (backdrop-blur + subtle border)
 
 ### Billing Modal
+
 - Backdrop blur over dark background
 - Card with gradient border (cyan → magenta)
 - Feature list with glow checkmarks
@@ -296,6 +334,7 @@ border-subtle  → border-white/5
 ## Do's and Don'ts
 
 ### Do
+
 - Use generous spacing between elements
 - Apply glow effects sparingly for emphasis
 - Maintain high contrast for readability
@@ -303,6 +342,7 @@ border-subtle  → border-white/5
 - Use mono font for all data/numbers
 
 ### Don't
+
 - Overuse neon colors (they lose impact)
 - Apply glow to every element
 - Use pure white (#fff) - always slightly tinted

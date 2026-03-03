@@ -213,8 +213,7 @@ Each skill includes:
 Skills are automatically loaded by Crucible. Reference them in your workflows:
 
 ```markdown
-@skill review-code
-@skill workflow-feature-shipper
+@skill review-code @skill workflow-feature-shipper
 ```
 
 ## Contributing

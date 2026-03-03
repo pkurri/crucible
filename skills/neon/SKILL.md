@@ -14,19 +14,22 @@ triggers:
 
 # Skill: Neon Postgres
 
-Neon is serverless Postgres with branching — the right database for most AI-era applications. This skill gives you production-ready Neon patterns.
+Neon is serverless Postgres with branching — the right database for most AI-era
+applications. This skill gives you production-ready Neon patterns.
 
 ---
 
 ## Setup
 
 ### Installation
+
 ```bash
 pnpm add @neondatabase/serverless drizzle-orm
 pnpm add -D drizzle-kit
 ```
 
 ### Environment
+
 ```bash
 # .env.local
 DATABASE_URL=postgresql://[user]:[password]@[endpoint].neon.tech/[dbname]?sslmode=require
@@ -41,12 +44,15 @@ Use **pooled** for application queries. Use **unpooled** for migrations only.
 
 ```typescript
 // src/db/index.ts
-import { neon } from '@neondatabase/serverless'
-import { drizzle } from 'drizzle-orm/neon-http'
+import {neon} from '@neondatabase/serverless'
+import {drizzle} from 'drizzle-orm/neon-http'
 import * as schema from './schema'
 
 const sql = neon(process.env.DATABASE_URL!)
-export const db = drizzle(sql, { schema, logger: process.env.NODE_ENV === 'development' })
+export const db = drizzle(sql, {
+  schema,
+  logger: process.env.NODE_ENV === 'development',
+})
 ```
 
 ---
@@ -56,7 +62,15 @@ export const db = drizzle(sql, { schema, logger: process.env.NODE_ENV === 'devel
 ```typescript
 // src/db/schema.ts
 import {
-  pgTable, pgEnum, text, timestamp, uuid, integer, boolean, index, uniqueIndex
+  pgTable,
+  pgEnum,
+  text,
+  timestamp,
+  uuid,
+  integer,
+  boolean,
+  index,
+  uniqueIndex,
 } from 'drizzle-orm/pg-core'
 
 // Enums
@@ -64,21 +78,29 @@ export const planEnum = pgEnum('plan', ['free', 'pro', 'enterprise'])
 export const roleEnum = pgEnum('role', ['owner', 'admin', 'member'])
 
 // Users table
-export const users = pgTable('users', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  clerkId: text('clerk_id').notNull().unique(),
-  email: text('email').notNull().unique(),
-  name: text('name'),
-  plan: planEnum('plan').default('free').notNull(),
-  stripeCustomerId: text('stripe_customer_id').unique(),
-  stripeSubscriptionId: text('stripe_subscription_id'),
-  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
-  updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
-  deletedAt: timestamp('deleted_at', { withTimezone: true }), // soft delete
-}, (table) => ({
-  clerkIdx: uniqueIndex('users_clerk_id_idx').on(table.clerkId),
-  emailIdx: uniqueIndex('users_email_idx').on(table.email),
-}))
+export const users = pgTable(
+  'users',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    clerkId: text('clerk_id').notNull().unique(),
+    email: text('email').notNull().unique(),
+    name: text('name'),
+    plan: planEnum('plan').default('free').notNull(),
+    stripeCustomerId: text('stripe_customer_id').unique(),
+    stripeSubscriptionId: text('stripe_subscription_id'),
+    createdAt: timestamp('created_at', {withTimezone: true})
+      .defaultNow()
+      .notNull(),
+    updatedAt: timestamp('updated_at', {withTimezone: true})
+      .defaultNow()
+      .notNull(),
+    deletedAt: timestamp('deleted_at', {withTimezone: true}), // soft delete
+  },
+  table => ({
+    clerkIdx: uniqueIndex('users_clerk_id_idx').on(table.clerkId),
+    emailIdx: uniqueIndex('users_email_idx').on(table.email),
+  })
+)
 
 // Organizations (multi-tenant)
 export const organizations = pgTable('organizations', {
@@ -86,20 +108,35 @@ export const organizations = pgTable('organizations', {
   name: text('name').notNull(),
   slug: text('slug').notNull().unique(),
   plan: planEnum('plan').default('free').notNull(),
-  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+  createdAt: timestamp('created_at', {withTimezone: true})
+    .defaultNow()
+    .notNull(),
 })
 
 // Memberships
-export const memberships = pgTable('memberships', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  userId: uuid('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
-  orgId: uuid('org_id').notNull().references(() => organizations.id, { onDelete: 'cascade' }),
-  role: roleEnum('role').default('member').notNull(),
-  joinedAt: timestamp('joined_at', { withTimezone: true }).defaultNow().notNull(),
-}, (table) => ({
-  userOrgIdx: uniqueIndex('memberships_user_org_idx').on(table.userId, table.orgId),
-  orgIdx: index('memberships_org_idx').on(table.orgId),
-}))
+export const memberships = pgTable(
+  'memberships',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    userId: uuid('user_id')
+      .notNull()
+      .references(() => users.id, {onDelete: 'cascade'}),
+    orgId: uuid('org_id')
+      .notNull()
+      .references(() => organizations.id, {onDelete: 'cascade'}),
+    role: roleEnum('role').default('member').notNull(),
+    joinedAt: timestamp('joined_at', {withTimezone: true})
+      .defaultNow()
+      .notNull(),
+  },
+  table => ({
+    userOrgIdx: uniqueIndex('memberships_user_org_idx').on(
+      table.userId,
+      table.orgId
+    ),
+    orgIdx: index('memberships_org_idx').on(table.orgId),
+  })
+)
 ```
 
 ---
@@ -108,7 +145,7 @@ export const memberships = pgTable('memberships', {
 
 ```typescript
 // drizzle.config.ts
-import { defineConfig } from 'drizzle-kit'
+import {defineConfig} from 'drizzle-kit'
 
 export default defineConfig({
   schema: './src/db/schema.ts',
@@ -132,16 +169,17 @@ pnpm drizzle-kit migrate
 ```
 
 ### Migration in CI/CD
+
 ```typescript
 // scripts/migrate.ts
-import { neon } from '@neondatabase/serverless'
-import { drizzle } from 'drizzle-orm/neon-http'
-import { migrate } from 'drizzle-orm/neon-http/migrator'
+import {neon} from '@neondatabase/serverless'
+import {drizzle} from 'drizzle-orm/neon-http'
+import {migrate} from 'drizzle-orm/neon-http/migrator'
 
 const sql = neon(process.env.DATABASE_URL_UNPOOLED!)
 const db = drizzle(sql)
 
-await migrate(db, { migrationsFolder: './drizzle' })
+await migrate(db, {migrationsFolder: './drizzle'})
 console.log('✅ Migrations complete')
 process.exit(0)
 ```
@@ -151,6 +189,7 @@ process.exit(0)
 ## Neon Branching (Killer Feature)
 
 Neon lets you branch your database like git. Use this for:
+
 - **Feature branches**: test DB changes without affecting production
 - **Preview environments**: each PR gets its own DB branch
 - **Testing**: branch from prod data for realistic tests
@@ -171,7 +210,9 @@ neonctl branches delete feature/add-teams
 ```
 
 ### Vercel + Neon Branching (Automated)
-Install the Neon Vercel Integration — preview deployments automatically get their own DB branch.
+
+Install the Neon Vercel Integration — preview deployments automatically get
+their own DB branch.
 
 ---
 
@@ -180,34 +221,32 @@ Install the Neon Vercel Integration — preview deployments automatically get th
 ```typescript
 // Basic CRUD
 const user = await db.query.users.findFirst({
-  where: (users, { eq }) => eq(users.clerkId, clerkId),
+  where: (users, {eq}) => eq(users.clerkId, clerkId),
 })
 
 // With relations
 const userWithOrgs = await db.query.users.findFirst({
-  where: (users, { eq }) => eq(users.id, userId),
+  where: (users, {eq}) => eq(users.id, userId),
   with: {
     memberships: {
-      with: { organization: true },
+      with: {organization: true},
     },
   },
 })
 
 // Transactions
-const result = await db.transaction(async (tx) => {
-  const [org] = await tx.insert(organizations).values({ name, slug }).returning()
-  await tx.insert(memberships).values({ userId, orgId: org.id, role: 'owner' })
+const result = await db.transaction(async tx => {
+  const [org] = await tx.insert(organizations).values({name, slug}).returning()
+  await tx.insert(memberships).values({userId, orgId: org.id, role: 'owner'})
   return org
 })
 
 // Soft delete
-await db.update(users)
-  .set({ deletedAt: new Date() })
-  .where(eq(users.id, userId))
+await db.update(users).set({deletedAt: new Date()}).where(eq(users.id, userId))
 
 // Query excluding soft-deleted
 const activeUsers = await db.query.users.findMany({
-  where: (users, { isNull }) => isNull(users.deletedAt),
+  where: (users, {isNull}) => isNull(users.deletedAt),
 })
 ```
 
@@ -219,7 +258,7 @@ const activeUsers = await db.query.users.findMany({
 // Index columns you filter/sort on
 // Avoid SELECT * — only select needed columns
 const emails = await db
-  .select({ email: users.email })
+  .select({email: users.email})
   .from(users)
   .where(isNull(users.deletedAt))
 
@@ -228,8 +267,8 @@ await db.insert(users).values([user1, user2, user3]) // one query
 
 // Pagination (cursor-based is better than offset at scale)
 const page = await db.query.users.findMany({
-  where: (users, { gt }) => gt(users.createdAt, cursor),
-  orderBy: (users, { asc }) => [asc(users.createdAt)],
+  where: (users, {gt}) => gt(users.createdAt, cursor),
+  orderBy: (users, {asc}) => [asc(users.createdAt)],
   limit: 20,
 })
 ```

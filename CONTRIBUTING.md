@@ -6,7 +6,7 @@ Thank you for making Crucible better. Here's how.
 
 Every skill or template must answer yes to:
 
-> *"Would this save an experienced engineer 30+ minutes on a real project?"*
+> _"Would this save an experienced engineer 30+ minutes on a real project?"_
 
 No theoretical skills. No documentation summaries. Only battle-tested patterns.
 
@@ -16,11 +16,11 @@ No theoretical skills. No documentation summaries. Only battle-tested patterns.
 
 ### 1. Pick the right prefix
 
-| Prefix | When Claude loads it |
-|---|---|
+| Prefix      | When Claude loads it                      |
+| ----------- | ----------------------------------------- |
 | `workflow-` | When asked to build, ship, or orchestrate |
-| `tool-` | When a specific diagnostic is needed |
-| `review-` | During code review or pre-ship audit |
+| `tool-`     | When a specific diagnostic is needed      |
+| `review-`   | During code review or pre-ship audit      |
 | `<service>` | When the service is detected or mentioned |
 
 ### 2. Create the skill directory
@@ -41,8 +41,8 @@ description: >
   One concise paragraph. This is what Claude reads to decide if it's relevant.
   Include what it does and when to use it.
 triggers:
-  - "keyword or phrase that activates this skill"
-  - "another trigger"
+  - 'keyword or phrase that activates this skill'
+  - 'another trigger'
 ---
 ```
 
@@ -61,6 +61,7 @@ Then the body: concrete, copy-pasteable patterns. No vague guidance.
 ## Adding a Template
 
 Templates must:
+
 - Be runnable with `pnpm install && pnpm dev` after setting `.env.local`
 - Include `.env.example` with all required variables and placeholder values
 - Include a `README.md` explaining the stack and structure

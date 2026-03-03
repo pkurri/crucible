@@ -7,7 +7,9 @@
 
 ## Overview
 
-Crucible is a comprehensive development toolkit with **100 templates** and **100+ skills** - all original, production-ready content designed for modern software engineering.
+Crucible is a comprehensive development toolkit with **100 templates** and
+**100+ skills** - all original, production-ready content designed for modern
+software engineering.
 
 ---
 
@@ -15,23 +17,23 @@ Crucible is a comprehensive development toolkit with **100 templates** and **100
 
 ### Distribution by Category
 
-| Category | Count | Description |
-|----------|-------|-------------|
-| 🤖 AI & Machine Learning | 15 | AI-powered applications and ML systems |
-| 💼 SaaS & Business Tools | 15 | Business applications and SaaS platforms |
-| 🛡️ Security & Compliance | 10 | Security tools and compliance systems |
-| 📊 Analytics & Data | 10 | Data processing and analytics platforms |
-| 🚀 DevOps & Infrastructure | 10 | CI/CD, IaC, and infrastructure tools |
-| 🌐 Web & Mobile | 10 | Web applications and mobile backends |
-| 🔐 Authentication & Identity | 5 | Auth systems and identity management |
-| 📝 Content & Documentation | 5 | CMS and documentation tools |
-| 🧪 Testing & QA | 5 | Testing frameworks and QA tools |
-| 📧 Communication | 5 | Email, chat, and messaging systems |
-| 💳 Payments & Billing | 5 | Payment processing and billing |
-| 🎨 Design & Creative | 5 | Design tools and creative platforms |
-| 🔍 Search & Discovery | 5 | Search engines and discovery tools |
-| 📱 IoT & Edge | 3 | IoT platforms and edge computing |
-| 🎮 Gaming & Entertainment | 2 | Gaming platforms and entertainment |
+| Category                     | Count | Description                              |
+| ---------------------------- | ----- | ---------------------------------------- |
+| 🤖 AI & Machine Learning     | 15    | AI-powered applications and ML systems   |
+| 💼 SaaS & Business Tools     | 15    | Business applications and SaaS platforms |
+| 🛡️ Security & Compliance     | 10    | Security tools and compliance systems    |
+| 📊 Analytics & Data          | 10    | Data processing and analytics platforms  |
+| 🚀 DevOps & Infrastructure   | 10    | CI/CD, IaC, and infrastructure tools     |
+| 🌐 Web & Mobile              | 10    | Web applications and mobile backends     |
+| 🔐 Authentication & Identity | 5     | Auth systems and identity management     |
+| 📝 Content & Documentation   | 5     | CMS and documentation tools              |
+| 🧪 Testing & QA              | 5     | Testing frameworks and QA tools          |
+| 📧 Communication             | 5     | Email, chat, and messaging systems       |
+| 💳 Payments & Billing        | 5     | Payment processing and billing           |
+| 🎨 Design & Creative         | 5     | Design tools and creative platforms      |
+| 🔍 Search & Discovery        | 5     | Search engines and discovery tools       |
+| 📱 IoT & Edge                | 3     | IoT platforms and edge computing         |
+| 🎮 Gaming & Entertainment    | 2     | Gaming platforms and entertainment       |
 
 ### Template Range
 
@@ -58,20 +60,20 @@ Crucible is a comprehensive development toolkit with **100 templates** and **100
 
 ### Distribution by Category
 
-| Category | Count | Description |
-|----------|-------|-------------|
-| 🔍 Code Review & Quality | 15 | Code review and quality analysis |
-| 🛠️ Development Tools | 20 | Development utilities and helpers |
-| 🔄 Workflow Automation | 15 | Workflow orchestration and automation |
-| ☁️ Cloud & Infrastructure | 12 | Cloud services and infrastructure |
-| 🧪 Testing & QA | 10 | Testing strategies and QA tools |
-| 📝 Documentation | 8 | Documentation generation and management |
-| 🎨 Frontend & Design | 10 | Frontend development and design |
-| 🔐 Security & Auth | 8 | Security and authentication |
-| 📊 Data & Analytics | 8 | Data processing and analytics |
-| 🤖 AI & ML Integration | 10 | AI/ML integration and tools |
-| 🎯 Meta & Automation | 10 | Meta-programming and automation |
-| 📱 Mobile & Cross-Platform | 5 | Mobile development tools |
+| Category                   | Count | Description                             |
+| -------------------------- | ----- | --------------------------------------- |
+| 🔍 Code Review & Quality   | 15    | Code review and quality analysis        |
+| 🛠️ Development Tools       | 20    | Development utilities and helpers       |
+| 🔄 Workflow Automation     | 15    | Workflow orchestration and automation   |
+| ☁️ Cloud & Infrastructure  | 12    | Cloud services and infrastructure       |
+| 🧪 Testing & QA            | 10    | Testing strategies and QA tools         |
+| 📝 Documentation           | 8     | Documentation generation and management |
+| 🎨 Frontend & Design       | 10    | Frontend development and design         |
+| 🔐 Security & Auth         | 8     | Security and authentication             |
+| 📊 Data & Analytics        | 8     | Data processing and analytics           |
+| 🤖 AI & ML Integration     | 10    | AI/ML integration and tools             |
+| 🎯 Meta & Automation       | 10    | Meta-programming and automation         |
+| 📱 Mobile & Cross-Platform | 5     | Mobile development tools                |
 
 ### Skill Types
 
@@ -109,6 +111,7 @@ Crucible is a comprehensive development toolkit with **100 templates** and **100
 ## 🛠️ Technology Stack
 
 ### Frontend
+
 - React 18.3.1+
 - TypeScript 5.3.3+
 - Next.js 14+
@@ -116,12 +119,14 @@ Crucible is a comprehensive development toolkit with **100 templates** and **100
 - Radix UI / shadcn/ui
 
 ### Backend
+
 - Node.js 18.16.0+
 - Python 3.11+
 - PostgreSQL (Supabase/Neon)
 - Redis
 
 ### Infrastructure
+
 - Docker & Docker Compose
 - AWS / Vercel / Cloudflare
 - GitHub Actions
@@ -131,6 +136,7 @@ Crucible is a comprehensive development toolkit with **100 templates** and **100
 ## 📊 Statistics
 
 ### Templates
+
 - **Total:** 100
 - **Categories:** 15
 - **Average files per template:** 20-25
@@ -138,6 +144,7 @@ Crucible is a comprehensive development toolkit with **100 templates** and **100
 - **Lines of code:** 50,000+
 
 ### Skills
+
 - **Total:** 100+
 - **Categories:** 12
 - **Skill types:** 4
@@ -145,6 +152,7 @@ Crucible is a comprehensive development toolkit with **100 templates** and **100
 - **Documentation pages:** 100+
 
 ### Overall
+
 - **Total files:** 2,500+
 - **Total lines of code:** 75,000+
 - **Documentation pages:** 200+
@@ -155,24 +163,28 @@ Crucible is a comprehensive development toolkit with **100 templates** and **100
 ## 🎯 Use Cases
 
 ### For Startups
+
 - Rapid MVP development
 - Production-ready architecture
 - Scalable infrastructure
 - Cost-effective solutions
 
 ### For Enterprises
+
 - Standardized templates
 - Security compliance
 - Multi-tenant systems
 - Enterprise integrations
 
 ### For Developers
+
 - Learning resources
 - Best practices
 - Code examples
 - Automation tools
 
 ### For Teams
+
 - Collaboration workflows
 - Code review automation
 - Quality assurance
@@ -217,6 +229,7 @@ cat docs/skills-guide.md
 ## 📈 Roadmap
 
 ### Completed ✅
+
 - 100 production-ready templates
 - 100+ comprehensive skills
 - Complete documentation
@@ -224,6 +237,7 @@ cat docs/skills-guide.md
 - CI/CD workflows
 
 ### In Progress 🚧
+
 - Plugin system
 - MCP server implementations
 - Additional templates (101-200)
@@ -231,6 +245,7 @@ cat docs/skills-guide.md
 - Video tutorials
 
 ### Planned 📋
+
 - Template marketplace
 - Skill marketplace
 - Community contributions

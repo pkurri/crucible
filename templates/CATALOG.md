@@ -11,34 +11,43 @@
 ### 🤖 AI & Machine Learning (15 templates)
 
 **031-ai-code-reviewer**  
-Automated code review system using AI to analyze pull requests, detect bugs, and suggest improvements.
+Automated code review system using AI to analyze pull requests, detect bugs, and
+suggest improvements.
 
 **032-ml-model-deployment-platform**  
-Complete MLOps platform for deploying, monitoring, and versioning machine learning models.
+Complete MLOps platform for deploying, monitoring, and versioning machine
+learning models.
 
 **033-ai-content-generator**  
-Multi-format content generation system for blogs, social media, and marketing materials.
+Multi-format content generation system for blogs, social media, and marketing
+materials.
 
 **034-computer-vision-pipeline**  
-Real-time image and video processing pipeline with object detection and classification.
+Real-time image and video processing pipeline with object detection and
+classification.
 
 **035-nlp-sentiment-analyzer**  
-Natural language processing tool for sentiment analysis across multiple languages.
+Natural language processing tool for sentiment analysis across multiple
+languages.
 
 **036-ai-chatbot-framework**  
-Customizable chatbot framework with RAG, function calling, and multi-model support.
+Customizable chatbot framework with RAG, function calling, and multi-model
+support.
 
 **037-predictive-analytics-dashboard**  
-Time-series forecasting and predictive analytics platform for business intelligence.
+Time-series forecasting and predictive analytics platform for business
+intelligence.
 
 **038-ai-document-processor**  
 Intelligent document extraction, classification, and data extraction system.
 
 **039-recommendation-engine**  
-Personalized recommendation system using collaborative and content-based filtering.
+Personalized recommendation system using collaborative and content-based
+filtering.
 
 **040-ai-voice-assistant**  
-Voice-enabled AI assistant with speech recognition and natural language understanding.
+Voice-enabled AI assistant with speech recognition and natural language
+understanding.
 
 **041-anomaly-detection-system**  
 Real-time anomaly detection for monitoring systems, logs, and metrics.
@@ -50,7 +59,8 @@ Text-to-image generation platform with style transfer and editing capabilities.
 Automated knowledge graph construction from unstructured data sources.
 
 **044-ai-code-completion**  
-Intelligent code completion and generation tool for multiple programming languages.
+Intelligent code completion and generation tool for multiple programming
+languages.
 
 **045-neural-search-engine**  
 Semantic search engine using embeddings and vector databases.
@@ -78,7 +88,8 @@ Self-service customer support platform with ticketing and knowledge base.
 Real-time collaboration tools with chat, video, and document sharing.
 
 **052-hr-management-system**  
-Human resources platform for recruitment, onboarding, and performance management.
+Human resources platform for recruitment, onboarding, and performance
+management.
 
 **053-inventory-tracker**  
 Multi-warehouse inventory management with barcode scanning and alerts.
@@ -267,7 +278,8 @@ cat README.md
 
 ## Contributing
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines on adding new templates.
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines on adding new
+templates.
 
 ## License
 

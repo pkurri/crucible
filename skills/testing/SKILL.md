@@ -4,24 +4,24 @@ description: >
   Testing strategy and patterns: Vitest for unit/integration, Playwright for
   E2E, pytest for Python services. Covers setup, patterns, and CI integration.
 triggers:
-  - "test"
-  - "testing"
-  - "vitest"
-  - "playwright"
-  - "unit test"
-  - "e2e"
-  - "write tests"
+  - 'test'
+  - 'testing'
+  - 'vitest'
+  - 'playwright'
+  - 'unit test'
+  - 'e2e'
+  - 'write tests'
 ---
 
 # Service: Testing
 
 ## Stack
 
-| Tool | Type | Use for |
-|---|---|---|
-| Vitest | Unit + Integration | Business logic, utilities, API routes |
-| Playwright | E2E | Critical user journeys |
-| MSW | API Mocking | Frontend tests without backend |
+| Tool       | Type               | Use for                               |
+| ---------- | ------------------ | ------------------------------------- |
+| Vitest     | Unit + Integration | Business logic, utilities, API routes |
+| Playwright | E2E                | Critical user journeys                |
+| MSW        | API Mocking        | Frontend tests without backend        |
 
 ## Vitest Setup
 
@@ -31,7 +31,7 @@ pnpm add -D vitest @vitejs/plugin-react @testing-library/react @testing-library/
 
 ```typescript
 // vitest.config.ts
-import { defineConfig } from 'vitest/config'
+import {defineConfig} from 'vitest/config'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
@@ -48,8 +48,8 @@ export default defineConfig({
 
 ```typescript
 // src/lib/__tests__/pricing.test.ts
-import { describe, it, expect } from 'vitest'
-import { calculateDiscount, isEligibleForTrial } from '../pricing'
+import {describe, it, expect} from 'vitest'
+import {calculateDiscount, isEligibleForTrial} from '../pricing'
 
 describe('calculateDiscount', () => {
   it('applies 20% for annual plan', () => {
@@ -63,7 +63,7 @@ describe('calculateDiscount', () => {
 
 describe('isEligibleForTrial', () => {
   it('returns false if user already had trial', () => {
-    const user = { trialUsed: true, createdAt: new Date() }
+    const user = {trialUsed: true, createdAt: new Date()}
     expect(isEligibleForTrial(user)).toBe(false)
   })
 })
@@ -73,8 +73,8 @@ describe('isEligibleForTrial', () => {
 
 ```typescript
 // src/app/api/users/__tests__/route.test.ts
-import { describe, it, expect, beforeEach } from 'vitest'
-import { GET } from '../route'
+import {describe, it, expect, beforeEach} from 'vitest'
+import {GET} from '../route'
 
 describe('GET /api/users', () => {
   it('returns 401 without auth', async () => {
@@ -85,7 +85,7 @@ describe('GET /api/users', () => {
 
   it('returns user list when authenticated', async () => {
     const req = new Request('http://localhost/api/users', {
-      headers: { Authorization: 'Bearer test-token' }
+      headers: {Authorization: 'Bearer test-token'},
     })
     const res = await GET(req)
     const body = await res.json()
@@ -104,7 +104,7 @@ npx playwright install
 
 ```typescript
 // playwright.config.ts
-import { defineConfig } from '@playwright/test'
+import {defineConfig} from '@playwright/test'
 
 export default defineConfig({
   testDir: './e2e',
@@ -125,9 +125,9 @@ export default defineConfig({
 
 ```typescript
 // e2e/signup-to-dashboard.spec.ts
-import { test, expect } from '@playwright/test'
+import {test, expect} from '@playwright/test'
 
-test('user can sign up and reach dashboard', async ({ page }) => {
+test('user can sign up and reach dashboard', async ({page}) => {
   await page.goto('/signup')
 
   await page.fill('[name=email]', 'test@example.com')
@@ -157,11 +157,11 @@ test('user can sign up and reach dashboard', async ({ page }) => {
 
 ## What to Test
 
-| Priority | What | Tool |
-|---|---|---|
-| ⭐⭐⭐ | Payment flows | Playwright |
-| ⭐⭐⭐ | Auth signup/login | Playwright |
-| ⭐⭐⭐ | Core business logic | Vitest |
-| ⭐⭐ | API route validation | Vitest |
-| ⭐⭐ | Data transformation | Vitest |
-| ⭐ | UI component rendering | Vitest + Testing Library |
+| Priority | What                   | Tool                     |
+| -------- | ---------------------- | ------------------------ |
+| ⭐⭐⭐   | Payment flows          | Playwright               |
+| ⭐⭐⭐   | Auth signup/login      | Playwright               |
+| ⭐⭐⭐   | Core business logic    | Vitest                   |
+| ⭐⭐     | API route validation   | Vitest                   |
+| ⭐⭐     | Data transformation    | Vitest                   |
+| ⭐       | UI component rendering | Vitest + Testing Library |

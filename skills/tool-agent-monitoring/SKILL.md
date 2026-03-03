@@ -3,22 +3,24 @@ name: tool-agent-monitoring
 description: >
   Agent performance monitoring and analytics system. Tracks agent productivity,
   communication patterns, task completion rates, and collaboration metrics.
-  Provides real-time dashboards, performance insights, and optimization recommendations
-  for multi-agent teams. Use when monitoring agent effectiveness, optimizing workflows,
-  or analyzing team performance.
+  Provides real-time dashboards, performance insights, and optimization
+  recommendations for multi-agent teams. Use when monitoring agent
+  effectiveness, optimizing workflows, or analyzing team performance.
 triggers:
-  - "agent monitoring"
-  - "performance metrics"
-  - "agent analytics"
-  - "team productivity"
-  - "agent performance"
-  - "monitor agents"
-  - "agent metrics"
+  - 'agent monitoring'
+  - 'performance metrics'
+  - 'agent analytics'
+  - 'team productivity'
+  - 'agent performance'
+  - 'monitor agents'
+  - 'agent metrics'
 ---
 
 # Tool: Agent Monitoring
 
-Comprehensive monitoring and analytics system for tracking agent performance, communication patterns, and collaboration effectiveness in multi-agent environments.
+Comprehensive monitoring and analytics system for tracking agent performance,
+communication patterns, and collaboration effectiveness in multi-agent
+environments.
 
 ---
 
