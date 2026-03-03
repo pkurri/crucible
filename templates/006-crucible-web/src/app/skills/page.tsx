@@ -1,18 +1,39 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Search, Zap, Workflow, Code, Database, Shield, Layout, Settings } from 'lucide-react'
-import skillsData from '@/data/skills.json'
+import { createClient } from '@supabase/supabase-js'
+
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ''
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''
+const supabase = createClient(supabaseUrl, supabaseKey)
 
 export default function SkillsPage() {
+  const [skills, setSkills] = useState<any[]>([])
+  const [isLoading, setIsLoading] = useState(true)
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [currentPage, setCurrentPage] = useState(1)
   const itemsPerPage = 12
 
-  const categories = ['all', ...Array.from(new Set(skillsData.map(s => s.category)))]
+  useEffect(() => {
+    async function fetchSkills() {
+      const { data, error } = await supabase
+        .from('forge_skills')
+        .select('*')
+        .order('name', { ascending: true })
+      
+      if (!error && data) {
+        setSkills(data)
+      }
+      setIsLoading(false)
+    }
+    fetchSkills()
+  }, [])
 
-  const filteredSkills = skillsData.filter(skill => {
+  const categories = ['all', ...Array.from(new Set(skills.map(s => s.category)))]
+
+  const filteredSkills = skills.filter(skill => {
     const matchesSearch = skill.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       skill.description.toLowerCase().includes(searchQuery.toLowerCase())
     
@@ -50,8 +71,15 @@ export default function SkillsPage() {
           <h1 className="text-5xl md:text-7xl font-black text-[#e0e0e0] mb-4 tracking-tight uppercase">
             Core Samples
           </h1>
-          <p className="font-mono text-[#00ff88] text-sm tracking-widest uppercase">
-            // {skillsData.length} Forged Capabilities & Agent Utilities
+          <p className="font-mono text-[#00ff88] text-sm tracking-widest uppercase flex items-center gap-3">
+            {isLoading ? (
+              <span className="animate-pulse">Loading Core Samples...</span>
+            ) : (
+              <>
+                <span className="w-2 h-2 bg-[#00ff88] animate-pulse rounded-full"></span>
+                // {skills.length} Forged Capabilities & Agent Utilities
+              </>
+            )}
           </p>
         </div>
 
@@ -142,7 +170,7 @@ export default function SkillsPage() {
                 
                 <div className="mt-auto flex justify-between items-center text-xs font-mono">
                   <span className="text-[#2a2a2a] group-hover:text-[#ff8c00] transition-colors tracking-widest">
-                    ID: {skill.id.toUpperCase()}
+                    ID: {(skill.skill_id || skill.id).toUpperCase()}
                   </span>
                   <span className="text-[#00ff88] animate-pulse">
                     [ READY ]

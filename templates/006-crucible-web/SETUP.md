@@ -112,12 +112,12 @@ import matter from 'gray-matter'
 export async function getSkills() {
   const skillsDir = path.join(process.cwd(), '../../skills')
   const skillFolders = fs.readdirSync(skillsDir)
-  
+
   const skills = skillFolders.map(folder => {
     const skillPath = path.join(skillsDir, folder, 'SKILL.md')
     const fileContents = fs.readFileSync(skillPath, 'utf8')
-    const { data, content } = matter(fileContents)
-    
+    const {data, content} = matter(fileContents)
+
     return {
       id: folder,
       name: data.name,
@@ -126,7 +126,7 @@ export async function getSkills() {
       content,
     }
   })
-  
+
   return skills
 }
 ```
@@ -192,7 +192,8 @@ docker run -p 3000:3000 crucible-web
 
 ### TypeScript Errors
 
-All TypeScript errors showing "Cannot find module" are expected before running `npm install`. They will resolve once dependencies are installed.
+All TypeScript errors showing "Cannot find module" are expected before running
+`npm install`. They will resolve once dependencies are installed.
 
 ### Port Already in Use
 

@@ -4,1178 +4,916 @@
     "name": "Review Architecture",
     "description": "Architectural pattern analysis and recommendations",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review architecture"
-    ]
+    "triggers": ["review architecture"]
   },
   {
     "id": "review-clean-code",
     "name": "Review Clean Code",
     "description": "Clean code principles and best practices",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review clean code"
-    ]
+    "triggers": ["review clean code"]
   },
   {
     "id": "review-code",
     "name": "Review Code",
     "description": "General code review and quality assessment",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review code"
-    ]
+    "triggers": ["review code"]
   },
   {
     "id": "review-doc-consistency",
     "name": "Review Doc Consistency",
     "description": "Documentation alignment verification",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review doc consistency"
-    ]
+    "triggers": ["review doc consistency"]
   },
   {
     "id": "review-merge-readiness",
     "name": "Review Merge Readiness",
     "description": "PR merge readiness evaluation",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review merge readiness"
-    ]
+    "triggers": ["review merge readiness"]
   },
   {
     "id": "review-quality",
     "name": "Review Quality",
     "description": "Comprehensive code quality analysis",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review quality"
-    ]
+    "triggers": ["review quality"]
   },
   {
     "id": "review-react-best-practices",
     "name": "Review React Best Practices",
     "description": "React/Next.js optimization review",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review react best practices"
-    ]
+    "triggers": ["review react best practices"]
   },
   {
     "id": "review-security",
     "name": "Review Security",
     "description": "Security vulnerability scanning",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review security"
-    ]
+    "triggers": ["review security"]
   },
   {
     "id": "review-seo-audit",
     "name": "Review Seo Audit",
     "description": "SEO optimization analysis",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review seo audit"
-    ]
+    "triggers": ["review seo audit"]
   },
   {
     "id": "review-performance",
     "name": "Review Performance",
     "description": "Performance bottleneck identification",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review performance"
-    ]
+    "triggers": ["review performance"]
   },
   {
     "id": "review-accessibility",
     "name": "Review Accessibility",
     "description": "WCAG compliance checking",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review accessibility"
-    ]
+    "triggers": ["review accessibility"]
   },
   {
     "id": "review-test-coverage",
     "name": "Review Test Coverage",
     "description": "Test completeness analysis",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review test coverage"
-    ]
+    "triggers": ["review test coverage"]
   },
   {
     "id": "review-api-design",
     "name": "Review Api Design",
     "description": "REST/GraphQL API design review",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review api design"
-    ]
+    "triggers": ["review api design"]
   },
   {
     "id": "review-database-schema",
     "name": "Review Database Schema",
     "description": "Database design optimization",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review database schema"
-    ]
+    "triggers": ["review database schema"]
   },
   {
     "id": "review-mobile-ux",
     "name": "Review Mobile Ux",
     "description": "Mobile UX best practices",
     "category": "Code Review & Quality",
-    "triggers": [
-      "review mobile ux"
-    ]
+    "triggers": ["review mobile ux"]
   },
   {
     "id": "tool-agent-coordinator",
     "name": "Tool Agent Coordinator",
     "description": "Multi-agent task coordination",
     "category": "Development Tools",
-    "triggers": [
-      "tool agent coordinator"
-    ]
+    "triggers": ["tool agent coordinator"]
   },
   {
     "id": "tool-agent-logger",
     "name": "Tool Agent Logger",
     "description": "Structured logging and monitoring",
     "category": "Development Tools",
-    "triggers": [
-      "tool agent logger"
-    ]
+    "triggers": ["tool agent logger"]
   },
   {
     "id": "tool-agent-monitoring",
     "name": "Tool Agent Monitoring",
     "description": "Agent health and performance tracking",
     "category": "Development Tools",
-    "triggers": [
-      "tool agent monitoring"
-    ]
+    "triggers": ["tool agent monitoring"]
   },
   {
     "id": "tool-agent-roles",
     "name": "Tool Agent Roles",
     "description": "Role-based agent management",
     "category": "Development Tools",
-    "triggers": [
-      "tool agent roles"
-    ]
+    "triggers": ["tool agent roles"]
   },
   {
     "id": "tool-ast-grep-rules",
     "name": "Tool Ast Grep Rules",
     "description": "AST-based code search patterns",
     "category": "Development Tools",
-    "triggers": [
-      "tool ast grep rules"
-    ]
+    "triggers": ["tool ast grep rules"]
   },
   {
     "id": "tool-better-auth",
     "name": "Tool Better Auth",
     "description": "Authentication implementation helper",
     "category": "Development Tools",
-    "triggers": [
-      "tool better auth"
-    ]
+    "triggers": ["tool better auth"]
   },
   {
     "id": "tool-design-style-selector",
     "name": "Tool Design Style Selector",
     "description": "UI/UX style guide generator",
     "category": "Development Tools",
-    "triggers": [
-      "tool design style selector"
-    ]
+    "triggers": ["tool design style selector"]
   },
   {
     "id": "tool-git-intel",
     "name": "Tool Git Intel",
     "description": "Git repository intelligence",
     "category": "Development Tools",
-    "triggers": [
-      "tool git intel"
-    ]
+    "triggers": ["tool git intel"]
   },
   {
     "id": "tool-hooks-doctor",
     "name": "Tool Hooks Doctor",
     "description": "React hooks analyzer",
     "category": "Development Tools",
-    "triggers": [
-      "tool hooks doctor"
-    ]
+    "triggers": ["tool hooks doctor"]
   },
   {
     "id": "tool-openclaw",
     "name": "Tool Openclaw",
     "description": "OpenClaw integration toolkit",
     "category": "Development Tools",
-    "triggers": [
-      "tool openclaw"
-    ]
+    "triggers": ["tool openclaw"]
   },
   {
     "id": "tool-programmatic-seo",
     "name": "Tool Programmatic Seo",
     "description": "SEO automation generator",
     "category": "Development Tools",
-    "triggers": [
-      "tool programmatic seo"
-    ]
+    "triggers": ["tool programmatic seo"]
   },
   {
     "id": "tool-schema-markup",
     "name": "Tool Schema Markup",
     "description": "Schema.org markup builder",
     "category": "Development Tools",
-    "triggers": [
-      "tool schema markup"
-    ]
+    "triggers": ["tool schema markup"]
   },
   {
     "id": "tool-stack-doctor",
     "name": "Tool Stack Doctor",
     "description": "Technology stack analyzer",
     "category": "Development Tools",
-    "triggers": [
-      "tool stack doctor"
-    ]
+    "triggers": ["tool stack doctor"]
   },
   {
     "id": "tool-systematic-debugging",
     "name": "Tool Systematic Debugging",
     "description": "Debugging framework",
     "category": "Development Tools",
-    "triggers": [
-      "tool systematic debugging"
-    ]
+    "triggers": ["tool systematic debugging"]
   },
   {
     "id": "tool-ui-ux-pro-max",
     "name": "Tool Ui Ux Pro Max",
     "description": "Advanced UI/UX assistant",
     "category": "Development Tools",
-    "triggers": [
-      "tool ui ux pro max"
-    ]
+    "triggers": ["tool ui ux pro max"]
   },
   {
     "id": "tool-x-article-publisher",
     "name": "Tool X Article Publisher",
     "description": "Social media publisher",
     "category": "Development Tools",
-    "triggers": [
-      "tool x article publisher"
-    ]
+    "triggers": ["tool x article publisher"]
   },
   {
     "id": "tool-dependency-analyzer",
     "name": "Tool Dependency Analyzer",
     "description": "Dependency graph analysis",
     "category": "Development Tools",
-    "triggers": [
-      "tool dependency analyzer"
-    ]
+    "triggers": ["tool dependency analyzer"]
   },
   {
     "id": "tool-code-formatter",
     "name": "Tool Code Formatter",
     "description": "Multi-language code formatting",
     "category": "Development Tools",
-    "triggers": [
-      "tool code formatter"
-    ]
+    "triggers": ["tool code formatter"]
   },
   {
     "id": "tool-refactoring-assistant",
     "name": "Tool Refactoring Assistant",
     "description": "Automated refactoring suggestions",
     "category": "Development Tools",
-    "triggers": [
-      "tool refactoring assistant"
-    ]
+    "triggers": ["tool refactoring assistant"]
   },
   {
     "id": "tool-migration-helper",
     "name": "Tool Migration Helper",
     "description": "Framework/library migration guide",
     "category": "Development Tools",
-    "triggers": [
-      "tool migration helper"
-    ]
+    "triggers": ["tool migration helper"]
   },
   {
     "id": "workflow-agent-orchestration",
     "name": "Workflow Agent Orchestration",
     "description": "Multi-agent workflow coordination",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow agent orchestration"
-    ]
+    "triggers": ["workflow agent orchestration"]
   },
   {
     "id": "workflow-brainstorm",
     "name": "Workflow Brainstorm",
     "description": "Ideation and brainstorming facilitator",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow brainstorm"
-    ]
+    "triggers": ["workflow brainstorm"]
   },
   {
     "id": "workflow-creator",
     "name": "Workflow Creator",
     "description": "Custom workflow builder",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow creator"
-    ]
+    "triggers": ["workflow creator"]
   },
   {
     "id": "workflow-execute-plans",
     "name": "Workflow Execute Plans",
     "description": "Plan execution framework",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow execute plans"
-    ]
+    "triggers": ["workflow execute plans"]
   },
   {
     "id": "workflow-feature-cycle",
     "name": "Workflow Feature Cycle",
     "description": "Feature development lifecycle",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow feature cycle"
-    ]
+    "triggers": ["workflow feature cycle"]
   },
   {
     "id": "workflow-feature-shipper",
     "name": "Workflow Feature Shipper",
     "description": "Feature deployment automation",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow feature shipper"
-    ]
+    "triggers": ["workflow feature shipper"]
   },
   {
     "id": "workflow-launch-sequence",
     "name": "Workflow Launch Sequence",
     "description": "Product launch checklist",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow launch sequence"
-    ]
+    "triggers": ["workflow launch sequence"]
   },
   {
     "id": "workflow-multi-agent-build",
     "name": "Workflow Multi Agent Build",
     "description": "Collaborative building system",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow multi agent build"
-    ]
+    "triggers": ["workflow multi agent build"]
   },
   {
     "id": "workflow-multi-agent-orchestrator",
     "name": "Workflow Multi Agent Orchestrator",
     "description": "Agent coordination platform",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow multi agent orchestrator"
-    ]
+    "triggers": ["workflow multi agent orchestrator"]
   },
   {
     "id": "workflow-project-planner",
     "name": "Workflow Project Planner",
     "description": "Project planning assistant",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow project planner"
-    ]
+    "triggers": ["workflow project planner"]
   },
   {
     "id": "workflow-ci-cd-optimizer",
     "name": "Workflow Ci Cd Optimizer",
     "description": "CI/CD pipeline optimization",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow ci cd optimizer"
-    ]
+    "triggers": ["workflow ci cd optimizer"]
   },
   {
     "id": "workflow-release-manager",
     "name": "Workflow Release Manager",
     "description": "Release planning and execution",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow release manager"
-    ]
+    "triggers": ["workflow release manager"]
   },
   {
     "id": "workflow-hotfix-handler",
     "name": "Workflow Hotfix Handler",
     "description": "Emergency fix workflow",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow hotfix handler"
-    ]
+    "triggers": ["workflow hotfix handler"]
   },
   {
     "id": "workflow-code-review-flow",
     "name": "Workflow Code Review Flow",
     "description": "Automated review process",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow code review flow"
-    ]
+    "triggers": ["workflow code review flow"]
   },
   {
     "id": "workflow-onboarding",
     "name": "Workflow Onboarding",
     "description": "Developer onboarding automation",
     "category": "Workflow Automation",
-    "triggers": [
-      "workflow onboarding"
-    ]
+    "triggers": ["workflow onboarding"]
   },
   {
     "id": "cloudflare",
     "name": "Cloudflare",
     "description": "Cloudflare Workers/KV/R2/D1 management",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "cloudflare"
-    ]
+    "triggers": ["cloudflare"]
   },
   {
     "id": "deployment-commander",
     "name": "Deployment Commander",
     "description": "Multi-cloud deployment orchestration",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "deployment commander"
-    ]
+    "triggers": ["deployment commander"]
   },
   {
     "id": "neon",
     "name": "Neon",
     "description": "Neon Postgres integration",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "neon"
-    ]
+    "triggers": ["neon"]
   },
   {
     "id": "postgres-optimizer",
     "name": "Postgres Optimizer",
     "description": "PostgreSQL performance tuning",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "postgres optimizer"
-    ]
+    "triggers": ["postgres optimizer"]
   },
   {
     "id": "mcp-cloudflare",
     "name": "Mcp Cloudflare",
     "description": "Cloudflare MCP server",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "mcp cloudflare"
-    ]
+    "triggers": ["mcp cloudflare"]
   },
   {
     "id": "mcp-stripe",
     "name": "Mcp Stripe",
     "description": "Stripe MCP server",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "mcp stripe"
-    ]
+    "triggers": ["mcp stripe"]
   },
   {
     "id": "mcp-supabase",
     "name": "Mcp Supabase",
     "description": "Supabase MCP server",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "mcp supabase"
-    ]
+    "triggers": ["mcp supabase"]
   },
   {
     "id": "aws-architect",
     "name": "Aws Architect",
     "description": "AWS infrastructure design",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "aws architect"
-    ]
+    "triggers": ["aws architect"]
   },
   {
     "id": "azure-optimizer",
     "name": "Azure Optimizer",
     "description": "Azure resource optimization",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "azure optimizer"
-    ]
+    "triggers": ["azure optimizer"]
   },
   {
     "id": "gcp-deployer",
     "name": "Gcp Deployer",
     "description": "Google Cloud deployment",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "gcp deployer"
-    ]
+    "triggers": ["gcp deployer"]
   },
   {
     "id": "kubernetes-manager",
     "name": "Kubernetes Manager",
     "description": "K8s cluster management",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "kubernetes manager"
-    ]
+    "triggers": ["kubernetes manager"]
   },
   {
     "id": "terraform-generator",
     "name": "Terraform Generator",
     "description": "IaC template creation",
     "category": "Cloud & Infrastructure",
-    "triggers": [
-      "terraform generator"
-    ]
+    "triggers": ["terraform generator"]
   },
   {
     "id": "testing",
     "name": "Testing",
     "description": "Comprehensive testing strategy",
     "category": "Testing & QA",
-    "triggers": [
-      "testing"
-    ]
+    "triggers": ["testing"]
   },
   {
     "id": "unit-test-code",
     "name": "Unit Test Code",
     "description": "Unit test generation",
     "category": "Testing & QA",
-    "triggers": [
-      "unit test code"
-    ]
+    "triggers": ["unit test code"]
   },
   {
     "id": "integration-test-builder",
     "name": "Integration Test Builder",
     "description": "Integration test creation",
     "category": "Testing & QA",
-    "triggers": [
-      "integration test builder"
-    ]
+    "triggers": ["integration test builder"]
   },
   {
     "id": "e2e-test-generator",
     "name": "E2e Test Generator",
     "description": "End-to-end test automation",
     "category": "Testing & QA",
-    "triggers": [
-      "e2e test generator"
-    ]
+    "triggers": ["e2e test generator"]
   },
   {
     "id": "load-test-designer",
     "name": "Load Test Designer",
     "description": "Performance testing setup",
     "category": "Testing & QA",
-    "triggers": [
-      "load test designer"
-    ]
+    "triggers": ["load test designer"]
   },
   {
     "id": "security-test-suite",
     "name": "Security Test Suite",
     "description": "Security testing framework",
     "category": "Testing & QA",
-    "triggers": [
-      "security test suite"
-    ]
+    "triggers": ["security test suite"]
   },
   {
     "id": "visual-regression-tester",
     "name": "Visual Regression Tester",
     "description": "UI visual testing",
     "category": "Testing & QA",
-    "triggers": [
-      "visual regression tester"
-    ]
+    "triggers": ["visual regression tester"]
   },
   {
     "id": "api-test-generator",
     "name": "Api Test Generator",
     "description": "API test case creation",
     "category": "Testing & QA",
-    "triggers": [
-      "api test generator"
-    ]
+    "triggers": ["api test generator"]
   },
   {
     "id": "mutation-testing",
     "name": "Mutation Testing",
     "description": "Code mutation analysis",
     "category": "Testing & QA",
-    "triggers": [
-      "mutation testing"
-    ]
+    "triggers": ["mutation testing"]
   },
   {
     "id": "fuzz-testing",
     "name": "Fuzz Testing",
     "description": "Fuzzing test generation",
     "category": "Testing & QA",
-    "triggers": [
-      "fuzz testing"
-    ]
+    "triggers": ["fuzz testing"]
   },
   {
     "id": "doc-generator",
     "name": "Doc Generator",
     "description": "Automated documentation creation",
     "category": "Documentation",
-    "triggers": [
-      "doc generator"
-    ]
+    "triggers": ["doc generator"]
   },
   {
     "id": "api-doc-builder",
     "name": "Api Doc Builder",
     "description": "API documentation generator",
     "category": "Documentation",
-    "triggers": [
-      "api doc builder"
-    ]
+    "triggers": ["api doc builder"]
   },
   {
     "id": "readme-creator",
     "name": "Readme Creator",
     "description": "README template builder",
     "category": "Documentation",
-    "triggers": [
-      "readme creator"
-    ]
+    "triggers": ["readme creator"]
   },
   {
     "id": "changelog-manager",
     "name": "Changelog Manager",
     "description": "Changelog automation",
     "category": "Documentation",
-    "triggers": [
-      "changelog manager"
-    ]
+    "triggers": ["changelog manager"]
   },
   {
     "id": "architecture-diagram",
     "name": "Architecture Diagram",
     "description": "System diagram generator",
     "category": "Documentation",
-    "triggers": [
-      "architecture diagram"
-    ]
+    "triggers": ["architecture diagram"]
   },
   {
     "id": "onboarding-docs",
     "name": "Onboarding Docs",
     "description": "Onboarding guide creator",
     "category": "Documentation",
-    "triggers": [
-      "onboarding docs"
-    ]
+    "triggers": ["onboarding docs"]
   },
   {
     "id": "troubleshooting-guide",
     "name": "Troubleshooting Guide",
     "description": "Debug guide generator",
     "category": "Documentation",
-    "triggers": [
-      "troubleshooting guide"
-    ]
+    "triggers": ["troubleshooting guide"]
   },
   {
     "id": "migration-docs",
     "name": "Migration Docs",
     "description": "Migration documentation",
     "category": "Documentation",
-    "triggers": [
-      "migration docs"
-    ]
+    "triggers": ["migration docs"]
   },
   {
     "id": "react-component-builder",
     "name": "React Component Builder",
     "description": "React component generator",
     "category": "Frontend & Design",
-    "triggers": [
-      "react component builder"
-    ]
+    "triggers": ["react component builder"]
   },
   {
     "id": "tailwind-designer",
     "name": "Tailwind Designer",
     "description": "TailwindCSS utility helper",
     "category": "Frontend & Design",
-    "triggers": [
-      "tailwind designer"
-    ]
+    "triggers": ["tailwind designer"]
   },
   {
     "id": "responsive-layout",
     "name": "Responsive Layout",
     "description": "Responsive design assistant",
     "category": "Frontend & Design",
-    "triggers": [
-      "responsive layout"
-    ]
+    "triggers": ["responsive layout"]
   },
   {
     "id": "animation-creator",
     "name": "Animation Creator",
     "description": "CSS/JS animation builder",
     "category": "Frontend & Design",
-    "triggers": [
-      "animation creator"
-    ]
+    "triggers": ["animation creator"]
   },
   {
     "id": "icon-optimizer",
     "name": "Icon Optimizer",
     "description": "SVG icon optimization",
     "category": "Frontend & Design",
-    "triggers": [
-      "icon optimizer"
-    ]
+    "triggers": ["icon optimizer"]
   },
   {
     "id": "color-palette-generator",
     "name": "Color Palette Generator",
     "description": "Color scheme creator",
     "category": "Frontend & Design",
-    "triggers": [
-      "color palette generator"
-    ]
+    "triggers": ["color palette generator"]
   },
   {
     "id": "typography-advisor",
     "name": "Typography Advisor",
     "description": "Font pairing recommendations",
     "category": "Frontend & Design",
-    "triggers": [
-      "typography advisor"
-    ]
+    "triggers": ["typography advisor"]
   },
   {
     "id": "accessibility-fixer",
     "name": "Accessibility Fixer",
     "description": "A11y issue resolver",
     "category": "Frontend & Design",
-    "triggers": [
-      "accessibility fixer"
-    ]
+    "triggers": ["accessibility fixer"]
   },
   {
     "id": "component-library-builder",
     "name": "Component Library Builder",
     "description": "Design system creator",
     "category": "Frontend & Design",
-    "triggers": [
-      "component library builder"
-    ]
+    "triggers": ["component library builder"]
   },
   {
     "id": "css-optimizer",
     "name": "Css Optimizer",
     "description": "CSS performance optimization",
     "category": "Frontend & Design",
-    "triggers": [
-      "css optimizer"
-    ]
+    "triggers": ["css optimizer"]
   },
   {
     "id": "stripe",
     "name": "Stripe",
     "description": "Stripe payment integration",
     "category": "Security & Auth",
-    "triggers": [
-      "stripe"
-    ]
+    "triggers": ["stripe"]
   },
   {
     "id": "supabase",
     "name": "Supabase",
     "description": "Supabase authentication",
     "category": "Security & Auth",
-    "triggers": [
-      "supabase"
-    ]
+    "triggers": ["supabase"]
   },
   {
     "id": "auth-flow-builder",
     "name": "Auth Flow Builder",
     "description": "Authentication flow creator",
     "category": "Security & Auth",
-    "triggers": [
-      "auth flow builder"
-    ]
+    "triggers": ["auth flow builder"]
   },
   {
     "id": "jwt-manager",
     "name": "Jwt Manager",
     "description": "JWT token management",
     "category": "Security & Auth",
-    "triggers": [
-      "jwt manager"
-    ]
+    "triggers": ["jwt manager"]
   },
   {
     "id": "oauth-integrator",
     "name": "Oauth Integrator",
     "description": "OAuth provider setup",
     "category": "Security & Auth",
-    "triggers": [
-      "oauth integrator"
-    ]
+    "triggers": ["oauth integrator"]
   },
   {
     "id": "rbac-designer",
     "name": "Rbac Designer",
     "description": "Role-based access control",
     "category": "Security & Auth",
-    "triggers": [
-      "rbac designer"
-    ]
+    "triggers": ["rbac designer"]
   },
   {
     "id": "encryption-helper",
     "name": "Encryption Helper",
     "description": "Data encryption utilities",
     "category": "Security & Auth",
-    "triggers": [
-      "encryption helper"
-    ]
+    "triggers": ["encryption helper"]
   },
   {
     "id": "security-headers",
     "name": "Security Headers",
     "description": "HTTP security headers",
     "category": "Security & Auth",
-    "triggers": [
-      "security headers"
-    ]
+    "triggers": ["security headers"]
   },
   {
     "id": "analytics-tracker",
     "name": "Analytics Tracker",
     "description": "Event tracking setup",
     "category": "Data & Analytics",
-    "triggers": [
-      "analytics tracker"
-    ]
+    "triggers": ["analytics tracker"]
   },
   {
     "id": "data-pipeline-builder",
     "name": "Data Pipeline Builder",
     "description": "ETL pipeline creator",
     "category": "Data & Analytics",
-    "triggers": [
-      "data pipeline builder"
-    ]
+    "triggers": ["data pipeline builder"]
   },
   {
     "id": "sql-query-optimizer",
     "name": "Sql Query Optimizer",
     "description": "SQL performance tuning",
     "category": "Data & Analytics",
-    "triggers": [
-      "sql query optimizer"
-    ]
+    "triggers": ["sql query optimizer"]
   },
   {
     "id": "data-visualization",
     "name": "Data Visualization",
     "description": "Chart and graph generator",
     "category": "Data & Analytics",
-    "triggers": [
-      "data visualization"
-    ]
+    "triggers": ["data visualization"]
   },
   {
     "id": "metrics-dashboard",
     "name": "Metrics Dashboard",
     "description": "Metrics monitoring setup",
     "category": "Data & Analytics",
-    "triggers": [
-      "metrics dashboard"
-    ]
+    "triggers": ["metrics dashboard"]
   },
   {
     "id": "ab-test-analyzer",
     "name": "Ab Test Analyzer",
     "description": "A/B test statistical analysis",
     "category": "Data & Analytics",
-    "triggers": [
-      "ab test analyzer"
-    ]
+    "triggers": ["ab test analyzer"]
   },
   {
     "id": "cohort-analyzer",
     "name": "Cohort Analyzer",
     "description": "User cohort analysis",
     "category": "Data & Analytics",
-    "triggers": [
-      "cohort analyzer"
-    ]
+    "triggers": ["cohort analyzer"]
   },
   {
     "id": "funnel-optimizer",
     "name": "Funnel Optimizer",
     "description": "Conversion funnel analysis",
     "category": "Data & Analytics",
-    "triggers": [
-      "funnel optimizer"
-    ]
+    "triggers": ["funnel optimizer"]
   },
   {
     "id": "vercel-ai",
     "name": "Vercel Ai",
     "description": "Vercel AI SDK integration",
     "category": "AI & ML Integration",
-    "triggers": [
-      "vercel ai"
-    ]
+    "triggers": ["vercel ai"]
   },
   {
     "id": "openai-integrator",
     "name": "Openai Integrator",
     "description": "OpenAI API helper",
     "category": "AI & ML Integration",
-    "triggers": [
-      "openai integrator"
-    ]
+    "triggers": ["openai integrator"]
   },
   {
     "id": "anthropic-claude",
     "name": "Anthropic Claude",
     "description": "Claude API integration",
     "category": "AI & ML Integration",
-    "triggers": [
-      "anthropic claude"
-    ]
+    "triggers": ["anthropic claude"]
   },
   {
     "id": "langchain-builder",
     "name": "Langchain Builder",
     "description": "LangChain application creator",
     "category": "AI & ML Integration",
-    "triggers": [
-      "langchain builder"
-    ]
+    "triggers": ["langchain builder"]
   },
   {
     "id": "vector-db-setup",
     "name": "Vector Db Setup",
     "description": "Vector database configuration",
     "category": "AI & ML Integration",
-    "triggers": [
-      "vector db setup"
-    ]
+    "triggers": ["vector db setup"]
   },
   {
     "id": "rag-pipeline",
     "name": "Rag Pipeline",
     "description": "RAG system builder",
     "category": "AI & ML Integration",
-    "triggers": [
-      "rag pipeline"
-    ]
+    "triggers": ["rag pipeline"]
   },
   {
     "id": "prompt-optimizer",
     "name": "Prompt Optimizer",
     "description": "Prompt engineering assistant",
     "category": "AI & ML Integration",
-    "triggers": [
-      "prompt optimizer"
-    ]
+    "triggers": ["prompt optimizer"]
   },
   {
     "id": "embedding-generator",
     "name": "Embedding Generator",
     "description": "Text embedding utilities",
     "category": "AI & ML Integration",
-    "triggers": [
-      "embedding generator"
-    ]
+    "triggers": ["embedding generator"]
   },
   {
     "id": "llm-router",
     "name": "Llm Router",
     "description": "Multi-model routing logic",
     "category": "AI & ML Integration",
-    "triggers": [
-      "llm router"
-    ]
+    "triggers": ["llm router"]
   },
   {
     "id": "ai-agent-framework",
     "name": "Ai Agent Framework",
     "description": "AI agent architecture",
     "category": "AI & ML Integration",
-    "triggers": [
-      "ai agent framework"
-    ]
+    "triggers": ["ai agent framework"]
   },
   {
     "id": "skill-creator",
     "name": "Skill Creator",
     "description": "New skill generator",
     "category": "Meta & Automation",
-    "triggers": [
-      "skill creator"
-    ]
+    "triggers": ["skill creator"]
   },
   {
     "id": "skill-evolution",
     "name": "Skill Evolution",
     "description": "Skill improvement system",
     "category": "Meta & Automation",
-    "triggers": [
-      "skill evolution"
-    ]
+    "triggers": ["skill evolution"]
   },
   {
     "id": "skill-improver",
     "name": "Skill Improver",
     "description": "Skill optimization",
     "category": "Meta & Automation",
-    "triggers": [
-      "skill improver"
-    ]
+    "triggers": ["skill improver"]
   },
   {
     "id": "automation-code",
     "name": "Automation Code",
     "description": "Code automation utilities",
     "category": "Meta & Automation",
-    "triggers": [
-      "automation code"
-    ]
+    "triggers": ["automation code"]
   },
   {
     "id": "github-integration",
     "name": "Github Integration",
     "description": "GitHub API integration",
     "category": "Meta & Automation",
-    "triggers": [
-      "github integration"
-    ]
+    "triggers": ["github integration"]
   },
   {
     "id": "observe",
     "name": "Observe",
     "description": "Observability setup",
     "category": "Meta & Automation",
-    "triggers": [
-      "observe"
-    ]
+    "triggers": ["observe"]
   },
   {
     "id": "python-backend-expert",
     "name": "Python Backend Expert",
     "description": "Python backend helper",
     "category": "Meta & Automation",
-    "triggers": [
-      "python backend expert"
-    ]
+    "triggers": ["python backend expert"]
   },
   {
     "id": "resend",
     "name": "Resend",
     "description": "Email service integration",
     "category": "Meta & Automation",
-    "triggers": [
-      "resend"
-    ]
+    "triggers": ["resend"]
   },
   {
     "id": "structured-prompting",
     "name": "Structured Prompting",
     "description": "Prompt template system",
     "category": "Meta & Automation",
-    "triggers": [
-      "structured prompting"
-    ]
+    "triggers": ["structured prompting"]
   },
   {
     "id": "deep-research",
     "name": "Deep Research",
     "description": "Research automation",
     "category": "Meta & Automation",
-    "triggers": [
-      "deep research"
-    ]
+    "triggers": ["deep research"]
   },
   {
     "id": "react-native-builder",
     "name": "React Native Builder",
     "description": "React Native app creator",
     "category": "Platform",
-    "triggers": [
-      "react native builder"
-    ]
+    "triggers": ["react native builder"]
   },
   {
     "id": "flutter-generator",
     "name": "Flutter Generator",
     "description": "Flutter app template",
     "category": "Platform",
-    "triggers": [
-      "flutter generator"
-    ]
+    "triggers": ["flutter generator"]
   },
   {
     "id": "mobile-api-optimizer",
     "name": "Mobile Api Optimizer",
     "description": "Mobile API optimization",
     "category": "Platform",
-    "triggers": [
-      "mobile api optimizer"
-    ]
+    "triggers": ["mobile api optimizer"]
   },
   {
     "id": "push-notification-setup",
     "name": "Push Notification Setup",
     "description": "Push notification integration",
     "category": "Platform",
-    "triggers": [
-      "push notification setup"
-    ]
+    "triggers": ["push notification setup"]
   },
   {
     "id": "mobile-analytics",
     "name": "Mobile Analytics",
     "description": "Mobile analytics tracking",
     "category": "Platform",
-    "triggers": [
-      "mobile analytics"
-    ]
+    "triggers": ["mobile analytics"]
   }
 ]
