@@ -1,6 +1,10 @@
-import { supabase } from '../lib/supabase.js';
 import path from 'path';
 import dotenv from 'dotenv';
+dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+
+import { getSupabaseAdmin } from '../lib/supabase.js';
+const supabase = getSupabaseAdmin();
+
 import {
   MarketAnalystAgent,
   ContentWriterAgent,
@@ -8,27 +12,21 @@ import {
   AgentSpawnerAgent,
   BuilderAgent,
   TemplateArchitectAgent,
+  BlueprintSpawnerAgent,
   IForgeAgent,
 } from './agent-definitions.js';
-
-// ─────────────────────────────────────────────────────────
-// CRUCIBLE — Unified Agent Orchestrator
-// Runs all agents in a continuous loop with telemetry.
-// Start with: npm run agents:start
-// ─────────────────────────────────────────────────────────
-
-dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 // Built-in agents
 const AGENTS: IForgeAgent[] = [
   new MarketAnalystAgent(),
-  new ContentWriterAgent(),
   new TrendScoutAgent(),
-  new AgentSpawnerAgent(),
   new TemplateArchitectAgent(),
+  new BlueprintSpawnerAgent(),
   new BuilderAgent(),
+  new ContentWriterAgent(),
+  new AgentSpawnerAgent(),
 ];
 
 let cycleCount = 0;

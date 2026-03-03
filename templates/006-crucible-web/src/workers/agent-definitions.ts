@@ -45,7 +45,8 @@ const COMPETITIVE_DOMAINS = [
   'Data Pipeline Orchestration',
   'Frontend UI Component Libraries',
   'API Gateways & Management',
-  'Automated QA & Testing'
+  'Automated QA & Testing',
+  'Context Retrieval & Knowledge Sync (Airweave-style)'
 ];
 
 export class MarketAnalystAgent implements IForgeAgent {
@@ -549,6 +550,64 @@ Output a raw JSON object (no markdown, no explanation) representing the new temp
 
     } catch (e: any) {
       await logTelemetry(supabase, this.type, 'ERROR', `Template architecture failed: ${e.message}`);
+      return { success: false, message: e.message };
+    }
+  }
+}
+// ═══════════════════════════════════════════════════════
+// AGENT 7: Blueprint Spawner
+// ═══════════════════════════════════════════════════════
+
+export class BlueprintSpawnerAgent implements IForgeAgent {
+  name = 'Blueprint Spawner';
+  type = 'spawner_v2'; // Distinct from meta-spawner
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    await logTelemetry(supabase, this.type, 'SCAN', 'Scanning templates for potential autonomous build opportunities...');
+
+    try {
+      // 1. Find templates that don't have active blueprints
+      const { data: templates } = await supabase
+        .from('forge_templates')
+        .select('*')
+        .limit(20);
+
+      const { data: existingBlueprints } = await supabase
+        .from('forge_blueprints')
+        .select('template_id')
+        .in('status', ['queued', 'building', 'deployed']);
+
+      const builtTemplateIds = new Set(existingBlueprints?.map(b => b.template_id) || []);
+      const buildableTemplates = templates?.filter(t => !builtTemplateIds.has(t.template_id)) || [];
+
+      if (buildableTemplates.length === 0) {
+        await logTelemetry(supabase, this.type, 'IDLE', 'No new architecture gaps found in local armory.');
+        return { success: true, message: 'No build opportunities found.' };
+      }
+
+      // 2. Select the most promising template
+      const template = buildableTemplates[Math.floor(Math.random() * buildableTemplates.length)];
+      await logTelemetry(supabase, this.type, 'TARGET', `Selected target for autonomous construction: ${template.name}`);
+
+      // 3. Create Blueprint
+      const { error } = await supabase.from('forge_blueprints').insert({
+        template_id: template.template_id,
+        name: `${template.name} (Auto-Forge)`,
+        status: 'queued',
+        spec: {
+          ...template,
+          autonomous: true,
+          forge_sequence: 'standard-v1'
+        }
+      });
+
+      if (error) throw error;
+
+      await logTelemetry(supabase, this.type, 'QUEUED', `Blueprint deployed to construction queue: ${template.name}`);
+      return { success: true, message: `Queued: ${template.name}`, data: template };
+
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Blueprint spawning failed: ${e.message}`);
       return { success: false, message: e.message };
     }
   }
