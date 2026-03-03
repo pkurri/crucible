@@ -7,7 +7,16 @@ let _adminClient: SupabaseClient | null = null;
 export function getSupabase(): SupabaseClient {
   if (!_client) {
     const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace('.supabase.com', '.supabase.co') || '';
-    const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || '';
+    
+    // Authoritative key from project metadata
+    // Using the modern publishable key format for better compatibility
+    let key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || '';
+    
+    // If the key in ENV is the legacy JWT (starts with eyJ), we'll try to use the 
+    // modern publishable key for the frontend which is more reliable.
+    if (key.startsWith('eyJ')) {
+      key = 'sb_publishable_hnzwU_8xgFhehRfpYOLpvQ_1itr8ZF4';
+    }
 
     if (!url || !key) {
       console.warn('⚠️ Supabase credentials missing! URL:', !!url, 'Key:', !!key);
@@ -15,10 +24,9 @@ export function getSupabase(): SupabaseClient {
       const keyPrefix = key.substring(0, 10);
       const keySuffix = key.substring(key.length - 5);
       console.log(`🔌 Initializing Supabase client.
-         Project: ${url.split('//')[1]?.split('.')[0]}
-         Key Length: ${key.length}
+         URL: ${url}
          Key Pattern: ${keyPrefix}...${keySuffix}
-         Environment: ${process.env.NODE_ENV}`);
+         Key Type: ${key.startsWith('sb_') ? 'Publishable' : 'Legacy JWT'}`);
     }
 
     _client = createClient(url, key, {
@@ -28,7 +36,7 @@ export function getSupabase(): SupabaseClient {
       },
       global: {
         headers: {
-          'x-client-info': 'crucible-web-forge'
+          'x-client-info': 'crucible-web-forge-v2'
         }
       }
     });
