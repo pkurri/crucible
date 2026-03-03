@@ -13,6 +13,8 @@ import {
   BuilderAgent,
   TemplateArchitectAgent,
   BlueprintSpawnerAgent,
+  IntelManagerAgent,
+  ForgeOverseerAgent,
   IForgeAgent,
 } from './agent-definitions.js';
 
@@ -27,6 +29,8 @@ const AGENTS: IForgeAgent[] = [
   new BuilderAgent(),
   new ContentWriterAgent(),
   new AgentSpawnerAgent(),
+  new IntelManagerAgent(),
+  new ForgeOverseerAgent(),
 ];
 
 let cycleCount = 0;

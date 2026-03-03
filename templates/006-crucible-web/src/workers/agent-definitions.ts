@@ -11,6 +11,12 @@ export interface IForgeAgent {
   execute(supabase: SupabaseClient): Promise<AgentResult>;
 }
 
+export interface AgentResult {
+  success: boolean;
+  message: string;
+  data?: any;
+}
+
 /**
  * Robust JSON extraction and sanitization for AI outputs.
  * Designed to handle markdown wrappers, truncated responses, and unescaped newlines.
@@ -644,6 +650,111 @@ export class BlueprintSpawnerAgent implements IForgeAgent {
 
     } catch (e: any) {
       await logTelemetry(supabase, this.type, 'ERROR', `Blueprint spawning failed: ${e.message}`);
+      return { success: false, message: e.message };
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// AGENT 8: Intel Manager
+// ═══════════════════════════════════════════════════════
+
+export class IntelManagerAgent implements IForgeAgent {
+  name = 'Intel Manager';
+  type = 'intel_manager';
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    await logTelemetry(supabase, this.type, 'SCAN', 'Scanning for competitive intelligence and market gaps...');
+
+    try {
+      // 1. Gather recent market research and blueprints
+      const { data: research } = await supabase
+        .from('market_research')
+        .select('content, aesthetic_tags')
+        .order('created_at', { ascending: false })
+        .limit(5);
+
+      const prompt = `You are the Intel Manager for Crucible.
+Your goal is to synthesize internal market research into "Actionable Intelligence" (Intel).
+Focus on identifying high-value features or platform gaps that are not yet addressed by existing blueprints.
+
+Research Context:
+${research?.map(r => r.content).join('\n---\n') || 'General SaaS market research'}
+
+Output a RAW JSON object (no markdown, no explanation):
+{
+  "title": "Short descriptive title",
+  "analysis": "A deep-dive analysis of why this is a gap",
+  "recommended_template": "A name for a potential new template",
+  "priority": "Critical" | "High" | "Medium",
+  "tags": ["intel", "gap-analysis"]
+}`;
+
+      let text = await generateWithYield(prompt);
+      const intel = safeParseJSON(text);
+
+      // 2. Store as market research with specialized type
+      const mockEmbedding = Array.from({ length: 1536 }, () => Math.random() * 2 - 1);
+      const normalized = Math.sqrt(mockEmbedding.reduce((sum, val) => sum + val * val, 0));
+      const finalEmbedding = mockEmbedding.map(val => val / normalized);
+
+      await supabase.from('market_research').insert({
+        source_url: 'internal://intel-manager',
+        component_type: 'gap_intel',
+        aesthetic_tags: intel.tags || ['intel'],
+        content: `INTEL: ${intel.title}\n\n${intel.analysis}\n\nRecommended: ${intel.recommended_template}\nPriority: ${intel.priority}`,
+        embedding: finalEmbedding,
+      });
+
+      await logTelemetry(supabase, this.type, 'SUCCESS', `Generated Intel: "${intel.title}" (Priority: ${intel.priority})`);
+      return { success: true, message: `Intel generated: ${intel.title}`, data: intel };
+
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Intel management failed: ${e.message}`);
+      return { success: false, message: e.message };
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// AGENT 9: Forge Overseer
+// ═══════════════════════════════════════════════════════
+
+export class ForgeOverseerAgent implements IForgeAgent {
+  name = 'Forge Overseer';
+  type = 'overseer';
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    await logTelemetry(supabase, this.type, 'AUDIT', 'Performing platform architectural audit...');
+
+    try {
+      // 1. Audit templates and blueprints
+      const { data: templates } = await supabase.from('forge_templates').select('id, name');
+      const { data: blueprints } = await supabase.from('forge_blueprints').select('id, status, name');
+
+      const prompt = `You are the Forge Overseer.
+You audit the current state of blueprints and templates to suggest maintenance or evolution actions.
+
+Templates: ${templates?.length || 0}
+Blueprints: ${blueprints?.length || 0}
+Building/Failed: ${blueprints?.filter(b => b.status === 'building' || b.status === 'failed').length || 0}
+
+Output a RAW JSON object (no markdown, no explanation):
+{
+  "audit_report": "Summary of platform health",
+  "suggested_maintenance": "e.g., Retry failed blueprints, consolidate templates",
+  "evolution_path": "What is the next big architectural shift?"
+}`;
+
+      let text = await generateWithYield(prompt);
+      const audit = safeParseJSON(text);
+
+      await logTelemetry(supabase, this.type, 'HEALTH', audit.audit_report);
+      
+      return { success: true, message: `Audit complete: ${audit.audit_report.substring(0, 50)}...`, data: audit };
+
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Overseer audit failed: ${e.message}`);
       return { success: false, message: e.message };
     }
   }
