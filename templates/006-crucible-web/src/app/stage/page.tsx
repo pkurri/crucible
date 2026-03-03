@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Radio, Zap, Activity, Shield, Bot, Mic2, MessageSquare, Terminal, ChevronRight, Share2, Globe, Sparkles } from 'lucide-react';
+import { Radio, Zap, Activity, Shield, Bot, Mic2, MessageSquare, Terminal, ChevronRight, Share2, Globe, Sparkles, Clock, Target } from 'lucide-react';
 import { getSupabase } from '@/lib/supabase';
 
 interface BroadcastEvent {
