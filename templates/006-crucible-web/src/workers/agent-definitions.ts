@@ -17,6 +17,44 @@ export interface AgentResult {
   data?: any;
 }
 
+/**
+ * Robust JSON extraction and sanitization for AI outputs
+ */
+export function safeParseJSON(text: string): any {
+  try {
+    // 1. Extract the potential JSON block
+    const start = Math.min(
+      text.indexOf('{') === -1 ? Infinity : text.indexOf('{'),
+      text.indexOf('[') === -1 ? Infinity : text.indexOf('[')
+    );
+    const end = Math.max(text.lastIndexOf('}'), text.lastIndexOf(']'));
+
+    if (start === Infinity || end === -1 || start >= end) {
+      throw new Error('No valid JSON structure found in output.');
+    }
+
+    let jsonStr = text.substring(start, end + 1);
+
+    // 2. Try simple parse first
+    try {
+      return JSON.parse(jsonStr);
+    } catch (e) {
+      // 3. Fallback: targeted repairs for Llama/Cloudflare common issues
+      
+      // Remove non-printable control characters except \n, \r, \t
+      jsonStr = jsonStr.replace(/[\u0000-\u0009\u000B-\u000C\u000E-\u001F\u007F-\u009F]/g, '');
+
+      // Heuristic: Escape newlines that are NOT preceded by a structural char like { [ , :
+      // This helps repair unescaped newlines inside string values.
+      jsonStr = jsonStr.replace(/([^\{\}\[\]\, \: \n\r\t])[\n\r]+/g, '$1\\n');
+
+      return JSON.parse(jsonStr);
+    }
+  } catch (err: any) {
+    throw new Error(`JSON Robustness Error: ${err.message}. Text sample: ${text.substring(0, 50)}...`);
+  }
+}
+
 async function logTelemetry(supabase: SupabaseClient, agentId: string, eventType: string, message: string) {
   console.log(`\x1b[36m[${agentId}][${eventType}]\x1b[0m ${message}`);
   try {
@@ -75,8 +113,7 @@ Output a RAW JSON object ONLY (no markdown formatting, no explanations):
 }`;
 
       let text = await generateWithYield(prompt);
-      text = text.replace(/```json/g, '').replace(/```/g, '').trim();
-      const insight = JSON.parse(text);
+      const insight = safeParseJSON(text);
 
       await logTelemetry(supabase, this.type, 'ANALYZE', `Extracted insight: "${insight.insight_title}"`);
 
@@ -162,8 +199,7 @@ Output a raw JSON object (no markdown, no explanation):
 }`;
 
       let text = await generateWithYield(prompt);
-      text = text.replace(/```json/g, '').replace(/```/g, '').trim();
-      const article = JSON.parse(text);
+      const article = safeParseJSON(text);
 
       const wordCount = article.content.split(/\s+/).length;
       const uniqueSlug = `${article.slug}-${Date.now()}`;
@@ -243,8 +279,7 @@ Output a raw JSON object (no markdown, no explanation):
 }`;
 
       let text = await generateWithYield(prompt);
-      text = text.replace(/```json/g, '').replace(/```/g, '').trim();
-      const trendReport = JSON.parse(text);
+      const trendReport = safeParseJSON(text);
 
       const mockEmbedding = Array.from({ length: 1536 }, () => Math.random() * 2 - 1);
       const normalized = Math.sqrt(mockEmbedding.reduce((sum, val) => sum + val * val, 0));
@@ -315,8 +350,7 @@ Output a raw JSON object (no markdown, no explanation):
 }`;
 
       let text = await generateWithYield(prompt);
-      text = text.replace(/```json/g, '').replace(/```/g, '').trim();
-      const newAgent = JSON.parse(text);
+      const newAgent = safeParseJSON(text);
 
       const isDuplicate = existingAgents?.some(
         a => a.type === newAgent.type || a.name.toLowerCase() === newAgent.name.toLowerCase()
@@ -415,8 +449,7 @@ Output a RAW JSON array ONLY (no markdown formatting, no explanations):
 ]`;
 
       let text = await generateWithYield(prompt);
-      text = text.replace(/```json/g, '').replace(/```/g, '').trim();
-      const assets = JSON.parse(text);
+      const assets = safeParseJSON(text);
 
       if (!Array.isArray(assets)) throw new Error('Generated output is not an array.');
 
@@ -513,8 +546,7 @@ Output a raw JSON object (no markdown, no explanation) representing the new temp
 }`;
 
       let text = await generateWithYield(prompt);
-      text = text.replace(/```json/g, '').replace(/```/g, '').trim();
-      const newTemplate = JSON.parse(text);
+      const newTemplate = safeParseJSON(text);
 
       // Check if ID already exists
       const { data: check } = await supabase

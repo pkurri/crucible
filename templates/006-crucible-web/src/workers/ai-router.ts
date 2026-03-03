@@ -72,7 +72,10 @@ export async function generateWithYield(systemPrompt: string): Promise<string> {
         const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${cfAccount}/ai/run/${model}`, {
           method: 'POST',
           headers: { 'Authorization': `Bearer ${cfToken}`, 'Content-Type': 'application/json' },
-          body: JSON.stringify({ messages: [{ role: 'user', content: systemPrompt }] }),
+          body: JSON.stringify({ 
+            messages: [{ role: 'user', content: systemPrompt }],
+            max_tokens: 4096
+          }),
         });
         if (res.ok) {
           const data = await res.json();
