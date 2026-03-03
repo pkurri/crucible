@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
-import { createClient } from '@supabase/supabase-js';
+import { getSupabase } from '@/lib/supabase';
 import { motion } from 'framer-motion';
 import { Activity, Radio, ExternalLink, Zap } from 'lucide-react';
 import dynamic from 'next/dynamic';
@@ -110,16 +110,7 @@ export default function FluxPage() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Connect to Supabase Realtime Live Telemetry Log
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-    
-    if (!supabaseUrl || !supabaseKey) {
-        addLog('CRITICAL: Missing Supabase credentials for live telemetry.', 'error');
-        return;
-    }
-
-    const supabase = createClient(supabaseUrl, supabaseKey);
+    const supabase = getSupabase();
 
     const channel = supabase.channel('forge-telemetry-feed')
       .on(

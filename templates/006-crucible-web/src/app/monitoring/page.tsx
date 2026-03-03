@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { createClient } from '@supabase/supabase-js'
+import { getSupabase } from '@/lib/supabase'
 import { BarChart3, TrendingUp, Users, Zap, Clock, MessageSquare, Target, AlertCircle, Scan } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { SpotlightCard } from '@/components/ui/SpotlightCard'
@@ -112,11 +112,7 @@ export default function MonitoringPage() {
   const [alerts, setAlerts] = useState<any[]>([]);
 
   useEffect(() => {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-    if (!supabaseUrl || !supabaseKey) return;
-    
-    const supabase = createClient(supabaseUrl, supabaseKey);
+    const supabase = getSupabase();
 
     const updateAgentStat = (name: string, stat: string, amount: number) => {
        setAgents(prev => prev.map(a => {

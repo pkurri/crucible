@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from 'react';
-import { createClient } from '@supabase/supabase-js';
+import { getSupabase } from '@/lib/supabase';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Bot, Cpu, Activity, Zap, Plus, RefreshCw, Play, Pause, Settings,
@@ -85,12 +85,8 @@ export default function FoundryCorePage() {
     setTimeout(() => setToast(null), 4000);
   };
 
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-
   const fetchAll = useCallback(async () => {
-    if (!supabaseUrl || !supabaseKey) return;
-    const supabase = createClient(supabaseUrl, supabaseKey);
+    const supabase = getSupabase();
 
     const [agentsRes, blueprintsRes, eventsRes] = await Promise.all([
       supabase.from('agents_registry').select('*').order('created_at'),
@@ -107,30 +103,26 @@ export default function FoundryCorePage() {
 
     setStats({
       totalAgents: a.length,
-      activeAgents: a.filter(x => x.status === 'active' || x.status === 'busy').length,
+      activeAgents: a.filter((x: any) => x.status === 'active' || x.status === 'busy').length,
       totalBlueprints: bp.length,
-      totalTasks: a.reduce((sum, x) => sum + (x.tasks_completed || 0), 0),
+      totalTasks: a.reduce((sum: number, x: any) => sum + (x.tasks_completed || 0), 0),
     });
-  }, [supabaseUrl, supabaseKey]);
+  }, []);
 
   useEffect(() => {
     fetchAll();
     const interval = setInterval(fetchAll, 10000);
 
-    // Real-time
-    if (supabaseUrl && supabaseKey) {
-      const supabase = createClient(supabaseUrl, supabaseKey);
-      const channel = supabase.channel('foundry-core')
-        .on('postgres_changes', { event: '*', schema: 'public', table: 'agents_registry' }, () => fetchAll())
-        .on('postgres_changes', { event: '*', schema: 'public', table: 'forge_blueprints' }, () => fetchAll())
-        .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'forge_events' }, (p) => {
-          setEvents(prev => [p.new as ForgeEvent, ...prev].slice(0, 25));
-        })
-        .subscribe();
-      return () => { clearInterval(interval); supabase.removeChannel(channel); };
-    }
-    return () => clearInterval(interval);
-  }, [fetchAll, supabaseUrl, supabaseKey]);
+    const supabase = getSupabase();
+    const channel = supabase.channel('foundry-core')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'agents_registry' }, () => fetchAll())
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'forge_blueprints' }, () => fetchAll())
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'forge_events' }, (p: any) => {
+        setEvents(prev => [p.new as ForgeEvent, ...prev].slice(0, 25));
+      })
+      .subscribe();
+    return () => { clearInterval(interval); supabase.removeChannel(channel); };
+  }, [fetchAll]);
 
   const handleSpawn = async () => {
     setIsSpawning(true);

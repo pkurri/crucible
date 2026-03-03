@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from 'react';
-import { createClient } from '@supabase/supabase-js';
+import { getSupabase } from '@/lib/supabase';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Bot, FileText, Zap, Play, Plus, RefreshCw, TrendingUp,
@@ -94,10 +94,7 @@ export default function CommandCenterPage() {
   }, []);
 
   const fetchEvents = useCallback(async () => {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-    if (!supabaseUrl || !supabaseKey) return;
-    const supabase = createClient(supabaseUrl, supabaseKey);
+    const supabase = getSupabase();
     const { data } = await supabase
       .from('forge_events')
       .select('*')
@@ -112,11 +109,7 @@ export default function CommandCenterPage() {
     fetchEvents();
 
     // Real-time subscriptions
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-    if (!supabaseUrl || !supabaseKey) return;
-
-    const supabase = createClient(supabaseUrl, supabaseKey);
+    const supabase = getSupabase();
 
     const channel = supabase.channel('command-center')
       .on('postgres_changes', { event: '*', schema: 'public', table: 'agents_registry' }, () => fetchAgents())

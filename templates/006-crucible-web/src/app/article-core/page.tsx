@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from 'react';
-import { createClient } from '@supabase/supabase-js';
+import { getSupabase } from '@/lib/supabase';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Bot, Cpu, Activity, Zap, Plus, RefreshCw, Play, Pause, Settings,
@@ -83,12 +83,8 @@ export default function ArticleCorePage() {
     setTimeout(() => setToast(null), 4000);
   };
 
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-
   const fetchAll = useCallback(async () => {
-    if (!supabaseUrl || !supabaseKey) return;
-    const supabase = createClient(supabaseUrl, supabaseKey);
+    const supabase = getSupabase();
 
     const [agentsRes, articlesRes, eventsRes, topicsRes] = await Promise.all([
       supabase.from('agents_registry').select('*').order('created_at'),
@@ -115,26 +111,23 @@ export default function ArticleCorePage() {
       avgSeoScore: art.length ? Math.round(art.reduce((sum, x) => sum + (x.seo_score || 0), 0) / art.length) : 0,
       totalWords: art.reduce((sum, x) => sum + (x.word_count || 0), 0),
     });
-  }, [supabaseUrl, supabaseKey]);
+  }, []);
 
   useEffect(() => {
     fetchAll();
     const interval = setInterval(fetchAll, 10000);
 
     // Real-time
-    if (supabaseUrl && supabaseKey) {
-      const supabase = createClient(supabaseUrl, supabaseKey);
-      const channel = supabase.channel('article-core')
-        .on('postgres_changes', { event: '*', schema: 'public', table: 'agents_registry' }, () => fetchAll())
-        .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'generated_articles' }, () => fetchAll())
-        .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'forge_events' }, (p) => {
-          setEvents(prev => [p.new as ForgeEvent, ...prev].slice(0, 25));
-        })
-        .subscribe();
-      return () => { clearInterval(interval); supabase.removeChannel(channel); };
-    }
-    return () => clearInterval(interval);
-  }, [fetchAll, supabaseUrl, supabaseKey]);
+    const supabase = getSupabase();
+    const channel = supabase.channel('article-core')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'agents_registry' }, () => fetchAll())
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'generated_articles' }, () => fetchAll())
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'forge_events' }, (p) => {
+        setEvents(prev => [p.new as ForgeEvent, ...prev].slice(0, 25));
+      })
+      .subscribe();
+    return () => { clearInterval(interval); supabase.removeChannel(channel); };
+  }, [fetchAll]);
 
   const handleGenerate = async () => {
     setIsGenerating(true);

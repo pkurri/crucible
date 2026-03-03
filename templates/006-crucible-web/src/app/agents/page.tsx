@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { createClient } from '@supabase/supabase-js';
+import { getSupabase } from '@/lib/supabase';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Shield, Eye, Box, Code, Cpu, Activity, Zap, Layers, Network, Fingerprint, Database, Rocket } from 'lucide-react';
 
@@ -18,11 +18,7 @@ export default function FoundrySwarmPage() {
   ]);
 
   useEffect(() => {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-    if (!supabaseUrl || !supabaseKey) return;
-    
-    const supabase = createClient(supabaseUrl, supabaseKey);
+    const supabase = getSupabase();
 
     const channel = supabase.channel('agents-feed')
       .on(
