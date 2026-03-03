@@ -12,7 +12,13 @@ export function getSupabase(): SupabaseClient {
     if (!url || !key) {
       console.warn('⚠️ Supabase credentials missing! URL:', !!url, 'Key:', !!key);
     } else {
-      console.log('🔌 Initializing Supabase client for project:', url.split('//')[1]?.split('.')[0]);
+      const keyPrefix = key.substring(0, 10);
+      const keySuffix = key.substring(key.length - 5);
+      console.log(`🔌 Initializing Supabase client.
+         Project: ${url.split('//')[1]?.split('.')[0]}
+         Key Length: ${key.length}
+         Key Pattern: ${keyPrefix}...${keySuffix}
+         Environment: ${process.env.NODE_ENV}`);
     }
 
     _client = createClient(url, key, {
@@ -20,6 +26,11 @@ export function getSupabase(): SupabaseClient {
         persistSession: true,
         autoRefreshToken: true,
       },
+      global: {
+        headers: {
+          'x-client-info': 'crucible-web-forge'
+        }
+      }
     });
   }
   return _client;
