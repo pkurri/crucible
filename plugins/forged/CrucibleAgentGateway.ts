@@ -21,6 +21,11 @@ interface AgentServiceRegistration {
     authentication?: boolean; // Does this service require authentication?
     authorizationRoles?: string[]; // Specific roles allowed to access this service
   };
+  failoverConfig?: {
+    primaryModel: string; // e.g., 'claude-3-5-sonnet'
+    fallbackModels: string[]; // e.g., ['gemini-1-5-pro', 'gpt-4o']
+    retryAttempts?: number;
+  };
 }
 
 /**
@@ -35,6 +40,11 @@ interface GatewayRoute {
   security: {
     authentication: boolean;
     authorizationRoles?: string[];
+  };
+  failover: {
+    primaryModel: string;
+    fallbackModels: string[];
+    currentModelIndex: number;
   };
 }
 
@@ -94,6 +104,11 @@ export class CrucibleAgentGateway {
       metadata: agentService.metadata || {},
       status: 'active',
       security: agentService.securityConfig || { authentication: this.config.authenticationRequired },
+      failover: {
+        primaryModel: agentService.failoverConfig?.primaryModel || 'default-model',
+        fallbackModels: agentService.failoverConfig?.fallbackModels || [],
+        currentModelIndex: -1, // -1 means primary
+      },
     };
 
     this.routes.set(routeKey, gatewayRoute);
@@ -146,9 +161,33 @@ export class CrucibleAgentGateway {
 
         console.log(`CRUCIBLE_GATEWAY_INFO: Request for '${requestPath}' matched route '${route.path}'. Preparing to target: '${route.targetUrl}'`);
         
-        // Append the remaining part of the request path to the target URL
-        const proxyTarget = route.targetUrl + requestPath.substring(route.path.length);
-        return proxyTarget;
+        // --- 2026 Upgrade: Intelligence Failover Loop ---
+        let attempts = 0;
+        const maxAttempts = (route.failover.fallbackModels.length + 1);
+        
+        while (attempts < maxAttempts) {
+          try {
+            const currentModel = attempts === 0 ? route.failover.primaryModel : route.failover.fallbackModels[attempts - 1];
+            console.log(`CRUCIBLE_GATEWAY_INFO: Attempting request with model: ${currentModel} (Attempt ${attempts + 1}/${maxAttempts})`);
+            
+            // In a real system, we would inject the model header or route to a specific model-specific endpoint
+            const proxyTarget = route.targetUrl + requestPath.substring(route.path.length);
+            
+            // SIMULATING REQUEST VALIDATION / FAILOVER TRIGGER
+            if (headers?.['x-force-failover'] === 'true' && attempts === 0) {
+              throw new Error("Primary Model Latency/Failure detected via Universal AI Router");
+            }
+
+            return proxyTarget;
+          } catch (error) {
+            attempts++;
+            if (attempts >= maxAttempts) {
+              console.error(`CRUCIBLE_GATEWAY_ERROR: All failover models exhausted for route ${route.path}`);
+              throw error;
+            }
+            console.warn(`CRUCIBLE_GATEWAY_WARN: Primary model failed. Re-routing to fallback: ${route.failover.fallbackModels[attempts - 1]}`);
+          }
+        }
       }
     }
     console.warn(`CRUCIBLE_GATEWAY_WARN: No route found for incoming request path: '${requestPath}'`);

@@ -56,6 +56,7 @@ export default function Home() {
             <button 
               onClick={prevPage} 
               disabled={currentPage === 1}
+              aria-label="Previous page"
               className="px-4 py-2 bg-[#111] hover:bg-[#222] disabled:opacity-50 text-white font-mono text-sm border border-[#333] transition-colors"
             >
               &lt; PREV
@@ -66,6 +67,7 @@ export default function Home() {
             <button 
               onClick={nextPage} 
               disabled={currentPage === totalPages}
+              aria-label="Next page"
               className="px-4 py-2 bg-[#111] hover:bg-[#222] disabled:opacity-50 text-white font-mono text-sm border border-[#333] transition-colors"
             >
               NEXT &gt;
@@ -100,6 +102,9 @@ export default function Home() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="detail-panel-title"
               className="fixed top-0 right-0 h-full w-full md:w-[600px] bg-[#0a0a0c] border-l border-[#222] z-50 overflow-y-auto shadow-2xl"
             >
               <div className="p-8">
@@ -108,9 +113,10 @@ export default function Home() {
                     setSelectedTemplate(null);
                     setDeployResult(null);
                   }}
+                  aria-label="Close detail panel"
                   className="absolute top-6 right-6 text-[#666] hover:text-white transition-colors"
                 >
-                  <X className="w-6 h-6" />
+                  <X className="w-6 h-6" aria-hidden="true" />
                 </button>
 
                 {deployResult && (
@@ -136,7 +142,7 @@ export default function Home() {
                       {selectedTemplate.category.toUpperCase()}
                     </span>
                   </div>
-                  <h2 className="text-4xl font-black text-white mb-4 leading-tight">{selectedTemplate.name}</h2>
+                  <h2 id="detail-panel-title" className="text-4xl font-black text-white mb-4 leading-tight">{selectedTemplate.name}</h2>
                   <p className="text-[#a0a0a0] font-mono text-sm leading-relaxed">
                     {selectedTemplate.description}
                   </p>
@@ -247,9 +253,21 @@ function TemplateCard({
   return (
     <div 
       onClick={onClick}
-      className="group bg-[#0a0a0c] border border-[#1a1a1a] hover:border-[#ff8c00]/30 p-6 flex flex-col h-full cursor-pointer transition-all hover:shadow-[0_0_30px_rgba(255,140,0,0.05)] rounded-xl relative overflow-hidden"
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          onClick();
+        }
+      }}
+      role="button"
+      tabIndex={0}
+      aria-label={`View details for ${template.name}`}
+      className="group bg-[#0a0a0c] border border-[#1a1a1a] hover:border-[#ff8c00]/30 p-6 flex flex-col h-full cursor-pointer transition-all hover:shadow-[0_0_30px_rgba(255,140,0,0.05)] rounded-xl relative overflow-hidden focus-visible:ring-2 focus-visible:ring-[#ff8c00] outline-none"
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-[#ff8c00]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+      <div 
+        aria-hidden="true"
+        className="absolute inset-0 bg-gradient-to-br from-[#ff8c00]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" 
+      />
       
       <div className="flex justify-between items-start mb-6 relative z-10">
         <div className="flex flex-col gap-1">

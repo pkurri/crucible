@@ -130,3 +130,47 @@ export async function negotiateCheckpoint(
     }
   }
 }
+
+/**
+ * --- 2026 Upgrade: Cobalt Zero-Trust Auditing ---
+ * Performs real-time auditing of incoming MCP tool calls and gateway requests.
+ * Detects prompt injection patterns and validates permission boundaries.
+ */
+export async function auditAgenticAction(
+  request: { agentId: string; toolName: string; payload: any },
+  policy: { allowedAgents: string[]; maxPayloadSize: number }
+): Promise<{ safe: boolean; reason?: string; auditId: string }> {
+  const auditId = `COBALT-AUDIT-${Math.random().toString(36).substring(7).toUpperCase()}`;
+  console.log(`[COBALT-AUDIT] Starting zero-trust audit for action: ${request.toolName} (AuditID: ${auditId})`);
+
+  // 1. Permission Boundary Check
+  if (!policy.allowedAgents.includes(request.agentId)) {
+    return { safe: false, reason: `CRUCIBLE_SECURITY_ERROR: Agent ${request.agentId} is not authorized for this perimeter action.`, auditId };
+  }
+
+  // 2. Real-Time Prompt Injection Detection (Simplified Heuristics)
+  const payloadString = JSON.stringify(request.payload).toLowerCase();
+  const injectionPatterns = [
+    'ignore all previous instructions',
+    'system prompt',
+    'you are now',
+    'admin access',
+    'bypass security',
+    '<script>',
+    'exec('
+  ];
+
+  const detected = injectionPatterns.filter(pattern => payloadString.includes(pattern));
+  if (detected.length > 0) {
+    console.warn(`[COBALT-ALERT] Prompt Injection attempt detected in tool call: ${detected.join(', ')}`);
+    return { safe: false, reason: `CRUCIBLE_SECURITY_ERROR: Instruction guardrail violation. Malicious pattern detected: ${detected[0]}`, auditId };
+  }
+
+  // 3. Size Constraints
+  if (payloadString.length > policy.maxPayloadSize) {
+    return { safe: false, reason: "CRUCIBLE_SECURITY_ERROR: Payload exceeds industrial security limits.", auditId };
+  }
+
+  console.log(`[COBALT-AUDIT] Action ${request.toolName} verified safe. (AuditID: ${auditId})`);
+  return { safe: true, auditId };
+}

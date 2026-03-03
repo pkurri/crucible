@@ -1,0 +1,12 @@
+{
+  "name": "@crucible/mcp-memory-forge",
+  "version": "1.0.0",
+  "description": "Crucible Cognitive Checkpoint Memory Server",
+  "type": "module",
+  "bin": {
+    "mcp-memory-forge": "./index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  }
+}

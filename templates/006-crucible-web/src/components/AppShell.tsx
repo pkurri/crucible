@@ -21,12 +21,16 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <div className="md:hidden fixed top-0 left-0 right-0 h-14 bg-[#050505] border-b border-[#ff8c00]/20 z-30 flex items-center px-4">
         <button 
           onClick={() => setMobileOpen(true)}
+          aria-label="Open mobile menu"
           className="p-2 -ml-2 text-[#e0e0e0] hover:text-[#ff8c00] transition-colors"
         >
-          <Menu size={24} />
+          <Menu size={24} aria-hidden="true" />
         </button>
         <div className="ml-2 flex items-center gap-3">
-          <div className="w-0 h-0 border-l-[6px] border-l-transparent border-b-[10px] border-b-[#ff8c00] border-r-[6px] border-r-transparent animate-[pulse-amber_2s_infinite_ease-in-out]" />
+          <div 
+            aria-hidden="true"
+            className="w-0 h-0 border-l-[6px] border-l-transparent border-b-[10px] border-b-[#ff8c00] border-r-[6px] border-r-transparent animate-[pulse-amber_2s_infinite_ease-in-out]" 
+          />
           <span className="font-black tracking-[0.2em] text-[#e0e0e0] text-sm leading-none mt-1">
             CRUCIBLE
           </span>
