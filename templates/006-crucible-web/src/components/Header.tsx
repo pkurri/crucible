@@ -2,9 +2,25 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
+import { Menu, X } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export function Header() {
   const pathname = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const navLinks = [
+    { href: '/', label: 'THE ARMORY' },
+    { href: '/skills', label: 'CORE SAMPLES' },
+    { href: '/flux', label: 'REAL-TIME FLUX' },
+    { href: '/agents', label: 'SWARM AGENTS' },
+    { href: '/stage', label: 'THE STAGE' },
+    { href: '/monitoring', label: 'TELEMETRY' },
+    { href: '/intel', label: 'INTEL' },
+    { href: '/foundry', label: 'THE FOUNDRY' },
+    { href: '/hub', label: 'FORGE HUB' },
+  ];
 
   return (
     <nav 
@@ -24,106 +40,73 @@ export function Header() {
           </Link>
         </div>
 
-        {/* Navigation Links */}
-        <ul className="hidden md:flex items-center gap-12 font-mono text-xs tracking-[0.2em]">
-          <li>
-            <Link 
-              href="/" 
-              aria-current={pathname === '/' ? 'page' : undefined}
-              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-            >
-              THE ARMORY
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/skills" 
-              aria-current={pathname === '/skills' ? 'page' : undefined}
-              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/skills' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-            >
-              CORE SAMPLES
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/flux" 
-              aria-current={pathname === '/flux' ? 'page' : undefined}
-              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/flux' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-            >
-              REAL-TIME FLUX
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/agents" 
-              aria-current={pathname === '/agents' ? 'page' : undefined}
-              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/agents' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-            >
-              SWARM AGENTS
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/stage" 
-              aria-current={pathname === '/stage' ? 'page' : undefined}
-              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/stage' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-            >
-              THE STAGE
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/monitoring" 
-              aria-current={pathname === '/monitoring' ? 'page' : undefined}
-              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/monitoring' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-            >
-              TELEMETRY
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/intel" 
-              aria-current={pathname === '/intel' ? 'page' : undefined}
-              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/intel' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-            >
-              INTEL
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/foundry" 
-              aria-current={pathname === '/foundry' ? 'page' : undefined}
-              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/foundry' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-            >
-              THE FOUNDRY
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/hub" 
-              aria-current={pathname === '/hub' ? 'page' : undefined}
-              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/hub' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-            >
-              FORGE HUB
-            </Link>
-          </li>
+        {/* Navigation Links (Desktop) */}
+        <ul className="hidden md:flex items-center gap-8 font-mono text-[10px] tracking-[0.2em] xl:gap-12 xl:text-xs">
+          {navLinks.map((link) => (
+            <li key={link.href}>
+              <Link 
+                href={link.href} 
+                aria-current={pathname === link.href ? 'page' : undefined}
+                className={`hover:text-[#ff8c00] transition-colors ${pathname === link.href ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
         </ul>
 
-        {/* Status Badge */}
-        <div 
-          aria-label="Core system status: Online"
-          className="flex items-center gap-3 px-4 py-1.5 border border-[#00ff88]/30 rounded-full bg-[#00ff88]/5"
-        >
+        {/* Right Actions */}
+        <div className="flex items-center gap-6">
+          {/* Status Badge */}
           <div 
-            aria-hidden="true"
-            className="w-2 h-2 rounded-full bg-[#00ff88] shadow-[0_0_10px_#00ff88] animate-pulse"
-          ></div>
-          <span className="font-mono text-[10px] text-[#00ff88] tracking-widest">
-            CORE ONLINE
-          </span>
-        </div>
+            aria-label="Core system status: Online"
+            className="hidden sm:flex items-center gap-3 px-4 py-1.5 border border-[#00ff88]/30 rounded-full bg-[#00ff88]/5"
+          >
+            <div 
+              aria-hidden="true"
+              className="w-2 h-2 rounded-full bg-[#00ff88] shadow-[0_0_10px_#00ff88] animate-pulse"
+            ></div>
+            <span className="font-mono text-[10px] text-[#00ff88] tracking-widest leading-none">
+              CORE ONLINE
+            </span>
+          </div>
 
+          {/* Mobile Menu Toggle */}
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden p-2 text-[#ff8c00] hover:bg-[#ff8c00]/10 rounded-lg transition-colors"
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
+
+      {/* Mobile Navigation */}
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            className="md:hidden border-t border-[#ff8c00]/10 bg-[#050505] overflow-hidden"
+          >
+            <ul className="flex flex-col p-6 gap-4 font-mono text-xs tracking-[0.2em]">
+              {navLinks.map((link) => (
+                <li key={link.href}>
+                  <Link 
+                    href={link.href}
+                    onClick={() => setIsMenuOpen(false)}
+                    className={`block py-2 ${pathname === link.href ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 }
