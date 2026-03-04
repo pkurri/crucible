@@ -16,11 +16,22 @@ async function logTelemetry(eventType: string, message: string) {
     await supabase.from('forge_events').insert({
       event_type: eventType,
       message,
-      agent_id: 'autonomous_worker'
+      agent_id: 'autonomous_worker',
+      metadata: { timestamp: new Date().toISOString() }
     });
   } catch (err) {
     console.error('Failed to stream telemetry to UI.', err);
   }
+}
+
+async function getRecentErrors() {
+  const { data, error } = await supabase
+    .from('forge_events')
+    .select('*')
+    .eq('event_type', 'ERROR')
+    .order('created_at', { ascending: false })
+    .limit(5);
+  return data || [];
 }
 
 const FORGE_SKILLS = [
@@ -75,11 +86,8 @@ async function scrapeMarketData(url: string): Promise<string> {
 async function generateMarketConcept(type: 'skill' | 'template', existingItems: any) {
   try {
     let scrapedData = "";
-    
-    // Choose a random High-Signal target to scrape for live intelligence
     const targetUrl = TARGET_MARKETS[Math.floor(Math.random() * TARGET_MARKETS.length)];
     
-    // Attempt live scraping
     try {
       logTelemetry('GATHER', `Spun up Market Analyzer agent pointing at ${targetUrl}...`);
       scrapedData = await scrapeMarketData(targetUrl);
@@ -89,85 +97,94 @@ async function generateMarketConcept(type: 'skill' | 'template', existingItems: 
     }
 
     const systemPrompt = `You are the Crucible Core Autonomous Engineer.
-You have been given a scraping analysis payload of a high tier agent framework:
+Analyze this market data and invent a brand new, extremely advanced addition to the Crucible platform.
+Output raw JSON object for file creation.
 
---- RAW MARKET DATA (${targetUrl}) ---
-${scrapedData}
---- END RAW MARKET DATA ---
+Valid file types:
+1. skills/forged/[skill-name].md
+2. scripts/forged/[script-name].ts
+3. src/mcp/forged/[mcp-name].ts
+4. plugins/forged/[plugin-name].ts
+5. docs/forged/[doc-name].md
 
-Your task is to analyze this logic, then invent a brand new, extremely advanced addition to the Crucible platform.
-You must output a raw, parseable JSON object representing a file that the system will physically write to the repository.
-
-Valid file types and paths:
-1. skills/forged/[skill-name].md - Markdown defining an overarching architecture or system prompt protocol.
-2. scripts/forged/[script-name].ts - A typescript script file offering some tool logic.
-3. src/mcp/forged/[mcp-name].ts - A Model Context Protocol server connector.
-4. plugins/forged/[plugin-name].ts - A pluggable code modification extension.
-5. docs/forged/[doc-name].md - High level conceptual documentation of the platform capabilities.
-
-You must only output the pure JSON object (no markdown quotes, no explanations).
 Format:
 {
-  "filepath": "skills/forged/your-new-skill.md",
-  "content": "The actual file content goes here..."
-}
-`;
+  "filepath": "path/to/file",
+  "content": "content"
+}`;
     
-    // Let the multi-AI router decide which free tier model handles this request
     logTelemetry('FORGE', `Prompting Multi-AI Router for recursive code synthesis...`);
     let text = await generateWithYield(systemPrompt);
     text = text.replace(/```json/g, '').replace(/```/g, '').trim();
-    let parsed: any;
-    try {
-      parsed = JSON.parse(text);
-    } catch (parseError) {
-       console.error("Failed to parse AI output as JSON. Raw text was:\n", text);
-       throw parseError;
-    }
-    
-    if (parsed.filepath && parsed.content) {
-       return parsed;
-    } else {
-       throw new Error("Invalid format from LLM");
-    }
+    let parsed = JSON.parse(text);
+    return parsed;
   } catch (e: any) {
-    logTelemetry('ERROR', `AI Generation failed across all routers: ${e.message}`);
-    // Fallback Mock
+    logTelemetry('ERROR', `AI Generation failed: ${e.message}`);
     const adj = ADJECTIVES[Math.floor(Math.random() * ADJECTIVES.length)];
     const noun = NOUNS[Math.floor(Math.random() * NOUNS.length)];
-    const name = `${adj} ${noun}`;
-    
     return {
-      filepath: `skills/forged/${name.toLowerCase().replace(' ', '-')}.md`,
-      content: `# ${name}\n\nAutonomously forged skill designed to optimize specific operations at scale.`
+      filepath: `skills/forged/${adj.toLowerCase()}-${noun.toLowerCase()}.md`,
+      content: `# ${adj} ${noun}\nAutonomously forged skill.`
     };
+  }
+}
+
+async function selfHealTick() {
+  logTelemetry('HEAL_CHECK', 'Scanning for system instabilities...');
+  const errors = await getRecentErrors();
+  if (errors.length === 0) {
+    logTelemetry('HEAL_STATUS', 'No active instabilities detected. System remains optimal.');
+    return;
+  }
+
+  logTelemetry('REPAIR', `Detected ${errors.length} recent errors. Initiating repair sequence...`);
+  const errorContext = errors.map(e => `[${e.created_at}] ${e.message}`).join('\n');
+  
+  const healPrompt = `You are the Crucible Self-Healing Agent.
+Review these recent system errors and propose a fix or a diagnostic script to prevent them.
+Errors:
+${errorContext}
+
+Output a JSON repair payload:
+{
+  "action": "fix" | "diagnostic",
+  "filepath": "path/to/script/or/fix",
+  "content": "code content"
+}`;
+
+  try {
+    const response = await generateWithYield(healPrompt);
+    const repair = JSON.parse(response.replace(/```json/g, '').replace(/```/g, '').trim());
+    
+    if (repair.filepath && repair.content) {
+      const absolutePath = path.resolve(process.cwd(), '../../', repair.filepath);
+      const dir = path.dirname(absolutePath);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+      fs.writeFileSync(absolutePath, repair.content);
+      logTelemetry('REPAIR_DEPLOYED', `Self-healing asset deployed: ${repair.filepath}`);
+    }
+  } catch (e) {
+    logTelemetry('HEAL_ERROR', `Self-healing cycle failed: ${e}`);
   }
 }
 
 async function forgeTick() {
   logTelemetry('FORGE_CYCLE', `Initiated forge cycle at ${new Date().toISOString()}`);
   
-  // 1. GATHER (Select Target URL) - Now handled within generateMarketConcept
-  // 2. ANALYZE (Live Web Scrape) - Now handled within generateMarketConcept
-
   await sleep(1000);
-
-  // Generate mock vector data (We keep this mock until we integrate a real embedding model)
+  
   const mockEmbedding = Array.from({ length: 1536 }, () => Math.random() * 2 - 1);
   const normalized = Math.sqrt(mockEmbedding.reduce((sum, val) => sum + val * val, 0));
   const finalEmbedding = mockEmbedding.map(val => val / normalized);
 
-  const insightContent = `Autonomous Forge Insight: AI generated new platform feature.`;
-
-  // 3. STORE (Database + Disk)
   logTelemetry('STORE', `Smelting data into vectorized memory and generating local code asset...`);
   
   try {
-    const generatedCode = await generateMarketConcept('skill', {}); // Pass empty object as existingItems is not used directly now
+    const generatedCode = await generateMarketConcept('skill', {});
     
     const { error } = await supabase.from('market_research').insert({
-      content: insightContent,
-      source_url: generatedCode.filepath, // Using filepath as a proxy for source_url for now
+      content: `Autonomous Forge Insight for ${generatedCode.filepath}`,
+      source_url: generatedCode.filepath,
       component_type: 'platform_architecture',
       aesthetic_tags: ['autonomous', 'agentic', 'industrial'],
       embedding: finalEmbedding,
@@ -178,31 +195,23 @@ async function forgeTick() {
     } else {
       logTelemetry('SUCCESS', `Database memory updated successfully.`);
       
-      // Physically expand the product by writing the code File
       if (generatedCode?.filepath && generatedCode?.content) {
-         // Resolve path relative to workspace root (two dirs up from crucible-web)
          const absolutePath = path.resolve(process.cwd(), '../../', generatedCode.filepath);
-         
-         // Ensure directory exists
          const dir = path.dirname(absolutePath);
-         if (!fs.existsSync(dir)) {
-            fs.mkdirSync(dir, { recursive: true });
-         }
-         
+         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
          fs.writeFileSync(absolutePath, generatedCode.content);
-         logTelemetry('DEPLOY', `New recursive AI code asset deployed to: ${generatedCode.filepath}`);
-      } else {
-         logTelemetry('WARN', `Generator failed to return a valid filepath and content.`);
+         logTelemetry('DEPLOY', `New recursive AI code asset deployed: ${generatedCode.filepath}`);
       }
     }
   } catch (err: any) {
-    logTelemetry('ERROR', `File System write failed: ${err.message}`);
+    logTelemetry('ERROR', `Forge cycle failed: ${err.message}`);
   }
 
-  // 4. SLEEP (Regulate CPU - drastically sped up for demo loops)
-  const delaySeconds = Math.floor(Math.random() * 5) + 5; // 5-10 seconds
+  // Self-Healing Step
+  await selfHealTick();
+
+  const delaySeconds = Math.floor(Math.random() * 5) + 5;
   logTelemetry('STANDBY', `Reactor cooling for ${delaySeconds} seconds...`);
-  
   await sleep(delaySeconds * 1000);
 }
 

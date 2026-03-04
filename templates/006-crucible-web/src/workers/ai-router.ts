@@ -16,6 +16,8 @@ import { GoogleGenAI } from '@google/genai';
 const PREFIX = '\x1b[35m[ROUTER]\x1b[0m';
 const WARN   = '\x1b[33m[ROUTER WAIT]\x1b[0m';
 
+export type TaskTier = 'fast' | 'reasoning' | 'general';
+
 async function tryOpenAICompat(url: string, key: string, model: string, prompt: string): Promise<string | null> {
   const res = await fetch(url, {
     method: 'POST',
@@ -30,7 +32,7 @@ async function tryOpenAICompat(url: string, key: string, model: string, prompt: 
   return data.choices?.[0]?.message?.content || null;
 }
 
-export async function generateWithYield(systemPrompt: string): Promise<string> {
+export async function generateWithYield(systemPrompt: string, tier: TaskTier = 'general'): Promise<string> {
   const geminiKey    = process.env.GEMINI_API_KEY;
   const cfToken      = process.env.CLOUDFLARE_API_KEY;
   const cfAccount    = process.env.CLOUDFLARE_ACCOUNT_ID;
@@ -46,58 +48,62 @@ export async function generateWithYield(systemPrompt: string): Promise<string> {
 
   const errors: string[] = [];
 
-  // 1. Gemini 2.5 Flash (1,500 req/day free)
-  if (geminiKey) {
-    try {
-      console.log(`${PREFIX} Gemini 2.5 Flash...`);
-      const ai = new GoogleGenAI({ apiKey: geminiKey });
-      const r = await ai.models.generateContent({ model: 'gemini-2.5-flash', contents: systemPrompt });
-      if (r.text) return r.text;
-    } catch (e: any) {
-      console.warn(`${WARN} Gemini: ${e.message?.substring(0, 80)}`);
-      errors.push(`Gemini: ${e.message}`);
-    }
-  }
-
-  // 1.1 Cloudflare Workers AI (10,000 req/day free) - NEW
-  if (cfToken && cfAccount) {
-    const cfModels = [
-      '@cf/meta/llama-3.1-8b-instruct',
-      '@cf/meta/llama-3-8b-instruct',
-      '@cf/mistral/mistral-7b-instruct-v0.1'
-    ];
-    for (const model of cfModels) {
+  // 1. Gemini / Cloudflare (Fast Tiers)
+  if (tier === 'fast' || tier === 'general') {
+    if (geminiKey) {
       try {
-        console.log(`${PREFIX} Cloudflare Workers AI ${model}...`);
-        const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${cfAccount}/ai/run/${model}`, {
-          method: 'POST',
-          headers: { 'Authorization': `Bearer ${cfToken}`, 'Content-Type': 'application/json' },
-          body: JSON.stringify({ 
-            messages: [{ role: 'user', content: systemPrompt }],
-            max_tokens: 4096
-          }),
-        });
-        if (res.ok) {
-          const data = await res.json();
-          if (data.result?.response) return data.result.response;
-        }
+        console.log(`${PREFIX} Gemini 2.5 Flash...`);
+        const ai = new GoogleGenAI({ apiKey: geminiKey });
+        const r = await ai.models.generateContent({ model: 'gemini-2.5-flash', contents: systemPrompt });
+        if (r.text) return r.text;
       } catch (e: any) {
-        console.warn(`${WARN} Cloudflare (${model}): ${e.message?.substring(0, 80)}`);
-        errors.push(`Cloudflare(${model}): ${e.message}`);
+        console.warn(`${WARN} Gemini: ${e.message?.substring(0, 80)}`);
+        errors.push(`Gemini: ${e.message}`);
+      }
+    }
+
+    // 1.1 Cloudflare Workers AI (10,000 req/day free) - NEW
+    if (cfToken && cfAccount) {
+      const cfModels = [
+        '@cf/meta/llama-3.1-8b-instruct',
+        '@cf/meta/llama-3-8b-instruct',
+        '@cf/mistral/mistral-7b-instruct-v0.1'
+      ];
+      for (const model of cfModels) {
+        try {
+          console.log(`${PREFIX} Cloudflare Workers AI ${model}...`);
+          const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${cfAccount}/ai/run/${model}`, {
+            method: 'POST',
+            headers: { 'Authorization': `Bearer ${cfToken}`, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ 
+              messages: [{ role: 'user', content: systemPrompt }],
+              max_tokens: 4096
+            }),
+          });
+          if (res.ok) {
+            const data = await res.json();
+            if (data.result?.response) return data.result.response;
+          }
+        } catch (e: any) {
+          console.warn(`${WARN} Cloudflare (${model}): ${e.message?.substring(0, 80)}`);
+          errors.push(`Cloudflare(${model}): ${e.message}`);
+        }
       }
     }
   }
 
-  // 1.2 DeepSeek Direct (High priority reasoning) - NEW
-  if (deepseekKey) {
-    for (const model of ['deepseek-chat', 'deepseek-reasoner']) {
-      try {
-        console.log(`${PREFIX} DeepSeek Direct ${model}...`);
-        const text = await tryOpenAICompat('https://api.deepseek.com/v1/chat/completions', deepseekKey, model, systemPrompt);
-        if (text) return text;
-      } catch (e: any) {
-        console.warn(`${WARN} DeepSeek Direct (${model}): ${e.message?.substring(0, 80)}`);
-        errors.push(`DeepSeek(${model}): ${e.message}`);
+  // 1.2 DeepSeek Direct (Reasoning Tier)
+  if (tier === 'reasoning') {
+    if (deepseekKey) {
+      for (const model of ['deepseek-reasoner', 'deepseek-chat']) {
+        try {
+          console.log(`${PREFIX} DeepSeek Direct ${model}...`);
+          const text = await tryOpenAICompat('https://api.deepseek.com/v1/chat/completions', deepseekKey, model, systemPrompt);
+          if (text) return text;
+        } catch (e: any) {
+          console.warn(`${WARN} DeepSeek Direct (${model}): ${e.message?.substring(0, 80)}`);
+          errors.push(`DeepSeek(${model}): ${e.message}`);
+        }
       }
     }
   }

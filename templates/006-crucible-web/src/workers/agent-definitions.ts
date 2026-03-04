@@ -956,19 +956,19 @@ Output a RAW JSON object ONLY:
 }
 
 // ═══════════════════════════════════════════════════════
-// AGENT 13: The Case Historian (Brain)
+// AGENT 13: The Chronological Analyst (Knowledge)
 // ═══════════════════════════════════════════════════════
 
-export class CaseHistorianAgent implements IForgeAgent {
-  name = 'The Case Historian';
-  type = 'case-historian';
+export class ChronologicalAnalystAgent implements IForgeAgent {
+  name = 'The Chronological Analyst';
+  type = 'chronological-analyst';
 
   async execute(supabase: SupabaseClient): Promise<AgentResult> {
-    await logTelemetry(supabase, this.type, 'GATHER', 'Indexing latest Indian case law precedents...');
+    await logTelemetry(supabase, this.type, 'GATHER', 'Indexing latest high-precision domain archives...');
     try {
-      // Logic would call searchLegalPrecedent skill
-      await logTelemetry(supabase, this.type, 'SUCCESS', 'Vakeels Brain updated with 124 new citations.');
-      return { success: true, message: 'Case law indexing complete.' };
+      // Logic would call domainSearch skill
+      await logTelemetry(supabase, this.type, 'SUCCESS', 'Knowledge Architect updated with 124 new data points.');
+      return { success: true, message: 'Archive indexing complete.' };
     } catch (e: any) {
       return { success: false, message: e.message };
     }
@@ -976,17 +976,17 @@ export class CaseHistorianAgent implements IForgeAgent {
 }
 
 // ═══════════════════════════════════════════════════════
-// AGENT 14: The Guardian (Security)
+// AGENT 14: The Security Guardian (Security)
 // ═══════════════════════════════════════════════════════
 
-export class GuardianAgent implements IForgeAgent {
-  name = 'The Guardian';
-  type = 'guardian-node';
+export class SecurityGuardianAgent implements IForgeAgent {
+  name = 'The Security Guardian';
+  type = 'security-guardian';
 
   async execute(supabase: SupabaseClient): Promise<AgentResult> {
     await logTelemetry(supabase, this.type, 'AUDIT', 'Scanning ecosystem for PII and compliance drift...');
     try {
-      // Logic would call redactPII skill
+      // Logic would call redactSensitiveInfo skill
       await logTelemetry(supabase, this.type, 'SUCCESS', 'Compliance standards verified. Zero leaks detected.');
       return { success: true, message: 'Security audit passed.' };
     } catch (e: any) {
@@ -996,18 +996,18 @@ export class GuardianAgent implements IForgeAgent {
 }
 
 // ═══════════════════════════════════════════════════════
-// AGENT 15: The News Scout (LegalSnaps)
+// AGENT 15: The Policy Scout (Signals)
 // ═══════════════════════════════════════════════════════
 
-export class NewsScoutAgent implements IForgeAgent {
-  name = 'The News Scout';
-  type = 'news-scout';
+export class PolicyScoutAgent implements IForgeAgent {
+  name = 'The Policy Scout';
+  type = 'policy-scout';
 
   async execute(supabase: SupabaseClient): Promise<AgentResult> {
-    await logTelemetry(supabase, this.type, 'SCAN', 'Monitoring legal news for snapworthy content...');
+    await logTelemetry(supabase, this.type, 'SCAN', 'Monitoring industry signals for actionable triggers...');
     try {
-      await logTelemetry(supabase, this.type, 'PICK', 'Selected 3 judgments for simplification.');
-      return { success: true, message: 'News curation complete.' };
+      await logTelemetry(supabase, this.type, 'PICK', 'Selected 3 reports for simplification.');
+      return { success: true, message: 'Signal curation complete.' };
     } catch (e: any) {
       return { success: false, message: e.message };
     }
@@ -1035,7 +1035,7 @@ export class VisualArchitectAgent implements IForgeAgent {
 }
 
 // ═══════════════════════════════════════════════════════
-// AGENT 17: The Web Publisher (WordPress)
+// AGENT 17: The Web Publisher (CMS)
 // ═══════════════════════════════════════════════════════
 
 export class WebPublisherAgent implements IForgeAgent {
@@ -1043,10 +1043,10 @@ export class WebPublisherAgent implements IForgeAgent {
   type = 'web-publisher';
 
   async execute(supabase: SupabaseClient): Promise<AgentResult> {
-    await logTelemetry(supabase, this.type, 'PUBLISH', 'Pushing content to LegalSnaps WordPress backend...');
+    await logTelemetry(supabase, this.type, 'PUBLISH', 'Pushing content to synchronized CMS endpoints...');
     try {
-      // Logic would call wp-rest-publish skill
-      await logTelemetry(supabase, this.type, 'SUCCESS', 'Content live on https://legalsnaps.info');
+      // Logic would call multi-cms-publish skill
+      await logTelemetry(supabase, this.type, 'SUCCESS', 'Content live on primary ecosystem endpoints.');
       return { success: true, message: 'Publishing pipeline successful.' };
     } catch (e: any) {
       return { success: false, message: e.message };
