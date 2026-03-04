@@ -17,10 +17,12 @@ import {
   ChevronLeft,
   LayoutDashboard,
   Flame,
+  Globe,
 } from 'lucide-react';
 
 const navItems = [
   { href: '/', label: 'THE ARMORY', icon: Shield, sublabel: 'Templates' },
+  { href: '/hub', label: 'FORGE HUB', icon: Globe, sublabel: 'Registry' },
   { href: '/foundry-core', label: 'FOUNDRY CORE', icon: Flame, sublabel: 'Nerve Center' },
   { href: '/article-core', label: 'ARTICLE CORE', icon: FileText, sublabel: 'Content Engine' },
   { href: '/dashboard', label: 'COMMAND CENTER', icon: LayoutDashboard, sublabel: 'Agents + Articles' },
