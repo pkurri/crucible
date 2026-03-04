@@ -205,18 +205,19 @@ export default function CommandCenterPage() {
             <span className="font-mono text-[#ff8c00] tracking-[0.4em] text-sm uppercase">Command Center</span>
           </div>
 
-          <div className="flex flex-col xl:flex-row xl:items-end justify-between gap-6">
+          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8">
             <div>
-              <h1 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-400 to-[#333] uppercase tracking-tighter mb-2">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-400 to-[#333] uppercase tracking-tighter mb-4 leading-[0.9]">
                 Agent HQ
               </h1>
-              <p className="text-[#666] font-mono text-sm max-w-xl leading-relaxed">
+              <p className="text-[#666] font-mono text-xs md:text-sm max-w-xl leading-relaxed">
                 Autonomous AI agents running continuously. Generate articles, analyze markets, scout trends, and spawn new agents — all from one command deck.
               </p>
             </div>
 
             {/* Stats HUD */}
-            <div className="bg-[#0a0a0c] border border-[#222] p-4 rounded-xl flex items-center gap-6 shadow-2xl">
+            <div className="bg-[#0a0a0c] border border-[#222] p-4 lg:p-5 rounded-xl flex items-center justify-between lg:justify-start gap-4 lg:gap-8 shadow-2xl relative overflow-hidden group">
+              <div className="absolute inset-0 bg-gradient-to-br from-[#ff8c0005] to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="flex flex-col">
                 <span className="text-[#555] font-mono text-[10px] uppercase tracking-widest">Agents</span>
                 <span className="text-[#ff8c00] font-bold font-mono text-2xl">{agents.length}</span>
@@ -282,7 +283,7 @@ export default function CommandCenterPage() {
         </motion.div>
 
         {/* Main Grid */}
-        <div className="grid xl:grid-cols-12 gap-8">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-12">
 
           {/* Left: Agent Grid */}
           <div className="xl:col-span-4">
@@ -291,7 +292,7 @@ export default function CommandCenterPage() {
               <h2 className="font-mono text-sm text-[#888] uppercase tracking-widest">Active Agents</h2>
             </div>
 
-            <div className="space-y-3 max-h-[700px] overflow-y-auto pr-2 scrollbar-thin scrollbar-track-[#0a0a0c] scrollbar-thumb-[#222]">
+            <div className="space-y-4 max-h-[500px] xl:max-h-[700px] overflow-y-auto pr-2 scrollbar-thin scrollbar-track-[#0a0a0c] scrollbar-thumb-[#222]">
               <AnimatePresence>
                 {agents.map((agent, i) => {
                   const color = STATUS_COLORS[agent.status] || '#555';
@@ -362,7 +363,7 @@ export default function CommandCenterPage() {
               <span className="ml-auto font-mono text-[10px] text-[#333]">{articles.length} total</span>
             </div>
 
-            <div className="space-y-3 max-h-[700px] overflow-y-auto pr-2 scrollbar-thin scrollbar-track-[#0a0a0c] scrollbar-thumb-[#222]">
+            <div className="space-y-4 max-h-[600px] xl:max-h-[700px] overflow-y-auto pr-2 scrollbar-thin scrollbar-track-[#0a0a0c] scrollbar-thumb-[#222]">
               <AnimatePresence>
                 {articles.map((article, i) => (
                   <motion.div
@@ -408,29 +409,9 @@ export default function CommandCenterPage() {
                           exit={{ height: 0, opacity: 0 }}
                           className="mt-4 pt-4 border-t border-[#1a1a1a] overflow-hidden"
                         >
-                          <div className="bg-[#111] rounded-lg p-5 max-h-[400px] overflow-y-auto prose-crucible">
-                            <ReactMarkdown
-                              components={{
-                                h1: ({ children }) => <h1 className="text-xl font-bold text-white mt-0 mb-3 border-b border-[#222] pb-2">{children}</h1>,
-                                h2: ({ children }) => <h2 className="text-lg font-bold text-[#e0e0e0] mt-5 mb-2">{children}</h2>,
-                                h3: ({ children }) => <h3 className="text-sm font-bold text-[#ccc] mt-4 mb-1.5">{children}</h3>,
-                                p: ({ children }) => <p className="text-[13px] text-[#999] leading-relaxed mb-3">{children}</p>,
-                                ul: ({ children }) => <ul className="list-disc list-inside text-[13px] text-[#999] mb-3 space-y-1">{children}</ul>,
-                                ol: ({ children }) => <ol className="list-decimal list-inside text-[13px] text-[#999] mb-3 space-y-1">{children}</ol>,
-                                li: ({ children }) => <li className="text-[13px] text-[#999]">{children}</li>,
-                                strong: ({ children }) => <strong className="text-white font-semibold">{children}</strong>,
-                                em: ({ children }) => <em className="text-[#aaa] italic">{children}</em>,
-                                code: ({ children, className }) => {
-                                  const isBlock = className?.includes('language-');
-                                  return isBlock
-                                    ? <pre className="bg-[#0a0a0a] border border-[#1a1a1a] rounded-lg p-3 my-3 overflow-x-auto"><code className="font-mono text-[11px] text-[#00ff88]">{children}</code></pre>
-                                    : <code className="bg-[#1a1a1a] rounded px-1.5 py-0.5 font-mono text-[11px] text-[#ff8c00]">{children}</code>;
-                                },
-                                blockquote: ({ children }) => <blockquote className="border-l-2 border-[#ff8c00] pl-4 my-3 text-[#888] italic">{children}</blockquote>,
-                                a: ({ children, href }) => <a href={href} target="_blank" rel="noopener" className="text-[#3b82f6] underline hover:text-[#60a5fa]">{children}</a>,
-                                hr: () => <hr className="border-[#222] my-4" />,
-                              }}
-                            >{article.content}</ReactMarkdown>
+                          <div className="bg-[#080808] border border-[#111] rounded-lg p-3 sm:p-6 lg:p-8 max-h-[50vh] xl:max-h-[600px] overflow-y-auto prose-crucible shadow-inner relative">
+                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(255,140,0,0.02)_0%,transparent_50%)] pointer-events-none" />
+                            <ReactMarkdown>{article.content}</ReactMarkdown>
                           </div>
                         </motion.div>
                       )}

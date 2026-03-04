@@ -17,12 +17,22 @@
     color: var(--forged-silver);
     font-family: var(--font-outfit), sans-serif;
     /* Subtle industrial shimmer background overlay */
-    background-image: 
-      radial-gradient(circle at 50% 0%, rgba(255,140,0,0.05) 0%, transparent 50%),
-      linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
-    background-size: 100% 100%, 50px 50px, 50px 50px;
-    background-position: center top, top center, top center;
+    background-image:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 140, 0, 0.05) 0%,
+        transparent 50%
+      ),
+      linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    background-size:
+      100% 100%,
+      50px 50px,
+      50px 50px;
+    background-position:
+      center top,
+      top center,
+      top center;
   }
 }
 
@@ -30,32 +40,93 @@
   /* Industrial Bento Brick */
   .brick {
     @apply bg-[#111] border-2 border-transparent transition-all duration-300 relative overflow-hidden;
-    box-shadow: 
-      0 4px 6px -1px rgba(0,0,0,0.5),
-      inset 0 1px 0 rgba(255,255,255,0.05),
-      inset 0 -2px 0 rgba(0,0,0,0.8);
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05),
+      inset 0 -2px 0 rgba(0, 0, 0, 0.8);
   }
-  
+
   .brick:hover {
     @apply border-[#333];
     transform: translateY(-2px);
-    box-shadow: 
-      0 10px 15px -3px rgba(0,0,0,0.8),
-      0 0 15px rgba(255,140,0,0.1),
-      inset 0 1px 0 rgba(255,255,255,0.05),
-      inset 0 -2px 0 rgba(0,0,0,0.8);
+    box-shadow:
+      0 10px 15px -3px rgba(0, 0, 0, 0.8),
+      0 0 15px rgba(255, 140, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05),
+      inset 0 -2px 0 rgba(0, 0, 0, 0.8);
   }
 
   /* Structural Hover Effect (Heavy Press) */
   .brick:active {
     transform: translateY(2px);
-    box-shadow: 
-      inset 0 2px 4px rgba(0,0,0,0.8),
-      inset 0 -1px 0 rgba(255,255,255,0.05);
+    box-shadow:
+      inset 0 2px 4px rgba(0, 0, 0, 0.8),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.05);
   }
 
   .font-mono {
     font-family: var(--font-mono), monospace;
+  }
+
+  /* Responsive Typography for AI Articles */
+  .prose-crucible {
+    @apply text-sm leading-relaxed text-[#999];
+  }
+
+  .prose-crucible h1 {
+    @apply text-xl font-bold text-white mt-0 mb-4 border-b border-[#222] pb-2 uppercase tracking-tight;
+  }
+
+  .prose-crucible h2 {
+    @apply text-lg font-bold text-[#e0e0e0] mt-6 mb-3 uppercase tracking-wide;
+  }
+
+  .prose-crucible h3 {
+    @apply text-base font-bold text-[#ccc] mt-5 mb-2;
+  }
+
+  .prose-crucible p {
+    @apply mb-4 text-[#999];
+  }
+
+  .prose-crucible ul {
+    @apply list-disc list-inside mb-4 space-y-2;
+  }
+
+  .prose-crucible ol {
+    @apply list-decimal list-inside mb-4 space-y-2;
+  }
+
+  .prose-crucible li {
+    @apply text-[#999];
+  }
+
+  .prose-crucible strong {
+    @apply text-white font-semibold;
+  }
+
+  .prose-crucible em {
+    @apply text-[#aaa] italic;
+  }
+
+  .prose-crucible blockquote {
+    @apply border-l-2 border-[#ff8c00] pl-4 my-4 text-[#888] italic bg-[#ff8c00]/5 py-2 pr-4 rounded-r;
+  }
+
+  .prose-crucible pre {
+    @apply bg-[#0a0a0a] border border-[#1a1a1a] rounded-lg p-4 my-4 overflow-x-auto;
+  }
+
+  .prose-crucible code {
+    @apply font-mono text-[11px] text-[#00ff88];
+  }
+
+  .prose-crucible a {
+    @apply text-[#3b82f6] underline hover:text-[#60a5fa] transition-colors;
+  }
+
+  .prose-crucible hr {
+    @apply border-[#222] my-6;
   }
 }
 
@@ -66,7 +137,8 @@
 }
 
 @keyframes pulse-amber {
-  0%, 100% {
+  0%,
+  100% {
     box-shadow: 0 0 10px rgba(255, 140, 0, 0.2);
     border-color: rgba(255, 140, 0, 0.3);
   }

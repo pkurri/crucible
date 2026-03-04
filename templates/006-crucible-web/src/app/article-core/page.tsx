@@ -189,22 +189,22 @@ export default function ArticleCorePage() {
       <div className="max-w-[1800px] mx-auto px-6 relative z-10">
 
         {/* Header */}
-        <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
-          <div className="flex items-center gap-3 mb-3">
+        <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="mb-10 px-2 lg:px-4">
+          <div className="flex items-center gap-3 mb-4">
             <Flame className="w-5 h-5 text-[#ff8c00]" />
             <span className="font-mono text-[#ff8c00] tracking-[0.4em] text-[10px] uppercase">The Article Core</span>
           </div>
-          <h1 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-300 to-[#444] uppercase tracking-tighter">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-400 to-[#333] uppercase tracking-tighter leading-[0.9]">
             Content Nerve Center
           </h1>
-          <p className="text-[#555] font-mono text-xs mt-2 max-w-2xl">
+          <p className="text-[#555] font-mono text-xs mt-4 max-w-2xl leading-relaxed uppercase tracking-wider">
             Legacy content generation operations dashboard.
           </p>
         </motion.div>
 
         {/* Stats Bar */}
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }}
-          className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-px bg-[#111] rounded-xl overflow-hidden mb-8 border border-[#1a1a1a]">
+          className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-px bg-[#111] rounded-xl overflow-hidden mb-10 border border-[#1a1a1a] shadow-2xl relative z-10">
           {[
             { label: 'Agents', value: stats.totalAgents, icon: Bot, color: '#ff8c00' },
             { label: 'Active', value: stats.activeAgents, icon: Activity, color: '#00ff88' },
@@ -250,10 +250,10 @@ export default function ArticleCorePage() {
         </motion.div>
 
         {/* Tabs */}
-        <div className="flex gap-1 mb-6 border-b border-[#1a1a1a] pb-px">
+        <div className="flex overflow-x-auto no-scrollbar gap-1 mb-8 border-b border-[#1a1a1a] pb-px">
           {(['agents', 'topics', 'articles'] as const).map(tab => (
             <button key={tab} onClick={() => setActiveTab(tab)}
-              className={`px-5 py-2.5 font-mono text-xs uppercase tracking-wider transition-all border-b-2 ${
+              className={`px-5 py-3 font-mono text-[10px] md:text-xs uppercase tracking-wider transition-all border-b-2 whitespace-nowrap ${
                 activeTab === tab ? 'text-[#ff8c00] border-[#ff8c00]' : 'text-[#555] border-transparent hover:text-[#888]'
               }`}>
               {tab === 'agents' && <Bot className="w-3.5 h-3.5 inline mr-2" />}
@@ -265,7 +265,7 @@ export default function ArticleCorePage() {
         </div>
 
         {/* Main Content */}
-        <div className="grid xl:grid-cols-12 gap-6">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8">
           <div className="xl:col-span-9">
 
             {/* Agents Tab */}
