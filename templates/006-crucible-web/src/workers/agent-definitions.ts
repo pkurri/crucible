@@ -1,21 +1,11 @@
 import { SupabaseClient } from '@supabase/supabase-js';
 import { generateWithYield } from './ai-router.js';
+import { IForgeAgent, AgentResult } from './types.js';
+export type { IForgeAgent, AgentResult };
 
 // ─────────────────────────────────────────────────────────
 // CRUCIBLE AGENT FRAMEWORK — Agent Definitions
 // ─────────────────────────────────────────────────────────
-
-export interface IForgeAgent {
-  name: string;
-  type: string;
-  execute(supabase: SupabaseClient): Promise<AgentResult>;
-}
-
-export interface AgentResult {
-  success: boolean;
-  message: string;
-  data?: any;
-}
 
 /**
  * Robust JSON extraction and sanitization for AI outputs.
