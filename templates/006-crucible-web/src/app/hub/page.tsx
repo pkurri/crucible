@@ -42,6 +42,7 @@ interface HubTemplate {
   estimated_setup: string;
   included_agents: string[];
   capabilities: string[];
+  is_restricted?: boolean;
 }
 
 interface HubSkill {
@@ -50,6 +51,7 @@ interface HubSkill {
   category: string;
   description: string;
   capabilities: string[];
+  is_restricted?: boolean;
 }
 
 const ICON_MAP: Record<string, any> = {
@@ -243,16 +245,22 @@ export default function ForgeHub() {
                     </div>
 
                     <button 
-                      onClick={() => handleImport(tpl)}
-                      disabled={importingId === tpl.id}
-                      className="w-full py-3 bg-[#111] hover:bg-[#ff8c00] text-[#ff8c00] hover:text-black font-mono text-[10px] font-bold uppercase tracking-[0.2em] rounded-lg transition-all border border-[#222] hover:border-[#ff8c00] flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed group/btn"
+                      onClick={() => !tpl.is_restricted && handleImport(tpl)}
+                      disabled={importingId === tpl.id || tpl.is_restricted}
+                      className={`w-full py-3 font-mono text-[10px] font-bold uppercase tracking-[0.2em] rounded-lg transition-all border flex items-center justify-center gap-2 disabled:opacity-50 group/btn ${
+                        tpl.is_restricted 
+                          ? 'bg-[#0a0a0a] text-[#444] border-[#1a1a1a] cursor-not-allowed' 
+                          : 'bg-[#111] hover:bg-[#ff8c00] text-[#ff8c00] hover:text-black border-[#222] hover:border-[#ff8c00]'
+                      }`}
                     >
                       {importingId === tpl.id ? (
                         <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      ) : tpl.is_restricted ? (
+                        <Lock className="w-3.5 h-3.5" />
                       ) : (
                         <Download className="w-3.5 h-3.5 group-hover/btn:scale-125 transition-transform" />
                       )}
-                      {importingId === tpl.id ? 'SYNCING...' : 'Import Blueprint'}
+                      {importingId === tpl.id ? 'SYNCING...' : tpl.is_restricted ? 'RESTRICTED ASSET' : 'Import Blueprint'}
                     </button>
                   </motion.div>
                 );
@@ -278,8 +286,12 @@ export default function ForgeHub() {
                         {skill.name}
                       </h3>
                     </div>
-                    <button className="p-2 bg-[#111] rounded-lg border border-[#222] text-[#888] hover:text-[#ff8c00] transition-all">
-                      <Share2 className="w-4 h-4" />
+                    <button className={`p-2 rounded-lg border transition-all ${
+                      skill.is_restricted 
+                        ? 'bg-[#0a0a0a] text-[#333] border-[#111] cursor-not-allowed' 
+                        : 'bg-[#111] border-[#222] text-[#888] hover:text-[#ff8c00]'
+                    }`}>
+                      {skill.is_restricted ? <Lock className="w-4 h-4" /> : <Share2 className="w-4 h-4" />}
                     </button>
                   </div>
                   <p className="text-[#999] text-sm leading-relaxed mb-8 max-w-md">
