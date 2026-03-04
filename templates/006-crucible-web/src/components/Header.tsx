@@ -98,6 +98,15 @@ export function Header() {
               THE FOUNDRY
             </Link>
           </li>
+          <li>
+            <Link 
+              href="/hub" 
+              aria-current={pathname === '/hub' ? 'page' : undefined}
+              className={`hover:text-[#ff8c00] transition-colors ${pathname === '/hub' ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
+            >
+              FORGE HUB
+            </Link>
+          </li>
         </ul>
 
         {/* Status Badge */}
