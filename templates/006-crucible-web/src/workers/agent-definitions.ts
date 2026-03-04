@@ -833,3 +833,134 @@ Rules:
     }
   }
 }
+
+// ═══════════════════════════════════════════════════════
+// AGENT 11: Skill Harvester
+// ═══════════════════════════════════════════════════════
+
+export class SkillHarvesterAgent implements IForgeAgent {
+  name = 'Skill Harvester';
+  type = 'harvester';
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    await logTelemetry(supabase, this.type, 'SCAN', 'Scanning platform gaps for new capability requirements...');
+
+    try {
+      const { data: research } = await supabase
+        .from('market_research')
+        .select('content, aesthetic_tags')
+        .order('created_at', { ascending: false })
+        .limit(5);
+
+      const prompt = `You are the Skill Harvester for Crucible.
+Based on the following market intelligence, invent ONE new AI Skill or MCP tool that the platform should possess.
+
+INTELLIGENCE:
+${research?.map(r => r.content).join('\n---\n') || 'General SaaS market research'}
+
+Output a RAW JSON object ONLY:
+{
+  "skill_name": "Short name for the skill",
+  "category": "Development" | "Security" | "AI" | "Data",
+  "description": "2-3 sentences explaining the skill's utility",
+  "capabilities": ["cap1", "cap2"]
+}
+`;
+
+      let text = await generateWithYield(prompt);
+      const skill = safeParseJSON(text);
+
+      const { error } = await supabase.from('forge_skills').insert({
+        name: skill.skill_name,
+        category: skill.category || 'AI',
+        description: skill.description,
+        capabilities: skill.capabilities || [],
+        status: 'active'
+      });
+
+      if (error) throw error;
+
+      await logTelemetry(supabase, this.type, 'HARVEST', `New skill harvested: "${skill.skill_name}"`);
+      return { success: true, message: `Discovered skill: ${skill.skill_name}`, data: skill };
+
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Harvesting failed: ${e.message}`);
+      return { success: false, message: e.message };
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// AGENT 12: Market Reporter
+// ═══════════════════════════════════════════════════════
+
+export class MarketReporterAgent implements IForgeAgent {
+  name = 'Market Reporter';
+  type = 'reporter';
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    await logTelemetry(supabase, this.type, 'ANALYZE', 'Scanning intelligence logs for deep-dive reporting...');
+
+    try {
+      const { data: intel } = await supabase
+        .from('market_research')
+        .select('content, component_type')
+        .in('component_type', ['gap_intel', 'trend_report'])
+        .order('created_at', { ascending: false })
+        .limit(3);
+
+      if (!intel || intel.length === 0) {
+        await logTelemetry(supabase, this.type, 'IDLE', 'No fresh Gap Intel found. Reporting on general market trends.');
+      }
+
+      const prompt = `You are the Lead Market Reporter for Crucible. 
+Your job is to write a high-stakes, industrial-grade deep-dive article about a specific "Market Gap" or "Emerging Trend" identified by our analysts.
+
+INTELLIGENCE LOGS:
+${intel?.map(i => i.content).join('\n---\n') || 'General AI-first platform trends.'}
+
+Requirements:
+- Professional, technical, and slightly cinematic tone.
+- Explain the competitive landscape and why this specific gap is a multibillion-dollar opportunity.
+- 1000+ words.
+
+Output a RAW JSON object ONLY:
+{
+  "title": "Industrial-grade report title",
+  "slug": "market-report-slug",
+  "summary": "Meta description for the executive summary",
+  "content": "Full article in markdown format",
+  "tags": ["market-intel", "gap-analysis", "emerging-tech"],
+  "seo_score": 90
+}
+`;
+
+      let text = await generateWithYield(prompt);
+      const article = safeParseJSON(text);
+
+      const wordCount = article.content.split(/\s+/).length;
+      const { error } = await supabase.from('generated_articles').insert({
+        title: article.title,
+        slug: `${article.slug}-${Date.now()}`,
+        content: article.content,
+        summary: article.summary,
+        tags: article.tags || [],
+        agent_id: this.type,
+        status: 'published',
+        seo_score: article.seo_score || 80,
+        word_count: wordCount,
+        topic: 'Market Analysis & Intelligence',
+        published_at: new Date().toISOString(),
+      });
+
+      if (error) throw error;
+
+      await logTelemetry(supabase, this.type, 'REPORT', `Deep-dive published: "${article.title}" (${wordCount} words)`);
+      return { success: true, message: `Published report: ${article.title}`, data: article };
+
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Reporting failed: ${e.message}`);
+      return { success: false, message: e.message };
+    }
+  }
+}

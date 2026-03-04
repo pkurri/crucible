@@ -16,6 +16,8 @@ import {
   IntelManagerAgent,
   ForgeOverseerAgent,
   StageManagerAgent,
+  SkillHarvesterAgent,
+  MarketReporterAgent,
   IForgeAgent,
 } from './agent-definitions.js';
 
@@ -33,6 +35,8 @@ const AGENTS: IForgeAgent[] = [
   new IntelManagerAgent(),
   new ForgeOverseerAgent(),
   new StageManagerAgent(),
+  new SkillHarvesterAgent(),
+  new MarketReporterAgent(),
 ];
 
 let cycleCount = 0;

@@ -7,8 +7,9 @@ import {
   Bot, Cpu, Activity, Zap, Plus, RefreshCw, Play, Pause, Settings,
   FileText, TrendingUp, Radio, CheckCircle, AlertCircle, Clock,
   Hammer, Gauge, Layers, Flame, Shield, BarChart3, Sparkles,
-  ChevronDown, ChevronRight, Power, Terminal, Database,
+  ChevronDown, ChevronRight, Power, Terminal, Database, Eye,
 } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 
 interface Agent {
   id: string;
@@ -25,6 +26,9 @@ interface Agent {
 interface Article {
   id: string;
   title: string;
+  content: string;
+  summary: string;
+  tags: string[];
   word_count: number;
   seo_score: number;
   topic: string;
@@ -77,6 +81,7 @@ export default function ArticleCorePage() {
   const [toast, setToast] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState<'agents' | 'topics' | 'articles'>('agents');
   const [expandedAgent, setExpandedAgent] = useState<string | null>(null);
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
 
   const showToast = (msg: string) => {
     setToast(msg);
@@ -88,7 +93,7 @@ export default function ArticleCorePage() {
 
     const [agentsRes, articlesRes, eventsRes, topicsRes] = await Promise.all([
       supabase.from('agents_registry').select('*').order('created_at'),
-      supabase.from('generated_articles').select('id, title, word_count, seo_score, topic, created_at').order('created_at', { ascending: false }).limit(30),
+      supabase.from('generated_articles').select('*').order('created_at', { ascending: false }).limit(30),
       supabase.from('forge_events').select('*').order('created_at', { ascending: false }).limit(25),
       supabase.from('ai_domain_topics').select('*').order('domain'),
     ]);
@@ -362,27 +367,68 @@ export default function ArticleCorePage() {
             {/* Articles Tab */}
             {activeTab === 'articles' && (
               <div className="space-y-2">
-                {articles.map((a, i) => (
-                  <motion.div key={a.id}
-                    initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: i * 0.02 }}
-                    className="bg-[#080808] border border-[#1a1a1a] rounded-lg p-4 flex items-center justify-between hover:border-[#252525] transition-colors">
-                    <div className="flex-1 min-w-0">
-                      <h3 className="font-bold text-white text-sm truncate">{a.title}</h3>
-                      <span className="font-mono text-[9px] text-[#444]">{a.topic}</span>
-                    </div>
-                    <div className="flex items-center gap-5 shrink-0 ml-4">
-                      <div className="text-center hidden sm:block">
-                        <span className="font-mono text-xs font-bold text-[#3b82f6]">{a.word_count}</span>
-                        <div className="font-mono text-[7px] text-[#333] uppercase">Words</div>
+                {articles.map((a, i) => {
+                  const isExpanded = selectedArticleId === a.id;
+                  return (
+                    <motion.div key={a.id}
+                      initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: i * 0.02 }}
+                      className={`bg-[#080808] border rounded-xl overflow-hidden transition-all duration-300 ${
+                        isExpanded ? 'border-[#3b82f6]/50 shadow-[0_0_30px_rgba(59,130,246,0.05)]' : 'border-[#1a1a1a] hover:border-[#252525]'
+                      }`}>
+                      
+                      <div className="p-4 flex items-center justify-between cursor-pointer" onClick={() => setSelectedArticleId(isExpanded ? null : a.id)}>
+                        <div className="flex-1 min-w-0">
+                          <h3 className="font-bold text-white text-sm truncate uppercase tracking-tight">{a.title}</h3>
+                          <span className="font-mono text-[9px] text-[#444] uppercase tracking-widest">{a.topic}</span>
+                        </div>
+                        <div className="flex items-center gap-5 shrink-0 ml-4">
+                          <div className="text-center hidden sm:block">
+                            <span className="font-mono text-xs font-bold text-[#3b82f6]">{a.word_count}</span>
+                            <div className="font-mono text-[7px] text-[#333] uppercase">Words</div>
+                          </div>
+                          <div className="text-center">
+                            <span className="font-mono text-xs font-bold text-[#00ff88]">{a.seo_score}</span>
+                            <div className="font-mono text-[7px] text-[#333] uppercase">SEO</div>
+                          </div>
+                          <div className="flex items-center gap-3">
+                            <span className="font-mono text-[9px] text-[#333] uppercase">{timeAgo(a.created_at)}</span>
+                            {isExpanded ? <ChevronDown className="w-4 h-4 text-[#3b82f6]" /> : <Eye className="w-4 h-4 text-[#222]" />}
+                          </div>
+                        </div>
                       </div>
-                      <div className="text-center">
-                        <span className="font-mono text-xs font-bold text-[#00ff88]">{a.seo_score}</span>
-                        <div className="font-mono text-[7px] text-[#333] uppercase">SEO</div>
-                      </div>
-                      <span className="font-mono text-[9px] text-[#333]">{timeAgo(a.created_at)}</span>
-                    </div>
-                  </motion.div>
-                ))}
+
+                      <AnimatePresence>
+                        {isExpanded && (
+                          <motion.div
+                            initial={{ height: 0, opacity: 0 }}
+                            animate={{ height: 'auto', opacity: 1 }}
+                            exit={{ height: 0, opacity: 0 }}
+                            className="border-t border-[#111]"
+                          >
+                            <div className="p-6 sm:p-8 bg-[#050505] relative overflow-hidden">
+                              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(59,130,246,0.03)_0%,transparent_70%)] pointer-events-none" />
+                              <div className="relative z-10">
+                                <p className="text-[#666] font-mono text-xs mb-8 italic border-l-2 border-[#3b82f6] pl-4 py-1 uppercase tracking-wider">
+                                  {a.summary || "No summary available for this intelligence node."}
+                                </p>
+                                <div className="prose-crucible max-h-[500px] overflow-y-auto pr-4 scrollbar-thin scrollbar-track-[#0a0a0c] scrollbar-thumb-[#222]">
+                                  <ReactMarkdown>{a.content}</ReactMarkdown>
+                                </div>
+                                <div className="mt-8 flex flex-wrap gap-2">
+                                  {(a.tags || []).map((tag, ti) => (
+                                    <span key={ti} className="px-2 py-1 rounded text-[8px] font-mono uppercase bg-[#111] text-[#444] border border-[#222]">
+                                      #{tag}
+                                    </span>
+                                  ))}
+                                </div>
+                              </div>
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </motion.div>
+                  );
+                })}
                 {articles.length === 0 && (
                   <div className="text-center py-16">
                     <FileText className="w-10 h-10 text-[#1a1a1a] mx-auto mb-3" />
