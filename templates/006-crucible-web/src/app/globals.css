@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --obsidian-dark: #0a0a0a;
+   --obsidian-dark: #0a0a0a;
   --molten-amber: #ff8c00;
-  --forged-silver: #e0e0e0;
+  --forged-silver: #ffffff;
+  --muted-silver: #a0a0a0;
   --industrial-slate: #2a2a2a;
   --success-green: #00ff88;
   --error-red: #ff3333;
@@ -70,7 +71,7 @@
 
   /* Responsive Typography for AI Articles */
   .prose-crucible {
-    @apply text-sm leading-relaxed text-[#999];
+    @apply text-sm leading-relaxed text-[#bbb];
   }
 
   .prose-crucible h1 {
@@ -86,7 +87,7 @@
   }
 
   .prose-crucible p {
-    @apply mb-4 text-[#999];
+    @apply mb-4 text-[#bbb];
   }
 
   .prose-crucible ul {
@@ -98,7 +99,7 @@
   }
 
   .prose-crucible li {
-    @apply text-[#999];
+    @apply text-[#bbb];
   }
 
   .prose-crucible strong {

@@ -28,7 +28,7 @@ export default function FoundryPage() {
               THE<br />
               <span className="text-[#ff8c00]">FOUNDRY</span>
             </h1>
-            <p className="font-mono text-sm text-[#666] leading-relaxed mt-2 max-w-xl">
+            <p className="font-mono text-sm text-[#999] leading-relaxed mt-2 max-w-xl">
               Not a team page. A factory floor. Crucible is built by architects and autonomous
               agents working in parallel — each station forging a different layer of the stack.
             </p>
@@ -65,11 +65,11 @@ export default function FoundryPage() {
                 key={item.id}
                 className="group bg-[#050505] hover:bg-[#0d0800] transition-colors duration-300 p-8"
               >
-                <span className="font-mono text-[10px] text-[#333] tracking-widest">[{item.id}]</span>
+                <span className="font-mono text-[10px] text-[#888] tracking-widest">[{item.id}]</span>
                 <h3 className="text-lg font-bold text-white mt-3 mb-3 group-hover:text-[#ff8c00] transition-colors duration-200">
                   {item.title}
                 </h3>
-                <p className="font-mono text-xs text-[#555] leading-relaxed">{item.body}</p>
+                <p className="font-mono text-xs text-[#888] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>

@@ -83,10 +83,10 @@ export default function SeismicScannerPage() {
              </div>
              <span className="font-mono text-[#ff3333] tracking-[0.4em] text-xs uppercase shadow-[0_0_10px_rgba(255,51,51,0.5)]">Seismic_Array_Active</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-300 to-[#444] tracking-tighter uppercase mb-4">
+          <h1 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-300 to-[#888] tracking-tighter uppercase mb-4">
             Demand Scanner
           </h1>
-          <p className="text-[#888] font-mono max-w-2xl text-sm leading-relaxed">
+          <p className="text-[#999] font-mono max-w-2xl text-sm leading-relaxed">
             The external sensor array detects deep-subsurface market demand signals. Anomalies are drilled, smelted into prototypes, and forged into autonomous production systems.
           </p>
         </motion.div>
@@ -134,8 +134,8 @@ export default function SeismicScannerPage() {
                    <Activity className="w-7 h-7 text-[#3b82f6] drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]" />
                 </div>
                 <div className="text-4xl font-black text-white mb-1 tracking-tighter">303</div>
-                <div className="font-mono text-xs text-[#888] tracking-widest uppercase">Tracking</div>
-                <div className="text-[10px] text-[#555] mt-1">Anomalies Detected</div>
+                <div className="font-mono text-xs text-[#999] tracking-widest uppercase">Tracking</div>
+                <div className="text-[10px] text-[#777] mt-1">Anomalies Detected</div>
              </div>
 
              {/* Stage 2: Core Drilling */}
@@ -145,8 +145,8 @@ export default function SeismicScannerPage() {
                    <Hexagon className="w-7 h-7 text-[#00ff88] drop-shadow-[0_0_8px_rgba(0,255,136,0.5)]" />
                 </div>
                 <div className="text-4xl font-black text-white mb-1 tracking-tighter">12</div>
-                <div className="font-mono text-xs text-[#888] tracking-widest uppercase">Drilling</div>
-                <div className="text-[10px] text-[#555] mt-1">Extracting Proofs</div>
+                <div className="font-mono text-xs text-[#999] tracking-widest uppercase">Drilling</div>
+                <div className="text-[10px] text-[#777] mt-1">Extracting Proofs</div>
              </div>
 
              {/* Stage 3: Smelting */}
@@ -156,8 +156,8 @@ export default function SeismicScannerPage() {
                    <Flame className="w-7 h-7 text-[#ff8c00] drop-shadow-[0_0_8px_rgba(255,140,0,0.5)]" />
                 </div>
                 <div className="text-4xl font-black text-white mb-1 tracking-tighter">04</div>
-                <div className="font-mono text-xs text-[#888] tracking-widest uppercase">Smelting</div>
-                <div className="text-[10px] text-[#555] mt-1">Refining Logic</div>
+                <div className="font-mono text-xs text-[#999] tracking-widest uppercase">Smelting</div>
+                <div className="text-[10px] text-[#777] mt-1">Refining Logic</div>
              </div>
 
              {/* Stage 4: Forged */}
@@ -167,13 +167,13 @@ export default function SeismicScannerPage() {
                    <Hammer className="w-7 h-7 text-[#ff3333] drop-shadow-[0_0_8px_rgba(255,51,51,0.5)]" />
                 </div>
                 <div className="text-4xl font-black text-white mb-1 tracking-tighter text-shadow-sm">29</div>
-                <div className="font-mono text-xs text-[#888] tracking-widest uppercase font-bold text-[#ff3333]">Forged</div>
-                <div className="text-[10px] text-[#555] mt-1">Edge Deployed</div>
+                <div className="font-mono text-xs text-[#999] tracking-widest uppercase font-bold text-[#ff3333]">Forged</div>
+                <div className="text-[10px] text-[#777] mt-1">Edge Deployed</div>
              </div>
 
            </div>
 
-           <div className="text-center font-mono text-[10px] text-[#555] uppercase tracking-[0.3em] relative z-10 bg-[#111] py-2 rounded border border-[#222]">
+           <div className="text-center font-mono text-[10px] text-[#888] uppercase tracking-[0.3em] relative z-10 bg-[#111] py-2 rounded border border-[#222]">
              Crucible_Refinement_Process: Tracking &gt; Drilling &gt; Smelting &gt; Forging
            </div>
         </motion.div>
@@ -189,7 +189,7 @@ export default function SeismicScannerPage() {
            </div>
            
            <div className="flex gap-2">
-              <button className="w-8 h-8 flex items-center justify-center border border-[#333] rounded-sm hover:bg-[#222] text-[#888]">&lt;</button>
+              <button className="w-8 h-8 flex items-center justify-center border border-[#333] rounded-sm hover:bg-[#222] text-[#aaa]">&lt;</button>
               <button className="w-8 h-8 flex items-center justify-center bg-white text-black font-bold rounded-sm hover:bg-[#ccc]">&gt;</button>
            </div>
         </div>
@@ -213,7 +213,7 @@ export default function SeismicScannerPage() {
                         <div className="w-3 h-3 border border-[#ff8c00]/50 bg-[#ff8c00]/20"></div>
                         <div className="w-3 h-3 border border-[#00ff88]/50 bg-[#00ff88]/20"></div>
                       </div>
-                      <div className="font-mono text-[10px] text-[#555] tracking-widest uppercase">{project.title.toLowerCase().replace(/\s+/g, '_')}.bin</div>
+                      <div className="font-mono text-[10px] text-[#888] tracking-widest uppercase">{project.title.toLowerCase().replace(/\s+/g, '_')}.bin</div>
                    </div>
 
                    {/* Terminal Preview Shell */}
@@ -229,11 +229,11 @@ export default function SeismicScannerPage() {
                            <h3 className="font-bold text-white text-md tracking-widest uppercase">{project.title}</h3>
                            <span className="bg-[#00ff88]/10 text-[#00ff88] border border-[#00ff88]/30 font-mono text-[9px] px-1.5 py-0.5 rounded uppercase tracking-widest shadow-[0_0_8px_rgba(0,255,136,0.2)]">LIVE</span>
                         </div>
-                        <div className="bg-[#050505] border border-[#222] px-3 py-1.5 rounded text-[10px] font-mono text-[#888] mb-3 flex justify-between uppercase">
+                        <div className="bg-[#050505] border border-[#222] px-3 py-1.5 rounded text-[10px] font-mono text-[#aaa] mb-3 flex justify-between uppercase">
                            <span>Forged in {project.time}</span>
-                           <span className="text-[#444]">{project.agent}</span>
+                           <span className="text-[#666]">{project.agent}</span>
                         </div>
-                        <p className="text-[#888] text-xs leading-relaxed line-clamp-2">{project.description}</p>
+                        <p className="text-[#999] text-xs leading-relaxed line-clamp-2">{project.description}</p>
                       </div>
                       
                       <div className="flex gap-2 mt-4 pt-4 border-t border-[#222]">

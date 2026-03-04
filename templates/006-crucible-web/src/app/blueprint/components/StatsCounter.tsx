@@ -76,7 +76,7 @@ export function StatsCounter() {
             <div className="text-5xl font-black tracking-tighter mb-2">
               <CountUp to={stat.value} suffix={stat.suffix} color={stat.color} active={inView} />
             </div>
-            <div className="font-mono text-[9px] tracking-widest text-[#333]">{stat.label}</div>
+            <div className="font-mono text-[9px] tracking-widest text-[#888]">{stat.label}</div>
           </motion.div>
         ))}
       </div>

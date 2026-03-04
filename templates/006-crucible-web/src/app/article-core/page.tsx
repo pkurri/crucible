@@ -199,10 +199,10 @@ export default function ArticleCorePage() {
             <Flame className="w-5 h-5 text-[#ff8c00]" />
             <span className="font-mono text-[#ff8c00] tracking-[0.4em] text-[10px] uppercase">The Article Core</span>
           </div>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-400 to-[#333] uppercase tracking-tighter leading-[0.9]">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-400 to-[#888] uppercase tracking-tighter leading-[0.9]">
             Content Nerve Center
           </h1>
-          <p className="text-[#555] font-mono text-xs mt-4 max-w-2xl leading-relaxed uppercase tracking-wider">
+          <p className="text-[#999] font-mono text-xs mt-4 max-w-2xl leading-relaxed uppercase tracking-wider">
             Legacy content generation operations dashboard.
           </p>
         </motion.div>
@@ -224,7 +224,7 @@ export default function ArticleCorePage() {
               <div key={i} className="bg-[#050505] p-4 flex flex-col items-center gap-1">
                 <Icon className="w-4 h-4" style={{ color: s.color }} />
                 <span className="font-mono text-lg font-bold text-white">{s.value}</span>
-                <span className="font-mono text-[8px] text-[#444] uppercase tracking-widest">{s.label}</span>
+                <span className="font-mono text-[8px] text-[#888] uppercase tracking-widest">{s.label}</span>
               </div>
             );
           })}
@@ -249,7 +249,7 @@ export default function ArticleCorePage() {
             {isSpawning ? 'Spawning...' : 'Spawn Agent'}
           </button>
           <button onClick={fetchAll}
-            className="px-4 py-2.5 bg-[#111] border border-[#333] text-[#666] font-mono text-xs rounded-lg hover:text-white transition-colors flex items-center gap-2">
+            className="px-4 py-2.5 bg-[#111] border border-[#333] text-[#999] font-mono text-xs rounded-lg hover:text-white transition-colors flex items-center gap-2">
             <RefreshCw className="w-3.5 h-3.5" /> Refresh
           </button>
         </motion.div>
@@ -259,7 +259,7 @@ export default function ArticleCorePage() {
           {(['agents', 'topics', 'articles'] as const).map(tab => (
             <button key={tab} onClick={() => setActiveTab(tab)}
               className={`px-5 py-3 font-mono text-[10px] md:text-xs uppercase tracking-wider transition-all border-b-2 whitespace-nowrap ${
-                activeTab === tab ? 'text-[#ff8c00] border-[#ff8c00]' : 'text-[#555] border-transparent hover:text-[#888]'
+                activeTab === tab ? 'text-[#ff8c00] border-[#ff8c00]' : 'text-[#888] border-transparent hover:text-[#bbb]'
               }`}>
               {tab === 'agents' && <Bot className="w-3.5 h-3.5 inline mr-2" />}
               {tab === 'topics' && <Database className="w-3.5 h-3.5 inline mr-2" />}
@@ -293,25 +293,25 @@ export default function ArticleCorePage() {
                             </div>
                             <div>
                               <h3 className="font-bold text-white text-sm">{agent.name}</h3>
-                              <span className="font-mono text-[9px] text-[#444] uppercase tracking-widest">{agent.type}</span>
+                              <span className="font-mono text-[9px] text-[#888] uppercase tracking-widest">{agent.type}</span>
                             </div>
                           </div>
                           <div className="flex items-center gap-4">
                             <div className="hidden sm:flex items-center gap-6 mr-4">
                               <div className="text-center">
                                 <div className="font-mono text-sm font-bold text-white">{agent.tasks_completed || 0}</div>
-                                <div className="font-mono text-[8px] text-[#333] uppercase">Tasks</div>
+                                <div className="font-mono text-[8px] text-[#777] uppercase">Tasks</div>
                               </div>
                               <div className="text-center">
-                                <div className="font-mono text-sm font-bold text-[#666]">{timeAgo(agent.last_active_at)}</div>
-                                <div className="font-mono text-[8px] text-[#333] uppercase">Last Active</div>
+                                <div className="font-mono text-sm font-bold text-[#aaa]">{timeAgo(agent.last_active_at)}</div>
+                                <div className="font-mono text-[8px] text-[#777] uppercase">Last Active</div>
                               </div>
                             </div>
                             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full" style={{ backgroundColor: cfg.bg }}>
                               <div className="w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: cfg.color }} />
                               <span className="font-mono text-[9px] uppercase font-bold" style={{ color: cfg.color }}>{agent.status}</span>
                             </div>
-                            {isExpanded ? <ChevronDown className="w-4 h-4 text-[#444]" /> : <ChevronRight className="w-4 h-4 text-[#333]" />}
+                            {isExpanded ? <ChevronDown className="w-4 h-4 text-[#888]" /> : <ChevronRight className="w-4 h-4 text-[#777]" />}
                           </div>
                         </div>
                       </div>
@@ -320,7 +320,7 @@ export default function ArticleCorePage() {
                         {isExpanded && (
                           <motion.div initial={{ height: 0 }} animate={{ height: 'auto' }} exit={{ height: 0 }} className="overflow-hidden">
                             <div className="px-5 pb-5 pt-0 border-t border-[#111]">
-                              <p className="text-[#555] font-mono text-[11px] leading-relaxed mt-4 mb-3">{agent.description}</p>
+                              <p className="text-[#999] font-mono text-[11px] leading-relaxed mt-4 mb-3">{agent.description}</p>
                               <div className="flex flex-wrap gap-1.5">
                                 {(agent.capabilities || []).map((cap, ci) => (
                                   <span key={ci} className="px-2 py-1 rounded text-[9px] font-mono uppercase bg-[#ff8c00]/5 text-[#ff8c00]/70 border border-[#ff8c00]/10">
@@ -346,14 +346,14 @@ export default function ArticleCorePage() {
                     <div className="flex items-center gap-3 mb-3">
                       <Shield className="w-4 h-4 text-[#ff8c00]" />
                       <h3 className="font-bold text-white text-sm">{domain}</h3>
-                      <span className="font-mono text-[9px] text-[#444] bg-[#111] px-2 py-0.5 rounded">{domainTopics.length} topics</span>
+                      <span className="font-mono text-[9px] text-[#888] bg-[#111] px-2 py-0.5 rounded">{domainTopics.length} topics</span>
                     </div>
                     <div className="space-y-1.5">
                       {domainTopics.map(t => (
                         <div key={t.id} className="flex items-center justify-between py-1.5 px-3 rounded-lg hover:bg-[#111] transition-colors">
                           <span className="font-mono text-[11px] text-[#777] flex-1">{t.topic}</span>
                           <div className="flex items-center gap-3 shrink-0 ml-4">
-                            <span className="font-mono text-[9px] text-[#333]">Used: {t.times_used}x</span>
+                            <span className="font-mono text-[9px] text-[#777]">Used: {t.times_used}x</span>
                             <div className={`w-2 h-2 rounded-full ${t.is_active ? 'bg-[#00ff88]' : 'bg-[#333]'}`} />
                           </div>
                         </div>
@@ -379,7 +379,7 @@ export default function ArticleCorePage() {
                       <div className="p-4 flex items-center justify-between cursor-pointer" onClick={() => setSelectedArticleId(isExpanded ? null : a.id)}>
                         <div className="flex-1 min-w-0">
                           <h3 className="font-bold text-white text-sm truncate uppercase tracking-tight">{a.title}</h3>
-                          <span className="font-mono text-[9px] text-[#444] uppercase tracking-widest">{a.topic}</span>
+                          <span className="font-mono text-[9px] text-[#888] uppercase tracking-widest">{a.topic}</span>
                         </div>
                         <div className="flex items-center gap-5 shrink-0 ml-4">
                           <div className="text-center hidden sm:block">
@@ -391,8 +391,8 @@ export default function ArticleCorePage() {
                             <div className="font-mono text-[7px] text-[#333] uppercase">SEO</div>
                           </div>
                           <div className="flex items-center gap-3">
-                            <span className="font-mono text-[9px] text-[#333] uppercase">{timeAgo(a.created_at)}</span>
-                            {isExpanded ? <ChevronDown className="w-4 h-4 text-[#3b82f6]" /> : <Eye className="w-4 h-4 text-[#222]" />}
+                            <span className="font-mono text-[9px] text-[#777] uppercase">{timeAgo(a.created_at)}</span>
+                            {isExpanded ? <ChevronDown className="w-4 h-4 text-[#3b82f6]" /> : <Eye className="w-4 h-4 text-[#666]" />}
                           </div>
                         </div>
                       </div>
@@ -408,7 +408,7 @@ export default function ArticleCorePage() {
                             <div className="p-6 sm:p-8 bg-[#050505] relative overflow-hidden">
                               <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(59,130,246,0.03)_0%,transparent_70%)] pointer-events-none" />
                               <div className="relative z-10">
-                                <p className="text-[#666] font-mono text-xs mb-8 italic border-l-2 border-[#3b82f6] pl-4 py-1 uppercase tracking-wider">
+                                <p className="text-[#999] font-mono text-xs mb-8 italic border-l-2 border-[#3b82f6] pl-4 py-1 uppercase tracking-wider">
                                   {a.summary || "No summary available for this intelligence node."}
                                 </p>
                                 <div className="prose-crucible max-h-[500px] overflow-y-auto pr-4 scrollbar-thin scrollbar-track-[#0a0a0c] scrollbar-thumb-[#222]">
@@ -432,7 +432,7 @@ export default function ArticleCorePage() {
                 {articles.length === 0 && (
                   <div className="text-center py-16">
                     <FileText className="w-10 h-10 text-[#1a1a1a] mx-auto mb-3" />
-                    <p className="font-mono text-xs text-[#333]">No articles generated yet</p>
+                    <p className="font-mono text-xs text-[#888]">No articles generated yet</p>
                   </div>
                 )}
               </div>
@@ -443,7 +443,7 @@ export default function ArticleCorePage() {
           <div className="xl:col-span-3">
             <div className="flex items-center gap-2 mb-4">
               <Radio className="w-4 h-4 text-[#3b82f6]" />
-              <h2 className="font-mono text-[10px] text-[#555] uppercase tracking-widest">Forge Events</h2>
+              <h2 className="font-mono text-[10px] text-[#999] uppercase tracking-widest">Forge Events</h2>
             </div>
             <div className="space-y-1.5 max-h-[800px] overflow-y-auto pr-1">
               {events.map((e, i) => {
@@ -461,9 +461,9 @@ export default function ArticleCorePage() {
                     <div className="flex items-center gap-1.5 mb-0.5">
                       <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }} />
                       <span className="font-mono text-[8px] font-bold uppercase" style={{ color }}>{e.event_type}</span>
-                      <span className="font-mono text-[7px] text-[#222] ml-auto">{timeAgo(e.created_at)}</span>
+                      <span className="font-mono text-[7px] text-[#666] ml-auto">{timeAgo(e.created_at)}</span>
                     </div>
-                    <p className="font-mono text-[9px] text-[#444] line-clamp-2 leading-relaxed">{e.message}</p>
+                    <p className="font-mono text-[9px] text-[#888] line-clamp-2 leading-relaxed">{e.message}</p>
                   </motion.div>
                 );
               })}

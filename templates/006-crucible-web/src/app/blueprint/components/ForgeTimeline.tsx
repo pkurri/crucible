@@ -102,7 +102,7 @@ function TimelineStep({ step, index }: { step: typeof STEPS[0]; index: number })
           <div className="w-2 h-2 rounded-full shadow-[0_0_8px_currentColor]" style={{ backgroundColor: step.color, color: step.color }} />
         </div>
         <h3 className="text-lg font-black tracking-widest text-[#e0e0e0] mb-2">{step.title}</h3>
-        <p className="text-sm text-[#666] leading-relaxed font-mono">{step.desc}</p>
+        <p className="text-sm text-[#888] leading-relaxed font-mono">{step.desc}</p>
       </div>
 
       {/* Right content: code block */}
@@ -112,9 +112,9 @@ function TimelineStep({ step, index }: { step: typeof STEPS[0]; index: number })
             <div className="w-2 h-2 rounded-full bg-[#ff3b3b]" />
             <div className="w-2 h-2 rounded-full bg-[#ffbb00]" />
             <div className="w-2 h-2 rounded-full bg-[#00e676]" />
-            <span className="ml-2 font-mono text-[9px] text-[#333] tracking-widest">IMPLEMENTATION</span>
+            <span className="ml-2 font-mono text-[9px] text-[#888] tracking-widest">IMPLEMENTATION</span>
           </div>
-          <pre className="p-4 text-[11px] font-mono text-[#888] overflow-x-auto leading-relaxed whitespace-pre-wrap group-hover:text-[#aaa] transition-colors duration-300">
+          <pre className="p-4 text-[11px] font-mono text-[#aaa] overflow-x-auto leading-relaxed whitespace-pre-wrap group-hover:text-[#ccc] transition-colors duration-300">
             <code className="text-[#ff8c00]/80">{step.code}</code>
           </pre>
         </div>
@@ -139,7 +139,7 @@ export function ForgeTimeline() {
         <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-[#e0e0e0]">
           FORGE IN 5 STEPS
         </h2>
-        <p className="text-[#555] font-mono text-sm mt-4 max-w-xl mx-auto">
+        <p className="text-[#888] font-mono text-sm mt-4 max-w-xl mx-auto">
           From fresh clone to live autonomous feed. Each step builds on the last.
         </p>
       </motion.div>

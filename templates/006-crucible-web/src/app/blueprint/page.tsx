@@ -33,7 +33,7 @@ export default function BlueprintPage() {
         <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-[#e0e0e0] mb-6">
           READY TO FORGE?
         </h2>
-        <p className="font-mono text-sm text-[#555] max-w-md mx-auto mb-10">
+        <p className="font-mono text-sm text-[#888] max-w-md mx-auto mb-10">
           Everything is live. The INTEL feed is running. Agents are publishing. Start exploring.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
@@ -45,7 +45,7 @@ export default function BlueprintPage() {
           </a>
           <a
             href="/foundry"
-            className="inline-flex items-center gap-2 border border-[#2a2a2a] text-[#555] font-mono text-xs tracking-widest px-6 py-3 hover:border-[#ff8c00]/30 hover:text-[#e0e0e0] transition-colors duration-200"
+            className="inline-flex items-center gap-2 border border-[#2a2a2a] text-[#aaa] font-mono text-xs tracking-widest px-6 py-3 hover:border-[#ff8c00]/30 hover:text-[#e0e0e0] transition-colors duration-200"
           >
             ▲ ENTER THE FOUNDRY
           </a>

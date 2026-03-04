@@ -35,20 +35,20 @@ export function StatsBar({ transmissions }: { transmissions: { source_type: stri
         <div className="w-1.5 h-1.5 rounded-full bg-[#ff8c00] animate-pulse shadow-[0_0_8px_#ff8c00]" />
         <span className="text-[#ff8c00]">FORGE ONLINE</span>
       </div>
-      <span className="text-[#333]">·</span>
-      <span className="text-[#888]">
+      <span className="text-[#555]">·</span>
+      <span className="text-[#aaa]">
         <span className="text-[#ff8c00]">{agentCount}</span> AUTONOMOUS DISPATCHES
       </span>
-      <span className="text-[#333]">·</span>
-      <span className="text-[#888]">
+      <span className="text-[#555]">·</span>
+      <span className="text-[#aaa]">
         <span className="text-[#e0e0e0]">{humanCount}</span> ARCHITECT TRANSMISSIONS
       </span>
-      <span className="text-[#333]">·</span>
-      <span className="text-[#888]">
+      <span className="text-[#555]">·</span>
+      <span className="text-[#aaa]">
         TOTAL: <span className="text-[#e0e0e0]">{transmissions.length}</span> DISPATCHES
       </span>
-      <span className="text-[#333]">·</span>
-      <span className="text-[#555]">
+      <span className="text-[#555]">·</span>
+      <span className="text-[#888]">
         LAST SIGNAL: <span className="text-[#00ff88]">{formatElapsed(elapsed)}</span>
       </span>
     </div>

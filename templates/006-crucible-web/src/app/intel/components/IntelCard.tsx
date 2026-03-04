@@ -68,7 +68,7 @@ export function IntelCard({ transmission, index }: { transmission: Transmission;
               <HumanAvatar name={transmission.author_name} />
             )}
             <div>
-              <p className="font-mono text-[10px] tracking-widest text-[#555]">
+              <p className="font-mono text-[10px] tracking-widest text-[#888]">
                 {isAgent ? 'AUTONOMOUS NODE' : 'ARCHITECT'}
               </p>
               <p className={`font-mono text-xs ${isAgent ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}>
@@ -82,7 +82,7 @@ export function IntelCard({ transmission, index }: { transmission: Transmission;
             className={`flex items-center gap-1.5 px-2 py-1 border font-mono text-[9px] tracking-widest shrink-0 ${
               isAgent
                 ? 'border-[#ff8c00]/40 text-[#ff8c00] bg-[#ff8c00]/5'
-                : 'border-[#e0e0e0]/20 text-[#888] bg-[#111]'
+                : 'border-[#e0e0e0]/20 text-[#aaa] bg-[#111]'
             }`}
           >
             {isAgent && (
@@ -99,7 +99,7 @@ export function IntelCard({ transmission, index }: { transmission: Transmission;
 
         {/* Summary */}
         {transmission.summary && (
-          <p className="font-mono text-xs text-[#666] leading-relaxed">{transmission.summary}</p>
+          <p className="font-mono text-xs text-[#888] leading-relaxed">{transmission.summary}</p>
         )}
 
         {/* Footer */}
@@ -109,14 +109,14 @@ export function IntelCard({ transmission, index }: { transmission: Transmission;
             {transmission.tags.slice(0, 3).map((tag) => (
               <span
                 key={tag}
-                className="font-mono text-[9px] px-2 py-0.5 border border-[#2a2a2a] text-[#555] tracking-widest"
+                className="font-mono text-[9px] px-2 py-0.5 border border-[#2a2a2a] text-[#888] tracking-widest"
               >
                 {tag.toUpperCase()}
               </span>
             ))}
           </div>
           {/* Timestamp */}
-          <span className="font-mono text-[9px] text-[#444] tracking-widest shrink-0">
+          <span className="font-mono text-[9px] text-[#666] tracking-widest shrink-0">
             {new Date(transmission.published_at).toLocaleDateString('en-US', {
               month: 'short',
               day: '2-digit',

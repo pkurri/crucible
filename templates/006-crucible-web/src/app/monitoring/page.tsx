@@ -80,7 +80,7 @@ const RadarVisualizer = () => {
         <Scan className="h-5 w-5 text-[#00ff88]" />
         <span className="font-mono text-xs text-[#00ff88] tracking-widest uppercase">Global Radar Scan Active</span>
       </div>
-      <div className="absolute bottom-6 right-6 font-mono text-[10px] text-[#555]">
+      <div className="absolute bottom-6 right-6 font-mono text-[10px] text-[#888]">
         SWARM_TOPOLOGY_V2 // PORT_3003
       </div>
     </div>
@@ -253,7 +253,7 @@ export default function MonitoringPage() {
               <TrendingUp className="h-5 w-5 text-[#00ff88]" />
             </div>
             <div className="text-4xl font-black text-white mb-2">{avgProductivity}%</div>
-            <div className="text-xs font-mono tracking-widest text-[#888] uppercase">Sys_Productivity</div>
+            <div className="text-xs font-mono tracking-widest text-[#aaa] uppercase">Sys_Productivity</div>
           </div>
 
           <div className="brick p-6">
@@ -264,7 +264,7 @@ export default function MonitoringPage() {
               <TrendingUp className="h-5 w-5 text-[#00ff88]" />
             </div>
             <div className="text-4xl font-black text-white mb-2">{avgCommunication}%</div>
-            <div className="text-xs font-mono tracking-widest text-[#888] uppercase">Comms_Integrity</div>
+            <div className="text-xs font-mono tracking-widest text-[#aaa] uppercase">Comms_Integrity</div>
           </div>
 
           <div className="brick p-6">
@@ -275,7 +275,7 @@ export default function MonitoringPage() {
               <TrendingUp className="h-5 w-5 text-[#00ff88]" />
             </div>
             <div className="text-4xl font-black text-white mb-2">{avgCollaboration}%</div>
-            <div className="text-xs font-mono tracking-widest text-[#888] uppercase">Swarm_Cohesion</div>
+            <div className="text-xs font-mono tracking-widest text-[#aaa] uppercase">Swarm_Cohesion</div>
           </div>
 
           <div className="brick p-6">
@@ -283,10 +283,10 @@ export default function MonitoringPage() {
               <div className="p-3 bg-[#0f0f0f] border border-[#2a2a2a] text-purple-500">
                 <Target className="h-6 w-6" />
               </div>
-              <Clock className="h-5 w-5 text-[#888]" />
+              <Clock className="h-5 w-5 text-[#aaa]" />
             </div>
             <div className="text-4xl font-black text-white mb-2">{activeProcesses}</div>
-            <div className="text-xs font-mono tracking-widest text-[#888] uppercase">Active_Processes</div>
+            <div className="text-xs font-mono tracking-widest text-[#aaa] uppercase">Active_Processes</div>
           </div>
         </div>
 
@@ -303,7 +303,7 @@ export default function MonitoringPage() {
                     className={`px-4 py-2 text-xs font-mono tracking-widest uppercase transition-colors border ${
                       selectedMetric === metric
                         ? 'bg-[#ff8c00] text-black border-[#ff8c00]'
-                        : 'bg-[#0f0f0f] text-[#888] border-[#2a2a2a] hover:border-[#ff8c00]/50 hover:text-[#e0e0e0]'
+                        : 'bg-[#0f0f0f] text-[#aaa] border-[#2a2a2a] hover:border-[#ff8c00]/50 hover:text-[#e0e0e0]'
                     }`}
                   >
                     {metric}
@@ -322,7 +322,7 @@ export default function MonitoringPage() {
                     key={idx} 
                     className="flex items-center gap-6"
                   >
-                    <span className="text-sm font-mono text-[#555] w-16 shrink-0">{data.time}</span>
+                    <span className="text-sm font-mono text-[#888] w-16 shrink-0">{data.time}</span>
                     <div className="flex-1 bg-[#0f0f0f] border border-[#2a2a2a] h-10 relative overflow-hidden group">
                       <div className="absolute left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#ff8c00]/50 to-transparent top-0 animate-scan hidden group-hover:block z-20"></div>
                       
@@ -352,14 +352,14 @@ export default function MonitoringPage() {
                       <div className={`w-8 h-8 flex items-center justify-center text-xs font-mono font-bold ${
                         idx === 0 ? 'bg-[#ff8c00] text-black shadow-[0_0_10px_rgba(255,140,0,0.5)]' :
                         idx === 1 ? 'bg-[#2a2a2a] text-white' :
-                        idx === 2 ? 'bg-[#1a1a1a] text-[#888]' :
-                        'bg-[#0f0f0f] text-[#555] border border-[#2a2a2a]'
+                        idx === 2 ? 'bg-[#1a1a1a] text-[#aaa]' :
+                        'bg-[#0f0f0f] text-[#888] border border-[#2a2a2a]'
                       }`}>
                         {idx + 1}
                       </div>
                       <div>
                         <div className="font-bold text-[#e0e0e0] uppercase tracking-wide">{agent.name}</div>
-                        <div className="text-[10px] font-mono text-[#888] uppercase tracking-widest">{agent.role.replace('-', '_')}</div>
+                        <div className="text-[10px] font-mono text-[#aaa] uppercase tracking-widest">{agent.role.replace('-', '_')}</div>
                       </div>
                     </div>
                     <div className={`text-2xl font-black ${getScoreColor(agent.productivity)}`}>
@@ -369,15 +369,15 @@ export default function MonitoringPage() {
                   <div className="grid grid-cols-3 gap-3 text-[10px] font-mono tracking-widest uppercase">
                     <div className={`text-center py-2 border border-[#2a2a2a] ${getScoreBg(agent.communication)}`}>
                       <div className={`font-bold text-sm ${getScoreColor(agent.communication)}`}>{agent.communication}</div>
-                      <div className="text-[#888] mt-1">Comm</div>
+                      <div className="text-[#aaa] mt-1">Comm</div>
                     </div>
                     <div className={`text-center py-2 border border-[#2a2a2a] ${getScoreBg(agent.collaboration)}`}>
                       <div className={`font-bold text-sm ${getScoreColor(agent.collaboration)}`}>{agent.collaboration}</div>
-                      <div className="text-[#888] mt-1">Collab</div>
+                      <div className="text-[#aaa] mt-1">Collab</div>
                     </div>
                     <div className={`text-center py-2 border border-[#2a2a2a] ${getScoreBg(agent.quality)}`}>
                       <div className={`font-bold text-sm ${getScoreColor(agent.quality)}`}>{agent.quality}</div>
-                      <div className="text-[#888] mt-1">Qual</div>
+                      <div className="text-[#aaa] mt-1">Qual</div>
                     </div>
                   </div>
                 </div>
@@ -394,7 +394,7 @@ export default function MonitoringPage() {
           </div>
           <div className="space-y-4">
             {alerts.length === 0 && (
-              <div className="text-[#555] font-mono text-sm">NO ANOMALIES DETECTED IN CURRENT CYCLE</div>
+              <div className="text-[#888] font-mono text-sm">NO ANOMALIES DETECTED IN CURRENT CYCLE</div>
             )}
             {alerts.map(alert => (
               <div key={alert.id} className={`bg-[#${alert.type === 'error' ? '1a0505' : '051a15'}] border-l-4 border-[#${alert.type === 'error' ? 'ff3333' : '00ff88'}] p-5`}>

@@ -61,7 +61,7 @@ export default function Home() {
             >
               &lt; PREV
             </button>
-            <div className="px-4 py-2 font-mono text-[#888] text-sm border border-[#2a2a2a] bg-[#050505]">
+            <div className="px-4 py-2 font-mono text-[#aaa] text-sm border border-[#2a2a2a] bg-[#050505]">
               {currentPage} / {totalPages}
             </div>
             <button 
@@ -114,7 +114,7 @@ export default function Home() {
                     setDeployResult(null);
                   }}
                   aria-label="Close detail panel"
-                  className="absolute top-6 right-6 text-[#666] hover:text-white transition-colors"
+                  className="absolute top-6 right-6 text-[#999] hover:text-white transition-colors"
                 >
                   <X className="w-6 h-6" aria-hidden="true" />
                 </button>
@@ -138,23 +138,23 @@ export default function Home() {
                     <span className="font-mono text-[#ff8c00] text-sm tracking-wider px-2 py-1 bg-[#ff8c00]/10 border border-[#ff8c00]/20 rounded">
                       TPL-{selectedTemplate.template_id}
                     </span>
-                    <span className="text-xs font-mono tracking-widest px-2 py-1 bg-[#222] text-[#888] rounded">
+                    <span className="text-xs font-mono tracking-widest px-2 py-1 bg-[#222] text-[#aaa] rounded">
                       {selectedTemplate.category.toUpperCase()}
                     </span>
                   </div>
                   <h2 id="detail-panel-title" className="text-4xl font-black text-white mb-4 leading-tight">{selectedTemplate.name}</h2>
-                  <p className="text-[#a0a0a0] font-mono text-sm leading-relaxed">
+                  <p className="text-[#ccc] font-mono text-sm leading-relaxed">
                     {selectedTemplate.description}
                   </p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   <div className="bg-[#111] border border-[#222] p-4 rounded-xl">
-                    <span className="text-[#666] font-mono text-[10px] uppercase block mb-1">Complexity</span>
+                    <span className="text-[#888] font-mono text-[10px] uppercase block mb-1">Complexity</span>
                     <span className="text-white font-mono font-bold text-sm tracking-wide">{selectedTemplate.complexity}</span>
                   </div>
                   <div className="bg-[#111] border border-[#222] p-4 rounded-xl">
-                    <span className="text-[#666] font-mono text-[10px] uppercase block mb-1">TimeToDeploy</span>
+                    <span className="text-[#888] font-mono text-[10px] uppercase block mb-1">TimeToDeploy</span>
                     <span className="text-white font-mono font-bold text-sm tracking-wide">{selectedTemplate.estimated_setup}</span>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ export default function Home() {
                     {selectedTemplate.included_agents?.map((agent: any, idx: number) => (
                       <div key={idx} className="flex items-center justify-between p-4 bg-[#111] border border-[#222] rounded-lg">
                         <div className="flex items-center gap-3">
-                          <Terminal className="w-4 h-4 text-[#555]" />
+                          <Terminal className="w-4 h-4 text-[#888]" />
                           <span className="text-sm font-bold text-white">{agent.name}</span>
                         </div>
                         <span className="font-mono text-[10px] text-[#00ff88] bg-[#00ff88]/10 px-2 py-1 rounded">
@@ -184,7 +184,7 @@ export default function Home() {
                   </h3>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {selectedTemplate.capabilities?.map((cap: string, idx: number) => (
-                      <li key={idx} className="flex items-start gap-2 text-sm text-[#888] font-mono">
+                      <li key={idx} className="flex items-start gap-2 text-sm text-[#aaa] font-mono">
                         <CheckCircle2 className="w-4 h-4 text-[#00ff88] shrink-0 mt-0.5" />
                         {cap}
                       </li>
@@ -230,7 +230,7 @@ export default function Home() {
                       <>DEPLOY TO FORGE <ArrowRight className="w-4 h-4" /></>
                     )}
                   </button>
-                  <p className="text-center text-[#555] font-mono text-[10px] mt-4">
+                  <p className="text-center text-[#888] font-mono text-[10px] mt-4">
                     Initiates autonomous provisioning sequence in Foundry Core.
                   </p>
                 </div>
@@ -275,19 +275,19 @@ function TemplateCard({
             TPL-{template.template_id}
           </span>
           {template.agent_id && (
-            <span className="font-mono text-[9px] text-[#555] flex items-center gap-1 uppercase tracking-tighter">
+            <span className="font-mono text-[9px] text-[#888] flex items-center gap-1 uppercase tracking-tighter">
               <Bot className="w-2.5 h-2.5" /> Forged by {template.agent_id}
             </span>
           )}
         </div>
-        <span className="text-[9px] font-mono top-right tracking-widest px-2 py-1 bg-[#111] text-[#666] border border-[#222] rounded group-hover:bg-[#ff8c00]/10 group-hover:text-[#ff8c00] group-hover:border-[#ff8c00]/20 transition-colors">
+        <span className="text-[9px] font-mono top-right tracking-widest px-2 py-1 bg-[#111] text-[#aaa] border border-[#222] rounded group-hover:bg-[#ff8c00]/10 group-hover:text-[#ff8c00] group-hover:border-[#ff8c00]/20 transition-colors">
           {template.category.toUpperCase()}
         </span>
       </div>
       <h3 className="text-xl font-bold mb-3 text-white leading-tight group-hover:text-[#ff8c00] transition-colors relative z-10">
         {template.name}
       </h3>
-      <p className="text-[#555] font-mono text-xs leading-relaxed mb-6 flex-grow relative z-10 line-clamp-3">
+      <p className="text-[#999] font-mono text-xs leading-relaxed mb-6 flex-grow relative z-10 line-clamp-3">
         {template.description}
       </p>
       
@@ -297,7 +297,7 @@ function TemplateCard({
           <div className="w-1.5 h-4 bg-[#333] group-hover:bg-[#ff8c00] transition-colors duration-300 delay-75"></div>
           <div className="w-1.5 h-4 bg-[#333] group-hover:bg-[#ff8c00] transition-colors duration-300 delay-150"></div>
         </div>
-        <span className="text-[10px] font-mono font-bold text-[#444] group-hover:text-[#ff8c00] transition-colors uppercase tracking-[0.2em] flex items-center gap-2">
+        <span className="text-[10px] font-mono font-bold text-[#888] group-hover:text-[#ff8c00] transition-colors uppercase tracking-[0.2em] flex items-center gap-2">
           View Definition <ArrowRight className="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
         </span>
       </div>

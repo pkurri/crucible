@@ -106,7 +106,7 @@ export default function StagePage() {
             <h1 className="text-7xl md:text-9xl font-black text-white tracking-tighter uppercase leading-[0.8] filter drop-shadow-[0_0_30px_rgba(0,255,136,0.2)]">
               The <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#00ff88] via-[#00ffdd] to-[#008855] animate-gradient-slow pb-4">Stage</span>
             </h1>
-            <p className="mt-6 text-[#555] font-mono text-xs max-w-xl leading-relaxed uppercase tracking-widest">
+            <p className="mt-6 text-[#999] font-mono text-xs max-w-xl leading-relaxed uppercase tracking-widest">
               Neural gateway to the Crucible swarm. Witness the autonomous evolution of 
               software architecture in real-time.
             </p>
@@ -126,7 +126,7 @@ export default function StagePage() {
                 transition={{ delay: 0.2 + (i * 0.1) }}
                 className="relative group"
               >
-                <div className="flex items-center gap-2 mb-3 text-[#555] group-hover:text-[#888] transition-colors">
+                <div className="flex items-center gap-2 mb-3 text-[#999] group-hover:text-[#ccc] transition-colors">
                   <s.icon className="w-3.5 h-3.5" style={{ color: s.color }} />
                   <span className="font-mono text-[10px] uppercase tracking-[0.2em]">{s.label}</span>
                 </div>
@@ -151,7 +151,7 @@ export default function StagePage() {
             {events.length === 0 && !isLoading && (
               <div className="h-64 flex flex-col items-center justify-center border border-dashed border-[#1a1a1a] rounded-2xl">
                 <Mic2 className="w-8 h-8 text-[#222] mb-4" />
-                <p className="font-mono text-[10px] text-[#444] uppercase tracking-widest">Awaiting Neural Broadcast...</p>
+                <p className="font-mono text-[10px] text-[#888] uppercase tracking-widest">Awaiting Neural Broadcast...</p>
               </div>
             )}
           </div>
@@ -171,7 +171,7 @@ export default function StagePage() {
                 human-navigable holographic broadcasts. Each pulse represents a verified 
                 milestone in platform self-evolution.
               </p>
-              <button className="w-full py-4 bg-[#0a0a0a] border border-[#1a1a1a] text-[#888] font-mono text-[10px] uppercase tracking-[0.3em] rounded-2xl hover:bg-[#00ff8808] hover:border-[#00ff8830] hover:text-[#00ff88] transition-all duration-300 shadow-inner group">
+              <button className="w-full py-4 bg-[#0a0a0a] border border-[#1a1a1a] text-[#aaa] font-mono text-[10px] uppercase tracking-[0.3em] rounded-2xl hover:bg-[#00ff8808] hover:border-[#00ff8830] hover:text-[#00ff88] transition-all duration-300 shadow-inner group">
                 <span className="flex items-center justify-center gap-2">
                   Access Core Archives <ChevronRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
                 </span>
@@ -179,7 +179,7 @@ export default function StagePage() {
             </div>
 
             <div className="space-y-6">
-              <h4 className="font-mono text-[10px] text-[#333] uppercase tracking-[0.4em] px-4">Tactical Telemetry</h4>
+              <h4 className="font-mono text-[10px] text-[#888] uppercase tracking-[0.4em] px-4">Tactical Telemetry</h4>
               <div className="p-2 bg-[#050505] rounded-[1.5rem] border border-[#111] shadow-xl">
                 {[
                   { name: 'Compression', value: '14.2%', change: '+0.4%', icon: Activity },
@@ -189,9 +189,9 @@ export default function StagePage() {
                   <div key={i} className="flex items-center justify-between p-4 hover:bg-[#ffffff03] transition-colors rounded-xl group/item">
                     <div className="flex items-center gap-3">
                       <div className="w-8 h-8 rounded-lg bg-[#111] border border-[#222] flex items-center justify-center group-hover/item:border-[#00ff8840] transition-colors">
-                        <stat.icon className="w-3.5 h-3.5 text-[#444] group-hover/item:text-[#00ff88]" />
+                        <stat.icon className="w-3.5 h-3.5 text-[#888] group-hover/item:text-[#00ff88]" />
                       </div>
-                      <span className="font-mono text-[10px] text-[#666] uppercase group-hover/item:text-[#999]">{stat.name}</span>
+                      <span className="font-mono text-[10px] text-[#999] uppercase group-hover/item:text-[#ccc]">{stat.name}</span>
                     </div>
                     <div className="text-right">
                       <div className="text-sm font-bold text-white font-mono tracking-tight">{stat.value}</div>
@@ -228,13 +228,13 @@ function BroadcastCard({ event, index, timeAgo }: { event: BroadcastEvent; index
       <div className="flex flex-col md:flex-row gap-8">
         <div className="shrink-0 flex md:flex-col items-center justify-between md:justify-start gap-4">
           <div className={`w-16 h-16 rounded-3xl flex items-center justify-center border transition-all duration-500 transform group-hover:scale-110 ${
-            isBroadcast ? 'bg-[#00ff8810] border-[#00ff8830] text-[#00ff88] shadow-[0_0_20px_rgba(0,255,136,0.1)]' : 'bg-[#0a0a0a] border-[#1a1a1a] text-[#444]'
+            isBroadcast ? 'bg-[#00ff8810] border-[#00ff8830] text-[#00ff88] shadow-[0_0_20px_rgba(0,255,136,0.1)]' : 'bg-[#0a0a0a] border-[#1a1a1a] text-[#888]'
           }`}>
             {isBroadcast ? <Mic2 className="w-7 h-7" /> : <Activity className="w-7 h-7" />}
           </div>
           <div className="text-right md:text-center mt-2">
-            <div className="font-mono text-[10px] text-[#333] group-hover:text-[#555] whitespace-nowrap transition-colors">{timeAgo}</div>
-            <div className={`font-mono text-[10px] font-black uppercase tracking-widest mt-1 ${isBroadcast ? 'text-[#00ff88]' : 'text-[#444]'}`}>
+            <div className="font-mono text-[10px] text-[#888] group-hover:text-[#aaa] whitespace-nowrap transition-colors">{timeAgo}</div>
+            <div className={`font-mono text-[10px] font-black uppercase tracking-widest mt-1 ${isBroadcast ? 'text-[#00ff88]' : 'text-[#888]'}`}>
               {event.event_type}
             </div>
           </div>
@@ -270,7 +270,7 @@ function BroadcastCard({ event, index, timeAgo }: { event: BroadcastEvent; index
             </div>
             
             <div className="flex items-center gap-4">
-              <div className="text-[#333] font-mono text-[10px] uppercase tracking-widest font-bold">Node Intensity</div>
+              <div className="text-[#888] font-mono text-[10px] uppercase tracking-widest font-bold">Node Intensity</div>
               <div className="w-40 h-1.5 bg-[#0a0a0a] rounded-full overflow-hidden border border-[#ffffff05] shadow-inner">
                 <motion.div 
                   initial={{ width: 0 }}

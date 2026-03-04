@@ -88,7 +88,7 @@ export function BlueprintHero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8 }}
-        className="relative z-10 font-mono text-sm tracking-widest text-[#888] h-6 mb-10"
+        className="relative z-10 font-mono text-sm tracking-widest text-[#aaa] h-6 mb-10"
       >
         {displayed}
         <span className="inline-block w-0.5 h-4 bg-[#ff8c00] ml-0.5 animate-[blink_1s_step-end_infinite]" />
@@ -101,7 +101,7 @@ export function BlueprintHero() {
         transition={{ delay: 1.4 }}
         className="relative z-10 flex flex-col items-center gap-2"
       >
-        <span className="font-mono text-[9px] tracking-widest text-[#333]">SCROLL TO ENGAGE</span>
+        <span className="font-mono text-[9px] tracking-widest text-[#888]">SCROLL TO ENGAGE</span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.5, ease: 'easeInOut' }}

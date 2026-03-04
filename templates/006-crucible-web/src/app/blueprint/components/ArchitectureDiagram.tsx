@@ -45,7 +45,7 @@ export function ArchitectureDiagram() {
         <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-[#e0e0e0]">
           HOW IT ALL CONNECTS
         </h2>
-        <p className="text-[#555] font-mono text-sm mt-4">
+        <p className="text-[#888] font-mono text-sm mt-4">
           From browser to database to autonomous agents — the full signal path.
         </p>
       </motion.div>
@@ -94,7 +94,7 @@ export function ArchitectureDiagram() {
                 <text x={x} y={y - 32} textAnchor="middle" fill={node.color} fontSize="9" fontFamily="monospace" fontWeight="bold" letterSpacing="2">
                   {node.label}
                 </text>
-                <text x={x} y={y + 38} textAnchor="middle" fill="#444" fontSize="8" fontFamily="monospace">
+                <text x={x} y={y + 38} textAnchor="middle" fill="#888" fontSize="8" fontFamily="monospace">
                   {node.sublabel}
                 </text>
               </motion.g>

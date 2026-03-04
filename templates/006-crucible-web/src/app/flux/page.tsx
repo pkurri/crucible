@@ -219,12 +219,12 @@ export default function FluxPage() {
                 <div className="w-3 h-3 rounded-full bg-[#ff8c00]"></div>
                 <div className="w-3 h-3 rounded-full bg-[#00ff88]"></div>
               </div>
-              <div className="ml-4 font-mono text-[10px] text-[#888] tracking-widest">FORGE_TERMINAL // SUPABASE_REALTIME</div>
+              <div className="ml-4 font-mono text-[10px] text-[#aaa] tracking-widest">FORGE_TERMINAL // SUPABASE_REALTIME</div>
             </div>
 
             <div className="bg-[#050505] p-6 flex-1 overflow-y-auto font-mono text-sm relative z-10" ref={scrollRef}>
               {logs.length === 0 ? (
-                <div className="text-[#555] tracking-widest uppercase animate-pulse">
+                <div className="text-[#888] tracking-widest uppercase animate-pulse">
                   INITIALIZING FLUX RECEPTORS...
                 </div>
               ) : (
@@ -235,7 +235,7 @@ export default function FluxPage() {
                     key={log.id} 
                     className="mb-2 flex gap-4 opacity-90 hover:opacity-100 transition-opacity hover:bg-[#1a1a1a] p-1 -mx-1 rounded"
                   >
-                    <span className="text-[#555] shrink-0">{log.timestamp}</span>
+                    <span className="text-[#888] shrink-0">{log.timestamp}</span>
                     <span className={`
                       ${log.type === 'success' ? 'text-[#00ff88] drop-shadow-[0_0_5px_rgba(0,255,136,0.3)]' : ''}
                       ${log.type === 'error' ? 'text-[#ff3333] drop-shadow-[0_0_5px_rgba(255,51,51,0.3)]' : ''}

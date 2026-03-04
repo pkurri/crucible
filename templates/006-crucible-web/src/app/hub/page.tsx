@@ -23,7 +23,10 @@ import {
   Database,
   Terminal,
   Fingerprint,
-  Lock
+  Lock,
+  CheckCircle,
+  Loader2,
+  X
 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 
@@ -68,6 +71,19 @@ export default function ForgeHub() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTab, setActiveTab] = useState<'templates' | 'skills'>('templates');
   const [hoveredId, setHoveredId] = useState<string | null>(null);
+  const [activeToast, setActiveToast] = useState<{ id: string; name: string } | null>(null);
+  const [importingId, setImportingId] = useState<string | null>(null);
+
+  const handleImport = async (tpl: HubTemplate) => {
+    setImportingId(tpl.id);
+    // Simulate planetary sync
+    await new Promise(resolve => setTimeout(resolve, 1500));
+    setImportingId(null);
+    setActiveToast({ id: tpl.id, name: tpl.name });
+    
+    // Auto-hide toast
+    setTimeout(() => setActiveToast(null), 4000);
+  };
 
   useEffect(() => {
     async function fetchData() {
@@ -115,7 +131,7 @@ export default function ForgeHub() {
           <h1 className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-400 to-[#222] uppercase tracking-tighter leading-[0.85] mb-6">
             FORGE<br />HUB
           </h1>
-          <p className="text-[#666] font-mono text-xs md:text-sm max-w-xl leading-relaxed uppercase tracking-wider">
+          <p className="text-[#999] font-mono text-xs md:text-sm max-w-xl leading-relaxed uppercase tracking-wider">
             Standardized registry for planetary AI intelligence. Browse architectural blueprints 
             and MCP skills shared by the global automation fleet.
           </p>
@@ -137,7 +153,7 @@ export default function ForgeHub() {
               className="brick p-5 rounded-xl border border-[#1a1a1a] bg-[#0a0a0a]/50 backdrop-blur"
             >
               <stat.icon className="w-4 h-4 text-[#ff8c00] mb-3" />
-              <div className="font-mono text-[10px] text-[#444] uppercase tracking-widest">{stat.label}</div>
+              <div className="font-mono text-[10px] text-[#888] uppercase tracking-widest">{stat.label}</div>
               <div className="text-2xl font-black mt-1 text-white">{stat.value}</div>
             </motion.div>
           ))}
@@ -153,7 +169,7 @@ export default function ForgeHub() {
                 className={`px-6 py-2 rounded-md font-mono text-[10px] uppercase tracking-widest transition-all ${
                   activeTab === tab 
                     ? 'bg-[#ff8c00] text-black font-bold shadow-[0_0_20px_rgba(255,140,0,0.3)]' 
-                    : 'text-[#444] hover:text-[#888]'
+                    : 'text-[#888] hover:text-[#bbb]'
                 }`}
               >
                 {tab}
@@ -162,13 +178,13 @@ export default function ForgeHub() {
           </div>
 
           <div className="relative w-full md:w-96">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#333]" />
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#666]" />
             <input
               type="text"
               placeholder={`SEARCH FORGE ${activeTab === 'templates' ? 'BLUEPRINTS' : 'SKILLS'}...`}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-[#080808] border border-[#1a1a1a] rounded-xl py-3 pl-12 pr-4 font-mono text-[10px] uppercase tracking-widest focus:border-[#ff8c00]/50 focus:outline-none transition-all placeholder:text-[#222]"
+              className="w-full bg-[#080808] border border-[#1a1a1a] rounded-xl py-3 pl-12 pr-4 font-mono text-[10px] uppercase tracking-widest focus:border-[#ff8c00]/50 focus:outline-none transition-all placeholder:text-[#444]"
             />
           </div>
         </div>
@@ -203,7 +219,7 @@ export default function ForgeHub() {
                         <IconComp className="w-6 h-6 text-[#ff8c00]" />
                       </div>
                       <div className="flex flex-col items-end">
-                        <span className="font-mono text-[8px] text-[#444] uppercase tracking-widest mb-1">{tpl.tier}</span>
+                        <span className="font-mono text-[8px] text-[#888] uppercase tracking-widest mb-1">{tpl.tier}</span>
                         <div className={`w-3 h-3 rounded-full ${tpl.complexity === 'High' ? 'bg-[#ff3333]' : tpl.complexity === 'Medium' ? 'bg-[#ff8c00]' : 'bg-[#00ff88]'} blur-[4px]`} />
                       </div>
                     </div>
@@ -211,24 +227,32 @@ export default function ForgeHub() {
                     <h3 className="text-xl font-black text-white uppercase tracking-tight mb-3 group-hover:text-[#ff8c00] transition-colors">
                       {tpl.name}
                     </h3>
-                    <p className="text-[#666] text-xs leading-relaxed mb-6 line-clamp-2 uppercase tracking-wide">
+                    <p className="text-[#999] text-xs leading-relaxed mb-6 line-clamp-2 uppercase tracking-wide">
                       {tpl.description}
                     </p>
 
                     <div className="space-y-4 mb-8">
                       <div className="flex items-center justify-between text-[10px] font-mono border-b border-[#111] pb-2">
-                        <span className="text-[#333] uppercase">Complexity</span>
+                        <span className="text-[#888] uppercase">Complexity</span>
                         <span className="text-white">{tpl.complexity}</span>
                       </div>
                       <div className="flex items-center justify-between text-[10px] font-mono border-b border-[#111] pb-2">
-                        <span className="text-[#333] uppercase">Agents</span>
+                        <span className="text-[#888] uppercase">Agents</span>
                         <span className="text-white">{tpl.included_agents?.length || 0} Nodes</span>
                       </div>
                     </div>
 
-                    <button className="w-full py-3 bg-[#111] hover:bg-[#ff8c00] text-[#ff8c00] hover:text-black font-mono text-[10px] font-bold uppercase tracking-[0.2em] rounded-lg transition-all border border-[#222] hover:border-[#ff8c00] flex items-center justify-center gap-2">
-                      <Download className="w-3.5 h-3.5" />
-                      Import Blueprint
+                    <button 
+                      onClick={() => handleImport(tpl)}
+                      disabled={importingId === tpl.id}
+                      className="w-full py-3 bg-[#111] hover:bg-[#ff8c00] text-[#ff8c00] hover:text-black font-mono text-[10px] font-bold uppercase tracking-[0.2em] rounded-lg transition-all border border-[#222] hover:border-[#ff8c00] flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed group/btn"
+                    >
+                      {importingId === tpl.id ? (
+                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      ) : (
+                        <Download className="w-3.5 h-3.5 group-hover/btn:scale-125 transition-transform" />
+                      )}
+                      {importingId === tpl.id ? 'SYNCING...' : 'Import Blueprint'}
                     </button>
                   </motion.div>
                 );
@@ -254,16 +278,16 @@ export default function ForgeHub() {
                         {skill.name}
                       </h3>
                     </div>
-                    <button className="p-2 bg-[#111] rounded-lg border border-[#222] text-[#444] hover:text-[#ff8c00] transition-all">
+                    <button className="p-2 bg-[#111] rounded-lg border border-[#222] text-[#888] hover:text-[#ff8c00] transition-all">
                       <Share2 className="w-4 h-4" />
                     </button>
                   </div>
-                  <p className="text-[#666] text-sm leading-relaxed mb-8 max-w-md">
+                  <p className="text-[#999] text-sm leading-relaxed mb-8 max-w-md">
                     {skill.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {skill.capabilities?.map((cap, ci) => (
-                      <span key={ci} className="px-3 py-1 bg-[#111] border border-[#222] text-[#444] font-mono text-[9px] uppercase tracking-widest rounded-full">
+                      <span key={ci} className="px-3 py-1 bg-[#111] border border-[#222] text-[#888] font-mono text-[9px] uppercase tracking-widest rounded-full">
                         {cap}
                       </span>
                     ))}
@@ -287,6 +311,32 @@ export default function ForgeHub() {
             <div className="font-mono text-xs text-[#444] uppercase tracking-widest">No matching blueprints found in the registry</div>
           </div>
         )}
+        
+        {/* Notification Toast */}
+        <AnimatePresence>
+          {activeToast && (
+            <motion.div
+              initial={{ opacity: 0, y: 50, scale: 0.9 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 20, scale: 0.9 }}
+              className="fixed bottom-10 right-10 z-[100] brick p-6 rounded-2xl border border-[#ff8c00]/40 bg-[#0d0800] shadow-[0_20px_50px_rgba(0,0,0,0.5)] flex items-center gap-4 min-w-[320px]"
+            >
+              <div className="w-10 h-10 rounded-full bg-[#ff8c00]/20 flex items-center justify-center border border-[#ff8c00]/30 shadow-[0_0_15px_rgba(255,140,0,0.2)]">
+                <CheckCircle className="w-5 h-5 text-[#ff8c00]" />
+              </div>
+              <div>
+                <div className="font-mono text-[9px] text-[#ff8c00] tracking-[0.3em] uppercase mb-1">PLANETARY SYNC COMPLETE</div>
+                <div className="text-white font-bold text-sm tracking-tight">{activeToast.name.toUpperCase()} IMPORTED</div>
+              </div>
+              <button 
+                onClick={() => setActiveToast(null)}
+                className="ml-auto text-[#444] hover:text-white transition-colors"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </main>
   );

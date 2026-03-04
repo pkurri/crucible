@@ -102,12 +102,12 @@ export function ForgeRail({
                       font-mono text-[11px] tracking-widest transition-all duration-150
                       ${active
                         ? 'bg-[#ff8c00]/10 text-[#ff8c00]'
-                        : 'text-[#555] hover:bg-[#111] hover:text-[#e0e0e0]'
+                        : 'text-[#999] hover:bg-[#111] hover:text-[#fff]'
                       }
                     `}
                   >
                     {/* Icon */}
-                    <div className={`shrink-0 relative ${active ? 'text-[#ff8c00]' : 'text-[#444] group-hover:text-[#ff8c00]'} transition-colors duration-150`}>
+                    <div className={`shrink-0 relative ${active ? 'text-[#ff8c00]' : 'text-[#666] group-hover:text-[#ff8c00]'} transition-colors duration-150`}>
                       <Icon size={18} strokeWidth={1.5} aria-hidden="true" />
                       {active && (
                         <span className="absolute -left-2.5 top-1/2 -translate-y-1/2 w-0.5 h-4 bg-[#ff8c00] shadow-[0_0_6px_#ff8c00]" />
@@ -117,7 +117,7 @@ export function ForgeRail({
                     {/* Label */}
                     <div className={`flex flex-col overflow-hidden ${collapsed ? 'md:hidden' : ''}`}>
                       <span className="truncate">{label}</span>
-                      <span className={`text-[9px] tracking-widest truncate ${active ? 'text-[#ff8c00]/60' : 'text-[#333] group-hover:text-[#444]'}`}>
+                      <span className={`text-[9px] tracking-widest truncate ${active ? 'text-[#ff8c00]/60' : 'text-[#888] group-hover:text-[#aaa]'}`}>
                         {sublabel}
                       </span>
                     </div>
@@ -149,7 +149,7 @@ export function ForgeRail({
             onClick={onToggle}
             aria-expanded={!collapsed}
             aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
-            className={`hidden md:flex w-full items-center px-4 py-3 border-t border-[#1a1a1a] text-[#333] hover:text-[#ff8c00] hover:bg-[#0d0800] transition-colors duration-150 ${collapsed ? 'justify-center' : 'justify-between'}`}
+            className={`hidden md:flex w-full items-center px-4 py-3 border-t border-[#1a1a1a] text-[#888] hover:text-[#ff8c00] hover:bg-[#0d0800] transition-colors duration-150 ${collapsed ? 'justify-center' : 'justify-between'}`}
           >
             <span className={`font-mono text-[9px] tracking-widest ${collapsed ? 'md:hidden' : ''}`}>
               {collapsed ? "" : "COLLAPSE"}

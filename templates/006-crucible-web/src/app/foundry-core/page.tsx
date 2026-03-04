@@ -160,10 +160,10 @@ export default function FoundryCorePage() {
             <Flame className="w-5 h-5 text-[#ff8c00]" />
             <span className="font-mono text-[#ff8c00] tracking-[0.4em] text-[10px] uppercase">The Foundry Core</span>
           </div>
-          <h1 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-300 to-[#444] uppercase tracking-tighter">
+          <h1 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-300 to-[#888] uppercase tracking-tighter">
             Operational Nerve Center
           </h1>
-          <p className="text-[#555] font-mono text-xs mt-2 max-w-2xl">
+          <p className="text-[#999] font-mono text-xs mt-2 max-w-2xl">
             Build, monitor, and control the entire Crucible platform. Agents operate autonomously — this is your command interface.
           </p>
         </motion.div>
@@ -182,7 +182,7 @@ export default function FoundryCorePage() {
               <div key={i} className="bg-[#050505] p-4 flex flex-col items-center gap-1">
                 <Icon className="w-4 h-4" style={{ color: s.color }} />
                 <span className="font-mono text-lg font-bold text-white">{s.value}</span>
-                <span className="font-mono text-[8px] text-[#444] uppercase tracking-widest">{s.label}</span>
+                <span className="font-mono text-[8px] text-[#888] uppercase tracking-widest">{s.label}</span>
               </div>
             );
           })}
@@ -197,7 +197,7 @@ export default function FoundryCorePage() {
             {isSpawning ? 'Spawning...' : 'Spawn Agent'}
           </button>
           <button onClick={fetchAll}
-            className="px-4 py-2.5 bg-[#111] border border-[#333] text-[#666] font-mono text-xs rounded-lg hover:text-white transition-colors flex items-center gap-2">
+            className="px-4 py-2.5 bg-[#111] border border-[#333] text-[#999] font-mono text-xs rounded-lg hover:text-white transition-colors flex items-center gap-2">
             <RefreshCw className="w-3.5 h-3.5" /> Refresh
           </button>
         </motion.div>
@@ -206,7 +206,7 @@ export default function FoundryCorePage() {
           {(['agents', 'blueprints'] as const).map(tab => (
             <button key={tab} onClick={() => setActiveTab(tab)}
               className={`px-5 py-2.5 font-mono text-xs uppercase tracking-wider transition-all border-b-2 ${
-                activeTab === tab ? 'text-[#ff8c00] border-[#ff8c00]' : 'text-[#555] border-transparent hover:text-[#888]'
+                activeTab === tab ? 'text-[#ff8c00] border-[#ff8c00]' : 'text-[#888] border-transparent hover:text-[#bbb]'
               }`}>
               {tab === 'agents' && <Bot className="w-3.5 h-3.5 inline mr-2" />}
               {tab === 'blueprints' && <FileText className="w-3.5 h-3.5 inline mr-2" />}
@@ -239,25 +239,25 @@ export default function FoundryCorePage() {
                             </div>
                             <div>
                               <h3 className="font-bold text-white text-sm">{agent.name}</h3>
-                              <span className="font-mono text-[9px] text-[#444] uppercase tracking-widest">{agent.type}</span>
+                              <span className="font-mono text-[9px] text-[#888] uppercase tracking-widest">{agent.type}</span>
                             </div>
                           </div>
                           <div className="flex items-center gap-4">
                             <div className="hidden sm:flex items-center gap-6 mr-4">
                               <div className="text-center">
                                 <div className="font-mono text-sm font-bold text-white">{agent.tasks_completed || 0}</div>
-                                <div className="font-mono text-[8px] text-[#333] uppercase">Tasks</div>
+                                <div className="font-mono text-[8px] text-[#777] uppercase">Tasks</div>
                               </div>
                               <div className="text-center">
-                                <div className="font-mono text-sm font-bold text-[#666]">{timeAgo(agent.last_active_at)}</div>
-                                <div className="font-mono text-[8px] text-[#333] uppercase">Last Active</div>
+                                <div className="font-mono text-sm font-bold text-[#aaa]">{timeAgo(agent.last_active_at)}</div>
+                                <div className="font-mono text-[8px] text-[#777] uppercase">Last Active</div>
                               </div>
                             </div>
                             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full" style={{ backgroundColor: cfg.bg }}>
                               <div className="w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: cfg.color }} />
                               <span className="font-mono text-[9px] uppercase font-bold" style={{ color: cfg.color }}>{agent.status}</span>
                             </div>
-                            {isExpanded ? <ChevronDown className="w-4 h-4 text-[#444]" /> : <ChevronRight className="w-4 h-4 text-[#333]" />}
+                            {isExpanded ? <ChevronDown className="w-4 h-4 text-[#888]" /> : <ChevronRight className="w-4 h-4 text-[#777]" />}
                           </div>
                         </div>
                       </div>
@@ -266,7 +266,7 @@ export default function FoundryCorePage() {
                         {isExpanded && (
                           <motion.div initial={{ height: 0 }} animate={{ height: 'auto' }} exit={{ height: 0 }} className="overflow-hidden">
                             <div className="px-5 pb-5 pt-0 border-t border-[#111]">
-                              <p className="text-[#555] font-mono text-[11px] leading-relaxed mt-4 mb-3">{agent.description}</p>
+                              <p className="text-[#999] font-mono text-[11px] leading-relaxed mt-4 mb-3">{agent.description}</p>
                               <div className="flex flex-wrap gap-1.5">
                                 {(agent.capabilities || []).map((cap, ci) => (
                                   <span key={ci} className="px-2 py-1 rounded text-[9px] font-mono uppercase bg-[#ff8c00]/5 text-[#ff8c00]/70 border border-[#ff8c00]/10">
@@ -308,7 +308,7 @@ export default function FoundryCorePage() {
                             TPL-{bp.template_id}
                           </span>
                         </div>
-                        <span className="font-mono text-[10px] text-[#444]">{bp.id}</span>
+                        <span className="font-mono text-[10px] text-[#888]">{bp.id}</span>
                       </div>
                       <div className="flex items-center gap-6 shrink-0">
                         <div className="text-right">
@@ -316,7 +316,7 @@ export default function FoundryCorePage() {
                             <div className={`w-1.5 h-1.5 rounded-full ${bp.status === 'building' || bp.status === 'reviewing' ? 'animate-pulse' : ''}`} style={{ backgroundColor: color }} />
                             <span className="font-mono text-xs font-bold uppercase tracking-widest" style={{ color }}>{bp.status}</span>
                           </div>
-                          <div className="font-mono text-[9px] text-[#555]">{timeAgo(bp.created_at)}</div>
+                          <div className="font-mono text-[9px] text-[#888]">{timeAgo(bp.created_at)}</div>
                         </div>
                       </div>
                     </motion.div>
@@ -325,8 +325,8 @@ export default function FoundryCorePage() {
                 {blueprints.length === 0 && (
                   <div className="text-center py-16">
                     <FileText className="w-10 h-10 text-[#1a1a1a] mx-auto mb-3" />
-                    <p className="font-mono text-xs text-[#333]">No blueprints queued in the Forge yet</p>
-                    <p className="font-mono text-[10px] text-[#222] mt-1">Deploy a template from The Armory</p>
+                    <p className="font-mono text-xs text-[#888]">No blueprints queued in the Forge yet</p>
+                    <p className="font-mono text-[10px] text-[#666] mt-1">Deploy a template from The Armory</p>
                   </div>
                 )}
               </div>
@@ -337,7 +337,7 @@ export default function FoundryCorePage() {
           <div className="xl:col-span-3">
             <div className="flex items-center gap-2 mb-4">
               <Radio className="w-4 h-4 text-[#3b82f6]" />
-              <h2 className="font-mono text-[10px] text-[#555] uppercase tracking-widest">Forge Events</h2>
+              <h2 className="font-mono text-[10px] text-[#999] uppercase tracking-widest">Forge Events</h2>
             </div>
             <div className="space-y-1.5 max-h-[800px] overflow-y-auto pr-1">
               {events.map((e, i) => {
@@ -355,9 +355,9 @@ export default function FoundryCorePage() {
                     <div className="flex items-center gap-1.5 mb-0.5">
                       <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }} />
                       <span className="font-mono text-[8px] font-bold uppercase" style={{ color }}>{e.event_type}</span>
-                      <span className="font-mono text-[7px] text-[#222] ml-auto">{timeAgo(e.created_at)}</span>
+                      <span className="font-mono text-[7px] text-[#666] ml-auto">{timeAgo(e.created_at)}</span>
                     </div>
-                    <p className="font-mono text-[9px] text-[#444] line-clamp-2 leading-relaxed">{e.message}</p>
+                    <p className="font-mono text-[9px] text-[#888] line-clamp-2 leading-relaxed">{e.message}</p>
                   </motion.div>
                 );
               })}

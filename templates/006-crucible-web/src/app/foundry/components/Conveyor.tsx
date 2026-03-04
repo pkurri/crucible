@@ -61,7 +61,7 @@ function StationCard({ architect, index }: { architect: Architect; index: number
 
       {/* Top status strip */}
       <div className="flex items-center justify-between px-5 pt-4 pb-3 border-b border-[#2a2a2a]">
-        <span className="font-mono text-[10px] text-[#555] tracking-widest">{architect.station}</span>
+        <span className="font-mono text-[10px] text-[#888] tracking-widest">{architect.station}</span>
         <div className="flex items-center gap-1.5">
           <div className="w-1.5 h-1.5 rounded-full bg-[#00ff88] animate-pulse shadow-[0_0_6px_#00ff88]" />
           <span className="font-mono text-[10px] text-[#00ff88] tracking-widest">{architect.status}</span>
@@ -80,15 +80,15 @@ function StationCard({ architect, index }: { architect: Architect; index: number
       {/* Content */}
       <div className="px-5 pt-5 pb-5 flex flex-col gap-3">
         <div>
-          <p className="font-mono text-[10px] text-[#555] tracking-widest mb-1">{architect.id}</p>
+          <p className="font-mono text-[10px] text-[#888] tracking-widest mb-1">{architect.id}</p>
           <h3 className="text-xl font-black text-white group-hover:text-[#ff8c00] transition-colors duration-200">
             {architect.name}
           </h3>
-          <p className="font-mono text-xs text-[#888] mt-1">{architect.role}</p>
+          <p className="font-mono text-xs text-[#aaa] mt-1">{architect.role}</p>
         </div>
 
         <div className="pt-3 border-t border-[#1a1a1a]">
-          <p className="font-mono text-[10px] text-[#444] tracking-widest">SPECIALTY</p>
+          <p className="font-mono text-[10px] text-[#666] tracking-widest">SPECIALTY</p>
           <p className="font-mono text-xs text-[#ff8c00]/80 mt-0.5">{architect.specialty}</p>
         </div>
       </div>
@@ -116,7 +116,7 @@ export function Conveyor() {
   return (
     <div className="relative">
       {/* Rail label */}
-      <div className="flex items-center gap-3 mb-4 font-mono text-[10px] tracking-widest text-[#555]">
+      <div className="flex items-center gap-3 mb-4 font-mono text-[10px] tracking-widest text-[#888]">
         <div className="w-4 h-[1px] bg-[#333]" />
         THE CONVEYOR — ACTIVE STATIONS
         <div className="flex-1 h-[1px] bg-gradient-to-r from-[#333] to-transparent" />
@@ -143,7 +143,7 @@ export function Conveyor() {
           />
         ))}
         {agents.length === 0 && (
-          <div className="py-12 px-8 font-mono text-[10px] text-[#222] tracking-widest border border-dashed border-[#1a1a1a] rounded-xl">
+          <div className="py-12 px-8 font-mono text-[10px] text-[#666] tracking-widest border border-dashed border-[#1a1a1a] rounded-xl">
             AWAITING DEPLOYMENT OF AUTONOMOUS NODES...
           </div>
         )}

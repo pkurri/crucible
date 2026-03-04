@@ -42,7 +42,7 @@ export function Manifest() {
             transition={{ delay: i * 0.06, duration: 0.3 }}
             className="group p-5 bg-[#050505] hover:bg-[#0d0800] transition-colors duration-300"
           >
-            <p className="font-mono text-[9px] tracking-widest text-[#444] mb-2">{spec.label}</p>
+            <p className="font-mono text-[9px] tracking-widest text-[#666] mb-2">{spec.label}</p>
             <p className="font-mono text-sm font-bold text-[#ff8c00] group-hover:text-[#ffa500] transition-colors duration-200">
               {spec.value}
             </p>
@@ -53,7 +53,7 @@ export function Manifest() {
       {/* Bottom stamp */}
       <div className="mt-6 flex items-center gap-4">
         <div className="flex-1 h-[1px] bg-gradient-to-r from-transparent to-[#2a2a2a]" />
-        <div className="border border-[#333] px-4 py-2 font-mono text-[10px] text-[#333] tracking-widest">
+        <div className="border border-[#333] px-4 py-2 font-mono text-[10px] text-[#666] tracking-widest">
           CRUCIBLE // ALL SYSTEMS NOMINAL
         </div>
         <div className="flex-1 h-[1px] bg-gradient-to-l from-transparent to-[#2a2a2a]" />

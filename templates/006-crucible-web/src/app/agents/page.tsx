@@ -92,10 +92,10 @@ export default function FoundrySwarmPage() {
           
           <div className="flex flex-col xl:flex-row xl:items-end justify-between gap-8">
             <div>
-              <h1 className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-400 to-[#222] uppercase tracking-tighter mb-4">
+              <h1 className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-400 to-[#888] uppercase tracking-tighter mb-4">
                 Swarm Reactor
               </h1>
-              <p className="text-[#888] font-mono text-sm max-w-2xl leading-relaxed">
+              <p className="text-[#999] font-mono text-sm max-w-2xl leading-relaxed">
                 A massive, synchronized orbital intelligence array. Six specialized sub-routines orbiting the central Crucible, drawing telemetry and injecting raw utility directly into the product core.
               </p>
             </div>
@@ -103,21 +103,21 @@ export default function FoundrySwarmPage() {
             {/* Live Core Telemetry HUD */}
             <div className="bg-[#111] border border-[#333] p-4 rounded-xl flex items-center gap-8 shadow-2xl backdrop-blur">
                <div className="flex flex-col">
-                  <span className="text-[#555] font-mono text-[10px] uppercase tracking-widest">Main Engine</span>
+                  <span className="text-[#888] font-mono text-[10px] uppercase tracking-widest">Main Engine</span>
                   <span className="text-[#00ff88] font-bold font-mono text-lg flex items-center gap-2">
                     <Activity className="w-4 h-4"/> NOMINAL
                   </span>
                </div>
                <div className="w-px h-8 bg-[#333]"></div>
                <div className="flex flex-col">
-                  <span className="text-[#555] font-mono text-[10px] uppercase tracking-widest">Net Heat</span>
+                  <span className="text-[#888] font-mono text-[10px] uppercase tracking-widest">Net Heat</span>
                   <span className="text-[#ff3333] font-bold font-mono text-lg flex items-center gap-2">
                     <Zap className="w-4 h-4"/> 4200°C
                   </span>
                </div>
                <div className="w-px h-8 bg-[#333]"></div>
                <div className="flex flex-col">
-                  <span className="text-[#555] font-mono text-[10px] uppercase tracking-widest">Load Cycles</span>
+                  <span className="text-[#888] font-mono text-[10px] uppercase tracking-widest">Load Cycles</span>
                   <span className="text-white font-bold font-mono text-lg">9.4M</span>
                </div>
             </div>
@@ -201,20 +201,20 @@ export default function FoundrySwarmPage() {
                              <span className="text-[9px] uppercase font-mono text-[#888]">{agent.role}</span>
                            </div>
                         </div>
-                        <div className="font-mono text-[9px] text-[#555] h-8 leading-tight">
+                        <div className="font-mono text-[9px] text-[#888] h-8 leading-tight">
                           {agent.status}
                         </div>
                         <div className="mt-2 pt-2 border-t border-[#222] flex flex-col gap-1">
                            <div className="flex justify-between items-center">
-                              <span className="font-mono text-[9px] uppercase text-[#666]">Templates Forged:</span>
+                              <span className="font-mono text-[9px] uppercase text-[#888]">Templates Forged:</span>
                               <span className="font-mono text-[10px] font-bold text-white">{agent.templates_forged || 0}</span>
                            </div>
                            <div className="flex justify-between items-center">
-                              <span className="font-mono text-[9px] uppercase text-[#666]">Assets Built:</span>
+                              <span className="font-mono text-[9px] uppercase text-[#888]">Assets Built:</span>
                               <span className="font-mono text-[10px] font-bold text-white">{agent.assets_built || 0}</span>
                            </div>
                            <div className="flex justify-between items-center mt-1">
-                              <span className="font-mono text-[9px] uppercase text-[#666]">Core Temp:</span>
+                              <span className="font-mono text-[9px] uppercase text-[#888]">Core Temp:</span>
                               <span className="font-mono text-[10px] font-bold" style={{ color: agent.color }}>{agent.heat}</span>
                            </div>
                         </div>
@@ -249,7 +249,7 @@ export default function FoundrySwarmPage() {
                                   <agent.icon className="w-8 h-8" style={{ color: agent.color }} />
                                   <h2 className="text-4xl font-black text-white uppercase tracking-tighter">{agent.name}</h2>
                                </div>
-                               <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#888]">{agent.role}</span>
+                               <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#aaa]">{agent.role}</span>
                              </div>
                              <div className="px-3 py-1 font-mono text-xs font-bold rounded" style={{ backgroundColor: `${agent.color}20`, color: agent.color, border: `1px solid ${agent.color}50` }}>
                                 SYNCED
@@ -259,17 +259,17 @@ export default function FoundrySwarmPage() {
                           {/* Data Matrix */}
                           <div className="grid grid-cols-2 gap-4 mb-8 relative z-10">
                              <div className="bg-[#111] border border-[#222] p-4 rounded-xl">
-                                <Activity className="w-5 h-5 text-[#555] mb-2" />
-                                <div className="text-[#888] font-mono text-[10px] uppercase tracking-widest mb-1">Compute Load</div>
+                                <Activity className="w-5 h-5 text-[#888] mb-2" />
+                                <div className="text-[#aaa] font-mono text-[10px] uppercase tracking-widest mb-1">Compute Load</div>
                                 <div className="text-2xl font-bold text-white tracking-tighter">84.2%</div>
                              </div>
                              <div className="bg-[#111] border border-[#222] p-4 rounded-xl">
-                                <Network className="w-5 h-5 text-[#555] mb-2" />
-                                <div className="text-[#888] font-mono text-[10px] uppercase tracking-widest mb-1">Peers Active</div>
+                                <Network className="w-5 h-5 text-[#888] mb-2" />
+                                <div className="text-[#aaa] font-mono text-[10px] uppercase tracking-widest mb-1">Peers Active</div>
                                 <div className="text-2xl font-bold text-white tracking-tighter">5/5</div>
                              </div>
                              <div className="col-span-2 bg-[#111] border border-[#222] p-4 rounded-xl">
-                                <div className="text-[#888] font-mono text-[10px] uppercase tracking-widest mb-2">Current Directives</div>
+                                <div className="text-[#aaa] font-mono text-[10px] uppercase tracking-widest mb-2">Current Directives</div>
                                 <div className="font-mono text-xs text-[#00ff88] leading-relaxed bg-[#050505] p-3 rounded border border-[#222]">
                                    {'>'} Executing neural pass #4992<br/>
                                    {`> ${agent.status}`}<br/>
@@ -280,10 +280,10 @@ export default function FoundrySwarmPage() {
 
                           {/* Command Input */}
                           <div className="mt-auto relative z-10">
-                             <div className="text-[#888] font-mono text-[10px] uppercase tracking-widest mb-2">Manual Override</div>
+                             <div className="text-[#aaa] font-mono text-[10px] uppercase tracking-widest mb-2">Manual Override</div>
                              <div className="flex gap-2">
                                 <input disabled type="text" placeholder="Awaiting admin token..." className="w-full bg-[#111] border border-[#333] rounded px-4 py-3 font-mono text-xs text-white outline-none focus:border-[#ff8c00] transition-colors" />
-                                <button className="px-6 bg-[#222] text-[#888] font-mono text-xs uppercase font-bold rounded hover:bg-[#333] transition-colors border border-[#444]">
+                                <button className="px-6 bg-[#222] text-[#aaa] font-mono text-xs uppercase font-bold rounded hover:bg-[#333] transition-colors border border-[#444]">
                                    Send
                                 </button>
                              </div>

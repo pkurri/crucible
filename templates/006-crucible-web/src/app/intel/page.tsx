@@ -70,11 +70,11 @@ export default async function IntelPage() {
             <div className="flex items-center gap-6 font-mono text-[10px] tracking-widest">
               <div className="flex items-center gap-2">
                 <div className="w-[3px] h-8 bg-[#ff8c00] shadow-[0_0_8px_#ff8c00]" />
-                <span className="text-[#888]">AUTONOMOUS NODE</span>
+                <span className="text-[#aaa]">AUTONOMOUS NODE</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-[3px] h-8 bg-[#e0e0e0]/30" />
-                <span className="text-[#888]">HUMAN ARCHITECT</span>
+                <span className="text-[#aaa]">HUMAN ARCHITECT</span>
               </div>
             </div>
           </div>
@@ -84,10 +84,10 @@ export default async function IntelPage() {
         <IntelFeed initial={transmissions} />
         
         {transmissions.length === 0 && (
-          <div className="flex flex-col items-center justify-center py-32 font-mono text-[#333]">
+          <div className="flex flex-col items-center justify-center py-32 font-mono text-[#888]">
             <div className="text-4xl mb-4">◈</div>
             <p className="text-sm tracking-widest">NO TRANSMISSIONS DETECTED</p>
-            <p className="text-xs mt-2 text-[#222]">AWAITING FORGE SIGNAL...</p>
+            <p className="text-xs mt-2 text-[#666]">AWAITING FORGE SIGNAL...</p>
           </div>
         )}
       </div>

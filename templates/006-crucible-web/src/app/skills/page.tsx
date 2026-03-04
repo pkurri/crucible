@@ -84,7 +84,7 @@ export default function SkillsPage() {
         {/* Search and Filters */}
         <div className="flex flex-col md:flex-row gap-6 mb-12">
           <div className="flex-1 relative">
-            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500" />
+            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
             <input
               type="text"
               placeholder="Search internal logic arrays..."
@@ -120,7 +120,7 @@ export default function SkillsPage() {
             >
               &lt; PREV
             </button>
-            <div className="px-4 py-2 font-mono text-[#888] text-sm border border-[#2a2a2a] bg-[#050505]">
+            <div className="px-4 py-2 font-mono text-[#aaa] text-sm border border-[#2a2a2a] bg-[#050505]">
               {currentPage} / {totalPages}
             </div>
             <button 
@@ -136,7 +136,7 @@ export default function SkillsPage() {
         {/* Skills Grid */}
         {filteredSkills.length === 0 ? (
           <div className="p-12 text-center border-2 border-dashed border-[#2a2a2a]">
-            <p className="font-mono text-gray-500 uppercase tracking-widest">
+            <p className="font-mono text-gray-400 uppercase tracking-widest">
               [ NO CAPABILITIES DETECTED MATCHING QUERY ]
             </p>
           </div>
@@ -167,7 +167,7 @@ export default function SkillsPage() {
                 </p>
                 
                 <div className="mt-auto flex justify-between items-center text-xs font-mono">
-                  <span className="text-[#2a2a2a] group-hover:text-[#ff8c00] transition-colors tracking-widest">
+                  <span className="text-[#888] group-hover:text-[#ff8c00] transition-colors tracking-widest">
                     ID: {(skill.skill_id || skill.id).toUpperCase()}
                   </span>
                   <span className="text-[#00ff88] animate-pulse">

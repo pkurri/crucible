@@ -151,7 +151,7 @@ function FeatureCard({ feature, index }: { feature: typeof FEATURES[0]; index: n
       {/* Icon */}
       <div
         className="inline-flex items-center justify-center w-10 h-10 border mb-4 transition-colors duration-200"
-        style={{ borderColor: `${feature.color}30`, color: hovered ? feature.color : '#444' }}
+        style={{ borderColor: `${feature.color}30`, color: hovered ? feature.color : '#888' }}
       >
         <Icon size={18} strokeWidth={1.5} />
       </div>
@@ -159,17 +159,17 @@ function FeatureCard({ feature, index }: { feature: typeof FEATURES[0]; index: n
       {/* Labels */}
       <div className="flex items-baseline gap-3 mb-1">
         <h3 className="font-black text-base tracking-widest text-[#e0e0e0]">{feature.label}</h3>
-        <code className="font-mono text-[9px] text-[#333]">{feature.sublabel}</code>
+        <code className="font-mono text-[9px] text-[#888]">{feature.sublabel}</code>
       </div>
       <p className="font-mono text-[10px] tracking-widest mb-3" style={{ color: feature.color }}>
         {feature.tagline}
       </p>
-      <p className="text-sm text-[#555] leading-relaxed mb-4">{feature.desc}</p>
+      <p className="text-sm text-[#888] leading-relaxed mb-4">{feature.desc}</p>
 
       {/* Bullets */}
       <ul className="space-y-1.5">
         {feature.bullets.map((b) => (
-          <li key={b} className="flex items-start gap-2 font-mono text-[11px] text-[#444]">
+          <li key={b} className="flex items-start gap-2 font-mono text-[11px] text-[#aaa]">
             <span style={{ color: feature.color }} className="mt-0.5">›</span>
             {b}
           </li>
