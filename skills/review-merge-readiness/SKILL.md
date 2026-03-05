@@ -7,6 +7,10 @@ description:
   Critical/Important/Minor severity, and provide clear verdict on merge
   readiness. Trigger words: request code review, PR review, merge readiness,
   production readiness.'
+triggers:
+  - "When working with review-merge-readiness functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests review-merge-readiness capabilities"
 ---
 
 # Requesting Code Review (Structured Review: Requirements Alignment + Production Readiness)

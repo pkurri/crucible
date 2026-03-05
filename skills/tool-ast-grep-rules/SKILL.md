@@ -5,6 +5,10 @@ description:
   linting rules, code modernizations, and API migrations with auto-fix. Use when
   the user mentions ast-grep, tree-sitter patterns, code search rules, lint
   rules with YAML, AST matching, or code refactoring patterns.'
+triggers:
+  - "When working with tool-ast-grep-rules functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests tool-ast-grep-rules capabilities"
 ---
 
 # ast-grep Rule Crafter

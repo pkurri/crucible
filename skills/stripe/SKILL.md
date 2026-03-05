@@ -12,6 +12,10 @@ allowed-tools:
   - Bash
   - WebFetch
   - stripe_*
+triggers:
+  - "When working with stripe functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests stripe capabilities"
 ---
 
 # Stripe Billing Operations

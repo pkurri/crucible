@@ -6,6 +6,10 @@ description:
   docs into references, defining artifact-first I/O contracts, or
   packaging/validating a skill.'
 license: 'MIT (see repo LICENSE)'
+triggers:
+  - "When working with skill-creator functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests skill-creator capabilities"
 ---
 
 # Skill Creator

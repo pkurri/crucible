@@ -6,6 +6,10 @@ description:
   to X Articles rich text, or mentions "X article", "publish to X", "post to
   Twitter articles". Converts Markdown → HTML, pastes rich text, and inserts
   images deterministically.'
+triggers:
+  - "When working with publish-x-article functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests publish-x-article capabilities"
 ---
 
 # X Article Publisher

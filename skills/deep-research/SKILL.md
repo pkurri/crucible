@@ -14,6 +14,10 @@ allowed-tools:
   - Read
   - Grep
   - Glob
+triggers:
+  - "When working with deep-research functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests deep-research capabilities"
 ---
 
 # Deep Research (Explore)

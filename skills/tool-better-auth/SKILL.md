@@ -4,6 +4,10 @@ description:
   Use when implementing authentication with Better Auth in a TypeScript/Next.js
   app (session strategy, providers, cookies, CSRF, redirects, middleware, and
   security best practices).
+triggers:
+  - "When working with tool-better-auth functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests tool-better-auth capabilities"
 ---
 
 # Better Auth Integration Guide

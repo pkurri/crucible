@@ -5,6 +5,10 @@ description:
   (events.jsonl/state.json) under runs/ (or OpenSpec changes/). Use when you
   want to iterate on skills based on real runs: find failure modes, bottlenecks,
   unclear prompts, missing I/O contracts, and propose concrete edits.'
+triggers:
+  - "When working with skill-improver functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests skill-improver capabilities"
 ---
 
 # Skill Improver

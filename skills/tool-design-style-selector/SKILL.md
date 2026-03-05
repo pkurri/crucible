@@ -8,6 +8,10 @@ description:
   typography, layout. Flow: scan → intent → (gate) preserve vs preset → deploy
   design-system.md after confirmation → (default) implement UI/UX per
   design-system.md (plan first, then execute)."
+triggers:
+  - "When working with tool-design-style-selector functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests tool-design-style-selector capabilities"
 ---
 
 # Design Style Selector

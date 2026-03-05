@@ -6,6 +6,10 @@ description:
   ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health
   check." For building pages at scale to target keywords, see
   tool-programmatic-seo. For adding structured data, see tool-schema-markup.
+triggers:
+  - "When working with review-seo-audit functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests review-seo-audit capabilities"
 ---
 
 # SEO Audit

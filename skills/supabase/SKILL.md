@@ -12,6 +12,10 @@ allowed-tools:
   - Bash
   - WebFetch
   - supabase-*
+triggers:
+  - "When working with supabase functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests supabase capabilities"
 ---
 
 # Supabase Database Operations

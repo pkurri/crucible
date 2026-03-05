@@ -6,6 +6,10 @@ description:
   severity ratings and refactoring suggestions. Use when the user requests code
   quality checks, refactoring advice, Clean Code analysis, code smell detection,
   or mentions terms like code review, code quality, refactoring check.'
+triggers:
+  - "When working with review-clean-code functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests review-clean-code capabilities"
 ---
 
 # Clean Code Review

@@ -6,6 +6,10 @@ description:
   fetching, re-renders, rendering). Use when writing React components, Next.js
   pages (App Router), optimizing bundle size, improving performance, or doing a
   React/Next.js performance review.'
+triggers:
+  - "When working with review-react-best-practices functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests review-react-best-practices capabilities"
 ---
 
 # React Best Practices Review (Performance-First)

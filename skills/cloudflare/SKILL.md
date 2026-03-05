@@ -11,6 +11,10 @@ allowed-tools:
   - Read
   - Bash
   - WebFetch
+triggers:
+  - "When working with cloudflare functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests cloudflare capabilities"
 ---
 
 # Cloudflare Infrastructure Operations

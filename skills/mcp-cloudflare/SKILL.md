@@ -8,6 +8,10 @@ description:
   Super Admin (isolated environment). Write operations must follow read-first,
   user confirmation, post-execution verification.'
 disable-model-invocation: true
+triggers:
+  - "When working with mcp-cloudflare functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests mcp-cloudflare capabilities"
 ---
 
 # Cloudflare MCP Skill

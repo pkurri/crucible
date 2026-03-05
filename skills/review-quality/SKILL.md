@@ -4,6 +4,10 @@ description:
   'Unified codebase quality review: merge readiness verdict + maintainability
   (Clean Code) + docs-vs-code consistency. Use for code review, quality check,
   refactor check, outdated docs check, or merge/production readiness.'
+triggers:
+  - "When working with review-quality functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests review-quality capabilities"
 ---
 
 # Quality Review (Unified)

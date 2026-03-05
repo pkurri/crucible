@@ -8,6 +8,10 @@ description:
   planning. Write operations require confirmation; UPDATE/DELETE without WHERE
   is refused.'
 disable-model-invocation: true
+triggers:
+  - "When working with mcp-supabase functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests mcp-supabase capabilities"
 ---
 
 # Supabase MCP Skill

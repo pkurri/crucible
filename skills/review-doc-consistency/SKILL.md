@@ -9,6 +9,10 @@ description:
   (3) verifying API/config documentation accuracy (4) generating documentation
   consistency reports. Trigger words include doc review, documentation
   consistency, check outdated docs, verify docs.'
+triggers:
+  - "When working with review-doc-consistency functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests review-doc-consistency capabilities"
 ---
 
 # Documentation Consistency Reviewer

@@ -9,6 +9,10 @@ description:
   transactions, process refunds, manage subscriptions, view disputes, check
   balance, etc.'
 disable-model-invocation: true
+triggers:
+  - "When working with mcp-stripe functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests mcp-stripe capabilities"
 ---
 
 # Stripe MCP Transaction Skill
