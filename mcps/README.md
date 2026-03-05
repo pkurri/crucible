@@ -546,8 +546,7 @@ describe('MyMCPServer', () => {
 
 - **MCP Specification:** https://modelcontextprotocol.io
 - **SDK Documentation:** https://github.com/modelcontextprotocol
-- **Example Servers:** https://github.com/crucible/mcps
-- **Community Discord:** https://discord.gg/crucible
+- **Example Servers:** https://github.com/pkurri/crucible/tree/main/mcps
 
 ---
 
@@ -555,7 +554,7 @@ describe('MyMCPServer', () => {
 
 To contribute an MCP server:
 
-1. Fork the `crucible/mcps` repository
+1. Fork the `pkurri/crucible` repository
 2. Create your server in `servers/your-server-name/`
 3. Include tests and documentation
 4. Submit a pull request

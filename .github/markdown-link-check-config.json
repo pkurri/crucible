@@ -2,7 +2,11 @@
   "ignorePatterns": [
     {"pattern": "^https://github.com/pkurri"},
     {"pattern": "^https://github.com/crucible"},
-    {"pattern": "^http://localhost"}
+    {"pattern": "^http://localhost"},
+    {"pattern": "^https://mcp.stripe.com"},
+    {"pattern": "^https://discord.gg"},
+    {"pattern": "^https://docs.crucible.dev"},
+    {"pattern": "^https://better-auth.com"}
   ],
   "retryOn429": true,
   "retryCount": 3,
