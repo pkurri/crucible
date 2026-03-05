@@ -5,6 +5,10 @@ description:
   failures, and session summaries, then generates patch suggestions (no auto
   edits) via skill-improver. Use when you want the skills to self-improve safely
   and continuously.'
+triggers:
+  - 'When completing a major task or deliverable'
+  - 'When skills need self-improvement based on run artifacts'
+  - 'When reviewing session failures for pattern recognition'
 ---
 
 # Evolution
