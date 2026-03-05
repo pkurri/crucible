@@ -8,6 +8,10 @@ license: MIT
 metadata:
   author: supabase
   version: '1.0.0'
+triggers:
+  - "When working with supabase-postgres-best-practices functionality"
+  - "When this skill is referenced by another agent"
+  - "When the user requests supabase-postgres-best-practices capabilities"
 ---
 
 # Supabase Postgres Best Practices
