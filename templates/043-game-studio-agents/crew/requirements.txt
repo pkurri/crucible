@@ -1,0 +1,30 @@
+# ═══════════════════════════════════════════════════════════
+# Neon Arcade — CrewAI Python Dependencies
+# ═══════════════════════════════════════════════════════════
+#
+# FREE TIER OPTIONS (pick one in .env):
+#   Option A: Groq (free API key at console.groq.com)
+#             LLM_PROVIDER=groq  MODEL=groq/llama-3.3-70b-versatile
+#   Option B: Ollama (fully local, zero cost)
+#             LLM_PROVIDER=ollama  MODEL=ollama/llama3.2
+#
+# ═══════════════════════════════════════════════════════════
+
+# Core framework
+crewai>=0.80.0
+crewai-tools>=0.17.0
+
+# LLM routing — handles Groq, Ollama, OpenAI, etc. via one interface
+litellm>=1.54.0
+
+# Config
+python-dotenv>=1.0.0
+
+# Data validation
+pydantic>=2.7.0
+
+# Markdown parsing for prompt files
+markdown-it-py>=3.0.0
+
+# Optional UI / progress output
+rich>=13.7.0
