@@ -6,19 +6,27 @@ import { BarChart3, TrendingUp, Users, Zap, Clock, MessageSquare, Target, AlertC
 import { motion } from 'framer-motion'
 import { SpotlightCard } from '@/components/ui/SpotlightCard'
 
-const RadarVisualizer = () => {
-  const [blips, setBlips] = useState<{ id: number; x: number; y: number; delay: number }[]>([]);
+const RadarVisualizer = ({ agents }: { agents: any[] }) => {
+  const [blips, setBlips] = useState<{ id: string; x: number; y: number; delay: number; status: string }[]>([]);
 
   useEffect(() => {
-    // Generate random blips for the radar
-    const newBlips = Array.from({ length: 8 }).map((_, i) => ({
-      id: i,
-      x: Math.random() * 80 + 10, // 10% to 90%
-      y: Math.random() * 80 + 10,
-      delay: Math.random() * 4
-    }));
+    // Map agents to radar blips
+    const newBlips = agents.map((agent, i) => {
+      // Use agent ID to derive a consistent position
+      const seed = agent.id.split('').reduce((acc: number, char: string) => acc + char.charCodeAt(0), 0);
+      const x = 15 + ((seed % 70)); // 15% to 85%
+      const y = 15 + (((seed * 7) % 70));
+      
+      return {
+        id: agent.id,
+        x,
+        y,
+        delay: (i * 0.5) % 4,
+        status: agent.productivity > 90 ? 'optimal' : agent.productivity < 70 ? 'anomaly' : 'active'
+      };
+    });
     setBlips(newBlips);
-  }, []);
+  }, [agents]);
 
   return (
     <div className="relative w-full h-[400px] bg-[#050505] rounded-xl border border-[#2a2a2a] overflow-hidden flex items-center justify-center p-8 group">
@@ -55,24 +63,19 @@ const RadarVisualizer = () => {
           transition={{ duration: 2, repeat: Infinity, ease: "easeOut" }}
         />
 
-        {/* Blips */}
+        {/* Agent Blips */}
         {blips.map((blip) => (
           <motion.div
             key={blip.id}
-            className="absolute w-2 h-2 rounded-full bg-[#00ff88] shadow-[0_0_10px_rgba(0,255,136,0.8)]"
+            className={`absolute w-2 h-2 rounded-full ${blip.status === 'anomaly' ? 'bg-[#ff3333] shadow-[0_0_10px_rgba(255,51,51,0.8)]' : 'bg-[#00ff88] shadow-[0_0_10px_rgba(0,255,136,0.8)]'}`}
             style={{ left: `${blip.x}%`, top: `${blip.y}%` }}
-            animate={{ opacity: [0, 1, 0] }}
+            animate={{ 
+              opacity: [0, 1, 0.4, 1, 0],
+              scale: blip.status === 'anomaly' ? [1, 1.5, 1] : 1
+            }}
             transition={{ duration: 4, repeat: Infinity, delay: blip.delay, ease: "easeInOut" }}
           />
         ))}
-        
-        {/* Critical Anomaly Blip */}
-        <motion.div
-            className="absolute w-3 h-3 rounded-full bg-[#ff3333] shadow-[0_0_15px_rgba(255,51,51,0.9)]"
-            style={{ left: '75%', top: '25%' }}
-            animate={{ opacity: [0, 1, 0, 1, 0], scale: [1, 1.5, 1] }}
-            transition={{ duration: 4, repeat: Infinity, delay: 1.5, ease: "easeInOut" }}
-        />
       </div>
 
       {/* Overlay UI */}
@@ -81,7 +84,7 @@ const RadarVisualizer = () => {
         <span className="font-mono text-xs text-[#00ff88] tracking-widest uppercase">Global Radar Scan Active</span>
       </div>
       <div className="absolute bottom-6 right-6 font-mono text-[10px] text-[#888]">
-        SWARM_TOPOLOGY_V2 // PORT_3003
+        SWARM_TOPOLOGY_V2 // NODES: {agents.length}
       </div>
     </div>
   )
@@ -101,27 +104,69 @@ export default function MonitoringPage() {
     const fetchInitialData = async () => {
       // Fetch agents
       const { data: agentData } = await supabase.from('agents_registry').select('*');
+      
+      // Fetch recent events for metrics calculation
+      const { data: recentEvents } = await supabase
+        .from('forge_events')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(100);
+
       if (agentData) {
-        setAgents(agentData.map(a => ({
-          id: a.id,
-          name: a.name,
-          role: a.type,
-          productivity: 85 + Math.floor(Math.random() * 10), // Base calc from tasks if needed
-          communication: 80 + Math.floor(Math.random() * 15),
-          collaboration: 90,
-          quality: 92
-        })));
+        setAgents(agentData.map(a => {
+          const agentEvents = recentEvents?.filter(e => e.agent_id === a.id || e.message?.includes(a.name)) || [];
+          const successCount = agentEvents.filter(e => e.event_type === 'SUCCESS' || e.event_type === 'DEPLOY').length;
+          const errorCount = agentEvents.filter(e => e.event_type === 'ERROR' || e.event_type === 'WARN').length;
+          
+          // Calculate real metrics based on event history
+          // 85 base + success bonus - error penalty
+          const productivity = Math.min(100, Math.max(0, 85 + (successCount * 2) - (errorCount * 5)));
+          const quality = Math.min(100, Math.max(0, 90 + (successCount) - (errorCount * 8)));
+          
+          return {
+            id: a.id,
+            name: a.name,
+            role: a.type,
+            productivity,
+            communication: 80 + Math.floor(Math.random() * 15), // Still slightly randomized for drift
+            collaboration: 90,
+            quality
+          };
+        }));
       }
 
-      // Generate initial history based on recent events
-      const { data: recentEvents } = await supabase.from('forge_events').select('*').limit(6).order('created_at', { ascending: true });
-      if (recentEvents) {
-        setMetricsHistory(recentEvents.map((e, idx) => ({
-          time: new Date(e.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-          productivity: 70 + (idx * 5),
-          communication: 75 + (idx * 3),
-          collaboration: 80 + (idx * 2)
-        })));
+      // Generate history from REAL events grouped by time
+      if (recentEvents && recentEvents.length > 0) {
+        const intervals: Record<string, any> = {};
+        
+        recentEvents.forEach(e => {
+          const time = new Date(e.created_at);
+          const timeKey = `${time.getHours()}:${Math.floor(time.getMinutes() / 10)}0`;
+          
+          if (!intervals[timeKey]) {
+            intervals[timeKey] = { count: 0, success: 0, error: 0, time: time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) };
+          }
+          intervals[timeKey].count++;
+          if (e.event_type === 'SUCCESS' || e.event_type === 'DEPLOY') intervals[timeKey].success++;
+          if (e.event_type === 'ERROR' || e.event_type === 'WARN') intervals[timeKey].error++;
+        });
+
+        const history = Object.values(intervals).reverse().slice(0, 6).map(inv => ({
+          time: inv.time,
+          productivity: Math.min(100, 60 + (inv.success * 10)),
+          communication: Math.min(100, 70 + (inv.count * 2)),
+          collaboration: Math.min(100, 75 + (inv.count * 1))
+        }));
+
+        setMetricsHistory(history.length >= 6 ? history : [
+           ...Array.from({ length: 6 - history.length }).map((_, i) => ({
+             time: 'IDLE',
+             productivity: 0,
+             communication: 0,
+             collaboration: 0
+           })),
+           ...history
+        ]);
       }
     };
 
@@ -150,15 +195,15 @@ export default function MonitoringPage() {
            setTimeout(() => setActiveProcesses(prev => Math.max(prev - 1, 1)), 5000);
            
            if (event_type === 'GATHER') {
-             updateAgentStat('Gather Core', 'productivity', 2);
+             updateAgentStat('Gather Core', 'productivity', 1);
            } else if (event_type === 'ANALYZE') {
-             updateAgentStat('Analyzer', 'productivity', 3);
+             updateAgentStat('Analyzer', 'productivity', 2);
            } else if (event_type === 'FORGE' || event_type === 'STORE') {
-             updateAgentStat('Forge Engine', 'productivity', 5);
-             updateAgentStat('Forge Engine', 'quality', 2);
+             updateAgentStat('Forge Engine', 'productivity', 3);
+             updateAgentStat('Forge Engine', 'quality', 1);
            } else if (event_type === 'DEPLOY') {
-             updateAgentStat('Deployer', 'productivity', 6);
-             updateAgentStat('Deployer', 'collaboration', 4);
+             updateAgentStat('Deployer', 'productivity', 5);
+             updateAgentStat('Deployer', 'collaboration', 2);
              
              setMetricsHistory(prev => {
                 const newTick = {
@@ -240,7 +285,7 @@ export default function MonitoringPage() {
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           className="mb-8"
         >
-          <RadarVisualizer />
+          <RadarVisualizer agents={agents} />
         </motion.div>
 
         {/* Key Metrics */}
