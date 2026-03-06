@@ -1,4 +1,2 @@
-# Edge Orchestrator Protocol
-
-Autonomously forged skill designed to optimize https://vercel.com operations at
-scale.
+# Edge Orchestrator
+Autonomously forged skill.

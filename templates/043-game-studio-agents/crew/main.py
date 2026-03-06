@@ -112,6 +112,10 @@ def run(game_idea: str) -> None:
     print_roster()
 
     console.print("\n[bold yellow]⏳ Initializing crew...[/bold yellow]")
+    
+    # Ensure workspace directories exist
+    (WORKSPACE / "crew-outputs").mkdir(parents=True, exist_ok=True)
+    
     start = time.time()
 
     # Build LLM and agents
@@ -125,13 +129,13 @@ def run(game_idea: str) -> None:
         tasks=tasks,
         process=Process.sequential,   # Phase 1 → 2 → 3 → 4, in order
         verbose=True,
-        memory=True,                  # agents remember earlier outputs
-        embedder={
-            "provider": "ollama" if "ollama" in (
-                __import__("os").getenv("LLM_PROVIDER", "groq")
-            ) else "openai",
-            "config": {"model": "mxbai-embed-large"},
-        },
+        memory=False,                  # agents remember earlier outputs
+        # embedder={
+        #     "provider": "ollama" if "ollama" in (
+        #         __import__("os").getenv("LLM_PROVIDER", "groq")
+        #     ) else "openai",
+        #     "config": {"model": "mxbai-embed-large"},
+        # },
         output_log_file=str(WORKSPACE / "crew-outputs" / "crew-run.log"),
     )
 
