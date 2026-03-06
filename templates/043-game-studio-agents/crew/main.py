@@ -72,11 +72,11 @@ def save_output(name: str, data: str) -> Path:
 
 def print_banner(game_idea: str) -> None:
     console.print(Panel.fit(
-        "[bold cyan]⚡  N E O N   A R C A D E[/bold cyan]\n"
+        "N E O N   A R C A D E\n"
         "[dim]AI Game Studio — CrewAI Pipeline[/dim]\n\n"
-        "[bold]🧠 Agents:[/bold] PULSE → SCHEMA → DISPATCH → PIXEL → GLITCH → TURBO → GATEWAY\n"
-        "[bold]🎮 Idea:[/bold]   " + game_idea[:80] + ("..." if len(game_idea) > 80 else ""),
-        title="[bold yellow]MAINFRAME[/bold yellow]",
+        "[bold]Agents:[/bold] PULSE -> SCHEMA -> DISPATCH -> PIXEL -> GLITCH -> TURBO -> GATEWAY\n"
+        "[bold]Idea:[/bold]   " + game_idea[:80] + ("..." if len(game_idea) > 80 else ""),
+        title="[bold white]MAINFRAME[/bold white]",
         border_style="cyan",
     ))
 
@@ -90,13 +90,13 @@ def print_roster() -> None:
     table.add_column("Phase")
 
     roster = [
-        ("📊 PULSE",    "Market Analyst",         "Market & Feasibility"),
-        ("📋 SCHEMA",   "Requirement Vetter",      "Market & Feasibility"),
-        ("📁 DISPATCH", "Project Manager",         "Task Architecture"),
-        ("💻 PIXEL",    "Software Engineer",       "Dev Iteration"),
-        ("🐛 GLITCH",   "QA & Debugger",           "Dev Iteration"),
-        ("⚡ TURBO",    "Performance Optimizer",   "Dev Iteration"),
-        ("🏪 GATEWAY",  "Store Policy Expert",     "Deployment"),
+        ("PULSE",    "Market Analyst",         "Market & Feasibility"),
+        ("SCHEMA",   "Requirement Vetter",      "Market & Feasibility"),
+        ("DISPATCH", "Project Manager",         "Task Architecture"),
+        ("PIXEL",    "Software Engineer",       "Dev Iteration"),
+        ("GLITCH",   "QA & Debugger",           "Dev Iteration"),
+        ("TURBO",    "Performance Optimizer",   "Dev Iteration"),
+        ("GATEWAY",  "Store Policy Expert",     "Deployment"),
     ]
 
     for codename, role, phase in roster:
@@ -111,7 +111,7 @@ def run(game_idea: str) -> None:
     print_banner(game_idea)
     print_roster()
 
-    console.print("\n[bold yellow]⏳ Initializing crew...[/bold yellow]")
+    console.print("\n[bold yellow]Initializing crew...[/bold yellow]")
     
     # Ensure workspace directories exist
     (WORKSPACE / "crew-outputs").mkdir(parents=True, exist_ok=True)
@@ -139,7 +139,7 @@ def run(game_idea: str) -> None:
         output_log_file=str(WORKSPACE / "crew-outputs" / "crew-run.log"),
     )
 
-    console.print("[bold green]🚀 Crew assembled — starting pipeline![/bold green]\n")
+    console.print("[bold green]Crew assembled — starting pipeline![/bold green]\n")
 
     # ══ Kickoff ══════════════════════════════════════════════════
     result = crew.kickoff(inputs={"game_idea": game_idea})
@@ -151,12 +151,12 @@ def run(game_idea: str) -> None:
     output_path = save_output("pipeline-result", str(result))
 
     console.print(Panel.fit(
-        f"[bold green]✅ Pipeline complete![/bold green]\n\n"
-        f"⏱️  Elapsed:   {elapsed:.1f}s\n"
-        f"📂 Output:    {output_path}\n"
-        f"📋 Workspace: {WORKSPACE}",
-        title="[bold yellow]MAINFRAME — Summary[/bold yellow]",
-        border_style="green",
+        f"[bold green]Pipeline complete![/bold green]\n\n"
+        f"Elapsed:   {elapsed:.1f}s\n"
+        f"Output:    {output_path}\n"
+        f"Workspace: {WORKSPACE}",
+        title="[bold white]MAINFRAME — Summary[/bold white]",
+        border_style="bright_blue",
     ))
 
     # Print final result snippet
