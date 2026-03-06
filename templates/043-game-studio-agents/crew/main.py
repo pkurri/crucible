@@ -129,7 +129,7 @@ def run(game_idea: str) -> None:
         tasks=tasks,
         process=Process.sequential,   # Phase 1 → 2 → 3 → 4, in order
         verbose=True,
-        memory=False,                  # agents remember earlier outputs
+        memory=True,                  # agents remember earlier outputs
         # embedder={
         #     "provider": "ollama" if "ollama" in (
         #         __import__("os").getenv("LLM_PROVIDER", "groq")

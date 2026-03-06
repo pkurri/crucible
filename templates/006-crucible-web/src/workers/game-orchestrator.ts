@@ -27,6 +27,7 @@ import type {
   GameIdeaInput,
   MarketAnalysis,
   PRD,
+  Task,
   TaskBreakdown,
   CodeOutput,
   TestReport,
@@ -349,11 +350,11 @@ export class MainframeOrchestrator {
 
   // ─── Utilities ──────────────────────────────────────────────────
 
-  private findTask(breakdown: TaskBreakdown, taskId: string): unknown {
+  private findTask(breakdown: TaskBreakdown, taskId: string): Task | null {
     for (const epic of breakdown?.epics || []) {
       for (const feature of epic.features || []) {
         for (const task of feature.tasks || []) {
-          if (task.id === taskId) return task;
+          if (task.id === taskId) return task as Task;
         }
       }
     }
