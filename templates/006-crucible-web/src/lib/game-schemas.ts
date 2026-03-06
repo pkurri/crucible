@@ -194,6 +194,7 @@ export const Task = z.object({
   status:         TaskStatus,
   parallelizable: z.boolean(),
 });
+export type Task = z.infer<typeof Task>;
 
 export const TaskBreakdown = z.object({
   agentId:     z.literal('DISPATCH'),
