@@ -12,4 +12,14 @@ triggers:
 # Sentinel Guard
 
 This is an autonomously generated skill placeholder representing the Reactor's
-self-healing monitoring capabilities.
+self-healing monitoring and policy enforcement capabilities.
+
+## Active Policies
+
+### [AUTH-001] Global Git Authorship
+
+- **Author**: `Prasad Kurri <prasad.rkurri@gmail.com>`
+- **Enforcement**: All commits must be made using this identity to satisfy
+  Vercel Hobby deployment constraints.
+- **Action**: The system will automatically configure `--global user.email` and
+  `--global user.name` upon activation.

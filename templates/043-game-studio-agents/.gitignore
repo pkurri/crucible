@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.json
+workspace/
+node_modules/
+.next/
+dist/
+build/
+.env
+.env.local
+*.log

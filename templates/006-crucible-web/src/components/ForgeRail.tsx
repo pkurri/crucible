@@ -18,10 +18,13 @@ import {
   LayoutDashboard,
   Flame,
   Globe,
+  Gamepad2,
+  Lock,
 } from 'lucide-react';
 
 const navItems = [
   { href: '/', label: 'THE ARMORY', icon: Shield, sublabel: 'Templates' },
+  { href: '/game-studio', label: 'NEON ARCADE', icon: Gamepad2, sublabel: 'AI Game Studio', restricted: true },
   { href: '/hub', label: 'FORGE HUB', icon: Globe, sublabel: 'Registry' },
   { href: '/foundry-core', label: 'FOUNDRY CORE', icon: Flame, sublabel: 'Nerve Center' },
   { href: '/article-core', label: 'ARTICLE CORE', icon: FileText, sublabel: 'Content Engine' },
@@ -88,7 +91,7 @@ export function ForgeRail({
           className="flex-1 py-4 overflow-y-auto overflow-x-hidden px-2"
         >
           <ul className="space-y-0.5" role="list">
-            {navItems.map(({ href, label, icon: Icon, sublabel }) => {
+            {navItems.map(({ href, label, icon: Icon, sublabel, restricted }) => {
               const active = pathname === href;
               return (
                 <li key={href}>
@@ -102,12 +105,18 @@ export function ForgeRail({
                       font-mono text-[11px] tracking-widest transition-all duration-150
                       ${active
                         ? 'bg-[#ff8c00]/10 text-[#ff8c00]'
-                        : 'text-[#999] hover:bg-[#111] hover:text-[#fff]'
+                        : restricted
+                          ? 'text-[#444] hover:bg-[#050505] cursor-not-allowed'
+                          : 'text-[#999] hover:bg-[#111] hover:text-[#fff]'
                       }
                     `}
                   >
                     {/* Icon */}
-                    <div className={`shrink-0 relative ${active ? 'text-[#ff8c00]' : 'text-[#666] group-hover:text-[#ff8c00]'} transition-colors duration-150`}>
+                    <div className={`shrink-0 relative ${
+                      active ? 'text-[#ff8c00]' : 
+                      restricted ? 'text-[#222]' : 
+                      'text-[#666] group-hover:text-[#ff8c00]'
+                    } transition-colors duration-150`}>
                       <Icon size={18} strokeWidth={1.5} aria-hidden="true" />
                       {active && (
                         <span className="absolute -left-2.5 top-1/2 -translate-y-1/2 w-0.5 h-4 bg-[#ff8c00] shadow-[0_0_6px_#ff8c00]" />
@@ -115,10 +124,19 @@ export function ForgeRail({
                     </div>
 
                     {/* Label */}
-                    <div className={`flex flex-col overflow-hidden ${collapsed ? 'md:hidden' : ''}`}>
-                      <span className="truncate">{label}</span>
-                      <span className={`text-[9px] tracking-widest truncate ${active ? 'text-[#ff8c00]/60' : 'text-[#888] group-hover:text-[#aaa]'}`}>
-                        {sublabel}
+                    <div className={`flex flex-col flex-1 overflow-hidden ${collapsed ? 'md:hidden' : ''}`}>
+                      <div className="flex items-center justify-between">
+                        <span className="truncate">{label}</span>
+                        {restricted && (
+                          <Lock size={10} className="text-[#333] group-hover:text-[#ff8c00]/40" />
+                        )}
+                      </div>
+                      <span className={`text-[9px] tracking-widest truncate ${
+                        active ? 'text-[#ff8c00]/60' : 
+                        restricted ? 'text-[#222]' : 
+                        'text-[#888] group-hover:text-[#aaa]'
+                      }`}>
+                        {restricted ? 'RESTRICTED' : sublabel}
                       </span>
                     </div>
                   </Link>
