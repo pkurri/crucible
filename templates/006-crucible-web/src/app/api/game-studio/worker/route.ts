@@ -8,17 +8,16 @@
 // ═══════════════════════════════════════════════════════
 
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { getSupabaseAdmin } from '@/lib/supabase';
 import fs from 'node:fs';
 import path from 'node:path';
+
+export const dynamic = 'force-dynamic';
 
 // Vercel Fluid Compute — increase timeout to 300s on Pro plan
 export const maxDuration = 300;
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+const supabase = getSupabaseAdmin();
 
 // ─── Groq LLM call ──────────────────────────────────────
 
