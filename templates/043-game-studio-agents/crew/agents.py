@@ -1,7 +1,7 @@
 """
-═══════════════════════════════════════════════════════════
-⚡ NEON ARCADE — CrewAI Agent Definitions
-═══════════════════════════════════════════════════════════
+===========================================================
+NEON ARCADE - CrewAI Agent Definitions
+===========================================================
 
 Defines all 7 Neon Arcade agents as crewai.Agent instances.
 System prompts are loaded from the existing markdown sub-prompt files.
@@ -9,7 +9,7 @@ System prompts are loaded from the existing markdown sub-prompt files.
 Free-tier LLMs supported via LiteLLM:
   - Groq:   groq/llama-3.3-70b-versatile  (free API key at console.groq.com)
   - Ollama: ollama/llama3.2               (fully local, zero cost)
-═══════════════════════════════════════════════════════════
+===========================================================
 """
 
 from __future__ import annotations
@@ -24,7 +24,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# ─── LLM Configuration ─────────────────────────────────────────────
+# --- LLM Configuration ---------------------------------------------
 
 def build_llm() -> LLM:
     """
@@ -53,7 +53,7 @@ def build_llm() -> LLM:
     return LLM(**kwargs)
 
 
-# ─── Prompt Loader ─────────────────────────────────────────────────
+# --- Prompt Loader -------------------------------------------------
 
 PROMPTS_DIR = Path(__file__).parent.parent / "src" / "agents" / "prompts"
 
@@ -81,12 +81,12 @@ def load_backstory(prompt_file: str) -> str:
     return text.strip()
 
 
-# ─── Shared Tools ──────────────────────────────────────────────────
+# --- Shared Tools --------------------------------------------------
 
 _file_reader  = FileReadTool()
 _file_writer  = FileWriterTool()
 
-# ─── Agent Roster ──────────────────────────────────────────────────
+# --- Agent Roster --------------------------------------------------
 
 def create_agents(llm: LLM | None = None) -> dict[str, Agent]:
     """
@@ -116,7 +116,7 @@ def create_agents(llm: LLM | None = None) -> dict[str, Agent]:
         goal=(
             "Convert the game idea and market analysis into a thorough technical PRD. "
             "Select the game engine (Phaser.io / Unity / Godot), list every required 2D asset, "
-            "SFX, music track, and third-party SDK. Define version-gated features (MVP → v1.1 → v2.0)."
+            "SFX, music track, and third-party SDK. Define version-gated features (MVP -> v1.1 -> v2.0)."
         ),
         backstory=load_backstory("schema-requirement-vetter.md"),
         llm=_llm,
@@ -129,7 +129,7 @@ def create_agents(llm: LLM | None = None) -> dict[str, Agent]:
     DISPATCH = Agent(
         role="Project Manager",
         goal=(
-            "Break the PRD into atomic Epics → Features → Tasks, each ≤ 4 hours. "
+            "Break the PRD into atomic Epics -> Features -> Tasks, each <= 4 hours. "
             "Every task must have a Definition of Done with acceptance criteria, "
             "required tests, and deliverables. Output an execution order by sprint."
         ),

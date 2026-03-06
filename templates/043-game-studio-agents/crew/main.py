@@ -1,18 +1,18 @@
 """
-═══════════════════════════════════════════════════════════
-⚡ NEON ARCADE — MAINFRAME (CrewAI Entry Point)
-═══════════════════════════════════════════════════════════
+===========================================================
+NEON ARCADE - MAINFRAME (CrewAI Entry Point)
+===========================================================
 
 Run the full 4-phase AI Game Studio pipeline using CrewAI
 with free-tier LLMs (Groq or Ollama).
 
 SETUP (pick one):
-  Option A — Groq (free cloud API, no GPU required):
+  Option A - Groq (free cloud API, no GPU required):
     1. Get a free key at https://console.groq.com
-    2. Set GROQ_API_KEY=gsk_... in your .env
+    2. Set GROQ_API_KEY=gsk... in your .env
     3. LLM_PROVIDER=groq  LLM_MODEL=groq/llama-3.3-70b-versatile
 
-  Option B — Ollama (fully local, zero cost):
+  Option B - Ollama (fully local, zero cost):
     1. Install Ollama: https://ollama.com
     2. ollama pull llama3.2
     3. LLM_PROVIDER=ollama  LLM_MODEL=ollama/llama3.2
@@ -20,7 +20,7 @@ SETUP (pick one):
 USAGE:
   python -m crew.main "A match-3 puzzle game with roguelike elements"
   python -m crew.main  # uses default demo idea
-═══════════════════════════════════════════════════════════
+===========================================================
 """
 
 from __future__ import annotations
@@ -44,7 +44,7 @@ from .tasks import create_tasks
 load_dotenv()
 console = Console()
 
-# ─── Default demo game idea ─────────────────────────────────────────
+# --- Default demo game idea -----------------------------------------
 
 DEFAULT_IDEA = (
     "A casual hypercasual game where players control a glowing orb "
@@ -52,7 +52,7 @@ DEFAULT_IDEA = (
     "Web-based with daily challenges, a global leaderboard, and a color-theme shop."
 )
 
-# ─── Output directory ───────────────────────────────────────────────
+# --- Output directory -----------------------------------------------
 
 WORKSPACE = Path(__file__).parent.parent / "workspace"
 
@@ -68,12 +68,12 @@ def save_output(name: str, data: str) -> Path:
     return filepath
 
 
-# ─── Banner ─────────────────────────────────────────────────────────
+# --- Banner ---------------------------------------------------------
 
 def print_banner(game_idea: str) -> None:
     console.print(Panel.fit(
         "N E O N   A R C A D E\n"
-        "[dim]AI Game Studio — CrewAI Pipeline[/dim]\n\n"
+        "[dim]AI Game Studio - CrewAI Pipeline[/dim]\n\n"
         "[bold]Agents:[/bold] PULSE -> SCHEMA -> DISPATCH -> PIXEL -> GLITCH -> TURBO -> GATEWAY\n"
         "[bold]Idea:[/bold]   " + game_idea[:80] + ("..." if len(game_idea) > 80 else ""),
         title="[bold white]MAINFRAME[/bold white]",
@@ -81,10 +81,10 @@ def print_banner(game_idea: str) -> None:
     ))
 
 
-# ─── Roster Table ───────────────────────────────────────────────────
+# --- Roster Table ---------------------------------------------------
 
 def print_roster() -> None:
-    table = Table(title="Neon Arcade — Agent Roster", border_style="cyan")
+    table = Table(title="Neon Arcade - Agent Roster", border_style="cyan")
     table.add_column("Codename", style="bold cyan")
     table.add_column("Role")
     table.add_column("Phase")
@@ -105,7 +105,7 @@ def print_roster() -> None:
     console.print(table)
 
 
-# ─── CrewAI Pipeline ────────────────────────────────────────────────
+# --- CrewAI Pipeline ------------------------------------------------
 
 def run(game_idea: str) -> None:
     print_banner(game_idea)
@@ -127,9 +127,9 @@ def run(game_idea: str) -> None:
     crew = Crew(
         agents=list(agents.values()),
         tasks=tasks,
-        process=Process.sequential,   # Phase 1 → 2 → 3 → 4, in order
+        process=Process.sequential,   # Phase 1 -> 2 -> 3 -> 4, in order
         verbose=True,
-        memory=True,                  # agents remember earlier outputs
+        memory=False,                  # agents remember earlier outputs (OpenAI required for True)
         # embedder={
         #     "provider": "ollama" if "ollama" in (
         #         __import__("os").getenv("LLM_PROVIDER", "groq")
@@ -139,11 +139,11 @@ def run(game_idea: str) -> None:
         output_log_file=str(WORKSPACE / "crew-outputs" / "crew-run.log"),
     )
 
-    console.print("[bold green]Crew assembled — starting pipeline![/bold green]\n")
+    console.print("[bold green]Crew assembled - starting pipeline![/bold green]\n")
 
-    # ══ Kickoff ══════════════════════════════════════════════════
+    # == Kickoff ==================================================
     result = crew.kickoff(inputs={"game_idea": game_idea})
-    # ═════════════════════════════════════════════════════════════
+    # =============================================================
 
     elapsed = time.time() - start
 
@@ -155,7 +155,7 @@ def run(game_idea: str) -> None:
         f"Elapsed:   {elapsed:.1f}s\n"
         f"Output:    {output_path}\n"
         f"Workspace: {WORKSPACE}",
-        title="[bold white]MAINFRAME — Summary[/bold white]",
+        title="[bold white]MAINFRAME - Summary[/bold white]",
         border_style="bright_blue",
     ))
 
@@ -165,7 +165,7 @@ def run(game_idea: str) -> None:
     console.print(result_str[:1000] + ("..." if len(result_str) > 1000 else ""))
 
 
-# ─── CLI Entry Point ────────────────────────────────────────────────
+# --- CLI Entry Point ------------------------------------------------
 
 if __name__ == "__main__":
     idea = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else DEFAULT_IDEA

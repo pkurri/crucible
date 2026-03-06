@@ -1,5 +1,5 @@
 """
-⚡ Neon Arcade — CrewAI package
+Neon Arcade - CrewAI package
 """
 from .agents import create_agents, build_llm
 from .tasks import create_tasks
