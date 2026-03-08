@@ -2,13 +2,37 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Menu, X, LogIn, LogOut, User } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { getSupabase } from '@/lib/supabase';
+import { signOut } from '@/lib/auth-utils';
 
 export function Header() {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [user, setUser] = useState<any>(null);
+
+  useEffect(() => {
+    const supabase = getSupabase();
+    
+    // Get initial session
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setUser(session?.user ?? null);
+    });
+
+    // Listen for changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const handleSignOut = async () => {
+    await signOut();
+    window.location.href = '/';
+  };
 
   const navLinks = [
     { href: '/', label: 'THE ARMORY' },
@@ -69,6 +93,33 @@ export function Header() {
             <span className="font-mono text-[10px] text-[#00ff88] tracking-widest leading-none">
               CORE ONLINE
             </span>
+          </div>
+
+          {/* Auth Section */}
+          <div className="hidden sm:flex items-center gap-4 border-l border-[#2a2a2a] pl-6 ml-4">
+            {user ? (
+              <div className="flex items-center gap-4">
+                <div className="flex flex-col items-end">
+                  <span className="text-[10px] font-mono text-[#ff8c00] tracking-widest uppercase">Connected</span>
+                  <span className="text-[9px] font-mono text-[#555] lowercase">{user.email}</span>
+                </div>
+                <button
+                  onClick={handleSignOut}
+                  className="p-2 text-[#555] hover:text-red-500 transition-colors"
+                  title="Sever Connection (Sign Out)"
+                >
+                  <LogOut size={18} />
+                </button>
+              </div>
+            ) : (
+              <Link 
+                href="/login"
+                className="flex items-center gap-2 px-4 py-2 bg-[#ff8c00]/10 border border-[#ff8c00]/30 rounded text-[#ff8c00] font-mono text-[10px] tracking-widest hover:bg-[#ff8c00] hover:text-black transition-all"
+              >
+                <LogIn size={14} />
+                INITIALIZE
+              </Link>
+            )}
           </div>
 
           {/* Mobile Menu Toggle */}
