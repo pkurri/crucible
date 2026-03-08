@@ -68,7 +68,12 @@ export function ForgeRail({
     return () => subscription.unsubscribe();
   }, []);
 
-  const visibleNavItems = user ? navItems : navItems.filter(item => !item.restricted && item.href === '/');
+  const visibleNavItems = user 
+    ? navItems 
+    : [
+        ...navItems.filter(item => !item.restricted && item.href === '/'),
+        { href: '/login', label: 'FORGE IDENTITY', icon: Shield, sublabel: 'Sign In / Up', priority: true }
+      ];
 
   return (
     <>
@@ -124,9 +129,11 @@ export function ForgeRail({
                       font-mono text-[11px] tracking-widest transition-all duration-150
                       ${active
                         ? 'bg-[#ff8c00]/10 text-[#ff8c00]'
-                        : restricted
-                          ? 'text-[#444] hover:bg-[#050505] cursor-not-allowed'
-                          : 'text-[#999] hover:bg-[#111] hover:text-[#fff]'
+                        : (item as any).priority
+                          ? 'bg-[#ff8c00]/5 text-[#ff8c00] border border-[#ff8c00]/20 hover:bg-[#ff8c00]/15'
+                          : restricted
+                            ? 'text-[#444] hover:bg-[#050505] cursor-not-allowed'
+                            : 'text-[#999] hover:bg-[#111] hover:text-[#fff]'
                       }
                     `}
                   >
