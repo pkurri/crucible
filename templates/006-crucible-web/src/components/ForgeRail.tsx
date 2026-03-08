@@ -114,9 +114,10 @@ export function ForgeRail({
           className="flex-1 py-4 overflow-y-auto overflow-x-hidden px-2"
         >
           <ul className="space-y-0.5" role="list">
-            {visibleNavItems.map(({ href, label, icon: Icon, sublabel, restricted: itemRestricted }) => {
+            {visibleNavItems.map((item) => {
+              const { href, label, icon: Icon, sublabel } = item;
               const active = pathname === href;
-              const restricted = itemRestricted || (!user && href !== '/');
+              const restricted = !!(item as any).restricted || (!user && href !== '/' && href !== '/login');
               return (
                 <li key={href}>
                   <Link
