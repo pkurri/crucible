@@ -34,7 +34,7 @@ export function Header() {
     window.location.href = '/';
   };
 
-  const navLinks = [
+  const navLinks = user ? [
     { href: '/', label: 'THE ARMORY' },
     { href: '/skills', label: 'CORE SAMPLES' },
     { href: '/flux', label: 'REAL-TIME FLUX' },
@@ -44,7 +44,7 @@ export function Header() {
     { href: '/intel', label: 'INTEL' },
     { href: '/foundry', label: 'THE FOUNDRY' },
     { href: '/hub', label: 'FORGE HUB' },
-  ];
+  ] : [];
 
   return (
     <nav 

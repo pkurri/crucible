@@ -2,6 +2,8 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState, useEffect } from 'react';
+import { getSupabase } from '@/lib/supabase';
 import {
   Shield,
   Database,
@@ -51,6 +53,22 @@ export function ForgeRail({
   onMobileClose: () => void;
 }) {
   const pathname = usePathname();
+  const [user, setUser] = useState<any>(null);
+
+  useEffect(() => {
+    const supabase = getSupabase();
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setUser(session?.user ?? null);
+    });
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const visibleNavItems = user ? navItems : navItems.filter(item => !item.restricted && item.href === '/');
 
   return (
     <>
@@ -91,8 +109,9 @@ export function ForgeRail({
           className="flex-1 py-4 overflow-y-auto overflow-x-hidden px-2"
         >
           <ul className="space-y-0.5" role="list">
-            {navItems.map(({ href, label, icon: Icon, sublabel, restricted }) => {
+            {visibleNavItems.map(({ href, label, icon: Icon, sublabel, restricted: itemRestricted }) => {
               const active = pathname === href;
+              const restricted = itemRestricted || (!user && href !== '/');
               return (
                 <li key={href}>
                   <Link
