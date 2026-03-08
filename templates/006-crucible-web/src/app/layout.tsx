@@ -1,7 +1,6 @@
 import './globals.css';
 import { Outfit, JetBrains_Mono } from 'next/font/google';
 import { AppShell } from '@/components/AppShell';
-import { Analytics } from '@vercel/analytics/next';
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -27,7 +26,10 @@ export default function RootLayout({
     <html lang="en" className={`${outfit.variable} ${jetbrainsMono.variable}`}>
       <body className="min-h-screen bg-[#0a0a0a] text-[#e0e0e0] font-sans antialiased overflow-x-hidden">
         <AppShell>{children}</AppShell>
-        <Analytics />
+        {/* Analytics only loads in production to avoid local dev errors */}
+        {process.env.NODE_ENV === 'production' && (
+          <script async src="/_vercel/insights/script.js" />
+        )}
       </body>
     </html>
   );
