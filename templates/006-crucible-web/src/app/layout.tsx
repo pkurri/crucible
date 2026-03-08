@@ -1,6 +1,7 @@
 import './globals.css';
 import { Outfit, JetBrains_Mono } from 'next/font/google';
 import { AppShell } from '@/components/AppShell';
+import { AuthErrorListener } from '@/components/auth/AuthErrorListener';
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -22,9 +23,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
     <html lang="en" className={`${outfit.variable} ${jetbrainsMono.variable}`}>
       <body className="min-h-screen bg-[#0a0a0a] text-[#e0e0e0] font-sans antialiased overflow-x-hidden">
+        <AuthErrorListener />
         <AppShell>{children}</AppShell>
         {/* Analytics only loads in production to avoid local dev errors */}
         {process.env.NODE_ENV === 'production' && (
