@@ -17,7 +17,9 @@ export function AuthForm() {
     setError(null);
 
     try {
-      const { error } = await signInWithEmail(email);
+      // If we're on the login page, redirect to home. Otherwise, return to the current page.
+      const redirectTo = window.location.pathname === '/login' ? '/' : window.location.pathname;
+      const { error } = await signInWithEmail(email, redirectTo);
       if (error) {
         setError(error.message);
       } else {

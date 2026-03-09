@@ -38,9 +38,11 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         </div>
       </div>
 
-      <div className={`min-h-screen transition-all duration-300 pt-14 md:pt-0 ${collapsed ? 'md:pl-[64px]' : 'md:pl-[220px]'}`}>
+      <div className={`flex flex-col min-h-screen transition-all duration-300 pt-14 md:pt-0 ${collapsed ? 'md:pl-[64px]' : 'md:pl-[220px]'}`}>
         <Header />
-        {children}
+        <div className="flex-grow flex flex-col">
+          {children}
+        </div>
       </div>
     </>
   );

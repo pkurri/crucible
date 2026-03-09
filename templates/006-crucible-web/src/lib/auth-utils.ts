@@ -1,11 +1,13 @@
 import { getSupabase } from './supabase';
 
-export async function signInWithEmail(email: string) {
+export async function signInWithEmail(email: string, redirectTo: string = '/') {
   const supabase = getSupabase();
+  // Ensure the redirect path starts with a slash
+  const next = redirectTo.startsWith('/') ? redirectTo : `/${redirectTo}`;
   const { data, error } = await supabase.auth.signInWithOtp({
     email,
     options: {
-      emailRedirectTo: `${window.location.origin}/auth/callback`,
+      emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`,
     },
   });
   return { data, error };

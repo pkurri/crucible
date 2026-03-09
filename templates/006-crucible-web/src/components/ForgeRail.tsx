@@ -22,6 +22,7 @@ import {
   Globe,
   Gamepad2,
   Lock,
+  PieChart,
 } from 'lucide-react';
 
 const navItems = [
@@ -31,6 +32,7 @@ const navItems = [
   { href: '/foundry-core', label: 'FOUNDRY CORE', icon: Flame, sublabel: 'Nerve Center' },
   { href: '/article-core', label: 'ARTICLE CORE', icon: FileText, sublabel: 'Content Engine' },
   { href: '/dashboard', label: 'COMMAND CENTER', icon: LayoutDashboard, sublabel: 'Agents + Articles' },
+  { href: '/infographics', label: 'DATA INTEL', icon: PieChart, sublabel: 'Infographics' },
   { href: '/skills', label: 'CORE SAMPLES', icon: Database, sublabel: 'Skills' },
   { href: '/flux', label: 'FLUX', icon: Zap, sublabel: 'Real-Time' },
   { href: '/agents', label: 'SWARM AGENTS', icon: Bot, sublabel: 'Agents' },

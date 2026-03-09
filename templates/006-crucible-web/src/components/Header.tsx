@@ -42,6 +42,7 @@ export function Header() {
     { href: '/stage', label: 'THE STAGE' },
     { href: '/monitoring', label: 'TELEMETRY' },
     { href: '/intel', label: 'INTEL' },
+    { href: '/infographics', label: 'DATA INTEL' },
     { href: '/foundry', label: 'THE FOUNDRY' },
     { href: '/hub', label: 'FORGE HUB' },
   ] : [];
