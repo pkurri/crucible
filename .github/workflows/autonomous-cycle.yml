@@ -36,8 +36,8 @@ jobs:
       - name: Commit & Push Changes
         if: success()
         run: |
-          git config --global user.name "Crucible Reactor"
-          git config --global user.email "reactor@crucible.dev"
+          git config --global user.name "Prasad"
+          git config --global user.email "prasad.rkurri@gmail.com"
           git add .
           git commit -m "chore: autonomous repository expansion [skip ci]" || echo "No changes to commit"
           git push
