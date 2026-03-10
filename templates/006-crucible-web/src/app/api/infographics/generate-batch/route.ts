@@ -108,6 +108,12 @@ Requirement: Provide exactly 4 high-quality, realistic (or deeply researched) da
 
       if (error) {
         errors.push(`${topicRow.topic}: ${error.message}`);
+        await supabase.from('forge_events').insert({
+          event_type: 'INFOGRAPHIC_ERROR',
+          message: `Topic: ${topicRow.topic} | Error: ${error.message}`,
+          agent_id: 'designer-batch',
+          metadata: { topic: topicRow.topic, error: error.message }
+        });
       } else {
         results.push({ title: parsedContent.title, domain: topicRow.domain });
 
@@ -123,6 +129,12 @@ Requirement: Provide exactly 4 high-quality, realistic (or deeply researched) da
       await new Promise(r => setTimeout(r, 3000));
     } catch (e: any) {
       errors.push(`${topicRow.topic}: ${e.message}`);
+      await supabase.from('forge_events').insert({
+        event_type: 'INFOGRAPHIC_ERROR',
+        message: `Topic: ${topicRow.topic} | Exception: ${e.message}`,
+        agent_id: 'designer-batch',
+        metadata: { topic: topicRow.topic, error: e.message }
+      });
     }
   }
 

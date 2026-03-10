@@ -23,24 +23,71 @@ import {
   Gamepad2,
   Lock,
   PieChart,
+  ChevronDown,
 } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
-const navItems = [
-  { href: '/', label: 'THE ARMORY', icon: Shield, sublabel: 'Templates' },
-  { href: '/game-studio', label: 'NEON ARCADE', icon: Gamepad2, sublabel: 'AI Game Studio', restricted: true },
-  { href: '/hub', label: 'FORGE HUB', icon: Globe, sublabel: 'Registry' },
-  { href: '/foundry-core', label: 'FOUNDRY CORE', icon: Flame, sublabel: 'Nerve Center' },
-  { href: '/article-core', label: 'ARTICLE CORE', icon: FileText, sublabel: 'Content Engine' },
-  { href: '/dashboard', label: 'COMMAND CENTER', icon: LayoutDashboard, sublabel: 'Agents + Articles' },
-  { href: '/infographics', label: 'DATA INTEL', icon: PieChart, sublabel: 'Infographics' },
-  { href: '/skills', label: 'CORE SAMPLES', icon: Database, sublabel: 'Skills' },
-  { href: '/flux', label: 'FLUX', icon: Zap, sublabel: 'Real-Time' },
-  { href: '/agents', label: 'SWARM AGENTS', icon: Bot, sublabel: 'Agents' },
-  { href: '/stage', label: 'THE STAGE', icon: Monitor, sublabel: 'Stage' },
-  { href: '/monitoring', label: 'TELEMETRY', icon: Activity, sublabel: 'Monitoring' },
-  { href: '/intel', label: 'INTEL', icon: Radio, sublabel: 'Transmissions' },
-  { href: '/foundry', label: 'THE FOUNDRY', icon: Hammer, sublabel: 'About' },
-  { href: '/blueprint', label: 'THE BLUEPRINT', icon: Map, sublabel: 'How-To Guide' },
+type NavItem = {
+  href: string;
+  label: string;
+  icon: any;
+  sublabel: string;
+  restricted?: boolean;
+  priority?: boolean;
+};
+
+type NavGroup = {
+  id: string;
+  label: string;
+  items: NavItem[];
+};
+
+const navGroups: NavGroup[] = [
+  {
+    id: 'core',
+    label: 'CORE FORGE',
+    items: [
+      { href: '/', label: 'THE ARMORY', icon: Shield, sublabel: 'Templates' },
+      { href: '/hub', label: 'FORGE HUB', icon: Globe, sublabel: 'Registry' },
+      { href: '/foundry-core', label: 'FOUNDRY CORE', icon: Flame, sublabel: 'Nerve Center' },
+    ]
+  },
+  {
+    id: 'content',
+    label: 'CONTENT ENGINE',
+    items: [
+      { href: '/article-core', label: 'ARTICLE CORE', icon: FileText, sublabel: 'Content Engine' },
+      { href: '/infographics', label: 'DATA INTEL', icon: PieChart, sublabel: 'Infographics' },
+      { href: '/intel', label: 'INTEL', icon: Radio, sublabel: 'Transmissions' },
+    ]
+  },
+  {
+    id: 'command',
+    label: 'COMMAND & CONTROL',
+    items: [
+      { href: '/dashboard', label: 'COMMAND CENTER', icon: LayoutDashboard, sublabel: 'Agents + Articles' },
+      { href: '/agents', label: 'SWARM AGENTS', icon: Bot, sublabel: 'Agents' },
+      { href: '/monitoring', label: 'TELEMETRY', icon: Activity, sublabel: 'Monitoring' },
+    ]
+  },
+  {
+    id: 'lab',
+    label: 'LAB & RESOURCES',
+    items: [
+      { href: '/skills', label: 'CORE SAMPLES', icon: Database, sublabel: 'Skills' },
+      { href: '/flux', label: 'FLUX', icon: Zap, sublabel: 'Real-Time' },
+      { href: '/stage', label: 'THE STAGE', icon: Monitor, sublabel: 'Stage' },
+      { href: '/blueprint', label: 'THE BLUEPRINT', icon: Map, sublabel: 'How-To Guide' },
+    ]
+  },
+  {
+    id: 'misc',
+    label: 'MISC',
+    items: [
+      { href: '/foundry', label: 'THE FOUNDRY', icon: Hammer, sublabel: 'About' },
+      { href: '/game-studio', label: 'NEON ARCADE', icon: Gamepad2, sublabel: 'AI Game Studio', restricted: true },
+    ]
+  }
 ];
 
 export function ForgeRail({
@@ -56,6 +103,7 @@ export function ForgeRail({
 }) {
   const pathname = usePathname();
   const [user, setUser] = useState<any>(null);
+  const [expandedGroups, setExpandedGroups] = useState<string[]>(['core', 'content', 'command', 'lab', 'misc']);
 
   useEffect(() => {
     const supabase = getSupabase();
@@ -70,12 +118,71 @@ export function ForgeRail({
     return () => subscription.unsubscribe();
   }, []);
 
-  const visibleNavItems = user 
-    ? navItems 
-    : [
-        ...navItems.filter(item => !item.restricted && item.href === '/'),
-        { href: '/login', label: 'FORGE IDENTITY', icon: Shield, sublabel: 'Sign In / Up', priority: true }
-      ];
+  const toggleGroup = (groupId: string) => {
+    setExpandedGroups(prev => 
+      prev.includes(groupId) 
+        ? prev.filter(id => id !== groupId)
+        : [...prev, groupId]
+    );
+  };
+
+  const renderNavItem = (item: NavItem) => {
+    const { href, label, icon: Icon, sublabel } = item;
+    const active = pathname === href;
+    const restricted = !!item.restricted || (!user && href !== '/' && href !== '/login');
+    
+    return (
+      <li key={href}>
+        <Link
+          href={href}
+          onClick={() => onMobileClose()}
+          title={collapsed ? label : undefined}
+          aria-current={active ? 'page' : undefined}
+          className={`
+            group flex items-center gap-3 px-2 py-2 rounded-sm
+            font-mono text-[10px] tracking-widest transition-all duration-150
+            ${active
+              ? 'bg-[#ff8c00]/10 text-[#ff8c00]'
+              : item.priority
+                ? 'bg-[#ff8c00]/5 text-[#ff8c00] border border-[#ff8c00]/20 hover:bg-[#ff8c00]/15'
+                : restricted
+                  ? 'text-[#444] hover:bg-[#050505] cursor-not-allowed'
+                  : 'text-[#999] hover:bg-[#111] hover:text-[#fff]'
+            }
+          `}
+        >
+          {/* Icon */}
+          <div className={`shrink-0 relative ${
+            active ? 'text-[#ff8c00]' : 
+            restricted ? 'text-[#222]' : 
+            'text-[#666] group-hover:text-[#ff8c00]'
+          } transition-colors duration-150`}>
+            <Icon size={16} strokeWidth={1.5} aria-hidden="true" />
+            {active && (
+              <span className="absolute -left-2 top-1/2 -translate-y-1/2 w-0.5 h-3.5 bg-[#ff8c00] shadow-[0_0_6px_#ff8c00]" />
+            )}
+          </div>
+
+          {/* Label */}
+          <div className={`flex flex-col flex-1 overflow-hidden ${collapsed ? 'md:hidden' : ''}`}>
+            <div className="flex items-center justify-between">
+              <span className="break-all whitespace-normal leading-tight">{label}</span>
+              {restricted && (
+                <Lock size={10} className="text-[#333] group-hover:text-[#ff8c00]/40" />
+              )}
+            </div>
+            <span className={`text-[8px] tracking-widest truncate ${
+              active ? 'text-[#ff8c00]/60' : 
+              restricted ? 'text-[#222]' : 
+              'text-[#888] group-hover:text-[#aaa]'
+            }`}>
+              {restricted ? 'RESTRICTED' : sublabel}
+            </span>
+          </div>
+        </Link>
+      </li>
+    );
+  };
 
   return (
     <>
@@ -100,7 +207,6 @@ export function ForgeRail({
       >
         {/* Brand */}
         <div className={`flex items-center gap-3 px-4 h-16 border-b border-[#1a1a1a] shrink-0 overflow-hidden`}>
-          {/* Triangle logo */}
           <div 
             aria-hidden="true"
             className="shrink-0 w-0 h-0 border-l-[9px] border-l-transparent border-b-[15px] border-b-[#ff8c00] border-r-[9px] border-r-transparent animate-[pulse-amber_2s_infinite_ease-in-out]" 
@@ -113,71 +219,59 @@ export function ForgeRail({
         {/* Nav Items */}
         <nav 
           aria-label="Sidebar Menu"
-          className="flex-1 py-4 overflow-y-auto overflow-x-hidden px-2"
+          className="flex-1 py-4 overflow-y-auto overflow-x-hidden no-scrollbar px-2"
         >
-          <ul className="space-y-0.5" role="list">
-            {visibleNavItems.map((item) => {
-              const { href, label, icon: Icon, sublabel } = item;
-              const active = pathname === href;
-              const restricted = !!(item as any).restricted || (!user && href !== '/' && href !== '/login');
-              return (
-                <li key={href}>
-                  <Link
-                    href={href}
-                    onClick={() => onMobileClose()}
-                    title={collapsed ? label : undefined}
-                    aria-current={active ? 'page' : undefined}
+          {!user ? (
+            <ul className="space-y-1">
+              {renderNavItem({ href: '/', label: 'THE ARMORY', icon: Shield, sublabel: 'Templates' })}
+              {renderNavItem({ href: '/login', label: 'FORGE IDENTITY', icon: Shield, sublabel: 'Sign In / Up', priority: true })}
+            </ul>
+          ) : (
+            <div className="space-y-6">
+              {navGroups.map((group) => (
+                <div key={group.id} className="space-y-1">
+                  {/* Group Header */}
+                  <button
+                    onClick={() => toggleGroup(group.id)}
                     className={`
-                      group flex items-center gap-3 px-2 py-2.5 rounded-sm
-                      font-mono text-[11px] tracking-widest transition-all duration-150
-                      ${active
-                        ? 'bg-[#ff8c00]/10 text-[#ff8c00]'
-                        : (item as any).priority
-                          ? 'bg-[#ff8c00]/5 text-[#ff8c00] border border-[#ff8c00]/20 hover:bg-[#ff8c00]/15'
-                          : restricted
-                            ? 'text-[#444] hover:bg-[#050505] cursor-not-allowed'
-                            : 'text-[#999] hover:bg-[#111] hover:text-[#fff]'
-                      }
+                      w-full flex items-center justify-between px-2 py-1
+                      text-[9px] font-bold tracking-[0.2em] text-[#444] hover:text-[#ff8c00]
+                      transition-colors uppercase mb-1
+                      ${collapsed ? 'md:justify-center' : ''}
                     `}
                   >
-                    {/* Icon */}
-                    <div className={`shrink-0 relative ${
-                      active ? 'text-[#ff8c00]' : 
-                      restricted ? 'text-[#222]' : 
-                      'text-[#666] group-hover:text-[#ff8c00]'
-                    } transition-colors duration-150`}>
-                      <Icon size={18} strokeWidth={1.5} aria-hidden="true" />
-                      {active && (
-                        <span className="absolute -left-2.5 top-1/2 -translate-y-1/2 w-0.5 h-4 bg-[#ff8c00] shadow-[0_0_6px_#ff8c00]" />
-                      )}
-                    </div>
+                    {!collapsed && <span>{group.label}</span>}
+                    {!collapsed && (
+                      <ChevronDown 
+                        size={10} 
+                        className={`transition-transform duration-200 ${expandedGroups.includes(group.id) ? 'rotate-180' : ''}`}
+                      />
+                    )}
+                    {collapsed && <div className="w-4 h-0.5 bg-[#222]" />}
+                  </button>
 
-                    {/* Label */}
-                    <div className={`flex flex-col flex-1 overflow-hidden ${collapsed ? 'md:hidden' : ''}`}>
-                      <div className="flex items-center justify-between">
-                        <span className="truncate">{label}</span>
-                        {restricted && (
-                          <Lock size={10} className="text-[#333] group-hover:text-[#ff8c00]/40" />
-                        )}
-                      </div>
-                      <span className={`text-[9px] tracking-widest truncate ${
-                        active ? 'text-[#ff8c00]/60' : 
-                        restricted ? 'text-[#222]' : 
-                        'text-[#888] group-hover:text-[#aaa]'
-                      }`}>
-                        {restricted ? 'RESTRICTED' : sublabel}
-                      </span>
-                    </div>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+                  {/* Group Items */}
+                  <AnimatePresence initial={false}>
+                    {(expandedGroups.includes(group.id) || collapsed) && (
+                      <motion.ul
+                        initial={collapsed ? false : { height: 0, opacity: 0 }}
+                        animate={collapsed ? false : { height: 'auto', opacity: 1 }}
+                        exit={collapsed ? false : { height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2, ease: 'easeInOut' }}
+                        className="space-y-0.5 overflow-hidden"
+                      >
+                        {group.items.map(item => renderNavItem(item))}
+                      </motion.ul>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ))}
+            </div>
+          )}
         </nav>
 
         {/* Status dot + collapse toggle */}
         <div className="border-t border-[#1a1a1a] shrink-0">
-          {/* CORE ONLINE status */}
           <div 
             aria-label="Core system status: Online"
             className={`flex items-center gap-2 px-4 py-3 ${collapsed ? 'md:justify-center' : ''}`}
@@ -191,7 +285,6 @@ export function ForgeRail({
             </span>
           </div>
 
-          {/* Collapse toggle */}
           <button
             onClick={onToggle}
             aria-expanded={!collapsed}

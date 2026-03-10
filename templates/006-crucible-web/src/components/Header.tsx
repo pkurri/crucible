@@ -10,7 +10,6 @@ import { signOut } from '@/lib/auth-utils';
 
 export function Header() {
   const pathname = usePathname();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [user, setUser] = useState<any>(null);
 
   useEffect(() => {
@@ -34,19 +33,6 @@ export function Header() {
     window.location.href = '/';
   };
 
-  const navLinks = user ? [
-    { href: '/', label: 'THE ARMORY' },
-    { href: '/skills', label: 'CORE SAMPLES' },
-    { href: '/flux', label: 'REAL-TIME FLUX' },
-    { href: '/agents', label: 'SWARM AGENTS' },
-    { href: '/stage', label: 'THE STAGE' },
-    { href: '/monitoring', label: 'TELEMETRY' },
-    { href: '/intel', label: 'INTEL' },
-    { href: '/infographics', label: 'DATA INTEL' },
-    { href: '/foundry', label: 'THE FOUNDRY' },
-    { href: '/hub', label: 'FORGE HUB' },
-  ] : [];
-
   return (
     <nav 
       aria-label="Main Navigation" 
@@ -60,25 +46,11 @@ export function Header() {
             aria-hidden="true" 
             className="w-0 h-0 border-l-[12px] border-l-transparent border-b-[20px] border-b-[#ff8c00] border-r-[12px] border-r-transparent animate-pulse-molten"
           ></div>
-          <Link href="/" className="text-2xl font-black tracking-widest text-[#e0e0e0]">
-            CRUCIBLE
+          <Link href="/" className="flex items-center gap-2">
+            <span className="text-2xl font-black tracking-widest text-[#e0e0e0]">CRUCIBLE</span>
+            <span className="text-[8px] text-[#333] font-mono mt-1 opacity-20">v1.2.2-single-menu</span>
           </Link>
         </div>
-
-        {/* Navigation Links (Desktop) */}
-        <ul className="hidden md:flex items-center gap-8 font-mono text-[10px] tracking-[0.2em] xl:gap-12 xl:text-xs">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <Link 
-                href={link.href} 
-                aria-current={pathname === link.href ? 'page' : undefined}
-                className={`hover:text-[#ff8c00] transition-colors ${pathname === link.href ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-              >
-                {link.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
 
         {/* Right Actions */}
         <div className="flex items-center gap-6">
@@ -122,43 +94,8 @@ export function Header() {
               </Link>
             )}
           </div>
-
-          {/* Mobile Menu Toggle */}
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 text-[#ff8c00] hover:bg-[#ff8c00]/10 rounded-lg transition-colors"
-            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
         </div>
       </div>
-
-      {/* Mobile Navigation */}
-      <AnimatePresence>
-        {isMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden border-t border-[#ff8c00]/10 bg-[#050505] overflow-hidden"
-          >
-            <ul className="flex flex-col p-6 gap-4 font-mono text-xs tracking-[0.2em]">
-              {navLinks.map((link) => (
-                <li key={link.href}>
-                  <Link 
-                    href={link.href}
-                    onClick={() => setIsMenuOpen(false)}
-                    className={`block py-2 ${pathname === link.href ? 'text-[#ff8c00]' : 'text-[#e0e0e0]'}`}
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </nav>
   );
 }

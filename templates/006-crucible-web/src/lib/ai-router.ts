@@ -62,10 +62,10 @@ export async function generateText(prompt: string): Promise<string> {
   // ─── 1. Gemini (1,500 req/day free) ─────────────────────────────────────
   if (geminiKey) {
     try {
-      console.log('[ROUTER] Trying Gemini 2.5 Flash...');
+      console.log('[ROUTER] Trying Gemini 1.5 Flash...');
       const ai = new GoogleGenAI({ apiKey: geminiKey });
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-1.5-flash',
         contents: prompt,
       });
       if (response.text) return response.text;
