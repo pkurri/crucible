@@ -1,4 +1,2 @@
-# Edge Node Protocol
-
-Autonomously forged skill designed to optimize https://react.dev operations at
-scale.
+# Edge Node
+Autonomously forged skill.
