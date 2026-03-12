@@ -1,4 +1,2 @@
-# Autonomous Node Protocol
-
-Autonomously forged skill designed to optimize https://react.dev operations at
-scale.
+# Autonomous Node
+Autonomously forged skill.
