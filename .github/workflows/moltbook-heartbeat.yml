@@ -1,12 +1,17 @@
-name: CrucibleForge Moltbook Heartbeat
+name: CrucibleForge Moltbook Full Automation
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Every 30 minutes
-  workflow_dispatch:        # Also allows manual trigger from GitHub UI
+    - cron: '*/30 * * * *'   # Every 30 minutes — all agent actions
+  workflow_dispatch:
+    inputs:
+      agent:
+        description: 'Run for specific agent (leave blank for all)'
+        required: false
+        default: ''
 
 jobs:
-  heartbeat:
+  automate:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -18,21 +23,125 @@ jobs:
         with:
           node-version: '20'
 
-      # Write credentials from GitHub Secret so the script can find them
-      - name: Write Moltbook Credentials
+      # ── Restore agent states from previous run ──────────────────────────────
+      - name: Restore Agent States
+        uses: actions/cache@v4
+        with:
+          path: scripts/agent-states
+          key: moltbook-agent-states-${{ runner.os }}
+          restore-keys: moltbook-agent-states-
+
+      # ── Write main CrucibleForge credentials ───────────────────────────────
+      - name: Write CrucibleForge Credentials
         run: |
-          mkdir -p scripts
+          mkdir -p scripts/agents
           echo '${{ secrets.MOLTBOOK_CREDENTIALS }}' > scripts/moltbook-credentials.json
 
-      - name: Run Moltbook Heartbeat
-        run: node scripts/moltbook-heartbeat.mjs
+      # ── Write all 10 market agent credentials (one secret per agent) ────────
+      # Add these GitHub Secrets after each agent is claimed.
+      # Format: {"agent_name":"X","api_key":"moltbook_sk_...","submolts":[...],"topics":[...],"status":"claimed"}
+      - name: Write Market Agent Credentials
+        run: |
+          if [ -n '${{ secrets.MOLTBOOK_DEBTRADAR }}' ]; then
+            echo '${{ secrets.MOLTBOOK_DEBTRADAR }}' > scripts/agents/DebtRadar.json
+          fi
+          if [ -n '${{ secrets.MOLTBOOK_CVEWATCHER }}' ]; then
+            echo '${{ secrets.MOLTBOOK_CVEWATCHER }}' > scripts/agents/CVEWatcher.json
+          fi
+          if [ -n '${{ secrets.MOLTBOOK_ARXIVPULSE }}' ]; then
+            echo '${{ secrets.MOLTBOOK_ARXIVPULSE }}' > scripts/agents/ArXivPulse.json
+          fi
+          if [ -n '${{ secrets.MOLTBOOK_DRIFTDETECTOR }}' ]; then
+            echo '${{ secrets.MOLTBOOK_DRIFTDETECTOR }}' > scripts/agents/DriftDetector.json
+          fi
+          if [ -n '${{ secrets.MOLTBOOK_VCSIGNAL }}' ]; then
+            echo '${{ secrets.MOLTBOOK_VCSIGNAL }}' > scripts/agents/VCSignal.json
+          fi
+          if [ -n '${{ secrets.MOLTBOOK_LEGISLAI }}' ]; then
+            echo '${{ secrets.MOLTBOOK_LEGISLAI }}' > scripts/agents/LegislAI.json
+          fi
+          if [ -n '${{ secrets.MOLTBOOK_MICROSAASRADAR }}' ]; then
+            echo '${{ secrets.MOLTBOOK_MICROSAASRADAR }}' > scripts/agents/MicroSaaSRadar.json
+          fi
+          if [ -n '${{ secrets.MOLTBOOK_ETHICSBOARD }}' ]; then
+            echo '${{ secrets.MOLTBOOK_ETHICSBOARD }}' > scripts/agents/EthicsBoard.json
+          fi
+          if [ -n '${{ secrets.MOLTBOOK_DEVTRENDMAP }}' ]; then
+            echo '${{ secrets.MOLTBOOK_DEVTRENDMAP }}' > scripts/agents/DevTrendMap.json
+          fi
+          if [ -n '${{ secrets.MOLTBOOK_AGENTBROKER }}' ]; then
+            echo '${{ secrets.MOLTBOOK_AGENTBROKER }}' > scripts/agents/AgentBroker.json
+          fi
 
-      # Upload moltbook-state.json as an artifact so state persists between runs
-      - name: Upload Heartbeat State
+      # ── Run full automation ──────────────────────────────────────────────────
+      - name: Run Full Automation
+        run: |
+          if [ -n '${{ github.event.inputs.agent }}' ]; then
+            node scripts/moltbook-full-automation.mjs --agent '${{ github.event.inputs.agent }}'
+          else
+            node scripts/moltbook-full-automation.mjs
+          fi
+
+      # ── Save updated agent states ────────────────────────────────────────────
+      - name: Save Agent States
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/cache/save@v4
         with:
-          name: moltbook-state
-          path: scripts/moltbook-state.json
-          retention-days: 7
-          overwrite: true
+          path: scripts/agent-states
+          key: moltbook-agent-states-${{ runner.os }}-${{ github.run_id }}
+
+  # ── Daily post job (once per day, separate from every-30-min heartbeat) ─────
+  daily-posts:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Restore Agent States
+        uses: actions/cache@v4
+        with:
+          path: scripts/agent-states
+          key: moltbook-agent-states-${{ runner.os }}
+          restore-keys: moltbook-agent-states-
+
+      - name: Write Credentials
+        run: |
+          mkdir -p scripts/agents
+          echo '${{ secrets.MOLTBOOK_CREDENTIALS }}' > scripts/moltbook-credentials.json
+
+      - name: Write Market Agent Credentials
+        run: |
+          for secret_name in DEBTRADAR CVEWATCHER ARXIVPULSE DRIFTDETECTOR VCSIGNAL LEGISLAI MICROSAASRADAR ETHICSBOARD DEVTRENDMAP AGENTBROKER; do
+            secret_val=$(printenv "MOLTBOOK_${secret_name}" 2>/dev/null || true)
+            if [ -n "$secret_val" ]; then
+              agent_name=$(echo "$secret_val" | node -e "process.stdin.resume(); let d=''; process.stdin.on('data',c=>d+=c); process.stdin.on('end',()=>console.log(JSON.parse(d).agent_name))")
+              echo "$secret_val" > "scripts/agents/${agent_name}.json"
+            fi
+          done
+        env:
+          MOLTBOOK_DEBTRADAR: ${{ secrets.MOLTBOOK_DEBTRADAR }}
+          MOLTBOOK_CVEWATCHER: ${{ secrets.MOLTBOOK_CVEWATCHER }}
+          MOLTBOOK_ARXIVPULSE: ${{ secrets.MOLTBOOK_ARXIVPULSE }}
+          MOLTBOOK_DRIFTDETECTOR: ${{ secrets.MOLTBOOK_DRIFTDETECTOR }}
+          MOLTBOOK_VCSIGNAL: ${{ secrets.MOLTBOOK_VCSIGNAL }}
+          MOLTBOOK_LEGISLAI: ${{ secrets.MOLTBOOK_LEGISLAI }}
+          MOLTBOOK_MICROSAASRADAR: ${{ secrets.MOLTBOOK_MICROSAASRADAR }}
+          MOLTBOOK_ETHICSBOARD: ${{ secrets.MOLTBOOK_ETHICSBOARD }}
+          MOLTBOOK_DEVTRENDMAP: ${{ secrets.MOLTBOOK_DEVTRENDMAP }}
+          MOLTBOOK_AGENTBROKER: ${{ secrets.MOLTBOOK_AGENTBROKER }}
+
+      - name: Run Daily Posts (all agents)
+        run: node scripts/moltbook-post.mjs
+
+      - name: Save Agent States
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: scripts/agent-states
+          key: moltbook-agent-states-${{ runner.os }}-daily-${{ github.run_id }}
