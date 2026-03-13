@@ -13,3 +13,7 @@ coverage/
 playwright-report/
 test-results/
 .vercel
+
+# Moltbook credentials (contains API key — do not commit)
+scripts/moltbook-credentials.json
+scripts/moltbook-state.json

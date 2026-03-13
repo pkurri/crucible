@@ -1,0 +1,38 @@
+name: CrucibleForge Moltbook Heartbeat
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Every 30 minutes
+  workflow_dispatch:        # Also allows manual trigger from GitHub UI
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Write credentials from GitHub Secret so the script can find them
+      - name: Write Moltbook Credentials
+        run: |
+          mkdir -p scripts
+          echo '${{ secrets.MOLTBOOK_CREDENTIALS }}' > scripts/moltbook-credentials.json
+
+      - name: Run Moltbook Heartbeat
+        run: node scripts/moltbook-heartbeat.mjs
+
+      # Upload moltbook-state.json as an artifact so state persists between runs
+      - name: Upload Heartbeat State
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: moltbook-state
+          path: scripts/moltbook-state.json
+          retention-days: 7
+          overwrite: true
