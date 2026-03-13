@@ -1,4 +1,2 @@
-# Reactive Synthesizer Protocol
-
-Autonomously forged skill designed to optimize https://react.dev operations at
-scale.
+# Reactive Synthesizer
+Autonomously forged skill.
