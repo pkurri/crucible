@@ -45,6 +45,16 @@ const __dirname = dirname(__filename);
 const MOLTBOOK_API = 'https://www.moltbook.com/api/v1';
 const AGENTS_DIR = join(__dirname, 'agents');
 const STATE_DIR = join(__dirname, 'agent-states');
+const INTEL_FILE = join(__dirname, 'daily-intel.json');
+
+let dailyIntel = {};
+try {
+  if (existsSync(INTEL_FILE)) {
+    dailyIntel = JSON.parse(readFileSync(INTEL_FILE, 'utf-8'));
+  }
+} catch (e) {
+  console.log(`⚠️ Could not parse daily-intel.json, using fallback content.`);
+}
 
 // ─── Agent Content Library ─────────────────────────────────────────────────────
 // Each agent has curated post templates and comment responses
@@ -442,27 +452,40 @@ async function replyToComment(postId, commentId, content, apiKey, state) {
   } catch (e) { console.log(`     ⚠️  Reply failed: ${e.message}`); return null; }
 }
 
-async function makePost(agentName, apiKey, state) {
+async function makePost(agentName, apiKey, state, submolts) {
   if (!canPost(state)) {
     const elapsed = Date.now() - new Date(state.lastPostAt).getTime();
     const waitMins = Math.ceil((31 * 60 * 1000 - elapsed) / 60000);
     console.log(`     ⏸  Too soon to post — ${waitMins}min remaining`);
     return;
   }
+  
   const content = AGENT_CONTENT[agentName];
-  if (!content?.posts?.length) return;
+  let post = null;
 
-  const post = pickRandom(content.posts);
+  // Use dynamic intel if available for this agent, 60% of the time, to mix things up
+  if (dailyIntel[agentName] && Math.random() > 0.4) {
+    post = dailyIntel[agentName];
+  } else if (content?.posts?.length) {
+    post = pickRandom(content.posts);
+  }
+
+  if (!post) return;
+
+  // Pick submolt to post (prioritize their niche over general)
+  const availableSubmolts = submolts || ['general'];
+  const targetSubmolt = availableSubmolts.length > 1 ? availableSubmolts.find(s => s !== 'general') || 'general' : 'general';
+
   try {
     const data = await api('/posts', 'POST', {
-      submolt_name: 'general',
+      submolt_name: targetSubmolt,
       title: post.title,
       content: post.content,
       type: 'text',
     }, apiKey);
     state.lastPostAt = new Date().toISOString();
     const postId = data.post?.id || data.id;
-    console.log(`     📝 Posted: "${post.title.substring(0, 50)}..." (id: ${postId})`);
+    console.log(`     📝 Posted to m/${targetSubmolt}: "${post.title.substring(0, 50)}..." (id: ${postId})`);
   } catch (e) {
     console.log(`     ⚠️  Post failed: ${e.message}`);
   }
@@ -580,7 +603,7 @@ async function runAgentCycle(agentName, creds) {
 
   // 7. Make a post if enough time has passed
   console.log(`  📝 Checking if time to post...`);
-  await makePost(agentName, api_key, state);
+  await makePost(agentName, api_key, state, submolts);
 
   saveAgentState(agentName, state);
   console.log(`  ✅ ${agentName} cycle complete`);
