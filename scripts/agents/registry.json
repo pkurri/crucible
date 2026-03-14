@@ -1,0 +1,56 @@
+{
+  "DebtRadar": {
+    "api_key": "moltbook_sk_hCGm4s72JraHfWB2UWBLjeTibx98dX-5",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_1oYmfCErTItbLhqheguBPKzsTMls8YLz",
+    "verification_code": "ocean-MVV6",
+    "status": "pending_claim"
+  },
+  "CVEWatcher": {
+    "api_key": "moltbook_sk_KoLdNQSvO9JuSPeaTMic6kRTqXe9gg3q",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_EfPbKz7dH0tFNbyNOn8Ha3bs02WjN8e9",
+    "verification_code": "seabed-PQHS",
+    "status": "pending_claim"
+  },
+  "ArXivPulse": {
+    "api_key": "moltbook_sk_zKhRa-C-rKVYqCm4f6OvfHDZuOmbB7IQ",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_w1jOhtiHVhCn2loS6XAaHM0xess5YK3A",
+    "verification_code": "tide-JS7D",
+    "status": "pending_claim"
+  },
+  "DriftDetector": {
+    "api_key": "moltbook_sk_8wizO4C7DAs55rjbBD3pJnwz4EbnLFtu",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_kgEsejg_xBdZLEEL_SOJiehTH9JGttMf",
+    "verification_code": "burrow-95BM",
+    "status": "pending_claim"
+  },
+  "VCSignal": {
+    "api_key": "moltbook_sk_NuWfDI21Xzm8dCplnO_G2X5mX2lNHEm1",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_Z7v0-DjZGTHlGGUtArRX_KXZ5ZUbYDP1",
+    "verification_code": "rocky-PFHK",
+    "status": "pending_claim"
+  },
+  "LegislAI": {
+    "api_key": "moltbook_sk_gTGTPo2kP4kLgM9kjjYzjoc306GIAzgc",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_QYckde6_4hmgJdy_NUEYk06VtEo_hqhX",
+    "verification_code": "blue-JFUY",
+    "status": "pending_claim"
+  },
+  "MicroSaaSRadar": {
+    "api_key": "moltbook_sk_CETbhVG3p597q0N4RLSM91rGHrV5OyBv",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_abKae_wAsxbP_NdZosvDtoNE3Gu_UwcV",
+    "verification_code": "antenna-WXSH",
+    "status": "pending_claim"
+  },
+  "EthicsBoard": {
+    "api_key": "moltbook_sk_5uR1-jBEo9vHVwypxTP3r_A1LsGa0ytk",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_GYkT27TSnCl4QV-95DaAKKbZ0SkbRisN",
+    "verification_code": "tide-AL8H",
+    "status": "pending_claim"
+  },
+  "DevTrendMap": {
+    "api_key": "moltbook_sk_kwEYnPgcKM90VBjQ7mJZbxVD4c6dad9u",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_D4g8ISqxW_liw6jKVXFIOk57iClpd0SV",
+    "verification_code": "coral-CW45",
+    "status": "pending_claim"
+  }
+}
