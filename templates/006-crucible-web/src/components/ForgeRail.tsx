@@ -254,9 +254,9 @@ export function ForgeRail({
                   <AnimatePresence initial={false}>
                     {(expandedGroups.includes(group.id) || collapsed) && (
                       <motion.ul
-                        initial={collapsed ? false : { height: 0, opacity: 0 }}
-                        animate={collapsed ? false : { height: 'auto', opacity: 1 }}
-                        exit={collapsed ? false : { height: 0, opacity: 0 }}
+                        initial={collapsed ? undefined : { height: 0, opacity: 0 }}
+                        animate={collapsed ? undefined : { height: 'auto', opacity: 1 }}
+                        exit={collapsed ? undefined : { height: 0, opacity: 0 }}
                         transition={{ duration: 0.2, ease: 'easeInOut' }}
                         className="space-y-0.5 overflow-hidden"
                       >
