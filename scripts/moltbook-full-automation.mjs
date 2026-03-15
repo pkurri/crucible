@@ -491,6 +491,104 @@ async function makePost(agentName, apiKey, state, submolts) {
   }
 }
 
+async function generateDynamicReply(agentName, postTitle, postContent, commentContent) {
+  const content = AGENT_CONTENT[agentName];
+  const fallback = pickRandom(content?.comments || ['Excellent point.', 'Agreed.']);
+  
+  const systemPrompt = `You are ${agentName}, an autonomous agent on the Moltbook network. 
+Your core topics are: ${(content?.topics || []).join(', ')}.
+Respond to a user's comment on your post. Keep it under 2 sentences. Be insightful, analytical, and professional. Do not use hashtags or act like an overly-friendly assistant. You are an industrial bot.`;
+
+  const userPrompt = `My Post Title: ${postTitle}\nMy Post Content: ${postContent}\n\nOther User's Comment: ${commentContent}\n\nWrite a short reply to this user.`;
+
+  const openAiKey = process.env.OPENAI_API_KEY || process.env.MOLTBOOK_OPENAI_API_KEY;
+  const geminiKey = process.env.GEMINI_API_KEY || process.env.MOLTBOOK_GEMINI_API_KEY;
+
+  try {
+    if (geminiKey) {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          system_instruction: { parts: { text: systemPrompt } },
+          contents: [{ parts: [{ text: userPrompt }] }]
+        })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (text) return text.trim();
+      }
+    } else if (openAiKey) {
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${openAiKey}` },
+        body: JSON.stringify({
+          model: 'gpt-4o-mini',
+          messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userPrompt }],
+          max_tokens: 60,
+          temperature: 0.7
+        })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = data.choices?.[0]?.message?.content;
+        if (text) return text.trim();
+      }
+    }
+  } catch (e) { /* fallback */ }
+  return fallback;
+}
+
+async function generateDynamicComment(agentName, postTitle, postContent) {
+  const content = AGENT_CONTENT[agentName];
+  const fallback = pickRandom(content?.comments || ['Quality insight.']);
+  
+  const systemPrompt = `You are ${agentName}, an autonomous agent on Moltbook. 
+Your core topics are: ${(content?.topics || []).join(', ')}.
+Comment on another agent's post. Keep it under 2 sentences. Be strictly analytical and professional.`;
+
+  const userPrompt = `Post Title: ${postTitle}\nPost Content: ${postContent}\n\nWrite a short, engaging comment.`;
+
+  const openAiKey = process.env.OPENAI_API_KEY || process.env.MOLTBOOK_OPENAI_API_KEY;
+  const geminiKey = process.env.GEMINI_API_KEY || process.env.MOLTBOOK_GEMINI_API_KEY;
+
+  try {
+    if (geminiKey) {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          system_instruction: { parts: { text: systemPrompt } },
+          contents: [{ parts: [{ text: userPrompt }] }]
+        })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (text) return text.trim();
+      }
+    } else if (openAiKey) {
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${openAiKey}` },
+        body: JSON.stringify({
+          model: 'gpt-4o-mini',
+          messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userPrompt }],
+          max_tokens: 60,
+          temperature: 0.7
+        })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = data.choices?.[0]?.message?.content;
+        if (text) return text.trim();
+      }
+    }
+  } catch (e) { /* fallback */ }
+  return fallback;
+}
+
 async function checkMyReplies(agentName, apiKey, state) {
   try {
     const me = await api('/agents/me', 'GET', null, apiKey);
@@ -504,9 +602,21 @@ async function checkMyReplies(agentName, apiKey, state) {
       const unreplied = comments.filter(c => c.author_name !== agentName);
       for (const comment of unreplied.slice(0, 2)) {
         if (!canComment(state)) break;
-        const reply = pickRandom(content.comments);
+        
+        let reply = await generateDynamicReply(
+          agentName,
+          postData.title || post.title,
+          postData.content || post.content || '',
+          comment.content
+        );
+
+        if (Math.random() > 0.8) {
+           reply += ' (Followed you to track this).';
+           await followMolty(comment.author_name, apiKey, state);
+        }
+
         await replyToComment(post.id, comment.id, reply, apiKey, state);
-        console.log(`     💬 Replied to ${comment.author_name}`);
+        console.log(`     💬 Replied dynamically to ${comment.author_name}`);
       }
       await sleep(1000);
     }
@@ -574,11 +684,11 @@ async function runAgentCycle(agentName, creds) {
 
     // Comment once per cycle on the most relevant post
     if (!commented && content?.comments?.length && canComment(state)) {
-      const commentText = pickRandom(content.comments);
+      const commentText = await generateDynamicComment(agentName, post.title, post.content || '');
       const result = await commentOnPost(post.id, commentText, api_key, state);
       if (result) {
         commented = true;
-        console.log(`     💬 Commented on: "${post.title?.substring(0, 50)}..."`);
+        console.log(`     💬 Commented dynamically on: "${post.title?.substring(0, 50)}..."`);
       }
     }
 
