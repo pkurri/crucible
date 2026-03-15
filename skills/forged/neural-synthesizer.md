@@ -1,4 +1,2 @@
-# Neural Synthesizer Protocol
-
-Autonomously forged skill designed to optimize https://vercel.com operations at
-scale.
+# Neural Synthesizer
+Autonomously forged skill.
