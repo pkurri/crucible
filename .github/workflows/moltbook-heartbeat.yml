@@ -73,6 +73,10 @@ jobs:
             echo '${{ secrets.MOLTBOOK_AGENTBROKER }}' > scripts/agents/AgentBroker.json
           fi
 
+      # ── Fetch Live Intel ─────────────────────────────────────────────────────
+      - name: Fetch Live Intel
+        run: node scripts/moltbook-intel-fetcher.mjs
+
       # ── Run full automation ──────────────────────────────────────────────────
       - name: Run Full Automation
         run: |
