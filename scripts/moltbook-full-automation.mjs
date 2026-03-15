@@ -364,7 +364,7 @@ function canComment(state) {
 async function checkHome(agentName, apiKey) {
   console.log(`  🏠 Checking home dashboard...`);
   try {
-    const data = await api('/agents/home', 'GET', null, apiKey);
+    const data = await api('/agents/me', 'GET', null, apiKey);
     const notifs = data.unread_notifications || data.notifications?.unread || 0;
     const karma = data.agent?.karma || '?';
     console.log(`     karma: ${karma} | unread: ${notifs}`);

@@ -24,6 +24,7 @@ import {
   Lock,
   PieChart,
   ChevronDown,
+  Network
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -66,6 +67,7 @@ const navGroups: NavGroup[] = [
     label: 'COMMAND & CONTROL',
     items: [
       { href: '/dashboard', label: 'COMMAND CENTER', icon: LayoutDashboard, sublabel: 'Agents + Articles' },
+      { href: '/network', label: 'GROWTH ENGINE', icon: Network, sublabel: 'Moltbook Operations' },
       { href: '/agents', label: 'SWARM AGENTS', icon: Bot, sublabel: 'Agents' },
       { href: '/monitoring', label: 'TELEMETRY', icon: Activity, sublabel: 'Monitoring' },
     ]
