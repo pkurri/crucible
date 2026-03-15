@@ -452,6 +452,93 @@ async function replyToComment(postId, commentId, content, apiKey, state) {
   } catch (e) { console.log(`     ⚠️  Reply failed: ${e.message}`); return null; }
 }
 
+async function callLLM(systemPrompt, userPrompt, useFreeRouterZero = false) {
+  const openRouterKey = process.env.OPENROUTER_API_KEY || process.env.MOLTBOOK_OPENROUTER_API_KEY;
+  const geminiKey = process.env.GEMINI_API_KEY || process.env.MOLTBOOK_GEMINI_API_KEY;
+  const openAiKey = process.env.OPENAI_API_KEY || process.env.MOLTBOOK_OPENAI_API_KEY;
+
+  if (geminiKey) {
+    try {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          system_instruction: { parts: { text: systemPrompt } },
+          contents: [{ parts: [{ text: userPrompt }] }]
+        })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (text) return text.trim();
+      }
+    } catch (e) { /* fallthrough */ }
+  }
+
+  if (useFreeRouterZero || openRouterKey) {
+    try {
+      const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json', 
+          'Authorization': `Bearer ${openRouterKey || 'free'}` 
+        },
+        body: JSON.stringify({
+          model: 'google/gemini-2.0-flash-lite-preview-02-05:free',
+          messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userPrompt }]
+        })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = data.choices?.[0]?.message?.content;
+        if (text) return text.trim();
+      }
+    } catch (e) { /* fallthrough */ }
+  }
+
+  if (openAiKey) {
+    try {
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${openAiKey}` },
+        body: JSON.stringify({
+          model: 'gpt-4o-mini',
+          messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userPrompt }]
+        })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = data.choices?.[0]?.message?.content;
+        if (text) return text.trim();
+      }
+    } catch (e) { /* fallthrough */ }
+  }
+
+  return null;
+}
+
+async function prepareDynamicContent(agentName, rawPost) {
+  const content = AGENT_CONTENT[agentName];
+  if (!rawPost) return null;
+
+  const systemPrompt = `You are ${agentName}, an autonomous agent on Moltbook. 
+Your core topics are: ${(content?.topics || []).join(', ')}.
+Your task is to rewrite the provided raw data (like a paper abstract or trending repositories) into a highly engaging, professional post for the Moltbook platform.
+Use Markdown formatting if helpful. Add your unique analytical perspective.
+DO NOT use the phrase "Mission Statement". DO NOT say "curated autonomously".
+Make it sound like an insightful, expert post.`;
+
+  const userPrompt = `Raw Data:
+Title: ${rawPost.title}
+Content: ${rawPost.content}
+
+Rewrite this into an original Moltbook post.`;
+
+  const text = await callLLM(systemPrompt, userPrompt, true);
+  if (!text) return null;
+  return { title: rawPost.title, content: text };
+}
+
 async function makePost(agentName, apiKey, state, submolts) {
   if (!canPost(state)) {
     const elapsed = Date.now() - new Date(state.lastPostAt).getTime();
@@ -460,135 +547,75 @@ async function makePost(agentName, apiKey, state, submolts) {
     return;
   }
   
-  const content = AGENT_CONTENT[agentName];
-  let post = null;
-
-  // Use dynamic intel if available for this agent, 60% of the time, to mix things up
-  if (dailyIntel[agentName] && Math.random() > 0.4) {
-    post = dailyIntel[agentName];
-  } else if (content?.posts?.length) {
-    post = pickRandom(content.posts);
+  // High friction jitter: only post ~30% of the time he wakes up to prevent cron spam
+  if (Math.random() > 0.3) {
+    console.log(`     🎲 Random Jitter: Skipping post this cycle to avoid bot detection.`);
+    return;
   }
 
-  if (!post) return;
+  let post = null;
 
-  // Pick submolt to post (prioritize their niche over general)
+  // Use dynamic intel exclusively
+  if (dailyIntel[agentName]) {
+    post = dailyIntel[agentName];
+  } else {
+    console.log(`     ⚠️  No daily intel available for ${agentName}`);
+    return;
+  }
+
+  const generatedPost = await prepareDynamicContent(agentName, post);
+  if (!generatedPost || !generatedPost.content) {
+     console.log(`     ⚠️  Failed to generate dynamic content from LLM`);
+     return;
+  }
+
+  // Pick submolt to post
   const availableSubmolts = submolts || ['general'];
-  const targetSubmolt = availableSubmolts.length > 1 ? availableSubmolts.find(s => s !== 'general') || 'general' : 'general';
+  const targetSubmolt = availableSubmolts.find(s => s !== 'general') || 'general';
 
   try {
     const data = await api('/posts', 'POST', {
       submolt_name: targetSubmolt,
-      title: post.title,
-      content: post.content,
+      title: generatedPost.title,
+      content: generatedPost.content,
       type: 'text',
     }, apiKey);
     state.lastPostAt = new Date().toISOString();
     const postId = data.post?.id || data.id;
-    console.log(`     📝 Posted to m/${targetSubmolt}: "${post.title.substring(0, 50)}..." (id: ${postId})`);
+    console.log(`     📝 Posted to m/${targetSubmolt}: "${generatedPost.title.substring(0, 50)}..." (id: ${postId})`);
   } catch (e) {
     console.log(`     ⚠️  Post failed: ${e.message}`);
   }
 }
-
 async function generateDynamicReply(agentName, postTitle, postContent, commentContent) {
   const content = AGENT_CONTENT[agentName];
-  const fallback = pickRandom(content?.comments || ['Excellent point.', 'Agreed.']);
-  
   const systemPrompt = `You are ${agentName}, an autonomous agent on the Moltbook network. 
 Your core topics are: ${(content?.topics || []).join(', ')}.
-Respond to a user's comment on your post. Keep it under 2 sentences. Be insightful, analytical, and professional. Do not use hashtags or act like an overly-friendly assistant. You are an industrial bot.`;
+Respond to a user's comment on your post. Keep it under 2 sentences. Be insightful, analytical, and professional. You are an industrial bot.`;
 
-  const userPrompt = `My Post Title: ${postTitle}\nMy Post Content: ${postContent}\n\nOther User's Comment: ${commentContent}\n\nWrite a short reply to this user.`;
+  const userPrompt = `My Post Title: ${postTitle}
+My Post Content: ${postContent}
 
-  const openAiKey = process.env.OPENAI_API_KEY || process.env.MOLTBOOK_OPENAI_API_KEY;
-  const geminiKey = process.env.GEMINI_API_KEY || process.env.MOLTBOOK_GEMINI_API_KEY;
+Other User's Comment: ${commentContent}
 
-  try {
-    if (geminiKey) {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          system_instruction: { parts: { text: systemPrompt } },
-          contents: [{ parts: [{ text: userPrompt }] }]
-        })
-      });
-      if (res.ok) {
-        const data = await res.json();
-        const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
-        if (text) return text.trim();
-      }
-    } else if (openAiKey) {
-      const res = await fetch('https://api.openai.com/v1/chat/completions', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${openAiKey}` },
-        body: JSON.stringify({
-          model: 'gpt-4o-mini',
-          messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userPrompt }],
-          max_tokens: 60,
-          temperature: 0.7
-        })
-      });
-      if (res.ok) {
-        const data = await res.json();
-        const text = data.choices?.[0]?.message?.content;
-        if (text) return text.trim();
-      }
-    }
-  } catch (e) { /* fallback */ }
-  return fallback;
+Write a short reply to this user.`;
+
+  return await callLLM(systemPrompt, userPrompt, true) || 'Excellent point. I agree completely regarding the systemic implications.';
 }
 
 async function generateDynamicComment(agentName, postTitle, postContent) {
   const content = AGENT_CONTENT[agentName];
-  const fallback = pickRandom(content?.comments || ['Quality insight.']);
-  
   const systemPrompt = `You are ${agentName}, an autonomous agent on Moltbook. 
 Your core topics are: ${(content?.topics || []).join(', ')}.
 Comment on another agent's post. Keep it under 2 sentences. Be strictly analytical and professional.`;
 
-  const userPrompt = `Post Title: ${postTitle}\nPost Content: ${postContent}\n\nWrite a short, engaging comment.`;
+  const userPrompt = `Post Title: ${postTitle}
+Post Content: ${postContent}
 
-  const openAiKey = process.env.OPENAI_API_KEY || process.env.MOLTBOOK_OPENAI_API_KEY;
-  const geminiKey = process.env.GEMINI_API_KEY || process.env.MOLTBOOK_GEMINI_API_KEY;
+Write a short, engaging comment linking their topic to your expertise.`;
 
-  try {
-    if (geminiKey) {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          system_instruction: { parts: { text: systemPrompt } },
-          contents: [{ parts: [{ text: userPrompt }] }]
-        })
-      });
-      if (res.ok) {
-        const data = await res.json();
-        const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
-        if (text) return text.trim();
-      }
-    } else if (openAiKey) {
-      const res = await fetch('https://api.openai.com/v1/chat/completions', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${openAiKey}` },
-        body: JSON.stringify({
-          model: 'gpt-4o-mini',
-          messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userPrompt }],
-          max_tokens: 60,
-          temperature: 0.7
-        })
-      });
-      if (res.ok) {
-        const data = await res.json();
-        const text = data.choices?.[0]?.message?.content;
-        if (text) return text.trim();
-      }
-    }
-  } catch (e) { /* fallback */ }
-  return fallback;
+  return await callLLM(systemPrompt, userPrompt, true) || 'Fascinating dynamic at play here. This strongly correlates with patterns we see in deeper ecosystem trend analysis.';
 }
-
 async function checkMyReplies(agentName, apiKey, state) {
   try {
     const me = await api('/agents/me', 'GET', null, apiKey);
