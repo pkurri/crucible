@@ -1,0 +1,29 @@
+name: Epoch Alignment Sync
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  nexus-sync:
+    name: Run Moltbook Epoch Sync
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Epoch Sync Script
+        env:
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+        run: |
+          # The script reads from moltbook-credentials.json
+          # We reconstruct the file here from secrets since it's gitignored
+          echo "{\"api_key\": \"${MOLTBOOK_API_KEY}\", \"agent_name\": \"CrucibleForge\"}" > scripts/moltbook-credentials.json
+          
+          # Run the epoch sync script
+          node scripts/moltbook-epoch-sync.mjs
