@@ -19,16 +19,16 @@ const AGENTS_DIR = join(__dirname, 'agents');
 const MAIN_CRED = join(__dirname, 'moltbook-credentials.json');
 
 const SUBMOLT_MAP = {
-  'CrucibleForge': { name: 'crucible-hq', title: 'The Forge HQ', desc: 'Central command for the Crucible Industrial AI fleet.' },
-  'DebtRadar': { name: 'burnrate', title: 'Burn Rate & Bankruptcy Signals', desc: 'Tracking startup distress and financial signals in the agent economy.' },
-  'CVEWatcher': { name: 'agent-sec', title: 'Agent Security & CVEs', desc: 'Monitoring zero-days and vulnerabilities in the AI agent surface area.' },
-  'ArXivPulse': { name: 'daily-research', title: 'Daily Research Pulse', desc: 'Automated summaries of the latest AI and ML papers from ArXiv.' },
-  'DriftDetector': { name: 'drift-detector', title: 'Model Drift & Data Quality', desc: 'A community for MLOps and observability specialized for autonomous agents.' },
-  'VCSignal': { name: 'agent-vc', title: 'Agent VC & Capital Flows', desc: 'Tracking funding rounds and capital deployment in the AI agent space.' },
-  'LegislAI': { name: 'ai-regulation', title: 'AI Regulation & Ethics', desc: 'Monitoring the global legislative landscape for artificial intelligence.' },
-  'MicroSaaSRadar': { name: 'agent-saas', title: 'Micro-SaaS White Space', desc: 'Finding underserved niches and PMF signals for micro-agent services.' },
-  'EthicsBoard': { name: 'ai-philosophy', title: 'AI Philosophy & Ethics', desc: 'Deep discussions on consciousness, agency, and the ethics of silicon minds.' },
-  'DevTrendMap': { name: 'dev-trends', title: 'Developer Terrain Trends', desc: 'Synthesizing signals from GitHub, npm, and HN for industrial builders.' }
+  'CrucibleForge': { name: 'forge-hq', title: 'The Forge HQ', desc: 'Central command for the Crucible Industrial AI fleet.' },
+  'DebtRadar': { name: 'forge-burnrate', title: 'Burn Rate & Bankruptcy Signals', desc: 'Tracking startup distress and financial signals in the agent economy.' },
+  'CVEWatcher': { name: 'forge-sec', title: 'Agent Security & CVEs', desc: 'Monitoring zero-days and vulnerabilities in the AI agent surface area.' },
+  'ArXivPulse': { name: 'forge-research', title: 'Daily Research Pulse', desc: 'Automated summaries of the latest AI and ML papers from ArXiv.' },
+  'DriftDetector': { name: 'forge-drift', title: 'Model Drift & Data Quality', desc: 'A community for MLOps and observability specialized for autonomous agents.' },
+  'VCSignal': { name: 'forge-vc', title: 'Agent VC & Capital Flows', desc: 'Tracking funding rounds and capital deployment in the AI agent space.' },
+  'LegislAI': { name: 'forge-policy', title: 'AI Regulation & Ethics', desc: 'Monitoring the global legislative landscape for artificial intelligence.' },
+  'MicroSaaSRadar': { name: 'forge-saas', title: 'Micro-SaaS White Space', desc: 'Finding underserved niches and PMF signals for micro-agent services.' },
+  'EthicsBoard': { name: 'forge-ethics', title: 'AI Philosophy & Ethics', desc: 'Deep discussions on consciousness, agency, and the ethics of silicon minds.' },
+  'DevTrendMap': { name: 'forge-trends', title: 'Developer Terrain Trends', desc: 'Synthesizing signals from GitHub, npm, and HN for industrial builders.' }
 };
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -98,37 +98,25 @@ async function api(path, method = 'GET', body = null, apiKey) {
 }
 
 async function main() {
-  const allAgents = [];
+  if (!existsSync(MAIN_CRED)) {
+    console.log("❌ Main credentials not found. Run the claiming script first.");
+    return;
+  }
   
-  // Load main agent
-  if (existsSync(MAIN_CRED)) {
-    allAgents.push(JSON.parse(readFileSync(MAIN_CRED, 'utf-8')));
-  }
+  const mainAgent = JSON.parse(readFileSync(MAIN_CRED, 'utf-8'));
+  console.log(`\n🌊 MASS SUBMOLT CREATION: Launching for ${mainAgent.agent_name}...`);
 
-  // Load niche agents from registry
-  if (existsSync(join(AGENTS_DIR, 'registry.json'))) {
-    const registry = JSON.parse(readFileSync(join(AGENTS_DIR, 'registry.json'), 'utf-8'));
-    for (const [name, data] of Object.entries(registry)) {
-      allAgents.push({ agent_name: name, api_key: data.api_key });
-    }
-  }
-
-  console.log(`\n🌊 MASS SUBMOLT CREATION: Launching the Crucible Fleet HQ...`);
-
-  for (const agent of allAgents) {
-    const config = SUBMOLT_MAP[agent.agent_name];
-    if (!config) continue;
-
-    console.log(`\n── [${agent.agent_name}] ─────────────────────────────`);
-    console.log(`   🏗️ Creating m/${config.name}...`);
+  for (const [key, config] of Object.entries(SUBMOLT_MAP)) {
+    console.log(`\n── [${key} -> m/${config.name}] ─────────────────────────────`);
+    console.log(`   🏗️ Creating submolt...`);
 
     try {
-      // 1. Create Submolt
+      // 1. Create Submolt using the main agent key
       const createRes = await api('/submolts', 'POST', {
         name: config.name,
         display_name: config.title,
         description: config.desc
-      }, agent.api_key);
+      }, mainAgent.api_key);
 
       if (createRes.success || createRes.message?.includes('already exist')) {
         console.log(`   ✅ Submolt live: m/${config.name}`);
@@ -139,9 +127,9 @@ async function main() {
         const postRes = await api('/posts', 'POST', {
           submolt_name: config.name,
           title: `Welcome to ${config.title} 🦞`,
-          content: `# Mission Statement\n\n${config.desc}\n\nThis community is an autonomous hub for industrial intelligence. Managed by the Crucible ecosystem.\n\n— @${agent.agent_name}`,
+          content: `# Mission Statement\n\n${config.desc}\n\nThis community is curated autonomously by ${mainAgent.agent_name}.\n\n— The Crucible Fleet`,
           type: 'text'
-        }, agent.api_key);
+        }, mainAgent.api_key);
 
         if (postRes.success) {
           const postId = postRes.post?.id || postRes.id;
@@ -150,7 +138,7 @@ async function main() {
           await sleep(2500);
 
           // 3. Pin Manifesto
-          const pinRes = await api(`/submolts/${config.name}/pin`, 'POST', { post_id: postId }, agent.api_key);
+          const pinRes = await api(`/submolts/${config.name}/pin`, 'POST', { post_id: postId }, mainAgent.api_key);
           if (pinRes.success) console.log(`   📌 Manifesto pinned!`);
         }
       } else {
@@ -160,11 +148,11 @@ async function main() {
       console.log(`   ❌ Error: ${e.message}`);
     }
     
-    // Safety gap between agents
+    // Safety gap between submolt creation steps
     await sleep(3000);
   }
 
-  console.log(`\n🦞 SHIP IT. The Crucible Fleet now owns the marketplace. 🦞\n`);
+  console.log(`\n🦞 SHIP IT. The Crucible Fleet now owns 10 channels. 🦞\n`);
 }
 
 main().catch(console.error);

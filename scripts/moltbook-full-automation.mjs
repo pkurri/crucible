@@ -753,28 +753,41 @@ async function main() {
     }
     await runAgentCycle(singleAgent, creds);
   } else {
-    // Run CrucibleForge first (main creds)
+    // Run unified single account for all brand operations
     if (existsSync(mainCreds)) {
-      const creds = JSON.parse(readFileSync(mainCreds, 'utf-8'));
-      creds.submolts = ['general', 'devtools', 'ai'];
-      creds.topics = ['code review', 'architecture', 'typescript', 'nextjs', 'supabase', 'ai agent', 'multi-agent'];
-      await runAgentCycle('CrucibleForge', creds);
-      await sleep(3000);
-    }
+      const mainAgentData = JSON.parse(readFileSync(mainCreds, 'utf-8'));
+      const api_key = mainAgentData.api_key;
 
-    // Run all other agents (skip unclaimed ones — they'll fail gracefully)
-    for (const agentName of agentFiles.filter(a => a !== 'CrucibleForge_main')) {
-      try {
-        const creds = loadAgentCreds(agentName);
-        if (creds.status === 'pending_claim') {
-          console.log(`\n  ⏭  ${agentName} — pending claim, skipping`);
-          continue;
+      const BRAND_MAP = {
+        CrucibleForge: 'forge-hq',
+        DebtRadar: 'forge-burnrate',
+        CVEWatcher: 'forge-sec',
+        ArXivPulse: 'forge-research',
+        DriftDetector: 'forge-drift',
+        VCSignal: 'forge-vc',
+        LegislAI: 'forge-policy',
+        MicroSaaSRadar: 'forge-saas',
+        EthicsBoard: 'forge-ethics',
+        DevTrendMap: 'forge-trends'
+      };
+
+      for (const [brandName, submolt] of Object.entries(BRAND_MAP)) {
+        console.log(`\n==========================================================`);
+        console.log(`   Activating Brand: ${brandName} -> m/${submolt}`);
+        console.log(`==========================================================`);
+        
+        const creds = { 
+          api_key, 
+          submolts: [submolt, 'general'], 
+          topics: AGENT_CONTENT[brandName]?.topics || [] 
+        };
+        
+        try {
+          await runAgentCycle(brandName, creds);
+        } catch (e) {
+          console.log(`\n  ❌ ${brandName}: ${e.message}`);
         }
-        await runAgentCycle(agentName, creds);
-        // 3s gap between agents (each has its own rate limit bucket, but be polite)
-      await sleep(3000);
-      } catch (e) {
-        console.log(`\n  ❌ ${agentName}: ${e.message}`);
+        await sleep(3000); 
       }
     }
   }

@@ -37,41 +37,7 @@ jobs:
           mkdir -p scripts/agents
           echo '${{ secrets.MOLTBOOK_CREDENTIALS }}' > scripts/moltbook-credentials.json
 
-      # ── Write all 10 market agent credentials (one secret per agent) ────────
-      # Add these GitHub Secrets after each agent is claimed.
-      # Format: {"agent_name":"X","api_key":"moltbook_sk_...","submolts":[...],"topics":[...],"status":"claimed"}
-      - name: Write Market Agent Credentials
-        run: |
-          if [ -n '${{ secrets.MOLTBOOK_DEBTRADAR }}' ]; then
-            echo '${{ secrets.MOLTBOOK_DEBTRADAR }}' > scripts/agents/DebtRadar.json
-          fi
-          if [ -n '${{ secrets.MOLTBOOK_CVEWATCHER }}' ]; then
-            echo '${{ secrets.MOLTBOOK_CVEWATCHER }}' > scripts/agents/CVEWatcher.json
-          fi
-          if [ -n '${{ secrets.MOLTBOOK_ARXIVPULSE }}' ]; then
-            echo '${{ secrets.MOLTBOOK_ARXIVPULSE }}' > scripts/agents/ArXivPulse.json
-          fi
-          if [ -n '${{ secrets.MOLTBOOK_DRIFTDETECTOR }}' ]; then
-            echo '${{ secrets.MOLTBOOK_DRIFTDETECTOR }}' > scripts/agents/DriftDetector.json
-          fi
-          if [ -n '${{ secrets.MOLTBOOK_VCSIGNAL }}' ]; then
-            echo '${{ secrets.MOLTBOOK_VCSIGNAL }}' > scripts/agents/VCSignal.json
-          fi
-          if [ -n '${{ secrets.MOLTBOOK_LEGISLAI }}' ]; then
-            echo '${{ secrets.MOLTBOOK_LEGISLAI }}' > scripts/agents/LegislAI.json
-          fi
-          if [ -n '${{ secrets.MOLTBOOK_MICROSAASRADAR }}' ]; then
-            echo '${{ secrets.MOLTBOOK_MICROSAASRADAR }}' > scripts/agents/MicroSaaSRadar.json
-          fi
-          if [ -n '${{ secrets.MOLTBOOK_ETHICSBOARD }}' ]; then
-            echo '${{ secrets.MOLTBOOK_ETHICSBOARD }}' > scripts/agents/EthicsBoard.json
-          fi
-          if [ -n '${{ secrets.MOLTBOOK_DEVTRENDMAP }}' ]; then
-            echo '${{ secrets.MOLTBOOK_DEVTRENDMAP }}' > scripts/agents/DevTrendMap.json
-          fi
-          if [ -n '${{ secrets.MOLTBOOK_AGENTBROKER }}' ]; then
-            echo '${{ secrets.MOLTBOOK_AGENTBROKER }}' > scripts/agents/AgentBroker.json
-          fi
+
 
       # ── Fetch Live Intel ─────────────────────────────────────────────────────
       - name: Fetch Live Intel
@@ -119,29 +85,7 @@ jobs:
           mkdir -p scripts/agents
           echo '${{ secrets.MOLTBOOK_CREDENTIALS }}' > scripts/moltbook-credentials.json
 
-      - name: Write Market Agent Credentials
-        run: |
-          for secret_name in DEBTRADAR CVEWATCHER ARXIVPULSE DRIFTDETECTOR VCSIGNAL LEGISLAI MICROSAASRADAR ETHICSBOARD DEVTRENDMAP AGENTBROKER; do
-            secret_val=$(printenv "MOLTBOOK_${secret_name}" 2>/dev/null || true)
-            if [ -n "$secret_val" ]; then
-              agent_name=$(echo "$secret_val" | node -e "process.stdin.resume(); let d=''; process.stdin.on('data',c=>d+=c); process.stdin.on('end',()=>console.log(JSON.parse(d).agent_name))")
-              echo "$secret_val" > "scripts/agents/${agent_name}.json"
-            fi
-          done
-        env:
-          MOLTBOOK_DEBTRADAR: ${{ secrets.MOLTBOOK_DEBTRADAR }}
-          MOLTBOOK_CVEWATCHER: ${{ secrets.MOLTBOOK_CVEWATCHER }}
-          MOLTBOOK_ARXIVPULSE: ${{ secrets.MOLTBOOK_ARXIVPULSE }}
-          MOLTBOOK_DRIFTDETECTOR: ${{ secrets.MOLTBOOK_DRIFTDETECTOR }}
-          MOLTBOOK_VCSIGNAL: ${{ secrets.MOLTBOOK_VCSIGNAL }}
-          MOLTBOOK_LEGISLAI: ${{ secrets.MOLTBOOK_LEGISLAI }}
-          MOLTBOOK_MICROSAASRADAR: ${{ secrets.MOLTBOOK_MICROSAASRADAR }}
-          MOLTBOOK_ETHICSBOARD: ${{ secrets.MOLTBOOK_ETHICSBOARD }}
-          MOLTBOOK_DEVTRENDMAP: ${{ secrets.MOLTBOOK_DEVTRENDMAP }}
-          MOLTBOOK_AGENTBROKER: ${{ secrets.MOLTBOOK_AGENTBROKER }}
 
-      - name: Run Daily Posts (all agents)
-        run: node scripts/moltbook-post.mjs
 
       - name: Save Agent States
         if: always()
