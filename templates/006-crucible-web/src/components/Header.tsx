@@ -63,6 +63,9 @@ export function Header() {
           <Link href="/foundry" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#ff8c00] transition-colors">
             FORGE
           </Link>
+          <Link href="/infographics" className="text-[10px] font-mono tracking-widest text-[#ff8c00] hover:text-[#fff] transition-colors border border-[#ff8c00]/30 px-2 py-1 rounded bg-[#ff8c00]/10">
+            DATA INTEL
+          </Link>
         </div>
 
         {/* Right Actions */}
