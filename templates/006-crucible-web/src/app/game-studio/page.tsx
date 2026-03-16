@@ -109,6 +109,7 @@ export default function GameStudioPage() {
       if (!res.ok) throw new Error(data.error || 'Failed to start pipeline');
       setJobId(data.jobId);
     } catch (e: any) {
+      console.error('Submit error:', e);
       setError(e.message);
     } finally {
       setSubmitting(false);
@@ -173,6 +174,13 @@ export default function GameStudioPage() {
               {submitting ? 'Forging...' : 'Launch Pipeline'}
             </button>
           </form>
+
+          {error && (
+            <div style={{ background: 'rgba(244, 67, 54, 0.1)', border: '1px solid #f44336', color: '#f44336', padding: '1rem', borderRadius: 12, marginBottom: '2rem', fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <span style={{ fontSize: '1.2rem' }}>⚠️</span>
+              {error}
+            </div>
+          )}
 
           {/* Arena / Live Preview */}
           <div style={{ background: '#000', borderRadius: 16, border: '1px solid #333', height: 400, marginBottom: '2rem', position: 'relative', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

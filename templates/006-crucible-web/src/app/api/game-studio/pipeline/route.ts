@@ -77,9 +77,8 @@ export async function POST(req: NextRequest) {
     );
 
     // 3. Trigger the worker (non-blocking fire-and-forget)
-    //    The worker URL calls the /api/game-studio/worker route which
-    //    runs the actual Groq-powered pipeline steps.
-    const workerUrl = `${process.env.NEXT_PUBLIC_APP_URL}/api/game-studio/worker`;
+    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+    const workerUrl = `${baseUrl}/api/game-studio/worker`;
     fetch(workerUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
