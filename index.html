@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crucible | The Industrial AI Forge</title>
+    <title>Crucible | Agent Performance & Evaluation Platform</title>
     <meta
       name="description"
-      content="Crucible: Production-grade Claude Code skill packs. Forge your ideas into high-performance AI agents."
+      content="Crucible: High-performance evaluation and steering for agentic workflows. Verifiable execution, real-time detections, and ROI computation."
     />
 
     <!-- Design System -->
@@ -59,14 +59,17 @@
 
       /* Hero Section */
       .hero {
-        padding: 8rem 0;
+        padding: 10rem 0 6rem;
         text-align: center;
         position: relative;
+        background: radial-gradient(circle at 50% 50%, rgba(0, 255, 136, 0.05) 0%, transparent 70%);
       }
 
       .hero h1 {
-        font-size: 4.5rem;
-        line-height: 1.1;
+        font-size: 5rem;
+        line-height: 1.05;
+        font-weight: 900;
+        letter-spacing: -0.04em;
         margin-bottom: 2rem;
         color: #fff;
       }
@@ -88,10 +91,11 @@
       }
 
       .hero p {
-        font-size: 1.25rem;
-        max-width: 700px;
+        font-size: 1.2rem;
+        max-width: 650px;
         margin: 0 auto 3rem;
-        color: #a0a0a0;
+        color: #888;
+        line-height: 1.6;
       }
 
       /* Forge Status */
@@ -296,33 +300,32 @@
       <!-- Hero Section -->
       <section class="hero">
         <div class="animate-pulse forge-status">
-          <div class="brick" style="padding: 1rem; font-size: 0.8rem">
-            <span class="font-mono">PRESSURE: 850MPa</span><br />
-            <span class="font-mono" style="color: var(--molten-amber)"
-              >HEAT: 1400°C</span
-            >
+          <div class="brick" style="padding: 1rem; font-size: 0.8rem; border-color: #00ff88; box-shadow: 0 0 20px rgba(0,255,136,0.1);">
+            <span class="font-mono" style="color: #00ff88">SYSTEM EVALUATION: ACTIVE</span><br />
+            <span class="font-mono">UPTIME: 99.998%</span>
           </div>
         </div>
-        <h1>Forge Your <br /><span>AI Armory</span></h1>
+        <h1>Verifiable Performance <br /><span>for Agentic Chains</span></h1>
         <p>
-          Production-grade skill packs for Claude Code. Don't just build agents
-          — forge high-performance, resilient, and multi-agent systems with
-          industrial precision.
+          Move beyond silent failures. Crucible is the evaluation layer for your 
+          AI agents—providing real-time steering, semantic tracing, and 
+          autonomous detections for industrial-grade reliability.
         </p>
         
         <div style="margin-bottom: 3rem; display: flex; justify-content: center; gap: 2rem;">
           <div class="stat-box">
-            <span class="trust-value" style="font-size: 1.5rem" id="roi-counter">$842k</span><br/>
-            <span style="font-size: 0.6rem; text-transform: uppercase; color: #555">Total ROI Generated</span>
+            <span class="trust-value" style="font-size: 1.5rem" id="roi-counter">$1.2M+</span><br/>
+            <span style="font-size: 0.6rem; text-transform: uppercase; color: #555">Daily Saved ROI</span>
           </div>
           <div class="stat-box">
-            <span class="trust-value" style="font-size: 1.5rem">1.2ms</span><br/>
-            <span style="font-size: 0.6rem; text-transform: uppercase; color: #555">Avg. Routing Latency</span>
+            <span class="trust-value" style="font-size: 1.5rem">98.2%</span><br/>
+            <span style="font-size: 0.6rem; text-transform: uppercase; color: #555">Action Veracity Score</span>
           </div>
         </div>
 
-        <div class="hero-actions">
-          <button class="btn-molten" onclick="document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})">Get Crucible Pro</button>
+        <div class="hero-actions" style="display: flex; gap: 1rem; justify-content: center;">
+          <button class="btn-molten" style="background: #fff; color: #000; border-color: #fff;" onclick="window.location.href='/observability'">Enter Fleet Command</button>
+          <button class="btn-molten" onclick="document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})">Upgrade to Pro</button>
         </div>
       </section>
 
@@ -398,34 +401,43 @@
         <div style="position: absolute; top: -100px; right: -100px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(0, 255, 136, 0.1) 0%, transparent 70%);"></div>
         
         <div class="section-header" style="align-items: flex-start; flex-direction: column; gap: 1rem;">
-          <span class="font-mono" style="color: #00ff88">// FLAGSHIP PERFORMANCE PROOF</span>
-          <h2>Neon Syndicate</h2>
+          <span class="font-mono" style="color: #00ff88">// HIGH-FIDELITY DETECTIONS</span>
+          <h2>Verifiable Chains</h2>
           <p style="max-width: 600px; margin: 0; text-align: left; font-size: 1rem; color: #888;">
-            A high-stakes Rogue-lite Deckbuilder autonomously built, balanced, and 
-            marketed by the <strong>Neon Arcade</strong> agent cluster.
+            Agents like <strong>Sentinel</strong> and <strong>Auditor</strong> evaluate every trace in real-time, 
+            blocking hallucinations and calculating saved engineering ROI.
           </p>
         </div>
 
         <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; margin-top: 3rem; align-items: center;">
           <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <div class="brick" style="padding: 1.5rem; background: rgba(0,0,0,0.5);">
-              <h4 style="color: #00ff88; margin-bottom: 0.5rem; font-size: 0.9rem;">🧠 DOPAMINE OPTIMIZED</h4>
-              <p style="font-size: 0.8rem; color: #666;">Retention loops engineered for maximum player flow state and engagement spikes.</p>
+            <div class="brick" style="padding: 1.5rem; background: rgba(0,0,0,0.5); border-left: 4px solid #00ff88;">
+              <h4 style="color: #00ff88; margin-bottom: 0.5rem; font-size: 0.9rem;">🛡️ SENTINEL STEERING</h4>
+              <p style="font-size: 0.8rem; color: #666;">Proactive detection of hallucinations and high-risk tool calls with instant gating.</p>
             </div>
-            <div class="brick" style="padding: 1.5rem; background: rgba(0,0,0,0.5);">
-              <h4 style="color: #ff9800; margin-bottom: 0.5rem; font-size: 0.9rem;">🔮 TREND FORECASTED</h4>
-              <p style="font-size: 0.8rem; color: #666;">Market gap identified by ORACLE protocol with 92% confidence scoring.</p>
+            <div class="brick" style="padding: 1.5rem; background: rgba(0,0,0,0.5); border-left: 4px solid #00bcd4;">
+              <h4 style="color: #00bcd4; margin-bottom: 0.5rem; font-size: 0.9rem;">🔍 AUDITOR ROI</h4>
+              <p style="font-size: 0.8rem; color: #666;">Asynchronous evaluation of agent trajectories with dollar-value performance metrics.</p>
             </div>
-            <button class="btn-molten" style="background: #00ff88; border-color: #00ff88; color: #000;" onclick="window.location.href='/showcase/neon-syndicate'">View Agent Case Study</button>
+            <button class="btn-molten" style="background: transparent; border-color: #333; color: #fff;" onclick="window.location.href='/observability'">View Live Traces</button>
           </div>
 
-          <div style="height: 350px; background: linear-gradient(45deg, #050508 0%, #0a0a1a 100%); border: 1px solid #222; border-radius: 1.5rem; position: relative; display: flex; align-items: center; justify-content: center;">
-             <div style="font-family: 'JetBrains Mono', monospace; font-size: 3rem; font-weight: 900; color: rgba(0,255,136,0.1); text-transform: uppercase;">SIMULATION</div>
-             <div style="position: absolute; padding: 1rem; bottom: 1rem; left: 1rem; font-family: monospace; font-size: 0.7rem; color: #00ff88; opacity: 0.5;">
-               &gt; PIXEL: BUILD SUCCESS (342ms)<br/>
-               &gt; SPECTRA: BALANCE VERIFIED<br/>
-               &gt; DOPAMINE: RETENTION GATED
+          <div style="height: 380px; background: rgba(10,10,15,0.8); border: 1px solid #222; border-radius: 1.5rem; position: relative; overflow: hidden; display: flex; flex-direction: column;">
+             <div style="padding: 1rem; border-bottom: 1px solid #222; font-family: monospace; font-size: 10px; display: flex; justify-content: space-between; color: #555;">
+               <span>TRACE_ID: FLEET_0x82f...</span>
+               <span style="color: #00ff88">Gated By Sentinel</span>
              </div>
+             <div style="flex: 1; padding: 1.5rem; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: #888; line-height: 2;">
+                <div style="color: #00ff88">&gt; AGENT: VANGUARD [Market_Scan]</div>
+                <div style="margin-left: 1rem; opacity: 0.5;">- Input: "search_niche: 'SaaS testing'"</div>
+                <div style="margin-left: 1rem; color: #00ff88;">- Output: 24 nodes identified</div>
+                <div style="color: #ffc107; margin-top: 1rem;">&gt; 🛡️ SENTINEL: AUDIT_REQUIRED [Tool_Call: stripe_refund]</div>
+                <div style="margin-left: 1rem; color: #ff4444;">- Decision: GATED (High risk detected)</div>
+                <div style="color: #00bcd4; margin-top: 1rem;">&gt; 🔍 AUDITOR: COMPLETE</div>
+                <div style="margin-left: 1rem;">- Reliability Score: 0.98</div>
+                <div style="margin-left: 1rem; color: #00bcd4;">- ROI: +0.45 ETH ($1,240 saved)</div>
+             </div>
+             <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background: linear-gradient(to top, #000, transparent); pointer-events: none;"></div>
           </div>
         </div>
       </section>
