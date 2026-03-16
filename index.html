@@ -12,6 +12,7 @@
     <!-- Design System -->
     <link rel="stylesheet" href="src/styles/index.css" />
     <link rel="stylesheet" href="src/styles/components.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
 
     <style>
       /* Component Specific Overrides & Layout for landing page */
@@ -162,6 +163,79 @@
         filter: grayscale(1);
         opacity: 0.5;
       }
+      
+      /* Buy me a coffee button */
+      .bmc-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        font-weight: 500;
+        transition: all 0.2s;
+        background-color: #FFDD00;
+        color: black;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        text-decoration: none;
+      }
+      .bmc-button:hover {
+        background-color: rgba(255, 221, 0, 0.9);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+      
+      /* Pricing / Stripe integration */
+      .pricing-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+      .pricing-card {
+        padding: 2rem;
+        background: rgba(30, 30, 30, 0.5);
+        border: 1px solid var(--industrial-slate);
+        border-radius: 0.5rem;
+        position: relative;
+        text-align: center;
+      }
+      .pricing-card.popular {
+        border-color: #3b82f6; 
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      }
+      .popular-badge {
+        position: absolute;
+        top: -12px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #3b82f6;
+        color: white;
+        padding: 2px 12px;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: bold;
+      }
+      .pricing-price {
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 1.5rem 0;
+        color: white;
+      }
+      .pricing-period {
+        font-size: 1rem;
+        color: #888;
+      }
+      .pricing-features {
+        margin: 2rem 0;
+        text-align: left;
+      }
+      .pricing-feature {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 0.75rem;
+        font-size: 0.9rem;
+      }
+      .feature-check { color: #22c55e; }
+      .feature-x { color: #9ca3af; }
     </style>
   </head>
   <body>
@@ -177,12 +251,18 @@
             <li><a href="#armory" class="nav-link">The Armory</a></li>
             <li><a href="#samples" class="nav-link">Core Samples</a></li>
             <li><a href="#flux" class="nav-link">Real-time Flux</a></li>
-            <li><a href="#hearth" class="nav-link">The Hearth</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
           </ul>
         </nav>
-        <div class="badge-status">
-          <span class="status-dot"></span>
-          CORE ONLINE
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="https://buymeacoffee.com/pkurri" target="_blank" rel="noopener noreferrer" class="bmc-button">
+            <i data-lucide="coffee" style="width: 20px; height: 20px;"></i>
+            <span>Buy me a coffee</span>
+          </a>
+          <div class="badge-status">
+            <span class="status-dot"></span>
+            CORE ONLINE
+          </div>
         </div>
       </header>
 
@@ -301,6 +381,47 @@
         </div>
       </section>
 
+      <!-- Pricing / Stripe Integration -->
+      <section id="pricing" style="margin-bottom: 8rem">
+        <div class="section-header">
+          <div>
+            <span class="font-mono" style="color: var(--molten-amber)"
+              >// COMMERCE ENGINE</span
+            >
+            <h2>Pricing & Integrations</h2>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Free Tier -->
+          <div class="pricing-card">
+            <h3>Open Core</h3>
+            <div class="pricing-price">$0<span class="pricing-period">/forever</span></div>
+            <div class="pricing-features">
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Basic SaaS Templates</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> 6-stage OpenClaw pipeline</div>
+              <div class="pricing-feature"><i data-lucide="x" class="feature-x"></i> Enterprise Compliance Skills</div>
+              <div class="pricing-feature"><i data-lucide="x" class="feature-x"></i> Hosted Orchestration Console</div>
+            </div>
+            <button class="btn-molten" style="width: 100%; background: transparent; border: 1px solid var(--molten-amber); color: var(--molten-amber);">Start Building</button>
+          </div>
+
+          <!-- Pro Tier Stripe -->
+          <div class="pricing-card popular">
+            <div class="popular-badge">Most Popular</div>
+            <h3>Crucible Pro</h3>
+            <div class="pricing-price">$49<span class="pricing-period">/month</span></div>
+            <div class="pricing-features">
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Enterprise Subscriptions & Security Audit Platforms</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> SOC2 & HIPAA Validators</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Advanced Agent DevOps</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Live Priority Support</div>
+            </div>
+            <button class="btn-molten" style="width: 100%;" onclick="fetch('/api/checkout-session', { method: 'POST', headers: { 'Content-Type': 'application/json' } }).then(res => res.json()).then(data => { if (data.url) window.location.href = data.url; else alert('Failed to connect to checkout: ' + JSON.stringify(data.error)) }).catch(err => alert('Failed to connect to checkout endpoint! Is your server running?'))">Subscribe to Pro</button>
+          </div>
+        </div>
+      </section>
+
       <!-- Footer -->
       <footer>
         <div class="logo">
@@ -317,6 +438,9 @@
     <!-- Socket.io for Real-time Flux -->
     <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
     <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+
       const consoleEl = document.getElementById('flux-console');
       const statusDot = document.querySelector('.status-dot');
 

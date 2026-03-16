@@ -11,12 +11,13 @@ jobs:
     name: Validate Skill Frontmatter
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - name: Install yaml parser
-        run: npm install -g js-yaml
+        run: pip3 install PyYAML
+
       - name: Validate all SKILL.md frontmatter
         run: |
           find skills -name "SKILL.md" | while read f; do
@@ -51,7 +52,7 @@ jobs:
     name: Check Templates Have Required Files
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+      - uses: actions/checkout@v4
       - name: Check template structure
         run: |
           for dir in templates/*/; do
@@ -81,25 +82,28 @@ jobs:
     permissions:
       security-events: write
     steps:
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+      - uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@master
+        uses: aquasecurity/trivy-action@v0.20.0
         with:
           scan-type: 'fs'
           scan-ref: '.'
           format: 'sarif'
           output: 'trivy-results.sarif'
+          exit-code: '0'
+
       - name: Upload Trivy scan results
-        uses: github/codeql-action/upload-sarif@v4
+        uses: github/codeql-action/upload-sarif@v3
         if: always()
         with:
           sarif_file: 'trivy-results.sarif'
+
 
   lint-markdown:
     name: Lint Markdown
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+      - uses: actions/checkout@v4
       - name: Check for broken markdown links
         uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:

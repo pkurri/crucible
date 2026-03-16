@@ -18,6 +18,8 @@ import {
   StageManagerAgent,
   SkillHarvesterAgent,
   MarketReporterAgent,
+  RevenueAgent,
+  VisualArchitectAgent,
   IForgeAgent,
 } from './agent-definitions.js';
 
@@ -37,6 +39,8 @@ const AGENTS: IForgeAgent[] = [
   new StageManagerAgent(),
   new SkillHarvesterAgent(),
   new MarketReporterAgent(),
+  new RevenueAgent(),
+  new VisualArchitectAgent(),
 ];
 
 let cycleCount = 0;

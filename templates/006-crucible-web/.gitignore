@@ -7,3 +7,4 @@ out
 .env.production
 .env.development
 .env.example
+.env*.local

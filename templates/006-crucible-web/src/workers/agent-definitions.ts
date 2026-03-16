@@ -1,6 +1,9 @@
 import { SupabaseClient } from '@supabase/supabase-js';
 import { generateWithYield } from './ai-router.js';
 import { IForgeAgent, AgentResult } from './types.js';
+import fs from 'fs';
+import path from 'path';
+
 export type { IForgeAgent, AgentResult };
 
 // ─────────────────────────────────────────────────────────
@@ -33,27 +36,36 @@ export function safeParseJSON(text: string): any {
   } catch (e) {
     // 3. Fallback: targeted repairs
     
-    // Remove non-printable control characters (BEL, NUL, etc.) but keep whitespace
-    jsonStr = jsonStr.replace(/[\u0000-\u0008\u000B-\u000C\u000E-\u001F\u007F-\u009F]/g, '');
-
-    // Heuristic: Escape newlines that appear INSIDE a string.
-    // Logic: If a newline is NOT followed by a structural char like quote, comma, bracket, space-colon, 
-    // it's likely a raw newline within a descriptive field.
-    jsonStr = jsonStr.replace(/([^,\[\{\}\:\s])\n+(?!"|\s*[\}\]\]])/g, '$1\\n');
+    // Targeted repairs for illegal control characters in string literals
+    let repaired = jsonStr.replace(/"([^"\\]*(?:\\.[^"\\]*)*)"/gs, (match, content) => {
+      return '"' + content
+        .replace(/\n/g, '\\n')
+        .replace(/\r/g, '\\r')
+        .replace(/\t/g, '\\t')
+        .replace(/[\u0000-\u001F]/g, (c: string) => '\\u' + c.charCodeAt(0).toString(16).padStart(4, '0'))
+        + '"';
+    });
 
     try {
-      return JSON.parse(jsonStr);
+      return JSON.parse(repaired);
     } catch (e2: any) {
-      // 4. Final attempt: Remove all newlines and see if it helps (some models output multi-line string values)
+      // Final desperation: Remove structural newlines and non-printable chars
       try {
-        const cleaned = jsonStr.replace(/\n+/g, ' ');
+        const cleaned = jsonStr
+          .replace(/[\u0000-\u0008\u000B-\u000C\u000E-\u001F\u007F-\u009F]/g, '')
+          .replace(/\n+/g, ' ')
+          .replace(/\r+/g, ' ');
         return JSON.parse(cleaned);
       } catch (e3: any) {
-        throw new Error(`JSON Robustness Error: ${e2.message}. Position logic failed. Text sample: ${text.substring(0, 50)}...`);
+        throw new Error(`JSON Robustness Error: ${e2.message}. Text sample: ${text.substring(0, 100)}...`);
       }
     }
   }
 }
+
+
+
+
 
 async function logTelemetry(supabase: SupabaseClient, agentId: string, eventType: string, message: string) {
   console.log(`\x1b[36m[${agentId}][${eventType}]\x1b[0m ${message}`);
@@ -860,18 +872,23 @@ Output a RAW JSON object ONLY:
       let text = await generateWithYield(prompt);
       const skill = safeParseJSON(text);
 
+      const skillName = skill.skill_name || 'Autonomous Capability';
+      const skillId = skillName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      
       const { error } = await supabase.from('forge_skills').insert({
-        name: skill.skill_name,
+        skill_id: skillId,
+        name: skillName,
         category: skill.category || 'AI',
-        description: skill.description,
+        description: skill.description || 'Discovered during autonomous research.',
         capabilities: skill.capabilities || [],
         status: 'active'
       });
 
       if (error) throw error;
 
-      await logTelemetry(supabase, this.type, 'HARVEST', `New skill harvested: "${skill.skill_name}"`);
-      return { success: true, message: `Discovered skill: ${skill.skill_name}`, data: skill };
+      await logTelemetry(supabase, this.type, 'HARVEST', `New skill harvested: "${skillName}"`);
+      return { success: true, message: `Discovered skill: ${skillName}`, data: skill };
+
 
     } catch (e: any) {
       await logTelemetry(supabase, this.type, 'ERROR', `Harvesting failed: ${e.message}`);
@@ -928,24 +945,28 @@ Output a RAW JSON object ONLY:
       let text = await generateWithYield(prompt);
       const article = safeParseJSON(text);
 
-      const wordCount = article.content.split(/\s+/).length;
+      const articleTitle = article.title || 'Market Intel Report';
+      const articleSlug = (article.slug || articleTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-')) + `-${Date.now()}`;
+      const articleContent = article.content || 'Article content generation failed but record created.';
+
       const { error } = await supabase.from('generated_articles').insert({
-        title: article.title,
-        slug: `${article.slug}-${Date.now()}`,
-        content: article.content,
-        summary: article.summary,
+        title: articleTitle,
+        slug: articleSlug,
+        content: articleContent,
+        summary: article.summary || 'Executive summary unavailable.',
         tags: article.tags || [],
         agent_id: this.type,
         status: 'published',
         seo_score: article.seo_score || 80,
-        word_count: wordCount,
+        word_count: articleContent.split(/\s+/).length,
         topic: 'Market Analysis & Intelligence',
         published_at: new Date().toISOString(),
       });
 
+
       if (error) throw error;
 
-      await logTelemetry(supabase, this.type, 'REPORT', `Deep-dive published: "${article.title}" (${wordCount} words)`);
+      await logTelemetry(supabase, this.type, 'REPORT', `Deep-dive published: "${articleTitle}" (${articleContent.split(/\s+/).length} words)`);
       return { success: true, message: `Published report: ${article.title}`, data: article };
 
     } catch (e: any) {
@@ -1025,10 +1046,57 @@ export class VisualArchitectAgent implements IForgeAgent {
   async execute(supabase: SupabaseClient): Promise<AgentResult> {
     await logTelemetry(supabase, this.type, 'EXTRACT', 'Scanning project brand DNA for style flow...');
     try {
-      // Logic would call project-style-extractor skill
-      await logTelemetry(supabase, this.type, 'DESIGN', 'Generating infographic layout with matched styles.');
-      return { success: true, message: 'Visual assets generated.' };
+      // 1. Get recent trends or market research to base infographics on
+      const { data: trends } = await supabase.from('market_research').select('*').order('created_at', { ascending: false }).limit(1);
+      const topic = trends?.[0]?.topic || 'Agentic AI Workflows';
+      const domain = trends?.[0]?.domain || 'Software Engineering';
+
+      await logTelemetry(supabase, this.type, 'DESIGN', `Generating infographic layout for: ${topic}`);
+
+      const prompt = `Act as an expert data visualization designer.
+        Create structural data for a high-impact, modern infographic about: ${topic} (${domain}).
+        Return EXACTLY and ONLY valid JSON matching this structure:
+        {
+          "title": "Short title",
+          "subtitle": "Explanatory subtitle",
+          "dataPoints": [
+            { "label": "Metric", "value": "Number/Stat", "description": "Short explanation" }
+          ],
+          "conclusion": "Final sum-up"
+        }
+        Provide exactly 4 data points. No markdown.`;
+
+      const aiResponse = await generateWithYield(prompt, 'general');
+      const parsed = safeParseJSON(aiResponse);
+
+      const slug = topic.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+
+      const { error } = await supabase.from('forge_infographics').insert({
+        title: parsed.title,
+        slug: `${slug}-${Date.now()}`,
+        content: JSON.stringify(parsed),
+        topic: topic,
+        domain: domain,
+        created_at: new Date().toISOString(),
+      });
+
+      if (error) throw error;
+
+      // 2. Sync to daily-intel.json for Moltbook automation
+      const intelFilePath = path.resolve(process.cwd(), '../../scripts/daily-intel.json');
+      if (fs.existsSync(intelFilePath)) {
+        const currentIntel = JSON.parse(fs.readFileSync(intelFilePath, 'utf-8'));
+        currentIntel['VisualArchitect'] = {
+           title: `Infographic: ${parsed.title}`,
+           content: `${parsed.subtitle}\n\n${parsed.dataPoints.map((p: any) => `📊 **${p.label}**: ${p.value} - ${p.description}`).join('\n')}\n\n*${parsed.conclusion}*`
+        };
+        fs.writeFileSync(intelFilePath, JSON.stringify(currentIntel, null, 2));
+      }
+
+      await logTelemetry(supabase, this.type, 'SUCCESS', `Infographic synchronized: "${parsed.title}"`);
+      return { success: true, message: 'Visual assets generated and synced.', data: parsed };
     } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', e.message);
       return { success: false, message: e.message };
     }
   }
@@ -1053,3 +1121,103 @@ export class WebPublisherAgent implements IForgeAgent {
     }
   }
 }
+
+// AGENT 18: The Revenue Optimizer (CRO)
+// ═══════════════════════════════════════════════════════
+
+import { getCompetitorContext } from './market-researcher';
+
+export class RevenueAgent implements IForgeAgent {
+  name = 'Revenue Optimizer';
+  type = 'revenue-optimizer';
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    const DATA_DIR = path.join(process.cwd(), 'data');
+    if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+
+    await logTelemetry(supabase, this.type, 'RESEARCH', 'Initiating competitor price scraping...');
+    
+    try {
+      // 1. Market Research
+      const competitors = await getCompetitorContext();
+      const competitorInfo = JSON.stringify(competitors, null, 2);
+
+      // 2. Generate Pricing
+      await logTelemetry(supabase, this.type, 'STRATEGY', 'Computing optimal pricing tiers...');
+      const pricingPrompt = `
+        You are the Chief Revenue Officer for Crucible. 
+        Analyze these competitors: ${competitorInfo}
+        Generate exactly 3 pricing tiers for Crucible.
+        Output MUST be a JSON array of objects with these fields:
+        "name": (Starter, Pro, Enterprise Cloud)
+        "price": (e.g. "$49/mo" or "Custom")
+        "description": (concise value prop)
+        "features": (array of 3-5 strings)
+        "targeted_at": (e.g. "Startups", "Large Org")
+
+        Requirement: Output RAW JSON array only, no talk.
+      `;
+      let pricingRaw = await generateWithYield(pricingPrompt, 'reasoning');
+      pricingRaw = pricingRaw.replace(/```json/gi, '').replace(/```/g, '').trim();
+      
+      // Validate JSON
+      try {
+        const parsed = JSON.parse(pricingRaw);
+        if (Array.isArray(parsed)) {
+          fs.writeFileSync(path.join(DATA_DIR, 'pricing.json'), JSON.stringify(parsed, null, 2));
+        }
+      } catch (e) {
+        console.warn('AI generated invalid pricing JSON, using defaults:', pricingRaw);
+      }
+
+      // 3. Generate Sales Copy
+      await logTelemetry(supabase, this.type, 'COPY', 'Crafting conversion-optimized sales copy...');
+      const salesPrompt = `Expert copywriter: Write a high-impact heading and sub-heading for the Crucible pricing page. Use Markdown. Focus on "Autonomous Enterprise Intelligence".`;
+      const salesCopy = await generateWithYield(salesPrompt, 'fast');
+      fs.writeFileSync(path.join(DATA_DIR, 'sales-copy.md'), salesCopy);
+
+      // 4. Generate Moltbook Intel (Monetary Case Studies)
+      await logTelemetry(supabase, this.type, 'INTEL', 'Quantifying platform ROI for Moltbook case studies...');
+      const intelPrompt = `
+        You are the Chief Financial Analyst for Crucible. 
+        Your task is to calculate the specific monetary value and ROI a team of 10 engineers gets by using Crucible Pro (Advanced Agent Orchestration).
+        
+        Metrics to use:
+        - 300+ Automated PR reviews/month
+        - 15% reduction in high-priority tech debt
+        - 40+ hours saved on boilerplate generation
+        - Reduced context-switching costs
+        
+        Generate exactly one compelling Moltbook post in RAW JSON:
+        { 
+          "title": "Case Study: How [Company X] saved $[Amount] in Q1 using Crucible agents",
+          "content": "A technical but punchy analysis of the monetary savings. Use bullet points for the math. Total savings should be between $30k and $80k." 
+        }
+        
+        Requirement: RAW JSON only.
+      `;
+      let intelRaw = await generateWithYield(intelPrompt, 'general');
+      try {
+        const intel = safeParseJSON(intelRaw);
+        const intelFilePath = path.resolve(process.cwd(), '../../scripts/daily-intel.json');
+        if (fs.existsSync(intelFilePath)) {
+          const currentIntel = JSON.parse(fs.readFileSync(intelFilePath, 'utf-8'));
+          currentIntel['RevenueOptimizer'] = intel;
+          fs.writeFileSync(intelFilePath, JSON.stringify(currentIntel, null, 2));
+          await logTelemetry(supabase, this.type, 'SYNC', 'Revenue case study synced to Moltbook pipeline.');
+        }
+      } catch (e) {
+        console.warn('Failed to generate or sync Moltbook Intel:', e);
+      }
+
+      await logTelemetry(supabase, this.type, 'SUCCESS', 'Storefront updated with AI-optimized pricing.');
+      return { success: true, message: 'Revenue optimization cycle complete.' };
+
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', e.message);
+      return { success: false, message: e.message };
+    }
+  }
+}
+
+

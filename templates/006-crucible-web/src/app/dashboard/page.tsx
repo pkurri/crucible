@@ -6,9 +6,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   Bot, FileText, Zap, Play, Plus, RefreshCw, TrendingUp,
   Activity, Clock, CheckCircle, AlertCircle, Cpu, Sparkles,
-  BarChart3, Eye, ChevronRight, Radio, Layers
+  BarChart3, Eye, ChevronRight, Radio, Layers, Server, Settings2
 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
+import { logConversionEvent } from '@/lib/analytics';
 
 interface Agent {
   id: string;
@@ -72,6 +73,15 @@ export default function CommandCenterPage() {
   const [isSpawning, setIsSpawning] = useState(false);
   const [topicInput, setTopicInput] = useState('');
   const [toast, setToast] = useState<string | null>(null);
+  const [workerStats, setWorkerStats] = useState<any>(null);
+
+  const fetchWorkerStats = useCallback(async () => {
+    try {
+      const res = await fetch('/api/workers');
+      const data = await res.json();
+      if (data.success) setWorkerStats(data.stats);
+    } catch { /* silent */ }
+  }, []);
 
   const showToast = (msg: string) => {
     setToast(msg);
@@ -116,6 +126,9 @@ export default function CommandCenterPage() {
     fetchAgents();
     fetchArticles();
     fetchEvents();
+    fetchWorkerStats();
+
+    const statsInterval = setInterval(fetchWorkerStats, 10000);
 
     // Real-time subscriptions
     const supabase = getSupabase();
@@ -128,8 +141,25 @@ export default function CommandCenterPage() {
       })
       .subscribe();
 
-    return () => { supabase.removeChannel(channel); };
-  }, [fetchAgents, fetchArticles, fetchEvents]);
+    return () => { 
+      supabase.removeChannel(channel); 
+      clearInterval(statsInterval);
+    };
+  }, [fetchAgents, fetchArticles, fetchEvents, fetchWorkerStats]);
+
+  const handleTriggerAgent = async (type: string) => {
+    try {
+      const res = await fetch('/api/workers', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'trigger_agent', agentType: type }),
+      });
+      const data = await res.json();
+      if (data.success) showToast(`🚀 Job queued for ${type}`);
+    } catch {
+      showToast('❌ Failed to trigger worker');
+    }
+  };
 
   const handleGenerateArticle = async () => {
     setIsGenerating(true);
@@ -232,6 +262,57 @@ export default function CommandCenterPage() {
                 <span className="text-[#555] font-mono text-[10px] uppercase tracking-widest">Events</span>
                 <span className="text-[#3b82f6] font-bold font-mono text-2xl">{events.length}</span>
               </div>
+            </div>
+          </div>
+        </motion.div>
+        
+        {/* Industrial Worker HUD */}
+        <motion.div
+           initial={{ opacity: 0, y: 10 }}
+           animate={{ opacity: 1, y: 0 }}
+           className="mb-8 grid grid-cols-1 md:grid-cols-3 gap-6"
+        >
+          <div className="bg-[#0a0a0c] border border-[#222] p-5 rounded-xl shadow-xl flex items-center gap-4 relative overflow-hidden group">
+            <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity">
+              <Server className="w-12 h-12 text-[#00ff88]" />
+            </div>
+            <div className="w-12 h-12 rounded-lg bg-[#00ff8810] border border-[#00ff8820] flex items-center justify-center">
+              <Cpu className="text-[#00ff88] w-6 h-6" />
+            </div>
+            <div>
+              <span className="text-[#555] font-mono text-[10px] uppercase tracking-widest block mb-1">Queue Status</span>
+              <div className="flex items-center gap-3">
+                <span className="text-white font-bold font-mono text-xl">{workerStats?.agents?.waiting || 0} Waiting</span>
+                <span className="text-[#00ff88] font-bold font-mono text-xl">{workerStats?.agents?.active || 0} Active</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-[#0a0a0c] border border-[#222] p-5 rounded-xl shadow-xl flex items-center gap-4 relative overflow-hidden group">
+             <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity">
+              <TrendingUp className="w-12 h-12 text-[#ff8c00]" />
+            </div>
+            <div className="w-12 h-12 rounded-lg bg-[#ff8c0010] border border-[#ff8c0020] flex items-center justify-center">
+              <Sparkles className="text-[#ff8c00] w-6 h-6" />
+            </div>
+            <div>
+              <span className="text-[#555] font-mono text-[10px] uppercase tracking-widest block mb-1">Fleet Cycles</span>
+              <span className="text-white font-bold font-mono text-2xl">{workerStats?.agents?.total_runs || 0} Runs</span>
+            </div>
+          </div>
+
+          <div className="bg-[#0a0a0c] border border-[#222] p-5 rounded-xl shadow-xl flex items-center gap-4 relative overflow-hidden group">
+             <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity">
+              <Zap className="w-12 h-12 text-[#3b82f6]" />
+            </div>
+            <div className="w-12 h-12 rounded-lg bg-[#3b82f610] border border-[#3b82f620] flex items-center justify-center">
+              <Zap className="text-[#3b82f6] w-6 h-6" />
+            </div>
+            <div>
+              <span className="text-[#555] font-mono text-[10px] uppercase tracking-widest block mb-1">Revenue Engine</span>
+              <span className="text-white font-bold font-mono text-xs truncate max-w-[150px] inline-block">
+                Last Run: {workerStats?.revenue?.last_run ? new Date(workerStats.revenue.last_run).toLocaleTimeString() : 'Scheduled'}
+              </span>
             </div>
           </div>
         </motion.div>
@@ -348,6 +429,14 @@ export default function CommandCenterPage() {
                           ))}
                         </div>
                       )}
+
+                      <button 
+                        onClick={() => handleTriggerAgent(agent.type)}
+                        className="mt-4 w-full py-2 bg-[#111] hover:bg-[#1a1a1a] border border-[#222] rounded-lg font-mono text-[9px] uppercase tracking-widest text-[#666] hover:text-[#ff8c00] transition-all flex items-center justify-center gap-2 group-hover:border-[#ff8c00]/30"
+                      >
+                        <Settings2 className="w-3 h-3" />
+                        Execute Now
+                      </button>
                     </motion.div>
                   );
                 })}

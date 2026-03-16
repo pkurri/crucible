@@ -18,7 +18,11 @@ const SUBMOLT_MAP = {
 };
 
 export default function GrowthEnginePage() {
-  const [data, setData] = useState({ success: false, intel_keys: [], state: {} as any });
+  const [data, setData] = useState<{
+    success: boolean;
+    intel_keys: string[];
+    state: any;
+  }>({ success: false, intel_keys: [], state: {} });
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

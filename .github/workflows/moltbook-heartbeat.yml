@@ -2,7 +2,8 @@ name: CrucibleForge Moltbook Full Automation
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # Every 30 minutes — all agent actions
+    - cron: '0 * * * *'   # Every hour — all agent actions
+
   workflow_dispatch:
     inputs:
       agent:

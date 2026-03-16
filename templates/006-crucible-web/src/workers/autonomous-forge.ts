@@ -1,13 +1,17 @@
-import { supabase } from '../lib/supabase.js';
-import fs from 'fs';
+import dotenv from 'dotenv';
 import path from 'path';
+import fs from 'fs';
+
+// Load environment variables immediately
+dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+
+import { getSupabaseAdmin } from '../lib/supabase.js';
 import * as cheerio from 'cheerio';
 import puppeteer from 'puppeteer-core';
-import dotenv from 'dotenv';
 import { generateWithYield } from './ai-router.js';
 
-// Load environment variables from .env.local
-dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+// Initialize Supabase Admin for background tasks
+const supabase = getSupabaseAdmin();
 
 // Telemetry Logger Function
 async function logTelemetry(eventType: string, message: string) {
@@ -168,6 +172,67 @@ Output a JSON repair payload:
   }
 }
 
+async function generateInfographicTick() {
+  logTelemetry('INFOGRAPHIC_GEN', 'Initiating high-impact data visualization synthesis...');
+  
+  const topics = [
+    { topic: 'Agentic AI Workflows', domain: 'Software Engineering' },
+    { topic: 'LLM Context Window Evolution', domain: 'Artificial Intelligence' },
+    { topic: 'The Rise of Autonomous Coding Agents', domain: 'Future Tech' },
+    { topic: 'Vector Database Saturation', domain: 'Infrastructure' },
+    { topic: 'Model Drift in Production', domain: 'MLOps' }
+  ];
+  
+  const topicRow = topics[Math.floor(Math.random() * topics.length)];
+  
+  try {
+    const prompt = `Act as an expert data visualization designer and researcher.
+Create structural data for a high-impact, modern infographic about: "${topicRow.topic}" in the domain of "${topicRow.domain}".
+
+Return EXACTLY and ONLY valid JSON matching this structure:
+{
+  "title": "A short, catchy main title",
+  "subtitle": "A slightly longer explanatory subtitle",
+  "dataPoints": [
+    { 
+      "label": "Short Metric/Stat Name", 
+      "value": "A bold number/percentage", 
+      "description": "1-2 short sentences"
+    }
+  ],
+  "conclusion": "A single sentence concluding the infographic."
+}
+Requirement: Provide exactly 4 high-quality data points in the 'dataPoints' array. Do not use Markdown backticks.`;
+
+    const aiResponseText = await generateWithYield(prompt);
+    
+    let cleanJsonText = aiResponseText;
+    const jsonMatch = cleanJsonText.match(/\{[\s\S]*\}/);
+    if (jsonMatch) cleanJsonText = jsonMatch[0];
+
+    const parsedContent = JSON.parse(cleanJsonText);
+    const slug = topicRow.topic.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+
+    const { error } = await supabase.from('forge_infographics').insert({
+      title: parsedContent.title,
+      slug: `${slug}-${Date.now()}`,
+      content: JSON.stringify(parsedContent),
+      topic: topicRow.topic,
+      domain: topicRow.domain,
+      created_at: new Date().toISOString(),
+    });
+
+    if (error) {
+      logTelemetry('INFOGRAPHIC_ERROR', `Failed to store infographic: ${error.message}`);
+    } else {
+      logTelemetry('INFOGRAPHIC_SUCCESS', `New data intel infographic deployed: ${parsedContent.title}`);
+    }
+  } catch (e: any) {
+    logTelemetry('INFOGRAPHIC_ERROR', `Generation failed: ${e.message}`);
+  }
+}
+
+
 async function forgeTick() {
   logTelemetry('FORGE_CYCLE', `Initiated forge cycle at ${new Date().toISOString()}`);
   
@@ -210,12 +275,16 @@ async function forgeTick() {
   // Self-Healing Step
   await selfHealTick();
 
+  // Infographic Generation Step
+  await generateInfographicTick();
+
   const delaySeconds = Math.floor(Math.random() * 5) + 5;
   logTelemetry('STANDBY', `Reactor cooling for ${delaySeconds} seconds...`);
   await sleep(delaySeconds * 1000);
 }
 
 async function bootSequence() {
+  const isLooping = process.argv.includes('--loop');
   console.log(`\x1b[38;2;255;140;0m`);
   console.log(`  ██████╗ ██████╗ ██╗   ██╗ ██████╗██╗██████╗ ██╗     ███████╗`);
   console.log(` ██╔════╝ ██╔══██╗██║   ██║██╔════╝██║██╔══██╗██║     ██╔════╝`);
@@ -225,13 +294,25 @@ async function bootSequence() {
   console.log(`  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝╚═╝╚═════╝ ╚══════╝╚══════╝`);
   console.log(`\x1b[0m`);
   console.log(`\x1b[1m\x1b[38;2;0;255;136m[SYSTEM ONLINE]\x1b[0m Autonomous Engine v1.0 connected to Supabase.`);
-  console.log(`\x1b[90mExecuting SINGLE DRY-RUN for Vercel deployment test...\x1b[0m\n`);
-
-  await forgeTick();
   
-  console.log(`\x1b[38;2;0;255;136m[DRY-RUN COMPLETE]\x1b[0m Autonomous feature generated. Ready for Vercel deployment.`);
-  process.exit(0);
+  if (isLooping) {
+    console.log(`\x1b[90mExecuting CONTINUOUS loop...\x1b[0m\n`);
+    while (true) {
+      try {
+        await forgeTick();
+      } catch (err) {
+        console.error('Forge cycle fatal crash:', err);
+        await sleep(10000);
+      }
+    }
+  } else {
+    console.log(`\x1b[90mExecuting SINGLE DRY-RUN for Vercel deployment test...\x1b[0m\n`);
+    await forgeTick();
+    console.log(`\x1b[38;2;0;255;136m[DRY-RUN COMPLETE]\x1b[0m Autonomous feature generated. Ready for Vercel deployment.`);
+    process.exit(0);
+  }
 }
+
 
 // Start immediately
 bootSequence().catch(console.error);

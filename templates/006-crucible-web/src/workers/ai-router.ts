@@ -16,23 +16,54 @@ import { GoogleGenAI } from '@google/genai';
 const PREFIX = '\x1b[35m[ROUTER]\x1b[0m';
 const WARN   = '\x1b[33m[ROUTER WAIT]\x1b[0m';
 
+let lastCallTime = 0;
+const MIN_GAP_MS = 2000; // 2 seconds between any AI call to stay under 30 RPM
+
+const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+async function throttle() {
+  const now = Date.now();
+  const diff = now - lastCallTime;
+  if (diff < MIN_GAP_MS) {
+    const wait = MIN_GAP_MS - diff;
+    console.log(`${WARN} Throttling request for ${wait}ms...`);
+    await sleep(wait);
+  }
+  lastCallTime = Date.now();
+}
+
 export type TaskTier = 'fast' | 'reasoning' | 'general';
 
 async function tryOpenAICompat(url: string, key: string, model: string, prompt: string): Promise<string | null> {
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Authorization': `Bearer ${key}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model, messages: [{ role: 'user', content: prompt }], temperature: 0.7, max_tokens: 4096 }),
-  });
-  if (!res.ok) {
-    const body = await res.text().catch(() => '');
-    throw new Error(`HTTP ${res.status}: ${body.substring(0, 200)}`);
-  }
-  const data = await res.json();
-  return data.choices?.[0]?.message?.content || null;
+  const attempt = async (retryCount = 0): Promise<string | null> => {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Authorization': `Bearer ${key}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ model, messages: [{ role: 'user', content: prompt }], temperature: 0.7, max_tokens: 4096 }),
+    });
+
+    if (res.status === 429 && retryCount < 2) {
+      const wait = Math.pow(2, retryCount + 1) * 3000;
+      console.warn(`${WARN} ${model} Rate Limited (429). Retrying in ${wait}ms...`);
+      await sleep(wait);
+      return attempt(retryCount + 1);
+    }
+
+    if (!res.ok) {
+      const body = await res.text().catch(() => '');
+      throw new Error(`HTTP ${res.status}: ${body.substring(0, 200)}`);
+    }
+
+    const data = await res.json();
+    return data.choices?.[0]?.message?.content || null;
+  };
+
+  return attempt();
 }
 
 export async function generateWithYield(systemPrompt: string, tier: TaskTier = 'general'): Promise<string> {
+  await throttle();
+
   const geminiKey    = process.env.GEMINI_API_KEY;
   const cfToken      = process.env.CLOUDFLARE_API_KEY;
   const cfAccount    = process.env.CLOUDFLARE_ACCOUNT_ID;
@@ -55,10 +86,22 @@ export async function generateWithYield(systemPrompt: string, tier: TaskTier = '
         console.log(`${PREFIX} Gemini 2.5 Flash...`);
         const ai = new GoogleGenAI({ apiKey: geminiKey });
         const r = await ai.models.generateContent({ model: 'gemini-2.5-flash', contents: systemPrompt });
-        if (r.text) return r.text;
+        if ((r as any).text) return (r as any).text;
       } catch (e: any) {
-        console.warn(`${WARN} Gemini: ${e.message?.substring(0, 80)}`);
-        errors.push(`Gemini: ${e.message}`);
+        if (e.message?.includes('429')) {
+          console.warn(`${WARN} Gemini Rate Limited (429). Retrying in 5s...`);
+          await sleep(5000);
+          try {
+            const ai = new GoogleGenAI({ apiKey: geminiKey });
+            const r = await ai.models.generateContent({ model: 'gemini-2.5-flash', contents: systemPrompt });
+            if ((r as any).text) return (r as any).text;
+          } catch (retryErr) {
+            errors.push(`Gemini Retry: ${e.message}`);
+          }
+        } else {
+          console.warn(`${WARN} Gemini: ${e.message?.substring(0, 80)}`);
+          errors.push(`Gemini: ${e.message}`);
+        }
       }
     }
 

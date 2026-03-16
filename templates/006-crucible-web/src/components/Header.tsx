@@ -52,6 +52,19 @@ export function Header() {
           </Link>
         </div>
 
+        {/* Navigation Links */}
+        <div className="hidden md:flex items-center gap-8 ml-10">
+          <Link href="/pricing" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#ff8c00] transition-colors">
+            MONETIZATION
+          </Link>
+          <Link href="/hub" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#ff8c00] transition-colors">
+            BLUEPRINTS
+          </Link>
+          <Link href="/foundry" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#ff8c00] transition-colors">
+            FORGE
+          </Link>
+        </div>
+
         {/* Right Actions */}
         <div className="flex items-center gap-6">
           {/* Status Badge */}

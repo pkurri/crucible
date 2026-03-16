@@ -4,6 +4,10 @@ import {Server} from 'socket.io'
 import path from 'path'
 import {TelemetryHub} from './telemetry'
 import {SkillRegistry} from './registry'
+import {createCheckoutSession, handleWebhook} from './controllers/paymentController'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const app = express()
 const httpServer = createServer(app)
@@ -40,6 +44,11 @@ app.get('/health', (req, res) => {
 app.get('/api/skills', (req, res) => {
   res.json(registry.getSkills())
 })
+
+// === PAYMENT ENGINE (Ported from forecast.app.ai) ===
+// Webhooks require raw body, so we define it BEFORE the global json parser using express.raw
+app.post('/api/webhook/stripe', express.raw({ type: 'application/json' }), handleWebhook)
+app.post('/api/checkout-session', createCheckoutSession)
 
 // Start Server
 httpServer.listen(PORT, () => {

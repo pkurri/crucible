@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Starter",
+    "price": "$49/mo",
+    "description": "Ideal for small teams and personal projects",
+    "features": [
+      "Up to 5 users",
+      "1 GB storage",
+      "Basic analytics"
+    ],
+    "targeted_at": "Startups"
+  },
+  {
+    "name": "Pro",
+    "price": "$149/mo",
+    "description": "Suitable for growing teams and businesses",
+    "features": [
+      "Up to 25 users",
+      "10 GB storage",
+      "Advanced analytics",
+      "Custom integrations"
+    ],
+    "targeted_at": "Small to medium-sized businesses"
+  },
+  {
+    "name": "Enterprise Cloud",
+    "price": "Custom",
+    "description": "Designed for large enterprises and complex use cases",
+    "features": [
+      "Unlimited users",
+      "100 GB storage",
+      "Advanced security",
+      "Dedicated support",
+      "Custom onboarding"
+    ],
+    "targeted_at": "Large Org and enterprises"
+  }
+]
