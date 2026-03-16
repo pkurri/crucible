@@ -48,11 +48,12 @@ export async function POST(req: Request) {
               images: ['https://zwwlcqttdmbmyfvdogwr.supabase.co/storage/v1/object/public/assets/crucible-logo.png'],
             },
             unit_amount: unitAmount,
+            recurring: { interval: 'month' },
           },
           quantity: 1,
         },
       ],
-      mode: 'payment',
+      mode: 'subscription',
       success_url: `${req.headers.get('origin')}/dashboard?session_id={CHECKOUT_SESSION_ID}&success=true`,
       cancel_url: `${req.headers.get('origin')}/pricing`,
       metadata: {

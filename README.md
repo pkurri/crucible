@@ -18,6 +18,12 @@ decisions with you.
 
 ---
 
+## 📖 Essential Reading
+- **[Full User Guide](./docs/USER_GUIDE.md)**: How to run the orchestrator, industrial workers, and manage subscriptions.
+- **[Monetization Strategy](./docs/MONETIZATION.md)**: Deep dive into the tiered Pro model.
+
+---
+
 ## Why Crucible Beats the Alternatives
 
 |                     | crucible / clones      | Crucible                                        |
@@ -212,6 +218,9 @@ combination.
 **200 production-ready templates** across 25 categories. Not "hello world" —
 real architectural decisions already made.
 
+> [!IMPORTANT]
+> **Crucible Pro**: Templates indexed above `050` require an active Crucible Pro subscription. These include enterprise-grade security, high-scale analytics, and multi-agent DevOps.
+
 ```bash
 cd templates/031-ai-code-reviewer
 cp .env.example .env.local
@@ -243,9 +252,16 @@ npm install && npm run dev
 - 🚀 **DevOps & Infrastructure** (10) - CI/CD, IaC, K8s, monitoring
 - 🌐 **Web & Mobile** (10) - PWAs, e-commerce, CMS, streaming
 
-**Plus 130 more templates covering enterprise, healthcare, education, finance,
-manufacturing, hospitality, real estate, transportation, and specialized
-domains.**
+### 🛡️ Autonomous Governance Division (The Guardian Fleet)
+
+_Self-healing, revenue optimization, and automated growth swarms._
+
+- **Self-Heal Guardian:** Monitors platform health and revives crashed agents/jobs.
+- **Revenue Optimizer:** Calculates ROI and updates dynamic pricing strategies.
+- **Growth Marketeer:** Mines success data to generate viral social proof.
+- **Visual Architect:** Converts market trends into structured infographics.
+
+---
 
 **📊 [View All 300+ Skills →](./skills/EXTENDED_CATALOG.md)**
 

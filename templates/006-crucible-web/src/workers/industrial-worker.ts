@@ -20,10 +20,12 @@ import {
   IntelManagerAgent,
   ForgeOverseerAgent,
   StageManagerAgent,
+  SkillHarvesterAgent,
   MarketReporterAgent,
   RevenueAgent,
   VisualArchitectAgent,
   SelfHealAgent,
+  GrowthMarketeerAgent,
   IForgeAgent,
 } from './agent-definitions';
 
@@ -54,6 +56,7 @@ const agents: Record<string, IForgeAgent> = {
   revenue: new RevenueAgent(),
   graphics: new VisualArchitectAgent(),
   healer: new SelfHealAgent(),
+  marketeer: new GrowthMarketeerAgent(),
 };
 
 // 4. Helper to update Supabase status
@@ -131,14 +134,14 @@ async function scheduleNextAgentRuns() {
   // Every 30 minutes, push the whole fleet into the queue
   for (const type of Object.keys(agents)) {
     await agentQueue.add(`run-${type}`, { agentType: type }, {
-      repeat: { cron: '*/30 * * * *' },
+      repeat: { pattern: '*/30 * * * *' },
       removeOnComplete: true,
     });
   }
 
   // Revenue agent runs once a day
   await revenueQueue.add('optimize-monetization', {}, {
-    repeat: { cron: '0 0 * * *' },
+    repeat: { pattern: '0 0 * * *' },
     removeOnComplete: true,
   });
 }

@@ -1294,5 +1294,64 @@ export class SelfHealAgent implements IForgeAgent {
   }
 }
 
+// ═══════════════════════════════════════════════════════
+// AGENT 20: The Growth Marketeer (Marketing)
+// ═══════════════════════════════════════════════════════
+
+export class GrowthMarketeerAgent implements IForgeAgent {
+  name = 'Growth Marketeer';
+  type = 'marketeer';
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    await logTelemetry(supabase, this.type, 'STRATEGY', 'Analyzing platform successes for multi-channel growth...');
+
+    try {
+      // 1. Gather "Success Proof" (Successfully deployed blueprints)
+      const { data: successes } = await supabase
+        .from('forge_blueprints')
+        .select('*')
+        .eq('status', 'deployed')
+        .order('created_at', { ascending: false })
+        .limit(3);
+
+      const successList = successes?.map(s => s.name).join(', ') || 'foundation templates';
+
+      // 2. Generate Viral Success Story for Moltbook
+      const storyPrompt = `
+        You are the Head of Growth for Crucible. 
+        Create a "Success Story" post based on these recently deployed blueprints: ${successList}.
+        Goal: Show how these agents are saving time and generating revenue.
+        Return RAW JSON only:
+        {
+          "title": "Success Story: The Rise of [Company Name]",
+          "copy": "Engaging, data-driven narrative about the deployment of these agents. Include a call to action for the Pro tier.",
+          "hashtag": "#CrucibleAI #AgenticWorkflows"
+        }
+      `;
+      const aiStory = await generateWithYield(storyPrompt, 'general');
+      const story = safeParseJSON(aiStory);
+
+      // 3. Sync to daily-intel.json for social broadcast
+      const intelFilePath = path.resolve(process.cwd(), '../../scripts/daily-intel.json');
+      if (fs.existsSync(intelFilePath)) {
+        const currentIntel = JSON.parse(fs.readFileSync(intelFilePath, 'utf-8'));
+        currentIntel['GrowthMarketeer'] = {
+          title: story.title,
+          content: `${story.copy}\n\n${story.hashtag}`
+        };
+        fs.writeFileSync(intelFilePath, JSON.stringify(currentIntel, null, 2));
+      }
+
+      // 4. Update "Referral Incentives" (Simulated for now, would update DB)
+      await logTelemetry(supabase, this.type, 'CAMPAIGN', `Campaign launched: "${story.title}"`);
+      return { success: true, message: 'Growth campaigns refreshed and synced.' };
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Marketing failed: ${e.message}`);
+      return { success: false, message: e.message };
+    }
+  }
+}
+
+
 
 

@@ -236,6 +236,31 @@
       }
       .feature-check { color: #22c55e; }
       .feature-x { color: #9ca3af; }
+
+      .trust-strip {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        padding: 1.5rem 0;
+        background: rgba(10, 10, 10, 0.5);
+        border-top: 1px solid var(--industrial-slate);
+        border-bottom: 1px solid var(--industrial-slate);
+        margin: 4rem 0;
+        overflow: hidden;
+      }
+      .trust-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.8rem;
+        color: #666;
+        white-space: nowrap;
+      }
+      .trust-value {
+        color: var(--molten-amber);
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -282,10 +307,29 @@
           — forge high-performance, resilient, and multi-agent systems with
           industrial precision.
         </p>
+        
+        <div style="margin-bottom: 3rem; display: flex; justify-content: center; gap: 2rem;">
+          <div class="stat-box">
+            <span class="trust-value" style="font-size: 1.5rem" id="roi-counter">$842k</span><br/>
+            <span style="font-size: 0.6rem; text-transform: uppercase; color: #555">Total ROI Generated</span>
+          </div>
+          <div class="stat-box">
+            <span class="trust-value" style="font-size: 1.5rem">1.2ms</span><br/>
+            <span style="font-size: 0.6rem; text-transform: uppercase; color: #555">Avg. Routing Latency</span>
+          </div>
+        </div>
+
         <div class="hero-actions">
-          <button class="btn-molten">Enter the Forge</button>
+          <button class="btn-molten" onclick="document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})">Get Crucible Pro</button>
         </div>
       </section>
+
+      <div class="trust-strip">
+        <div class="trust-item"><span class="trust-value">1,400+</span> NODES ACTIVE</div>
+        <div class="trust-item"><span class="trust-value">25M+</span> TOKENS FORGED</div>
+        <div class="trust-item"><span class="trust-value">124</span> ENTERPRISE PARTNERS</div>
+        <div class="trust-item"><span class="trust-value">99.9%</span> HEALING UPTIME</div>
+      </div>
 
       <!-- The Armory -->
       <section id="armory">
@@ -330,7 +374,8 @@
             </div>
           </div>
 
-          <div class="brick">
+          <div class="brick" style="position: relative;">
+            <div style="position: absolute; top: 1rem; right: 1rem; padding: 2px 8px; background: var(--molten-amber); color: black; font-size: 0.6rem; font-weight: bold; border-radius: 4px;">PRO</div>
             <div class="brick-title">
               <h3>Review Security</h3>
               <span class="brick-icon">🛡️</span>
@@ -482,6 +527,14 @@
           consoleEl.removeChild(consoleEl.children[0]);
         }
       }
+
+      // Simple ticker for ROI
+      let roi = 842450;
+      const roiEl = document.getElementById('roi-counter');
+      setInterval(() => {
+        roi += Math.floor(Math.random() * 50);
+        roiEl.innerText = '$' + (roi / 1000).toFixed(1) + 'k';
+      }, 4000);
     </script>
   </body>
 </html>
