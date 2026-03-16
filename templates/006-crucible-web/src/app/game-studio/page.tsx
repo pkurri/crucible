@@ -42,10 +42,12 @@ const AGENTS = [
   { id: 'DOPAMINE', emoji: '🧠', label: 'Retention Architect',    color: '#00bcd4', isPro: true },
   { id: 'SENSORY',  emoji: '🌈', label: 'Juice Architect',        color: '#e91e63', isPro: true },
   { id: 'SPECTRA',  emoji: '🎮', label: 'Playtest & Balance',    color: '#00ff88', isPro: true },
+  { id: 'SENTINEL', emoji: '🛡️', label: 'Steering & Safety',     color: '#ffc107', isPro: true },
   { id: 'GATEWAY',  emoji: '🏪', label: 'Store Policy Expert',   color: '#2196f3', isPro: true },
   { id: 'GLITCH_MOD', emoji: '🤳', label: 'Hype & Social',       color: '#ff4081', isPro: true },
   { id: 'VIRAL',    emoji: '🚀', label: 'Growth Engineer',       color: '#00ff88', isPro: true },
   { id: 'UA_PRO',   emoji: '📈', label: 'Acquisition Strategist', color: '#ffc107', isPro: true },
+  { id: 'AUDITOR',  emoji: '🔍', label: 'Evaluation & ROI',      color: '#00bcd4', isPro: true },
   { id: 'CHRONOS',  emoji: '⏳', label: 'Procedural Director',   color: '#aaa',    isPro: true },
 ];
 

@@ -20,6 +20,7 @@ decisions with you.
 
 ## 📖 Essential Reading
 - **[Full User Guide](./docs/USER_GUIDE.md)**: How to run the orchestrator, industrial workers, and manage subscriptions.
+- **[Sentinel & Auditor Guide](./docs/SENTINEL_AUDITOR_GUIDE.md)**: Real-time steering, semantic tracing, and agent evaluation (Forge Pro).
 - **[Monetization Strategy](./docs/MONETIZATION.md)**: Deep dive into the tiered Pro model.
 
 ---
@@ -32,7 +33,7 @@ decisions with you.
 | Agent patterns      | Single-agent only      | Multi-agent orchestration built-in              |
 | Templates           | Niche SaaS boilerplate | Universal AI-native starting points             |
 | Stack coverage      | Supabase + basic auth  | Neon, Resend, Vercel AI SDK, Stripe, Cloudflare |
-| Observability       | ❌ None                | ✅ PostHog + Sentry + Axiom baked in            |
+| Observability       | ❌ None                | ✅ Semantic Traces (Sentinel & Auditor)          |
 | Testing             | ❌ None                | ✅ Vitest + Playwright + pytest                 |
 | Review skills       | ❌ None                | ✅ Architecture + Security review               |
 | Cross-agent support | Claude Code only       | Claude Code + Codex CLI + OpenCode              |
@@ -87,6 +88,8 @@ _Central command and orchestration for all deployed agents._
   (e.g., high intelligence gathering periods).
 - **Log Aggregator:** Synthesizes the actions of all autonomous agents into a
   digestible timeline.
+- **Sentinel (Pro):** Intercepts and validates tool calls in real-time to prevent hallucinations.
+- **Auditor (Pro):** Performs post-run evaluation and calculates ROI/reliability metrics.
 
 ### 🎭 Stage Division
 

@@ -44,9 +44,9 @@ export async function POST(req: NextRequest) {
       'VANGUARD', 'ORACLE', 'PULSE', 'SCHEMA', 
       'DISPATCH', 
       'PIXEL', 'GLITCH', 'TURBO', 'DOPAMINE', 'SENSORY', 'SPECTRA', 
-      'GATEWAY', 'GLITCH_MOD', 
+      'SENTINEL', 'GATEWAY', 'GLITCH_MOD', 
       'VIRAL', 'UA_PRO', 
-      'CHRONOS'
+      'AUDITOR', 'CHRONOS'
     ];
     const PHASES = {
       VANGUARD:   'MARKET_FEASIBILITY',
@@ -60,10 +60,12 @@ export async function POST(req: NextRequest) {
       DOPAMINE:   'DEV_ITERATION',
       SENSORY:    'DEV_ITERATION',
       SPECTRA:    'DEV_ITERATION',
+      SENTINEL:   'DEPLOYMENT_COMPLIANCE',
       GATEWAY:    'DEPLOYMENT_COMPLIANCE',
       GLITCH_MOD: 'DEPLOYMENT_COMPLIANCE',
       VIRAL:      'HYPER_GROWTH',
       UA_PRO:     'HYPER_GROWTH',
+      AUDITOR:    'POST_LAUNCH_OPS',
       CHRONOS:    'POST_LAUNCH_OPS',
     } as const;
 
