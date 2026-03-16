@@ -96,7 +96,7 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     upstream: 'DISPATCH',
     downstream: 'GLITCH',
     promptFile: 'agents/prompts/pixel-software-engineer.md',
-    maxIterations: 3,  // max fix-it loops
+    maxIterations: 3,
     timeoutMs: 180_000,
     tools: ['workspace_read', 'workspace_write', 'code_lint', 'code_compile', 'web_search'],
     guardrails: [
@@ -116,7 +116,7 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     phase: 'DEV_ITERATION',
     emoji: '🐛',
     upstream: 'PIXEL',
-    downstream: 'TURBO', // or back to PIXEL on FAIL
+    downstream: 'TURBO',
     promptFile: 'agents/prompts/glitch-qa-debugger.md',
     maxIterations: 3,
     timeoutMs: 120_000,
@@ -137,7 +137,7 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     phase: 'DEV_ITERATION',
     emoji: '⚡',
     upstream: 'GLITCH',
-    downstream: 'GATEWAY', // or back to PIXEL on NEEDS_OPTIMIZATION
+    downstream: 'SPECTRA',
     promptFile: 'agents/prompts/turbo-performance-optimizer.md',
     maxIterations: 2,
     timeoutMs: 90_000,
@@ -151,14 +151,34 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     ],
   },
 
+  SPECTRA: {
+    id: 'SPECTRA',
+    codename: 'SPECTRA',
+    role: 'Playtest & Balance',
+    phase: 'DEV_ITERATION',
+    emoji: '🎮',
+    upstream: 'TURBO',
+    downstream: 'GATEWAY',
+    promptFile: 'agents/prompts/spectra-playtest.md',
+    maxIterations: 2,
+    timeoutMs: 150_000,
+    tools: ['workspace_read', 'workspace_write', 'calculate'],
+    guardrails: [
+      'Focus on "Fun Factor" (engagement loops)',
+      'Balance difficulty curves',
+      'No gameplay-breaking bugs',
+      'Accessibility review mandatory',
+    ],
+  },
+
   GATEWAY: {
     id: 'GATEWAY',
     codename: 'GATEWAY',
     role: 'Store Policy Expert',
     phase: 'DEPLOYMENT_COMPLIANCE',
     emoji: '🏪',
-    upstream: 'TURBO',
-    downstream: 'RELEASE',
+    upstream: 'SPECTRA',
+    downstream: 'GLITCH_MOD',
     promptFile: 'agents/prompts/gateway-store-policy-expert.md',
     maxIterations: 1,
     timeoutMs: 120_000,
@@ -172,11 +192,31 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     ],
   },
 
+  GLITCH_MOD: {
+    id: 'GLITCH_MOD',
+    codename: 'GLITCH_MOD',
+    role: 'Hype & Social',
+    phase: 'DEPLOYMENT_COMPLIANCE',
+    emoji: '🤳',
+    upstream: 'GATEWAY',
+    downstream: 'RELEASE',
+    promptFile: 'agents/prompts/glitch-mod-promotion.md',
+    maxIterations: 1,
+    timeoutMs: 90_000,
+    tools: ['web_search', 'read_url'],
+    guardrails: [
+      'Viral post structure only',
+      'Target Twitch/Discord/TikTok tags',
+      'No deceptive marketing',
+      'Highlight Pro tier features',
+    ],
+  },
+
   MAINFRAME: {
     id: 'MAINFRAME',
     codename: 'MAINFRAME',
     role: 'Orchestrator',
-    phase: 'MARKET_FEASIBILITY', // manages all phases
+    phase: 'MARKET_FEASIBILITY',
     emoji: '🧠',
     upstream: 'USER',
     downstream: 'RELEASE',
@@ -201,7 +241,9 @@ export const PIPELINE_STAGES: AgentId[] = [
   'PIXEL',     // Phase 3 (loops with GLITCH/TURBO)
   'GLITCH',    // Phase 3
   'TURBO',     // Phase 3
+  'SPECTRA',   // Phase 3
   'GATEWAY',   // Phase 4
+  'GLITCH_MOD',// Phase 4
 ];
 
 // ─── Phase Groupings ────────────────────────────────────────────────
@@ -209,8 +251,8 @@ export const PIPELINE_STAGES: AgentId[] = [
 export const PHASE_AGENTS: Record<Phase, AgentId[]> = {
   MARKET_FEASIBILITY:    ['PULSE', 'SCHEMA'],
   TASK_ARCHITECTURE:     ['DISPATCH'],
-  DEV_ITERATION:         ['PIXEL', 'GLITCH', 'TURBO'],
-  DEPLOYMENT_COMPLIANCE: ['GATEWAY'],
+  DEV_ITERATION:         ['PIXEL', 'GLITCH', 'TURBO', 'SPECTRA'],
+  DEPLOYMENT_COMPLIANCE: ['GATEWAY', 'GLITCH_MOD'],
 };
 
 // ─── Checkpoint Config ──────────────────────────────────────────────
@@ -230,7 +272,7 @@ export const CHECKPOINTS: Checkpoint[] = [
   {
     afterAgent: 'DISPATCH',
     description: 'Review task breakdown and milestones before coding begins',
-    approvalRequired: false, // auto-proceed by default
+    approvalRequired: false,
   },
   {
     afterAgent: 'GATEWAY',

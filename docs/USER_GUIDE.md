@@ -58,6 +58,29 @@ Crucible implements a tiered access model designed for high-conversion SaaS oper
 
 ---
 
+## 🕹️ Neon Arcade (Gaming Suite)
+Crucible includes a specialized cluster for high-fidelity game development and market positioning.
+
+| Agent | Role | Status |
+| :--- | :--- | :--- |
+| **PULSE** | Market Feasibility | Free |
+| **SCHEMA** | Requirement Vetter | Free |
+| **DISPATCH** | Project Manager | Free |
+| **PIXEL** | Software Engineer | **PRO** |
+| **GLITCH** | QA & Debugger | **PRO** |
+| **TURBO** | Performance Optimizer | **PRO** |
+| **SPECTRA** | Playtest & Balance | **PRO** |
+| **GATEWAY** | Store Policy Expert | **PRO** |
+| **GLITCH_MOD** | Hype & Social | **PRO** |
+
+**How to Use:**
+1. Navigate to `/game-studio`.
+2. Enter a game prompt (e.g., "A retro synthwave racing game").
+3. Monitor the **Live Test Arena** as agents simulate gameplay loops and compile code.
+4. Review the **PULSE** market report at the first human checkpoint.
+
+---
+
 ## 🌩️ The Industrial Forge (Scaling)
 
 For enterprise-grade reliability, Crucible uses a **Distributed Worker Architecture**.

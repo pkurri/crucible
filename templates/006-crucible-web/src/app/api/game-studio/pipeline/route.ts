@@ -40,7 +40,7 @@ export async function POST(req: NextRequest) {
     }
 
     // 2. Seed per-agent result rows (so UI can show all agents from the start)
-    const AGENTS = ['PULSE', 'SCHEMA', 'DISPATCH', 'PIXEL', 'GLITCH', 'TURBO', 'GATEWAY'];
+    const AGENTS = ['PULSE', 'SCHEMA', 'DISPATCH', 'PIXEL', 'GLITCH', 'TURBO', 'SPECTRA', 'GATEWAY', 'GLITCH_MOD'];
     const PHASES = {
       PULSE:    'MARKET_FEASIBILITY',
       SCHEMA:   'MARKET_FEASIBILITY',
@@ -48,7 +48,9 @@ export async function POST(req: NextRequest) {
       PIXEL:    'DEV_ITERATION',
       GLITCH:   'DEV_ITERATION',
       TURBO:    'DEV_ITERATION',
+      SPECTRA:  'DEV_ITERATION',
       GATEWAY:  'DEPLOYMENT_COMPLIANCE',
+      GLITCH_MOD: 'DEPLOYMENT_COMPLIANCE',
     } as const;
 
     await supabase.from('pipeline_agent_results').insert(

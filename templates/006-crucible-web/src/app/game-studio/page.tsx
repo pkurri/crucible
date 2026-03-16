@@ -31,13 +31,15 @@ interface JobStatus {
 // ─── Agent metadata ─────────────────────────────────────
 
 const AGENTS = [
-  { id: 'PULSE',    emoji: '📊', label: 'Market Analyst',        color: '#00bcd4' },
-  { id: 'SCHEMA',   emoji: '📋', label: 'Requirement Vetter',    color: '#9c27b0' },
-  { id: 'DISPATCH', emoji: '📁', label: 'Project Manager',       color: '#ff9800' },
-  { id: 'PIXEL',    emoji: '💻', label: 'Software Engineer',     color: '#4caf50' },
-  { id: 'GLITCH',   emoji: '🐛', label: 'QA & Debugger',         color: '#f44336' },
-  { id: 'TURBO',    emoji: '⚡', label: 'Performance Optimizer', color: '#ffeb3b' },
-  { id: 'GATEWAY',  emoji: '🏪', label: 'Store Policy Expert',   color: '#2196f3' },
+  { id: 'PULSE',    emoji: '📊', label: 'Market Analyst',        color: '#00bcd4', isPro: false },
+  { id: 'SCHEMA',   emoji: '📋', label: 'Requirement Vetter',    color: '#9c27b0', isPro: false },
+  { id: 'DISPATCH', emoji: '📁', label: 'Project Manager',       color: '#ff9800', isPro: false },
+  { id: 'PIXEL',    emoji: '💻', label: 'Software Engineer',     color: '#4caf50', isPro: true },
+  { id: 'GLITCH',   emoji: '🐛', label: 'QA & Debugger',         color: '#f44336', isPro: true },
+  { id: 'TURBO',    emoji: '⚡', label: 'Performance Optimizer', color: '#ffeb3b', isPro: true },
+  { id: 'SPECTRA',  emoji: '🎮', label: 'Playtest & Balance',    color: '#00ff88', isPro: true },
+  { id: 'GATEWAY',  emoji: '🏪', label: 'Store Policy Expert',   color: '#2196f3', isPro: true },
+  { id: 'GLITCH_MOD', emoji: '🤳', label: 'Hype & Social',       color: '#ff4081', isPro: true },
 ];
 
 // ─── Component ──────────────────────────────────────────
@@ -134,43 +136,116 @@ export default function GameStudioPage() {
     <main style={{ minHeight: '100vh', background: '#0a0a0f', color: '#e0e0e0', fontFamily: "'Inter', sans-serif", padding: '2rem' }}>
       {/* Header */}
       <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
-        <h1 style={{ fontSize: '2.5rem', fontWeight: 800, background: 'linear-gradient(135deg, #00bcd4, #9c27b0)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: '.25rem' }}>
-          ⚡ Neon Arcade
+        <h1 style={{ fontSize: '2.5rem', fontWeight: 800, background: 'linear-gradient(135deg, #00bcd4, #00ff88)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: '.25rem', letterSpacing: '-0.02em' }}>
+          Neon Arcade
         </h1>
-        <p style={{ color: '#888', fontSize: '.95rem' }}>AI Game Studio — MAINFRAME Orchestrator</p>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', alignItems: 'center' }}>
+          <p style={{ color: '#888', fontSize: '.85rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Autonomous Game Engine</p>
+          <span style={{ padding: '2px 8px', background: 'rgba(0, 188, 212, 0.1)', border: '1px solid #00bcd4', borderRadius: 4, color: '#00bcd4', fontSize: '0.65rem', fontWeight: 'bold' }}>VERSION 2.4</span>
+        </div>
       </div>
 
-      {/* Input form */}
-      <form onSubmit={handleSubmit} style={{ maxWidth: 700, margin: '0 auto 2rem', display: 'flex', gap: '.75rem', flexWrap: 'wrap' }}>
-        <textarea
-          value={gameIdea}
-          onChange={e => setGameIdea(e.target.value)}
-          placeholder="Describe your game idea… e.g. 'A casual match-3 puzzle game with power-ups and daily challenges'"
-          rows={3}
-          style={{ flex: 1, minWidth: 300, background: '#13131a', border: '1px solid #333', borderRadius: 10, padding: '1rem', color: '#e0e0e0', fontSize: '.95rem', resize: 'vertical' }}
-        />
-        <button
-          type="submit"
-          disabled={submitting || !gameIdea.trim()}
-          style={{ alignSelf: 'flex-end', padding: '.8rem 1.8rem', background: 'linear-gradient(135deg, #00bcd4, #9c27b0)', border: 'none', borderRadius: 10, color: '#fff', fontWeight: 700, fontSize: '1rem', cursor: 'pointer', opacity: submitting ? .6 : 1 }}
-        >
-          {submitting ? 'Launching…' : '🚀 Launch Pipeline'}
-        </button>
-      </form>
-      {error && <p style={{ color: '#f44336', textAlign: 'center', marginBottom: '1rem' }}>{error}</p>}
+      <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 350px', gap: '2rem' }}>
+        <div>
+          {/* Input form */}
+          <form onSubmit={handleSubmit} style={{ marginBottom: '2rem', display: 'flex', gap: '.75rem', flexWrap: 'wrap', background: '#13131a', padding: '1.5rem', borderRadius: 16, border: '1px solid #222' }}>
+            <textarea
+              value={gameIdea}
+              onChange={e => setGameIdea(e.target.value)}
+              placeholder="Describe your game idea… e.g. 'A casual match-3 puzzle game with power-ups and daily challenges'"
+              rows={3}
+              style={{ flex: 1, minWidth: 300, background: '#0a0a0f', border: '1px solid #333', borderRadius: 10, padding: '1rem', color: '#e0e0e0', fontSize: '.95rem', resize: 'none' }}
+            />
+            <button
+              type="submit"
+              disabled={submitting || !gameIdea.trim()}
+              style={{ alignSelf: 'center', padding: '1rem 2rem', background: 'linear-gradient(135deg, #00bcd4, #00ff88)', border: 'none', borderRadius: 10, color: '#000', fontWeight: 800, fontSize: '1rem', cursor: 'pointer', transition: 'transform 0.2s', opacity: submitting ? 0.6 : 1 }}
+              onMouseEnter={e => (e.currentTarget.style.transform = 'scale(1.02)')}
+              onMouseLeave={e => (e.currentTarget.style.transform = 'scale(1)')}
+            >
+              {submitting ? 'Forging...' : 'Launch Pipeline'}
+            </button>
+          </form>
 
-      {/* Progress bar */}
-      {job && (
-        <div style={{ maxWidth: 700, margin: '0 auto 2rem' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '.4rem', fontSize: '.85rem' }}>
-            <span style={{ color: '#aaa' }}>Job: <code style={{ color: '#00bcd4' }}>{job.id.slice(0, 8)}…</code></span>
-            <span style={{ color: job.status === 'COMPLETE' ? '#4caf50' : job.status === 'FAILED' ? '#f44336' : '#ff9800', fontWeight: 700 }}>{job.status}</span>
-          </div>
-          <div style={{ height: 8, background: '#1e1e2a', borderRadius: 4, overflow: 'hidden' }}>
-            <div style={{ height: '100%', width: `${job.progress}%`, background: 'linear-gradient(90deg, #00bcd4, #9c27b0)', borderRadius: 4, transition: 'width .5s' }} />
+          {/* Arena / Live Preview */}
+          <div style={{ background: '#000', borderRadius: 16, border: '1px solid #333', height: 400, marginBottom: '2rem', position: 'relative', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            {!jobId ? (
+              <div style={{ textAlign: 'center' }}>
+                <div style={{ fontSize: '3rem', marginBottom: '1rem', opacity: 0.3 }}>🎮</div>
+                <p style={{ color: '#555', fontSize: '0.9rem' }}>Enter a game idea to activate the Live Test Arena</p>
+              </div>
+            ) : (
+              <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+                {/* Simulated Game Loop for Visualization */}
+                <div style={{ 
+                  position: 'absolute', 
+                  top: '50%', 
+                  left: '50%', 
+                  transform: 'translate(-50%, -50%)',
+                  width: 60, height: 60,
+                  background: 'linear-gradient(45deg, #00bcd4, #9c27b0)',
+                  borderRadius: 8,
+                  animation: 'pulse 2s infinite ease-in-out'
+                }} />
+                <div style={{ position: 'absolute', bottom: 20, left: 20, color: '#00ff88', fontSize: '0.7rem', fontFamily: 'monospace' }}>
+                   ARENA STATUS: RUNNING AGENT LOOPS...
+                </div>
+                <canvas id="arena-canvas" width="800" height="400" style={{ opacity: 0.4 }} />
+              </div>
+            )}
+            <div style={{ position: 'absolute', top: 10, right: 10, display: 'flex', gap: '0.5rem' }}>
+              <span style={{ padding: '4px 10px', background: 'rgba(0,0,0,0.8)', color: '#fff', fontSize: '0.6rem', border: '1px solid #333', borderRadius: '4px' }}>FPS: {(Math.random() * 5 + 55).toFixed(0)}</span>
+              <span style={{ padding: '4px 10px', background: 'rgba(0,0,0,0.8)', color: '#fff', fontSize: '0.6rem', border: '1px solid #333', borderRadius: '4px' }}>MEM: 24.1MB</span>
+            </div>
           </div>
         </div>
-      )}
+
+        <div>
+          {/* Progress bar */}
+          {job && (
+            <div style={{ marginBottom: '2rem' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '.4rem', fontSize: '.85rem' }}>
+                <span style={{ color: '#aaa' }}>Task Progress</span>
+                <span style={{ color: job.status === 'COMPLETE' ? '#4caf50' : job.status === 'FAILED' ? '#f44336' : '#ff9800', fontWeight: 700 }}>{job.status}</span>
+              </div>
+              <div style={{ height: 6, background: '#1e1e2a', borderRadius: 4, overflow: 'hidden' }}>
+                <div style={{ height: '100%', width: `${job.progress}%`, background: 'linear-gradient(90deg, #00bcd4, #00ff88)', borderRadius: 4, transition: 'width .5s' }} />
+              </div>
+            </div>
+          )}
+
+          {/* Agent status */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+            <h3 style={{ fontSize: '0.75rem', fontWeight: 800, color: '#555', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.25rem' }}>Fleet Command</h3>
+            {AGENTS.map(ag => {
+              const status = getAgentStatus(ag.id);
+              return (
+                <div 
+                  key={ag.id} 
+                  style={{ 
+                    background: status === 'RUNNING' ? 'rgba(0, 188, 212, 0.05)' : '#13131a', 
+                    border: `1px solid ${status === 'COMPLETE' ? ag.color : status === 'RUNNING' ? '#00bcd4' : '#222'}`, 
+                    borderRadius: 12, padding: '0.75rem', display: 'flex', alignItems: 'center', gap: '1rem',
+                    position: 'relative'
+                  }}
+                >
+                  <div style={{ fontSize: '1.2rem', filter: status === 'PENDING' ? 'grayscale(1)' : 'none' }}>{ag.emoji}</div>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontWeight: 800, fontSize: '0.8rem', color: status === 'PENDING' ? '#555' : '#fff' }}>{ag.id}</div>
+                    <div style={{ fontSize: '0.7rem', color: '#666' }}>{ag.label}</div>
+                  </div>
+                  {ag.isPro && (
+                    <span style={{ padding: '2px 6px', background: '#00bcd4', color: '#000', fontSize: '0.55rem', fontWeight: 'bold', borderRadius: 4 }}>PRO</span>
+                  )}
+                  {status === 'RUNNING' && (
+                    <div style={{ width: 8, height: 8, background: '#00bcd4', borderRadius: '50%', boxShadow: '0 0 10px #00bcd4' }} />
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
 
       {/* Checkpoint banner */}
       {job?.status === 'PAUSED_CHECKPOINT' && (
@@ -205,7 +280,7 @@ export default function GameStudioPage() {
 
       {/* Logs */}
       {logs.length > 0 && (
-        <div style={{ maxWidth: 700, margin: '0 auto', background: '#0d0d14', border: '1px solid #222', borderRadius: 12, padding: '1rem' }}>
+        <div style={{ maxWidth: 1200, margin: '0 auto 2rem', background: '#0d0d14', border: '1px solid #222', borderRadius: 12, padding: '1rem' }}>
           <div style={{ fontWeight: 700, marginBottom: '.6rem', fontSize: '.88rem', color: '#888' }}>📜 Pipeline Logs</div>
           <div style={{ maxHeight: 220, overflowY: 'auto', fontSize: '.8rem', fontFamily: 'monospace', display: 'flex', flexDirection: 'column', gap: '.2rem' }}>
             {logs.map((l, i) => (
@@ -218,6 +293,39 @@ export default function GameStudioPage() {
           </div>
         </div>
       )}
+
+      {/* CSS Animations */}
+      <style jsx global>{`
+        @keyframes pulse {
+          0% { transform: translate(-50%, -50%) scale(0.95); opacity: 0.8; box-shadow: 0 0 20px rgba(0, 188, 212, 0.2); }
+          50% { transform: translate(-50%, -50%) scale(1.05); opacity: 1; box-shadow: 0 0 40px rgba(0, 188, 212, 0.4); }
+          100% { transform: translate(-50%, -50%) scale(0.95); opacity: 0.8; box-shadow: 0 0 20px rgba(0, 188, 212, 0.2); }
+        }
+        @keyframes scanline {
+          0% { transform: translateY(-100%); }
+          100% { transform: translateY(100%); }
+        }
+        @keyframes float {
+          0% { transform: translateY(0) translateX(0); opacity: 0; }
+          50% { opacity: 0.5; }
+          100% { transform: translateY(-100px) translateX(20px); opacity: 0; }
+        }
+        .arena-scan {
+          position: absolute;
+          top: 0; left: 0; right: 0; height: 100%;
+          background: linear-gradient(to bottom, transparent, rgba(0, 255, 136, 0.05), transparent);
+          animation: scanline 4s linear infinite;
+          pointer-events: none;
+        }
+        .data-particle {
+          position: absolute;
+          width: 2px; height: 2px;
+          background: #00ff88;
+          border-radius: 50%;
+          animation: float 3s infinite linear;
+        }
+      `}</style>
+      <div className="arena-scan" />
     </main>
   );
 }

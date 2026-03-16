@@ -13,6 +13,8 @@ export const AgentId = z.enum([
   'GLITCH',     // QA & Debugger
   'TURBO',      // Performance Optimizer
   'GATEWAY',    // Store Policy Expert
+  'SPECTRA',    // Playtest & Balance
+  'GLITCH_MOD', // Hype & Social
   'MAINFRAME',  // Orchestrator
 ]);
 export type AgentId = z.infer<typeof AgentId>;
