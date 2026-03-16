@@ -60,6 +60,9 @@ export function Header() {
           <Link href="/hub" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#ff8c00] transition-colors">
             BLUEPRINTS
           </Link>
+          <Link href="/observability" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#00ff88] transition-colors">
+            FLEET
+          </Link>
           <Link href="/foundry" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#ff8c00] transition-colors">
             FORGE
           </Link>

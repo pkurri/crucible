@@ -26,10 +26,13 @@ import {
   VisualArchitectAgent,
   SelfHealAgent,
   GrowthMarketeerAgent,
+  SentinelAgent,
+  AuditorAgent,
   IForgeAgent,
 } from './agent-definitions';
 
 import { getCompetitorContext } from './market-researcher';
+import { CrucibleSentinel } from '../lib/sentinel-orchestrator';
 
 // 1. Initialize Redis Connection
 const REDIS_URL = process.env.REDIS_URL || 'redis://127.0.0.1:6379';
@@ -57,6 +60,8 @@ const agents: Record<string, IForgeAgent> = {
   graphics: new VisualArchitectAgent(),
   healer: new SelfHealAgent(),
   marketeer: new GrowthMarketeerAgent(),
+  sentinel: new SentinelAgent(),
+  auditor: new AuditorAgent(),
 };
 
 // 4. Helper to update Supabase status
@@ -85,7 +90,17 @@ const agentWorker = new Worker(
 
     await updateAgentStatus(supabase, agentType, 'busy');
     try {
-      const result = await agent.execute(supabase);
+      // PRO: Wrap every industrial agent run in a Sentinel Trace
+      const trace = await CrucibleSentinel.startTrace(`FLEET_${agentType.toUpperCase()}`, { jobId: job.id });
+      
+      const result = await CrucibleSentinel.executeGated(
+        trace,
+        agentType,
+        'execute_directive',
+        { agent: agent.name },
+        () => agent.execute(supabase)
+      );
+
       console.log(`[JOB] Finished ${agent.name}:`, result.message);
       return result;
     } finally {
