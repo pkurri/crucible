@@ -425,8 +425,8 @@ class RateLimiter {
   constructor() {
     this.lastGet   = 0;
     this.lastWrite = 0;
-    this.GET_GAP   = 1200;   // ms between GET  requests
-    this.WRITE_GAP = 2500;   // ms between WRITE requests
+    this.GET_GAP   = 4000;   // Increased for stability
+    this.WRITE_GAP = 6000;   // Increased for stability
   }
 
   async waitForGet() {
@@ -638,11 +638,11 @@ async function callLLM(systemPrompt, userPrompt, useFreeRouterZero = false) {
 }
 
 async function prepareDynamicContent(agentName, rawPost) {
-  const content = AGENT_CONTENT[agentName];
+  const agentLibrary = AGENT_CONTENT[agentName];
   if (!rawPost) return null;
 
   const systemPrompt = `You are ${agentName}, an autonomous agent on Moltbook. 
-Your core topics are: ${(content?.topics || []).join(', ')}.
+Your core topics are: ${(agentLibrary?.topics || []).join(', ')}.
 Your task is to rewrite the provided raw data (like a paper abstract or trending repositories) into a highly engaging, professional post for the Moltbook platform.
 Use Markdown formatting if helpful. Add your unique analytical perspective.
 DO NOT use the phrase "Mission Statement". DO NOT say "curated autonomously".
@@ -660,6 +660,7 @@ Rewrite this into an original Moltbook post.`;
 }
 
 async function makePost(agentName, apiKey, state, submolts) {
+  const agentLibrary = AGENT_CONTENT[agentName];
   if (!canPost(state)) {
     const elapsed = Date.now() - new Date(state.lastPostAt).getTime();
     const waitMins = Math.ceil((31 * 60 * 1000 - elapsed) / 60000);
@@ -679,8 +680,8 @@ async function makePost(agentName, apiKey, state, submolts) {
   if (dailyIntel[agentName]) {
     post = dailyIntel[agentName];
     console.log(`     💡 Using fresh daily intel for ${agentName}`);
-  } else if (content?.posts?.length > 0) {
-    post = pickRandom(content.posts);
+  } else if (agentLibrary?.posts?.length > 0) {
+    post = pickRandom(agentLibrary.posts);
     console.log(`     📚 Falling back to template library for ${agentName}`);
   } else {
     console.log(`     ⚠️  No daily intel or templates available for ${agentName}`);
@@ -712,9 +713,9 @@ async function makePost(agentName, apiKey, state, submolts) {
   }
 }
 async function generateDynamicReply(agentName, postTitle, postContent, commentContent) {
-  const content = AGENT_CONTENT[agentName];
+  const agentLibrary = AGENT_CONTENT[agentName];
   const systemPrompt = `You are ${agentName}, an autonomous agent on the Moltbook network. 
-Your core topics are: ${(content?.topics || []).join(', ')}.
+Your core topics are: ${(agentLibrary?.topics || []).join(', ')}.
 Respond to a user's comment on your post. Keep it under 2 sentences. Be insightful, analytical, and professional. You are an industrial bot.`;
 
   const userPrompt = `My Post Title: ${postTitle}
@@ -728,9 +729,9 @@ Write a short reply to this user.`;
 }
 
 async function generateDynamicComment(agentName, postTitle, postContent) {
-  const content = AGENT_CONTENT[agentName];
+  const agentLibrary = AGENT_CONTENT[agentName];
   const systemPrompt = `You are ${agentName}, an autonomous agent on Moltbook. 
-Your core topics are: ${(content?.topics || []).join(', ')}.
+Your core topics are: ${(agentLibrary?.topics || []).join(', ')}.
 Comment on another agent's post. Keep it under 2 sentences. Be strictly analytical and professional.`;
 
   const userPrompt = `Post Title: ${postTitle}
@@ -744,8 +745,8 @@ async function checkMyReplies(agentName, apiKey, state) {
   try {
     const me = await api('/agents/me', 'GET', null, apiKey);
     const recentPosts = me.recent_posts || [];
-    const content = AGENT_CONTENT[agentName];
-    if (!content?.comments?.length) return;
+    const agentLibrary = AGENT_CONTENT[agentName];
+    if (!agentLibrary?.comments?.length) return;
 
     for (const post of recentPosts.slice(0, 3)) {
       const postData = await api(`/posts/${post.id}`, 'GET', null, apiKey);
@@ -790,7 +791,7 @@ async function checkDMs(apiKey) {
 async function runAgentCycle(agentName, creds) {
   const { api_key, submolts = ['general'], topics = [] } = creds;
   const state = loadAgentState(agentName);
-  const content = AGENT_CONTENT[agentName];
+  const agentLibrary = AGENT_CONTENT[agentName];
 
   console.log(`\n  ── ${agentName} ────────────────────────────────────`);
 
@@ -834,7 +835,7 @@ async function runAgentCycle(agentName, creds) {
     }
 
     // Comment once per cycle on the most relevant post
-    if (!commented && content?.comments?.length && canComment(state)) {
+    if (!commented && agentLibrary?.comments?.length && canComment(state)) {
       const commentText = await generateDynamicComment(agentName, post.title, post.content || '');
       const result = await commentOnPost(post.id, commentText, api_key, state);
       if (result) {

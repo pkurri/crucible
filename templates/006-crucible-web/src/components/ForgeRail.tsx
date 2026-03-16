@@ -131,7 +131,8 @@ export function ForgeRail({
   const renderNavItem = (item: NavItem) => {
     const { href, label, icon: Icon, sublabel } = item;
     const active = pathname === href;
-    const restricted = !!item.restricted || (!user && href !== '/' && href !== '/login');
+    const publicPaths = ['/', '/login', '/infographics', '/hub', '/foundry'];
+    const restricted = !!item.restricted || (!user && !publicPaths.includes(href));
     
     return (
       <li key={href}>
@@ -223,53 +224,52 @@ export function ForgeRail({
           aria-label="Sidebar Menu"
           className="flex-1 py-4 overflow-y-auto overflow-x-hidden no-scrollbar px-2"
         >
-          {!user ? (
-            <ul className="space-y-1">
-              {renderNavItem({ href: '/', label: 'THE ARMORY', icon: Shield, sublabel: 'Templates' })}
-              {renderNavItem({ href: '/login', label: 'FORGE IDENTITY', icon: Shield, sublabel: 'Sign In / Up', priority: true })}
-            </ul>
-          ) : (
-            <div className="space-y-6">
-              {navGroups.map((group) => (
-                <div key={group.id} className="space-y-1">
-                  {/* Group Header */}
-                  <button
-                    onClick={() => toggleGroup(group.id)}
-                    className={`
-                      w-full flex items-center justify-between px-2 py-1
-                      text-[9px] font-bold tracking-[0.2em] text-[#444] hover:text-[#ff8c00]
-                      transition-colors uppercase mb-1
-                      ${collapsed ? 'md:justify-center' : ''}
-                    `}
-                  >
-                    {!collapsed && <span>{group.label}</span>}
-                    {!collapsed && (
-                      <ChevronDown 
-                        size={10} 
-                        className={`transition-transform duration-200 ${expandedGroups.includes(group.id) ? 'rotate-180' : ''}`}
-                      />
-                    )}
-                    {collapsed && <div className="w-4 h-0.5 bg-[#222]" />}
-                  </button>
+          <div className="space-y-6">
+            {!user && (
+              <ul className="space-y-0.5 mb-6">
+                {renderNavItem({ href: '/login', label: 'FORGE IDENTITY', icon: Shield, sublabel: 'Sign In / Up', priority: true })}
+              </ul>
+            )}
+            
+            {navGroups.map((group) => (
+              <div key={group.id} className="space-y-1">
+                {/* Group Header */}
+                <button
+                  onClick={() => toggleGroup(group.id)}
+                  className={`
+                    w-full flex items-center justify-between px-2 py-1
+                    text-[9px] font-bold tracking-[0.2em] text-[#444] hover:text-[#ff8c00]
+                    transition-colors uppercase mb-1
+                    ${collapsed ? 'md:justify-center' : ''}
+                  `}
+                >
+                  {!collapsed && <span>{group.label}</span>}
+                  {!collapsed && (
+                    <ChevronDown 
+                      size={10} 
+                      className={`transition-transform duration-200 ${expandedGroups.includes(group.id) ? 'rotate-180' : ''}`}
+                    />
+                  )}
+                  {collapsed && <div className="w-4 h-0.5 bg-[#222]" />}
+                </button>
 
-                  {/* Group Items */}
-                  <AnimatePresence initial={false}>
-                    {(expandedGroups.includes(group.id) || collapsed) && (
-                      <motion.ul
-                        initial={collapsed ? undefined : { height: 0, opacity: 0 }}
-                        animate={collapsed ? undefined : { height: 'auto', opacity: 1 }}
-                        exit={collapsed ? undefined : { height: 0, opacity: 0 }}
-                        transition={{ duration: 0.2, ease: 'easeInOut' }}
-                        className="space-y-0.5 overflow-hidden"
-                      >
-                        {group.items.map(item => renderNavItem(item))}
-                      </motion.ul>
-                    )}
-                  </AnimatePresence>
-                </div>
-              ))}
-            </div>
-          )}
+                {/* Group Items */}
+                <AnimatePresence initial={false}>
+                  {(expandedGroups.includes(group.id) || collapsed) && (
+                    <motion.ul
+                      initial={collapsed ? undefined : { height: 0, opacity: 0 }}
+                      animate={collapsed ? undefined : { height: 'auto', opacity: 1 }}
+                      exit={collapsed ? undefined : { height: 0, opacity: 0 }}
+                      transition={{ duration: 0.2, ease: 'easeInOut' }}
+                      className="space-y-0.5 overflow-hidden"
+                    >
+                      {group.items.map(item => renderNavItem(item))}
+                    </motion.ul>
+                  )}
+                </AnimatePresence>
+              </div>
+            ))}
+          </div>
         </nav>
 
         {/* Status dot + collapse toggle */}
