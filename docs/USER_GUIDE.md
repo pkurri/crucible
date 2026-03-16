@@ -63,15 +63,18 @@ Crucible includes a specialized cluster for high-fidelity game development and m
 
 | Agent | Role | Status |
 | :--- | :--- | :--- |
+| **ORACLE** | Trend Forecaster | **PRO** |
 | **PULSE** | Market Feasibility | Free |
 | **SCHEMA** | Requirement Vetter | Free |
 | **DISPATCH** | Project Manager | Free |
 | **PIXEL** | Software Engineer | **PRO** |
 | **GLITCH** | QA & Debugger | **PRO** |
 | **TURBO** | Performance Optimizer | **PRO** |
+| **DOPAMINE** | Retention Architect | **PRO** |
 | **SPECTRA** | Playtest & Balance | **PRO** |
 | **GATEWAY** | Store Policy Expert | **PRO** |
 | **GLITCH_MOD** | Hype & Social | **PRO** |
+| **CHRONOS** | Procedural Director | **PRO** |
 
 **How to Use:**
 1. Navigate to `/game-studio`.

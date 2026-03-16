@@ -15,6 +15,9 @@ export const AgentId = z.enum([
   'GATEWAY',    // Store Policy Expert
   'SPECTRA',    // Playtest & Balance
   'GLITCH_MOD', // Hype & Social
+  'ORACLE',     // Trend Forecaster
+  'DOPAMINE',   // Retention Architect
+  'CHRONOS',    // Procedural Director
   'MAINFRAME',  // Orchestrator
 ]);
 export type AgentId = z.infer<typeof AgentId>;
@@ -25,6 +28,7 @@ export const Phase = z.enum([
   'TASK_ARCHITECTURE',
   'DEV_ITERATION',
   'DEPLOYMENT_COMPLIANCE',
+  'POST_LAUNCH_OPS',
 ]);
 export type Phase = z.infer<typeof Phase>;
 

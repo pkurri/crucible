@@ -24,13 +24,32 @@ export interface AgentConfig {
 // ─── The Neon Arcade Roster ─────────────────────────────────────────
 
 export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
+  ORACLE: {
+    id: 'ORACLE',
+    codename: 'ORACLE',
+    role: 'Trend Forecaster',
+    phase: 'MARKET_FEASIBILITY',
+    emoji: '🔮',
+    upstream: 'USER',
+    downstream: 'PULSE',
+    promptFile: 'agents/prompts/oracle-trends.md',
+    maxIterations: 1,
+    timeoutMs: 120_000,
+    tools: ['web_search', 'read_url'],
+    guardrails: [
+      'Focus on "Steam" and "Twitch" data',
+      'Identify upcoming genre shifts',
+      'No speculation without data',
+    ],
+  },
+
   PULSE: {
     id: 'PULSE',
     codename: 'PULSE',
     role: 'Market Analyst',
     phase: 'MARKET_FEASIBILITY',
     emoji: '📊',
-    upstream: 'USER',
+    upstream: 'ORACLE',
     downstream: 'SCHEMA',
     promptFile: 'agents/prompts/pulse-market-analyst.md',
     maxIterations: 1,
@@ -40,8 +59,6 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
       'No fabrication of competitor data',
       'No scope creep — analyze only',
       'Mandatory verdict',
-      'Token budget: 2000 tokens',
-      'Triggers human checkpoint',
     ],
   },
 
@@ -60,8 +77,6 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     guardrails: [
       'Exhaustive asset listing',
       'Engine justification ≥ 3 reasons',
-      'No scope trimming',
-      'Feasibility warnings if NO_GO',
       'Version-gated feature separation',
     ],
   },
@@ -82,8 +97,6 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
       '100% PRD coverage',
       'Atomic tasks ≤ 4 hours',
       'Clear DoD for every task',
-      'No circular dependencies',
-      'No feature removal',
     ],
   },
 
@@ -103,9 +116,6 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
       'One task at a time',
       'Compile clean before output',
       'DoD self-check required',
-      'No dead code',
-      'Max 200 lines per file',
-      'Fix-it loop compliance',
     ],
   },
 
@@ -123,10 +133,7 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     tools: ['workspace_read', 'workspace_write', 'code_lint', 'code_compile', 'static_analysis'],
     guardrails: [
       'Zero tolerance for criticals',
-      'Max 3 iterations before escalate',
       'Constructive fixes required',
-      'No direct code modification',
-      'DoD verification mandatory',
     ],
   },
 
@@ -137,7 +144,7 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     phase: 'DEV_ITERATION',
     emoji: '⚡',
     upstream: 'GLITCH',
-    downstream: 'SPECTRA',
+    downstream: 'DOPAMINE',
     promptFile: 'agents/prompts/turbo-performance-optimizer.md',
     maxIterations: 2,
     timeoutMs: 90_000,
@@ -145,9 +152,25 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     guardrails: [
       'Target-driven comparison',
       'Actionable RED/YELLOW fixes only',
-      '80/20 focus',
-      'No micro-optimizations',
-      'Readability preserved',
+    ],
+  },
+
+  DOPAMINE: {
+    id: 'DOPAMINE',
+    codename: 'DOPAMINE',
+    role: 'Retention Architect',
+    phase: 'DEV_ITERATION',
+    emoji: '🧠',
+    upstream: 'TURBO',
+    downstream: 'SPECTRA',
+    promptFile: 'agents/prompts/dopamine-retention.md',
+    maxIterations: 2,
+    timeoutMs: 120_000,
+    tools: ['calculate', 'web_search'],
+    guardrails: [
+      'Design hook-reward-investment loops',
+      'Establish fair monetization pacing',
+      'Avoid dark patterns',
     ],
   },
 
@@ -157,16 +180,15 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     role: 'Playtest & Balance',
     phase: 'DEV_ITERATION',
     emoji: '🎮',
-    upstream: 'TURBO',
+    upstream: 'DOPAMINE',
     downstream: 'GATEWAY',
     promptFile: 'agents/prompts/spectra-playtest.md',
     maxIterations: 2,
     timeoutMs: 150_000,
     tools: ['workspace_read', 'workspace_write', 'calculate'],
     guardrails: [
-      'Focus on "Fun Factor" (engagement loops)',
+      'Focus on "Fun Factor"',
       'Balance difficulty curves',
-      'No gameplay-breaking bugs',
       'Accessibility review mandatory',
     ],
   },
@@ -185,9 +207,6 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     tools: ['workspace_read', 'workspace_write', 'web_search', 'read_url'],
     guardrails: [
       'Zero NON_COMPLIANT criticals',
-      'Both Apple + Google review',
-      'Current guidelines only',
-      'Conservative flagging',
       'Privacy-first approach',
     ],
   },
@@ -199,16 +218,33 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     phase: 'DEPLOYMENT_COMPLIANCE',
     emoji: '🤳',
     upstream: 'GATEWAY',
-    downstream: 'RELEASE',
+    downstream: 'CHRONOS',
     promptFile: 'agents/prompts/glitch-mod-promotion.md',
     maxIterations: 1,
     timeoutMs: 90_000,
     tools: ['web_search', 'read_url'],
     guardrails: [
       'Viral post structure only',
-      'Target Twitch/Discord/TikTok tags',
-      'No deceptive marketing',
       'Highlight Pro tier features',
+    ],
+  },
+
+  CHRONOS: {
+    id: 'CHRONOS',
+    codename: 'CHRONOS',
+    role: 'Procedural Director',
+    phase: 'POST_LAUNCH_OPS',
+    emoji: '⏳',
+    upstream: 'GLITCH_MOD',
+    downstream: 'RELEASE',
+    promptFile: 'agents/prompts/chronos-liveops.md',
+    maxIterations: 1,
+    timeoutMs: 120_000,
+    tools: ['workspace_write', 'calculate'],
+    guardrails: [
+      'Design dynamic event schedules',
+      'Generate personalized content hooks',
+      'Monitor player churn metrics',
     ],
   },
 
@@ -227,7 +263,6 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     guardrails: [
       'Human checkpoint after PULSE',
       'Respect pipeline ordering',
-      'Status reports at every stage',
     ],
   },
 };
@@ -235,24 +270,28 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
 // ─── Pipeline Order ─────────────────────────────────────────────────
 
 export const PIPELINE_STAGES: AgentId[] = [
-  'PULSE',     // Phase 1
-  'SCHEMA',    // Phase 1
-  'DISPATCH',  // Phase 2
-  'PIXEL',     // Phase 3 (loops with GLITCH/TURBO)
-  'GLITCH',    // Phase 3
-  'TURBO',     // Phase 3
-  'SPECTRA',   // Phase 3
-  'GATEWAY',   // Phase 4
-  'GLITCH_MOD',// Phase 4
+  'ORACLE',    // Phase 1: Trend Discovery
+  'PULSE',     // Phase 1: Analysis
+  'SCHEMA',    // Phase 1: Blueprint
+  'DISPATCH',  // Phase 2: Logistics
+  'PIXEL',     // Phase 3: Build
+  'GLITCH',    // Phase 3: QA
+  'TURBO',     // Phase 3: Perf
+  'DOPAMINE',  // Phase 3: Psychology
+  'SPECTRA',   // Phase 3: Balance
+  'GATEWAY',   // Phase 4: Compliance
+  'GLITCH_MOD',// Phase 4: Promotion
+  'CHRONOS',   // Phase 5: Evolution
 ];
 
 // ─── Phase Groupings ────────────────────────────────────────────────
 
 export const PHASE_AGENTS: Record<Phase, AgentId[]> = {
-  MARKET_FEASIBILITY:    ['PULSE', 'SCHEMA'],
+  MARKET_FEASIBILITY:    ['ORACLE', 'PULSE', 'SCHEMA'],
   TASK_ARCHITECTURE:     ['DISPATCH'],
-  DEV_ITERATION:         ['PIXEL', 'GLITCH', 'TURBO', 'SPECTRA'],
+  DEV_ITERATION:         ['PIXEL', 'GLITCH', 'TURBO', 'DOPAMINE', 'SPECTRA'],
   DEPLOYMENT_COMPLIANCE: ['GATEWAY', 'GLITCH_MOD'],
+  POST_LAUNCH_OPS:       ['CHRONOS'],
 };
 
 // ─── Checkpoint Config ──────────────────────────────────────────────
@@ -265,13 +304,18 @@ export interface Checkpoint {
 
 export const CHECKPOINTS: Checkpoint[] = [
   {
+    afterAgent: 'ORACLE',
+    description: 'Review discovered trends before market analysis',
+    approvalRequired: false,
+  },
+  {
     afterAgent: 'PULSE',
     description: 'Review market analysis before investing in development',
     approvalRequired: true,
   },
   {
     afterAgent: 'DISPATCH',
-    description: 'Review task breakdown and milestones before coding begins',
+    description: 'Review task breakdown before coding begins',
     approvalRequired: false,
   },
   {
