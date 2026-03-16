@@ -101,6 +101,16 @@ _Real-time presentation, engagement, and user interfacing._
 - **Showrunner:** Ensures that all background work transitions smoothly to the
   active frontend view.
 
+### 🌑 Security & Immunity Division (Enterprise/Sovereign)
+
+_Hardening agent flows through adversarial testing and autonomous remediation._
+
+- **Chaos Engineer:** Autonomously "red-teams" your fleet by injecting prompt attacks and PII honeypots to verify immunity.
+- **Auto-Healer:** Scans for failed audits or logic drifts and automatically patches agent directives and trajectories.
+- **PII Scrubber:** Scans all transmissions for sensitive data (SSNs, CCs, API Keys) and redacts them at the gate.
+- **Circuit Breaker:** Monitors token velocity and kills runaway loops before they impact your credit balance.
+- **Logic Scrutineer:** Verifies that agent outputs follow the intended semantic path and haven't drifted into hallucinations.
+
 ---
 
 ## 🎯 Real-World Use Cases

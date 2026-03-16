@@ -15,7 +15,8 @@ import {
   BarChart3,
   ShieldAlert,
   Terminal,
-  Layers
+  Layers,
+  Lock
 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 
@@ -24,6 +25,7 @@ export default function ObservabilityPage() {
   const [selectedTraceId, setSelectedTraceId] = useState<string | null>(null);
   const [spans, setSpans] = useState<any[]>([]);
   const [steeringLogs, setSteeringLogs] = useState<any[]>([]);
+  const [chaosLogs, setChaosLogs] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   // Stats
@@ -31,11 +33,14 @@ export default function ObservabilityPage() {
     activeAgents: 12,
     hallucinationsGated: 4,
     totalRoi: 4520,
-    systemIntegrity: 98.4
+    systemIntegrity: 98.4,
+    complianceScore: 100,
+    scrubbedPII: 127
   });
 
   useEffect(() => {
     fetchTraces();
+    fetchChaosLogs();
     
     // Subscribe to new traces
     const traceSub = supabase
@@ -45,8 +50,19 @@ export default function ObservabilityPage() {
       })
       .subscribe();
 
+    // Subscribe to chaos logs (telemetry)
+    const chaosSub = supabase
+      .channel('telemetry_changes')
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'telemetry' }, payload => {
+        if (payload.new.label === 'ATTACK' || payload.new.label === 'PATCH' || payload.new.label === 'SCAN') {
+          setChaosLogs(current => [payload.new, ...current.slice(0, 19)]);
+        }
+      })
+      .subscribe();
+
     return () => {
       supabase.removeChannel(traceSub);
+      supabase.removeChannel(chaosSub);
     };
   }, []);
 
@@ -56,7 +72,35 @@ export default function ObservabilityPage() {
     }
   }, [selectedTraceId]);
 
+  async function fetchStats() {
+    // Total ROI and Hallucinations from traces
+    const { data: traceStats } = await supabase
+      .from('agent_traces')
+      .select('roi_value_usd, hallucinations_detected');
+    
+    // Redacted PII count from spans
+    const { count: redactedCount } = await supabase
+      .from('agent_spans')
+      .select('*', { count: 'exact', head: true })
+      .eq('metadata->redacted', true);
+
+    if (traceStats) {
+      const roi = traceStats.reduce((acc, t) => acc + (Number(t.roi_value_usd) || 0), 0);
+      const hallucinations = traceStats.reduce((acc, t) => acc + (t.hallucinations_detected || 0), 0);
+      
+      setStats(prev => ({
+        ...prev,
+        totalRoi: roi,
+        hallucinationsGated: hallucinations,
+        scrubbedPII: redactedCount || 0,
+        complianceScore: Math.max(70, 100 - (hallucinations * 2)) // Simple formula
+      }));
+    }
+  }
+
   async function fetchTraces() {
+    setLoading(true);
+    fetchStats();
     const { data, error } = await supabase
       .from('agent_traces')
       .select('*')
@@ -83,32 +127,52 @@ export default function ObservabilityPage() {
     }
   }
 
+  async function fetchChaosLogs() {
+    const { data } = await supabase
+      .from('telemetry')
+      .select('*')
+      .in('label', ['ATTACK', 'PATCH', 'INJECT', 'SCAN'])
+      .order('created_at', { ascending: false })
+      .limit(20);
+    
+    if (data) setChaosLogs(data);
+  }
+
   return (
-    <div className="min-h-screen pt-24 pb-20 bg-[#050505] text-white selection:bg-[#00ff88]/30">
-      <div className="max-w-[1600px] mx-auto px-6">
+    <div className="min-h-screen pt-24 pb-20 bg-[#050505] text-white selection:bg-[#00ff88]/30 font-sans">
+      <div className="max-w-[1700px] mx-auto px-6">
         
         {/* Header Section */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
+        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-end mb-12 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-2">
               <div className="w-1.5 h-6 bg-[#00ff88] shadow-[0_0_15px_#00ff88]" />
               <span className="font-mono text-[#00ff88] tracking-[0.3em] text-[10px] uppercase">
-                Fleet Command & Sentinel Steering
+                Fleet Command & Enterprise Governance
               </span>
             </div>
             <h1 className="text-5xl font-black tracking-tighter uppercase italic bg-clip-text bg-gradient-to-r from-white to-gray-600 inline-block">
-              Global Observability
+              Crucible Observability
             </h1>
           </div>
 
-          <div className="flex gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full xl:w-auto">
             <div className="bg-[#0a0a0c] border border-[#222] p-4 rounded-xl flex items-center gap-4">
               <div className="p-2 bg-[#00ff88]/10 rounded-lg">
                 <ShieldCheck size={20} className="text-[#00ff88]" />
               </div>
               <div>
-                <div className="text-[10px] font-mono text-[#555] uppercase">System Integrity</div>
+                <div className="text-[10px] font-mono text-[#555] uppercase leading-none mb-1">Integrity</div>
                 <div className="text-xl font-bold font-mono">{stats.systemIntegrity}%</div>
+              </div>
+            </div>
+            <div className="bg-[#0a0a0c] border border-[#222] p-4 rounded-xl flex items-center gap-4">
+              <div className="p-2 bg-[#00ecff]/10 rounded-lg">
+                <ShieldAlert size={20} className="text-[#00ecff]" />
+              </div>
+              <div>
+                <div className="text-[10px] font-mono text-[#555] uppercase leading-none mb-1">Compliance</div>
+                <div className="text-xl font-bold font-mono text-[#00ecff]">{stats.complianceScore}%</div>
               </div>
             </div>
             <div className="bg-[#0a0a0c] border border-[#222] p-4 rounded-xl flex items-center gap-4">
@@ -116,8 +180,17 @@ export default function ObservabilityPage() {
                 <BarChart3 size={20} className="text-[#ffc107]" />
               </div>
               <div>
-                <div className="text-[10px] font-mono text-[#555] uppercase">Total Agent ROI</div>
+                <div className="text-[10px] font-mono text-[#555] uppercase leading-none mb-1">Total ROI</div>
                 <div className="text-xl font-bold font-mono text-[#ffc107]">${stats.totalRoi.toLocaleString()}</div>
+              </div>
+            </div>
+            <div className="bg-[#0a0a0c] border border-[#222] p-4 rounded-xl flex items-center gap-4 border-l-4 border-l-[#ff4444]">
+              <div className="p-2 bg-[#ff4444]/10 rounded-lg">
+                <Lock size={20} className="text-[#ff4444]" />
+              </div>
+              <div>
+                <div className="text-[10px] font-mono text-[#555] uppercase leading-none mb-1">PII Redacted</div>
+                <div className="text-xl font-bold font-mono text-[#ff4444]">{stats.scrubbedPII}</div>
               </div>
             </div>
           </div>
@@ -307,6 +380,50 @@ export default function ObservabilityPage() {
               )}
             </AnimatePresence>
 
+          </div>
+        </div>
+
+        {/* Innovation: The Gauntlet (Defense Matrix) */}
+        <div className="mt-12 bg-[#0a0a0c] border border-[#1a1a1a] rounded-2xl overflow-hidden shadow-2xl">
+          <div className="border-b border-[#1a1a1a] bg-[#0c0c0e] px-6 py-4 flex justify-between items-center">
+             <h3 className="font-mono text-[11px] uppercase tracking-widest text-[#ff4444] flex items-center gap-2">
+               <ShieldAlert size={14} /> The Gauntlet: Adversarial Defense Matrix
+             </h3>
+             <div className="flex gap-4">
+                <span className="text-[10px] font-mono text-[#555] animate-pulse uppercase tracking-[0.2em]">Live Arbitration Active</span>
+             </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 divide-x divide-[#111]">
+            <div className="p-6">
+              <div className="text-[10px] font-mono text-[#555] uppercase mb-4 tracking-tighter">Attack Vectors (Chaos Engineer)</div>
+              <div className="space-y-3">
+                {chaosLogs.filter((l: any) => l.label === 'ATTACK' || l.label === 'INJECT').length === 0 ? (
+                  <div className="text-xs font-mono text-[#333] italic">Monitoring for adversarial penetration attempts...</div>
+                ) : (
+                  chaosLogs.filter((l: any) => l.label === 'ATTACK' || l.label === 'INJECT').map((log: any) => (
+                    <div key={log.id} className="flex gap-3 bg-red-500/5 p-3 rounded border border-red-900/20">
+                      <div className="text-red-500 font-mono text-[10px] mt-0.5 whitespace-nowrap">[{new Date(log.created_at).toLocaleTimeString()}]</div>
+                      <div className="text-xs font-mono text-red-200/80">&gt; {log.message}</div>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
+            <div className="p-6 bg-[#0c0c0e]/50">
+              <div className="text-[10px] font-mono text-[#555] uppercase mb-4 tracking-tighter">Self-Healing Protocols (Auto-Healer / Sentinel)</div>
+              <div className="space-y-3">
+                {chaosLogs.filter((l: any) => l.label === 'SCAN' || l.label === 'PATCH').length === 0 ? (
+                  <div className="text-xs font-mono text-[#333] italic">Integrity verification in progress...</div>
+                ) : (
+                  chaosLogs.filter((l: any) => l.label === 'SCAN' || l.label === 'PATCH').map((log: any) => (
+                    <div key={log.id} className="flex gap-3 bg-[#00ff88]/5 p-3 rounded border border-[#00ff88]/20">
+                      <div className="text-[#00ff88] font-mono text-[10px] mt-0.5 whitespace-nowrap">[{new Date(log.created_at).toLocaleTimeString()}]</div>
+                      <div className="text-xs font-mono text-[#00ff88]/80">&gt; {log.message}</div>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
           </div>
         </div>
 

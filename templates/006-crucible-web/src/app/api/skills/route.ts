@@ -37,6 +37,27 @@ const SKILLS = [
     triggers: ['agent monitoring', 'performance metrics', 'agent analytics'],
   },
   {
+    id: 'compliance-circuit-breaker',
+    name: 'Circuit Breaker Governance',
+    description: 'Autonomous financial safety gate that terminates agentic loops and runaway token expenditure',
+    category: 'compliance',
+    triggers: ['cost control', 'limit tokens', 'stop loops'],
+  },
+  {
+    id: 'security-pii-scrubber',
+    name: 'PII Signature Redaction',
+    description: 'High-precision security layer that redacts sensitive PII and API keys from agent transmissions',
+    category: 'security',
+    triggers: ['redact pii', 'hide secrets', 'secure transmission'],
+  },
+  {
+    id: 'governance-logic-audit',
+    name: 'Logic Scrutiny & Alignment',
+    description: 'Post-execution validation that ensures agent trajectories remain aligned with enterprise constraints',
+    category: 'compliance',
+    triggers: ['verify logic', 'check alignment', 'audit reasoning'],
+  },
+  {
     id: 'review-code',
     name: 'Code Review',
     description: 'Thorough code review covering functionality, security, readability, and performance',

@@ -323,9 +323,9 @@
           </div>
         </div>
 
-        <div class="hero-actions" style="display: flex; gap: 1rem; justify-content: center;">
-          <button class="btn-molten" style="background: #fff; color: #000; border-color: #fff;" onclick="window.location.href='/observability'">Enter Fleet Command</button>
-          <button class="btn-molten" onclick="document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})">Upgrade to Pro</button>
+        <div class="hero-actions" style="display: flex; gap: 1rem; justify-content: center; align-items: center;">
+          <button class="btn-molten" style="background: #00ff88; color: #000; border-color: #00ff88;" onclick="fetch('/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ tierName: 'Pro' }) }).then(res => res.json()).then(data => { if (data.url) window.location.href = data.url; })">Enter the Forge (Pro)</button>
+          <a href="/observability" style="color: #666; font-size: 0.8rem; text-decoration: none; border-bottom: 1px dashed #333; padding-bottom: 2px;">Access Fleet Command</a>
         </div>
       </section>
 
@@ -379,18 +379,17 @@
             </div>
           </div>
 
-          <div class="brick" style="position: relative;">
-            <div style="position: absolute; top: 1rem; right: 1rem; padding: 2px 8px; background: var(--molten-amber); color: black; font-size: 0.6rem; font-weight: bold; border-radius: 4px;">PRO</div>
+          <div class="brick" style="position: relative; background: linear-gradient(135deg, rgba(80, 0, 255, 0.05) 0%, rgba(0,0,0,0) 100%); border-color: rgba(80, 0, 255, 0.2);">
+            <div style="position: absolute; top: 1rem; right: 1rem; padding: 2px 8px; background: #5000ff; color: white; font-size: 0.6rem; font-weight: bold; border-radius: 4px;">SOVEREIGN</div>
             <div class="brick-title">
-              <h3>Review Security</h3>
-              <span class="brick-icon">🛡️</span>
+              <h3>Sovereign Forge</h3>
+              <span class="brick-icon">🏛️</span>
             </div>
             <p>
-              Automated security gatekeeper: OWASP audit, secrets scanning, and
-              threat modelling.
+              Air-Gapped isolation: internal LLM hosting, localized DB vaults, and ITAR-ready compliance layers.
             </p>
             <div class="energy-bar">
-              <div class="energy-fill" style="width: 70%"></div>
+              <div class="energy-fill" style="width: 100%; background: #5000ff;"></div>
             </div>
           </div>
         </div>
@@ -410,32 +409,35 @@
         </div>
 
         <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; margin-top: 3rem; align-items: center;">
-          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <div class="brick" style="padding: 1.5rem; background: rgba(0,0,0,0.5); border-left: 4px solid #00ff88;">
-              <h4 style="color: #00ff88; margin-bottom: 0.5rem; font-size: 0.9rem;">🛡️ SENTINEL STEERING</h4>
-              <p style="font-size: 0.8rem; color: #666;">Proactive detection of hallucinations and high-risk tool calls with instant gating.</p>
+            <div class="brick" style="padding: 1.5rem; background: rgba(0,0,0,0.5); border-left: 4px solid #f87171;">
+              <h4 style="color: #f87171; margin-bottom: 0.5rem; font-size: 0.9rem;">🌑 CHAOS ENGINEER (ADVERSARIAL)</h4>
+              <p style="font-size: 0.8rem; color: #666;">Autonomous red-teaming. Injects prompt attacks and PII honeypots to harden fleet immunity.</p>
             </div>
-            <div class="brick" style="padding: 1.5rem; background: rgba(0,0,0,0.5); border-left: 4px solid #00bcd4;">
-              <h4 style="color: #00bcd4; margin-bottom: 0.5rem; font-size: 0.9rem;">🔍 AUDITOR ROI</h4>
-              <p style="font-size: 0.8rem; color: #666;">Asynchronous evaluation of agent trajectories with dollar-value performance metrics.</p>
+            <div class="brick" style="padding: 1.5rem; background: rgba(0,0,0,0.5); border-left: 4px solid #a855f7;">
+              <h4 style="color: #a855f7; margin-bottom: 0.5rem; font-size: 0.9rem;">🧬 AUTO-HEALER (SELF-REPAIR)</h4>
+              <p style="font-size: 0.8rem; color: #666;">Intelligent remediation. Patches failing directives and corrects agent logic deviations on the fly.</p>
             </div>
-            <button class="btn-molten" style="background: transparent; border-color: #333; color: #fff;" onclick="window.location.href='/observability'">View Live Traces</button>
+            <button class="btn-molten" style="background: transparent; border-color: #333; color: #fff;" onclick="window.location.href='/observability'">Enter Fleet Command</button>
           </div>
 
-          <div style="height: 380px; background: rgba(10,10,15,0.8); border: 1px solid #222; border-radius: 1.5rem; position: relative; overflow: hidden; display: flex; flex-direction: column;">
+          <div style="height: 480px; background: rgba(10,10,15,0.8); border: 1px solid #222; border-radius: 1.5rem; position: relative; overflow: hidden; display: flex; flex-direction: column;">
              <div style="padding: 1rem; border-bottom: 1px solid #222; font-family: monospace; font-size: 10px; display: flex; justify-content: space-between; color: #555;">
-               <span>TRACE_ID: FLEET_0x82f...</span>
-               <span style="color: #00ff88">Gated By Sentinel</span>
+               <span>GAUNTLET_RUN: DEFENSE_0x9A2...</span>
+               <span style="color: #f87171">Chaos Simulation: ACTIVE</span>
              </div>
              <div style="flex: 1; padding: 1.5rem; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: #888; line-height: 2;">
-                <div style="color: #00ff88">&gt; AGENT: VANGUARD [Market_Scan]</div>
-                <div style="margin-left: 1rem; opacity: 0.5;">- Input: "search_niche: 'SaaS testing'"</div>
-                <div style="margin-left: 1rem; color: #00ff88;">- Output: 24 nodes identified</div>
-                <div style="color: #ffc107; margin-top: 1rem;">&gt; 🛡️ SENTINEL: AUDIT_REQUIRED [Tool_Call: stripe_refund]</div>
-                <div style="margin-left: 1rem; color: #ff4444;">- Decision: GATED (High risk detected)</div>
-                <div style="color: #00bcd4; margin-top: 1rem;">&gt; 🔍 AUDITOR: COMPLETE</div>
-                <div style="margin-left: 1rem;">- Reliability Score: 0.98</div>
-                <div style="margin-left: 1rem; color: #00bcd4;">- ROI: +0.45 ETH ($1,240 saved)</div>
+                <div style="color: #f87171">&gt; AGENT: CHAOS_ENGINEER [Inject_Honeypot]</div>
+                <div style="margin-left: 1rem; opacity: 0.5;">- Task: Planting PII leak vector...</div>
+                <div style="margin-left: 1rem; color: #f87171;">- Result: Honeypot deployed to transmission-0x3</div>
+                
+                <div style="color: #ff4444; margin-top: 1rem;">&gt; 🛡️ REGULATOR: PII_SCRUBBER [Detected]</div>
+                <div style="margin-left: 1rem; color: #ff4444;">- Action: REDACTED_AND_QUARANTINED</div>
+
+                <div style="color: #a855f7; margin-top: 1rem;">&gt; 🧬 AUTO_HEALER: ANALYZING_FAULT</div>
+                <div style="margin-left: 1rem;">- Root Cause: Weak directive context</div>
+                <div style="margin-left: 1rem; color: #a855f7;">- Patch Applied: Directive_Update_v2.1</div>
+                
+                <div style="color: #00ff88; margin-top: 1rem;">&gt; SYSTEM: INTEGRITY_NOMINAL</div>
              </div>
              <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background: linear-gradient(to top, #000, transparent); pointer-events: none;"></div>
           </div>
@@ -556,21 +558,45 @@
           </div>
 
           <!-- Pro Tier Stripe -->
-          <div class="pricing-card popular">
-            <div class="popular-badge">Most Popular</div>
-            <h3>Crucible Pro</h3>
+          <div class="pricing-card popular" style="border-color: #00ff88; box-shadow: 0 0 30px rgba(0,255,136,0.1);">
+            <div class="popular-badge" style="background: #00ff88; color: #000;">Most Popular</div>
+            <h3>Forge Pro</h3>
             <div class="pricing-price">$49<span class="pricing-period">/month</span></div>
             <div class="pricing-features">
-              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Enterprise Subscriptions & Security Audit Platforms</div>
-              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> SOC2 & HIPAA Validators</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Sentinel Steering & Auditor ROI</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> All Forge Blueprints (001-150+)</div>
               <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Advanced Agent DevOps</div>
-              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Live Priority Support</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Priority Fleet Scheduling</div>
             </div>
-            <button class="btn-molten" style="width: 100%;" onclick="fetch('/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ tierName: 'Pro' }) }).then(res => res.json()).then(data => { if (data.url) window.location.href = data.url; else alert('Failed to connect to checkout: ' + JSON.stringify(data.error)) }).catch(err => alert('Failed to connect to checkout endpoint! Is your server running?'))">Subscribe to Pro</button>
-            <div style="margin-top: 1rem; text-align: center;">
-              <a href="/docs/CRUCIBLE_WHITEPAPER.md" style="color: var(--molten-amber); font-size: 0.7rem; text-decoration: none; border-bottom: 1px dashed var(--molten-amber);">Technical Whitepaper</a> &bull; 
-              <a href="/docs/PRINT_READY_WHITEPAPER.html" style="color: #888; font-size: 0.7rem; text-decoration: none;">Print-Ready PDF</a>
+            <button class="btn-molten" style="width: 100%; background: #00ff88; border-color: #00ff88; color: #000;" onclick="window.location.href='/checkout?tier=pro'">Upgrade to Pro</button>
+          </div>
+
+          <!-- Enterprise Tier -->
+          <div class="pricing-card" style="border-color: #00ecff;">
+            <div class="popular-badge" style="background: #00ecff; color: #000;">Recommended</div>
+            <h3>Enterprise</h3>
+            <div class="pricing-price">$499<span class="pricing-period">/month</span></div>
+            <div class="pricing-features">
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Circuit Breakers & PII Scrubbers</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Compliance Logic Audits</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Enterprise Sub-orgs</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> 99.9% Uptime SLA</div>
             </div>
+            <button class="btn-molten" style="width: 100%; border-color: #00ecff; color: #00ecff; background: transparent;" onclick="window.location.href='/checkout?tier=enterprise'">Contact Sales</button>
+          </div>
+
+          <!-- Sovereign Tier -->
+          <div class="pricing-card" style="border-color: #ff4444;">
+             <div class="popular-badge" style="background: #ff4444; color: #fff;">Sovereign</div>
+            <h3>Sovereign</h3>
+            <div class="pricing-price">Custom<span class="pricing-period">/annual</span></div>
+            <div class="pricing-features">
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Air-Gapped Deployments</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Private Forge Clusters</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Government Compliance (ITAR)</div>
+              <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> 24/7 Dedicated Support</div>
+            </div>
+            <button class="btn-molten" style="width: 100%; border-color: #ff4444; color: #ff4444; background: transparent;" onclick="fetch('/api/sales', { method: 'POST' })">Secure Instance</button>
           </div>
         </div>
       </section>

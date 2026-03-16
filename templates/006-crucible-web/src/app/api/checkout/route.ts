@@ -10,7 +10,10 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || 'sk_test_placeholder'
 export async function POST(req: Request) {
   try {
     const { tierName } = await req.json();
-    let unitAmount = tierName === 'Pro' ? 4900 : 0;
+    let unitAmount = 0;
+    if (tierName === 'Pro') unitAmount = 4900;
+    else if (tierName === 'Enterprise') unitAmount = 49900;
+    
     let description = 'AI Agent Orchestration & Premium Templates';
 
     // Try to load AI-optimized pricing
