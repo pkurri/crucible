@@ -40,20 +40,31 @@ export async function POST(req: NextRequest) {
     }
 
     // 2. Seed per-agent result rows (so UI can show all agents from the start)
-    const AGENTS = ['ORACLE', 'PULSE', 'SCHEMA', 'DISPATCH', 'PIXEL', 'GLITCH', 'TURBO', 'DOPAMINE', 'SPECTRA', 'GATEWAY', 'GLITCH_MOD', 'CHRONOS'];
+    const AGENTS = [
+      'VANGUARD', 'ORACLE', 'PULSE', 'SCHEMA', 
+      'DISPATCH', 
+      'PIXEL', 'GLITCH', 'TURBO', 'DOPAMINE', 'SENSORY', 'SPECTRA', 
+      'GATEWAY', 'GLITCH_MOD', 
+      'VIRAL', 'UA_PRO', 
+      'CHRONOS'
+    ];
     const PHASES = {
-      ORACLE:   'MARKET_FEASIBILITY',
-      PULSE:    'MARKET_FEASIBILITY',
-      SCHEMA:   'MARKET_FEASIBILITY',
-      DISPATCH: 'TASK_ARCHITECTURE',
-      PIXEL:    'DEV_ITERATION',
-      GLITCH:   'DEV_ITERATION',
-      TURBO:    'DEV_ITERATION',
-      DOPAMINE: 'DEV_ITERATION',
-      SPECTRA:  'DEV_ITERATION',
-      GATEWAY:  'DEPLOYMENT_COMPLIANCE',
+      VANGUARD:   'MARKET_FEASIBILITY',
+      ORACLE:     'MARKET_FEASIBILITY',
+      PULSE:      'MARKET_FEASIBILITY',
+      SCHEMA:     'MARKET_FEASIBILITY',
+      DISPATCH:   'TASK_ARCHITECTURE',
+      PIXEL:      'DEV_ITERATION',
+      GLITCH:     'DEV_ITERATION',
+      TURBO:      'DEV_ITERATION',
+      DOPAMINE:   'DEV_ITERATION',
+      SENSORY:    'DEV_ITERATION',
+      SPECTRA:    'DEV_ITERATION',
+      GATEWAY:    'DEPLOYMENT_COMPLIANCE',
       GLITCH_MOD: 'DEPLOYMENT_COMPLIANCE',
-      CHRONOS:  'POST_LAUNCH_OPS',
+      VIRAL:      'HYPER_GROWTH',
+      UA_PRO:     'HYPER_GROWTH',
+      CHRONOS:    'POST_LAUNCH_OPS',
     } as const;
 
     await supabase.from('pipeline_agent_results').insert(

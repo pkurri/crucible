@@ -31,6 +31,7 @@ interface JobStatus {
 // ─── Agent metadata ─────────────────────────────────────
 
 const AGENTS = [
+  { id: 'VANGUARD', emoji: '🔭', label: 'Aggressive Scouter',      color: '#ff5722', isPro: true },
   { id: 'ORACLE',   emoji: '🔮', label: 'Trend Forecaster',      color: '#ff9800', isPro: true },
   { id: 'PULSE',    emoji: '📊', label: 'Market Analyst',        color: '#00bcd4', isPro: false },
   { id: 'SCHEMA',   emoji: '📋', label: 'Requirement Vetter',    color: '#9c27b0', isPro: false },
@@ -39,9 +40,12 @@ const AGENTS = [
   { id: 'GLITCH',   emoji: '🐛', label: 'QA & Debugger',         color: '#f44336', isPro: true },
   { id: 'TURBO',    emoji: '⚡', label: 'Performance Optimizer', color: '#ffeb3b', isPro: true },
   { id: 'DOPAMINE', emoji: '🧠', label: 'Retention Architect',    color: '#00bcd4', isPro: true },
+  { id: 'SENSORY',  emoji: '🌈', label: 'Juice Architect',        color: '#e91e63', isPro: true },
   { id: 'SPECTRA',  emoji: '🎮', label: 'Playtest & Balance',    color: '#00ff88', isPro: true },
   { id: 'GATEWAY',  emoji: '🏪', label: 'Store Policy Expert',   color: '#2196f3', isPro: true },
   { id: 'GLITCH_MOD', emoji: '🤳', label: 'Hype & Social',       color: '#ff4081', isPro: true },
+  { id: 'VIRAL',    emoji: '🚀', label: 'Growth Engineer',       color: '#00ff88', isPro: true },
+  { id: 'UA_PRO',   emoji: '📈', label: 'Acquisition Strategist', color: '#ffc107', isPro: true },
   { id: 'CHRONOS',  emoji: '⏳', label: 'Procedural Director',   color: '#aaa',    isPro: true },
 ];
 

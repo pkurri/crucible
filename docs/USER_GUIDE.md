@@ -63,6 +63,7 @@ Crucible includes a specialized cluster for high-fidelity game development and m
 
 | Agent | Role | Status |
 | :--- | :--- | :--- |
+| **VANGUARD** | Aggressive Scouter (10M+) | **PRO** |
 | **ORACLE** | Trend Forecaster | **PRO** |
 | **PULSE** | Market Feasibility | Free |
 | **SCHEMA** | Requirement Vetter | Free |
@@ -71,9 +72,12 @@ Crucible includes a specialized cluster for high-fidelity game development and m
 | **GLITCH** | QA & Debugger | **PRO** |
 | **TURBO** | Performance Optimizer | **PRO** |
 | **DOPAMINE** | Retention Architect | **PRO** |
+| **SENSORY** | Juice Architect (Polish) | **PRO** |
 | **SPECTRA** | Playtest & Balance | **PRO** |
 | **GATEWAY** | Store Policy Expert | **PRO** |
 | **GLITCH_MOD** | Hype & Social | **PRO** |
+| **VIRAL** | Growth Engineer | **PRO** |
+| **UA_PRO** | Acquisition Strategist | **PRO** |
 | **CHRONOS** | Procedural Director | **PRO** |
 
 **How to Use:**

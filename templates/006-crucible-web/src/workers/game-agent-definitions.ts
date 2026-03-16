@@ -24,13 +24,32 @@ export interface AgentConfig {
 // ─── The Neon Arcade Roster ─────────────────────────────────────────
 
 export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
+  VANGUARD: {
+    id: 'VANGUARD',
+    codename: 'VANGUARD',
+    role: 'Aggressive Scouter',
+    phase: 'MARKET_FEASIBILITY',
+    emoji: '🔭',
+    upstream: 'USER',
+    downstream: 'ORACLE',
+    promptFile: 'agents/prompts/vanguard-scout.md',
+    maxIterations: 1,
+    timeoutMs: 120_000,
+    tools: ['web_search', 'read_url', 'app_store_lookup'],
+    guardrails: [
+      'Focus on games with >10M downloads',
+      'Identify 6-month growth patterns',
+      'Discard low-velocity concepts',
+    ],
+  },
+
   ORACLE: {
     id: 'ORACLE',
     codename: 'ORACLE',
     role: 'Trend Forecaster',
     phase: 'MARKET_FEASIBILITY',
     emoji: '🔮',
-    upstream: 'USER',
+    upstream: 'VANGUARD',
     downstream: 'PULSE',
     promptFile: 'agents/prompts/oracle-trends.md',
     maxIterations: 1,
@@ -162,7 +181,7 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     phase: 'DEV_ITERATION',
     emoji: '🧠',
     upstream: 'TURBO',
-    downstream: 'SPECTRA',
+    downstream: 'SENSORY',
     promptFile: 'agents/prompts/dopamine-retention.md',
     maxIterations: 2,
     timeoutMs: 120_000,
@@ -174,13 +193,31 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     ],
   },
 
+  SENSORY: {
+    id: 'SENSORY',
+    codename: 'SENSORY',
+    role: 'Juice Architect',
+    phase: 'DEV_ITERATION',
+    emoji: '🌈',
+    upstream: 'DOPAMINE',
+    downstream: 'SPECTRA',
+    promptFile: 'agents/prompts/sensory-juice.md',
+    maxIterations: 2,
+    timeoutMs: 120_000,
+    tools: ['workspace_read', 'workspace_write', 'calculate'],
+    guardrails: [
+      'Focus on "Game Feel" (particles, screenshake, sound logic)',
+      'Maximize "Juiciness" without bloat',
+    ],
+  },
+
   SPECTRA: {
     id: 'SPECTRA',
     codename: 'SPECTRA',
     role: 'Playtest & Balance',
     phase: 'DEV_ITERATION',
     emoji: '🎮',
-    upstream: 'DOPAMINE',
+    upstream: 'SENSORY',
     downstream: 'GATEWAY',
     promptFile: 'agents/prompts/spectra-playtest.md',
     maxIterations: 2,
@@ -218,7 +255,7 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     phase: 'DEPLOYMENT_COMPLIANCE',
     emoji: '🤳',
     upstream: 'GATEWAY',
-    downstream: 'CHRONOS',
+    downstream: 'VIRAL',
     promptFile: 'agents/prompts/glitch-mod-promotion.md',
     maxIterations: 1,
     timeoutMs: 90_000,
@@ -229,13 +266,49 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
     ],
   },
 
+  VIRAL: {
+    id: 'VIRAL',
+    codename: 'VIRAL',
+    role: 'Growth Engineer',
+    phase: 'HYPER_GROWTH',
+    emoji: '🚀',
+    upstream: 'GLITCH_MOD',
+    downstream: 'UA_PRO',
+    promptFile: 'agents/prompts/viral-growth.md',
+    maxIterations: 1,
+    timeoutMs: 120_000,
+    tools: ['web_search', 'read_url'],
+    guardrails: [
+      'Design TikTok/Reels content cycles',
+      'Map influencer collaboration paths',
+    ],
+  },
+
+  UA_PRO: {
+    id: 'UA_PRO',
+    codename: 'UA_PRO',
+    role: 'Acquisition Strategist',
+    phase: 'HYPER_GROWTH',
+    emoji: '📈',
+    upstream: 'VIRAL',
+    downstream: 'CHRONOS',
+    promptFile: 'agents/prompts/ua-pro.md',
+    maxIterations: 1,
+    timeoutMs: 120_000,
+    tools: ['calculate', 'web_search'],
+    guardrails: [
+      'Optimize LTV/CAC ratios',
+      'Design high-velocity ad creative briefs',
+    ],
+  },
+
   CHRONOS: {
     id: 'CHRONOS',
     codename: 'CHRONOS',
     role: 'Procedural Director',
     phase: 'POST_LAUNCH_OPS',
     emoji: '⏳',
-    upstream: 'GLITCH_MOD',
+    upstream: 'UA_PRO',
     downstream: 'RELEASE',
     promptFile: 'agents/prompts/chronos-liveops.md',
     maxIterations: 1,
@@ -270,6 +343,7 @@ export const AGENT_ROSTER: Record<AgentId, AgentConfig> = {
 // ─── Pipeline Order ─────────────────────────────────────────────────
 
 export const PIPELINE_STAGES: AgentId[] = [
+  'VANGUARD',   // Phase 1: High-Velocity Scouting
   'ORACLE',    // Phase 1: Trend Discovery
   'PULSE',     // Phase 1: Analysis
   'SCHEMA',    // Phase 1: Blueprint
@@ -278,20 +352,24 @@ export const PIPELINE_STAGES: AgentId[] = [
   'GLITCH',    // Phase 3: QA
   'TURBO',     // Phase 3: Perf
   'DOPAMINE',  // Phase 3: Psychology
+  'SENSORY',   // Phase 3: Juice
   'SPECTRA',   // Phase 3: Balance
   'GATEWAY',   // Phase 4: Compliance
   'GLITCH_MOD',// Phase 4: Promotion
-  'CHRONOS',   // Phase 5: Evolution
+  'VIRAL',     // Phase 5: Hyper-Growth
+  'UA_PRO',    // Phase 5: Ad-Optimization
+  'CHRONOS',   // Phase 6: Evolution
 ];
 
 // ─── Phase Groupings ────────────────────────────────────────────────
 
 export const PHASE_AGENTS: Record<Phase, AgentId[]> = {
-  MARKET_FEASIBILITY:    ['ORACLE', 'PULSE', 'SCHEMA'],
+  MARKET_FEASIBILITY:    ['VANGUARD', 'ORACLE', 'PULSE', 'SCHEMA'],
   TASK_ARCHITECTURE:     ['DISPATCH'],
-  DEV_ITERATION:         ['PIXEL', 'GLITCH', 'TURBO', 'DOPAMINE', 'SPECTRA'],
+  DEV_ITERATION:         ['PIXEL', 'GLITCH', 'TURBO', 'DOPAMINE', 'SENSORY', 'SPECTRA'],
   DEPLOYMENT_COMPLIANCE: ['GATEWAY', 'GLITCH_MOD'],
   POST_LAUNCH_OPS:       ['CHRONOS'],
+  HYPER_GROWTH:          ['VIRAL', 'UA_PRO'],
 };
 
 // ─── Checkpoint Config ──────────────────────────────────────────────
@@ -304,8 +382,8 @@ export interface Checkpoint {
 
 export const CHECKPOINTS: Checkpoint[] = [
   {
-    afterAgent: 'ORACLE',
-    description: 'Review discovered trends before market analysis',
+    afterAgent: 'VANGUARD',
+    description: 'Review high-growth scouts (10M+ targets)',
     approvalRequired: false,
   },
   {
