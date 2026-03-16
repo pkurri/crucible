@@ -195,6 +195,10 @@ export default function Home() {
                 <div className="pt-8 border-t border-[#222]">
                   <button 
                     onClick={async () => {
+                      if (selectedTemplate.template_id > 50) {
+                        window.location.href = '/pricing';
+                        return;
+                      }
                       setIsDeploying(true);
                       setDeployResult(null);
                       try {
@@ -220,12 +224,14 @@ export default function Home() {
                       }
                     }}
                     disabled={isDeploying || deployResult?.success}
-                    className="w-full py-4 bg-gradient-to-r from-[#ff8c00] to-[#ff6600] hover:from-[#ff9d2e] hover:to-[#ff7b2e] text-black font-mono font-bold text-sm tracking-wide flex items-center justify-center gap-3 rounded-xl transition-all shadow-[0_0_20px_rgba(255,140,0,0.2)] disabled:opacity-50 disabled:cursor-not-allowed"
+                    className={`w-full py-4 ${selectedTemplate.template_id > 50 ? 'bg-gradient-to-r from-fuchsia-600 to-indigo-600' : 'bg-gradient-to-r from-[#ff8c00] to-[#ff6600]'} hover:brightness-110 text-black font-mono font-bold text-sm tracking-wide flex items-center justify-center gap-3 rounded-xl transition-all shadow-[0_0_20px_rgba(255,140,0,0.2)] disabled:opacity-50 disabled:cursor-not-allowed`}
                   >
                     {isDeploying ? (
                       <>INITIATING FORGE SEQUENCE <Activity className="w-4 h-4 animate-spin" /></>
                     ) : deployResult?.success ? (
                       <>BLUEPRINT DEPLOYED <CheckCircle2 className="w-4 h-4" /></>
+                    ) : selectedTemplate.template_id > 50 ? (
+                      <>UPGRADE TO CRUCIBLE PRO <Shield className="w-4 h-4" /></>
                     ) : (
                       <>DEPLOY TO FORGE <ArrowRight className="w-4 h-4" /></>
                     )}
@@ -271,7 +277,7 @@ function TemplateCard({
       
       <div className="flex justify-between items-start mb-6 relative z-10">
         <div className="flex flex-col gap-1">
-          <span className="font-mono text-[#ff8c00] font-bold text-sm tracking-wider">
+          <span className={`font-mono ${template.template_id > 50 ? 'text-fuchsia-500' : 'text-[#ff8c00]'} font-bold text-sm tracking-wider`}>
             TPL-{template.template_id}
           </span>
           {template.agent_id && (
@@ -280,9 +286,17 @@ function TemplateCard({
             </span>
           )}
         </div>
-        <span className="text-[9px] font-mono top-right tracking-widest px-2 py-1 bg-[#111] text-[#aaa] border border-[#222] rounded group-hover:bg-[#ff8c00]/10 group-hover:text-[#ff8c00] group-hover:border-[#ff8c00]/20 transition-colors">
-          {template.category.toUpperCase()}
-        </span>
+        <div className="flex flex-col items-end gap-2">
+          <span className="text-[9px] font-mono top-right tracking-widest px-2 py-1 bg-[#111] text-[#aaa] border border-[#222] rounded group-hover:bg-[#ff8c00]/10 group-hover:text-[#ff8c00] group-hover:border-[#ff8c00]/20 transition-colors">
+            {template.category.toUpperCase()}
+          </span>
+          {template.template_id > 50 && (
+            <div className="flex items-center gap-1.5 px-2 py-0.5 bg-fuchsia-500/10 border border-fuchsia-500/20 rounded-full">
+               <Shield className="w-3 h-3 text-fuchsia-500" />
+               <span className="text-[8px] font-bold text-fuchsia-500 tracking-tighter uppercase">Pro</span>
+            </div>
+          )}
+        </div>
       </div>
       <h3 className="text-xl font-bold mb-3 text-white leading-tight group-hover:text-[#ff8c00] transition-colors relative z-10">
         {template.name}

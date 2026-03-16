@@ -20,6 +20,7 @@ import {
   MarketReporterAgent,
   RevenueAgent,
   VisualArchitectAgent,
+  SelfHealAgent,
   IForgeAgent,
 } from './agent-definitions.js';
 
@@ -41,6 +42,7 @@ const AGENTS: IForgeAgent[] = [
   new MarketReporterAgent(),
   new RevenueAgent(),
   new VisualArchitectAgent(),
+  new SelfHealAgent(),
 ];
 
 let cycleCount = 0;

@@ -20,8 +20,10 @@ import {
   IntelManagerAgent,
   ForgeOverseerAgent,
   StageManagerAgent,
-  SkillHarvesterAgent,
   MarketReporterAgent,
+  RevenueAgent,
+  VisualArchitectAgent,
+  SelfHealAgent,
   IForgeAgent,
 } from './agent-definitions';
 
@@ -32,8 +34,8 @@ const REDIS_URL = process.env.REDIS_URL || 'redis://127.0.0.1:6379';
 const connection = new IORedis(REDIS_URL, { maxRetriesPerRequest: null });
 
 // 2. Define Queues
-const agentQueue = new Queue('crucible-agents', { connection });
-const revenueQueue = new Queue('crucible-revenue', { connection });
+const agentQueue = new Queue('crucible-agents', { connection: connection as any });
+const revenueQueue = new Queue('crucible-revenue', { connection: connection as any });
 
 // 3. Agent Registry for workers
 const agents: Record<string, IForgeAgent> = {
@@ -49,6 +51,9 @@ const agents: Record<string, IForgeAgent> = {
   stage_manager: new StageManagerAgent(),
   harvester: new SkillHarvesterAgent(),
   reporter: new MarketReporterAgent(),
+  revenue: new RevenueAgent(),
+  graphics: new VisualArchitectAgent(),
+  healer: new SelfHealAgent(),
 };
 
 // 4. Helper to update Supabase status
@@ -84,7 +89,7 @@ const agentWorker = new Worker(
       await updateAgentStatus(supabase, agentType, 'idle');
     }
   },
-  { connection, concurrency: 3 }
+  { connection: connection as any, concurrency: 3 }
 );
 
 // 6. Initialize Revenue / Monetization Worker
@@ -116,7 +121,7 @@ const revenueWorker = new Worker(
     console.log('[JOB] Revenue Optimization Complete.');
     return { success: true };
   },
-  { connection }
+  { connection: connection as any }
 );
 
 // 7. Scheduler (Self-Requeueing)

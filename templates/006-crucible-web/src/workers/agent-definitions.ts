@@ -1220,4 +1220,79 @@ export class RevenueAgent implements IForgeAgent {
   }
 }
 
+// ═══════════════════════════════════════════════════════
+// AGENT 19: The Self-Heal Guardian (Autonomy)
+// ═══════════════════════════════════════════════════════
+
+export class SelfHealAgent implements IForgeAgent {
+  name = 'Self-Heal Guardian';
+  type = 'self-heal';
+
+  async execute(supabase: SupabaseClient): Promise<AgentResult> {
+    await logTelemetry(supabase, this.type, 'SCAN', 'Scanning platform for systemic failures and drift...');
+
+    try {
+      // 1. Audit failed blueprints (Proactive Recovery)
+      const { data: failedBlueprints } = await supabase
+        .from('forge_blueprints')
+        .select('id, name')
+        .eq('status', 'failed');
+
+      if (failedBlueprints && failedBlueprints.length > 0) {
+        await logTelemetry(supabase, this.type, 'RECOVER', `Re-queueing ${failedBlueprints.length} failed blueprints.`);
+        for (const b of failedBlueprints) {
+          await supabase.from('forge_blueprints').update({ status: 'queued' }).eq('id', b.id);
+        }
+      }
+
+      // 2. Clear stuck agents (Heartbeat Check)
+      const staleTime = new Date(Date.now() - 15 * 60 * 1000).toISOString();
+      const { data: stuckAgents } = await supabase
+        .from('agents_registry')
+        .select('type')
+        .eq('status', 'busy')
+        .lt('last_active_at', staleTime);
+
+      if (stuckAgents && stuckAgents.length > 0) {
+        await logTelemetry(supabase, this.type, 'RESET', `Reviving ${stuckAgents.length} hung agents.`);
+        for (const a of stuckAgents) {
+          await supabase.from('agents_registry').update({ status: 'idle' }).eq('type', a.type);
+        }
+      }
+
+      // 3. Analyze recent error trends using AI
+      const { data: recentErrors } = await supabase
+        .from('forge_events')
+        .select('*')
+        .eq('event_type', 'ERROR')
+        .order('created_at', { ascending: false })
+        .limit(5);
+
+      if (recentErrors && recentErrors.length > 0) {
+        const errorLogs = recentErrors.map(e => `[${e.agent_id}]: ${e.message}`).join('\n');
+        const healPrompt = `
+          Analyze these recent errors in the Crucible ecosystem:
+          ${errorLogs}
+          
+          Suggest ONE high-level "Fix Directive" for the other agents.
+          Return a RAW JSON object:
+          {
+            "analysis": "Brief technical summary",
+            "fix_directive": "CLEAR_CACHE | ROTATE_MODEL | REQUEUE_ALL | THROTTLE_INPUT"
+          }
+        `;
+        const aiHeal = await generateWithYield(healPrompt, 'fast');
+        const suggestion = safeParseJSON(aiHeal);
+        await logTelemetry(supabase, this.type, 'HEAL', `Directive Issued: ${suggestion.fix_directive} (${suggestion.analysis})`);
+      }
+
+      return { success: true, message: 'Platform healing cycle complete.' };
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Healing failed: ${e.message}`);
+      return { success: false, message: e.message };
+    }
+  }
+}
+
+
 
