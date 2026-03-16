@@ -500,6 +500,10 @@
               <div class="pricing-feature"><i data-lucide="check" class="feature-check"></i> Live Priority Support</div>
             </div>
             <button class="btn-molten" style="width: 100%;" onclick="fetch('/api/checkout-session', { method: 'POST', headers: { 'Content-Type': 'application/json' } }).then(res => res.json()).then(data => { if (data.url) window.location.href = data.url; else alert('Failed to connect to checkout: ' + JSON.stringify(data.error)) }).catch(err => alert('Failed to connect to checkout endpoint! Is your server running?'))">Subscribe to Pro</button>
+            <div style="margin-top: 1rem; text-align: center;">
+              <a href="/docs/CRUCIBLE_WHITEPAPER.md" style="color: var(--molten-amber); font-size: 0.7rem; text-decoration: none; border-bottom: 1px dashed var(--molten-amber);">Technical Whitepaper</a> &bull; 
+              <a href="/docs/PRINT_READY_WHITEPAPER.html" style="color: #888; font-size: 0.7rem; text-decoration: none;">Print-Ready PDF</a>
+            </div>
           </div>
         </div>
       </section>

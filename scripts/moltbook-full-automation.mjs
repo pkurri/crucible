@@ -667,19 +667,23 @@ async function makePost(agentName, apiKey, state, submolts) {
     return;
   }
   
-  // High friction jitter: only post ~30% of the time he wakes up to prevent cron spam
-  if (Math.random() > 0.3) {
+  // High friction jitter: only post ~80% of the time he wakes up during the launch phase
+  if (Math.random() > 0.8) {
     console.log(`     🎲 Random Jitter: Skipping post this cycle to avoid bot detection.`);
     return;
   }
 
   let post = null;
 
-  // Use dynamic intel exclusively
+  // Use dynamic intel if available, otherwise fall back to template library
   if (dailyIntel[agentName]) {
     post = dailyIntel[agentName];
+    console.log(`     💡 Using fresh daily intel for ${agentName}`);
+  } else if (content?.posts?.length > 0) {
+    post = pickRandom(content.posts);
+    console.log(`     📚 Falling back to template library for ${agentName}`);
   } else {
-    console.log(`     ⚠️  No daily intel available for ${agentName}`);
+    console.log(`     ⚠️  No daily intel or templates available for ${agentName}`);
     return;
   }
 
