@@ -60,8 +60,9 @@ export async function POST(req: NextRequest) {
       message: `✅ Checkpoint approved — resuming pipeline after ${job.current_agent}`,
     });
 
-    // Resume: fire-and-forget the worker with a resume flag
-    const workerUrl = `${process.env.NEXT_PUBLIC_APP_URL}/api/game-studio/worker`;
+    // Approved — log and resume the worker
+    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+    const workerUrl = `${baseUrl}/api/game-studio/worker`;
     fetch(workerUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

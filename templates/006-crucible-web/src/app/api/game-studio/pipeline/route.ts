@@ -15,9 +15,9 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const { gameIdea, targetPlatform = 'web', targetGenre, targetAudience } = body;
 
-    if (!gameIdea || typeof gameIdea !== 'string' || gameIdea.trim().length < 3) {
+    if (!gameIdea || typeof gameIdea !== 'string' || gameIdea.trim().length < 1) {
       return NextResponse.json(
-        { error: 'gameIdea must be at least 3 characters.' },
+        { error: `gameIdea must be at least 1 character. Received: "${gameIdea}" (${typeof gameIdea})` },
         { status: 400 }
       );
     }
