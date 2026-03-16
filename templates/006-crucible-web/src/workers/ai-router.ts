@@ -79,13 +79,28 @@ export async function generateWithYield(systemPrompt: string, tier: TaskTier = '
 
   const errors: string[] = [];
 
+  // SOVEREIGN MODE: Check for air-gapped configuration
+  if (process.env.SOVEREIGN_MODE === 'true') {
+    const localUrl = process.env.LOCAL_LLM_URL || 'http://localhost:11434/v1/chat/completions';
+    const localKey = process.env.LOCAL_LLM_KEY || 'sovereign-internal';
+    const localModel = process.env.LOCAL_LLM_MODEL || 'llama-3-70b-instruct';
+    
+    console.log(`${PREFIX} SOVEREIGN MODE ACTIVE: Routing to local LLM (${localModel})...`);
+    try {
+      const text = await tryOpenAICompat(localUrl, localKey, localModel, systemPrompt);
+      if (text) return text;
+    } catch (e: any) {
+      throw new Error(`[SOVEREIGN_FAILURE] Local LLM connection failed: ${e.message}. External cloud routes blocked.`);
+    }
+  }
+
   // 1. Gemini / Cloudflare (Fast Tiers)
   if (tier === 'fast' || tier === 'general') {
     if (geminiKey) {
       try {
-        console.log(`${PREFIX} Gemini 2.5 Flash...`);
+        console.log(`${PREFIX} Gemini 1.5 Flash...`);
         const ai = new GoogleGenAI({ apiKey: geminiKey });
-        const r = await ai.models.generateContent({ model: 'gemini-2.5-flash', contents: systemPrompt });
+        const r = await ai.models.generateContent({ model: 'gemini-1.5-flash', contents: systemPrompt });
         if ((r as any).text) return (r as any).text;
       } catch (e: any) {
         if (e.message?.includes('429')) {
@@ -93,7 +108,7 @@ export async function generateWithYield(systemPrompt: string, tier: TaskTier = '
           await sleep(5000);
           try {
             const ai = new GoogleGenAI({ apiKey: geminiKey });
-            const r = await ai.models.generateContent({ model: 'gemini-2.5-flash', contents: systemPrompt });
+            const r = await ai.models.generateContent({ model: 'gemini-1.5-flash', contents: systemPrompt });
             if ((r as any).text) return (r as any).text;
           } catch (retryErr) {
             errors.push(`Gemini Retry: ${e.message}`);

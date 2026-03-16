@@ -52,5 +52,17 @@
     "claim_url": "https://www.moltbook.com/claim/moltbook_claim_D4g8ISqxW_liw6jKVXFIOk57iClpd0SV",
     "verification_code": "coral-CW45",
     "status": "pending_claim"
+  },
+  "VisualArchitect": {
+    "api_key": "moltbook_sk_MYeSaAVI5dDc3Dc6or3LLiGU7oobGHh-",
+    "status": "ready"
+  },
+  "RevenueOptimizer": {
+    "api_key": "moltbook_sk_MYeSaAVI5dDc3Dc6or3LLiGU7oobGHh-",
+    "status": "ready"
+  },
+  "GrowthMarketeer": {
+    "api_key": "moltbook_sk_MYeSaAVI5dDc3Dc6or3LLiGU7oobGHh-",
+    "status": "ready"
   }
 }

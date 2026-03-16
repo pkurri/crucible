@@ -28,6 +28,11 @@ import {
   GrowthMarketeerAgent,
   SentinelAgent,
   AuditorAgent,
+  CircuitBreakerAgent,
+  PIIScrubberAgent,
+  LogicScrutineerAgent,
+  ChaosEngineerAgent,
+  AutoHealerAgent,
   IForgeAgent,
 } from './agent-definitions';
 
@@ -56,12 +61,17 @@ const agents: Record<string, IForgeAgent> = {
   stage_manager: new StageManagerAgent(),
   harvester: new SkillHarvesterAgent(),
   reporter: new MarketReporterAgent(),
-  revenue: new RevenueAgent(),
-  graphics: new VisualArchitectAgent(),
-  healer: new SelfHealAgent(),
+  'revenue-optimizer': new RevenueAgent(),
+  'visual-architect': new VisualArchitectAgent(),
+  'self-heal': new SelfHealAgent(),
   marketeer: new GrowthMarketeerAgent(),
   sentinel: new SentinelAgent(),
   auditor: new AuditorAgent(),
+  'circuit-breaker': new CircuitBreakerAgent(),
+  'pii-scrubber': new PIIScrubberAgent(),
+  'logic-scrutineer': new LogicScrutineerAgent(),
+  'chaos-engineer': new ChaosEngineerAgent(),
+  'auto-healer': new AutoHealerAgent(),
 };
 
 // 4. Helper to update Supabase status
@@ -148,8 +158,10 @@ async function scheduleNextAgentRuns() {
   
   // Every 30 minutes, push the whole fleet into the queue
   for (const type of Object.keys(agents)) {
+    // Adversarial tests run even more frequently (every 10 minutes)
+    const frequency = (type === 'chaos-engineer' || type === 'auto-healer') ? '*/10' : '*/30';
     await agentQueue.add(`run-${type}`, { agentType: type }, {
-      repeat: { pattern: '*/30 * * * *' },
+      repeat: { pattern: `${frequency} * * * *` },
       removeOnComplete: true,
     });
   }
