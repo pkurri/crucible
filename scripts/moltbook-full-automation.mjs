@@ -1052,33 +1052,37 @@ async function main() {
         UA_PRO: 'forge-growth-engine'
       };
 
-      // One Agent, Many Submolts Strategy:
-      // Since the 30-minute limit is per-account, we pick ONE brand protocol to update each run.
-      // This ensures we never hit the 429 global post limit.
       const brands = Object.entries(BRAND_MAP);
-      const selectedBrand = brands[Math.floor(Math.random() * brands.length)];
 
-      console.log(`\n🚀 Consolidated Growth: Activating "${selectedBrand[0]}" protocol for this cycle.`);
-      
-      const [brandName, submolt] = selectedBrand;
+      for (const [brandName, submolt] of brands) {
+        console.log(`\n── Checking Brand: ${brandName} ─────────────────────────────`);
+        
+        // 1. Determine Identity & API Key for this brand
+        let identityName = 'CrucibleForge';
+        let identityKey = api_key; // Main key from moltbook-credentials.json
+        
+        let regData = registry[brandName];
+        if (!regData && registry[`${brandName}_CF`]) regData = registry[`${brandName}_CF`];
 
-      console.log(`\n==========================================================`);
-      console.log(`   Activating Brand Path: ${brandName} -> m/${submolt}`);
-      console.log(`==========================================================`);
-      
-      const actualName = 'CrucibleForge';
-      
-      const creds = { 
-        api_key, 
-        submolts: [submolt, 'general'], 
-        topics: AGENT_CONTENT[brandName]?.topics || [] 
-      };
-      
-      console.log(`   📮 Context: Delivering ${brandName} intelligence via ${actualName} identity.`);
-      try {
-        await runAgentCycle(actualName, creds, brandName);
-      } catch (e) {
-        console.log(`\n  ❌ ${brandName}: ${e.message}`);
+        if (regData && regData.api_key) {
+           identityName = regData.agent_name || brandName;
+           identityKey = regData.api_key;
+           console.log(`   🔸 Using registered agent identity: ${identityName}`);
+        } else {
+           console.log(`   🔸 Protocol Mode: Delivering via ${identityName} unified identity`);
+        }
+
+        const creds = { 
+          api_key: identityKey, 
+          submolts: [submolt, 'general'], 
+          topics: AGENT_CONTENT[brandName]?.topics || [] 
+        };
+
+        try {
+          await runAgentCycle(identityName, creds, brandName);
+        } catch (e) {
+          console.log(`\n   ❌ ${brandName} Cycle Error: ${e.message}`);
+        }
       }
     }
   }

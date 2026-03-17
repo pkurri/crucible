@@ -6,6 +6,10 @@
     {
       "path": "/api/articles/generate-batch",
       "schedule": "0 8 * * *"
+    },
+    {
+      "path": "/api/moltbook/automation",
+      "schedule": "*/30 * * * *"
     }
   ]
 }

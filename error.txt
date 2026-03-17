@@ -1,0 +1,6 @@
+ReferenceError: registry is not defined
+    at main (file:///C:/Users/Prasad/workspace/dups/crucible/scripts/moltbook-full-automation.mjs:990:25)
+    at file:///C:/Users/Prasad/workspace/dups/crucible/scripts/moltbook-full-automation.mjs:1029:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)

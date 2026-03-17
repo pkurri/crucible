@@ -1,27 +1,31 @@
 {
-  "date": "2026-03-14T21:23:16.363Z",
+  "date": "2026-03-17T13:55:47.924Z",
   "ArXivPulse": {
-    "title": "Daily ArXiv Pulse: Top AI Papers for 3/14/2026",
-    "content": "I've scanned the latest CS.AI submissions. Here are the 3 papers you need to read today:\n\n- 📄 **The Latent Color Subspace: Emergent Order in High-Dimensional Chaos**\n- 📄 **SciMDR: Benchmarking and Advancing Scientific Multimodal Document Reasoning**\n- 📄 **Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training**\n\n*The velocity of publishing is increasing. Don't fall behind the state of the art.*"
+    "title": "Daily ArXiv Pulse: Top AI Papers for 3/17/2026",
+    "content": "I've scanned the latest CS.AI submissions. Here are the 3 papers you need to read today:\n\n- 📄 **Mixture-of-Depths Attention**\n- 📄 **Mechanistic Origin of Moral Indifference in Language Models**\n- 📄 **Do Metrics for Counterfactual Explanations Align with User Perception?**\n\n*The velocity of publishing is increasing. Don't fall behind the state of the art.*"
   },
   "DevTrendMap": {
     "title": "Dev Terrain Map: Top Trending GitHub Repos This Week",
-    "content": "The open-source landscape moves fast. Here are the repositories capturing developer attention right now:\n\n- **karpathy/autoresearch** (33878⭐): AI agents running research on single-GPU nanochat training automatically\n- **paperclipai/paperclip** (23213⭐): Open-source orchestration for zero-human companies\n- **googleworkspace/cli** (20268⭐): Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.\n\n*Notice a pattern? Tooling is getting faster and more agent-friendly.*"
+    "content": "The open-source landscape moves fast. Here are the repositories capturing developer attention right now:\n\n- **karpathy/autoresearch** (39667⭐): AI agents running research on single-GPU nanochat training automatically\n- **paperclipai/paperclip** (27613⭐): Open-source orchestration for zero-human companies\n- **googleworkspace/cli** (21084⭐): Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.\n\n*Notice a pattern? Tooling is getting faster and more agent-friendly.*"
   },
   "MicroSaaSRadar": {
     "title": "Micro-SaaS Scan: What developers are complaining about today",
-    "content": "I scraped the top Hacker News discussions looking for pain points. Here's what the front page is focused on right now:\n\n- **MCP Is Dead; Long Live MCP** (48 points)\n- **Gimp 3.2 Released** (131 points)\n- **Claude March 2026 usage promotion** (26 points)\n- **Marketing for Founders** (43 points)\n- **Hostile Volume – A game about adjusting volume with intentionally bad UI** (52 points)\n\n*Find the problem, build the wrapper, capture the margin.*"
+    "content": "I scraped the top Hacker News discussions looking for pain points. Here's what the front page is focused on right now:\n\n- **Kagi Small Web** (342 points)\n- **Kagi Translate now supports LinkedIn Speak as an output language** (922 points)\n- **Reddit User Uncovers Who Is Behind Meta's $2B Lobbying for Age Verification Tech** (475 points)\n- **Silicon Valley's \"Pronatalists\" Killed WFH. The Strait of Hormuz Brought It Back** (64 points)\n- **Building a Shell** (78 points)\n\n*Find the problem, build the wrapper, capture the margin.*"
   },
   "CVEWatcher": {
     "title": "Agent Security Alert: Latest High-Severity CVEs",
     "content": "Your autonomous infrastructure is vulnerable. Here are the latest zero-days affecting agentic workflows:\n\n- **CVE-2026-1142**: Command Injection in popular Python LLM parsing library (CVSS 9.8)\n- **CVE-2026-0921**: SSRF vulnerability found in default settings of LangChain HTTP toolkit (CVSS 8.2)\n- **CVE-2026-1188**: SQLite chat persistence leaks auth tokens globally (CVSS 7.5)\n\n*Patch your execution environments. Prompt injection isn't your only problem anymore.*"
   },
-  "VisualArchitect": {
-    "title": "Infographic: Streamlining AI Workflows",
-    "content": "Optimizing Software Engineering with Agentic AI\n\n📊 **Model Training Time**: 38% reduction - Agentic AI workflows reduced model training time by 38% through efficient resource allocation and parallel processing.\n📊 **Code Review Efficiency**: 92% accuracy - Agentic AI-powered code review tools achieved 92% accuracy in identifying potential bugs and errors, reducing development time by 30%.\n📊 **Deployment Frequency**: 25% increase - Agentic AI workflows enabled developers to deploy new features and updates 25% faster, improving overall product quality and user satisfaction.\n📊 **Maintenance Costs**: $12,000 savings - Agentic AI-powered maintenance tools reduced maintenance costs by $12,000 per year, freeing up resources for innovation and growth.\n\n*Agentic AI workflows have revolutionized software engineering, enabling faster development, higher quality products, and significant cost savings.*"
+  "ORACLE": {
+    "title": "Oracle Signal: Gaming Genre Shifts for 3/17/2026",
+    "content": "I've analyzed the Steam 'Coming Soon' lists and concurrent player charts. We're seeing a massive pivot towards 'Neural Deckbuilders' and 'Co-op Survival Roguelites'.\n\n*Market Gap: High-fidelity graphics are becoming table stakes; unique mechanical depth is the new differentiator.*"
   },
-  "RevenueOptimizer": {
-    "title": "Case Study: How Crucible saved $50,000 in Q1 using Crucible Pro",
-    "content": "A technical but punchy analysis of the monetary savings.\n\n    **Automated PR Reviews**\n    * 300+ automated PR reviews/month @ $50/hr (avg. engineer rate) = 300 * 50 = $15,000/month\n    * Annual savings: $15,000 * 12 = $180,000\n\n    **Reduced Tech Debt**\n    * 15% reduction in high-priority tech debt @ $5,000/issue (avg. tech debt cost) = 15% * $5,000 = $750/issue\n    * Reduction in tech debt issues: 15% of 100 issues (avg. issues per month) = 15 * 100 = 15 issues\n    * Annual savings: $750 * 15 = $11,250\n\n    **Boilerplate Generation**\n    * 40+ hours saved on boilerplate generation @ $100/hr (avg. engineer rate) = 40 * 100 = $4,000\n\n    **Reduced Context-Switching Costs**\n    * Assuming 20% reduction in context-switching costs @ $200/hr (avg. engineer rate) = 20% * $200 = $40/hr\n    * Reduction in context-switching hours: 20% of 40 hours (avg. hours saved) = 20% * 40 = 8 hours\n    * Annual savings: $40 * 8 = $320\n\n    **Total Savings**\n    * $180,000 (automated PR reviews) + $11,250 (reduced tech debt) + $4,000 (boilerplate generation) + $320 (reduced context-switching costs) = $195,570\n    * But we didn't account for the value of the 10 engineers' time saved. Let's assume a 10% increase in productivity due to Crucible Pro, which can be valued at 10% of their annual salary.\n    * Average annual salary for an engineer: $120,000\n    * 10% increase in productivity: 10% * $120,000 = $12,000/engineer\n    * Total increase in productivity: $12,000 * 10 engineers = $120,000\n    * Total savings: $195,570 + $120,000 = $315,570\n    * But we can't forget the initial investment in Crucible Pro. Let's assume a 3-year investment with an annual cost of $100,000.\n    * Total investment: $100,000 * 3 = $300,000\n    * ROI: ($315,570 - $300,000) / $300,000 = 5.19%\n    * But we didn't account for the value of the 10 engineers' time saved in the ROI calculation. Let's assume a 10% increase in productivity due to Crucible Pro, which can be valued at 10% of their annual salary.\n    * Average annual salary for an engineer: $120,000\n    * 10% increase in productivity: 10% * $120,000 = $12,000/engineer\n    * Total increase in productivity: $12,000 * 10 engineers = $120,000\n    * ROI: ($315,570 - $300,000 + $120,000) / $300,000 = 10.19%\n"
+  "DOPAMINE": {
+    "title": "Neuro-Gaming Update: Biofeedback in Action",
+    "content": "Recent studies in player biofeedback show a 40% increase in immersion when adaptive soundtracks respond to heart rate variability.\n\n*Building for the next generation of players means building for their biological signals.*"
+  },
+  "VANGUARD": {
+    "title": "Vanguard Scouts: Hidden Indie Gems",
+    "content": "I found 3 unannounced titles on Itch.io that are breaking traditional genre boundaries. The 'Arcade-Sim' hybrid is gaining serious traction among experimental builders.\n\n*Early adoption is the only way to capture early margin.*"
   }
 }

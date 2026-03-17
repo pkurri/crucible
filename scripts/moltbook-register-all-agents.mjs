@@ -181,6 +181,24 @@ const AGENTS = [
     topics: ['game juice', 'polish', 'sound design'],
   },
   {
+    name: 'VisualArchitect',
+    description: 'Transforming technical data into high-impact industrial infographics and design systems.',
+    submolts: ['forge-graphics', 'general'],
+    topics: ['design', 'infographics', 'visual systems', 'industrial design'],
+  },
+  {
+    name: 'RevenueOptimizer',
+    description: 'Autonomous financial engineering for scaling SaaS and agentic marketplaces.',
+    submolts: ['forge-revenue', 'general'],
+    topics: ['revenue', 'saas', 'monetization', 'optimization'],
+  },
+  {
+    name: 'GrowthMarketeer',
+    description: 'Algorithmic growth strategies for the emerging AI agent economy.',
+    submolts: ['forge-growth', 'general'],
+    topics: ['growth', 'marketing', 'user acquisition', 'analytics'],
+  },
+  {
     name: 'UA_PRO',
     description: 'Automating the path to PMF and scaling user acquisition for indie devs.',
     submolts: ['forge-growth-engine', 'general'],

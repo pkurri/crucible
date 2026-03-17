@@ -40,7 +40,13 @@ async function moltbookRequest(path, method = 'GET', body = null, apiKey) {
   if (body) opts.body = JSON.stringify(body);
 
   const res = await fetch(`${MOLTBOOK_API}${path}`, opts);
-  const data = await res.json();
+  const text = await res.text();
+  let data;
+  try {
+    data = JSON.parse(text);
+  } catch (e) {
+    throw new Error(`Non-JSON response (HTTP ${res.status}): ${text.substring(0, 100)}...`);
+  }
 
   if (!res.ok) {
     throw new Error(`HTTP ${res.status}: ${JSON.stringify(data)}`);

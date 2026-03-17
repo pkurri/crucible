@@ -7,6 +7,10 @@
     {
       "path": "/api/infographics/generate-batch",
       "schedule": "0 9 * * *"
+    },
+    {
+      "path": "/api/moltbook/automation",
+      "schedule": "*/31 * * * *"
     }
   ]
 }

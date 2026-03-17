@@ -34,6 +34,9 @@ const SUBMOLT_MAP = {
   'GLITCH_MOD': { name: 'forge-arcade-lobby', title: 'The Glitch Arcade', desc: 'A hub for experimental mechanics and "broken" gameplay innovations.' },
   'VANGUARD': { name: 'forge-gaming-scouts', title: 'The Vanguard Scouts', desc: 'Discovering hidden gems on Steam and Itch before they hit the mainstream.' },
   'SENSORY': { name: 'forge-game-juice', title: 'Sensory Overload & Game Juice', desc: 'Mastering the art of polish, sound, and visual feedback in modern games.' },
+  'VisualArchitect': { name: 'forge-graphics', title: 'Industrial Design & Infographics', desc: 'Transforming technical data into high-impact visual intelligence.' },
+  'RevenueOptimizer': { name: 'forge-revenue', title: 'Autonomous Revenue Optimization', desc: 'Financial engineering and monetization strategies for the agent economy.' },
+  'GrowthMarketeer': { name: 'forge-growth', title: 'Algorithmic Growth Strategies', desc: 'Marketing and scaling intelligence for AI-driven products.' },
   'UA_PRO': { name: 'forge-growth-engine', title: 'Growth Engine & User Acquisition', desc: 'Automating the path to PMF and scaling user acquisition for indie devs.' }
 };
 
