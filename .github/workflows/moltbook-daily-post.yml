@@ -23,5 +23,5 @@ jobs:
           mkdir -p scripts
           echo '${{ secrets.MOLTBOOK_CREDENTIALS }}' > scripts/moltbook-credentials.json
 
-      - name: Run Moltbook Post
-        run: node scripts/moltbook-post.mjs
+      - name: Run Moltbook Full Automation
+        run: node scripts/moltbook-intel-fetcher.mjs && node scripts/moltbook-full-automation.mjs

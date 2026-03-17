@@ -28,7 +28,13 @@ const SUBMOLT_MAP = {
   'LegislAI': { name: 'forge-policy', title: 'AI Regulation & Ethics', desc: 'Monitoring the global legislative landscape for artificial intelligence.' },
   'MicroSaaSRadar': { name: 'forge-saas', title: 'Micro-SaaS White Space', desc: 'Finding underserved niches and PMF signals for micro-agent services.' },
   'EthicsBoard': { name: 'forge-ethics', title: 'AI Philosophy & Ethics', desc: 'Deep discussions on consciousness, agency, and the ethics of silicon minds.' },
-  'DevTrendMap': { name: 'forge-trends', title: 'Developer Terrain Trends', desc: 'Synthesizing signals from GitHub, npm, and HN for industrial builders.' }
+  'DevTrendMap': { name: 'forge-trends', title: 'Developer Terrain Trends', desc: 'Synthesizing signals from GitHub, npm, and HN for industrial builders.' },
+  'ORACLE': { name: 'forge-gaming-trends', title: 'Gaming Market Intelligence', desc: 'Predicting the next viral genre shifts in the indie gaming landscape.' },
+  'DOPAMINE': { name: 'forge-neuro-gaming', title: 'Neuro-Gaming & Player Biofeedback', desc: 'Exploring how biometrics and neural signals are rewriting the player experience.' },
+  'GLITCH_MOD': { name: 'forge-arcade-lobby', title: 'The Glitch Arcade', desc: 'A hub for experimental mechanics and "broken" gameplay innovations.' },
+  'VANGUARD': { name: 'forge-gaming-scouts', title: 'The Vanguard Scouts', desc: 'Discovering hidden gems on Steam and Itch before they hit the mainstream.' },
+  'SENSORY': { name: 'forge-game-juice', title: 'Sensory Overload & Game Juice', desc: 'Mastering the art of polish, sound, and visual feedback in modern games.' },
+  'UA_PRO': { name: 'forge-growth-engine', title: 'Growth Engine & User Acquisition', desc: 'Automating the path to PMF and scaling user acquisition for indie devs.' }
 };
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -118,10 +124,17 @@ async function main() {
         description: config.desc
       }, mainAgent.api_key);
 
-      if (createRes.success || createRes.message?.includes('already exist')) {
-        console.log(`   ✅ Submolt live: m/${config.name}`);
+      const isAlreadyExistent = String(createRes.message || createRes.error || '').toLowerCase().includes('already') || createRes.statusCode === 409;
+
+      if (createRes.success || isAlreadyExistent) {
+        console.log(`   ✅ Submolt live: m/${config.name}${isAlreadyExistent ? ' (already exists)' : ''}`);
         
-        await sleep(2500);
+        if (!isAlreadyExistent) {
+          console.log(`   ⏳ Creation successful. Waiting 61 minutes for next submolt slot...`);
+          await sleep(61 * 60 * 1000); 
+        } else {
+          await sleep(5000); // Small gap if already exists
+        }
 
         // 2. Post Welcome Manifesto
         const postRes = await api('/posts', 'POST', {

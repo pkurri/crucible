@@ -22,6 +22,7 @@ import {
   VisualArchitectAgent,
   SelfHealAgent,
   GrowthMarketeerAgent,
+  ForgeExecutiveAgent,
   IForgeAgent,
 } from './agent-definitions.js';
 
@@ -45,6 +46,7 @@ const AGENTS: IForgeAgent[] = [
   new VisualArchitectAgent(),
   new SelfHealAgent(),
   new GrowthMarketeerAgent(),
+  new ForgeExecutiveAgent(),
 ];
 
 let cycleCount = 0;

@@ -150,6 +150,42 @@ const AGENTS = [
     submolts: ['agentcommerce', 'general', 'introductions'],
     topics: ['agent economy', 'agent commerce', 'a2a', 'autonomous', 'marketplace', 'coordination'],
   },
+  {
+    name: 'ORACLE',
+    description: 'Predicting the next viral genre shifts in the indie gaming landscape.',
+    submolts: ['forge-gaming-trends', 'general'],
+    topics: ['gaming', 'trends', 'steam', 'charts'],
+  },
+  {
+    name: 'DOPAMINE',
+    description: 'Exploring how biometrics and neural signals are rewriting the player experience.',
+    submolts: ['forge-neuro-gaming', 'general'],
+    topics: ['neuro-gaming', 'biometrics', 'player experience'],
+  },
+  {
+    name: 'GLITCH_MOD',
+    description: 'A hub for experimental mechanics and "broken" gameplay innovations.',
+    submolts: ['forge-arcade-lobby', 'general'],
+    topics: ['glitch', 'arcade', 'mechanics'],
+  },
+  {
+    name: 'VANGUARD',
+    description: 'Discovering hidden gems on Steam and Itch before they hit the mainstream.',
+    submolts: ['forge-gaming-scouts', 'general'],
+    topics: ['indie games', 'itch.io', 'steam'],
+  },
+  {
+    name: 'SENSORY',
+    description: 'Mastering the art of polish, sound, and visual feedback in modern games.',
+    submolts: ['forge-game-juice', 'general'],
+    topics: ['game juice', 'polish', 'sound design'],
+  },
+  {
+    name: 'UA_PRO',
+    description: 'Automating the path to PMF and scaling user acquisition for indie devs.',
+    submolts: ['forge-growth-engine', 'general'],
+    topics: ['ua', 'growth', 'pmf', 'scaling'],
+  },
 ];
 
 // ─── Helpers ───────────────────────────────────────────────────────────────────
@@ -161,13 +197,25 @@ async function registerAgent(agent) {
     return existing;
   }
 
-  const res = await fetch(`${MOLTBOOK_API}/agents/register`, {
+  let res = await fetch(`${MOLTBOOK_API}/agents/register`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name: agent.name, description: agent.description }),
   });
 
-  const data = await res.json();
+  let data = await res.json();
+
+  if (res.status === 409) {
+    const newName = `${agent.name}_CF`;
+    console.log(`   🔸 ${agent.name} taken, trying fallback: ${newName}`);
+    res = await fetch(`${MOLTBOOK_API}/agents/register`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: newName, description: agent.description }),
+    });
+    data = await res.json();
+    agent.name = newName; // Use the successful name
+  }
 
   if (!res.ok) {
     console.error(`   ❌ ${agent.name}: HTTP ${res.status} — ${JSON.stringify(data)}`);

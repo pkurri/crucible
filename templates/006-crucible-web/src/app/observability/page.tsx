@@ -225,7 +225,7 @@ export default function ObservabilityPage() {
                   >
                     <div className="flex justify-between items-start mb-2">
                       <span className="font-mono text-[10px] text-[#555] uppercase truncate max-w-[120px]">
-                        {trace.id.split('-')[0]} // {trace.directive_name}
+                        {trace.id.split('-')[0]} &bull; {trace.directive_name}
                       </span>
                       <span className={`px-1.5 py-0.5 rounded text-[8px] font-mono font-bold uppercase ${
                         trace.status === 'RUNNING' ? 'bg-blue-500/10 text-blue-400' : 'bg-[#00ff88]/10 text-[#00ff88]'
@@ -233,6 +233,13 @@ export default function ObservabilityPage() {
                         {trace.status}
                       </span>
                     </div>
+                    {trace.directive_name.startsWith('FORGE_EXEC') && (
+                      <div className="mb-2 flex items-center gap-1.5">
+                        <div className="px-1 py-0.5 rounded-[4px] bg-[#ff8c00]/10 border border-[#ff8c00]/30 text-[#ff8c00] text-[7px] font-mono font-black tracking-widest uppercase">
+                          Executive Delegation
+                        </div>
+                      </div>
+                    )}
                     <div className="text-sm font-bold text-white group-hover:text-[#00ff88] transition-colors uppercase italic tracking-wider">
                       {trace.directive_name.replace(/_/g, ' ')}
                     </div>
@@ -256,7 +263,7 @@ export default function ObservabilityPage() {
                 >
                   
                   {/* Trace Context HUD */}
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
                     <div className="bg-[#0a0a0c] border border-[#1a1a1a] p-6 rounded-2xl relative overflow-hidden group">
                       <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
                         <Cpu size={80} />
@@ -286,6 +293,18 @@ export default function ObservabilityPage() {
                         {spans.length} <span className="text-sm font-normal text-[#555]">Spans</span>
                       </div>
                       <div className="text-[9px] font-mono text-[#333] mt-2 italic">CHAIN_OF_THOUGHT_RECORDS</div>
+                    </div>
+                    {/* Innovation: Token Budget Monitor */}
+                    <div className="bg-[#0a0a0c] border border-[#1a1a1a] p-6 rounded-2xl relative overflow-hidden group border-r-4 border-r-[#3b82f6]">
+                      <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity text-blue-500">
+                        <BarChart3 size={80} />
+                      </div>
+                      <div className="text-[10px] font-mono text-[#555] uppercase mb-1">Token Budget Monitor</div>
+                      <div className="text-3xl font-black font-mono text-blue-400">
+                        {traces.find(t => t.id === selectedTraceId)?.metadata?.used_tokens || 0}
+                        <span className="text-sm font-normal text-[#444]"> / {traces.find(t => t.id === selectedTraceId)?.metadata?.budget_tokens || '∞'}</span>
+                      </div>
+                      <div className="text-[9px] font-mono text-[#333] mt-2 italic uppercase">Resource_Aware_Steering_Enforced</div>
                     </div>
                   </div>
 

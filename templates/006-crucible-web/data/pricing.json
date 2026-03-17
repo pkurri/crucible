@@ -2,37 +2,55 @@
   {
     "name": "Starter",
     "price": "$49/mo",
-    "description": "Ideal for small teams and personal projects",
+    "description": "Ideal for small teams and individual developers",
     "features": [
-      "Up to 5 users",
-      "1 GB storage",
+      "Basic code review",
+      "1 project repository",
+      "5 users",
       "Basic analytics"
     ],
-    "targeted_at": "Startups"
+    "targeted_at": "Small Teams"
   },
   {
     "name": "Pro",
-    "price": "$149/mo",
-    "description": "Suitable for growing teams and businesses",
+    "price": "$99/mo",
+    "description": "Suitable for growing teams and projects",
     "features": [
-      "Up to 25 users",
-      "10 GB storage",
-      "Advanced analytics",
+      "Advanced code review",
+      "10 project repositories",
+      "20 users",
+      "Enhanced analytics",
       "Custom integrations"
     ],
-    "targeted_at": "Small to medium-sized businesses"
+    "targeted_at": "Growing Teams"
   },
   {
-    "name": "Enterprise Cloud",
+    "name": "Enterprise",
     "price": "Custom",
-    "description": "Designed for large enterprises and complex use cases",
+    "description": "Designed for large organizations and enterprises",
     "features": [
+      "Advanced code review",
+      "Unlimited project repositories",
       "Unlimited users",
-      "100 GB storage",
-      "Advanced security",
-      "Dedicated support",
-      "Custom onboarding"
+      "Advanced analytics",
+      "Custom integrations",
+      "Dedicated support"
     ],
-    "targeted_at": "Large Org and enterprises"
+    "targeted_at": "Large Org"
+  },
+  {
+    "name": "Sovereign",
+    "price": "Custom",
+    "description": "Tailored for government, defense, and high-performance computing (HPC) sectors",
+    "features": [
+      "Advanced code review",
+      "Unlimited project repositories",
+      "Unlimited users",
+      "Advanced analytics",
+      "Custom integrations",
+      "Dedicated support",
+      "Compliance and security certifications"
+    ],
+    "targeted_at": "Government/HPC"
   }
 ]

@@ -75,10 +75,34 @@ export const CrucibleSentinel = {
         throw new Error(`🛡️ SENTINEL GATED: Operation '${operation}' was blocked for safety.`);
       }
 
+      // 2b. BUDGET CHECK (Innovation: Resource-aware steering)
+      const hasBudget = await this.checkBudget(context.traceId);
+      if (!hasBudget) {
+        throw new Error(`📉 SENTINEL GATED: Operation '${operation}' blocked due to budget exhaustion.`);
+      }
+
       // 3. Execute the actual work
       const result = await executor(params);
 
-      // 4. Close Span
+      // 4. Update Token Budget usage (Innovation: Autonomous resource tracking)
+      const { data: currentTrace } = await supabase
+        .from('agent_traces')
+        .select('metadata')
+        .eq('id', context.traceId)
+        .single();
+      
+      const estimatedCost = 500; // In a real system, we'd get this from the LLM provider response
+      const newMetadata = {
+        ...(currentTrace?.metadata || {}),
+        used_tokens: (currentTrace?.metadata?.used_tokens || 0) + estimatedCost
+      };
+
+      await supabase
+        .from('agent_traces')
+        .update({ metadata: newMetadata })
+        .eq('id', context.traceId);
+
+      // 5. Close Span
       await supabase
         .from('agent_spans')
         .update({
@@ -126,5 +150,29 @@ export const CrucibleSentinel = {
     }
 
     return false;
+  },
+
+  /**
+   * Resource management logic
+   * Checks if the trace has exceeded its allotted token or USD budget.
+   */
+  async checkBudget(traceId: string): Promise<boolean> {
+    const { data: trace } = await supabase
+      .from('agent_traces')
+      .select('metadata')
+      .eq('id', traceId)
+      .single();
+
+    if (trace?.metadata?.budget_tokens) {
+      const used = trace.metadata.used_tokens || 0;
+      const budget = trace.metadata.budget_tokens;
+      
+      if (used >= budget) {
+        console.warn(`[Sentinel] Budget exceeded for trace ${traceId}: ${used}/${budget}`);
+        return false;
+      }
+    }
+
+    return true;
   }
 };

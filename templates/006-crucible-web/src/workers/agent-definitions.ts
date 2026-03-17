@@ -3,6 +3,7 @@ import { generateWithYield } from './ai-router.js';
 import { IForgeAgent, AgentResult } from './types.js';
 import fs from 'fs';
 import path from 'path';
+import { CrucibleSentinel } from '../lib/sentinel-orchestrator';
 
 export type { IForgeAgent, AgentResult };
 
@@ -1662,5 +1663,86 @@ export class AutoHealerAgent implements IForgeAgent {
     }
 
     return { success: true, message: 'System integrity nominal. No patches required.' };
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// AGENT 24: Forge Executive (CEO/Manager) - INNOVATED FROM PAPERCLIP
+// ═══════════════════════════════════════════════════════
+
+export class ForgeExecutiveAgent implements IForgeAgent {
+  name = 'Forge Executive';
+  type = 'executive';
+
+  async execute(supabase: SupabaseClient, instruction?: string): Promise<AgentResult> {
+    const forgeGoal = instruction || 'Construct a high-performance agentic RAG platform for fintech.';
+    await logTelemetry(supabase, this.type, 'STRATEGIZE', `Processing high-level Forge Directive: "${forgeGoal}"`);
+
+    try {
+      // 1. Initialize Global Trace using CrucibleSentinel (innovation from Paperclip's management model)
+      const traceContext = await CrucibleSentinel.startTrace(`FORGE_EXEC_TRACE_${Date.now()}`, {
+        goal: forgeGoal,
+        origin: 'executive_agent'
+      });
+
+      // 2. Decompose the goal into a Forge Sequence
+      const prompt = `You are the Forge Executive (CEO) of the Crucible AI platform.
+Your task is to decompose a high-level business/technical goal into a sequence of agentic "Forge Operations".
+
+GOAL: "${forgeGoal}"
+
+Available Specialist Agents:
+- market-analyst: Scans for gaps and competitors.
+- architect: Designs blueprints based on trends.
+- builder: Forges code assets from blueprints.
+- scout: Identifies emerging market trends.
+- spawner: Invents new agents to fill capability gaps.
+
+Output a RAW JSON object representing the execution plan:
+{
+  "project_name": "A creative industrial name for this project",
+  "sequence": [
+    { "agent": "lowercase-type", "operation": "Descriptive name of operation", "priority": "High" | "Medium" }
+  ],
+  "estimated_roi": 15000,
+  "budget_tokens": 50000
+}`;
+
+      let text = await generateWithYield(prompt);
+      const plan = safeParseJSON(text);
+
+      await logTelemetry(supabase, this.type, 'PLAN', `Forged execution plan for "${plan.project_name}" with ${plan.sequence?.length || 0} operations.`);
+
+      // 3. Execute gated operations (Simulation of delegation)
+      for (const op of plan.sequence || []) {
+        await logTelemetry(supabase, this.type, 'DELEGATE', `Delegating to ${op.agent}: ${op.operation}`);
+        
+        // Use CrucibleSentinel to gate and trace the delegated operation
+        // In a real implementation, this would dynamically instantiate and execute the specific agent class.
+        await CrucibleSentinel.executeGated(
+          traceContext,
+          this.name,
+          op.operation,
+          { agent_target: op.agent, priority: op.priority },
+          async (params) => {
+            // Mocking the successful delegation feedback
+            return { delegated_execution: 'SUCCESS', details: `Task '${op.operation}' processed by ${params.agent_target}` };
+          }
+        );
+      }
+
+      await logTrace(supabase, traceContext.directiveName, 'SUCCESS', plan.estimated_roi, { plan });
+      await logTelemetry(supabase, this.type, 'SUCCESS', `Forge Sequence complete for "${plan.project_name}". Projected ROI: $${plan.estimated_roi}`);
+
+      return { 
+        success: true, 
+        message: `Successfully executed Forge Directive for ${plan.project_name}`, 
+        data: { plan, traceId: traceContext.traceId } 
+      };
+
+    } catch (e: any) {
+      await logTelemetry(supabase, this.type, 'ERROR', `Executive orchestration failed: ${e.message}`);
+      return { success: false, message: e.message };
+    }
   }
 }

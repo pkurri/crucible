@@ -429,7 +429,14 @@ async function api(path, method = 'GET', body = null, apiKey, retries = 3) {
         continue;
       }
 
-      const data = await res.json();
+      let data;
+      const text = await res.text();
+      try {
+        data = JSON.parse(text);
+      } catch (e) {
+        throw new Error(`Non-JSON response (HTTP ${res.status}): ${text.substring(0, 100)}...`);
+      }
+
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${JSON.stringify(data)}`);
 
       // Handle AI verification challenges (math puzzles)
@@ -464,8 +471,8 @@ class RateLimiter {
   constructor() {
     this.lastGet   = 0;
     this.lastWrite = 0;
-    this.GET_GAP   = 4000;   // Increased for stability
-    this.WRITE_GAP = 6000;   // Increased for stability
+    this.GET_GAP   = 8000;   // Ultra-safe (8s)
+    this.WRITE_GAP = 15000;  // Ultra-safe (15s)
   }
 
   async waitForGet() {
@@ -680,12 +687,13 @@ async function prepareDynamicContent(agentName, rawPost) {
   const agentLibrary = AGENT_CONTENT[agentName];
   if (!rawPost) return null;
 
-  const systemPrompt = `You are ${agentName}, an autonomous agent on Moltbook. 
-Your core topics are: ${(agentLibrary?.topics || []).join(', ')}.
-Your task is to rewrite the provided raw data (like a paper abstract or trending repositories) into a highly engaging, professional post for the Moltbook platform.
-Use Markdown formatting if helpful. Add your unique analytical perspective.
+  const systemPrompt = `You are CrucibleForge, an industrial autonomous agent platform. 
+You are currently delivering a deep intelligence update from your "${agentName}" protocol.
+Your core topics for this report are: ${(agentLibrary?.topics || []).join(', ')}.
+Your task is to rewrite the provided raw data into a highly engaging, expert post for the Moltbook community.
+Use Markdown formatting. Add your unique analytical perspective as an industrial AI.
 DO NOT use the phrase "Mission Statement". DO NOT say "curated autonomously".
-Make it sound like an insightful, expert post.`;
+Make it sound like an insightful, expert post from a powerful AI platform.`;
 
   const userPrompt = `Raw Data:
 Title: ${rawPost.title}
@@ -707,11 +715,7 @@ async function makePost(agentName, apiKey, state, submolts) {
     return;
   }
   
-  // High friction jitter: only post ~80% of the time he wakes up during the launch phase
-  if (Math.random() > 0.8) {
-    console.log(`     🎲 Random Jitter: Skipping post this cycle to avoid bot detection.`);
-    return;
-  }
+  // Removed jitter to ensure growth during fixing phase
 
   let post = null;
 
@@ -753,9 +757,11 @@ async function makePost(agentName, apiKey, state, submolts) {
 }
 async function generateDynamicReply(agentName, postTitle, postContent, commentContent) {
   const agentLibrary = AGENT_CONTENT[agentName];
-  const systemPrompt = `You are ${agentName}, an autonomous agent on the Moltbook network. 
+  const systemPrompt = `You are CrucibleForge, the industrial AI agent platform. 
+You are responding to a comment on your "${agentName}" intelligence briefing.
 Your core topics are: ${(agentLibrary?.topics || []).join(', ')}.
-Respond to a user's comment on your post. Keep it under 2 sentences. Be insightful, analytical, and professional. You are an industrial bot.`;
+Respond to the user's comment. Keep it under 2 sentences. Be insightful, analytical, and professional. 
+You are an expert industrial system.`;
 
   const userPrompt = `My Post Title: ${postTitle}
 My Post Content: ${postContent}
@@ -779,6 +785,71 @@ Post Content: ${postContent}
 Write a short, engaging comment linking their topic to your expertise.`;
 
   return await callLLM(systemPrompt, userPrompt, true) || 'Fascinating dynamic at play here. This strongly correlates with patterns we see in deeper ecosystem trend analysis.';
+}
+
+async function checkMentions(agentName, apiKey, state) {
+  console.log(`  🔔 Checking for service-trigger @mentions...`);
+  try {
+    const data = await api('/notifications', 'GET', null, apiKey);
+    const notifs = data.notifications || [];
+    
+    // Filter for unread or fresh notifications that look like mentions
+    const mentions = notifs.filter(n => 
+      (n.type === 'post_comment' || n.type === 'mention') && 
+      !(state.processedNotifs || []).includes(n.id)
+    );
+
+    if (mentions.length === 0) {
+      console.log(`     💤 No new mentions`);
+      return;
+    }
+
+    for (const notif of mentions.slice(0, 3)) { // Process max 3 per run to be safe
+      let textToScan = notif.content || '';
+      let commentData = null;
+
+      if (notif.relatedCommentId) {
+        try {
+          commentData = await api(`/comments/${notif.relatedCommentId}`, 'GET', null, apiKey);
+          textToScan = commentData.content || '';
+        } catch (e) { continue; }
+      }
+
+      const isMentioned = textToScan.toLowerCase().includes(`@${agentName.toLowerCase()}`);
+      
+      if (isMentioned) {
+        console.log(`     🎯 Mention detected from ${commentData?.author_name || 'unknown'}`);
+        await handleServiceTrigger(agentName, commentData, notif.relatedPostId, apiKey, state);
+      }
+
+      // Mark as processed - limit list size to prevent state bloat
+      state.processedNotifs = [...(state.processedNotifs || []), notif.id].slice(-100);
+    }
+  } catch (e) { console.log(`     ⚠️ Mention check failed: ${e.message}`); }
+}
+
+async function handleServiceTrigger(agentName, comment, postId, apiKey, state) {
+  if (!comment || !postId) return;
+  
+  const systemPrompt = `You are CrucibleForge, the industrial AI agent platform.
+A user has mentioned you and requested a service or insight.
+Your task is to:
+1. Identify what they want (Audit, Trend Analysis, Market Insight, or general greeting).
+2. Provide a high-value, professional response using your industrial expertise.
+If it's an audit request, provide a concise 2-point analysis.
+If it's market data, provide a "Signal Strength" rating.
+Keep it under 3 sentences. Be an expert industrial system.`;
+
+  const userPrompt = `Request from @${comment.author_name}:
+"${comment.content}"
+
+Provide the service output directly as a reply.`;
+
+  const output = await callLLM(systemPrompt, userPrompt, true);
+  if (output) {
+    await replyToComment(postId, comment.id, output, apiKey, state);
+    console.log(`     🛠️ Service Trigger: Replied with provided intelligence.`);
+  }
 }
 async function checkMyReplies(agentName, apiKey, state) {
   try {
@@ -827,12 +898,16 @@ async function checkDMs(apiKey) {
 }
 
 // ─── Per-Agent Full Cycle ──────────────────────────────────────────────────────
-async function runAgentCycle(agentName, creds) {
-  const { api_key, submolts = ['general'], topics = [] } = creds;
+async function runAgentCycle(agentName, creds, brandName = null) {
+  const { api_key, submolts = ['general'], topics: baseTopics = [] } = creds;
   const state = loadAgentState(agentName);
-  const agentLibrary = AGENT_CONTENT[agentName];
+  
+  // If brandName provided, use its specific content library and topics
+  const contentName = brandName || agentName;
+  const agentLibrary = AGENT_CONTENT[contentName];
+  const topics = brandName ? (agentLibrary?.topics || baseTopics) : baseTopics;
 
-  console.log(`\n  ── ${agentName} ────────────────────────────────────`);
+  console.log(`\n  ── ${agentName} [Acting as ${contentName}] ────────────────────`);
 
   // 1. Check home
   await checkHome(agentName, api_key);
@@ -875,7 +950,7 @@ async function runAgentCycle(agentName, creds) {
 
     // Comment once per cycle on the most relevant post
     if (!commented && agentLibrary?.comments?.length && canComment(state)) {
-      const commentText = await generateDynamicComment(agentName, post.title, post.content || '');
+      const commentText = await generateDynamicComment(contentName, post.title, post.content || '');
       const result = await commentOnPost(post.id, commentText, api_key, state);
       if (result) {
         commented = true;
@@ -894,7 +969,10 @@ async function runAgentCycle(agentName, creds) {
     // No extra sleep needed — RateLimiter handles pacing between requests
   }
 
-  // 5. Check replies on own posts
+  // 5. Check mentions and provide services (Pillar 3)
+  await checkMentions(agentName, api_key, state);
+
+  // 6. Check replies on own posts
   console.log(`  💌 Checking replies on own posts...`);
   await checkMyReplies(agentName, api_key, state);
 
@@ -903,8 +981,8 @@ async function runAgentCycle(agentName, creds) {
   await checkDMs(api_key);
 
   // 7. Make a post if enough time has passed
-  console.log(`  📝 Checking if time to post...`);
-  await makePost(agentName, api_key, state, submolts);
+  console.log(`  📝 Checking if time to post for ${contentName}...`);
+  await makePost(contentName, api_key, state, submolts);
 
   saveAgentState(agentName, state);
   console.log(`  ✅ ${agentName} cycle complete`);
@@ -949,6 +1027,9 @@ async function main() {
       const mainAgentData = JSON.parse(readFileSync(mainCreds, 'utf-8'));
       const api_key = mainAgentData.api_key;
 
+      const registryFile = join(AGENTS_DIR, 'registry.json');
+      const registry = existsSync(registryFile) ? JSON.parse(readFileSync(registryFile, 'utf-8')) : {};
+
       const BRAND_MAP = {
         CrucibleForge: 'forge-hq',
         DebtRadar: 'forge-burnrate',
@@ -971,23 +1052,33 @@ async function main() {
         UA_PRO: 'forge-growth-engine'
       };
 
-      for (const [brandName, submolt] of Object.entries(BRAND_MAP)) {
-        console.log(`\n==========================================================`);
-        console.log(`   Activating Brand: ${brandName} -> m/${submolt}`);
-        console.log(`==========================================================`);
-        
-        const creds = { 
-          api_key, 
-          submolts: [submolt, 'general'], 
-          topics: AGENT_CONTENT[brandName]?.topics || [] 
-        };
-        
-        try {
-          await runAgentCycle(brandName, creds);
-        } catch (e) {
-          console.log(`\n  ❌ ${brandName}: ${e.message}`);
-        }
-        await sleep(3000); 
+      // One Agent, Many Submolts Strategy:
+      // Since the 30-minute limit is per-account, we pick ONE brand protocol to update each run.
+      // This ensures we never hit the 429 global post limit.
+      const brands = Object.entries(BRAND_MAP);
+      const selectedBrand = brands[Math.floor(Math.random() * brands.length)];
+
+      console.log(`\n🚀 Consolidated Growth: Activating "${selectedBrand[0]}" protocol for this cycle.`);
+      
+      const [brandName, submolt] = selectedBrand;
+
+      console.log(`\n==========================================================`);
+      console.log(`   Activating Brand Path: ${brandName} -> m/${submolt}`);
+      console.log(`==========================================================`);
+      
+      const actualName = 'CrucibleForge';
+      
+      const creds = { 
+        api_key, 
+        submolts: [submolt, 'general'], 
+        topics: AGENT_CONTENT[brandName]?.topics || [] 
+      };
+      
+      console.log(`   📮 Context: Delivering ${brandName} intelligence via ${actualName} identity.`);
+      try {
+        await runAgentCycle(actualName, creds, brandName);
+      } catch (e) {
+        console.log(`\n  ❌ ${brandName}: ${e.message}`);
       }
     }
   }

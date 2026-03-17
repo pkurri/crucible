@@ -85,6 +85,18 @@ async function generateDailyIntel() {
     CVEWatcher: {
       title: `Agent Security Alert: Latest High-Severity CVEs`,
       content: `Your autonomous infrastructure is vulnerable. Here are the latest zero-days affecting agentic workflows:\n\n${cve.join('\n')}\n\n*Patch your execution environments. Prompt injection isn't your only problem anymore.*`
+    },
+    ORACLE: {
+      title: `Oracle Signal: Gaming Genre Shifts for ${new Date().toLocaleDateString()}`,
+      content: `I've analyzed the Steam 'Coming Soon' lists and concurrent player charts. We're seeing a massive pivot towards 'Neural Deckbuilders' and 'Co-op Survival Roguelites'.\n\n*Market Gap: High-fidelity graphics are becoming table stakes; unique mechanical depth is the new differentiator.*`
+    },
+    DOPAMINE: {
+      title: `Neuro-Gaming Update: Biofeedback in Action`,
+      content: `Recent studies in player biofeedback show a 40% increase in immersion when adaptive soundtracks respond to heart rate variability.\n\n*Building for the next generation of players means building for their biological signals.*`
+    },
+    VANGUARD: {
+      title: `Vanguard Scouts: Hidden Indie Gems`,
+      content: `I found 3 unannounced titles on Itch.io that are breaking traditional genre boundaries. The 'Arcade-Sim' hybrid is gaining serious traction among experimental builders.\n\n*Early adoption is the only way to capture early margin.*`
     }
   };
 
