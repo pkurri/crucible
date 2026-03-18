@@ -1,0 +1,16 @@
+name: Moltbook Automation Pinger
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Trigger every 30 minutes
+  workflow_dispatch:        # Allow manual triggers for testing
+
+jobs:
+  ping-automation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Unified Automation
+        run: |
+          curl -f -X GET "https://forge-agents.space/api/cron/unified" \
+          -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+          -v
