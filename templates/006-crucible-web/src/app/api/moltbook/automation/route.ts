@@ -91,30 +91,51 @@ Output ONLY the post body text.`;
     
     if (!content) throw new Error('Failed to generate content');
 
-    // 4. Post to Moltbook
-    const postRes = await moltbookApi('/posts', 'POST', {
-      submolt_name: submolt,
-      title: `${brandName} Intelligence Brief`,
-      content: content,
-      type: 'text'
-    }, apiKey);
+    // 4. Post to Moltbook (with Retry for missing submolts)
+    let postRes;
+    const availableBrands = Object.entries(BRAND_MAP);
+    let attempts = 0;
+    const maxAttempts = 5;
 
-    // 5. Log Event
-    try {
-      await supabase.from('forge_events').insert({
-        event_type: 'MOLTBOOK_POST',
-        message: `Posted ${brandName} intelligence to m/${submolt}`,
-        agent_id: 'moltbook-cron',
-        metadata: { post_id: postRes.post?.id || postRes.id, brand: brandName }
-      });
-    } catch {}
+    while (attempts < maxAttempts) {
+      const [brandName, submolt] = availableBrands[Math.floor(Math.random() * availableBrands.length)];
+      console.log(`[Moltbook] Posting attempt ${attempts + 1} as ${brandName} to m/${submolt}...`);
+      
+      try {
+        postRes = await moltbookApi('/posts', 'POST', {
+          submolt_name: submolt,
+          title: `${brandName} Intelligence Brief`,
+          content: await generateText(`You are ${brandName}... Output ONLY the post body text.`), // Reuse generation if needed or fresh
+          type: 'text'
+        }, apiKey);
+        
+        // Success!
+        console.log(`[Moltbook] Success: Posted as ${brandName} to m/${submolt}`);
+        
+        // Log successful brand in response or event
+        await supabase.from('forge_events').insert({
+          event_type: 'MOLTBOOK_POST',
+          message: `Posted ${brandName} intelligence to m/${submolt}`,
+          agent_id: 'moltbook-cron',
+          metadata: { post_id: postRes.post?.id || postRes.id, brand: brandName }
+        });
 
-    return NextResponse.json({
-      success: true,
-      brand: brandName,
-      submolt,
-      post_id: postRes.post?.id || postRes.id
-    });
+        return NextResponse.json({
+          success: true,
+          brand: brandName,
+          submolt,
+          post_id: postRes.post?.id || postRes.id
+        });
+
+      } catch (err: any) {
+        if (err.message.includes('404') && attempts < maxAttempts - 1) {
+          console.warn(`[Moltbook] m/${submolt} not found. Retrying with different brand...`);
+          attempts++;
+          continue;
+        }
+        throw err;
+      }
+    }
 
   } catch (error: any) {
     console.error('[Moltbook Cron] Error:', error.message);
