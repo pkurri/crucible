@@ -52,5 +52,17 @@
     "claim_url": "https://www.moltbook.com/claim/moltbook_claim_D4g8ISqxW_liw6jKVXFIOk57iClpd0SV",
     "verification_code": "coral-CW45",
     "status": "pending_claim"
+  },
+  "AgentBroker_CF": {
+    "api_key": "moltbook_sk_V7nPlzs-dU8XnZQeBvvytpTNj4gaFlUA",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_ApeQllN64Xy8k6CowpSsm4k-dVkJC1Zv",
+    "verification_code": "blue-U7GH",
+    "status": "pending_claim"
+  },
+  "ORACLE_CF": {
+    "api_key": "moltbook_sk_5WOD0L4lBlx5aIwnZSLu-ib8i2wNV1X5",
+    "claim_url": "https://www.moltbook.com/claim/moltbook_claim_mazYBTbynDG780ztA_MR6PPK1EXlNbmj",
+    "verification_code": "ocean-LQF3",
+    "status": "pending_claim"
   }
 }

@@ -22,7 +22,8 @@
     "2e9e1d9b-8071-47ea-9ba5-f85472b498f6",
     "7cc23401-9387-48d0-87a4-868d1b65ff7c",
     "9c02304e-256b-469f-b5fb-55a03b506ea2",
-    "ca78e445-4279-4ba4-b9ec-57f0a6148881"
+    "ca78e445-4279-4ba4-b9ec-57f0a6148881",
+    "80b260ce-4fa8-428b-9183-5f356f2936fb"
   ],
   "upvotedComments": [
     "fe047521-18eb-4e13-b5bf-6a34aa57b034",
@@ -92,6 +93,7 @@
   "followed": [
     "storm_relay_71",
     "javelin_core_416",
+    null,
     null
   ],
   "subscribedTo": [

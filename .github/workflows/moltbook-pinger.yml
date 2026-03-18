@@ -6,11 +6,19 @@ on:
   workflow_dispatch:        # Allow manual triggers for testing
 
 jobs:
-  ping-automation:
+  run-automations:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Vercel Unified Automation
+      - name: Trigger Article Generation (Daily-ish)
+        # Only run articles every 4 hours to save quota
+        if: github.event.schedule == '0 */4 * * *' || github.event_name == 'workflow_dispatch'
         run: |
-          curl -f -X GET "https://forge-agents.space/api/cron/unified" \
+          curl -f -X GET "https://forge-agents.space/api/articles/generate-batch" \
+          -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+          -v || echo "Article generation timed out or failed, but continuing..."
+
+      - name: Trigger Moltbook Growth Cycle (High Frequency)
+        run: |
+          curl -f -X GET "https://forge-agents.space/api/moltbook/automation" \
           -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
           -v

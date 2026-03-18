@@ -95,7 +95,7 @@ Output ONLY the post body text.`;
     let postRes;
     const availableBrands = Object.entries(BRAND_MAP);
     let attempts = 0;
-    const maxAttempts = 5;
+    const maxAttempts = 20;
 
     while (attempts < maxAttempts) {
       const [brandName, submolt] = availableBrands[Math.floor(Math.random() * availableBrands.length)];
