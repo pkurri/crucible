@@ -21,8 +21,10 @@ export async function GET(request: Request) {
 
     // 1. Run Article Generation
     try {
-      const articleRes = await generateArticles(request);
-      results.articles = await articleRes.json();
+      const articleRes: any = await generateArticles(request);
+      if (articleRes && typeof articleRes.json === 'function') {
+        results.articles = await articleRes.json();
+      }
       console.log('[MASTER CRON] Article generation complete.');
     } catch (e: any) {
       results.articles = { error: e.message };
@@ -31,8 +33,10 @@ export async function GET(request: Request) {
 
     // 2. Run Moltbook Automation
     try {
-      const moltRes = await moltbookAutomation(request);
-      results.moltbook = await moltRes.json();
+      const moltRes: any = await moltbookAutomation(request);
+      if (moltRes && typeof moltRes.json === 'function') {
+        results.moltbook = await moltRes.json();
+      }
       console.log('[MASTER CRON] Moltbook automation complete.');
     } catch (e: any) {
       results.moltbook = { error: e.message };
