@@ -41,35 +41,51 @@ async function uploadVideo() {
   // 📦 METADATA LOGIC
   const channelConfigs = {
     'AAK-tion': {
-       title: 'Lord Ganesha: The Secret Science of Removing Obstacles (4K Success Guide)',
-       description: 'Unlock ancient wisdom in 4K HD. Lord Ganesha isn\'t just a story; He is a protocol for high-performance.\n\n#4K #UltraHD #Success #Wisdom',
-       tags: ['ganesha', '4k', 'success', 'aaktion', 'wisdom'],
+       title: 'The Unstoppable Protocol: Why Lord Ganesha is Your Secret Success Code 🐘💎',
+       description: 'Unlock higher dimensions of productivity. Lord Ganesha isn\'t just a story; He is the universal removal of obstacles.\n\n#Ganesha #Success #Mindset #4K #Viral',
+       tags: ['ganesha', 'productivity', 'success', 'aaktion', '4k', 'wisdom'],
        category: '27'
     },
     'PlayfulPixels': {
-       title: 'ABC Animal Adventures (4K Kids Learning)',
-       description: 'Learning the alphabet has never been so vibrant. Ultra HD 4K educational fun for kids!\n\n#4K #Kids #Learning #ABC',
-       tags: ['kids', 'abc', '4k', 'learning', 'playfulpixels'],
-       category: '1'
+       title: 'Magic ABC Adventure: Hyper-Visual Learning for Kids! 🌈👶',
+       description: 'Can learning be this vibrant? 3D letters jumping through rainbow portals in 4K.\n\n#Learning #Alphabet #KidsEducation #FamilyFriendly #Shorts',
+       tags: ['kids', 'abc', '4k', 'nurseryrhymes', 'education'],
+       category: '1',
+       madeForKids: true
     },
     'WealthWizards': {
-       title: 'Market Intel: AI & The New Economy (4K Finance)',
-       description: 'Institutional-grade finance intel in 4K HD resolution. Stay ahead of the curve.',
-       tags: ['finance', 'ai', '4k', 'wealth', 'investing'],
+       title: 'THE INSIDER EDGE: Why AI is Rewriting the Finance Manual 📉🤖',
+       description: 'Deep-blue market intel in institutional 4K. Stay ahead or get left behind.\n\n#Finance #Investing #AI #Crypto #WealthWizards',
+       tags: ['finance', 'passiveincome', 'ai', 'stocks', 'trading'],
        category: '27'
     },
     'ChefCipher': {
-       title: 'AI Recipe Hacks: The Future of Flavor (4K Cooking)',
-       description: 'Computational gastronomy in stunning 4K detail. Re-designing your kitchen logic.',
-       tags: ['cooking', 'recipes', '4k', 'food', 'chef'],
+       title: 'THE FLAVOR MATRIX: 3 AI-Assisted Cooking Hacks That Shouldn\'t Be Legal 🧪🍔',
+       description: 'Molecular results using standard kitchen logic. Computational gastronomy in 4K.\n\n#Cooking #FoodHacks #Science #ChefCipher #4K',
+       tags: ['cooking', 'recipes', 'futureoffood', 'gastronomy', 'ai'],
        category: '22'
     },
     'CodeCrucible': {
-       title: 'Industrial Code Snippets: Micro-Service Logic (4K Dev)',
-       description: 'Clean code in clear 4K. Architecting the future one line at a time.',
-       tags: ['coding', 'programming', '4k', 'dev', 'softwaredesign'],
+       title: 'THE ARCHITECTS TRAP: Why Your Microservices Are Failing (And How to Fix It) 💻⚙️',
+       description: 'Industrial-grade software design explained in clear 4K logic.\n\n#Coding #SystemDesign #SoftwareEngineering #JavaScripts #Architecture',
+       tags: ['coding', 'programming', 'architecture', 'dev', 'softwaredesign'],
        category: '28'
-    }
+    },
+    'PixelPioneers': { title: '1984 vs 2026: Giving a Vintage Mac a Neural Link 🖥️🧠', description: 'Retro tech meets the AI Singularity in 4K.\n#Tech #Retro #AI #History', tags: ['retro', 'vintage', 'ai', 'tech'], category: '28' },
+    'LogicLoom': { title: 'THE PARADOX REVEALED: Why Everything You Know is a Loop 🌀🗿', description: 'Deep logic and philosophical deep dives in stunning 4K.\n#Philosophy #Logic #DeepThink', tags: ['philosophy', 'logic', 'paradox', 'mindblowing'], category: '27' },
+    'NeonNexus': { title: 'CYBERPUNK 2026: The Hidden Tech Already Living in Your City 🏙️🌃', description: 'Exploring the neon edge of future cities in 4K.\n#Cyberpunk #Future #Tech #Aesthetic', tags: ['cyberpunk', 'future', 'neon', 'cityscape'], category: '28' },
+    'AeroArc': { title: 'VERTICAL LIMIT: The Impossible Physics of Next-Gen Propulsion 🚀🔥', description: 'Aerospace engineering at the absolute limit. 4K Fire and Steel.\n#SpaceX #NASA #Engineering #Aerospace', tags: ['rocket', 'aerospace', 'physics', 'engineering'], category: '28' },
+    'CircuitSage': { title: 'SILICON SECRETS: The Hidden Logic Inside Your iPhone 📱🔍', description: 'Macro-scale hardware deep dives in 4K UHD.\n#Hardware #Teardown #Electronics #Engineering', tags: ['electronics', 'hardware', 'teardown', 'circuits'], category: '28' },
+    'QuantumQuiver': { title: 'THE QUANTUM GHOST: Visualizing the Sub-Atomic Matrix 🌌⚛️', description: 'Seeing the invisible in 4K quantum simulations.\n#Physics #Quantum #Universe #Science', tags: ['quantum', 'physics', 'science', 'universe'], category: '27' },
+    'DataDruid': { title: 'INFINITE DATA: How the Internet Actually Consumes Your Mind 🌐🧠', description: 'The absolute scale of Big Data visualized in 4K.\n#DataScience #BigData #Internet #Secrets', tags: ['data', 'analytics', 'internet', 'tech'], category: '28' },
+    'EchoEther': { title: 'CYBERPUNK RAIN: Immersion Protocol for Deep Focus 🌧️🌆', description: '4K ASMR and ambient futuristic soundscapes.\n#LoFi #Focus #Study #Immersion', tags: ['ambient', 'lofi', 'focus', 'asmr'], category: '10' },
+    'VortexVantage': { title: 'CHAOS CONTROL: The Beautiful Math of Fluid Destabilization 🌊🔥', description: 'Stunning 4K fluid simulations and physics art.\n#Physics #Art #Satisfying #FluidSim', tags: ['satisfying', 'physics', 'art', 'vortex'], category: '27' },
+    'SummitSphere': { title: 'ABOVE THE CLOUDS: Impossible Landscapes Rendered in 8K Detail 🏔️🚁', description: 'Ultra-high fidelity travel and nature captures.\n#Travel #Nature #4K #Landscapes', tags: ['travel', 'nature', 'landscape', 'photography'], category: '19' },
+    'GridGrit': { title: 'CONCRETE JUNGLE: The Brutalist Aesthetics of Modern Architecture 🏗️🏛️', description: 'Finding beauty in the industrial grid in 4K.\n#Architecture #Design #Industrial #Brutalism', tags: ['architecture', 'design', 'industrial', 'grid'], category: '19' },
+    'BioBeam': { title: 'CRISPR DREAMS: Re-Coding the Human Genome in 4K 🧬🧪', description: 'The terrifying and beautiful future of Biotech.\n#Biotech #Science #Genetics #Future', tags: ['biology', 'science', 'crispr', 'biohacking'], category: '28' },
+    'StellarSync': { title: 'THE GALACTIC CORE: Real Space Recordings You Weren\'t Meant to See 🔭🌌', description: 'Outer space mysteries in 4K UHD clarity.\n#Space #Universe #NASA #Telescope', tags: ['space', 'universe', 'astronomy', 'stars'], category: '28' },
+    'TerraTable': { title: 'WAR GAMES: Topographical Mapping of Current Global Shifts 🗺️🎖️', description: '3D geopolitics and terrain analysis in 4K.\n#Geography #History #Maps #Strategy', tags: ['maps', 'geopolitics', 'strategy', 'history'], category: '19' },
+    'PrismPro': { title: 'COLOR THEORY: The Psychological Warfare of Visual Branding 🎨🎭', description: 'How light and color manipulate your choices. 4K Optics.\n#Design #Art #ColorTheory #Branding', tags: ['art', 'design', 'color', 'theory'], category: '10' }
   };
 
   const videoData = channelConfigs[channelName] || channelConfigs['AAK-tion'];

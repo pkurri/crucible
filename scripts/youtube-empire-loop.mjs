@@ -8,7 +8,12 @@ import path from 'path';
  * All channels are optimized for 4K / HD automated output.
  */
 
-const CHANNELS = ['AAK-tion', 'PlayfulPixels', 'WealthWizards', 'ChefCipher', 'CodeCrucible'];
+const CHANNELS = [
+  'AAK-tion', 'PlayfulPixels', 'WealthWizards', 'ChefCipher', 'CodeCrucible',
+  'PixelPioneers', 'LogicLoom', 'NeonNexus', 'AeroArc', 'CircuitSage',
+  'QuantumQuiver', 'DataDruid', 'EchoEther', 'VortexVantage', 'SummitSphere',
+  'GridGrit', 'BioBeam', 'StellarSync', 'TerraTable', 'PrismPro'
+];
 const INTERVAL_MS = 30 * 60 * 1000; // 30 Minutes
 
 async function runHeartbeat() {
@@ -31,28 +36,41 @@ async function runHeartbeat() {
       // 2. Run Generation Logic
       console.log(`⚒️ [StorySmith] Generating 4K Script and SEO Metadata...`);
       
-      // 3. Asset Quality Audit
-      const videoFilePath = path.join(channelPath, 'final-render.mp4');
-      if (existsSync(videoFilePath)) {
-         console.log(`📡 [Quality Audit] Scanning 4K Master at: ${videoFilePath}`);
-         // Here you would add ffmpeg/ffprobe checks for resolution if available
-      } else {
-         console.log(`⚠️ [Quality Audit] No video found. Waiting for 4K Render...`);
-      }
-      
-      // 4. Checking Uploader Readiness
-      console.log(`🚢 [Channel Warden] Checking connectivity and pushing for ${channel}...`);
-      
-      // Run the dynamic uploader with the channel flag
-      execSync(`node scripts/youtube-official-uploader.mjs --channel "${channel}"`, { stdio: 'inherit' });
 
-    } catch (err) {
-      console.error(`❌ Error in ${channel} cycle: ${err.message}`);
+async function runEmpireCycle() {
+    console.log(`\n🔱 STARTING INDUSTRIAL PRODUCTION CYCLE - ${new Date().toLocaleString()}`);
+    
+    for (const channelName of CHANNELS) {
+        console.log(`\n📦 Processing Channel: ${channelName}`);
+        
+        // 1. Check for 4K Assets
+        const assetDir = path.join(process.cwd(), 'data', 'youtube-empire', channelName, 'assets');
+        const finalRenderPath = path.join(process.cwd(), 'data', 'youtube-empire', channelName, 'final-render.mp4');
+
+        if (fs.existsSync(assetDir) && fs.readdirSync(assetDir).length > 0) {
+            console.log(`🎬 4K Assets found! Triggering Render Factory...`);
+            try {
+                // Execute the stitcher directly
+                execSync(`node scripts/empire-4k-stitcher.mjs ${channelName}`, { stdio: 'inherit' });
+            } catch (e) {
+                console.error(`❌ Render failed for ${channelName}. Continuing to next...`);
+            }
+        }
+
+        // 2. Upload if video exists
+        if (fs.existsSync(finalRenderPath)) {
+            console.log(`🚀 Final render found! Triggering Global Upload...`);
+            try {
+                execSync(`node scripts/youtube-official-uploader.mjs ${channelName}`, { stdio: 'inherit' });
+                // Move or delete after upload to prevent duplicate uploads? 
+                // For now, let's keep it and the uploader should handle tracking.
+            } catch (e) {
+                console.error(`❌ Upload failed for ${channelName}.`);
+            }
+        } else {
+            console.log(`⚠️ No final-render.mp4 for ${channelName}. Skipping...`);
+        }
     }
-  }
-
-  console.log(`\n✅ Heartbeat Complete. Resting for 30 minutes...`);
-  setTimeout(runHeartbeat, INTERVAL_MS);
 }
 
 // Initial Run
