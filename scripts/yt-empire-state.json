@@ -1,0 +1,24 @@
+{
+  "channels": {
+    "PlayfulPixels": {
+      "niche": "KidsLearning",
+      "subs": 5516,
+      "videos": 14,
+      "rev": 537.12
+    },
+    "DreamyDragons": {
+      "niche": "BedtimeStories",
+      "subs": 3100,
+      "videos": 8,
+      "rev": 210.8
+    },
+    "BlockBuddyAcademy": {
+      "niche": "MinecraftRoleplay",
+      "subs": 12777,
+      "videos": 17,
+      "rev": 1320.27
+    }
+  },
+  "lastRun": "2026-03-18T21:22:33.099Z",
+  "totalEmpireRevenue": 2068.19
+}
