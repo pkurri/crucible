@@ -1,18 +1,23 @@
+.env*
+.vercel/
+.vercel
 node_modules/
-.env
-.env.local
-.env.*.local
-*.log
-.DS_Store
 dist/
 .next/
 out/
-.vercel/
 .wrangler/
 coverage/
 playwright-report/
 test-results/
-.vercel
+# Security & Credentials
+client_secret.json
+youtube-token.json
+moltbook-credentials.json
+moltbook-state.json
+yt-empire-state.json
+*.pem
+*.key
+.env*
 
 
 # YouTube Credentials

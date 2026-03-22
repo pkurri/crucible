@@ -8,7 +8,7 @@ const skillsDir = path.join(__dirname, '../skills');
 
 function validateSkill(skillPath) {
   const content = fs.readFileSync(skillPath, 'utf8');
-  const frontmatterMatch = content.match(/^---\n(.*?)\n---/s);
+  const frontmatterMatch = content.match(/^---\r?\n(.*?)\r?\n---/s);
 
   if (!frontmatterMatch) {
     throw new Error(`No frontmatter found in ${skillPath}`);

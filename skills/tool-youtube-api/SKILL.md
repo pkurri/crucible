@@ -7,6 +7,10 @@ allowed-tools:
   - Bash
   - WebFetch
   - node
+triggers:
+  - 'When requested to upload a video to YouTube'
+  - 'When requested to update video metadata or thumbnails'
+  - 'When requested to fetch channel analytics or performance data'
 ---
 
 # YouTube API Integration (Production)

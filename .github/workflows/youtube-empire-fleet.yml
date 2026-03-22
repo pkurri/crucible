@@ -1,35 +1,49 @@
-name: YouTube Empire Fleet Production
+name: '🔱 AAK Nation YouTube Empire Fleet'
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Every 12 hours
-  workflow_dispatch: # Manual trigger
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
 
 jobs:
-  production-cycle:
+  produce-and-upload:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
-      - name: Checkout Crucible Core
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node Forge
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
-      - name: Install Industrial Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
-          npm install --include=dev
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-      - name: Injection: YouTube Credentials
+      - name: Install Dependencies
+        run: npm install googleapis
+
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Edge TTS
+        run: pip install edge-tts
+
+      - name: Setup YouTube Credentials
+
         run: |
           echo '${{ secrets.YOUTUBE_CLIENT_SECRET }}' > client_secret.json
           echo '${{ secrets.YOUTUBE_TOKEN_JSON }}' > youtube-token.json
 
-      - name: Launch Empire production-cycle
-        env:
-          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+      - name: Create Topic Directories
+        run: |
+          for topic in SuccessCodes WealthWizards MysteryArchive PlayfulPixels ZenGarden FutureTech DailyStoic CookingCzar TravelTrek AutoArena GamingGuru NatureNook PulsePolitics CinemaScope LifeHacks MindfulMinutes GadgetGrab PetParade HistoryHub ForgeCore; do
+            mkdir -p "data/youtube-empire/AAK-Nation/topics/$topic/assets"
+            mkdir -p "data/youtube-empire/AAK-Nation/topics/$topic/uploaded"
+          done
+
+      - name: Run Empire Production Loop
         run: node scripts/youtube-empire-loop.mjs
+        env:
+          NODE_ENV: production

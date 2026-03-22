@@ -149,6 +149,16 @@ function cleanupOldVideos() {
   }
 }
 
-runEmpireCycle();
-// Run every 4 hours (6 uploads spread across the day)
-setInterval(runEmpireCycle, 1000 * 60 * 60 * 4);
+// Run loop only if NOT in GitHub Actions or other CI (to allow one-shot runs in CI)
+if (!process.env.GITHUB_ACTIONS && !process.env.CI) {
+  runEmpireCycle();
+  // Run every 4 hours (6 uploads spread across the day)
+  setInterval(runEmpireCycle, 1000 * 60 * 60 * 4);
+} else {
+  // Just run once in CI and exit
+  runEmpireCycle().catch(err => {
+    console.error('Fatal production error:', err);
+    process.exit(1);
+  });
+}
+

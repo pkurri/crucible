@@ -8,3 +8,6 @@ test-results/
 *.log
 .env*
 .DS_Store
+.venv/
+venv/
+
