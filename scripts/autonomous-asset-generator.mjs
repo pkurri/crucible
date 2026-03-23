@@ -8,7 +8,8 @@ import { execSync } from 'child_process';
  */
 
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
-const BASE_DIR = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nation', 'topics');
+const BASE_DIR_YT = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nation', 'topics');
+const BASE_DIR_META = path.join(process.cwd(), 'data', 'meta-empire', 'AAK-Nation', 'topics');
 const PROMPTS_FILE = path.join(process.cwd(), 'data', 'empire-prompts-daily.json');
 
 const TOPICS = [
@@ -21,7 +22,9 @@ const TOPICS = [
 
 async function generateImagesForTopic(topic) {
   console.log(`\n🎨 [${topic}] Generating assets...`);
-  const assetDir = path.join(BASE_DIR, topic, 'assets');
+  const topicMetaDir = path.join(BASE_DIR_META, topic);
+  const baseForThisTopic = fs.existsSync(topicMetaDir) ? BASE_DIR_META : BASE_DIR_YT;
+  const assetDir = path.join(baseForThisTopic, topic, 'assets');
   fs.mkdirSync(assetDir, { recursive: true });
 
   // Load prompt from engine

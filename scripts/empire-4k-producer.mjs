@@ -43,6 +43,9 @@ let SCRIPTS = {
   HistoryHub: { voice: 'en-US-GuyNeural', lines: [ { text: 'Empires rise. Empires fall. The pattern never changes.', duration: 5 }, { text: 'Learn from the past or be condemned to repeat it.', duration: 5 }, { text: 'HistoryHub. Lessons from AAK Nation.', duration: 5 } ] },
   ForgeCore: { voice: 'en-US-GuyNeural', lines: [ { text: 'This is where it all begins.', duration: 5 }, { text: 'The Crucible AI Empire. Built from nothing. Running everything.', duration: 5 }, { text: 'ForgeCore. The genesis of AAK Nation.', duration: 5 } ] },
   BioHarmonize: { voice: 'en-US-GuyNeural', lines: [ { text: 'Your eight hour sleep is a lie.', duration: 5 }, { text: 'This zero dollar habit is ten times better than caffeine.', duration: 5 }, { text: 'BioHarmonize. Peak human performance on AAK Nation.', duration: 5 } ] },
+  StoicMindset: { voice: 'en-US-GuyNeural', lines: [ { text: 'He who fears death will never do anything worthy of a man who is alive.', duration: 5 }, { text: 'The obstacle is not in your way. The obstacle is the way.', duration: 5 }, { text: 'StoicMindset. Mental iron by AAK Nation.', duration: 5 } ] },
+  WealthBlueprint: { voice: 'en-US-GuyNeural', lines: [ { text: 'Most people work for money. The wealthy make money work for them.', duration: 5 }, { text: 'Discipline is the bridge between goals and accomplishment.', duration: 5 }, { text: 'WealthBlueprint. The system by AAK Nation.', duration: 5 } ] },
+  FutureSapiens: { voice: 'en-US-GuyNeural', lines: [ { text: 'The line between human and machine is about to vanish.', duration: 5 }, { text: 'Evolution is no longer biological. It is technical.', duration: 5 }, { text: 'FutureSapiens. The next era on AAK Nation.', duration: 5 } ] },
 };
 
 // 🏛️ Load Viral Scripts (Priority)

@@ -16,8 +16,10 @@ const engineConfigs = [
   { channel: 'AeroArc', niche: 'Aerospace', keywords: ['Propulsion', 'Rocketry', 'Supersonic', 'Extreme Physics'] },
   { channel: 'CircuitSage', niche: 'Hardware', keywords: ['Silicon', 'Teardown', 'Microchips', 'Circuitry'] },
   { channel: 'QuantumQuiver', niche: 'Physics', keywords: ['Quantum', 'Sub-atomic', 'Entanglement', 'Visualizing Chaos'] },
-  { channel: 'BioHarmonize', niche: 'Biohacking/Peak Performance', keywords: ['DNA structure', 'Neural pathways', 'Glowing cells', 'Futuristic biology', 'Circadian rhythms'] }
-  // ... more can be added
+  { channel: 'BioHarmonize', niche: 'Biohacking/Peak Performance', keywords: ['DNA structure', 'Neural pathways', 'Glowing cells', 'Futuristic biology', 'Circadian rhythms'] },
+  { channel: 'StoicMindset', niche: 'Stoic Wisdom', keywords: ['Marcus Aurelius', 'Marble Statues', 'Stormy Seas', 'Inner Peace', 'Dramatic Lighting'] },
+  { channel: 'WealthBlueprint', niche: 'UHNWI Wealth', keywords: ['High-end mechanical watches', 'Private jets', 'Minimalist mansion', 'Gold bars', 'Stealth wealth'] },
+  { channel: 'FutureSapiens', niche: 'AI & Transhumanism', keywords: ['Cybernetic implants', 'Glowing neural networks', 'Robot hands', 'Neon cityscapes'] }
 ];
 
 function generateViralPrompt(config) {
