@@ -282,6 +282,22 @@
       "stage": "workflow",
       "tags": ["workflow", "templates"],
       "summary": "Seed a new runnable template under templates/NNN-slug/ from a short spec by chaining existing skills (intake \u2192 crucible stages) while keeping it clean and shareable."
+    },
+    {
+      "name": "gaming-studio",
+      "dir": "gaming-studio",
+      "skillMd": "gaming-studio/SKILL.md",
+      "stage": "workflow",
+      "tags": ["workflow", "gaming", "orchestration"],
+      "summary": "Full-cycle game studio orchestration utilizing a 48-agent hierarchy across 4 phases. Manages everything from high-concept to store compliance."
+    },
+    {
+      "name": "revenue-optimizer",
+      "dir": "revenue-optimizer",
+      "skillMd": "revenue-optimizer/SKILL.md",
+      "stage": "tool",
+      "tags": ["tool", "monetization", "revenue"],
+      "summary": "Optimize game revenue by analyzing monetization models and segmenting features into Free and Pro tiers. Generates data-driven IAP and subscription strategies."
     }
   ]
 }

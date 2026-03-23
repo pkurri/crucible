@@ -1,38 +1,7 @@
 {
   "lastUploadDate": "2026-03-23",
-  "uploadsToday": 6,
-  "history": [
-    {
-      "topic": "SuccessCodes",
-      "date": "2026-03-23T14:37:51.257Z",
-      "status": "uploaded"
-    },
-    {
-      "topic": "ZenGarden",
-      "date": "2026-03-23T14:37:58.713Z",
-      "status": "uploaded"
-    },
-    {
-      "topic": "FutureTech",
-      "date": "2026-03-23T14:38:01.850Z",
-      "status": "uploaded"
-    },
-    {
-      "topic": "DailyStoic",
-      "date": "2026-03-23T14:38:05.434Z",
-      "status": "uploaded"
-    },
-    {
-      "topic": "BioHarmonize",
-      "date": "2026-03-23T14:38:23.326Z",
-      "status": "uploaded"
-    },
-    {
-      "topic": "SuccessCodes",
-      "date": "2026-03-23T18:38:03.350Z",
-      "status": "uploaded"
-    }
-  ],
+  "uploadsToday": 0,
+  "history": [],
   "dispatched": {
     "SuccessCodes": "2026-03-20T02:50:20.582Z",
     "DailyStoic": "2026-03-20T02:51:56.703Z"

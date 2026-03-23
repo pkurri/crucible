@@ -189,15 +189,12 @@
 
 ---
 
-### 📱 Mobile & Cross-Platform (5 skills)
-
-**react-native-builder** - React Native app creator  
-**flutter-generator** - Flutter app template  
-**mobile-api-optimizer** - Mobile API optimization  
-**push-notification-setup** - Push notification integration  
-**mobile-analytics** - Mobile analytics tracking
-
 ---
+
+### 🎮 Gaming & Interactive (New)
+
+**gaming-studio** - Full-cycle game studio orchestration (48 agents)  
+**revenue-optimizer** - Monetization strategy and Free/Pro segmentation  
 
 ## Skill Structure
 

@@ -261,6 +261,14 @@ generates 8+ minute scripts, produces visual/audio assets, and manages monetizat
 
 ---
 
+### 🎮 Gaming & Interactive (1 template)
+
+**102-game-studio-crucible**  
+A 48-agent studio architecture for professional game development. Includes 
+revenue optimization for Free vs Pro features.
+
+---
+
 ## Template Structure
 
 Each template includes:
