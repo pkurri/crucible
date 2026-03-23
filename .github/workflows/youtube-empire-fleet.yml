@@ -43,6 +43,11 @@ jobs:
             mkdir -p "data/youtube-empire/AAK-Nation/topics/$topic/uploaded"
           done
 
+      - name: Generate Autonomous Assets (Images)
+        run: node scripts/autonomous-asset-generator.mjs
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
       - name: Run Empire Production Loop
         run: node scripts/youtube-empire-loop.mjs
         env:
