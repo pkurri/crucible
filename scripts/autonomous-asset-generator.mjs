@@ -56,6 +56,9 @@ async function generateImagesForTopic(topic) {
       });
 
       const data = await response.json();
+      if (!data.choices || !data.choices[0]) {
+        throw new Error(`OpenRouter rejected request or returned empty: ${JSON.stringify(data)}`);
+      }
       const visualDescription = data.choices[0].message.content;
       console.log(`   🎨 Visual Blueprint architected: ${visualDescription.substring(0, 50)}...`);
 

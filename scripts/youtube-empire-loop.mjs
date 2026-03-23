@@ -47,7 +47,7 @@ async function runEmpireCycle() {
 
   const registry = JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8'));
   const ytNiches = registry.niches
-    .filter(n => n.platforms.includes('youtube'))
+    .filter(n => n.platforms?.includes('youtube'))
     .sort((a,b) => (b.priority ? 1 : 0) - (a.priority ? 1 : 0));
 
   console.log(`📊 Quota: ${state.uploadsToday}/${MAX_UPLOADS_PER_DAY} used today. ${remaining} uploads remaining.`);

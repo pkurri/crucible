@@ -48,7 +48,7 @@ async function runMetaCycle() {
   
   const registry = JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8'));
   const metaNiches = registry.niches
-    .filter(n => n.platforms.includes('meta'))
+    .filter(n => n.platforms?.includes('meta'))
     .sort((a,b) => (b.priority ? 1 : 0) - (a.priority ? 1 : 0)); // Priority first
 
   console.log(`📊 Quota: ${state.uploadsToday}/${MAX_UPLOADS_PER_DAY} used today. Found ${metaNiches.length} identified niches.`);

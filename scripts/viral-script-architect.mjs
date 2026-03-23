@@ -17,9 +17,10 @@ async function architectScript(niche) {
 Write short, punchy, word-by-word delivery scripts (15-20 seconds).
 Focus on: Pattern Interrupt, High Logic, and a strong Viral Hook.`;
 
+  const keywordsStr = niche.keywords ? niche.keywords.join(', ') : niche.name;
   const userPrompt = `Write a viral script for "${niche.name}".
 Niche context: ${niche.reason || 'High velocity'}.
-Visual Keywords: ${niche.keywords.join(', ')}.
+Visual Keywords: ${keywordsStr}.
 
 Return ONLY a JSON object:
 {
