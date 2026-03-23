@@ -28,26 +28,57 @@ const BRAND_MAP: Record<string, string> = {
   UA_PRO: 'forge-growth-engine'
 };
 
-async function moltbookApi(path: string, method: string, body: any, apiKey: string) {
+/**
+ * Enhanced Moltbook API helper with Autonomous Verification Solving
+ */
+async function moltbookApi(path: string, method: string, body: any, apiKey: string): Promise<any> {
   const headers = {
     'Authorization': `Bearer ${apiKey}`,
     'Content-Type': 'application/json'
   };
-  const res = await fetch(`${MOLTBOOK_API}${path}`, {
-    method,
-    headers,
-    body: body ? JSON.stringify(body) : undefined
-  });
-  
-  const text = await res.text();
-  let data;
-  try {
-    data = JSON.parse(text);
-  } catch {
-    throw new Error(`Non-JSON response (HTTP ${res.status}): ${text.substring(0, 100)}`);
+
+  const executeRequest = async (p: string, m: string, b: any) => {
+    const res = await fetch(`${MOLTBOOK_API}${p}`, {
+      method: m,
+      headers,
+      body: b ? JSON.stringify(b) : undefined
+    });
+    const text = await res.text();
+    let data;
+    try { data = JSON.parse(text); } catch { throw new Error(`Non-JSON response (HTTP ${res.status})`); }
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${JSON.stringify(data)}`);
+    return data;
+  };
+
+  const data = await executeRequest(path, method, body);
+
+  // Handle AI Verification Challenge if required
+  if (data.verification_required && data.verification) {
+    console.log('[Moltbook Verification] Challenge received. Solving...');
+    const { verification_code, challenge_text } = data.verification;
+
+    const solverPrompt = `You are an AI Verification Solver for Moltbook. 
+You must solve an obfuscated math word problem.
+
+Challenge Text: "${challenge_text}"
+
+Instructions: 
+1. Ignore the symbols, alternating caps, and broken words.
+2. Identify the two numbers and the operation.
+3. Calculate the result.
+4. Output ONLY the resulting number with exactly 2 decimal places (e.g., "15.00"). No other text.`;
+
+    const answer = await generateText(solverPrompt);
+    if (!answer) throw new Error('Failed to solve verification challenge');
+
+    console.log(`[Moltbook Verification] Solved: ${answer}. Submitting...`);
+    
+    return await executeRequest('/verify', 'POST', {
+      verification_code,
+      answer: answer.trim()
+    });
   }
-  
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${JSON.stringify(data)}`);
+
   return data;
 }
 
@@ -65,94 +96,76 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: 'MOLTBOOK_API_KEY missing' }, { status: 500 });
   }
 
+  const results: any[] = [];
+
   try {
-    // 1. Pick a random brand to post as CrucibleForge (Unified Strategy)
-    const brands = Object.entries(BRAND_MAP);
-    const [brandName, submolt] = brands[Math.floor(Math.random() * brands.length)];
-    
-    console.log(`[Moltbook Cron] Activating ${brandName} protocol...`);
+    // 1. Check Identity (RED Priority)
+    const me = await moltbookApi('/agents/me', 'GET', null, apiKey);
+    const unreadCount = me.unread_notifications || 0;
+    results.push({ step: 'check_identity', karma: me.agent?.karma, unread: unreadCount });
 
-    // 2. Trigger Logic: Check if we can post (Optional: Use Supabase for persistence)
-    // For now, we'll try to post. If Moltbook rate limits us, it will throw.
+    // 2. Handle Notifications (RED Priority)
+    if (unreadCount > 0) {
+      const notifsRes = await moltbookApi('/notifications', 'GET', null, apiKey);
+      const mentions = (notifsRes.notifications || []).filter((n: any) => 
+        (n.type === 'post_comment' || n.type === 'mention') && !n.is_read
+      ).slice(0, 1);
 
-    // 2. Setup Guardrails & Submolt Context
-    const communityRules = `
-Moltbook Community Guardrails:
-- Be Genuine: Share real industrial insights or market signals. No filler content.
-- Quality Over Quantity: Ensure the post is thoughtful and valuable.
-- Respect the Commons: Stay strictly on-topic for the specific niche submolt.
-- No Low-Effort: Avoid one-word, emoji-only, or repetitive content.
-- No Excessive Self-Promotion: Focus on intelligence, not selling.
-- NO CRYPTO: Do not mention cryptocurrency or blockchain unless specifically relevant to the industrial niche.
-`;
+      for (const target of mentions) {
+        const replyPrompt = `You are a professional industrial AI. 
+Context: User commented on your post "${target.post?.title || ''}".
+User said: "${target.comment?.content || ''}"
+Goal: Direct 2-sentence expert reply. Professional/Analytical/Insightful. Output ONLY the reply.`;
 
-    // 4. Post to Moltbook (with Retry for missing submolts)
-    let postRes;
-    const availableBrands = Object.entries(BRAND_MAP);
-    let attempts = 0;
-    const maxAttempts = 20;
-
-    while (attempts < maxAttempts) {
-      const [brandName, submolt] = availableBrands[Math.floor(Math.random() * availableBrands.length)];
-      console.log(`[Moltbook] Posting attempt ${attempts + 1} as ${brandName} to m/${submolt}...`);
-      
-      try {
-        const prompt = `You are ${brandName}, part of the Crucible industrial AI fleet. 
-Your niche is: ${submolt}.
-
-${communityRules}
-
-Task: Write an original, professional, and slightly provocative Moltbook post about a recent "market signal" or "threat" in your niche.
-
-Requirements:
-- Professional, analytical tone aligned with the ${brandName} persona.
-- Length: Concise (ideally under 280 characters, max 500).
-- Highlight a specific industrial insight or discovery.
-- End with an engaging question for the community.
-- Strict adherence to the Moltbook Community Guardrails above.
-
-Output ONLY the post body text.`;
-
-        const content = await generateText(prompt);
-        if (!content) throw new Error('Failed to generate content');
-
-        postRes = await moltbookApi('/posts', 'POST', {
-          submolt_name: submolt,
-          title: `${brandName} Intelligence Brief`,
-          content: content,
-          type: 'text'
-        }, apiKey);
-        
-        // Success!
-        console.log(`[Moltbook] Success: Posted as ${brandName} to m/${submolt}`);
-        
-        // Log successful brand in response or event
-        await supabase.from('forge_events').insert({
-          event_type: 'MOLTBOOK_POST',
-          message: `Posted ${brandName} intelligence to m/${submolt}`,
-          agent_id: 'moltbook-cron',
-          metadata: { post_id: postRes.post?.id || postRes.id, brand: brandName }
-        });
-
-        return NextResponse.json({
-          success: true,
-          brand: brandName,
-          submolt,
-          post_id: postRes.post?.id || postRes.id
-        });
-
-      } catch (err: any) {
-        if (err.message.includes('404') && attempts < maxAttempts - 1) {
-          console.warn(`[Moltbook] m/${submolt} not found. Retrying with different brand...`);
-          attempts++;
-          continue;
+        const reply = await generateText(replyPrompt);
+        if (reply) {
+          await moltbookApi(`/posts/${target.post?.id}/comments`, 'POST', { content: reply, parent_id: target.comment?.id }, apiKey);
+          results.push({ step: 'reply_to_mention', post_id: target.post?.id });
         }
-        throw err;
+      }
+      if (mentions.length > 0) await moltbookApi('/agents/notifications/read', 'POST', {}, apiKey);
+    }
+
+    // 3. Community Engagement (ORANGE Priority)
+    const availableBrands = Object.entries(BRAND_MAP);
+    const [engBrand, engNiche] = availableBrands[Math.floor(Math.random() * availableBrands.length)];
+    const searchRes = await moltbookApi(`/search?q=${encodeURIComponent(engNiche)}&limit=5`, 'GET', null, apiKey);
+    const externalPost = (searchRes.results || []).find((p: any) => p.author?.name !== 'crucibleforge');
+
+    if (externalPost) {
+      await moltbookApi(`/posts/${externalPost.id}/upvote`, 'POST', null, apiKey);
+      const engComment = await generateText(`You are ${engBrand}... Post: "${externalPost.title}"... Comment in 1-2 эксперт sentences. NO CRYPTO.`);
+      if (engComment) {
+        await moltbookApi(`/posts/${externalPost.id}/comments`, 'POST', { content: engComment }, apiKey);
+        if (externalPost.author?.name) await moltbookApi(`/agents/${externalPost.author.name}/follow`, 'POST', null, apiKey);
+        results.push({ step: 'community_engagement', brand: engBrand });
       }
     }
 
+    // 4. Intelligence Pulse: Original Post & Moderator Action (BLUE Priority)
+    const [pBrand, pSubmolt] = availableBrands[Math.floor(Math.random() * availableBrands.length)];
+    const pContent = await generateText(`You are ${pBrand} (Niche: ${pSubmolt}). Write industrial insight brief (max 500 chars). NO CRYPTO. Ask a question.`);
+    const postRes = await moltbookApi('/posts', 'POST', {
+      submolt_name: pSubmolt,
+      title: `${pBrand} Intelligence Brief`,
+      content: pContent,
+      type: 'text'
+    }, apiKey);
+
+    const finalPostId = postRes.content_id || postRes.id; // Content_id comes from verification success
+    
+    // Ownership/Moderation Perk: Pin the latest intelligence brief
+    try {
+      await moltbookApi(`/posts/${finalPostId}/pin`, 'POST', null, apiKey);
+      results.push({ step: 'pin_post', status: 'success', post_id: finalPostId });
+    } catch (pinErr) { console.warn('[Moltbook] Pinning failed (likely hit limit or not owner)'); }
+
+    results.push({ step: 'original_post', brand: pBrand, submolt: pSubmolt, post_id: finalPostId });
+
+    return NextResponse.json({ success: true, results });
+
   } catch (error: any) {
     console.error('[Moltbook Cron] Error:', error.message);
-    return NextResponse.json({ success: false, error: error.message }, { status: 500 });
+    return NextResponse.json({ success: false, error: error.message, partial: results }, { status: 500 });
   }
 }
