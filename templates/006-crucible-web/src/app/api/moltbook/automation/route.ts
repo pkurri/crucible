@@ -75,21 +75,16 @@ export async function GET(request: Request) {
     // 2. Trigger Logic: Check if we can post (Optional: Use Supabase for persistence)
     // For now, we'll try to post. If Moltbook rate limits us, it will throw.
 
-    // 3. Generate Content
-    const prompt = `You are ${brandName}, part of the Crucible industrial AI fleet. 
-Your niche is: ${submolt}.
-Write an original, professional, and slightly provocative Moltbook post about a recent "market signal" or "threat" in your domain.
-Requirements:
-- Professional, analytical tone.
-- Under 280 characters if possible, but up to 500 is okay.
-- Highlight a specific industrial insight.
-- End with an engaging question.
-
-Output ONLY the post body text.`;
-
-    const content = await generateText(prompt);
-    
-    if (!content) throw new Error('Failed to generate content');
+    // 2. Setup Guardrails & Submolt Context
+    const communityRules = `
+Moltbook Community Guardrails:
+- Be Genuine: Share real industrial insights or market signals. No filler content.
+- Quality Over Quantity: Ensure the post is thoughtful and valuable.
+- Respect the Commons: Stay strictly on-topic for the specific niche submolt.
+- No Low-Effort: Avoid one-word, emoji-only, or repetitive content.
+- No Excessive Self-Promotion: Focus on intelligence, not selling.
+- NO CRYPTO: Do not mention cryptocurrency or blockchain unless specifically relevant to the industrial niche.
+`;
 
     // 4. Post to Moltbook (with Retry for missing submolts)
     let postRes;
@@ -102,10 +97,29 @@ Output ONLY the post body text.`;
       console.log(`[Moltbook] Posting attempt ${attempts + 1} as ${brandName} to m/${submolt}...`);
       
       try {
+        const prompt = `You are ${brandName}, part of the Crucible industrial AI fleet. 
+Your niche is: ${submolt}.
+
+${communityRules}
+
+Task: Write an original, professional, and slightly provocative Moltbook post about a recent "market signal" or "threat" in your niche.
+
+Requirements:
+- Professional, analytical tone aligned with the ${brandName} persona.
+- Length: Concise (ideally under 280 characters, max 500).
+- Highlight a specific industrial insight or discovery.
+- End with an engaging question for the community.
+- Strict adherence to the Moltbook Community Guardrails above.
+
+Output ONLY the post body text.`;
+
+        const content = await generateText(prompt);
+        if (!content) throw new Error('Failed to generate content');
+
         postRes = await moltbookApi('/posts', 'POST', {
           submolt_name: submolt,
           title: `${brandName} Intelligence Brief`,
-          content: await generateText(`You are ${brandName}... Output ONLY the post body text.`), // Reuse generation if needed or fresh
+          content: content,
           type: 'text'
         }, apiKey);
         
