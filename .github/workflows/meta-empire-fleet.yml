@@ -31,6 +31,12 @@ jobs:
         run: |
           mkdir -p data/meta-empire/AAK-Nation/topics/BioHarmonize/assets
           mkdir -p data/meta-empire/AAK-Nation/topics/BioHarmonize/uploaded
+          mkdir -p data
+
+      - name: Discover Daily Viral Niche
+        run: node scripts/niche-strategist.mjs
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
       - name: Run Meta Empire Loop
         run: node scripts/meta-empire-loop.mjs

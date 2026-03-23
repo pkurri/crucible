@@ -38,21 +38,12 @@ jobs:
 
       - name: Create Topic Directories
         run: |
-          for topic in SuccessCodes WealthWizards MysteryArchive PlayfulPixels ZenGarden FutureTech DailyStoic CookingCzar TravelTrek AutoArena GamingGuru NatureNook PulsePolitics CinemaScope LifeHacks MindfulMinutes GadgetGrab PetParade HistoryHub ForgeCore; do
-            mkdir -p "data/youtube-empire/AAK-Nation/topics/$topic/assets"
-            mkdir -p "data/youtube-empire/AAK-Nation/topics/$topic/uploaded"
-          done
+          mkdir -p data/youtube-empire/AAK-Nation/topics/BioHarmonize/assets
+          mkdir -p data/youtube-empire/AAK-Nation/topics/BioHarmonize/uploaded
+          mkdir -p data
 
-      - name: Generate Niche Strategy
+      - name: Discover Daily Viral Niche
         run: node scripts/niche-strategist.mjs
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-
-      - name: Architect High-Intensity Visuals
-        run: node scripts/visual-prompt-architect.mjs
-
-      - name: Generate Autonomous Assets (Images)
-        run: node scripts/autonomous-asset-generator.mjs
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
@@ -64,4 +55,17 @@ jobs:
       - name: Run Empire Production Loop
         run: node scripts/youtube-empire-loop.mjs
         env:
+          GITHUB_ACTIONS: "true"
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
           NODE_ENV: production
+
+      - name: Commit Status Update
+        if: always()
+        run: |
+          git config --global user.name "Crucible Bot"
+          git config --global user.email "bot@crucible.ai"
+          git add data/youtube-empire/ scripts/yt-empire-state.json data/viral-niches.json data/viral-scripts.json
+          git commit -m "chore: update youtube upload cycle [skip ci]" || echo "No changes to commit"
+          git push || echo "Push failed"

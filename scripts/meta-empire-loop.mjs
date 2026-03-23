@@ -3,17 +3,13 @@ import fs from 'fs';
 import path from 'path';
 
 /**
- * 📸 CRUCIBLE META EMPIRE: MASTER PRODUCTION LOOP
+ * 📸 CRUCIBLE DYNAMIC META EMPIRE LOOP
  * Automates content generation and posting for Instagram & Facebook.
- * Tracks daily uploads to stay within safe range (~5-10 per day).
+ * Loads dynamic niches from data/viral-niches.json and prioritizes them.
  */
 
 const MAX_UPLOADS_PER_DAY = 5; 
-const TOPICS = [
-  'BioHarmonize', 'StoicMindset', 'WealthBlueprint', 'FutureSapiens',
-  'SuccessCodes', 'DailyStoic', 'ForgeCore'
-];
-
+const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
 const BASE = path.join(process.cwd(), 'data', 'meta-empire', 'AAK-Nation', 'topics');
 const STATE_FILE = path.join(process.cwd(), 'scripts', 'meta-empire-state.json');
 
@@ -42,8 +38,20 @@ async function runMetaCycle() {
   }
 
   const remaining = MAX_UPLOADS_PER_DAY - state.uploadsToday;
-  console.log(`\n📸 AAK NATION META CYCLE — ${new Date().toLocaleString()}`);
-  console.log(`📊 Quota: ${state.uploadsToday}/${MAX_UPLOADS_PER_DAY} used today. ${remaining} Reels remaining.`);
+  console.log(`\n📸 AAK NATION DYNAMIC META CYCLE — ${new Date().toLocaleString()}`);
+  
+  // 📥 Load Dynamic Niches
+  if (!fs.existsSync(NICHES_FILE)) {
+    console.error('❌ No dynamic niches found. Run node scripts/niche-strategist.mjs first.');
+    return;
+  }
+  
+  const registry = JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8'));
+  const metaNiches = registry.niches
+    .filter(n => n.platforms.includes('meta'))
+    .sort((a,b) => (b.priority ? 1 : 0) - (a.priority ? 1 : 0)); // Priority first
+
+  console.log(`📊 Quota: ${state.uploadsToday}/${MAX_UPLOADS_PER_DAY} used today. Found ${metaNiches.length} identified niches.`);
   console.log('═'.repeat(60));
 
   if (remaining <= 0) {
@@ -51,17 +59,17 @@ async function runMetaCycle() {
     return;
   }
 
-  let produced = 0, uploaded = 0, skipped = 0;
+  let produced = 0, uploaded = 0;
 
-  for (const topic of TOPICS) {
+  for (const registryNiche of metaNiches) {
     if (state.uploadsToday >= MAX_UPLOADS_PER_DAY) break;
 
+    const topic = registryNiche.name;
     const topicDir = path.join(BASE, topic);
     const assetDir = path.join(topicDir, 'assets');
-    const finalRender = path.join(topicDir, 'final-render.mp4');
     const logFile = path.join(topicDir, 'uploaded', 'instagram.json');
 
-    // Skip if already uploaded today
+    // Skip if already posted today
     if (fs.existsSync(logFile)) {
       const stats = fs.statSync(logFile);
       if (stats.mtime.toISOString().split('T')[0] === today) {
@@ -70,20 +78,18 @@ async function runMetaCycle() {
       }
     }
 
-    // Ensure directory structure
     fs.mkdirSync(assetDir, { recursive: true });
     fs.mkdirSync(path.join(topicDir, 'uploaded'), { recursive: true });
 
-    // Step 1: Generate Assets if missing or old
-    console.log(`🎨 [${topic}] Ensuring assets ready...`);
+    console.log(`🎨 [${topic}] Architecting assets (Priority: ${registryNiche.priority || false})...`);
     try {
+      // Pass niche details to generator if possible - for now we just run it
       execSync(`node scripts/autonomous-asset-generator.mjs`, { stdio: 'inherit' });
     } catch (e) {
       console.error(`❌ [${topic}] Asset generation failed.`);
     }
 
-    // Step 2: Produce Video
-    console.log(`🎬 [${topic}] Producing 1080p Reel...`);
+    console.log(`🎬 [${topic}] Producing Reel...`);
     try {
       execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}"`, { stdio: 'inherit' });
       produced++;
@@ -92,8 +98,7 @@ async function runMetaCycle() {
       continue;
     }
 
-    // Step 3: Upload
-    console.log(`🚀 [${topic}] Dispatching to Instagram & Facebook...`);
+    console.log(`🚀 [${topic}] Dispatching to Meta...`);
     try {
       execSync(`node scripts/meta-official-uploader.mjs --topic "${topic}"`, { stdio: 'inherit' });
       state.uploadsToday++;
@@ -106,10 +111,9 @@ async function runMetaCycle() {
   }
 
   console.log(`\n${'═'.repeat(60)}`);
-  console.log(`🏆 META CYCLE COMPLETE: ${produced} produced, ${uploaded} uploaded.`);
+  console.log(`🏆 DYNAMIC META CYCLE COMPLETE: ${produced} produced, ${uploaded} uploaded.`);
 }
 
-// One-shot execution for CI or manual triggers
 runMetaCycle().catch(err => {
   console.error('Fatal meta-empire loop error:', err);
   process.exit(1);

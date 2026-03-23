@@ -2,32 +2,38 @@ import fs from 'fs';
 import path from 'path';
 
 /**
- * 🎯 CRUCIBLE NICHE STRATEGIST (PROMPT 1)
- * Analyzes market signals to identify high-velocity, under-served faceless niches.
+ * 🎯 CRUCIBLE DYNAMIC NICHE STRATEGIST
+ * Runs daily to discover NEW viral niches and append them to the AAK Nation registry.
  */
 
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
 
-async function discoverNiches() {
-  console.log('🔍 [Niche Discovery] Analyzing high-velocity market signals...');
+async function discoverDailyNiche() {
+  console.log('🔍 [Niche Strategist] Analyzing real-time viral velocity...');
 
-  const systemPrompt = `You are a world-class YouTube Growth Strategist. 
-Your goal is to identify niches for faceless channels where view demand is accelerating faster than creator supply.
-Focus on "New Speed" niches (AI visuals, data breakdowns, cinematic narration).`;
+  const existingNiches = fs.existsSync(NICHES_FILE) 
+    ? JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8')).niches 
+    : [];
 
-  const userPrompt = `Generate a list of 5 high-velocity YouTube niches suitable for faceless channels that are currently under-served.
-For each niche, provide:
-1. Name: Niche title.
-2. Why: Why it's taking off now.
-3. Format: Type of faceless content (clips, narration, Al visuals, etc.).
-4. Sigal: Low competition indicator.
-5. Repeatability: How easy it is to scale.
+  const existingNames = existingNiches.map(n => n.name).join(', ');
 
-Return as a JSON array of objects.`;
+  const systemPrompt = `You are an AI-driven Viral Trend Analyst for Instagram Reels and YouTube Shorts. 
+Identify ONE new, high-velocity faceless niche that is NOT in this list: [${existingNames}].
+Focus on sub-niches that leverage high-intensity visuals (4K macro, AI-generated, industrial physics).`;
+
+  const userPrompt = `Research and propose 1 NEW viral niche.
+Provide:
+1. TopicID: CamelCase (e.g. BrainHackers, CyberneticSoul).
+2. Platforms: ["meta", "youtube"] (which suits it best).
+3. Keywords: 5 high-intensity visual hooks.
+4. Voice: 'en-US-GuyNeural' or 'en-US-JennyNeural'.
+5. Priority: true.
+
+Return ONLY a JSON object: { "name": "TopicID", "platforms": [], "keywords": [], "voice": "", "priority": true, "reason": "..." }`;
 
   try {
-    if (!OPENROUTER_KEY || OPENROUTER_KEY.startsWith('REDACTED')) throw new Error('No API Key');
+    if (!OPENROUTER_KEY) throw new Error('No OPENROUTER_API_KEY set.');
 
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
@@ -37,46 +43,43 @@ Return as a JSON array of objects.`;
       },
       body: JSON.stringify({
         model: 'google/gemini-2.0-flash-001',
-        messages: [
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: userPrompt }
-        ],
+        messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userPrompt }],
         response_format: { type: 'json_object' }
       })
     });
 
     const data = await response.json();
-    const result = JSON.parse(data.choices[0].message.content);
-    console.log(`   ✅ Discovered ${result.niches ? result.niches.length : 0} high-growth niches.`);
-    return result;
+    const newNiche = JSON.parse(data.choices[0].message.content);
+    
+    // Clear priority on old ones
+    existingNiches.forEach(n => n.priority = false);
+    
+    // Append
+    existingNiches.push(newNiche);
+    
+    console.log(`✨ [New Niche Discovery] TopicID: ${newNiche.name} prioritized for platforms: ${newNiche.platforms.join(', ')}`);
+    return { niches: existingNiches };
   } catch (e) {
-    console.log('   ⚠️ Using Strategist Fallback Blueprints.');
-    return {
-      niches: [
-        {
-          name: "Neural-Art Mysteries",
-          why: "AI art is evolving faster than people can explain it.",
-          format: "Midjourney/Runway Visuals + Dark Ambient Narration",
-          signal: "High search volume for 'hidden prompts' and 'AI secrets'.",
-          repeatability: "High (Infinite content via prompt variations)"
-        },
-        {
-          name: "Stoic Combat-Log",
-          why: "Ancient stoicism applied to modern workplace stress.",
-          format: "Animated text + Stock 4K Industrial b-roll",
-          signal: "Low supply of high-quality stoic analysis in the 'Career' niche.",
-          repeatability: "High (Text-based automation)"
-        }
-      ]
+    console.error(`❌ Discovery failed: ${e.message}`);
+    const fallback = {
+      name: `ApexFlow_${Date.now()}`,
+      platforms: ["meta", "youtube"],
+      keywords: ["Neon liquid", "Data points", "Hyper-car interiors", "Neural networks"],
+      voice: "en-US-GuyNeural",
+      priority: true,
+      reason: "High aesthetic retention rate."
     };
+    existingNiches.forEach(n => n.priority = false);
+    existingNiches.push(fallback);
+    return { niches: existingNiches };
   }
 }
 
 async function run() {
-  const niches = await discoverNiches();
+  const result = await discoverDailyNiche();
   fs.mkdirSync(path.dirname(NICHES_FILE), { recursive: true });
-  fs.writeFileSync(NICHES_FILE, JSON.stringify(niches, null, 2));
-  console.log(`✨ Strategy report saved to ${NICHES_FILE}`);
+  fs.writeFileSync(NICHES_FILE, JSON.stringify(result, null, 2));
+  console.log(`✅ Viral registry updated at ${NICHES_FILE}`);
 }
 
 run();

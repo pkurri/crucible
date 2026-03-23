@@ -12,15 +12,14 @@ const BASE_DIR_YT = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nati
 const BASE_DIR_META = path.join(process.cwd(), 'data', 'meta-empire', 'AAK-Nation', 'topics');
 const PROMPTS_FILE = path.join(process.cwd(), 'data', 'empire-prompts-daily.json');
 
-const TOPICS = [
-  'SuccessCodes', 'WealthWizards', 'MysteryArchive', 'PlayfulPixels',
-  'ZenGarden', 'FutureTech', 'DailyStoic', 'CookingCzar',
-  'TravelTrek', 'AutoArena', 'GamingGuru', 'NatureNook',
-  'PulsePolitics', 'CinemaScope', 'LifeHacks', 'MindfulMinutes',
-  'GadgetGrab', 'PetParade', 'HistoryHub', 'ForgeCore', 'BioHarmonize'
-];
+const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
+const registry = fs.existsSync(NICHES_FILE) ? JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8')) : { niches: [] };
+const TOPICS = registry.niches.map(n => n.name);
 
 async function generateImagesForTopic(topic) {
+  const nicheData = registry.niches.find(n => n.name === topic) || {};
+  const keywords = nicheData.keywords ? nicheData.keywords.join(', ') : topic;
+
   console.log(`\n🎨 [${topic}] Generating assets...`);
   const topicMetaDir = path.join(BASE_DIR_META, topic);
   const baseForThisTopic = fs.existsSync(topicMetaDir) ? BASE_DIR_META : BASE_DIR_YT;
@@ -52,7 +51,7 @@ async function generateImagesForTopic(topic) {
         },
         body: JSON.stringify({
           model: 'google/gemini-2.0-flash-001', 
-          messages: [{ role: 'user', content: `Generate a photorealistic cinematic visual prompt for the niche: "${topic}". \nFocus: ${prompt}. \nSlot: ${i}. \nRule: No text or "AAK Nation" branding in the image. \nReturn ONLY the visual description.` }]
+          messages: [{ role: 'user', content: `Generate a photorealistic cinematic visual prompt for the niche: "${topic}". \nVisual Theme: ${keywords}. \nSlot: ${i}. \nRule: No text or "AAK Nation" branding in the image. \nReturn ONLY the visual description.` }]
         })
       });
 
