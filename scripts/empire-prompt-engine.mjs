@@ -15,7 +15,8 @@ const engineConfigs = [
   { channel: 'NeonNexus', niche: 'Cyberpunk', keywords: ['Future', 'Neon', 'Techno-logic', 'Urban Evolution'] },
   { channel: 'AeroArc', niche: 'Aerospace', keywords: ['Propulsion', 'Rocketry', 'Supersonic', 'Extreme Physics'] },
   { channel: 'CircuitSage', niche: 'Hardware', keywords: ['Silicon', 'Teardown', 'Microchips', 'Circuitry'] },
-  { channel: 'QuantumQuiver', niche: 'Physics', keywords: ['Quantum', 'Sub-atomic', 'Entanglement', 'Visualizing Chaos'] }
+  { channel: 'QuantumQuiver', niche: 'Physics', keywords: ['Quantum', 'Sub-atomic', 'Entanglement', 'Visualizing Chaos'] },
+  { channel: 'BioHarmonize', niche: 'Biohacking/Peak Performance', keywords: ['DNA structure', 'Neural pathways', 'Glowing cells', 'Futuristic biology', 'Circadian rhythms'] }
   // ... more can be added
 ];
 

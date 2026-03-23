@@ -1,6 +1,6 @@
 {
-  "lastUploadDate": "2026-03-20",
-  "uploadsToday": 2,
+  "lastUploadDate": "2026-03-23",
+  "uploadsToday": 6,
   "history": [
     {
       "topic": "SuccessCodes",
@@ -11,6 +11,36 @@
       "topic": "DailyStoic",
       "date": "2026-03-20T02:51:32.161Z",
       "platform": "youtube"
+    },
+    {
+      "topic": "SuccessCodes",
+      "date": "2026-03-23T02:26:47.891Z",
+      "status": "uploaded"
+    },
+    {
+      "topic": "WealthWizards",
+      "date": "2026-03-23T02:26:53.473Z",
+      "status": "uploaded"
+    },
+    {
+      "topic": "MysteryArchive",
+      "date": "2026-03-23T02:26:57.523Z",
+      "status": "uploaded"
+    },
+    {
+      "topic": "SuccessCodes",
+      "date": "2026-03-23T02:30:47.217Z",
+      "status": "uploaded"
+    },
+    {
+      "topic": "WealthWizards",
+      "date": "2026-03-23T02:32:36.328Z",
+      "status": "uploaded"
+    },
+    {
+      "topic": "MysteryArchive",
+      "date": "2026-03-23T02:33:57.640Z",
+      "status": "uploaded"
     }
   ],
   "dispatched": {

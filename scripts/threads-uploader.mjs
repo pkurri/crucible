@@ -1,4 +1,6 @@
 import 'dotenv/config';
+import fs from 'fs';
+import path from 'path';
 /**
  * 🔱 AAK NATION: THREADS EMPIRE UPLOADER
  * Posts native Threads posts for each topic series.
@@ -111,9 +113,20 @@ async function uploadToThreads() {
   console.log(`\n[AAK Nation] Threads Upload: ${topicName}`);
   console.log('='.repeat(50));
 
+  const uploadedFile = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nation', 'topics', topicName, 'uploaded', 'threads.json');
+  if (fs.existsSync(uploadedFile)) {
+    console.log(`[SKIP] ${topicName} already posted to Threads.`);
+    return;
+  }
+
   try {
     const postId = await postToThreads(text);
     console.log(`[OK] Threads post live! ID: ${postId}`);
+
+    // Mark as uploaded
+    const uploadedDir = path.dirname(uploadedFile);
+    if (!fs.existsSync(uploadedDir)) fs.mkdirSync(uploadedDir, { recursive: true });
+    fs.writeFileSync(uploadedFile, JSON.stringify({ published_at: new Date().toISOString(), post_id: postId }, null, 2));
   } catch (e) {
     console.error(`[FAIL] Threads: ${e.message}`);
   }

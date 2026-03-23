@@ -12,7 +12,7 @@ import path from 'path';
 
 const ROOT = process.cwd();
 const FFMPEG = process.env.GITHUB_ACTIONS ? 'ffmpeg' : path.join(ROOT, 'scripts', 'bin', 'ffmpeg.exe');
-const BASE_DIR = path.join(ROOT, 'data', 'youtube-empire', 'AAK-Nation', 'topics');
+const BASE_DIR = fs.existsSync(path.join(ROOT, 'data', 'meta-empire', 'AAK-Nation', 'topics')) ? path.join(ROOT, 'data', 'meta-empire', 'AAK-Nation', 'topics') : path.join(ROOT, 'data', 'youtube-empire', 'AAK-Nation', 'topics');
 
 const getArg = (key) => {
   const idx = process.argv.indexOf(key);
@@ -75,7 +75,7 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
 
   const batPath = path.join(topicDir, 'render.bat');
   const inputs = images.map(img => `-loop 1 -t 5 -i "${path.join(assetDir, img)}"`).join(' ');
-  const filterParts = images.map((_, i) => `[${i}:v]scale=2160:3840:force_original_aspect_ratio=decrease,pad=2160:3840:(ow-iw)/2:(oh-ih)/2,zoompan=z='min(zoom+0.0015,1.3)':d=125:s=2160x3840:fps=25[v${i}]`);
+  const filterParts = images.map((_, i) => `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,zoompan=z='min(zoom+0.0015,1.3)':d=125:s=1080x1920:fps=25[v${i}]`);
   const concatPart = images.map((_, i) => `[v${i}]`).join('') + `concat=n=${images.length}:v=1:a=0[vout]`;
   let filterComplex = filterParts.join(';') + ';' + concatPart;
   let mapArgs = '', extraInputs = '';
@@ -83,12 +83,12 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
     extraInputs = `-i "${audioPath}"`;
     if (subtitlePath && fs.existsSync(subtitlePath)) {
       const relativeSubtitlePath = path.relative(ROOT, subtitlePath).replace(/\\/g, '/');
-      filterComplex += `;[vout]subtitles=filename='${relativeSubtitlePath}':force_style='FontSize=42,FontName=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=3,Alignment=2,MarginV=120'[vfinal]`;
+      filterComplex += `;[vout]subtitles=filename='${relativeSubtitlePath}':force_style='FontSize=48,FontName=Arial,PrimaryColour=&H0000FFFF,OutlineColour=&H00000000,Outline=4,Alignment=2,MarginV=150,Bold=1'[vfinal]`;
       mapArgs = '-map "[vfinal]" -map ' + images.length + ':a';
     } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]" -map ' + images.length + ':a'; }
   } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]"'; }
 
-  const cmdLine = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${filterComplex}" ${mapArgs} -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest -r 25 "${outputFile}"`;
+  const cmdLine = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${filterComplex}" ${mapArgs} -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
   
   console.log(`🎬 Rendering 4K video for ${topicName}...`);
   try {

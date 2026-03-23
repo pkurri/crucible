@@ -27,14 +27,15 @@ Your goal is to write a high-velocity script (approx 45-60 seconds) that uses:
 1. Curiosity Gap: Start with a pattern interrupt.
 2. Polarity: Take a strong stance.
 3. Word-by-word delivery: Short, punchy sentences.
-4. Retention: No fluff. Every sentence must move the story forward.`;
+4. Retention: No fluff. Every sentence must move the story forward.
+RULE: NEVER mention "AAK Nation" or any specific channel name. Focus purely on the niche.`;
 
-  const userPrompt = `Write a viral script for a channel called "${topic}".
+  const userPrompt = `Write a viral script for a niche called "${topic}".
 Theme: ${topic}
 Structure:
 - Hook (3-5 seconds): Must stop the scroll.
 - Body (30-40 seconds): High density value or controversy.
-- CTA (5 seconds): Engagement trigger.
+- CTA (5 seconds): Engagement trigger (e.g. "Subscribe for more").
 
 Return the result as a JSON object:
 {

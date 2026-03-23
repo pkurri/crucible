@@ -14,7 +14,7 @@ const TOPICS = [
   'ZenGarden', 'FutureTech', 'DailyStoic', 'CookingCzar',
   'TravelTrek', 'AutoArena', 'GamingGuru', 'NatureNook',
   'PulsePolitics', 'CinemaScope', 'LifeHacks', 'MindfulMinutes',
-  'GadgetGrab', 'PetParade', 'HistoryHub', 'ForgeCore'
+  'GadgetGrab', 'PetParade', 'HistoryHub', 'ForgeCore', 'BioHarmonize'
 ];
 
 const BASE = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nation', 'topics');

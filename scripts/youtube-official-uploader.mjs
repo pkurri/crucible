@@ -39,24 +39,23 @@ async function uploadVideo() {
 
   const youtube = google.youtube({ version: 'v3', auth: oauth2Client });
 
-  // 📦 TOPIC SERIES LOGIC (Consolidated to AAK-Nation)
-  const topicConfigs = {
-    'SuccessCodes': {
-       title: 'THE GANESHA PROTOCOL: Scaling Your Mindset with Lord Ganesha 🐘💎',
-       description: 'Industrial-grade productivity meets ancient wisdom.\n\n#Ganesha #AAKNation #Success #4K #Viral',
-       tags: ['ganesha', 'productivity', 'success', 'aak-nation', '4k'],
-       category: '27'
-    },
-    'WealthWizards': {
-       title: 'WEALTH SERIES: Why Your Strategy is Failing (and AI knows it) 📉🤖',
-       description: 'AAK Nation Intelligent Finance series.\n\n#Wealth #Investing #AI #AAKNation',
-       tags: ['aak-nation', 'finance', 'investing', 'wealth'],
-       category: '27'
-    },
-    // Add more niche topics here as series...
+  // 🏛️ DYNAMIC METADATA ARCHITECTURE
+  const METADATA_PATH = path.join(process.cwd(), 'data', 'viral-metadata.json');
+  let videoData = {
+    title: `${topicName} | Facts You Didn't Know`,
+    description: `Exploring the hidden depth of ${topicName}. Like and Subscribe for more facts.`,
+    tags: [topicName, 'viral', 'facts'],
+    category: '27'
   };
 
-  const videoData = topicConfigs[topicName] || topicConfigs['SuccessCodes'];
+  if (existsSync(METADATA_PATH)) {
+    const allMeta = JSON.parse(readFileSync(METADATA_PATH));
+    if (allMeta[topicName]) {
+      videoData = allMeta[topicName];
+      if (!videoData.category) videoData.category = '27';
+      console.log(`   💎 Local Viral Metadata loaded for ${topicName}.`);
+    }
+  }
 
   const isUpdateBio = process.argv.includes('--update-bio');
   if (isUpdateBio) {
@@ -102,7 +101,7 @@ async function uploadVideo() {
           categoryId: videoData.category,
         },
         status: {
-          privacyStatus: 'unlisted',
+          privacyStatus: 'public',
           selfDeclaredMadeForKids: channelName === 'PlayfulPixels', 
         },
       },

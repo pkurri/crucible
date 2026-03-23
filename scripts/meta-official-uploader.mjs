@@ -18,7 +18,7 @@ import path from 'path';
  * Usage: node scripts/meta-official-uploader.mjs --topic SuccessCodes
  */
 
-const BASE = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nation', 'topics');
+const BASE = path.join(process.cwd(), 'data', 'meta-empire', 'AAK-Nation', 'topics');
 const META_API = 'https://graph.facebook.com/v19.0';
 
 const ACCESS_TOKEN   = process.env.META_ACCESS_TOKEN;
@@ -30,48 +30,75 @@ const getArg = (key) => {
   return idx !== -1 ? process.argv[idx + 1] : null;
 };
 
-// ═══════════════════════════════════════════════════════
-// 📜 TOPIC HOOKS — Platform-specific captions
-// ═══════════════════════════════════════════════════════
-const HOOKS = {
-  SuccessCodes:   { ig: '🙏 Lord Ganesha removes every obstacle on your path to success. Ancient wisdom. Modern success. 🔱 Follow @AAKNation for daily codes. #GaneshaBlessings #SuccessMindset #Motivation #4K #AAKNation', fb: 'Lord Ganesha is not just a deity — He is the universal protocol for removing obstacles. Drop a 🙏 if you believe in his blessings. Follow AAK Nation for daily success codes.' },
-  WealthWizards:  { ig: '💰 AI is rewriting the rules of finance RIGHT NOW. Are you keeping up? 🤖📈 Follow @AAKNation for wealth strategies. #WealthBuilding #AIFinance #Investing #Money #AAKNation', fb: 'The financial world is being completely disrupted by AI. Those who adapt will thrive. Those who don\'t will be left behind. Follow AAK Nation for the wealth codes that actually work.' },
-  MysteryArchive: { ig: '🔍 Some cases were never meant to be solved... but the data tells a different story. 😱 Follow @AAKNation. #MysteryArchive #ColdCase #TrueCrime #UnsolvedMysteries #AAKNation', fb: 'Hidden in plain sight. The truth behind this unsolved case will shock you. Drop a 🔍 if you love digging for the truth. Follow AAK Nation for more.' },
-  PlayfulPixels:  { ig: '🌈 Learning has NEVER looked this colorful! Watch your child\'s eyes light up! ✨ Follow @AAKNation. #KidsLearning #Educational #3DAnimation #PlayfulPixels #AAKNation', fb: 'Make learning FUN again! Our 3D animated lessons for kids are designed to spark curiosity and love for knowledge. Share this with a parent who needs this! 🌈' },
-  ZenGarden:      { ig: '🧘 Close your eyes. Breathe in. Let the ambient frequencies restore your focus. 💎 Follow @AAKNation. #Meditation #Ambient #ZenGarden #Focus #AAKNation', fb: 'Stressed? Overwhelmed? Take 60 seconds to let this wash over you. Your nervous system will thank you. Follow AAK Nation for daily peace. 🧘' },
-  FutureTech:     { ig: '⚡ The silicon revolution is ALREADY here. This chip will change everything. 🔬 Follow @AAKNation. #FutureTech #AI #Silicon #Hardware #AAKNation', fb: 'This tiny chip is more powerful than the computers that sent humans to the moon. The hardware revolution is here. Follow AAK Nation to stay ahead of the curve.' },
-  DailyStoic:     { ig: '⚔️ You cannot control the storm. But you CAN build a mind that weathers anything. 🧠 Follow @AAKNation. #Stoicism #Mindset #Resilience #DailyStoic #AAKNation', fb: 'Stoic wisdom for a modern world. Marcus Aurelius had no idea we\'d be applying his philosophy in 2025 — but it works better than ever. Drop a ⚔️ if you agree.' },
-  CookingCzar:    { ig: '🔬 What if your kitchen was a laboratory? Science you can actually taste. 🍽️ Follow @AAKNation. #MolecularGastronomy #CookingScience #FoodTech #CookingCzar #AAKNation', fb: 'Food science meets culinary art. This dish was engineered for maximum flavor at the molecular level. Share this with a foodie who\'ll appreciate it!' },
-  TravelTrek:     { ig: '🌏 Some landscapes should NOT exist. Yet here they are in breathtaking 4K. 😮 Follow @AAKNation. #TravelTrek #8K #Nature #Wanderlust #AAKNation', fb: 'This place feels like it\'s from another planet. But it\'s right here on Earth. Tag someone you\'d visit this with! 🌏' },
-  AutoArena:      { ig: '🏎️ Zero to sixty in 3 seconds. Engineering at the BLEEDING edge of speed. ⚡ Follow @AAKNation. #AutoArena #Supercar #Engineering #Cars #AAKNation', fb: 'This is not just a car. It\'s a piece of mobile art engineering. Drop a 🏎️ if this is your dream machine.' },
-  GamingGuru:     { ig: '🎮 The meta just SHIFTED. Did you catch it? The billion-dollar strategy behind the update. 🧠 Follow @AAKNation. #Gaming #MetaShift #Esports #GamingGuru #AAKNation', fb: 'Every major game update has a hidden financial strategy behind it. We decode it so you can play smarter. Follow AAK Nation for the gaming intelligence edge.' },
-  NatureNook:     { ig: '🦋 Nature does not hurry. Yet everything is accomplished. Witness animal intelligence. ✨ Follow @AAKNation. #NatureNook #Wildlife #4K #Animals #AAKNation', fb: 'The natural world is more intelligent than we give it credit for. Watch this and tell me animals don\'t have feelings. Tag a nature lover 🦋' },
-  PulsePolitics:  { ig: '🌍 The world map is being redrawn RIGHT NOW. Power shifts. Alliances break. 📡 Follow @AAKNation. #Geopolitics #WorldNews #PulsePolitics #GlobalAffairs #AAKNation', fb: 'The geopolitical chessboard has just made a major move. Here\'s what it means for you, your country, and your investments. Follow AAK Nation for the analysis.' },
-  CinemaScope:    { ig: '🎬 Every great film hides a secret in its structure. We decode the invisible architecture. 🎥 Follow @AAKNation. #FilmTheory #Cinema #CinemaScope #Storytelling #AAKNation', fb: 'The greatest films ever made all share a hidden structural secret. Once you see it, you cannot unsee it. Follow AAK Nation for film theory that blows your mind.' },
-  LifeHacks:      { ig: '🧬 Your body is a SYSTEM. Time to optimize it. Bio-hacking for peak performance. ⚡ Follow @AAKNation. #Biohacking #Productivity #LifeHacks #Performance #AAKNation', fb: 'These are not your average life hacks. These are science-backed, biologically optimized protocols for peak human performance. Follow AAK Nation for your daily upgrade.' },
-  MindfulMinutes: { ig: '🧠 60 seconds. That\'s all you need to completely reset your nervous system. Try it. 🌊 Follow @AAKNation. #Mindfulness #MindfulMinutes #StressRelief #Breathwork #AAKNation', fb: 'One minute. That is ALL it takes. Try this micro-meditation and tell me how you feel after. Follow AAK Nation for your daily mind reset. 🧠' },
-  GadgetGrab:     { ig: '🔩 Inside this chip is a universe of logic. We tear apart the tech the world depends on. ⚡ Follow @AAKNation. #GadgetGrab #EDC #Hardware #TechTear #AAKNation', fb: 'We tore this apart so you don\'t have to. What\'s inside will shock you. Follow AAK Nation for the deepest hardware dives on the internet.' },
-  PetParade:      { ig: '🐾 They don\'t speak our language. But they understand EVERYTHING about love. 🥺 Follow @AAKNation. #PetParade #Animals #PetLove #Wholesome #AAKNation', fb: 'This moment is going to make your entire day. Drop a ❤️ if this melted your heart. Share with a fellow pet parent 🐾' },
-  HistoryHub:     { ig: '📜 Empires rise. Empires fall. The pattern NEVER changes. What can we learn? 🏛️ Follow @AAKNation. #History #HistoryHub #Empires #AncientHistory #AAKNation', fb: 'History is not the past — it\'s a mirror of the present. Every empire that fell made the same mistakes. Are we doing the same? Follow AAK Nation for the historical intelligence edge.' },
-  ForgeCore:      { ig: '⚙️ This is where it all BEGINS. The Crucible AI Empire. Built from nothing. Running everything. 🔱 Follow @AAKNation. #ForgeCore #AI #Automation #CrucibleEmpire #AAKNation', fb: 'We built an automated content empire from scratch using only AI and determination. This is how it works. Follow AAK Nation — the genesis of a new kind of media.' },
-};
+// 🏛️ Metadata will be loaded dynamically in uploadToMeta()
+
 
 // ═══════════════════════════════════════════════════════
-// 🔧 API HELPERS
+// 🔧 API HELPERS WITH RATE LIMIT HANDLING (AUTO-HEALING)
 // ═══════════════════════════════════════════════════════
-async function apiCall(url, method = 'GET', body = null) {
+const MAX_RETRIES = 5;
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function checkRateLimitHeaders(res) {
+  const metaUsage = res.headers.get('x-app-usage') || res.headers.get('x-business-usecase-usage') || res.headers.get('x-ig-app-usage');
+  if (metaUsage) {
+    try {
+      const usage = JSON.parse(metaUsage);
+      const maxUsage = Math.max(...Object.values(usage).map(Number).filter(n => !isNaN(n)));
+      if (maxUsage > 85) { 
+        console.warn(`🛑 [CRITICAL RATE LIMIT] Meta App Limit at ${maxUsage}%. Cooldown 120s.`);
+        return 120000; 
+      }
+      if (maxUsage > 70) {
+        console.warn(`⚠️ [HIGH RATE LIMIT] Meta App Limit at ${maxUsage}%. Cooldown 60s.`);
+        return 60000;
+      }
+      if (maxUsage > 40) {
+        console.log(`📡 [MODERATE USAGE] Meta App Limit at ${maxUsage}%. Adding 10s buffer.`);
+        return 10000;
+      }
+    } catch (e) { /* ignore parse errors */ }
+  }
+  return 2000; // Base 2s sleep to preserve quota
+}
+
+async function apiCall(url, method = 'GET', body = null, retryCount = 0) {
   const opts = { method, headers: { 'Content-Type': 'application/json' } };
   if (body) opts.body = JSON.stringify(body);
+  
   const res = await fetch(url, opts);
-  const json = await res.json();
+  
+  // Dynamic Auto-Healing Rate Limit
+  const waitMs = checkRateLimitHeaders(res);
+  if (waitMs > 0) await sleep(waitMs);
+  
+  const isRateLimited = res.status === 429;
+  let json;
+  try { json = await res.json(); } catch (e) { json = {}; }
+  
+  const metaErrorCode = json.error ? json.error.code : 0;
+  const isLimitError = [4, 17, 32, 613].includes(metaErrorCode);
+
+  if (isRateLimited || isLimitError) {
+    if (retryCount >= MAX_RETRIES) throw new Error(`Meta API: Failed after ${MAX_RETRIES} retries due to rate limits.`);
+    const backoff = Math.pow(2, retryCount) * 60000; // 60s, 120s...
+    console.warn(`🛑 [THROTTLED] Meta API Limit Hit (Code ${metaErrorCode}). Backing off ${backoff / 1000}s...`);
+    await sleep(backoff);
+    return apiCall(url, method, body, retryCount + 1);
+  }
+
   if (json.error) throw new Error(`Meta API: ${json.error.message} (code ${json.error.code})`);
   return json;
 }
 
 // Upload a local video file using Meta's resumable upload API
-async function uploadVideoFile(videoPath, uploadUrl) {
+async function uploadVideoFile(videoPath, uploadUrl, retryCount = 0) {
   const fileSize = fs.statSync(videoPath).size;
   const fileStream = fs.createReadStream(videoPath);
+  
   const res = await fetch(uploadUrl, {
     method: 'POST',
     headers: {
@@ -82,7 +109,22 @@ async function uploadVideoFile(videoPath, uploadUrl) {
     body: fileStream,
     duplex: 'half',
   });
-  const json = await res.json();
+  
+  const waitMs = checkRateLimitHeaders(res);
+  if (waitMs > 0) await sleep(waitMs);
+  
+  let json;
+  try { json = await res.json(); } catch(e) { json = {}; }
+  
+  const isRateLimited = res.status === 429 || (json.error && [4, 17, 32, 613].includes(json.error.code));
+  if (isRateLimited) {
+    if (retryCount >= MAX_RETRIES) throw new Error(`Meta Upload: Failed after ${MAX_RETRIES} retries due to rate limits.`);
+    const backoff = Math.pow(2, retryCount) * 60000;
+    console.warn(`🛑 [BINARY THROTTLE] Delaying upload. Backing off ${backoff / 1000}s...`);
+    await sleep(backoff);
+    return uploadVideoFile(videoPath, uploadUrl, retryCount + 1);
+  }
+
   if (json.error) throw new Error(`Meta Upload: ${json.error.message} (code ${json.error.code})`);
   return json;
 }
@@ -123,11 +165,11 @@ async function uploadToInstagram(videoPath, caption) {
     console.log(`[IG] Binary uploaded. Waiting for processing...`);
   }
 
-  // Step 3: Poll until ready
+  // Step 3: Poll until ready (Increased to 120 attempts for 4K)
   let status = 'IN_PROGRESS';
   let attempts = 0;
-  while (status === 'IN_PROGRESS' && attempts < 30) {
-    await new Promise(r => setTimeout(r, 10000));
+  while (status === 'IN_PROGRESS' && attempts < 120) {
+    await sleep(30000); // 30s interval to preserve quota
     const check = await apiCall(
       `${META_API}/${containerId}?fields=status_code&access_token=${ACCESS_TOKEN}`
     );
@@ -144,6 +186,12 @@ async function uploadToInstagram(videoPath, caption) {
     { creation_id: containerId }
   );
   console.log(`[IG] Published! Media ID: ${publish.id}`);
+  
+  // Mark as uploaded
+  const uploadedDir = path.join(path.dirname(videoPath), 'uploaded');
+  if (!fs.existsSync(uploadedDir)) fs.mkdirSync(uploadedDir, { recursive: true });
+  fs.writeFileSync(path.join(uploadedDir, 'instagram.json'), JSON.stringify({ published_at: new Date().toISOString(), media_id: publish.id }, null, 2));
+
   return publish.id;
 }
 
@@ -186,6 +234,12 @@ async function uploadToFacebook(videoPath, caption) {
     { video_id: videoId, upload_phase: 'finish', video_state: 'PUBLISHED', description: caption }
   );
   console.log(`[FB] Published! Result: ${JSON.stringify(finish)}`);
+
+  // Mark as uploaded
+  const uploadedDir = path.join(path.dirname(videoPath), 'uploaded');
+  if (!fs.existsSync(uploadedDir)) fs.mkdirSync(uploadedDir, { recursive: true });
+  fs.writeFileSync(path.join(uploadedDir, 'facebook.json'), JSON.stringify({ published_at: new Date().toISOString(), video_id: videoId }, null, 2));
+
   return videoId;
 }
 
@@ -210,21 +264,56 @@ async function uploadToMeta() {
     process.exit(1);
   }
 
-  const hook = HOOKS[topicName] || HOOKS['SuccessCodes'];
-  console.log(`\n[AAK Nation] Meta Upload: ${topicName}`);
+  // 🏛️ DYNAMIC METADATA ARCHITECTURE
+  const METADATA_PATH = path.join(process.cwd(), 'data', 'viral-metadata.json');
+  let hook = {
+    ig: `The truth about ${topicName} finally revealed 🔍 #viral #${topicName.toLowerCase()}`,
+    fb: `Everything you thought you knew about ${topicName} is wrong. Here is why.`
+  };
+
+  if (fs.existsSync(METADATA_PATH)) {
+    const allMeta = JSON.parse(fs.readFileSync(METADATA_PATH));
+    if (allMeta[topicName]) {
+      const meta = allMeta[topicName];
+      hook = {
+        ig: meta.ig_hook || meta.description,
+        fb: meta.fb_hook || meta.description
+      };
+      console.log(`   💎 Local Viral Metadata loaded for Meta [${topicName}].`);
+    }
+  }
+
+  console.log(`\n[Forge] Meta Upload: ${topicName}`);
   console.log('='.repeat(50));
+
+  const uploadedDir = path.join(topicDir, 'uploaded');
+  const igUploaded = fs.existsSync(path.join(uploadedDir, 'instagram.json'));
+  const fbUploaded = fs.existsSync(path.join(uploadedDir, 'facebook.json'));
+
+  if (igUploaded && fbUploaded) {
+    console.log(`[SKIP] ${topicName} already uploaded to IG and FB.`);
+    return;
+  }
 
   // Upload to Instagram
   try {
-    const igId = await uploadToInstagram(videoPath, hook.ig);
-    console.log(`[OK] Instagram Reel live: ID ${igId}`);
+    if (!igUploaded) {
+      const igId = await uploadToInstagram(videoPath, hook.ig);
+      console.log(`[OK] Instagram Reel live: ID ${igId}`);
+    } else {
+      console.log(`[SKIP] Instagram: Already uploaded.`);
+    }
   } catch (e) { console.error(`[FAIL] Instagram: ${e.message}`); }
 
   // Upload to Facebook
   if (FB_PAGE_ID) {
     try {
-      const fbId = await uploadToFacebook(videoPath, hook.fb);
-      console.log(`[OK] Facebook Reel live: ID ${fbId}`);
+      if (!fbUploaded) {
+        const fbId = await uploadToFacebook(videoPath, hook.fb);
+        console.log(`[OK] Facebook Reel live: ID ${fbId}`);
+      } else {
+        console.log(`[SKIP] Facebook: Already uploaded.`);
+      }
     } catch (e) { console.error(`[FAIL] Facebook: ${e.message}`); }
   } else {
     console.log('[SKIP] Facebook: META_FB_PAGE_ID not set.');
