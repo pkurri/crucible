@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
@@ -33,8 +34,12 @@ const getArg = (key) => {
 // 📊 STATE HELPERS
 // ═══════════════════════════════════════════════════════
 function loadState() {
-  if (fs.existsSync(STATE_FILE)) return JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'));
-  return { lastUploadDate: '', uploadsToday: 0, history: [], dispatched: {} };
+  const defaults = { lastUploadDate: '', uploadsToday: 0, history: [], dispatched: {} };
+  if (fs.existsSync(STATE_FILE)) {
+    const loaded = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'));
+    return { ...defaults, ...loaded };
+  }
+  return defaults;
 }
 
 function saveState(state) {
@@ -74,11 +79,16 @@ function dispatchTopic(topic, state) {
         state.uploadsToday = MAX_YT_UPLOADS;
       } else {
         state.uploadsToday++;
+        if (!Array.isArray(state.history)) state.history = [];
         state.history.push({ topic, date: new Date().toISOString(), platform: 'youtube' });
         results.youtube = true;
         console.log(`[YT] Uploaded (${state.uploadsToday}/${MAX_YT_UPLOADS} today)`);
       }
-    } catch (e) { console.log(`[YT] Failed: ${e.message.slice(0, 80)}`); }
+    } catch (e) {
+      const msg = e.stdout || e.message || '';
+      if (msg.includes('exceeded')) { console.log('[YT] Quota reached for today.'); state.uploadsToday = MAX_YT_UPLOADS; }
+      else { console.log(`[YT] Failed: ${String(msg).slice(0, 100)}`); }
+    }
   } else {
     console.log(`[YT] Quota full for today. Queued.`);
   }
@@ -99,15 +109,16 @@ function dispatchTopic(topic, state) {
     } catch (e) { console.log(`[X] Failed: ${e.message.slice(0, 80)}`); }
   } else { console.log('[X] Skipped: X_API_KEY not set.'); }
 
-  // 4. THREADS
-  if (process.env.THREADS_ACCESS_TOKEN) {
+  // 4. THREADS (skipped - using IG auto-share instead)
+  if (process.env.THREADS_ACCESS_TOKEN && process.env.THREADS_ACCESS_TOKEN !== 'your_threads_user_token_here') {
     try {
       execSync(`node scripts/threads-uploader.mjs --topic "${topic}"`, { encoding: 'utf8', stdio: 'inherit' });
       results.threads = true;
     } catch (e) { console.log(`[Threads] Failed: ${e.message.slice(0, 80)}`); }
-  } else { console.log('[Threads] Skipped: THREADS_ACCESS_TOKEN not set.'); }
+  } else { console.log('[Threads] Skipped: Using Instagram auto-share to Threads.'); }
 
   // Mark dispatched
+  if (!state.dispatched) state.dispatched = {};
   state.dispatched[topic] = new Date().toISOString();
   saveState(state);
 

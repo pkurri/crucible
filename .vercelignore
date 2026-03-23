@@ -1,0 +1,28 @@
+# 🔱 AAK NATION: Vercel Deploy Ignore
+# Exclude large local binaries and data that don't belong in serverless functions
+
+# Large binary files (ffmpeg, etc.)
+scripts/bin/
+scripts/lipsync/
+data/
+
+# Local dev / temp files
+*.log
+*.txt
+*.ps1
+error.*
+fleet_status.txt
+status_report*.txt
+report_latest.txt
+meta_response.json
+youtube-token.json
+client_secret.json
+.env
+.env.*
+.venv/
+
+# Node
+node_modules/
+
+# Git
+.git/

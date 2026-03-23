@@ -23,4 +23,9 @@ yt-empire-state.json
 # YouTube Credentials
 client_secret.json
 youtube-token.json
-data/youtube-empire/**/*.mp4
+data/
+scripts/bin/
+*.exe
+error.log
+meta_response.json
+tmp/

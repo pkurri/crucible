@@ -1,3 +1,4 @@
+import 'dotenv/config';
 /**
  * 🔱 AAK NATION: THREADS EMPIRE UPLOADER
  * Posts native Threads posts for each topic series.

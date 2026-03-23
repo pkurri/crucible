@@ -157,20 +157,20 @@ async function generateVoiceover(script, outDir) {
 async function generateLipSync(audioPath, outDir) {
   const talkingHead = path.join(outDir, 'talking-head.mp4');
 
-  // Try LatentSync first
-  const lipsyncScript = path.join(LIPSYNC_DIR, 'inference.py');
+  // Try LatentSync first (uses predict.py per actual repo structure)
+  const lipsyncScript = path.join(LIPSYNC_DIR, 'predict.py');
   if (fs.existsSync(lipsyncScript) && fs.existsSync(FACE_VIDEO)) {
     console.log('[LipSync] Running LatentSync...');
     try {
       execSync(
-        `python "${lipsyncScript}" --video_path "${FACE_VIDEO}" --audio_path "${audioPath}" --output_path "${talkingHead}"`,
-        { stdio: 'inherit' }
+        `python "${lipsyncScript}" --video_path "${FACE_VIDEO}" --audio_path "${audioPath}" --output_path "${talkingHead}" --inference_steps 20`,
+        { stdio: 'inherit', cwd: LIPSYNC_DIR }
       );
       if (fs.existsSync(talkingHead)) {
         console.log('[LipSync] LatentSync complete.');
         return talkingHead;
       }
-    } catch (e) { console.log('[LipSync] LatentSync failed, trying Wav2Lip fallback...'); }
+    } catch (e) { console.log(`[LipSync] LatentSync failed: ${e.message.slice(0,100)}. Trying fallback...`); }
   }
 
   // Fallback: Static face with audio (no lipsync — still looks like an anchor)

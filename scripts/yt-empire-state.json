@@ -1,4 +1,22 @@
 {
+  "lastUploadDate": "2026-03-20",
+  "uploadsToday": 2,
+  "history": [
+    {
+      "topic": "SuccessCodes",
+      "date": "2026-03-20T02:49:55.559Z",
+      "platform": "youtube"
+    },
+    {
+      "topic": "DailyStoic",
+      "date": "2026-03-20T02:51:32.161Z",
+      "platform": "youtube"
+    }
+  ],
+  "dispatched": {
+    "SuccessCodes": "2026-03-20T02:50:20.582Z",
+    "DailyStoic": "2026-03-20T02:51:56.703Z"
+  },
   "channels": {
     "PlayfulPixels": {
       "niche": "KidsLearning",

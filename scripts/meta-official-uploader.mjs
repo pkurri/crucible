@@ -1,7 +1,6 @@
+import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
-import https from 'https';
-import { execSync } from 'child_process';
 
 /**
  * 🔱 AAK NATION: META SOCIAL EMPIRE UPLOADER
@@ -58,13 +57,9 @@ const HOOKS = {
 };
 
 // ═══════════════════════════════════════════════════════
-// 🔧 API HELPER
+// 🔧 API HELPERS
 // ═══════════════════════════════════════════════════════
 async function apiCall(url, method = 'GET', body = null) {
-  const { default: fetch } = await import('node-fetch').catch(() => {
-    // Fallback for Node 18+ native fetch
-    return { default: globalThis.fetch };
-  });
   const opts = { method, headers: { 'Content-Type': 'application/json' } };
   if (body) opts.body = JSON.stringify(body);
   const res = await fetch(url, opts);
@@ -73,74 +68,123 @@ async function apiCall(url, method = 'GET', body = null) {
   return json;
 }
 
+// Upload a local video file using Meta's resumable upload API
+async function uploadVideoFile(videoPath, uploadUrl) {
+  const fileSize = fs.statSync(videoPath).size;
+  const fileStream = fs.createReadStream(videoPath);
+  const res = await fetch(uploadUrl, {
+    method: 'POST',
+    headers: {
+      'Authorization': `OAuth ${ACCESS_TOKEN}`,
+      'offset': '0',
+      'file_size': String(fileSize),
+    },
+    body: fileStream,
+    duplex: 'half',
+  });
+  const json = await res.json();
+  if (json.error) throw new Error(`Meta Upload: ${json.error.message} (code ${json.error.code})`);
+  return json;
+}
+
 // ═══════════════════════════════════════════════════════
-// 📸 INSTAGRAM REELS UPLOAD
+// 📸 INSTAGRAM REELS UPLOAD (URL mode for server, binary for local)
 // ═══════════════════════════════════════════════════════
-async function uploadToInstagram(videoUrl, caption) {
-  console.log('[IG] Creating media container...');
-  
-  // Step 1: Create container
-  const container = await apiCall(
-    `${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`,
-    'POST',
-    { media_type: 'REELS', video_url: videoUrl, caption, share_to_feed: true }
-  );
-  
-  console.log(`[IG] Container created: ${container.id}. Waiting for processing...`);
-  
-  // Step 2: Poll until ready
+async function uploadToInstagram(videoPath, caption) {
+  const videoName = path.basename(path.dirname(videoPath)); // topic name
+  const publicBaseUrl = process.env.META_VIDEO_BASE_URL;
+  const useUrl = publicBaseUrl && publicBaseUrl.startsWith('http');
+
+  console.log(`[IG] Creating media container (${useUrl ? 'URL mode' : 'binary mode'})...`);
+
+  let containerId, uploadUrl;
+
+  if (useUrl) {
+    // Server mode: pass public URL directly (GitHub Actions / Vercel CDN)
+    const videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
+    console.log(`[IG] Using URL: ${videoUrl}`);
+    const initRes = await apiCall(
+      `${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`,
+      'POST',
+      { media_type: 'REELS', video_url: videoUrl, caption, share_to_feed: true }
+    );
+    containerId = initRes.id;
+  } else {
+    // Local mode: binary resumable upload
+    const initRes = await apiCall(
+      `${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`,
+      'POST',
+      { media_type: 'REELS', caption, share_to_feed: true, upload_type: 'resumable' }
+    );
+    containerId = initRes.id;
+    uploadUrl   = initRes.uri;
+    console.log(`[IG] Container: ${containerId}. Uploading binary...`);
+    await uploadVideoFile(videoPath, uploadUrl);
+    console.log(`[IG] Binary uploaded. Waiting for processing...`);
+  }
+
+  // Step 3: Poll until ready
   let status = 'IN_PROGRESS';
   let attempts = 0;
   while (status === 'IN_PROGRESS' && attempts < 30) {
-    await new Promise(r => setTimeout(r, 10000)); // Wait 10s
+    await new Promise(r => setTimeout(r, 10000));
     const check = await apiCall(
-      `${META_API}/${container.id}?fields=status_code&access_token=${ACCESS_TOKEN}`
+      `${META_API}/${containerId}?fields=status_code&access_token=${ACCESS_TOKEN}`
     );
     status = check.status_code;
     attempts++;
     console.log(`[IG] Status: ${status} (attempt ${attempts})`);
   }
-  
   if (status !== 'FINISHED') throw new Error(`[IG] Processing failed: ${status}`);
 
-  // Step 3: Publish
+  // Step 4: Publish
   const publish = await apiCall(
     `${META_API}/${IG_ACCOUNT_ID}/media_publish?access_token=${ACCESS_TOKEN}`,
     'POST',
-    { creation_id: container.id }
+    { creation_id: containerId }
   );
-  
   console.log(`[IG] Published! Media ID: ${publish.id}`);
   return publish.id;
 }
 
 // ═══════════════════════════════════════════════════════
-// 📘 FACEBOOK REELS UPLOAD (Cross-post from IG or native)
+// 📘 FACEBOOK REELS UPLOAD (URL mode for server, binary for local)
 // ═══════════════════════════════════════════════════════
-async function uploadToFacebook(videoUrl, caption) {
-  console.log('[FB] Uploading Reel...');
-  
-  // Step 1: Init upload
+async function uploadToFacebook(videoPath, caption) {
+  const videoName = path.basename(path.dirname(videoPath));
+  const publicBaseUrl = process.env.META_VIDEO_BASE_URL;
+  const useUrl = publicBaseUrl && publicBaseUrl.startsWith('http');
+
+  console.log(`[FB] Uploading Reel (${useUrl ? 'URL mode' : 'binary mode'})...`);
+
+  // Step 1: Start upload session
   const init = await apiCall(
     `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${ACCESS_TOKEN}`,
     'POST',
     { upload_phase: 'start' }
   );
-  const videoId = init.video_id;
+  const videoId   = init.video_id;
   const uploadUrl = init.upload_url;
-  
-  // Step 2: Upload binary (requires file path)
-  console.log(`[FB] Video ID: ${videoId}. Uploading binary...`);
-  // NOTE: For production, use multipart upload to uploadUrl
-  // For now, we use the video_url approach for simplicity
-  
-  // Step 3: Finish + publish
+  console.log(`[FB] Video ID: ${videoId}.`);
+
+  if (useUrl) {
+    // Server mode: tell Meta to pull from public URL
+    const videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
+    console.log(`[FB] Using URL: ${videoUrl}`);
+    await apiCall(uploadUrl, 'POST', { file_url: videoUrl });
+  } else {
+    // Local mode: upload binary directly
+    console.log(`[FB] Uploading binary...`);
+    await uploadVideoFile(videoPath, uploadUrl);
+  }
+  console.log(`[FB] Upload done. Publishing...`);
+
+  // Step 2: Finish + publish
   const finish = await apiCall(
     `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${ACCESS_TOKEN}`,
     'POST',
     { video_id: videoId, upload_phase: 'finish', video_state: 'PUBLISHED', description: caption }
   );
-
   console.log(`[FB] Published! Result: ${JSON.stringify(finish)}`);
   return videoId;
 }
@@ -170,21 +214,16 @@ async function uploadToMeta() {
   console.log(`\n[AAK Nation] Meta Upload: ${topicName}`);
   console.log('='.repeat(50));
 
-  // NOTE: Meta Graph API requires a PUBLIC video URL (not a local file path).
-  // For local dev, host the video temporarily using: npx serve ./data
-  // For production (GitHub Actions), upload the file to a temp CDN or R2 bucket first.
-  const videoUrl = process.env.META_VIDEO_URL || `https://your-cdn.com/videos/${topicName}.mp4`;
-
   // Upload to Instagram
   try {
-    const igId = await uploadToInstagram(videoUrl, hook.ig);
+    const igId = await uploadToInstagram(videoPath, hook.ig);
     console.log(`[OK] Instagram Reel live: ID ${igId}`);
   } catch (e) { console.error(`[FAIL] Instagram: ${e.message}`); }
 
   // Upload to Facebook
   if (FB_PAGE_ID) {
     try {
-      const fbId = await uploadToFacebook(videoUrl, hook.fb);
+      const fbId = await uploadToFacebook(videoPath, hook.fb);
       console.log(`[OK] Facebook Reel live: ID ${fbId}`);
     } catch (e) { console.error(`[FAIL] Facebook: ${e.message}`); }
   } else {
