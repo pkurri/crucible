@@ -20,7 +20,8 @@ const getArg = (key) => {
 };
 
 // ... Rest of the script from memory ... (I'll use the exact content from Step 615)
-const SCRIPTS = {
+const SCRIPTS_PATH = path.join(ROOT, 'data', 'viral-scripts.json');
+let SCRIPTS = {
   SuccessCodes: { voice: 'en-US-GuyNeural', lines: [ { text: 'Lord Ganesha is not just a deity.', duration: 5 }, { text: 'He is the universal protocol for removing every obstacle in your path.', duration: 5 }, { text: 'Ancient wisdom meets modern success. This is AAK Nation.', duration: 5 } ] },
   WealthWizards: { voice: 'en-US-GuyNeural', lines: [ { text: 'While you sleep, AI is rewriting the rules of finance.', duration: 5 }, { text: 'The old playbook is dead. Adapt or get left behind.', duration: 5 }, { text: 'This is WealthWizards. Only on AAK Nation.', duration: 5 } ] },
   MysteryArchive: { voice: 'en-US-AriaNeural', lines: [ { text: 'Some cases were never meant to be solved.', duration: 5 }, { text: 'But the data tells a different story.', duration: 5 }, { text: 'MysteryArchive. Only on AAK Nation.', duration: 5 } ] },
@@ -41,7 +42,19 @@ const SCRIPTS = {
   PetParade: { voice: 'en-US-JennyNeural', lines: [ { text: 'They do not speak our language.', duration: 5 }, { text: 'But they understand everything about love.', duration: 5 }, { text: 'PetParade. Heart from AAK Nation.', duration: 5 } ] },
   HistoryHub: { voice: 'en-US-GuyNeural', lines: [ { text: 'Empires rise. Empires fall. The pattern never changes.', duration: 5 }, { text: 'Learn from the past or be condemned to repeat it.', duration: 5 }, { text: 'HistoryHub. Lessons from AAK Nation.', duration: 5 } ] },
   ForgeCore: { voice: 'en-US-GuyNeural', lines: [ { text: 'This is where it all begins.', duration: 5 }, { text: 'The Crucible AI Empire. Built from nothing. Running everything.', duration: 5 }, { text: 'ForgeCore. The genesis of AAK Nation.', duration: 5 } ] },
+  BioHarmonize: { voice: 'en-US-GuyNeural', lines: [ { text: 'Your eight hour sleep is a lie.', duration: 5 }, { text: 'This zero dollar habit is ten times better than caffeine.', duration: 5 }, { text: 'BioHarmonize. Peak human performance on AAK Nation.', duration: 5 } ] },
 };
+
+// 🏛️ Load Viral Scripts (Priority)
+if (fs.existsSync(SCRIPTS_PATH)) {
+  try {
+    const viral = JSON.parse(fs.readFileSync(SCRIPTS_PATH, 'utf8'));
+    SCRIPTS = { ...SCRIPTS, ...viral };
+    console.log('💎 Viral Scripts loaded from registry.');
+  } catch (e) {
+    console.warn('⚠️ Failed to load viral scripts, using defaults.');
+  }
+}
 
 function generateVoiceover(topicDir, script) {
   const fullText = script.lines.map(l => l.text).join(' ');
@@ -69,7 +82,8 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   if (audioPath && fs.existsSync(audioPath)) {
     extraInputs = `-i "${audioPath}"`;
     if (subtitlePath && fs.existsSync(subtitlePath)) {
-      filterComplex += `;[vout]subtitles='${subtitlePath.replace(/\\/g, '/').replace(/:/g, '\\\\:')}':force_style='FontSize=42,FontName=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=3,Alignment=2,MarginV=120'[vfinal]`;
+      const relativeSubtitlePath = path.relative(ROOT, subtitlePath).replace(/\\/g, '/');
+      filterComplex += `;[vout]subtitles=filename='${relativeSubtitlePath}':force_style='FontSize=42,FontName=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=3,Alignment=2,MarginV=120'[vfinal]`;
       mapArgs = '-map "[vfinal]" -map ' + images.length + ':a';
     } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]" -map ' + images.length + ':a'; }
   } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]"'; }

@@ -48,6 +48,11 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
+      - name: Architect Viral Scripts
+        run: node scripts/viral-script-architect.mjs
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
       - name: Run Empire Production Loop
         run: node scripts/youtube-empire-loop.mjs
         env:
