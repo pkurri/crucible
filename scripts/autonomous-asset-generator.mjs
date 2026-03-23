@@ -26,8 +26,8 @@ async function generateImagesForTopic(topic) {
 
   // Load prompt from engine
   if (!fs.existsSync(PROMPTS_FILE)) {
-    console.log('💎 Generating Daily Brief prompts...');
-    execSync('node scripts/empire-prompt-engine.mjs', { stdio: 'inherit' });
+    console.log('💎 Architecting High-Intensity Visuals...');
+    execSync('node scripts/visual-prompt-architect.mjs', { stdio: 'inherit' });
   }
 
   const prompts = JSON.parse(fs.readFileSync(PROMPTS_FILE, 'utf8'));

@@ -43,6 +43,14 @@ jobs:
             mkdir -p "data/youtube-empire/AAK-Nation/topics/$topic/uploaded"
           done
 
+      - name: Generate Niche Strategy
+        run: node scripts/niche-strategist.mjs
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+      - name: Architect High-Intensity Visuals
+        run: node scripts/visual-prompt-architect.mjs
+
       - name: Generate Autonomous Assets (Images)
         run: node scripts/autonomous-asset-generator.mjs
         env:
