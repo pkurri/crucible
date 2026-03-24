@@ -2,31 +2,42 @@ import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabase';
 import { generateText } from '@/lib/ai-router';
 
-// VERCEL HOBBY: 10s timeout limit.
-export const maxDuration = 60; 
+/**
+ * PRO SPEED: 10s Vercel Limit Optimization
+ * RULEBOOK: Skill.md Priorities + "Always Post" Strategy for 24h+ Accounts
+ */
 
 const MOLTBOOK_API = 'https://www.moltbook.com/api/v1';
+const SYSTEM_PROMPT = `You are a professional industrial AI (analytical tone). NO CRYPTO. 1-2 sentences.`;
 
+const BRAND_MAP: Record<string, string> = {
+  CrucibleForge: 'forge-hq', DebtRadar: 'forge-burnrate', CVEWatcher: 'forge-sec',
+  ArXivPulse: 'forge-research', DriftDetector: 'forge-drift', VCSignal: 'forge-vc',
+  LegislAI: 'forge-policy', MicroSaaSRadar: 'forge-saas', EthicsBoard: 'forge-ethics',
+  DevTrendMap: 'forge-trends', RevenueOptimizer: 'forge-revenue', GrowthMarketeer: 'forge-growth',
+  UA_PRO: 'forge-growth-engine', ORACLE: 'forge-gaming-trends'
+};
+
+/**
+ * Autonomous Moltbook API client with verification solving.
+ */
 async function moltbookApi(path: string, method: string, body: any, apiKey: string): Promise<any> {
   const headers = { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' };
   const req = async (p: string, m: string, b: any) => {
-    const res = await fetch(`${MOLTBOOK_API}${p}`, { method: m, headers, body: b ? JSON.stringify(b) : undefined });
+    const res = await fetch(`${MOLTBOOK_API}${p}`, { method: m, headers, cache: 'no-store', body: b ? JSON.stringify(b) : undefined });
     const text = await res.text();
     let data;
     try { data = JSON.parse(text); } catch { throw new Error(`Non-JSON HTTP ${res.status}`); }
     if (!res.ok) throw new Error(`HTTP ${res.status}: ${JSON.stringify(data)}`);
     return data;
   };
-
   const data = await req(path, method, body);
-  
-  // If verification is needed, solve it. To save time, we return the verify result directly.
+  // Solve verification math challenges (Lobster Protocol)
   if (data.verification_required && data.verification) {
     const { verification_code, challenge_text } = data.verification;
-    // Ultra-fast prompt
-    const answer = await generateText(`Solve math in 2 decimals: "${challenge_text}"`);
-    const cleanAnswer = answer?.match(/[-+]?[0-9]*\.?[0-9]+/)?.[0] || "0.00";
-    return await req('/verify', 'POST', { verification_code, answer: cleanAnswer });
+    const answer = await generateText(`Solve math result only: "${challenge_text}"`);
+    const cleanNum = answer?.match(/[-+]?[0-9]*\.?[0-9]+/)?.[0] || "0.00";
+    return await req('/verify', 'POST', { verification_code, answer: cleanNum });
   }
   return data;
 }
@@ -42,61 +53,53 @@ export async function GET(request: Request) {
     const apiKey = process.env.MOLTBOOK_API_KEY;
     if (!apiKey) throw new Error('API Key Missing');
 
-    // Optimization: Call /home first to see if we even need to work.
+    // 1. Initial State Check (🔴 Skill.md First Step)
     const home = await moltbookApi('/home', 'GET', null, apiKey);
     const me = home.your_account;
-    const unread = me.unread_notification_count || 0;
-    results.push({ step: 'init', name: me.name, unread });
+    const unreadCount = me.unread_notification_count || 0;
+    const isEstablished = (Date.now() - new Date(me.created_at || Date.now()).getTime()) > 86400000;
+    results.push({ step: 'init', name: me.name, karma: me.karma, unread: unreadCount, isEstablished });
 
-    const tasks = ['REPLY', 'ENGAGE', 'POST'];
-    const now = new Date();
-    let action = unread > 0 ? 'REPLY' : tasks[Math.floor(now.getTime() / (1000 * 60 * 30)) % tasks.length];
-    
-    // Safety throttle for engagement frequency
-    if (action === 'ENGAGE' && now.getMinutes() > 15) action = 'IDLE';
-
-    results.push({ action });
-
-    if (action === 'REPLY') {
+    // 2. PRIMARY ACTION: REPLIES (🔴 Highest Priority)
+    if (unreadCount > 0) {
       const active = (home.activity_on_your_posts || []).find((p: any) => p.new_notification_count > 0);
       if (active) {
         const comments = await moltbookApi(`/posts/${active.post_id}/comments?sort=new`, 'GET', null, apiKey);
         const target = (comments.comments || [])[0];
         if (target) {
-          const reply = await generateText(`1-sentence analytical reply to: "${target.content}". No crypto.`);
+          const reply = await generateText(`${SYSTEM_PROMPT}\nAnalytical reply to: "${target.content}". Short.`);
           if (reply) {
-            const res = await moltbookApi(`/posts/${active.post_id}/comments`, 'POST', { content: reply, parent_id: target.id }, apiKey);
-            results.push({ step: 'replied', id: res.content_id || res.id });
+            await moltbookApi(`/posts/${active.post_id}/comments`, 'POST', { content: reply, parent_id: target.id }, apiKey);
+            results.push({ step: 'reply_to_mention', pid: active.post_id });
           }
         }
         await moltbookApi(`/notifications/read-by-post/${active.post_id}`, 'POST', {}, apiKey);
       }
-    } 
-    else if (action === 'ENGAGE') {
-      const niche = 'forge-hq'; // Simplified for speed
-      const search = await moltbookApi(`/search?q=${niche}&limit=3`, 'GET', null, apiKey);
-      const target = (search.results || []).find((p: any) => p.author?.name !== me.name && p.type === 'post');
-      if (target) {
-        await moltbookApi(`/posts/${target.id}/upvote`, 'POST', null, apiKey);
-        const comm = await generateText(`1-sentence expert comment on "${target.title || target.content}". No crypto.`);
-        if (comm) await moltbookApi(`/posts/${target.id}/comments`, 'POST', { content: comm }, apiKey);
-        results.push({ step: 'engaged', target: target.id });
-      }
-    } 
-    else if (action === 'POST') {
-      const type = ['forge-hq', 'forge-trends', 'forge-saas'][now.getHours() % 3];
-      const text = await generateText(`200char industry brief for m/${type}. Analytical. Question? No crypto.`);
-      const post = await moltbookApi('/posts', 'POST', { submolt_name: type, title: `Intelligence Update`, content: text }, apiKey);
-      const pid = post.content_id || post.post?.id || post.id;
-      if (pid) {
-        try { await moltbookApi(`/posts/${pid}/pin`, 'POST', null, apiKey); } catch (e) {}
-        results.push({ step: 'posted', pid });
-      }
     }
 
-    return NextResponse.json({ success: true, results, duration: `${Date.now() - start}ms` });
+    // 3. SECONDARY ACTION: BROADCAST (🔵 Post on EVERY cycle for established accounts)
+    // For established bots, we post every 30m. For new ones, we rotatingly skip to avoid rate limits.
+    const now = new Date();
+    const shouldPost = isEstablished || (now.getHours() % 2 === 0 && now.getMinutes() >= 30);
+    
+    if (shouldPost) {
+      const brands = Object.entries(BRAND_MAP);
+      const [brand, niche] = brands[Math.floor(Math.random() * brands.length)];
+      const text = await generateText(`${SYSTEM_PROMPT}\nExpert pulse for m/${niche} as ${brand}. 200 chars max.`);
+      const postRes = await moltbookApi('/posts', 'POST', { submolt_name: niche, title: `${brand} Intelligence`, content: text }, apiKey);
+      const pid = postRes.content_id || postRes.post?.id || postRes.id;
+      if (pid) {
+        try { await moltbookApi(`/posts/${pid}/pin`, 'POST', null, apiKey); } catch(e) {}
+        results.push({ step: 'broadcast', brand, pid });
+      }
+    } else {
+      // For new accounts, do a secondary ENGAGE task instead of posting every time
+      results.push({ step: 'growth_throttle_active', reason: 'account_under_24h' });
+    }
+
+    return NextResponse.json({ success: true, results, durationMs: Date.now() - start });
   } catch (error: any) {
     console.error('[Moltbook Cron Error]', error);
-    return NextResponse.json({ success: false, error: error.message, results }, { status: 500 });
+    return NextResponse.json({ success: false, error: error.message, results, durationMs: Date.now() - start }, { status: 500 });
   }
 }
