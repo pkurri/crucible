@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 
 /**
  * 🔱 AAK NATION: META SOCIAL EMPIRE UPLOADER
@@ -130,40 +131,54 @@ async function uploadVideoFile(videoPath, uploadUrl, retryCount = 0) {
 }
 
 // ═══════════════════════════════════════════════════════
-// 📸 INSTAGRAM REELS UPLOAD (URL mode for server, binary for local)
+// 🌐 HIGH-SPEED CDN TUNNEL (Fixes Meta Fwdproxy / Resumable Limits)
+// ═══════════════════════════════════════════════════════
+function uploadToCatbox(videoPath, retries = 3) {
+  console.log(`[CDN] Tunneling video through high-speed CDN to bypass Meta proxy limitations...`);
+  for (let i = 0; i < retries; i++) {
+    try {
+      const cmd = `curl -s -F "reqtype=fileupload" -F "fileToUpload=@${videoPath}" https://catbox.moe/user/api.php`;
+      const tmpUrl = execSync(cmd).toString().trim();
+      if (tmpUrl && tmpUrl.startsWith('http')) {
+        console.log(`[CDN] Tunnel URL acquired: ${tmpUrl}`);
+        return tmpUrl;
+      }
+      console.warn(`[CDN] Attempt ${i + 1} failed. Output: ${tmpUrl}`);
+    } catch (e) {
+      console.warn(`[CDN] Attempt ${i + 1} error: ${e.message}`);
+    }
+    if (i < retries - 1) {
+      console.log(`[CDN] Waiting 3 seconds before retry...`);
+      execSync('node -e "setTimeout(()=>{}, 3000)"');
+    }
+  }
+  throw new Error('CDN Handshake fully failed after 3 attempts.');
+}
+
+// ═══════════════════════════════════════════════════════
+// 📸 INSTAGRAM REELS UPLOAD (Forced URL Mode)
 // ═══════════════════════════════════════════════════════
 async function uploadToInstagram(videoPath, caption) {
   const videoName = path.basename(path.dirname(videoPath)); // topic name
   const publicBaseUrl = process.env.META_VIDEO_BASE_URL;
   const useUrl = publicBaseUrl && publicBaseUrl.startsWith('http');
 
-  console.log(`[IG] Creating media container (${useUrl ? 'URL mode' : 'binary mode'})...`);
-
-  let containerId, uploadUrl;
-
+  let videoUrl;
   if (useUrl) {
-    // Server mode: pass public URL directly (GitHub Actions / Vercel CDN)
-    const videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
-    console.log(`[IG] Using URL: ${videoUrl}`);
-    const initRes = await apiCall(
-      `${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`,
-      'POST',
-      { media_type: 'REELS', video_url: videoUrl, caption, share_to_feed: true }
-    );
-    containerId = initRes.id;
+    videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
+    console.log(`[IG] Using provided domain URL: ${videoUrl}`);
   } else {
-    // Local mode: binary resumable upload
-    const initRes = await apiCall(
-      `${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`,
-      'POST',
-      { media_type: 'REELS', caption, share_to_feed: true, upload_type: 'resumable' }
-    );
-    containerId = initRes.id;
-    uploadUrl   = initRes.uri;
-    console.log(`[IG] Container: ${containerId}. Uploading binary...`);
-    await uploadVideoFile(videoPath, uploadUrl);
-    console.log(`[IG] Binary uploaded. Waiting for processing...`);
+    videoUrl = uploadToCatbox(videoPath);
   }
+
+  console.log(`[IG] Creating media container (Cloud-Pull mode)...`);
+  const initRes = await apiCall(
+    `${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`,
+    'POST',
+    { media_type: 'REELS', video_url: videoUrl, caption, share_to_feed: true }
+  );
+  const containerId = initRes.id;
+  console.log(`[IG] Container: ${containerId}. Waiting for cloud ingestion...`);
 
   // Step 3: Poll until ready (Increased to 120 attempts for 4K)
   let status = 'IN_PROGRESS';
@@ -215,16 +230,16 @@ async function uploadToFacebook(videoPath, caption) {
   const uploadUrl = init.upload_url;
   console.log(`[FB] Video ID: ${videoId}.`);
 
+  let videoUrl;
   if (useUrl) {
-    // Server mode: tell Meta to pull from public URL
-    const videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
-    console.log(`[FB] Using URL: ${videoUrl}`);
-    await apiCall(uploadUrl, 'POST', { file_url: videoUrl });
+    videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
+    console.log(`[FB] Using provided domain URL: ${videoUrl}`);
   } else {
-    // Local mode: upload binary directly
-    console.log(`[FB] Uploading binary...`);
-    await uploadVideoFile(videoPath, uploadUrl);
+    videoUrl = uploadToCatbox(videoPath);
   }
+  
+  console.log(`[FB] Telling FB to pull from Cloud URL: ${videoUrl}`);
+  await apiCall(uploadUrl, 'POST', { file_url: videoUrl });
   console.log(`[FB] Upload done. Publishing...`);
 
   // Step 2: Finish + publish
@@ -256,11 +271,20 @@ async function uploadToMeta() {
     process.exit(1);
   }
 
-  const topicDir = path.join(BASE, topicName);
-  const videoPath = path.join(topicDir, 'final-render.mp4');
+  const topicDirMeta = path.join(BASE, topicName);
+  const topicDirYT = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nation', 'topics', topicName);
+  
+  let videoPath = path.join(topicDirMeta, 'final-render.mp4');
+  let topicDir = topicDirMeta;
+
+  if (!fs.existsSync(videoPath) && fs.existsSync(path.join(topicDirYT, 'final-render.mp4'))) {
+    videoPath = path.join(topicDirYT, 'final-render.mp4');
+    topicDir = topicDirYT;
+    console.log(`   📡 Found video in YouTube Empire directory for ${topicName}.`);
+  }
   
   if (!fs.existsSync(videoPath)) {
-    console.error(`❌ No video found at: ${videoPath}`);
+    console.error(`❌ No video found at root or YT paths for topic: ${topicName}`);
     process.exit(1);
   }
 
@@ -283,30 +307,39 @@ async function uploadToMeta() {
     }
   }
 
-  console.log(`\n[Forge] Meta Upload: ${topicName}`);
+  const targetStr = getArg('--target') || 'both';
+
+  console.log(`\n[Forge] Meta Upload: ${topicName} (Target: ${targetStr})`);
   console.log('='.repeat(50));
 
   const uploadedDir = path.join(topicDir, 'uploaded');
   const igUploaded = fs.existsSync(path.join(uploadedDir, 'instagram.json'));
   const fbUploaded = fs.existsSync(path.join(uploadedDir, 'facebook.json'));
 
-  if (igUploaded && fbUploaded) {
+  if (igUploaded && fbUploaded && targetStr === 'both') {
     console.log(`[SKIP] ${topicName} already uploaded to IG and FB.`);
     return;
   }
 
+  let hasError = false;
+
   // Upload to Instagram
-  try {
-    if (!igUploaded) {
-      const igId = await uploadToInstagram(videoPath, hook.ig);
-      console.log(`[OK] Instagram Reel live: ID ${igId}`);
-    } else {
-      console.log(`[SKIP] Instagram: Already uploaded.`);
+  if (targetStr === 'both' || targetStr === 'insta') {
+    try {
+      if (!igUploaded) {
+        const igId = await uploadToInstagram(videoPath, hook.ig);
+        console.log(`[OK] Instagram Reel live: ID ${igId}`);
+      } else {
+        console.log(`[SKIP] Instagram: Already uploaded.`);
+      }
+    } catch (e) {
+      console.error(`[FAIL] Instagram: ${e.message}`);
+      if (targetStr === 'insta' || targetStr === 'both') hasError = true;
     }
-  } catch (e) { console.error(`[FAIL] Instagram: ${e.message}`); }
+  }
 
   // Upload to Facebook
-  if (FB_PAGE_ID) {
+  if ((targetStr === 'both' || targetStr === 'fb') && FB_PAGE_ID) {
     try {
       if (!fbUploaded) {
         const fbId = await uploadToFacebook(videoPath, hook.fb);
@@ -314,9 +347,23 @@ async function uploadToMeta() {
       } else {
         console.log(`[SKIP] Facebook: Already uploaded.`);
       }
-    } catch (e) { console.error(`[FAIL] Facebook: ${e.message}`); }
-  } else {
-    console.log('[SKIP] Facebook: META_FB_PAGE_ID not set.');
+    } catch (e) {
+      console.error(`[FAIL] Facebook: ${e.message}`);
+      // Only count fb as hard error if specifically targeted
+      if (targetStr === 'fb') hasError = true;
+    }
+  }
+
+  if (hasError) {
+    console.error('❌ Upload task failed. Exiting with error state.');
+    process.exit(1);
+  }
+
+  // File Clean-up for Vercel / GitHub Actions (to free ephemeral disk space)
+  if (!hasError && fs.existsSync(videoPath)) {
+    console.log(`🧹 Cleaning up heavy video file to save disk space...`);
+    fs.unlinkSync(videoPath);
+    console.log(`[OK] Deleted ${videoPath}`);
   }
 }
 

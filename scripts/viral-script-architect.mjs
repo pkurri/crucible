@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import 'dotenv/config';
 
 /**
  * 🏛️ CRUCIBLE DYNAMIC SCRIPT ARCHITECT
@@ -10,30 +11,52 @@ const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
 const SCRIPTS_FILE = path.join(process.cwd(), 'data', 'viral-scripts.json');
 
+function cleanJSON(str) {
+  try {
+    return JSON.parse(str.replace(/```json\n?|```/g, '').trim());
+  } catch (e) {
+    const start = str.indexOf('{');
+    const end = str.lastIndexOf('}');
+    if (start !== -1 && end !== -1) {
+      return JSON.parse(str.substring(start, end + 1));
+    }
+    throw e;
+  }
+}
+
 async function architectScript(niche) {
   console.log(`✍️ [${niche.name}] Architecting viral script...`);
   
-  const systemPrompt = `You are a viral scriptwriter for premium educational/entertainment Reels. 
-Write short, punchy, word-by-word delivery scripts (15-20 seconds).
-Focus on: Pattern Interrupt, High Logic, and a strong Viral Hook.`;
+  const systemPrompt = `You are the "Professional YouTube Scriptwriter" specialized in Retention Optimization.
+Your goal is to write high-impact scripts (10-15 seconds) for viral Shorts/Reels.
+
+RETENTION STRUCTURE:
+1. Pattern-Interrupt Hook (0-3s): Stop the scroll with an unexpected statement.
+2. Curiosity Loop (3-7s): Raise a question that can only be answered at the end.
+3. Rapid Payoff (7-12s): Provide the insight or "visual gold".
+4. Engagement Trigger (12-15s): Subtle prompt for comments or followers.
+
+Style: Natural, engaging, spoken tone. No generic "AAK Nation" branding in the voiceover.`;
 
   const keywordsStr = niche.keywords ? niche.keywords.join(', ') : niche.name;
-  const userPrompt = `Write a viral script for "${niche.name}".
-Niche context: ${niche.reason || 'High velocity'}.
+  const userPrompt = `Write a retention-optimized viral script for the niche: "${niche.name}".
+Target Emotion: ${niche.targetEmotion || 'Curiosity'}.
+Niche Rationale: ${niche.reason || 'High velocity'}.
 Visual Keywords: ${keywordsStr}.
 
-CRITICAL: 
-1. DO NOT include "AAK Nation" or any specific channel name in the text.
-2. Keep each line under 60 characters to ensure it fits on screen.
-3. Use high-intensity, punchy language.
+CRITICAL:
+1. Keep each line under 60 characters for mobile readability.
+2. Use intensive, high-stakes language.
+3. Ensure a clear "Problem → Insight" transformation.
 
 Return ONLY a JSON object:
 {
   "voice": "${niche.voice || 'en-US-GuyNeural'}",
   "lines": [
-    { "text": "HOOK line...", "duration": 5 },
-    { "text": "Logic line...", "duration": 5 },
-    { "text": "Payoff line...", "duration": 5 }
+    { "text": "[PATTERN INTERRUPT HOOK]...", "duration": 4 },
+    { "text": "[CURIOSITY LOOP/PROBLEM]...", "duration": 4 },
+    { "text": "[INSIGHT/PAYOFF]...", "duration": 4 },
+    { "text": "[CTA/ENGAGEMENT]...", "duration": 3 }
   ]
 }`;
 
@@ -54,7 +77,7 @@ Return ONLY a JSON object:
     });
 
     const data = await response.json();
-    return JSON.parse(data.choices[0].message.content);
+    return cleanJSON(data.choices[0].message.content);
   } catch (e) {
     console.warn(`   ⚠️ Using fallback for ${niche.name}`);
     return {
@@ -77,9 +100,13 @@ async function run() {
   const registry = JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8'));
   const existingScripts = fs.existsSync(SCRIPTS_FILE) ? JSON.parse(fs.readFileSync(SCRIPTS_FILE, 'utf8')) : {};
 
+  const filterTopic = process.argv.indexOf('--topic') !== -1 ? process.argv[process.argv.indexOf('--topic') + 1] : null;
+
   for (const niche of registry.niches) {
-    // Only generate if priority or missing
-    if (!existingScripts[niche.name] || niche.priority) {
+    if (filterTopic && niche.name !== filterTopic) continue;
+
+    // Only generate if priority, missing, or explicitly filtered
+    if (!existingScripts[niche.name] || niche.priority || filterTopic) {
       existingScripts[niche.name] = await architectScript(niche);
     }
   }

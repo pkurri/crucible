@@ -1,6 +1,7 @@
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
+import 'dotenv/config';
 
 /**
  * 🎬 CRUCIBLE 4K PRODUCER — FREE REVID.AI KILLER
@@ -85,8 +86,16 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   if (audioPath && fs.existsSync(audioPath)) {
     extraInputs = `-i "${audioPath}"`;
     if (subtitlePath && fs.existsSync(subtitlePath)) {
+      const platform = getArg('--platform') || 'youtube';
       const relativeSubtitlePath = path.relative(ROOT, subtitlePath).replace(/\\/g, '/');
-      const forceStyle = 'FontSize=h/20,FontName=Arial,PrimaryColour=&H0000FFFF,OutlineColour=&H00000000,Outline=5,Alignment=2,MarginV=250,Bold=1,WrapStyle=2';
+      
+      // YouTube Shorts: Clean, bold, white with black outline, positioned ABOVE UI/Captions
+      // FontSize=h/28 prevents overflow; MarginV=500 clears the Channel/Description UI.
+      let forceStyle = 'FontSize=18,FontName=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=2,Alignment=2,MarginV=100,Bold=1,WrapStyle=0';
+      if (platform === 'youtube') {
+        forceStyle = 'FontSize=h/28,FontName=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=4,Alignment=2,MarginV=500,Bold=1,WrapStyle=0';
+      }
+
       filterComplex += `;[vout]subtitles=filename='${relativeSubtitlePath}':force_style='${forceStyle}'[vfinal]`;
       mapArgs = '-map "[vfinal]" -map ' + images.length + ':a';
     } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]" -map ' + images.length + ':a'; }

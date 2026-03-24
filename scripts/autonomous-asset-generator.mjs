@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import 'dotenv/config';
 import { execSync } from 'child_process';
 
 /**
@@ -14,7 +15,14 @@ const PROMPTS_FILE = path.join(process.cwd(), 'data', 'empire-prompts-daily.json
 
 const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
 const registry = fs.existsSync(NICHES_FILE) ? JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8')) : { niches: [] };
-const TOPICS = registry.niches.map(n => n.name);
+
+const getArg = (key) => {
+  const idx = process.argv.indexOf(key);
+  return idx !== -1 ? process.argv[idx + 1] : null;
+};
+
+const filterTopic = getArg('--topic');
+const TOPICS = filterTopic ? [filterTopic] : registry.niches.map(n => n.name);
 
 async function generateImagesForTopic(topic) {
   const nicheData = registry.niches.find(n => n.name === topic) || {};

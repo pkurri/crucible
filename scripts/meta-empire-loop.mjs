@@ -83,26 +83,25 @@ async function runMetaCycle() {
 
     console.log(`🎨 [${topic}] Architecting assets (Priority: ${registryNiche.priority || false})...`);
     try {
-      // Pass niche details to generator if possible - for now we just run it
-      execSync(`node scripts/autonomous-asset-generator.mjs`, { stdio: 'inherit' });
+      execSync(`node scripts/autonomous-asset-generator.mjs --topic "${topic}"`, { stdio: 'inherit' });
     } catch (e) {
       console.error(`❌ [${topic}] Asset generation failed.`);
     }
 
     console.log(`🎬 [${topic}] Producing Reel...`);
     try {
-      execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}"`, { stdio: 'inherit' });
+      execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}" --platform meta`, { stdio: 'inherit' });
       produced++;
     } catch (e) {
       console.error(`❌ [${topic}] Production failed.`);
       continue;
     }
 
-    console.log(`🚀 [${topic}] Dispatching to Meta...`);
+    console.log(`🚀 [${topic}] Dispatching to Instagram via Meta Pipeline...`);
     try {
-      execSync(`node scripts/meta-official-uploader.mjs --topic "${topic}"`, { stdio: 'inherit' });
+      execSync(`node scripts/meta-official-uploader.mjs --topic "${topic}" --target insta`, { stdio: 'inherit' });
       state.uploadsToday++;
-      state.history.push({ topic, date: new Date().toISOString(), platform: 'meta' });
+      state.history.push({ topic, date: new Date().toISOString(), platform: 'instagram' });
       saveState(state);
       uploaded++;
     } catch (e) {

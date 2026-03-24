@@ -76,8 +76,8 @@ async function runEmpireCycle() {
     // Step 1: Ensure Assets & Script exist
     console.log(`🎨 [${topic}] Ensuring assets & viral script...`);
     try {
-      execSync(`node scripts/autonomous-asset-generator.mjs`, { stdio: 'inherit' });
-      execSync(`node scripts/viral-script-architect.mjs`, { stdio: 'inherit' });
+      execSync(`node scripts/autonomous-asset-generator.mjs --topic "${topic}"`, { stdio: 'inherit' });
+      execSync(`node scripts/viral-script-architect.mjs --topic "${topic}"`, { stdio: 'inherit' });
     } catch (e) {
       console.error(`❌ [${topic}] Prep failed.`);
     }
@@ -86,7 +86,7 @@ async function runEmpireCycle() {
     if (!fs.existsSync(finalRender)) {
       console.log(`🎬 [${topic}] Producing Shorts video...`);
       try {
-        execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}"`, { stdio: 'inherit' });
+        execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}" --platform youtube`, { stdio: 'inherit' });
         produced++;
       } catch (e) {
         console.error(`❌ [${topic}] Production failed.`);

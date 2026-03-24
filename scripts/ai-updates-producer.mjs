@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
 import https from 'https';
@@ -41,7 +42,6 @@ const RSS_FEEDS = [
 
 async function fetchRSS(url) {
   return new Promise((resolve) => {
-    const mod = url.startsWith('https') ? https : await import('http');
     https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
       let data = '';
       res.on('data', d => data += d);
@@ -89,37 +89,58 @@ async function scrapeAINews() {
 // ═══════════════════════════════════════════════════════
 async function generateScript(headlines) {
   const GEMINI_KEY = process.env.GEMINI_API_KEY;
+  const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 
-  if (!GEMINI_KEY) {
-    console.log('[Script] No GEMINI_API_KEY — using template script.');
+  if (!GEMINI_KEY && !OPENROUTER_KEY) {
+    console.log('[Script] No AI keys found — using template script.');
     return generateTemplateScript(headlines);
   }
 
+  // Use Gemini if available, otherwise OpenRouter
+  if (GEMINI_KEY && GEMINI_KEY !== 'your_gemini_api_key_here') {
+    return generateGeminiScript(headlines, GEMINI_KEY);
+  } else if (OPENROUTER_KEY) {
+    return generateOpenRouterScript(headlines, OPENROUTER_KEY);
+  } else {
+    return generateTemplateScript(headlines);
+  }
+}
+
+async function generateGeminiScript(headlines, key) {
   const headlineText = headlines.map((h, i) => `${i + 1}. ${h.title}: ${h.desc}`).join('\n');
-
-  const prompt = `You are a charismatic AI news anchor for AAK Nation, a tech content channel.
-Write a 60-second spoken anchor script (about 150 words) covering these 3 AI headlines.
-Style: energetic, punchy, like a TED talk opener. No emojis. No hashtags. Just clean spoken words.
-End with: "I'm your AI anchor. Stay plugged in. This is AAK Nation."
-
-Headlines:
-${headlineText}`;
+  const prompt = `You are a charismatic AI news anchor for AAK Nation. Write a 60s script (150 words) for these headlines:\n${headlineText}\nEnd with: "This is AAK Nation."`;
 
   try {
-    const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_KEY}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
-      }
-    );
+    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
+    });
     const data = await res.json();
     return data.candidates?.[0]?.content?.parts?.[0]?.text || generateTemplateScript(headlines);
-  } catch (e) {
-    console.log('[Script] Gemini API failed, using template.');
-    return generateTemplateScript(headlines);
-  }
+  } catch (e) { return generateTemplateScript(headlines); }
+}
+
+async function generateOpenRouterScript(headlines, key) {
+  console.log('[Script] Using OpenRouter fallback...');
+  const headlineText = headlines.map((h, i) => `${i + 1}. ${h.title}: ${h.desc}`).join('\n');
+  const prompt = `You are a charismatic AI news anchor for AAK Nation. Write a 60s script (150 words) for these headlines:\n${headlineText}\nEnd with: "This is AAK Nation."`;
+
+  try {
+    const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${key}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model: 'google/gemini-flash-1.5',
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+    const data = await res.json();
+    return data.choices?.[0]?.message?.content || generateTemplateScript(headlines);
+  } catch (e) { return generateTemplateScript(headlines); }
 }
 
 function generateTemplateScript(headlines) {
@@ -138,17 +159,23 @@ async function generateVoiceover(script, outDir) {
   const audioPath = path.join(outDir, 'anchor-voice.mp3');
   const subPath   = path.join(outDir, 'anchor-captions.vtt');
   console.log('[TTS] Generating anchor voiceover...');
+  
   try {
-    execSync(
-      `python -m edge_tts --voice "en-US-GuyNeural" --text "${script.replace(/"/g, "'")}" --write-media "${audioPath}" --write-subtitles "${subPath}"`,
-      { stdio: 'inherit' }
-    );
-    console.log('[TTS] Voiceover ready.');
-    return { audioPath, subPath };
+    // Escape script and use direct python module call
+    const cleanScript = script.replace(/"/g, "'").replace(/\n/g, ' ');
+    const cmd = `python -m edge_tts --voice "en-US-GuyNeural" --text "${cleanScript}" --write-media "${audioPath}" --write-subtitles "${subPath}"`;
+    
+    // Use Inherit for visibility but capture execution
+    execSync(cmd, { stdio: 'inherit', windowsHide: true });
+    
+    if (fs.existsSync(audioPath)) {
+      console.log('[TTS] Voiceover ready.');
+      return { audioPath, subPath };
+    }
   } catch (e) {
     console.error('[TTS] Failed:', e.message);
-    return null;
   }
+  return null;
 }
 
 // ═══════════════════════════════════════════════════════
@@ -224,7 +251,8 @@ async function composeVideo(talkingHead, audioPath, subPath, outDir, headlines) 
     mapArgs = `-map "[v]" -map ${images.length}:a`;
   }
 
-  const batContent = `@echo off\r\n"${FFMPEG}" -y ${inputs} -filter_complex "${filterComplex}" ${mapArgs} -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest -r 30 "${output}"\r\n`;
+  // -ar 44100 for Meta/IG compatibility. -profile:v main for H.264 standard.
+  const batContent = `@echo off\r\n"${FFMPEG}" -y ${inputs} -filter_complex "${filterComplex}" ${mapArgs} -c:v libx264 -profile:v main -level:v 4.1 -pix_fmt yuv420p -c:a aac -ar 44100 -shortest -r 30 "${output}"\r\n`;
   const batPath = path.join(outDir, 'compose.bat');
   fs.writeFileSync(batPath, batContent);
 

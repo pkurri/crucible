@@ -17,7 +17,8 @@ const engineConfigs = [
   { channel: 'ZenGarden', niche: 'Meditation/Ambient', keywords: ['Liquid glass waterfalls', 'Glowing lotus', 'Bioluminescent sand', 'Ethereal atmosphere'] },
   { channel: 'FutureTech', niche: 'Hardware/AI', keywords: ['Cerebral silicon', 'Superheated processors', 'Laser manufacturing', 'Techno-organic architecture'] },
   { channel: 'DailyStoic', niche: 'Philosophy', keywords: ['Marble statues in rain', 'Flickering torchlight', 'Ancient stone corridors', 'Weathered faces'] },
-  { channel: 'CookingCzar', niche: 'Food Science', keywords: ['Molecular collisions', 'Hyper-macro spices', 'Sizzling plasma heat', 'Luminescence in liquids'] }
+  { channel: 'CookingCzar', niche: 'Food Science', keywords: ['Molecular collisions', 'Hyper-macro spices', 'Sizzling plasma heat', 'Luminescence in liquids'] },
+  { channel: 'CognitiveShadows', niche: 'Applied Psychology', keywords: ['Noir silhouettes', 'Eye macro deep focus', 'Floating neural whispers', 'Chess pieces in shadows', 'Flickering candlelight', 'Dark academic study'] }
 ];
 
 function architectVisualPrompt(config) {
