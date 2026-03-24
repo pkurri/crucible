@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { GET as generateArticles } from '../../articles/generate-batch/route';
 import { GET as moltbookAutomation } from '../../moltbook/automation/route';
+import { IntelWatcher } from '@/lib/intel/watcher';
 
 export const maxDuration = 300; // 5 min for Vercel
 
@@ -13,13 +14,25 @@ export async function GET(request: Request) {
   const results: any = {
     articles: null,
     moltbook: null,
+    intel: null,
     timestamp: new Date().toISOString()
   };
 
   try {
     console.log('[MASTER CRON] Starting Unified Automation...');
 
-    // 1. Run Article Generation
+    // 1. Run Intelligence Sweep (NEW)
+    try {
+      console.log('[MASTER CRON] Triggering World Intelligence Sweep...');
+      const watcher = IntelWatcher.getInstance();
+      results.intel = await watcher.sweep();
+      console.log('[MASTER CRON] Intel Sweep complete.');
+    } catch (e: any) {
+      results.intel = { error: e.message };
+      console.error('[MASTER CRON] Intel Sweep failed:', e.message);
+    }
+
+    // 2. Run Article Generation
     try {
       const articleRes: any = await generateArticles(request);
       if (articleRes && typeof articleRes.json === 'function') {
@@ -31,7 +44,7 @@ export async function GET(request: Request) {
       console.error('[MASTER CRON] Article generation failed:', e.message);
     }
 
-    // 2. Run Moltbook Automation
+    // 3. Run Moltbook Automation
     try {
       const moltRes: any = await moltbookAutomation(request);
       if (moltRes && typeof moltRes.json === 'function') {

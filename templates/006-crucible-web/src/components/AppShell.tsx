@@ -4,13 +4,14 @@ import { useState } from 'react';
 import { ForgeRail } from './ForgeRail';
 import { Header } from './Header';
 import { Menu } from 'lucide-react';
+import { AuthGuard } from './auth/AuthGuard';
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [collapsed, setCollapsed] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <>
+    <AuthGuard>
       <ForgeRail 
         collapsed={collapsed} 
         onToggle={() => setCollapsed((c) => !c)} 
@@ -44,6 +45,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           {children}
         </div>
       </div>
-    </>
+    </AuthGuard>
   );
 }

@@ -20,6 +20,7 @@ decisions with you.
 
 ## 📖 Essential Reading
 - **[Full User Guide](./docs/USER_GUIDE.md)**: How to run the orchestrator, industrial workers, and manage subscriptions.
+- **[Forge Assistant (Crucix 2.0)](./docs/FORGE_ASSISTANT.md)**: Real-time world intelligence, market sweeps, and live HUD. 
 - **[Sentinel & Auditor Guide](./docs/SENTINEL_AUDITOR_GUIDE.md)**: Real-time steering, semantic tracing, and agent evaluation (Forge Pro).
 - **[Monetization Strategy](./docs/MONETIZATION.md)**: Deep dive into the tiered Pro model.
 
@@ -45,27 +46,24 @@ decisions with you.
 Crucible operates through specialized AI "Divisions" that handle distinct
 aspects of the software and product lifecycle autonomously.
 
-### 🧠 Intel Division
+### 🧠 Intel Division (Forge Assistant / Crucix 2.0)
 
 _Market analysis, intelligence gathering, and competitive synthesis._
 
+- **World Watcher (Watcher-Prime):** Performs 15-minute sweeps across GDELT News, Yahoo Finance, and GitHub Trends.
 - **Market Analyst:** Monitors competitor moves and market sentiment.
 - **Content Writer:** Drafts tailored social media strategies and documentation.
-- **Deep Researcher:** Digs into technical docs, whitepapers, and APIs to
-  synthesize capabilities.
-- **Repo Analyst:** Scans and analyzes public GitHub repositories for tech
-  stack, origin, and code quality.
-- **Strategy Synthesizer:** Connects data points into cohesive action plans.
+- **Deep Researcher:** Digs into technical docs, whitepapers, and APIs to synthesize capabilities.
+- **Repo Analyst:** Scans and analyzes public GitHub repositories for tech stack and code quality.
 
 ### 📡 Radar Division
 
 _Real-time signal processing and early-warning systems._
 
-- **Trend Spotter:** Identifies emerging technologies and shifts in user
-  behavior.
-- **Signal Processor:** Filters noise from high-value alerts securely.
-- **Alert Triage:** Categorizes incoming events for immediate action or
-  long-term tracking.
+- **Live HUD (forge-agents.space/live):** High-performance Jarvis-style dashboard for real-time telemetry.
+- **Delta Tracker:** Computes 'What changed since last sweep' across markets and tech.
+- **Forge Dispatcher:** Alerts to Discord/Telegram for FLASH, PRIORITY, and ROUTINE signals.
+- **Trend Spotter:** Identifies emerging technologies and shifts in user behavior.
 
 ### 🏭 Foundry Division
 
@@ -310,78 +308,6 @@ Claude with Crucible:
   5. observe                      → tracks agent performance metrics
   6. review-security              → validates agent allowlists and sandboxing
 ```
-
-Skills are additive — install more skills, get smarter orchestration.
-
----
-
-## Repository Structure
-
-```
-crucible/
-├── skills/
-│   ├── workflow-*/          # Multi-step orchestration (spawn sub-agents)
-│   ├── tool-*/              # Point tools (invoked on demand)
-│   ├── review-*/            # Quality review (auto-loaded during review)
-│   └── <service>/           # Deep service knowledge (neon, stripe, etc.)
-├── templates/
-│   └── NNN-<slug>/          # Runnable production starting points
-├── docs/                    # Architecture decisions, guides
-│   ├── skill-authoring-guide.md
-│   ├── ide-integration.md   # IDE setup and usage
-│   └── architecture-decisions.md
-├── setup-ide.js             # Auto-generates IDE configs
-├── install.sh / install.ps1 # Installation scripts
-└── .github/workflows/       # CI: lint, validate skill YAML, test templates
-```
-
----
-
-## Skill Naming Convention
-
-| Prefix      | Type          | Auto-triggered when            |
-| ----------- | ------------- | ------------------------------ |
-| `workflow-` | Orchestration | Asked to build, ship, plan     |
-| `tool-`     | Point tool    | Specific diagnostic needed     |
-| `review-`   | Quality check | Code review or audit requested |
-| `<service>` | Integration   | Service detected or mentioned  |
-
----
-
-## Contributing
-
-The bar for inclusion: **would this save an experienced engineer 30+ minutes on
-a real project?**
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-### Quick Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/pkurri/crucible.git
-cd crucible
-
-# Install Node.js (uses .nvmrc)
-nvm install
-nvm use
-
-# Install development dependencies
-npm install
-
-# Run validation locally
-npm run validate
-
-# Format code
-npm run format
-
-# Run all checks
-npm run check
-```
-
----
-
-## Security
 
 🔒 This project takes security seriously. Report vulnerabilities privately at
 `security@crucible.dev`.
