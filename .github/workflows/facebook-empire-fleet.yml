@@ -1,12 +1,12 @@
-name: '📸 AAK Nation Meta Empire Fleet'
+name: '📘 AAK Nation Facebook Empire Fleet'
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Every 4 hours
+    - cron: '30 */4 * * *'  # Every 4 hours, staggered 30 mins from Instagram
   workflow_dispatch:
 
 jobs:
-  meta-production:
+  fb-production:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -30,19 +30,13 @@ jobs:
       - name: Install Edge TTS
         run: pip install edge-tts
 
-      - name: Create Data Structure
-        run: |
-          mkdir -p data/meta-empire/AAK-Nation/topics/BioHarmonize/assets
-          mkdir -p data/meta-empire/AAK-Nation/topics/BioHarmonize/uploaded
-          mkdir -p data
-
       - name: Discover Daily Viral Niche
         run: node scripts/niche-strategist.mjs
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
-      - name: Run Meta Empire Loop
-        run: node scripts/meta-empire-loop.mjs --target insta
+      - name: Run FB Empire Loop
+        run: node scripts/meta-empire-loop.mjs --target fb
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
@@ -57,5 +51,5 @@ jobs:
           git config --global user.name "Crucible Bot"
           git config --global user.email "bot@crucible.ai"
           git add data/meta-empire/ scripts/meta-empire-state.json
-          git commit -m "chore: update meta upload cycle [skip ci]" || echo "No changes to commit"
+          git commit -m "chore: update fb upload cycle [skip ci]" || echo "No changes to commit"
           git push || echo "Push failed"

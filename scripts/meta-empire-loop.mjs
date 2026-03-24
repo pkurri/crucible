@@ -29,6 +29,13 @@ function getToday() {
 }
 
 async function runMetaCycle() {
+  const getArg = (key) => {
+    const idx = process.argv.indexOf(key);
+    return idx !== -1 ? process.argv[idx + 1] : null;
+  };
+  const target = getArg('--target') || 'insta';
+  const platformName = target === 'insta' ? 'instagram' : target === 'fb' ? 'facebook' : 'meta';
+
   const state = loadState();
   const today = getToday();
 
@@ -38,7 +45,7 @@ async function runMetaCycle() {
   }
 
   const remaining = MAX_UPLOADS_PER_DAY - state.uploadsToday;
-  console.log(`\n📸 AAK NATION DYNAMIC META CYCLE — ${new Date().toLocaleString()}`);
+  console.log(`\n📸 AAK NATION DYNAMIC META CYCLE (${target.toUpperCase()}) — ${new Date().toLocaleString()}`);
   
   // 📥 Load Dynamic Niches
   if (!fs.existsSync(NICHES_FILE)) {
@@ -67,13 +74,13 @@ async function runMetaCycle() {
     const topic = registryNiche.name;
     const topicDir = path.join(BASE, topic);
     const assetDir = path.join(topicDir, 'assets');
-    const logFile = path.join(topicDir, 'uploaded', 'instagram.json');
+    const logFile = path.join(topicDir, 'uploaded', `${platformName}.json`);
 
     // Skip if already posted today
     if (fs.existsSync(logFile)) {
       const stats = fs.statSync(logFile);
       if (stats.mtime.toISOString().split('T')[0] === today) {
-        console.log(`⏭️ [${topic}] Already posted today. Skipping.`);
+        console.log(`⏭️ [${topic}] Already posted today on ${target}. Skipping.`);
         continue;
       }
     }
@@ -97,11 +104,11 @@ async function runMetaCycle() {
       continue;
     }
 
-    console.log(`🚀 [${topic}] Dispatching to Instagram via Meta Pipeline...`);
+    console.log(`🚀 [${topic}] Dispatching to ${target.toUpperCase()} via Meta Pipeline...`);
     try {
-      execSync(`node scripts/meta-official-uploader.mjs --topic "${topic}" --target insta`, { stdio: 'inherit' });
+      execSync(`node scripts/meta-official-uploader.mjs --topic "${topic}" --target ${target}`, { stdio: 'inherit' });
       state.uploadsToday++;
-      state.history.push({ topic, date: new Date().toISOString(), platform: 'instagram' });
+      state.history.push({ topic, date: new Date().toISOString(), platform: platformName });
       saveState(state);
       uploaded++;
     } catch (e) {
@@ -110,7 +117,7 @@ async function runMetaCycle() {
   }
 
   console.log(`\n${'═'.repeat(60)}`);
-  console.log(`🏆 DYNAMIC META CYCLE COMPLETE: ${produced} produced, ${uploaded} uploaded.`);
+  console.log(`🏆 DYNAMIC META CYCLE (${target.toUpperCase()}) COMPLETE: ${produced} produced, ${uploaded} uploaded.`);
 }
 
 runMetaCycle().catch(err => {
