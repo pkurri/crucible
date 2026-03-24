@@ -1,12 +1,6 @@
-[dotenv@17.3.1] injecting env (17) from .env.local -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (17) from .env.local -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
 ⚡ Starting World Sweep...
 [INTEL] Starting World Sweep...
-[INTEL] FIRMS fetch failed: SyntaxError: Unexpected token 'I', "Invalid API call." is not valid JSON
-    at JSON.parse (<anonymous>)
-    at parseJSONFromBytes (node:internal/deps/undici/undici:6433:19)
-    at successSteps (node:internal/deps/undici/undici:6414:27)
-    at readAllBytes (node:internal/deps/undici/undici:5380:13)
-    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
 [INTEL] News fetch timed out
 [ROUTER] Trying Gemini 2.5 Flash...
 [ROUTER] ✗ Gemini: {"error":{"code":400,"message":"API key not valid. Please pass a valid API key.","status":"INVALID_ARGUMENT","details":[
@@ -50,17 +44,17 @@
 
 [ROUTER] Trying Together AI meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-Free...
 [ROUTER] ✗ Together AI (meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-Free): Together HTTP 401: {
-  "id": "ocMCPY8-2kFHot-9e16356ec9566635",
+  "id": "ocMDSHG-2kFHot-9e163a6bcd67acda",
   "error": {
     "message": "Invalid API key provided. Y
 [ROUTER] Trying Together AI meta-llama/Llama-3.3-70B-Instruct-Turbo-Free...
 [ROUTER] ✗ Together AI (meta-llama/Llama-3.3-70B-Instruct-Turbo-Free): Together HTTP 401: {
-  "id": "ocMCPcp-2kFHot-9e16357018b2dd19",
+  "id": "ocMDSMp-2kFHot-9e163a6d8e987800",
   "error": {
     "message": "Invalid API key provided. Y
 [ROUTER] Trying Together AI deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free...
 [ROUTER] ✗ Together AI (deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free): Together HTTP 401: {
-  "id": "ocMCPg9-2kFHot-9e163571ba826635",
+  "id": "ocMDSQq-2kFHot-9e163a6ea975acda",
   "error": {
     "message": "Invalid API key provided. Y
 [ROUTER] Trying Mistral (mistral-small-latest)...

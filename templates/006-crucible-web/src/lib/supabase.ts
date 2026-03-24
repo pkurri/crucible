@@ -40,7 +40,7 @@ export function getSupabaseAdmin(): SupabaseClient {
     }
 
     try {
-      if (!url) throw new Error('supabaseUrl is required');
+      if (!url || !url.startsWith('http')) throw new Error('supabaseUrl is required and must be valid');
       _adminClient = createClient(url, key, {
         auth: {
           persistSession: false,
@@ -49,7 +49,16 @@ export function getSupabaseAdmin(): SupabaseClient {
       });
     } catch (e) {
       console.warn('Supabase Admin initialization failed, using mock client:', e);
-      _adminClient = { from: () => ({ insert: () => Promise.resolve({ error: null }), select: () => Promise.resolve({ data: [], error: null }) }) } as any;
+      // Create a chainable mock object
+      const mockChain = {
+        insert: () => Promise.resolve({ error: null }),
+        select: () => mockChain,
+        eq: () => mockChain,
+        order: () => mockChain,
+        limit: () => Promise.resolve({ data: [], error: null }),
+        then: (resolve: any) => resolve({ data: [], error: null })
+      };
+      _adminClient = { from: () => mockChain } as any;
     }
   }
   return _adminClient!;
