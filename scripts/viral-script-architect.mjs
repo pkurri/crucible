@@ -22,13 +22,18 @@ Focus on: Pattern Interrupt, High Logic, and a strong Viral Hook.`;
 Niche context: ${niche.reason || 'High velocity'}.
 Visual Keywords: ${keywordsStr}.
 
+CRITICAL: 
+1. DO NOT include "AAK Nation" or any specific channel name in the text.
+2. Keep each line under 60 characters to ensure it fits on screen.
+3. Use high-intensity, punchy language.
+
 Return ONLY a JSON object:
 {
   "voice": "${niche.voice || 'en-US-GuyNeural'}",
   "lines": [
-    { "text": "HOOK (e.g. 99% of people are wrong about...)", "duration": 5 },
-    { "text": "THE LOGIC (e.g. The truth is...)", "duration": 5 },
-    { "text": "THE PAYOFF (e.g. This is how you win.)", "duration": 5 }
+    { "text": "HOOK line...", "duration": 5 },
+    { "text": "Logic line...", "duration": 5 },
+    { "text": "Payoff line...", "duration": 5 }
   ]
 }`;
 
@@ -55,9 +60,9 @@ Return ONLY a JSON object:
     return {
       voice: niche.voice || 'en-US-GuyNeural',
       lines: [
-        { text: `The truth about ${niche.name} is being hidden from you.`, duration: 5 },
-        { text: `Most people fail because they lack the protocol.`, duration: 5 },
-        { text: `Follow the system. This is AAK Nation.`, duration: 5 }
+        { text: `The secrets of ${niche.name} are finally revealed.`, duration: 5 },
+        { text: `Most fail because they lack the proper protocol.`, duration: 5 },
+        { text: `Follow the system to win the game.`, duration: 5 }
       ]
     };
   }

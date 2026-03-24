@@ -63,30 +63,30 @@ export class IntelWatcher {
 
   private async fetchFires(): Promise<IntelSignal[]> {
     try {
-      const firmsKey = process.env.FIRMS_MAP_KEY || '1c17545ae03647879529cc9242a3db52'; // Use provided key as fallback or env
+      const firmsKey = process.env.FIRMS_MAP_KEY || '1c17545ae03647879529cc9242a3db52'; 
       
-      // Step 1: Get count for World (last 24h)
-      const countRes = await fetch(`https://firms.modaps.eosdis.nasa.gov/api/count/v1/${firmsKey}/MODIS_C6/World/1`);
-      const countData = await countRes.json();
+      // NASA FIRMS returns CSV format, not JSON. Using area endpoint to get summary string.
+      const res = await fetch(`https://firms.modaps.eosdis.nasa.gov/api/area/csv/${firmsKey}/VIIRS_SNPP_NRT/world/1`);
       
-      const signals: IntelSignal[] = [{
+      if (!res.ok) throw new Error('FIRMS API unavailable');
+      const textData = await res.text();
+      
+      // Split by lines, minus the header
+      const lines = textData.split('\n').filter(l => l.trim().length > 0);
+      const fireCount = Math.max(0, lines.length - 1); 
+
+      return [{
         id: `nasa-fire-count-${Date.now()}`,
         source: 'firms',
         category: 'news',
-        title: `Global Fire Count: ${countData.count || 0} Detections`,
-        content: `NASA FIRMS detected ${countData.count} MODIS fire hotspots globally in the last 24h. Tracking thermal anomalies across 7 continents.`,
-        severity: (countData.count > 50000) ? 'critical' : (countData.count > 30000) ? 'high' : 'medium',
+        title: `Global Fire Count: ${fireCount} Detections`,
+        content: `NASA FIRMS detected ${fireCount} VIIRS fire hotspots globally in the last 24h. Tracking thermal anomalies across 7 continents.`,
+        severity: (fireCount > 50000) ? 'critical' : (fireCount > 30000) ? 'high' : 'medium',
         timestamp: new Date().toISOString(),
-        metadata: { count: countData.count }
+        metadata: { count: fireCount }
       }];
-
-      // Step 2: Try to get a sample of specific hotspots for the globe (optional/granular)
-      // For now we'll stick to the summary to avoid rate limit complexity during the first sweep
-      // but the key is now active for the count endpoint.
-      
-      return signals;
     } catch (e) {
-      console.error('[INTEL] FIRMS fetch failed:', e);
+      console.warn('[INTEL] FIRMS fetch failed or unavailable');
       return [];
     }
   }
@@ -114,34 +114,33 @@ export class IntelWatcher {
 
   private async fetchMarkets(): Promise<IntelSignal[]> {
     try {
-      // Yahoo Finance public query (Crucix method)
       const symbols = ['^GSPC', '^IXIC', 'BTC-USD', 'ETH-USD', '^VIX'];
       const res = await fetch(`https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols.join(',')}`);
-      const { quoteResponse } = await res.json();
+      const data = await res.json();
       
-      return (quoteResponse.result || []).map((q: any) => ({
+      const results = data.quoteResponse?.result || [];
+      return results.map((q: any) => ({
         id: `mkt-${q.symbol}-${Date.now()}`,
         source: 'yfinance',
         category: 'market',
-        title: `${q.shortName || q.symbol}: ${q.regularMarketPrice}`,
-        content: `Market shift for ${q.shortName}. Change: ${q.regularMarketChangePercent.toFixed(2)}%. Vol: ${q.regularMarketVolume || 'N/A'}`,
-        severity: Math.abs(q.regularMarketChangePercent) > 3 ? 'high' : 'low',
+        title: `${q.shortName || q.symbol}: ${q.regularMarketPrice ?? 'N/A'}`,
+        content: `Market shift for ${q.shortName || q.symbol}. Change: ${(q.regularMarketChangePercent || 0).toFixed(2)}%. Vol: ${q.regularMarketVolume || 'N/A'}`,
+        severity: Math.abs(q.regularMarketChangePercent || 0) > 3 ? 'high' : 'low',
         timestamp: new Date().toISOString(),
         metadata: { price: q.regularMarketPrice, change: q.regularMarketChangePercent }
       }));
     } catch (e) {
-      console.error('[INTEL] Market fetch failed:', e);
+      console.warn('[INTEL] Market data unavailable (Rate Limited or Change)');
       return [];
     }
   }
 
   private async fetchNews(): Promise<IntelSignal[]> {
     try {
-      // GDELT Summary query (World Events)
       const res = await fetch('https://api.gdeltproject.org/api/v2/summary/summary?format=json&query=ai%20technology&mode=trend');
+      if (!res.ok) throw new Error('Unreachable');
       const data = await res.json();
       
-      // Pull only the top 5 trending events
       return (data.trends || []).slice(0, 5).map((t: any) => ({
         id: `news-${t.term}-${Date.now()}`,
         source: 'gdelt',
@@ -152,6 +151,7 @@ export class IntelWatcher {
         timestamp: new Date().toISOString()
       }));
     } catch (e) {
+      console.warn('[INTEL] News fetch timed out');
       return [];
     }
   }
@@ -228,17 +228,22 @@ export class IntelWatcher {
   private async saveSweep(signals: IntelSignal[], delta: any) {
     const supabase = getSupabaseAdmin();
     if (signals.length > 0) {
-      await supabase.from('world_events').insert(signals.map(s => ({
-        ...s,
-        id: undefined, // Let DB generate ID
-        metadata: JSON.stringify(s.metadata || {})
+      const { error } = await supabase.from('world_events').insert(signals.map(s => ({
+        source: s.source,
+        category: s.category,
+        title: s.title,
+        content: s.content,
+        severity: s.severity,
+        metadata: s.metadata || {}
       })));
+      if (error) console.error('[INTEL] Save World Events failed:', error);
     }
     
-    await supabase.from('forge_events').insert({
+    const { error: eventError } = await supabase.from('forge_events').insert({
       event_type: 'INTEL_SWEEP',
-      message: `Sweep complete: ${signals.length} signals, ${delta.new_signals_count} new.`,
+      message: `Sweep complete: ${signals.length} signals. ${delta.new_signals_count} new detections since last scan.`,
       agent_id: 'watcher-prime'
     });
+    if (eventError) console.error('[INTEL] Save Forge Event failed:', eventError);
   }
 }

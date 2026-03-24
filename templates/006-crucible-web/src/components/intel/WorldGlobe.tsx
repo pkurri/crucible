@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
 
 // Dynamic import to avoid SSR issues with Globe.gl
-const Globe = dynamic(() => import('react-globe.gl').then(mod => mod.default), {
+const Globe = dynamic(() => import('react-globe.gl'), {
   ssr: false,
   loading: () => (
     <div className="flex items-center justify-center w-full h-full bg-[#050505] animate-pulse">

@@ -12,7 +12,7 @@ import path from 'path';
 
 const ROOT = process.cwd();
 const FFMPEG = process.env.GITHUB_ACTIONS ? 'ffmpeg' : path.join(ROOT, 'scripts', 'bin', 'ffmpeg.exe');
-const BASE_DIR = fs.existsSync(path.join(ROOT, 'data', 'meta-empire', 'AAK-Nation', 'topics')) ? path.join(ROOT, 'data', 'meta-empire', 'AAK-Nation', 'topics') : path.join(ROOT, 'data', 'youtube-empire', 'AAK-Nation', 'topics');
+const BASE_DIR = fs.existsSync(path.join(ROOT, 'data', 'youtube-empire', 'AAK-Nation', 'topics')) ? path.join(ROOT, 'data', 'youtube-empire', 'AAK-Nation', 'topics') : path.join(ROOT, 'data', 'meta-empire', 'AAK-Nation', 'topics');
 
 const getArg = (key) => {
   const idx = process.argv.indexOf(key);
@@ -86,7 +86,8 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
     extraInputs = `-i "${audioPath}"`;
     if (subtitlePath && fs.existsSync(subtitlePath)) {
       const relativeSubtitlePath = path.relative(ROOT, subtitlePath).replace(/\\/g, '/');
-      filterComplex += `;[vout]subtitles=filename='${relativeSubtitlePath}':force_style='FontSize=48,FontName=Arial,PrimaryColour=&H0000FFFF,OutlineColour=&H00000000,Outline=4,Alignment=2,MarginV=150,Bold=1'[vfinal]`;
+      const forceStyle = 'FontSize=h/20,FontName=Arial,PrimaryColour=&H0000FFFF,OutlineColour=&H00000000,Outline=5,Alignment=2,MarginV=250,Bold=1,WrapStyle=2';
+      filterComplex += `;[vout]subtitles=filename='${relativeSubtitlePath}':force_style='${forceStyle}'[vfinal]`;
       mapArgs = '-map "[vfinal]" -map ' + images.length + ':a';
     } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]" -map ' + images.length + ':a'; }
   } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]"'; }

@@ -88,6 +88,14 @@ _Central command and orchestration for all deployed agents._
   digestible timeline.
 - **Sentinel (Pro):** Intercepts and validates tool calls in real-time to prevent hallucinations.
 - **Auditor (Pro):** Performs post-run evaluation and calculates ROI/reliability metrics.
+7. **FIRMS_MAP_KEY**: Get a free key from [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/api/area/) and add it to Vercel/Supabase.
+8. **GEMINI_API_KEY**: Required for AI-driven intelligence synthesis.
+
+### 🚀 Entering the Forge
+1. **Push Changes**: `git add . && git commit -m "feat: Forge Assistant 2.0" && git push`
+2. **Deploy to Vercel**: Run `vercel --prod` to push the new HUD live.
+3. **Verify HUD**: Visit `https://your-domain.vercel.app/live` and sign in as `prasadkurri.ai@gmail.com`.
+4. **Autonomous Sweep**: Automatically checks world data every 15 minutes. Trigger manually at `/api/cron/unified`.
 
 ### 🎭 Stage Division
 
