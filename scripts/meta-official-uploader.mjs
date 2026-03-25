@@ -122,14 +122,14 @@ async function apiCall(url, method = 'GET', body = null, retryCount = 0) {
 }
 
 // Upload a local video file using Meta's resumable upload API
-async function uploadVideoFile(videoPath, uploadUrl, retryCount = 0) {
+async function uploadVideoFile(videoPath, uploadUrl, retryCount = 0, token = ACCESS_TOKEN) {
   const fileSize = fs.statSync(videoPath).size;
   const fileStream = fs.createReadStream(videoPath);
   
   const res = await fetch(uploadUrl, {
     method: 'POST',
     headers: {
-      'Authorization': `OAuth ${ACCESS_TOKEN}`,
+      'Authorization': `OAuth ${token}`,
       'offset': '0',
       'file_size': String(fileSize),
     },
@@ -149,7 +149,7 @@ async function uploadVideoFile(videoPath, uploadUrl, retryCount = 0) {
     const backoff = Math.pow(2, retryCount) * 60000;
     console.warn(`🛑 [BINARY THROTTLE] Delaying upload. Backing off ${backoff / 1000}s...`);
     await sleep(backoff);
-    return uploadVideoFile(videoPath, uploadUrl, retryCount + 1);
+    return uploadVideoFile(videoPath, uploadUrl, retryCount + 1, token);
   }
 
   if (json.error) throw new Error(`Meta Upload: ${json.error.message} (code ${json.error.code})`);
@@ -269,16 +269,17 @@ async function uploadToFacebook(videoPath, caption) {
   const uploadUrl = init.upload_url;
   console.log(`[FB] Video ID: ${videoId}.`);
 
-  let videoUrl;
   if (useUrl) {
-    videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
-    console.log(`[FB] Using provided domain URL: ${videoUrl}`);
+    // URL-pull mode: pass file_url in the start phase (not to upload_url)
+    const videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
+    console.log(`[FB] Pulling from public URL: ${videoUrl}`);
+    await apiCall(`${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`, 'POST',
+      { upload_phase: 'start', file_url: videoUrl });
   } else {
-    videoUrl = uploadToCatbox(videoPath);
+    // Binary upload mode: stream file directly to the resumable upload_url
+    console.log(`[FB] Uploading binary to resumable endpoint...`);
+    await uploadVideoFile(videoPath, uploadUrl, 0, FB_PAGE_TOKEN);
   }
-  
-  console.log(`[FB] Telling FB to pull from Cloud URL: ${videoUrl}`);
-  await apiCall(uploadUrl, 'POST', { file_url: videoUrl });
   console.log(`[FB] Upload done. Publishing...`);
 
   // Step 2: Finish + publish
