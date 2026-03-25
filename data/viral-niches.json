@@ -46,6 +46,29 @@
         "consciousness"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LucidDreamingInsights",
+      "platforms": [
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Lucid dreaming combines mystery, self-improvement, and the allure of controlling one's own reality. The viral potential lies in its 'hackable' nature, offering viewers practical techniques and relatable experiences. It's a trending topic that resonates with large audiences seeking personal growth + altered states of consciousness. It also offers endless opportunities for visual creativity through dream visualizations.",
+      "ideas": [
+        "\"Lucid Dreaming Secrets They Don't Want You To Know\" / Imagine controlling your dreams. Discover the reality-bending techniques used by expert lucid dreamers. Unlock your subconscious now!",
+        "\"5 Foods That Trigger INTENSE Lucid Dreams (Scientists Shocked!)\" / Eat THIS before bed... and enter a world where you control EVERYTHING. #LucidDreaming",
+        "\"Lucid Dreaming for Beginners: A 7-Night Challenge\" / Never lucid dreamed before? This step-by-step guide guarantees your first conscious dream within a week. Join the challenge!"
+      ],
+      "keywords": [
+        "dream control",
+        "reality check",
+        "dream journal",
+        "sleep paralysis",
+        "oneironaut"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
