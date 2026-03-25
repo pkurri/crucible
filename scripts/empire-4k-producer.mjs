@@ -118,9 +118,11 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   }
 
   const inputs = images.map(img => `-loop 1 -t 5 -i "${path.join(assetDir, img)}"`).join(' ');
-  const filterParts = images.map((_, i) => `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,zoompan=z='min(zoom+0.0015,1.3)':d=125:s=1080x1920:fps=25[v${i}]`);
+  const kenBurnsFilters = images.map((img, i) => {
+    return `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1,zoompan=z='min(zoom+0.0015,1.3)':d=125:s=1080x1920:fps=25,setsar=1[v${i}]`;
+  }).join(';');
   const concatPart = images.map((_, i) => `[v${i}]`).join('') + `concat=n=${images.length}:v=1:a=0[vout]`;
-  let filterComplex = filterParts.join(';') + ';' + concatPart;
+  let filterComplex = kenBurnsFilters + ';' + concatPart;
   let mapArgs = '', extraInputs = '';
   if (audioPath && fs.existsSync(audioPath)) {
     extraInputs = `-i "${audioPath}"`;
@@ -141,7 +143,7 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
     } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]" -map ' + images.length + ':a'; }
   } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]"'; }
 
-  const cmdLine = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${filterComplex}" ${mapArgs} -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
+  const cmdLine = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${filterComplex}" ${mapArgs} -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
   
   console.log(`🎬 Rendering 4K video for ${topicName}...`);
   try {

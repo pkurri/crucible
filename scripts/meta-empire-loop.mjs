@@ -110,6 +110,14 @@ async function runMetaCycle() {
       continue; // Skip if assets failed to prevent black screens
     }
 
+    console.log(`✍️ [${topic}] Generating viral script...`);
+    try {
+      execSync(`node scripts/viral-script-architect.mjs --topic "${topic}"`, { stdio: 'inherit' });
+    } catch (e) {
+      console.error(`❌ [${topic}] Script generation failed.`);
+      continue;
+    }
+
     console.log(`🎬 [${topic}] Producing Premium Reel...`);
     try {
       execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}" --platform meta`, { stdio: 'inherit' });
