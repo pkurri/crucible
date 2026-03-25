@@ -66,19 +66,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You've never seen space like this.",
+        "text": "You've NEVER seen space like this.",
         "duration": 4
       },
       {
-        "text": "What cosmic horror is REALLY out there?",
+        "text": "What if galaxies were... alive?",
         "duration": 4
       },
       {
-        "text": "Behold: a black hole's final dance!",
+        "text": "Witness the birth of a new galaxy!",
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+        "text": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -87,15 +87,15 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They're DOWN THERE... waiting.",
+        "text": "They're DOWN THERE, watching...",
         "duration": 4
       },
       {
-        "text": "What NIGHTMARE lurks in the dark?",
+        "text": "What NIGHTMARE lurks in the abyss?",
         "duration": 4
       },
       {
-        "text": "Giant, unseen WORMS… eating whale falls!",
+        "text": "Giant, unseen predators. Bioluminescent jaws.",
         "duration": 4
       },
       {
@@ -108,19 +108,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You won't believe what I saw...",
+        "text": "You won't believe this sky!",
         "duration": 3
       },
       {
-        "text": "A colossal lightning storm... endless.",
+        "text": "What causes these fiery rivers?",
         "duration": 4
       },
       {
-        "text": "Witness the raw power of nature!",
+        "text": "Behold: a solar storm's aurora!",
         "duration": 4
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]
@@ -129,19 +129,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They're already running the simulation.",
+        "text": "They're running simulations...",
+        "duration": 3
+      },
+      {
+        "text": "What if society... crumbles?",
         "duration": 4
       },
       {
-        "text": "What if the future… is now? What if society crumbles?",
+        "text": "The collapse is already coded in!",
         "duration": 4
       },
       {
-        "text": "AI controls, resources vanish, chaos reigns. The code is in the data.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
@@ -2595,6 +2595,27 @@
       },
       {
         "text": "Neon liquid, hyper-car tech… it's REAL.",
+        "duration": 5
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1774470064093": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Witness the future, NOW.",
+        "duration": 3
+      },
+      {
+        "text": "Ever seen data… come alive?",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid, data, pure flow!",
         "duration": 5
       },
       {
