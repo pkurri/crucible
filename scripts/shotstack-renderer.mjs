@@ -14,6 +14,25 @@ const SHOTSTACK_API_URL = SHOTSTACK_API_KEY.startsWith('stage')
   ? 'https://api.shotstack.io/stage' 
   : 'https://api.shotstack.io/v1';
 
+async function uploadToCatbox(filePath) {
+  const FormData = (await import('form-data')).default;
+  const form = new FormData();
+  form.append('fileToUpload', fs.createReadStream(filePath));
+  form.append('reqtype', 'fileupload');
+  
+  try {
+    const response = await fetch('https://catbox.moe/user/api.php', {
+      method: 'POST',
+      body: form
+    });
+    const url = await response.text();
+    return url.trim();
+  } catch (e) {
+    console.error(`❌ [Catbox] Upload failed: ${e.message}`);
+    return null;
+  }
+}
+
 async function renderWithShotstack(topicDir, topicName, audioPath) {
   const assetDir = path.join(topicDir, 'assets');
   const outputFile = path.join(topicDir, 'final-render.mp4');
@@ -23,27 +42,41 @@ async function renderWithShotstack(topicDir, topicName, audioPath) {
     return null;
   }
   
-  const images = fs.readdirSync(assetDir)
+  const imagePaths = fs.readdirSync(assetDir)
     .filter(f => /\.(png|jpg|jpeg)$/i.test(f))
     .map(f => path.join(assetDir, f));
   
-  if (images.length < 3) {
+  if (imagePaths.length < 3) {
     console.error('❌ [Shotstack] Insufficient assets');
     return null;
   }
   
   console.log(`🎬 [Shotstack] Rendering ${topicName} in the cloud...`);
+  console.log(`📤 [Shotstack] Uploading ${imagePaths.length} images to CDN...`);
+  
+  // Upload images to public CDN (required for Shotstack)
+  const imageUrls = [];
+  for (const imgPath of imagePaths) {
+    const url = await uploadToCatbox(imgPath);
+    if (!url) {
+      console.error('❌ [Shotstack] Image upload failed, aborting');
+      return null;
+    }
+    imageUrls.push(url);
+  }
+  
+  console.log(`✅ [Shotstack] All images uploaded to CDN`);
   
   // Build Shotstack JSON template
-  const clips = images.map((imgPath, i) => ({
+  const clips = imageUrls.map((url, i) => ({
     asset: {
       type: 'image',
-      src: `file://${imgPath.replace(/\\/g, '/')}`
+      src: url
     },
     start: i * 5,
     length: 5,
     fit: 'cover',
-    scale: 1.2, // Slight zoom
+    scale: 1.2,
     position: 'center',
     transition: {
       in: 'fade',
@@ -59,17 +92,23 @@ async function renderWithShotstack(topicDir, topicName, audioPath) {
     ]
   };
   
+  // Upload audio if exists
   if (audioPath && fs.existsSync(audioPath)) {
-    timeline.tracks.push({
-      clips: [{
-        asset: {
-          type: 'audio',
-          src: `file://${audioPath.replace(/\\/g, '/')}`
-        },
-        start: 0,
-        length: 15
-      }]
-    });
+    console.log(`📤 [Shotstack] Uploading audio to CDN...`);
+    const audioUrl = await uploadToCatbox(audioPath);
+    if (audioUrl) {
+      timeline.tracks.push({
+        clips: [{
+          asset: {
+            type: 'audio',
+            src: audioUrl
+          },
+          start: 0,
+          length: imageUrls.length * 5
+        }]
+      });
+      console.log(`✅ [Shotstack] Audio uploaded`);
+    }
   }
   
   const renderPayload = {
@@ -134,8 +173,14 @@ async function renderWithShotstack(topicDir, topicName, audioPath) {
       throw new Error('Shotstack render timeout');
     }
     
+    // Get final status data
+    const finalStatusResponse = await fetch(`${SHOTSTACK_API_URL}/render/${renderId}`, {
+      headers: { 'x-api-key': SHOTSTACK_API_KEY }
+    });
+    const finalStatusData = await finalStatusResponse.json();
+    
     // Download rendered video
-    const videoUrl = statusData.response.url;
+    const videoUrl = finalStatusData.response.url;
     console.log(`⬇️ [Shotstack] Downloading rendered video...`);
     
     const videoResponse = await fetch(videoUrl);

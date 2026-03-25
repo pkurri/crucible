@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
 import { renderWithGPU } from './gpu-ffmpeg-renderer.mjs';
+import { renderWithShotstack } from './shotstack-renderer.mjs';
 
 /**
  * 🎬 CRUCIBLE 4K PRODUCER — FREE REVID.AI KILLER
@@ -94,7 +95,7 @@ function generateVoiceover(topicDir, script) {
   return { audioPath: null, subtitlePath: null };
 }
 
-function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
+async function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   const assetDir = path.join(topicDir, 'assets');
   const outputFile = path.join(topicDir, 'final-render.mp4');
   
@@ -144,10 +145,26 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
     } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]" -map ' + images.length + ':a'; }
   } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]"'; }
 
-  // PRIORITY 1: Try GPU-accelerated rendering (5-10x faster)
-  console.log(`🚀 [PRIORITY 1] Attempting GPU-accelerated render...`);
-  const gpuResult = renderWithGPU(topicDir, topicName, audioPath, subtitlePath, FFMPEG);
-  if (gpuResult) return gpuResult;
+  // Detect environment
+  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
+  const isVercel = process.env.VERCEL === '1';
+  const isCloud = isGitHubActions || isVercel;
+  const hasShotstackKey = process.env.SHOTSTACK_API_KEY && process.env.SHOTSTACK_API_KEY !== 'stage-key';
+  
+  // PRIORITY 0: Cloud-first - Try Shotstack for ultra-fast rendering (10-30s)
+  if (hasShotstackKey && (isCloud || process.env.PREFER_SHOTSTACK === 'true')) {
+    console.log(`☁️ [PRIORITY 0] Cloud environment detected - using Shotstack...`);
+    const shotstackResult = await renderWithShotstack(topicDir, topicName, audioPath);
+    if (shotstackResult) return shotstackResult;
+    console.warn(`⚠️ [Shotstack] Failed, falling back to local rendering...`);
+  }
+  
+  // PRIORITY 1: Try GPU-accelerated rendering (5-10x faster) - local/GitHub only
+  if (!isVercel) {
+    console.log(`🚀 [PRIORITY 1] Attempting GPU-accelerated render...`);
+    const gpuResult = renderWithGPU(topicDir, topicName, audioPath, subtitlePath, FFMPEG);
+    if (gpuResult) return gpuResult;
+  }
   
   // PRIORITY 2: Try CPU with Ken Burns effects
   console.log(`🎬 [PRIORITY 2] Attempting CPU render with effects...`);
@@ -192,7 +209,7 @@ async function produce() {
   }
   
   const tts = generateVoiceover(topicDir, script);
-  const video = render4KVideo(topicDir, topicName, tts?.audioPath, tts?.subtitlePath);
+  const video = await render4KVideo(topicDir, topicName, tts?.audioPath, tts?.subtitlePath);
   
   if (video) {
     console.log(`\n✅ Video produced successfully: ${video}`);
