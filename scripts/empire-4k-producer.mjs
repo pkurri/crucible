@@ -2,6 +2,7 @@ import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
+import { renderWithGPU } from './gpu-ffmpeg-renderer.mjs';
 
 /**
  * 🎬 CRUCIBLE 4K PRODUCER — FREE REVID.AI KILLER
@@ -143,28 +144,35 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
     } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]" -map ' + images.length + ':a'; }
   } else { filterComplex += ';[vout]copy[vfinal]'; mapArgs = '-map "[vfinal]"'; }
 
+  // PRIORITY 1: Try GPU-accelerated rendering (5-10x faster)
+  console.log(`🚀 [PRIORITY 1] Attempting GPU-accelerated render...`);
+  const gpuResult = renderWithGPU(topicDir, topicName, audioPath, subtitlePath, FFMPEG);
+  if (gpuResult) return gpuResult;
+  
+  // PRIORITY 2: Try CPU with Ken Burns effects
+  console.log(`🎬 [PRIORITY 2] Attempting CPU render with effects...`);
   const cmdLine = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${filterComplex}" ${mapArgs} -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
   
-  console.log(`🎬 Rendering 4K video for ${topicName}...`);
   try {
     execSync(cmdLine, { stdio: 'inherit', timeout: 300000 }); // 5 min timeout
+    console.log(`✅ [CPU+Effects] Video rendered: ${outputFile}`);
     return outputFile;
   } catch (e) { 
-    console.error(`❌ Render failed with zoompan: ${e.message}`);
+    console.error(`❌ [CPU+Effects] Render failed: ${e.message}`);
     
-    // FALLBACK: Simple concat without Ken Burns effects
-    console.log(`🔄 [FALLBACK] Trying simple concatenation without effects...`);
-    const simpleConcatFilters = images.map((_, i) => `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1[v${i}]`).join(';');
+    // PRIORITY 3: Fallback to simple concat without effects
+    console.log(`🔄 [PRIORITY 3] Fallback: Simple concatenation without effects...`);
+    const simpleConcatFilters = images.map((_, i) => `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=25[v${i}]`).join(';');
     let fallbackComplex = simpleConcatFilters + ';' + concatPart + ';[vout]copy[vfinal]';
     
     const fallbackCmd = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${fallbackComplex}" ${mapArgs} -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
     
     try {
       execSync(fallbackCmd, { stdio: 'inherit', timeout: 120000 }); // 2 min timeout
-      console.log(`✅ [FALLBACK] Simple render succeeded`);
+      console.log(`✅ [Simple CPU] Fallback render succeeded`);
       return outputFile;
     } catch (fallbackError) {
-      console.error(`❌ [FALLBACK] Simple render also failed: ${fallbackError.message}`);
+      console.error(`❌ [Simple CPU] All rendering methods failed: ${fallbackError.message}`);
     }
   }
   return null;
