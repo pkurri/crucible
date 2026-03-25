@@ -237,15 +237,13 @@ async function uploadToInstagram(videoPath, caption) {
 }
 
 // ═══════════════════════════════════════════════════════
-// 📘 FACEBOOK REELS UPLOAD (URL mode for server, binary for local)
+// 📘 FACEBOOK REELS UPLOAD (Catbox CDN URL-pull — mirrors Instagram pattern)
 // ═══════════════════════════════════════════════════════
 async function uploadToFacebook(videoPath, caption) {
   const videoName = path.basename(path.dirname(videoPath));
   const publicBaseUrl = process.env.META_VIDEO_BASE_URL;
-  const useUrl = publicBaseUrl && publicBaseUrl.startsWith('http');
 
-  // 🛡️ [HANDSHAKE] Verify Facebook Connectivity First
-  // Exchange user token for page-specific access token (fixes #200 permission error)
+  // Exchange user token for Page Access Token (fixes #200)
   FB_PAGE_TOKEN = await exchangeForPageToken(FB_PAGE_ID, USER_ACCESS_TOKEN);
 
   console.log(`[FB] Verifying connectivity for Page ID ${FB_PAGE_ID}...`);
@@ -257,32 +255,47 @@ async function uploadToFacebook(videoPath, caption) {
     throw new Error(`[FB] Handshake FAILED: ${e.message}. Check Page Access Token permissions.`);
   }
 
-  console.log(`[FB] Uploading Reel (${useUrl ? 'URL mode' : 'binary mode'})...`);
+  // Step 1: Get public video URL (domain or Catbox CDN)
+  let videoUrl;
+  if (publicBaseUrl && publicBaseUrl.startsWith('http')) {
+    videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
+    console.log(`[FB] Using domain URL: ${videoUrl}`);
+  } else {
+    console.log(`[FB] Tunneling via Catbox CDN...`);
+    videoUrl = uploadToCatbox(videoPath);
+  }
 
-  // Step 1: Start upload session
+  // Step 2: Start upload session with file_url (FB server-side pull — no binary needed)
+  console.log(`[FB] Starting Reel upload (cloud-pull from: ${videoUrl})...`);
   const init = await apiCall(
     `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
     'POST',
-    { upload_phase: 'start' }
+    { upload_phase: 'start', file_url: videoUrl }
   );
-  const videoId   = init.video_id;
-  const uploadUrl = init.upload_url;
-  console.log(`[FB] Video ID: ${videoId}.`);
+  const videoId = init.video_id;
+  console.log(`[FB] Reel container created. Video ID: ${videoId}. Waiting for FB to process...`);
 
-  if (useUrl) {
-    // URL-pull mode: pass file_url in the start phase (not to upload_url)
-    const videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
-    console.log(`[FB] Pulling from public URL: ${videoUrl}`);
-    await apiCall(`${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`, 'POST',
-      { upload_phase: 'start', file_url: videoUrl });
-  } else {
-    // Binary upload mode: stream file directly to the resumable upload_url
-    console.log(`[FB] Uploading binary to resumable endpoint...`);
-    await uploadVideoFile(videoPath, uploadUrl, 0, FB_PAGE_TOKEN);
+  // Step 3: Poll processing status before publishing
+  let videoStatus = 'processing';
+  let attempts = 0;
+  while (videoStatus === 'processing' && attempts < 40) {
+    await sleep(15000); // 15s interval
+    try {
+      const check = await apiCall(
+        `${META_API}/${videoId}?fields=status&access_token=${FB_PAGE_TOKEN}`
+      );
+      videoStatus = check?.status?.video_status || 'processing';
+      attempts++;
+      console.log(`[FB] Processing status: ${videoStatus} (attempt ${attempts})`);
+    } catch (e) {
+      console.warn(`[FB] Status poll failed (attempt ${attempts}): ${e.message}`);
+      attempts++;
+    }
   }
-  console.log(`[FB] Upload done. Publishing...`);
+  if (videoStatus === 'error') throw new Error(`[FB] Video processing failed: status=${videoStatus}`);
 
-  // Step 2: Finish + publish
+  // Step 4: Finish + publish
+  console.log(`[FB] Publishing Reel...`);
   const finish = await apiCall(
     `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
     'POST',
