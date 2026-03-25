@@ -66,19 +66,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You've NEVER seen space like this.",
+        "text": "You're living in a cosmic illusion!",
         "duration": 4
       },
       {
-        "text": "What if galaxies were... alive?",
+        "text": "Ever wonder what's REALLY out there?",
         "duration": 4
       },
       {
-        "text": "Witness the birth of a new galaxy!",
+        "text": "Behold: a galaxy's birth... in real time!",
         "duration": 4
       },
       {
-        "text": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]
@@ -87,19 +87,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They're DOWN THERE, watching...",
+        "text": "Imagine: Blackness. Utter silence.",
+        "duration": 3
+      },
+      {
+        "text": "What hunts in the DEEPEST ocean?",
         "duration": 4
       },
       {
-        "text": "What NIGHTMARE lurks in the abyss?",
+        "text": "Giant, unseen jaws. Bioluminescent terror.",
         "duration": 4
       },
       {
-        "text": "Giant, unseen predators. Bioluminescent jaws.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
         "duration": 3
       }
     ]
@@ -108,19 +108,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You won't believe this sky!",
+        "text": "You've NEVER seen this sky!",
         "duration": 3
       },
       {
-        "text": "What causes these fiery rivers?",
+        "text": "What causes these electric veins?",
         "duration": 4
       },
       {
-        "text": "Behold: a solar storm's aurora!",
+        "text": "Behold: a rare Aurora storm!",
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -129,19 +129,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They're running simulations...",
-        "duration": 3
-      },
-      {
-        "text": "What if society... crumbles?",
+        "text": "They're already controlling your dreams.",
         "duration": 4
       },
       {
-        "text": "The collapse is already coded in!",
+        "text": "What if it's all a digital prison?",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Simulations predict mass surveillance.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
         "duration": 3
       }
     ]
@@ -2617,6 +2617,27 @@
       {
         "text": "Neon liquid, data, pure flow!",
         "duration": 5
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1774472708559": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Witness the future, NOW.",
+        "duration": 4
+      },
+      {
+        "text": "What if data became art? ",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid. Hyper-car interiors. Neural networks. Flow.",
+        "duration": 4
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
