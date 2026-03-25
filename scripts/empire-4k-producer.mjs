@@ -85,8 +85,10 @@ function generateVoiceover(topicDir, script) {
     } catch (e) {
       console.warn(`⚠️ [TTS] Attempt ${attempt} failed: ${e.message.split('\n')[0]}`);
       if (attempt < 2) {
-        console.log(`🔄 Retrying TTS in 2 seconds...`);
-        execSync('node -e "setTimeout(() => {}, 2000)"', { timeout: 3000 });
+        console.log(`🔄 Retrying TTS in 1 second...`);
+        // Simple delay without timeout issues
+        const start = Date.now();
+        while (Date.now() - start < 1000) { /* wait */ }
       }
     }
   }
