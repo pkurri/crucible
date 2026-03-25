@@ -153,56 +153,68 @@ async function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   const isVercel = process.env.VERCEL === '1';
   const isCloud = isGitHubActions || isVercel;
   const hasShotstackKey = process.env.SHOTSTACK_API_KEY && process.env.SHOTSTACK_API_KEY !== 'stage-key';
-  const preferRemotion = process.env.PREFER_REMOTION === 'true';
   
-  // PRIORITY 0: Remotion - React-based GPU rendering (10-30x faster than FFmpeg)
-  // Best for local development with full control
-  if (!isVercel && (preferRemotion || !hasShotstackKey)) {
-    console.log(`⚡ [PRIORITY 0] Attempting Remotion GPU-accelerated render...`);
+  // ═══════════════════════════════════════════════════════════════════════
+  // 💚 FREE UNLIMITED TIERS (Priority 0-2)
+  // ═══════════════════════════════════════════════════════════════════════
+  
+  // PRIORITY 0: Remotion - React-based GPU rendering (FREE, UNLIMITED)
+  // 10-30x faster than CPU FFmpeg, full local control
+  if (!isVercel) {
+    console.log(`⚡ [FREE UNLIMITED] Remotion GPU render...`);
     const remotionResult = await renderWithRemotion(topicDir, topicName, audioPath, subtitlePath);
     if (remotionResult) return remotionResult;
-    console.warn(`⚠️ [Remotion] Failed, falling back...`);
+    console.warn(`⚠️ [Remotion] Failed, trying next free option...`);
   }
   
-  // PRIORITY 1: Shotstack - Cloud rendering for GitHub Actions/Vercel (10-30s)
-  if (hasShotstackKey && (isCloud || process.env.PREFER_SHOTSTACK === 'true')) {
-    console.log(`☁️ [PRIORITY 1] Cloud environment - using Shotstack...`);
-    const shotstackResult = await renderWithShotstack(topicDir, topicName, audioPath);
-    if (shotstackResult) return shotstackResult;
-    console.warn(`⚠️ [Shotstack] Failed, falling back...`);
-  }
-  
-  // PRIORITY 2: GPU FFmpeg - Hardware acceleration (5-10x faster)
+  // PRIORITY 1: GPU FFmpeg - Hardware acceleration (FREE, UNLIMITED)
+  // 5-10x faster than CPU FFmpeg
   if (!isVercel) {
-    console.log(`🚀 [PRIORITY 2] Attempting GPU FFmpeg render...`);
+    console.log(`🚀 [FREE UNLIMITED] GPU FFmpeg render...`);
     const gpuResult = renderWithGPU(topicDir, topicName, audioPath, subtitlePath, FFMPEG);
     if (gpuResult) return gpuResult;
+    console.warn(`⚠️ [GPU FFmpeg] No GPU or failed, trying CPU...`);
   }
   
-  // PRIORITY 3: CPU FFmpeg with Ken Burns effects
-  console.log(`🎬 [PRIORITY 3] Attempting CPU render with effects...`);
+  // PRIORITY 2: CPU FFmpeg with effects (FREE, UNLIMITED)
+  // Slower but reliable, no external dependencies
+  console.log(`🎬 [FREE UNLIMITED] CPU FFmpeg with Ken Burns effects...`);
   const cmdLine = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${filterComplex}" ${mapArgs} -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
   
   try {
-    execSync(cmdLine, { stdio: 'inherit', timeout: 300000 }); // 5 min timeout
+    execSync(cmdLine, { stdio: 'inherit', timeout: 300000 });
     console.log(`✅ [CPU+Effects] Video rendered: ${outputFile}`);
     return outputFile;
   } catch (e) { 
-    console.error(`❌ [CPU+Effects] Render failed: ${e.message}`);
+    console.error(`❌ [CPU+Effects] Failed: ${e.message}`);
     
-    // PRIORITY 4: Fallback to simple concat without effects
-    console.log(`🔄 [PRIORITY 4] Final fallback: Simple concatenation...`);
+    // ═══════════════════════════════════════════════════════════════════════
+    // � RESTRICTED FREE TIERS (Priority 3)
+    // ═══════════════════════════════════════════════════════════════════════
+    
+    // PRIORITY 3: Shotstack - Cloud rendering (FREE but LIMITED to 20/month)
+    // Use only if all unlimited free options failed
+    if (hasShotstackKey) {
+      console.log(`☁️ [RESTRICTED FREE] Shotstack cloud render (20/month limit)...`);
+      const shotstackResult = await renderWithShotstack(topicDir, topicName, audioPath);
+      if (shotstackResult) return shotstackResult;
+      console.warn(`⚠️ [Shotstack] Failed, trying final fallback...`);
+    }
+  
+    // PRIORITY 4: CPU FFmpeg simple concat (FREE, UNLIMITED)
+    // Final fallback without effects
+    console.log(`🔄 [PRIORITY 4] Final free fallback: Simple concatenation...`);
     const simpleConcatFilters = images.map((_, i) => `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=25[v${i}]`).join(';');
     let fallbackComplex = simpleConcatFilters + ';' + concatPart + ';[vout]copy[vfinal]';
     
     const fallbackCmd = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${fallbackComplex}" ${mapArgs} -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
     
     try {
-      execSync(fallbackCmd, { stdio: 'inherit', timeout: 120000 }); // 2 min timeout
+      execSync(fallbackCmd, { stdio: 'inherit', timeout: 120000 });
       console.log(`✅ [Simple CPU] Fallback render succeeded`);
       return outputFile;
     } catch (fallbackError) {
-      console.error(`❌ [Simple CPU] All rendering methods failed: ${fallbackError.message}`);
+      console.error(`❌ [FINAL FAILURE] All rendering methods exhausted: ${fallbackError.message}`);
     }
   }
   return null;
