@@ -42,9 +42,9 @@ async function uploadVideo() {
   // 🏛️ DYNAMIC METADATA ARCHITECTURE
   const METADATA_PATH = path.join(process.cwd(), 'data', 'viral-metadata.json');
   let videoData = {
-    title: `${topicName} | Facts You Didn't Know`,
-    description: `Exploring the hidden depth of ${topicName}. Like and Subscribe for more facts.`,
-    tags: [topicName, 'viral', 'facts'],
+    title: `${topicName} | Facts You Didn't Know #shorts`,
+    description: `Exploring the hidden depth of ${topicName}. \n\n🚀 Subscribe for more daily ${topicName} insights! \n🔥 Follow the journey: https://www.youtube.com/@AAK-tion \n\n#reels #viral #facts #${topicName.replace(/\s+/g, '')}`,
+    tags: [topicName, 'viral', 'facts', 'shorts', 'trending'],
     category: '27'
   };
 

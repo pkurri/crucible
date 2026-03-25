@@ -24,7 +24,15 @@ function cleanJSON(str) {
   }
 }
 
+const SUB_HOOKS = [
+  "Don't let the algorithm hide the truth. Follow for more [topic].",
+  "If you want to master [topic], you're in the right place. Subscribe.",
+  "Stop scrolling. This is your sign to level up. Follow.",
+  "99% miss the hidden pattern. Be the 1% who sees it. Join us."
+];
+
 async function architectScript(niche) {
+  const hook = SUB_HOOKS[Math.floor(Math.random() * SUB_HOOKS.length)].replace('[topic]', niche.name);
   console.log(`✍️ [${niche.name}] Architecting viral script via Universal Fallback...`);
   
   const systemPrompt = `You are the "Professional YouTube Scriptwriter" specialized in Retention Optimization.
@@ -34,9 +42,9 @@ RETENTION STRUCTURE:
 1. Pattern-Interrupt Hook (0-3s): Stop the scroll with an unexpected statement.
 2. Curiosity Loop (3-7s): Raise a question that can only be answered at the end.
 3. Rapid Payoff (7-12s): Provide the insight or "visual gold".
-4. Engagement Trigger (12-15s): Subtle prompt for comments or followers.
+4. Engagement Trigger (12-15s): Strong CTA for followers/subscribers.
 
-Style: Natural, engaging, spoken tone. No generic "AAK Nation" branding in the voiceover.`;
+Style: Natural, engaging, spoken tone. END EVERY SCRIPT WITH: "${hook}"`;
 
   const keywordsStr = niche.keywords ? niche.keywords.join(', ') : niche.name;
   const userPrompt = `Write a retention-optimized viral script for the niche: "${niche.name}".
@@ -56,7 +64,7 @@ Return ONLY a JSON object:
     { "text": "[PATTERN INTERRUPT HOOK]...", "duration": 4 },
     { "text": "[CURIOSITY LOOP/PROBLEM]...", "duration": 4 },
     { "text": "[INSIGHT/PAYOFF]...", "duration": 4 },
-    { "text": "[CTA/ENGAGEMENT]...", "duration": 3 }
+    { "text": "${hook}", "duration": 3 }
   ]
 }`;
 

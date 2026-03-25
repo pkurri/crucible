@@ -60,6 +60,6 @@ jobs:
         run: |
           git config --global user.name "Crucible Bot"
           git config --global user.email "bot@crucible.ai"
-          git add -f data/meta-empire/ scripts/meta-empire-state.json
+          git add data/ scripts/ || echo "No new files to add"
           git commit -m "chore: update meta upload cycle [skip ci]" || exit 0
           git push origin main || echo "Push failed"
