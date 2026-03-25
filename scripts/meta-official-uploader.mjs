@@ -290,9 +290,11 @@ async function uploadToMeta() {
 
   // 🏛️ DYNAMIC METADATA ARCHITECTURE
   const METADATA_PATH = path.join(process.cwd(), 'data', 'viral-metadata.json');
+  const VIRAL_HASHTAGS = "\n.\n.\n.\n#reels #viral #trending #reelsinstagram #explorepage #mindset #entrepreneur #success #motivation #discipline #hustle #aesthetic #lifestyle #grind #luxurylifestyle #fyp #foryou #growth #wealth #wisdom #productivity #focus #consistency #hardwork #financialfreedom #passiveincome #inspire #automation #ai #aaknation";
+
   let hook = {
-    ig: `The truth about ${topicName} finally revealed 🔍 #viral #${topicName.toLowerCase()}`,
-    fb: `Everything you thought you knew about ${topicName} is wrong. Here is why.`
+    ig: `The truth about ${topicName} finally revealed 🔍 ${VIRAL_HASHTAGS}`,
+    fb: `Everything you thought you knew about ${topicName} is wrong. Here is why. ${VIRAL_HASHTAGS}`
   };
 
   if (fs.existsSync(METADATA_PATH)) {
@@ -300,8 +302,8 @@ async function uploadToMeta() {
     if (allMeta[topicName]) {
       const meta = allMeta[topicName];
       hook = {
-        ig: meta.ig_hook || meta.description,
-        fb: meta.fb_hook || meta.description
+        ig: (meta.ig_hook || meta.description || meta.hook || `Success path for ${topicName}`) + " " + VIRAL_HASHTAGS,
+        fb: (meta.fb_hook || meta.description || meta.hook || `Success path for ${topicName}`) + " " + VIRAL_HASHTAGS
       };
       console.log(`   💎 Local Viral Metadata loaded for Meta [${topicName}].`);
     }
