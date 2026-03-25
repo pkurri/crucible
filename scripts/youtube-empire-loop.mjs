@@ -73,30 +73,44 @@ async function runEmpireCycle() {
     fs.mkdirSync(assetDir, { recursive: true });
     fs.mkdirSync(path.join(topicDir, 'uploaded'), { recursive: true });
 
+    // 🛡️ [GUARDRAIL] MULTI-LAYER DUPLICATE PREVENTION
+    const alreadyUploaded = state.history.some(h => h.topic === topic && h.status === 'uploaded' && h.date.split('T')[0] === today);
+    if (alreadyUploaded || fs.existsSync(path.join(topicDir, 'uploaded', 'youtube.json'))) {
+      console.log(`⏭️ [${topic}] Already posted today on YouTube Shorts (History/File Check). Skipping.`);
+      continue;
+    }
+
+    // 🧹 [GUARDRAIL] FRESH START: Clear old assets to prevent mixed/black screens
+    if (fs.existsSync(assetDir)) {
+      console.log(`🧹 [${topic}] Cleaning old assets for fresh render...`);
+      fs.rmSync(assetDir, { recursive: true, force: true });
+    }
+    fs.mkdirSync(assetDir, { recursive: true });
+    fs.mkdirSync(path.join(topicDir, 'uploaded'), { recursive: true });
+
     // Step 1: Ensure Assets & Script exist
-    console.log(`🎨 [${topic}] Ensuring assets & viral script...`);
+    console.log(`🎨 [${topic}] Architecting high-fidelity assets & viral script...`);
     try {
       execSync(`node scripts/autonomous-asset-generator.mjs --topic "${topic}"`, { stdio: 'inherit' });
       execSync(`node scripts/viral-script-architect.mjs --topic "${topic}"`, { stdio: 'inherit' });
     } catch (e) {
-      console.error(`❌ [${topic}] Prep failed.`);
+      console.error(`❌ [${topic}] Prep failed. Skipping to prevent black screens.`);
+      continue;
     }
 
-    // Step 2: Produce if not already rendered
-    if (!fs.existsSync(finalRender)) {
-      console.log(`🎬 [${topic}] Producing Shorts video...`);
-      try {
-        execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}" --platform youtube`, { stdio: 'inherit' });
-        produced++;
-      } catch (e) {
-        console.error(`❌ [${topic}] Production failed.`);
-        continue;
-      }
+    // Step 2: Produce video
+    console.log(`🎬 [${topic}] Producing Premium Shorts video...`);
+    try {
+      execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}" --platform youtube`, { stdio: 'inherit' });
+      produced++;
+    } catch (e) {
+      console.error(`❌ [${topic}] Production failed.`);
+      continue;
     }
 
     // Step 3: Upload
     if (fs.existsSync(finalRender)) {
-      console.log(`🚀 [${topic}] Uploading to YouTube... (${state.uploadsToday + 1}/${MAX_UPLOADS_PER_DAY})`);
+      console.log(`🚀 [${topic}] Dispatching unique render to YouTube Shorts... (${state.uploadsToday + 1}/${MAX_UPLOADS_PER_DAY})`);
       try {
         const output = execSync(`node scripts/youtube-official-uploader.mjs --topic "${topic}"`, { encoding: 'utf8' });
         console.log(output);
@@ -108,9 +122,12 @@ async function runEmpireCycle() {
           break;
         }
 
-        state.uploadsToday++;
-        state.history.push({ topic, date: new Date().toISOString(), status: 'uploaded' });
-        saveState(state);
+        // Update state IMMEDIATELY to prevent race conditions
+        const freshState = loadState();
+        freshState.uploadsToday++;
+        freshState.history.push({ topic, date: new Date().toISOString(), status: 'uploaded' });
+        saveState(freshState);
+        
         uploaded++;
       } catch (e) {
         console.error(`❌ [${topic}] Upload failed: ${e.message}`);
