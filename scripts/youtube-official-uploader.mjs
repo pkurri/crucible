@@ -17,6 +17,7 @@ const getArg = (key) => {
 
 async function uploadVideo() {
   const topicName = getArg('--topic');
+  const channelName = getArg('--channel') || 'AAK-Nation';
   const isVerify = process.argv.includes('--verify');
 
   if (!topicName && !isVerify) {
