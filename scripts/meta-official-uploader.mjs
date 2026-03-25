@@ -218,6 +218,16 @@ async function uploadToFacebook(videoPath, caption) {
   const publicBaseUrl = process.env.META_VIDEO_BASE_URL;
   const useUrl = publicBaseUrl && publicBaseUrl.startsWith('http');
 
+  // 🛡️ [HANDSHAKE] Verify Facebook Connectivity First
+  console.log(`[FB] Verifying connectivity for Page ID ${FB_PAGE_ID}...`);
+  try {
+    const pageCheck = await apiCall(`${META_API}/${FB_PAGE_ID}?fields=name,has_added_app&access_token=${ACCESS_TOKEN}`);
+    console.log(`✅ [FB] Handshake Verified: ${pageCheck.name} (App Linked: ${pageCheck.has_added_app})`);
+    if (process.argv.includes('--verify')) return pageCheck.id;
+  } catch (e) {
+    throw new Error(`[FB] Handshake FAILED: ${e.message}. Check Page Access Token permissions.`);
+  }
+
   console.log(`[FB] Uploading Reel (${useUrl ? 'URL mode' : 'binary mode'})...`);
 
   // Step 1: Start upload session
@@ -293,12 +303,34 @@ function validateVideo(videoPath) {
 // ═══════════════════════════════════════════════════════
 async function uploadToMeta() {
   const topicName = getArg('--topic');
-  if (!topicName) { console.error('Usage: node meta-official-uploader.mjs --topic <Topic>'); process.exit(1); }
+  const isVerify = process.argv.includes('--verify');
+  
+  if (!topicName && !isVerify) { 
+    console.error('Usage: node meta-official-uploader.mjs --topic <Topic>'); process.exit(1); 
+  }
 
-  if (!ACCESS_TOKEN || !IG_ACCOUNT_ID) {
-    console.error('❌ Missing META_ACCESS_TOKEN or META_IG_ACCOUNT_ID env vars.');
-    console.error('   Add these to your .env file or GitHub Actions secrets.');
+  if (!ACCESS_TOKEN) {
+    console.error('❌ Missing META_ACCESS_TOKEN env var.');
     process.exit(1);
+  }
+
+  // 🛡️ [HANDSHAKE] Headless Verification Mode
+  if (isVerify) {
+    console.log(`📡 [Forge] Headless Handshake Mode Active...`);
+    try {
+      if (FB_PAGE_ID) {
+        const pageCheck = await apiCall(`${META_API}/${FB_PAGE_ID}?fields=name,has_added_app&access_token=${ACCESS_TOKEN}`);
+        console.log(`✅ [FB] Handshake Verified: ${pageCheck.name} (App Linked: ${pageCheck.has_added_app})`);
+      }
+      if (IG_ACCOUNT_ID) {
+         const igCheck = await apiCall(`${META_API}/${IG_ACCOUNT_ID}?fields=username,name&access_token=${ACCESS_TOKEN}`);
+         console.log(`✅ [IG] Handshake Verified: @${igCheck.username} (${igCheck.name})`);
+      }
+      process.exit(0);
+    } catch (e) {
+      console.error(`❌ [Handshake] FAILED: ${e.message}`);
+      process.exit(1);
+    }
   }
 
   const topicDirMeta = path.join(BASE, topicName);

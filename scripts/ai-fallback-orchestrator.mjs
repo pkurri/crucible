@@ -7,12 +7,13 @@ import 'dotenv/config';
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 
 const FREE_MODELS = [
-  'meta-llama/llama-3.2-3b-instruct:free',
-  'mistralai/mistral-7b-instruct:free',
-  'google/gemini-2.0-flash-lite-preview-02-05:free',
-  'deepseek/deepseek-r1:free',
-  'google/gemini-2.0-flash-001', // ULTIMATE STABILITY FALLBACK (Ultra Cheap)
-  'openai/gpt-4o-mini'           // SECONDARY STABILITY FALLBACK (Ultra Cheap)
+  // ✅ Tier 1: Verified stable free models
+  'google/gemini-2.0-flash-lite-001',
+  'meta-llama/llama-3.3-70b-instruct:free',
+  'meta-llama/llama-3.1-8b-instruct:free',
+  // ✅ Tier 2: Ultra-cheap paid fallback (< $0.001 per call)
+  'google/gemini-2.0-flash-001',
+  'openai/gpt-4o-mini',
 ];
 
 const PRO_MODELS = [

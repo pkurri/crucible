@@ -11,17 +11,22 @@ import path from 'path';
 const MAX_UPLOADS_PER_DAY = 5; 
 const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
 const BASE = path.join(process.cwd(), 'data', 'meta-empire', 'AAK-Nation', 'topics');
-const STATE_FILE = path.join(process.cwd(), 'scripts', 'meta-empire-state.json');
 
-function loadState() {
-  if (fs.existsSync(STATE_FILE)) {
-    return JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'));
+function getStateFile(target) {
+  // ✅ SEPARATE STATE PER PLATFORM to prevent FB/IG quota sharing
+  const suffix = target === 'fb' ? 'fb' : 'insta';
+  return path.join(process.cwd(), 'scripts', `meta-empire-state-${suffix}.json`);
+}
+
+function loadState(stateFile) {
+  if (fs.existsSync(stateFile)) {
+    return JSON.parse(fs.readFileSync(stateFile, 'utf8'));
   }
   return { lastUploadDate: '', uploadsToday: 0, history: [] };
 }
 
-function saveState(state) {
-  fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
+function saveState(stateFile, state) {
+  fs.writeFileSync(stateFile, JSON.stringify(state, null, 2));
 }
 
 function getToday() {
@@ -36,7 +41,8 @@ async function runMetaCycle() {
   const target = getArg('--target') || 'insta';
   const platformName = target === 'insta' ? 'instagram' : target === 'fb' ? 'facebook' : 'meta';
 
-  const state = loadState();
+  const STATE_FILE = getStateFile(target);
+  const state = loadState(STATE_FILE);
   const today = getToday();
 
   if (state.lastUploadDate !== today) {
@@ -113,10 +119,10 @@ async function runMetaCycle() {
       execSync(`node scripts/meta-official-uploader.mjs --topic "${topic}" --target ${target}`, { stdio: 'inherit' });
       
       // Update state IMMEDIATELY to prevent race conditions
-      const freshState = loadState(); 
+      const freshState = loadState(STATE_FILE);
       freshState.uploadsToday++;
       freshState.history.push({ topic, date: new Date().toISOString(), platform: platformName });
-      saveState(freshState);
+      saveState(STATE_FILE, freshState);
       
       uploaded++;
     } catch (e) {

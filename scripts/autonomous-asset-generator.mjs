@@ -57,16 +57,103 @@ async function generateImagesForTopic(topic) {
 
       console.log(`   🎨 Visual Blueprint architected: ${visualDescription.substring(0, 50)}...`);
 
-      // 🖼️ GENERATE REAL IMAGE VIA POLLINATIONS (FREE TIER)
-      console.log(`   🌀 Generating Cinematic Asset via Pollinations.ai (FREE)...`);
-      const sanitizedPrompt = encodeURIComponent(visualDescription.substring(0, 400));
-      const imgUrl = `https://image.pollinations.ai/prompt/${sanitizedPrompt}?width=1080&height=1920&model=flux&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
+      // 🖼️ GENERATE IMAGE — Pexels (AI-keyword search) → Stable Horde → Picsum
+      console.log(`   🌀 Sourcing Cinematic Asset (Pexels → Horde → Picsum)...`);
+      const PEXELS_KEY = process.env.PEXELS_API_KEY;
+      let success = false;
 
-      console.log(`   📥 Downloading Free Asset...`);
-      const imgBuffer = await (await fetch(imgUrl)).arrayBuffer();
-      fs.writeFileSync(imgPath, Buffer.from(imgBuffer));
-      
-      console.log(`   ✅ FREE High-Fidelity Asset ${i} generated for ${topic}.`);
+      // ✅ Provider 1: Pexels API (niche-keyword matched, high quality)
+      if (PEXELS_KEY) {
+        try {
+          // Extract 2-3 keyword search terms from the visual description
+          const searchTerms = encodeURIComponent(
+            visualDescription.split(' ').slice(0, 4).join(' ').replace(/[^a-zA-Z0-9 ]/g, '')
+          );
+          const pexelsUrl = `https://api.pexels.com/v1/search?query=${searchTerms}&per_page=15&orientation=portrait`;
+          const pexRes = await fetch(pexelsUrl, {
+            headers: { Authorization: PEXELS_KEY }
+          });
+          const pexData = await pexRes.json();
+          if (pexData.photos && pexData.photos.length > 0) {
+            // Pick a random photo from results for variety
+            const photo = pexData.photos[Math.floor(Math.random() * pexData.photos.length)];
+            const imgUrl = photo.src.large2x || photo.src.large;
+            const imgRes = await fetch(imgUrl);
+            const buffer = Buffer.from(await imgRes.arrayBuffer());
+            if (buffer.length > 50000) {
+              fs.writeFileSync(imgPath, buffer);
+              console.log(`   ✅ [Pexels] "${photo.alt || searchTerms}" — ${(buffer.length/1024).toFixed(0)}KB (by ${photo.photographer})`);
+              success = true;
+            }
+          } else {
+            console.warn(`   ⚠️ [Pexels] No results for: ${searchTerms}`);
+          }
+        } catch (pexErr) {
+          console.warn(`   ⚠️ [Pexels] Error: ${pexErr.message}`);
+        }
+      }
+
+      // ✅ Provider 2: Stable Horde (free community AI generator)
+      if (!success) {
+        try {
+          const hordePayload = {
+            prompt: visualDescription.substring(0, 300) + " cinematic vertical portrait 9:16",
+            params: { width: 512, height: 912, steps: 20, n: 1, sampler_name: "k_euler" },
+            nsfw: false, trusted_workers: false, models: ["stable_diffusion"], r2: true
+          };
+          const hordeRes = await fetch('https://stablehorde.net/api/v2/generate/async', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'apikey': '0000000000' },
+            body: JSON.stringify(hordePayload)
+          });
+          const hordeData = await hordeRes.json();
+          if (hordeData.id) {
+            console.log(`   🤖 [Horde] Job: ${hordeData.id}. Polling...`);
+            let imgUrl = null;
+            for (let p = 0; p < 12; p++) {
+              await new Promise(r => setTimeout(r, 8000));
+              const pollData = await (await fetch(`https://stablehorde.net/api/v2/generate/check/${hordeData.id}`)).json();
+              if (pollData.done) {
+                const statusData = await (await fetch(`https://stablehorde.net/api/v2/generate/status/${hordeData.id}`)).json();
+                imgUrl = statusData.generations?.[0]?.img;
+                break;
+              }
+              console.log(`   ⏳ Horde queue: ${pollData.queue_position || '?'}`);
+            }
+            if (imgUrl) {
+              const buffer = Buffer.from(await (await fetch(imgUrl)).arrayBuffer());
+              if (buffer.length > 50000) {
+                fs.writeFileSync(imgPath, buffer);
+                console.log(`   ✅ [Horde] AI Asset: ${(buffer.length/1024).toFixed(0)}KB`);
+                success = true;
+              }
+            }
+          }
+        } catch (hordeErr) {
+          console.warn(`   ⚠️ [Horde] ${hordeErr.message}`);
+        }
+      }
+
+      // ✅ Provider 3: Picsum (reliable stock fallback, always works)
+      if (!success) {
+        try {
+          const seed = Math.floor(Math.random() * 1000);
+          const buffer = Buffer.from(await (await fetch(`https://picsum.photos/seed/${seed}/1080/1920`)).arrayBuffer());
+          if (buffer.length > 50000) {
+            fs.writeFileSync(imgPath, buffer);
+            console.log(`   ✅ [Picsum] Stock fallback: ${(buffer.length/1024).toFixed(0)}KB`);
+            success = true;
+          }
+        } catch (picsumErr) {
+          console.error(`   ❌ [Picsum] ${picsumErr.message}`);
+        }
+      }
+
+      if (!success) throw new Error(`All image providers exhausted for slot ${i}.`);
+
+
+
+
     } catch (e) {
       console.error(`   ❌ Failed to generate asset ${i}: ${e.message}`);
     }

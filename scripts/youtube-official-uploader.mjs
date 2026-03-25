@@ -16,9 +16,15 @@ const getArg = (key) => {
 };
 
 async function uploadVideo() {
-  const topicName = getArg('--topic') || 'SuccessCodes';
-  const channelName = 'AAK-Nation'; // Forced consolidation
-  console.log(`🚀 Initializing Crucible Official Uploader for ${channelName} [Series: ${topicName}]...`);
+  const topicName = getArg('--topic');
+  const isVerify = process.argv.includes('--verify');
+
+  if (!topicName && !isVerify) {
+    console.error('Usage: node youtube-official-uploader.mjs --topic <Topic>');
+    process.exit(1);
+  }
+
+  console.log(`🚀 Initializing Crucible Official Uploader...`);
 
   if (!existsSync(CREDENTIALS_PATH)) {
     console.error('❌ Missing client_secret.json. Please ensure your OAuth credentials are in the root.');
@@ -38,6 +44,20 @@ async function uploadVideo() {
   oauth2Client.setCredentials(tokens);
 
   const youtube = google.youtube({ version: 'v3', auth: oauth2Client });
+
+  // 🛡️ [HANDSHAKE] Headless Verification Mode
+  if (isVerify) {
+    console.log(`📡 [Forge] YouTube Headless Handshake Mode Active...`);
+    try {
+      const res = await youtube.channels.list({ part: 'snippet', mine: true });
+      const channel = res.data.items[0];
+      console.log(`✅ [YT] Handshake Verified: ${channel.snippet.title} (${channel.snippet.customUrl})`);
+      process.exit(0);
+    } catch (err) {
+      console.error('❌ [YT] Handshake FAILED: ' + err.message);
+      process.exit(1);
+    }
+  }
 
   // 🏛️ DYNAMIC METADATA ARCHITECTURE
   const METADATA_PATH = path.join(process.cwd(), 'data', 'viral-metadata.json');
