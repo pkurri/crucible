@@ -2928,6 +2928,30 @@
         "Kardashev Scale"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SimulatedEcosystemAnomalies",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The simulated world and glitch-in-the-matrix concepts are exploding right now. Combining this with the concept of ecological or evolutionary failures within simulated ecosystems creates a potent draw for viewers interested in science, gaming, and the 'what if' scenarios. The blend of science fantasy with the unnerving idea that our reality might be simulated provides a strong hook.",
+      "ideas": [
+        "Title: Glitch in the Biome: When Simulated Ecosystems Go WRONG!\nHook: What happens when the programmers of a simulated Earth accidentally create an unkillable predator?",
+        "Title: The Creature They FORGOT to Delete! (Simulated Ecosystem Horror)\nHook: Deep inside a forgotten simulation, a creature evolves beyond its intended parameters.",
+        "Title: 5 Times Simulated Ecosystems BROKE the Laws of Nature!\nHook: A physics-defying tree that grows through solid objects... just one example of how simulated ecosystems defy all expectations."
+      ],
+      "keywords": [
+        "simulation",
+        "ecosystem",
+        "glitch",
+        "anomaly",
+        "evolution"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
