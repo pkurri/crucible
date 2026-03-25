@@ -66,10 +66,10 @@ function generateVoiceover(topicDir, script) {
   const subtitlePath = path.join(topicDir, 'captions.vtt');
   console.log(`🎙️ Generating voiceover [${script.voice}]...`);
   
-  for (let attempt = 1; attempt <= 4; attempt++) {
+  for (let attempt = 1; attempt <= 2; attempt++) {
     try {
       // Intercept stderr to catch silent Python ConnectionReset errors
-      const result = execSync(`edge-tts --voice "${script.voice}" --text "${fullText}" --write-media "${audioPath}" --write-subtitles "${subtitlePath}" 2>&1`, { encoding: 'utf-8' });
+      const result = execSync(`edge-tts --voice "${script.voice}" --text "${fullText}" --write-media "${audioPath}" --write-subtitles "${subtitlePath}" 2>&1`, { encoding: 'utf-8', timeout: 10000 });
       
       if (result.includes('Exception') || result.includes('Error') || result.includes('WinError')) {
         throw new Error(`TTS internal crash detected: ${result.substring(0, 150)}`);
@@ -82,15 +82,15 @@ function generateVoiceover(topicDir, script) {
       return { audioPath, subtitlePath };
     } catch (e) {
       console.warn(`⚠️ [TTS] Attempt ${attempt} failed: ${e.message.split('\n')[0]}`);
-      if (attempt < 4) {
-        console.log(`🔄 Retrying TTS in 5 seconds...`);
-        execSync('node -e "Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 5000)"');
+      if (attempt < 2) {
+        console.log(`🔄 Retrying TTS in 2 seconds...`);
+        execSync('node -e "setTimeout(() => {}, 2000)"', { timeout: 3000 });
       }
     }
   }
   
-  console.error('❌ TTS Error: Failed to generate voiceover after 3 attempts.');
-  return null;
+  console.warn('⚠️ [FALLBACK] TTS failed after 2 attempts. Proceeding WITHOUT audio.');
+  return { audioPath: null, subtitlePath: null };
 }
 
 function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
@@ -147,20 +147,56 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   
   console.log(`🎬 Rendering 4K video for ${topicName}...`);
   try {
-    execSync(cmdLine, { stdio: 'inherit' });
+    execSync(cmdLine, { stdio: 'inherit', timeout: 300000 }); // 5 min timeout
     return outputFile;
-  } catch (e) { console.error(`❌ Render failed: ${e.message}`); }
+  } catch (e) { 
+    console.error(`❌ Render failed with zoompan: ${e.message}`);
+    
+    // FALLBACK: Simple concat without Ken Burns effects
+    console.log(`🔄 [FALLBACK] Trying simple concatenation without effects...`);
+    const simpleConcatFilters = images.map((_, i) => `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1[v${i}]`).join(';');
+    const fallbackComplex = simpleConcatFilters + ';' + concatPart;
+    if (audioPath && fs.existsSync(audioPath)) {
+      fallbackComplex += ';[vout]copy[vfinal]';
+    } else {
+      fallbackComplex += ';[vout]copy[vfinal]';
+    }
+    
+    const fallbackCmd = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${fallbackComplex}" ${mapArgs} -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
+    
+    try {
+      execSync(fallbackCmd, { stdio: 'inherit', timeout: 120000 }); // 2 min timeout
+      console.log(`✅ [FALLBACK] Simple render succeeded`);
+      return outputFile;
+    } catch (fallbackError) {
+      console.error(`❌ [FALLBACK] Simple render also failed: ${fallbackError.message}`);
+    }
+  }
   return null;
 }
 
 async function produce() {
   const topicName = getArg('--topic');
-  if (!topicName) process.exit(1);
+  if (!topicName) {
+    console.error('❌ No topic specified');
+    process.exit(1);
+  }
   const topicDir = path.join(BASE_DIR, topicName);
   const script = SCRIPTS[topicName];
-  if (!script) process.exit(1);
+  if (!script) {
+    console.error(`❌ No script found for topic: ${topicName}`);
+    process.exit(1);
+  }
+  
   const tts = generateVoiceover(topicDir, script);
   const video = render4KVideo(topicDir, topicName, tts?.audioPath, tts?.subtitlePath);
+  
+  if (video) {
+    console.log(`\n✅ Video produced successfully: ${video}`);
+  } else {
+    console.error(`\n❌ Video production failed for ${topicName}`);
+    process.exit(1);
+  }
 }
 
 produce();
