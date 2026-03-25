@@ -4,6 +4,7 @@ import path from 'path';
 import 'dotenv/config';
 import { renderWithGPU } from './gpu-ffmpeg-renderer.mjs';
 import { renderWithShotstack } from './shotstack-renderer.mjs';
+import { renderWithRemotion } from './remotion-renderer.mjs';
 
 /**
  * 🎬 CRUCIBLE 4K PRODUCER — FREE REVID.AI KILLER
@@ -152,24 +153,34 @@ async function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   const isVercel = process.env.VERCEL === '1';
   const isCloud = isGitHubActions || isVercel;
   const hasShotstackKey = process.env.SHOTSTACK_API_KEY && process.env.SHOTSTACK_API_KEY !== 'stage-key';
+  const preferRemotion = process.env.PREFER_REMOTION === 'true';
   
-  // PRIORITY 0: Cloud-first - Try Shotstack for ultra-fast rendering (10-30s)
-  if (hasShotstackKey && (isCloud || process.env.PREFER_SHOTSTACK === 'true')) {
-    console.log(`☁️ [PRIORITY 0] Cloud environment detected - using Shotstack...`);
-    const shotstackResult = await renderWithShotstack(topicDir, topicName, audioPath);
-    if (shotstackResult) return shotstackResult;
-    console.warn(`⚠️ [Shotstack] Failed, falling back to local rendering...`);
+  // PRIORITY 0: Remotion - React-based GPU rendering (10-30x faster than FFmpeg)
+  // Best for local development with full control
+  if (!isVercel && (preferRemotion || !hasShotstackKey)) {
+    console.log(`⚡ [PRIORITY 0] Attempting Remotion GPU-accelerated render...`);
+    const remotionResult = await renderWithRemotion(topicDir, topicName, audioPath, subtitlePath);
+    if (remotionResult) return remotionResult;
+    console.warn(`⚠️ [Remotion] Failed, falling back...`);
   }
   
-  // PRIORITY 1: Try GPU-accelerated rendering (5-10x faster) - local/GitHub only
+  // PRIORITY 1: Shotstack - Cloud rendering for GitHub Actions/Vercel (10-30s)
+  if (hasShotstackKey && (isCloud || process.env.PREFER_SHOTSTACK === 'true')) {
+    console.log(`☁️ [PRIORITY 1] Cloud environment - using Shotstack...`);
+    const shotstackResult = await renderWithShotstack(topicDir, topicName, audioPath);
+    if (shotstackResult) return shotstackResult;
+    console.warn(`⚠️ [Shotstack] Failed, falling back...`);
+  }
+  
+  // PRIORITY 2: GPU FFmpeg - Hardware acceleration (5-10x faster)
   if (!isVercel) {
-    console.log(`🚀 [PRIORITY 1] Attempting GPU-accelerated render...`);
+    console.log(`🚀 [PRIORITY 2] Attempting GPU FFmpeg render...`);
     const gpuResult = renderWithGPU(topicDir, topicName, audioPath, subtitlePath, FFMPEG);
     if (gpuResult) return gpuResult;
   }
   
-  // PRIORITY 2: Try CPU with Ken Burns effects
-  console.log(`🎬 [PRIORITY 2] Attempting CPU render with effects...`);
+  // PRIORITY 3: CPU FFmpeg with Ken Burns effects
+  console.log(`🎬 [PRIORITY 3] Attempting CPU render with effects...`);
   const cmdLine = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${filterComplex}" ${mapArgs} -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
   
   try {
@@ -179,8 +190,8 @@ async function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   } catch (e) { 
     console.error(`❌ [CPU+Effects] Render failed: ${e.message}`);
     
-    // PRIORITY 3: Fallback to simple concat without effects
-    console.log(`🔄 [PRIORITY 3] Fallback: Simple concatenation without effects...`);
+    // PRIORITY 4: Fallback to simple concat without effects
+    console.log(`🔄 [PRIORITY 4] Final fallback: Simple concatenation...`);
     const simpleConcatFilters = images.map((_, i) => `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=25[v${i}]`).join(';');
     let fallbackComplex = simpleConcatFilters + ';' + concatPart + ';[vout]copy[vfinal]';
     
