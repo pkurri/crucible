@@ -360,20 +360,55 @@ async function uploadToMeta() {
   // 🛡️ [HANDSHAKE] Headless Verification Mode
   if (isVerify) {
     console.log(`📡 [Forge] Headless Handshake Mode Active...`);
+    let exitCode = 0;
     try {
+      // ── 1. Token identity ─────────────────────────────────────────────
+      const me = await apiCall(`${META_API}/me?fields=id,name,type&access_token=${ACCESS_TOKEN}`);
+      console.log(`\n🪪 [Token] Identity: ${me.name} (id=${me.id}, type=${me.type || 'USER'})`);
+
+      // ── 2. All granted permissions ────────────────────────────────────
+      const permsRes = await apiCall(`${META_API}/me/permissions?access_token=${ACCESS_TOKEN}`);
+      const granted  = (permsRes.data || []).filter(p => p.status === 'granted').map(p => p.permission);
+      const declined = (permsRes.data || []).filter(p => p.status === 'declined').map(p => p.permission);
+      console.log(`\n✅ [Permissions] Granted (${granted.length}):`);
+      granted.forEach(p => console.log(`   + ${p}`));
+      if (declined.length) {
+        console.log(`❌ [Permissions] Declined (${declined.length}):`);
+        declined.forEach(p => console.log(`   - ${p}`));
+      }
+
+      // ── 3. Required scopes check ──────────────────────────────────────
+      const required = ['pages_manage_posts', 'pages_read_engagement', 'pages_show_list'];
+      const missing  = required.filter(r => !granted.includes(r));
+      if (missing.length) {
+        console.log(`\n⚠️  [FB] MISSING required permissions: ${missing.join(', ')}`);
+        console.log(`   → Regenerate token in Graph Explorer with these scopes.`);
+        exitCode = 1;
+      } else {
+        console.log(`\n✅ [FB] All required permissions present.`);
+      }
+
+      // ── 4. Facebook Page token exchange + page info ───────────────────
       if (FB_PAGE_ID) {
-        const pageCheck = await apiCall(`${META_API}/${FB_PAGE_ID}?fields=name,has_added_app&access_token=${ACCESS_TOKEN}`);
-        console.log(`✅ [FB] Handshake Verified: ${pageCheck.name} (App Linked: ${pageCheck.has_added_app})`);
+        const pageToken = await exchangeForPageToken(FB_PAGE_ID, ACCESS_TOKEN);
+        const tokenChanged = pageToken !== ACCESS_TOKEN;
+        console.log(`\n🔑 [FB] Page Token exchange: ${tokenChanged ? '✅ SUCCESS (got Page token)' : '⚠️  SAME TOKEN (no Page token returned — check pages_show_list)'}`);
+
+        const pageCheck = await apiCall(`${META_API}/${FB_PAGE_ID}?fields=name,has_added_app,tasks&access_token=${pageToken}`);
+        console.log(`✅ [FB] Page: ${pageCheck.name} | App Linked: ${pageCheck.has_added_app} | Tasks: ${JSON.stringify(pageCheck.tasks)}`);
       }
+
+      // ── 5. Instagram account info ─────────────────────────────────────
       if (IG_ACCOUNT_ID) {
-         const igCheck = await apiCall(`${META_API}/${IG_ACCOUNT_ID}?fields=username,name&access_token=${ACCESS_TOKEN}`);
-         console.log(`✅ [IG] Handshake Verified: @${igCheck.username} (${igCheck.name})`);
+        const igCheck = await apiCall(`${META_API}/${IG_ACCOUNT_ID}?fields=username,name&access_token=${ACCESS_TOKEN}`);
+        console.log(`✅ [IG] Account: @${igCheck.username} (${igCheck.name})`);
       }
-      process.exit(0);
+
     } catch (e) {
       console.error(`❌ [Handshake] FAILED: ${e.message}`);
-      process.exit(1);
+      exitCode = 1;
     }
+    process.exit(exitCode);
   }
 
   const topicDir = path.join(BASE, topicName);
