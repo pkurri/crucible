@@ -49,37 +49,58 @@ async function generateImagesForTopic(topic) {
     // Force regeneration for the first transition cycle
     // if (fs.existsSync(imgPath)) continue; 
 
-    console.log(`   📸 [Slot ${i}] Calling AI Visual Architect...`);
-    try {
-      const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${OPENROUTER_KEY}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          model: 'meta-llama/llama-3.2-3b-instruct:free', 
-          messages: [{ role: 'user', content: `Generate a photorealistic cinematic visual prompt for the niche: "${topic}". \nVisual Theme: ${keywords}. \nSlot: ${i}. \nRule: No text or "AAK Nation" branding in the image. \nReturn ONLY the visual description.` }]
-        })
-      });
+    console.log(`   📸 [Slot ${i}] Calling AI Visual Architect (Rotating Free Tiers)...`);
+    const FREE_MODELS = [
+      'meta-llama/llama-3.2-3b-instruct:free',
+      'mistralai/mistral-7b-instruct:free',
+      'google/gemini-2.0-flash-lite-preview-02-05:free',
+      'deepseek/deepseek-r1:free'
+    ];
 
-      const data = await response.json();
-      if (!data.choices || !data.choices[0]) {
-        throw new Error(`OpenRouter rejected request or returned empty: ${JSON.stringify(data)}`);
+    let visualDescription = '';
+    for (const modelId of FREE_MODELS) {
+      try {
+        const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${OPENROUTER_KEY}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            model: modelId, 
+            messages: [{ role: 'user', content: `Generate a photorealistic cinematic visual prompt for the niche: "${topic}". \nVisual Theme: ${keywords}. \nSlot: ${i}. \nRule: No text or "AAK Nation" branding in the image. \nReturn ONLY the visual description.` }]
+          })
+        });
+
+        const data = await response.json();
+        if (data.choices && data.choices[0]) {
+          visualDescription = data.choices[0].message.content;
+          console.log(`   💎 [${modelId}] Architected: ${visualDescription.substring(0, 40)}...`);
+          break; // Success!
+        }
+        console.warn(`   ⚠️ [${modelId}] Limited or Empty. Trying next...`);
+      } catch (err) {
+        console.warn(`   ⚠️ [${modelId}] Error: ${err.message}. Trying next...`);
       }
-      const visualDescription = data.choices[0].message.content;
-      console.log(`   🎨 Visual Blueprint architected: ${visualDescription.substring(0, 50)}...`);
+      await new Promise(r => setTimeout(r, 1500)); // Small buffer between retries
+    }
 
-      // 🖼️ GENERATE REAL IMAGE VIA POLLINATIONS (FREE TIER)
-      console.log(`   🌀 Generating Cinematic Asset via Pollinations.ai (FREE)...`);
-      const sanitizedPrompt = encodeURIComponent(visualDescription.substring(0, 400));
-      const imgUrl = `https://image.pollinations.ai/prompt/${sanitizedPrompt}?width=1080&height=1920&model=flux&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
+    if (!visualDescription) throw new Error(`FREE TIER EXHAUSTED: No models available for prompting.`);
 
+    // 🖼️ GENERATE REAL IMAGE VIA POLLINATIONS (FREE TIER)
+    console.log(`   🌀 Generating Cinematic Asset via Pollinations.ai (FREE)...`);
+    const sanitizedPrompt = encodeURIComponent(visualDescription.substring(0, 400));
+    const imgUrl = `https://image.pollinations.ai/prompt/${sanitizedPrompt}?width=1080&height=1920&model=flux&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
+
+    try {
       console.log(`   📥 Downloading Free Asset...`);
       const imgBuffer = await (await fetch(imgUrl)).arrayBuffer();
       fs.writeFileSync(imgPath, Buffer.from(imgBuffer));
-      
       console.log(`   ✅ FREE High-Fidelity Asset ${i} generated for ${topic}.`);
+    } catch (e) {
+      console.error(`   ❌ Pollinations failed: ${e.message}`);
+      throw e;
+    }
     } catch (e) {
       console.error(`   ❌ Failed to generate asset ${i}: ${e.message}`);
     }
