@@ -117,7 +117,7 @@
         "brainwave"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "UnexplainedPhenomenaArchives",
@@ -141,7 +141,7 @@
         "anomalies"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SubterraneanWorldSecrets",
@@ -165,7 +165,7 @@
         "lost cities"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CosmicWondersVisuals",
@@ -189,7 +189,7 @@
         "black holes"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ForbiddenHistoryRevealed",
@@ -213,7 +213,7 @@
         "artifacts"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "PrehistoricCreatureEncounters",
@@ -237,7 +237,7 @@
         "fossils"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedRealityGlitches",
@@ -261,7 +261,7 @@
         "paranormal activity"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "LostCivilizationsTech",
@@ -285,7 +285,7 @@
         "vimana"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ParallelUniversePortals",
@@ -309,7 +309,7 @@
         "portals"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CryptidSightingsUnveiled",
@@ -333,7 +333,7 @@
         "monster sightings"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegastructureMysteries",
@@ -357,7 +357,7 @@
         "artificial worlds"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ExtinctMegafloraRevivals",
@@ -381,7 +381,7 @@
         "ecosystem revival"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "OceanicAbyssAnomalies",
@@ -405,7 +405,7 @@
         "abyss"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "TemporalRiftEvents",
@@ -453,7 +453,7 @@
         "algorithm"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "PlanetaryAlignmentOmens",
@@ -501,7 +501,7 @@
         "space encounter"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "GlitchInTheMatrixExplained",
@@ -525,7 +525,7 @@
         "unexplained phenomena"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "AncientCivilizationCataclysms",
@@ -549,7 +549,7 @@
         "societal collapse"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ExtraterrestrialArtifactDiscoveries",
@@ -573,7 +573,7 @@
         "mars anomaly"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "HyperdimensionalRealities",
@@ -597,7 +597,7 @@
         "parallel reality"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "DreamWeavingAnomalies",
@@ -621,7 +621,7 @@
         "consciousness"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CosmicScaleComparisons",
@@ -645,7 +645,7 @@
         "scale"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "TechnologicalSingularityFears",
@@ -669,7 +669,7 @@
         "automation"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "UrbanExplorationMysteries",
@@ -693,7 +693,7 @@
         "decay"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "FantasticFaunaCreations",
@@ -717,7 +717,7 @@
         "speculative evolution"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "QuantumRealityExplorations",
@@ -741,7 +741,7 @@
         "quantum mechanics"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "BioEngineeringMarvels",
@@ -765,7 +765,7 @@
         "biohacking"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "DeepSeaCreatureDiscoveries",
@@ -789,7 +789,7 @@
         "bioluminescence"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "FutureTechPredictions",
@@ -813,7 +813,7 @@
         "cybernetics"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MandelaEffectAnomalies",
@@ -837,7 +837,7 @@
         "reality shifts"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SymbioticWorldsDocumented",
@@ -861,7 +861,7 @@
         "nature"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "QuantumWeirdnessIllustrated",
@@ -885,7 +885,7 @@
         "physics"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegacityOriginsUncovered",
@@ -909,7 +909,7 @@
         "civilization"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "BiometricFutureVisions",
@@ -957,7 +957,7 @@
         "lightning"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CelestialCollisionSimulations",
@@ -981,7 +981,7 @@
         "Astronomical visuals"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "UnsolvedEnigmaCodes",
@@ -1005,7 +1005,7 @@
         "AI decipher"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "HypotheticalMegafaunaRestorations",
@@ -1053,7 +1053,7 @@
         "Quantum physics"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedSocietalCollapses",
@@ -1101,7 +1101,7 @@
         "evolution"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CosmicEngineeringMarvels",
@@ -1125,7 +1125,7 @@
         "future"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "DystopianFutureSimulations",
@@ -1149,7 +1149,7 @@
         "technology"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ExtinctPredatorRecreations",
@@ -1173,7 +1173,7 @@
         "giant"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CrypticArchitecturalAnomalies",
@@ -1197,7 +1197,7 @@
         "mystery"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SentientAISimulations",
@@ -1221,7 +1221,7 @@
         "future"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "GodlikeParticleExperiments",
@@ -1245,7 +1245,7 @@
         "CERN"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegaEngineeringFailures",
@@ -1341,7 +1341,7 @@
         "time loops"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SyntheticBiologyHorrors",
@@ -1365,7 +1365,7 @@
         "hybrid creatures"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegascaleEngineeringProjects",
@@ -1389,7 +1389,7 @@
         "terraforming"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ImpossibleObjectConstructions",
@@ -1461,7 +1461,7 @@
         "Prehistoric Creatures"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "UnexplainedMegafaunaMigrations",
@@ -1485,7 +1485,7 @@
         "Ancient Animals"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ImpossibleArchitectureBlueprints",
@@ -1509,7 +1509,7 @@
         "Conceptual Design"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "HypotheticalPlanetaryTerraforming",
@@ -1533,7 +1533,7 @@
         "Scientific Visualization"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ExtinctAnimalResurrections",
@@ -1557,7 +1557,7 @@
         "genetic engineering"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegaWeaponBlueprints",
@@ -1605,7 +1605,7 @@
         "paradoxes"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedUniverseExperiments",
@@ -1653,7 +1653,7 @@
         "engineering"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "EsotericSymbolMeanings",
@@ -1677,7 +1677,7 @@
         "occult"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "RetroFutureTechInventions",
@@ -1701,7 +1701,7 @@
         "futurism"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "DistantWorldsGeographies",
@@ -1725,7 +1725,7 @@
         "astronomy"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegastructureConstructionFails",
@@ -1773,7 +1773,7 @@
         "biology"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegaProjectArchaeology",
@@ -1797,7 +1797,7 @@
         "excavation"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "HyperRealisticAnimalFakes",
@@ -1821,7 +1821,7 @@
         "hyperrealistic"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "AccidentalGodhoodMoments",
@@ -1845,7 +1845,7 @@
         "experiment"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CosmicHorrorVisualized",
@@ -1869,7 +1869,7 @@
         "terror"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ImpossibleWorldsRecreated",
@@ -1893,7 +1893,7 @@
         "surreal"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CosmicFabrications",
@@ -1917,7 +1917,7 @@
         "cosmic engineering"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedEvolutionScenarios",
@@ -1941,7 +1941,7 @@
         "speculative evolution"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "FractalWorldRealities",
@@ -1989,7 +1989,7 @@
         "materials science"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "EsotericMegastructureExplorations",
@@ -2037,7 +2037,7 @@
         "patterns"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "AlgorithmicArtifactAnalysis",
@@ -2061,7 +2061,7 @@
         "digital art"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegastructureConstructionVisuals",
@@ -2085,7 +2085,7 @@
         "construction"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedEvolutionaryOutcomes",
@@ -2109,7 +2109,7 @@
         "biology"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CosmicScaleComparisonsExplained",
@@ -2133,7 +2133,7 @@
         "stars"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "AnomalousArchitecturalWonders",
@@ -2157,7 +2157,7 @@
         "geometric anomalies"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CelestialAlignmentImpacts",
@@ -2181,7 +2181,7 @@
         "orbital mechanics"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedEcosystemFailures",
@@ -2205,7 +2205,7 @@
         "environmental catastrophe"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "HyperRealisticDreamscapes",
@@ -2230,7 +2230,7 @@
         "altered states"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegaScaleEngineeringFails",
@@ -2255,7 +2255,7 @@
         "structural collapse"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "EsotericSymbolEvolution",
@@ -2279,7 +2279,7 @@
         "Modern Symbols"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ImpossibleObjectIllusions",
@@ -2303,7 +2303,7 @@
         "Visual Paradoxes"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedExtinctionEvents",
@@ -2327,7 +2327,7 @@
         "Solar Flare"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "QuantumMultiverseGlimpses",
@@ -2399,7 +2399,7 @@
         "black hole simulations"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ExtinctCreatureResurrections",
@@ -2423,7 +2423,7 @@
         "genetic resurrection"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "AdvancedCivilizationOrigins",
@@ -2447,7 +2447,7 @@
         "advanced civilizations"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedPandemicScenarios",
@@ -2471,7 +2471,7 @@
         "survival scenarios"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ImpossibleArchitectureDesigns",
@@ -2495,7 +2495,7 @@
         "futuristic buildings"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CelestialEventPredictions",
@@ -2519,7 +2519,7 @@
         "celestial phenomena"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "LostWorldRecreations",
@@ -2543,7 +2543,7 @@
         "paleoart"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedSocietalBreakdowns",
@@ -2567,7 +2567,7 @@
         "urban decay"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "UnexplainedMegafaunaEncounters",
@@ -2591,7 +2591,7 @@
         "mystery creatures"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SimulatedUniverseGlitches",
@@ -2615,7 +2615,7 @@
         "code"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "AdvancedAncientCivilizations",
@@ -2639,7 +2639,7 @@
         "lost"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "MegascaleEngineeringFailures",
@@ -2711,7 +2711,7 @@
         "future dystopia"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "SymbioticSuperorganisms",
@@ -2735,7 +2735,7 @@
         "biological marvel"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "ImpossibleAutomataDiscoveries",
@@ -2759,7 +2759,7 @@
         "conspiracy"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     },
     {
       "name": "CosmicScaleIntervention",
@@ -2781,6 +2781,30 @@
         "planet manipulation",
         "galactic evolution",
         "celestial events"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "PlanetaryResourceExtraction",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Planetary Resource Extraction taps into growing anxieties/curiosities about space colonization, resource depletion, and future technologies. It allows for speculation about fantastical yet technically grounded scenarios - sparking curiosity and wonder. The concept introduces viewers to potential next-gen mega-projects. It has a clear progression from current capabilities to speculative but believable futures.",
+      "ideas": [
+        "Title: Asteroid Mining Gone WRONG! / Hook: What if the asteroid we're trying to mine has a SECRET?",
+        "Title: The TRUTH About Moon Dust NO ONE Is Telling You! / Hook: Moon dust holds unimaginable resources... and dangers.",
+        "Title: This Planet Is Made of DIAMONDS! / Hook: Imagine a world where diamonds are as common as rocks..."
+      ],
+      "keywords": [
+        "asteroid mining",
+        "space colonization",
+        "planetary resources",
+        "moon base",
+        "resource extraction"
       ],
       "voice": "en-US-GuyNeural",
       "priority": true
