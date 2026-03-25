@@ -59,13 +59,15 @@ async function runMetaCycle() {
     return;
   }
   
+  // Use smart picker to prioritize by viral score and usage
+  const pickerResult = execSync('node scripts/smart-niche-picker.mjs pick meta 20', { encoding: 'utf8' });
+  const jsonMatch = pickerResult.match(/JSON_OUTPUT: (\[.*\])/);
+  const topNicheNames = jsonMatch ? JSON.parse(jsonMatch[1]) : [];
+  
   const registry = JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8'));
-  // Niches tagged 'meta' first; if none tagged, use ALL niches (universal content)
-  let metaNiches = registry.niches.filter(n => n.platforms?.includes('meta'));
-  if (metaNiches.length === 0) {
-    metaNiches = registry.niches; // fallback: all niches work on Meta
-  }
-  metaNiches = metaNiches.sort((a,b) => (b.priority ? 1 : 0) - (a.priority ? 1 : 0));
+  const metaNiches = topNicheNames
+    .map(name => registry.niches.find(n => n.name === name))
+    .filter(Boolean);
 
   console.log(`📊 Quota: ${state.uploadsToday}/${MAX_UPLOADS_PER_DAY} used today. Found ${metaNiches.length} identified niches.`);
   console.log('═'.repeat(60));

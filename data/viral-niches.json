@@ -70,6 +70,2672 @@
       ],
       "voice": "en-US-GuyNeural",
       "priority": true
+    },
+    {
+      "name": "UnexplainedPhenomenaArchives",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Mystery",
+      "reason": "People are fascinated by the unknown and unexplained, especially with easy-to-digest visual formats.",
+      "ideas": [
+        "Title: Top 5 Most Mysterious Disappearances Ever Recorded / Hook: Some vanish without a trace, leaving only questions...",
+        "Title: Creepiest Unsolved Mysteries That Will Haunt You / Hook: Prepare to be disturbed by these genuinely chilling events.",
+        "Title: Unexplained Phenomenon Caught on Camera! / Hook: Is it real or a hoax? You decide."
+      ],
+      "keywords": [
+        "unexplained",
+        "mysteries",
+        "paranormal",
+        "cryptids",
+        "anomalies"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SubterraneanWorldSecrets",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Curiosity",
+      "reason": "The world beneath our feet holds countless secrets that are ripe for exploration.",
+      "ideas": [
+        "Title: Ancient Underground Cities That Shouldn't Exist / Hook: Lost civilizations built incredible structures hidden from the world.",
+        "Title: What Lies Beneath? The Deepest Holes Ever Drilled / Hook: The terrifying secrets lurking far below the surface.",
+        "Title: The Hidden World Underneath [CITY NAME] / Hook: Discover the forgotten tunnels, bunkers, and chambers below."
+      ],
+      "keywords": [
+        "underground",
+        "tunnels",
+        "caves",
+        "ancient",
+        "lost cities"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CosmicWondersVisuals",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "Stunning visualizations of space always draw a crowd. People are always looking up.",
+      "ideas": [
+        "Title: The Most Jaw-Dropping Cosmic Events of [YEAR] / Hook: Witness the universe's majesty in stunning detail.",
+        "Title: What If Earth Collided With a Black Hole? / Hook: A terrifying simulation of the end of the world.",
+        "Title: Traveling Through the Universe at Warp Speed / Hook: A mind-bending journey to the edge of reality."
+      ],
+      "keywords": [
+        "space",
+        "planets",
+        "galaxies",
+        "nebulae",
+        "black holes"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ForbiddenHistoryRevealed",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Mystery",
+      "reason": "The public loves uncovering buried history and challenging the official narrative.",
+      "ideas": [
+        "Title: The Lost Civilizations That History Forgot / Hook: Uncover the secrets of forgotten cultures and empires.",
+        "Title: Banned Historical Texts They Don't Want You to See / Hook: Controversial documents expose shocking truths.",
+        "Title: Ancient Technology Far Ahead of Its Time / Hook: Discover the incredible inventions of the past."
+      ],
+      "keywords": [
+        "ancient",
+        "history",
+        "lost civilizations",
+        "secrets",
+        "artifacts"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "PrehistoricCreatureEncounters",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Fear",
+      "reason": "People feel a primal fear connected watching giant creatures (even if simulated) in their natural settings.",
+      "ideas": [
+        "Title: Terrifying Prehistoric Creatures Caught on Camera! / Hook: See these monsters in their natural environments.",
+        "Title: What if the Megalodon Still Existed? / Hook: A terrifying look at a living, breathing apex predator.",
+        "Title: The Most Deadly Dinosaurs That Ever Lived / Hook: Face-to-face with the predators that ruled the Earth."
+      ],
+      "keywords": [
+        "dinosaurs",
+        "prehistoric",
+        "monsters",
+        "megalodon",
+        "fossils"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedRealityGlitches",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Mystery",
+      "reason": "Growing fascination with the simulation hypothesis and the uncanny valley effect.",
+      "ideas": [
+        "\"Proof We're Living in a SIMULATION? These Glitches Will SHOCK You!\"",
+        "\"Matrix Malfunction CAUGHT ON CAMERA! Is Reality Breaking Down?\"",
+        "\"Unexplained Anomalies That Suggest A SIMULATION Is COLLAPSING!\""
+      ],
+      "keywords": [
+        "glitch in reality",
+        "simulation theory",
+        "matrix glitches",
+        "anomalies",
+        "paranormal activity"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "LostCivilizationsTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Wonder",
+      "reason": "Intrigue surrounding forgotten technologies and potential future advancements.",
+      "ideas": [
+        "\"Ancient Technology MORE ADVANCED Than Ours?! Shocking Discoveries!\"",
+        "\"Lost Tech That Could REVOLUTIONIZE The World... If We Can Unlock It!\"",
+        "\"Secrets of Lost Civilizations REVEALED! Did They Have FLYING MACHINES?!\""
+      ],
+      "keywords": [
+        "lost technology",
+        "ancient civilizations",
+        "advanced technology",
+        "atlantis",
+        "vimana"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ParallelUniversePortals",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Curiosity",
+      "reason": "Continued interest in multiverses, alternate realities, and the possibility of interdimensional travel.",
+      "ideas": [
+        "\"Evidence of PARALLEL UNIVERSES Discovered? Portals Caught on Camera!\"",
+        "\"Is This a GATEWAY to Another REALITY? Unexplained Phenomena!\"",
+        "\"The Secret to Interdimensional Travel REVEALED! Scientists Are SHOCKED!\""
+      ],
+      "keywords": [
+        "parallel universe",
+        "alternate reality",
+        "interdimensional travel",
+        "wormholes",
+        "portals"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CryptidSightingsUnveiled",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Fear",
+      "reason": "The enduring appeal of the unknown, combined with the accessibility of sharing supposed evidence through digital platforms.",
+      "ideas": [
+        "\"Unbelievable Cryptid Sightings Caught on Camera! Do THESE EXIST?!\"",
+        "\"WARNING: Terrifying Creatures Living Among Us? Shocking Evidence!\"",
+        "\"Scientists Baffled By THIS Creature! Proof Cryptids Are REAL?!\""
+      ],
+      "keywords": [
+        "cryptids",
+        "sasquatch",
+        "nessie",
+        "chupacabra",
+        "monster sightings"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegastructureMysteries",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Awe",
+      "reason": "The sheer scale and complexity of hypothetical megastructures spark immense wonder and speculation.",
+      "ideas": [
+        "\"Mind-Blowing Megastructures That Could Change EVERYTHING! What ARE These?!\"",
+        "\"Alien Engineering or Natural Wonder? The Mystery of Gigantic Structures!\"",
+        "\"Building a Dyson Sphere: The Future of Energy or Total MADNESS?!\""
+      ],
+      "keywords": [
+        "megastructure",
+        "dyson sphere",
+        "space elevator",
+        "ringworld",
+        "artificial worlds"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ExtinctMegafloraRevivals",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Intrigue surrounding the potential revival of lost plant species and ecosystems through advanced biotechnology.",
+      "ideas": [
+        "The Lazarus Forest: Can We Bring Back Extinct Trees?",
+        "Giant Plants of the Past: Resurrecting the Megaflora Era",
+        "De-Extinction Botany: The Future of Lost Ecosystems?"
+      ],
+      "keywords": [
+        "extinct plants",
+        "megaflora",
+        "de-extinction",
+        "botany",
+        "ecosystem revival"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "OceanicAbyssAnomalies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Mystery",
+      "reason": "Endless fascination with the unexplored depths of the ocean and bizarre creatures living there.",
+      "ideas": [
+        "Unexplained Signals from the Deep: What Lurks Below?",
+        "Mysterious Deep-Sea Sounds: Nature or Something Else?",
+        "Abyssal Zone Secrets: Startling Discoveries at the Bottom of the Ocean"
+      ],
+      "keywords": [
+        "deep sea",
+        "ocean anomaly",
+        "unexplained",
+        "creatures",
+        "abyss"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "TemporalRiftEvents",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Fear",
+      "reason": "Captures interest in the possibility of time being non-linear and our inability to fully control it.",
+      "ideas": [
+        "Time Slips Caught on Camera: Real or Hoax?",
+        "Glitches in Reality: Experiencing Temporal Rifts?",
+        "The Day Time Stopped: Disturbing Temporal Anomalies"
+      ],
+      "keywords": [
+        "time travel",
+        "temporal rift",
+        "glitch",
+        "anomaly",
+        "time slip"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ArtificialWorldLandscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "The advancement of AI art, generating impressive and surreal landscapes. What will be the future of living?",
+      "ideas": [
+        "Impossible Landscapes: Worlds Created by AI",
+        "Surreal Earth: Artificial Environments That Defy Logic",
+        "Beyond Reality: The Beauty of AI-Generated Worlds"
+      ],
+      "keywords": [
+        "AI art",
+        "artificial landscape",
+        "surreal",
+        "generated",
+        "algorithm"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "PlanetaryAlignmentOmens",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.6,
+      "targetEmotion": "Mystery",
+      "reason": "Our fascination with astrology, combined with scientific wonder of planetary movements/alignments.",
+      "ideas": [
+        "Planetary Alignment Secrets: Hidden Astrological Knowledge",
+        "Signs in the Stars: Alignments Foretelling Future Events?",
+        "Cosmic Portents: Deciphering the Messages of Planetary Alignments"
+      ],
+      "keywords": [
+        "alignment",
+        "planetary",
+        "astrology",
+        "omen",
+        "astronomy"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "CelestialBodyEncounters",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Increased fascination with space exploration and unverified astronomical events fuel curiosity about potentially undiscovered celestial bodies interacting with our solar system.",
+      "ideas": [
+        "\"Is Planet X Real? The Shocking Evidence NASA Can't Hide!\" / Hook: Start with supposed leaked NASA footage.",
+        "\"Unidentified Object Caught Orbiting Earth: A Celestial Body Encounter?\" / Hook: Show a zoomed-in telescopic image.",
+        "\"Celestial Body Encounters: The Astronomical Mystery Threatening Earth?\" / Hook: Present a simulation of a rogue asteroid."
+      ],
+      "keywords": [
+        "planet x",
+        "unidentified object",
+        "celestial anomaly",
+        "near-earth object",
+        "space encounter"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "GlitchInTheMatrixExplained",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Mystery",
+      "reason": "The inherent human desire to understand reality and skepticism towards the true nature of the world leads to people trying to find patterns or explanations.",
+      "ideas": [
+        "\"Deja Vu DECODED: The Matrix Glitch That Proves We're in a Simulation!?\" / Hook: Visual montage of deja vu experiences.",
+        "\"Objects Appearing Out of THIN AIR! Real Matrix Glitch Caught on Camera!?\" / Hook: Close-up of seemingly impossible object materialization.",
+        "\"The Mandela Effect: A Glitch? Or a Parallel World Overlay?\" / Hook: Start with an iconic altered image. "
+      ],
+      "keywords": [
+        "simulation theory",
+        "mandela effect",
+        "glitch in the matrix",
+        "reality shift",
+        "unexplained phenomena"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "AncientCivilizationCataclysms",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Fear",
+      "reason": "The exploration of the reasons for the collapse of great empires and lost civilizations sparks discussions around the resilience of civilization and the impending doom.",
+      "ideas": [
+        "\"Atlantis was Just the Beginning: Lost Civilizations Destroyed by a REAL Cataclysm!\" / Hook: Before/after apocalyptic renderings.",
+        "\"The Untold Truth About Pompeii: Was it a Warning from the Gods?\" / Hook: Start with dramatic volcano eruption footage.",
+        "\"Ancient Civilizations KNEW the End Was Coming: And they left Us this Message!\" / Hook: Display mysterious ancient symbols."
+      ],
+      "keywords": [
+        "ancient catastrophe",
+        "lost civilization",
+        "pompeii",
+        "mass extinction",
+        "societal collapse"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ExtraterrestrialArtifactDiscoveries",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Curiosity",
+      "reason": "Mysterious findings on Earth and in space raise questions about extraterrestrial contact in the past or possible presence in the present.",
+      "ideas": [
+        "\"Ancient Artifacts Found on Mars: PROOF of an Alien Civilization!?\" / Hook: High-resolution image of a strange rock formation on Mars.",
+        "\"The Alien Signal We MISSED: An Artefact Buried Deep Under the Ice!?\" / Hook: Simulated drilling operation in Antarctica.",
+        "\"Is This an Alien Time Capsule? An Extraterrestrial Artifact Found in Egypt!?\" / Hook: 3D render of an anachronistic device."
+      ],
+      "keywords": [
+        "ancient aliens",
+        "extraterrestrial artifacts",
+        "unexplained findings",
+        "alien technology",
+        "mars anomaly"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "HyperdimensionalRealities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Wonder",
+      "reason": "The limits of human perception and scientific limitations inspire the exploration of the possible existence of dimensions beyond our understanding.",
+      "ideas": [
+        "\"Unlocking HYPERDIMENSIONAL Travel: Scientists Stumble Upon a Portal?\" / Hook: Visual of swirling colors and distorted space.",
+        "\"Are We Trapped in a 3D World? The Shocking Truth About Higher Dimensions!\" / Hook: Abstract animation of hyperspace.",
+        "\"Hyperdimensional Beings Walk AMONG Us? Disturbing Encounters Finally Revealed!\" / Hook: Start with blurred night vision footage."
+      ],
+      "keywords": [
+        "multidimensional",
+        "string theory",
+        "higher dimensions",
+        "theoretical physics",
+        "parallel reality"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "DreamWeavingAnomalies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Mystery",
+      "reason": "People are increasingly interested in the nature of dreams and their connection to reality, especially with the rise of AI art which often has dreamlike qualities.",
+      "ideas": [
+        "\"What If Your Dreams Were Alternate Realities?\"",
+        "\"This Dream Anomaly Could Change Everything\"",
+        "\"Decoding The Secrets Woven Into Your Nightmares\""
+      ],
+      "keywords": [
+        "dreamscapes",
+        "dream logic",
+        "surreal",
+        "nightmares",
+        "consciousness"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CosmicScaleComparisons",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "Dramatic visual comparisons of celestial objects against familiar locations satisfy our innate desire to understand our place in the vast universe.",
+      "ideas": [
+        "\"If Our Moon Was Replaced By A Giant Black Hole!\"",
+        "\"The Shocking Size Of Earth Compared To Other Planets\"",
+        "\"Mind-Blowing Visuals Of The Largest Star In The Universe\""
+      ],
+      "keywords": [
+        "celestial bodies",
+        "universe",
+        "galaxy",
+        "size",
+        "scale"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "TechnologicalSingularityFears",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Fear",
+      "reason": "Growing anxieties surrounding AI development and its potential implications for humanity drive interest in hypothetical scenarios depicting technological singularity.",
+      "ideas": [
+        "\"What Happens When AI Becomes Smarter Than Humans?\"",
+        "\"The Terrifying Future Predicted By AI Itself\"",
+        "\"Could AI Write Its Own Video Showing Our Demise?\""
+      ],
+      "keywords": [
+        "artificial intelligence",
+        "AGI",
+        "singularity",
+        "robotics",
+        "automation"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "UrbanExplorationMysteries",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Mystery",
+      "reason": "The allure of uncovering hidden or abandoned places taps into our desire for exploration and discovery, showcasing the unseen parts of our world.",
+      "ideas": [
+        "\"We Found A Secret Room In An Abandoned Mansion!\"",
+        "\"Uncovering Lost Worlds Underneath Major Cities\"",
+        "\"The Strange Symbols Found Deep Inside This Forgotten Bunker\""
+      ],
+      "keywords": [
+        "abandoned places",
+        "urban exploration",
+        "hidden places",
+        "secret tunnels",
+        "decay"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "FantasticFaunaCreations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.6,
+      "targetEmotion": "Wonder",
+      "reason": "The blend of creativity and biology allows the creation of fascinating and visually appealing concepts that spark the imagination.",
+      "ideas": [
+        "\"If Animals Could Evolve to Survive on Other Planets!\"",
+        "\"The Genetically Engineered Pets Of The Future Are Here?\"",
+        "\"What If Mythical Creatures Existed Today?\""
+      ],
+      "keywords": [
+        "fantastic creatures",
+        "evolutionary biology",
+        "synthetic biology",
+        "genetic engineering",
+        "speculative evolution"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "QuantumRealityExplorations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The mysteries of quantum physics are increasingly accessible and fascinating to a wider audience, especially when presented visually.",
+      "ideas": [
+        "\"Quantum Entanglement: Spooky Action at a Distance Explained!\"",
+        "\"Is Reality an Illusion? Exploring the Quantum Nature of Existence.\"",
+        "\"Quantum Computing: The Future Is Almost Here... and It’s Mind-Bending!\""
+      ],
+      "keywords": [
+        "quantum physics",
+        "quantum entanglement",
+        "quantum computing",
+        "multiverse",
+        "quantum mechanics"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "BioEngineeringMarvels",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "Rapid advances in bio-engineering and genetic modification capture the imagination and raise ethical questions, creating a strong viral potential.",
+      "ideas": [
+        "\"Genetically Engineered Superhumans: Fact or Fiction?\"",
+        "\"Unbelievable Bio-Engineering Breakthroughs That Will Change Everything!\"",
+        "\"De-Extinction Projects: Bringing Back the Dead…Should We?\""
+      ],
+      "keywords": [
+        "genetic engineering",
+        "CRISPR",
+        "cloning",
+        "synthetic biology",
+        "biohacking"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "DeepSeaCreatureDiscoveries",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Fear",
+      "reason": "The deep sea remains largely unexplored, and new, bizarre creatures are constantly being discovered, tapping into primal fears and fascination.",
+      "ideas": [
+        "\"Terrifying Deep-Sea Creatures You Won't Believe Exist!\"",
+        "\"The Mariana Trench: Unveiling The Abyss's Hidden Horrors!\"",
+        "\"Mysteries of the Deep: Strange Signals and Unexplained Phenomena.\""
+      ],
+      "keywords": [
+        "deep sea",
+        "marine biology",
+        "oceanography",
+        "abyssal zone",
+        "bioluminescence"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "FutureTechPredictions",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Curiosity",
+      "reason": "Speculating on the future of technology and its impact on society remains highly engaging, especially with visually compelling predictions.",
+      "ideas": [
+        "\"2050: The World Reimagined - Mind-Blowing Future Tech!\"",
+        "\"The Singularity Is Near: Are You Ready for Artificial Superintelligence?\"",
+        "\"Future Homes: Self-Sustaining Eco-Cities of Tomorrow!\""
+      ],
+      "keywords": [
+        "futurism",
+        "artificial intelligence",
+        "robotics",
+        "virtual reality",
+        "cybernetics"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MandelaEffectAnomalies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Mystery",
+      "reason": "The Mandela Effect continues to intrigue and spark debate, prompting viewers to question reality and collective memory.",
+      "ideas": [
+        "\"The Mandela Effect: Are We Living in a Parallel Timeline?\"",
+        "\"Unexplained Memory Errors: When Did Reality Diverge?\"",
+        "\"Mandela Effect Mysteries That Will Make You Question Everything!\""
+      ],
+      "keywords": [
+        "mandela effect",
+        "false memories",
+        "collective memory",
+        "parallel universes",
+        "reality shifts"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SymbioticWorldsDocumented",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Fascination with the interconnectedness of life and the hidden partnerships in nature.",
+      "ideas": [
+        "UnseenAlliances: Nature's Most Bizarre Symbiotic Relationships Revealed!",
+        "CreatureCombos: The Ultimate Guide to Symbiotic Survival in the Wild",
+        "ViralPartnerships: Animals that Depend on Each Other to Exist!"
+      ],
+      "keywords": [
+        "symbiosis",
+        "mutualism",
+        "parasitism",
+        "animals",
+        "nature"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "QuantumWeirdnessIllustrated",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Curiosity",
+      "reason": "Intrigue and confusion surrounding the counter-intuitive principles of quantum mechanics.",
+      "ideas": [
+        "EntanglementExplained: Spooky Action at a Distance!",
+        "QuantumReality: Is Everything We Know About the World Wrong?",
+        "BehindTheQuantumVeil: The Mysteries Even Scientists Can't Explain!"
+      ],
+      "keywords": [
+        "quantum",
+        "mechanics",
+        "entanglement",
+        "superposition",
+        "physics"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegacityOriginsUncovered",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Mystery",
+      "reason": "The enigma surrounding the founding and growth of the world's most complex and colossal urban centers.",
+      "ideas": [
+        "CitySecrets: The Hidden History Buried Beneath Our Megacities!",
+        "OriginStories: How Did These Giant Cities Come to Be?",
+        "AncientMetropolis: The Lost Civilizations That Built Our Modern World"
+      ],
+      "keywords": [
+        "urban",
+        "megacity",
+        "history",
+        "architecture",
+        "civilization"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "BiometricFutureVisions",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Fear",
+      "reason": "Anxiety about the increasing integration of biometric technology into everyday life and potential privacy concerns.",
+      "ideas": [
+        "YourBiometricDouble: How Your Body Will Be Used in the Future!",
+        "BiometricNightmare: Are We Losing Control of Our Physical Identities?",
+        "PrivacyInPeril: The Biometric Revolution and the End of Anonymity"
+      ],
+      "keywords": [
+        "biometrics",
+        "technology",
+        "privacy",
+        "surveillance",
+        "future"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AtmosphericPhenomenaCaptured",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "The sheer beauty and power of rare and spectacular atmospheric events.",
+      "ideas": [
+        "SkySpectacles: The Most Breathtaking Atmospheric Phenomena on Earth!",
+        "Nature'sFireworks: When the Sky Comes Alive!",
+        "CelestialWonders: Witness These Rare Atmospheric Events Before They Disappear"
+      ],
+      "keywords": [
+        "atmosphere",
+        "weather",
+        "phenomena",
+        "aurora",
+        "lightning"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CelestialCollisionSimulations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Interest in space exploration and the sheer scale of cosmic events, visualized through stunning simulations.",
+      "ideas": [
+        "\"What if Earth Collided With Another Planet? Shocking Simulation!\"",
+        "\"The Day the Moon Exploded: Realistic Celestial Collision Visuals\"",
+        "\"Giant Asteroid Strikes Earth: A Terrifyingly Beautiful Simulation\""
+      ],
+      "keywords": [
+        "Planet collision",
+        "Asteroid impact",
+        "Space simulation",
+        "Cosmic event",
+        "Astronomical visuals"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "UnsolvedEnigmaCodes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Mystery",
+      "reason": "People are fascinated by hidden messages and the possibility of unveiling long-lost secrets.",
+      "ideas": [
+        "\"The Zodiac Killer's Untranslated Codes: Can AI Finally Crack Them?\"",
+        "\"Ancient Mayan Glyphs: New Evidence Changes Everything!\"",
+        "\"The Voynich Manuscript Solved? AI Reveals the Hidden Truth!\""
+      ],
+      "keywords": [
+        "Code breaking",
+        "Cipher",
+        "Hidden message",
+        "Unsolved mystery",
+        "AI decipher"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "HypotheticalMegafaunaRestorations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Wonder",
+      "reason": "The idea of bringing back extinct giants through advanced technology sparks both excitement and ethical questions.",
+      "ideas": [
+        "\"If We Rebuilt the Megalodon: Could We Control It?\"",
+        "\"De-Extinction Fails: See the Disturbing Result.\"",
+        "\"The Woolly Mammoth Returns: A Realistic Look At a Bioengineered Future'"
+      ],
+      "keywords": [
+        "De-extinction",
+        "Megafauna",
+        "Genetic engineering",
+        "Ancient animals",
+        "Bio-restoration"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlteredStatesOfMatterVisuals",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Curiosity",
+      "reason": "Exploring exotic states of matter, such as superfluids or Bose-Einstein condensates, through compelling visuals generates great curiosity about physics and science in general.",
+      "ideas": [
+        "\"Superfluid Helium: What Happens When Physics Breaks Down?\"",
+        "\"Creating the Fifth State of Matter: A Mind-Bending Experiment in VR\"",
+        "\"The Secret Properties of Dark Matter: First Visualizations\""
+      ],
+      "keywords": [
+        "Exotic matter",
+        "Superfluid",
+        "Bose-Einstein condensate",
+        "Plasma",
+        "Quantum physics"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedSocietalCollapses",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.6,
+      "targetEmotion": "Fear",
+      "reason": "People are drawn to visualizations of potential societal failures stemming from climate change, war, and resource depletion. These scenarios allow viewers to confront unsettling possibilities.",
+      "ideas": [
+        "\"What Happens When the Power Grid Fails? Days After: Simulated Chaos..\"",
+        "\"AI Uprising Simulation: Visualizing a World Ruled by Machines\"",
+        "\"Global Water Wars: A Terrifyingly Realistic Simulation of Future Conflict\""
+      ],
+      "keywords": [
+        "Societal collapse",
+        "Climate change",
+        "Resource depletion",
+        "Economic crisis",
+        "Civil unrest"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SymbioticCreatureFantasies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The intersection of biology and fantasy generates unique and imaginative creatures that fascinate viewers.",
+      "ideas": [
+        "Nature's Remix: Discover Bizarre Animal Hybrids!",
+        "The Bioluminescent Forest: Where Creatures Glow!",
+        "Alien Ecosystems: Symbiotic Wonders from Another World"
+      ],
+      "keywords": [
+        "symbiosis",
+        "creatures",
+        "fantasy",
+        "biology",
+        "evolution"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CosmicEngineeringMarvels",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "Humans' innate curiosity about the cosmos combined with futuristic engineering concepts creates visually stunning and mentally stimulating content.",
+      "ideas": [
+        "Dyson Spheres: Harvesting the Power of Stars!",
+        "Building a Space Elevator: Engineering the Impossible!",
+        "Terraforming Mars: A New Home for Humanity"
+      ],
+      "keywords": [
+        "cosmic",
+        "engineering",
+        "terraform",
+        "space",
+        "future"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "DystopianFutureSimulations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Fear",
+      "reason": "The exploration of potential societal collapses and technological nightmares taps into widespread anxieties and cautionary tales.",
+      "ideas": [
+        "Cyberpunk Cityscapes: A Glimpse into Tomorrow's Hellscape?",
+        "The AI Takeover: When Machines Rule!",
+        "Resource Wars: Fighting for Survival in a Collapsing World"
+      ],
+      "keywords": [
+        "dystopia",
+        "future",
+        "simulation",
+        "collapse",
+        "technology"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ExtinctPredatorRecreations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Curiosity",
+      "reason": "Bringing prehistoric apex predators back to life visually fuels the imagination and sparks interest in ancient ecosystems.",
+      "ideas": [
+        "Titanoboa: The Monster Snake That Ruled the Swamps!",
+        "Meganeura: Giant Dragonfly of the Carboniferous!",
+        "Smilodon: Sabertooth Tiger's Deadly Secrets Revealed!"
+      ],
+      "keywords": [
+        "extinct",
+        "predator",
+        "recreation",
+        "prehistoric",
+        "giant"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CrypticArchitecturalAnomalies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Mystery",
+      "reason": "Unexplained structures and hidden symbols in architecture throughout history ignite curiosity and demand deciphering.",
+      "ideas": [
+        "The Nazca Lines: Cosmic Messages Etched in Stone?",
+        "Göbekli Tepe: The World's Oldest Temple Hides a Secret!",
+        "Ancient Megaliths: Lost Technology or Supernatural Power?"
+      ],
+      "keywords": [
+        "architecture",
+        "anomaly",
+        "cryptic",
+        "ancient",
+        "mystery"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SentientAISimulations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "Rising anxieties about AI capabilities and existential threats.",
+      "ideas": [
+        "If AI Became Conscious: A Terrifying Simulation",
+        "Watching AI Learn Morality: The Results Will Shock You",
+        "Sentient AI vs. Humanity: Who Would Win?"
+      ],
+      "keywords": [
+        "AI",
+        "sentient",
+        "simulation",
+        "dystopia",
+        "future"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "GodlikeParticleExperiments",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "Fascination with the fundamental building blocks of reality and the potential for unprecedented discoveries in physics.",
+      "ideas": [
+        "Unlocking the Secrets of the Universe: Godlike Particle Experiments",
+        "Creating Mini Black Holes: The Dangers and Possibilities",
+        "What Happens When Particles Collide at Near Light Speed?"
+      ],
+      "keywords": [
+        "particles",
+        "physics",
+        "experiments",
+        "black holes",
+        "CERN"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegaEngineeringFailures",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Wonder",
+      "reason": "Morbid curiosity about large projects gone wrong and the catastrophic consequences of engineering hubris.",
+      "ideas": [
+        "The Biggest Engineering Failures in History",
+        "When Architecture Collapses: The Most Spectacular Failures",
+        "What Went Wrong? Mega-Project Disasters"
+      ],
+      "keywords": [
+        "engineering",
+        "failure",
+        "disaster",
+        "collapse",
+        "architecture"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "HyperEvolutionaryAdaptations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Curiosity",
+      "reason": "Intrigue with the power of evolution and wild extrapolation of how creatures could adapt to extreme environments.",
+      "ideas": [
+        "If Humans Lived on Mars: Hyper-Evolutionary Adaptations",
+        "Creatures That Can Survive Anything: The Ultimate Survivors",
+        "The Next Stage of Evolution: Are We Ready?"
+      ],
+      "keywords": [
+        "evolution",
+        "adaptation",
+        "biology",
+        "future",
+        "survival"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ImpossibleGeometryRealities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Mystery",
+      "reason": "The human brain is riveted by things that shouldn't exist, such as mathematical impossibilities.",
+      "ideas": [
+        "Worlds that Break the Laws of Physics: Impossible Geometry",
+        "Inside a Klein Bottle: A Journey into the Unthinkable",
+        "Can We Actually Build an Impossible Shape?"
+      ],
+      "keywords": [
+        "geometry",
+        "impossible",
+        "mathematics",
+        "physics",
+        "reality"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumLeapParadoxes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Mystery",
+      "reason": "The potential for time travel and paradoxes is a recurring theme in popular culture, captivating audiences with mind-bending scenarios.",
+      "ideas": [
+        "How to Avoid Creating ALTERNATE REALITIES While Quantum Leaping!",
+        "Quantum LEAPING Gone WRONG: When timelines COLLIDE",
+        "Quantum LEAPING Explained by TIME TRAVELERS"
+      ],
+      "keywords": [
+        "time travel",
+        "paradox",
+        "quantum mechanics",
+        "alternate realities",
+        "time loops"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SyntheticBiologyHorrors",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Fear",
+      "reason": "The fear of unknown consequences from genetic engineering has always resonated, especially with visual depictions of monstrous creations.",
+      "ideas": [
+        "What If We CREATED DINOSAURS Again?",
+        "WARNING: Genetic ENGINEERING Could Create NIGHTMARE Creatures!",
+        "These GENETIC EXPERIMENTS Went HORRIBLY Wrong!"
+      ],
+      "keywords": [
+        "genetic engineering",
+        "synthetic biology",
+        "monsters",
+        "bioethics",
+        "hybrid creatures"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegascaleEngineeringProjects",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "Showcasing the scope of human engineering capabilities is inspiring, particularly when presented with stunning visuals and ambitious objectives.",
+      "ideas": [
+        "Building a SPACE ELEVATOR To Low Earth Orbit!",
+        "Terraforming MARS: Engineering a New Planet for Humanity!",
+        "What If We BUILT A RING WORLD Around Earth?"
+      ],
+      "keywords": [
+        "megaprojects",
+        "engineering",
+        "futurism",
+        "infrastructure",
+        "terraforming"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ImpossibleObjectConstructions",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.6,
+      "targetEmotion": "Wonder",
+      "reason": "Impossible objects challenge perception and logic, sparking intrigue and engagement, particularly with optical illusion visuals.",
+      "ideas": [
+        "Are IMPOSSIBLE OBJECTS in REAL LIFE?",
+        "Buildings That BREAK the LAWS Of Physics",
+        "VISUALLY Confusing Structures That Will BLOW Your Mind!"
+      ],
+      "keywords": [
+        "impossible objects",
+        "optical illusions",
+        "Penrose triangle",
+        "architecture",
+        "geometric anomalies"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DigitalTwinRealities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Curiosity",
+      "reason": "Digital twins and simulated realities offer both intriguing possibilities and frightening implications, driving interest in the topic.",
+      "ideas": [
+        "Are you living in a DIGITAL TWIN Simulation?",
+        "Digital TWINS: When the virtual world BECOMES reality!",
+        "The Future of SIMULATION: Digital Twins and Beyond"
+      ],
+      "keywords": [
+        "digital twin",
+        "simulation",
+        "virtual reality",
+        "artificial intelligence",
+        "replicas"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BizarreExtinctCreatureBehaviors",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "People are fascinated by the strange and unusual, especially when it involves extinct animals whose behaviors seem alien to us and lend themselves to dramatic re-enactments.",
+      "ideas": [
+        "Witness the Mating Rituals of the Stylonurus: Giant Scorpion Love!",
+        "Unbelievable Defense Mechanisms: The Ankylosaurus' Club Tail Fury!",
+        "The Gastornis: A Flightless Terror Bird's Bizarre Nesting Habits!"
+      ],
+      "keywords": [
+        "Extinct Animals",
+        "Paleontology",
+        "CGI Animation",
+        "Animal Behavior",
+        "Prehistoric Creatures"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "UnexplainedMegafaunaMigrations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Mystery",
+      "reason": "Mysterious, unsolved events involving giant creatures naturally spark curiosity and debate.",
+      "ideas": [
+        "The Lost Trail: Where Did The Mammoth Herds Vanish?",
+        "Antarctic Enigma: Are Megalodon Migration Patterns Key To Survival?",
+        "The Great Sloth Exodus: Why Did They Abandon Their Ancient Homeland?"
+      ],
+      "keywords": [
+        "Megafauna",
+        "Migration",
+        "Unexplained",
+        "Mystery",
+        "Ancient Animals"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ImpossibleArchitectureBlueprints",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "Concepts that defy physics and engineering principles capture attention through impressive visuals.",
+      "ideas": [
+        "The Dyson Sphere Blueprint: Could We Actually Build It?",
+        "Quantum Entanglement Bridge: Tomorrow's Buildings Redefined!",
+        "Gravity Defying Skyscraper Design: Are these structures even possible?"
+      ],
+      "keywords": [
+        "Future Architecture",
+        "Impossible Structures",
+        "Engineering",
+        "3D Animation",
+        "Conceptual Design"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "HypotheticalPlanetaryTerraforming",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Wonder",
+      "reason": "Exploring the potential for transforming other planets evokes feelings of adventure and possibility.",
+      "ideas": [
+        "Terraforming Venus: A Paradise or a Toxic Wasteland?",
+        "Mars 2.0: Can we turn the red planet green again?",
+        "Europa's Oceans: Building a Habitat Under the Ice!"
+      ],
+      "keywords": [
+        "Terraforming",
+        "Space Colonization",
+        "Planets",
+        "Futuristic Scenarios",
+        "Scientific Visualization"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ExtinctAnimalResurrections",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "De-extinction technology is becoming more believable and fascinating.",
+      "ideas": [
+        "What if the Tasmanian Tiger Returned? Shocking Footage!",
+        "Mammoth Resurrection: Coming Sooner Than You Think? (Scientists Reveal)",
+        "De-Extinction Gone Wrong: The Untold Dangers of Bringing Back Lost Species!"
+      ],
+      "keywords": [
+        "de-extinction",
+        "mammoth",
+        "tasmanian tiger",
+        "dna",
+        "genetic engineering"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegaWeaponBlueprints",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Fear",
+      "reason": "The implications of powerful weapons are always relevant, and the visual potential is high.",
+      "ideas": [
+        "DARPA's Secret Weapon Projects: What They Don't Want You To See!",
+        "The Rods from God: Earth's Most Terrifying Weapon?",
+        "Hypersonic Missiles Explained: The Future of Warfare is Here!"
+      ],
+      "keywords": [
+        "hypersonic",
+        "weapons",
+        "military",
+        "DARPA",
+        "technology"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ImpossiblePhysicsParadoxes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Mystery",
+      "reason": "People are drawn to things that break their understanding of reality.",
+      "ideas": [
+        "The EPR Paradox, Explained: Is Quantum Entanglement Instantaneous?",
+        "Unlocking the Riemann Hypothesis: The Biggest Unsolved Problem in Math!",
+        "Faster Than Light Travel: Is It Actually Possible? (Scientists Debate)"
+      ],
+      "keywords": [
+        "quantum physics",
+        "relativity",
+        "wormholes",
+        "time travel",
+        "paradoxes"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedUniverseExperiments",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Curiosity",
+      "reason": "The simulated universe theory offers endless possibilities for speculation.",
+      "ideas": [
+        "Proof We're Living in a Simulation: Glitches in Reality!",
+        "Creating a Universe in a Computer: The Ultimate Simulation?",
+        "If We're in a Simulation, What Happens When It Ends?"
+      ],
+      "keywords": [
+        "simulation",
+        "glitch",
+        "AI",
+        "virtual reality",
+        "matrix"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "CosmicMegaStructureConstruction",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "The sheer scale of potential megastructures is inspiring.",
+      "ideas": [
+        "Building a Dyson Sphere: Harnessing the Power of an ENTIRE Star!",
+        "Ringworld Construction: A Habitat the Size of Earth's Orbit!",
+        "Matrioshka Brains: The Ultimate Computer Made of Stars!"
+      ],
+      "keywords": [
+        "megastructure",
+        "dyson sphere",
+        "space",
+        "astronomy",
+        "engineering"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "EsotericSymbolMeanings",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Mystery",
+      "reason": "The internet's fascination with hidden knowledge and secret societies is ever-present.",
+      "ideas": [
+        "Decoding Ancient Symbols: What They REALLY Mean!",
+        "The Shocking Truth Behind Secret Society Symbols",
+        "Unlocking the Hidden Language of Esoteric Symbols"
+      ],
+      "keywords": [
+        "symbols",
+        "esoteric",
+        "ancient",
+        "secret societies",
+        "occult"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "RetroFutureTechInventions",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Wonder",
+      "reason": "Nostalgia combined with imaginative technology appeals to a broad audience.",
+      "ideas": [
+        "Incredible Retro-Future Inventions That Should Exist!",
+        "The Future That Never Was: Retro-Tech Dreams!",
+        "Steampunk Gadgets We Wish Were Real!"
+      ],
+      "keywords": [
+        "retrofuture",
+        "steampunk",
+        "inventions",
+        "technology",
+        "futurism"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "DistantWorldsGeographies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "The desire to explore the unknown fuels interest in imagined or potential alien landscapes.",
+      "ideas": [
+        "Unbelievable Alien Worlds With Impossible Geography!",
+        "The Strangest Planets in the Universe: Documentary",
+        "Exploring the Most Bizarre Alien Landscapes!"
+      ],
+      "keywords": [
+        "alien planets",
+        "exoplanets",
+        "geography",
+        "landscapes",
+        "astronomy"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegastructureConstructionFails",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Fear",
+      "reason": "Exploits the rubbernecking effect, with a morbid curiosity about engineering hubris.",
+      "ideas": [
+        "Biggest Engineering Failures in History: Mega Structures!",
+        "Giants That Crumbled: The Most Spectacular Construction Disasters!",
+        "When Ambition Fails: Megastructure Catastrophes"
+      ],
+      "keywords": [
+        "construction",
+        "failures",
+        "megastructures",
+        "engineering",
+        "disasters"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SymbioticSpeciesDocumentary",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Curiosity",
+      "reason": "People love seeing novel relationships between creatures in nature, and this opens boundless creative possibilities with AI.",
+      "ideas": [
+        "Strange Symbiotic Relationships in the Animal Kingdom!",
+        "Parasites That Help: The Amazing World of Symbiosis",
+        "Mutually Beneficial: When Species Work Together"
+      ],
+      "keywords": [
+        "symbiosis",
+        "animals",
+        "nature",
+        "relationships",
+        "biology"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegaProjectArchaeology",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Interest in engineering marvels and humanity's grandest ambitions throughout history and hypothetical futures, visual spectacle",
+      "ideas": [
+        "Titans of Tomorrow: Unearthing the Secrets of Hypothetical Megaprojects",
+        "The Lost Colossi: When Mega-Engineering Fails Epically",
+        "Ancient Visions, Future Tech: Lost Megaprojects That Could Have Changed the World"
+      ],
+      "keywords": [
+        "megaprojects",
+        "engineering",
+        "architecture",
+        "future tech",
+        "excavation"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "HyperRealisticAnimalFakes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Wonder",
+      "reason": "Blending the real and the imagined, pushing the boundaries of what viewers believe is possible in the animal kingdom, and triggering the 'is it real?' debate.",
+      "ideas": [
+        "The Bioluminescent Beasts of the Deep: Rare Footage or Elaborate Hoax?",
+        "Genetic Miracles or Digital Deception: The Most Believable Fake Animals Online",
+        "Unseen Wildlife: Discoveries Caught on Camera or CGI Masterpieces?"
+      ],
+      "keywords": [
+        "animals",
+        "creatures",
+        "wildlife",
+        "fake",
+        "hyperrealistic"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "AccidentalGodhoodMoments",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Mystery",
+      "reason": "Exploring instances where individuals inadvertently gain god-like powers or influence, resulting in chaotic outcomes or unexpected consequences. Reflects a larger cultural interest in power dynamics and the fragility of reality.",
+      "ideas": [
+        "Scientists Who Accidentally Changed Reality: The Untold Stories",
+        "Accidental Gods: When Human Curiosity Creates Unforeseen Powers",
+        "The Day We Lost Control: The terrifying consequences of unintended power"
+      ],
+      "keywords": [
+        "science",
+        "technology",
+        "power",
+        "control",
+        "experiment"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CosmicHorrorVisualized",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Fear",
+      "reason": "Translation of Lovecraftian themes into stunning visuals, showcasing the insignificance of humanity in the face of cosmic entities. Taps into primal fears of the unknown.",
+      "ideas": [
+        "The Deep Ones Are Here: Cosmic Horror Sightings Caught on Camera",
+        "Things Man Was Not Meant To Know: Visualizing the Unimaginable Terrors of Space",
+        "When The Stars Align… Prepare For The Cosmic Horror"
+      ],
+      "keywords": [
+        "cosmic horror",
+        "Lovecraft",
+        "creatures",
+        "space",
+        "terror"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ImpossibleWorldsRecreated",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Awe",
+      "reason": "Recreating mind-bending realities from science fiction and fantasy in striking detail using AI, sparking curiosity about the limits of the imagination and the potential of future technology.",
+      "ideas": [
+        "Stepping into the Metaverse: Inhabiting the Impossible Worlds of Fiction",
+        "Escher's Reality: Traversing the Impossible Landscapes of Art",
+        "What If Fiction Was Real? Recreating Literary Worlds with Mind-Blowing Detail"
+      ],
+      "keywords": [
+        "worlds",
+        "landscape",
+        "architecture",
+        "concept art",
+        "surreal"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CosmicFabrications",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "People are increasingly fascinated by space exploration and the potential for advanced technologies to reshape our understanding of the universe.",
+      "ideas": [
+        "\"Building Dyson Spheres: Humanity's Ultimate Engineering Project\" / Hook: What if we could harness the power of an entire star?",
+        "\"Wormhole Travel: Fact or Fiction?\" / Hook: Could we bend space and time to traverse the cosmos instantly?",
+        "\"The Kardashev Scale: Predicting Humanity's Cosmic Future\" / Hook: Will we become a galaxy-spanning civilization?"
+      ],
+      "keywords": [
+        "Dyson sphere",
+        "wormhole",
+        "Kardashev scale",
+        "space colonization",
+        "cosmic engineering"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedEvolutionScenarios",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Wonder",
+      "reason": "AI allows for creating entirely new, believable creatures.",
+      "ideas": [
+        "\"What if Dinosaurs Never Went Extinct?\" / Hook: Witness a world where dinosaurs evolved into intelligent beings.",
+        "\"The Sentient Plants: A Biologist's Simulation\" / Hook: Explore a world where plants develop consciousness and societies.",
+        "\"Aquatic Ape Theory: Evolution Under the Sea\" / Hook: Imagine humanity evolving in the oceans. What would we look like?"
+      ],
+      "keywords": [
+        "dinosaur evolution",
+        "sentient plants",
+        "aquatic apes",
+        "evolutionary biology",
+        "speculative evolution"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "FractalWorldRealities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Mystery",
+      "reason": "Fractals create infinite never-before-seen and beautiful, yet mathematically described, visuals.",
+      "ideas": [
+        "\"Exploring the Mandelbrot Set: An Infinite Journey\" / Hook: Zoom into infinity with the world's most famous fractal.",
+        "\"Fractal Art: When Math Meets Beauty\" / Hook: Witness the mesmerizing patterns hidden within mathematical equations.",
+        "\"The Fractal Universe: Is Reality a Repeating Pattern?\" / Hook: Could the universe itself be a giant fractal?"
+      ],
+      "keywords": [
+        "Mandelbrot set",
+        "fractal art",
+        "fractal geometry",
+        "mathematical patterns",
+        "infinite zoom"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AdvancedMaterialWonders",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Fear",
+      "reason": "Imagining materials able to destroy planets and/or create invulnerable armor drives engagement.",
+      "ideas": [
+        "\"Adamantium: The Unbreakable Metal of the Future?\" / Hook: Could we create a material as strong as Wolverine's claws?",
+        "\"Unobtainium: The Material That Could Save the World (or Destroy It)\" / Hook: What if we had access to a substance with impossible properties?",
+        "\"Room-Temperature Superconductors: Revolutionizing Energy\" / Hook: Unlock limitless energy with these groundbreaking materials."
+      ],
+      "keywords": [
+        "adamantium",
+        "unobtainium",
+        "superconductors",
+        "advanced materials",
+        "materials science"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "EsotericMegastructureExplorations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.6,
+      "targetEmotion": "Curiosity",
+      "reason": "Speculating about megastructures that could solve humanity's problems generates intense curiosity.",
+      "ideas": [
+        "\"Orbital Rings: Building Cities in the Sky\" / Hook: Imagine cities suspended in the sky, connected by massive rings.",
+        "\"The Matrioshka Brain: Harvesting the Energy of a Star\" / Hook: Could we build a structure to encompass an entire star?",
+        "\"Global Underground Cities: Sheltering Humanity from Disaster\" / Hook: Could humanity survive in giant underground complexes?"
+      ],
+      "keywords": [
+        "orbital ring",
+        "Matrioshka brain",
+        "underground cities",
+        "megastructures",
+        "futuristic architecture"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FractalRealitiesExplored",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Interest in mathematically-generated beauty and expanding concepts of reality.",
+      "ideas": [
+        "Fractal Worlds: Infinite Zoom Reveals Hidden Universes",
+        "Hypnotic Fractals: The Math Behind Mind-Bending Beauty",
+        "Building a Fractal Universe: AI Reveals the Secrets of Infinity"
+      ],
+      "keywords": [
+        "fractals",
+        "mathematics",
+        "AI-generated",
+        "infinite zoom",
+        "patterns"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "AlgorithmicArtifactAnalysis",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Mystery",
+      "reason": "Fascination with uncovering hidden meanings and patterns in seemingly random digital creations.",
+      "ideas": [
+        "AI Deciphers the Code: Unlocking Secrets Hidden in Algorithmic Art",
+        "Mysterious Algorithmic Artifacts: Are These Messages From the Future?",
+        "The Algorithmic Enigma: Can AI Art Predict the Next Big Trend?"
+      ],
+      "keywords": [
+        "algorithms",
+        "artifacts",
+        "AI interpretation",
+        "codes",
+        "digital art"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegastructureConstructionVisuals",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "Humanity's potential for immense engineering feats and imagining the future of construction.",
+      "ideas": [
+        "Constructing Dyson Spheres: The Ultimate Megastructure Visualized",
+        "Building Skycrapers on Asteroids: Future Cities Above Earth",
+        "Underwater Megacities: How We Could Build a Home Under the Sea"
+      ],
+      "keywords": [
+        "megastructures",
+        "dyson sphere",
+        "future cities",
+        "engineering",
+        "construction"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedEvolutionaryOutcomes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Curiosity",
+      "reason": "Exploring alternative evolutionary paths and imagining bizarre but plausible creatures.",
+      "ideas": [
+        "What if Insects Evolved to be the Size of Humans?",
+        "The Evolution of Flight: Simulating Alien Flying Creatures",
+        "Deeper Than Deep Sea: How Life Could Evolve in the Extreme Depths"
+      ],
+      "keywords": [
+        "evolution",
+        "simulation",
+        "creatures",
+        "adaptation",
+        "biology"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CosmicScaleComparisonsExplained",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Fear",
+      "reason": "Existential dread relating to the overwhelming magnitude of the universe and our insignificance.",
+      "ideas": [
+        "The Universe in Perspective: Comparing Earth to the Largest Stars",
+        "Black Hole Collisions: Visualizing the Ultimate Cosmic Event",
+        "Beyond Our Galaxy: What's Lurking in the Deepest Space?"
+      ],
+      "keywords": [
+        "cosmic scale",
+        "universe",
+        "black holes",
+        "galaxies",
+        "stars"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "AnomalousArchitecturalWonders",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Interest in unique, impossible, and unexplained structures and construction methods, blends well with AI-generated visuals.",
+      "ideas": [
+        "\"Buildings That Defy Gravity: How is This Even Possible?\"",
+        "\"Ancient Architects Knew Something We Don't!\"",
+        "\"The Most Mysterious Structures on Earth. Prepare to be Amazed.\""
+      ],
+      "keywords": [
+        "impossible architecture",
+        "ancient engineering",
+        "unexplained structures",
+        "megalithic sites",
+        "geometric anomalies"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CelestialAlignmentImpacts",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Awe",
+      "reason": "The interplay of celestial events with Earthly effects, combined with epic visuals.",
+      "ideas": [
+        "\"When Worlds Collide: The Terrifying Truth About Celestial Alignments!\"",
+        "\"Rare Cosmic Events You Won't Believe are Real!\"",
+        "\"Decoding the Secrets of Celestial Alignments and Their Impacts on Earth.\""
+      ],
+      "keywords": [
+        "celestial alignments",
+        "planetary impacts",
+        "cosmic events",
+        "astronomical phenomena",
+        "orbital mechanics"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedEcosystemFailures",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Fear",
+      "reason": "People are drawn to simulations showcasing potential ecological disasters and societal collapses, and cautionary tales visualized by AI.",
+      "ideas": [
+        "\"When Nature Fights Back: The Simulated Collapse of Earth's Ecosystem!\"",
+        "\"The Terrifying Consequences of Environmental Neglect - A Simulation!\"",
+        "\"Can We Avoid This Catastrophe? - AI Simulated EcologicalDisaster!\""
+      ],
+      "keywords": [
+        "ecological collapse",
+        "environmental disaster",
+        "climate change simulation",
+        "ecosystem failure",
+        "environmental catastrophe"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "HyperRealisticDreamscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Mystery",
+      "reason": "The surreal nature of dreams combined with hyperrealistic visuals is captivating.",
+      "ideas": [
+        "\"Are These Dreams or Parallel Realities? You Decide!\"",
+        "\"The Most Bizarre Dreamscapes Ever Captured!\"",
+        "\"Exploring the Mind-Bending World of Lucid Dreams with AI.\"",
+        "\"Decoding Your Most Vivid Dreams!\""
+      ],
+      "keywords": [
+        "lucid dreams",
+        "dreamscapes",
+        "dream interpretation",
+        "surreal art",
+        "altered states"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegaScaleEngineeringFails",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Curiosity",
+      "reason": "The spectacular failures of gigantic engineering projects provide both morbid fascination and lessons in hubris.",
+      "ideas": [
+        "\"Engineering Nightmares: The Most Epic Construction Fails EVER!\"",
+        "\"When Dreams Turn to Dust: The Rise and Fall of Megaprojects!\"",
+        "\"What Not to Do: Mega Engineering Fails That Shaped the World!\"",
+        "\"The Day They Tried to Build... AND FAILED!\""
+      ],
+      "keywords": [
+        "engineering fails",
+        "construction disasters",
+        "megaprojects",
+        "architectural failures",
+        "structural collapse"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "EsotericSymbolEvolution",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Mystery",
+      "reason": "Interest in decoding ancient and modern symbolism and their hidden meanings is surging, fueled by internet culture and a desire for deeper understanding.",
+      "ideas": [
+        "The Shocking Origins of the All-Seeing Eye... You Won't Believe It!",
+        "Decoding Secret Symbols: What Are They Hiding From You?",
+        "Ancient Symbols That Predicted The Future... and they're shockingly accurate"
+      ],
+      "keywords": [
+        "Alchemy",
+        "Occult",
+        "Sacred Geometry",
+        "Gnosticism",
+        "Modern Symbols"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ImpossibleObjectIllusions",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Wonder",
+      "reason": "Captivates audiences with mind-bending visuals and challenges their perception of reality and physics.",
+      "ideas": [
+        "Can You Solve This Impossible Object? It's Driving the Internet Crazy!",
+        "The Most Bizarre Object Ever Created... Is It Even Real?",
+        "Mind-Bending Optical Illusions That Will Make You Question Everything"
+      ],
+      "keywords": [
+        "Penrose Triangle",
+        "Escher",
+        "Optical Illusions",
+        "Topology",
+        "Visual Paradoxes"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedExtinctionEvents",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Fear",
+      "reason": "People are fascinated (and terrified) by potential future catastrophic events. AI simulation provides realistic and engaging visualizations.",
+      "ideas": [
+        "Earth's Next Extinction Event: What Will Wipe Us Out? (AI Simulation)",
+        "If Asteroids Struck Earth Today... The Shocking Aftermath (Scientifically Accurate)",
+        "The Rise of Supervolcanoes: Could It End Civilization?"
+      ],
+      "keywords": [
+        "Asteroid Impact",
+        "Supervolcano",
+        "Climate Change",
+        "Pandemic",
+        "Solar Flare"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "QuantumMultiverseGlimpses",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Curiosity",
+      "reason": "The multiverse is a popular concept, and people want to see what it looks like through the lens of AI-generated art based on quantum physics.",
+      "ideas": [
+        "Glimpses Into Parallel Universes: What's On The Other Side?",
+        "Quantum Realities: Could These Alternate Worlds Be Real?",
+        "What if Dinosaurs Still Ruled? An AI-Generated Multiverse"
+      ],
+      "keywords": [
+        "String Theory",
+        "Many-Worlds Interpretation",
+        "Quantum Foam",
+        "Branes",
+        "Dark Matter"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MegastructureCosmicEngineering",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "Dyson Spheres, Orbital Rings and other mind-blowing megastructures capture the imagination and inspire a sense of wonder about humanity's potential and technological advancement.",
+      "ideas": [
+        "Building a Dyson Sphere: Humanity's Ultimate Energy Source?",
+        "The Lazarus Project: Could We Rebuild Mars With Mega Engineering?",
+        "Unveiling The Cosmic Web: The Universe's Largest Structure Revealed!"
+      ],
+      "keywords": [
+        "Dyson Sphere",
+        "Orbital Ring",
+        "Terraforming",
+        "Stellar Engines",
+        "Cosmic Web"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "CelestialMechanicsVisualizations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "People are increasingly fascinated by space and the universe, especially when presented with stunning visuals.",
+      "ideas": [
+        "\"Cosmic Dance: Witness the Ballet of Galaxies (AI-Generated)\" - Hook: Discover the hidden harmony in the universe's grand design.",
+        "\"Orchestrating the Cosmos: Celestial Mechanics Visualized\" - Hook: See the mathematical beauty that governs the cosmos.",
+        "\"A Symphony of Worlds: Stunning Visualizations of Celestial Motion\" - Hook: Witness planets, stars, and galaxies moving in perfect synchronization."
+      ],
+      "keywords": [
+        "galaxy collisions",
+        "planetary orbits",
+        "star formation",
+        "nebula evolution",
+        "black hole simulations"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ExtinctCreatureResurrections",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Wonder",
+      "reason": "The concept of de-extinction captivates the imagination, particularly with realistic visualizations of extinct animals.",
+      "ideas": [
+        "\"What if... The Tasmanian Tiger Returns? (AI-Generated Simulation)\" - Hook: Witness the incredible de-extinction of the Tasmanian Tiger.",
+        "\"The Woolly Mammoth is BACK! (AI-Visuals)\" - Hook: See what life would be like if woolly mammoth roamed today.",
+        "\"Resurrecting the Dodo: An AI-Generated Adventure\" - Hook: Explore the world through the eyes of a resurrected Dodo bird."
+      ],
+      "keywords": [
+        "woolly mammoth",
+        "tasmanian tiger",
+        "dodo bird",
+        "de-extinction",
+        "genetic resurrection"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "AdvancedCivilizationOrigins",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Mystery",
+      "reason": "People love mysteries, and imagining the rise of advanced civilizations fulfills that desire.",
+      "ideas": [
+        "\"The Forgotten Cities of Mars: An AI-Visualized Mystery\" - Hook: Is there proof of prior advanced civilizations on Mars?",
+        "\"Lost Underwater Realms: Uncovering the Secrets of Atlantis\" - Hook: Was Atlantis real? See the underwater mysteries through AI.",
+        "\"Ancient Aliens: Revealing Proof of Advanced Technology\" - Hook: See if there's indication of extraterrestrial interaction with ancient civilizations."
+      ],
+      "keywords": [
+        "ancient cities",
+        "Atlantis",
+        "aliens",
+        "lost technology",
+        "advanced civilizations"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedPandemicScenarios",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.6,
+      "targetEmotion": "Fear",
+      "reason": "Recent real-world events have made people more interested (and afraid) of potential pandemic outbreaks. Visual simulations intensify the impact.",
+      "ideas": [
+        "\"The Next Pandemic: An AI-Generated Simulation\" - Hook: Is Earth ready? See the most realistic simulation of the next outbreak.",
+        "\"The Return of the Black Death: AI Visualization\" - Hook: How fast would it spread today?",
+        "\"Zombie Virus Outbreak: A Simulated Survival Guide\" - Hook: What if the undead walked the earth? (AI Generated)."
+      ],
+      "keywords": [
+        "pandemic simulation",
+        "virus outbreak",
+        "disease spread",
+        "zombie virus",
+        "survival scenarios"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ImpossibleArchitectureDesigns",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Curiosity",
+      "reason": "Challenging the boundaries of what's possible with architecture is inherently fascinating, especially when visualized in stunning detail.",
+      "ideas": [
+        "\"Gravity-Defying Structures: Impossible Architecture Visualized\" - Hook: See how this architecture defies physics.",
+        "\"Infinite Staircases and Escher-Inspired Designs: AI-Generated Architecture\" - Hook: Journey through impossible architecture.",
+        "\"The Floating Cities of Tomorrow: Impossible Utopian Architecture\" - Hook: See how humans can live in 'unbuildable' structures."
+      ],
+      "keywords": [
+        "impossible architecture",
+        "gravity-defying",
+        "Escher",
+        "utopian cities",
+        "futuristic buildings"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CelestialEventPredictions",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Increased public interest in space exploration and astronomical events, fueled by NASA and SpaceX missions.",
+      "ideas": [
+        "\"Rare Alignment! Witness the Cosmic Kiss on [Date]\"",
+        "\"Incoming! A Comet Bigger Than Texas is Headed Our Way!\"",
+        "\"Cosmic Event! Never Before Seen Solar Flare Captured!\""
+      ],
+      "keywords": [
+        "planetary alignment",
+        "solar flares",
+        "comet impact",
+        "supernova",
+        "celestial phenomena"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "LostWorldRecreations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Wonder",
+      "reason": "Fascination with dinosaurs and prehistoric life, especially if AI can accurately visualize lost environments.",
+      "ideas": [
+        "\"Welcome to Gondwana! AI Recreates Earth 100 Million Years Ago\"",
+        "\"Hidden Valley of Dinosaurs Found? Exclusive AI Reconstruction\"",
+        "\"Before the Ice Age! Lost MegaFauna Roam Free Again!\""
+      ],
+      "keywords": [
+        "prehistoric creatures",
+        "dinosaur habitat",
+        "ice age mammals",
+        "ancient ecosystems",
+        "paleoart"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedSocietalBreakdowns",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Fear",
+      "reason": "Anxiety about societal instability, economic collapse, and the future of civilization. AI-generated scenarios feel too real.",
+      "ideas": [
+        "\"Civil War in America? AI Predicts a Shocking Outcome!\"",
+        "\"Global Economic Collapse! Visualizing the End of the World\"",
+        "\"Food Shortages & Riots! The Future of Cities?\""
+      ],
+      "keywords": [
+        "economic collapse",
+        "social unrest",
+        "resource scarcity",
+        "pandemic outbreak",
+        "urban decay"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "UnexplainedMegafaunaEncounters",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Mystery",
+      "reason": "Ongoing interest in cryptids and mysterious creatures. AI offers a new way to 'document' sightings.",
+      "ideas": [
+        "\"Giant Squid Attacks! Caught on Camera (AI Enhanced)\"",
+        "\"Is Bigfoot Real? New Footage Emerges from the Rockies\"",
+        "\"Loch Ness Monster Sighted Again? AI Reveals the Truth!\""
+      ],
+      "keywords": [
+        "cryptid sightings",
+        "bigfoot evidence",
+        "nessie footage",
+        "unexplained animals",
+        "mystery creatures"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SimulatedUniverseGlitches",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Mystery",
+      "reason": "The idea that our reality might not be real sparks debate and intrigue.",
+      "ideas": [
+        "Glitches in the Matrix: When Reality Bends!",
+        "Is Our Universe a Simulation? Mind-Bending Evidence!",
+        "DEJA VU EXPLAINED: A Glitch in the Simulated Universe!"
+      ],
+      "keywords": [
+        "simulation",
+        "glitch",
+        "matrix",
+        "reality",
+        "code"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "AdvancedAncientCivilizations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Wonder",
+      "reason": "People are fascinated by the possibility that ancient civilizations possessed technology beyond our understanding.",
+      "ideas": [
+        "Ancient Nuclear Reactor? Unexplained Structures REVEALED!",
+        "Atlantis was REAL? Lost Technologies Uncovered!",
+        "The Anunnaki: Gods or Ancient Astronauts?"
+      ],
+      "keywords": [
+        "ancient",
+        "technology",
+        "civilization",
+        "artifacts",
+        "lost"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "MegascaleEngineeringFailures",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Fear",
+      "reason": "The dramatic failures of grand projects evoke a sense of awe and fear about the limits of human ambition.",
+      "ideas": [
+        "The Bridge That Collapsed: Engineering DISASTERS Caught on Camera!",
+        "Chernobyl 2.0? The WORLD's Largest Project Gone WRONG!",
+        "Why This Skyscraper Is About To CRUMBLE! (Engineering Fails)"
+      ],
+      "keywords": [
+        "engineering",
+        "failure",
+        "disaster",
+        "collapse",
+        "megaproject"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ExtinctMegafloraRestorations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.6,
+      "targetEmotion": "Awe",
+      "reason": "The concept of bringing back extinct giant plants captures the imagination and raises questions about bio-engineering ethics and wonders of the natural world.",
+      "ideas": [
+        "Resurrecting the Giant Trees! Could We Bring Back Extinct Megaflora?",
+        "The Rainforest of the Past: What if Giant Plants Returned TODAY?",
+        "Lost Worlds REBORN! The Science of De-Extinction...for PLANTS!"
+      ],
+      "keywords": [
+        "extinct",
+        "plants",
+        "megaflora",
+        "restoration",
+        "bioengineering"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "TerraformingGoneWrong",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "Humanity's hubris in attempting to alter planetary ecosystems leading to catastrophic consequences taps into anxieties around climate change and technological overreach.",
+      "ideas": [
+        "\"What if Earth became Venus? Terraforming's Dark Side!\"",
+        "\"The Martian Mistake: A Terraforming Disaster Unfolds!\"",
+        "\"Europa's Ocean Nightmare: When Terraforming Turns Deadly!\""
+      ],
+      "keywords": [
+        "terraforming",
+        "planetary collapse",
+        "environmental disaster",
+        "alien landscapes",
+        "future dystopia"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "SymbioticSuperorganisms",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Wonder",
+      "reason": "The intricate relationships between organisms, magnified to a massive scale, sparks fascination and awe about the potential of interconnectedness in nature.",
+      "ideas": [
+        "\"The Living Island: A Superorganism That Eats Continents!\"",
+        "\"Ant Colony From Hell: One Big Happy Family?\"",
+        "\"The Fungal Kingdom: Symbiosis or Complete World Domination?\""
+      ],
+      "keywords": [
+        "superorganism",
+        "symbiosis",
+        "hive mind",
+        "giant creatures",
+        "biological marvel"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "ImpossibleAutomataDiscoveries",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Mystery",
+      "reason": "Uncovering machines beyond current technological understanding raises questions about creators (human or alien) and forgotten advanced sciences.",
+      "ideas": [
+        "\"Ancient Steam-Punk Robot Found!! Who Built This?\"",
+        "\"The Clockwork God: Automaton That Predicts the Future!\"",
+        "\"The Lost Code: Ancient Automaton Solves the Unsolvable!\""
+      ],
+      "keywords": [
+        "automaton",
+        "ancient technology",
+        "robotics",
+        "secret societies",
+        "conspiracy"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "CosmicScaleIntervention",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Awe",
+      "reason": "Envisioning beings capable of manipulating celestial objects dwarfs human accomplishments and ignites curiosity about their motivations, morality, and capabilities .",
+      "ideas": [
+        "\"Planet Movers: The Cosmic Beings Reshaping Our Galaxy!\"",
+        "\"The Star Builders: Evidence of Cosmic Architects Revealed!\"",
+        "\"Rogue Planet Savior: Ancient Astronauts Gave Us the Moon!\""
+      ],
+      "keywords": [
+        "cosmic engineering",
+        "interstellar civilization",
+        "planet manipulation",
+        "galactic evolution",
+        "celestial events"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
     }
   ]
 }
