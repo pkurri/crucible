@@ -2832,6 +2832,30 @@
         "synthetic biology"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MegaWeaponBlueprints",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The convergence of geopolitical instability, advancements in AI/robotics, and the public's fascination with fictional superweapons (e.g., from sci-fi movies and games) creates high demand for content exploring theoretical or hypothetical mega-weapons. People are innately curious (and slightly fearful) about the potential for technological destruction, leading to high click-through rates and watch times. The niche allows for endless speculation, visually stunning concepts, and compelling narratives.",
+      "ideas": [
+        "Title: The Quantum Entanglement Cannon: Warhead Physics BROKE. Hook: Imagine a weapon that instantly teleports anything out of existence. Scientists are exploring it...",
+        "Title: Project Chimera: DARPA's SECRET Bio-Weapon Program. Hook: Leaked documents reveal the Pentagon's most terrifying project yet... a genetically engineered super-soldier with unthinkable capabilities.",
+        "Title: The Dyson Sphere Death Ray: The ULTIMATE Planetary Defense System. Hook: What if we could harness humanity's sun for defense? The blueprint could wipe out any planet threat."
+      ],
+      "keywords": [
+        "superweapons",
+        "futuristic weaponry",
+        "weapon concepts",
+        "military technology",
+        "advanced warfare"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
