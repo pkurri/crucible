@@ -55,9 +55,11 @@ jobs:
 
       - name: Commit Status Update
         if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "Crucible Bot"
           git config --global user.email "bot@crucible.ai"
           git add data/meta-empire/ scripts/meta-empire-state.json
-          git commit -m "chore: update meta upload cycle [skip ci]" || echo "No changes to commit"
-          git push || echo "Push failed"
+          git commit -m "chore: update meta upload cycle [skip ci]" || exit 0
+          git push origin main || echo "Push failed"
