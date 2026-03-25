@@ -22,6 +22,30 @@
         "pyramid power"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AstralProjections",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The AstralProjections niche provides experiences beyond the mundane, tapping into the innate human curiosity about consciousness, the afterlife, and exploring dimensions beyond our physical reality. Highly visual and experiential. Broad audience. Appeals to both spiritual seekers and those interested in the science of consciousness with a lot of room for personal 'journey' content to cut through the noise.",
+      "ideas": [
+        "Title: I Accidentally Astral Projected and Saw THIS. / Hook: What if you could leave your body? A first-person account of unintended astral projection reveals a world beyond our senses.",
+        "Title: WARNING: Do NOT Attempt Astral Projection Without Knowing This. / Hook: Before you try to explore the astral plane, understand the unseen dangers and entities that exist there.",
+        "Title: The CIA's Secret Astral Projection Program REVEALED. / Hook: Declassified documents expose the US government's experiments with out-of-body experiences for espionage."
+      ],
+      "keywords": [
+        "astral body",
+        "out of body",
+        "remote viewing",
+        "spirit realm",
+        "consciousness"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
