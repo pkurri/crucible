@@ -2904,6 +2904,30 @@
         "astrobiology"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "EsotericMegastructureCosmology",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "Combining esoteric knowledge with the grandeur of cosmic megastructures taps into both intellectual curiosity and a sense of wonder. The mystery combined with the scale can create viral content. There's also a good opportunity for differentiation by creating custom AI animations. This niche leverages the current interest in AI-generated content combined with the human fascination with space and the unknown.",
+      "ideas": [
+        "\"Kardashev Scale Civilizations: What Can Dyson Spheres Really Do? / Imagine a civilization that could harness the power of an entire star!\"; Hook: Visualizing the sheer scale of a Dyson Sphere reveals implications.",
+        "\"Cosmic Web Filaments: Are Galactic Superhighways Real? / New discoveries hint at hidden structures connecting galaxies across the universe!\"; Hook: Zooming into the largest structure in the universe.",
+        "\"Stellar Engines: Could We Move Stars? / Physicists are exploring concepts so ambitious they sound like science fiction.\"; Hook: Animation showing a star being gently nudged across the galaxy with real physics visualized."
+      ],
+      "keywords": [
+        "Dyson Sphere",
+        "Stellar Engine",
+        "Cosmic Web",
+        "Megastructure",
+        "Kardashev Scale"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
