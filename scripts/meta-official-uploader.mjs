@@ -107,7 +107,7 @@ async function apiCall(url, method = 'GET', body = null, retryCount = 0) {
   try { json = await res.json(); } catch (e) { json = {}; }
   
   const metaErrorCode = json.error ? json.error.code : 0;
-  const isLimitError = [4, 17, 32, 613].includes(metaErrorCode);
+  const isLimitError = [4, 17, 32, 368, 613].includes(metaErrorCode); // 368 = posting rate limit
 
   if (isRateLimited || isLimitError) {
     if (retryCount >= MAX_RETRIES) throw new Error(`Meta API: Failed after ${MAX_RETRIES} retries due to rate limits.`);

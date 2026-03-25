@@ -120,6 +120,7 @@ export async function runProductionCycle(opts) {
 
   for (const niche of niches) {
     if (state.uploadsToday >= maxUploads) break;
+    if (produced >= maxUploads) break; // don't produce more than we can upload
 
     const topic = niche.name;
     const topicDir = path.join(baseDir, topic);
