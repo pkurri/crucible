@@ -69,6 +69,54 @@
         "oneironaut"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SymbolicAlchemy",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Symbolism and hidden meanings resonate deeply in the current cultural landscape. With the rise of interest in esoteric knowledge and self-discovery, audiences are drawn to content that offers a glimpse into the unseen forces shaping our reality. The combination of ancient symbolism and alchemical transformation promises to unlock profound insights, appealing to a broad audience seeking meaning and personal growth.",
+      "ideas": [
+        "Title: 'UNLOCK the Secret Power of Alchemical Symbols!' / Hook: Discover how ancient symbols can transform your life from the inside out. Are you ready to decode the hidden language of the universe?",
+        "Title: 'HIDDEN Alchemy: Turn LEAD into GOLD (Mindset Shift!)' / Hook: Alchemy isn't about magic; it’s about mastering your inner world. Learn to transmute negative thoughts into golden opportunities with these powerful mental techniques.",
+        "Title: 'Alchemist's TOOLKIT: 3 Symbols for Manifesting Your Dreams!' / Hook: Attract abundance and success with these time-tested alchemical symbols. Tap into the universe's hidden forces and create the life you've always desired."
+      ],
+      "keywords": [
+        "alchemy",
+        "symbols",
+        "transformation",
+        "esoteric",
+        "manifestation"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubliminalMastery",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Subliminal techniques tap into the subconscious mind, offering viewers perceived control over their lives, relationships, and success. This niche offers a unique psychological angle, promising self-improvement and personal power through seemingly undetectable methods, which bypasses critical thinking and fosters high engagement. It is highly scalable with applications across various life domains, and has visual potential for illustrating techniques and effects.",
+      "ideas": [
+        "\"UNLOCK Hidden Desires: Subliminal Messages That Work! / Discover the science behind subliminal persuasion and how you can use it to attract anything you want.\"",
+        "\"Brainwash Yourself for Success: The Ultimate Subliminal Audio Guide / Reprogram your mind while you sleep with these powerful subconscious affirmations.\"",
+        "\"Dangerously Effective: Subliminal Seduction Techniques REVEALED! / Uncover the ethical and practical applications of subliminal influence in dating and relationships.\""
+      ],
+      "keywords": [
+        "subconscious",
+        "affirmations",
+        "hypnosis",
+        "manifestation",
+        "brainwave"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     },
     {
