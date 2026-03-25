@@ -54,6 +54,6 @@ jobs:
         run: |
           git config --global user.name "Crucible Bot"
           git config --global user.email "bot@crucible.ai"
-          git add data/meta-empire/ scripts/meta-empire-state.json
+          git add -f data/meta-empire/ scripts/meta-empire-state.json
           git commit -m "chore: update fb upload cycle [skip ci]" || exit 0
           git push origin main || echo "Push failed"

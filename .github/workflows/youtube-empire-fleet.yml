@@ -70,6 +70,6 @@ jobs:
         run: |
           git config --global user.name "Crucible Bot"
           git config --global user.email "bot@crucible.ai"
-          git add data/youtube-empire/ scripts/yt-empire-state.json data/viral-niches.json data/viral-scripts.json
+          git add -f data/youtube-empire/ scripts/yt-empire-state.json data/viral-niches.json data/viral-scripts.json
           git commit -m "chore: update youtube upload cycle [skip ci]" || exit 0
           git push origin main || echo "Push failed"
