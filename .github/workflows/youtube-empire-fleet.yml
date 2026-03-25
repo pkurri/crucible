@@ -38,11 +38,8 @@ jobs:
           echo '${{ secrets.YOUTUBE_CLIENT_SECRET }}' > client_secret.json
           echo '${{ secrets.YOUTUBE_TOKEN_JSON }}' > youtube-token.json
 
-      - name: Create Topic Directories
-        run: |
-          mkdir -p data/youtube-empire/AAK-Nation/topics/BioHarmonize/assets
-          mkdir -p data/youtube-empire/AAK-Nation/topics/BioHarmonize/uploaded
-          mkdir -p data
+      - name: Create Data Structure
+        run: mkdir -p data/youtube-empire/AAK-Nation/topics
 
       - name: Discover Daily Viral Niche
         run: node scripts/niche-strategist.mjs
@@ -59,9 +56,12 @@ jobs:
         env:
           GITHUB_ACTIONS: "true"
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
           NODE_ENV: production
+
+      - name: Verify YouTube Upload
+        if: always()
+        run: node scripts/youtube-official-uploader.mjs --verify
+        continue-on-error: true
 
       - name: Commit Status Update
         if: always()
@@ -72,4 +72,5 @@ jobs:
           git config --global user.email "bot@crucible.ai"
           git add -f data/youtube-empire/ scripts/yt-empire-state.json data/viral-niches.json data/viral-scripts.json
           git commit -m "chore: update youtube upload cycle [skip ci]" || exit 0
+          git pull --rebase origin main || echo "Rebase failed, pushing anyway"
           git push origin main || echo "Push failed"

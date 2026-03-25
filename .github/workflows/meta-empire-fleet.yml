@@ -49,6 +49,14 @@ jobs:
           NODE_ENV: production
           GITHUB_ACTIONS: "true"
 
+      - name: Verify Instagram Upload
+        if: always()
+        run: node scripts/meta-official-uploader.mjs --verify --target insta
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_IG_ACCOUNT_ID: ${{ secrets.META_IG_ACCOUNT_ID }}
+        continue-on-error: true
+
       - name: Commit Status Update
         if: always()
         env:
@@ -58,4 +66,5 @@ jobs:
           git config --global user.email "bot@crucible.ai"
           git add data/ scripts/ || echo "No new files to add"
           git commit -m "chore: update instagram upload cycle [skip ci]" || exit 0
+          git pull --rebase origin main || echo "Rebase failed, pushing anyway"
           git push origin main || echo "Push failed"

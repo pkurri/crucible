@@ -26,9 +26,13 @@ const BASE = (() => {
 })();
 const META_API = 'https://graph.facebook.com/v19.0';
 
-const ACCESS_TOKEN   = process.env.META_ACCESS_TOKEN;
-const IG_ACCOUNT_ID  = process.env.META_IG_ACCOUNT_ID;
-const FB_PAGE_ID     = process.env.META_FB_PAGE_ID;
+const USER_ACCESS_TOKEN = process.env.META_ACCESS_TOKEN;
+const IG_ACCOUNT_ID     = process.env.META_IG_ACCOUNT_ID;
+const FB_PAGE_ID        = process.env.META_FB_PAGE_ID;
+
+// Mutable: will be upgraded to Page Access Tokens after exchange
+let ACCESS_TOKEN = USER_ACCESS_TOKEN;
+let FB_PAGE_TOKEN = USER_ACCESS_TOKEN;
 
 const getArg = (key) => {
   const idx = process.argv.indexOf(key);
@@ -68,6 +72,24 @@ function checkRateLimitHeaders(res) {
     } catch (e) { /* ignore parse errors */ }
   }
   return 2000; // Base 2s sleep to preserve quota
+}
+
+// ── Page Token Exchange ──────────────────────────────────────────────────────
+// Facebook video_reels requires a Page Access Token, not a User token.
+// This exchanges the user token for the page-specific token automatically.
+async function exchangeForPageToken(pageId, userToken) {
+  try {
+    const res = await fetch(`${META_API}/${pageId}?fields=access_token&access_token=${userToken}`);
+    const data = await res.json();
+    if (data.access_token) {
+      console.log(`[Auth] Page Access Token acquired for Page ${pageId}.`);
+      return data.access_token;
+    }
+    console.warn(`[Auth] Page token exchange returned no token. Using original token.`);
+  } catch (e) {
+    console.warn(`[Auth] Page token exchange failed: ${e.message}. Using original token.`);
+  }
+  return userToken;
 }
 
 async function apiCall(url, method = 'GET', body = null, retryCount = 0) {
@@ -223,9 +245,12 @@ async function uploadToFacebook(videoPath, caption) {
   const useUrl = publicBaseUrl && publicBaseUrl.startsWith('http');
 
   // 🛡️ [HANDSHAKE] Verify Facebook Connectivity First
+  // Exchange user token for page-specific access token (fixes #200 permission error)
+  FB_PAGE_TOKEN = await exchangeForPageToken(FB_PAGE_ID, USER_ACCESS_TOKEN);
+
   console.log(`[FB] Verifying connectivity for Page ID ${FB_PAGE_ID}...`);
   try {
-    const pageCheck = await apiCall(`${META_API}/${FB_PAGE_ID}?fields=name,has_added_app&access_token=${ACCESS_TOKEN}`);
+    const pageCheck = await apiCall(`${META_API}/${FB_PAGE_ID}?fields=name,has_added_app&access_token=${FB_PAGE_TOKEN}`);
     console.log(`✅ [FB] Handshake Verified: ${pageCheck.name} (App Linked: ${pageCheck.has_added_app})`);
     if (process.argv.includes('--verify')) return pageCheck.id;
   } catch (e) {
@@ -236,7 +261,7 @@ async function uploadToFacebook(videoPath, caption) {
 
   // Step 1: Start upload session
   const init = await apiCall(
-    `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${ACCESS_TOKEN}`,
+    `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
     'POST',
     { upload_phase: 'start' }
   );
@@ -258,7 +283,7 @@ async function uploadToFacebook(videoPath, caption) {
 
   // Step 2: Finish + publish
   const finish = await apiCall(
-    `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${ACCESS_TOKEN}`,
+    `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
     'POST',
     { video_id: videoId, upload_phase: 'finish', video_state: 'PUBLISHED', description: caption }
   );
