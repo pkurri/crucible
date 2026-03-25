@@ -1,0 +1,28 @@
+{
+  "niches": [
+    {
+      "name": "AncientTechMysteries",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The convergence of AI-driven visualization and renewed interest in forgotten history offers a potent mix. People are inherently drawn to mysteries, especially those hinting at advanced technologies in the ancient world. AI can authentically reconstruct these concepts in a realistic and stunning fashion, creating a 'wow' factor and satisfying curiosity.",
+      "ideas": [
+        "Title: Ancient Underwater Cities That Shouldn't Exist / Hook: Lost for millennia, sonar scans reveal impossibly advanced structures... What were they hiding?",
+        "Title: The Secret of the Pyramids' Power Source Finally Revealed / Hook: New scans inside the Great Pyramid uncover a chamber resonating with an unknown energy... ",
+        "Title: Did Ancient Civilizations Use ANTI-GRAVITY Technology? / Hook: Baffling megaliths, inexplicably precise cuts... Could forgotten physics hold the key to the past?"
+      ],
+      "keywords": [
+        "megaliths",
+        "Atlantis",
+        "ancient machines",
+        "lost civilizations",
+        "pyramid power"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    }
+  ]
+}
