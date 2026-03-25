@@ -394,8 +394,8 @@ async function uploadToMeta() {
         const tokenChanged = pageToken !== ACCESS_TOKEN;
         console.log(`\n🔑 [FB] Page Token exchange: ${tokenChanged ? '✅ SUCCESS (got Page token)' : '⚠️  SAME TOKEN (no Page token returned — check pages_show_list)'}`);
 
-        const pageCheck = await apiCall(`${META_API}/${FB_PAGE_ID}?fields=name,has_added_app,tasks&access_token=${pageToken}`);
-        console.log(`✅ [FB] Page: ${pageCheck.name} | App Linked: ${pageCheck.has_added_app} | Tasks: ${JSON.stringify(pageCheck.tasks)}`);
+        const pageCheck = await apiCall(`${META_API}/${FB_PAGE_ID}?fields=name,has_added_app&access_token=${pageToken}`);
+        console.log(`✅ [FB] Page: ${pageCheck.name} | App Linked: ${pageCheck.has_added_app}`);
       }
 
       // ── 5. Instagram account info ─────────────────────────────────────
