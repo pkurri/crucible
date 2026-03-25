@@ -62,6 +62,14 @@ export function pickTopNiches(platform = 'meta', count = 20) {
   }
 }
 
+export function markNicheUsed(nicheName, platform) {
+  try {
+    execSync(`node scripts/smart-niche-picker.mjs mark "${nicheName}" ${platform}`, { encoding: 'utf8' });
+  } catch (e) {
+    console.warn(`⚠️ [Core] Failed to mark niche usage: ${e.message}`);
+  }
+}
+
 // ── Main production cycle ─────────────────────────────────────────────────────
 /**
  * @param {object} opts
@@ -176,6 +184,7 @@ export async function runProductionCycle(opts) {
       freshState.history.push({ topic, platform, date: new Date().toISOString() });
       saveState(stateFile, freshState);
       state.uploadsToday = freshState.uploadsToday;
+      markNicheUsed(topic, platform); // track per-platform usage for smart picker
       uploaded++;
     }
   }

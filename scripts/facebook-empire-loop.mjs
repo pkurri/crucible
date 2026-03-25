@@ -39,7 +39,7 @@ async function main() {
     baseDir:          BASE,
     stateFile:        STATE,
     maxUploads:       MAX,
-    nichePool:        'meta',
+    nichePool:        'facebook',
     producerPlatform: 'meta',
     uploadFn:         uploadToFacebook,
     uploadMarker:     'facebook.json',
