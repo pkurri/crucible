@@ -74,10 +74,27 @@ function generateVoiceover(topicDir, script) {
 function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   const assetDir = path.join(topicDir, 'assets');
   const outputFile = path.join(topicDir, 'final-render.mp4');
-  const images = fs.readdirSync(assetDir).filter(f => /\.(png|jpg|jpeg)$/i.test(f));
-  if (images.length === 0) return null;
+  
+  if (!fs.existsSync(assetDir)) return null;
 
-  const batPath = path.join(topicDir, 'render.bat');
+  const images = fs.readdirSync(assetDir).filter(f => /\.(png|jpg|jpeg)$/i.test(f));
+  
+  // 🛡️ [GUARDRAIL] CRITICAL ASSET VALIDATION
+  if (images.length < 3) {
+    console.error(`🛑 [PRODUCER ABORT] Topic ${topicName} has insufficient assets (${images.length}/3). Skipping render to prevent black screens.`);
+    return null;
+  }
+
+  for (const img of images) {
+    const imgPath = path.join(assetDir, img);
+    const stats = fs.statSync(imgPath);
+    if (stats.size < 10000) { // 10KB threshold for a real image
+      console.error(`🛑 [PRODUCER ABORT] Corrupt asset detected: ${img} (${stats.size} bytes). Deleting and aborting.`);
+      fs.unlinkSync(imgPath);
+      return null;
+    }
+  }
+
   const inputs = images.map(img => `-loop 1 -t 5 -i "${path.join(assetDir, img)}"`).join(' ');
   const filterParts = images.map((_, i) => `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,zoompan=z='min(zoom+0.0015,1.3)':d=125:s=1080x1920:fps=25[v${i}]`);
   const concatPart = images.map((_, i) => `[v${i}]`).join('') + `concat=n=${images.length}:v=1:a=0[vout]`;

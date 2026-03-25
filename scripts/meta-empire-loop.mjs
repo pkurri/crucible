@@ -76,40 +76,48 @@ async function runMetaCycle() {
     const assetDir = path.join(topicDir, 'assets');
     const logFile = path.join(topicDir, 'uploaded', `${platformName}.json`);
 
-    // Skip if already posted today
-    if (fs.existsSync(logFile)) {
-      const stats = fs.statSync(logFile);
-      if (stats.mtime.toISOString().split('T')[0] === today) {
-        console.log(`⏭️ [${topic}] Already posted today on ${target}. Skipping.`);
-        continue;
-      }
+    // 🛡️ [GUARDRAIL] MULTI-LAYER DUPLICATE PREVENTION
+    const alreadyUploaded = state.history.some(h => h.topic === topic && h.platform === platformName && h.date.split('T')[0] === today);
+    if (fs.existsSync(logFile) || alreadyUploaded) {
+      console.log(`⏭️ [${topic}] Already posted today on ${target} (History/File Check). Skipping.`);
+      continue;
     }
 
+    // 🧹 [GUARDRAIL] FRESH START: Clear old assets to prevent mixed/black screens
+    if (fs.existsSync(assetDir)) {
+      console.log(`🧹 [${topic}] Cleaning old assets for fresh render...`);
+      fs.rmSync(assetDir, { recursive: true, force: true });
+    }
     fs.mkdirSync(assetDir, { recursive: true });
     fs.mkdirSync(path.join(topicDir, 'uploaded'), { recursive: true });
 
-    console.log(`🎨 [${topic}] Architecting assets (Priority: ${registryNiche.priority || false})...`);
+    console.log(`🎨 [${topic}] Architecting high-fidelity assets (Priority: ${registryNiche.priority || false})...`);
     try {
       execSync(`node scripts/autonomous-asset-generator.mjs --topic "${topic}"`, { stdio: 'inherit' });
     } catch (e) {
       console.error(`❌ [${topic}] Asset generation failed.`);
+      continue; // Skip if assets failed to prevent black screens
     }
 
-    console.log(`🎬 [${topic}] Producing Reel...`);
+    console.log(`🎬 [${topic}] Producing Premium Reel...`);
     try {
       execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}" --platform meta`, { stdio: 'inherit' });
       produced++;
     } catch (e) {
-      console.error(`❌ [${topic}] Production failed.`);
+      console.error(`❌ [${topic}] Production aborted or failed.`);
       continue;
     }
 
-    console.log(`🚀 [${topic}] Dispatching to ${target.toUpperCase()} via Meta Pipeline...`);
+    console.log(`🚀 [${topic}] Dispatching unique render to ${target.toUpperCase()}...`);
     try {
       execSync(`node scripts/meta-official-uploader.mjs --topic "${topic}" --target ${target}`, { stdio: 'inherit' });
-      state.uploadsToday++;
-      state.history.push({ topic, date: new Date().toISOString(), platform: platformName });
-      saveState(state);
+      
+      // Update state IMMEDIATELY to prevent race conditions
+      const freshState = loadState(); 
+      freshState.uploadsToday++;
+      freshState.history.push({ topic, date: new Date().toISOString(), platform: platformName });
+      saveState(freshState);
+      
       uploaded++;
     } catch (e) {
       console.error(`❌ [${topic}] Upload dispatch failed: ${e.message}`);
