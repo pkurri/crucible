@@ -60,9 +60,12 @@ async function runMetaCycle() {
   }
   
   const registry = JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8'));
-  const metaNiches = registry.niches
-    .filter(n => n.platforms?.includes('meta'))
-    .sort((a,b) => (b.priority ? 1 : 0) - (a.priority ? 1 : 0)); // Priority first
+  // Niches tagged 'meta' first; if none tagged, use ALL niches (universal content)
+  let metaNiches = registry.niches.filter(n => n.platforms?.includes('meta'));
+  if (metaNiches.length === 0) {
+    metaNiches = registry.niches; // fallback: all niches work on Meta
+  }
+  metaNiches = metaNiches.sort((a,b) => (b.priority ? 1 : 0) - (a.priority ? 1 : 0));
 
   console.log(`📊 Quota: ${state.uploadsToday}/${MAX_UPLOADS_PER_DAY} used today. Found ${metaNiches.length} identified niches.`);
   console.log('═'.repeat(60));

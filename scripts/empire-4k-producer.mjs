@@ -65,10 +65,32 @@ function generateVoiceover(topicDir, script) {
   const audioPath = path.join(topicDir, 'voiceover.mp3');
   const subtitlePath = path.join(topicDir, 'captions.vtt');
   console.log(`🎙️ Generating voiceover [${script.voice}]...`);
-  try {
-    execSync(`edge-tts --voice "${script.voice}" --text "${fullText}" --write-media "${audioPath}" --write-subtitles "${subtitlePath}"`, { stdio: 'inherit' });
-    return { audioPath, subtitlePath };
-  } catch (e) { console.error('❌ TTS Error:', e.message); return null; }
+  
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      // Intercept stderr to catch silent Python ConnectionReset errors
+      const result = execSync(`edge-tts --voice "${script.voice}" --text "${fullText}" --write-media "${audioPath}" --write-subtitles "${subtitlePath}" 2>&1`, { encoding: 'utf-8' });
+      
+      if (result.includes('Exception') || result.includes('Error') || result.includes('WinError')) {
+        throw new Error(`TTS internal crash detected: ${result.substring(0, 150)}`);
+      }
+      
+      if (!fs.existsSync(audioPath) || fs.statSync(audioPath).size < 1000) {
+        throw new Error("Audio file generated is incomplete or missing.");
+      }
+      
+      return { audioPath, subtitlePath };
+    } catch (e) {
+      console.warn(`⚠️ [TTS] Attempt ${attempt} failed: ${e.message.split('\n')[0]}`);
+      if (attempt < 4) {
+        console.log(`🔄 Retrying TTS in 5 seconds...`);
+        execSync('node -e "Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 5000)"');
+      }
+    }
+  }
+  
+  console.error('❌ TTS Error: Failed to generate voiceover after 3 attempts.');
+  return null;
 }
 
 function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
