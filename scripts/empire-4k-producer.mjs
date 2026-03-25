@@ -122,9 +122,11 @@ async function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
     }
   }
 
+  // trim=duration=5,setpts=PTS-STARTPTS hard-caps each clip at exactly 5s after zoompan
+  // This fixes zoompan ignoring -t/-loop input duration limits → was generating 17+ min videos
   const inputs = images.map(img => `-loop 1 -t 5 -i "${path.join(assetDir, img)}"`).join(' ');
   const kenBurnsFilters = images.map((img, i) => {
-    return `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1,zoompan=z='min(zoom+0.0015,1.3)':d=125:s=1080x1920:fps=25,setsar=1[v${i}]`;
+    return `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1,zoompan=z='min(zoom+0.0015,1.3)':d=125:s=1080x1920:fps=25,setsar=1,trim=duration=5,setpts=PTS-STARTPTS[v${i}]`;
   }).join(';');
   const concatPart = images.map((_, i) => `[v${i}]`).join('') + `concat=n=${images.length}:v=1:a=0[vout]`;
   let filterComplex = kenBurnsFilters + ';' + concatPart;

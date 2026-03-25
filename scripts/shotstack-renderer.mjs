@@ -25,8 +25,12 @@ async function uploadToCatbox(filePath) {
       method: 'POST',
       body: form
     });
-    const url = await response.text();
-    return url.trim();
+    const url = (await response.text()).trim();
+    if (!url.startsWith('https://') && !url.startsWith('http://')) {
+      console.error(`❌ [Catbox] Invalid URL returned: ${url.substring(0, 50)}`);
+      return null;
+    }
+    return url;
   } catch (e) {
     console.error(`❌ [Catbox] Upload failed: ${e.message}`);
     return null;
