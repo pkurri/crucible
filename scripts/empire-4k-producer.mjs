@@ -4,7 +4,8 @@ import path from 'path';
 import 'dotenv/config';
 import { renderWithGPU } from './gpu-ffmpeg-renderer.mjs';
 import { renderWithShotstack } from './shotstack-renderer.mjs';
-import { renderWithRemotion } from './remotion-renderer.mjs';
+// Remotion is loaded dynamically (only when PREFER_REMOTION=true) to avoid
+// crashing on GitHub Actions where @remotion/renderer native deps are absent
 
 /**
  * 🎬 CRUCIBLE 4K PRODUCER — FREE REVID.AI KILLER
@@ -157,12 +158,16 @@ async function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
   const hasShotstackKey = process.env.SHOTSTACK_API_KEY && process.env.SHOTSTACK_API_KEY !== 'stage-key';
   
   // ── PRIORITY 0: Remotion (opt-in only via PREFER_REMOTION=true) ────────
-  // Requires webpack bundle step (~60s overhead). Use explicitly when needed.
+  // Dynamic import avoids crash on GitHub Actions (missing native deps)
   if (process.env.PREFER_REMOTION === 'true' && !isVercel) {
-    console.log(`⚡ [Remotion] GPU-accelerated render (opt-in)...`);
-    const remotionResult = await renderWithRemotion(topicDir, topicName, audioPath, subtitlePath);
-    if (remotionResult) return remotionResult;
-    console.warn(`⚠️ [Remotion] Failed, falling back to FFmpeg...`);
+    try {
+      console.log(`⚡ [Remotion] GPU-accelerated render (opt-in)...`);
+      const { renderWithRemotion } = await import('./remotion-renderer.mjs');
+      const remotionResult = await renderWithRemotion(topicDir, topicName, audioPath, subtitlePath);
+      if (remotionResult) return remotionResult;
+    } catch (e) {
+      console.warn(`⚠️ [Remotion] Failed to load or render: ${e.message}`);
+    }
   }
 
   // ── PRIORITY 1: GPU FFmpeg — free, unlimited, fast (5-10x CPU speed) ──
