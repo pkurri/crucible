@@ -93,6 +93,30 @@
         "manifestation"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubliminalMastery",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Subliminal techniques tap into the subconscious mind, offering viewers perceived control over their lives, relationships, and success. This niche offers a unique psychological angle, promising self-improvement and personal power through seemingly undetectable methods, which bypasses critical thinking and fosters high engagement. It is highly scalable with applications across various life domains, and has visual potential for illustrating techniques and effects.",
+      "ideas": [
+        "\"UNLOCK Hidden Desires: Subliminal Messages That Work! / Discover the science behind subliminal persuasion and how you can use it to attract anything you want.\"",
+        "\"Brainwash Yourself for Success: The Ultimate Subliminal Audio Guide / Reprogram your mind while you sleep with these powerful subconscious affirmations.\"",
+        "\"Dangerously Effective: Subliminal Seduction Techniques REVEALED! / Uncover the ethical and practical applications of subliminal influence in dating and relationships.\""
+      ],
+      "keywords": [
+        "subconscious",
+        "affirmations",
+        "hypnosis",
+        "manifestation",
+        "brainwave"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
