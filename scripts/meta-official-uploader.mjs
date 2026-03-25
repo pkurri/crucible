@@ -259,6 +259,36 @@ async function uploadToFacebook(videoPath, caption) {
 }
 
 // ═══════════════════════════════════════════════════════
+// 🛡️ STUDIO GUARDRAILS: PRE-FLIGHT CHECKS
+// ═══════════════════════════════════════════════════════
+function validateVideo(videoPath) {
+  console.log(`🛡️  [Guardrail] Validating video integrity: ${path.basename(videoPath)}...`);
+  
+  if (!fs.existsSync(videoPath)) {
+    throw new Error(`[Guardrail] FAILED: Video file does not exist at ${videoPath}`);
+  }
+
+  const stats = fs.statSync(videoPath);
+  if (stats.size < 500000) { // 500KB minimum for a 4K/Short reel
+    throw new Error(`[Guardrail] FAILED: Rendered file is too small (${stats.size} bytes). Likely a failed render.`);
+  }
+
+  // Check for broken render signature (optional but good)
+  try {
+     const probe = execSync(`ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "${videoPath}"`).toString().trim();
+     const duration = parseFloat(probe);
+     if (isNaN(duration) || duration <= 0) {
+       throw new Error(`[Guardrail] FAILED: Video duration is invalid (${probe}s).`);
+     }
+     console.log(`✅ [Guardrail] Integrity Check Passed. Size: ${(stats.size/1024/1024).toFixed(2)}MB | Duration: ${duration}s`);
+  } catch (e) {
+     console.warn(`⚠️  [Guardrail] FFprobe check skipped or failed: ${e.message}`);
+     // If ffprobe is missing in local dev, we still pass based on file size, but fail on explicit errors.
+     if (e.message.includes('FAILED')) throw e;
+  }
+}
+
+// ═══════════════════════════════════════════════════════
 // 🚀 MAIN DISPATCHER
 // ═══════════════════════════════════════════════════════
 async function uploadToMeta() {
@@ -288,6 +318,14 @@ async function uploadToMeta() {
     process.exit(1);
   }
 
+  // 🛡️ [GUARDRAIL] Mandatory Pre-Flight Integrity Check
+  try {
+    validateVideo(videoPath);
+  } catch (e) {
+    console.error(`🛑  [PUBLISH ABORTED] ${e.message}`);
+    process.exit(1);
+  }
+
   // 🏛️ DYNAMIC METADATA ARCHITECTURE
   const METADATA_PATH = path.join(process.cwd(), 'data', 'viral-metadata.json');
   const VIRAL_HASHTAGS = "\n.\n.\n.\n#reels #viral #trending #reelsinstagram #explorepage #mindset #entrepreneur #success #motivation #discipline #hustle #aesthetic #lifestyle #grind #luxurylifestyle #fyp #foryou #growth #wealth #wisdom #productivity #focus #consistency #hardwork #financialfreedom #passiveincome #inspire #automation #ai #aaknation";
@@ -310,15 +348,17 @@ async function uploadToMeta() {
   }
 
   const targetStr = getArg('--target') || 'both';
+  const forceRemix = process.argv.includes('--force-remix');
 
   console.log(`\n[Forge] Meta Upload: ${topicName} (Target: ${targetStr})`);
+  if (forceRemix) console.log(`🔱 FORCE REMIX ACTIVE: Re-uploading optimized version...`);
   console.log('='.repeat(50));
 
   const uploadedDir = path.join(topicDir, 'uploaded');
   const igUploaded = fs.existsSync(path.join(uploadedDir, 'instagram.json'));
   const fbUploaded = fs.existsSync(path.join(uploadedDir, 'facebook.json'));
 
-  if (igUploaded && fbUploaded && targetStr === 'both') {
+  if (!forceRemix && igUploaded && fbUploaded && targetStr === 'both') {
     console.log(`[SKIP] ${topicName} already uploaded to IG and FB.`);
     return;
   }
@@ -328,7 +368,7 @@ async function uploadToMeta() {
   // Upload to Instagram
   if (targetStr === 'both' || targetStr === 'insta') {
     try {
-      if (!igUploaded) {
+      if (!igUploaded || forceRemix) {
         const igId = await uploadToInstagram(videoPath, hook.ig);
         console.log(`[OK] Instagram Reel live: ID ${igId}`);
       } else {

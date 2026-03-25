@@ -91,7 +91,8 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
       
       // YouTube Shorts: Clean, bold, white with black outline, positioned ABOVE UI/Captions
       // FontSize=h/28 prevents overflow; MarginV=500 clears the Channel/Description UI.
-      let forceStyle = 'FontSize=18,FontName=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=2,Alignment=2,MarginV=100,Bold=1,WrapStyle=0';
+      // Meta (Instagram/FB): Small, high-clarity captions centered safely
+      let forceStyle = 'FontSize=14,FontName=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=1,Alignment=2,MarginV=150,Bold=1,WrapStyle=0';
       if (platform === 'youtube') {
         forceStyle = 'FontSize=h/28,FontName=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=4,Alignment=2,MarginV=500,Bold=1,WrapStyle=0';
       }

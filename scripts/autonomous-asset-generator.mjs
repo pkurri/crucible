@@ -58,7 +58,7 @@ async function generateImagesForTopic(topic) {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          model: 'google/gemini-2.0-flash-001', 
+          model: 'meta-llama/llama-3.2-3b-instruct:free', 
           messages: [{ role: 'user', content: `Generate a photorealistic cinematic visual prompt for the niche: "${topic}". \nVisual Theme: ${keywords}. \nSlot: ${i}. \nRule: No text or "AAK Nation" branding in the image. \nReturn ONLY the visual description.` }]
         })
       });
@@ -70,17 +70,16 @@ async function generateImagesForTopic(topic) {
       const visualDescription = data.choices[0].message.content;
       console.log(`   🎨 Visual Blueprint architected: ${visualDescription.substring(0, 50)}...`);
 
-      // 📥 In a real production with Imagen/DALL-E, we would download the Buffer.
-      // Since we want PROOF OF WORK, I will inject a high-quality valid base64 image 
-      // of a 1x1 color pixel that isn't just gray—I'll use a unique color for each slot 
-      // to PROVE they are not repeats.
-      
-      const colors = ['/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAABAAEBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA=', '/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAABAAEBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA=', '/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAABAAEBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA='];
-      const slotColor = colors[i-1] || colors[0];
-      const validBuffer = Buffer.from(slotColor, 'base64');
+      // 🖼️ GENERATE REAL IMAGE VIA POLLINATIONS (FREE TIER)
+      console.log(`   🌀 Generating Cinematic Asset via Pollinations.ai (FREE)...`);
+      const sanitizedPrompt = encodeURIComponent(visualDescription.substring(0, 400));
+      const imgUrl = `https://image.pollinations.ai/prompt/${sanitizedPrompt}?width=1080&height=1920&model=flux&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
 
-      fs.writeFileSync(imgPath, validBuffer);
-      console.log(`   ✅ Unique Asset ${i} generated for ${topic}.`);
+      console.log(`   📥 Downloading Free Asset...`);
+      const imgBuffer = await (await fetch(imgUrl)).arrayBuffer();
+      fs.writeFileSync(imgPath, Buffer.from(imgBuffer));
+      
+      console.log(`   ✅ FREE High-Fidelity Asset ${i} generated for ${topic}.`);
     } catch (e) {
       console.error(`   ❌ Failed to generate asset ${i}: ${e.message}`);
     }
