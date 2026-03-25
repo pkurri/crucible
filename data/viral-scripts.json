@@ -3,16 +3,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AncientTechMysteries are finally revealed.",
-        "duration": 5
+        "text": "They say Atlantis is a myth...",
+        "duration": 3
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "But what if AI found the truth?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Behold the city's REAL power source!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AncientTechMysteries, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -20,16 +24,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AstralProjections are finally revealed.",
-        "duration": 5
+        "text": "What if you could leave your body?",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "See the world...from another realm?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Astral projection: it's real. I've done it.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more AstralProjections.",
+        "duration": 3
       }
     ]
   },
@@ -58,15 +66,36 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You've never seen space like this.",
+        "text": "You're living on a speck.",
+        "duration": 3
+      },
+      {
+        "text": "Ever wonder what else is out there?",
         "duration": 4
       },
       {
-        "text": "What if you could touch a galaxy?",
+        "text": "Galaxies collide. Black holes devour all.",
         "duration": 4
       },
       {
-        "text": "Behold! Cosmic dust, reborn!",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 4
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "They found a GIANT in the abyss...",
+        "duration": 4
+      },
+      {
+        "text": "What lurks where sunlight can't reach?",
+        "duration": 4
+      },
+      {
+        "text": "A colossal squid, bigger than a bus!",
         "duration": 4
       },
       {
@@ -75,44 +104,23 @@
       }
     ]
   },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Something's watching you... down there.",
-        "duration": 4
-      },
-      {
-        "text": "What NIGHTMARE lurks in the abyss?",
-        "duration": 4
-      },
-      {
-        "text": "Giant anglerfish. Teeth like needles. Pure terror.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
-        "duration": 3
-      }
-    ]
-  },
   "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You won't BELIEVE this!",
-        "duration": 3
-      },
-      {
-        "text": "What causes skies to EXPLODE with color?",
+        "text": "Witness the sky's fury!",
         "duration": 4
       },
       {
-        "text": "Witness the Aurora Borealis, dancing in the sky!",
+        "text": "What causes this electric dance?",
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+        "text": "Behold: a rare Aurora storm!",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]
@@ -121,15 +129,15 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They're running simulations...",
+        "text": "They're already running the simulation.",
         "duration": 4
       },
       {
-        "text": "What happens when it all falls?",
+        "text": "What if our reality… is the test?",
         "duration": 4
       },
       {
-        "text": "AI knows our future: Collapse.",
+        "text": "Mass surveillance. Total control. We're next.",
         "duration": 4
       },
       {
@@ -142,19 +150,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Imagine life on a DEAD planet.",
+        "text": "Imagine Earth…but boiling.",
         "duration": 3
       },
       {
-        "text": "Could anything survive? How?",
+        "text": "Could anything survive the heat?",
         "duration": 4
       },
       {
-        "text": "Meet the 'Xenomorphs': Evolved from rock, breathing radiation!",
+        "text": "Behold: a heat-shielded beast!",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
         "duration": 3
       }
     ]
@@ -163,19 +171,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "This tower... defies gravity.",
+        "text": "This CANNOT be built. Ever.",
+        "duration": 3
+      },
+      {
+        "text": "But what if the impossible...",
         "duration": 4
       },
       {
-        "text": "How can this impossible design even stand?",
+        "text": "...was meticulously designed?",
         "duration": 4
       },
       {
-        "text": "Brace yourself: it's a structural illusion!",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -184,15 +192,15 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Imagine: a STAR-SIZED battle station.",
+        "text": "Humans could build a STAR!",
+        "duration": 3
+      },
+      {
+        "text": "But how do you contain a sun's power?",
         "duration": 4
       },
       {
-        "text": "But... how do we even BUILD that?",
-        "duration": 4
-      },
-      {
-        "text": "Answer: a Dyson Sphere. Power beyond belief!",
+        "text": "A Dyson Sphere. Engineering awe.",
         "duration": 4
       },
       {
@@ -205,19 +213,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "This tiny fish... guards sharks!",
+        "text": "What if animals could talk?",
         "duration": 4
       },
       {
-        "text": "What insane deal is struck here?",
+        "text": "Imagine secrets of nature... revealed!",
         "duration": 4
       },
       {
-        "text": "It eats parasites, shark gets clean!",
+        "text": "Symbiosis: creatures helping each other!",
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master SymbioticSpeciesDocumentary, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -226,20 +234,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They gave him infinite power.",
+        "text": "They gave him infinite power...",
         "duration": 3
       },
       {
-        "text": "What happens when it's all a glitch?",
+        "text": "But what if he couldn't control it?",
         "duration": 4
       },
       {
-        "text": "Reality... rewritten. By accident.",
+        "text": "Chaos. Reality itself, rewritten.",
         "duration": 4
       },
       {
         "text": "Don't let the algorithm hide the truth. Follow for more AccidentalGodhoodMoments.",
-        "duration": 3
+        "duration": 4
       }
     ]
   },
@@ -247,19 +255,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "What if we built a SUN?",
+        "text": "Imagine structures that defy reality.",
         "duration": 3
       },
       {
-        "text": "Impossible? Think again. What's the plan?",
+        "text": "What if we could build a Dyson Sphere?",
         "duration": 4
       },
       {
-        "text": "Dyson Spheres. Power beyond imagination!",
+        "text": "Behold: Humanity's ultimate vision.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master MegastructureConstructionVisuals, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -268,19 +276,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever felt trapped in a dream?",
+        "text": "You're living a lie.",
         "duration": 3
       },
       {
-        "text": "What if it wasn't a dream?",
+        "text": "Are your dreams real?",
         "duration": 4
       },
       {
-        "text": "This is what reality looks like, altered.",
+        "text": "This dreamscape is actually... your mind.",
         "duration": 5
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]
@@ -289,19 +297,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "AI just simulated our END.",
+        "text": "The world could end tomorrow.",
         "duration": 4
       },
       {
-        "text": "Asteroid? Supervolcano? Which kills us all?",
+        "text": "What are the *actual* threats?",
         "duration": 4
       },
       {
-        "text": "It's Climate Collapse... faster than you think.",
+        "text": "Simulations show the asteroid's impact!",
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more SimulatedExtinctionEvents.",
         "duration": 3
       }
     ]
@@ -310,19 +318,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Buildings that DEFY Gravity exist.",
-        "duration": 3
-      },
-      {
-        "text": "But how are they even built?",
+        "text": "Buildings that DEFY gravity?",
         "duration": 4
       },
       {
-        "text": "It's all about mind-bending design!",
+        "text": "Impossible, right? How are they built?",
         "duration": 4
       },
       {
-        "text": "If you want to master ImpossibleArchitectureDesigns, you're in the right place. Subscribe.",
+        "text": "Escher's dreams, now REAL. Behold!",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
@@ -331,19 +339,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Society's on the brink. *Again.*",
+        "text": "Society's on the BRINK.",
+        "duration": 3
+      },
+      {
+        "text": "What happens when it all falls apart?",
         "duration": 4
       },
       {
-        "text": "What if food vanished tomorrow?",
+        "text": "We simulate the collapse: Learn to survive.",
         "duration": 4
       },
       {
-        "text": "Riots. Looting. Utter chaos.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master SimulatedSocietalBreakdowns, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -470,6 +478,90 @@
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "ExtinctCreatureRecreations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine a 60-foot shark...",
+        "duration": 3
+      },
+      {
+        "text": "Could the Megalodon still exist?",
+        "duration": 4
+      },
+      {
+        "text": "CGI reveals the ocean's apex predator!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ExtinctCreatureRecreations, you're in the right place. Subscribe.",
+        "duration": 4
+      }
+    ]
+  },
+  "LucidDreamingInsights": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Ever felt trapped in a nightmare?",
+        "duration": 4
+      },
+      {
+        "text": "What if you could FIGHT BACK?",
+        "duration": 4
+      },
+      {
+        "text": "Reality checks: your key to dream control!",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "SymbolicAlchemy": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The Philosopher's Stone... is REAL.",
+        "duration": 4
+      },
+      {
+        "text": "But what if its code is in YOU?",
+        "duration": 4
+      },
+      {
+        "text": "Alchemy's secret: inner transformation!",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "SubliminalMastery": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "They're HIDING the TRUTH from you.",
+        "duration": 4
+      },
+      {
+        "text": "Your mind? Programmed. Your reality?",
+        "duration": 4
+      },
+      {
+        "text": "Subliminal affirmations. The key to unlock it.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]

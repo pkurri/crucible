@@ -2856,6 +2856,30 @@
         "advanced warfare"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ExtinctCreatureRecreations",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The idea of bringing extinct creatures to life via CGI and hypothetical scenarios taps into primal curiosity and awe. It's inherently visual, allowing for stunning recreations and thought-provoking 'what if' scenarios that retain attention. The niche avoids direct competition with established channels because it focuses on hyper-realistic recreations, detailed behaviours and scientifically plausible (while speculative) scenarios. Unlike simple documentaries, these videos pose questions using visually arresting images.",
+      "ideas": [
+        "Title: If the Megalodon Still Existed...You Wouldn't Believe This Hook: What if the apex predator of the ocean's past returned? Footage reveals...",
+        "Title: The Terror Bird: Deadliest Predator of South America Hook: Before the Jaguar or Puma ruled, there was *this*. The unbelievable truth...",
+        "Title: What If We Brought Back the Woolly Mammoth? Hook: Scientists are closer than you think. But is it a good idea? See the stunning results..."
+      ],
+      "keywords": [
+        "Megalodon",
+        "Terror Bird",
+        "Woolly Mammoth",
+        "CGI recreation",
+        "Extinct Animals"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
