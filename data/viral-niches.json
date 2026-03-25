@@ -2880,6 +2880,30 @@
         "Extinct Animals"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "HypotheticalPlanetEcology",
+      "platforms": [
+        "youtube",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The niche blends scientific speculation with creative world-building, tapping into the deep human fascination with the unknown and the potential for life beyond Earth. Given advancements in AI and CGI, visualizing these hypothetical ecosystems becomes increasingly compelling, promising captivating content that fuels the imagination and encourages sharing. The sense of undiscovered worlds and novel lifeforms offers a strong hook that retains viewers.",
+      "ideas": [
+        "\"What if Mars had a Jungle?\" / Imagine vines thicker than skyscrapers, teeming with alien life, all under a rusty red sun...",
+        "\"The Bioluminescent Seas of Kepler-186f\" / Discover alien oceans where every wave is a shimmering constellation of life, revealing the secrets hidden beneath the ice...",
+        "\"Terraforming Venus: A Botanical Nightmare?\" / What if we turned the morning star green? A paradise or a bio-engineered hellscape?"
+      ],
+      "keywords": [
+        "exoplanet",
+        "terraforming",
+        "alien flora",
+        "hypothetical biology",
+        "astrobiology"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

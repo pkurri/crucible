@@ -66,57 +66,15 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You're living on a speck.",
-        "duration": 3
-      },
-      {
-        "text": "Ever wonder what else is out there?",
+        "text": "You've never seen space like this.",
         "duration": 4
       },
       {
-        "text": "Galaxies collide. Black holes devour all.",
+        "text": "What cosmic secret is hidden?",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 4
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "They found a GIANT in the abyss...",
-        "duration": 4
-      },
-      {
-        "text": "What lurks where sunlight can't reach?",
-        "duration": 4
-      },
-      {
-        "text": "A colossal squid, bigger than a bus!",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Witness the sky's fury!",
-        "duration": 4
-      },
-      {
-        "text": "What causes this electric dance?",
-        "duration": 4
-      },
-      {
-        "text": "Behold: a rare Aurora storm!",
+        "text": "A black hole's stunning dance revealed!",
         "duration": 4
       },
       {
@@ -125,19 +83,61 @@
       }
     ]
   },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine being swallowed alive...",
+        "duration": 3
+      },
+      {
+        "text": "by what lurks below. Terrifying, right?",
+        "duration": 4
+      },
+      {
+        "text": "Giant anglerfish? Yep. But worse...",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+        "duration": 3
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Witness the sky's raw fury!",
+        "duration": 3
+      },
+      {
+        "text": "Ever seen nature's electric heart?",
+        "duration": 4
+      },
+      {
+        "text": "Behold: a lightning storm's dance!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
   "DystopianFutureSimulations": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They're already running the simulation.",
+        "text": "They're already simulating our end.",
         "duration": 4
       },
       {
-        "text": "What if our reality… is the test?",
+        "text": "What if it's not a simulation?",
         "duration": 4
       },
       {
-        "text": "Mass surveillance. Total control. We're next.",
+        "text": "Society's collapse. It's happening.",
         "duration": 4
       },
       {
@@ -562,6 +562,27 @@
       },
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "HypotheticalPlanetEcology": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine: a planet alive!",
+        "duration": 4
+      },
+      {
+        "text": "Could alien plants breathe neon?",
+        "duration": 4
+      },
+      {
+        "text": "Behold: a neon-lit jungle!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master HypotheticalPlanetEcology, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
