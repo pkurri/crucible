@@ -10,7 +10,7 @@
     "process": "python scripts/process.py"
   },
   "dependencies": {
-    "next": "^14.0.0",
+    "next": "^16.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "openai": "^4.20.0",
