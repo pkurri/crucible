@@ -363,8 +363,8 @@ async function uploadToMeta() {
     let exitCode = 0;
     try {
       // ── 1. Token identity ─────────────────────────────────────────────
-      const me = await apiCall(`${META_API}/me?fields=id,name,type&access_token=${ACCESS_TOKEN}`);
-      console.log(`\n🪪 [Token] Identity: ${me.name} (id=${me.id}, type=${me.type || 'USER'})`);
+      const me = await apiCall(`${META_API}/me?fields=id,name&access_token=${ACCESS_TOKEN}`);
+      console.log(`\n🪪 [Token] Identity: ${me.name} (id=${me.id})`);
 
       // ── 2. All granted permissions ────────────────────────────────────
       const permsRes = await apiCall(`${META_API}/me/permissions?access_token=${ACCESS_TOKEN}`);
