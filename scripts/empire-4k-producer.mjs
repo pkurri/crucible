@@ -17,12 +17,23 @@ import { renderWithShotstack } from './shotstack-renderer.mjs';
 
 const ROOT = process.cwd();
 const FFMPEG = process.env.GITHUB_ACTIONS ? 'ffmpeg' : path.join(ROOT, 'scripts', 'bin', 'ffmpeg.exe');
-const BASE_DIR = fs.existsSync(path.join(ROOT, 'data', 'youtube-empire', 'AAK-Nation', 'topics')) ? path.join(ROOT, 'data', 'youtube-empire', 'AAK-Nation', 'topics') : path.join(ROOT, 'data', 'meta-empire', 'AAK-Nation', 'topics');
 
 const getArg = (key) => {
   const idx = process.argv.indexOf(key);
   return idx !== -1 ? process.argv[idx + 1] : null;
 };
+
+// --basedir flag takes priority; fallback resolves from --platform
+function resolveBaseDir() {
+  const explicit = getArg('--basedir');
+  if (explicit) return explicit;
+  const platform = getArg('--platform') || 'youtube';
+  if (platform === 'facebook')  return path.join(ROOT, 'data', 'facebook-empire',  'AAK-Nation', 'topics');
+  if (platform === 'instagram') return path.join(ROOT, 'data', 'instagram-empire', 'AAK-Nation', 'topics');
+  if (platform === 'meta')      return path.join(ROOT, 'data', 'meta-empire',      'AAK-Nation', 'topics');
+  return path.join(ROOT, 'data', 'youtube-empire', 'AAK-Nation', 'topics');
+}
+const BASE_DIR = resolveBaseDir();
 
 // ... Rest of the script from memory ... (I'll use the exact content from Step 615)
 const SCRIPTS_PATH = path.join(ROOT, 'data', 'viral-scripts.json');

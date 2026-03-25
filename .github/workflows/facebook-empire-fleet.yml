@@ -32,17 +32,19 @@ jobs:
       - name: Install Edge TTS
         run: pip install edge-tts
 
+      - name: Create Data Structure
+        run: mkdir -p data/facebook-empire/AAK-Nation/topics
+
       - name: Discover Daily Viral Niche
         run: node scripts/niche-strategist.mjs
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
-      - name: Run FB Empire Loop
-        run: node scripts/meta-empire-loop.mjs --target fb
+      - name: Run Facebook Empire Loop
+        run: node scripts/facebook-empire-loop.mjs
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
-          META_IG_ACCOUNT_ID: ${{ secrets.META_IG_ACCOUNT_ID }}
           META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }}
           NODE_ENV: production
           GITHUB_ACTIONS: "true"

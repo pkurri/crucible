@@ -19,7 +19,11 @@ import { execSync } from 'child_process';
  * Usage: node scripts/meta-official-uploader.mjs --topic SuccessCodes
  */
 
-const BASE = path.join(process.cwd(), 'data', 'meta-empire', 'AAK-Nation', 'topics');
+// --basedir flag overrides default; each platform loop passes its own folder
+const BASE = (() => {
+  const idx = process.argv.indexOf('--basedir');
+  return idx !== -1 ? process.argv[idx + 1] : path.join(process.cwd(), 'data', 'meta-empire', 'AAK-Nation', 'topics');
+})();
 const META_API = 'https://graph.facebook.com/v19.0';
 
 const ACCESS_TOKEN   = process.env.META_ACCESS_TOKEN;
@@ -333,17 +337,8 @@ async function uploadToMeta() {
     }
   }
 
-  const topicDirMeta = path.join(BASE, topicName);
-  const topicDirYT = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nation', 'topics', topicName);
-  
-  let videoPath = path.join(topicDirMeta, 'final-render.mp4');
-  let topicDir = topicDirMeta;
-
-  if (!fs.existsSync(videoPath) && fs.existsSync(path.join(topicDirYT, 'final-render.mp4'))) {
-    videoPath = path.join(topicDirYT, 'final-render.mp4');
-    topicDir = topicDirYT;
-    console.log(`   📡 Found video in YouTube Empire directory for ${topicName}.`);
-  }
+  const topicDir = path.join(BASE, topicName);
+  const videoPath = path.join(topicDir, 'final-render.mp4');
   
   if (!fs.existsSync(videoPath)) {
     console.error(`❌ No video found at root or YT paths for topic: ${topicName}`);

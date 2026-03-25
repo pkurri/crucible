@@ -97,7 +97,10 @@ async function uploadVideo() {
     }
   }
 
-  const videoFilePath = path.join(process.cwd(), 'data', 'youtube-empire', channelName, 'topics', topicName, 'final-render.mp4');
+  const basedirArg = getArg('--basedir');
+  const videoFilePath = basedirArg
+    ? path.join(basedirArg, topicName, 'final-render.mp4')
+    : path.join(process.cwd(), 'data', 'youtube-empire', channelName, 'topics', topicName, 'final-render.mp4');
 
   if (!existsSync(videoFilePath)) {
     console.log('⚠️ No real video file found at: ' + videoFilePath);

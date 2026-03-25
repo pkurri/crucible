@@ -1,4 +1,4 @@
-name: '📸 AAK Nation Meta Empire Fleet'
+name: '📸 AAK Nation Instagram Empire Fleet'
 
 on:
   schedule:
@@ -33,23 +33,19 @@ jobs:
         run: pip install edge-tts
 
       - name: Create Data Structure
-        run: |
-          mkdir -p data/meta-empire/AAK-Nation/topics/BioHarmonize/assets
-          mkdir -p data/meta-empire/AAK-Nation/topics/BioHarmonize/uploaded
-          mkdir -p data
+        run: mkdir -p data/instagram-empire/AAK-Nation/topics
 
       - name: Discover Daily Viral Niche
         run: node scripts/niche-strategist.mjs
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
-      - name: Run Meta Empire Loop
-        run: node scripts/meta-empire-loop.mjs --target insta
+      - name: Run Instagram Empire Loop
+        run: node scripts/instagram-empire-loop.mjs
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
           META_IG_ACCOUNT_ID: ${{ secrets.META_IG_ACCOUNT_ID }}
-          META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }}
           NODE_ENV: production
           GITHUB_ACTIONS: "true"
 
@@ -61,5 +57,5 @@ jobs:
           git config --global user.name "Crucible Bot"
           git config --global user.email "bot@crucible.ai"
           git add data/ scripts/ || echo "No new files to add"
-          git commit -m "chore: update meta upload cycle [skip ci]" || exit 0
+          git commit -m "chore: update instagram upload cycle [skip ci]" || exit 0
           git push origin main || echo "Push failed"
