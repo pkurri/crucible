@@ -147,7 +147,7 @@ export async function runProductionCycle(opts) {
     // ── Step 1: Assets ─────────────────────────────────────────────────
     console.log(`🎨 [${topic}] Generating assets...`);
     try {
-      execSync(`node scripts/autonomous-asset-generator.mjs --topic "${topic}"`, { stdio: 'inherit' });
+      execSync(`node scripts/autonomous-asset-generator.mjs --topic "${topic}" --basedir "${baseDir}"`, { stdio: 'inherit' });
     } catch (e) {
       console.error(`❌ [${topic}] Asset generation failed.`);
       continue;
@@ -166,7 +166,7 @@ export async function runProductionCycle(opts) {
     console.log(`🎬 [${topic}] Producing video...`);
     try {
       execSync(
-        `node scripts/empire-4k-producer.mjs --topic "${topic}" --platform ${producerPlatform} --basedir "${baseDir}"`,
+        `node scripts/empire-4k-producer.mjs --topic "${topic}" --basedir "${baseDir}"`,
         { stdio: 'inherit' }
       );
       produced++;

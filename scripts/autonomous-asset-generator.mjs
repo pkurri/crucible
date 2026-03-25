@@ -10,8 +10,6 @@ import { callAI } from './ai-fallback-orchestrator.mjs';
  */
 
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
-const BASE_DIR_YT = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nation', 'topics');
-const BASE_DIR_META = path.join(process.cwd(), 'data', 'meta-empire', 'AAK-Nation', 'topics');
 const PROMPTS_FILE = path.join(process.cwd(), 'data', 'empire-prompts-daily.json');
 
 const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
@@ -22,6 +20,11 @@ const getArg = (key) => {
   return idx !== -1 ? process.argv[idx + 1] : null;
 };
 
+// --basedir passed by each platform loop; fallback to legacy meta-empire path
+const EXPLICIT_BASEDIR = getArg('--basedir');
+const BASE_DIR_YT   = path.join(process.cwd(), 'data', 'youtube-empire', 'AAK-Nation', 'topics');
+const BASE_DIR_META = path.join(process.cwd(), 'data', 'meta-empire',   'AAK-Nation', 'topics');
+
 const filterTopic = getArg('--topic');
 const TOPICS = filterTopic ? [filterTopic] : registry.niches.map(n => n.name);
 
@@ -30,8 +33,8 @@ async function generateImagesForTopic(topic) {
   const keywords = nicheData.keywords ? nicheData.keywords.join(', ') : topic;
 
   console.log(`\n🎨 [${topic}] Generating assets...`);
-  const topicMetaDir = path.join(BASE_DIR_META, topic);
-  const baseForThisTopic = fs.existsSync(topicMetaDir) ? BASE_DIR_META : BASE_DIR_YT;
+  const baseForThisTopic = EXPLICIT_BASEDIR
+    || (fs.existsSync(path.join(BASE_DIR_META, topic)) ? BASE_DIR_META : BASE_DIR_YT);
   const assetDir = path.join(baseForThisTopic, topic, 'assets');
   fs.mkdirSync(assetDir, { recursive: true });
 
