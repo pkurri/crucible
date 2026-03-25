@@ -2,10 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
 import { execSync } from 'child_process';
+import { callAI } from './ai-fallback-orchestrator.mjs';
 
 /**
  * 🎨 CRUCIBLE AUTONOMOUS ASSET GENERATOR
- * Generates 4K cinematic visuals for the YouTube Empire using OpenRouter (Imagen/DALL-E).
+ * Generates 4K cinematic visuals for the Social Empire using OpenRouter.
  */
 
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
@@ -46,61 +47,26 @@ async function generateImagesForTopic(topic) {
 
   for (let i = 1; i <= 3; i++) {
     const imgPath = path.join(assetDir, `shot_${i}.jpg`);
-    // Force regeneration for the first transition cycle
-    // if (fs.existsSync(imgPath)) continue; 
-
-    console.log(`   📸 [Slot ${i}] Calling AI Visual Architect (Rotating Free Tiers)...`);
-    const FREE_MODELS = [
-      'meta-llama/llama-3.2-3b-instruct:free',
-      'mistralai/mistral-7b-instruct:free',
-      'google/gemini-2.0-flash-lite-preview-02-05:free',
-      'deepseek/deepseek-r1:free'
-    ];
-
-    let visualDescription = '';
-    for (const modelId of FREE_MODELS) {
-      try {
-        const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${OPENROUTER_KEY}`,
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            model: modelId, 
-            messages: [{ role: 'user', content: `Generate a photorealistic cinematic visual prompt for the niche: "${topic}". \nVisual Theme: ${keywords}. \nSlot: ${i}. \nRule: No text or "AAK Nation" branding in the image. \nReturn ONLY the visual description.` }]
-          })
-        });
-
-        const data = await response.json();
-        if (data.choices && data.choices[0]) {
-          visualDescription = data.choices[0].message.content;
-          console.log(`   💎 [${modelId}] Architected: ${visualDescription.substring(0, 40)}...`);
-          break; // Success!
-        }
-        console.warn(`   ⚠️ [${modelId}] Limited or Empty. Trying next...`);
-      } catch (err) {
-        console.warn(`   ⚠️ [${modelId}] Error: ${err.message}. Trying next...`);
-      }
-      await new Promise(r => setTimeout(r, 1500)); // Small buffer between retries
-    }
-
-    if (!visualDescription) throw new Error(`FREE TIER EXHAUSTED: No models available for prompting.`);
-
-    // 🖼️ GENERATE REAL IMAGE VIA POLLINATIONS (FREE TIER)
-    console.log(`   🌀 Generating Cinematic Asset via Pollinations.ai (FREE)...`);
-    const sanitizedPrompt = encodeURIComponent(visualDescription.substring(0, 400));
-    const imgUrl = `https://image.pollinations.ai/prompt/${sanitizedPrompt}?width=1080&height=1920&model=flux&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
-
+    
+    console.log(`   📸 [Slot ${i}] Architecting Cinematic Prompt via AI Shield Fallback...`);
     try {
+      const visualDescription = await callAI(
+        `Generate a photorealistic cinematic visual prompt for the niche: "${topic}". \nVisual Theme: ${keywords}. \nSlot: ${i}. \nRule: No text or "AAK Nation" branding in the image. \nReturn ONLY the visual description.`,
+        "You are a cinematic cinematographer and AI Vision prompt specialist."
+      );
+
+      console.log(`   🎨 Visual Blueprint architected: ${visualDescription.substring(0, 50)}...`);
+
+      // 🖼️ GENERATE REAL IMAGE VIA POLLINATIONS (FREE TIER)
+      console.log(`   🌀 Generating Cinematic Asset via Pollinations.ai (FREE)...`);
+      const sanitizedPrompt = encodeURIComponent(visualDescription.substring(0, 400));
+      const imgUrl = `https://image.pollinations.ai/prompt/${sanitizedPrompt}?width=1080&height=1920&model=flux&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
+
       console.log(`   📥 Downloading Free Asset...`);
       const imgBuffer = await (await fetch(imgUrl)).arrayBuffer();
       fs.writeFileSync(imgPath, Buffer.from(imgBuffer));
+      
       console.log(`   ✅ FREE High-Fidelity Asset ${i} generated for ${topic}.`);
-    } catch (e) {
-      console.error(`   ❌ Pollinations failed: ${e.message}`);
-      throw e;
-    }
     } catch (e) {
       console.error(`   ❌ Failed to generate asset ${i}: ${e.message}`);
     }

@@ -1,13 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
+import { callAI } from './ai-fallback-orchestrator.mjs';
 
 /**
  * 🏛️ CRUCIBLE DYNAMIC SCRIPT ARCHITECT
  * Converts the daily niche registry into high-velocity viral scripts.
  */
 
-const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
 const SCRIPTS_FILE = path.join(process.cwd(), 'data', 'viral-scripts.json');
 
@@ -25,7 +25,7 @@ function cleanJSON(str) {
 }
 
 async function architectScript(niche) {
-  console.log(`✍️ [${niche.name}] Architecting viral script...`);
+  console.log(`✍️ [${niche.name}] Architecting viral script via Universal Fallback...`);
   
   const systemPrompt = `You are the "Professional YouTube Scriptwriter" specialized in Retention Optimization.
 Your goal is to write high-impact scripts (10-15 seconds) for viral Shorts/Reels.
@@ -61,25 +61,10 @@ Return ONLY a JSON object:
 }`;
 
   try {
-    if (!OPENROUTER_KEY) throw new Error('No Key');
-
-    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${OPENROUTER_KEY}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        model: 'google/gemini-2.0-flash-001',
-        messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userPrompt }],
-        response_format: { type: 'json_object' }
-      })
-    });
-
-    const data = await response.json();
-    return cleanJSON(data.choices[0].message.content);
+    const aiResponse = await callAI(userPrompt, systemPrompt);
+    return cleanJSON(aiResponse);
   } catch (e) {
-    console.warn(`   ⚠️ Using fallback for ${niche.name}`);
+    console.warn(`   ⚠️ Final fallback for ${niche.name} triggered: ${e.message}`);
     return {
       voice: niche.voice || 'en-US-GuyNeural',
       lines: [
