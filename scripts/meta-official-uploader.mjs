@@ -267,43 +267,57 @@ async function uploadToFacebook(videoPath, caption) {
     videoUrl = uploadToCatbox(videoPath);
   }
 
-  // Step 2: Start upload session with file_url (FB server-side pull — no binary needed)
-  console.log(`[FB] Starting Reel upload (cloud-pull from: ${videoUrl})...`);
-  const init = await apiCall(
-    `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
-    'POST',
-    { upload_phase: 'start', file_url: videoUrl }
-  );
-  const videoId = init.video_id;
-  console.log(`[FB] Reel container created. Video ID: ${videoId}. Waiting for FB to process...`);
+  // Step 2: Try video_reels endpoint first; fall back to /videos if rate-limited
+  let videoId;
+  try {
+    console.log(`[FB] Trying video_reels endpoint (cloud-pull from: ${videoUrl})...`);
+    const init = await apiCall(
+      `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
+      'POST',
+      { upload_phase: 'start', file_url: videoUrl }
+    );
+    videoId = init.video_id;
+    console.log(`[FB] Reel container created. Video ID: ${videoId}. Waiting for FB to process...`);
 
-  // Step 3: Poll processing status before publishing
-  let videoStatus = 'processing';
-  let attempts = 0;
-  while (videoStatus === 'processing' && attempts < 40) {
-    await sleep(15000); // 15s interval
-    try {
-      const check = await apiCall(
-        `${META_API}/${videoId}?fields=status&access_token=${FB_PAGE_TOKEN}`
-      );
-      videoStatus = check?.status?.video_status || 'processing';
-      attempts++;
-      console.log(`[FB] Processing status: ${videoStatus} (attempt ${attempts})`);
-    } catch (e) {
-      console.warn(`[FB] Status poll failed (attempt ${attempts}): ${e.message}`);
-      attempts++;
+    // Poll processing status
+    let videoStatus = 'processing';
+    let attempts = 0;
+    while (videoStatus === 'processing' && attempts < 40) {
+      await sleep(15000);
+      try {
+        const check = await apiCall(`${META_API}/${videoId}?fields=status&access_token=${FB_PAGE_TOKEN}`);
+        videoStatus = check?.status?.video_status || 'processing';
+        attempts++;
+        console.log(`[FB] Processing status: ${videoStatus} (attempt ${attempts})`);
+      } catch (e) {
+        console.warn(`[FB] Status poll failed (attempt ${attempts}): ${e.message}`);
+        attempts++;
+      }
     }
-  }
-  if (videoStatus === 'error') throw new Error(`[FB] Video processing failed: status=${videoStatus}`);
+    if (videoStatus === 'error') throw new Error(`[FB] Video processing failed: status=${videoStatus}`);
 
-  // Step 4: Finish + publish
-  console.log(`[FB] Publishing Reel...`);
-  const finish = await apiCall(
-    `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
-    'POST',
-    { video_id: videoId, upload_phase: 'finish', video_state: 'PUBLISHED', description: caption }
-  );
-  console.log(`[FB] Published! Result: ${JSON.stringify(finish)}`);
+    // Finish + publish as Reel
+    console.log(`[FB] Publishing Reel...`);
+    const finish = await apiCall(
+      `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
+      'POST',
+      { video_id: videoId, upload_phase: 'finish', video_state: 'PUBLISHED', description: caption }
+    );
+    console.log(`[FB] Reel published! Result: ${JSON.stringify(finish)}`);
+
+  } catch (e) {
+    if (!e.message.includes('368')) throw e;
+
+    // ── Fallback: /{page-id}/videos (different rate limit bucket) ──────
+    console.warn(`[FB] video_reels rate-limited (368). Falling back to /videos endpoint...`);
+    const res = await apiCall(
+      `${META_API}/${FB_PAGE_ID}/videos?access_token=${FB_PAGE_TOKEN}`,
+      'POST',
+      { file_url: videoUrl, description: caption, published: true }
+    );
+    videoId = res.id;
+    console.log(`[FB] Video posted via /videos endpoint! ID: ${videoId}`);
+  }
 
   // Mark as uploaded
   const uploadedDir = path.join(path.dirname(videoPath), 'uploaded');
@@ -398,6 +412,25 @@ async function uploadToMeta() {
 
         const pageCheck = await apiCall(`${META_API}/${FB_PAGE_ID}?fields=name,has_added_app&access_token=${pageToken}`);
         console.log(`✅ [FB] Page: ${pageCheck.name} | App Linked: ${pageCheck.has_added_app}`);
+
+        // ── 4b. Test post to /{page-id}/feed (diagnose 368 scope) ────────
+        if (process.argv.includes('--test-post')) {
+          console.log(`\n🧪 [FB] Posting test message to page feed...`);
+          try {
+            const testPost = await apiCall(
+              `${META_API}/${FB_PAGE_ID}/feed?access_token=${pageToken}`,
+              'POST',
+              { message: `AAK Nation automation test — ${new Date().toISOString()}` }
+            );
+            console.log(`✅ [FB] Feed post SUCCESS — id: ${testPost.id} (368 is Reel-specific, NOT page-wide)`);
+          } catch (e) {
+            if (e.message.includes('368')) {
+              console.error(`❌ [FB] Feed post also rate-limited (368) — page-wide restriction, wait a few hours.`);
+            } else {
+              console.error(`❌ [FB] Feed post failed: ${e.message}`);
+            }
+          }
+        }
       }
 
       // ── 5. Instagram account info ─────────────────────────────────────

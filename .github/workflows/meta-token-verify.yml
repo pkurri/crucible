@@ -17,8 +17,8 @@ jobs:
       - name: Install Node Dependencies
         run: npm install
 
-      - name: Check Meta Token Permissions
-        run: node scripts/meta-official-uploader.mjs --verify
+      - name: Check Meta Token Permissions + Test Feed Post
+        run: node scripts/meta-official-uploader.mjs --verify --test-post
         env:
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
           META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }}
