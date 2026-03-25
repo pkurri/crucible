@@ -2807,6 +2807,31 @@
         "resource extraction"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioFutureFantasies",
+      "platforms": [
+        "youtube",
+        "meta",
+        "tiktok"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Biopunk and speculative biology are trending. People are fascinated and slightly disturbed by the possibilities of future biological manipulation. The fusion of technology and life generates inherent curiosity, fueled by ethical debates and visual potential.",
+      "ideas": [
+        "Title: Genetically Engineered Pets of 2050: Cuteness or Catastrophe? / Hook: Imagine a dog that changes color with its mood. Get ready to meet the pets of the future – and some ethical nightmares.",
+        "Title: Rewilding with Dinosaurs: A Jurassic Park Future? / Hook: What if we could bring back dinosaurs to restore ecosystems? See scientists attempt the impossible! (emotional music intro)",
+        "Title: The Bioluminescent City: Living Buildings of Tomorrow. / Hook: Forget concrete jungles! Prepare to witness cities grown from living organisms. This is architecture meets biology."
+      ],
+      "keywords": [
+        "biopunk",
+        "genetic engineering",
+        "rewilding",
+        "bioluminescent",
+        "synthetic biology"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

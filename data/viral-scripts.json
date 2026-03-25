@@ -32,5 +32,425 @@
         "duration": 5
       }
     ]
+  },
+  "BioFutureFantasies": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine: Flesh that heals itself.",
+        "duration": 3
+      },
+      {
+        "text": "But what if the cure... mutates?",
+        "duration": 4
+      },
+      {
+        "text": "Behold: Bioluminescent ecosystems!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master BioFutureFantasies, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "CosmicWondersVisuals": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "You've never seen space like this.",
+        "duration": 4
+      },
+      {
+        "text": "Is this a new galaxy, or a glitch?",
+        "duration": 4
+      },
+      {
+        "text": "It's a black hole, devouring a star!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Something is watching you...",
+        "duration": 3
+      },
+      {
+        "text": "Deep in the abyss... what lurks?",
+        "duration": 4
+      },
+      {
+        "text": "Giant, unseen horrors... exist.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+        "duration": 3
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Witness: Nature's fury unleashed!",
+        "duration": 4
+      },
+      {
+        "text": "Ever seen sky fire... in motion?",
+        "duration": 4
+      },
+      {
+        "text": "Aurora's dance! Lightning's rage! BOOM!",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "They're already tracking your thoughts.",
+        "duration": 4
+      },
+      {
+        "text": "What happens when they control your dreams?",
+        "duration": 4
+      },
+      {
+        "text": "Reality bends to their will. Total control.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+        "duration": 3
+      }
+    ]
+  },
+  "HyperEvolutionaryAdaptations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine life... on a dying planet.",
+        "duration": 4
+      },
+      {
+        "text": "How could organisms possibly survive?",
+        "duration": 4
+      },
+      {
+        "text": "They'd evolve... at hyper speed!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "ImpossibleArchitectureBlueprints": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "This is architecture, but impossible.",
+        "duration": 4
+      },
+      {
+        "text": "How can these buildings even stand?",
+        "duration": 4
+      },
+      {
+        "text": "Defying gravity? It's all in the blueprint!",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "CosmicMegaStructureConstruction": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine: Stars… harnessed!",
+        "duration": 4
+      },
+      {
+        "text": "But how do we build… Dyson Spheres?",
+        "duration": 4
+      },
+      {
+        "text": "Giant, self-replicating robots! In space!",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "SymbioticSpeciesDocumentary": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Sharks and Remoras... best friends?",
+        "duration": 4
+      },
+      {
+        "text": "One eats, one gets a free ride.",
+        "duration": 4
+      },
+      {
+        "text": "But what REALLY happens?",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "AccidentalGodhoodMoments": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "They gave him infinite power...",
+        "duration": 3
+      },
+      {
+        "text": "But what did he *actually* control?",
+        "duration": 4
+      },
+      {
+        "text": "His world. And it was all a lie!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AccidentalGodhoodMoments, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "MegastructureConstructionVisuals": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine a world without limits...",
+        "duration": 3
+      },
+      {
+        "text": "What if we built a Dyson Sphere?",
+        "duration": 4
+      },
+      {
+        "text": "Witness the birth of a star-powered civilization!",
+        "duration": 5
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more MegastructureConstructionVisuals.",
+        "duration": 3
+      }
+    ]
+  },
+  "HyperRealisticDreamscapes": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your nightmares are real?",
+        "duration": 4
+      },
+      {
+        "text": "Are you trapped in someone else's dream?",
+        "duration": 4
+      },
+      {
+        "text": "This dreamscape holds the answer.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more HyperRealisticDreamscapes.",
+        "duration": 3
+      }
+    ]
+  },
+  "SimulatedExtinctionEvents": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if Earth's worst nightmare…",
+        "duration": 4
+      },
+      {
+        "text": "…was happening *right now*?",
+        "duration": 4
+      },
+      {
+        "text": "See the simulations: asteroid impact!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master SimulatedExtinctionEvents, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "ImpossibleArchitectureDesigns": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "This building… can't exist.",
+        "duration": 4
+      },
+      {
+        "text": "What if physics... didn't matter?",
+        "duration": 4
+      },
+      {
+        "text": "Gravity? Ignored. Structure? Illusion.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ImpossibleArchitectureDesigns.",
+        "duration": 3
+      }
+    ]
+  },
+  "SimulatedSocietalBreakdowns": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Society's on the brink. Again.",
+        "duration": 4
+      },
+      {
+        "text": "What if food vanished tomorrow?",
+        "duration": 4
+      },
+      {
+        "text": "Prepare: Secure water, trade, & defend.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "UnexplainedPhenomenaArchives": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "They vanished... without a trace.",
+        "duration": 3
+      },
+      {
+        "text": "What truly happened to Flight 19?",
+        "duration": 4
+      },
+      {
+        "text": "Five bombers... lost in the Bermuda Triangle.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master UnexplainedPhenomenaArchives, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "SimulatedRealityGlitches": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Ever felt a glitch in reality?",
+        "duration": 4
+      },
+      {
+        "text": "That déjà vu? A system error?",
+        "duration": 4
+      },
+      {
+        "text": "You're witnessing code, not life.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "ExtinctMegafloraRevivals": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Giant plants are rising again!",
+        "duration": 3
+      },
+      {
+        "text": "Could we revive lost worlds?",
+        "duration": 4
+      },
+      {
+        "text": "Megaflora: De-extinction is here!",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "CelestialBodyEncounters": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Something HUGE is headed our way.",
+        "duration": 4
+      },
+      {
+        "text": "Planet X. Real or a hoax?",
+        "duration": 4
+      },
+      {
+        "text": "Unexplained anomalies... it's undeniable.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master CelestialBodyEncounters, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "DreamWeavingAnomalies": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your nightmares are real?",
+        "duration": 4
+      },
+      {
+        "text": "They're leaking into our world. But how?",
+        "duration": 4
+      },
+      {
+        "text": "Dream-matter is rewriting reality itself. See?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more DreamWeavingAnomalies.",
+        "duration": 3
+      }
+    ]
   }
 }
