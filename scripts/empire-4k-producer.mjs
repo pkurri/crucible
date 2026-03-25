@@ -155,12 +155,7 @@ function render4KVideo(topicDir, topicName, audioPath, subtitlePath) {
     // FALLBACK: Simple concat without Ken Burns effects
     console.log(`🔄 [FALLBACK] Trying simple concatenation without effects...`);
     const simpleConcatFilters = images.map((_, i) => `[${i}:v]scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1[v${i}]`).join(';');
-    const fallbackComplex = simpleConcatFilters + ';' + concatPart;
-    if (audioPath && fs.existsSync(audioPath)) {
-      fallbackComplex += ';[vout]copy[vfinal]';
-    } else {
-      fallbackComplex += ';[vout]copy[vfinal]';
-    }
+    let fallbackComplex = simpleConcatFilters + ';' + concatPart + ';[vout]copy[vfinal]';
     
     const fallbackCmd = `"${FFMPEG}" -y ${inputs} ${extraInputs} -filter_complex "${fallbackComplex}" ${mapArgs} -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p -c:a aac -shortest -movflags +faststart -r 25 "${outputFile}"`;
     
