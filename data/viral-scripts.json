@@ -2720,5 +2720,68 @@
         "duration": 3
       }
     ]
+  },
+  "ApexFlow_1774530849689": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Stop scrolling: the neon liquid rewrites physics.",
+        "duration": 4
+      },
+      {
+        "text": "What if your car's skin turns into code?",
+        "duration": 4
+      },
+      {
+        "text": "Neural networks pulse through hyper‑car interior.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1774544428461": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid inside a hyper-car: it's rewriting physics",
+        "duration": 4
+      },
+      {
+        "text": "What tech tickles your neurons while you drive?",
+        "duration": 4
+      },
+      {
+        "text": "Neon streams, data beats, neural nets—all align inside.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1774551630577": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "[PATTERN INTERRUPT HOOK] Neon liquid crashes hyper‑car walls.",
+        "duration": 4
+      },
+      {
+        "text": "[CURIOSITY LOOP/PROBLEM] Is this chaos hiding a neural map?",
+        "duration": 4
+      },
+      {
+        "text": "[INSIGHT/PAYOFF] Data points pulse, carving a hidden highway.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
   }
 }
