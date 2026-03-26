@@ -58,10 +58,14 @@ async function generateBrollImages(prompt, count = 5, outputDir) {
             console.log(`   ✅ [Imagen] Downloaded stock image: ${imagePath}`);
             generatedPaths.push(imagePath);
           } else {
-            console.error(`   ❌ [Imagen] Stock image download failed`);
+            console.error(`   ❌ [Imagen] Stock image download failed, using local fallback`);
+            await generateLocalFallbackImage(imagePath, keywords, i);
+            generatedPaths.push(imagePath);
           }
         } catch (err) {
-          console.error(`   ❌ [Imagen] Failed to download stock image: ${err.message}`);
+          console.error(`   ❌ [Imagen] Failed to download stock image: ${err.message}, using local fallback`);
+          await generateLocalFallbackImage(imagePath, keywords, i);
+          generatedPaths.push(imagePath);
         }
       } else {
         // TODO: Implement actual AI image generation
@@ -162,6 +166,31 @@ async function generateVisualPrompt(text) {
 
   // Default visual
   return `abstract artistic visualization, cinematic composition, dramatic lighting, 4K quality`;
+}
+
+/**
+ * Generate a local fallback image using FFmpeg if API fails
+ * @param {string} outputPath - Path to save image
+ * @param {string} text - Text to display on image
+ * @param {number} index - Index for color variation
+ */
+async function generateLocalFallbackImage(outputPath, text, index) {
+  const { execSync } = await import('child_process');
+  
+  const colors = [
+    'darkblue', 'darkgreen', 'purple', 'darkred', 'darkorange', 
+    'teal', 'indigo', 'maroon', 'navy', 'olive'
+  ];
+  
+  const color = colors[index % colors.length];
+  
+  try {
+    const cmd = `ffmpeg -f lavfi -i color=c=${color}:s=1080x1920:d=1 -vf "drawtext=text='${text}':fontsize=64:fontcolor=white:x=(w-text_w)/2:y=(h-text_h)/2" -frames:v 1 -y "${outputPath}"`;
+    execSync(cmd, { stdio: 'pipe' });
+    console.log(`   ✅ [Imagen] Created local fallback image: ${outputPath}`);
+  } catch (error) {
+    console.error(`   ❌ [Imagen] Failed to create local fallback image: ${error.message}`);
+  }
 }
 
 export { 
