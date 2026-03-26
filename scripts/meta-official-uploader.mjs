@@ -200,10 +200,27 @@ async function uploadToInstagram(videoPath, caption) {
   }
 
   console.log(`[IG] Creating media container (Cloud-Pull mode)...`);
+  
+  // Enhanced Reel settings with multi-language support
+  const reelSettings = {
+    media_type: 'REELS',
+    video_url: videoUrl,
+    caption: caption, // Instagram auto-translates captions for viewers
+    share_to_feed: true,
+    // Optional: Add cover frame (first frame by default)
+    // cover_url: coverImageUrl, // Uncomment if you have custom thumbnails
+    // Optional: Add location (improves discoverability)
+    // location_id: '123456', // Uncomment to add location tagging
+    // Optional: Audio attribution
+    // audio_name: 'Original Audio', // Uncomment for audio credit
+    // Note: Instagram automatically provides "See Translation" for captions
+    // in different languages. Use emojis and universal symbols for better reach.
+  };
+  
   const initRes = await apiCall(
     `${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`,
     'POST',
-    { media_type: 'REELS', video_url: videoUrl, caption, share_to_feed: true }
+    reelSettings
   );
   const containerId = initRes.id;
   console.log(`[IG] Container: ${containerId}. Waiting for cloud ingestion...`);
