@@ -66,19 +66,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You've never seen space like this.",
+        "text": "You won't believe what's out there.",
+        "duration": 3
+      },
+      {
+        "text": "What if you could SEE infinity?",
         "duration": 4
       },
       {
-        "text": "What if galaxies were... alive?",
-        "duration": 4
+        "text": "Behold: galaxies colliding! Black holes eating stars!",
+        "duration": 5
       },
       {
-        "text": "Behold: Cosmic nebulae breathing!",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
@@ -91,11 +91,11 @@
         "duration": 4
       },
       {
-        "text": "Deep in the ocean, what lurks?",
+        "text": "Deep down, what could it be?",
         "duration": 4
       },
       {
-        "text": "Giant, unseen horrors... It's real.",
+        "text": "Giant, unseen horrors lurk. Bioluminescent teeth.",
         "duration": 4
       },
       {
@@ -108,15 +108,15 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You won't believe what I saw.",
+        "text": "You won't believe this exists...",
         "duration": 4
       },
       {
-        "text": "This aurora… was it real?",
+        "text": "What causes skies to ignite?",
         "duration": 4
       },
       {
-        "text": "Witness the sky's fiery dance!",
+        "text": "Behold: A STELLAR Aurora!",
         "duration": 4
       },
       {
@@ -129,15 +129,15 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They're already running your future.",
+        "text": "They're already running the simulation.",
         "duration": 4
       },
       {
-        "text": "What if your life's a test?",
+        "text": "What if your life isn't real?",
         "duration": 4
       },
       {
-        "text": "Simulations predict societal collapse.",
+        "text": "AI controls everything... including you.",
         "duration": 4
       },
       {
@@ -2726,6 +2726,27 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1774504728292": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Witness the birth of pure data!",
+        "duration": 3
+      },
+      {
+        "text": "Ever seen intelligence... become art?",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid, hyper-car interiors, neural networks... all flowing!",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1774504728292, you're in the right place. Subscribe.",
+        "duration": 4
       }
     ]
   }
