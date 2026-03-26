@@ -2686,5 +2686,26 @@
         "duration": 3
       }
     ]
+  },
+  "ApexFlow_1774491100207": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "This isn't just data. It's ALIVE.",
+        "duration": 4
+      },
+      {
+        "text": "Can you see the hidden code within?",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid. Hyper-car. Neural flow.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
   }
 }
