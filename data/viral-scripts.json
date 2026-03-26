@@ -2644,5 +2644,47 @@
         "duration": 3
       }
     ]
+  },
+  "ApexFlow_1774471097752": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "You're seeing the future... right now.",
+        "duration": 4
+      },
+      {
+        "text": "But what is this neon chaos really?",
+        "duration": 4
+      },
+      {
+        "text": "It's pure data, flowing, alive. The Apex.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1774471097752.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1774490365612": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "This isn't just data. It's life.",
+        "duration": 4
+      },
+      {
+        "text": "Can you see the unseen forces?",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid. Neural network flow. Perfection.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
   }
 }
