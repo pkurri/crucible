@@ -21,49 +21,88 @@ const PRO_MODELS = [
 ];
 
 export async function callAI(prompt, systemPrompt = "You are a viral content architect for AAK Nation.", usePro = false) {
-  const models = usePro ? [...PRO_MODELS, ...FREE_MODELS] : FREE_MODELS;
-  
-  let lastError = null;
-  for (const modelId of models) {
-    try {
-      console.log(`   🤖 [AI] Attempting ${modelId}...`);
-      const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${OPENROUTER_KEY}`,
-          'Content-Type': 'application/json',
-          'HTTP-Referer': 'https://crucible-ai-empire.com',
-          'X-Title': 'Crucible Empire'
-        },
-        body: JSON.stringify({
-          model: modelId,
-          messages: [
-            { role: 'system', content: systemPrompt },
-            { role: 'user', content: prompt }
-          ],
-          temperature: 0.7,
-          max_tokens: 1000
-        })
-      });
-
-      const data = await response.json();
-      if (data.choices && data.choices[0] && data.choices[0].message.content) {
-        console.log(`   ✅ [AI] Success with ${modelId}`);
-        return data.choices[0].message.content.trim();
-      }
-      
-      const errMsg = data.error ? data.error.message : 'Unknown error / Empty response';
-      console.warn(`   ⚠️ [AI] ${modelId} failed: ${errMsg}`);
-      lastError = errMsg;
-    } catch (err) {
-      console.warn(`   ⚠️ [AI] ${modelId} network error: ${err.message}`);
-      lastError = err.message;
-    }
+  // 1. Try Pollinations AI first (completely free, no API key needed)
+  try {
+    console.log(`   🤖 [AI] Attempting Pollinations AI (Free Tier)...`);
+    const response = await fetch('https://text.pollinations.ai/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        messages: [
+          { role: 'system', content: systemPrompt },
+          { role: 'user', content: prompt }
+        ]
+      })
+    });
     
-    await new Promise(r => setTimeout(r, 2000));
+    if (response.ok) {
+      const text = await response.text();
+      if (text && text.trim().length > 0 && !text.includes('Error')) {
+        console.log(`   ✅ [AI] Success with Pollinations AI`);
+        return text.trim();
+      }
+    }
+  } catch (err) {
+    console.warn(`   ⚠️ [AI] Pollinations failed: ${err.message}`);
   }
 
-  console.warn(`   ⚠️ [AI] ALL AI MODELS EXHAUSTED (${lastError}). USING MOCK FALLBACK.`);
+  // 2. Fallback to OpenRouter if key exists
+  let lastError = null;
+  if (OPENROUTER_KEY) {
+    const models = usePro ? [...PRO_MODELS, ...FREE_MODELS] : FREE_MODELS;
+    
+    for (const modelId of models) {
+      try {
+        console.log(`   🤖 [AI] Attempting OpenRouter: ${modelId}...`);
+        const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${OPENROUTER_KEY}`,
+            'Content-Type': 'application/json',
+            'HTTP-Referer': 'https://crucible-ai-empire.com',
+            'X-Title': 'Crucible Empire'
+          },
+          body: JSON.stringify({
+            model: modelId,
+            messages: [
+              { role: 'system', content: systemPrompt },
+              { role: 'user', content: prompt }
+            ],
+            temperature: 0.7,
+            max_tokens: 1000
+          })
+        });
+
+        const data = await response.json();
+        
+        // If "User not found" or auth error, break OpenRouter loop immediately
+        if (data.error && (data.error.code === 401 || data.error.message?.includes('User not found'))) {
+          console.warn(`   ⚠️ [AI] OpenRouter Auth Error: ${data.error.message}. Skipping remaining OpenRouter models.`);
+          lastError = data.error.message;
+          break; 
+        }
+        
+        if (data.choices && data.choices[0] && data.choices[0].message.content) {
+          console.log(`   ✅ [AI] Success with ${modelId}`);
+          return data.choices[0].message.content.trim();
+        }
+        
+        const errMsg = data.error ? data.error.message : 'Unknown error / Empty response';
+        console.warn(`   ⚠️ [AI] ${modelId} failed: ${errMsg}`);
+        lastError = errMsg;
+      } catch (err) {
+        console.warn(`   ⚠️ [AI] ${modelId} network error: ${err.message}`);
+        lastError = err.message;
+      }
+      
+      await new Promise(r => setTimeout(r, 2000));
+    }
+  } else {
+    console.warn(`   ⚠️ [AI] OPENROUTER_API_KEY missing, skipping OpenRouter models.`);
+  }
+
+  // 3. Final Mock Fallback
+  console.warn(`   ⚠️ [AI] ALL AI MODELS EXHAUSTED (${lastError || 'No keys/APIs available'}). USING MOCK FALLBACK.`);
   
   // Return intelligent mock data based on the prompt content to keep pipeline running
   if (prompt.toLowerCase().includes("script")) {
