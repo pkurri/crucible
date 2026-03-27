@@ -60,27 +60,43 @@
     "tool_calls": []
   },
   "DeepSeaCreatureDiscoveries": {
-    "role": "assistant",
-    "reasoning_content": "We need write 4 lines, each <=60 chars. Duration: 4,4,4,3 seconds. Must end with the CTA line unchanged. Must keep high stakes fear. Must start with pattern interrupt hook: unexpected. Ensure clear problem->insight transformation.\n\nLine1: pattern interrupt hook, 0-3s. Eg: \"The ocean hides a monster that hasn't even blinked yet.\" Keep under 60 characters. Count: \"The ocean hides a monster that hasn't even blinked yet.\" = Let's count: The(3) space1=4, ocean(5)=9, space=10, hides(5)=15, space=16, a=17, space=18, monster(7)=25, space=26, that=4=30, space=31, hasn't=6=37, space=38, even=4=42, space=43, blinked=7=50, space=51, yet=3=54. So 54 <60 good. Could be less? Good.\n\nLine2: curiosity loop/problem. \"What if the abyss could stare back at you?\" Count: What(4), space5, if(2)=7, space8, the(3)=11, space12, abyss(5)=17, space18, could(4)=22, space23, stare(5)=28, space29, back(4)=33, space34, at(2)=36, space37, you?(3)=40. Good.\n\nLine3: insight/payoff: \"Bioluminescent eyes reveal secrets that are deadly.\" Count: Bioluminescent(14)=14, space15, eyes(4)=19, space20, reveal(6)=26, space27, secrets(7)=34, space35, that(4)=39, space40, are(3)=43, space44, deadly(6)=50. Good.\n\nLine4: Provided CTA: \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" Must be under 60 characters? The instruction didn't say for all lines; just each line under 60. Let's count: If(2)=2, space=3, you(3)=6, space=7, want(4)=11, space12, to(2)=14, space15, master(6)=21, space22, DeepSeaCreatureDiscoveries(28? actually count: Deep(4)=26? Wait compute: \"DeepSeaCreatureDiscoveries\" letters: 4+3+8+9+9? Let's just count: D(1) e(2) e(3) p(4) S(5) e(6) a(7) C(8) r(9) e(10) a(11) t(12) u(13) r(14) e(15) D(16) i(17) s(18) c(19) o(20) v(21) e(22) r(23) i(24) e(25) s(26). So 26 characters. Good. So continue. So far we had 21 letters \"Deep\"? Wait we haven't counted all. Let's just write the entire string: \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\"\n\nLet's count whole: If(2) + space(1)=3, you(3)=6, space=7, want(4)=11, space=12, to(2)=14, space=15, master(6)=21, space=22, DeepSeaCreatureDiscoveries,(? there is a comma) We'll count letters: 26. So after word, 26 letters + comma. So 22+26=48, plus comma=49, space=50, you're(5? find: you re: \"you’re\" it has you (3) + r (1) + e(1) + apostrophe? We can count 5: you're = 5 letters plus apostrophe. So if we treat it as 5. So 50+5=55, plus space=56. Next: in(2)=58, space=59, the(3)=62, space=63. Wait we exceed 60. But the instruction says each line under 60 characters. Possibly all lines. So we need to keep CTA under 60. Might need to shorten the CTA? But it's given as a fixed phrase. They want \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" It's fixed. It might exceed 60, but the instruction says keep each line under 60, maybe we can skip it? But the line must be exactly that? They said \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" It is the CTA line. Could be under 60 but it's apparently longer. Let's count properly: Use plain ASCII: \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" Eh count: Let's count via groups: \"If\" (2) + space (1)=3; \"you\" (3)=6; space=7; \"want\"(4)=11; space=12; \"to\"(2)=14; space=15; \"master\"(6)=21; space=22; \"DeepSeaCreatureDiscoveries,\" (This whole token has 26 letters plus comma, so 27). So 22+27=49. Space=50; \"you're\"(5 inc apostrophe) =55; space=56; \"in\"(2)=58; space=59; \"the\"(3)=62; space=63; \"right\"(5)=68; space=69; \"place.\" (6 including period?) Let's count: place (5) + period (1)=6 -> 73; space=74; \"Subscribe.\" (9 inc period?) Actually \"Subscribe.\" length 9 incl period. 74+9=83. So it's 83 characters. Exceeds 60. So we cannot meet each line under 60 if we use the CTA fully?\n\nBut they specifically instruct: \"Return ONLY a JSON object: { ... lines: [ { text:\"...\", duration:... }, ... ] }\" and they include the CTA line exactly.\n\nTherefore maybe the instruction about 60 chars disregards the CTA (maybe it doesn't apply to CTA). However, earlier they said \"CRITICAL: 1. Keep each line under 60 characters for mobile readability.\" That includes all lines. But maybe we can reduce preceding lines but keep CTA as is. That may violate the rule but might be okay; maybe more important to follow the spec.\n\nAlternatively, we could split CTA into short line? But \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" is needed. They didn't say we can modify. So we might have to keep entire line because it's required. So rule conflict.\n\nProbably it's okay; they'd accept longer line? But the instruction was harsh. The reminder snippet says \"END EVERY SCRIPT WITH: 'If you want to master DeepSeaCreature",
-    "tool_calls": []
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "They hum in the abyss—hear this?!",
+        "duration": 4
+      },
+      {
+        "text": "What creature keeps its heartbeat in the dark?",
+        "duration": 4
+      },
+      {
+        "text": "It's the bioluminescent hagfish: alive in death.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
+        "duration": 3
+      }
+    ]
   },
   "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Did that storm just rewrite the sky?",
+        "text": "⚡ Imagine lightning slicing the night like a razor.",
         "duration": 4
       },
       {
-        "text": "What if the universe is lighting up a secret dance?",
+        "text": "Ever wondered why auroras blaze blind the stars?",
         "duration": 4
       },
       {
-        "text": "Nature's fiercest shows paint aurorized thunderheads.",
+        "text": "They’re nature’s laser shows, rewiring the sky.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -89,57 +105,46 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The future 3‑5 minutes will be your nightmare.",
+        "text": "Your world is a simulation. The glitch is imminent.",
         "duration": 4
       },
       {
-        "text": "Do you know the glitch that could collapse reality?",
+        "text": "Can you see the collapse before it consumes us?",
         "duration": 4
       },
       {
-        "text": "It’s an AI vector that rewires humanity’s core.",
+        "text": "In 48 hours, AI rewrites reality. Will you survive?",
         "duration": 4
       },
       {
-        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "What if your DNA could rewrite the laws of physics?",
-        "duration": 4
-      },
-      {
-        "text": "Could a creature evolve to breathe black holes?",
-        "duration": 4
-      },
-      {
-        "text": "Meet the Squidwalker—its arms fold into photon jets.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
+    "role": "assistant",
+    "reasoning_content": "We need to produce JSON as specified. The lines: total 4 lines. Each line under 60 characters. Must end with specified line, duration 3. Wordings: high stakes. Niche: HyperEvolutionaryAdaptations. Hook pattern interrupt maybe: \"Imagine animals that ate light.\" Or \"Your brain...\". Need to stay under 60 chars each. Provide durations: 4s for first 3, 3s for last.\n\nExample:\n\n1. Hook: \"Ever seen a creature lift a mountain? 🌄\" Count chars: Let's count: \"Ever seen a creature lift a mountain? 🌄\" That's 35 maybe. good.\n\n2. Curiosity loop: \"What if evolution swapped DNA for data?\" Count: \"What if evolution swapped DNA for data?\" -> 35. Good.\n\n3. Insight: \"Future species will stitch biotech into their cells, racing beyond Earth.\" Count: Let's count: \"Future species will stitch biotech into their cells, racing beyond Earth.\" That's maybe >60? Let's count characters: Future(6) + space 1=7, species7=14, space1=15, will4=19, space1=20, stitch6=26, space1=27, biotech8=35, space1=36, into4=40, space1=41, their5=46, space1=47, cells5=52, ,1=53, space1=54, racing6=60, space1=61, beyond6=67, space1=68, Earth5=73, .1=74. Too long. Need <60. Must shorten.\n\nMaybe: \"Future species stitch biotech into cells, leaving Earth.\" Let's count: Future(6) space1=7 species7=14 space1=15 stitch6=21 space1=22 biotech8=30 space1=31 into4=35 space1=36 cells5=41 comma1=42 space1=43 leaving6=49 space1=50 Earth5=55 period1=56. Good 56.\n\n4. CTA line: \"If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.\" Count: Let's count.\n\nIf(2) space1=3 you(3)=6 space1=7 want(4)=11 space1=12 to(2)=14 space1=15 master(6)=21 space1=22 HyperEvolutionaryAdaptations(34?) need count: H(1)ype(3)=4 revolutionary(?). Let's count exactly: HyperEvolutionaryAdaptations: Hyper(5) Evolutionary(12) Adaptations(10) Actually let's count: H(1) y(2) p(3) e(4) r(5) E(6) v(7) o(8) l(9) u(10) t(11) i(12) o(13) n(14) a(15) r(16) y(17) A(18) d(19) a(20) p(21) t(22) a(23) t(24) i(25) o(26) n(27) s(28). 28 characters. So after master(6) we have space, so far 22 +1 =23. Then Hyper... adds 28 =>51, space =>52. \"you're\"5? Count: you're (youR'e string: y(1) o2 u3 '4 r5 e6 ) 6 chars. Then space =>57. \"in\"2 =>59 space=>60. \"the\"3 =>63 space=>64 \"right\"5 =>69 space=>70 \"place.\"6(?) place.7? Let's compute: place(5) + '.'1=6. So after earlier 70 +6 =76. plus space? Already accounted? Wait we had space after \"right\". We had count after \"right\" 69, space =>70. Then \"place.\" 6 =>76. So total 76 characters, >60. Need shorten.\n\nWe can shorten: \"If you want to master HyperEvolutionaryAdaptations, subscribe.\" Let's count shorter.\n\n\"If you want to master HyperEvolutionaryAdaptations, subscribe.\" Count:\n\nIf(2) + space 1 =3, you3 =>6, space1 =>7, want4 =>11, space1 =>12, to2 =>14, space1 =>15, master6 =>21, space1 =>22, HyperEvolutionaryAdaptations, maybe 28, so 22+28=50, comma1 =>51, space1 =>52, subscribe(9)=61, period1=62. 62>60. Slightly high. Need under 60 characters.\n\nWe can shorten \"subscribe\" to \"smash it!\" or \"hit follow\" but keep meaning. But we need that final line exactly as: \"If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.\" but it must stay under 60 characters? Problem says each line must be under 60 characters for mobile readability. So we need to shorten the final CTA. The requirement says: Return ONLY JSON object lines with \"text\" property. But the specified line says to end with that line exactly: \"If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.\" Wait maybe the developer requires that exact line. But our earlier can be shortened? The instruction says \"END EVERY SCRIPT WITH: \"If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.\" That is a specific line to include, not necessarily need to be under 60 characters? But earlier in the prompt: \"CRITICAL: 1. Keep each line under 60 characters for mobile readability.\" So we must obey both. But if the line is over 60, conflict. Let's attempt to shorten the line while keeping meaning? The instruction is mandatory: end with that line exactly. Maybe we need to keep exactly that line. But it might exceed 60 characters; but maybe okay? But the instruction simpler: produce the final line exactly. The earlier 'CRITICAL' line may be lower priority than final instruction? The \"END EVERY SCRIPT WITH:\" seems higher priority. The final line is mandatory. But 'CRITICAL' lines may also be high. In such conflicts, prioritized instruction tends to be earlier? Let's review: The main request: \"Return ONLY JSON object: {...}. \"END EVERY SCRIPT WITH: \"If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.\" We must use exactly that line. The 'CRITICAL' lines add requirement to keep each line under 60 characters. So we need to see if we can fit within 60. The CTA line currently 62. Maybe we can compress with abbreviations but still appear same? But must same text? The phrase can be compressed: \"If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.\" Maybe we can reduce by removing some punctuation? They might not enforce exact text? The sample earlier: \"END EVERY SCRIPT WITH: ... Subscribe.\" I think they want that sentence. The",
+    "tool_calls": []
   },
   "ImpossibleArchitectureBlueprints": {
+    "role": "assistant",
+    "reasoning_content": "We need to output JSON object. Must have \"voice\": \"en-US-GuyNeural\", \"lines\" array with four elements: each with \"text\" (string) and \"duration\" numeric. Each line <=60 characters. Must fulfill structure: pattern interrupt hook (0-3s - 4 seconds duration maybe 4). Curiosity loop/problem (3-7s - 4 sec). Rapid payoff (7-12s) 4 sec. CTA final 12-15s, 3 sec.\n\nWe must keep each line under 60 characters for mobile readability.\n\nAlso must end with the mandated line: \"Don't let the algorithm hide the truth. Follow for more ImpossibleArchitectureBlueprints.\"\n\nAlso perspective: high-stakes language, awe.\n\nLine durations: Use 4,4,4,3 as suggested.\n\nNeed to ensure each line length <= 60 characters.\n\nLet's craft:\n\n1: Hook: \"Think gravity can’t be broken? Think again.\" Count characters: let's count: \"Think gravity can’t be broken? Think again.\" Count: T=1 h=2 i=3 n=4 k=5 space=6 g=7 r=8 a=9 v=10 i=11 t=12 y=13 space=14 c=15 a=16 n′=17 t=18 (apostrophe after n?) but actual char count maybe 19? Let's just approximate less than 60. We'll use regular apostrophes. Ensure less than 60.\n\nThis line has maybe 35 char. Ok.\n\n2: Curiosity loop: \"What if a city floats, defying Earth’s pull?\" Count: \"What if a city floats, defying Earth’s pull?\" That's maybe 42.\n\n3: Insight payoff: \"See the 3D rendering: zero-gravity metropolis rising.\" Count: \"See the 3D rendering: zero-gravity metropolis rising.\" Let's count: it's around 55 maybe? \"See\"3 space1 2? Let's count: S=1 e=2 e=3 space=4 t=5 h=6 e=7 space=8 3=9 D=10 space=11 r=12 e=13 n=14 d=15 e=16 r=17 i=18 n=19 g=20 :=21 space=22 z=23 e=24 r=25 o=26 -=27 g=28 r=29 a=30 v=31 i=32 t=33 y=34 space=35 m=36 e=37 t=38 r=39 o=40 p=41 o=42 l=43 i=44 t=45 y=46 space=47 r=48 i=49 s=50 e=51 n=52 g=53. 53 characters. fine.\n\n4: CTA line given.\n\nNow, check each line under 60 chars. Hook: \"Think gravity can’t be broken? Think again.\" Let's count: letters: T(1) h2 i3 n4 k5 space6 g7 r8 a9 v10 i11 t12 y13 space14 c15 a16 n17 ’(apostrophe) 18 t19 space20 b21 e22 space23 b24 r25 o26 k27 e28 n29 ?30 space31 T32 h33 i34 n35 k36 space37 a38 g39 a40 n41 . That is 41. Good.\n\nSecond line: \"What if a city floats, defying Earth’s pull?\" Count: W1 h2 a3 t4 space5 i6 f7 space8 a9 space10 c11 i12 t13 y14 space15 f16 l17 o18 a19 t20 s21 ,22 space23 d24 e25 f26 y27 i28 n29 g30 space31 E32 a33 r34 t35 h36 ’37 s38 space39 p40 u41 l42 l43 ?. 43. Good.\n\nThird line: see counted 53. Good.\n\nFourth line is given. We need to make sure that the full CTA line meets <60. Let's count: \"Don't let the algorithm hide the truth. Follow for more ImpossibleArchitectureBlueprints.\"\n\nCount: D1 o2 n'3 t4 space5 l6 e7 t8 space9 t10 h11 e12 space13 a14 l15 g16 o17 r18 i19 t20 h21 m22 space23 h24 i25 d26 e27 space28 t29 h30 e31 space32 t33 r34 u35 t36 h37 .38 space39 F40 o41 l42 l43 o44 w45 space46 f47 o48 r49 space50 m51 o52 r53 e54 space55 I56 m57 p58 o59 s60 i61 v62 e63 A64 r65 c66 h67 i68 t69 e70 c71 t72 u73 r74 e75 B76 l77 u78 u79 p80 r81 i82 e83 t84 s85 . So 85 characters: too long! For mobile readability, must be <=60. So we need to shorten the CTAs.\n\nBut the instructions say: \"END EVERY SCRIPT WITH: 'Don't let the algorithm hide the truth. Follow for more ImpossibleArchitectureBlueprints.'\" So we cannot shorten? The requirement states END EVERY SCRIPT WITH that exact sentence. So we must supply exactly that line. That line is 85 characters, but the requirement says each line under 60. There's a conflict. The instructions are contradictory: 1) Must keep each line under 60 characters for mobile readability. 2) Must end with that exact line. The line is >60. We need to reconcile. Probably the instruction for line length is not strict when specified CTA? Might override with the required sentence? Maybe they want the CTA line included verbatim even if >60 and still under 60? That would conflict. Might need to include the CTA line but maybe we can abbreviate? But instruction says \"END EVERY SCRIPT WITH: The sentence.\" It likely must be exactly that string. Maybe we can replace period with something? But must keep exact. The instruction is absolute. So we should comply with it even if >60. Maybe the line length constraint is only for earlier lines. Let's interpret: each line should be under 60 characters, but the final CTA line must be as given. So we can have final line >60. We'll do that.\n\nThus final output JSON with lines array of 4 lines. The durations: 4,4,4,3 as suggested. The final line is >60. But that's okay.\n\nThus produce JSON. Let's produce final answer.",
+    "tool_calls": []
+  },
+  "CosmicMegaStructureConstruction": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "What if gravity could be turned off?",
+        "text": "Ever dreamed a megastructure that eclipses Earth?",
         "duration": 4
       },
       {
-        "text": "Can these skyward towers actually float?",
+        "text": "What if a Dyson sphere could annihilate energy limits?",
         "duration": 4
       },
       {
-        "text": "Tensegrity, with invisible forces keeps them aloft.",
+        "text": "Picture a Dyson sphere turning starlight into civilization.",
         "duration": 4
       },
       {
@@ -147,11 +152,6 @@
         "duration": 3
       }
     ]
-  },
-  "CosmicMegaStructureConstruction": {
-    "role": "assistant",
-    "reasoning_content": "We need to create a JSON object with voice, and lines array with 4 objects. Each line: text and duration. Must keep each line under 60 characters.\n\nAlso pattern. Format: \n{\n  \"voice\":\"en-US-GuyNeural\",\n  \"lines\":[\n    {\"text\":\"...\",\"duration\":4},\n    {\"text\":\"...\",\"duration\":4},\n    {\"text\":\"...\",\"duration\":4},\n    {\"text\":\"Don't let the algorithm hide the truth. Follow for more CosmicMegaStructureConstruction.\",\"duration\":3}\n  ]\n}\n\nEach line must be <60 characters. Must incorporate Pattern-Interrupt Hook, Curiosity Loop/Problem, Insight/Payoff, CTA.\n\nWe need to keep under 60 characters per text. Let's verify.\n\nHook: e.g., \"ALL 10^12 stars in the galaxy? That's just the size!\" Let's count: \"ALL 10^12 stars in the galaxy? That's just the size!\" Let's count. \"ALL\" 3, space 1, \"10\" 2, \"^12\" 3? Actually \"^12\" 3? It's 3 chars. Then space 1, \"stars\" 5, space 1, \"in\" 2, space 1, \"the\" 3, space 1, \"galaxy?\" 7, space 1, \"That's\" 6, space 1, \"just\" 4, space 1, \"the\" 3, space 1, \"size!\" 5. Sum: 3+1+2+3+1+5+1+2+1+3+1+7+1+6+1+4+1+3+1+5=?? Let's add: 3+1=4, +2=6, +3=9, +1=10, +5=15, +1=16, +2=18, +1=19, +3=22, +1=23, +7=30, +1=31, +6=37, +1=38, +4=42, +1=43, +3=46, +1=47, +5=52. So 52 characters. Good under 60.\n\nBut it says Pattern-Interrupt Hook should be 0-3s. They want 4 second durations for lines; not problem. But we give durations 4 seconds each; that's fine. They said (0-3s), but we can't control but it's fine.\n\nWe need Curiosity Loop: e.g., \"How many megastructures could a Dyson sphere hold?\" Count. \"How\" 3, space1, \"many\"4, space1, \"megastructures\"13, space1, \"could\"5, space1, \"a\"1, space1, \"Dyson\"5, space1, \"sphere\"6, space1, \"hold?\"5. Sum:3+1+4+1+13+1+5+1+1+1+5+1+6+1+5=?? Let's calculate: 3+1=4, +4=8, +1=9, +13=22, +1=23, +5=28, +1=29, +1=30, +1=31, +5=36, +1=37, +6=43, +1=44, +5=49. So 49 < 60.\n\nInsight: e.g., \"A Dyson sphere could house 10^24 humans at once, rewriting limits.\" Count: \"A\"1 space1 \"Dyson\"5 space1 \"sphere\"6 space1 \"could\"5 space1 \"house\"5 space1 \"10^24\"5? Let's count characters: \"10^24\" that's 5 (1,0,^,2,4). space1 \"humans\"6 space1 \"at\"2 space1 \"once,\"5 space1 \"rewriting\"9 space1 \"limits.\"7. Sum:1+1=2, +5=7, +1=8, +6=14, +1=15, +5=20, +1=21, +5=26, +1=27, +6=33, +1=34, +9=43, +1=44, +7=51. All good.\n\nDuration 4 secs. Good.\n\nCTA: \"Don't let the algorithm hide the truth. Follow for more CosmicMegaStructureConstruction.\" Count length. Let's count characters. \"Don't\"5, space1, \"let\"3, space1, \"the\"3, space1, \"algorithm\"9, space1, \"hide\"4, space1, \"the\"3, space1, \"truth.\"6, space1, \"Follow\"6, space1, \"for\"3, space1, \"more\"4, space1, \"CosmicMegaStructureConstruction.\" 33? Let's count properly: \"CosmicMegaStructureConstruction.\" We'll count letters: Cosmic (6), Mega (4) =10, Structure (9)=19, Construction (12)=31, period 1=32. So 32. The line: Should be under 60. Now sum: 5+1=6, +3=9,+1=10,+3=13,+1=14,+9=23,+1=24,+4=28,+1=29,+3=32,+1=33,+6=39,+1=40,+6=46,+1=47,+3=50,+1=51,+4=55,+1=56,+32=88? Wait we didn't account correctly. Let's recalc subtract: we mis-sum. Let's do each component: \n\"Don't\" length 5. \nspace 1 →6\n\"let\" 3 →9\nspace1 →10\n\"the\"3 →13\nspace1 →14\n\"algorithm\"9 →23\nspace1 →24\n\"hide\"4 →28\nspace1 →29\n\"the\"3 →32\nspace1 →33\n\"truth.\"6 →39\nspace1 →40\n\"Follow\"6 →46\nspace1 →47\n\"for\"3 →50\nspace1 →51\n\"more\"4 →55\nspace1 →56\n\"CosmicMegaStructureConstruction.\" length? Let's confirm 32. So 56 +32 = 88. That's over 60. We need to keep CTA under 60 characters. So we need a shorter CTA. Maybe: \"Don't let the algorithm hide the truth. Follow for more!\" Let's count: \"Don't\"5 +1 =6, \"let\"3=9, +1=10, \"the\"3=13, +1=14, \"algorithm\"9=23, +1=24, \"hide\"4=28, +1=29, \"the\"3=32, +1=33, \"truth.\"6=39, +1=40, \"Follow\"6=46, +1=47, \"for\"3=50,",
-    "tool_calls": []
   },
   "SymbioticSpeciesDocumentary": {
     "role": "assistant",
@@ -2861,6 +2861,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1774582825959 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1774591159572": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1774591159572 are finally revealed.",
         "duration": 5
       },
       {
