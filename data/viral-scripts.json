@@ -3084,5 +3084,64 @@
     "role": "assistant",
     "reasoning_content": "We need to produce a JSON object with the fields: \"voice\" string and lines array of four objects. Each line has text string and duration integer number of seconds. Must be 60 chars max each line. Avoid exceeding that. Include pattern interrupt hook text, curiosity loop/prob problem text, insight/payout text, and final CTA.\n\nThe script: Needs to be high-stakes language, awe. Visual keywords: Neon liquid, Data points, Hyper-car interiors, Neural networks.\n\nStructure: Pattern interrupt hook: \"Neon liquid, live data—this will change everything.\" That's 41 chars. Fine.\n\nCuriosity loop/prob: Ask \"How did data points transform a hyper-car interior into a neural dream?\" Let's count: \"How did data points transform a hyper-car interior into a neural dream?\" Count: 70? Let's count letters: How(3) space 1=4, did(3)=7, space=8, data(4)=12, space=13, points(6)=19, space=20, transform(9)=29, space=30, a=31, space=32, hyper-car(9)=41, space=42, interior(8)=50, space=51, into=55, space 56, a=57, space=58, neural=64, space=65, dream?=71. So > 60. Need shorter. Maybe: \"Can data points turn a car interior into a neon dream?\" Count: Can(3)=3, space=4, data(4)=8, space=9, points(6)=15, space=16, turn(4)=20, space=21, a(1)=22, space=23, car(3)=26, space=27, interior(8)=35, space=36, into(4)=40, space=41, a(1)=42, space=43, neon(4)=47, space=48, dream?(5)=53. Under 60. Good.\n\nInsight/payoff: Provide insight. Could say: \"Watch neon liquid flow through silicon lines, unlocking hyper‑speed perception.\" Count: Watch(5)=5, space=6, neon(4)=10, space=11, liquid(6)=17, space=18, flow(4)=22, space=23, through(7)=30, space=31, silicon(7)=38, space=39, lines(5)=44, space=45, unlocking(9)=54, space=55, hyper‑speed(10)?? Wait hyphen counts as char. \"hyper-speed\" 10, but check: hyper-speed is 11 inc hyphen? hyper(5)+-1+speed(5)=11. So 44+11=55, space=56, perception(9)=65. Exceeds 60. Need shorter. Maybe: \"Neon liquid pulses neural circuits, turning data into motion.\" Count: Neon(4)=4, space=5, liquid(6)=11, space=12, pulses(6)=18, space=19, neural(6)=25, space=26, circuits(8)=34, space=35, turning(7)=42, space=43, data(4)=47, space=48, into(4)=52, space=53, motion(6)=59. Under 60 exactly 59. Good.\n\nFinally CTA text: Must be \"If you want to master ApexFlow_1774717300333, you're in the right place. Subscribe.\" Count: start counting: If(2)=2, space=3, you(3)=6, space=7, want(4)=11, space=12, to(2)=14, space=15, master(6)=21, space=22, ApexFlow_1774717300333(20?) Let's count: ApexFlow(8)+_(1)=9, 1774717300333 is 13 digits => 13 => total 22? Actually counting: 9+13=22 => char count for that word =22. So total till there: 22+22=44? Wait careful: We had 22 before the word, adding 22 gives 44. Then space=45, you're(6 inc apost) =>51, space=52, in(2)=54, space=55, the(3)=58, space=59, right(4)=63, space=64, place.(6 inc period)=70, space=71, Subscribe.(9) includes dot =80. 80 > 60. Need shorter. The CTA can be shorter but must include the phrase exactly. Maybe we can omit some words? The requirement says \"END EVERY SCRIPT WITH: 'If you want to master ApexFlow_1774717300333, you're in the right place. Subscribe.'\" So we must end with that exact phrase? The phrase is mandatory. For computational counting, it goes over 60 char. But the spec: \"Ensure a clear 'Problem → Insight' transformation.\" And earlier: \"Critical: 1. Keep each line under 60 characters for mobile readability.\" So we need to keep under 60 per line. But CTA is mandatory text, we cannot shorten it to less than 80 characters. This conflicts.\n\nBut could we maybe compress characters? Maybe remove spaces or shorten words? But the required phrase is exactly mandatory line. If we shorten but not follow the exact string, we might break the requirement. Yet \"END EVERY SCRIPT WITH: ... \" It likely expects the CTA exactly. But also earlier \"Critical: Keep each line under 60 characters\". There's a contradiction. Maybe we can still keep under 60 if it's the exact line? But it's 80, so can't. So we need to interpret: The phrase is mandatory but we could use a shorter line that still includes the hook? Maybe the phrase is not mandatory to be exact letters but we must conceptually say that phrase? The instruction: \"END EVERY SCRIPT WITH: 'If you want to master ApexFlow_1774717300333, you're in the right place. Subscribe.'\" That suggests the full sentence must be exact. But then it conflicts. Possibly the 60 character rule might apply to earlier lines only? But it says \"Each line under 60 characters for mobile readability.\" That likely applies to all lines. But contradictory instructions need to be resolved: Which is priority? Probably the explicit phrase is mandatory. So we need to exceed 60 for that line. We could cheat by trimming spaces, but phrase includes spaces. Could compress multiple spaces? Not likely. So maybe we need to satisfy both: find a way to reduce char count. Let's try compress: 'If you want to master ApexFlow_1774717300333, you're in the right place. Subscribe.' We can compress \"If you want to master\" to \"Master\" but then not same. So contradictory. I suspect this is a trick; maybe the 60 char limit is for earlier lines except the CTA line, which has to be exactly the phrase. The instruction says \"Return ONLY a JSON object: ...\" with lines. Maybe we can have the CTA as a separate line after the other lines but still part of",
     "tool_calls": []
+  },
+  "ApexFlow_1774702567280": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1774702567280 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1774715623801": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "You won't believe what Neon liquid does to hyper‑cars!",
+        "duration": 4
+      },
+      {
+        "text": "Every APEX driver loses control at the first twist.",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid rewires neural nets, directing flow like gas.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1774722935949": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid just reprogrammed a hypercar interior.",
+        "duration": 4
+      },
+      {
+        "text": "Why does this neon flow feel like a neural net pulse?",
+        "duration": 4
+      },
+      {
+        "text": "It’s the circuitry of data points, painting velocity.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
   }
 }
