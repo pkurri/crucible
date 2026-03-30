@@ -3492,5 +3492,43 @@
     "role": "assistant",
     "reasoning_content": "We need to craft a script. The niche is \"ApexFlow_1774818034594\" presumably an artist or channel. We must end with CTA \"Don't let the algorithm hide the truth. Follow for more ApexFlow_1774818034594.\"\n\nEach line <60 characters. durations 4 for first 3 lines, 3 for last. Ensure pattern interrupt hook, curiosity loop or problem, insight/payout (rapid payoff). Visual keywords: Neon liquid, Data points, Hyper-car interiors, Neural networks. Use high-stakes language, awe. Problem -> Insight transformation.\n\nWe need to keep first line under 60 characters. Let's propose hook: \"Ever seen a liquid glow like neon blood?\" Count characters: \"Ever seen a liquid glow like neon blood?\" That's 38 characters.\n\nSecond line: \"Is the next trend hidden inside data packets?\" Count: \"Is the next trend hidden inside data packets?\" 44.\n\nThird line: \"Here’s the waveform that powers hyper car rooms.\" Count: \"Here’s the waveform that powers hyper car rooms.\" 46.\n\nFinally CTA: \"Don't let the algorithm hide the truth. Follow for more ApexFlow_1774818034594.\" Count maybe >60? Let's count: \"Don't let the algorithm hide the truth. Follow for more ApexFlow_1774818034594.\" Count characters: I count quickly: \"Don\" (3) + \" 't\" (2?) Actually apostrophes count. Let's just count via careful: D(1) o2 n3 '4 t5 space6 l7 e8 t9 space10 t11 h12 e13 space14 a15 l16 g17 o18 r19 i20 t21 h22 m23 space24 h25 i26 d27 e28 space29 t30 h31 r32 u33 t34 .35 space36 F37 o38 l39 o40 w41 space42 f43 o44 r45 space46 m47 o48 r49 e50 space51 A52 p53 e54 x55 F56 l57 o58 w59 _60 161 7... Wait the ID is long, might exceed 60. The spec says each line under 60 characters for mobile readability. The last line must be <60. That could be a problem. But the instruction didn't say that the last line must be under 60 characters? It says \"Keep each line under 60 characters for mobile readability.\" That includes the last line. So we need to shorten the CTA to <60 characters.\n\nWe must compress \"Don't let the algorithm hide the truth. Follow for more ApexFlow_1774818034594.\" Within 60. Let's shorten: \"Algorithm? More truth. Follow ApexFlow_1774818034594.\" Count: \"Algorithm?\" (10) space 11 \"More\"14 space15 \"truth.\"21 space22 \"Follow\"28 space29 \"ApexFlow_1774818034594.\" this part likely > 16? Actually count: ApexFlow_1774818034594. length: A1 p2 e3 x4 F5 l6 o7 w8 _9 110 711 7 12 etc maybe around 24. So total > 60 probably. We need to condense further. We could do: \"Algorithm hiding truth? Follow ApexFlow_1774818034594.\" Count characters: \"Algorithm\"9? Wait \"Algorithm\" = 9 characters. plus space10, \"hiding\" 6 = 16, space17, \"truth?\" 6 = 23, space24, \"Follow\" 6 => 30, space31, \"ApexFlow_1774818034594.\" maybe 24 -> 54. That might be okay, near limit. Let's count precisely: \"Algorithm\" (9) + space(1) =10. \"hiding\" (6) ->16. space->17. \"truth?\" (6? \"truth?\" letters t r u t h 5 plus ?, 1 =>6) ->23. space ->24. \"Follow\" 6 ->30. space->31. \"ApexFlow_1774818034594.\" Let's count char count for \"ApexFlow_1774818034594.\": Count letters: A1 p2 e3 x4 F5 l6 o7 w8 _9 110 7 11 7 12 1 13 8 14 0 15 3 16 4 17 5 18 9 19 4 20 .21. So that's 21. Add to 31 -> 52. Good under 60. Good.\n\nNow final script JSON:\n\n{\n  \"voice\": \"en-US-GuyNeural\",\n  \"lines\": [\n    { \"text\": \"Ever seen a liquid glow like neon blood?\", \"duration\": 4 },\n    { \"text\": \"Is the next trend hidden inside data packets?\", \"duration\": 4 },\n    { \"text\": \"Here’s the waveform that powers hyper car rooms.\", \"duration\": 4 },\n    { \"text\": \"Algorithm hiding truth? Follow ApexFlow_1774818034594.\", \"duration\": 3 }\n  ]\n}\n\nCheck each line length: first 37 (or 38). second 44. third 46. fourth 52. All <60. All good. Should we use \"Here’s\" with apostrophe may be counted as a char. Accept.\n\nAdd note: \"Don't let the algorithm hide the truth. Follow for more ApexFlow_1774818034594.\" This content replaced by new CTA. Requirement: \"END EVERY SCRIPT WITH: 'Don't let the algorithm hide the truth. Follow for more ApexFlow_1774818034594.'\" That seems required. But our new CTA changed to \"Algorithm hiding truth? Follow ApexFlow_1774818034594.\" The instruction: \"END EVERY SCRIPT WITH: 'Don't let the algorithm hide the truth. Follow for more ApexFlow_1774818034594.'\" So we must include that EXACT phrase? Yes. But must stay under 60. That phrase is longer. Let's count: \"Don't let the algorithm hide the truth. Follow for more ApexFlow_1774818034594.\" Count characters: \"Don't\" 5, space6, \"let\" 9, space10, \"the\" 13, space14, \"algorithm\" 23, space24, \"hide\" 28, space29, \"the\" 32, space33, \"truth.\" 39, space40, \"Follow\" 46, space47, \"for\" 50, space51, \"more\" 55, space56, \"ApexFlow_1774818034594.\" count after: maybe 24 more => 80. So >60. So cannot comply with both instruction: each line under 60 and must end with exact sentence. But guidelines: \"CRITICAL: 1. Keep each line under 60 characters for mobile readability. 2. ... 3. Ensure a clear 'Problem → Insight' transformation.\"\n\nAlso \"END EVERY SCRIPT WITH: 'Don't let the algorithm hide the truth. Follow for more ApexFlow_177481",
     "tool_calls": []
+  },
+  "ApexFlow_1774816334173": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1774816334173 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1774836339745": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon chaos",
+        "duration": 2
+      },
+      {
+        "text": "Hidden code?",
+        "duration": 3
+      },
+      {
+        "text": "Data reveals all",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 6
+      }
+    ]
   }
 }
