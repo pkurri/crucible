@@ -67,7 +67,28 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "text": "They hum in the abyss—hear this?!",
+        "duration": 4
+      },
+      {
+        "text": "What creature keeps its heartbeat in the dark?",
+        "duration": 4
+      },
+      {
+        "text": "It's the bioluminescent hagfish: alive in death.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
+        "duration": 3
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
         "duration": 5
       },
       {
@@ -77,27 +98,6 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Did that storm just rewrite the sky?",
-        "duration": 4
-      },
-      {
-        "text": "What if the universe is lighting up a secret dance?",
-        "duration": 4
-      },
-      {
-        "text": "Nature's fiercest shows paint aurorized thunderheads.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
       }
     ]
   },
@@ -3736,6 +3736,23 @@
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1774905125682": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1774905125682 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
