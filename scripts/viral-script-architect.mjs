@@ -12,16 +12,40 @@ const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
 const SCRIPTS_FILE = path.join(process.cwd(), 'data', 'viral-scripts.json');
 
 function cleanJSON(str) {
+  // 1. Basic cleaning
+  const cleaned = str.replace(/```json\n?|```/g, '').trim();
+  
+  // 2. Try parsing entire string first
   try {
-    return JSON.parse(str.replace(/```json\n?|```/g, '').trim());
-  } catch (e) {
-    const start = str.indexOf('{');
-    const end = str.lastIndexOf('}');
-    if (start !== -1 && end !== -1) {
-      return JSON.parse(str.substring(start, end + 1));
+    const parsed = JSON.parse(cleaned);
+    if (parsed.lines) return parsed;
+    if (parsed.content && typeof parsed.content === 'string') {
+       const inner = cleanJSON(parsed.content);
+       if (inner.lines) return inner;
     }
-    throw e;
-  }
+    // If it's a message object but no lines, it might be in content as JSON
+  } catch (e) { /* ignore and try regex extraction */ }
+
+  // 3. RegEx extraction for innermost { "lines": ... } or outermost object
+  try {
+    const matches = str.match(/\{[\s\S]*\}/g);
+    if (matches) {
+      // Sort by length (descending) to find the most probable candidate or try each
+      for (const match of matches) {
+        try {
+          const obj = JSON.parse(match);
+          if (obj.lines) return obj;
+          // If it's a wrapper object (like OpenRouter response), check content
+          if (obj.choices && obj.choices[0]?.message?.content) {
+            const nested = cleanJSON(obj.choices[0].message.content);
+            if (nested.lines) return nested;
+          }
+        } catch (e) { continue; }
+      }
+    }
+  } catch (e) { /* fall back to error */ }
+
+  throw new Error("Could not extract a valid script JSON with 'lines' property.");
 }
 
 const SUB_HOOKS = [

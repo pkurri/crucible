@@ -76,6 +76,10 @@ if (fs.existsSync(SCRIPTS_PATH)) {
 }
 
 function generateVoiceover(topicDir, script) {
+  if (!script || !script.lines) {
+    console.warn(`⚠️ [TTS] Script for ${path.basename(topicDir)} is missing lines. Using fallback.`);
+    return { audioPath: null, subtitlePath: null };
+  }
   const fullText = script.lines.map(l => l.text).join(' ');
   const audioPath = path.join(topicDir, 'voiceover.mp3');
   const subtitlePath = path.join(topicDir, 'captions.vtt');
