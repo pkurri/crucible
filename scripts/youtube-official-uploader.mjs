@@ -104,12 +104,8 @@ async function uploadVideo() {
     : path.join(process.cwd(), 'data', 'youtube-empire', channelName, 'topics', topicName, 'final-render.mp4');
 
   if (!existsSync(videoFilePath)) {
-    console.log('⚠️ No real video file found at: ' + videoFilePath);
-    console.log('📡 Performing "Handshake Check" instead...');
-    const res = await youtube.channels.list({ part: 'snippet', mine: true });
-    const channel = res.data.items[0];
-    console.log('✅ Connectivity Verified: ' + (channel ? channel.snippet.title : 'Unknown'));
-    return;
+    console.error('❌ No video file found at: ' + videoFilePath + '. Cannot upload.');
+    process.exit(1);
   }
 
   console.log(`🚢 Pushing 4K Video to ${channelName}...`);
@@ -149,6 +145,7 @@ async function uploadVideo() {
 
   } catch (err) {
     console.error('❌ Upload Error: ' + err.message);
+    process.exit(1);
   }
 }
 
