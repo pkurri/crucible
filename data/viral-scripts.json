@@ -47,14 +47,42 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "role": "assistant",
-    "reasoning_content": "We need to produce a JSON object with voice key and lines array. Each line object has text and duration values.\n\nWe need to adhere to constraints: each line under 60 characters. The pattern: hook 0-3s, curiosity 3-7s, rapid payoff 7-12s, engagement 12-15s. The durations we specify: For hook 4 seconds, curiosity 4 seconds, payoff 4 seconds, CTA 3 seconds. That totals 15 seconds. Good.\n\nWe must produce under 60 characters per line. The CTA line: \"Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.\" Let's count characters: Count approximate. Let's count: D(1) o2 n3 '4 t5 l6 e7 space8 t9 h10 e11 a12 l13 g14 o15 r16 i17 t18 h19 m20 space21 h22 i23 d24 e25 space26 t27 h28 r29 u30 t31 h32 .33 space34 F35 o36 l37 o38 w39 space40 f41 o42 r43 space44 m45 o46 r47 e48 space49 C50 o51 s52 m53 i54 c55 W56 o57 n58 d59 e60 r61 s62 V63 u64 i65 s66 u67 a68 l69 s70 .71\n\nSo CTA line is 71 characters. Need <=60.\n\nWe must shorten. Maybe \"CosmicWondersVisuals: don't let the algorithm hide truth.\" Count: Let's count: C1 o2 s3 m4 i5 c6 W7 o8 n9 d10 e11 r12 s13 V14 i15 s16 u17 a18 l19 s20 :21 space22 d23 o24 n25 '26 t27 space28 l29 e30 t31 space32 t33 h34 e35 space36 a37 l38 g39 o40 r41 i42 t43 h44 m45 space46 h47 i48 d49 e50 space51 t52 r53 u54 t55 h56 .57\n\nSo 57 characters, within limit. But we need the CTA to match \"Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.\" but we must shorten. Let's produce \"Don't let the algorithm hide truth. Follow CosmicWondersVisuals.\" Count:\n\nD1 o2 n3 '4 t5 space6 l7 e8 t9 space10 t11 h12 e13 space14 a15 l16 g17 o18 r19 i20 t21 h22 m23 space24 h25 i26 d27 e28 space29 t30 r31 u32 t33 h34 .35 space36 F37 o38 l39 o40 w41 space42 C43 o44 s45 m46 i47 c48 W49 o50 n51 d52 e53 r54 s55 V56 i57 s58 u59 a60 l61 s62 .63\n\n63, over 60. Maybe \"Don't let the algorithm hide truth. Follow us.\" Count:\n\nD1 o2 n3 '4 t5 space6 l7 e8 t9 space10 t11 h12 e13 space14 a15 l16 g17 o18 r19 i20 t21 h22 m23 space24 h25 i26 d27 e28 space29 t30 r31 u32 t33 h34 .35 space36 F37 o38 l39 o40 w41 space42 u43 s44 .45\n\n45 chars. That works. But might not mention \"CosmicWondersVisuals\" though we can mention in earlier lines.\n\nHowever guidelines: \"END EVERY SCRIPT WITH: Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.\" So whatever we output must end with that exact sentence? The instructions say \"END EVERY SCRIPT WITH: \"Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.\" So we must output that line exactly. But constraints state each line under 60 characters, but the exact line is over 60. So conflict. Perhaps we interpret that the final line is to be included verbatim. The instruction might override length constraints. But also there are constraints: \"1. Keep each line under 60 characters for mobile readability.\" That's a MUST.\n\nThus we need to reconcile. Maybe we are allowed to exceed? But if we ignore the 60 char constraint the CTA line is necessary. But we can still keep under 60 by cutting? But instruction says \"END EVERY SCRIPT WITH: [sentence].\" That seems mandatory. But maybe we can consider that we must obey the requirement but also keep each line under 60. Something contradictory. The best approach: produce the line exactly, but note that we exceed 60 but we might be okay. But \"Critical 1\" might be more important. So we might need to produce a short version and still \"follow for more CosmicWondersVisuals.\" But the key phrase: \"Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.\" is precise. We can attempt to keep under 60 by removing spaces? Let's compute again: \"Don't let the algorithm hide truth. Follow for more CosmicWondersVisuals.\" Count: D1 o2 n3 '4 t5 space6 l7 e8 t9 space10 t11 h12 e13 space14 a15 l16 g17 o18 r19 i20 t21 h22 m23 space24 h25 i26 d27 e28 space29 t30 r31 u32 t33 h34 .35 space36 F37 o38 l39 o40 w41 space42 f43 o44 r45 space46 m47 o48 r49 e50 space51 C52 o53 s54 m55 i56 c57 W58 o59 n60 d61 e62 r63 s64 V65 i66 s67 u68 a69 l70 s71 .72\n\n72 > 60. So can't keep exactly.\n\nIf we drop period after \"truth\": \"Don't let the algorithm hide truth. Follow for more CosmicWondersVisuals.\" Count again: D1 o2 n3 '4 t5 space6 l7 e8 t9 space10 t11 h12 e13 space14 a15 l16 g17 o18 r19 i20 t21 h22 m23 space24 h25 i26 d27 e28 space29 t30 r31 u32 t33 h34 .35 space36 F37 o38 l39 o40 w41 space42 f43 o44 r45 space46 m47 o48 r49 e50 space51 C52 o53 s54 m55 i56 c57 W58 o59 n60 d61 e62 r63 s64 V65 i66 s67 u68 a69 l70 s71 .72\n\nSame. The period doesn't affect.\n\nIf we cut \"for more\" maybe \"Don't let the algorithm hide truth. Follow CosmicWondersVisuals.\" Count:\n\nDon't let the algorithm hide truth. Follow CosmicWondersVisuals.\n\nCount: D1 o2 n3 '4 t5 space6 l7 e8 t9 space10 t11 h12 e",
-    "tool_calls": []
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "role": "assistant",
-    "reasoning_content": "We need write 4 lines, each <=60 chars. Duration: 4,4,4,3 seconds. Must end with the CTA line unchanged. Must keep high stakes fear. Must start with pattern interrupt hook: unexpected. Ensure clear problem->insight transformation.\n\nLine1: pattern interrupt hook, 0-3s. Eg: \"The ocean hides a monster that hasn't even blinked yet.\" Keep under 60 characters. Count: \"The ocean hides a monster that hasn't even blinked yet.\" = Let's count: The(3) space1=4, ocean(5)=9, space=10, hides(5)=15, space=16, a=17, space=18, monster(7)=25, space=26, that=4=30, space=31, hasn't=6=37, space=38, even=4=42, space=43, blinked=7=50, space=51, yet=3=54. So 54 <60 good. Could be less? Good.\n\nLine2: curiosity loop/problem. \"What if the abyss could stare back at you?\" Count: What(4), space5, if(2)=7, space8, the(3)=11, space12, abyss(5)=17, space18, could(4)=22, space23, stare(5)=28, space29, back(4)=33, space34, at(2)=36, space37, you?(3)=40. Good.\n\nLine3: insight/payoff: \"Bioluminescent eyes reveal secrets that are deadly.\" Count: Bioluminescent(14)=14, space15, eyes(4)=19, space20, reveal(6)=26, space27, secrets(7)=34, space35, that(4)=39, space40, are(3)=43, space44, deadly(6)=50. Good.\n\nLine4: Provided CTA: \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" Must be under 60 characters? The instruction didn't say for all lines; just each line under 60. Let's count: If(2)=2, space=3, you(3)=6, space=7, want(4)=11, space12, to(2)=14, space15, master(6)=21, space22, DeepSeaCreatureDiscoveries(28? actually count: Deep(4)=26? Wait compute: \"DeepSeaCreatureDiscoveries\" letters: 4+3+8+9+9? Let's just count: D(1) e(2) e(3) p(4) S(5) e(6) a(7) C(8) r(9) e(10) a(11) t(12) u(13) r(14) e(15) D(16) i(17) s(18) c(19) o(20) v(21) e(22) r(23) i(24) e(25) s(26). So 26 characters. Good. So continue. So far we had 21 letters \"Deep\"? Wait we haven't counted all. Let's just write the entire string: \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\"\n\nLet's count whole: If(2) + space(1)=3, you(3)=6, space=7, want(4)=11, space=12, to(2)=14, space=15, master(6)=21, space=22, DeepSeaCreatureDiscoveries,(? there is a comma) We'll count letters: 26. So after word, 26 letters + comma. So 22+26=48, plus comma=49, space=50, you're(5? find: you re: \"you’re\" it has you (3) + r (1) + e(1) + apostrophe? We can count 5: you're = 5 letters plus apostrophe. So if we treat it as 5. So 50+5=55, plus space=56. Next: in(2)=58, space=59, the(3)=62, space=63. Wait we exceed 60. But the instruction says each line under 60 characters. Possibly all lines. So we need to keep CTA under 60. Might need to shorten the CTA? But it's given as a fixed phrase. They want \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" It's fixed. It might exceed 60, but the instruction says keep each line under 60, maybe we can skip it? But the line must be exactly that? They said \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" It is the CTA line. Could be under 60 but it's apparently longer. Let's count properly: Use plain ASCII: \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" Eh count: Let's count via groups: \"If\" (2) + space (1)=3; \"you\" (3)=6; space=7; \"want\"(4)=11; space=12; \"to\"(2)=14; space=15; \"master\"(6)=21; space=22; \"DeepSeaCreatureDiscoveries,\" (This whole token has 26 letters plus comma, so 27). So 22+27=49. Space=50; \"you're\"(5 inc apostrophe) =55; space=56; \"in\"(2)=58; space=59; \"the\"(3)=62; space=63; \"right\"(5)=68; space=69; \"place.\" (6 including period?) Let's count: place (5) + period (1)=6 -> 73; space=74; \"Subscribe.\" (9 inc period?) Actually \"Subscribe.\" length 9 incl period. 74+9=83. So it's 83 characters. Exceeds 60. So we cannot meet each line under 60 if we use the CTA fully?\n\nBut they specifically instruct: \"Return ONLY a JSON object: { ... lines: [ { text:\"...\", duration:... }, ... ] }\" and they include the CTA line exactly.\n\nTherefore maybe the instruction about 60 chars disregards the CTA (maybe it doesn't apply to CTA). However, earlier they said \"CRITICAL: 1. Keep each line under 60 characters for mobile readability.\" That includes all lines. But maybe we can reduce preceding lines but keep CTA as is. That may violate the rule but might be okay; maybe more important to follow the spec.\n\nAlternatively, we could split CTA into short line? But \"If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.\" is needed. They didn't say we can modify. So we might have to keep entire line because it's required. So rule conflict.\n\nProbably it's okay; they'd accept longer line? But the instruction was harsh. The reminder snippet says \"END EVERY SCRIPT WITH: 'If you want to master DeepSeaCreature",
-    "tool_calls": []
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "They hum in the abyss—hear this?!",
+        "duration": 4
+      },
+      {
+        "text": "What creature keeps its heartbeat in the dark?",
+        "duration": 4
+      },
+      {
+        "text": "It's the bioluminescent hagfish: alive in death.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
+        "duration": 3
+      }
+    ]
   },
   "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
@@ -81,19 +109,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your world is a simulation. The glitch is imminent.",
+        "text": "The future 3‑5 minutes will be your nightmare.",
         "duration": 4
       },
       {
-        "text": "Can you see the collapse before it consumes us?",
+        "text": "Do you know the glitch that could collapse reality?",
         "duration": 4
       },
       {
-        "text": "In 48 hours, AI rewrites reality. Will you survive?",
+        "text": "It’s an AI vector that rewires humanity’s core.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -3648,6 +3676,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1774837503180 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1774880107753": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1774880107753 are finally revealed.",
         "duration": 5
       },
       {
