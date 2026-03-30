@@ -84,19 +84,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
+        "text": "Did that storm just rewrite the sky?",
         "duration": 4
       },
       {
-        "text": "Ever wondered why auroras blaze blind the stars?",
+        "text": "What if the universe is lighting up a secret dance?",
         "duration": 4
       },
       {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
+        "text": "Nature's fiercest shows paint aurorized thunderheads.",
         "duration": 4
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
@@ -3714,6 +3714,27 @@
       },
       {
         "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1774889736293.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1774892193004": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "STOP. Neon flow rewrites hyper‑car walls.",
+        "duration": 4
+      },
+      {
+        "text": "How does data glow into living neon in hyper‑cars?",
+        "duration": 4
+      },
+      {
+        "text": "Neural networks pulse, turning dashboards into liquid art.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]
