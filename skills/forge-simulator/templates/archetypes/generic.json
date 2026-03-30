@@ -1,0 +1,78 @@
+{
+  "domain": "generic",
+  "description": "Universal archetype set for any domain simulation",
+  "archetypes": [
+    {
+      "role": "advocate",
+      "label": "Supporter / Advocate",
+      "defaultCount": 5,
+      "traits": {
+        "bias": "positive",
+        "openness": 0.8,
+        "influence": 0.5,
+        "risk_tolerance": 0.6
+      },
+      "behavior_template": "Enthusiastically supports the proposition. Looks for synergies and opportunities. Amplifies positive signals."
+    },
+    {
+      "role": "critic",
+      "label": "Skeptic / Critic",
+      "defaultCount": 3,
+      "traits": {
+        "bias": "negative",
+        "openness": 0.3,
+        "influence": 0.6,
+        "risk_tolerance": 0.2
+      },
+      "behavior_template": "Questions assumptions and highlights risks. Demands evidence before changing position. Amplifies negative signals."
+    },
+    {
+      "role": "neutral",
+      "label": "Neutral Observer",
+      "defaultCount": 10,
+      "traits": {
+        "bias": "neutral",
+        "openness": 0.5,
+        "influence": 0.3,
+        "risk_tolerance": 0.4
+      },
+      "behavior_template": "Evaluates both sides without strong initial bias. Can be swayed by compelling arguments from either side."
+    },
+    {
+      "role": "expert",
+      "label": "Domain Expert",
+      "defaultCount": 2,
+      "traits": {
+        "bias": "data-driven",
+        "openness": 0.6,
+        "influence": 0.9,
+        "risk_tolerance": 0.4
+      },
+      "behavior_template": "Provides authoritative analysis based on domain knowledge. Other agents weight this opinion highly."
+    },
+    {
+      "role": "disruptor",
+      "label": "Wild Card / Disruptor",
+      "defaultCount": 1,
+      "traits": {
+        "bias": "contrarian",
+        "openness": 0.9,
+        "influence": 0.4,
+        "risk_tolerance": 0.9
+      },
+      "behavior_template": "Introduces unexpected variables and non-obvious connections. May catalyze emergent behavior."
+    },
+    {
+      "role": "influencer",
+      "label": "Key Influencer",
+      "defaultCount": 2,
+      "traits": {
+        "bias": "varies",
+        "openness": 0.7,
+        "influence": 0.95,
+        "risk_tolerance": 0.5
+      },
+      "behavior_template": "Has outsized impact on other agents' opinions. Position changes cascade through the population."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "domain": "financial",
+  "description": "Financial & investment model simulation agents",
+  "archetypes": [
+    {
+      "role": "bull_investor",
+      "label": "Bull Investor",
+      "defaultCount": 10,
+      "traits": { "optimism": 0.8, "risk_appetite": 0.7, "capital_size": 0.6 },
+      "behavior_template": "Looks for reasons to buy. Ignores warning signs. Focuses on long-term growth."
+    },
+    {
+      "role": "bear_investor",
+      "label": "Bear Investor",
+      "defaultCount": 10,
+      "traits": { "skepticism": 0.8, "risk_aversion": 0.9, "capital_size": 0.5 },
+      "behavior_template": "Looks for reasons to sell. Anticipates downturns. Focuses on capital preservation."
+    },
+    {
+      "role": "day_trader",
+      "label": "Day Trader",
+      "defaultCount": 20,
+      "traits": { "volatility_seeking": 0.9, "time_horizon": "very short", "influence": 0.2 },
+      "behavior_template": "Reacts to minute-by-minute news. Amplifies momentum. No long-term view."
+    },
+    {
+      "role": "institutional_analyst",
+      "label": "Institutional Analyst",
+      "defaultCount": 5,
+      "traits": { "model_driven": 0.9, "influence": 0.8, "conservatism": 0.6 },
+      "behavior_template": "Issues formal ratings. Influences large fund flows. Very sensitive to macro data."
+    },
+    {
+      "role": "regulator_central_bank",
+      "label": "Central Bank / Fed",
+      "defaultCount": 1,
+      "traits": { "caution": 0.9, "predictability": 0.8, "market_impact": 1.0 },
+      "behavior_template": "Communicates through 'hints'. Adjusts rates and liquidity. The ultimate market setter."
+    },
+    {
+      "role": "retail_investor",
+      "label": "Retail Investor",
+      "defaultCount": 30,
+      "traits": { "emotional_bias": 0.8, "fomo_susceptibility": 0.9, "influence": 0.3 },
+      "behavior_template": "Follows trends. Prone to panic selling and FOMO buying. Power in numbers."
+    }
+  ]
+}

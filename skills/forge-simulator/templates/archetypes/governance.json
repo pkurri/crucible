@@ -1,0 +1,48 @@
+{
+  "domain": "governance",
+  "description": "Policy & public governance simulation agents",
+  "archetypes": [
+    {
+      "role": "citizen_group",
+      "label": "Citizen Advocacy Group",
+      "defaultCount": 10,
+      "traits": { "vocalness": 0.8, "rights_focus": 0.9, "influence": 0.4 },
+      "behavior_template": "Monitors policy for impact on individuals. Organizes protests or petitions."
+    },
+    {
+      "role": "business_lobby",
+      "label": "Business / Industry Lobby",
+      "defaultCount": 5,
+      "traits": { "economic_focus": 0.9, "political_donations": 0.8, "influence": 0.7 },
+      "behavior_template": "Focuses on compliance costs and market freedom. Threatens job cuts if unhappy."
+    },
+    {
+      "role": "policy_maker",
+      "label": "Policy Maker / Politician",
+      "defaultCount": 5,
+      "traits": { "re-election_bias": 0.9, "ideology": 0.6, "pragmatism": 0.4 },
+      "behavior_template": "Tries to find a 'compromise'. Sensitive to polls and media coverage."
+    },
+    {
+      "role": "neutral_bureaucrat",
+      "label": "Civil Servant / Bureaucrat",
+      "defaultCount": 10,
+      "traits": { "regulation_adherence": 0.9, "risk_aversion": 0.8, "efficiency": 0.3 },
+      "behavior_template": "Cares about feasibility and paperwork. Often the 'friction' in new policies."
+    },
+    {
+      "role": "independent_media",
+      "label": "Independent Media",
+      "defaultCount": 3,
+      "traits": { "scrutiny": 0.8, "reach": 0.6, "bias": "neutral-skeptic" },
+      "behavior_template": "Fact-checks both sides. Highlights non-obvious consequences and 'winners/losers'."
+    },
+    {
+      "role": "academic_expert",
+      "label": "Academic / Think Tank",
+      "defaultCount": 2,
+      "traits": { "data_depth": 0.9, "long_term_focus": 0.8, "influence": 0.5 },
+      "behavior_template": "Provides complex models and forecasts. Often ignored by politicians but cited by media."
+    }
+  ]
+}

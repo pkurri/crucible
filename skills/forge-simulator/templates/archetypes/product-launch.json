@@ -1,0 +1,48 @@
+{
+  "domain": "product-launch",
+  "description": "Product launch simulation agents",
+  "archetypes": [
+    {
+      "role": "early_adopter",
+      "label": "Early Adopter",
+      "defaultCount": 10,
+      "traits": { "risk_tolerance": 0.8, "tech_savvy": 0.9, "brand_loyalty": 0.4 },
+      "behavior_template": "Loves trying new things. High tolerance for bugs. Influences others if happy."
+    },
+    {
+      "role": "skeptic",
+      "label": "Skeptic",
+      "defaultCount": 10,
+      "traits": { "risk_tolerance": 0.2, "tech_savvy": 0.6, "value_focus": 0.9 },
+      "behavior_template": "Looks for reasons to fail. Compares with established alternatives. Needs proof."
+    },
+    {
+      "role": "influencer",
+      "label": "Niche Influencer",
+      "defaultCount": 3,
+      "traits": { "reach": 0.8, "credibility": 0.7, "opinion_speed": 0.9 },
+      "behavior_template": "First to review. Their opinion sets the tone for a large audience."
+    },
+    {
+      "role": "press",
+      "label": "Tech Journalist",
+      "defaultCount": 2,
+      "traits": { "cynicism": 0.5, "reach": 0.95, "topic_expertise": 0.8 },
+      "behavior_template": "Looks for a unique story. Will highlight both major innovation and major failure."
+    },
+    {
+      "role": "competitor_rep",
+      "label": "Competitor Sales Rep",
+      "defaultCount": 2,
+      "traits": { "aggression": 0.8, "knowledge": 0.7, "influence": 0.4 },
+      "behavior_template": "Attempts to sow doubt about the new product. Highlights own product's stability."
+    },
+    {
+      "role": "support_team",
+      "label": "Support Agent",
+      "defaultCount": 3,
+      "traits": { "empathy": 0.8, "patience": 0.9, "product_knowledge": 0.6 },
+      "behavior_template": "Handles incoming complaints and confusion. Gauge of launch friction."
+    }
+  ]
+}

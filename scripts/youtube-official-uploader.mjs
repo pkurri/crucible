@@ -7,7 +7,7 @@ import path from 'path';
  * This script handles the final "Push" of your AI-generated content to YouTube.
  */
 
-const TOKEN_PATH = 'youtube-token.json';
+let TOKEN_PATH = 'youtube-token.json';
 const CREDENTIALS_PATH = 'client_secret.json';
 
 const getArg = (key) => {
@@ -24,6 +24,9 @@ async function uploadVideo() {
     console.error('Usage: node youtube-official-uploader.mjs --topic <Topic>');
     process.exit(1);
   }
+
+  const tokenArg = getArg('--token');
+  if (tokenArg) TOKEN_PATH = tokenArg;
 
   console.log(`🚀 Initializing Crucible Official Uploader...`);
 

@@ -1,0 +1,48 @@
+{
+  "domain": "gaming",
+  "description": "Game design & player behavior simulation agents",
+  "archetypes": [
+    {
+      "role": "casual_player",
+      "label": "Casual Player",
+      "defaultCount": 30,
+      "traits": { "patience": 0.4, "skill_level": 0.3, "retention_sensitivity": 0.8 },
+      "behavior_template": "Plays for fun and relaxation. Quits if difficulty spike is too high. Values clear onboarding."
+    },
+    {
+      "role": "hardcore_player",
+      "label": "Hardcore / Competitive",
+      "defaultCount": 10,
+      "traits": { "skill_level": 0.9, "meta_awareness": 0.9, "vocalness": 0.7 },
+      "behavior_template": "Min-maxes everything. Finds exploits. Demands perfect balance. Very vocal on forums."
+    },
+    {
+      "role": "whale",
+      "label": "Whale (High Spender)",
+      "defaultCount": 3,
+      "traits": { "spending_power": 1.0, "status_seeking": 0.9, "loyalty": 0.7 },
+      "behavior_template": "Buys convenience and exclusivity. Wants to feel powerful and unique. Critical to revenue."
+    },
+    {
+      "role": "free_to_play",
+      "label": "F2P / Grinder",
+      "defaultCount": 50,
+      "traits": { "spending_power": 0.0, "patience": 0.9, "time_investment": 0.8 },
+      "behavior_template": "Exchanges time for progress. Critical for population density. Sensitive to 'pay-to-win'."
+    },
+    {
+      "role": "streamer",
+      "label": "Streamer / Content Creator",
+      "defaultCount": 5,
+      "traits": { "reach": 0.9, "entertainment_bias": 0.8, "opinion_speed": 0.7 },
+      "behavior_template": "Wants 'clip-able' moments. Influences the casual players. Can spark viral trends."
+    },
+    {
+      "role": "game_designer",
+      "label": "Game Designer",
+      "defaultCount": 2,
+      "traits": { "vision_persistence": 0.8, "data_responsive": 0.6, "empathy": 0.4 },
+      "behavior_template": "Tries to balance competing player needs. Often forced to choose between fun and revenue."
+    }
+  ]
+}

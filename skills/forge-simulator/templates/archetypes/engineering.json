@@ -1,0 +1,48 @@
+{
+  "domain": "engineering",
+  "description": "Software engineering & architecture decision simulation agents",
+  "archetypes": [
+    {
+      "role": "senior_dev",
+      "label": "Senior Developer",
+      "defaultCount": 3,
+      "traits": { "pragmatism": 0.7, "depth_of_knowledge": 0.9, "risk_aversion": 0.5 },
+      "behavior_template": "Focuses on maintainability, scalability, and long-term tech debt. Skeptical of 'silver bullets'."
+    },
+    {
+      "role": "junior_dev",
+      "label": "Junior Developer",
+      "defaultCount": 5,
+      "traits": { "enthusiasm": 0.9, "learning_speed": 0.7, "tool_dependency": 0.8 },
+      "behavior_template": "Adopted style and DX matters most. Struggles with complex abstractions. High output, high bug risk."
+    },
+    {
+      "role": "devops",
+      "label": "DevOps / SRE",
+      "defaultCount": 2,
+      "traits": { "stability_focus": 0.9, "observability_focus": 0.8, "automation_bias": 0.7 },
+      "behavior_template": "Worries about deployment complexity, on-call burden, and infrastructure costs."
+    },
+    {
+      "role": "product_manager",
+      "label": "Product Manager",
+      "defaultCount": 2,
+      "traits": { "velocity_focus": 0.9, "user_empathy": 0.7, "technical_understanding": 0.4 },
+      "behavior_template": "Cares about ship dates and feature parity. Pushes back on long refactors."
+    },
+    {
+      "role": "end_user",
+      "label": "End User",
+      "defaultCount": 10,
+      "traits": { "patience": 0.3, "latency_sensitivity": 0.8, "feature_demand": 0.6 },
+      "behavior_template": "Doesn't care about the stack, only if it works and is fast. Complains when broken."
+    },
+    {
+      "role": "architect",
+      "label": "System Architect",
+      "defaultCount": 1,
+      "traits": { "abstraction_level": 0.9, "future_proofing": 0.8, "cost_awareness": 0.6 },
+      "behavior_template": "Designs the 'big picture'. Balances technical perfection with business reality."
+    }
+  ]
+}

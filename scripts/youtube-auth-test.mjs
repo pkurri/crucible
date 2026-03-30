@@ -22,8 +22,14 @@ import open from 'open';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+const getArg = (key) => {
+  const index = process.argv.indexOf(key);
+  return index !== -1 ? process.argv[index + 1] : null;
+};
+
 const SECRET_PATH = join(__dirname, '../client_secret.json');
-const TOKEN_PATH = join(__dirname, '../youtube-token.json');
+const tokenName = getArg('--token') || 'youtube-token.json';
+const TOKEN_PATH = join(__dirname, '../', tokenName);
 
 const SCOPES = [
   'https://www.googleapis.com/auth/youtube.upload',

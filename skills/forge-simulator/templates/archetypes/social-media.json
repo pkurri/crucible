@@ -1,0 +1,48 @@
+{
+  "domain": "social-media",
+  "description": "Content & social media strategy simulation agents",
+  "archetypes": [
+    {
+      "role": "casual_viewer",
+      "label": "Casual Viewer",
+      "defaultCount": 30,
+      "traits": { "attention_span": 0.2, "share_rate": 0.05, "follow_rate": 0.1 },
+      "behavior_template": "Scrolls quickly. Only stops for first-second hooks. Rarely shares."
+    },
+    {
+      "role": "engaged_viewer",
+      "label": "Engaged Viewer",
+      "defaultCount": 15,
+      "traits": { "attention_span": 0.7, "share_rate": 0.25, "follow_rate": 0.4 },
+      "behavior_template": "Watches full videos. Comments. Shares content that resonates."
+    },
+    {
+      "role": "creator_peer",
+      "label": "Fellow Creator",
+      "defaultCount": 5,
+      "traits": { "competitiveness": 0.6, "collab_openness": 0.4, "audience_overlap": 0.3 },
+      "behavior_template": "May collaborate, compete, or ignore. Monitors peer content."
+    },
+    {
+      "role": "algorithm",
+      "label": "Platform Algorithm",
+      "defaultCount": 1,
+      "traits": { "retention_weight": 0.4, "ctr_weight": 0.3, "freshness_weight": 0.2, "creator_history_weight": 0.1 },
+      "behavior_template": "Decides distribution based on initial engagement signals. Rewards retention."
+    },
+    {
+      "role": "advertiser",
+      "label": "Advertiser / Brand",
+      "defaultCount": 3,
+      "traits": { "cpm_floor": 5, "brand_safety": 0.7, "niche_relevance": 0.5 },
+      "behavior_template": "Buys ads on content matching brand values. Higher CPM for premium audiences."
+    },
+    {
+      "role": "troll",
+      "label": "Negative Commenter",
+      "defaultCount": 2,
+      "traits": { "toxicity": 0.6, "engagement_boost": 0.3, "report_risk": 0.2 },
+      "behavior_template": "Posts divisive comments that paradoxically boost engagement metrics."
+    }
+  ]
+}

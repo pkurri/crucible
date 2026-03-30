@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "agent": {
+    "name": "forge-simulator",
+    "type": "workflow",
+    "stage": "workflow",
+    "description": "Multi-agent prediction engine. Spawns autonomous agent populations to simulate outcomes for any domain using existing Crucible infra (Gemini + OpenRouter free models + local JSON).",
+    "triggers": [
+      "simulate",
+      "predict what happens if",
+      "run a simulation",
+      "forge a scenario",
+      "what would happen if",
+      "stress test this decision",
+      "scenario planning",
+      "swarm analysis"
+    ],
+    "capabilities": [
+      "knowledge_extraction",
+      "persona_generation",
+      "multi_agent_simulation",
+      "prediction_reporting",
+      "agent_interaction",
+      "monte_carlo_analysis"
+    ],
+    "composed_from": [
+      "skill-memory",
+      "agent-evolution-loop",
+      "agent-spawner",
+      "ai-fallback-orchestrator"
+    ],
+    "new_components": [
+      "smelt",
+      "cast",
+      "forge",
+      "assay",
+      "inspect"
+    ],
+    "io_contract": {
+      "inputs": [
+        { "name": "ore", "type": "string|object|filepath", "required": true, "description": "Seed data — text, JSON, CSV, or file path" },
+        { "name": "question", "type": "string", "required": true, "description": "What to predict / simulate" },
+        { "name": "domain", "type": "string", "required": false, "description": "Archetype template: generic|market|social-media|engineering|crisis|financial|gaming" },
+        { "name": "rounds", "type": "number", "required": false, "description": "Simulation rounds (default: 20)" }
+      ],
+      "outputs": [
+        { "name": "report", "type": "markdown", "format": "structured prediction report" },
+        { "name": "worldFile", "type": "filepath", "format": "JSON world state for replay/inspection" },
+        { "name": "confidence", "type": "number", "format": "0-100 confidence score" },
+        { "name": "timeline", "type": "array", "format": "per-round event log" }
+      ]
+    },
+    "resource_requirements": {
+      "memory": "low",
+      "compute": "low",
+      "api_keys": ["GEMINI_API_KEY", "OPENROUTER_API_KEY"],
+      "cost": "Free (Gemini free tier + OpenRouter free models)"
+    },
+    "domains": [
+      "generic",
+      "market",
+      "social-media",
+      "engineering",
+      "crisis",
+      "financial",
+      "gaming",
+      "product-launch",
+      "governance"
+    ],
+    "evolution": {
+      "utility_score": 50,
+      "runs": 0,
+      "accuracy_tracking": {
+        "predictions_made": 0,
+        "predictions_verified": 0,
+        "accuracy_rate": null
+      },
+      "archetype_performance": {},
+      "failure_patterns": []
+    }
+  }
+}

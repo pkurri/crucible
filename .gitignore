@@ -22,7 +22,7 @@ yt-empire-state.json
 
 # YouTube Credentials
 client_secret.json
-youtube-token.json
+youtube-token*.json
 data/
 scripts/bin/
 *.exe

@@ -1,0 +1,54 @@
+name: '🧠 Daily Agent Evolution Cycle'
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC (2 AM EST)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: false
+        default: 'full'
+        type: choice
+        options:
+          - full
+          - sync-only
+          - analyze-only
+          - heal-only
+
+jobs:
+  daily-evolution:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Run Daily Agent Orchestrator
+        run: node scripts/daily-agent-orchestrator.mjs ${{ github.event.inputs.mode || 'full' }}
+
+      - name: Commit evolution data
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "Crucible Bot"
+          git config --global user.email "bot@crucible.ai"
+          git add data/skill-memory.json \
+                  data/daily-logs/ \
+                  data/evolution-runs/ \
+                  data/evolution-reflection.jsonl \
+                  scripts/agent-states/ || true
+          git diff --staged --quiet || git commit -m "🧠 Daily evolution cycle — $(date +%Y-%m-%d) [skip ci]"
+          git pull --rebase origin main || true
+          git push origin main || echo "Push failed"

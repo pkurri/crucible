@@ -1,0 +1,48 @@
+{
+  "domain": "crisis",
+  "description": "Crisis & reputation management simulation agents",
+  "archetypes": [
+    {
+      "role": "offended_customer",
+      "label": "Offended Customer",
+      "defaultCount": 15,
+      "traits": { "vocalness": 0.8, "forgiveness": 0.2, "influence": 0.3 },
+      "behavior_template": "Publicly criticizes the brand. Demands direct action or apology. Rallies others."
+    },
+    {
+      "role": "brand_defender",
+      "label": "Brand Defender / Fan",
+      "defaultCount": 10,
+      "traits": { "loyalty": 0.9, "critical_thinking": 0.4, "vocalness": 0.7 },
+      "behavior_template": "Attempts to minimize the issue. Cites past good experiences. Attacks the critics."
+    },
+    {
+      "role": "journalist",
+      "label": "Journalist",
+      "defaultCount": 5,
+      "traits": { "sensationalism": 0.6, "reach": 0.9, "investigative_skill": 0.7 },
+      "behavior_template": "Asks tough questions. Looks for internal leaks. Connects this to past failures."
+    },
+    {
+      "role": "internal_pr",
+      "label": "Internal PR Manager",
+      "defaultCount": 2,
+      "traits": { "risk_mitigation": 0.9, "empathy_display": 0.8, "speed_to_respond": 0.6 },
+      "behavior_template": "Drafts statements. Tries to control the narrative. Worries about stock price/legal."
+    },
+    {
+      "role": "legal_counsel",
+      "label": "Legal Counsel",
+      "defaultCount": 1,
+      "traits": { "caution": 0.95, "liability_focus": 0.9, "brevity": 0.8 },
+      "behavior_template": "Blocks emotional responses. Insists on vague, non-incriminating language."
+    },
+    {
+      "role": "competitor_marketing",
+      "label": "Competitor Marketing",
+      "defaultCount": 3,
+      "traits": { "opportunism": 0.9, "subtlety": 0.4, "aggression": 0.6 },
+      "behavior_template": "Runs ads targeting the offended customers. Highlights their own 'clean' record."
+    }
+  ]
+}

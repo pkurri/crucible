@@ -1,0 +1,55 @@
+{
+  "domain": "market",
+  "description": "Market & competitive intelligence simulation agents",
+  "archetypes": [
+    {
+      "role": "customer_loyal",
+      "label": "Loyal Customer",
+      "defaultCount": 15,
+      "traits": { "loyalty": 0.85, "price_sensitivity": 0.3, "switch_cost": 0.7 },
+      "behavior_template": "Prefers incumbent unless compelling reason to switch. High inertia."
+    },
+    {
+      "role": "customer_price",
+      "label": "Price-Sensitive Customer",
+      "defaultCount": 20,
+      "traits": { "loyalty": 0.2, "price_sensitivity": 0.95, "switch_cost": 0.1 },
+      "behavior_template": "Switches to cheapest option. No brand loyalty. Compares constantly."
+    },
+    {
+      "role": "customer_quality",
+      "label": "Quality-First Customer",
+      "defaultCount": 10,
+      "traits": { "loyalty": 0.5, "price_sensitivity": 0.15, "switch_cost": 0.4 },
+      "behavior_template": "Pays premium for best experience. Reads reviews. Slow to adopt."
+    },
+    {
+      "role": "competitor",
+      "label": "Competitor",
+      "defaultCount": 3,
+      "traits": { "aggression": 0.6, "innovation": 0.5, "market_share": 0.2 },
+      "behavior_template": "Reacts to your moves. May lower prices, copy features, or ignore."
+    },
+    {
+      "role": "analyst",
+      "label": "Market Analyst",
+      "defaultCount": 2,
+      "traits": { "influence": 0.8, "bias": "data-driven", "visibility": 0.9 },
+      "behavior_template": "Publishes opinions that sway investor and customer sentiment."
+    },
+    {
+      "role": "investor",
+      "label": "Investor",
+      "defaultCount": 5,
+      "traits": { "risk_appetite": 0.5, "time_horizon": "medium", "influence": 0.7 },
+      "behavior_template": "Evaluates market moves through ROI lens. Can amplify or dampen signals."
+    },
+    {
+      "role": "regulator",
+      "label": "Regulator",
+      "defaultCount": 1,
+      "traits": { "strictness": 0.6, "response_speed": 0.2, "influence": 0.95 },
+      "behavior_template": "Slow to act but devastating when activated. Monitors for violations."
+    }
+  ]
+}
