@@ -225,11 +225,11 @@ async function uploadToInstagram(videoPath, caption) {
   const containerId = initRes.id;
   console.log(`[IG] Container: ${containerId}. Waiting for cloud ingestion...`);
 
-  // Step 3: Poll until ready (Increased to 120 attempts for 4K)
+  // Step 3: Poll until ready (60 attempts × 10s = 10min max — enough for most videos)
   let status = 'IN_PROGRESS';
   let attempts = 0;
-  while (status === 'IN_PROGRESS' && attempts < 120) {
-    await sleep(30000); // 30s interval to preserve quota
+  while (status === 'IN_PROGRESS' && attempts < 60) {
+    await sleep(10000); // 10s interval (was 30s — allows 3-4 uploads per job)
     const check = await apiCall(
       `${META_API}/${containerId}?fields=status_code&access_token=${ACCESS_TOKEN}`
     );
@@ -237,7 +237,7 @@ async function uploadToInstagram(videoPath, caption) {
     attempts++;
     console.log(`[IG] Status: ${status} (attempt ${attempts})`);
   }
-  if (status !== 'FINISHED') throw new Error(`[IG] Processing failed: ${status}`);
+  if (status !== 'FINISHED') throw new Error(`[IG] Processing failed or timed out: ${status}`);
 
   // Step 4: Publish
   const publish = await apiCall(
