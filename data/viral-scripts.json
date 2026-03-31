@@ -101,16 +101,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "text": "Your world is a simulation. The glitch is imminent.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "Can you see the collapse before it consumes us?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "In 48 hours, AI rewrites reality. Will you survive?",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -3816,6 +3820,27 @@
       {
         "text": "If you want to master ApexFlow_1774923210300, you're in the right place. Subscribe.",
         "duration": 7
+      }
+    ]
+  },
+  "ApexFlow_1774928485243": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Buckle up—this could rewrite your perception of reality.",
+        "duration": 4
+      },
+      {
+        "text": "Can neon liquid + hyper-car data spark a living neural map?",
+        "duration": 4
+      },
+      {
+        "text": "Watch the neural marquee glow as data streams converge.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   }
