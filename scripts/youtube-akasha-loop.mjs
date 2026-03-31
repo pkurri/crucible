@@ -41,8 +41,7 @@ async function main() {
     // Cycle through topics based on today's date and uploadsCount to get a fresh one every time
     for (let i = 0; i < remaining; i++) {
         const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
-        const shift = state.uploadsToday;
-        const selectedTopic = topics[(dayOfYear + shift) % topics.length];
+        const selectedTopic = topics[(dayOfYear + i) % topics.length]; // Topic is tied to day and loop iteration, ensuring variety
 
         console.log(`\n🌀 Sequence ${i + 1}/${remaining} | Selected Topic: ${selectedTopic}`);
 
