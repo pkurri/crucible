@@ -1,0 +1,70 @@
+name: '🎥 Cinematic Empire (LTX + OpenArt) Fleet'
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Trigger every 2 hours, node script enforces the 4-hour timeframe logic
+  workflow_dispatch:
+
+jobs:
+  cinematic-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45 # LTX video generation can take multiple minutes
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install System Dependencies
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Node Dependencies
+        run: npm install
+
+      - name: Install Voice Synthesis
+        run: pip install edge-tts
+
+      - name: Reconstruct API Keys
+        run: |
+          echo '${{ secrets.YOUTUBE_CLIENT_SECRET }}' > client_secret.json
+          echo '${{ secrets.YOUTUBE_TOKEN_JSON }}' > youtube-token.json
+          
+          # New LTX API Secret - Must add to GitHub Repository Secrets
+          cat << 'EOF' > scripts/ltx-credentials.json
+          {
+            "agent_name": "LTX_Studio_Director",
+            "api_key": "${{ secrets.LTX_STUDIO_API_KEY }}",
+            "status": "production",
+            "description": "API Key attached via GitHub Actions"
+          }
+          EOF
+
+      - name: Ensure Target Directories Exist
+        run: mkdir -p data/cinematic-empire/AAK-Nation/topics
+
+      - name: Execute Autonomous Video Generation
+        run: node scripts/cinematic-empire-loop.mjs
+        env:
+          GITHUB_ACTIONS: "true"
+          NODE_ENV: production
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+      - name: Commit State & Media Progression
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "Crucible Bot"
+          git config --global user.email "bot@crucible.ai"
+          git add -f scripts/cinematic-state.json data/cinematic-empire/ || true
+          git diff --staged --quiet || git commit -m "chore: cinematic empire cycle advanced [skip ci]"
+          git pull --rebase origin main || true
+          git push origin main || echo "Push failed"
