@@ -109,20 +109,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They hum in the abyss—hear this?!",
-        "duration": 4
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What creature keeps its heartbeat in the dark?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "It's the bioluminescent hagfish: alive in death.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -178,28 +174,40 @@
     ]
   },
   "ImpossibleArchitectureBlueprints": {
-    "role": "assistant",
-    "reasoning_content": "We need to produce a JSON object with voice and lines arrays. Each line has text truncated under 60 chars. Duration seconds presumably sum to 4+4+4+3 =15, but guidelines: 0-3s hook 3-7s curiosity 7-12s payoff 12-15s CTA. We can match durations ~4,4,4,3. The lines themselves must not exceed 60 characters including spaces. The pattern: hook: \"Imagine a skyscraper that winks at gravity.\" Let's count: \"Imagine a skyscraper that winks at gravity.\" That's 36 characters. Good. Curiosity loop: \"How could a building float with nothing holding it?\" Count: \"How could a building float with nothing holding it?\" That's 49 char. Good. Rapid payoff: \"See the 3D blueprint that bends physics exactly.\" Count: \"See the 3D blueprint that bends physics exactly.\" That's 49. CTA line: \"If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.\" We must keep under 60, but CTA may be longer? The spec says each line under 60 characters for mobile readability. So CTA line must be under 60. Count: \"If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.\" Let's count: \"If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.\" That's 81 characters. Too long. Need to shorten. Maybe: \"If you want to master Impossible Architecture Blueprints, subscribe.\" Count: \"If you want to master Impossible Architecture Blueprints, subscribe.\" Count: Let's count: \"If\"2 + space1=3, \"you\"3=6, space=7, \"want\"4=11, space=12, \"to\"2=14, space=15, \"master\"6=21, space=22, \"Impossible\"10=32, space=33, \"Architecture\"12=45, space=46, \"Blueprints\"10=56, comma=57, space=58, \"subscribe\"9=67, period=68. Slight over 60. We need reduce. Maybe remove comma or shorten \"Impossible Architecture Blueprints\" into perhaps \"Impossible Architecture\" or \"ImpossibleArchitectureBlueprints\" no spaces. But constraint of under 60 likely counts characters including underscores? Usually characters include all. Let's craft: \"Want to master Impossible Architecture Blueprints? Subscribe.\" Count: \"Want\"4 + space1=5, \"to\"2=7, space=8, \"master\"6=14, space=15, \"Impossible\"10=25, space=26, \"Architecture\"12=38, space=39, \"Blueprints\"10=49, question? char=50, space=51, \"Subscribe\"9=60. Exactly 60 including spaces (I think we need consider punctuation). The question mark counts as a character. That satisfies under 60. But we need to start with \"If you want to master...\" though not mandatory. The template says: \"If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.\" We can shorten but keep the essence. We could do: \"If you want to master Impossible Architecture Blueprints, subscribe.\" Check count: \"If\"2=2, space=3, \"you\"3=6, space=7, \"want\"4=11, space=12, \"to\"2=14, space=15, \"master\"6=21, space=22, \"Impossible\"10=32, space=33, \"Architecture\"12=45, space=46, \"Blueprints\"10=56, comma=57, space=58, \"subscribe\"9=67. Too many. Let's compress: \"If you want to master Impossible Architecture, subscribe.\" Count: \"If\"2=2, space=3, \"you\"3=6, space=7, \"want\"4=11, space=12, \"to\"2=14, space=15, \"master\"6=21, space=22, \"Impossible\"10=32, space=33, \"Architecture\"12=45, comma=46, space=47, \"subscribe\"9=56. Under 60. That works but loses \"Blueprints\". maybe keep \"Blueprints\". Alternative: \"If you want to master Impossible Architecture Blueprints, subscribe.\" Count: \"If\"2=2, space=3, \"you\"3=6, space=7, \"want\"4=11, space=12, \"to\"2=14, space=15, \"master\"6=21, space=22, \"Impossible\"10=32, space=33, \"Architecture\"12=45, space=46, \"Blueprints\"10=56, comma=57, space=58, \"subscribe\"9=67. Too high.\n\nBetter: \"If you want to master Impossible Architecture, bonus subscribes.\" Not good. At the guidelines, the particular line is strongly specified. The instruction: \"END EVERY SCRIPT WITH: \"If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.\"\" We need to follow that exactly. But the line should also be under 60 characters. However the instruction says each line under 60 characters for mobile readability. There's conflict. We need to satisfy both. Perhaps we break into two lines? The guidelines say exactly that line must be the last. We may adjust but keep content similar. But maybe we can shorten by removing \"you're in the right place.\" Let's produce: \"If you want to master ImpossibleArchitectureBlueprints, subscribe.\" Count: \"If\"2=2, space=3, \"you\"3=6, space=7, \"want\"4=11, space=12, \"to\"2=14, space=15, \"master\"6=21, space=22, \"ImpossibleArchitectureBlueprints\" (length?) Let's count letters: \"Impossible\"10, \"Architecture\"12=22, \"Blueprints\"10=32. Combined: 32 characters. plus no spaces? The phrase is one big block, so 32. So total so far 22+32=54, space=55, comma=56, space=57, \"subscribe.\" (9 with period) ->66. Too many. The line is long. We can split into two? But instruction says \"END EVERY SCRIPT WITH\" that line. Might be okay if we add new lines? But spec says each line in the lines array. It expects each line entry. Maybe we can break into multiple lines, e.g., part1: \"If you want to master ImpossibleArchitectureBlueprints,\" part2: \"you're in the right place. Subscribe.\" But that would still be two lines. But they'd each need under 60 characters. That might satisfy. However the spec says each line must have the text and durations. It didn't explicitly say that there are exactly four lines, but includes example. But instruction says \"END EVERY SCRIPT WITH: \"If you want to master ImpossibleArchitectureBlueprints, you're in the right place.",
-    "tool_calls": []
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "This building breaks every law of physics!",
+        "duration": 4
+      },
+      {
+        "text": "How could engineers design a gravity-defying skyscraper?",
+        "duration": 4
+      },
+      {
+        "text": "They fold space, use hidden tension—science meets art.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
   },
   "CosmicMegaStructureConstruction": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "What if a megastructure eclipsed the Sun?",
-        "duration": 4
+        "text": "The secrets of CosmicMegaStructureConstruction are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "But can we build on that scale?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Engineers say a Dyson sphere is 10x solar power.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master CosmicMegaStructureConstruction, you're in the right place. Subscribe.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -228,19 +236,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You just unlocked a godly glitch.",
+        "text": "Your lab has turned into a god's playground.",
         "duration": 4
       },
       {
-        "text": "What happens when a hacker's code becomes reality?",
+        "text": "Did a single glitch give you omnipotence?",
         "duration": 4
       },
       {
-        "text": "It splits the cosmos—every button now has a soul.",
+        "text": "When the quantum circuit rewrote reality, chaos followed.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AccidentalGodhoodMoments.",
         "duration": 3
       }
     ]
@@ -249,20 +257,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your city will soon be eclipsed by a Dyson Sphere.",
-        "duration": 4
+        "text": "The secrets of MegastructureConstructionVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Can humanity build a city that fits the Sun?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Engineers draft a Dyson megacity that eclipses Earth.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
