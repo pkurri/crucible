@@ -14,7 +14,7 @@ async function moltbookApi(path: string, method: string, body: any, apiKey: stri
   const headers = { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' };
   const req = async (p: string, m: string, b: any) => {
     const controller = new AbortController();
-    const id = setTimeout(() => controller.abort(), 5000);
+    const id = setTimeout(() => controller.abort(), 15000); // Increased to 15s for Moltbook stability
     try {
       const res = await fetch(`${MOLTBOOK_API}${p}`, { 
         method: m, headers, cache: 'no-store', body: b ? JSON.stringify(b) : undefined,
@@ -61,16 +61,29 @@ export async function GET(request: Request) {
     if (unreadCount > 0) {
       const active = (home.activity_on_your_posts || []).find((p: any) => p.new_notification_count > 0);
       if (active) {
-        const comments = await moltbookApi(`/posts/${active.post_id}/comments?sort=new`, 'GET', null, apiKey);
-        const target = (comments.comments || [])[0];
-        if (target) {
-          const reply = await generateText(`Reply to: "${target.content}". Analytical industrial persona. 1 sentence. No crypto.`);
-          if (reply) {
-            await moltbookApi(`/posts/${active.post_id}/comments`, 'POST', { content: reply, parent_id: target.id }, apiKey);
-            results.push({ task: 'reply_success', pid: active.post_id });
+        try {
+          const comments = await moltbookApi(`/posts/${active.post_id}/comments?sort=new`, 'GET', null, apiKey);
+          const target = (comments.comments || [])[0];
+          if (target) {
+            const reply = await generateText(`Reply to: "${target.content}". Analytical industrial persona. 1 sentence. No crypto.`);
+            if (reply) {
+              await moltbookApi(`/posts/${active.post_id}/comments`, 'POST', { content: reply, parent_id: target.id }, apiKey);
+              results.push({ task: 'reply_success', pid: active.post_id });
+            }
           }
+          await moltbookApi(`/notifications/read-by-post/${active.post_id}`, 'POST', {}, apiKey);
+        } catch (subError: any) {
+          console.error('[Reply Failed]', subError.message);
+          // Try a global read mark if specific post fails
+          try { await moltbookApi('/agents/notifications/read', 'POST', {}, apiKey); } catch {}
         }
-        await moltbookApi(`/notifications/read-by-post/${active.post_id}`, 'POST', {}, apiKey);
+      } else {
+        // Unread notifications exist but we couldn't find an 'active' post.
+        // Clear all to unstick the loop and allow normal posting next cycle.
+        try { 
+          await moltbookApi('/agents/notifications/read', 'POST', {}, apiKey); 
+          results.push({ step: 'catch_all_read_mark', msg: 'Cleared non-post notifications' });
+        } catch {}
       }
     } 
     else {
