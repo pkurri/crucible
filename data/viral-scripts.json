@@ -67,20 +67,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They hum in the abyss—hear this?!",
-        "duration": 4
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What creature keeps its heartbeat in the dark?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "It's the bioluminescent hagfish: alive in death.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -119,9 +115,21 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "role": "assistant",
-    "reasoning_content": "We need to produce JSON object. Each line under 60 characters. We need 4 lines: hook, curiosity, payoff, CTA. Duration: 4,4,4,3 seconds respectively. Need to follow pattern: pattern interrupt hook, curiosity loop problem, insight payoff, CTA.\n\nWe must use \"HyperEvolutionaryAdaptations\" final line. End every script with that . So last line is the CTA line containing that phrase.\n\nThe hook must be pattern interrupt, stop scrolling with unexpected statement. Use high-stakes language. At 60 characters under limit. The curiosity loop raises a question.\n\nRapid payoff transforms problem to insight.\n\nEnsure technical: the script is for a 10-15s viral short. Provide exactly 4 lines as specified.\n\nReturn only JSON with key \"voice\": \"en-US-GuyNeural\", lines array with objects.\n\nWe need to mention that last line uses \"Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.\"\n\nEach line must have duration property.\n\nLet's create lines:\n\nLine1 hook: \"Ever wonder if a lizard could breath fire?\" That is 34 characters? Count characters: \"Ever wonder if a lizard could breath fire?\" Words count: \"Ever\" (4) +space(1) =>5, \"wonder\"(6)=11, space=12, \"if\"(2)=14, space=15, \"a\"(1)=16, space=17, \"lizard\"(6)=23, space=24, \"could\"(5)=29, space=30, \"breath\"(6)=36, space=37, \"fire?\"(5)=42. It's 42 characters, under 60. Good.\n\nBut we might want more high-stakes: \"What if sharks grew wings?\" That's 20 characters. We need to be impactful: \"What if sharks could fly?\" 21 char.\n\nMaybe use: \"What if sharks could surf the sky?\" Count: \"What\"(4)+space(5)+if(7)+space(8)+sharks(14)+space(15)+could(20)+space(21)+surf(25)+space(26)+the(29)+space(30)+sky(33)+? (34). Under 60.\n\nLet's produce hook: \"What if sharks could fly over fire?\" Count: \"What\"(4) space5 \"if\"(2)7 space8 \"sharks\"(6)14 space15 \"could\"(5)20 space21 \"fly\"(3)24 space25 \"over\"(4)29 space30 \"fire?\"(5)35. Good.\n\nLine 2 curiosity: \"How would their DNA rewrite itself to beat heat and chaos?\" Count: \"How\"(3) space4 \"would\"(4)9 space10 \"their\"(5)15 space16 \"DNA\"(3)19 space20 \"rewrite\"(7)27 space28 \"itself\"(6)34 space35 \"to\"(2)37 space38 \"beat\"(4)42 space43 \"heat\"(4)47 space48 \"and\"(3)51 space52 \"chaos?\"(5)57. Under 60. Good.\n\nLine3 payoff: \"Engineered genes could forge fire‑resistant gills, a sunrise‑ion shield.\" Need under 60. Count: \"Engineered\"(10) space11 \"genes\"(5)16 space17 \"could\"(4)21 space22 \"forge\"(5)27 space28 \"fire‑resistant\"(16?) Let's count properly: \"fire‑resistant\" (maybe 15 inc hyphen). We'll count characters: f(1)i(2)r(3)e(4)-(5)r(6)e(7)s(8)i(9)s(10)t(11)a(12)n(13)t(14)  =>14? maybe 14. So 28+14=42. space 43 \"gills,\" (5+1?) gills(5) ,(1)=6 =>49. space50 \"a\"(1)=51 space52 \"sunrise‑ion\" (maybe 12?). \"sunrise‑ion\" count: s1 u2 n3 r4 i5 s6 e7 -8 i9 o10 n11 =>11. So 52+11=63 plus space =64? But requirement <60. So this line too long.\n\nLet's craft new payoff. \"Genes rewrite fire‑proof gills for water & heat.\" Count: \"Genes\"(5) space6 \"rewrite\"(7)13 space14 \"fire‑proof\"(10?) let's count: f1 i2 r3 e4 -5 p6 r7 o8 o9 f10 =>10 word =>24. space25 \"gills\"(5)=30 space31 \"for\"(3)=34 space35 \"water\"(5)=40 space41 \"and\"(3)=44 space45 \"heat.\"(4)=49. Under 60 good.\n\nLine4 CTA: \"Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.\" Count: \"Don't\"(4) space5 \"let\"(3)=8 space9 \"the\"(3)=12 space13 \"algorithm\"(9)=22 space23 \"hide\"(4)=27 space28 \"the\"(3)=31 space32 \"truth.\"(6)=38 space39 \"Follow\"(6)=45 space46 \"for\"(3)=49 space50 \"more\"(4)=54 space55 \"HyperEvolutionaryAdaptations.\" length? Count letters: Hyper (5) + Evolutionary (12) + Adaptations (12) + period + so 5+12+12=29+1=30. Add previous 55=85? Wait 54 maybe. Let's count again: \"Don't\" (4) +space(1)=5. \"let\"(3)=8 +space=9. \"the\"(3)=12 +space=13. \"algorithm\"(9)=22 +space=23. \"hide\"(4)=27 +space=28. \"the\"(3)=31 +space=32. \"truth.\"(6)=38 +space=39. \"Follow\"(6)=45 +space=46. \"for\"(3)=49 +space=50. \"more\"(4)=54 +space=55. So we have 55 up to \"more \". Now we add \"HyperEvolutionaryAdaptations.\" which is 29+1=30. 55+30=85. That's above 60. Need less than 60. We must shorten the CTA line drastically.\n\nWe could maybe keep small phrase \"Follow for HyperEvolutionaryAdaptations.\"  Provide main call to action \"Follow for more HyperEvolutionaryAdaptations.\" Count:\n\nFollow(6) space7 for(3)=10 space11 more(4)=15 space16 HyperEvolutionaryAdaptations(29)=45. Good 45 under 60. But we must keep the phrase starting with Don't let algorithm hide truth? The requirement says script ends with \"Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.\" But we can keep that phrase but must be under 60 characters. We need to compress drastically. Could we use abbreviation?\n\nThe constraint that we must",
-    "tool_calls": []
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
   },
   "ImpossibleArchitectureBlueprints": {
     "role": "assistant",
@@ -3744,6 +3752,40 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1774905125682 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1774903463002": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1774903463002 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1774922508116": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1774922508116 are finally revealed.",
         "duration": 5
       },
       {
