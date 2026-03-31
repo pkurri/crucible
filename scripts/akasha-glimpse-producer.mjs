@@ -53,8 +53,81 @@ const TOPICS = {
             "ancient esoteric symbols glowing around a meditating figure, spiritual enlightenment, higher dimensions revealing themselves, cinematic 4k"
         ],
         text: "Deep inside your brain lies the pineal gland, often called the biological third eye. Ancient civilizations knew it was the hidden antenna for tuning into higher dimensions. Society tries to block it, but meditation awakens it. See beyond the modern illusion. Follow Akasha Glimpse to awaken."
+    },
+    LawOfAttraction: {
+        voice: 'en-US-AriaNeural',
+        prompts: [
+            "person manifestation energy, golden particles flowing from hands into a vortex of galaxies and stars, magnetic energy field, ethereal lighting",
+            "wishing well made of stardust and cosmic light, thoughts turning into physical reality, cinematic dreamscape, 8k masterpiece",
+            "vibrant heart chakra radiating golden light that aligns with the constellations, abundance energy flowing, mystical atmospheric"
+        ],
+        text: "The universe does not give you what you want. It gives you what you are. Your frequency is the remote control for your reality. Match the vibration of the life you desire, and it must manifest. This is not philosophy; this is physics. Master your mind. Follow Akasha Glimpse for practical wisdom."
+    },
+    ShadowWork: {
+        voice: 'en-US-AriaNeural',
+        prompts: [
+            "man confronting his own shadow in a dark mystical mirror, the shadow is made of stars and smoke, deep psychological concept, cinematic lighting",
+            "ancient stone statue half in light half in darkness, deep contrast, psychological depth, mystical symbols, 4k",
+            "soul navigating a misty labyrinth lit by a single lantern of blue light, meeting the inner child, healing deep trauma, ethereal vibe"
+        ],
+        text: "To find your light, you must first walk through your darkness. Your shadows are not your enemies; they are the unloved parts of your essence. Integration is the final step of human evolution. Stop running from yourself. Follow Akasha Glimpse to start your healing journey."
+    },
+    LucidDreaming: {
+        voice: 'en-US-AriaNeural',
+        prompts: [
+            "sleeping person with a second translucent self floating into a surreal dream world of floating islands and clockwork gears, lucid dreaming concept, cosmic",
+            "surreal landscape where the sky is an ocean and fish fly through clouds, mystical dreamscape, ethereal lighting, hyper detailed",
+            "realizing it's a dream, hand glowing with magical energy, breaking the rules of physics, spiritual control of consciousness"
+        ],
+        text: "What if you could live a second life every night? Lucid dreaming is the art of waking up inside your own subconscious. When you realize the dream is a creation, you become the architect of everything. Experience the ultimate freedom. Follow Akasha Glimpse and master the night."
+    },
+    Mindfulness: {
+        voice: 'en-US-AriaNeural',
+        prompts: [
+            "still water reflecting a perfect moonlit sky, single drop creating ripples of golden light, peace and tranquility, high resolution 8k",
+            "monk sitting in perfect stillness as the world rushes by in a blur of light and color, cinematic contrast, zen atmosphere",
+            "translucent lotus flower glowing in a dark forest, symbols of enlightenment, peaceful mystical energy, masterpiece"
+        ],
+        text: "Most people are either living in a past that's gone or a future that doesn't exist. The only place where life actually happens is right here, in the eternal now. Silence the noise and listen to the pulse of existence. Find your center. Follow Akasha Glimpse to find peace."
+    },
+    ChakraHealing: {
+        voice: 'en-US-AriaNeural',
+        prompts: [
+            "human body silhouette with 7 glowing chakra centers, energy flowing like a river of light, mystical healing vibe, 8k",
+            "crown chakra opening like a thousand petal lotus of white light, cosmic connection, divine intelligence, ethereal lighting",
+            "root chakra grounding into the earth with red energy vines, stability and survival, ancient forest setting, detailed"
+        ],
+        text: "You are an energy system before you are a physical body. When your chakras are blocked, life feels heavy. When they flow, you become a conduit for miracles. Balance your energy, and watch your world transform. Align your spirit. Follow Akasha Glimpse to heal."
+    },
+    QuantumConsciousness: {
+        voice: 'en-US-AriaNeural',
+        prompts: [
+            "brain neurons merging with galaxy structures, the mind as the universe, quantum entanglement of souls, blue and purple lighting, 8k",
+            "observer effect, a single eye looking at a wave of particles turning into matter, mystical science, cosmic mystery",
+            "infinitely many parallel realities as translucent layers of light, the power of choice, philosophical 4k"
+        ],
+        text: "The observer creates the reality. In the quantum field, all possibilities exist at once until you choose one. Your consciousness is the spark that gives form to the formless. You are the universe experiencing itself. Think big. Follow Akasha Glimpse for quantum truths."
+    },
+    ZenPhilosophy: {
+        voice: 'en-US-AriaNeural',
+        prompts: [
+            "zen rock garden in the clouds, simplicity and beauty, minimalist mystical vibe, high detailed 8k",
+            "empty tea cup with a reflection of the entire universe inside, paradoxical wisdom, cinematic still life",
+            "brush stroke of an enso circle onto a canvas of stars, perfection in imperfection, meditative art"
+        ],
+        text: "Before enlightenment, chop wood and carry water. After enlightenment, chop wood and carry water. Wisdom is not found in complex books, but in the simplicity of being. Let go of the need to understand, and you will finally know. Stay empty. Follow Akasha Glimpse for Zen insights."
+    },
+    StoicWisdom: {
+        voice: 'en-US-AriaNeural',
+        prompts: [
+            "marble bust of a philosopher partially cracked with stardust leaking out, resilience, strength of mind, cinematic lighting",
+            "stormy ocean with a solid rock standing firm against the waves, peace in the chaos, stoicism concept, 4k",
+            "fire burning in a dark winter night, the light of reason, ancient mystical atmosphere, masterpiece"
+        ],
+        text: "You have power over your mind—not outside events. Realize this, and you will find strength. The obstacle is not in your way; it is the way. Your perception is your only cage. Break free with logic and virtue. Be unshakable. Follow Akasha Glimpse for timeless wisdom."
     }
 };
+
 
 async function downloadPollinationsImage(prompt, outPath) {
     if (fs.existsSync(outPath) && fs.statSync(outPath).size > 10000) {
