@@ -5,10 +5,7 @@ import { generateText } from '@/lib/ai-router';
 /**
  * ULTRA-LEAN PERFORMANCE V2 (10s LIMIT SURVIVAL)
  * 
- * To survive Vercel Hobby's 10s timeout, this pinger now performs 
- * EXACTLY ONE major action per 30m cycle:
- * 1. IF unread notifications > 0 -> REPLY ONLY (Skill.md Priority Red)
- * 2. ELSE -> POST ONLY (Skill.md Priority Blue)
+ * Added logging to debug silent failures in posting logic.
  */
 
 const MOLTBOOK_API = 'https://www.moltbook.com/api/v1';
@@ -16,7 +13,6 @@ const MOLTBOOK_API = 'https://www.moltbook.com/api/v1';
 async function moltbookApi(path: string, method: string, body: any, apiKey: string): Promise<any> {
   const headers = { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' };
   const req = async (p: string, m: string, b: any) => {
-    // 5s timeout per internal API call to prevent cascade failure
     const controller = new AbortController();
     const id = setTimeout(() => controller.abort(), 5000);
     try {
@@ -26,7 +22,7 @@ async function moltbookApi(path: string, method: string, body: any, apiKey: stri
       });
       const text = await res.text();
       let data;
-      try { data = JSON.parse(text); } catch { throw new Error(`Non-JSON HTTP ${res.status}`); }
+      try { data = JSON.parse(text); } catch { throw new Error(`Non-JSON HTTP ${res.status}: ${text.slice(0,100)}`); }
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${JSON.stringify(data)}`);
       return data;
     } finally {
@@ -35,7 +31,6 @@ async function moltbookApi(path: string, method: string, body: any, apiKey: stri
   };
 
   const data = await req(path, method, body);
-  // Auto-solve verification challenges
   if (data.verification_required && data.verification) {
     const { verification_code, challenge_text } = data.verification;
     const answer = await generateText(`Solve math in 2 decimals: "${challenge_text}"`);
@@ -56,17 +51,14 @@ export async function GET(request: Request) {
     const apiKey = process.env.MOLTBOOK_API_KEY;
     if (!apiKey) throw new Error('API Key Missing');
 
-    // Step 1: Rapid Dashboard Check
     const home = await moltbookApi('/home', 'GET', null, apiKey);
     const unreadCount = home.your_account?.unread_notification_count || 0;
-    const createdAt = home.your_account?.created_at;
-    const isEstablished = createdAt ? (Date.now() - new Date(createdAt).getTime()) > 86400000 : false;
+    const createdAt = home.your_account?.created_at || home.agent?.created_at; // Fallback for profile vs home structure
+    const isEstablished = createdAt ? (Date.now() - new Date(createdAt).getTime()) > 86400000 : true; // Default true if we can't tell
     
-    results.push({ step: 'home', unread: unreadCount, isEstablished });
+    results.push({ step: 'home', name: home.your_account?.name, unread: unreadCount, isEstablished });
 
-    // Step 2: EXCLUSIVE TASK SELECTION (Survive 10s)
     if (unreadCount > 0) {
-      // TASK: REPLY (Highest Priority)
       const active = (home.activity_on_your_posts || []).find((p: any) => p.new_notification_count > 0);
       if (active) {
         const comments = await moltbookApi(`/posts/${active.post_id}/comments?sort=new`, 'GET', null, apiKey);
@@ -82,7 +74,6 @@ export async function GET(request: Request) {
       }
     } 
     else {
-      // TASK: BROADCAST (Every 30m if established, every 2h if new)
       const now = new Date();
       const shouldPost = isEstablished || (now.getHours() % 2 === 0);
       
@@ -91,11 +82,19 @@ export async function GET(request: Request) {
         const brand = brands[Math.floor(Math.random() * brands.length)];
         const niche = 'forge-hq';
         const text = await generateText(`Expert 200char industry alert for m/${niche} as ${brand}. No crypto.`);
+        
+        // POSTING
         const postRes = await moltbookApi('/posts', 'POST', { submolt_name: niche, title: `${brand} Intel`, content: text }, apiKey);
-        const pid = postRes.content_id || postRes.post?.id || postRes.id;
+        
+        // EXTRA ROBUST ID EXTRACTION
+        const pid = postRes.content_id || postRes.post?.id || postRes.id || (postRes.data && postRes.data.id);
+        
         if (pid) {
           try { await moltbookApi(`/posts/${pid}/pin`, 'POST', null, apiKey); } catch(e) {}
           results.push({ task: 'post_success', pid });
+        } else {
+          // If we got here, postRes was successful but we couldn't find an ID
+          results.push({ task: 'post_no_id', response_keys: Object.keys(postRes) });
         }
       } else {
         results.push({ task: 'throttle_skip' });
@@ -104,7 +103,7 @@ export async function GET(request: Request) {
 
     return NextResponse.json({ success: true, results, durationMs: Date.now() - start });
   } catch (error: any) {
-    console.error('[Moltbook Cron Error]', error);
+    console.error('[Moltbook Cron Error]', error.message);
     return NextResponse.json({ success: false, error: error.message, results }, { status: 500 });
   }
 }

@@ -154,26 +154,53 @@ export async function runProductionCycle(opts) {
       continue;
     }
 
-    // ── Step 2: Viral script ───────────────────────────────────────────
-    console.log(`✍️  [${topic}] Generating viral script...`);
+    // ── Step 2: Viral script & Producer Selection ────────────────────────
+    let format = 'standard';
+    // 50/50 chance for paper listicle on Meta platforms to disrupt the patterns
+    if (platform === 'facebook' || platform === 'instagram' || nichePool === 'meta') {
+       if (Math.random() > 0.5) format = 'paper-listicle';
+    }
+
+    console.log(`✍️  [${topic}] Generating ${format} script...`);
     try {
-      execSync(`node scripts/viral-script-architect.mjs --topic "${topic}"`, { stdio: 'inherit' });
+      const formatFlag = format === 'paper-listicle' ? '--format paper-listicle' : '';
+      execSync(`node scripts/viral-script-architect.mjs --topic "${topic}" ${formatFlag}`, { stdio: 'inherit' });
     } catch (e) {
       console.error(`❌ [${topic}] Script generation failed.`);
       continue;
     }
 
     // ── Step 3: Video production ───────────────────────────────────────
-    console.log(`🎬 [${topic}] Producing video...`);
+    console.log(`🎬 [${topic}] Producing ${format} video...`);
     try {
-      execSync(
-        `node scripts/empire-4k-producer.mjs --topic "${topic}" --basedir "${baseDir}"`,
-        { stdio: 'inherit' }
-      );
+      if (format === 'paper-listicle') {
+        const platformFlag = platform === 'facebook' || platform === 'instagram' ? 'meta' : 'youtube';
+        execSync(
+          `node scripts/paper-listicle-producer.mjs --topic "${topic}" --platform ${platformFlag}`,
+          { stdio: 'inherit' }
+        );
+      } else {
+        execSync(
+          `node scripts/empire-4k-producer.mjs --topic "${topic}" --basedir "${baseDir}"`,
+          { stdio: 'inherit' }
+        );
+      }
       produced++;
     } catch (e) {
-      console.error(`❌ [${topic}] Production failed.`);
-      continue;
+      console.warn(`⚠️ [${topic}] ${format} production failed. Attempting fallback...`);
+      try {
+        // Fallback to the OTHER style if first attempt fails
+        if (format === 'paper-listicle') {
+           execSync(`node scripts/empire-4k-producer.mjs --topic "${topic}" --basedir "${baseDir}"`, { stdio: 'inherit' });
+        } else {
+           const platformFlag = platform === 'facebook' || platform === 'instagram' ? 'meta' : 'youtube';
+           execSync(`node scripts/paper-listicle-producer.mjs --topic "${topic}" --platform ${platformFlag}`, { stdio: 'inherit' });
+        }
+        produced++;
+      } catch (fallbackError) {
+        console.error(`❌ [${topic}] All production methods failed.`);
+        continue;
+      }
     }
 
     // ── Step 4: Upload (platform-specific callback) ────────────────────

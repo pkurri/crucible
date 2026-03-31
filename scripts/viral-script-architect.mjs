@@ -18,10 +18,10 @@ function cleanJSON(str) {
   // 2. Try parsing entire string first
   try {
     const parsed = JSON.parse(cleaned);
-    if (parsed.lines) return parsed;
+    if (parsed.lines || parsed.list) return parsed;
     if (parsed.content && typeof parsed.content === 'string') {
        const inner = cleanJSON(parsed.content);
-       if (inner.lines) return inner;
+       if (inner.lines || inner.list) return inner;
     }
     // If it's a message object but no lines, it might be in content as JSON
   } catch (e) { /* ignore and try regex extraction */ }
@@ -34,18 +34,18 @@ function cleanJSON(str) {
       for (const match of matches) {
         try {
           const obj = JSON.parse(match);
-          if (obj.lines) return obj;
+          if (obj.lines || obj.list) return obj;
           // If it's a wrapper object (like OpenRouter response), check content
           if (obj.choices && obj.choices[0]?.message?.content) {
             const nested = cleanJSON(obj.choices[0].message.content);
-            if (nested.lines) return nested;
+            if (nested.lines || nested.list) return nested;
           }
         } catch (e) { continue; }
       }
     }
   } catch (e) { /* fall back to error */ }
 
-  throw new Error("Could not extract a valid script JSON with 'lines' property.");
+  throw new Error("Could not extract a valid script JSON with 'lines' or 'list' property.");
 }
 
 const SUB_HOOKS = [
@@ -69,6 +69,28 @@ RETENTION STRUCTURE:
 4. Engagement Trigger (12-15s): Strong CTA for followers/subscribers.
 
 Style: Natural, engaging, spoken tone. END EVERY SCRIPT WITH: "${hook}"`;
+
+  const format = process.argv.indexOf('--format') !== -1 ? process.argv[process.argv.indexOf('--format') + 1] : 'standard';
+
+  if (format === 'paper-listicle') {
+    const listUserPrompt = `Write a viral listicle for the niche: "${niche.name}".
+Target Emotion: ${niche.targetEmotion || 'Curiosity'}.
+You must provide a hook and a list of exactly 8 items (category, name, emoji icon).
+
+Return ONLY a JSON object:
+{
+  "voice": "af_heart",
+  "hook": "Here are the top 8 ${niche.name} secrets you need to know.",
+  "closing": "${hook}",
+  "list": [
+    { "title": "Category1", "name": "Tool/Item1", "icon": "💎" },
+    ... (total 8)
+  ]
+}
+NOTE: Voice must be one of: af_heart, af_alloy, af_bella, am_adam, am_echo, am_michael, bf_emma, bm_george. Default to af_heart.`;
+    const aiResponse = await callAI(listUserPrompt, systemPrompt);
+    return cleanJSON(aiResponse);
+  }
 
   const keywordsStr = niche.keywords ? niche.keywords.join(', ') : niche.name;
   const userPrompt = `Write a retention-optimized viral script for the niche: "${niche.name}".
