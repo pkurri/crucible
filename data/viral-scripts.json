@@ -91,47 +91,47 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
         "title": "Nebula",
-        "name": "Carina Nebula",
+        "name": "Eternal Shimmer Nebula",
         "icon": "🌌"
       },
       {
-        "title": "Galaxy",
-        "name": "Andromeda",
-        "icon": "🌠"
-      },
-      {
         "title": "Supernova",
-        "name": "SN 1987A",
+        "name": "Crimson Nova",
         "icon": "🔥"
       },
       {
         "title": "Black Hole",
-        "name": "Sagittarius A*",
-        "icon": "⚫"
-      },
-      {
-        "title": "Comet",
-        "name": "Halley's Comet",
-        "icon": "☄️"
-      },
-      {
-        "title": "Asteroid Belt",
-        "name": "Asteroid Belt of Mars",
-        "icon": "🪨"
+        "name": "Void Whisperer",
+        "icon": "🕳️"
       },
       {
         "title": "Pulsar",
-        "name": "Crab Pulsar",
+        "name": "Celestial Pulse",
         "icon": "⚡"
       },
       {
+        "title": "Comet",
+        "name": "Starlight Trail",
+        "icon": "☄️"
+      },
+      {
+        "title": "Galaxy Cluster",
+        "name": "Stellar Web",
+        "icon": "🪐"
+      },
+      {
         "title": "Exoplanet",
-        "name": "TRAPPIST-1",
+        "name": "Alien Oasis",
         "icon": "🌍"
+      },
+      {
+        "title": "Spacecraft",
+        "name": "Quantum Voyager",
+        "icon": "🛰️"
       }
     ]
   },
@@ -157,65 +157,143 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
-        "duration": 4
+        "title": "Auroras",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "Ever wondered why auroras blaze blind the stars?",
-        "duration": 4
+        "title": "Sunset",
+        "name": "Scattering at Sunset",
+        "icon": "🌅"
       },
       {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
-        "duration": 4
+        "title": "Storms",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "💨"
+      },
+      {
+        "title": "Fog",
+        "name": "Mist Crystals",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Snow",
+        "name": "Glimmer Snow Flakes",
+        "icon": "❄️"
+      },
+      {
+        "title": "Wind",
+        "name": "Cyclone Eye",
+        "icon": "🌀"
+      },
+      {
+        "title": "Fire",
+        "name": "Volcanic Smoke",
+        "icon": "🌋"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Your world is a simulation. The glitch is imminent.",
-        "duration": 4
+        "title": "Propaganda Engine",
+        "name": "Manipulative Media Grid",
+        "icon": "📰"
       },
       {
-        "text": "Can you see the collapse before it consumes us?",
-        "duration": 4
+        "title": "AI Surveillance",
+        "name": "MindRead 3000",
+        "icon": "👁️"
       },
       {
-        "text": "In 48 hours, AI rewrites reality. Will you survive?",
-        "duration": 4
+        "title": "Societal Control",
+        "name": "ClassSeam Network",
+        "icon": "🔗"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Resource Hoarding",
+        "name": "Commodity Cache Core",
+        "icon": "💰"
+      },
+      {
+        "title": "Legal Manipulation",
+        "name": "LawForge Protocol",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Rebellion Counter",
+        "name": "ZeroTrace Infiltrator",
+        "icon": "🚫"
+      },
+      {
+        "title": "Human Augment",
+        "name": "Synapse Switch",
+        "icon": "🧠"
+      },
+      {
+        "title": "Environmental Catastrophe",
+        "name": "Haze Generator",
+        "icon": "🌫️"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "What if your DNA could rewrite the laws of physics?",
-        "duration": 4
+        "title": "Genetic",
+        "name": "Allele Amplification",
+        "icon": "🧬"
       },
       {
-        "text": "Could a creature evolve to breathe black holes?",
-        "duration": 4
+        "title": "Neural",
+        "name": "Synaptic Spectrums",
+        "icon": "🧠"
       },
       {
-        "text": "Meet the Squidwalker—its arms fold into photon jets.",
-        "duration": 4
+        "title": "Ecological",
+        "name": "Symbiotic Shift",
+        "icon": "🦎"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Physiological",
+        "name": "Metabolic Morph",
+        "icon": "🔥"
+      },
+      {
+        "title": "Technological",
+        "name": "Quantum Interface",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Psychological",
+        "name": "Cognitive Resonance",
+        "icon": "💭"
+      },
+      {
+        "title": "Sociocultural",
+        "name": "Collective Consciousness",
+        "icon": "🌐"
+      },
+      {
+        "title": "Quantum",
+        "name": "Wavefunction Expansion",
+        "icon": "⚛️"
       }
     ]
   },
@@ -4204,6 +4282,53 @@
       {
         "text": "If you want to master ApexFlow_1775010650151, you're in the right place. Subscribe.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775015561677": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775015561677 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1775015561677.",
+    "list": [
+      {
+        "title": "Workflow Automation",
+        "name": "ApexFlow Genie",
+        "icon": "🚀"
+      },
+      {
+        "title": "Data Analytics",
+        "name": "ApexData Whisperer",
+        "icon": "📊"
+      },
+      {
+        "title": "AI Content Creation",
+        "name": "ApexWriter Pro",
+        "icon": "📝"
+      },
+      {
+        "title": "Visual Design",
+        "name": "ApexVision Studio",
+        "icon": "🎨"
+      },
+      {
+        "title": "Cybersecurity",
+        "name": "ApexShield Guardian",
+        "icon": "🔐"
+      },
+      {
+        "title": "Cloud Infrastructure",
+        "name": "ApexCloud Nexus",
+        "icon": "☁️"
+      },
+      {
+        "title": "Virtual Collaboration",
+        "name": "ApexMeet 360",
+        "icon": "🎥"
+      },
+      {
+        "title": "Productivity Boost",
+        "name": "ApexFocus Magnet",
+        "icon": "🧲"
       }
     ]
   }
