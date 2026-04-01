@@ -47,7 +47,7 @@
     "framer-motion": "^11.18.2",
     "ioredis": "^5.10.0",
     "lucide-react": "^0.441.0",
-    "next": "^15.5.14",
+    "next": "^16.2.1",
     "next-auth": "^5.0.0-beta.4",
     "postgres": "^3.4.4",
     "puppeteer": "^24.37.5",
