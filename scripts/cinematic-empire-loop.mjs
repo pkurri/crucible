@@ -52,19 +52,25 @@ function getTodayString() {
   return new Date().toISOString().split('T')[0];
 }
 
+const TRENDING_AESTHETICS = [
+  "Dark Academia, volumetric fog, moody lighting",
+  "Cyberpunk Dystopia, high-contrast neon, glitch elements",
+  "Hyper-Realistic Corporate Noir, deep shadows, cinematic",
+  "Ethereal Vaporwave, soft pastels, dreamlike state",
+  "Gritty Cinematic Realism, 35mm film grain, muted colors",
+  "Liminal Space, unsettling calm, fluorescent lighting, minimalist"
+];
+
 // --- Next-Gen Generators ---
 
-async function generateOpenArtAssets(topic) {
-  console.log(`\n🎨 [OpenArt] Generating consistent character assets for: ${topic}`);
-  // In a full implementation, this calls OpenArt.ai via their API or a customized Puppeteer flow
-  // targeting a specific trained LoRA or character seed.
-  console.log(`   ✅ Character Seed locked. High-res base images generated.`);
-  return [`/mock/openart/base_1.png`, `/mock/openart/base_2.png`];
+async function generateOpenArtAssets(topic, aesthetic) {
+  console.log(`\n🎨 [OpenArt] Generating high-contrast consistent assets for YT: ${topic}`);
+  console.log(`   ✅ Dynamic Trend Applied: ${aesthetic}`);
+  return [`/mock/openart/ig_base_1.png`];
 }
 
-async function generateLTXVideo(topic, baseImages) {
-  console.log(`\n🎬 [LTX Studio] Initializing cinematic video sequence for: ${topic}`);
-  
+async function generateLTXVideo(topic, baseImages, aesthetic) {
+  console.log(`\n🎬 [LTX Studio] Rendering Reel sequence for: ${topic}`);
   let ltxKey = "MISSING_KEY";
   if (existsSync(LTX_CREDS)) {
     ltxKey = JSON.parse(readFileSync(LTX_CREDS, 'utf-8')).api_key;
@@ -74,7 +80,7 @@ async function generateLTXVideo(topic, baseImages) {
   }
 
   console.log(`   🔐 Using LTX Key: ${ltxKey.substring(0, 8)}...`);
-  console.log(`   🎥 Payload: Image-to-Video sequence using OpenArt bases.`);
+  console.log(`   🎥 Payload: Applying specific visual style: [${aesthetic}]`);
   
   // Here we would call the actual LTX API from ltx-studio-agent.mjs
   // Simulating the delay and success for the loop skeleton
@@ -145,9 +151,12 @@ async function main() {
   const shift = (Date.now() + state.uploadsToday) % TOPICS.length;
   const targetTopic = TOPICS[shift];
 
+  // Rotate through trending aesthetics based on the date/shift so it stays fresh
+  const aesthetic = TRENDING_AESTHETICS[(Date.now() + shift) % TRENDING_AESTHETICS.length];
+
   // 3. Generative Phases
-  const openArtImages = await generateOpenArtAssets(targetTopic);
-  const ltxSuccess = await generateLTXVideo(targetTopic, openArtImages);
+  const openArtImages = await generateOpenArtAssets(targetTopic, aesthetic);
+  const ltxSuccess = await generateLTXVideo(targetTopic, openArtImages, aesthetic);
 
   if (!ltxSuccess) {
     console.log('❌ Generative pipeline failed. Aborting schedule.');

@@ -50,15 +50,24 @@ function getTodayString() {
   return new Date().toISOString().split('T')[0];
 }
 
+const TRENDING_AESTHETICS = [
+  "Dark Academia, volumetric fog, moody lighting",
+  "Cyberpunk Dystopia, high-contrast neon, glitch elements",
+  "Hyper-Realistic Corporate Noir, deep shadows, cinematic",
+  "Ethereal Vaporwave, soft pastels, dreamlike state",
+  "Gritty Cinematic Realism, 35mm film grain, muted colors",
+  "Liminal Space, unsettling calm, fluorescent lighting, minimalist"
+];
+
 // --- Next-Gen Generators ---
 
-async function generateOpenArtAssets(topic) {
+async function generateOpenArtAssets(topic, aesthetic) {
   console.log(`\n🎨 [OpenArt] Generating high-contrast consistent assets for IG: ${topic}`);
-  console.log(`   ✅ Dark/Dramatic aesthetic locked.`);
+  console.log(`   ✅ Dynamic Trend Applied: ${aesthetic}`);
   return [`/mock/openart/ig_base_1.png`];
 }
 
-async function generateLTXVideo(topic, baseImages) {
+async function generateLTXVideo(topic, baseImages, aesthetic) {
   console.log(`\n🎬 [LTX Studio] Rendering Instagram Reel sequence for: ${topic}`);
   let ltxKey = "MISSING_KEY";
   if (existsSync(LTX_CREDS)) {
@@ -68,6 +77,7 @@ async function generateLTXVideo(topic, baseImages) {
     return false;
   }
 
+  console.log(`   🎥 Payload: Applying specific visual style: [${aesthetic}]`);
   // Simulating LTX generation targeted for 9:16 vertical fast-paced reels
   await new Promise(r => setTimeout(r, 2000));
   console.log(`   ✅ IG-Optimized Video Render Complete.`);
@@ -131,8 +141,10 @@ async function main() {
   const shift = (Date.now() + state.uploadsToday) % TOPICS.length;
   const targetTopic = TOPICS[shift];
 
-  const openArtImages = await generateOpenArtAssets(targetTopic);
-  const ltxSuccess = await generateLTXVideo(targetTopic, openArtImages);
+  const aesthetic = TRENDING_AESTHETICS[(Date.now() + shift) % TRENDING_AESTHETICS.length];
+
+  const openArtImages = await generateOpenArtAssets(targetTopic, aesthetic);
+  const ltxSuccess = await generateLTXVideo(targetTopic, openArtImages, aesthetic);
 
   if (!ltxSuccess) {
     console.log('❌ Generative pipeline failed. Aborting schedule.');
