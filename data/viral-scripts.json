@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Carina Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galaxy",
+        "name": "Andromeda",
+        "icon": "🌠"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Supernova",
+        "name": "SN 1987A",
+        "icon": "🔥"
+      },
+      {
+        "title": "Black Hole",
+        "name": "Sagittarius A*",
+        "icon": "⚫"
+      },
+      {
+        "title": "Comet",
+        "name": "Halley's Comet",
+        "icon": "☄️"
+      },
+      {
+        "title": "Asteroid Belt",
+        "name": "Asteroid Belt of Mars",
+        "icon": "🪨"
+      },
+      {
+        "title": "Pulsar",
+        "name": "Crab Pulsar",
+        "icon": "⚡"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
       }
     ]
   },
@@ -4152,6 +4182,27 @@
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775010650151": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid crashes through reality—watch it defy physics.",
+        "duration": 4
+      },
+      {
+        "text": "What happens when data points ignite a neural dream?",
+        "duration": 4
+      },
+      {
+        "text": "See neon fluid weave through cars, code, and consciousness.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1775010650151, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
