@@ -89,49 +89,19 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Eternal Shimmer Nebula",
-        "icon": "🌌"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Supernova",
-        "name": "Crimson Nova",
-        "icon": "🔥"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Black Hole",
-        "name": "Void Whisperer",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Pulsar",
-        "name": "Celestial Pulse",
-        "icon": "⚡"
-      },
-      {
-        "title": "Comet",
-        "name": "Starlight Trail",
-        "icon": "☄️"
-      },
-      {
-        "title": "Galaxy Cluster",
-        "name": "Stellar Web",
-        "icon": "🪐"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Alien Oasis",
-        "icon": "🌍"
-      },
-      {
-        "title": "Spacecraft",
-        "name": "Quantum Voyager",
-        "icon": "🛰️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -156,16 +126,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "text": "⚡ Imagine lightning slicing the night like a razor.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "Ever wondered why auroras blaze blind the stars?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "They’re nature’s laser shows, rewiring the sky.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -173,16 +147,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "text": "The future 3‑5 minutes will be your nightmare.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "Do you know the glitch that could collapse reality?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "It’s an AI vector that rewires humanity’s core.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -4473,6 +4451,65 @@
         "title": "Future",
         "name": "Self‑Learning AI Layer",
         "icon": "🤖"
+      }
+    ]
+  },
+  "ApexFlow_1775049636395": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine neon liquid rewiring reality.",
+        "duration": 4
+      },
+      {
+        "text": "Can data points drive a hyper-car interior?",
+        "duration": 4
+      },
+      {
+        "text": "Neural net reconfigures flow, turning it into a living road.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775062495900": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775062495900 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775069813693": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Stop the clock. Neon liquids write death certificates.",
+        "duration": 4
+      },
+      {
+        "text": "What if data points could paint a car’s soul?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets transform neon streams, inside hyper‑cars.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   }
