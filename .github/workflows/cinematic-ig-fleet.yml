@@ -1,0 +1,61 @@
+name: '📸 Cinematic Empire (IG Specific) Fleet'
+
+on:
+  schedule:
+    - cron: '15 */2 * * *'  # Trigger every 2 hours (at XX:15 to offset YouTube), script enforces a 5-hour gap
+  workflow_dispatch:
+
+jobs:
+  instagram-cinematic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30 
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install System Dependencies
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Node Dependencies
+        run: npm install
+
+      - name: Initialize Meta Configuration
+        run: |
+          mkdir -p data/cinematic-empire/CognitiveShadows-IG/topics
+          
+          # Inject the LTX Creds for the generation phase
+          cat << 'EOF' > scripts/ltx-credentials.json
+          {
+            "agent_name": "LTX_Studio_IG_Director",
+            "api_key": "${{ secrets.LTX_STUDIO_API_KEY }}",
+            "status": "production",
+            "description": "API Key attached via GitHub Actions"
+          }
+          EOF
+
+      - name: Execute Instagram Generation & Upload
+        run: node scripts/cinematic-ig-loop.mjs
+        env:
+          GITHUB_ACTIONS: "true"
+          NODE_ENV: production
+          # Secrets for the Meta Uploader to authenticate Graph API
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_IG_ACCOUNT_ID: ${{ secrets.META_IG_ACCOUNT_ID }}
+          META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }} 
+
+      - name: Commit State & Media Progression
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "Crucible Bot"
+          git config --global user.email "bot@crucible.ai"
+          git add -f scripts/cinematic-ig-state.json data/cinematic-empire/CognitiveShadows-IG/ || true
+          git diff --staged --quiet || git commit -m "chore: cinematic IG cycle advanced [skip ci]"
+          git pull --rebase origin main || true
+          git push origin main || echo "Push failed"

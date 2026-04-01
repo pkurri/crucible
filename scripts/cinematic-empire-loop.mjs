@@ -155,7 +155,7 @@ async function main() {
   }
 
   // 4. Distribution Phase
-  const uploadSuccess = await composeAndUpload(targetTopic, "AAK-Nation"); // Target existing channel
+  const uploadSuccess = await composeAndUpload(targetTopic, "CognitiveShadows"); // Target existing channel
 
   // 5. State Update
   if (uploadSuccess) {
