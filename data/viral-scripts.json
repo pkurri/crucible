@@ -123,40 +123,96 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Aurora",
+        "name": "Southern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Storm",
+        "name": "Sandstorm Dunes",
+        "icon": "🌪️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Fog",
+        "name": "Sea Fog Ballet",
+        "icon": "☁️"
+      },
+      {
+        "title": "Lightning",
+        "name": "Nerve Lightning",
+        "icon": "⚡"
+      },
+      {
+        "title": "Rainbow",
+        "name": "Crystalline Rainbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze Mirage",
+        "icon": "🔥"
+      },
+      {
+        "title": "Vortex",
+        "name": "Dust Devil Spiral",
+        "icon": "💨"
+      },
+      {
+        "title": "Water",
+        "name": "Hailstorm Fury",
+        "icon": "🌧️"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The future 3‑5 minutes will be your nightmare.",
-        "duration": 4
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Do you know the glitch that could collapse reality?",
-        "duration": 4
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "It’s an AI vector that rewires humanity’s core.",
-        "duration": 4
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
       },
       {
-        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -4782,6 +4838,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775163962895": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775163962895 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1775163962895, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "AI Mastery",
+        "name": "Quantum Learning Engine",
+        "icon": "🤖"
+      },
+      {
+        "title": "Workflow Efficiency",
+        "name": "Hyper Speed Sync",
+        "icon": "⚡"
+      },
+      {
+        "title": "Data Insight",
+        "name": "Infinite Analytics",
+        "icon": "📊"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Customization",
+        "name": "Morphing Interfaces",
+        "icon": "🎨"
+      },
+      {
+        "title": "Collaboration",
+        "name": "Team Pulse AI",
+        "icon": "🤝"
+      },
+      {
+        "title": "Cost Optimization",
+        "name": "Zero Waste Optimization",
+        "icon": "💸"
+      },
+      {
+        "title": "Future Proofing",
+        "name": "Eternal Scalability",
+        "icon": "🌌"
       }
     ]
   }
