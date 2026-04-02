@@ -127,19 +127,49 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Sunset",
+        "name": "Scattering at Sunset",
+        "icon": "🌅"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Storms",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "💨"
+      },
+      {
+        "title": "Fog",
+        "name": "Mist Crystals",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Snow",
+        "name": "Glimmer Snow Flakes",
+        "icon": "❄️"
+      },
+      {
+        "title": "Wind",
+        "name": "Cyclone Eye",
+        "icon": "🌀"
+      },
+      {
+        "title": "Fire",
+        "name": "Volcanic Smoke",
+        "icon": "🌋"
       }
     ]
   },
@@ -161,23 +191,49 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "What if your DNA could rewrite the laws of physics?",
-        "duration": 4
+        "title": "Genetic",
+        "name": "Allele Amplification",
+        "icon": "🧬"
       },
       {
-        "text": "Could a creature evolve to breathe black holes?",
-        "duration": 4
+        "title": "Neural",
+        "name": "Synaptic Spectrums",
+        "icon": "🧠"
       },
       {
-        "text": "Meet the Squidwalker—its arms fold into photon jets.",
-        "duration": 4
+        "title": "Ecological",
+        "name": "Symbiotic Shift",
+        "icon": "🦎"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Physiological",
+        "name": "Metabolic Morph",
+        "icon": "🔥"
+      },
+      {
+        "title": "Technological",
+        "name": "Quantum Interface",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Psychological",
+        "name": "Cognitive Resonance",
+        "icon": "💭"
+      },
+      {
+        "title": "Sociocultural",
+        "name": "Collective Consciousness",
+        "icon": "🌐"
+      },
+      {
+        "title": "Quantum",
+        "name": "Wavefunction Expansion",
+        "icon": "⚛️"
       }
     ]
   },
@@ -219,16 +275,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of SymbioticSpeciesDocumentary are finally revealed.",
-        "duration": 5
+        "text": "Think your pets are alone? Think again!",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What if your favorite animal owes its life to a stranger?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Elephants eat ants. A deadly swap that keeps both alive.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -236,19 +296,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your lab has turned into a god's playground.",
+        "text": "Tonight, a scientist accidentally summons chaos.",
         "duration": 4
       },
       {
-        "text": "Did a single glitch give you omnipotence?",
+        "text": "What happened when power met an untrained mind?",
         "duration": 4
       },
       {
-        "text": "When the quantum circuit rewrote reality, chaos followed.",
+        "text": "He unlocked a universe where grief feeds reality.",
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AccidentalGodhoodMoments.",
+        "text": "If you want to master AccidentalGodhoodMoments, subscribe.",
         "duration": 3
       }
     ]
