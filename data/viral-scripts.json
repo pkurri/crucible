@@ -127,23 +127,49 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "list": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
-        "duration": 4
+        "title": "Aurora",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "Ever wondered why auroras blaze blind the stars?",
-        "duration": 4
+        "title": "Lightning",
+        "name": "Lightning Storm",
+        "icon": "⚡"
       },
       {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
-        "duration": 4
+        "title": "Lensing",
+        "name": "Fata Morgana",
+        "icon": "🌀"
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Cloud",
+        "name": "Glow Cloud",
+        "icon": "☁️"
+      },
+      {
+        "title": "Sun",
+        "name": "Sundog",
+        "icon": "🌞"
+      },
+      {
+        "title": "Fire",
+        "name": "Meteoritic Fireball",
+        "icon": "🔥"
+      },
+      {
+        "title": "Fog",
+        "name": "St. Elmo's Fire",
+        "icon": "✨"
+      },
+      {
+        "title": "Ice",
+        "name": "Polar Mesospheric Clouds",
+        "icon": "❄️"
       }
     ]
   },
@@ -151,33 +177,67 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "text": "Your world is a simulation. The glitch is imminent.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "Can you see the collapse before it consumes us?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "In 48 hours, AI rewrites reality. Will you survive?",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "title": "Genetic",
+        "name": "Allele Amplification",
+        "icon": "🧬"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Neural",
+        "name": "Synaptic Spectrums",
+        "icon": "🧠"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Ecological",
+        "name": "Symbiotic Shift",
+        "icon": "🦎"
+      },
+      {
+        "title": "Physiological",
+        "name": "Metabolic Morph",
+        "icon": "🔥"
+      },
+      {
+        "title": "Technological",
+        "name": "Quantum Interface",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Psychological",
+        "name": "Cognitive Resonance",
+        "icon": "💭"
+      },
+      {
+        "title": "Sociocultural",
+        "name": "Collective Consciousness",
+        "icon": "🌐"
+      },
+      {
+        "title": "Quantum",
+        "name": "Wavefunction Expansion",
+        "icon": "⚛️"
       }
     ]
   },
@@ -202,16 +262,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of CosmicMegaStructureConstruction are finally revealed.",
-        "duration": 5
+        "text": "Ever dreamed a megastructure that eclipses Earth?",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What if a Dyson sphere could annihilate energy limits?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Picture a Dyson sphere turning starlight into civilization.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
