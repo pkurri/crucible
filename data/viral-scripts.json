@@ -89,10 +89,57 @@
     ]
   },
   "CosmicWondersVisuals": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Nebula",
+        "name": "Rosette Nebula",
+        "icon": "🌹"
+      },
+      {
+        "title": "Nebula",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
+      },
+      {
+        "title": "Galaxy",
+        "name": "Sombrero Galaxy",
+        "icon": "🎩"
+      },
+      {
+        "title": "Galaxy",
+        "name": "Tadpole Galaxy",
+        "icon": "🐸"
+      },
+      {
+        "title": "Quasar",
+        "name": "3C 273",
+        "icon": "🔭"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Kepler-438b",
+        "icon": "🌍"
+      },
+      {
+        "title": "Comet",
+        "name": "Hale-Bopp",
+        "icon": "☄️"
+      },
+      {
+        "title": "Cosmic Microwave Background",
+        "name": "CMB Map",
+        "icon": "🛰️"
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
         "duration": 5
       },
       {
@@ -105,44 +152,23 @@
       }
     ]
   },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "They hum in the abyss—hear this?!",
-        "duration": 4
-      },
-      {
-        "text": "What creature keeps its heartbeat in the dark?",
-        "duration": 4
-      },
-      {
-        "text": "It's the bioluminescent hagfish: alive in death.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
-        "duration": 3
-      }
-    ]
-  },
   "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
+        "text": "Did that storm just rewrite the sky?",
         "duration": 4
       },
       {
-        "text": "Ever wondered why auroras blaze blind the stars?",
+        "text": "What if the universe is lighting up a secret dance?",
         "duration": 4
       },
       {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
+        "text": "Nature's fiercest shows paint aurorized thunderheads.",
         "duration": 4
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
@@ -4573,6 +4599,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1775095804373 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775109520038": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775109520038 are finally revealed.",
         "duration": 5
       },
       {
