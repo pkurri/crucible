@@ -89,49 +89,19 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Rosette Nebula",
-        "icon": "🌹"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Galaxy",
-        "name": "Sombrero Galaxy",
-        "icon": "🎩"
-      },
-      {
-        "title": "Galaxy",
-        "name": "Tadpole Galaxy",
-        "icon": "🐸"
-      },
-      {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🔭"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-438b",
-        "icon": "🌍"
-      },
-      {
-        "title": "Comet",
-        "name": "Hale-Bopp",
-        "icon": "☄️"
-      },
-      {
-        "title": "Cosmic Microwave Background",
-        "name": "CMB Map",
-        "icon": "🛰️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -139,16 +109,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "text": "They hum in the abyss—hear this?!",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What creature keeps its heartbeat in the dark?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "It's the bioluminescent hagfish: alive in death.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
+        "duration": 3
       }
     ]
   },
@@ -156,49 +130,7 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Did that storm just rewrite the sky?",
-        "duration": 4
-      },
-      {
-        "text": "What if the universe is lighting up a secret dance?",
-        "duration": 4
-      },
-      {
-        "text": "Nature's fiercest shows paint aurorized thunderheads.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Your world is a simulation. The glitch is imminent.",
-        "duration": 4
-      },
-      {
-        "text": "Can you see the collapse before it consumes us?",
-        "duration": 4
-      },
-      {
-        "text": "In 48 hours, AI rewrites reality. Will you survive?",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
-  "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
         "duration": 5
       },
       {
@@ -208,6 +140,44 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "HyperEvolutionaryAdaptations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your DNA could rewrite the laws of physics?",
+        "duration": 4
+      },
+      {
+        "text": "Could a creature evolve to breathe black holes?",
+        "duration": 4
+      },
+      {
+        "text": "Meet the Squidwalker—its arms fold into photon jets.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -4616,6 +4586,57 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1775109520038 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775100889472": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775100889472 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775108527169": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775108527169 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775114423232": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775114423232 are finally revealed.",
         "duration": 5
       },
       {
