@@ -109,20 +109,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They hum in the abyss—hear this?!",
-        "duration": 4
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What creature keeps its heartbeat in the dark?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "It's the bioluminescent hagfish: alive in death.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -130,19 +126,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Did that storm just rewrite the sky?",
+        "text": "⚡ Imagine lightning slicing the night like a razor.",
         "duration": 4
       },
       {
-        "text": "What if the universe is lighting up a secret dance?",
+        "text": "Ever wondered why auroras blaze blind the stars?",
         "duration": 4
       },
       {
-        "text": "Nature's fiercest shows paint aurorized thunderheads.",
+        "text": "They’re nature’s laser shows, rewiring the sky.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -165,19 +161,49 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "title": "Genetic",
+        "name": "Allele Amplification",
+        "icon": "🧬"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Neural",
+        "name": "Synaptic Spectrums",
+        "icon": "🧠"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Ecological",
+        "name": "Symbiotic Shift",
+        "icon": "🦎"
+      },
+      {
+        "title": "Physiological",
+        "name": "Metabolic Morph",
+        "icon": "🔥"
+      },
+      {
+        "title": "Technological",
+        "name": "Quantum Interface",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Psychological",
+        "name": "Cognitive Resonance",
+        "icon": "💭"
+      },
+      {
+        "title": "Sociocultural",
+        "name": "Collective Consciousness",
+        "icon": "🌐"
+      },
+      {
+        "title": "Quantum",
+        "name": "Wavefunction Expansion",
+        "icon": "⚛️"
       }
     ]
   },
@@ -4994,6 +5020,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775208716401": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775208716401 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Hero Tier",
+        "name": "Apex Vanguard",
+        "icon": "⚔️"
+      },
+      {
+        "title": "Weapon",
+        "name": "Fluxblade",
+        "icon": "🗡️"
+      },
+      {
+        "title": "Skill",
+        "name": "Vortex Storm",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Stat Boost",
+        "name": "Focus Amplifier",
+        "icon": "📈"
+      },
+      {
+        "title": "Stamina Drain",
+        "name": "Endurance Mistral",
+        "icon": "🚀"
+      },
+      {
+        "title": "Battle Ultimatum",
+        "name": "Final Eclipse",
+        "icon": "🌑"
+      },
+      {
+        "title": "Melee Range",
+        "name": "Close-Quarters Extreme",
+        "icon": "🤺"
+      },
+      {
+        "title": "Ranged Attack",
+        "name": "Piercing Arrow",
+        "icon": "🏹"
       }
     ]
   }
