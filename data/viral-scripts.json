@@ -109,7 +109,49 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "text": "They hum in the abyss—hear this?!",
+        "duration": 4
+      },
+      {
+        "text": "What creature keeps its heartbeat in the dark?",
+        "duration": 4
+      },
+      {
+        "text": "It's the bioluminescent hagfish: alive in death.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
+        "duration": 3
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Did that storm just rewrite the sky?",
+        "duration": 4
+      },
+      {
+        "text": "What if the universe is lighting up a secret dance?",
+        "duration": 4
+      },
+      {
+        "text": "Nature's fiercest shows paint aurorized thunderheads.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
         "duration": 5
       },
       {
@@ -119,100 +161,6 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
-    "list": [
-      {
-        "title": "Aurora",
-        "name": "Aurora Borealis",
-        "icon": "🌌"
-      },
-      {
-        "title": "Lightning",
-        "name": "Lightning Storm",
-        "icon": "⚡"
-      },
-      {
-        "title": "Lensing",
-        "name": "Fata Morgana",
-        "icon": "🌀"
-      },
-      {
-        "title": "Cloud",
-        "name": "Glow Cloud",
-        "icon": "☁️"
-      },
-      {
-        "title": "Sun",
-        "name": "Sundog",
-        "icon": "🌞"
-      },
-      {
-        "title": "Fire",
-        "name": "Meteoritic Fireball",
-        "icon": "🔥"
-      },
-      {
-        "title": "Fog",
-        "name": "St. Elmo's Fire",
-        "icon": "✨"
-      },
-      {
-        "title": "Ice",
-        "name": "Polar Mesospheric Clouds",
-        "icon": "❄️"
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Surveillance",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
-      },
-      {
-        "title": "AI Rule",
-        "name": "Neural Net Tyrant",
-        "icon": "🤖"
-      },
-      {
-        "title": "Climate Collapse",
-        "name": "Glacial Rift",
-        "icon": "❄️"
-      },
-      {
-        "title": "Resource Scarcity",
-        "name": "Zero Grain Protocol",
-        "icon": "🌾"
-      },
-      {
-        "title": "Social Stratification",
-        "name": "Caste Synthesizer",
-        "icon": "🎭"
-      },
-      {
-        "title": "Bioengineering",
-        "name": "Genetic Purge Engine",
-        "icon": "🧬"
-      },
-      {
-        "title": "Cybercrime",
-        "name": "Darknet Blackout",
-        "icon": "🕸️"
-      },
-      {
-        "title": "Totalitarian State",
-        "name": "Iron Dome Ordinance",
-        "icon": "🛡️"
       }
     ]
   },
@@ -5012,6 +4960,40 @@
         "title": "Voice‑Activated Debugger",
         "name": "EchoDebugger",
         "icon": "🎙️"
+      }
+    ]
+  },
+  "ApexFlow_1775194944993": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775194944993 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775200125050": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775200125050 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
