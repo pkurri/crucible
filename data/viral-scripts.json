@@ -106,57 +106,10 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Night Stalkers",
-        "name": "The Hollow-Glowing Angler",
-        "icon": "🌑"
-      },
-      {
-        "title": "Echidna Monsters",
-        "name": "The Blood-Red Cuttlefish",
-        "icon": "🦀"
-      },
-      {
-        "title": "Silence Bringers",
-        "name": "The Whispering Squid",
-        "icon": "🦑"
-      },
-      {
-        "title": "Predator Lurkers",
-        "name": "The Phantom Manta",
-        "icon": "🦋"
-      },
-      {
-        "title": "Scorpion Deep",
-        "name": "The Black Sturgeon",
-        "icon": "🦈"
-      },
-      {
-        "title": "Molecule Terrors",
-        "name": "The Brown Necked Dragonfish",
-        "icon": "🐲"
-      },
-      {
-        "title": "Hallucinatory Dwellers",
-        "name": "The Glow-Eyed Dollfish",
-        "icon": "💀"
-      },
-      {
-        "title": "Lost Royalty",
-        "name": "The Abyssal Lobster King",
-        "icon": "👑"
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
         "duration": 5
       },
       {
@@ -169,50 +122,97 @@
       }
     ]
   },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "list": [
+      {
+        "title": "Aurora",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
+      },
+      {
+        "title": "Lightning",
+        "name": "Lightning Storm",
+        "icon": "⚡"
+      },
+      {
+        "title": "Lensing",
+        "name": "Fata Morgana",
+        "icon": "🌀"
+      },
+      {
+        "title": "Cloud",
+        "name": "Glow Cloud",
+        "icon": "☁️"
+      },
+      {
+        "title": "Sun",
+        "name": "Sundog",
+        "icon": "🌞"
+      },
+      {
+        "title": "Fire",
+        "name": "Meteoritic Fireball",
+        "icon": "🔥"
+      },
+      {
+        "title": "Fog",
+        "name": "St. Elmo's Fire",
+        "icon": "✨"
+      },
+      {
+        "title": "Ice",
+        "name": "Polar Mesospheric Clouds",
+        "icon": "❄️"
+      }
+    ]
+  },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Military AI",
-        "name": "Nano-Drone Recon",
-        "icon": "🎯"
+        "title": "Surveillance",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "title": "Urban Decay",
-        "name": "Grenfell Grid",
-        "icon": "🏙️"
+        "title": "AI Rule",
+        "name": "Neural Net Tyrant",
+        "icon": "🤖"
       },
       {
         "title": "Climate Collapse",
-        "name": "Thermal Decontaminator",
-        "icon": "♻️"
-      },
-      {
-        "title": "Social Control",
-        "name": "Surveillance Matrix",
-        "icon": "🔍"
+        "name": "Glacial Rift",
+        "icon": "❄️"
       },
       {
         "title": "Resource Scarcity",
-        "name": "BlackMarket Broker",
-        "icon": "💰"
+        "name": "Zero Grain Protocol",
+        "icon": "🌾"
       },
       {
-        "title": "Energy Crisis",
-        "name": "Fusion Cube",
-        "icon": "⚡️"
+        "title": "Social Stratification",
+        "name": "Caste Synthesizer",
+        "icon": "🎭"
       },
       {
-        "title": "Biohazard",
-        "name": "Pandemic SimX",
-        "icon": "☣️"
+        "title": "Bioengineering",
+        "name": "Genetic Purge Engine",
+        "icon": "🧬"
       },
       {
-        "title": "AI Governance",
-        "name": "Sentinel AI",
-        "icon": "🧠"
+        "title": "Cybercrime",
+        "name": "Darknet Blackout",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Totalitarian State",
+        "name": "Iron Dome Ordinance",
+        "icon": "🛡️"
       }
     ]
   },
@@ -4965,6 +4965,53 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775195888796": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775195888796 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1775195888796, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Quantum RPM Boost",
+        "name": "ApexAccelerator",
+        "icon": "🏎️"
+      },
+      {
+        "title": "Dynamic Load Balancer",
+        "name": "FluxBalancer",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Predictive AI Node",
+        "name": "ApexPredictor",
+        "icon": "🤖"
+      },
+      {
+        "title": "Self-Healing Mesh",
+        "name": "MeshRescue",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Ultra‑Low Latency Route",
+        "name": "PulsePath",
+        "icon": "🔗"
+      },
+      {
+        "title": "Encrypted Data Tunnel",
+        "name": "ApexVeil",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Hyper‑Cache Engine",
+        "name": "CacheNova",
+        "icon": "🌀"
+      },
+      {
+        "title": "Voice‑Activated Debugger",
+        "name": "EchoDebugger",
+        "icon": "🎙️"
       }
     ]
   }
