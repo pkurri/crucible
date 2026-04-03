@@ -126,20 +126,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
-        "duration": 4
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Ever wondered why auroras blaze blind the stars?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -147,7 +143,28 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "text": "Your world is a simulation. The glitch is imminent.",
+        "duration": 4
+      },
+      {
+        "text": "Can you see the collapse before it consumes us?",
+        "duration": 4
+      },
+      {
+        "text": "In 48 hours, AI rewrites reality. Will you survive?",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "HyperEvolutionaryAdaptations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
         "duration": 5
       },
       {
@@ -157,53 +174,6 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
-      }
-    ]
-  },
-  "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Genetic",
-        "name": "Allele Amplification",
-        "icon": "🧬"
-      },
-      {
-        "title": "Neural",
-        "name": "Synaptic Spectrums",
-        "icon": "🧠"
-      },
-      {
-        "title": "Ecological",
-        "name": "Symbiotic Shift",
-        "icon": "🦎"
-      },
-      {
-        "title": "Physiological",
-        "name": "Metabolic Morph",
-        "icon": "🔥"
-      },
-      {
-        "title": "Technological",
-        "name": "Quantum Interface",
-        "icon": "🛠️"
-      },
-      {
-        "title": "Psychological",
-        "name": "Cognitive Resonance",
-        "icon": "💭"
-      },
-      {
-        "title": "Sociocultural",
-        "name": "Collective Consciousness",
-        "icon": "🌐"
-      },
-      {
-        "title": "Quantum",
-        "name": "Wavefunction Expansion",
-        "icon": "⚛️"
       }
     ]
   },
@@ -211,16 +181,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of ImpossibleArchitectureBlueprints are finally revealed.",
-        "duration": 5
+        "text": "This building breaks every law of physics!",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "How could engineers design a gravity-defying skyscraper?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "They fold space, use hidden tension—science meets art.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   },
@@ -228,19 +202,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever dreamed a megastructure that eclipses Earth?",
+        "text": "What if a megastructure eclipsed the Sun?",
         "duration": 4
       },
       {
-        "text": "What if a Dyson sphere could annihilate energy limits?",
+        "text": "But can we build on that scale?",
         "duration": 4
       },
       {
-        "text": "Picture a Dyson sphere turning starlight into civilization.",
+        "text": "Engineers say a Dyson sphere is 10x solar power.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master CosmicMegaStructureConstruction, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -5067,6 +5041,48 @@
         "title": "Ranged Attack",
         "name": "Piercing Arrow",
         "icon": "🏹"
+      }
+    ]
+  },
+  "ApexFlow_1775206466864": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid streams like a wild data storm.",
+        "duration": 4
+      },
+      {
+        "text": "What do hyper-car interiors and neural nets reveal?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets glow neon flow, turning data into cockpit dreams.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775220990637": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Ever seen neon fluid twist inside a car?",
+        "duration": 4
+      },
+      {
+        "text": "What if that pulse was feeding raw data instead?",
+        "duration": 4
+      },
+      {
+        "text": "ApexFlow turns data knots into shimmering streams.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1775220990637, subscribe.",
+        "duration": 3
       }
     ]
   }
