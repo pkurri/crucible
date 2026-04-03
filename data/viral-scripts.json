@@ -106,23 +106,49 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "They hum in the abyss—hear this?!",
-        "duration": 4
+        "title": "Night Stalkers",
+        "name": "The Hollow-Glowing Angler",
+        "icon": "🌑"
       },
       {
-        "text": "What creature keeps its heartbeat in the dark?",
-        "duration": 4
+        "title": "Echidna Monsters",
+        "name": "The Blood-Red Cuttlefish",
+        "icon": "🦀"
       },
       {
-        "text": "It's the bioluminescent hagfish: alive in death.",
-        "duration": 4
+        "title": "Silence Bringers",
+        "name": "The Whispering Squid",
+        "icon": "🦑"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
-        "duration": 3
+        "title": "Predator Lurkers",
+        "name": "The Phantom Manta",
+        "icon": "🦋"
+      },
+      {
+        "title": "Scorpion Deep",
+        "name": "The Black Sturgeon",
+        "icon": "🦈"
+      },
+      {
+        "title": "Molecule Terrors",
+        "name": "The Brown Necked Dragonfish",
+        "icon": "🐲"
+      },
+      {
+        "title": "Hallucinatory Dwellers",
+        "name": "The Glow-Eyed Dollfish",
+        "icon": "💀"
+      },
+      {
+        "title": "Lost Royalty",
+        "name": "The Abyssal Lobster King",
+        "icon": "👑"
       }
     ]
   },
@@ -144,19 +170,49 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
+      },
+      {
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -4888,6 +4944,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775187412651": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid smashes data points—watch a car rewrite reality.",
+        "duration": 4
+      },
+      {
+        "text": "Can a single splash unlock a whole neural network?",
+        "duration": 4
+      },
+      {
+        "text": "Neon streams map data, turning dashboards into living art.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   }
