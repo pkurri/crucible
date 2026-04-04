@@ -126,41 +126,63 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Did that storm just rewrite the sky?",
-        "duration": 4
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if the universe is lighting up a secret dance?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Nature's fiercest shows paint aurorized thunderheads.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Your world is a simulation. The glitch is imminent.",
-        "duration": 4
+        "title": "Surveillance",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "Can you see the collapse before it consumes us?",
-        "duration": 4
+        "title": "AI Rule",
+        "name": "Neural Net Tyrant",
+        "icon": "🤖"
       },
       {
-        "text": "In 48 hours, AI rewrites reality. Will you survive?",
-        "duration": 4
+        "title": "Climate Collapse",
+        "name": "Glacial Rift",
+        "icon": "❄️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Resource Scarcity",
+        "name": "Zero Grain Protocol",
+        "icon": "🌾"
+      },
+      {
+        "title": "Social Stratification",
+        "name": "Caste Synthesizer",
+        "icon": "🎭"
+      },
+      {
+        "title": "Bioengineering",
+        "name": "Genetic Purge Engine",
+        "icon": "🧬"
+      },
+      {
+        "title": "Cybercrime",
+        "name": "Darknet Blackout",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Totalitarian State",
+        "name": "Iron Dome Ordinance",
+        "icon": "🛡️"
       }
     ]
   },
@@ -5384,6 +5406,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775293813543": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775293813543 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1775293813543.",
+    "list": [
+      {
+        "title": "Quantum Speed",
+        "name": "ApexPulse Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Neural Networking",
+        "name": "Synapse Surfer",
+        "icon": "🧠"
+      },
+      {
+        "title": "Auto-Scaling",
+        "name": "ScaleVortex",
+        "icon": "🌐"
+      },
+      {
+        "title": "AI Insight",
+        "name": "Insight Prism",
+        "icon": "🔮"
+      },
+      {
+        "title": "Security",
+        "name": "FortiSphere",
+        "icon": "🔒"
+      },
+      {
+        "title": "Workflow",
+        "name": "FlowForge",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Analytics",
+        "name": "DataDynamo",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "BridgeByte",
+        "icon": "🔗"
       }
     ]
   }
