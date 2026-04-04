@@ -89,57 +89,10 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Nebula",
-        "name": "Carina Nebula",
-        "icon": "🌌"
-      },
-      {
-        "title": "Galaxy",
-        "name": "Andromeda",
-        "icon": "🌠"
-      },
-      {
-        "title": "Supernova",
-        "name": "SN 1987A",
-        "icon": "🔥"
-      },
-      {
-        "title": "Black Hole",
-        "name": "Sagittarius A*",
-        "icon": "⚫"
-      },
-      {
-        "title": "Comet",
-        "name": "Halley's Comet",
-        "icon": "☄️"
-      },
-      {
-        "title": "Asteroid Belt",
-        "name": "Asteroid Belt of Mars",
-        "icon": "🪨"
-      },
-      {
-        "title": "Pulsar",
-        "name": "Crab Pulsar",
-        "icon": "⚡"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "TRAPPIST-1",
-        "icon": "🌍"
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
         "duration": 5
       },
       {
@@ -152,24 +105,97 @@
       }
     ]
   },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "list": [
+      {
+        "title": "Undead Anglers",
+        "name": "Vampire Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Gelatinous Horrors",
+        "name": "Glass Squid",
+        "icon": "🧼"
+      },
+      {
+        "title": "Jaws of the Abyss",
+        "name": "Goblin Shark",
+        "icon": "🦈"
+      },
+      {
+        "title": "Deepsea Predators",
+        "name": "Yeti Crab",
+        "icon": "🦀"
+      },
+      {
+        "title": "Night Glow",
+        "name": "Lanternfish",
+        "icon": "🌟"
+      },
+      {
+        "title": "Turbulent Terror",
+        "name": "Sargassum Sea Monster",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Chill Sirens",
+        "name": "Boreal Jelly",
+        "icon": "🧊"
+      },
+      {
+        "title": "Monsoon Spirits",
+        "name": "Kuroshio Killer",
+        "icon": "🌊"
+      }
+    ]
+  },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Did that storm just rewrite the sky?",
-        "duration": 4
+        "title": "Auroras",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "What if the universe is lighting up a secret dance?",
-        "duration": 4
+        "title": "Sunset",
+        "name": "Scattering at Sunset",
+        "icon": "🌅"
       },
       {
-        "text": "Nature's fiercest shows paint aurorized thunderheads.",
-        "duration": 4
+        "title": "Storms",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "💨"
+      },
+      {
+        "title": "Fog",
+        "name": "Mist Crystals",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Snow",
+        "name": "Glimmer Snow Flakes",
+        "icon": "❄️"
+      },
+      {
+        "title": "Wind",
+        "name": "Cyclone Eye",
+        "icon": "🌀"
+      },
+      {
+        "title": "Fire",
+        "name": "Volcanic Smoke",
+        "icon": "🌋"
       }
     ]
   },
@@ -5538,6 +5564,53 @@
       {
         "text": "If you want to master ApexFlow_1775309843749, subscribe.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775322297134": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775322297134 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1775322297134.",
+    "list": [
+      {
+        "title": "Ultimate Builds",
+        "name": "Apex Shockwave Kit",
+        "icon": "🔥"
+      },
+      {
+        "title": "Map Mastery",
+        "name": "Sentinel's Shadow Passage",
+        "icon": "🌌"
+      },
+      {
+        "title": "Weapon Tricks",
+        "name": "Muzzle Flip Instinct",
+        "icon": "🎯"
+      },
+      {
+        "title": "Power-ups",
+        "name": "Quantum Health Surge",
+        "icon": "💉"
+      },
+      {
+        "title": "Strategy",
+        "name": "Greedy Overwatch Sweep",
+        "icon": "🗝️"
+      },
+      {
+        "title": "Lore",
+        "name": "Eclipse Convergence",
+        "icon": "🌑"
+      },
+      {
+        "title": "Champion Moves",
+        "name": "Nebula Charge",
+        "icon": "🚀"
+      },
+      {
+        "title": "Community Hacks",
+        "name": "Shimmer Drop Sync",
+        "icon": "🤝"
       }
     ]
   }
