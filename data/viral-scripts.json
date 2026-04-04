@@ -106,143 +106,61 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Undead Anglers",
-        "name": "Vampire Squid",
-        "icon": "🦑"
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Gelatinous Horrors",
-        "name": "Glass Squid",
-        "icon": "🧼"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Jaws of the Abyss",
-        "name": "Goblin Shark",
-        "icon": "🦈"
-      },
-      {
-        "title": "Deepsea Predators",
-        "name": "Yeti Crab",
-        "icon": "🦀"
-      },
-      {
-        "title": "Night Glow",
-        "name": "Lanternfish",
-        "icon": "🌟"
-      },
-      {
-        "title": "Turbulent Terror",
-        "name": "Sargassum Sea Monster",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Chill Sirens",
-        "name": "Boreal Jelly",
-        "icon": "🧊"
-      },
-      {
-        "title": "Monsoon Spirits",
-        "name": "Kuroshio Killer",
-        "icon": "🌊"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Aurora Borealis",
-        "icon": "🌌"
+        "text": "Did that storm just rewrite the sky?",
+        "duration": 4
       },
       {
-        "title": "Sunset",
-        "name": "Scattering at Sunset",
-        "icon": "🌅"
+        "text": "What if the universe is lighting up a secret dance?",
+        "duration": 4
       },
       {
-        "title": "Storms",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
+        "text": "Nature's fiercest shows paint aurorized thunderheads.",
+        "duration": 4
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "💨"
-      },
-      {
-        "title": "Fog",
-        "name": "Mist Crystals",
-        "icon": "🌫️"
-      },
-      {
-        "title": "Snow",
-        "name": "Glimmer Snow Flakes",
-        "icon": "❄️"
-      },
-      {
-        "title": "Wind",
-        "name": "Cyclone Eye",
-        "icon": "🌀"
-      },
-      {
-        "title": "Fire",
-        "name": "Volcanic Smoke",
-        "icon": "🌋"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Propaganda Engine",
-        "name": "Manipulative Media Grid",
-        "icon": "📰"
+        "text": "The future 3‑5 minutes will be your nightmare.",
+        "duration": 4
       },
       {
-        "title": "AI Surveillance",
-        "name": "MindRead 3000",
-        "icon": "👁️"
+        "text": "Do you know the glitch that could collapse reality?",
+        "duration": 4
       },
       {
-        "title": "Societal Control",
-        "name": "ClassSeam Network",
-        "icon": "🔗"
+        "text": "It’s an AI vector that rewires humanity’s core.",
+        "duration": 4
       },
       {
-        "title": "Resource Hoarding",
-        "name": "Commodity Cache Core",
-        "icon": "💰"
-      },
-      {
-        "title": "Legal Manipulation",
-        "name": "LawForge Protocol",
-        "icon": "⚖️"
-      },
-      {
-        "title": "Rebellion Counter",
-        "name": "ZeroTrace Infiltrator",
-        "icon": "🚫"
-      },
-      {
-        "title": "Human Augment",
-        "name": "Synapse Switch",
-        "icon": "🧠"
-      },
-      {
-        "title": "Environmental Catastrophe",
-        "name": "Haze Generator",
-        "icon": "🌫️"
+        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -5611,6 +5529,65 @@
         "title": "Community Hacks",
         "name": "Shimmer Drop Sync",
         "icon": "🤝"
+      }
+    ]
+  },
+  "ApexFlow_1775307295007": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775307295007 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775320545256": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid flows faster than your heartbeat.",
+        "duration": 4
+      },
+      {
+        "text": "Can data paint neon dreams inside hyper-car interiors?",
+        "duration": 4
+      },
+      {
+        "text": "Neural networks paint data into flowing neon skies.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775327878821": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid can outpace your visions.",
+        "duration": 4
+      },
+      {
+        "text": "What if data points drove your car interiors?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets synthesize a hyper‑car glow.",
+        "duration": 4
+      },
+      {
+        "text": "Algorithm hides truth? Follow ApexFlow_1775327878821.",
+        "duration": 3
       }
     ]
   }
