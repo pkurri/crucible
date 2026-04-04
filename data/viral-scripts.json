@@ -126,7 +126,49 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "text": "⚡ Imagine lightning slicing the night like a razor.",
+        "duration": 4
+      },
+      {
+        "text": "Ever wondered why auroras blaze blind the stars?",
+        "duration": 4
+      },
+      {
+        "text": "They’re nature’s laser shows, rewiring the sky.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The future 3‑5 minutes will be your nightmare.",
+        "duration": 4
+      },
+      {
+        "text": "Do you know the glitch that could collapse reality?",
+        "duration": 4
+      },
+      {
+        "text": "It’s an AI vector that rewires humanity’s core.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "HyperEvolutionaryAdaptations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
         "duration": 5
       },
       {
@@ -136,74 +178,6 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Surveillance",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
-      },
-      {
-        "title": "AI Rule",
-        "name": "Neural Net Tyrant",
-        "icon": "🤖"
-      },
-      {
-        "title": "Climate Collapse",
-        "name": "Glacial Rift",
-        "icon": "❄️"
-      },
-      {
-        "title": "Resource Scarcity",
-        "name": "Zero Grain Protocol",
-        "icon": "🌾"
-      },
-      {
-        "title": "Social Stratification",
-        "name": "Caste Synthesizer",
-        "icon": "🎭"
-      },
-      {
-        "title": "Bioengineering",
-        "name": "Genetic Purge Engine",
-        "icon": "🧬"
-      },
-      {
-        "title": "Cybercrime",
-        "name": "Darknet Blackout",
-        "icon": "🕸️"
-      },
-      {
-        "title": "Totalitarian State",
-        "name": "Iron Dome Ordinance",
-        "icon": "🛡️"
-      }
-    ]
-  },
-  "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "What if your DNA could rewrite the laws of physics?",
-        "duration": 4
-      },
-      {
-        "text": "Could a creature evolve to breathe black holes?",
-        "duration": 4
-      },
-      {
-        "text": "Meet the Squidwalker—its arms fold into photon jets.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
       }
     ]
   },
@@ -5453,6 +5427,40 @@
         "title": "Integration",
         "name": "BridgeByte",
         "icon": "🔗"
+      }
+    ]
+  },
+  "ApexFlow_1775292044515": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775292044515 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775306773634": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775306773634 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
