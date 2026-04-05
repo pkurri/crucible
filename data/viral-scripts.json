@@ -126,67 +126,33 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Did that storm just rewrite the sky?",
-        "duration": 4
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if the universe is lighting up a secret dance?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Nature's fiercest shows paint aurorized thunderheads.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Propaganda Engine",
-        "name": "Manipulative Media Grid",
-        "icon": "📰"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "AI Surveillance",
-        "name": "MindRead 3000",
-        "icon": "👁️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Societal Control",
-        "name": "ClassSeam Network",
-        "icon": "🔗"
-      },
-      {
-        "title": "Resource Hoarding",
-        "name": "Commodity Cache Core",
-        "icon": "💰"
-      },
-      {
-        "title": "Legal Manipulation",
-        "name": "LawForge Protocol",
-        "icon": "⚖️"
-      },
-      {
-        "title": "Rebellion Counter",
-        "name": "ZeroTrace Infiltrator",
-        "icon": "🚫"
-      },
-      {
-        "title": "Human Augment",
-        "name": "Synapse Switch",
-        "icon": "🧠"
-      },
-      {
-        "title": "Environmental Catastrophe",
-        "name": "Haze Generator",
-        "icon": "🌫️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -194,20 +160,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "What if your DNA could rewrite the laws of physics?",
-        "duration": 4
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Could a creature evolve to breathe black holes?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Meet the Squidwalker—its arms fold into photon jets.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -5843,6 +5805,48 @@
         "title": "Endless Energy",
         "name": "Infinity Vessel",
         "icon": "🔋"
+      }
+    ]
+  },
+  "ApexFlow_1775378554317": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon streams rewrite reality.",
+        "duration": 4
+      },
+      {
+        "text": "What happens when data meets hyper-car interiors?",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid threads our neural highways.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1775378554317.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775393399072": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Watch neon liquid erase physics' rules.",
+        "duration": 4
+      },
+      {
+        "text": "What if your car interior became a living data stream?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets paint neon lanes, turning circuitry into light.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   }
