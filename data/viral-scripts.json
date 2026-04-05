@@ -144,19 +144,49 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Propaganda Engine",
+        "name": "Manipulative Media Grid",
+        "icon": "📰"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "AI Surveillance",
+        "name": "MindRead 3000",
+        "icon": "👁️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Societal Control",
+        "name": "ClassSeam Network",
+        "icon": "🔗"
+      },
+      {
+        "title": "Resource Hoarding",
+        "name": "Commodity Cache Core",
+        "icon": "💰"
+      },
+      {
+        "title": "Legal Manipulation",
+        "name": "LawForge Protocol",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Rebellion Counter",
+        "name": "ZeroTrace Infiltrator",
+        "icon": "🚫"
+      },
+      {
+        "title": "Human Augment",
+        "name": "Synapse Switch",
+        "icon": "🧠"
+      },
+      {
+        "title": "Environmental Catastrophe",
+        "name": "Haze Generator",
+        "icon": "🌫️"
       }
     ]
   },
@@ -5766,6 +5796,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775380254610": {
+    "voice": "af_bella",
+    "hook": "Here are the top 8 ApexFlow_1775380254610 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Arcane Boost",
+        "name": "Flux Catalyst",
+        "icon": "⚡"
+      },
+      {
+        "title": "Temporal Gear",
+        "name": "Chrono Resonator",
+        "icon": "⏳"
+      },
+      {
+        "title": "Spectral Weapon",
+        "name": "Eclipse Reaver",
+        "icon": "🌑"
+      },
+      {
+        "title": "Celestial Blueprint",
+        "name": "Stellar Architect",
+        "icon": "🌠"
+      },
+      {
+        "title": "Quantum Shard",
+        "name": "Dimensional Core",
+        "icon": "🌀"
+      },
+      {
+        "title": "Ethereal Armor",
+        "name": "Void Silk Plate",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Mystic Relic",
+        "name": "Arcane Totem",
+        "icon": "🔮"
+      },
+      {
+        "title": "Endless Energy",
+        "name": "Infinity Vessel",
+        "icon": "🔋"
       }
     ]
   }
