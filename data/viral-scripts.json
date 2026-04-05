@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galaxy",
+        "name": "Andromeda",
+        "icon": "🌌"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Black Hole",
+        "name": "M87*, the Giant",
+        "icon": "⚫"
+      },
+      {
+        "title": "Supernova",
+        "name": "Tycho's Remnant",
+        "icon": "✨"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Kepler-452b",
+        "icon": "🪐"
+      },
+      {
+        "title": "Aurora",
+        "name": "Aurora Australis",
+        "icon": "🌠"
+      },
+      {
+        "title": "Quasar",
+        "name": "3C 273",
+        "icon": "🚀"
+      },
+      {
+        "title": "Stellar Cluster",
+        "name": "Pleiades",
+        "icon": "👯"
       }
     ]
   },
@@ -109,20 +139,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They hum in the abyss—hear this?!",
-        "duration": 4
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What creature keeps its heartbeat in the dark?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "It's the bioluminescent hagfish: alive in death.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -130,54 +156,114 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
+        "text": "Did that storm just rewrite the sky?",
         "duration": 4
       },
       {
-        "text": "Ever wondered why auroras blaze blind the stars?",
+        "text": "What if the universe is lighting up a secret dance?",
         "duration": 4
       },
       {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
+        "text": "Nature's fiercest shows paint aurorized thunderheads.",
         "duration": 4
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "AI Rule",
+        "name": "Neural Net Tyrant",
+        "icon": "🤖"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Climate Collapse",
+        "name": "Glacial Rift",
+        "icon": "❄️"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "Zero Grain Protocol",
+        "icon": "🌾"
+      },
+      {
+        "title": "Social Stratification",
+        "name": "Caste Synthesizer",
+        "icon": "🎭"
+      },
+      {
+        "title": "Bioengineering",
+        "name": "Genetic Purge Engine",
+        "icon": "🧬"
+      },
+      {
+        "title": "Cybercrime",
+        "name": "Darknet Blackout",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Totalitarian State",
+        "name": "Iron Dome Ordinance",
+        "icon": "🛡️"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "title": "Morphology",
+        "name": "Chameleon Skin 2.0",
+        "icon": "🐍"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Genetic",
+        "name": "CRISPR-Infused Polyploidy",
+        "icon": "🧬"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Neurology",
+        "name": "Synaptic Hyperloop",
+        "icon": "🧠"
+      },
+      {
+        "title": "Metabolic",
+        "name": "Nanolipid Osmosis",
+        "icon": "🧪"
+      },
+      {
+        "title": "Sensory",
+        "name": "Quantum Echolocation",
+        "icon": "📡"
+      },
+      {
+        "title": "Physiology",
+        "name": "Self-Healing Exoskeleton",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Immune",
+        "name": "Adaptive Membrane Fermentation",
+        "icon": "🦠"
+      },
+      {
+        "title": "Energetic",
+        "name": "Zero-Point Energy Harvesting",
+        "icon": "⚡"
       }
     ]
   },
