@@ -89,151 +89,10 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
-    "list": [
-      {
-        "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
-      },
-      {
-        "title": "Galaxy",
-        "name": "Andromeda",
-        "icon": "🌌"
-      },
-      {
-        "title": "Black Hole",
-        "name": "M87*, the Giant",
-        "icon": "⚫"
-      },
-      {
-        "title": "Supernova",
-        "name": "Tycho's Remnant",
-        "icon": "✨"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-452b",
-        "icon": "🪐"
-      },
-      {
-        "title": "Aurora",
-        "name": "Aurora Australis",
-        "icon": "🌠"
-      },
-      {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🚀"
-      },
-      {
-        "title": "Stellar Cluster",
-        "name": "Pleiades",
-        "icon": "👯"
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
-    "list": [
-      {
-        "title": "Undead Anglers",
-        "name": "Vampire Squid",
-        "icon": "🦑"
-      },
-      {
-        "title": "Gelatinous Horrors",
-        "name": "Glass Squid",
-        "icon": "🧼"
-      },
-      {
-        "title": "Jaws of the Abyss",
-        "name": "Goblin Shark",
-        "icon": "🦈"
-      },
-      {
-        "title": "Deepsea Predators",
-        "name": "Yeti Crab",
-        "icon": "🦀"
-      },
-      {
-        "title": "Night Glow",
-        "name": "Lanternfish",
-        "icon": "🌟"
-      },
-      {
-        "title": "Turbulent Terror",
-        "name": "Sargassum Sea Monster",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Chill Sirens",
-        "name": "Boreal Jelly",
-        "icon": "🧊"
-      },
-      {
-        "title": "Monsoon Spirits",
-        "name": "Kuroshio Killer",
-        "icon": "🌊"
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
-      {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
-      },
-      {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
-      },
-      {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
-      },
-      {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
-      },
-      {
-        "title": "Solar",
-        "name": "Sundogs",
-        "icon": "🌞"
-      },
-      {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
-      },
-      {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
         "duration": 5
       },
       {
@@ -243,6 +102,61 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The future 3‑5 minutes will be your nightmare.",
+        "duration": 4
+      },
+      {
+        "text": "Do you know the glitch that could collapse reality?",
+        "duration": 4
+      },
+      {
+        "text": "It’s an AI vector that rewires humanity’s core.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -6327,6 +6241,61 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1775496495781 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775480935509": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775480935509 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775493972419": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid shattering reality, watch it!",
+        "duration": 4
+      },
+      {
+        "text": "Ever seen data points turn into hyper‑car dreamscapes?",
+        "duration": 4
+      },
+      {
+        "text": "They're the brainwaves of tomorrow's engines.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775501670530": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775501670530 are finally revealed.",
         "duration": 5
       },
       {
