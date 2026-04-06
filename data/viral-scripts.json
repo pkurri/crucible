@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Carina Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galaxy",
+        "name": "Andromeda",
+        "icon": "🌠"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Supernova",
+        "name": "SN 1987A",
+        "icon": "🔥"
+      },
+      {
+        "title": "Black Hole",
+        "name": "Sagittarius A*",
+        "icon": "⚫"
+      },
+      {
+        "title": "Comet",
+        "name": "Halley's Comet",
+        "icon": "☄️"
+      },
+      {
+        "title": "Asteroid Belt",
+        "name": "Asteroid Belt of Mars",
+        "icon": "🪨"
+      },
+      {
+        "title": "Pulsar",
+        "name": "Crab Pulsar",
+        "icon": "⚡"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
       }
     ]
   },
@@ -123,40 +153,96 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Aurora",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Lightning",
+        "name": "Lightning Storm",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Lensing",
+        "name": "Fata Morgana",
+        "icon": "🌀"
+      },
+      {
+        "title": "Cloud",
+        "name": "Glow Cloud",
+        "icon": "☁️"
+      },
+      {
+        "title": "Sun",
+        "name": "Sundog",
+        "icon": "🌞"
+      },
+      {
+        "title": "Fire",
+        "name": "Meteoritic Fireball",
+        "icon": "🔥"
+      },
+      {
+        "title": "Fog",
+        "name": "St. Elmo's Fire",
+        "icon": "✨"
+      },
+      {
+        "title": "Ice",
+        "name": "Polar Mesospheric Clouds",
+        "icon": "❄️"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The future 3‑5 minutes will be your nightmare.",
-        "duration": 4
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Do you know the glitch that could collapse reality?",
-        "duration": 4
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "It’s an AI vector that rewires humanity’s core.",
-        "duration": 4
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
       },
       {
-        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -6305,6 +6391,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775509710776": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775509710776 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Sky Battle Gear",
+        "name": "Nebula Wing",
+        "icon": "🛸"
+      },
+      {
+        "title": "Quantum Weapons",
+        "name": "Temporal Pulse Cannon",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Energy Shards",
+        "name": "Chrono Crystal",
+        "icon": "⏱️"
+      },
+      {
+        "title": "Stealth Modules",
+        "name": "Phantom Cloak",
+        "icon": "🕶️"
+      },
+      {
+        "title": "AI Companions",
+        "name": "Echo Sigma",
+        "icon": "🤖"
+      },
+      {
+        "title": "Augmented Reality Maps",
+        "name": "Celestial Grid",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Power‑Up Scripts",
+        "name": "Hyper Boost",
+        "icon": "🚀"
+      },
+      {
+        "title": "Legendary Mounts",
+        "name": "Starlight Strider",
+        "icon": "🐉"
       }
     ]
   }
