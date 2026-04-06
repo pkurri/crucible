@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Eternal Shimmer Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Supernova",
+        "name": "Crimson Nova",
+        "icon": "🔥"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Black Hole",
+        "name": "Void Whisperer",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Pulsar",
+        "name": "Celestial Pulse",
+        "icon": "⚡"
+      },
+      {
+        "title": "Comet",
+        "name": "Starlight Trail",
+        "icon": "☄️"
+      },
+      {
+        "title": "Galaxy Cluster",
+        "name": "Stellar Web",
+        "icon": "🪐"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Alien Oasis",
+        "icon": "🌍"
+      },
+      {
+        "title": "Spacecraft",
+        "name": "Quantum Voyager",
+        "icon": "🛰️"
       }
     ]
   },
@@ -123,96 +153,36 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
-      },
-      {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
-      },
-      {
-        "title": "Solar",
-        "name": "Sundogs",
-        "icon": "🌞"
-      },
-      {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
-      },
-      {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Propaganda Engine",
-        "name": "Manipulative Media Grid",
-        "icon": "📰"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "AI Surveillance",
-        "name": "MindRead 3000",
-        "icon": "👁️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Societal Control",
-        "name": "ClassSeam Network",
-        "icon": "🔗"
-      },
-      {
-        "title": "Resource Hoarding",
-        "name": "Commodity Cache Core",
-        "icon": "💰"
-      },
-      {
-        "title": "Legal Manipulation",
-        "name": "LawForge Protocol",
-        "icon": "⚖️"
-      },
-      {
-        "title": "Rebellion Counter",
-        "name": "ZeroTrace Infiltrator",
-        "icon": "🚫"
-      },
-      {
-        "title": "Human Augment",
-        "name": "Synapse Switch",
-        "icon": "🧠"
-      },
-      {
-        "title": "Environmental Catastrophe",
-        "name": "Haze Generator",
-        "icon": "🌫️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -6098,6 +6068,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775456687541": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775456687541 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Core Features",
+        "name": "Apex Sync",
+        "icon": "⚡️"
+      },
+      {
+        "title": "User Interface",
+        "name": "Glow Dashboard",
+        "icon": "🎨"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Insight Lens",
+        "icon": "🔍"
+      },
+      {
+        "title": "Integrations",
+        "name": "Bridge Hub",
+        "icon": "🔗"
+      },
+      {
+        "title": "Automation",
+        "name": "Flow AutoPilot",
+        "icon": "🤖"
+      },
+      {
+        "title": "Support",
+        "name": "Help Beacon",
+        "icon": "🆘"
+      },
+      {
+        "title": "Premium",
+        "name": "Apex Pro Pack",
+        "icon": "🚀"
       }
     ]
   }
