@@ -89,74 +89,190 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Carina Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galaxy",
+        "name": "Andromeda",
+        "icon": "🌠"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Supernova",
+        "name": "SN 1987A",
+        "icon": "🔥"
+      },
+      {
+        "title": "Black Hole",
+        "name": "Sagittarius A*",
+        "icon": "⚫"
+      },
+      {
+        "title": "Comet",
+        "name": "Halley's Comet",
+        "icon": "☄️"
+      },
+      {
+        "title": "Asteroid Belt",
+        "name": "Asteroid Belt of Mars",
+        "icon": "🪨"
+      },
+      {
+        "title": "Pulsar",
+        "name": "Crab Pulsar",
+        "icon": "⚡"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Undead Anglers",
+        "name": "Vampire Squid",
+        "icon": "🦑"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Gelatinous Horrors",
+        "name": "Glass Squid",
+        "icon": "🧼"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Jaws of the Abyss",
+        "name": "Goblin Shark",
+        "icon": "🦈"
+      },
+      {
+        "title": "Deepsea Predators",
+        "name": "Yeti Crab",
+        "icon": "🦀"
+      },
+      {
+        "title": "Night Glow",
+        "name": "Lanternfish",
+        "icon": "🌟"
+      },
+      {
+        "title": "Turbulent Terror",
+        "name": "Sargassum Sea Monster",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Chill Sirens",
+        "name": "Boreal Jelly",
+        "icon": "🧊"
+      },
+      {
+        "title": "Monsoon Spirits",
+        "name": "Kuroshio Killer",
+        "icon": "🌊"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "list": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
-        "duration": 4
+        "title": "Aurora",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "Ever wondered why auroras blaze blind the stars?",
-        "duration": 4
+        "title": "Lightning",
+        "name": "Lightning Storm",
+        "icon": "⚡"
       },
       {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
-        "duration": 4
+        "title": "Lensing",
+        "name": "Fata Morgana",
+        "icon": "🌀"
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Cloud",
+        "name": "Glow Cloud",
+        "icon": "☁️"
+      },
+      {
+        "title": "Sun",
+        "name": "Sundog",
+        "icon": "🌞"
+      },
+      {
+        "title": "Fire",
+        "name": "Meteoritic Fireball",
+        "icon": "🔥"
+      },
+      {
+        "title": "Fog",
+        "name": "St. Elmo's Fire",
+        "icon": "✨"
+      },
+      {
+        "title": "Ice",
+        "name": "Polar Mesospheric Clouds",
+        "icon": "❄️"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
+      },
+      {
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -6127,6 +6243,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775469008475": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid pours through hyper-car interiors.",
+        "duration": 4
+      },
+      {
+        "text": "What data points are hiding in that glow?",
+        "duration": 4
+      },
+      {
+        "text": "It's a living neural network, rewriting reality.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1775469008475.",
+        "duration": 3
       }
     ]
   }
