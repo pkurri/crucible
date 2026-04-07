@@ -123,49 +123,19 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
-      },
-      {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
-      },
-      {
-        "title": "Solar",
-        "name": "Sundogs",
-        "icon": "🌞"
-      },
-      {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
-      },
-      {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -6471,6 +6441,48 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775540826733": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid just crashed through reality.",
+        "duration": 4
+      },
+      {
+        "text": "What if data points lit up a hyper-car interior?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets paint reality, turning dashboards into galaxies.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775545891950": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid cascades—watch the impossible ignite!",
+        "duration": 4
+      },
+      {
+        "text": "Why do hyper‑car interiors bleed data points?",
+        "duration": 4
+      },
+      {
+        "text": "It's neural networks painting motion—pure awe.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   }
