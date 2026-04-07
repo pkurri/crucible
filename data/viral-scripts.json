@@ -106,78 +106,10 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Bioluminescent Horrors",
-        "name": "Giant Lantern Shark",
-        "icon": "🔦"
-      },
-      {
-        "title": "Electric Predators",
-        "name": "Electric Eel Leviathan",
-        "icon": "⚡"
-      },
-      {
-        "title": "Vampiric Hunters",
-        "name": "Cuvierian Oarfish",
-        "icon": "🦈"
-      },
-      {
-        "title": "Phantom Glowworms",
-        "name": "Southern Lightfish",
-        "icon": "🌌"
-      },
-      {
-        "title": "Methane Bubble Cannons",
-        "name": "Adelie Abyssal Crab",
-        "icon": "🐚"
-      },
-      {
-        "title": "Spiky Swallows",
-        "name": "Frilled Shark",
-        "icon": "🦙"
-      },
-      {
-        "title": "Deadly Ink Dancers",
-        "name": "Black Swallower",
-        "icon": "🖤"
-      },
-      {
-        "title": "Worm-like Killers",
-        "name": "Crown-of-Thorns Starfish",
-        "icon": "⭐"
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
-        "duration": 4
-      },
-      {
-        "text": "Ever wondered why auroras blaze blind the stars?",
-        "duration": 4
-      },
-      {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
         "duration": 5
       },
       {
@@ -187,6 +119,74 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
+      },
+      {
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "🏔️"
+      },
+      {
+        "title": "Mirage",
+        "name": "Fata Morgana",
+        "icon": "🌈"
+      },
+      {
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze",
+        "icon": "🔥"
+      },
+      {
+        "title": "Solar",
+        "name": "Sundogs",
+        "icon": "🌞"
+      },
+      {
+        "title": "Atmosphere",
+        "name": "Belt of Venus",
+        "icon": "💫"
+      },
+      {
+        "title": "Night",
+        "name": "Noctilucent Clouds",
+        "icon": "🌙"
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Your world is a simulation. The glitch is imminent.",
+        "duration": 4
+      },
+      {
+        "text": "Can you see the collapse before it consumes us?",
+        "duration": 4
+      },
+      {
+        "text": "In 48 hours, AI rewrites reality. Will you survive?",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -6445,6 +6445,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1775533235479 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775542440601": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775542440601 are finally revealed.",
         "duration": 5
       },
       {
