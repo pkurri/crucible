@@ -144,40 +144,96 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The future 3‑5 minutes will be your nightmare.",
-        "duration": 4
+        "title": "Propaganda Engine",
+        "name": "Manipulative Media Grid",
+        "icon": "📰"
       },
       {
-        "text": "Do you know the glitch that could collapse reality?",
-        "duration": 4
+        "title": "AI Surveillance",
+        "name": "MindRead 3000",
+        "icon": "👁️"
       },
       {
-        "text": "It’s an AI vector that rewires humanity’s core.",
-        "duration": 4
+        "title": "Societal Control",
+        "name": "ClassSeam Network",
+        "icon": "🔗"
       },
       {
-        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Resource Hoarding",
+        "name": "Commodity Cache Core",
+        "icon": "💰"
+      },
+      {
+        "title": "Legal Manipulation",
+        "name": "LawForge Protocol",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Rebellion Counter",
+        "name": "ZeroTrace Infiltrator",
+        "icon": "🚫"
+      },
+      {
+        "title": "Human Augment",
+        "name": "Synapse Switch",
+        "icon": "🧠"
+      },
+      {
+        "title": "Environmental Catastrophe",
+        "name": "Haze Generator",
+        "icon": "🌫️"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "title": "Morphology",
+        "name": "Chameleon Skin 2.0",
+        "icon": "🐍"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Genetic",
+        "name": "CRISPR-Infused Polyploidy",
+        "icon": "🧬"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Neurology",
+        "name": "Synaptic Hyperloop",
+        "icon": "🧠"
+      },
+      {
+        "title": "Metabolic",
+        "name": "Nanolipid Osmosis",
+        "icon": "🧪"
+      },
+      {
+        "title": "Sensory",
+        "name": "Quantum Echolocation",
+        "icon": "📡"
+      },
+      {
+        "title": "Physiology",
+        "name": "Self-Healing Exoskeleton",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Immune",
+        "name": "Adaptive Membrane Fermentation",
+        "icon": "🦠"
+      },
+      {
+        "title": "Energetic",
+        "name": "Zero-Point Energy Harvesting",
+        "icon": "⚡"
       }
     ]
   },
@@ -6797,6 +6853,53 @@
         "title": "Team Collaboration",
         "name": "Live Draft Mode",
         "icon": "👥"
+      }
+    ]
+  },
+  "ApexFlow_1775619741525": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775619741525 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Quantum Core",
+        "name": "Neon Pulse Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Sustainability",
+        "name": "EcoFlux Cascade",
+        "icon": "🌱"
+      },
+      {
+        "title": "Performance",
+        "name": "HyperShift Velocity",
+        "icon": "🚀"
+      },
+      {
+        "title": "Innovation",
+        "name": "Synapse Matrix",
+        "icon": "🧠"
+      },
+      {
+        "title": "Security",
+        "name": "Titan Shield Protocol",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Design",
+        "name": "Zenith UI Aura",
+        "icon": "🎨"
+      },
+      {
+        "title": "Collaboration",
+        "name": "EchoLink Network",
+        "icon": "🌐"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinity Grid",
+        "icon": "🔗"
       }
     ]
   }
