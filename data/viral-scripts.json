@@ -89,49 +89,19 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Galaxy",
-        "name": "Andromeda",
-        "icon": "🌌"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Black Hole",
-        "name": "M87*, the Giant",
-        "icon": "⚫"
-      },
-      {
-        "title": "Supernova",
-        "name": "Tycho's Remnant",
-        "icon": "✨"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-452b",
-        "icon": "🪐"
-      },
-      {
-        "title": "Aurora",
-        "name": "Aurora Australis",
-        "icon": "🌠"
-      },
-      {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🚀"
-      },
-      {
-        "title": "Stellar Cluster",
-        "name": "Pleiades",
-        "icon": "👯"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -153,49 +123,23 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Aurora",
-        "name": "Aurora Borealis",
-        "icon": "🌌"
+        "text": "⚡ Imagine lightning slicing the night like a razor.",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Lightning Storm",
-        "icon": "⚡"
+        "text": "Ever wondered why auroras blaze blind the stars?",
+        "duration": 4
       },
       {
-        "title": "Lensing",
-        "name": "Fata Morgana",
-        "icon": "🌀"
+        "text": "They’re nature’s laser shows, rewiring the sky.",
+        "duration": 4
       },
       {
-        "title": "Cloud",
-        "name": "Glow Cloud",
-        "icon": "☁️"
-      },
-      {
-        "title": "Sun",
-        "name": "Sundog",
-        "icon": "🌞"
-      },
-      {
-        "title": "Fire",
-        "name": "Meteoritic Fireball",
-        "icon": "🔥"
-      },
-      {
-        "title": "Fog",
-        "name": "St. Elmo's Fire",
-        "icon": "✨"
-      },
-      {
-        "title": "Ice",
-        "name": "Polar Mesospheric Clouds",
-        "icon": "❄️"
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -221,49 +165,19 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Genetic",
-        "name": "Allele Amplification",
-        "icon": "🧬"
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Neural",
-        "name": "Synaptic Spectrums",
-        "icon": "🧠"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Ecological",
-        "name": "Symbiotic Shift",
-        "icon": "🦎"
-      },
-      {
-        "title": "Physiological",
-        "name": "Metabolic Morph",
-        "icon": "🔥"
-      },
-      {
-        "title": "Technological",
-        "name": "Quantum Interface",
-        "icon": "🛠️"
-      },
-      {
-        "title": "Psychological",
-        "name": "Cognitive Resonance",
-        "icon": "💭"
-      },
-      {
-        "title": "Sociocultural",
-        "name": "Collective Consciousness",
-        "icon": "🌐"
-      },
-      {
-        "title": "Quantum",
-        "name": "Wavefunction Expansion",
-        "icon": "⚛️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -6794,6 +6708,48 @@
         "title": "Vision",
         "name": "Abyssal Lens",
         "icon": "👁️"
+      }
+    ]
+  },
+  "ApexFlow_1775594850895": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your data turned into neon molten art?",
+        "duration": 4
+      },
+      {
+        "text": "Can a single neural loop rewrite car interiors?",
+        "duration": 4
+      },
+      {
+        "text": "Witness neon liquid cascade drive a hyper‑car's soul.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1775594850895, subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775613797955": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon streams rewrite reality—watch.",
+        "duration": 4
+      },
+      {
+        "text": "What hidden code powers this liquid ballet?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets turn raw data into glowing car hearts.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   }
