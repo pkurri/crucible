@@ -106,151 +106,10 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Bioluminescent Horrors",
-        "name": "Giant Lantern Shark",
-        "icon": "🔦"
-      },
-      {
-        "title": "Electric Predators",
-        "name": "Electric Eel Leviathan",
-        "icon": "⚡"
-      },
-      {
-        "title": "Vampiric Hunters",
-        "name": "Cuvierian Oarfish",
-        "icon": "🦈"
-      },
-      {
-        "title": "Phantom Glowworms",
-        "name": "Southern Lightfish",
-        "icon": "🌌"
-      },
-      {
-        "title": "Methane Bubble Cannons",
-        "name": "Adelie Abyssal Crab",
-        "icon": "🐚"
-      },
-      {
-        "title": "Spiky Swallows",
-        "name": "Frilled Shark",
-        "icon": "🦙"
-      },
-      {
-        "title": "Deadly Ink Dancers",
-        "name": "Black Swallower",
-        "icon": "🖤"
-      },
-      {
-        "title": "Worm-like Killers",
-        "name": "Crown-of-Thorns Starfish",
-        "icon": "⭐"
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Aurora",
-        "name": "Southern Lights",
-        "icon": "🌌"
-      },
-      {
-        "title": "Storm",
-        "name": "Sandstorm Dunes",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Fog",
-        "name": "Sea Fog Ballet",
-        "icon": "☁️"
-      },
-      {
-        "title": "Lightning",
-        "name": "Nerve Lightning",
-        "icon": "⚡"
-      },
-      {
-        "title": "Rainbow",
-        "name": "Crystalline Rainbow",
-        "icon": "🌈"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze Mirage",
-        "icon": "🔥"
-      },
-      {
-        "title": "Vortex",
-        "name": "Dust Devil Spiral",
-        "icon": "💨"
-      },
-      {
-        "title": "Water",
-        "name": "Hailstorm Fury",
-        "icon": "🌧️"
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Surveillance",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
-      },
-      {
-        "title": "AI Rule",
-        "name": "Neural Net Tyrant",
-        "icon": "🤖"
-      },
-      {
-        "title": "Climate Collapse",
-        "name": "Glacial Rift",
-        "icon": "❄️"
-      },
-      {
-        "title": "Resource Scarcity",
-        "name": "Zero Grain Protocol",
-        "icon": "🌾"
-      },
-      {
-        "title": "Social Stratification",
-        "name": "Caste Synthesizer",
-        "icon": "🎭"
-      },
-      {
-        "title": "Bioengineering",
-        "name": "Genetic Purge Engine",
-        "icon": "🧬"
-      },
-      {
-        "title": "Cybercrime",
-        "name": "Darknet Blackout",
-        "icon": "🕸️"
-      },
-      {
-        "title": "Totalitarian State",
-        "name": "Iron Dome Ordinance",
-        "icon": "🛡️"
-      }
-    ]
-  },
-  "HyperEvolutionaryAdaptations": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
         "duration": 5
       },
       {
@@ -263,50 +122,83 @@
       }
     ]
   },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "⚡ Imagine lightning slicing the night like a razor.",
+        "duration": 4
+      },
+      {
+        "text": "Ever wondered why auroras blaze blind the stars?",
+        "duration": 4
+      },
+      {
+        "text": "They’re nature’s laser shows, rewiring the sky.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Your world is a simulation. The glitch is imminent.",
+        "duration": 4
+      },
+      {
+        "text": "Can you see the collapse before it consumes us?",
+        "duration": 4
+      },
+      {
+        "text": "In 48 hours, AI rewrites reality. Will you survive?",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "HyperEvolutionaryAdaptations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your DNA could rewrite the laws of physics?",
+        "duration": 4
+      },
+      {
+        "text": "Could a creature evolve to breathe black holes?",
+        "duration": 4
+      },
+      {
+        "text": "Meet the Squidwalker—its arms fold into photon jets.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
   "ImpossibleArchitectureBlueprints": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 ImpossibleArchitectureBlueprints secrets you need to know.",
-    "closing": "If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Gravity-Defying Cathedral",
-        "name": "Aerial Eclipse",
-        "icon": "🏰"
+        "text": "The secrets of ImpossibleArchitectureBlueprints are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Sea-Serpent Bridge",
-        "name": "Poseidon's Path",
-        "icon": "🌉"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Living Labyrinth",
-        "name": "Bioluminescent Maze",
-        "icon": "🏗️"
-      },
-      {
-        "title": "Eternal Spiral Tower",
-        "name": "Helix of Infinity",
-        "icon": "🌀"
-      },
-      {
-        "title": "Stellar Observatory",
-        "name": "Orbiting Eclipse",
-        "icon": "🚀"
-      },
-      {
-        "title": "Underground Cavern Estate",
-        "name": "Abyssal Manor",
-        "icon": "🗺️"
-      },
-      {
-        "title": "Floating Island Resort",
-        "name": "Nimbus Retreat",
-        "icon": "🌐"
-      },
-      {
-        "title": "Phantom Train Station",
-        "name": "Spectral Rails",
-        "icon": "🛤️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -7024,6 +6916,44 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775638840214": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "This neon liquid spills like a neural storm.",
+        "duration": 4
+      },
+      {
+        "text": "Can you spot the data points hidden in this car’s soul?",
+        "duration": 4
+      },
+      {
+        "text": "It’s the pulse of hyper‑car interiors—neural flow in motion.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775654069242": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775654069242 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
