@@ -89,143 +89,57 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Galaxy",
-        "name": "Andromeda",
-        "icon": "🌌"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Black Hole",
-        "name": "M87*, the Giant",
-        "icon": "⚫"
-      },
-      {
-        "title": "Supernova",
-        "name": "Tycho's Remnant",
-        "icon": "✨"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-452b",
-        "icon": "🪐"
-      },
-      {
-        "title": "Aurora",
-        "name": "Aurora Australis",
-        "icon": "🌠"
-      },
-      {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🚀"
-      },
-      {
-        "title": "Stellar Cluster",
-        "name": "Pleiades",
-        "icon": "👯"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Bioluminescent Horrors",
-        "name": "Giant Lantern Shark",
-        "icon": "🔦"
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Electric Predators",
-        "name": "Electric Eel Leviathan",
-        "icon": "⚡"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Vampiric Hunters",
-        "name": "Cuvierian Oarfish",
-        "icon": "🦈"
-      },
-      {
-        "title": "Phantom Glowworms",
-        "name": "Southern Lightfish",
-        "icon": "🌌"
-      },
-      {
-        "title": "Methane Bubble Cannons",
-        "name": "Adelie Abyssal Crab",
-        "icon": "🐚"
-      },
-      {
-        "title": "Spiky Swallows",
-        "name": "Frilled Shark",
-        "icon": "🦙"
-      },
-      {
-        "title": "Deadly Ink Dancers",
-        "name": "Black Swallower",
-        "icon": "🖤"
-      },
-      {
-        "title": "Worm-like Killers",
-        "name": "Crown-of-Thorns Starfish",
-        "icon": "⭐"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Aurora Borealis",
-        "icon": "🌌"
+        "text": "⚡ Imagine lightning slicing the night like a razor.",
+        "duration": 4
       },
       {
-        "title": "Sunset",
-        "name": "Scattering at Sunset",
-        "icon": "🌅"
+        "text": "Ever wondered why auroras blaze blind the stars?",
+        "duration": 4
       },
       {
-        "title": "Storms",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
+        "text": "They’re nature’s laser shows, rewiring the sky.",
+        "duration": 4
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "💨"
-      },
-      {
-        "title": "Fog",
-        "name": "Mist Crystals",
-        "icon": "🌫️"
-      },
-      {
-        "title": "Snow",
-        "name": "Glimmer Snow Flakes",
-        "icon": "❄️"
-      },
-      {
-        "title": "Wind",
-        "name": "Cyclone Eye",
-        "icon": "🌀"
-      },
-      {
-        "title": "Fire",
-        "name": "Volcanic Smoke",
-        "icon": "🌋"
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -247,57 +161,10 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
-    "list": [
-      {
-        "title": "Photosynthetic Symbiosis",
-        "name": "Sun‑Kissed Symbiosis",
-        "icon": "🌞"
-      },
-      {
-        "title": "Adaptive Regeneration",
-        "name": "Regeneration Pulse",
-        "icon": "♻️"
-      },
-      {
-        "title": "Cryogenic Dormancy",
-        "name": "Ice‑Bound Rebirth",
-        "icon": "❄️"
-      },
-      {
-        "title": "Quantum Sensory",
-        "name": "Quantum Sight",
-        "icon": "🌌"
-      },
-      {
-        "title": "Nano‑Genetic Fusion",
-        "name": "Nanobot Genome Merge",
-        "icon": "🤖"
-      },
-      {
-        "title": "Fractal Neural Patterns",
-        "name": "Fractal Synapse",
-        "icon": "🧬"
-      },
-      {
-        "title": "Ultra‑Resilient Exoskeleton",
-        "name": "Titanium Shell",
-        "icon": "🛡️"
-      },
-      {
-        "title": "Self‑Transmutation",
-        "name": "Elemental Shift",
-        "icon": "🔄"
-      }
-    ]
-  },
-  "ImpossibleArchitectureBlueprints": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of ImpossibleArchitectureBlueprints are finally revealed.",
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
         "duration": 5
       },
       {
@@ -307,6 +174,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ImpossibleArchitectureBlueprints": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if gravity could be turned off?",
+        "duration": 4
+      },
+      {
+        "text": "Can these skyward towers actually float?",
+        "duration": 4
+      },
+      {
+        "text": "Tensegrity, with invisible forces keeps them aloft.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -7117,6 +7005,40 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1775670221062 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775667785373": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775667785373 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775675520451": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775675520451 are finally revealed.",
         "duration": 5
       },
       {
