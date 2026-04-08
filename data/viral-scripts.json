@@ -106,53 +106,143 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Bioluminescent Horrors",
+        "name": "Giant Lantern Shark",
+        "icon": "🔦"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Electric Predators",
+        "name": "Electric Eel Leviathan",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Vampiric Hunters",
+        "name": "Cuvierian Oarfish",
+        "icon": "🦈"
+      },
+      {
+        "title": "Phantom Glowworms",
+        "name": "Southern Lightfish",
+        "icon": "🌌"
+      },
+      {
+        "title": "Methane Bubble Cannons",
+        "name": "Adelie Abyssal Crab",
+        "icon": "🐚"
+      },
+      {
+        "title": "Spiky Swallows",
+        "name": "Frilled Shark",
+        "icon": "🦙"
+      },
+      {
+        "title": "Deadly Ink Dancers",
+        "name": "Black Swallower",
+        "icon": "🖤"
+      },
+      {
+        "title": "Worm-like Killers",
+        "name": "Crown-of-Thorns Starfish",
+        "icon": "⭐"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Aurora",
+        "name": "Southern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Storm",
+        "name": "Sandstorm Dunes",
+        "icon": "🌪️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Fog",
+        "name": "Sea Fog Ballet",
+        "icon": "☁️"
+      },
+      {
+        "title": "Lightning",
+        "name": "Nerve Lightning",
+        "icon": "⚡"
+      },
+      {
+        "title": "Rainbow",
+        "name": "Crystalline Rainbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze Mirage",
+        "icon": "🔥"
+      },
+      {
+        "title": "Vortex",
+        "name": "Dust Devil Spiral",
+        "icon": "💨"
+      },
+      {
+        "title": "Water",
+        "name": "Hailstorm Fury",
+        "icon": "🌧️"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "AI Rule",
+        "name": "Neural Net Tyrant",
+        "icon": "🤖"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Climate Collapse",
+        "name": "Glacial Rift",
+        "icon": "❄️"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "Zero Grain Protocol",
+        "icon": "🌾"
+      },
+      {
+        "title": "Social Stratification",
+        "name": "Caste Synthesizer",
+        "icon": "🎭"
+      },
+      {
+        "title": "Bioengineering",
+        "name": "Genetic Purge Engine",
+        "icon": "🧬"
+      },
+      {
+        "title": "Cybercrime",
+        "name": "Darknet Blackout",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Totalitarian State",
+        "name": "Iron Dome Ordinance",
+        "icon": "🛡️"
       }
     ]
   },
@@ -6913,6 +7003,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775641704623": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid crashes through your vision—wild.",
+        "duration": 4
+      },
+      {
+        "text": "What do data points look like when they become art?",
+        "duration": 4
+      },
+      {
+        "text": "Watch a neural net remix an interior into a hyper‑car.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   }
