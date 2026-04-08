@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Carina Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galaxy",
+        "name": "Andromeda",
+        "icon": "🌠"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Supernova",
+        "name": "SN 1987A",
+        "icon": "🔥"
+      },
+      {
+        "title": "Black Hole",
+        "name": "Sagittarius A*",
+        "icon": "⚫"
+      },
+      {
+        "title": "Comet",
+        "name": "Halley's Comet",
+        "icon": "☄️"
+      },
+      {
+        "title": "Asteroid Belt",
+        "name": "Asteroid Belt of Mars",
+        "icon": "🪨"
+      },
+      {
+        "title": "Pulsar",
+        "name": "Crab Pulsar",
+        "icon": "⚡"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
       }
     ]
   },
@@ -123,23 +153,49 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
-        "duration": 4
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Ever wondered why auroras blaze blind the stars?",
-        "duration": 4
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "🏔️"
       },
       {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
-        "duration": 4
+        "title": "Mirage",
+        "name": "Fata Morgana",
+        "icon": "🌈"
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze",
+        "icon": "🔥"
+      },
+      {
+        "title": "Solar",
+        "name": "Sundogs",
+        "icon": "🌞"
+      },
+      {
+        "title": "Atmosphere",
+        "name": "Belt of Venus",
+        "icon": "💫"
+      },
+      {
+        "title": "Night",
+        "name": "Noctilucent Clouds",
+        "icon": "🌙"
       }
     ]
   },
@@ -193,68 +249,94 @@
   "HyperEvolutionaryAdaptations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
     "list": [
       {
-        "title": "Morphology",
-        "name": "Chameleon Skin 2.0",
-        "icon": "🐍"
+        "title": "Photosynthetic Symbiosis",
+        "name": "Sun‑Kissed Symbiosis",
+        "icon": "🌞"
       },
       {
-        "title": "Genetic",
-        "name": "CRISPR-Infused Polyploidy",
+        "title": "Adaptive Regeneration",
+        "name": "Regeneration Pulse",
+        "icon": "♻️"
+      },
+      {
+        "title": "Cryogenic Dormancy",
+        "name": "Ice‑Bound Rebirth",
+        "icon": "❄️"
+      },
+      {
+        "title": "Quantum Sensory",
+        "name": "Quantum Sight",
+        "icon": "🌌"
+      },
+      {
+        "title": "Nano‑Genetic Fusion",
+        "name": "Nanobot Genome Merge",
+        "icon": "🤖"
+      },
+      {
+        "title": "Fractal Neural Patterns",
+        "name": "Fractal Synapse",
         "icon": "🧬"
       },
       {
-        "title": "Neurology",
-        "name": "Synaptic Hyperloop",
-        "icon": "🧠"
-      },
-      {
-        "title": "Metabolic",
-        "name": "Nanolipid Osmosis",
-        "icon": "🧪"
-      },
-      {
-        "title": "Sensory",
-        "name": "Quantum Echolocation",
-        "icon": "📡"
-      },
-      {
-        "title": "Physiology",
-        "name": "Self-Healing Exoskeleton",
+        "title": "Ultra‑Resilient Exoskeleton",
+        "name": "Titanium Shell",
         "icon": "🛡️"
       },
       {
-        "title": "Immune",
-        "name": "Adaptive Membrane Fermentation",
-        "icon": "🦠"
-      },
-      {
-        "title": "Energetic",
-        "name": "Zero-Point Energy Harvesting",
-        "icon": "⚡"
+        "title": "Self‑Transmutation",
+        "name": "Elemental Shift",
+        "icon": "🔄"
       }
     ]
   },
   "ImpossibleArchitectureBlueprints": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ImpossibleArchitectureBlueprints secrets you need to know.",
+    "closing": "If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "What if gravity could be turned off?",
-        "duration": 4
+        "title": "Gravity-Defying Cathedral",
+        "name": "Aerial Eclipse",
+        "icon": "🏰"
       },
       {
-        "text": "Can these skyward towers actually float?",
-        "duration": 4
+        "title": "Sea-Serpent Bridge",
+        "name": "Poseidon's Path",
+        "icon": "🌉"
       },
       {
-        "text": "Tensegrity, with invisible forces keeps them aloft.",
-        "duration": 4
+        "title": "Living Labyrinth",
+        "name": "Bioluminescent Maze",
+        "icon": "🏗️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Eternal Spiral Tower",
+        "name": "Helix of Infinity",
+        "icon": "🌀"
+      },
+      {
+        "title": "Stellar Observatory",
+        "name": "Orbiting Eclipse",
+        "icon": "🚀"
+      },
+      {
+        "title": "Underground Cavern Estate",
+        "name": "Abyssal Manor",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Floating Island Resort",
+        "name": "Nimbus Retreat",
+        "icon": "🌐"
+      },
+      {
+        "title": "Phantom Train Station",
+        "name": "Spectral Rails",
+        "icon": "🛤️"
       }
     ]
   },
@@ -6900,6 +6982,23 @@
         "title": "Scalability",
         "name": "Infinity Grid",
         "icon": "🔗"
+      }
+    ]
+  },
+  "ApexFlow_1775628552773": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775628552773 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
