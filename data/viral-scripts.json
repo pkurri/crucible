@@ -89,96 +89,36 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Carina Nebula",
-        "icon": "🌌"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Galaxy",
-        "name": "Andromeda",
-        "icon": "🌠"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Supernova",
-        "name": "SN 1987A",
-        "icon": "🔥"
-      },
-      {
-        "title": "Black Hole",
-        "name": "Sagittarius A*",
-        "icon": "⚫"
-      },
-      {
-        "title": "Comet",
-        "name": "Halley's Comet",
-        "icon": "☄️"
-      },
-      {
-        "title": "Asteroid Belt",
-        "name": "Asteroid Belt of Mars",
-        "icon": "🪨"
-      },
-      {
-        "title": "Pulsar",
-        "name": "Crab Pulsar",
-        "icon": "⚡"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "TRAPPIST-1",
-        "icon": "🌍"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Bioluminescent Horrors",
-        "name": "Giant Lantern Shark",
-        "icon": "🔦"
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Electric Predators",
-        "name": "Electric Eel Leviathan",
-        "icon": "⚡"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Vampiric Hunters",
-        "name": "Cuvierian Oarfish",
-        "icon": "🦈"
-      },
-      {
-        "title": "Phantom Glowworms",
-        "name": "Southern Lightfish",
-        "icon": "🌌"
-      },
-      {
-        "title": "Methane Bubble Cannons",
-        "name": "Adelie Abyssal Crab",
-        "icon": "🐚"
-      },
-      {
-        "title": "Spiky Swallows",
-        "name": "Frilled Shark",
-        "icon": "🦙"
-      },
-      {
-        "title": "Deadly Ink Dancers",
-        "name": "Black Swallower",
-        "icon": "🖤"
-      },
-      {
-        "title": "Worm-like Killers",
-        "name": "Crown-of-Thorns Starfish",
-        "icon": "⭐"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -186,20 +126,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Did that storm just rewrite the sky?",
-        "duration": 4
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if the universe is lighting up a secret dance?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Nature's fiercest shows paint aurorized thunderheads.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -207,67 +143,41 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "What if your city turns into a simulation apocalypse?",
+        "text": "The future 3‑5 minutes will be your nightmare.",
         "duration": 4
       },
       {
-        "text": "Will your future be trapped inside a tech nightmare?",
+        "text": "Do you know the glitch that could collapse reality?",
         "duration": 4
       },
       {
-        "text": "Discover the simulation glitch that could save humanity.",
+        "text": "It’s an AI vector that rewires humanity’s core.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Morphogenesis",
-        "name": "Chameleon Glyph",
-        "icon": "🦎"
+        "text": "Ever seen a creature evolve in seconds?",
+        "duration": 4
       },
       {
-        "title": "Sensory",
-        "name": "Nocturnal Hypersight",
-        "icon": "🌙"
+        "text": "What if your body could withstand molten suns?",
+        "duration": 4
       },
       {
-        "title": "Defense",
-        "name": "Toxic Skin Hyper‑Secretions",
-        "icon": "☠️"
+        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
+        "duration": 4
       },
       {
-        "title": "Reproduction",
-        "name": "Kinetic Asexual Swarm",
-        "icon": "🐛"
-      },
-      {
-        "title": "Metabolism",
-        "name": "Hyper‑Energy Conversion",
-        "icon": "🔋"
-      },
-      {
-        "title": "Communication",
-        "name": "Subnuclear Resonance",
-        "icon": "🎶"
-      },
-      {
-        "title": "Regeneration",
-        "name": "Nanofiber Regrowth Matrix",
-        "icon": "🧬"
-      },
-      {
-        "title": "Energy",
-        "name": "Photosynthetic Open Chromatophore",
-        "icon": "🌞"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -7533,6 +7443,27 @@
         "title": "Ultimate Unlock",
         "name": "Eclipse Obsidian",
         "icon": "🌑"
+      }
+    ]
+  },
+  "ApexFlow_1775761225794": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid cuts through data like a razor.",
+        "duration": 4
+      },
+      {
+        "text": "Why does every glitch turn into pure chaos art?",
+        "duration": 4
+      },
+      {
+        "text": "Hidden neural maps power hyper-car vibes in flawless flow.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   }
