@@ -123,19 +123,49 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Sunset",
+        "name": "Scattering at Sunset",
+        "icon": "🌅"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Storms",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "💨"
+      },
+      {
+        "title": "Fog",
+        "name": "Mist Crystals",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Snow",
+        "name": "Glimmer Snow Flakes",
+        "icon": "❄️"
+      },
+      {
+        "title": "Wind",
+        "name": "Cyclone Eye",
+        "icon": "🌀"
+      },
+      {
+        "title": "Fire",
+        "name": "Volcanic Smoke",
+        "icon": "🌋"
       }
     ]
   },
@@ -7464,6 +7494,53 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775767954314": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775767954314 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Gameplay Mechanics",
+        "name": "Quick‑Sync Reflex",
+        "icon": "⚡"
+      },
+      {
+        "title": "Hidden Features",
+        "name": "Invisible Corridor",
+        "icon": "🌌"
+      },
+      {
+        "title": "Objective Strategies",
+        "name": "Stealth Capture",
+        "icon": "🕵️‍♂️"
+      },
+      {
+        "title": "Resource Management",
+        "name": "Bonus Energy Pool",
+        "icon": "🔋"
+      },
+      {
+        "title": "Upgrade Paths",
+        "name": "Hybrid Armor",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Combat Tactics",
+        "name": "Chain Reaction Blast",
+        "icon": "🌈"
+      },
+      {
+        "title": "Map Secrets",
+        "name": "Hidden Observatory",
+        "icon": "🔭"
+      },
+      {
+        "title": "Multiplayer Edge",
+        "name": "Strategic Echo",
+        "icon": "🗣️"
       }
     ]
   }
