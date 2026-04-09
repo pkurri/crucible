@@ -91,47 +91,47 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
     "list": [
       {
         "title": "Nebula",
-        "name": "Eternal Shimmer Nebula",
+        "name": "Carina Nebula",
         "icon": "🌌"
       },
       {
+        "title": "Galaxy",
+        "name": "Andromeda",
+        "icon": "🌠"
+      },
+      {
         "title": "Supernova",
-        "name": "Crimson Nova",
+        "name": "SN 1987A",
         "icon": "🔥"
       },
       {
         "title": "Black Hole",
-        "name": "Void Whisperer",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Pulsar",
-        "name": "Celestial Pulse",
-        "icon": "⚡"
+        "name": "Sagittarius A*",
+        "icon": "⚫"
       },
       {
         "title": "Comet",
-        "name": "Starlight Trail",
+        "name": "Halley's Comet",
         "icon": "☄️"
       },
       {
-        "title": "Galaxy Cluster",
-        "name": "Stellar Web",
-        "icon": "🪐"
+        "title": "Asteroid Belt",
+        "name": "Asteroid Belt of Mars",
+        "icon": "🪨"
+      },
+      {
+        "title": "Pulsar",
+        "name": "Crab Pulsar",
+        "icon": "⚡"
       },
       {
         "title": "Exoplanet",
-        "name": "Alien Oasis",
+        "name": "TRAPPIST-1",
         "icon": "🌍"
-      },
-      {
-        "title": "Spacecraft",
-        "name": "Quantum Voyager",
-        "icon": "🛰️"
       }
     ]
   },
@@ -183,49 +183,23 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Aurora",
-        "name": "Aurora Borealis",
-        "icon": "🌌"
+        "text": "Did that storm just rewrite the sky?",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Lightning Storm",
-        "icon": "⚡"
+        "text": "What if the universe is lighting up a secret dance?",
+        "duration": 4
       },
       {
-        "title": "Lensing",
-        "name": "Fata Morgana",
-        "icon": "🌀"
+        "text": "Nature's fiercest shows paint aurorized thunderheads.",
+        "duration": 4
       },
       {
-        "title": "Cloud",
-        "name": "Glow Cloud",
-        "icon": "☁️"
-      },
-      {
-        "title": "Sun",
-        "name": "Sundog",
-        "icon": "🌞"
-      },
-      {
-        "title": "Fire",
-        "name": "Meteoritic Fireball",
-        "icon": "🔥"
-      },
-      {
-        "title": "Fog",
-        "name": "St. Elmo's Fire",
-        "icon": "✨"
-      },
-      {
-        "title": "Ice",
-        "name": "Polar Mesospheric Clouds",
-        "icon": "❄️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -233,37 +207,67 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
-      },
-      {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
-      },
-      {
-        "text": "Follow the system to win the game.",
-        "duration": 5
-      }
-    ]
-  },
-  "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "What if your DNA could rewrite the laws of physics?",
+        "text": "What if your city turns into a simulation apocalypse?",
         "duration": 4
       },
       {
-        "text": "Could a creature evolve to breathe black holes?",
+        "text": "Will your future be trapped inside a tech nightmare?",
         "duration": 4
       },
       {
-        "text": "Meet the Squidwalker—its arms fold into photon jets.",
+        "text": "Discover the simulation glitch that could save humanity.",
         "duration": 4
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "HyperEvolutionaryAdaptations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Morphogenesis",
+        "name": "Chameleon Glyph",
+        "icon": "🦎"
+      },
+      {
+        "title": "Sensory",
+        "name": "Nocturnal Hypersight",
+        "icon": "🌙"
+      },
+      {
+        "title": "Defense",
+        "name": "Toxic Skin Hyper‑Secretions",
+        "icon": "☠️"
+      },
+      {
+        "title": "Reproduction",
+        "name": "Kinetic Asexual Swarm",
+        "icon": "🐛"
+      },
+      {
+        "title": "Metabolism",
+        "name": "Hyper‑Energy Conversion",
+        "icon": "🔋"
+      },
+      {
+        "title": "Communication",
+        "name": "Subnuclear Resonance",
+        "icon": "🎶"
+      },
+      {
+        "title": "Regeneration",
+        "name": "Nanofiber Regrowth Matrix",
+        "icon": "🧬"
+      },
+      {
+        "title": "Energy",
+        "name": "Photosynthetic Open Chromatophore",
+        "icon": "🌞"
       }
     ]
   },
@@ -7482,6 +7486,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775756535135": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775756535135 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Core Mechanics",
+        "name": "Apex Flow Engine",
+        "icon": "🌀"
+      },
+      {
+        "title": "Power Ups",
+        "name": "Quantum Surge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Stealth Tactics",
+        "name": "Phantom Shade",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Resource Nodes",
+        "name": "Celestial Orb",
+        "icon": "🌌"
+      },
+      {
+        "title": "Rapid Deploy",
+        "name": "Blink Shift",
+        "icon": "✈️"
+      },
+      {
+        "title": "Combat Mastery",
+        "name": "Dual Kinetic Swing",
+        "icon": "⚔️"
+      },
+      {
+        "title": "Team Synergy",
+        "name": "Sync Pulse",
+        "icon": "🤝"
+      },
+      {
+        "title": "Ultimate Unlock",
+        "name": "Eclipse Obsidian",
+        "icon": "🌑"
       }
     ]
   }
