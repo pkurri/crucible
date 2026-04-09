@@ -89,10 +89,57 @@
     ]
   },
   "CosmicWondersVisuals": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+    "list": [
+      {
+        "title": "Nebula",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
+      },
+      {
+        "title": "Galaxy",
+        "name": "Andromeda",
+        "icon": "🌌"
+      },
+      {
+        "title": "Black Hole",
+        "name": "M87*, the Giant",
+        "icon": "⚫"
+      },
+      {
+        "title": "Supernova",
+        "name": "Tycho's Remnant",
+        "icon": "✨"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Kepler-452b",
+        "icon": "🪐"
+      },
+      {
+        "title": "Aurora",
+        "name": "Aurora Australis",
+        "icon": "🌠"
+      },
+      {
+        "title": "Quasar",
+        "name": "3C 273",
+        "icon": "🚀"
+      },
+      {
+        "title": "Stellar Cluster",
+        "name": "Pleiades",
+        "icon": "👯"
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
         "duration": 5
       },
       {
@@ -105,144 +152,97 @@
       }
     ]
   },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Night Stalkers",
-        "name": "The Hollow-Glowing Angler",
-        "icon": "🌑"
-      },
-      {
-        "title": "Echidna Monsters",
-        "name": "The Blood-Red Cuttlefish",
-        "icon": "🦀"
-      },
-      {
-        "title": "Silence Bringers",
-        "name": "The Whispering Squid",
-        "icon": "🦑"
-      },
-      {
-        "title": "Predator Lurkers",
-        "name": "The Phantom Manta",
-        "icon": "🦋"
-      },
-      {
-        "title": "Scorpion Deep",
-        "name": "The Black Sturgeon",
-        "icon": "🦈"
-      },
-      {
-        "title": "Molecule Terrors",
-        "name": "The Brown Necked Dragonfish",
-        "icon": "🐲"
-      },
-      {
-        "title": "Hallucinatory Dwellers",
-        "name": "The Glow-Eyed Dollfish",
-        "icon": "💀"
-      },
-      {
-        "title": "Lost Royalty",
-        "name": "The Abyssal Lobster King",
-        "icon": "👑"
-      }
-    ]
-  },
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Aurora",
+        "title": "Auroras",
         "name": "Aurora Borealis",
         "icon": "🌌"
       },
       {
-        "title": "Lightning",
-        "name": "Lightning Storm",
-        "icon": "⚡"
+        "title": "Sunset",
+        "name": "Scattering at Sunset",
+        "icon": "🌅"
       },
       {
-        "title": "Lensing",
-        "name": "Fata Morgana",
-        "icon": "🌀"
+        "title": "Storms",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
       },
       {
-        "title": "Cloud",
-        "name": "Glow Cloud",
-        "icon": "☁️"
-      },
-      {
-        "title": "Sun",
-        "name": "Sundog",
-        "icon": "🌞"
-      },
-      {
-        "title": "Fire",
-        "name": "Meteoritic Fireball",
-        "icon": "🔥"
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "💨"
       },
       {
         "title": "Fog",
-        "name": "St. Elmo's Fire",
-        "icon": "✨"
+        "name": "Mist Crystals",
+        "icon": "🌫️"
       },
       {
-        "title": "Ice",
-        "name": "Polar Mesospheric Clouds",
+        "title": "Snow",
+        "name": "Glimmer Snow Flakes",
         "icon": "❄️"
+      },
+      {
+        "title": "Wind",
+        "name": "Cyclone Eye",
+        "icon": "🌀"
+      },
+      {
+        "title": "Fire",
+        "name": "Volcanic Smoke",
+        "icon": "🌋"
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Neural Surveillance",
-        "name": "MindLock",
-        "icon": "🧠"
+        "title": "Surveillance",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "title": "Synthetic Epidemic",
-        "name": "VirusX",
-        "icon": "🦠"
-      },
-      {
-        "title": "Climate Warfare",
-        "name": "SolarFury",
-        "icon": "☀️"
-      },
-      {
-        "title": "Resource Hoarding",
-        "name": "GaiaBank",
-        "icon": "💰"
-      },
-      {
-        "title": "Autonomous Carnage",
-        "name": "SteelSiren",
+        "title": "AI Rule",
+        "name": "Neural Net Tyrant",
         "icon": "🤖"
       },
       {
-        "title": "Data Blackouts",
-        "name": "ShadowNet",
-        "icon": "🕶️"
+        "title": "Climate Collapse",
+        "name": "Glacial Rift",
+        "icon": "❄️"
       },
       {
-        "title": "Memory Manipulation",
-        "name": "EchoFog",
-        "icon": "🌫️"
+        "title": "Resource Scarcity",
+        "name": "Zero Grain Protocol",
+        "icon": "🌾"
       },
       {
-        "title": "Supreme Dictatorship",
-        "name": "LordVoid",
-        "icon": "💀"
+        "title": "Social Stratification",
+        "name": "Caste Synthesizer",
+        "icon": "🎭"
+      },
+      {
+        "title": "Bioengineering",
+        "name": "Genetic Purge Engine",
+        "icon": "🧬"
+      },
+      {
+        "title": "Cybercrime",
+        "name": "Darknet Blackout",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Totalitarian State",
+        "name": "Iron Dome Ordinance",
+        "icon": "🛡️"
       }
     ]
   },
@@ -7444,6 +7444,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775744617677": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid slams on the highway, and it's not random.",
+        "duration": 4
+      },
+      {
+        "text": "What makes that cascade sync with the car's pulse?",
+        "duration": 4
+      },
+      {
+        "text": "Data points turn LEDs into a living neural map.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   }
