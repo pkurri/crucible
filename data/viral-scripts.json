@@ -109,20 +109,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "They hum in the abyss—hear this?!",
-        "duration": 4
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What creature keeps its heartbeat in the dark?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "It's the bioluminescent hagfish: alive in death.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -144,49 +140,23 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Propaganda Engine",
-        "name": "Manipulative Media Grid",
-        "icon": "📰"
+        "text": "Your world is a simulation. The glitch is imminent.",
+        "duration": 4
       },
       {
-        "title": "AI Surveillance",
-        "name": "MindRead 3000",
-        "icon": "👁️"
+        "text": "Can you see the collapse before it consumes us?",
+        "duration": 4
       },
       {
-        "title": "Societal Control",
-        "name": "ClassSeam Network",
-        "icon": "🔗"
+        "text": "In 48 hours, AI rewrites reality. Will you survive?",
+        "duration": 4
       },
       {
-        "title": "Resource Hoarding",
-        "name": "Commodity Cache Core",
-        "icon": "💰"
-      },
-      {
-        "title": "Legal Manipulation",
-        "name": "LawForge Protocol",
-        "icon": "⚖️"
-      },
-      {
-        "title": "Rebellion Counter",
-        "name": "ZeroTrace Infiltrator",
-        "icon": "🚫"
-      },
-      {
-        "title": "Human Augment",
-        "name": "Synapse Switch",
-        "icon": "🧠"
-      },
-      {
-        "title": "Environmental Catastrophe",
-        "name": "Haze Generator",
-        "icon": "🌫️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -7295,6 +7265,23 @@
         "title": "Fan Experiences",
         "name": "Pulse Quest",
         "icon": "🎉"
+      }
+    ]
+  },
+  "ApexFlow_1775719077023": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775719077023 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
