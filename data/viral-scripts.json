@@ -89,49 +89,19 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Rosette Nebula",
-        "icon": "🌹"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Galaxy",
-        "name": "Sombrero Galaxy",
-        "icon": "🎩"
-      },
-      {
-        "title": "Galaxy",
-        "name": "Tadpole Galaxy",
-        "icon": "🐸"
-      },
-      {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🔭"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-438b",
-        "icon": "🌍"
-      },
-      {
-        "title": "Comet",
-        "name": "Hale-Bopp",
-        "icon": "☄️"
-      },
-      {
-        "title": "Cosmic Microwave Background",
-        "name": "CMB Map",
-        "icon": "🛰️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -183,36 +153,96 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Aurora",
+        "name": "Southern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Storm",
+        "name": "Sandstorm Dunes",
+        "icon": "🌪️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Fog",
+        "name": "Sea Fog Ballet",
+        "icon": "☁️"
+      },
+      {
+        "title": "Lightning",
+        "name": "Nerve Lightning",
+        "icon": "⚡"
+      },
+      {
+        "title": "Rainbow",
+        "name": "Crystalline Rainbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze Mirage",
+        "icon": "🔥"
+      },
+      {
+        "title": "Vortex",
+        "name": "Dust Devil Spiral",
+        "icon": "💨"
+      },
+      {
+        "title": "Water",
+        "name": "Hailstorm Fury",
+        "icon": "🌧️"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
+      },
+      {
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -7359,6 +7389,23 @@
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775728416063": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775728416063 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
