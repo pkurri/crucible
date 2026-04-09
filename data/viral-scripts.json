@@ -89,36 +89,96 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Rosette Nebula",
+        "icon": "🌹"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Galaxy",
+        "name": "Sombrero Galaxy",
+        "icon": "🎩"
+      },
+      {
+        "title": "Galaxy",
+        "name": "Tadpole Galaxy",
+        "icon": "🐸"
+      },
+      {
+        "title": "Quasar",
+        "name": "3C 273",
+        "icon": "🔭"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Kepler-438b",
+        "icon": "🌍"
+      },
+      {
+        "title": "Comet",
+        "name": "Hale-Bopp",
+        "icon": "☄️"
+      },
+      {
+        "title": "Cosmic Microwave Background",
+        "name": "CMB Map",
+        "icon": "🛰️"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Bioluminescent Horrors",
+        "name": "Giant Lantern Shark",
+        "icon": "🔦"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Electric Predators",
+        "name": "Electric Eel Leviathan",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Vampiric Hunters",
+        "name": "Cuvierian Oarfish",
+        "icon": "🦈"
+      },
+      {
+        "title": "Phantom Glowworms",
+        "name": "Southern Lightfish",
+        "icon": "🌌"
+      },
+      {
+        "title": "Methane Bubble Cannons",
+        "name": "Adelie Abyssal Crab",
+        "icon": "🐚"
+      },
+      {
+        "title": "Spiky Swallows",
+        "name": "Frilled Shark",
+        "icon": "🦙"
+      },
+      {
+        "title": "Deadly Ink Dancers",
+        "name": "Black Swallower",
+        "icon": "🖤"
+      },
+      {
+        "title": "Worm-like Killers",
+        "name": "Crown-of-Thorns Starfish",
+        "icon": "⭐"
       }
     ]
   },
@@ -143,20 +203,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your world is a simulation. The glitch is imminent.",
-        "duration": 4
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Can you see the collapse before it consumes us?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "In 48 hours, AI rewrites reality. Will you survive?",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -7282,6 +7338,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775725652680": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Red lights, neon slick—stop scrolling.",
+        "duration": 4
+      },
+      {
+        "text": "Ever wondered what neon meets a neural net inside a car?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets bloom inside, data pulses neon liquid.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   }
