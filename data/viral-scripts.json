@@ -91,46 +91,46 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
         "title": "Nebula",
-        "name": "Rosette Nebula",
-        "icon": "🌹"
+        "name": "Eternal Shimmer Nebula",
+        "icon": "🌌"
       },
       {
-        "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "title": "Supernova",
+        "name": "Crimson Nova",
+        "icon": "🔥"
       },
       {
-        "title": "Galaxy",
-        "name": "Sombrero Galaxy",
-        "icon": "🎩"
+        "title": "Black Hole",
+        "name": "Void Whisperer",
+        "icon": "🕳️"
       },
       {
-        "title": "Galaxy",
-        "name": "Tadpole Galaxy",
-        "icon": "🐸"
-      },
-      {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🔭"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-438b",
-        "icon": "🌍"
+        "title": "Pulsar",
+        "name": "Celestial Pulse",
+        "icon": "⚡"
       },
       {
         "title": "Comet",
-        "name": "Hale-Bopp",
+        "name": "Starlight Trail",
         "icon": "☄️"
       },
       {
-        "title": "Cosmic Microwave Background",
-        "name": "CMB Map",
+        "title": "Galaxy Cluster",
+        "name": "Stellar Web",
+        "icon": "🪐"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Alien Oasis",
+        "icon": "🌍"
+      },
+      {
+        "title": "Spacecraft",
+        "name": "Quantum Voyager",
         "icon": "🛰️"
       }
     ]
@@ -183,96 +183,40 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Aurora",
-        "name": "Southern Lights",
-        "icon": "🌌"
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Storm",
-        "name": "Sandstorm Dunes",
-        "icon": "🌪️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Fog",
-        "name": "Sea Fog Ballet",
-        "icon": "☁️"
-      },
-      {
-        "title": "Lightning",
-        "name": "Nerve Lightning",
-        "icon": "⚡"
-      },
-      {
-        "title": "Rainbow",
-        "name": "Crystalline Rainbow",
-        "icon": "🌈"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze Mirage",
-        "icon": "🔥"
-      },
-      {
-        "title": "Vortex",
-        "name": "Dust Devil Spiral",
-        "icon": "💨"
-      },
-      {
-        "title": "Water",
-        "name": "Hailstorm Fury",
-        "icon": "🌧️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Propaganda Engine",
-        "name": "Manipulative Media Grid",
-        "icon": "📰"
+        "text": "The future 3‑5 minutes will be your nightmare.",
+        "duration": 4
       },
       {
-        "title": "AI Surveillance",
-        "name": "MindRead 3000",
-        "icon": "👁️"
+        "text": "Do you know the glitch that could collapse reality?",
+        "duration": 4
       },
       {
-        "title": "Societal Control",
-        "name": "ClassSeam Network",
-        "icon": "🔗"
+        "text": "It’s an AI vector that rewires humanity’s core.",
+        "duration": 4
       },
       {
-        "title": "Resource Hoarding",
-        "name": "Commodity Cache Core",
-        "icon": "💰"
-      },
-      {
-        "title": "Legal Manipulation",
-        "name": "LawForge Protocol",
-        "icon": "⚖️"
-      },
-      {
-        "title": "Rebellion Counter",
-        "name": "ZeroTrace Infiltrator",
-        "icon": "🚫"
-      },
-      {
-        "title": "Human Augment",
-        "name": "Synapse Switch",
-        "icon": "🧠"
-      },
-      {
-        "title": "Environmental Catastrophe",
-        "name": "Haze Generator",
-        "icon": "🌫️"
+        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -7270,6 +7214,53 @@
       {
         "text": "If you want to master ApexFlow_1775700570275, you're in the right place. Subscribe.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775705854021": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775705854021 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1775705854021, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Foundational Forge",
+        "name": "Apex Core Matrix",
+        "icon": "🔨"
+      },
+      {
+        "title": "Power Pulse",
+        "name": "Flux Resonator",
+        "icon": "⚡"
+      },
+      {
+        "title": "Vision Vault",
+        "name": "Quantum Prism",
+        "icon": "🔮"
+      },
+      {
+        "title": "Efficiency Edge",
+        "name": "Cycle Optimizer",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Safety Shield",
+        "name": "Barrier Field",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Insight Engine",
+        "name": "Mindsight Array",
+        "icon": "🧠"
+      },
+      {
+        "title": "Legacy Link",
+        "name": "Chrono Conduit",
+        "icon": "⏳"
+      },
+      {
+        "title": "Harmony Hub",
+        "name": "Symphony Core",
+        "icon": "🎶"
       }
     ]
   }
