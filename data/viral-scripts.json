@@ -89,78 +89,190 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Rosette Nebula",
+        "icon": "🌹"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Galaxy",
+        "name": "Sombrero Galaxy",
+        "icon": "🎩"
+      },
+      {
+        "title": "Galaxy",
+        "name": "Tadpole Galaxy",
+        "icon": "🐸"
+      },
+      {
+        "title": "Quasar",
+        "name": "3C 273",
+        "icon": "🔭"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Kepler-438b",
+        "icon": "🌍"
+      },
+      {
+        "title": "Comet",
+        "name": "Hale-Bopp",
+        "icon": "☄️"
+      },
+      {
+        "title": "Cosmic Microwave Background",
+        "name": "CMB Map",
+        "icon": "🛰️"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Bioluminescent Horrors",
+        "name": "Giant Lantern Shark",
+        "icon": "🔦"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Electric Predators",
+        "name": "Electric Eel Leviathan",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Vampiric Hunters",
+        "name": "Cuvierian Oarfish",
+        "icon": "🦈"
+      },
+      {
+        "title": "Phantom Glowworms",
+        "name": "Southern Lightfish",
+        "icon": "🌌"
+      },
+      {
+        "title": "Methane Bubble Cannons",
+        "name": "Adelie Abyssal Crab",
+        "icon": "🐚"
+      },
+      {
+        "title": "Spiky Swallows",
+        "name": "Frilled Shark",
+        "icon": "🦙"
+      },
+      {
+        "title": "Deadly Ink Dancers",
+        "name": "Black Swallower",
+        "icon": "🖤"
+      },
+      {
+        "title": "Worm-like Killers",
+        "name": "Crown-of-Thorns Starfish",
+        "icon": "⭐"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "⚡ Imagine lightning slicing the night like a razor.",
-        "duration": 4
+        "title": "Aurora",
+        "name": "Southern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Ever wondered why auroras blaze blind the stars?",
-        "duration": 4
+        "title": "Storm",
+        "name": "Sandstorm Dunes",
+        "icon": "🌪️"
       },
       {
-        "text": "They’re nature’s laser shows, rewiring the sky.",
-        "duration": 4
+        "title": "Fog",
+        "name": "Sea Fog Ballet",
+        "icon": "☁️"
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Lightning",
+        "name": "Nerve Lightning",
+        "icon": "⚡"
+      },
+      {
+        "title": "Rainbow",
+        "name": "Crystalline Rainbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze Mirage",
+        "icon": "🔥"
+      },
+      {
+        "title": "Vortex",
+        "name": "Dust Devil Spiral",
+        "icon": "💨"
+      },
+      {
+        "title": "Water",
+        "name": "Hailstorm Fury",
+        "icon": "🌧️"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Your world is a simulation. The glitch is imminent.",
-        "duration": 4
+        "title": "Propaganda Engine",
+        "name": "Manipulative Media Grid",
+        "icon": "📰"
       },
       {
-        "text": "Can you see the collapse before it consumes us?",
-        "duration": 4
+        "title": "AI Surveillance",
+        "name": "MindRead 3000",
+        "icon": "👁️"
       },
       {
-        "text": "In 48 hours, AI rewrites reality. Will you survive?",
-        "duration": 4
+        "title": "Societal Control",
+        "name": "ClassSeam Network",
+        "icon": "🔗"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Resource Hoarding",
+        "name": "Commodity Cache Core",
+        "icon": "💰"
+      },
+      {
+        "title": "Legal Manipulation",
+        "name": "LawForge Protocol",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Rebellion Counter",
+        "name": "ZeroTrace Infiltrator",
+        "icon": "🚫"
+      },
+      {
+        "title": "Human Augment",
+        "name": "Synapse Switch",
+        "icon": "🧠"
+      },
+      {
+        "title": "Environmental Catastrophe",
+        "name": "Haze Generator",
+        "icon": "🌫️"
       }
     ]
   },
@@ -7137,6 +7249,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775700570275": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if neon liquid could drive hyper-cars?",
+        "duration": 4
+      },
+      {
+        "text": "Can a stream of data points actually power a supercar?",
+        "duration": 4
+      },
+      {
+        "text": "Because neural nets inject liquid energy into every bolt.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1775700570275, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   }
