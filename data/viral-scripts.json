@@ -89,96 +89,66 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Eternal Shimmer Nebula",
-        "icon": "🌌"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Supernova",
-        "name": "Crimson Nova",
-        "icon": "🔥"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Black Hole",
-        "name": "Void Whisperer",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Pulsar",
-        "name": "Celestial Pulse",
-        "icon": "⚡"
-      },
-      {
-        "title": "Comet",
-        "name": "Starlight Trail",
-        "icon": "☄️"
-      },
-      {
-        "title": "Galaxy Cluster",
-        "name": "Stellar Web",
-        "icon": "🪐"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Alien Oasis",
-        "icon": "🌍"
-      },
-      {
-        "title": "Spacecraft",
-        "name": "Quantum Voyager",
-        "icon": "🛰️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Bioluminescent Horrors",
-        "name": "Giant Lantern Shark",
-        "icon": "🔦"
+        "title": "Night Stalkers",
+        "name": "The Hollow-Glowing Angler",
+        "icon": "🌑"
       },
       {
-        "title": "Electric Predators",
-        "name": "Electric Eel Leviathan",
-        "icon": "⚡"
+        "title": "Echidna Monsters",
+        "name": "The Blood-Red Cuttlefish",
+        "icon": "🦀"
       },
       {
-        "title": "Vampiric Hunters",
-        "name": "Cuvierian Oarfish",
+        "title": "Silence Bringers",
+        "name": "The Whispering Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Predator Lurkers",
+        "name": "The Phantom Manta",
+        "icon": "🦋"
+      },
+      {
+        "title": "Scorpion Deep",
+        "name": "The Black Sturgeon",
         "icon": "🦈"
       },
       {
-        "title": "Phantom Glowworms",
-        "name": "Southern Lightfish",
-        "icon": "🌌"
+        "title": "Molecule Terrors",
+        "name": "The Brown Necked Dragonfish",
+        "icon": "🐲"
       },
       {
-        "title": "Methane Bubble Cannons",
-        "name": "Adelie Abyssal Crab",
-        "icon": "🐚"
+        "title": "Hallucinatory Dwellers",
+        "name": "The Glow-Eyed Dollfish",
+        "icon": "💀"
       },
       {
-        "title": "Spiky Swallows",
-        "name": "Frilled Shark",
-        "icon": "🦙"
-      },
-      {
-        "title": "Deadly Ink Dancers",
-        "name": "Black Swallower",
-        "icon": "🖤"
-      },
-      {
-        "title": "Worm-like Killers",
-        "name": "Crown-of-Thorns Starfish",
-        "icon": "⭐"
+        "title": "Lost Royalty",
+        "name": "The Abyssal Lobster King",
+        "icon": "👑"
       }
     ]
   },
@@ -200,23 +170,49 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+    "list": [
       {
-        "text": "The future 3‑5 minutes will be your nightmare.",
-        "duration": 4
+        "title": "Neural Surveillance",
+        "name": "MindLock",
+        "icon": "🧠"
       },
       {
-        "text": "Do you know the glitch that could collapse reality?",
-        "duration": 4
+        "title": "Synthetic Epidemic",
+        "name": "VirusX",
+        "icon": "🦠"
       },
       {
-        "text": "It’s an AI vector that rewires humanity’s core.",
-        "duration": 4
+        "title": "Climate Warfare",
+        "name": "SolarFury",
+        "icon": "☀️"
       },
       {
-        "text": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Resource Hoarding",
+        "name": "GaiaBank",
+        "icon": "💰"
+      },
+      {
+        "title": "Autonomous Carnage",
+        "name": "SteelSiren",
+        "icon": "🤖"
+      },
+      {
+        "title": "Data Blackouts",
+        "name": "ShadowNet",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Memory Manipulation",
+        "name": "EchoFog",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Supreme Dictatorship",
+        "name": "LordVoid",
+        "icon": "💀"
       }
     ]
   },
@@ -7261,6 +7257,23 @@
         "title": "Harmony Hub",
         "name": "Symphony Core",
         "icon": "🎶"
+      }
+    ]
+  },
+  "ApexFlow_1775713788491": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775713788491 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
