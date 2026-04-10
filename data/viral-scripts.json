@@ -89,23 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The universe just blew a secret.",
-        "duration": 4
+        "title": "Nebula",
+        "name": "Carina Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Why do galaxies look like they’re winking?",
-        "duration": 4
+        "title": "Galaxy",
+        "name": "Andromeda",
+        "icon": "🌠"
       },
       {
-        "text": "Because black holes paint each one as a moving light‑mirror.",
-        "duration": 4
+        "title": "Supernova",
+        "name": "SN 1987A",
+        "icon": "🔥"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 3
+        "title": "Black Hole",
+        "name": "Sagittarius A*",
+        "icon": "⚫"
+      },
+      {
+        "title": "Comet",
+        "name": "Halley's Comet",
+        "icon": "☄️"
+      },
+      {
+        "title": "Asteroid Belt",
+        "name": "Asteroid Belt of Mars",
+        "icon": "🪨"
+      },
+      {
+        "title": "Pulsar",
+        "name": "Crab Pulsar",
+        "icon": "⚡"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
       }
     ]
   },
@@ -134,28 +160,7 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
-        "duration": 4
-      },
-      {
-        "text": "What happens when lightning meets the aurora?",
-        "duration": 4
-      },
-      {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
         "duration": 5
       },
       {
@@ -165,6 +170,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
+      },
+      {
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
+      },
+      {
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
+      },
+      {
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -7807,6 +7859,23 @@
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775855267168": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775855267168 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
