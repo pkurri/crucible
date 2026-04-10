@@ -89,49 +89,19 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Eternal Shimmer Nebula",
-        "icon": "🌌"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Supernova",
-        "name": "Crimson Nova",
-        "icon": "🔥"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Black Hole",
-        "name": "Void Whisperer",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Pulsar",
-        "name": "Celestial Pulse",
-        "icon": "⚡"
-      },
-      {
-        "title": "Comet",
-        "name": "Starlight Trail",
-        "icon": "☄️"
-      },
-      {
-        "title": "Galaxy Cluster",
-        "name": "Stellar Web",
-        "icon": "🪐"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Alien Oasis",
-        "icon": "🌍"
-      },
-      {
-        "title": "Spacecraft",
-        "name": "Quantum Voyager",
-        "icon": "🛰️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -153,143 +123,61 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
-      },
-      {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
-      },
-      {
-        "title": "Solar",
-        "name": "Sundogs",
-        "icon": "🌞"
-      },
-      {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
-      },
-      {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Neural Surveillance",
-        "name": "MindLock",
-        "icon": "🧠"
+        "text": "What if your city turns into a simulation apocalypse?",
+        "duration": 4
       },
       {
-        "title": "Synthetic Epidemic",
-        "name": "VirusX",
-        "icon": "🦠"
+        "text": "Will your future be trapped inside a tech nightmare?",
+        "duration": 4
       },
       {
-        "title": "Climate Warfare",
-        "name": "SolarFury",
-        "icon": "☀️"
+        "text": "Discover the simulation glitch that could save humanity.",
+        "duration": 4
       },
       {
-        "title": "Resource Hoarding",
-        "name": "GaiaBank",
-        "icon": "💰"
-      },
-      {
-        "title": "Autonomous Carnage",
-        "name": "SteelSiren",
-        "icon": "🤖"
-      },
-      {
-        "title": "Data Blackouts",
-        "name": "ShadowNet",
-        "icon": "🕶️"
-      },
-      {
-        "title": "Memory Manipulation",
-        "name": "EchoFog",
-        "icon": "🌫️"
-      },
-      {
-        "title": "Supreme Dictatorship",
-        "name": "LordVoid",
-        "icon": "💀"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Morphology",
-        "name": "Chameleon Skin 2.0",
-        "icon": "🐍"
+        "text": "Ever seen a creature that could laugh at a volcano?",
+        "duration": 4
       },
       {
-        "title": "Genetic",
-        "name": "CRISPR-Infused Polyploidy",
-        "icon": "🧬"
+        "text": "What if evolution gave us wings made of fire?",
+        "duration": 4
       },
       {
-        "title": "Neurology",
-        "name": "Synaptic Hyperloop",
-        "icon": "🧠"
+        "text": "Meet the Lava Hummingbird, soaring in fire.",
+        "duration": 4
       },
       {
-        "title": "Metabolic",
-        "name": "Nanolipid Osmosis",
-        "icon": "🧪"
-      },
-      {
-        "title": "Sensory",
-        "name": "Quantum Echolocation",
-        "icon": "📡"
-      },
-      {
-        "title": "Physiology",
-        "name": "Self-Healing Exoskeleton",
-        "icon": "🛡️"
-      },
-      {
-        "title": "Immune",
-        "name": "Adaptive Membrane Fermentation",
-        "icon": "🦠"
-      },
-      {
-        "title": "Energetic",
-        "name": "Zero-Point Energy Harvesting",
-        "icon": "⚡"
+        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
+        "duration": 3
       }
     ]
   },
@@ -7762,6 +7650,44 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1775814609890 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775814328381": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The universe just spilled neon.",
+        "duration": 4
+      },
+      {
+        "text": "What hidden code powers this liquid dream?",
+        "duration": 4
+      },
+      {
+        "text": "It’s the neural sync of data whispers in car barrels.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775826163270": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775826163270 are finally revealed.",
         "duration": 5
       },
       {
