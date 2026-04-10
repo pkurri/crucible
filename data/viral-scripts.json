@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Rosette Nebula",
+        "icon": "🌹"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Galaxy",
+        "name": "Sombrero Galaxy",
+        "icon": "🎩"
+      },
+      {
+        "title": "Galaxy",
+        "name": "Tadpole Galaxy",
+        "icon": "🐸"
+      },
+      {
+        "title": "Quasar",
+        "name": "3C 273",
+        "icon": "🔭"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Kepler-438b",
+        "icon": "🌍"
+      },
+      {
+        "title": "Comet",
+        "name": "Hale-Bopp",
+        "icon": "☄️"
+      },
+      {
+        "title": "Cosmic Microwave Background",
+        "name": "CMB Map",
+        "icon": "🛰️"
       }
     ]
   },
@@ -123,10 +153,57 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Aurora",
+        "name": "Southern Lights",
+        "icon": "🌌"
+      },
+      {
+        "title": "Storm",
+        "name": "Sandstorm Dunes",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Fog",
+        "name": "Sea Fog Ballet",
+        "icon": "☁️"
+      },
+      {
+        "title": "Lightning",
+        "name": "Nerve Lightning",
+        "icon": "⚡"
+      },
+      {
+        "title": "Rainbow",
+        "name": "Crystalline Rainbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze Mirage",
+        "icon": "🔥"
+      },
+      {
+        "title": "Vortex",
+        "name": "Dust Devil Spiral",
+        "icon": "💨"
+      },
+      {
+        "title": "Water",
+        "name": "Hailstorm Fury",
+        "icon": "🌧️"
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
         "duration": 5
       },
       {
@@ -136,27 +213,6 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "What if your city turns into a simulation apocalypse?",
-        "duration": 4
-      },
-      {
-        "text": "Will your future be trapped inside a tech nightmare?",
-        "duration": 4
-      },
-      {
-        "text": "Discover the simulation glitch that could save humanity.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
       }
     ]
   },
@@ -7688,6 +7744,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1775826163270 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775829488181": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775829488181 are finally revealed.",
         "duration": 5
       },
       {
