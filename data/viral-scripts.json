@@ -89,49 +89,19 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Rosette Nebula",
-        "icon": "🌹"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Galaxy",
-        "name": "Sombrero Galaxy",
-        "icon": "🎩"
-      },
-      {
-        "title": "Galaxy",
-        "name": "Tadpole Galaxy",
-        "icon": "🐸"
-      },
-      {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🔭"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-438b",
-        "icon": "🌍"
-      },
-      {
-        "title": "Comet",
-        "name": "Hale-Bopp",
-        "icon": "☄️"
-      },
-      {
-        "title": "Cosmic Microwave Background",
-        "name": "CMB Map",
-        "icon": "🛰️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -139,71 +109,28 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "text": "If you swam 10,000 feet, you'd see this.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What lurks in the abyss, haunting all marine explorers?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Aurora",
-        "name": "Southern Lights",
-        "icon": "🌌"
-      },
-      {
-        "title": "Storm",
-        "name": "Sandstorm Dunes",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Fog",
-        "name": "Sea Fog Ballet",
-        "icon": "☁️"
-      },
-      {
-        "title": "Lightning",
-        "name": "Nerve Lightning",
-        "icon": "⚡"
-      },
-      {
-        "title": "Rainbow",
-        "name": "Crystalline Rainbow",
-        "icon": "🌈"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze Mirage",
-        "icon": "🔥"
-      },
-      {
-        "title": "Vortex",
-        "name": "Dust Devil Spiral",
-        "icon": "💨"
-      },
-      {
-        "title": "Water",
-        "name": "Hailstorm Fury",
-        "icon": "🌧️"
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
         "duration": 5
       },
       {
@@ -213,6 +140,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Surveillance",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
+      },
+      {
+        "title": "AI Rule",
+        "name": "Neural Net Tyrant",
+        "icon": "🤖"
+      },
+      {
+        "title": "Climate Collapse",
+        "name": "Glacial Rift",
+        "icon": "❄️"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "Zero Grain Protocol",
+        "icon": "🌾"
+      },
+      {
+        "title": "Social Stratification",
+        "name": "Caste Synthesizer",
+        "icon": "🎭"
+      },
+      {
+        "title": "Bioengineering",
+        "name": "Genetic Purge Engine",
+        "icon": "🧬"
+      },
+      {
+        "title": "Cybercrime",
+        "name": "Darknet Blackout",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Totalitarian State",
+        "name": "Iron Dome Ordinance",
+        "icon": "🛡️"
       }
     ]
   },
@@ -7770,6 +7744,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775842173980": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775842173980 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1775842173980.",
+    "list": [
+      {
+        "title": "Chronology",
+        "name": "Second‑Slip Protocol",
+        "icon": "⏱️"
+      },
+      {
+        "title": "Astronomy",
+        "name": "Stellar Collapse Relay",
+        "icon": "🌠"
+      },
+      {
+        "title": "Physics",
+        "name": "Quantum Entanglement Engine",
+        "icon": "🔗"
+      },
+      {
+        "title": "Metaphysics",
+        "name": "Dimensional Shift Key",
+        "icon": "🌀"
+      },
+      {
+        "title": "Bioengineering",
+        "name": "Neural Arc Reactor",
+        "icon": "🧠"
+      },
+      {
+        "title": "Energy",
+        "name": "Dark Matter Synthesizer",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Geology",
+        "name": "Geothermal Resonator",
+        "icon": "🌋"
+      },
+      {
+        "title": "Cybernetics",
+        "name": "Neural Lattice Mesh",
+        "icon": "🌌"
       }
     ]
   }
