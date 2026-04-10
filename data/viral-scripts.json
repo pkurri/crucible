@@ -92,28 +92,7 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
-        "duration": 4
-      },
-      {
-        "text": "What if the sky hides a secret that changes everything?",
-        "duration": 4
-      },
-      {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
         "duration": 5
       },
       {
@@ -123,6 +102,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "list": [
+      {
+        "title": "Undead Anglers",
+        "name": "Vampire Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Gelatinous Horrors",
+        "name": "Glass Squid",
+        "icon": "🧼"
+      },
+      {
+        "title": "Jaws of the Abyss",
+        "name": "Goblin Shark",
+        "icon": "🦈"
+      },
+      {
+        "title": "Deepsea Predators",
+        "name": "Yeti Crab",
+        "icon": "🦀"
+      },
+      {
+        "title": "Night Glow",
+        "name": "Lanternfish",
+        "icon": "🌟"
+      },
+      {
+        "title": "Turbulent Terror",
+        "name": "Sargassum Sea Monster",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Chill Sirens",
+        "name": "Boreal Jelly",
+        "icon": "🧊"
+      },
+      {
+        "title": "Monsoon Spirits",
+        "name": "Kuroshio Killer",
+        "icon": "🌊"
       }
     ]
   },
@@ -130,37 +156,67 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
-      },
-      {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
-      },
-      {
-        "text": "Follow the system to win the game.",
-        "duration": 5
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "What if your city turns into a simulation apocalypse?",
+        "text": "Did that storm just rewrite the sky?",
         "duration": 4
       },
       {
-        "text": "Will your future be trapped inside a tech nightmare?",
+        "text": "What if the universe is lighting up a secret dance?",
         "duration": 4
       },
       {
-        "text": "Discover the simulation glitch that could save humanity.",
+        "text": "Nature's fiercest shows paint aurorized thunderheads.",
         "duration": 4
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
+      },
+      {
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
+      },
+      {
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
+      },
+      {
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -7573,6 +7629,27 @@
       },
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775793068749": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid warps reality—toast the mundane.",
+        "duration": 4
+      },
+      {
+        "text": "Can data points unshackle hyper‑car dreams?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets pulse neon veins, guiding a hyper‑cruise.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
