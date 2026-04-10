@@ -7555,5 +7555,26 @@
         "duration": 5
       }
     ]
+  },
+  "ApexFlow_1775788150074": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid crashes your eye—defy reality!",
+        "duration": 4
+      },
+      {
+        "text": "What if data points could drive a hyper‑car?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets weave impossible flow—watch the magic.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
   }
 }
