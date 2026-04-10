@@ -92,36 +92,15 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The universe just blew a secret.",
+        "text": "Ever felt the universe breathing at your fingertips?",
         "duration": 4
       },
       {
-        "text": "Why do galaxies look like they’re winking?",
+        "text": "What if the sky hides a secret that changes everything?",
         "duration": 4
       },
       {
-        "text": "Because black holes paint each one as a moving light‑mirror.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 3
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "If you swam 10,000 feet, you'd see this.",
-        "duration": 4
-      },
-      {
-        "text": "What lurks in the abyss, haunting all marine explorers?",
-        "duration": 4
-      },
-      {
-        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
+        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
         "duration": 4
       },
       {
@@ -130,58 +109,11 @@
       }
     ]
   },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Auroras",
-        "name": "Aurora Borealis",
-        "icon": "🌌"
-      },
-      {
-        "title": "Sunset",
-        "name": "Scattering at Sunset",
-        "icon": "🌅"
-      },
-      {
-        "title": "Storms",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "💨"
-      },
-      {
-        "title": "Fog",
-        "name": "Mist Crystals",
-        "icon": "🌫️"
-      },
-      {
-        "title": "Snow",
-        "name": "Glimmer Snow Flakes",
-        "icon": "❄️"
-      },
-      {
-        "title": "Wind",
-        "name": "Cyclone Eye",
-        "icon": "🌀"
-      },
-      {
-        "title": "Fire",
-        "name": "Volcanic Smoke",
-        "icon": "🌋"
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
+  "DeepSeaCreatureDiscoveries": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
         "duration": 5
       },
       {
@@ -191,6 +123,44 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your city turns into a simulation apocalypse?",
+        "duration": 4
+      },
+      {
+        "text": "Will your future be trapped inside a tech nightmare?",
+        "duration": 4
+      },
+      {
+        "text": "Discover the simulation glitch that could save humanity.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -7566,6 +7536,23 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775786926981": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775786926981 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
