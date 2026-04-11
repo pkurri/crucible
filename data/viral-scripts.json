@@ -89,49 +89,23 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "The universe just blew a secret.",
+        "duration": 4
       },
       {
-        "title": "Galaxy",
-        "name": "Andromeda",
-        "icon": "🌌"
+        "text": "Why do galaxies look like they’re winking?",
+        "duration": 4
       },
       {
-        "title": "Black Hole",
-        "name": "M87*, the Giant",
-        "icon": "⚫"
+        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "duration": 4
       },
       {
-        "title": "Supernova",
-        "name": "Tycho's Remnant",
-        "icon": "✨"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-452b",
-        "icon": "🪐"
-      },
-      {
-        "title": "Aurora",
-        "name": "Aurora Australis",
-        "icon": "🌠"
-      },
-      {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🚀"
-      },
-      {
-        "title": "Stellar Cluster",
-        "name": "Pleiades",
-        "icon": "👯"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   },
@@ -153,96 +127,70 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Aurora",
-        "name": "Aurora Borealis",
-        "icon": "🌌"
+        "text": "You think you’ve seen all storms? Think again.",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Lightning Storm",
-        "icon": "⚡"
+        "text": "What happens when lightning meets the aurora?",
+        "duration": 4
       },
       {
-        "title": "Lensing",
-        "name": "Fata Morgana",
-        "icon": "🌀"
+        "text": "Witness the sky bleed neon and thunder.",
+        "duration": 4
       },
       {
-        "title": "Cloud",
-        "name": "Glow Cloud",
-        "icon": "☁️"
-      },
-      {
-        "title": "Sun",
-        "name": "Sundog",
-        "icon": "🌞"
-      },
-      {
-        "title": "Fire",
-        "name": "Meteoritic Fireball",
-        "icon": "🔥"
-      },
-      {
-        "title": "Fog",
-        "name": "St. Elmo's Fire",
-        "icon": "✨"
-      },
-      {
-        "title": "Ice",
-        "name": "Polar Mesospheric Clouds",
-        "icon": "❄️"
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Military AI",
-        "name": "Nano-Drone Recon",
-        "icon": "🎯"
+        "title": "Surveillance",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "title": "Urban Decay",
-        "name": "Grenfell Grid",
-        "icon": "🏙️"
+        "title": "AI Rule",
+        "name": "Neural Net Tyrant",
+        "icon": "🤖"
       },
       {
         "title": "Climate Collapse",
-        "name": "Thermal Decontaminator",
-        "icon": "♻️"
-      },
-      {
-        "title": "Social Control",
-        "name": "Surveillance Matrix",
-        "icon": "🔍"
+        "name": "Glacial Rift",
+        "icon": "❄️"
       },
       {
         "title": "Resource Scarcity",
-        "name": "BlackMarket Broker",
-        "icon": "💰"
+        "name": "Zero Grain Protocol",
+        "icon": "🌾"
       },
       {
-        "title": "Energy Crisis",
-        "name": "Fusion Cube",
-        "icon": "⚡️"
+        "title": "Social Stratification",
+        "name": "Caste Synthesizer",
+        "icon": "🎭"
       },
       {
-        "title": "Biohazard",
-        "name": "Pandemic SimX",
-        "icon": "☣️"
+        "title": "Bioengineering",
+        "name": "Genetic Purge Engine",
+        "icon": "🧬"
       },
       {
-        "title": "AI Governance",
-        "name": "Sentinel AI",
-        "icon": "🧠"
+        "title": "Cybercrime",
+        "name": "Darknet Blackout",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Totalitarian State",
+        "name": "Iron Dome Ordinance",
+        "icon": "🛡️"
       }
     ]
   },
@@ -8021,6 +7969,27 @@
         "title": "Analytics",
         "name": "Insight Prism",
         "icon": "🔍"
+      }
+    ]
+  },
+  "ApexFlow_1775886418370": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Every neon liquid drop is a data storm—trust me.",
+        "duration": 4
+      },
+      {
+        "text": "How do hyper-car interiors turn into neon data streams?",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid is synthetic math—every ripple is neural code.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   }
