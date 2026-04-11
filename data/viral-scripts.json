@@ -92,75 +92,161 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
+        "text": "The universe just blew a secret.",
         "duration": 4
       },
       {
-        "text": "What if the sky hides a secret that changes everything?",
+        "text": "Why do galaxies look like they’re winking?",
         "duration": 4
       },
       {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
+        "text": "Because black holes paint each one as a moving light‑mirror.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Undead Anglers",
+        "name": "Vampire Squid",
+        "icon": "🦑"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Gelatinous Horrors",
+        "name": "Glass Squid",
+        "icon": "🧼"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Jaws of the Abyss",
+        "name": "Goblin Shark",
+        "icon": "🦈"
+      },
+      {
+        "title": "Deepsea Predators",
+        "name": "Yeti Crab",
+        "icon": "🦀"
+      },
+      {
+        "title": "Night Glow",
+        "name": "Lanternfish",
+        "icon": "🌟"
+      },
+      {
+        "title": "Turbulent Terror",
+        "name": "Sargassum Sea Monster",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Chill Sirens",
+        "name": "Boreal Jelly",
+        "icon": "🧊"
+      },
+      {
+        "title": "Monsoon Spirits",
+        "name": "Kuroshio Killer",
+        "icon": "🌊"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
-        "duration": 4
+        "title": "Auroras",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "What happens when lightning meets the aurora?",
-        "duration": 4
+        "title": "Sunset",
+        "name": "Scattering at Sunset",
+        "icon": "🌅"
       },
       {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
+        "title": "Storms",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "💨"
+      },
+      {
+        "title": "Fog",
+        "name": "Mist Crystals",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Snow",
+        "name": "Glimmer Snow Flakes",
+        "icon": "❄️"
+      },
+      {
+        "title": "Wind",
+        "name": "Cyclone Eye",
+        "icon": "🌀"
+      },
+      {
+        "title": "Fire",
+        "name": "Volcanic Smoke",
+        "icon": "🌋"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
+      },
+      {
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -8120,6 +8206,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1775932796477 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775941402360": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775941402360 are finally revealed.",
         "duration": 5
       },
       {
