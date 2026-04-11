@@ -89,57 +89,10 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Nebula",
-        "name": "Eternal Shimmer Nebula",
-        "icon": "🌌"
-      },
-      {
-        "title": "Supernova",
-        "name": "Crimson Nova",
-        "icon": "🔥"
-      },
-      {
-        "title": "Black Hole",
-        "name": "Void Whisperer",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Pulsar",
-        "name": "Celestial Pulse",
-        "icon": "⚡"
-      },
-      {
-        "title": "Comet",
-        "name": "Starlight Trail",
-        "icon": "☄️"
-      },
-      {
-        "title": "Galaxy Cluster",
-        "name": "Stellar Web",
-        "icon": "🪐"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Alien Oasis",
-        "icon": "🌍"
-      },
-      {
-        "title": "Spacecraft",
-        "name": "Quantum Voyager",
-        "icon": "🛰️"
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
         "duration": 5
       },
       {
@@ -152,50 +105,45 @@
       }
     ]
   },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "If you swam 10,000 feet, you'd see this.",
+        "duration": 4
+      },
+      {
+        "text": "What lurks in the abyss, haunting all marine explorers?",
+        "duration": 4
+      },
+      {
+        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "This video shatters the sky—watch the impossible.",
+        "duration": 4
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
+        "text": "Ever wonder why auroras outshine rainbows?",
+        "duration": 4
       },
       {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
+        "text": "Because the ionosphere turns lightning into living light.",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
-      },
-      {
-        "title": "Solar",
-        "name": "Sundogs",
-        "icon": "🌞"
-      },
-      {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
-      },
-      {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -8105,6 +8053,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775927232464": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Stop scrolling—this neon liquid blurs reality forever.",
+        "duration": 4
+      },
+      {
+        "text": "Why does this data wave feel like a car inside a brain?",
+        "duration": 4
+      },
+      {
+        "text": "It’s a neural highway that turns 3D cars into liquid code.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1775927232464, subscribe now.",
+        "duration": 3
       }
     ]
   }
