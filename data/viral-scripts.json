@@ -92,7 +92,28 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "text": "Ever felt the universe breathing at your fingertips?",
+        "duration": 4
+      },
+      {
+        "text": "What if the sky hides a secret that changes everything?",
+        "duration": 4
+      },
+      {
+        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
         "duration": 5
       },
       {
@@ -105,44 +126,23 @@
       }
     ]
   },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "If you swam 10,000 feet, you'd see this.",
-        "duration": 4
-      },
-      {
-        "text": "What lurks in the abyss, haunting all marine explorers?",
-        "duration": 4
-      },
-      {
-        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
   "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
+        "text": "You think you’ve seen all storms? Think again.",
         "duration": 4
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
+        "text": "What happens when lightning meets the aurora?",
         "duration": 4
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
+        "text": "Witness the sky bleed neon and thunder.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -8074,6 +8074,61 @@
       {
         "text": "If you want to master ApexFlow_1775927232464, subscribe now.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775912219611": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid spills like future secrets.",
+        "duration": 4
+      },
+      {
+        "text": "What hides in the data points of your ride?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets bottle color, turning dashboards into hyper art.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775925467479": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775925467479 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775932796477": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1775932796477 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
