@@ -92,58 +92,114 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
+        "text": "The universe just blew a secret.",
         "duration": 4
       },
       {
-        "text": "What if the sky hides a secret that changes everything?",
+        "text": "Why do galaxies look like they’re winking?",
         "duration": 4
       },
       {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
+        "text": "Because black holes paint each one as a moving light‑mirror.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Undead Anglers",
+        "name": "Vampire Squid",
+        "icon": "🦑"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Gelatinous Horrors",
+        "name": "Glass Squid",
+        "icon": "🧼"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Jaws of the Abyss",
+        "name": "Goblin Shark",
+        "icon": "🦈"
+      },
+      {
+        "title": "Deepsea Predators",
+        "name": "Yeti Crab",
+        "icon": "🦀"
+      },
+      {
+        "title": "Night Glow",
+        "name": "Lanternfish",
+        "icon": "🌟"
+      },
+      {
+        "title": "Turbulent Terror",
+        "name": "Sargassum Sea Monster",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Chill Sirens",
+        "name": "Boreal Jelly",
+        "icon": "🧊"
+      },
+      {
+        "title": "Monsoon Spirits",
+        "name": "Kuroshio Killer",
+        "icon": "🌊"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
-        "duration": 4
+        "title": "Aurora",
+        "name": "Southern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
-        "duration": 4
+        "title": "Storm",
+        "name": "Sandstorm Dunes",
+        "icon": "🌪️"
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
-        "duration": 4
+        "title": "Fog",
+        "name": "Sea Fog Ballet",
+        "icon": "☁️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Lightning",
+        "name": "Nerve Lightning",
+        "icon": "⚡"
+      },
+      {
+        "title": "Rainbow",
+        "name": "Crystalline Rainbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze Mirage",
+        "icon": "🔥"
+      },
+      {
+        "title": "Vortex",
+        "name": "Dust Devil Spiral",
+        "icon": "💨"
+      },
+      {
+        "title": "Water",
+        "name": "Hailstorm Fury",
+        "icon": "🌧️"
       }
     ]
   },
@@ -7977,6 +8033,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1775898741298": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid kills the eye in seconds.",
+        "duration": 4
+      },
+      {
+        "text": "What if your car's interior could pulse with data?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets map data flows into neon veins inside hypercars.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   }
