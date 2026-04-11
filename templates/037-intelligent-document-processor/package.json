@@ -27,7 +27,7 @@
     "recharts": "^2.10.0",
     "lucide-react": "^0.294.0",
     "zod": "^3.22.0",
-    "drizzle-orm": "^0.29.0",
+    "drizzle-orm": "^0.45.2",
     "postgres": "^3.4.0"
   },
   "devDependencies": {
