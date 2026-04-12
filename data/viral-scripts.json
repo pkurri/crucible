@@ -8174,5 +8174,52 @@
         "duration": 5
       }
     ]
+  },
+  "ApexFlow_1775961051768": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1775961051768 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Skyline Rifts",
+        "name": "Celestial Vault",
+        "icon": "🌌"
+      },
+      {
+        "title": "Quantum Glyphs",
+        "name": "Pulse Bridge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Temporal Nodes",
+        "name": "Echo Veil",
+        "icon": "⌛"
+      },
+      {
+        "title": "Ethereal Hues",
+        "name": "Starlight Prism",
+        "icon": "✨"
+      },
+      {
+        "title": "Dimensional Resonance",
+        "name": "Singularity Core",
+        "icon": "🌀"
+      },
+      {
+        "title": "Astral Echoes",
+        "name": "Nebula Shards",
+        "icon": "🌠"
+      },
+      {
+        "title": "Celestial Mechanics",
+        "name": "Gossamer Engine",
+        "icon": "🔧"
+      },
+      {
+        "title": "Infinite Loop",
+        "name": "Hyperion Spiral",
+        "icon": "🌐"
+      }
+    ]
   }
 }
