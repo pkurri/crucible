@@ -89,23 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+    "list": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
-        "duration": 4
+        "title": "Nebula",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "What if the sky hides a secret that changes everything?",
-        "duration": 4
+        "title": "Galaxy",
+        "name": "Andromeda",
+        "icon": "🌌"
       },
       {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
-        "duration": 4
+        "title": "Black Hole",
+        "name": "M87*, the Giant",
+        "icon": "⚫"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Supernova",
+        "name": "Tycho's Remnant",
+        "icon": "✨"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Kepler-452b",
+        "icon": "🪐"
+      },
+      {
+        "title": "Aurora",
+        "name": "Aurora Australis",
+        "icon": "🌠"
+      },
+      {
+        "title": "Quasar",
+        "name": "3C 273",
+        "icon": "🚀"
+      },
+      {
+        "title": "Stellar Cluster",
+        "name": "Pleiades",
+        "icon": "👯"
       }
     ]
   },
@@ -160,67 +186,63 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
-        "duration": 4
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What happens when lightning meets the aurora?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Propaganda Engine",
-        "name": "Manipulative Media Grid",
-        "icon": "📰"
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "title": "AI Surveillance",
-        "name": "MindRead 3000",
-        "icon": "👁️"
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "title": "Societal Control",
-        "name": "ClassSeam Network",
-        "icon": "🔗"
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
       },
       {
-        "title": "Resource Hoarding",
-        "name": "Commodity Cache Core",
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
         "icon": "💰"
       },
       {
-        "title": "Legal Manipulation",
-        "name": "LawForge Protocol",
-        "icon": "⚖️"
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
       },
       {
-        "title": "Rebellion Counter",
-        "name": "ZeroTrace Infiltrator",
-        "icon": "🚫"
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
       },
       {
-        "title": "Human Augment",
-        "name": "Synapse Switch",
+        "title": "AI Governance",
+        "name": "Sentinel AI",
         "icon": "🧠"
-      },
-      {
-        "title": "Environmental Catastrophe",
-        "name": "Haze Generator",
-        "icon": "🌫️"
       }
     ]
   },
@@ -8435,6 +8457,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776013724057": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776013724057 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776013724057.",
+    "list": [
+      {
+        "title": "Quantum Surge",
+        "name": "ApexFlow Quantum Accelerator",
+        "icon": "⚡"
+      },
+      {
+        "title": "Neural Sync",
+        "name": "ApexFlow Synapse Grid",
+        "icon": "🧠"
+      },
+      {
+        "title": "Entropy Shift",
+        "name": "ApexFlow Entropy Engine",
+        "icon": "🌀"
+      },
+      {
+        "title": "Data Prism",
+        "name": "ApexFlow Prism Analytics",
+        "icon": "🔮"
+      },
+      {
+        "title": "Speed Flux",
+        "name": "ApexFlow Velocity Core",
+        "icon": "🚀"
+      },
+      {
+        "title": "Signal Beam",
+        "name": "ApexFlow Radiant Signal",
+        "icon": "🌠"
+      },
+      {
+        "title": "Echo Vault",
+        "name": "ApexFlow Echo Cache",
+        "icon": "🗝️"
+      },
+      {
+        "title": "Pulse Core",
+        "name": "ApexFlow Pulse Processor",
+        "icon": "💓"
       }
     ]
   }
