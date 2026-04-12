@@ -92,75 +92,7 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
-        "duration": 4
-      },
-      {
-        "text": "What if the sky hides a secret that changes everything?",
-        "duration": 4
-      },
-      {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
-    "list": [
-      {
-        "title": "Undead Anglers",
-        "name": "Vampire Squid",
-        "icon": "🦑"
-      },
-      {
-        "title": "Gelatinous Horrors",
-        "name": "Glass Squid",
-        "icon": "🧼"
-      },
-      {
-        "title": "Jaws of the Abyss",
-        "name": "Goblin Shark",
-        "icon": "🦈"
-      },
-      {
-        "title": "Deepsea Predators",
-        "name": "Yeti Crab",
-        "icon": "🦀"
-      },
-      {
-        "title": "Night Glow",
-        "name": "Lanternfish",
-        "icon": "🌟"
-      },
-      {
-        "title": "Turbulent Terror",
-        "name": "Sargassum Sea Monster",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Chill Sirens",
-        "name": "Boreal Jelly",
-        "icon": "🧊"
-      },
-      {
-        "title": "Monsoon Spirits",
-        "name": "Kuroshio Killer",
-        "icon": "🌊"
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
         "duration": 5
       },
       {
@@ -173,50 +105,58 @@
       }
     ]
   },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "This video shatters the sky—watch the impossible.",
+        "duration": 4
+      },
+      {
+        "text": "Ever wonder why auroras outshine rainbows?",
+        "duration": 4
+      },
+      {
+        "text": "Because the ionosphere turns lightning into living light.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Propaganda Engine",
-        "name": "Manipulative Media Grid",
-        "icon": "📰"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "AI Surveillance",
-        "name": "MindRead 3000",
-        "icon": "👁️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Societal Control",
-        "name": "ClassSeam Network",
-        "icon": "🔗"
-      },
-      {
-        "title": "Resource Hoarding",
-        "name": "Commodity Cache Core",
-        "icon": "💰"
-      },
-      {
-        "title": "Legal Manipulation",
-        "name": "LawForge Protocol",
-        "icon": "⚖️"
-      },
-      {
-        "title": "Rebellion Counter",
-        "name": "ZeroTrace Infiltrator",
-        "icon": "🚫"
-      },
-      {
-        "title": "Human Augment",
-        "name": "Synapse Switch",
-        "icon": "🧠"
-      },
-      {
-        "title": "Environmental Catastrophe",
-        "name": "Haze Generator",
-        "icon": "🌫️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -8295,6 +8235,27 @@
       },
       {
         "text": "Because it maps rogue data points into a liquid dreamscape.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1775974351483": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Your brain just got rewired with neon plasma.",
+        "duration": 4
+      },
+      {
+        "text": "Why do hyper-car dashboards feel like deep-sea tunnels?",
+        "duration": 4
+      },
+      {
+        "text": "Data points morph into liquid neon, syncing with neural waves.",
         "duration": 4
       },
       {
