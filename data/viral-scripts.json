@@ -91,64 +91,94 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
     "list": [
       {
         "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "name": "Carina Nebula",
+        "icon": "🌌"
       },
       {
         "title": "Galaxy",
         "name": "Andromeda",
-        "icon": "🌌"
-      },
-      {
-        "title": "Black Hole",
-        "name": "M87*, the Giant",
-        "icon": "⚫"
-      },
-      {
-        "title": "Supernova",
-        "name": "Tycho's Remnant",
-        "icon": "✨"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-452b",
-        "icon": "🪐"
-      },
-      {
-        "title": "Aurora",
-        "name": "Aurora Australis",
         "icon": "🌠"
       },
       {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🚀"
+        "title": "Supernova",
+        "name": "SN 1987A",
+        "icon": "🔥"
       },
       {
-        "title": "Stellar Cluster",
-        "name": "Pleiades",
-        "icon": "👯"
+        "title": "Black Hole",
+        "name": "Sagittarius A*",
+        "icon": "⚫"
+      },
+      {
+        "title": "Comet",
+        "name": "Halley's Comet",
+        "icon": "☄️"
+      },
+      {
+        "title": "Asteroid Belt",
+        "name": "Asteroid Belt of Mars",
+        "icon": "🪨"
+      },
+      {
+        "title": "Pulsar",
+        "name": "Crab Pulsar",
+        "icon": "⚡"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Night Stalkers",
+        "name": "The Hollow-Glowing Angler",
+        "icon": "🌑"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Echidna Monsters",
+        "name": "The Blood-Red Cuttlefish",
+        "icon": "🦀"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Silence Bringers",
+        "name": "The Whispering Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Predator Lurkers",
+        "name": "The Phantom Manta",
+        "icon": "🦋"
+      },
+      {
+        "title": "Scorpion Deep",
+        "name": "The Black Sturgeon",
+        "icon": "🦈"
+      },
+      {
+        "title": "Molecule Terrors",
+        "name": "The Brown Necked Dragonfish",
+        "icon": "🐲"
+      },
+      {
+        "title": "Hallucinatory Dwellers",
+        "name": "The Glow-Eyed Dollfish",
+        "icon": "💀"
+      },
+      {
+        "title": "Lost Royalty",
+        "name": "The Abyssal Lobster King",
+        "icon": "👑"
       }
     ]
   },
@@ -156,19 +186,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
+        "text": "You think you’ve seen all storms? Think again.",
         "duration": 4
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
+        "text": "What happens when lightning meets the aurora?",
         "duration": 4
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
+        "text": "Witness the sky bleed neon and thunder.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
         "duration": 3
       }
     ]
@@ -8566,6 +8596,53 @@
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776052959816": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776052959816 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1776052959816, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Flowchart Design",
+        "name": "ApexVision Grid",
+        "icon": "🚀"
+      },
+      {
+        "title": "Data Integration",
+        "name": "ApexSync Engine",
+        "icon": "🔗"
+      },
+      {
+        "title": "Performance Tuning",
+        "name": "ApexAccel Benchmark",
+        "icon": "⚡"
+      },
+      {
+        "title": "User Interface",
+        "name": "ApexGlow Dashboard",
+        "icon": "🎨"
+      },
+      {
+        "title": "Automation",
+        "name": "ApexBot Scheduler",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "ApexGuard Firewall",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics",
+        "name": "ApexInsight AI",
+        "icon": "📊"
+      },
+      {
+        "title": "Collaboration",
+        "name": "ApexTeam Workspace",
+        "icon": "🤝"
       }
     ]
   }
