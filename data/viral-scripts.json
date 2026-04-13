@@ -89,49 +89,23 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Eternal Shimmer Nebula",
-        "icon": "🌌"
+        "text": "The universe just blew a secret.",
+        "duration": 4
       },
       {
-        "title": "Supernova",
-        "name": "Crimson Nova",
-        "icon": "🔥"
+        "text": "Why do galaxies look like they’re winking?",
+        "duration": 4
       },
       {
-        "title": "Black Hole",
-        "name": "Void Whisperer",
-        "icon": "🕳️"
+        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "duration": 4
       },
       {
-        "title": "Pulsar",
-        "name": "Celestial Pulse",
-        "icon": "⚡"
-      },
-      {
-        "title": "Comet",
-        "name": "Starlight Trail",
-        "icon": "☄️"
-      },
-      {
-        "title": "Galaxy Cluster",
-        "name": "Stellar Web",
-        "icon": "🪐"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Alien Oasis",
-        "icon": "🌍"
-      },
-      {
-        "title": "Spacecraft",
-        "name": "Quantum Voyager",
-        "icon": "🛰️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   },
@@ -159,47 +133,47 @@
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
     "list": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
+        "title": "Aurora",
+        "name": "Aurora Borealis",
         "icon": "🌌"
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
-      },
-      {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
-      },
-      {
         "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
+        "name": "Lightning Storm",
+        "icon": "⚡"
       },
       {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
+        "title": "Lensing",
+        "name": "Fata Morgana",
+        "icon": "🌀"
       },
       {
-        "title": "Solar",
-        "name": "Sundogs",
+        "title": "Cloud",
+        "name": "Glow Cloud",
+        "icon": "☁️"
+      },
+      {
+        "title": "Sun",
+        "name": "Sundog",
         "icon": "🌞"
       },
       {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
+        "title": "Fire",
+        "name": "Meteoritic Fireball",
+        "icon": "🔥"
       },
       {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
+        "title": "Fog",
+        "name": "St. Elmo's Fire",
+        "icon": "✨"
+      },
+      {
+        "title": "Ice",
+        "name": "Polar Mesospheric Clouds",
+        "icon": "❄️"
       }
     ]
   },
@@ -8716,6 +8690,53 @@
         "title": "Community",
         "name": "Horizon Guild",
         "icon": "👥"
+      }
+    ]
+  },
+  "ApexFlow_1776062030265": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776062030265 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Invisible Streams",
+        "name": "Nebula Lever",
+        "icon": "🌌"
+      },
+      {
+        "title": "Dynamic Nodes",
+        "name": "Photon Loop",
+        "icon": "🌠"
+      },
+      {
+        "title": "Quantum Bypass",
+        "name": "Echo Gate",
+        "icon": "🔮"
+      },
+      {
+        "title": "Void Mechanics",
+        "name": "Void Siphon",
+        "icon": "✨"
+      },
+      {
+        "title": "Celestial Anchors",
+        "name": "Stellar Surge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Ethereal Flow",
+        "name": "Aurora Sync",
+        "icon": "🌊"
+      },
+      {
+        "title": "Chrono Tunnels",
+        "name": "Chrono Tunnel",
+        "icon": "💫"
+      },
+      {
+        "title": "Spectral Boost",
+        "name": "Aurora Blaze",
+        "icon": "🔥"
       }
     ]
   }
