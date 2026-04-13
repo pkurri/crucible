@@ -110,40 +110,96 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "If you swam 10,000 feet, you'd see this.",
-        "duration": 4
+        "title": "Bioluminescent Horrors",
+        "name": "Giant Lantern Shark",
+        "icon": "🔦"
       },
       {
-        "text": "What lurks in the abyss, haunting all marine explorers?",
-        "duration": 4
+        "title": "Electric Predators",
+        "name": "Electric Eel Leviathan",
+        "icon": "⚡"
       },
       {
-        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
-        "duration": 4
+        "title": "Vampiric Hunters",
+        "name": "Cuvierian Oarfish",
+        "icon": "🦈"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Phantom Glowworms",
+        "name": "Southern Lightfish",
+        "icon": "🌌"
+      },
+      {
+        "title": "Methane Bubble Cannons",
+        "name": "Adelie Abyssal Crab",
+        "icon": "🐚"
+      },
+      {
+        "title": "Spiky Swallows",
+        "name": "Frilled Shark",
+        "icon": "🦙"
+      },
+      {
+        "title": "Deadly Ink Dancers",
+        "name": "Black Swallower",
+        "icon": "🖤"
+      },
+      {
+        "title": "Worm-like Killers",
+        "name": "Crown-of-Thorns Starfish",
+        "icon": "⭐"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "🏔️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Mirage",
+        "name": "Fata Morgana",
+        "icon": "🌈"
+      },
+      {
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze",
+        "icon": "🔥"
+      },
+      {
+        "title": "Solar",
+        "name": "Sundogs",
+        "icon": "🌞"
+      },
+      {
+        "title": "Atmosphere",
+        "name": "Belt of Venus",
+        "icon": "💫"
+      },
+      {
+        "title": "Night",
+        "name": "Noctilucent Clouds",
+        "icon": "🌙"
       }
     ]
   },
@@ -8694,6 +8750,53 @@
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776074150785": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776074150785 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "Velocity Boost Module",
+        "icon": "⚡"
+      },
+      {
+        "title": "Visualization",
+        "name": "Quantum Graph Layer",
+        "icon": "⛓️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Insight Overlay",
+        "icon": "📊"
+      },
+      {
+        "title": "UI",
+        "name": "Adaptive Dashboard",
+        "icon": "🖥️"
+      },
+      {
+        "title": "Integration",
+        "name": "Cross-Platform Sync",
+        "icon": "🔗"
+      },
+      {
+        "title": "Security",
+        "name": "Encrypted Core",
+        "icon": "🔒"
+      },
+      {
+        "title": "Layout",
+        "name": "Modular Sandbox",
+        "icon": "🧩"
+      },
+      {
+        "title": "Automation",
+        "name": "Auto-Scale Engine",
+        "icon": "📈"
       }
     ]
   }
