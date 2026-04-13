@@ -131,96 +131,36 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Aurora",
-        "name": "Aurora Borealis",
-        "icon": "🌌"
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Lightning",
-        "name": "Lightning Storm",
-        "icon": "⚡"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Lensing",
-        "name": "Fata Morgana",
-        "icon": "🌀"
-      },
-      {
-        "title": "Cloud",
-        "name": "Glow Cloud",
-        "icon": "☁️"
-      },
-      {
-        "title": "Sun",
-        "name": "Sundog",
-        "icon": "🌞"
-      },
-      {
-        "title": "Fire",
-        "name": "Meteoritic Fireball",
-        "icon": "🔥"
-      },
-      {
-        "title": "Fog",
-        "name": "St. Elmo's Fire",
-        "icon": "✨"
-      },
-      {
-        "title": "Ice",
-        "name": "Polar Mesospheric Clouds",
-        "icon": "❄️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Military AI",
-        "name": "Nano-Drone Recon",
-        "icon": "🎯"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Urban Decay",
-        "name": "Grenfell Grid",
-        "icon": "🏙️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Climate Collapse",
-        "name": "Thermal Decontaminator",
-        "icon": "♻️"
-      },
-      {
-        "title": "Social Control",
-        "name": "Surveillance Matrix",
-        "icon": "🔍"
-      },
-      {
-        "title": "Resource Scarcity",
-        "name": "BlackMarket Broker",
-        "icon": "💰"
-      },
-      {
-        "title": "Energy Crisis",
-        "name": "Fusion Cube",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Biohazard",
-        "name": "Pandemic SimX",
-        "icon": "☣️"
-      },
-      {
-        "title": "AI Governance",
-        "name": "Sentinel AI",
-        "icon": "🧠"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -245,20 +185,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "What if gravity could be turned off?",
-        "duration": 4
+        "text": "The secrets of ImpossibleArchitectureBlueprints are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Can these skyward towers actually float?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Tensegrity, with invisible forces keeps them aloft.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -8737,6 +8673,27 @@
         "title": "Spectral Boost",
         "name": "Aurora Blaze",
         "icon": "🔥"
+      }
+    ]
+  },
+  "ApexFlow_1776067122630": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Think neon liquids are just glitz—think again.",
+        "duration": 4
+      },
+      {
+        "text": "What if the flow reveals hidden data points?",
+        "duration": 4
+      },
+      {
+        "text": "Neural net decoded—hypercar interiors pulse in neon.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us",
+        "duration": 3
       }
     ]
   }
