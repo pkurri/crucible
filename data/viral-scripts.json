@@ -159,47 +159,47 @@
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Aurora",
+        "title": "Auroras",
         "name": "Aurora Borealis",
         "icon": "🌌"
       },
       {
-        "title": "Lightning",
-        "name": "Lightning Storm",
-        "icon": "⚡"
+        "title": "Sunset",
+        "name": "Scattering at Sunset",
+        "icon": "🌅"
       },
       {
-        "title": "Lensing",
-        "name": "Fata Morgana",
-        "icon": "🌀"
+        "title": "Storms",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
       },
       {
-        "title": "Cloud",
-        "name": "Glow Cloud",
-        "icon": "☁️"
-      },
-      {
-        "title": "Sun",
-        "name": "Sundog",
-        "icon": "🌞"
-      },
-      {
-        "title": "Fire",
-        "name": "Meteoritic Fireball",
-        "icon": "🔥"
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "💨"
       },
       {
         "title": "Fog",
-        "name": "St. Elmo's Fire",
-        "icon": "✨"
+        "name": "Mist Crystals",
+        "icon": "🌫️"
       },
       {
-        "title": "Ice",
-        "name": "Polar Mesospheric Clouds",
+        "title": "Snow",
+        "name": "Glimmer Snow Flakes",
         "icon": "❄️"
+      },
+      {
+        "title": "Wind",
+        "name": "Cyclone Eye",
+        "icon": "🌀"
+      },
+      {
+        "title": "Fire",
+        "name": "Volcanic Smoke",
+        "icon": "🌋"
       }
     ]
   },
@@ -8908,6 +8908,27 @@
         "title": "Future Updates",
         "name": "Skyfall Expansion",
         "icon": "✈️"
+      }
+    ]
+  },
+  "ApexFlow_1776099884661": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid bends reality, and I doubt you're ready.",
+        "duration": 4
+      },
+      {
+        "text": "Why do data points dance like neural ghosts?",
+        "duration": 4
+      },
+      {
+        "text": "They flow through hyper‑car interiors—powered by hidden neural nets.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   }
