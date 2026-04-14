@@ -92,19 +92,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The universe just blew a secret.",
+        "text": "Ever felt the universe breathing at your fingertips?",
         "duration": 4
       },
       {
-        "text": "Why do galaxies look like they’re winking?",
+        "text": "What if the sky hides a secret that changes everything?",
         "duration": 4
       },
       {
-        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
@@ -127,74 +127,190 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Sunset",
+        "name": "Scattering at Sunset",
+        "icon": "🌅"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Storms",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "💨"
+      },
+      {
+        "title": "Fog",
+        "name": "Mist Crystals",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Snow",
+        "name": "Glimmer Snow Flakes",
+        "icon": "❄️"
+      },
+      {
+        "title": "Wind",
+        "name": "Cyclone Eye",
+        "icon": "🌀"
+      },
+      {
+        "title": "Fire",
+        "name": "Volcanic Smoke",
+        "icon": "🌋"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Propaganda Engine",
+        "name": "Manipulative Media Grid",
+        "icon": "📰"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "AI Surveillance",
+        "name": "MindRead 3000",
+        "icon": "👁️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Societal Control",
+        "name": "ClassSeam Network",
+        "icon": "🔗"
+      },
+      {
+        "title": "Resource Hoarding",
+        "name": "Commodity Cache Core",
+        "icon": "💰"
+      },
+      {
+        "title": "Legal Manipulation",
+        "name": "LawForge Protocol",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Rebellion Counter",
+        "name": "ZeroTrace Infiltrator",
+        "icon": "🚫"
+      },
+      {
+        "title": "Human Augment",
+        "name": "Synapse Switch",
+        "icon": "🧠"
+      },
+      {
+        "title": "Environmental Catastrophe",
+        "name": "Haze Generator",
+        "icon": "🌫️"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
+    "list": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "title": "Photosynthetic Symbiosis",
+        "name": "Sun‑Kissed Symbiosis",
+        "icon": "🌞"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Adaptive Regeneration",
+        "name": "Regeneration Pulse",
+        "icon": "♻️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Cryogenic Dormancy",
+        "name": "Ice‑Bound Rebirth",
+        "icon": "❄️"
+      },
+      {
+        "title": "Quantum Sensory",
+        "name": "Quantum Sight",
+        "icon": "🌌"
+      },
+      {
+        "title": "Nano‑Genetic Fusion",
+        "name": "Nanobot Genome Merge",
+        "icon": "🤖"
+      },
+      {
+        "title": "Fractal Neural Patterns",
+        "name": "Fractal Synapse",
+        "icon": "🧬"
+      },
+      {
+        "title": "Ultra‑Resilient Exoskeleton",
+        "name": "Titanium Shell",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Self‑Transmutation",
+        "name": "Elemental Shift",
+        "icon": "🔄"
       }
     ]
   },
   "ImpossibleArchitectureBlueprints": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ImpossibleArchitectureBlueprints secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "This building defies gravity. See the twist.",
-        "duration": 4
+        "title": "Zero-Gravity Towers",
+        "name": "Celestial Spire",
+        "icon": "🌠"
       },
       {
-        "text": "Can a skyscraper float on a single pillar?",
-        "duration": 4
+        "title": "Time-Loop Bridges",
+        "name": "Recycling Arch",
+        "icon": "⏳"
       },
       {
-        "text": "It uses tensegrity lattice to keep it steady.",
-        "duration": 4
+        "title": "Aquatic Cathedrals",
+        "name": "Oceanic Sanctuary",
+        "icon": "🌊"
       },
       {
-        "text": "99% miss the pattern. Be the 1% who sees it. Join us.",
-        "duration": 3
+        "title": "Lava-Fueled Structures",
+        "name": "Molten Dome",
+        "icon": "🔥"
+      },
+      {
+        "title": "Floating Cities",
+        "name": "Skyhaven",
+        "icon": "☁️"
+      },
+      {
+        "title": "Underground Labyrinths",
+        "name": "Cryptic Catacombs",
+        "icon": "💀"
+      },
+      {
+        "title": "Solar Spires",
+        "name": "Sunbeam Palace",
+        "icon": "☀️"
+      },
+      {
+        "title": "Bioluminescent Habitats",
+        "name": "Glow Habitat",
+        "icon": "🦋"
       }
     ]
   },
@@ -9158,6 +9274,23 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776158319363": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776158319363 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
