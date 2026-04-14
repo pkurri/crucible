@@ -92,7 +92,28 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "text": "The universe just blew a secret.",
+        "duration": 4
+      },
+      {
+        "text": "Why do galaxies look like they’re winking?",
+        "duration": 4
+      },
+      {
+        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
         "duration": 5
       },
       {
@@ -105,165 +126,114 @@
       }
     ]
   },
-  "DeepSeaCreatureDiscoveries": {
+  "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Bioluminescent Horrors",
-        "name": "Giant Lantern Shark",
-        "icon": "🔦"
-      },
-      {
-        "title": "Electric Predators",
-        "name": "Electric Eel Leviathan",
-        "icon": "⚡"
-      },
-      {
-        "title": "Vampiric Hunters",
-        "name": "Cuvierian Oarfish",
-        "icon": "🦈"
-      },
-      {
-        "title": "Phantom Glowworms",
-        "name": "Southern Lightfish",
+        "title": "Aurora",
+        "name": "Southern Lights",
         "icon": "🌌"
       },
       {
-        "title": "Methane Bubble Cannons",
-        "name": "Adelie Abyssal Crab",
-        "icon": "🐚"
+        "title": "Storm",
+        "name": "Sandstorm Dunes",
+        "icon": "🌪️"
       },
       {
-        "title": "Spiky Swallows",
-        "name": "Frilled Shark",
-        "icon": "🦙"
+        "title": "Fog",
+        "name": "Sea Fog Ballet",
+        "icon": "☁️"
       },
       {
-        "title": "Deadly Ink Dancers",
-        "name": "Black Swallower",
-        "icon": "🖤"
+        "title": "Lightning",
+        "name": "Nerve Lightning",
+        "icon": "⚡"
       },
       {
-        "title": "Worm-like Killers",
-        "name": "Crown-of-Thorns Starfish",
-        "icon": "⭐"
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "You think you’ve seen all storms? Think again.",
-        "duration": 4
+        "title": "Rainbow",
+        "name": "Crystalline Rainbow",
+        "icon": "🌈"
       },
       {
-        "text": "What happens when lightning meets the aurora?",
-        "duration": 4
+        "title": "Heat",
+        "name": "Heat Haze Mirage",
+        "icon": "🔥"
       },
       {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
+        "title": "Vortex",
+        "name": "Dust Devil Spiral",
+        "icon": "💨"
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Water",
+        "name": "Hailstorm Fury",
+        "icon": "🌧️"
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
     "list": [
       {
-        "title": "Surveillance",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
+        "title": "Neural Surveillance",
+        "name": "MindLock",
+        "icon": "🧠"
       },
       {
-        "title": "AI Rule",
-        "name": "Neural Net Tyrant",
+        "title": "Synthetic Epidemic",
+        "name": "VirusX",
+        "icon": "🦠"
+      },
+      {
+        "title": "Climate Warfare",
+        "name": "SolarFury",
+        "icon": "☀️"
+      },
+      {
+        "title": "Resource Hoarding",
+        "name": "GaiaBank",
+        "icon": "💰"
+      },
+      {
+        "title": "Autonomous Carnage",
+        "name": "SteelSiren",
         "icon": "🤖"
       },
       {
-        "title": "Climate Collapse",
-        "name": "Glacial Rift",
-        "icon": "❄️"
+        "title": "Data Blackouts",
+        "name": "ShadowNet",
+        "icon": "🕶️"
       },
       {
-        "title": "Resource Scarcity",
-        "name": "Zero Grain Protocol",
-        "icon": "🌾"
+        "title": "Memory Manipulation",
+        "name": "EchoFog",
+        "icon": "🌫️"
       },
       {
-        "title": "Social Stratification",
-        "name": "Caste Synthesizer",
-        "icon": "🎭"
-      },
-      {
-        "title": "Bioengineering",
-        "name": "Genetic Purge Engine",
-        "icon": "🧬"
-      },
-      {
-        "title": "Cybercrime",
-        "name": "Darknet Blackout",
-        "icon": "🕸️"
-      },
-      {
-        "title": "Totalitarian State",
-        "name": "Iron Dome Ordinance",
-        "icon": "🛡️"
+        "title": "Supreme Dictatorship",
+        "name": "LordVoid",
+        "icon": "💀"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Genetic",
-        "name": "Allele Amplification",
-        "icon": "🧬"
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Neural",
-        "name": "Synaptic Spectrums",
-        "icon": "🧠"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Ecological",
-        "name": "Symbiotic Shift",
-        "icon": "🦎"
-      },
-      {
-        "title": "Physiological",
-        "name": "Metabolic Morph",
-        "icon": "🔥"
-      },
-      {
-        "title": "Technological",
-        "name": "Quantum Interface",
-        "icon": "🛠️"
-      },
-      {
-        "title": "Psychological",
-        "name": "Cognitive Resonance",
-        "icon": "💭"
-      },
-      {
-        "title": "Sociocultural",
-        "name": "Collective Consciousness",
-        "icon": "🌐"
-      },
-      {
-        "title": "Quantum",
-        "name": "Wavefunction Expansion",
-        "icon": "⚛️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
