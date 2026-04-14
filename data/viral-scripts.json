@@ -112,94 +112,94 @@
   "DeepSeaCreatureDiscoveries": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
     "list": [
       {
-        "title": "Night Stalkers",
-        "name": "The Hollow-Glowing Angler",
-        "icon": "🌑"
-      },
-      {
-        "title": "Echidna Monsters",
-        "name": "The Blood-Red Cuttlefish",
-        "icon": "🦀"
-      },
-      {
-        "title": "Silence Bringers",
-        "name": "The Whispering Squid",
+        "title": "Undead Anglers",
+        "name": "Vampire Squid",
         "icon": "🦑"
       },
       {
-        "title": "Predator Lurkers",
-        "name": "The Phantom Manta",
-        "icon": "🦋"
+        "title": "Gelatinous Horrors",
+        "name": "Glass Squid",
+        "icon": "🧼"
       },
       {
-        "title": "Scorpion Deep",
-        "name": "The Black Sturgeon",
+        "title": "Jaws of the Abyss",
+        "name": "Goblin Shark",
         "icon": "🦈"
       },
       {
-        "title": "Molecule Terrors",
-        "name": "The Brown Necked Dragonfish",
-        "icon": "🐲"
+        "title": "Deepsea Predators",
+        "name": "Yeti Crab",
+        "icon": "🦀"
       },
       {
-        "title": "Hallucinatory Dwellers",
-        "name": "The Glow-Eyed Dollfish",
-        "icon": "💀"
+        "title": "Night Glow",
+        "name": "Lanternfish",
+        "icon": "🌟"
       },
       {
-        "title": "Lost Royalty",
-        "name": "The Abyssal Lobster King",
-        "icon": "👑"
+        "title": "Turbulent Terror",
+        "name": "Sargassum Sea Monster",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Chill Sirens",
+        "name": "Boreal Jelly",
+        "icon": "🧊"
+      },
+      {
+        "title": "Monsoon Spirits",
+        "name": "Kuroshio Killer",
+        "icon": "🌊"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Aurora",
+        "title": "Auroras",
         "name": "Aurora Borealis",
         "icon": "🌌"
       },
       {
-        "title": "Lightning",
-        "name": "Lightning Storm",
-        "icon": "⚡"
+        "title": "Sunset",
+        "name": "Scattering at Sunset",
+        "icon": "🌅"
       },
       {
-        "title": "Lensing",
-        "name": "Fata Morgana",
-        "icon": "🌀"
+        "title": "Storms",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
       },
       {
-        "title": "Cloud",
-        "name": "Glow Cloud",
-        "icon": "☁️"
-      },
-      {
-        "title": "Sun",
-        "name": "Sundog",
-        "icon": "🌞"
-      },
-      {
-        "title": "Fire",
-        "name": "Meteoritic Fireball",
-        "icon": "🔥"
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "💨"
       },
       {
         "title": "Fog",
-        "name": "St. Elmo's Fire",
-        "icon": "✨"
+        "name": "Mist Crystals",
+        "icon": "🌫️"
       },
       {
-        "title": "Ice",
-        "name": "Polar Mesospheric Clouds",
+        "title": "Snow",
+        "name": "Glimmer Snow Flakes",
         "icon": "❄️"
+      },
+      {
+        "title": "Wind",
+        "name": "Cyclone Eye",
+        "icon": "🌀"
+      },
+      {
+        "title": "Fire",
+        "name": "Volcanic Smoke",
+        "icon": "🌋"
       }
     ]
   },
@@ -9150,6 +9150,53 @@
         "title": "Eternal Forge",
         "name": "Dreamsmith's Anvil",
         "icon": "🔨"
+      }
+    ]
+  },
+  "ApexFlow_1776147579919": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776147579919 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Core Mechanics",
+        "name": "Apex Flow Pathway",
+        "icon": "🌀"
+      },
+      {
+        "title": "Speed Boosts",
+        "name": "Turbo Surge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Stealth Passages",
+        "name": "Phantom Corridor",
+        "icon": "👻"
+      },
+      {
+        "title": "Tactical Nodes",
+        "name": "Omega Pivot",
+        "icon": "🔄"
+      },
+      {
+        "title": "Power‑ups",
+        "name": "Infinity Core",
+        "icon": "🌌"
+      },
+      {
+        "title": "Environmental Hazards",
+        "name": "Volcanic Rift",
+        "icon": "🔥"
+      },
+      {
+        "title": "Legendary Gear",
+        "name": "Dragon's Helm",
+        "icon": "🐉"
+      },
+      {
+        "title": "Multiplayer Modes",
+        "name": "Apex Alliance",
+        "icon": "🤝"
       }
     ]
   }
