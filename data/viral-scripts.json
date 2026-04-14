@@ -106,19 +106,49 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Bioluminescent Horrors",
+        "name": "Giant Lantern Shark",
+        "icon": "🔦"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Electric Predators",
+        "name": "Electric Eel Leviathan",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Vampiric Hunters",
+        "name": "Cuvierian Oarfish",
+        "icon": "🦈"
+      },
+      {
+        "title": "Phantom Glowworms",
+        "name": "Southern Lightfish",
+        "icon": "🌌"
+      },
+      {
+        "title": "Methane Bubble Cannons",
+        "name": "Adelie Abyssal Crab",
+        "icon": "🐚"
+      },
+      {
+        "title": "Spiky Swallows",
+        "name": "Frilled Shark",
+        "icon": "🦙"
+      },
+      {
+        "title": "Deadly Ink Dancers",
+        "name": "Black Swallower",
+        "icon": "🖤"
+      },
+      {
+        "title": "Worm-like Killers",
+        "name": "Crown-of-Thorns Starfish",
+        "icon": "⭐"
       }
     ]
   },
@@ -126,63 +156,67 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "text": "You think you’ve seen all storms? Think again.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What happens when lightning meets the aurora?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Witness the sky bleed neon and thunder.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Neural Surveillance",
-        "name": "MindLock",
-        "icon": "🧠"
+        "title": "Surveillance",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "title": "Synthetic Epidemic",
-        "name": "VirusX",
-        "icon": "🦠"
-      },
-      {
-        "title": "Climate Warfare",
-        "name": "SolarFury",
-        "icon": "☀️"
-      },
-      {
-        "title": "Resource Hoarding",
-        "name": "GaiaBank",
-        "icon": "💰"
-      },
-      {
-        "title": "Autonomous Carnage",
-        "name": "SteelSiren",
+        "title": "AI Rule",
+        "name": "Neural Net Tyrant",
         "icon": "🤖"
       },
       {
-        "title": "Data Blackouts",
-        "name": "ShadowNet",
-        "icon": "🕶️"
+        "title": "Climate Collapse",
+        "name": "Glacial Rift",
+        "icon": "❄️"
       },
       {
-        "title": "Memory Manipulation",
-        "name": "EchoFog",
-        "icon": "🌫️"
+        "title": "Resource Scarcity",
+        "name": "Zero Grain Protocol",
+        "icon": "🌾"
       },
       {
-        "title": "Supreme Dictatorship",
-        "name": "LordVoid",
-        "icon": "💀"
+        "title": "Social Stratification",
+        "name": "Caste Synthesizer",
+        "icon": "🎭"
+      },
+      {
+        "title": "Bioengineering",
+        "name": "Genetic Purge Engine",
+        "icon": "🧬"
+      },
+      {
+        "title": "Cybercrime",
+        "name": "Darknet Blackout",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Totalitarian State",
+        "name": "Iron Dome Ordinance",
+        "icon": "🛡️"
       }
     ]
   },
@@ -9307,6 +9341,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1776176491578 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776186459413": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776186459413 are finally revealed.",
         "duration": 5
       },
       {
