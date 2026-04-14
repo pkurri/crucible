@@ -89,49 +89,23 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Carina Nebula",
-        "icon": "🌌"
+        "text": "Ever felt the universe breathing at your fingertips?",
+        "duration": 4
       },
       {
-        "title": "Galaxy",
-        "name": "Andromeda",
-        "icon": "🌠"
+        "text": "What if the sky hides a secret that changes everything?",
+        "duration": 4
       },
       {
-        "title": "Supernova",
-        "name": "SN 1987A",
-        "icon": "🔥"
+        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
+        "duration": 4
       },
       {
-        "title": "Black Hole",
-        "name": "Sagittarius A*",
-        "icon": "⚫"
-      },
-      {
-        "title": "Comet",
-        "name": "Halley's Comet",
-        "icon": "☄️"
-      },
-      {
-        "title": "Asteroid Belt",
-        "name": "Asteroid Belt of Mars",
-        "icon": "🪨"
-      },
-      {
-        "title": "Pulsar",
-        "name": "Crab Pulsar",
-        "icon": "⚡"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "TRAPPIST-1",
-        "icon": "🌍"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -139,16 +113,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "text": "If you swam 10,000 feet, you'd see this.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What lurks in the abyss, haunting all marine explorers?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -156,114 +134,62 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
+        "text": "This video shatters the sky—watch the impossible.",
         "duration": 4
       },
       {
-        "text": "What happens when lightning meets the aurora?",
+        "text": "Ever wonder why auroras outshine rainbows?",
         "duration": 4
       },
       {
-        "text": "Witness the sky bleed neon and thunder.",
+        "text": "Because the ionosphere turns lightning into living light.",
         "duration": 4
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Surveillance",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
+        "text": "What if your city turns into a simulation apocalypse?",
+        "duration": 4
       },
       {
-        "title": "AI Rule",
-        "name": "Neural Net Tyrant",
-        "icon": "🤖"
+        "text": "Will your future be trapped inside a tech nightmare?",
+        "duration": 4
       },
       {
-        "title": "Climate Collapse",
-        "name": "Glacial Rift",
-        "icon": "❄️"
+        "text": "Discover the simulation glitch that could save humanity.",
+        "duration": 4
       },
       {
-        "title": "Resource Scarcity",
-        "name": "Zero Grain Protocol",
-        "icon": "🌾"
-      },
-      {
-        "title": "Social Stratification",
-        "name": "Caste Synthesizer",
-        "icon": "🎭"
-      },
-      {
-        "title": "Bioengineering",
-        "name": "Genetic Purge Engine",
-        "icon": "🧬"
-      },
-      {
-        "title": "Cybercrime",
-        "name": "Darknet Blackout",
-        "icon": "🕸️"
-      },
-      {
-        "title": "Totalitarian State",
-        "name": "Iron Dome Ordinance",
-        "icon": "🛡️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Morphology",
-        "name": "Chameleon Skin 2.0",
-        "icon": "🐍"
+        "text": "Ever seen a creature that could laugh at a volcano?",
+        "duration": 4
       },
       {
-        "title": "Genetic",
-        "name": "CRISPR-Infused Polyploidy",
-        "icon": "🧬"
+        "text": "What if evolution gave us wings made of fire?",
+        "duration": 4
       },
       {
-        "title": "Neurology",
-        "name": "Synaptic Hyperloop",
-        "icon": "🧠"
+        "text": "Meet the Lava Hummingbird, soaring in fire.",
+        "duration": 4
       },
       {
-        "title": "Metabolic",
-        "name": "Nanolipid Osmosis",
-        "icon": "🧪"
-      },
-      {
-        "title": "Sensory",
-        "name": "Quantum Echolocation",
-        "icon": "📡"
-      },
-      {
-        "title": "Physiology",
-        "name": "Self-Healing Exoskeleton",
-        "icon": "🛡️"
-      },
-      {
-        "title": "Immune",
-        "name": "Adaptive Membrane Fermentation",
-        "icon": "🦠"
-      },
-      {
-        "title": "Energetic",
-        "name": "Zero-Point Energy Harvesting",
-        "icon": "⚡"
+        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
+        "duration": 3
       }
     ]
   },
@@ -9040,6 +8966,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776132579050": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid screams future—can you feel it?",
+        "duration": 4
+      },
+      {
+        "text": "Ever wonder why data points ignite engines?",
+        "duration": 4
+      },
+      {
+        "text": "Neon streams power hyper‑cars; neural nets control velocity.",
+        "duration": 4
+      },
+      {
+        "text": "Algo hides truth. Follow ApexFlow_1776132579050.",
+        "duration": 3
       }
     ]
   }
