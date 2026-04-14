@@ -89,74 +89,190 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The universe just blew a secret.",
-        "duration": 4
+        "title": "Nebula",
+        "name": "Rosette Nebula",
+        "icon": "🌹"
       },
       {
-        "text": "Why do galaxies look like they’re winking?",
-        "duration": 4
+        "title": "Nebula",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "Because black holes paint each one as a moving light‑mirror.",
-        "duration": 4
+        "title": "Galaxy",
+        "name": "Sombrero Galaxy",
+        "icon": "🎩"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 3
+        "title": "Galaxy",
+        "name": "Tadpole Galaxy",
+        "icon": "🐸"
+      },
+      {
+        "title": "Quasar",
+        "name": "3C 273",
+        "icon": "🔭"
+      },
+      {
+        "title": "Exoplanet",
+        "name": "Kepler-438b",
+        "icon": "🌍"
+      },
+      {
+        "title": "Comet",
+        "name": "Hale-Bopp",
+        "icon": "☄️"
+      },
+      {
+        "title": "Cosmic Microwave Background",
+        "name": "CMB Map",
+        "icon": "🛰️"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Bioluminescent Horrors",
+        "name": "Giant Lantern Shark",
+        "icon": "🔦"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Electric Predators",
+        "name": "Electric Eel Leviathan",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Vampiric Hunters",
+        "name": "Cuvierian Oarfish",
+        "icon": "🦈"
+      },
+      {
+        "title": "Phantom Glowworms",
+        "name": "Southern Lightfish",
+        "icon": "🌌"
+      },
+      {
+        "title": "Methane Bubble Cannons",
+        "name": "Adelie Abyssal Crab",
+        "icon": "🐚"
+      },
+      {
+        "title": "Spiky Swallows",
+        "name": "Frilled Shark",
+        "icon": "🦙"
+      },
+      {
+        "title": "Deadly Ink Dancers",
+        "name": "Black Swallower",
+        "icon": "🖤"
+      },
+      {
+        "title": "Worm-like Killers",
+        "name": "Crown-of-Thorns Starfish",
+        "icon": "⭐"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Aurora",
+        "name": "Aurora Borealis",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Lightning",
+        "name": "Lightning Storm",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Lensing",
+        "name": "Fata Morgana",
+        "icon": "🌀"
+      },
+      {
+        "title": "Cloud",
+        "name": "Glow Cloud",
+        "icon": "☁️"
+      },
+      {
+        "title": "Sun",
+        "name": "Sundog",
+        "icon": "🌞"
+      },
+      {
+        "title": "Fire",
+        "name": "Meteoritic Fireball",
+        "icon": "🔥"
+      },
+      {
+        "title": "Fog",
+        "name": "St. Elmo's Fire",
+        "icon": "✨"
+      },
+      {
+        "title": "Ice",
+        "name": "Polar Mesospheric Clouds",
+        "icon": "❄️"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
+      },
+      {
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -9319,6 +9435,53 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776200114105": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776200114105 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776200114105.",
+    "list": [
+      {
+        "title": "AI",
+        "name": "Neural Synapse Forge",
+        "icon": "🤖"
+      },
+      {
+        "title": "Hardware",
+        "name": "Quantum Apex Driver",
+        "icon": "⚡"
+      },
+      {
+        "title": "Data",
+        "name": "Celestial Data Prism",
+        "icon": "🔭"
+      },
+      {
+        "title": "Energy",
+        "name": "Stellar Fusion Collector",
+        "icon": "☄️"
+      },
+      {
+        "title": "Environment",
+        "name": "Bio-Quantum Biosphere",
+        "icon": "🌱"
+      },
+      {
+        "title": "Transportation",
+        "name": "Chrono-Flux Drive",
+        "icon": "🚀"
+      },
+      {
+        "title": "Healthcare",
+        "name": "Aetheric Healing Matrix",
+        "icon": "🩺"
+      },
+      {
+        "title": "Entertainment",
+        "name": "Umbral Reality Engine",
+        "icon": "🎬"
       }
     ]
   }
