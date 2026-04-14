@@ -89,143 +89,117 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebula",
-        "name": "Rosette Nebula",
-        "icon": "🌹"
+        "text": "The universe just blew a secret.",
+        "duration": 4
       },
       {
-        "title": "Nebula",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "Why do galaxies look like they’re winking?",
+        "duration": 4
       },
       {
-        "title": "Galaxy",
-        "name": "Sombrero Galaxy",
-        "icon": "🎩"
+        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "duration": 4
       },
       {
-        "title": "Galaxy",
-        "name": "Tadpole Galaxy",
-        "icon": "🐸"
-      },
-      {
-        "title": "Quasar",
-        "name": "3C 273",
-        "icon": "🔭"
-      },
-      {
-        "title": "Exoplanet",
-        "name": "Kepler-438b",
-        "icon": "🌍"
-      },
-      {
-        "title": "Comet",
-        "name": "Hale-Bopp",
-        "icon": "☄️"
-      },
-      {
-        "title": "Cosmic Microwave Background",
-        "name": "CMB Map",
-        "icon": "🛰️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Undead Anglers",
-        "name": "Vampire Squid",
-        "icon": "🦑"
+        "title": "Night Stalkers",
+        "name": "The Hollow-Glowing Angler",
+        "icon": "🌑"
       },
       {
-        "title": "Gelatinous Horrors",
-        "name": "Glass Squid",
-        "icon": "🧼"
-      },
-      {
-        "title": "Jaws of the Abyss",
-        "name": "Goblin Shark",
-        "icon": "🦈"
-      },
-      {
-        "title": "Deepsea Predators",
-        "name": "Yeti Crab",
+        "title": "Echidna Monsters",
+        "name": "The Blood-Red Cuttlefish",
         "icon": "🦀"
       },
       {
-        "title": "Night Glow",
-        "name": "Lanternfish",
-        "icon": "🌟"
+        "title": "Silence Bringers",
+        "name": "The Whispering Squid",
+        "icon": "🦑"
       },
       {
-        "title": "Turbulent Terror",
-        "name": "Sargassum Sea Monster",
-        "icon": "🌪️"
+        "title": "Predator Lurkers",
+        "name": "The Phantom Manta",
+        "icon": "🦋"
       },
       {
-        "title": "Chill Sirens",
-        "name": "Boreal Jelly",
-        "icon": "🧊"
+        "title": "Scorpion Deep",
+        "name": "The Black Sturgeon",
+        "icon": "🦈"
       },
       {
-        "title": "Monsoon Spirits",
-        "name": "Kuroshio Killer",
-        "icon": "🌊"
+        "title": "Molecule Terrors",
+        "name": "The Brown Necked Dragonfish",
+        "icon": "🐲"
+      },
+      {
+        "title": "Hallucinatory Dwellers",
+        "name": "The Glow-Eyed Dollfish",
+        "icon": "💀"
+      },
+      {
+        "title": "Lost Royalty",
+        "name": "The Abyssal Lobster King",
+        "icon": "👑"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
     "list": [
       {
         "title": "Aurora",
-        "name": "Southern Lights",
+        "name": "Aurora Borealis",
         "icon": "🌌"
       },
       {
-        "title": "Storm",
-        "name": "Sandstorm Dunes",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Fog",
-        "name": "Sea Fog Ballet",
-        "icon": "☁️"
-      },
-      {
         "title": "Lightning",
-        "name": "Nerve Lightning",
+        "name": "Lightning Storm",
         "icon": "⚡"
       },
       {
-        "title": "Rainbow",
-        "name": "Crystalline Rainbow",
-        "icon": "🌈"
+        "title": "Lensing",
+        "name": "Fata Morgana",
+        "icon": "🌀"
       },
       {
-        "title": "Heat",
-        "name": "Heat Haze Mirage",
+        "title": "Cloud",
+        "name": "Glow Cloud",
+        "icon": "☁️"
+      },
+      {
+        "title": "Sun",
+        "name": "Sundog",
+        "icon": "🌞"
+      },
+      {
+        "title": "Fire",
+        "name": "Meteoritic Fireball",
         "icon": "🔥"
       },
       {
-        "title": "Vortex",
-        "name": "Dust Devil Spiral",
-        "icon": "💨"
+        "title": "Fog",
+        "name": "St. Elmo's Fire",
+        "icon": "✨"
       },
       {
-        "title": "Water",
-        "name": "Hailstorm Fury",
-        "icon": "🌧️"
+        "title": "Ice",
+        "name": "Polar Mesospheric Clouds",
+        "icon": "❄️"
       }
     ]
   },
@@ -9129,6 +9103,53 @@
       {
         "text": "If you want to master ApexFlow_1776138794174, subscribe now.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776146534664": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776146534664 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776146534664.",
+    "list": [
+      {
+        "title": "Gear of Elevation",
+        "name": "Quantum Glider",
+        "icon": "🛸"
+      },
+      {
+        "title": "Chrono Shield",
+        "name": "Infinity Chronometer",
+        "icon": "⏳"
+      },
+      {
+        "title": "Mystic Arsenal",
+        "name": "Luminous Blade",
+        "icon": "🗡️"
+      },
+      {
+        "title": "Celestial Reservoir",
+        "name": "Starlight Vial",
+        "icon": "✨"
+      },
+      {
+        "title": "Mythic Companion",
+        "name": "Echo Dragon",
+        "icon": "🐉"
+      },
+      {
+        "title": "Arcane Vault",
+        "name": "Shadow Key",
+        "icon": "🗝️"
+      },
+      {
+        "title": "Signal Beacon",
+        "name": "Aurora Grid",
+        "icon": "🌌"
+      },
+      {
+        "title": "Eternal Forge",
+        "name": "Dreamsmith's Anvil",
+        "icon": "🔨"
       }
     ]
   }
