@@ -123,104 +123,10 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
-    "list": [
-      {
-        "title": "Aurora",
-        "name": "Aurora Borealis",
-        "icon": "🌌"
-      },
-      {
-        "title": "Lightning",
-        "name": "Lightning Storm",
-        "icon": "⚡"
-      },
-      {
-        "title": "Lensing",
-        "name": "Fata Morgana",
-        "icon": "🌀"
-      },
-      {
-        "title": "Cloud",
-        "name": "Glow Cloud",
-        "icon": "☁️"
-      },
-      {
-        "title": "Sun",
-        "name": "Sundog",
-        "icon": "🌞"
-      },
-      {
-        "title": "Fire",
-        "name": "Meteoritic Fireball",
-        "icon": "🔥"
-      },
-      {
-        "title": "Fog",
-        "name": "St. Elmo's Fire",
-        "icon": "✨"
-      },
-      {
-        "title": "Ice",
-        "name": "Polar Mesospheric Clouds",
-        "icon": "❄️"
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
-      {
-        "title": "Governance",
-        "name": "Surveillance Algorithm",
-        "icon": "👁️"
-      },
-      {
-        "title": "Environment",
-        "name": "Synthetic Bio-Destroyers",
-        "icon": "🧪"
-      },
-      {
-        "title": "Economics",
-        "name": "Debt-Nullification Bots",
-        "icon": "💸"
-      },
-      {
-        "title": "Technology",
-        "name": "Nanite Life Predictor",
-        "icon": "🤖"
-      },
-      {
-        "title": "Cognitive",
-        "name": "Subversion Drones",
-        "icon": "🧠"
-      },
-      {
-        "title": "Infrastructure",
-        "name": "Crackling Power Grid",
-        "icon": "⚡"
-      },
-      {
-        "title": "Society",
-        "name": "Memory Erasure Protocol",
-        "icon": "🗑️"
-      },
-      {
-        "title": "Silence",
-        "name": "Underground Data Forges",
-        "icon": "🕶️"
-      }
-    ]
-  },
-  "HyperEvolutionaryAdaptations": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
         "duration": 5
       },
       {
@@ -230,6 +136,48 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your city turns into a simulation apocalypse?",
+        "duration": 4
+      },
+      {
+        "text": "Will your future be trapped inside a tech nightmare?",
+        "duration": 4
+      },
+      {
+        "text": "Discover the simulation glitch that could save humanity.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "HyperEvolutionaryAdaptations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Ever seen a creature that could laugh at a volcano?",
+        "duration": 4
+      },
+      {
+        "text": "What if evolution gave us wings made of fire?",
+        "duration": 4
+      },
+      {
+        "text": "Meet the Lava Hummingbird, soaring in fire.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
+        "duration": 3
       }
     ]
   },
@@ -9690,6 +9638,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1776247242500 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776259133339": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776259133339 are finally revealed.",
         "duration": 5
       },
       {
