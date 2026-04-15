@@ -89,23 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
-        "duration": 4
+        "title": "Celestial Fireworks",
+        "name": "Supernova Spectacle",
+        "icon": "💥"
       },
       {
-        "text": "What if the sky hides a secret that changes everything?",
-        "duration": 4
+        "title": "Ancient Glow",
+        "name": "Eternal Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
-        "duration": 4
+        "title": "Planetary Parade",
+        "name": "Jupiter’s Great Red Spot",
+        "icon": "🪐"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Spiral Marvel",
+        "name": "Whirlpool Galaxy",
+        "icon": "🌀"
+      },
+      {
+        "title": "Radio Miracles",
+        "name": "Crab Nebula",
+        "icon": "📡"
+      },
+      {
+        "title": "Solar Drama",
+        "name": "Total Solar Eclipse",
+        "icon": "☀️"
+      },
+      {
+        "title": "Interstellar Maze",
+        "name": "Orion Star Cluster",
+        "icon": "🌟"
+      },
+      {
+        "title": "Cosmic Aurora",
+        "name": "Northern Lights",
+        "icon": "🌠"
       }
     ]
   },
@@ -113,20 +139,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "If you swam 10,000 feet, you'd see this.",
-        "duration": 4
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What lurks in the abyss, haunting all marine explorers?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -178,19 +200,49 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
+      },
+      {
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -9485,6 +9537,53 @@
         "title": "Performance",
         "name": "Optimized Indexing Engine",
         "icon": "⚡"
+      }
+    ]
+  },
+  "ApexFlow_1776225123909": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776225123909 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Interface",
+        "name": "Holo UI",
+        "icon": "🖥️"
+      },
+      {
+        "title": "Speed",
+        "name": "Quantum Glide",
+        "icon": "⚡"
+      },
+      {
+        "title": "Security",
+        "name": "Crypto Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Scalability",
+        "name": "Nebula Scaling",
+        "icon": "☁️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Insight Lens",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "API Nexus",
+        "icon": "🔗"
+      },
+      {
+        "title": "Customization",
+        "name": "Modular Skin",
+        "icon": "🎨"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Helix",
+        "icon": "🤖"
       }
     ]
   }
