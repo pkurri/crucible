@@ -92,33 +92,67 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "text": "The universe just blew a secret.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "Why do galaxies look like they’re winking?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Luminous Hunters",
+        "name": "Giant Anglerfish",
+        "icon": "👹"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Cold-Blooded Stalkers",
+        "name": "Black Dragonfish",
+        "icon": "🐍"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Abyssal Behemoths",
+        "name": "Giant Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Silent Terrors",
+        "name": "Blind Octopus",
+        "icon": "🐙"
+      },
+      {
+        "title": "Steam-Siphoning Scorpions",
+        "name": "Hydrothermal Vent Shrimp",
+        "icon": "🦐"
+      },
+      {
+        "title": "Shimmering Specters",
+        "name": "Pseudoscorpions",
+        "icon": "🕷️"
+      },
+      {
+        "title": "Chill‑Bite Catfish",
+        "name": "Chimera Catfish",
+        "icon": "🐟"
+      },
+      {
+        "title": "Glass‑Veiled Menace",
+        "name": "Glass Squid",
+        "icon": "🧊"
       }
     ]
   },
@@ -144,19 +178,49 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
+      },
+      {
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -9834,6 +9898,53 @@
         "title": "Analytics",
         "name": "Realtime Metrics",
         "icon": "⏱️"
+      }
+    ]
+  },
+  "ApexFlow_1776288637888": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776288637888 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1776288637888, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Principle",
+        "name": "Velocity Amplifier",
+        "icon": "⚡"
+      },
+      {
+        "title": "Tool",
+        "name": "Flux Optimizer",
+        "icon": "🔧"
+      },
+      {
+        "title": "Pattern",
+        "name": "Dual-Thread Calibration",
+        "icon": "🧵"
+      },
+      {
+        "title": "Data",
+        "name": "Quantum Splay",
+        "icon": "🌀"
+      },
+      {
+        "title": "Visualization",
+        "name": "Apex Flow Map",
+        "icon": "📈"
+      },
+      {
+        "title": "Integration",
+        "name": "Sync Gate",
+        "icon": "🔗"
+      },
+      {
+        "title": "Security",
+        "name": "Zero-Trust Flux",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Performance",
+        "name": "Hyper-Loop Bypass",
+        "icon": "🚀"
       }
     ]
   }
