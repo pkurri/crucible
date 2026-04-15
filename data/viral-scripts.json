@@ -89,49 +89,19 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebulae",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Galaxies",
-        "name": "Whirlpool Galaxy",
-        "icon": "🌀"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Black Holes",
-        "name": "Sagittarius A*",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Exoplanets",
-        "name": "TRAPPIST-1",
-        "icon": "🌍"
-      },
-      {
-        "title": "Supernova Remnants",
-        "name": "Crab Nebula",
-        "icon": "🐦"
-      },
-      {
-        "title": "Star Clusters",
-        "name": "Pleiades",
-        "icon": "🌟"
-      },
-      {
-        "title": "CMB",
-        "name": "Trispectrum Map",
-        "icon": "📊"
-      },
-      {
-        "title": "Intergalactic Filaments",
-        "name": "Cosmic Web",
-        "icon": "🕸️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -186,20 +156,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
-        "duration": 4
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -9771,6 +9737,53 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776262429421": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776262429421 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1776262429421, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Legendary Champions",
+        "name": "Kaleidos Prime",
+        "icon": "🏆"
+      },
+      {
+        "title": "Ancient Artifacts",
+        "name": "Etheral Resonator",
+        "icon": "🧩"
+      },
+      {
+        "title": "Hidden Pathways",
+        "name": "Void Rift Portal",
+        "icon": "🌀"
+      },
+      {
+        "title": "Power Augments",
+        "name": "Quantum Flux Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Sanctuary Secrets",
+        "name": "Eclipse Beacon",
+        "icon": "🌑"
+      },
+      {
+        "title": "Celestial Drops",
+        "name": "Stellar Essence",
+        "icon": "✨"
+      },
+      {
+        "title": "Time Shards",
+        "name": "Chrono Fragment",
+        "icon": "⌛"
+      },
+      {
+        "title": "Mythic Treasures",
+        "name": "Apex Relic",
+        "icon": "🗝️"
       }
     ]
   }
