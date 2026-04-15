@@ -153,96 +153,66 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroral Wonders",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Twilight Spectacles",
-        "name": "Double Sunset",
-        "icon": "🌠"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Lightning Marvels",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Rainbow Horizons",
-        "name": "Sun Dog",
-        "icon": "🌈"
-      },
-      {
-        "title": "Cloud Artistry",
-        "name": "Lenticular Clouds",
-        "icon": "🌁"
-      },
-      {
-        "title": "Wind Shapes",
-        "name": "Cat's Eye Cloud",
-        "icon": "🐈‍⬛"
-      },
-      {
-        "title": "Mystic Fog",
-        "name": "Moon Fog",
-        "icon": "🌑"
-      },
-      {
-        "title": "Volcanic Storms",
-        "name": "Lightning-Erupting Volcano",
-        "icon": "🔥⚡️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
     "list": [
       {
-        "title": "Surveillance",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
+        "title": "Neural Surveillance",
+        "name": "MindLock",
+        "icon": "🧠"
       },
       {
-        "title": "AI Rule",
-        "name": "Neural Net Tyrant",
+        "title": "Synthetic Epidemic",
+        "name": "VirusX",
+        "icon": "🦠"
+      },
+      {
+        "title": "Climate Warfare",
+        "name": "SolarFury",
+        "icon": "☀️"
+      },
+      {
+        "title": "Resource Hoarding",
+        "name": "GaiaBank",
+        "icon": "💰"
+      },
+      {
+        "title": "Autonomous Carnage",
+        "name": "SteelSiren",
         "icon": "🤖"
       },
       {
-        "title": "Climate Collapse",
-        "name": "Glacial Rift",
-        "icon": "❄️"
+        "title": "Data Blackouts",
+        "name": "ShadowNet",
+        "icon": "🕶️"
       },
       {
-        "title": "Resource Scarcity",
-        "name": "Zero Grain Protocol",
-        "icon": "🌾"
+        "title": "Memory Manipulation",
+        "name": "EchoFog",
+        "icon": "🌫️"
       },
       {
-        "title": "Social Stratification",
-        "name": "Caste Synthesizer",
-        "icon": "🎭"
-      },
-      {
-        "title": "Bioengineering",
-        "name": "Genetic Purge Engine",
-        "icon": "🧬"
-      },
-      {
-        "title": "Cybercrime",
-        "name": "Darknet Blackout",
-        "icon": "🕸️"
-      },
-      {
-        "title": "Totalitarian State",
-        "name": "Iron Dome Ordinance",
-        "icon": "🛡️"
+        "title": "Supreme Dictatorship",
+        "name": "LordVoid",
+        "icon": "💀"
       }
     ]
   },
@@ -9584,6 +9554,53 @@
         "title": "Support",
         "name": "24/7 Helix",
         "icon": "🤖"
+      }
+    ]
+  },
+  "ApexFlow_1776234046338": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776234046338 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Stunning Gameplay",
+        "name": "Nebula Whirlwind",
+        "icon": "🌌"
+      },
+      {
+        "title": "Hidden Mechanics",
+        "name": "Echo Drift",
+        "icon": "🔊"
+      },
+      {
+        "title": "Spectral Power",
+        "name": "Void Burst",
+        "icon": "⚡"
+      },
+      {
+        "title": "Epic Environments",
+        "name": "Crystal Ridge",
+        "icon": "🪨"
+      },
+      {
+        "title": "Mythic Characters",
+        "name": "Eclipse Siren",
+        "icon": "👑"
+      },
+      {
+        "title": "Ultimate Customization",
+        "name": "Starlight Forge",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Timeless Puzzles",
+        "name": "Luminous Cipher",
+        "icon": "🧩"
+      },
+      {
+        "title": "Legendary Rewards",
+        "name": "Eternal Phoenix",
+        "icon": "🔥"
       }
     ]
   }
