@@ -9789,5 +9789,52 @@
         "duration": 5
       }
     ]
+  },
+  "ApexFlow_1776286069245": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776286069245 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Speed",
+        "name": "Turbo Processor",
+        "icon": "🚀"
+      },
+      {
+        "title": "Efficiency",
+        "name": "Neural Optimizer",
+        "icon": "🧠"
+      },
+      {
+        "title": "Insights",
+        "name": "Predictive Analytics",
+        "icon": "🔍"
+      },
+      {
+        "title": "Automation",
+        "name": "Auto-Deploy",
+        "icon": "🤖"
+      },
+      {
+        "title": "User Experience",
+        "name": "AI Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Customization",
+        "name": "Dynamic UI",
+        "icon": "🎨"
+      },
+      {
+        "title": "Security",
+        "name": "Encrypted Vault",
+        "icon": "🔒"
+      },
+      {
+        "title": "Analytics",
+        "name": "Realtime Metrics",
+        "icon": "⏱️"
+      }
+    ]
   }
 }
