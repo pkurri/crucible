@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebulae",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galaxies",
+        "name": "Whirlpool Galaxy",
+        "icon": "🌀"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Black Holes",
+        "name": "Sagittarius A*",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Exoplanets",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
+      },
+      {
+        "title": "Supernova Remnants",
+        "name": "Crab Nebula",
+        "icon": "🐦"
+      },
+      {
+        "title": "Star Clusters",
+        "name": "Pleiades",
+        "icon": "🌟"
+      },
+      {
+        "title": "CMB",
+        "name": "Trispectrum Map",
+        "icon": "📊"
+      },
+      {
+        "title": "Intergalactic Filaments",
+        "name": "Cosmic Web",
+        "icon": "🕸️"
       }
     ]
   },
@@ -123,36 +153,96 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "🏔️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Mirage",
+        "name": "Fata Morgana",
+        "icon": "🌈"
+      },
+      {
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze",
+        "icon": "🔥"
+      },
+      {
+        "title": "Solar",
+        "name": "Sundogs",
+        "icon": "🌞"
+      },
+      {
+        "title": "Atmosphere",
+        "name": "Belt of Venus",
+        "icon": "💫"
+      },
+      {
+        "title": "Night",
+        "name": "Noctilucent Clouds",
+        "icon": "🌙"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Governance",
+        "name": "Surveillance Algorithm",
+        "icon": "👁️"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Environment",
+        "name": "Synthetic Bio-Destroyers",
+        "icon": "🧪"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Economics",
+        "name": "Debt-Nullification Bots",
+        "icon": "💸"
+      },
+      {
+        "title": "Technology",
+        "name": "Nanite Life Predictor",
+        "icon": "🤖"
+      },
+      {
+        "title": "Cognitive",
+        "name": "Subversion Drones",
+        "icon": "🧠"
+      },
+      {
+        "title": "Infrastructure",
+        "name": "Crackling Power Grid",
+        "icon": "⚡"
+      },
+      {
+        "title": "Society",
+        "name": "Memory Erasure Protocol",
+        "icon": "🗑️"
+      },
+      {
+        "title": "Silence",
+        "name": "Underground Data Forges",
+        "icon": "🕶️"
       }
     ]
   },
@@ -9575,6 +9665,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776244825453": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776244825453 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Quantum Velocity",
+        "name": "Quantum Warp Drive",
+        "icon": "🚀"
+      },
+      {
+        "title": "Stellar Visualization",
+        "name": "Nebula Viewer",
+        "icon": "🌌"
+      },
+      {
+        "title": "Impenetrable Security",
+        "name": "Sentinel Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Intelligent AI",
+        "name": "EchoGenie",
+        "icon": "🤖"
+      },
+      {
+        "title": "Collaborative Harmony",
+        "name": "Harmonic Sync",
+        "icon": "🎶"
+      },
+      {
+        "title": "Seamless Automation",
+        "name": "AutoPulse",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Data Oracle",
+        "name": "Oracle Atlas",
+        "icon": "📊"
+      },
+      {
+        "title": "Dreamlike UX",
+        "name": "DreamLayer",
+        "icon": "🌈"
       }
     ]
   }
