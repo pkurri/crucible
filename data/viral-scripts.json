@@ -89,36 +89,96 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebulae",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galaxies",
+        "name": "Whirlpool Galaxy",
+        "icon": "🌀"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Black Holes",
+        "name": "Sagittarius A*",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Exoplanets",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
+      },
+      {
+        "title": "Supernova Remnants",
+        "name": "Crab Nebula",
+        "icon": "🐦"
+      },
+      {
+        "title": "Star Clusters",
+        "name": "Pleiades",
+        "icon": "🌟"
+      },
+      {
+        "title": "CMB",
+        "name": "Trispectrum Map",
+        "icon": "📊"
+      },
+      {
+        "title": "Intergalactic Filaments",
+        "name": "Cosmic Web",
+        "icon": "🕸️"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Bioluminescent Horrors",
+        "name": "Giant Lantern Shark",
+        "icon": "🔦"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Electric Predators",
+        "name": "Electric Eel Leviathan",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Vampiric Hunters",
+        "name": "Cuvierian Oarfish",
+        "icon": "🦈"
+      },
+      {
+        "title": "Phantom Glowworms",
+        "name": "Southern Lightfish",
+        "icon": "🌌"
+      },
+      {
+        "title": "Methane Bubble Cannons",
+        "name": "Adelie Abyssal Crab",
+        "icon": "🐚"
+      },
+      {
+        "title": "Spiky Swallows",
+        "name": "Frilled Shark",
+        "icon": "🦙"
+      },
+      {
+        "title": "Deadly Ink Dancers",
+        "name": "Black Swallower",
+        "icon": "🖤"
+      },
+      {
+        "title": "Worm-like Killers",
+        "name": "Crown-of-Thorns Starfish",
+        "icon": "⭐"
       }
     ]
   },
@@ -126,32 +186,15 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
-      },
-      {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
-      },
-      {
-        "text": "Follow the system to win the game.",
-        "duration": 5
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "What if your city turns into a simulation apocalypse?",
+        "text": "This video shatters the sky—watch the impossible.",
         "duration": 4
       },
       {
-        "text": "Will your future be trapped inside a tech nightmare?",
+        "text": "Ever wonder why auroras outshine rainbows?",
         "duration": 4
       },
       {
-        "text": "Discover the simulation glitch that could save humanity.",
+        "text": "Because the ionosphere turns lightning into living light.",
         "duration": 4
       },
       {
@@ -160,24 +203,67 @@
       }
     ]
   },
-  "HyperEvolutionaryAdaptations": {
+  "DystopianFutureSimulations": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever seen a creature that could laugh at a volcano?",
-        "duration": 4
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if evolution gave us wings made of fire?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Meet the Lava Hummingbird, soaring in fire.",
-        "duration": 4
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "HyperEvolutionaryAdaptations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
+    "list": [
+      {
+        "title": "Photosynthetic Symbiosis",
+        "name": "Sun‑Kissed Symbiosis",
+        "icon": "🌞"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
-        "duration": 3
+        "title": "Adaptive Regeneration",
+        "name": "Regeneration Pulse",
+        "icon": "♻️"
+      },
+      {
+        "title": "Cryogenic Dormancy",
+        "name": "Ice‑Bound Rebirth",
+        "icon": "❄️"
+      },
+      {
+        "title": "Quantum Sensory",
+        "name": "Quantum Sight",
+        "icon": "🌌"
+      },
+      {
+        "title": "Nano‑Genetic Fusion",
+        "name": "Nanobot Genome Merge",
+        "icon": "🤖"
+      },
+      {
+        "title": "Fractal Neural Patterns",
+        "name": "Fractal Synapse",
+        "icon": "🧬"
+      },
+      {
+        "title": "Ultra‑Resilient Exoskeleton",
+        "name": "Titanium Shell",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Self‑Transmutation",
+        "name": "Elemental Shift",
+        "icon": "🔄"
       }
     ]
   },
@@ -9664,6 +9750,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776259472320": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquids power hyper-car dreams!",
+        "duration": 4
+      },
+      {
+        "text": "How do data points steer the future of racing?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets turn flowing neon into precision speed.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   }
