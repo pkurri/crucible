@@ -155,94 +155,94 @@
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Auroras",
+        "title": "Auroral Wonders",
         "name": "Northern Lights",
         "icon": "🌌"
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
+        "title": "Twilight Spectacles",
+        "name": "Double Sunset",
+        "icon": "🌠"
       },
       {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
-      },
-      {
-        "title": "Lightning",
+        "title": "Lightning Marvels",
         "name": "Ball Lightning",
         "icon": "⚡️"
       },
       {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
+        "title": "Rainbow Horizons",
+        "name": "Sun Dog",
+        "icon": "🌈"
       },
       {
-        "title": "Solar",
-        "name": "Sundogs",
-        "icon": "🌞"
+        "title": "Cloud Artistry",
+        "name": "Lenticular Clouds",
+        "icon": "🌁"
       },
       {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
+        "title": "Wind Shapes",
+        "name": "Cat's Eye Cloud",
+        "icon": "🐈‍⬛"
       },
       {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
+        "title": "Mystic Fog",
+        "name": "Moon Fog",
+        "icon": "🌑"
+      },
+      {
+        "title": "Volcanic Storms",
+        "name": "Lightning-Erupting Volcano",
+        "icon": "🔥⚡️"
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Military AI",
-        "name": "Nano-Drone Recon",
-        "icon": "🎯"
+        "title": "Surveillance",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "title": "Urban Decay",
-        "name": "Grenfell Grid",
-        "icon": "🏙️"
+        "title": "AI Rule",
+        "name": "Neural Net Tyrant",
+        "icon": "🤖"
       },
       {
         "title": "Climate Collapse",
-        "name": "Thermal Decontaminator",
-        "icon": "♻️"
-      },
-      {
-        "title": "Social Control",
-        "name": "Surveillance Matrix",
-        "icon": "🔍"
+        "name": "Glacial Rift",
+        "icon": "❄️"
       },
       {
         "title": "Resource Scarcity",
-        "name": "BlackMarket Broker",
-        "icon": "💰"
+        "name": "Zero Grain Protocol",
+        "icon": "🌾"
       },
       {
-        "title": "Energy Crisis",
-        "name": "Fusion Cube",
-        "icon": "⚡️"
+        "title": "Social Stratification",
+        "name": "Caste Synthesizer",
+        "icon": "🎭"
       },
       {
-        "title": "Biohazard",
-        "name": "Pandemic SimX",
-        "icon": "☣️"
+        "title": "Bioengineering",
+        "name": "Genetic Purge Engine",
+        "icon": "🧬"
       },
       {
-        "title": "AI Governance",
-        "name": "Sentinel AI",
-        "icon": "🧠"
+        "title": "Cybercrime",
+        "name": "Darknet Blackout",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Totalitarian State",
+        "name": "Iron Dome Ordinance",
+        "icon": "🛡️"
       }
     ]
   },
