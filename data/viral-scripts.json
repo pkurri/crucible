@@ -110,143 +110,57 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Bioluminescent Horrors",
-        "name": "Giant Lantern Shark",
-        "icon": "🔦"
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Electric Predators",
-        "name": "Electric Eel Leviathan",
-        "icon": "⚡"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Vampiric Hunters",
-        "name": "Cuvierian Oarfish",
-        "icon": "🦈"
-      },
-      {
-        "title": "Phantom Glowworms",
-        "name": "Southern Lightfish",
-        "icon": "🌌"
-      },
-      {
-        "title": "Methane Bubble Cannons",
-        "name": "Adelie Abyssal Crab",
-        "icon": "🐚"
-      },
-      {
-        "title": "Spiky Swallows",
-        "name": "Frilled Shark",
-        "icon": "🦙"
-      },
-      {
-        "title": "Deadly Ink Dancers",
-        "name": "Black Swallower",
-        "icon": "🖤"
-      },
-      {
-        "title": "Worm-like Killers",
-        "name": "Crown-of-Thorns Starfish",
-        "icon": "⭐"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Aurora",
-        "name": "Southern Lights",
-        "icon": "🌌"
+        "text": "This video shatters the sky—watch the impossible.",
+        "duration": 4
       },
       {
-        "title": "Storm",
-        "name": "Sandstorm Dunes",
-        "icon": "🌪️"
+        "text": "Ever wonder why auroras outshine rainbows?",
+        "duration": 4
       },
       {
-        "title": "Fog",
-        "name": "Sea Fog Ballet",
-        "icon": "☁️"
+        "text": "Because the ionosphere turns lightning into living light.",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Nerve Lightning",
-        "icon": "⚡"
-      },
-      {
-        "title": "Rainbow",
-        "name": "Crystalline Rainbow",
-        "icon": "🌈"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze Mirage",
-        "icon": "🔥"
-      },
-      {
-        "title": "Vortex",
-        "name": "Dust Devil Spiral",
-        "icon": "💨"
-      },
-      {
-        "title": "Water",
-        "name": "Hailstorm Fury",
-        "icon": "🌧️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Neural Surveillance",
-        "name": "MindLock",
-        "icon": "🧠"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Synthetic Epidemic",
-        "name": "VirusX",
-        "icon": "🦠"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Climate Warfare",
-        "name": "SolarFury",
-        "icon": "☀️"
-      },
-      {
-        "title": "Resource Hoarding",
-        "name": "GaiaBank",
-        "icon": "💰"
-      },
-      {
-        "title": "Autonomous Carnage",
-        "name": "SteelSiren",
-        "icon": "🤖"
-      },
-      {
-        "title": "Data Blackouts",
-        "name": "ShadowNet",
-        "icon": "🕶️"
-      },
-      {
-        "title": "Memory Manipulation",
-        "name": "EchoFog",
-        "icon": "🌫️"
-      },
-      {
-        "title": "Supreme Dictatorship",
-        "name": "LordVoid",
-        "icon": "💀"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -254,19 +168,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever seen a creature that could laugh at a volcano?",
+        "text": "Ever seen a creature evolve in seconds?",
         "duration": 4
       },
       {
-        "text": "What if evolution gave us wings made of fire?",
+        "text": "What if your body could withstand molten suns?",
         "duration": 4
       },
       {
-        "text": "Meet the Lava Hummingbird, soaring in fire.",
+        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
@@ -9477,6 +9391,23 @@
       {
         "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776202226805.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776218830231": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776218830231 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
