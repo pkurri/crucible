@@ -106,49 +106,23 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Bioluminescent Horrors",
-        "name": "Giant Lantern Shark",
-        "icon": "🔦"
+        "text": "If you swam 10,000 feet, you'd see this.",
+        "duration": 4
       },
       {
-        "title": "Electric Predators",
-        "name": "Electric Eel Leviathan",
-        "icon": "⚡"
+        "text": "What lurks in the abyss, haunting all marine explorers?",
+        "duration": 4
       },
       {
-        "title": "Vampiric Hunters",
-        "name": "Cuvierian Oarfish",
-        "icon": "🦈"
+        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
+        "duration": 4
       },
       {
-        "title": "Phantom Glowworms",
-        "name": "Southern Lightfish",
-        "icon": "🌌"
-      },
-      {
-        "title": "Methane Bubble Cannons",
-        "name": "Adelie Abyssal Crab",
-        "icon": "🐚"
-      },
-      {
-        "title": "Spiky Swallows",
-        "name": "Frilled Shark",
-        "icon": "🦙"
-      },
-      {
-        "title": "Deadly Ink Dancers",
-        "name": "Black Swallower",
-        "icon": "🖤"
-      },
-      {
-        "title": "Worm-like Killers",
-        "name": "Crown-of-Thorns Starfish",
-        "icon": "⭐"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -9784,6 +9758,53 @@
         "title": "Mythic Treasures",
         "name": "Apex Relic",
         "icon": "🗝️"
+      }
+    ]
+  },
+  "ApexFlow_1776272616775": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776272616775 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1776272616775, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Legendary Weapon",
+        "name": "Eclipseblade",
+        "icon": "🗡️"
+      },
+      {
+        "title": "Arcane Binding",
+        "name": "Spectral Chain",
+        "icon": "🔗"
+      },
+      {
+        "title": "Temporal Gear",
+        "name": "Chrono Helm",
+        "icon": "⏳"
+      },
+      {
+        "title": "Energy Module",
+        "name": "Volt Drive",
+        "icon": "⚡"
+      },
+      {
+        "title": "Stealth Cloak",
+        "name": "Shadow Veil",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Resonant Amplifier",
+        "name": "Echo Amplifier",
+        "icon": "🔊"
+      },
+      {
+        "title": "AI Companion",
+        "name": "Nova Core",
+        "icon": "🤖"
+      },
+      {
+        "title": "Quantum Blade",
+        "name": "Singularity Edge",
+        "icon": "🌌"
       }
     ]
   }
