@@ -109,7 +109,28 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "text": "If you swam 10,000 feet, you'd see this.",
+        "duration": 4
+      },
+      {
+        "text": "What lurks in the abyss, haunting all marine explorers?",
+        "duration": 4
+      },
+      {
+        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
         "duration": 5
       },
       {
@@ -119,27 +140,6 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "You think you’ve seen all storms? Think again.",
-        "duration": 4
-      },
-      {
-        "text": "What happens when lightning meets the aurora?",
-        "duration": 4
-      },
-      {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
       }
     ]
   },
@@ -161,49 +161,23 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Morphogenesis",
-        "name": "Chameleon Glyph",
-        "icon": "🦎"
+        "text": "Ever seen a creature evolve in seconds?",
+        "duration": 4
       },
       {
-        "title": "Sensory",
-        "name": "Nocturnal Hypersight",
-        "icon": "🌙"
+        "text": "What if your body could withstand molten suns?",
+        "duration": 4
       },
       {
-        "title": "Defense",
-        "name": "Toxic Skin Hyper‑Secretions",
-        "icon": "☠️"
+        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
+        "duration": 4
       },
       {
-        "title": "Reproduction",
-        "name": "Kinetic Asexual Swarm",
-        "icon": "🐛"
-      },
-      {
-        "title": "Metabolism",
-        "name": "Hyper‑Energy Conversion",
-        "icon": "🔋"
-      },
-      {
-        "title": "Communication",
-        "name": "Subnuclear Resonance",
-        "icon": "🎶"
-      },
-      {
-        "title": "Regeneration",
-        "name": "Nanofiber Regrowth Matrix",
-        "icon": "🧬"
-      },
-      {
-        "title": "Energy",
-        "name": "Photosynthetic Open Chromatophore",
-        "icon": "🌞"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -211,20 +185,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "What if buildings could bend the sky?",
-        "duration": 4
+        "text": "The secrets of ImpossibleArchitectureBlueprints are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Can any engineer craft such a dream?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Meet a blueprint that folds gravity like paper.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -9995,6 +9965,27 @@
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776324473785": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid pulses your CPU’s heartbeat—yes, it’s real.",
+        "duration": 4
+      },
+      {
+        "text": "If a hyper‑car’s interior looks like a neural net, why still crash?",
+        "duration": 4
+      },
+      {
+        "text": "Ultra‑fast curves cut hyper‑car latency to 70 µs.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776324473785.",
         "duration": 3
       }
     ]
