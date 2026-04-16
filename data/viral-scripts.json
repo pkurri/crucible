@@ -89,66 +89,70 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebular Majesty",
-        "name": "The Orion Nebula",
-        "icon": "🪐"
+        "text": "The universe just blew a secret.",
+        "duration": 4
       },
       {
-        "title": "Stellar Birthplaces",
-        "name": "Eagle Nebula’s Pillars",
-        "icon": "✂️"
+        "text": "Why do galaxies look like they’re winking?",
+        "duration": 4
       },
       {
-        "title": "Galactic Collisions",
-        "name": "Merging Milky Way & Andromeda",
-        "icon": "🌀"
+        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "duration": 4
       },
       {
-        "title": "Exoplanet Glows",
-        "name": "Red Dwarf Aurora",
-        "icon": "🌑"
-      },
-      {
-        "title": "Black Hole Lights",
-        "name": "M87’s Jet",
-        "icon": "⚡"
-      },
-      {
-        "title": "Supernova Spectra",
-        "name": "SN 1987A Remnants",
-        "icon": "✨"
-      },
-      {
-        "title": "Quantum Wavefronts",
-        "name": "Intergalactic Light",
-        "icon": "🔮"
-      },
-      {
-        "title": "Cosmic Dust Sculptures",
-        "name": "Barnard 68",
-        "icon": "🧵"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Night Stalkers",
+        "name": "The Hollow-Glowing Angler",
+        "icon": "🌑"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Echidna Monsters",
+        "name": "The Blood-Red Cuttlefish",
+        "icon": "🦀"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Silence Bringers",
+        "name": "The Whispering Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Predator Lurkers",
+        "name": "The Phantom Manta",
+        "icon": "🦋"
+      },
+      {
+        "title": "Scorpion Deep",
+        "name": "The Black Sturgeon",
+        "icon": "🦈"
+      },
+      {
+        "title": "Molecule Terrors",
+        "name": "The Brown Necked Dragonfish",
+        "icon": "🐲"
+      },
+      {
+        "title": "Hallucinatory Dwellers",
+        "name": "The Glow-Eyed Dollfish",
+        "icon": "💀"
+      },
+      {
+        "title": "Lost Royalty",
+        "name": "The Abyssal Lobster King",
+        "icon": "👑"
       }
     ]
   },
@@ -170,49 +174,19 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Surveillance",
-        "name": "Neural Net Overwatch",
-        "icon": "👁️"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Resource Scarcity",
-        "name": "Crystalplex Resource Grid",
-        "icon": "⛓️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Synthetic Biology",
-        "name": "Coded Chimeras",
-        "icon": "🧬"
-      },
-      {
-        "title": "Weather Control",
-        "name": "Tempest Engine",
-        "icon": "🌩️"
-      },
-      {
-        "title": "Corporate Dominance",
-        "name": "OmniCorp Monolith",
-        "icon": "🏢"
-      },
-      {
-        "title": "AI Governance",
-        "name": "Sentinel Protocol",
-        "icon": "🤖"
-      },
-      {
-        "title": "Memory Hack",
-        "name": "Echo Pathways",
-        "icon": "🧠"
-      },
-      {
-        "title": "Underground Resistance",
-        "name": "Shadows Network",
-        "icon": "🤐"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -10158,6 +10132,53 @@
         "title": "Support",
         "name": "24/7 Live Assist",
         "icon": "🕒"
+      }
+    ]
+  },
+  "ApexFlow_1776349408205": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776349408205 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1776349408205, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Foundation",
+        "name": "PulseCore Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Speed",
+        "name": "VelocityBoost Module",
+        "icon": "🚀"
+      },
+      {
+        "title": "Efficiency",
+        "name": "LeanFlow Optimizer",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Data",
+        "name": "InsightMatrix SDK",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "CrossLink Adapter",
+        "icon": "🔗"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldShield Protocol",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Dynamics",
+        "name": "FlowSync API",
+        "icon": "🔄"
+      },
+      {
+        "title": "Future",
+        "name": "QuantumLeap AI",
+        "icon": "🧬"
       }
     ]
   }
