@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Stellar Cataclysm",
+        "name": "Supernova Symphony",
+        "icon": "💥"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galactic Dance",
+        "name": "Spiral Splendor",
+        "icon": "🌌"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Celestial Serpent",
+        "name": "Doodle Dragon Nebula",
+        "icon": "🌀"
+      },
+      {
+        "title": "Time Warp",
+        "name": "Chrono Corridor",
+        "icon": "⏳"
+      },
+      {
+        "title": "Dark Matter Hunt",
+        "name": "Shadow Pulse",
+        "icon": "🌑"
+      },
+      {
+        "title": "Quantum Beats",
+        "name": "Photon Pulse",
+        "icon": "🎶"
+      },
+      {
+        "title": "Forgotten City",
+        "name": "Nebula Citadel",
+        "icon": "🏰"
+      },
+      {
+        "title": "Gateway",
+        "name": "Event Horizon Portal",
+        "icon": "🚪"
       }
     ]
   },
@@ -153,23 +183,49 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
-        "duration": 4
+        "title": "Auroral Wonders",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "What happens when lightning meets the aurora?",
-        "duration": 4
+        "title": "Twilight Spectacles",
+        "name": "Double Sunset",
+        "icon": "🌠"
       },
       {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
+        "title": "Lightning Marvels",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "title": "Rainbow Horizons",
+        "name": "Sun Dog",
+        "icon": "🌈"
+      },
+      {
+        "title": "Cloud Artistry",
+        "name": "Lenticular Clouds",
+        "icon": "🌁"
+      },
+      {
+        "title": "Wind Shapes",
+        "name": "Cat's Eye Cloud",
+        "icon": "🐈‍⬛"
+      },
+      {
+        "title": "Mystic Fog",
+        "name": "Moon Fog",
+        "icon": "🌑"
+      },
+      {
+        "title": "Volcanic Storms",
+        "name": "Lightning-Erupting Volcano",
+        "icon": "🔥⚡️"
       }
     ]
   },
@@ -191,19 +247,49 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "title": "Morphogenesis",
+        "name": "Chameleon Glyph",
+        "icon": "🦎"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Sensory",
+        "name": "Nocturnal Hypersight",
+        "icon": "🌙"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Defense",
+        "name": "Toxic Skin Hyper‑Secretions",
+        "icon": "☠️"
+      },
+      {
+        "title": "Reproduction",
+        "name": "Kinetic Asexual Swarm",
+        "icon": "🐛"
+      },
+      {
+        "title": "Metabolism",
+        "name": "Hyper‑Energy Conversion",
+        "icon": "🔋"
+      },
+      {
+        "title": "Communication",
+        "name": "Subnuclear Resonance",
+        "icon": "🎶"
+      },
+      {
+        "title": "Regeneration",
+        "name": "Nanofiber Regrowth Matrix",
+        "icon": "🧬"
+      },
+      {
+        "title": "Energy",
+        "name": "Photosynthetic Open Chromatophore",
+        "icon": "🌞"
       }
     ]
   },
@@ -9949,6 +10035,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1776311892193 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776319334480": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776319334480 are finally revealed.",
         "duration": 5
       },
       {
