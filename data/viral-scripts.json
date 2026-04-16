@@ -92,37 +92,67 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The universe just blew a secret.",
+        "text": "Ever felt the universe breathing at your fingertips?",
         "duration": 4
       },
       {
-        "text": "Why do galaxies look like they’re winking?",
+        "text": "What if the sky hides a secret that changes everything?",
         "duration": 4
       },
       {
-        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Night Stalkers",
+        "name": "The Hollow-Glowing Angler",
+        "icon": "🌑"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Echidna Monsters",
+        "name": "The Blood-Red Cuttlefish",
+        "icon": "🦀"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Silence Bringers",
+        "name": "The Whispering Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Predator Lurkers",
+        "name": "The Phantom Manta",
+        "icon": "🦋"
+      },
+      {
+        "title": "Scorpion Deep",
+        "name": "The Black Sturgeon",
+        "icon": "🦈"
+      },
+      {
+        "title": "Molecule Terrors",
+        "name": "The Brown Necked Dragonfish",
+        "icon": "🐲"
+      },
+      {
+        "title": "Hallucinatory Dwellers",
+        "name": "The Glow-Eyed Dollfish",
+        "icon": "💀"
+      },
+      {
+        "title": "Lost Royalty",
+        "name": "The Abyssal Lobster King",
+        "icon": "👑"
       }
     ]
   },
@@ -164,20 +194,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever seen a creature evolve in seconds?",
-        "duration": 4
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if your body could withstand molten suns?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -9889,6 +9915,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1776305607966 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776306876348": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776306876348 are finally revealed.",
         "duration": 5
       },
       {
