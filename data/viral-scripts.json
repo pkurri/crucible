@@ -89,143 +89,57 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Stellar Cataclysm",
-        "name": "Supernova Symphony",
-        "icon": "💥"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Galactic Dance",
-        "name": "Spiral Splendor",
-        "icon": "🌌"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Celestial Serpent",
-        "name": "Doodle Dragon Nebula",
-        "icon": "🌀"
-      },
-      {
-        "title": "Time Warp",
-        "name": "Chrono Corridor",
-        "icon": "⏳"
-      },
-      {
-        "title": "Dark Matter Hunt",
-        "name": "Shadow Pulse",
-        "icon": "🌑"
-      },
-      {
-        "title": "Quantum Beats",
-        "name": "Photon Pulse",
-        "icon": "🎶"
-      },
-      {
-        "title": "Forgotten City",
-        "name": "Nebula Citadel",
-        "icon": "🏰"
-      },
-      {
-        "title": "Gateway",
-        "name": "Event Horizon Portal",
-        "icon": "🚪"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Bioluminescent Horrors",
-        "name": "Giant Lantern Shark",
-        "icon": "🔦"
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Electric Predators",
-        "name": "Electric Eel Leviathan",
-        "icon": "⚡"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Vampiric Hunters",
-        "name": "Cuvierian Oarfish",
-        "icon": "🦈"
-      },
-      {
-        "title": "Phantom Glowworms",
-        "name": "Southern Lightfish",
-        "icon": "🌌"
-      },
-      {
-        "title": "Methane Bubble Cannons",
-        "name": "Adelie Abyssal Crab",
-        "icon": "🐚"
-      },
-      {
-        "title": "Spiky Swallows",
-        "name": "Frilled Shark",
-        "icon": "🦙"
-      },
-      {
-        "title": "Deadly Ink Dancers",
-        "name": "Black Swallower",
-        "icon": "🖤"
-      },
-      {
-        "title": "Worm-like Killers",
-        "name": "Crown-of-Thorns Starfish",
-        "icon": "⭐"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroral Wonders",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "You think you’ve seen all storms? Think again.",
+        "duration": 4
       },
       {
-        "title": "Twilight Spectacles",
-        "name": "Double Sunset",
-        "icon": "🌠"
+        "text": "What happens when lightning meets the aurora?",
+        "duration": 4
       },
       {
-        "title": "Lightning Marvels",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
+        "text": "Witness the sky bleed neon and thunder.",
+        "duration": 4
       },
       {
-        "title": "Rainbow Horizons",
-        "name": "Sun Dog",
-        "icon": "🌈"
-      },
-      {
-        "title": "Cloud Artistry",
-        "name": "Lenticular Clouds",
-        "icon": "🌁"
-      },
-      {
-        "title": "Wind Shapes",
-        "name": "Cat's Eye Cloud",
-        "icon": "🐈‍⬛"
-      },
-      {
-        "title": "Mystic Fog",
-        "name": "Moon Fog",
-        "icon": "🌑"
-      },
-      {
-        "title": "Volcanic Storms",
-        "name": "Lightning-Erupting Volcano",
-        "icon": "🔥⚡️"
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -10061,6 +9975,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776320507961": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid slithers through data points like rogue.",
+        "duration": 4
+      },
+      {
+        "text": "What happens when a neural net meets a hyper-car interior?",
+        "duration": 4
+      },
+      {
+        "text": "Watch data pulse ignite as neon cradles hyper-car glory.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   }
