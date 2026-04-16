@@ -91,94 +91,68 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Celestial Fireworks",
-        "name": "Supernova Spectacle",
-        "icon": "💥"
+        "title": "Nebulae",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "title": "Ancient Glow",
-        "name": "Eternal Nebula",
-        "icon": "🌌"
-      },
-      {
-        "title": "Planetary Parade",
-        "name": "Jupiter’s Great Red Spot",
-        "icon": "🪐"
-      },
-      {
-        "title": "Spiral Marvel",
+        "title": "Galaxies",
         "name": "Whirlpool Galaxy",
         "icon": "🌀"
       },
       {
-        "title": "Radio Miracles",
+        "title": "Black Holes",
+        "name": "Sagittarius A*",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Exoplanets",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
+      },
+      {
+        "title": "Supernova Remnants",
         "name": "Crab Nebula",
-        "icon": "📡"
+        "icon": "🐦"
       },
       {
-        "title": "Solar Drama",
-        "name": "Total Solar Eclipse",
-        "icon": "☀️"
-      },
-      {
-        "title": "Interstellar Maze",
-        "name": "Orion Star Cluster",
+        "title": "Star Clusters",
+        "name": "Pleiades",
         "icon": "🌟"
       },
       {
-        "title": "Cosmic Aurora",
-        "name": "Northern Lights",
-        "icon": "🌠"
+        "title": "CMB",
+        "name": "Trispectrum Map",
+        "icon": "📊"
+      },
+      {
+        "title": "Intergalactic Filaments",
+        "name": "Cosmic Web",
+        "icon": "🕸️"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Night Stalkers",
-        "name": "The Hollow-Glowing Angler",
-        "icon": "🌑"
+        "text": "If you swam 10,000 feet, you'd see this.",
+        "duration": 4
       },
       {
-        "title": "Echidna Monsters",
-        "name": "The Blood-Red Cuttlefish",
-        "icon": "🦀"
+        "text": "What lurks in the abyss, haunting all marine explorers?",
+        "duration": 4
       },
       {
-        "title": "Silence Bringers",
-        "name": "The Whispering Squid",
-        "icon": "🦑"
+        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
+        "duration": 4
       },
       {
-        "title": "Predator Lurkers",
-        "name": "The Phantom Manta",
-        "icon": "🦋"
-      },
-      {
-        "title": "Scorpion Deep",
-        "name": "The Black Sturgeon",
-        "icon": "🦈"
-      },
-      {
-        "title": "Molecule Terrors",
-        "name": "The Brown Necked Dragonfish",
-        "icon": "🐲"
-      },
-      {
-        "title": "Hallucinatory Dwellers",
-        "name": "The Glow-Eyed Dollfish",
-        "icon": "💀"
-      },
-      {
-        "title": "Lost Royalty",
-        "name": "The Abyssal Lobster King",
-        "icon": "👑"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -10308,6 +10282,53 @@
         "title": "Community Plugins",
         "name": "ApexFusion Plug-Ins",
         "icon": "🌐"
+      }
+    ]
+  },
+  "ApexFlow_1776362142202": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776362142202 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1776362142202, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Gameplay",
+        "name": "Infinite Loop Teleportation",
+        "icon": "🔁"
+      },
+      {
+        "title": "Graphics",
+        "name": "Stellar Nebula AI",
+        "icon": "🌌"
+      },
+      {
+        "title": "Physics",
+        "name": "Zero-Gravity Arcade",
+        "icon": "🪐"
+      },
+      {
+        "title": "Audio",
+        "name": "Cosmic Symphonies",
+        "icon": "🎶"
+      },
+      {
+        "title": "AI",
+        "name": "Omniscient Guardian",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Speed",
+        "name": "Quantum Sprint",
+        "icon": "⚡"
+      },
+      {
+        "title": "Energy",
+        "name": "Apex Surge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Endgame",
+        "name": "Ethereal Ascension",
+        "icon": "✨"
       }
     ]
   }
