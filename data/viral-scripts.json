@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebular Majesty",
+        "name": "The Orion Nebula",
+        "icon": "🪐"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Stellar Birthplaces",
+        "name": "Eagle Nebula’s Pillars",
+        "icon": "✂️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Galactic Collisions",
+        "name": "Merging Milky Way & Andromeda",
+        "icon": "🌀"
+      },
+      {
+        "title": "Exoplanet Glows",
+        "name": "Red Dwarf Aurora",
+        "icon": "🌑"
+      },
+      {
+        "title": "Black Hole Lights",
+        "name": "M87’s Jet",
+        "icon": "⚡"
+      },
+      {
+        "title": "Supernova Spectra",
+        "name": "SN 1987A Remnants",
+        "icon": "✨"
+      },
+      {
+        "title": "Quantum Wavefronts",
+        "name": "Intergalactic Light",
+        "icon": "🔮"
+      },
+      {
+        "title": "Cosmic Dust Sculptures",
+        "name": "Barnard 68",
+        "icon": "🧵"
       }
     ]
   },
@@ -109,49 +139,7 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "If you swam 10,000 feet, you'd see this.",
-        "duration": 4
-      },
-      {
-        "text": "What lurks in the abyss, haunting all marine explorers?",
-        "duration": 4
-      },
-      {
-        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "You think you’ve seen all storms? Think again.",
-        "duration": 4
-      },
-      {
-        "text": "What happens when lightning meets the aurora?",
-        "duration": 4
-      },
-      {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
         "duration": 5
       },
       {
@@ -161,6 +149,70 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Surveillance",
+        "name": "Neural Net Overwatch",
+        "icon": "👁️"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "Crystalplex Resource Grid",
+        "icon": "⛓️"
+      },
+      {
+        "title": "Synthetic Biology",
+        "name": "Coded Chimeras",
+        "icon": "🧬"
+      },
+      {
+        "title": "Weather Control",
+        "name": "Tempest Engine",
+        "icon": "🌩️"
+      },
+      {
+        "title": "Corporate Dominance",
+        "name": "OmniCorp Monolith",
+        "icon": "🏢"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel Protocol",
+        "icon": "🤖"
+      },
+      {
+        "title": "Memory Hack",
+        "name": "Echo Pathways",
+        "icon": "🧠"
+      },
+      {
+        "title": "Underground Resistance",
+        "name": "Shadows Network",
+        "icon": "🤐"
       }
     ]
   },
@@ -10059,6 +10111,53 @@
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776346155451": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776346155451 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Interface",
+        "name": "Dynamic Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "Auto Sync Engine",
+        "icon": "🔄"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Insights",
+        "icon": "🧠"
+      },
+      {
+        "title": "Security",
+        "name": "Zero Trust Module",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Performance",
+        "name": "Fast Lane Processor",
+        "icon": "🏎️"
+      },
+      {
+        "title": "Collaboration",
+        "name": "Real-time Chat",
+        "icon": "💬"
+      },
+      {
+        "title": "Customization",
+        "name": "Theme Builder",
+        "icon": "🎨"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Live Assist",
+        "icon": "🕒"
       }
     ]
   }
