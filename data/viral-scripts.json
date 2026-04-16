@@ -91,106 +91,188 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Stellar Cataclysm",
-        "name": "Supernova Symphony",
-        "icon": "💥"
+        "title": "Nebulae",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "title": "Galactic Dance",
-        "name": "Spiral Splendor",
-        "icon": "🌌"
-      },
-      {
-        "title": "Celestial Serpent",
-        "name": "Doodle Dragon Nebula",
+        "title": "Galaxies",
+        "name": "Whirlpool Galaxy",
         "icon": "🌀"
       },
       {
-        "title": "Time Warp",
-        "name": "Chrono Corridor",
-        "icon": "⏳"
+        "title": "Black Holes",
+        "name": "Sagittarius A*",
+        "icon": "🕳️"
       },
       {
-        "title": "Dark Matter Hunt",
-        "name": "Shadow Pulse",
-        "icon": "🌑"
+        "title": "Exoplanets",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
       },
       {
-        "title": "Quantum Beats",
-        "name": "Photon Pulse",
-        "icon": "🎶"
+        "title": "Supernova Remnants",
+        "name": "Crab Nebula",
+        "icon": "🐦"
       },
       {
-        "title": "Forgotten City",
-        "name": "Nebula Citadel",
-        "icon": "🏰"
+        "title": "Star Clusters",
+        "name": "Pleiades",
+        "icon": "🌟"
       },
       {
-        "title": "Gateway",
-        "name": "Event Horizon Portal",
-        "icon": "🚪"
+        "title": "CMB",
+        "name": "Trispectrum Map",
+        "icon": "📊"
+      },
+      {
+        "title": "Intergalactic Filaments",
+        "name": "Cosmic Web",
+        "icon": "🕸️"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Bioluminescent Horrors",
+        "name": "Giant Lantern Shark",
+        "icon": "🔦"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Electric Predators",
+        "name": "Electric Eel Leviathan",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Vampiric Hunters",
+        "name": "Cuvierian Oarfish",
+        "icon": "🦈"
+      },
+      {
+        "title": "Phantom Glowworms",
+        "name": "Southern Lightfish",
+        "icon": "🌌"
+      },
+      {
+        "title": "Methane Bubble Cannons",
+        "name": "Adelie Abyssal Crab",
+        "icon": "🐚"
+      },
+      {
+        "title": "Spiky Swallows",
+        "name": "Frilled Shark",
+        "icon": "🦙"
+      },
+      {
+        "title": "Deadly Ink Dancers",
+        "name": "Black Swallower",
+        "icon": "🖤"
+      },
+      {
+        "title": "Worm-like Killers",
+        "name": "Crown-of-Thorns Starfish",
+        "icon": "⭐"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "list": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
-        "duration": 4
+        "title": "Rainbows",
+        "name": "Double Rainbow over Yosemite",
+        "icon": "🌈"
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
-        "duration": 4
+        "title": "Auroras",
+        "name": "Northern Lights in Norway",
+        "icon": "🌌"
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
-        "duration": 4
+        "title": "Lightning",
+        "name": "Ball Lightning in a Desert Storm",
+        "icon": "⚡"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Fog",
+        "name": "Phantom Sea Fog over the Pacific",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Tornadoes",
+        "name": "Supercell Tornado in Oklahoma",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Heat Haze",
+        "name": "Mirage in the Sahara",
+        "icon": "🔥"
+      },
+      {
+        "title": "Martian Storms",
+        "name": "Dust Devil on Mars",
+        "icon": "🪐"
+      },
+      {
+        "title": "Solar Phenomena",
+        "name": "Solar Flare Aurora on the Moon",
+        "icon": "✨"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "What if your city turns into a simulation apocalypse?",
-        "duration": 4
+        "title": "Military AI",
+        "name": "Nano-Drone Recon",
+        "icon": "🎯"
       },
       {
-        "text": "Will your future be trapped inside a tech nightmare?",
-        "duration": 4
+        "title": "Urban Decay",
+        "name": "Grenfell Grid",
+        "icon": "🏙️"
       },
       {
-        "text": "Discover the simulation glitch that could save humanity.",
-        "duration": 4
+        "title": "Climate Collapse",
+        "name": "Thermal Decontaminator",
+        "icon": "♻️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Social Control",
+        "name": "Surveillance Matrix",
+        "icon": "🔍"
+      },
+      {
+        "title": "Resource Scarcity",
+        "name": "BlackMarket Broker",
+        "icon": "💰"
+      },
+      {
+        "title": "Energy Crisis",
+        "name": "Fusion Cube",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Biohazard",
+        "name": "Pandemic SimX",
+        "icon": "☣️"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel AI",
+        "icon": "🧠"
       }
     ]
   },
@@ -10337,6 +10419,23 @@
         "title": "Performance Tuning",
         "name": "Nano Optimizer",
         "icon": "⚙️"
+      }
+    ]
+  },
+  "ApexFlow_1776374028414": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776374028414 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
