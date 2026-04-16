@@ -92,75 +92,7 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
-        "duration": 4
-      },
-      {
-        "text": "What if the sky hides a secret that changes everything?",
-        "duration": 4
-      },
-      {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Night Stalkers",
-        "name": "The Hollow-Glowing Angler",
-        "icon": "🌑"
-      },
-      {
-        "title": "Echidna Monsters",
-        "name": "The Blood-Red Cuttlefish",
-        "icon": "🦀"
-      },
-      {
-        "title": "Silence Bringers",
-        "name": "The Whispering Squid",
-        "icon": "🦑"
-      },
-      {
-        "title": "Predator Lurkers",
-        "name": "The Phantom Manta",
-        "icon": "🦋"
-      },
-      {
-        "title": "Scorpion Deep",
-        "name": "The Black Sturgeon",
-        "icon": "🦈"
-      },
-      {
-        "title": "Molecule Terrors",
-        "name": "The Brown Necked Dragonfish",
-        "icon": "🐲"
-      },
-      {
-        "title": "Hallucinatory Dwellers",
-        "name": "The Glow-Eyed Dollfish",
-        "icon": "💀"
-      },
-      {
-        "title": "Lost Royalty",
-        "name": "The Abyssal Lobster King",
-        "icon": "👑"
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
         "duration": 5
       },
       {
@@ -170,6 +102,74 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Bioluminescent Horrors",
+        "name": "Giant Lantern Shark",
+        "icon": "🔦"
+      },
+      {
+        "title": "Electric Predators",
+        "name": "Electric Eel Leviathan",
+        "icon": "⚡"
+      },
+      {
+        "title": "Vampiric Hunters",
+        "name": "Cuvierian Oarfish",
+        "icon": "🦈"
+      },
+      {
+        "title": "Phantom Glowworms",
+        "name": "Southern Lightfish",
+        "icon": "🌌"
+      },
+      {
+        "title": "Methane Bubble Cannons",
+        "name": "Adelie Abyssal Crab",
+        "icon": "🐚"
+      },
+      {
+        "title": "Spiky Swallows",
+        "name": "Frilled Shark",
+        "icon": "🦙"
+      },
+      {
+        "title": "Deadly Ink Dancers",
+        "name": "Black Swallower",
+        "icon": "🖤"
+      },
+      {
+        "title": "Worm-like Killers",
+        "name": "Crown-of-Thorns Starfish",
+        "icon": "⭐"
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "You think you’ve seen all storms? Think again.",
+        "duration": 4
+      },
+      {
+        "text": "What happens when lightning meets the aurora?",
+        "duration": 4
+      },
+      {
+        "text": "Witness the sky bleed neon and thunder.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
@@ -9932,6 +9932,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1776306876348 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776311892193": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776311892193 are finally revealed.",
         "duration": 5
       },
       {
