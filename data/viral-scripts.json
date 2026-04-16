@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebulae",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galaxies",
+        "name": "Whirlpool Galaxy",
+        "icon": "🌀"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Black Holes",
+        "name": "Sagittarius A*",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Exoplanets",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
+      },
+      {
+        "title": "Supernova Remnants",
+        "name": "Crab Nebula",
+        "icon": "🐦"
+      },
+      {
+        "title": "Star Clusters",
+        "name": "Pleiades",
+        "icon": "🌟"
+      },
+      {
+        "title": "CMB",
+        "name": "Trispectrum Map",
+        "icon": "📊"
+      },
+      {
+        "title": "Intergalactic Filaments",
+        "name": "Cosmic Web",
+        "icon": "🕸️"
       }
     ]
   },
@@ -127,36 +157,96 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Rainbows",
+        "name": "Double Rainbow over Yosemite",
+        "icon": "🌈"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Northern Lights in Norway",
+        "icon": "🌌"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Lightning",
+        "name": "Ball Lightning in a Desert Storm",
+        "icon": "⚡"
+      },
+      {
+        "title": "Fog",
+        "name": "Phantom Sea Fog over the Pacific",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Tornadoes",
+        "name": "Supercell Tornado in Oklahoma",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Heat Haze",
+        "name": "Mirage in the Sahara",
+        "icon": "🔥"
+      },
+      {
+        "title": "Martian Storms",
+        "name": "Dust Devil on Mars",
+        "icon": "🪐"
+      },
+      {
+        "title": "Solar Phenomena",
+        "name": "Solar Flare Aurora on the Moon",
+        "icon": "✨"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Governance",
+        "name": "Surveillance Algorithm",
+        "icon": "👁️"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Environment",
+        "name": "Synthetic Bio-Destroyers",
+        "icon": "🧪"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Economics",
+        "name": "Debt-Nullification Bots",
+        "icon": "💸"
+      },
+      {
+        "title": "Technology",
+        "name": "Nanite Life Predictor",
+        "icon": "🤖"
+      },
+      {
+        "title": "Cognitive",
+        "name": "Subversion Drones",
+        "icon": "🧠"
+      },
+      {
+        "title": "Infrastructure",
+        "name": "Crackling Power Grid",
+        "icon": "⚡"
+      },
+      {
+        "title": "Society",
+        "name": "Memory Erasure Protocol",
+        "icon": "🗑️"
+      },
+      {
+        "title": "Silence",
+        "name": "Underground Data Forges",
+        "icon": "🕶️"
       }
     ]
   },
@@ -164,20 +254,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever seen a creature evolve in seconds?",
-        "duration": 4
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if your body could withstand molten suns?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -9987,6 +10073,53 @@
       {
         "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776324473785.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776333613922": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776333613922 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Algorithmic Core",
+        "name": "Resonant Engine",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Spectral Flux",
+        "name": "Photon Mirage",
+        "icon": "🔮"
+      },
+      {
+        "title": "Quantum Interface",
+        "name": "Neutrino Pulse",
+        "icon": "🌀"
+      },
+      {
+        "title": "Latent Hacks",
+        "name": "Shadow Protocol",
+        "icon": "🕵️"
+      },
+      {
+        "title": "Neural Sync",
+        "name": "Cerebral Link",
+        "icon": "🧠"
+      },
+      {
+        "title": "Temporal Shifts",
+        "name": "Phase Drift",
+        "icon": "⏳"
+      },
+      {
+        "title": "Ethereal Data",
+        "name": "Void Stream",
+        "icon": "🌌"
+      },
+      {
+        "title": "Meta-Level",
+        "name": "Singularity Gate",
+        "icon": "🚪"
       }
     ]
   }
