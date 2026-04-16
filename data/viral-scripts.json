@@ -89,49 +89,19 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebulae",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Galaxies",
-        "name": "Whirlpool Galaxy",
-        "icon": "🌀"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Black Holes",
-        "name": "Sagittarius A*",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Exoplanets",
-        "name": "TRAPPIST-1",
-        "icon": "🌍"
-      },
-      {
-        "title": "Supernova Remnants",
-        "name": "Crab Nebula",
-        "icon": "🐦"
-      },
-      {
-        "title": "Star Clusters",
-        "name": "Pleiades",
-        "icon": "🌟"
-      },
-      {
-        "title": "CMB",
-        "name": "Trispectrum Map",
-        "icon": "📊"
-      },
-      {
-        "title": "Intergalactic Filaments",
-        "name": "Cosmic Web",
-        "icon": "🕸️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -157,49 +127,19 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
-      },
-      {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
-      },
-      {
-        "title": "Solar",
-        "name": "Sundogs",
-        "icon": "🌞"
-      },
-      {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
-      },
-      {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -221,49 +161,19 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Morphology",
-        "name": "Chameleon Skin 2.0",
-        "icon": "🐍"
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Genetic",
-        "name": "CRISPR-Infused Polyploidy",
-        "icon": "🧬"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Neurology",
-        "name": "Synaptic Hyperloop",
-        "icon": "🧠"
-      },
-      {
-        "title": "Metabolic",
-        "name": "Nanolipid Osmosis",
-        "icon": "🧪"
-      },
-      {
-        "title": "Sensory",
-        "name": "Quantum Echolocation",
-        "icon": "📡"
-      },
-      {
-        "title": "Physiology",
-        "name": "Self-Healing Exoskeleton",
-        "icon": "🛡️"
-      },
-      {
-        "title": "Immune",
-        "name": "Adaptive Membrane Fermentation",
-        "icon": "🦠"
-      },
-      {
-        "title": "Energetic",
-        "name": "Zero-Point Energy Harvesting",
-        "icon": "⚡"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -10329,6 +10239,23 @@
         "title": "Endgame",
         "name": "Ethereal Ascension",
         "icon": "✨"
+      }
+    ]
+  },
+  "ApexFlow_1776366495765": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776366495765 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
