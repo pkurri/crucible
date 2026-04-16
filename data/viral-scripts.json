@@ -89,23 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The universe just blew a secret.",
-        "duration": 4
+        "title": "Celestial Fireworks",
+        "name": "Supernova Spectacle",
+        "icon": "💥"
       },
       {
-        "text": "Why do galaxies look like they’re winking?",
-        "duration": 4
+        "title": "Ancient Glow",
+        "name": "Eternal Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Because black holes paint each one as a moving light‑mirror.",
-        "duration": 4
+        "title": "Planetary Parade",
+        "name": "Jupiter’s Great Red Spot",
+        "icon": "🪐"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 3
+        "title": "Spiral Marvel",
+        "name": "Whirlpool Galaxy",
+        "icon": "🌀"
+      },
+      {
+        "title": "Radio Miracles",
+        "name": "Crab Nebula",
+        "icon": "📡"
+      },
+      {
+        "title": "Solar Drama",
+        "name": "Total Solar Eclipse",
+        "icon": "☀️"
+      },
+      {
+        "title": "Interstellar Maze",
+        "name": "Orion Star Cluster",
+        "icon": "🌟"
+      },
+      {
+        "title": "Cosmic Aurora",
+        "name": "Northern Lights",
+        "icon": "🌠"
       }
     ]
   },
@@ -157,19 +183,49 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "🏔️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Mirage",
+        "name": "Fata Morgana",
+        "icon": "🌈"
+      },
+      {
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze",
+        "icon": "🔥"
+      },
+      {
+        "title": "Solar",
+        "name": "Sundogs",
+        "icon": "🌞"
+      },
+      {
+        "title": "Atmosphere",
+        "name": "Belt of Venus",
+        "icon": "💫"
+      },
+      {
+        "title": "Night",
+        "name": "Noctilucent Clouds",
+        "icon": "🌙"
       }
     ]
   },
@@ -191,23 +247,49 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Ever seen a creature evolve in seconds?",
-        "duration": 4
+        "title": "Morphology",
+        "name": "Chameleon Skin 2.0",
+        "icon": "🐍"
       },
       {
-        "text": "What if your body could withstand molten suns?",
-        "duration": 4
+        "title": "Genetic",
+        "name": "CRISPR-Infused Polyploidy",
+        "icon": "🧬"
       },
       {
-        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
-        "duration": 4
+        "title": "Neurology",
+        "name": "Synaptic Hyperloop",
+        "icon": "🧠"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Metabolic",
+        "name": "Nanolipid Osmosis",
+        "icon": "🧪"
+      },
+      {
+        "title": "Sensory",
+        "name": "Quantum Echolocation",
+        "icon": "📡"
+      },
+      {
+        "title": "Physiology",
+        "name": "Self-Healing Exoskeleton",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Immune",
+        "name": "Adaptive Membrane Fermentation",
+        "icon": "🦠"
+      },
+      {
+        "title": "Energetic",
+        "name": "Zero-Point Energy Harvesting",
+        "icon": "⚡"
       }
     ]
   },
@@ -10179,6 +10261,53 @@
         "title": "Future",
         "name": "QuantumLeap AI",
         "icon": "🧬"
+      }
+    ]
+  },
+  "ApexFlow_1776359720268": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776359720268 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1776359720268, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Data Streams",
+        "name": "FluxStream Engine",
+        "icon": "🔀"
+      },
+      {
+        "title": "Real-time Sync",
+        "name": "ApexPulse Sync",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Security Layer",
+        "name": "ApexShield Guard",
+        "icon": "🔒"
+      },
+      {
+        "title": "Scalability",
+        "name": "QuantumScale Module",
+        "icon": "🚀"
+      },
+      {
+        "title": "UI Widgets",
+        "name": "ApexLens UI Kit",
+        "icon": "🧩"
+      },
+      {
+        "title": "Automation Rules",
+        "name": "FlowCraft Engine",
+        "icon": "🤖"
+      },
+      {
+        "title": "Analytics Dashboard",
+        "name": "InsightMatrix Hub",
+        "icon": "📊"
+      },
+      {
+        "title": "Community Plugins",
+        "name": "ApexFusion Plug-Ins",
+        "icon": "🌐"
       }
     ]
   }
