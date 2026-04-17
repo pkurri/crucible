@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebular Majesty",
+        "name": "The Orion Nebula",
+        "icon": "🪐"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Stellar Birthplaces",
+        "name": "Eagle Nebula’s Pillars",
+        "icon": "✂️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Galactic Collisions",
+        "name": "Merging Milky Way & Andromeda",
+        "icon": "🌀"
+      },
+      {
+        "title": "Exoplanet Glows",
+        "name": "Red Dwarf Aurora",
+        "icon": "🌑"
+      },
+      {
+        "title": "Black Hole Lights",
+        "name": "M87’s Jet",
+        "icon": "⚡"
+      },
+      {
+        "title": "Supernova Spectra",
+        "name": "SN 1987A Remnants",
+        "icon": "✨"
+      },
+      {
+        "title": "Quantum Wavefronts",
+        "name": "Intergalactic Light",
+        "icon": "🔮"
+      },
+      {
+        "title": "Cosmic Dust Sculptures",
+        "name": "Barnard 68",
+        "icon": "🧵"
       }
     ]
   },
@@ -123,96 +153,70 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "This video shatters the sky—watch the impossible.",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡"
+        "text": "Ever wonder why auroras outshine rainbows?",
+        "duration": 4
       },
       {
-        "title": "Clouds",
-        "name": "Alpenglow",
-        "icon": "☁️"
+        "text": "Because the ionosphere turns lightning into living light.",
+        "duration": 4
       },
       {
-        "title": "Winds",
-        "name": "Thermal Vortex",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Storms",
-        "name": "Supercell",
-        "icon": "⛈️"
-      },
-      {
-        "title": "Tornadoes",
-        "name": "Swirly Whirl",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Optics",
-        "name": "Moonbow",
-        "icon": "🌈"
-      },
-      {
-        "title": "Celestial",
-        "name": "Fireball",
-        "icon": "🔥"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Surveillance",
-        "name": "Neural Net Overwatch",
+        "title": "Governance",
+        "name": "Surveillance Algorithm",
         "icon": "👁️"
       },
       {
-        "title": "Resource Scarcity",
-        "name": "Crystalplex Resource Grid",
-        "icon": "⛓️"
+        "title": "Environment",
+        "name": "Synthetic Bio-Destroyers",
+        "icon": "🧪"
       },
       {
-        "title": "Synthetic Biology",
-        "name": "Coded Chimeras",
-        "icon": "🧬"
+        "title": "Economics",
+        "name": "Debt-Nullification Bots",
+        "icon": "💸"
       },
       {
-        "title": "Weather Control",
-        "name": "Tempest Engine",
-        "icon": "🌩️"
-      },
-      {
-        "title": "Corporate Dominance",
-        "name": "OmniCorp Monolith",
-        "icon": "🏢"
-      },
-      {
-        "title": "AI Governance",
-        "name": "Sentinel Protocol",
+        "title": "Technology",
+        "name": "Nanite Life Predictor",
         "icon": "🤖"
       },
       {
-        "title": "Memory Hack",
-        "name": "Echo Pathways",
+        "title": "Cognitive",
+        "name": "Subversion Drones",
         "icon": "🧠"
       },
       {
-        "title": "Underground Resistance",
-        "name": "Shadows Network",
-        "icon": "🤐"
+        "title": "Infrastructure",
+        "name": "Crackling Power Grid",
+        "icon": "⚡"
+      },
+      {
+        "title": "Society",
+        "name": "Memory Erasure Protocol",
+        "icon": "🗑️"
+      },
+      {
+        "title": "Silence",
+        "name": "Underground Data Forges",
+        "icon": "🕶️"
       }
     ]
   },
@@ -10559,6 +10563,23 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776419883117": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776419883117 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
