@@ -89,49 +89,23 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebular Majesty",
-        "name": "The Orion Nebula",
-        "icon": "🪐"
+        "text": "Ever felt the universe breathing at your fingertips?",
+        "duration": 4
       },
       {
-        "title": "Stellar Birthplaces",
-        "name": "Eagle Nebula’s Pillars",
-        "icon": "✂️"
+        "text": "What if the sky hides a secret that changes everything?",
+        "duration": 4
       },
       {
-        "title": "Galactic Collisions",
-        "name": "Merging Milky Way & Andromeda",
-        "icon": "🌀"
+        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
+        "duration": 4
       },
       {
-        "title": "Exoplanet Glows",
-        "name": "Red Dwarf Aurora",
-        "icon": "🌑"
-      },
-      {
-        "title": "Black Hole Lights",
-        "name": "M87’s Jet",
-        "icon": "⚡"
-      },
-      {
-        "title": "Supernova Spectra",
-        "name": "SN 1987A Remnants",
-        "icon": "✨"
-      },
-      {
-        "title": "Quantum Wavefronts",
-        "name": "Intergalactic Light",
-        "icon": "🔮"
-      },
-      {
-        "title": "Cosmic Dust Sculptures",
-        "name": "Barnard 68",
-        "icon": "🧵"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -156,67 +130,37 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your city turns into a simulation apocalypse?",
         "duration": 4
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
+        "text": "Will your future be trapped inside a tech nightmare?",
         "duration": 4
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
+        "text": "Discover the simulation glitch that could save humanity.",
         "duration": 4
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
-      {
-        "title": "Governance",
-        "name": "Surveillance Algorithm",
-        "icon": "👁️"
-      },
-      {
-        "title": "Environment",
-        "name": "Synthetic Bio-Destroyers",
-        "icon": "🧪"
-      },
-      {
-        "title": "Economics",
-        "name": "Debt-Nullification Bots",
-        "icon": "💸"
-      },
-      {
-        "title": "Technology",
-        "name": "Nanite Life Predictor",
-        "icon": "🤖"
-      },
-      {
-        "title": "Cognitive",
-        "name": "Subversion Drones",
-        "icon": "🧠"
-      },
-      {
-        "title": "Infrastructure",
-        "name": "Crackling Power Grid",
-        "icon": "⚡"
-      },
-      {
-        "title": "Society",
-        "name": "Memory Erasure Protocol",
-        "icon": "🗑️"
-      },
-      {
-        "title": "Silence",
-        "name": "Underground Data Forges",
-        "icon": "🕶️"
       }
     ]
   },
@@ -10571,6 +10515,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1776419883117 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776431507221": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776431507221 are finally revealed.",
         "duration": 5
       },
       {
