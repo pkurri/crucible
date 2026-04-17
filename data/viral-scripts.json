@@ -123,36 +123,96 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Clouds",
+        "name": "Alpenglow",
+        "icon": "☁️"
+      },
+      {
+        "title": "Winds",
+        "name": "Thermal Vortex",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Storms",
+        "name": "Supercell",
+        "icon": "⛈️"
+      },
+      {
+        "title": "Tornadoes",
+        "name": "Swirly Whirl",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Optics",
+        "name": "Moonbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Celestial",
+        "name": "Fireball",
+        "icon": "🔥"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "Neural Net Overwatch",
+        "icon": "👁️"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Resource Scarcity",
+        "name": "Crystalplex Resource Grid",
+        "icon": "⛓️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Synthetic Biology",
+        "name": "Coded Chimeras",
+        "icon": "🧬"
+      },
+      {
+        "title": "Weather Control",
+        "name": "Tempest Engine",
+        "icon": "🌩️"
+      },
+      {
+        "title": "Corporate Dominance",
+        "name": "OmniCorp Monolith",
+        "icon": "🏢"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel Protocol",
+        "icon": "🤖"
+      },
+      {
+        "title": "Memory Hack",
+        "name": "Echo Pathways",
+        "icon": "🧠"
+      },
+      {
+        "title": "Underground Resistance",
+        "name": "Shadows Network",
+        "icon": "🤐"
       }
     ]
   },
@@ -160,20 +220,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever seen a creature evolve in seconds?",
-        "duration": 4
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if your body could withstand molten suns?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -10482,6 +10538,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776417479132": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "This isn't a video, it's an apocalypse of neon.",
+        "duration": 4
+      },
+      {
+        "text": "How does a liquid generate a cosmos of data?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets paint neon cascades inside hyper-Car.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   }
