@@ -91,47 +91,47 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Nebular Majesty",
-        "name": "The Orion Nebula",
+        "title": "Celestial Fireworks",
+        "name": "Supernova Spectacle",
+        "icon": "💥"
+      },
+      {
+        "title": "Ancient Glow",
+        "name": "Eternal Nebula",
+        "icon": "🌌"
+      },
+      {
+        "title": "Planetary Parade",
+        "name": "Jupiter’s Great Red Spot",
         "icon": "🪐"
       },
       {
-        "title": "Stellar Birthplaces",
-        "name": "Eagle Nebula’s Pillars",
-        "icon": "✂️"
-      },
-      {
-        "title": "Galactic Collisions",
-        "name": "Merging Milky Way & Andromeda",
+        "title": "Spiral Marvel",
+        "name": "Whirlpool Galaxy",
         "icon": "🌀"
       },
       {
-        "title": "Exoplanet Glows",
-        "name": "Red Dwarf Aurora",
-        "icon": "🌑"
+        "title": "Radio Miracles",
+        "name": "Crab Nebula",
+        "icon": "📡"
       },
       {
-        "title": "Black Hole Lights",
-        "name": "M87’s Jet",
-        "icon": "⚡"
+        "title": "Solar Drama",
+        "name": "Total Solar Eclipse",
+        "icon": "☀️"
       },
       {
-        "title": "Supernova Spectra",
-        "name": "SN 1987A Remnants",
-        "icon": "✨"
+        "title": "Interstellar Maze",
+        "name": "Orion Star Cluster",
+        "icon": "🌟"
       },
       {
-        "title": "Quantum Wavefronts",
-        "name": "Intergalactic Light",
-        "icon": "🔮"
-      },
-      {
-        "title": "Cosmic Dust Sculptures",
-        "name": "Barnard 68",
-        "icon": "🧵"
+        "title": "Cosmic Aurora",
+        "name": "Northern Lights",
+        "icon": "🌠"
       }
     ]
   },
@@ -185,123 +185,55 @@
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Auroras",
+        "title": "Auroral Wonders",
         "name": "Northern Lights",
         "icon": "🌌"
       },
       {
-        "title": "Lightning",
+        "title": "Twilight Spectacles",
+        "name": "Double Sunset",
+        "icon": "🌠"
+      },
+      {
+        "title": "Lightning Marvels",
         "name": "Ball Lightning",
-        "icon": "⚡"
+        "icon": "⚡️"
       },
       {
-        "title": "Clouds",
-        "name": "Alpenglow",
-        "icon": "☁️"
-      },
-      {
-        "title": "Winds",
-        "name": "Thermal Vortex",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Storms",
-        "name": "Supercell",
-        "icon": "⛈️"
-      },
-      {
-        "title": "Tornadoes",
-        "name": "Swirly Whirl",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Optics",
-        "name": "Moonbow",
+        "title": "Rainbow Horizons",
+        "name": "Sun Dog",
         "icon": "🌈"
       },
       {
-        "title": "Celestial",
-        "name": "Fireball",
-        "icon": "🔥"
+        "title": "Cloud Artistry",
+        "name": "Lenticular Clouds",
+        "icon": "🌁"
+      },
+      {
+        "title": "Wind Shapes",
+        "name": "Cat's Eye Cloud",
+        "icon": "🐈‍⬛"
+      },
+      {
+        "title": "Mystic Fog",
+        "name": "Moon Fog",
+        "icon": "🌑"
+      },
+      {
+        "title": "Volcanic Storms",
+        "name": "Lightning-Erupting Volcano",
+        "icon": "🔥⚡️"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Surveillance",
-        "name": "Neural Net Overwatch",
-        "icon": "👁️"
-      },
-      {
-        "title": "Resource Scarcity",
-        "name": "Crystalplex Resource Grid",
-        "icon": "⛓️"
-      },
-      {
-        "title": "Synthetic Biology",
-        "name": "Coded Chimeras",
-        "icon": "🧬"
-      },
-      {
-        "title": "Weather Control",
-        "name": "Tempest Engine",
-        "icon": "🌩️"
-      },
-      {
-        "title": "Corporate Dominance",
-        "name": "OmniCorp Monolith",
-        "icon": "🏢"
-      },
-      {
-        "title": "AI Governance",
-        "name": "Sentinel Protocol",
-        "icon": "🤖"
-      },
-      {
-        "title": "Memory Hack",
-        "name": "Echo Pathways",
-        "icon": "🧠"
-      },
-      {
-        "title": "Underground Resistance",
-        "name": "Shadows Network",
-        "icon": "🤐"
-      }
-    ]
-  },
-  "HyperEvolutionaryAdaptations": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever seen a creature evolve in seconds?",
-        "duration": 4
-      },
-      {
-        "text": "What if your body could withstand molten suns?",
-        "duration": 4
-      },
-      {
-        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
-  "ImpossibleArchitectureBlueprints": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "The secrets of ImpossibleArchitectureBlueprints are finally revealed.",
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
         "duration": 5
       },
       {
@@ -311,6 +243,100 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "HyperEvolutionaryAdaptations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Morphology",
+        "name": "Chameleon Skin 2.0",
+        "icon": "🐍"
+      },
+      {
+        "title": "Genetic",
+        "name": "CRISPR-Infused Polyploidy",
+        "icon": "🧬"
+      },
+      {
+        "title": "Neurology",
+        "name": "Synaptic Hyperloop",
+        "icon": "🧠"
+      },
+      {
+        "title": "Metabolic",
+        "name": "Nanolipid Osmosis",
+        "icon": "🧪"
+      },
+      {
+        "title": "Sensory",
+        "name": "Quantum Echolocation",
+        "icon": "📡"
+      },
+      {
+        "title": "Physiology",
+        "name": "Self-Healing Exoskeleton",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Immune",
+        "name": "Adaptive Membrane Fermentation",
+        "icon": "🦠"
+      },
+      {
+        "title": "Energetic",
+        "name": "Zero-Point Energy Harvesting",
+        "icon": "⚡"
+      }
+    ]
+  },
+  "ImpossibleArchitectureBlueprints": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ImpossibleArchitectureBlueprints secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Sky‑High Paradox",
+        "name": "Arius Skyport",
+        "icon": "🏰"
+      },
+      {
+        "title": "Unfolding Spire",
+        "name": "Eterna Spiral",
+        "icon": "🔄"
+      },
+      {
+        "title": "Floating Lighthouse",
+        "name": "Everlight Beacon",
+        "icon": "⚡"
+      },
+      {
+        "title": "Infinite Hall",
+        "name": "Panta Rhei Forum",
+        "icon": "↩️"
+      },
+      {
+        "title": "Time‑Loop Tower",
+        "name": "Chrono Granum",
+        "icon": "⏳"
+      },
+      {
+        "title": "Sub‑Zero Fortress",
+        "name": "Glacius Citadel",
+        "icon": "❄️"
+      },
+      {
+        "title": "Mirrored City",
+        "name": "Reflector Metropolis",
+        "icon": "💎"
+      },
+      {
+        "title": "Vertical Ocean",
+        "name": "Aqua Vertis",
+        "icon": "🌊"
       }
     ]
   },
