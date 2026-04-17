@@ -89,49 +89,23 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebulae",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "The universe just blew a secret.",
+        "duration": 4
       },
       {
-        "title": "Galaxies",
-        "name": "Whirlpool Galaxy",
-        "icon": "🌀"
+        "text": "Why do galaxies look like they’re winking?",
+        "duration": 4
       },
       {
-        "title": "Black Holes",
-        "name": "Sagittarius A*",
-        "icon": "🕳️"
+        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "duration": 4
       },
       {
-        "title": "Exoplanets",
-        "name": "TRAPPIST-1",
-        "icon": "🌍"
-      },
-      {
-        "title": "Supernova Remnants",
-        "name": "Crab Nebula",
-        "icon": "🐦"
-      },
-      {
-        "title": "Star Clusters",
-        "name": "Pleiades",
-        "icon": "🌟"
-      },
-      {
-        "title": "CMB",
-        "name": "Trispectrum Map",
-        "icon": "📊"
-      },
-      {
-        "title": "Intergalactic Filaments",
-        "name": "Cosmic Web",
-        "icon": "🕸️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   },
@@ -183,91 +157,113 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Clouds",
-        "name": "Alpenglow",
-        "icon": "☁️"
-      },
-      {
-        "title": "Winds",
-        "name": "Thermal Vortex",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Storms",
-        "name": "Supercell",
-        "icon": "⛈️"
-      },
-      {
-        "title": "Tornadoes",
-        "name": "Swirly Whirl",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Optics",
-        "name": "Moonbow",
-        "icon": "🌈"
-      },
-      {
-        "title": "Celestial",
-        "name": "Fireball",
-        "icon": "🔥"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "What if your city turns into a simulation apocalypse?",
-        "duration": 4
+        "title": "Governance",
+        "name": "Surveillance Algorithm",
+        "icon": "👁️"
       },
       {
-        "text": "Will your future be trapped inside a tech nightmare?",
-        "duration": 4
+        "title": "Environment",
+        "name": "Synthetic Bio-Destroyers",
+        "icon": "🧪"
       },
       {
-        "text": "Discover the simulation glitch that could save humanity.",
-        "duration": 4
+        "title": "Economics",
+        "name": "Debt-Nullification Bots",
+        "icon": "💸"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Technology",
+        "name": "Nanite Life Predictor",
+        "icon": "🤖"
+      },
+      {
+        "title": "Cognitive",
+        "name": "Subversion Drones",
+        "icon": "🧠"
+      },
+      {
+        "title": "Infrastructure",
+        "name": "Crackling Power Grid",
+        "icon": "⚡"
+      },
+      {
+        "title": "Society",
+        "name": "Memory Erasure Protocol",
+        "icon": "🗑️"
+      },
+      {
+        "title": "Silence",
+        "name": "Underground Data Forges",
+        "icon": "🕶️"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Ever seen a creature evolve in seconds?",
-        "duration": 4
+        "title": "Genomic Hyperloop",
+        "name": "Chromosomal Singularity",
+        "icon": "🧬"
       },
       {
-        "text": "What if your body could withstand molten suns?",
-        "duration": 4
+        "title": "Quantum Immortality Respiration",
+        "name": "Radiant Core",
+        "icon": "⚡"
       },
       {
-        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
-        "duration": 4
+        "title": "Aetheric Resonance",
+        "name": "Celestial Pulse",
+        "icon": "🎇"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Neural Synaptic Catapult",
+        "name": "Emotion Launcher",
+        "icon": "🦉"
+      },
+      {
+        "title": "Photonic Camouflage",
+        "name": "Spectral Veil",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Artificial Symbiosis",
+        "name": "Coalesce Matrix",
+        "icon": "👽"
+      },
+      {
+        "title": "Bio-Phased Chromatophores",
+        "name": "Nano Flicker",
+        "icon": "🔁"
+      },
+      {
+        "title": "Hyperelastic Dermis",
+        "name": "Flex Skin",
+        "icon": "🧜‍♂️"
       }
     ]
   },
@@ -10746,6 +10742,53 @@
         "title": "Support",
         "name": "ApexFlow Helpline",
         "icon": "☎️"
+      }
+    ]
+  },
+  "ApexFlow_1776446900944": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776446900944 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776446900944.",
+    "list": [
+      {
+        "title": "AI Enhancement",
+        "name": "Neural Optimizer",
+        "icon": "🤖"
+      },
+      {
+        "title": "User Interface",
+        "name": "Dream UI",
+        "icon": "🎨"
+      },
+      {
+        "title": "Automation",
+        "name": "Auto-Tasker",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Data Analytics",
+        "name": "Insight Engine",
+        "icon": "📊"
+      },
+      {
+        "title": "Security",
+        "name": "Shield Pro",
+        "icon": "🔐"
+      },
+      {
+        "title": "Scalability",
+        "name": "Elastic Scaling",
+        "icon": "🌱"
+      },
+      {
+        "title": "Billing",
+        "name": "PayPort",
+        "icon": "💳"
+      },
+      {
+        "title": "Community",
+        "name": "Community Hub",
+        "icon": "🌐"
       }
     ]
   }
