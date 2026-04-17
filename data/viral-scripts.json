@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Celestial Fireworks",
+        "name": "Supernova Spectacle",
+        "icon": "💥"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Ancient Glow",
+        "name": "Eternal Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Planetary Parade",
+        "name": "Jupiter’s Great Red Spot",
+        "icon": "🪐"
+      },
+      {
+        "title": "Spiral Marvel",
+        "name": "Whirlpool Galaxy",
+        "icon": "🌀"
+      },
+      {
+        "title": "Radio Miracles",
+        "name": "Crab Nebula",
+        "icon": "📡"
+      },
+      {
+        "title": "Solar Drama",
+        "name": "Total Solar Eclipse",
+        "icon": "☀️"
+      },
+      {
+        "title": "Interstellar Maze",
+        "name": "Orion Star Cluster",
+        "icon": "🌟"
+      },
+      {
+        "title": "Cosmic Aurora",
+        "name": "Northern Lights",
+        "icon": "🌠"
       }
     ]
   },
@@ -123,36 +153,96 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Rainbows",
+        "name": "Double Rainbow over Yosemite",
+        "icon": "🌈"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Northern Lights in Norway",
+        "icon": "🌌"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Lightning",
+        "name": "Ball Lightning in a Desert Storm",
+        "icon": "⚡"
+      },
+      {
+        "title": "Fog",
+        "name": "Phantom Sea Fog over the Pacific",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Tornadoes",
+        "name": "Supercell Tornado in Oklahoma",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Heat Haze",
+        "name": "Mirage in the Sahara",
+        "icon": "🔥"
+      },
+      {
+        "title": "Martian Storms",
+        "name": "Dust Devil on Mars",
+        "icon": "🪐"
+      },
+      {
+        "title": "Solar Phenomena",
+        "name": "Solar Flare Aurora on the Moon",
+        "icon": "✨"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Governance",
+        "name": "Surveillance Algorithm",
+        "icon": "👁️"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Environment",
+        "name": "Synthetic Bio-Destroyers",
+        "icon": "🧪"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Economics",
+        "name": "Debt-Nullification Bots",
+        "icon": "💸"
+      },
+      {
+        "title": "Technology",
+        "name": "Nanite Life Predictor",
+        "icon": "🤖"
+      },
+      {
+        "title": "Cognitive",
+        "name": "Subversion Drones",
+        "icon": "🧠"
+      },
+      {
+        "title": "Infrastructure",
+        "name": "Crackling Power Grid",
+        "icon": "⚡"
+      },
+      {
+        "title": "Society",
+        "name": "Memory Erasure Protocol",
+        "icon": "🗑️"
+      },
+      {
+        "title": "Silence",
+        "name": "Underground Data Forges",
+        "icon": "🕶️"
       }
     ]
   },
@@ -10328,6 +10418,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1776391811137 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776393049855": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776393049855 are finally revealed.",
         "duration": 5
       },
       {
