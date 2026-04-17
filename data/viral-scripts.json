@@ -91,158 +91,188 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Celestial Fireworks",
-        "name": "Supernova Spectacle",
-        "icon": "💥"
-      },
-      {
-        "title": "Ancient Glow",
-        "name": "Eternal Nebula",
-        "icon": "🌌"
-      },
-      {
-        "title": "Planetary Parade",
-        "name": "Jupiter’s Great Red Spot",
+        "title": "Nebular Majesty",
+        "name": "The Orion Nebula",
         "icon": "🪐"
       },
       {
-        "title": "Spiral Marvel",
-        "name": "Whirlpool Galaxy",
+        "title": "Stellar Birthplaces",
+        "name": "Eagle Nebula’s Pillars",
+        "icon": "✂️"
+      },
+      {
+        "title": "Galactic Collisions",
+        "name": "Merging Milky Way & Andromeda",
         "icon": "🌀"
       },
       {
-        "title": "Radio Miracles",
-        "name": "Crab Nebula",
-        "icon": "📡"
+        "title": "Exoplanet Glows",
+        "name": "Red Dwarf Aurora",
+        "icon": "🌑"
       },
       {
-        "title": "Solar Drama",
-        "name": "Total Solar Eclipse",
-        "icon": "☀️"
+        "title": "Black Hole Lights",
+        "name": "M87’s Jet",
+        "icon": "⚡"
       },
       {
-        "title": "Interstellar Maze",
-        "name": "Orion Star Cluster",
-        "icon": "🌟"
+        "title": "Supernova Spectra",
+        "name": "SN 1987A Remnants",
+        "icon": "✨"
       },
       {
-        "title": "Cosmic Aurora",
-        "name": "Northern Lights",
-        "icon": "🌠"
+        "title": "Quantum Wavefronts",
+        "name": "Intergalactic Light",
+        "icon": "🔮"
+      },
+      {
+        "title": "Cosmic Dust Sculptures",
+        "name": "Barnard 68",
+        "icon": "🧵"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Night Stalkers",
+        "name": "The Hollow-Glowing Angler",
+        "icon": "🌑"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Echidna Monsters",
+        "name": "The Blood-Red Cuttlefish",
+        "icon": "🦀"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Silence Bringers",
+        "name": "The Whispering Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Predator Lurkers",
+        "name": "The Phantom Manta",
+        "icon": "🦋"
+      },
+      {
+        "title": "Scorpion Deep",
+        "name": "The Black Sturgeon",
+        "icon": "🦈"
+      },
+      {
+        "title": "Molecule Terrors",
+        "name": "The Brown Necked Dragonfish",
+        "icon": "🐲"
+      },
+      {
+        "title": "Hallucinatory Dwellers",
+        "name": "The Glow-Eyed Dollfish",
+        "icon": "💀"
+      },
+      {
+        "title": "Lost Royalty",
+        "name": "The Abyssal Lobster King",
+        "icon": "👑"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Rainbows",
-        "name": "Double Rainbow over Yosemite",
-        "icon": "🌈"
-      },
-      {
         "title": "Auroras",
-        "name": "Northern Lights in Norway",
+        "name": "Northern Lights",
         "icon": "🌌"
       },
       {
         "title": "Lightning",
-        "name": "Ball Lightning in a Desert Storm",
+        "name": "Ball Lightning",
         "icon": "⚡"
       },
       {
-        "title": "Fog",
-        "name": "Phantom Sea Fog over the Pacific",
-        "icon": "🌫️"
+        "title": "Clouds",
+        "name": "Alpenglow",
+        "icon": "☁️"
       },
       {
-        "title": "Tornadoes",
-        "name": "Supercell Tornado in Oklahoma",
+        "title": "Winds",
+        "name": "Thermal Vortex",
         "icon": "🌪️"
       },
       {
-        "title": "Heat Haze",
-        "name": "Mirage in the Sahara",
+        "title": "Storms",
+        "name": "Supercell",
+        "icon": "⛈️"
+      },
+      {
+        "title": "Tornadoes",
+        "name": "Swirly Whirl",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Optics",
+        "name": "Moonbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Celestial",
+        "name": "Fireball",
         "icon": "🔥"
-      },
-      {
-        "title": "Martian Storms",
-        "name": "Dust Devil on Mars",
-        "icon": "🪐"
-      },
-      {
-        "title": "Solar Phenomena",
-        "name": "Solar Flare Aurora on the Moon",
-        "icon": "✨"
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Governance",
-        "name": "Surveillance Algorithm",
+        "title": "Surveillance",
+        "name": "Neural Net Overwatch",
         "icon": "👁️"
       },
       {
-        "title": "Environment",
-        "name": "Synthetic Bio-Destroyers",
-        "icon": "🧪"
+        "title": "Resource Scarcity",
+        "name": "Crystalplex Resource Grid",
+        "icon": "⛓️"
       },
       {
-        "title": "Economics",
-        "name": "Debt-Nullification Bots",
-        "icon": "💸"
+        "title": "Synthetic Biology",
+        "name": "Coded Chimeras",
+        "icon": "🧬"
       },
       {
-        "title": "Technology",
-        "name": "Nanite Life Predictor",
+        "title": "Weather Control",
+        "name": "Tempest Engine",
+        "icon": "🌩️"
+      },
+      {
+        "title": "Corporate Dominance",
+        "name": "OmniCorp Monolith",
+        "icon": "🏢"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel Protocol",
         "icon": "🤖"
       },
       {
-        "title": "Cognitive",
-        "name": "Subversion Drones",
+        "title": "Memory Hack",
+        "name": "Echo Pathways",
         "icon": "🧠"
       },
       {
-        "title": "Infrastructure",
-        "name": "Crackling Power Grid",
-        "icon": "⚡"
-      },
-      {
-        "title": "Society",
-        "name": "Memory Erasure Protocol",
-        "icon": "🗑️"
-      },
-      {
-        "title": "Silence",
-        "name": "Underground Data Forges",
-        "icon": "🕶️"
+        "title": "Underground Resistance",
+        "name": "Shadows Network",
+        "icon": "🤐"
       }
     ]
   },
@@ -10444,6 +10474,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776398109650": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776398109650 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776398109650.",
+    "list": [
+      {
+        "title": "Speed Boosts",
+        "name": "Quantum Latency Ripple",
+        "icon": "⚡"
+      },
+      {
+        "title": "UI Mastery",
+        "name": "Dynamic Dark Mode Scheduler",
+        "icon": "🌑"
+      },
+      {
+        "title": "Automation",
+        "name": "Predictive Task Weaver",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "Zero-Detection Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Data Insights",
+        "name": "Neural Pulse Analytics",
+        "icon": "🧠"
+      },
+      {
+        "title": "Integration",
+        "name": "Cross-Platform Mesh",
+        "icon": "🌐"
+      },
+      {
+        "title": "Customization",
+        "name": "Mindful Theme Orbit",
+        "icon": "🌓"
+      },
+      {
+        "title": "Future Tech",
+        "name": "Foldable Reality Engine",
+        "icon": "🪐"
       }
     ]
   }
