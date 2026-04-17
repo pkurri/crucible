@@ -127,57 +127,143 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "🏔️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Mirage",
+        "name": "Fata Morgana",
+        "icon": "🌈"
+      },
+      {
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze",
+        "icon": "🔥"
+      },
+      {
+        "title": "Solar",
+        "name": "Sundogs",
+        "icon": "🌞"
+      },
+      {
+        "title": "Atmosphere",
+        "name": "Belt of Venus",
+        "icon": "💫"
+      },
+      {
+        "title": "Night",
+        "name": "Noctilucent Clouds",
+        "icon": "🌙"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "What if your city turns into a simulation apocalypse?",
-        "duration": 4
+        "title": "Governance",
+        "name": "Surveillance Algorithm",
+        "icon": "👁️"
       },
       {
-        "text": "Will your future be trapped inside a tech nightmare?",
-        "duration": 4
+        "title": "Environment",
+        "name": "Synthetic Bio-Destroyers",
+        "icon": "🧪"
       },
       {
-        "text": "Discover the simulation glitch that could save humanity.",
-        "duration": 4
+        "title": "Economics",
+        "name": "Debt-Nullification Bots",
+        "icon": "💸"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Technology",
+        "name": "Nanite Life Predictor",
+        "icon": "🤖"
+      },
+      {
+        "title": "Cognitive",
+        "name": "Subversion Drones",
+        "icon": "🧠"
+      },
+      {
+        "title": "Infrastructure",
+        "name": "Crackling Power Grid",
+        "icon": "⚡"
+      },
+      {
+        "title": "Society",
+        "name": "Memory Erasure Protocol",
+        "icon": "🗑️"
+      },
+      {
+        "title": "Silence",
+        "name": "Underground Data Forges",
+        "icon": "🕶️"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
+    "list": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "title": "Photosynthetic Symbiosis",
+        "name": "Sun‑Kissed Symbiosis",
+        "icon": "🌞"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Adaptive Regeneration",
+        "name": "Regeneration Pulse",
+        "icon": "♻️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Cryogenic Dormancy",
+        "name": "Ice‑Bound Rebirth",
+        "icon": "❄️"
+      },
+      {
+        "title": "Quantum Sensory",
+        "name": "Quantum Sight",
+        "icon": "🌌"
+      },
+      {
+        "title": "Nano‑Genetic Fusion",
+        "name": "Nanobot Genome Merge",
+        "icon": "🤖"
+      },
+      {
+        "title": "Fractal Neural Patterns",
+        "name": "Fractal Synapse",
+        "icon": "🧬"
+      },
+      {
+        "title": "Ultra‑Resilient Exoskeleton",
+        "name": "Titanium Shell",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Self‑Transmutation",
+        "name": "Elemental Shift",
+        "icon": "🔄"
       }
     ]
   },
@@ -10541,6 +10627,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776431937819": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776431937819 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Core",
+        "name": "Drag‑Drop Builder",
+        "icon": "🔑"
+      },
+      {
+        "title": "Interface",
+        "name": "Dark Mode Switch",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Dashboards",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "Trigger Sequencer",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Security",
+        "name": "Two‑Factor Auth",
+        "icon": "🔒"
+      },
+      {
+        "title": "Performance",
+        "name": "Optimized Rendering",
+        "icon": "🌐"
+      },
+      {
+        "title": "Integration",
+        "name": "API Mesh",
+        "icon": "🔧"
+      },
+      {
+        "title": "Customization",
+        "name": "Custom Theme Kit",
+        "icon": "🎨"
       }
     ]
   }
