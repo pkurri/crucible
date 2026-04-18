@@ -106,91 +106,113 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "list": [
       {
-        "text": "If you swam 10,000 feet, you'd see this.",
-        "duration": 4
+        "title": "Luminous Hunters",
+        "name": "Giant Anglerfish",
+        "icon": "👹"
       },
       {
-        "text": "What lurks in the abyss, haunting all marine explorers?",
-        "duration": 4
+        "title": "Cold-Blooded Stalkers",
+        "name": "Black Dragonfish",
+        "icon": "🐍"
       },
       {
-        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
-        "duration": 4
+        "title": "Abyssal Behemoths",
+        "name": "Giant Squid",
+        "icon": "🦑"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Silent Terrors",
+        "name": "Blind Octopus",
+        "icon": "🐙"
+      },
+      {
+        "title": "Steam-Siphoning Scorpions",
+        "name": "Hydrothermal Vent Shrimp",
+        "icon": "🦐"
+      },
+      {
+        "title": "Shimmering Specters",
+        "name": "Pseudoscorpions",
+        "icon": "🕷️"
+      },
+      {
+        "title": "Chill‑Bite Catfish",
+        "name": "Chimera Catfish",
+        "icon": "🐟"
+      },
+      {
+        "title": "Glass‑Veiled Menace",
+        "name": "Glass Squid",
+        "icon": "🧊"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
-        "duration": 4
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
-        "duration": 4
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡"
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
-        "duration": 4
+        "title": "Clouds",
+        "name": "Alpenglow",
+        "icon": "☁️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Winds",
+        "name": "Thermal Vortex",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Storms",
+        "name": "Supercell",
+        "icon": "⛈️"
+      },
+      {
+        "title": "Tornadoes",
+        "name": "Swirly Whirl",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Optics",
+        "name": "Moonbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Celestial",
+        "name": "Fireball",
+        "icon": "🔥"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Mass Surveillance",
-        "name": "Eye in the Sky",
-        "icon": "📡"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Mind Control",
-        "name": "Thought Spam",
-        "icon": "🧠"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Resource Depletion",
-        "name": "Water Wars",
-        "icon": "💧"
-      },
-      {
-        "title": "AI Dominance",
-        "name": "Algorithmic Tyrant",
-        "icon": "🤖"
-      },
-      {
-        "title": "Genetic Manipulation",
-        "name": "Designer Daughters",
-        "icon": "🧬"
-      },
-      {
-        "title": "Carbon Catastrophe",
-        "name": "Smog Sovereign",
-        "icon": "🌫️"
-      },
-      {
-        "title": "Digital Debt",
-        "name": "Crypto Crawler",
-        "icon": "💰"
-      },
-      {
-        "title": "Encrypted Catacombs",
-        "name": "Zero-Trust Vault",
-        "icon": "🗝️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -10826,6 +10848,53 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776483568121": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776483568121 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1776483568121, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Design",
+        "name": "ApexCanvas",
+        "icon": "🎨"
+      },
+      {
+        "title": "Automation",
+        "name": "FlowSync",
+        "icon": "🔄"
+      },
+      {
+        "title": "Analytics",
+        "name": "PulseMetric",
+        "icon": "📊"
+      },
+      {
+        "title": "Collaboration",
+        "name": "TeamHub",
+        "icon": "🤝"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldGuard",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Scalability",
+        "name": "ScalePlus",
+        "icon": "🚀"
+      },
+      {
+        "title": "Integration",
+        "name": "ConnectAPI",
+        "icon": "🔌"
+      },
+      {
+        "title": "Support",
+        "name": "HelpDesk Pro",
+        "icon": "💬"
       }
     ]
   }
