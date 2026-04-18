@@ -92,20 +92,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
-        "duration": 4
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if the sky hides a secret that changes everything?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -129,94 +125,94 @@
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Auroral Wonders",
+        "title": "Auroras",
         "name": "Northern Lights",
         "icon": "🌌"
       },
       {
-        "title": "Twilight Spectacles",
-        "name": "Double Sunset",
-        "icon": "🌠"
-      },
-      {
-        "title": "Lightning Marvels",
+        "title": "Lightning",
         "name": "Ball Lightning",
-        "icon": "⚡️"
+        "icon": "⚡"
       },
       {
-        "title": "Rainbow Horizons",
-        "name": "Sun Dog",
+        "title": "Clouds",
+        "name": "Alpenglow",
+        "icon": "☁️"
+      },
+      {
+        "title": "Winds",
+        "name": "Thermal Vortex",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Storms",
+        "name": "Supercell",
+        "icon": "⛈️"
+      },
+      {
+        "title": "Tornadoes",
+        "name": "Swirly Whirl",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Optics",
+        "name": "Moonbow",
         "icon": "🌈"
       },
       {
-        "title": "Cloud Artistry",
-        "name": "Lenticular Clouds",
-        "icon": "🌁"
-      },
-      {
-        "title": "Wind Shapes",
-        "name": "Cat's Eye Cloud",
-        "icon": "🐈‍⬛"
-      },
-      {
-        "title": "Mystic Fog",
-        "name": "Moon Fog",
-        "icon": "🌑"
-      },
-      {
-        "title": "Volcanic Storms",
-        "name": "Lightning-Erupting Volcano",
-        "icon": "🔥⚡️"
+        "title": "Celestial",
+        "name": "Fireball",
+        "icon": "🔥"
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
     "list": [
       {
-        "title": "Governance",
-        "name": "Surveillance Algorithm",
-        "icon": "👁️"
+        "title": "Mass Surveillance",
+        "name": "Eye in the Sky",
+        "icon": "📡"
       },
       {
-        "title": "Environment",
-        "name": "Synthetic Bio-Destroyers",
-        "icon": "🧪"
-      },
-      {
-        "title": "Economics",
-        "name": "Debt-Nullification Bots",
-        "icon": "💸"
-      },
-      {
-        "title": "Technology",
-        "name": "Nanite Life Predictor",
-        "icon": "🤖"
-      },
-      {
-        "title": "Cognitive",
-        "name": "Subversion Drones",
+        "title": "Mind Control",
+        "name": "Thought Spam",
         "icon": "🧠"
       },
       {
-        "title": "Infrastructure",
-        "name": "Crackling Power Grid",
-        "icon": "⚡"
+        "title": "Resource Depletion",
+        "name": "Water Wars",
+        "icon": "💧"
       },
       {
-        "title": "Society",
-        "name": "Memory Erasure Protocol",
-        "icon": "🗑️"
+        "title": "AI Dominance",
+        "name": "Algorithmic Tyrant",
+        "icon": "🤖"
       },
       {
-        "title": "Silence",
-        "name": "Underground Data Forges",
-        "icon": "🕶️"
+        "title": "Genetic Manipulation",
+        "name": "Designer Daughters",
+        "icon": "🧬"
+      },
+      {
+        "title": "Carbon Catastrophe",
+        "name": "Smog Sovereign",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Digital Debt",
+        "name": "Crypto Crawler",
+        "icon": "💰"
+      },
+      {
+        "title": "Encrypted Catacombs",
+        "name": "Zero-Trust Vault",
+        "icon": "🗝️"
       }
     ]
   },
@@ -11269,6 +11265,23 @@
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776546343440": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776546343440 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
