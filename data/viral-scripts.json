@@ -89,57 +89,10 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
-    "list": [
-      {
-        "title": "Stellar Cataclysm",
-        "name": "Supernova Symphony",
-        "icon": "💥"
-      },
-      {
-        "title": "Galactic Dance",
-        "name": "Spiral Splendor",
-        "icon": "🌌"
-      },
-      {
-        "title": "Celestial Serpent",
-        "name": "Doodle Dragon Nebula",
-        "icon": "🌀"
-      },
-      {
-        "title": "Time Warp",
-        "name": "Chrono Corridor",
-        "icon": "⏳"
-      },
-      {
-        "title": "Dark Matter Hunt",
-        "name": "Shadow Pulse",
-        "icon": "🌑"
-      },
-      {
-        "title": "Quantum Beats",
-        "name": "Photon Pulse",
-        "icon": "🎶"
-      },
-      {
-        "title": "Forgotten City",
-        "name": "Nebula Citadel",
-        "icon": "🏰"
-      },
-      {
-        "title": "Gateway",
-        "name": "Event Horizon Portal",
-        "icon": "🚪"
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
         "duration": 5
       },
       {
@@ -152,23 +105,44 @@
       }
     ]
   },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "If you swam 10,000 feet, you'd see this.",
+        "duration": 4
+      },
+      {
+        "text": "What lurks in the abyss, haunting all marine explorers?",
+        "duration": 4
+      },
+      {
+        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
   "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
+        "text": "This video shatters the sky—watch the impossible.",
         "duration": 4
       },
       {
-        "text": "What happens when lightning meets the aurora?",
+        "text": "Ever wonder why auroras outshine rainbows?",
         "duration": 4
       },
       {
-        "text": "Witness the sky bleed neon and thunder.",
+        "text": "Because the ionosphere turns lightning into living light.",
         "duration": 4
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
@@ -191,49 +165,19 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Genomic Hyperloop",
-        "name": "Chromosomal Singularity",
-        "icon": "🧬"
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Quantum Immortality Respiration",
-        "name": "Radiant Core",
-        "icon": "⚡"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Aetheric Resonance",
-        "name": "Celestial Pulse",
-        "icon": "🎇"
-      },
-      {
-        "title": "Neural Synaptic Catapult",
-        "name": "Emotion Launcher",
-        "icon": "🦉"
-      },
-      {
-        "title": "Photonic Camouflage",
-        "name": "Spectral Veil",
-        "icon": "🕶️"
-      },
-      {
-        "title": "Artificial Symbiosis",
-        "name": "Coalesce Matrix",
-        "icon": "👽"
-      },
-      {
-        "title": "Bio-Phased Chromatophores",
-        "name": "Nano Flicker",
-        "icon": "🔁"
-      },
-      {
-        "title": "Hyperelastic Dermis",
-        "name": "Flex Skin",
-        "icon": "🧜‍♂️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -11226,6 +11170,27 @@
       },
       {
         "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776532189225.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776537809049": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Your brain just got a neon reality check.",
+        "duration": 4
+      },
+      {
+        "text": "What happens when data points melt into hyper‑car vibes?",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid flows, neural nets craft the perfect interior.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]
