@@ -92,16 +92,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "text": "Ever felt the universe breathing at your fingertips?",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What if the sky hides a secret that changes everything?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -155,47 +159,47 @@
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
     "list": [
       {
+        "title": "Rainbows",
+        "name": "Double Rainbow over Yosemite",
+        "icon": "🌈"
+      },
+      {
         "title": "Auroras",
-        "name": "Northern Lights",
+        "name": "Northern Lights in Norway",
         "icon": "🌌"
       },
       {
         "title": "Lightning",
-        "name": "Ball Lightning",
+        "name": "Ball Lightning in a Desert Storm",
         "icon": "⚡"
       },
       {
-        "title": "Clouds",
-        "name": "Alpenglow",
-        "icon": "☁️"
-      },
-      {
-        "title": "Winds",
-        "name": "Thermal Vortex",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Storms",
-        "name": "Supercell",
-        "icon": "⛈️"
+        "title": "Fog",
+        "name": "Phantom Sea Fog over the Pacific",
+        "icon": "🌫️"
       },
       {
         "title": "Tornadoes",
-        "name": "Swirly Whirl",
+        "name": "Supercell Tornado in Oklahoma",
         "icon": "🌪️"
       },
       {
-        "title": "Optics",
-        "name": "Moonbow",
-        "icon": "🌈"
+        "title": "Heat Haze",
+        "name": "Mirage in the Sahara",
+        "icon": "🔥"
       },
       {
-        "title": "Celestial",
-        "name": "Fireball",
-        "icon": "🔥"
+        "title": "Martian Storms",
+        "name": "Dust Devil on Mars",
+        "icon": "🪐"
+      },
+      {
+        "title": "Solar Phenomena",
+        "name": "Solar Flare Aurora on the Moon",
+        "icon": "✨"
       }
     ]
   },
@@ -217,19 +221,49 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "title": "Genomic Hyperloop",
+        "name": "Chromosomal Singularity",
+        "icon": "🧬"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Quantum Immortality Respiration",
+        "name": "Radiant Core",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Aetheric Resonance",
+        "name": "Celestial Pulse",
+        "icon": "🎇"
+      },
+      {
+        "title": "Neural Synaptic Catapult",
+        "name": "Emotion Launcher",
+        "icon": "🦉"
+      },
+      {
+        "title": "Photonic Camouflage",
+        "name": "Spectral Veil",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Artificial Symbiosis",
+        "name": "Coalesce Matrix",
+        "icon": "👽"
+      },
+      {
+        "title": "Bio-Phased Chromatophores",
+        "name": "Nano Flicker",
+        "icon": "🔁"
+      },
+      {
+        "title": "Hyperelastic Dermis",
+        "name": "Flex Skin",
+        "icon": "🧜‍♂️"
       }
     ]
   },
@@ -10895,6 +10929,53 @@
         "title": "Support",
         "name": "HelpDesk Pro",
         "icon": "💬"
+      }
+    ]
+  },
+  "ApexFlow_1776490969410": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776490969410 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776490969410.",
+    "list": [
+      {
+        "title": "AI Engine",
+        "name": "FlowMaster",
+        "icon": "🤖"
+      },
+      {
+        "title": "Data Pipeline",
+        "name": "StreamBridge",
+        "icon": "🔗"
+      },
+      {
+        "title": "Analytics",
+        "name": "InsightSpark",
+        "icon": "🔥"
+      },
+      {
+        "title": "Automation",
+        "name": "AutoPilot",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldGuard",
+        "icon": "🛡️"
+      },
+      {
+        "title": "UI/UX",
+        "name": "FluxDesigner",
+        "icon": "🎨"
+      },
+      {
+        "title": "Integration",
+        "name": "ConnectorHub",
+        "icon": "🔌"
+      },
+      {
+        "title": "Support",
+        "name": "HelpDesk",
+        "icon": "🆘"
       }
     ]
   }
