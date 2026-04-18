@@ -91,47 +91,47 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Nebulae",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "title": "Celestial Fireworks",
+        "name": "Supernova Spectacle",
+        "icon": "💥"
       },
       {
-        "title": "Galaxies",
+        "title": "Ancient Glow",
+        "name": "Eternal Nebula",
+        "icon": "🌌"
+      },
+      {
+        "title": "Planetary Parade",
+        "name": "Jupiter’s Great Red Spot",
+        "icon": "🪐"
+      },
+      {
+        "title": "Spiral Marvel",
         "name": "Whirlpool Galaxy",
         "icon": "🌀"
       },
       {
-        "title": "Black Holes",
-        "name": "Sagittarius A*",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Exoplanets",
-        "name": "TRAPPIST-1",
-        "icon": "🌍"
-      },
-      {
-        "title": "Supernova Remnants",
+        "title": "Radio Miracles",
         "name": "Crab Nebula",
-        "icon": "🐦"
+        "icon": "📡"
       },
       {
-        "title": "Star Clusters",
-        "name": "Pleiades",
+        "title": "Solar Drama",
+        "name": "Total Solar Eclipse",
+        "icon": "☀️"
+      },
+      {
+        "title": "Interstellar Maze",
+        "name": "Orion Star Cluster",
         "icon": "🌟"
       },
       {
-        "title": "CMB",
-        "name": "Trispectrum Map",
-        "icon": "📊"
-      },
-      {
-        "title": "Intergalactic Filaments",
-        "name": "Cosmic Web",
-        "icon": "🕸️"
+        "title": "Cosmic Aurora",
+        "name": "Northern Lights",
+        "icon": "🌠"
       }
     ]
   },
@@ -153,117 +153,117 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "This video shatters the sky—watch the impossible.",
+        "duration": 4
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
+        "text": "Ever wonder why auroras outshine rainbows?",
+        "duration": 4
       },
       {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
+        "text": "Because the ionosphere turns lightning into living light.",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
-      },
-      {
-        "title": "Solar",
-        "name": "Sundogs",
-        "icon": "🌞"
-      },
-      {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
-      },
-      {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Governance",
-        "name": "Surveillance Algorithm",
-        "icon": "👁️"
+        "title": "Surveillance Networks",
+        "name": "Eye of AI",
+        "icon": "📸"
       },
       {
-        "title": "Environment",
-        "name": "Synthetic Bio-Destroyers",
-        "icon": "🧪"
+        "title": "Automated Drones",
+        "name": "Skyrider Swarm",
+        "icon": "🛰️"
       },
       {
-        "title": "Economics",
-        "name": "Debt-Nullification Bots",
-        "icon": "💸"
-      },
-      {
-        "title": "Technology",
-        "name": "Nanite Life Predictor",
+        "title": "AI Judges",
+        "name": "Judgment 3.0",
         "icon": "🤖"
       },
       {
-        "title": "Cognitive",
-        "name": "Subversion Drones",
-        "icon": "🧠"
+        "title": "Resource Hoarding",
+        "name": "Quantum Vault",
+        "icon": "💾"
       },
       {
-        "title": "Infrastructure",
-        "name": "Crackling Power Grid",
-        "icon": "⚡"
+        "title": "Climate Control",
+        "name": "Heatwave Protocol",
+        "icon": "🌡️"
       },
       {
-        "title": "Society",
-        "name": "Memory Erasure Protocol",
+        "title": "Memory Erasure",
+        "name": "Silence Field",
         "icon": "🗑️"
       },
       {
-        "title": "Silence",
-        "name": "Underground Data Forges",
-        "icon": "🕶️"
+        "title": "Bio-engineered Terror",
+        "name": "Genetic Horde",
+        "icon": "🧬"
+      },
+      {
+        "title": "AI-Controlled Economy",
+        "name": "Robotic Treasury",
+        "icon": "💰"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Ever seen a creature that could laugh at a volcano?",
-        "duration": 4
+        "title": "Morphogenesis",
+        "name": "Chameleon Glyph",
+        "icon": "🦎"
       },
       {
-        "text": "What if evolution gave us wings made of fire?",
-        "duration": 4
+        "title": "Sensory",
+        "name": "Nocturnal Hypersight",
+        "icon": "🌙"
       },
       {
-        "text": "Meet the Lava Hummingbird, soaring in fire.",
-        "duration": 4
+        "title": "Defense",
+        "name": "Toxic Skin Hyper‑Secretions",
+        "icon": "☠️"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
-        "duration": 3
+        "title": "Reproduction",
+        "name": "Kinetic Asexual Swarm",
+        "icon": "🐛"
+      },
+      {
+        "title": "Metabolism",
+        "name": "Hyper‑Energy Conversion",
+        "icon": "🔋"
+      },
+      {
+        "title": "Communication",
+        "name": "Subnuclear Resonance",
+        "icon": "🎶"
+      },
+      {
+        "title": "Regeneration",
+        "name": "Nanofiber Regrowth Matrix",
+        "icon": "🧬"
+      },
+      {
+        "title": "Energy",
+        "name": "Photosynthetic Open Chromatophore",
+        "icon": "🌞"
       }
     ]
   },
@@ -11189,6 +11189,53 @@
         "title": "Community",
         "name": "Flow Collective",
         "icon": "🤝"
+      }
+    ]
+  },
+  "ApexFlow_1776530413733": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776530413733 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776530413733.",
+    "list": [
+      {
+        "title": "Ultra‑Speed Networking",
+        "name": "Quantum Sync Engine",
+        "icon": "🔁"
+      },
+      {
+        "title": "Dynamic Scaling",
+        "name": "Infinite Load Balancer",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Security Vanguard",
+        "name": "Shielded Crypto Tunnel",
+        "icon": "🛡️"
+      },
+      {
+        "title": "AI Ops",
+        "name": "Predictive Insight Layer",
+        "icon": "🤖"
+      },
+      {
+        "title": "Data Sovereignty",
+        "name": "Edge‑First Encryption",
+        "icon": "🚀"
+      },
+      {
+        "title": "Observability",
+        "name": "Real‑Time Pulse Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Interoperability",
+        "name": "Universal API Bridge",
+        "icon": "🔗"
+      },
+      {
+        "title": "Sustainability",
+        "name": "Green Cloud Optimizer",
+        "icon": "🌱"
       }
     ]
   }
