@@ -130,41 +130,67 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
+        "text": "This video shatters the sky—watch the impossible.",
         "duration": 4
       },
       {
-        "text": "What happens when lightning meets the aurora?",
+        "text": "Ever wonder why auroras outshine rainbows?",
         "duration": 4
       },
       {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "What if your city turns into a simulation apocalypse?",
-        "duration": 4
-      },
-      {
-        "text": "Will your future be trapped inside a tech nightmare?",
-        "duration": 4
-      },
-      {
-        "text": "Discover the simulation glitch that could save humanity.",
+        "text": "Because the ionosphere turns lightning into living light.",
         "duration": 4
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+    "list": [
+      {
+        "title": "Mass Surveillance",
+        "name": "Eye in the Sky",
+        "icon": "📡"
+      },
+      {
+        "title": "Mind Control",
+        "name": "Thought Spam",
+        "icon": "🧠"
+      },
+      {
+        "title": "Resource Depletion",
+        "name": "Water Wars",
+        "icon": "💧"
+      },
+      {
+        "title": "AI Dominance",
+        "name": "Algorithmic Tyrant",
+        "icon": "🤖"
+      },
+      {
+        "title": "Genetic Manipulation",
+        "name": "Designer Daughters",
+        "icon": "🧬"
+      },
+      {
+        "title": "Carbon Catastrophe",
+        "name": "Smog Sovereign",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Digital Debt",
+        "name": "Crypto Crawler",
+        "icon": "💰"
+      },
+      {
+        "title": "Encrypted Catacombs",
+        "name": "Zero-Trust Vault",
+        "icon": "🗝️"
       }
     ]
   },
@@ -10779,6 +10805,27 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776478435107": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid: this isn't just flow, it's a revolution.",
+        "duration": 4
+      },
+      {
+        "text": "How does data pulse in a hyper‑car interior? Find out.",
+        "duration": 4
+      },
+      {
+        "text": "Neon melts; data points light the cockpit, rewiring nets.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   }
