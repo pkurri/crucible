@@ -92,19 +92,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
+        "text": "The universe just blew a secret.",
         "duration": 4
       },
       {
-        "text": "What if the sky hides a secret that changes everything?",
+        "text": "Why do galaxies look like they’re winking?",
         "duration": 4
       },
       {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
+        "text": "Because black holes paint each one as a moving light‑mirror.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
       }
     ]
@@ -113,63 +113,41 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "text": "If you swam 10,000 feet, you'd see this.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What lurks in the abyss, haunting all marine explorers?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Meet the Dragon's Shadow, bioluminescent nightmare.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "This video shatters the sky—watch the impossible.",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡"
+        "text": "Ever wonder why auroras outshine rainbows?",
+        "duration": 4
       },
       {
-        "title": "Clouds",
-        "name": "Alpenglow",
-        "icon": "☁️"
+        "text": "Because the ionosphere turns lightning into living light.",
+        "duration": 4
       },
       {
-        "title": "Winds",
-        "name": "Thermal Vortex",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Storms",
-        "name": "Supercell",
-        "icon": "⛈️"
-      },
-      {
-        "title": "Tornadoes",
-        "name": "Swirly Whirl",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Optics",
-        "name": "Moonbow",
-        "icon": "🌈"
-      },
-      {
-        "title": "Celestial",
-        "name": "Fireball",
-        "icon": "🔥"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -195,49 +173,19 @@
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Genomic Hyperloop",
-        "name": "Chromosomal Singularity",
-        "icon": "🧬"
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Quantum Immortality Respiration",
-        "name": "Radiant Core",
-        "icon": "⚡"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Aetheric Resonance",
-        "name": "Celestial Pulse",
-        "icon": "🎇"
-      },
-      {
-        "title": "Neural Synaptic Catapult",
-        "name": "Emotion Launcher",
-        "icon": "🦉"
-      },
-      {
-        "title": "Photonic Camouflage",
-        "name": "Spectral Veil",
-        "icon": "🕶️"
-      },
-      {
-        "title": "Artificial Symbiosis",
-        "name": "Coalesce Matrix",
-        "icon": "👽"
-      },
-      {
-        "title": "Bio-Phased Chromatophores",
-        "name": "Nano Flicker",
-        "icon": "🔁"
-      },
-      {
-        "title": "Hyperelastic Dermis",
-        "name": "Flex Skin",
-        "icon": "🧜‍♂️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -10997,6 +10945,23 @@
         "title": "Singularity Core",
         "name": "Void Resonator",
         "icon": "🌌"
+      }
+    ]
+  },
+  "ApexFlow_1776495809312": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776495809312 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
