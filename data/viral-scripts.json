@@ -89,23 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+    "list": [
       {
-        "text": "The universe just blew a secret.",
-        "duration": 4
+        "title": "Stellar Cataclysm",
+        "name": "Supernova Symphony",
+        "icon": "💥"
       },
       {
-        "text": "Why do galaxies look like they’re winking?",
-        "duration": 4
+        "title": "Galactic Dance",
+        "name": "Spiral Splendor",
+        "icon": "🌌"
       },
       {
-        "text": "Because black holes paint each one as a moving light‑mirror.",
-        "duration": 4
+        "title": "Celestial Serpent",
+        "name": "Doodle Dragon Nebula",
+        "icon": "🌀"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 3
+        "title": "Time Warp",
+        "name": "Chrono Corridor",
+        "icon": "⏳"
+      },
+      {
+        "title": "Dark Matter Hunt",
+        "name": "Shadow Pulse",
+        "icon": "🌑"
+      },
+      {
+        "title": "Quantum Beats",
+        "name": "Photon Pulse",
+        "icon": "🎶"
+      },
+      {
+        "title": "Forgotten City",
+        "name": "Nebula Citadel",
+        "icon": "🏰"
+      },
+      {
+        "title": "Gateway",
+        "name": "Event Horizon Portal",
+        "icon": "🚪"
       }
     ]
   },
@@ -127,23 +153,49 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
-        "duration": 4
+        "title": "Auroral Wonders",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
-        "duration": 4
+        "title": "Twilight Spectacles",
+        "name": "Double Sunset",
+        "icon": "🌠"
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
-        "duration": 4
+        "title": "Lightning Marvels",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Rainbow Horizons",
+        "name": "Sun Dog",
+        "icon": "🌈"
+      },
+      {
+        "title": "Cloud Artistry",
+        "name": "Lenticular Clouds",
+        "icon": "🌁"
+      },
+      {
+        "title": "Wind Shapes",
+        "name": "Cat's Eye Cloud",
+        "icon": "🐈‍⬛"
+      },
+      {
+        "title": "Mystic Fog",
+        "name": "Moon Fog",
+        "icon": "🌑"
+      },
+      {
+        "title": "Volcanic Storms",
+        "name": "Lightning-Erupting Volcano",
+        "icon": "🔥⚡️"
       }
     ]
   },
@@ -11251,6 +11303,53 @@
       {
         "text": "If you want to master ApexFlow_1776564868249, you're in the right place. Subscribe.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776566172220": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776566172220 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776566172220.",
+    "list": [
+      {
+        "title": "Analytics Overview",
+        "name": "Peak Performance Metric",
+        "icon": "📈"
+      },
+      {
+        "title": "Engagement Boost",
+        "name": "Real-Time Pulse Tracker",
+        "icon": "⚡"
+      },
+      {
+        "title": "Content Optimization",
+        "name": "Template Reizer",
+        "icon": "🧩"
+      },
+      {
+        "title": "Audience Growth",
+        "name": "Affinity Sieve",
+        "icon": "🗝️"
+      },
+      {
+        "title": "Revenue Insights",
+        "name": "Monetization Atlas",
+        "icon": "💰"
+      },
+      {
+        "title": "Project Management",
+        "name": "Workflow Catalyst",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Social Proof",
+        "name": "NPS Amplifier",
+        "icon": "🎯"
+      },
+      {
+        "title": "Global Strategy",
+        "name": "Geo-Target Navigator",
+        "icon": "🌐"
       }
     ]
   }
