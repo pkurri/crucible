@@ -89,49 +89,19 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebulae",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Galaxies",
-        "name": "Whirlpool Galaxy",
-        "icon": "🌀"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Black Holes",
-        "name": "Sagittarius A*",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Exoplanets",
-        "name": "TRAPPIST-1",
-        "icon": "🌍"
-      },
-      {
-        "title": "Supernova Remnants",
-        "name": "Crab Nebula",
-        "icon": "🐦"
-      },
-      {
-        "title": "Star Clusters",
-        "name": "Pleiades",
-        "icon": "🌟"
-      },
-      {
-        "title": "CMB",
-        "name": "Trispectrum Map",
-        "icon": "📊"
-      },
-      {
-        "title": "Intergalactic Filaments",
-        "name": "Cosmic Web",
-        "icon": "🕸️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -202,47 +172,47 @@
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Governance",
-        "name": "Surveillance Algorithm",
+        "title": "Surveillance",
+        "name": "Neural Net Overwatch",
         "icon": "👁️"
       },
       {
-        "title": "Environment",
-        "name": "Synthetic Bio-Destroyers",
-        "icon": "🧪"
+        "title": "Resource Scarcity",
+        "name": "Crystalplex Resource Grid",
+        "icon": "⛓️"
       },
       {
-        "title": "Economics",
-        "name": "Debt-Nullification Bots",
-        "icon": "💸"
+        "title": "Synthetic Biology",
+        "name": "Coded Chimeras",
+        "icon": "🧬"
       },
       {
-        "title": "Technology",
-        "name": "Nanite Life Predictor",
+        "title": "Weather Control",
+        "name": "Tempest Engine",
+        "icon": "🌩️"
+      },
+      {
+        "title": "Corporate Dominance",
+        "name": "OmniCorp Monolith",
+        "icon": "🏢"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel Protocol",
         "icon": "🤖"
       },
       {
-        "title": "Cognitive",
-        "name": "Subversion Drones",
+        "title": "Memory Hack",
+        "name": "Echo Pathways",
         "icon": "🧠"
       },
       {
-        "title": "Infrastructure",
-        "name": "Crackling Power Grid",
-        "icon": "⚡"
-      },
-      {
-        "title": "Society",
-        "name": "Memory Erasure Protocol",
-        "icon": "🗑️"
-      },
-      {
-        "title": "Silence",
-        "name": "Underground Data Forges",
-        "icon": "🕶️"
+        "title": "Underground Resistance",
+        "name": "Shadows Network",
+        "icon": "🤐"
       }
     ]
   },
@@ -11737,6 +11707,53 @@
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776632824050": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776632824050 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Sky‑Homing Surfaces",
+        "name": "Celestial Mesh",
+        "icon": "🌌"
+      },
+      {
+        "title": "Quantum Ripples",
+        "name": "Nano‑Pulse",
+        "icon": "⚡"
+      },
+      {
+        "title": "Temporal Paradox",
+        "name": "Chrono‑Lens",
+        "icon": "⌛"
+      },
+      {
+        "title": "Matter‑Spin",
+        "name": "Spin‑Blade",
+        "icon": "🗡️"
+      },
+      {
+        "title": "Gravity Flux",
+        "name": "Grav‑Anchor",
+        "icon": "🪝"
+      },
+      {
+        "title": "Infra‑Sight",
+        "name": "Lumen‑Scope",
+        "icon": "🔭"
+      },
+      {
+        "title": "Synthetic Oracle",
+        "name": "Echo‑Code",
+        "icon": "🤖"
+      },
+      {
+        "title": "Energy Reservoir",
+        "name": "PulseCore",
+        "icon": "💡"
       }
     ]
   }
