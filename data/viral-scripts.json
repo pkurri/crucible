@@ -106,49 +106,19 @@
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Luminous Hunters",
-        "name": "Giant Anglerfish",
-        "icon": "👹"
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Cold-Blooded Stalkers",
-        "name": "Black Dragonfish",
-        "icon": "🐍"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Abyssal Behemoths",
-        "name": "Giant Squid",
-        "icon": "🦑"
-      },
-      {
-        "title": "Silent Terrors",
-        "name": "Blind Octopus",
-        "icon": "🐙"
-      },
-      {
-        "title": "Steam-Siphoning Scorpions",
-        "name": "Hydrothermal Vent Shrimp",
-        "icon": "🦐"
-      },
-      {
-        "title": "Shimmering Specters",
-        "name": "Pseudoscorpions",
-        "icon": "🕷️"
-      },
-      {
-        "title": "Chill‑Bite Catfish",
-        "name": "Chimera Catfish",
-        "icon": "🐟"
-      },
-      {
-        "title": "Glass‑Veiled Menace",
-        "name": "Glass Squid",
-        "icon": "🧊"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -156,20 +126,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
-        "duration": 4
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -11435,6 +11401,23 @@
         "title": "Community",
         "name": "Flow Circle",
         "icon": "👫"
+      }
+    ]
+  },
+  "ApexFlow_1776582924428": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776582924428 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
