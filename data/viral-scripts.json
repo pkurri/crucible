@@ -89,49 +89,23 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Stellar Cataclysm",
-        "name": "Supernova Symphony",
-        "icon": "💥"
+        "text": "The universe just blew a secret.",
+        "duration": 4
       },
       {
-        "title": "Galactic Dance",
-        "name": "Spiral Splendor",
-        "icon": "🌌"
+        "text": "Why do galaxies look like they’re winking?",
+        "duration": 4
       },
       {
-        "title": "Celestial Serpent",
-        "name": "Doodle Dragon Nebula",
-        "icon": "🌀"
+        "text": "Because black holes paint each one as a moving light‑mirror.",
+        "duration": 4
       },
       {
-        "title": "Time Warp",
-        "name": "Chrono Corridor",
-        "icon": "⏳"
-      },
-      {
-        "title": "Dark Matter Hunt",
-        "name": "Shadow Pulse",
-        "icon": "🌑"
-      },
-      {
-        "title": "Quantum Beats",
-        "name": "Photon Pulse",
-        "icon": "🎶"
-      },
-      {
-        "title": "Forgotten City",
-        "name": "Nebula Citadel",
-        "icon": "🏰"
-      },
-      {
-        "title": "Gateway",
-        "name": "Event Horizon Portal",
-        "icon": "🚪"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   },
@@ -155,64 +129,94 @@
   "AtmosphericPhenomenaCaptured": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Auroral Wonders",
+        "title": "Auroras",
         "name": "Northern Lights",
         "icon": "🌌"
       },
       {
-        "title": "Twilight Spectacles",
-        "name": "Double Sunset",
-        "icon": "🌠"
-      },
-      {
-        "title": "Lightning Marvels",
+        "title": "Lightning",
         "name": "Ball Lightning",
-        "icon": "⚡️"
+        "icon": "⚡"
       },
       {
-        "title": "Rainbow Horizons",
-        "name": "Sun Dog",
+        "title": "Clouds",
+        "name": "Alpenglow",
+        "icon": "☁️"
+      },
+      {
+        "title": "Winds",
+        "name": "Thermal Vortex",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Storms",
+        "name": "Supercell",
+        "icon": "⛈️"
+      },
+      {
+        "title": "Tornadoes",
+        "name": "Swirly Whirl",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Optics",
+        "name": "Moonbow",
         "icon": "🌈"
       },
       {
-        "title": "Cloud Artistry",
-        "name": "Lenticular Clouds",
-        "icon": "🌁"
-      },
-      {
-        "title": "Wind Shapes",
-        "name": "Cat's Eye Cloud",
-        "icon": "🐈‍⬛"
-      },
-      {
-        "title": "Mystic Fog",
-        "name": "Moon Fog",
-        "icon": "🌑"
-      },
-      {
-        "title": "Volcanic Storms",
-        "name": "Lightning-Erupting Volcano",
-        "icon": "🔥⚡️"
+        "title": "Celestial",
+        "name": "Fireball",
+        "icon": "🔥"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "Neural Net Overwatch",
+        "icon": "👁️"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Resource Scarcity",
+        "name": "Crystalplex Resource Grid",
+        "icon": "⛓️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Synthetic Biology",
+        "name": "Coded Chimeras",
+        "icon": "🧬"
+      },
+      {
+        "title": "Weather Control",
+        "name": "Tempest Engine",
+        "icon": "🌩️"
+      },
+      {
+        "title": "Corporate Dominance",
+        "name": "OmniCorp Monolith",
+        "icon": "🏢"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel Protocol",
+        "icon": "🤖"
+      },
+      {
+        "title": "Memory Hack",
+        "name": "Echo Pathways",
+        "icon": "🧠"
+      },
+      {
+        "title": "Underground Resistance",
+        "name": "Shadows Network",
+        "icon": "🤐"
       }
     ]
   },
@@ -11350,6 +11354,23 @@
         "title": "Global Strategy",
         "name": "Geo-Target Navigator",
         "icon": "🌐"
+      }
+    ]
+  },
+  "ApexFlow_1776571129036": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776571129036 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
