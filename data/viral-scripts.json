@@ -89,23 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+    "list": [
       {
-        "text": "The universe just blew a secret.",
-        "duration": 4
+        "title": "Stellar Cataclysm",
+        "name": "Supernova Symphony",
+        "icon": "💥"
       },
       {
-        "text": "Why do galaxies look like they’re winking?",
-        "duration": 4
+        "title": "Galactic Dance",
+        "name": "Spiral Splendor",
+        "icon": "🌌"
       },
       {
-        "text": "Because black holes paint each one as a moving light‑mirror.",
-        "duration": 4
+        "title": "Celestial Serpent",
+        "name": "Doodle Dragon Nebula",
+        "icon": "🌀"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 3
+        "title": "Time Warp",
+        "name": "Chrono Corridor",
+        "icon": "⏳"
+      },
+      {
+        "title": "Dark Matter Hunt",
+        "name": "Shadow Pulse",
+        "icon": "🌑"
+      },
+      {
+        "title": "Quantum Beats",
+        "name": "Photon Pulse",
+        "icon": "🎶"
+      },
+      {
+        "title": "Forgotten City",
+        "name": "Nebula Citadel",
+        "icon": "🏰"
+      },
+      {
+        "title": "Gateway",
+        "name": "Event Horizon Portal",
+        "icon": "🚪"
       }
     ]
   },
@@ -127,96 +153,40 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "You think you’ve seen all storms? Think again.",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡"
+        "text": "What happens when lightning meets the aurora?",
+        "duration": 4
       },
       {
-        "title": "Clouds",
-        "name": "Alpenglow",
-        "icon": "☁️"
+        "text": "Witness the sky bleed neon and thunder.",
+        "duration": 4
       },
       {
-        "title": "Winds",
-        "name": "Thermal Vortex",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Storms",
-        "name": "Supercell",
-        "icon": "⛈️"
-      },
-      {
-        "title": "Tornadoes",
-        "name": "Swirly Whirl",
-        "icon": "🌪️"
-      },
-      {
-        "title": "Optics",
-        "name": "Moonbow",
-        "icon": "🌈"
-      },
-      {
-        "title": "Celestial",
-        "name": "Fireball",
-        "icon": "🔥"
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Surveillance",
-        "name": "Neural Net Overwatch",
-        "icon": "👁️"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Resource Scarcity",
-        "name": "Crystalplex Resource Grid",
-        "icon": "⛓️"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Synthetic Biology",
-        "name": "Coded Chimeras",
-        "icon": "🧬"
-      },
-      {
-        "title": "Weather Control",
-        "name": "Tempest Engine",
-        "icon": "🌩️"
-      },
-      {
-        "title": "Corporate Dominance",
-        "name": "OmniCorp Monolith",
-        "icon": "🏢"
-      },
-      {
-        "title": "AI Governance",
-        "name": "Sentinel Protocol",
-        "icon": "🤖"
-      },
-      {
-        "title": "Memory Hack",
-        "name": "Echo Pathways",
-        "icon": "🧠"
-      },
-      {
-        "title": "Underground Resistance",
-        "name": "Shadows Network",
-        "icon": "🤐"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -11371,6 +11341,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776578380788": {
+    "voice": "af_bella",
+    "hook": "Here are the top 8 ApexFlow_1776578380788 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Core Mechanic",
+        "name": "Apex Pulse Core",
+        "icon": "🔋"
+      },
+      {
+        "title": "Speed Boost",
+        "name": "Velocity Surge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Shielding",
+        "name": "Quantum Barrier",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Energy Source",
+        "name": "Eclipse Reactors",
+        "icon": "☀️"
+      },
+      {
+        "title": "Control Interface",
+        "name": "Nexus Matrix UI",
+        "icon": "🕹️"
+      },
+      {
+        "title": "Stealth Module",
+        "name": "Phantom Cloak",
+        "icon": "👻"
+      },
+      {
+        "title": "Weapon System",
+        "name": "Lithium Beam Cannon",
+        "icon": "🔫"
+      },
+      {
+        "title": "AI Companion",
+        "name": "Sentinel Echo",
+        "icon": "🤖"
       }
     ]
   }
