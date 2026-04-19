@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebulae",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Galaxies",
+        "name": "Whirlpool Galaxy",
+        "icon": "🌀"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Black Holes",
+        "name": "Sagittarius A*",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Exoplanets",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
+      },
+      {
+        "title": "Supernova Remnants",
+        "name": "Crab Nebula",
+        "icon": "🐦"
+      },
+      {
+        "title": "Star Clusters",
+        "name": "Pleiades",
+        "icon": "🌟"
+      },
+      {
+        "title": "CMB",
+        "name": "Trispectrum Map",
+        "icon": "📊"
+      },
+      {
+        "title": "Intergalactic Filaments",
+        "name": "Cosmic Web",
+        "icon": "🕸️"
       }
     ]
   },
@@ -123,40 +153,96 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
-        "duration": 4
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Ever wonder why auroras outshine rainbows?",
-        "duration": 4
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡"
       },
       {
-        "text": "Because the ionosphere turns lightning into living light.",
-        "duration": 4
+        "title": "Clouds",
+        "name": "Alpenglow",
+        "icon": "☁️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Winds",
+        "name": "Thermal Vortex",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Storms",
+        "name": "Supercell",
+        "icon": "⛈️"
+      },
+      {
+        "title": "Tornadoes",
+        "name": "Swirly Whirl",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Optics",
+        "name": "Moonbow",
+        "icon": "🌈"
+      },
+      {
+        "title": "Celestial",
+        "name": "Fireball",
+        "icon": "🔥"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Mass Surveillance",
+        "name": "Eye in the Sky",
+        "icon": "📡"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Mind Control",
+        "name": "Thought Spam",
+        "icon": "🧠"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Resource Depletion",
+        "name": "Water Wars",
+        "icon": "💧"
+      },
+      {
+        "title": "AI Dominance",
+        "name": "Algorithmic Tyrant",
+        "icon": "🤖"
+      },
+      {
+        "title": "Genetic Manipulation",
+        "name": "Designer Daughters",
+        "icon": "🧬"
+      },
+      {
+        "title": "Carbon Catastrophe",
+        "name": "Smog Sovereign",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Digital Debt",
+        "name": "Crypto Crawler",
+        "icon": "💰"
+      },
+      {
+        "title": "Encrypted Catacombs",
+        "name": "Zero-Trust Vault",
+        "icon": "🗝️"
       }
     ]
   },
@@ -11502,6 +11588,23 @@
     "lines": [
       {
         "text": "The secrets of ApexFlow_1776603341384 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776603663435": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776603663435 are finally revealed.",
         "duration": 5
       },
       {
