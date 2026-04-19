@@ -89,190 +89,74 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Celestial Fireworks",
-        "name": "Supernova Spectacle",
-        "icon": "💥"
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Ancient Glow",
-        "name": "Eternal Nebula",
-        "icon": "🌌"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Planetary Parade",
-        "name": "Jupiter’s Great Red Spot",
-        "icon": "🪐"
-      },
-      {
-        "title": "Spiral Marvel",
-        "name": "Whirlpool Galaxy",
-        "icon": "🌀"
-      },
-      {
-        "title": "Radio Miracles",
-        "name": "Crab Nebula",
-        "icon": "📡"
-      },
-      {
-        "title": "Solar Drama",
-        "name": "Total Solar Eclipse",
-        "icon": "☀️"
-      },
-      {
-        "title": "Interstellar Maze",
-        "name": "Orion Star Cluster",
-        "icon": "🌟"
-      },
-      {
-        "title": "Cosmic Aurora",
-        "name": "Northern Lights",
-        "icon": "🌠"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Luminous Hunters",
-        "name": "Giant Anglerfish",
-        "icon": "👹"
+        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Cold-Blooded Stalkers",
-        "name": "Black Dragonfish",
-        "icon": "🐍"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Abyssal Behemoths",
-        "name": "Giant Squid",
-        "icon": "🦑"
-      },
-      {
-        "title": "Silent Terrors",
-        "name": "Blind Octopus",
-        "icon": "🐙"
-      },
-      {
-        "title": "Steam-Siphoning Scorpions",
-        "name": "Hydrothermal Vent Shrimp",
-        "icon": "🦐"
-      },
-      {
-        "title": "Shimmering Specters",
-        "name": "Pseudoscorpions",
-        "icon": "🕷️"
-      },
-      {
-        "title": "Chill‑Bite Catfish",
-        "name": "Chimera Catfish",
-        "icon": "🐟"
-      },
-      {
-        "title": "Glass‑Veiled Menace",
-        "name": "Glass Squid",
-        "icon": "🧊"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "This video shatters the sky—watch the impossible.",
+        "duration": 4
       },
       {
-        "title": "Clouds",
-        "name": "Lenticular Clouds",
-        "icon": "🏔️"
+        "text": "Ever wonder why auroras outshine rainbows?",
+        "duration": 4
       },
       {
-        "title": "Mirage",
-        "name": "Fata Morgana",
-        "icon": "🌈"
+        "text": "Because the ionosphere turns lightning into living light.",
+        "duration": 4
       },
       {
-        "title": "Lightning",
-        "name": "Ball Lightning",
-        "icon": "⚡️"
-      },
-      {
-        "title": "Heat",
-        "name": "Heat Haze",
-        "icon": "🔥"
-      },
-      {
-        "title": "Solar",
-        "name": "Sundogs",
-        "icon": "🌞"
-      },
-      {
-        "title": "Atmosphere",
-        "name": "Belt of Venus",
-        "icon": "💫"
-      },
-      {
-        "title": "Night",
-        "name": "Noctilucent Clouds",
-        "icon": "🌙"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Mass Surveillance",
-        "name": "Eye in the Sky",
-        "icon": "📡"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Mind Control",
-        "name": "Thought Spam",
-        "icon": "🧠"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Resource Depletion",
-        "name": "Water Wars",
-        "icon": "💧"
-      },
-      {
-        "title": "AI Dominance",
-        "name": "Algorithmic Tyrant",
-        "icon": "🤖"
-      },
-      {
-        "title": "Genetic Manipulation",
-        "name": "Designer Daughters",
-        "icon": "🧬"
-      },
-      {
-        "title": "Carbon Catastrophe",
-        "name": "Smog Sovereign",
-        "icon": "🌫️"
-      },
-      {
-        "title": "Digital Debt",
-        "name": "Crypto Crawler",
-        "icon": "💰"
-      },
-      {
-        "title": "Encrypted Catacombs",
-        "name": "Zero-Trust Vault",
-        "icon": "🗝️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -280,20 +164,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever seen a creature that could laugh at a volcano?",
-        "duration": 4
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if evolution gave us wings made of fire?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Meet the Lava Hummingbird, soaring in fire.",
-        "duration": 4
-      },
-      {
-        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -11593,6 +11473,44 @@
         "title": "Support",
         "name": "Zero‑Day Helpline",
         "icon": "☎️"
+      }
+    ]
+  },
+  "ApexFlow_1776588887591": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your dreams were neon liquids?",
+        "duration": 4
+      },
+      {
+        "text": "Can a data stream unlock a hypercar's soul?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets pulse, turning data into glowing ride.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776603341384": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776603341384 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
