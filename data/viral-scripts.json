@@ -89,57 +89,10 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
-    "list": [
-      {
-        "title": "Stellar Cataclysm",
-        "name": "Supernova Symphony",
-        "icon": "💥"
-      },
-      {
-        "title": "Galactic Dance",
-        "name": "Spiral Splendor",
-        "icon": "🌌"
-      },
-      {
-        "title": "Celestial Serpent",
-        "name": "Doodle Dragon Nebula",
-        "icon": "🌀"
-      },
-      {
-        "title": "Time Warp",
-        "name": "Chrono Corridor",
-        "icon": "⏳"
-      },
-      {
-        "title": "Dark Matter Hunt",
-        "name": "Shadow Pulse",
-        "icon": "🌑"
-      },
-      {
-        "title": "Quantum Beats",
-        "name": "Photon Pulse",
-        "icon": "🎶"
-      },
-      {
-        "title": "Forgotten City",
-        "name": "Nebula Citadel",
-        "icon": "🏰"
-      },
-      {
-        "title": "Gateway",
-        "name": "Event Horizon Portal",
-        "icon": "🚪"
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
         "duration": 5
       },
       {
@@ -152,23 +105,70 @@
       }
     ]
   },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "list": [
+      {
+        "title": "Luminous Hunters",
+        "name": "Giant Anglerfish",
+        "icon": "👹"
+      },
+      {
+        "title": "Cold-Blooded Stalkers",
+        "name": "Black Dragonfish",
+        "icon": "🐍"
+      },
+      {
+        "title": "Abyssal Behemoths",
+        "name": "Giant Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Silent Terrors",
+        "name": "Blind Octopus",
+        "icon": "🐙"
+      },
+      {
+        "title": "Steam-Siphoning Scorpions",
+        "name": "Hydrothermal Vent Shrimp",
+        "icon": "🦐"
+      },
+      {
+        "title": "Shimmering Specters",
+        "name": "Pseudoscorpions",
+        "icon": "🕷️"
+      },
+      {
+        "title": "Chill‑Bite Catfish",
+        "name": "Chimera Catfish",
+        "icon": "🐟"
+      },
+      {
+        "title": "Glass‑Veiled Menace",
+        "name": "Glass Squid",
+        "icon": "🧊"
+      }
+    ]
+  },
   "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
+        "text": "This video shatters the sky—watch the impossible.",
         "duration": 4
       },
       {
-        "text": "What happens when lightning meets the aurora?",
+        "text": "Ever wonder why auroras outshine rainbows?",
         "duration": 4
       },
       {
-        "text": "Witness the sky bleed neon and thunder.",
+        "text": "Because the ionosphere turns lightning into living light.",
         "duration": 4
       },
       {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 3
       }
     ]
@@ -11388,6 +11388,53 @@
         "title": "AI Companion",
         "name": "Sentinel Echo",
         "icon": "🤖"
+      }
+    ]
+  },
+  "ApexFlow_1776579470074": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776579470074 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Game Mechanics",
+        "name": "Flow Control Mastery",
+        "icon": "⚡"
+      },
+      {
+        "title": "Strategy",
+        "name": "Momentum Map",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Skill Boost",
+        "name": "Peak Performance Mode",
+        "icon": "🚀"
+      },
+      {
+        "title": "Team Synergy",
+        "name": "Co-op Catalyst",
+        "icon": "🤝"
+      },
+      {
+        "title": "Analytics",
+        "name": "Insight Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Customizations",
+        "name": "Aura Skins",
+        "icon": "✨"
+      },
+      {
+        "title": "Rewards",
+        "name": "Triumph Tokens",
+        "icon": "🏆"
+      },
+      {
+        "title": "Community",
+        "name": "Flow Circle",
+        "icon": "👫"
       }
     ]
   }
