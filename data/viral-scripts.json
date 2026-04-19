@@ -92,16 +92,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "text": "Ever felt the universe breathing at your fingertips?",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What if the sky hides a secret that changes everything?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -140,19 +144,49 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Mass Surveillance",
+        "name": "Eye in the Sky",
+        "icon": "📡"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Mind Control",
+        "name": "Thought Spam",
+        "icon": "🧠"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Resource Depletion",
+        "name": "Water Wars",
+        "icon": "💧"
+      },
+      {
+        "title": "AI Dominance",
+        "name": "Algorithmic Tyrant",
+        "icon": "🤖"
+      },
+      {
+        "title": "Genetic Manipulation",
+        "name": "Designer Daughters",
+        "icon": "🧬"
+      },
+      {
+        "title": "Carbon Catastrophe",
+        "name": "Smog Sovereign",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Digital Debt",
+        "name": "Crypto Crawler",
+        "icon": "💰"
+      },
+      {
+        "title": "Encrypted Catacombs",
+        "name": "Zero-Trust Vault",
+        "icon": "🗝️"
       }
     ]
   },
@@ -160,16 +194,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "text": "Ever seen a creature that could laugh at a volcano?",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What if evolution gave us wings made of fire?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Meet the Lava Hummingbird, soaring in fire.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
+        "duration": 3
       }
     ]
   },
@@ -177,16 +215,20 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of ImpossibleArchitectureBlueprints are finally revealed.",
-        "duration": 5
+        "text": "What if buildings could bend the sky?",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "Can any engineer craft such a dream?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Meet a blueprint that folds gravity like paper.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
