@@ -89,57 +89,143 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
-        "duration": 4
+        "title": "Celestial Fireworks",
+        "name": "Supernova Spectacle",
+        "icon": "💥"
       },
       {
-        "text": "What if the sky hides a secret that changes everything?",
-        "duration": 4
+        "title": "Ancient Glow",
+        "name": "Eternal Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
-        "duration": 4
+        "title": "Planetary Parade",
+        "name": "Jupiter’s Great Red Spot",
+        "icon": "🪐"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "title": "Spiral Marvel",
+        "name": "Whirlpool Galaxy",
+        "icon": "🌀"
+      },
+      {
+        "title": "Radio Miracles",
+        "name": "Crab Nebula",
+        "icon": "📡"
+      },
+      {
+        "title": "Solar Drama",
+        "name": "Total Solar Eclipse",
+        "icon": "☀️"
+      },
+      {
+        "title": "Interstellar Maze",
+        "name": "Orion Star Cluster",
+        "icon": "🌟"
+      },
+      {
+        "title": "Cosmic Aurora",
+        "name": "Northern Lights",
+        "icon": "🌠"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
+    "list": [
       {
-        "text": "The secrets of DeepSeaCreatureDiscoveries are finally revealed.",
-        "duration": 5
+        "title": "Luminous Hunters",
+        "name": "Giant Anglerfish",
+        "icon": "👹"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Cold-Blooded Stalkers",
+        "name": "Black Dragonfish",
+        "icon": "🐍"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Abyssal Behemoths",
+        "name": "Giant Squid",
+        "icon": "🦑"
+      },
+      {
+        "title": "Silent Terrors",
+        "name": "Blind Octopus",
+        "icon": "🐙"
+      },
+      {
+        "title": "Steam-Siphoning Scorpions",
+        "name": "Hydrothermal Vent Shrimp",
+        "icon": "🦐"
+      },
+      {
+        "title": "Shimmering Specters",
+        "name": "Pseudoscorpions",
+        "icon": "🕷️"
+      },
+      {
+        "title": "Chill‑Bite Catfish",
+        "name": "Chimera Catfish",
+        "icon": "🐟"
+      },
+      {
+        "title": "Glass‑Veiled Menace",
+        "name": "Glass Squid",
+        "icon": "🧊"
       }
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Clouds",
+        "name": "Lenticular Clouds",
+        "icon": "🏔️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Mirage",
+        "name": "Fata Morgana",
+        "icon": "🌈"
+      },
+      {
+        "title": "Lightning",
+        "name": "Ball Lightning",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Heat",
+        "name": "Heat Haze",
+        "icon": "🔥"
+      },
+      {
+        "title": "Solar",
+        "name": "Sundogs",
+        "icon": "🌞"
+      },
+      {
+        "title": "Atmosphere",
+        "name": "Belt of Venus",
+        "icon": "💫"
+      },
+      {
+        "title": "Night",
+        "name": "Noctilucent Clouds",
+        "icon": "🌙"
       }
     ]
   },
@@ -11460,6 +11546,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776590846985": {
+    "voice": "af_heart",
+    "hook": "Stop scrolling—ApexFlow's top 8 secrets will make you say WOW!",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Speed",
+        "name": "Quantum Accelerator",
+        "icon": "⚡"
+      },
+      {
+        "title": "Security",
+        "name": "Ghost Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "AI Integration",
+        "name": "BrainWave AI",
+        "icon": "🤖"
+      },
+      {
+        "title": "User Interface",
+        "name": "DreamDark Theme",
+        "icon": "🎨"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinite Cloud Layer",
+        "icon": "☁️"
+      },
+      {
+        "title": "Analytics",
+        "name": "PulseTracker",
+        "icon": "📈"
+      },
+      {
+        "title": "Customizability",
+        "name": "Modulator Suite",
+        "icon": "🔧"
+      },
+      {
+        "title": "Support",
+        "name": "Zero‑Day Helpline",
+        "icon": "☎️"
       }
     ]
   }
