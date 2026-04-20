@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Celestial Fireworks",
+        "name": "Supernova Spectacle",
+        "icon": "💥"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Ancient Glow",
+        "name": "Eternal Nebula",
+        "icon": "🌌"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Planetary Parade",
+        "name": "Jupiter’s Great Red Spot",
+        "icon": "🪐"
+      },
+      {
+        "title": "Spiral Marvel",
+        "name": "Whirlpool Galaxy",
+        "icon": "🌀"
+      },
+      {
+        "title": "Radio Miracles",
+        "name": "Crab Nebula",
+        "icon": "📡"
+      },
+      {
+        "title": "Solar Drama",
+        "name": "Total Solar Eclipse",
+        "icon": "☀️"
+      },
+      {
+        "title": "Interstellar Maze",
+        "name": "Orion Star Cluster",
+        "icon": "🌟"
+      },
+      {
+        "title": "Cosmic Aurora",
+        "name": "Northern Lights",
+        "icon": "🌠"
       }
     ]
   },
@@ -126,20 +156,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
-        "duration": 4
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What happens when lightning meets the aurora?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -147,20 +173,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "What if your city turns into a simulation apocalypse?",
-        "duration": 4
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Will your future be trapped inside a tech nightmare?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Discover the simulation glitch that could save humanity.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -168,19 +190,19 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever seen a creature evolve in seconds?",
+        "text": "Ever seen a creature that could laugh at a volcano?",
         "duration": 4
       },
       {
-        "text": "What if your body could withstand molten suns?",
+        "text": "What if evolution gave us wings made of fire?",
         "duration": 4
       },
       {
-        "text": "Meet the ThermoGiant—its arms melt fire into sustenance.",
+        "text": "Meet the Lava Hummingbird, soaring in fire.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
         "duration": 3
       }
     ]
@@ -189,20 +211,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "What if buildings could bend the sky?",
-        "duration": 4
+        "text": "The secrets of ImpossibleArchitectureBlueprints are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "Can any engineer craft such a dream?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Meet a blueprint that folds gravity like paper.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -11787,6 +11805,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776665726957": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776665726957 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Automation",
+        "name": "AutoM8 Engine",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Visual Design",
+        "name": "Pixel Prism",
+        "icon": "🎨"
+      },
+      {
+        "title": "Data Sync",
+        "name": "SyncSphere",
+        "icon": "🔗"
+      },
+      {
+        "title": "Performance",
+        "name": "Velocity Vault",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security",
+        "name": "Shield Sync",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Insight Instinct",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "Bridge Builder",
+        "icon": "🌉"
+      },
+      {
+        "title": "User Experience",
+        "name": "Flow Feel",
+        "icon": "🧭"
       }
     ]
   }
