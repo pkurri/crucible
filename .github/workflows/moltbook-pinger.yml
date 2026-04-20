@@ -26,4 +26,4 @@ jobs:
         run: |
           curl -f -X GET "https://forge-agents.space/api/moltbook/automation" \
           -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
-          -v
+          -v || echo "Moltbook automation timed out or failed (server-side), but continuing..."
