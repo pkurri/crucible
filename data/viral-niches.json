@@ -11520,6 +11520,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ParanormalAI",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Fear",
+      "reason": "Combines the current craze for AI with the evergreen fascination for the supernatural, offering fresh, data‑driven spooky content that triggers curiosity and chills. The niche is faceless, easily scalable with endless AI‑generated scenarios, and taps into both meme culture on Meta and long‑tail fear‑focused search on YouTube. The blend of cutting‑edge tech and ghost lore is highly shareable and suited for scroll‑stopping hooks.",
+      "ideas": [
+        "AI Finds a Specter on My House Phone Call – We let a neural network listen to my hallway phone. The first reply? A whisper that proved it wasn’t just a glitch.",
+        "When the AI Voice Chimes – Ask Anything Else? – I asked my smart speaker about the dead in the house. Result? A cold, unmistakable echo you won’t believe.",
+        "The Day AI Uncovered a Real Parrot Who Could Talk To Ghosts! – We trained AI to decode whispers in a nursery. It stole the show by revealing a spectral conversation you’ll never forget."
+      ],
+      "keywords": [
+        "Eerie",
+        "Spectral",
+        "ArtificialIntelligence",
+        "Haunted",
+        "Uncanny"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
