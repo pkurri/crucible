@@ -91,47 +91,47 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Celestial Fireworks",
-        "name": "Supernova Spectacle",
-        "icon": "💥"
+        "title": "Nebulae",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "title": "Ancient Glow",
-        "name": "Eternal Nebula",
-        "icon": "🌌"
-      },
-      {
-        "title": "Planetary Parade",
-        "name": "Jupiter’s Great Red Spot",
-        "icon": "🪐"
-      },
-      {
-        "title": "Spiral Marvel",
+        "title": "Galaxies",
         "name": "Whirlpool Galaxy",
         "icon": "🌀"
       },
       {
-        "title": "Radio Miracles",
+        "title": "Black Holes",
+        "name": "Sagittarius A*",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Exoplanets",
+        "name": "TRAPPIST-1",
+        "icon": "🌍"
+      },
+      {
+        "title": "Supernova Remnants",
         "name": "Crab Nebula",
-        "icon": "📡"
+        "icon": "🐦"
       },
       {
-        "title": "Solar Drama",
-        "name": "Total Solar Eclipse",
-        "icon": "☀️"
-      },
-      {
-        "title": "Interstellar Maze",
-        "name": "Orion Star Cluster",
+        "title": "Star Clusters",
+        "name": "Pleiades",
         "icon": "🌟"
       },
       {
-        "title": "Cosmic Aurora",
-        "name": "Northern Lights",
-        "icon": "🌠"
+        "title": "CMB",
+        "name": "Trispectrum Map",
+        "icon": "📊"
+      },
+      {
+        "title": "Intergalactic Filaments",
+        "name": "Cosmic Web",
+        "icon": "🕸️"
       }
     ]
   },
@@ -156,92 +156,208 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "text": "You think you’ve seen all storms? Think again.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "What happens when lightning meets the aurora?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Witness the sky bleed neon and thunder.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Mass Surveillance",
+        "name": "Eye in the Sky",
+        "icon": "📡"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Mind Control",
+        "name": "Thought Spam",
+        "icon": "🧠"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Resource Depletion",
+        "name": "Water Wars",
+        "icon": "💧"
+      },
+      {
+        "title": "AI Dominance",
+        "name": "Algorithmic Tyrant",
+        "icon": "🤖"
+      },
+      {
+        "title": "Genetic Manipulation",
+        "name": "Designer Daughters",
+        "icon": "🧬"
+      },
+      {
+        "title": "Carbon Catastrophe",
+        "name": "Smog Sovereign",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Digital Debt",
+        "name": "Crypto Crawler",
+        "icon": "💰"
+      },
+      {
+        "title": "Encrypted Catacombs",
+        "name": "Zero-Trust Vault",
+        "icon": "🗝️"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Ever seen a creature that could laugh at a volcano?",
-        "duration": 4
+        "title": "Quantum Reflexes",
+        "name": "Phase Shift Reflex",
+        "icon": "⚡"
       },
       {
-        "text": "What if evolution gave us wings made of fire?",
-        "duration": 4
+        "title": "Nanobiomimicry",
+        "name": "Self-Healing Nanofiber Contours",
+        "icon": "🧬"
       },
       {
-        "text": "Meet the Lava Hummingbird, soaring in fire.",
-        "duration": 4
+        "title": "Molecular Camouflage",
+        "name": "Chromatic Molecular Shifts",
+        "icon": "🎨"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more HyperEvolutionaryAdaptations.",
-        "duration": 3
+        "title": "Temporal Perception",
+        "name": "Chrono Sensing Array",
+        "icon": "⏳"
+      },
+      {
+        "title": "Energetic Resonance",
+        "name": "Subatomic Vibrational Modulator",
+        "icon": "🎵"
+      },
+      {
+        "title": "Adaptive Metabolism",
+        "name": "Hyperfuel Synthesis Engine",
+        "icon": "🔥"
+      },
+      {
+        "title": "Bio-Photonics",
+        "name": "Light-Absorbing Photonic Skin",
+        "icon": "🌟"
+      },
+      {
+        "title": "Genetic Polymorphism",
+        "name": "Cryptic Gene Switchboard",
+        "icon": "🌀"
       }
     ]
   },
   "ImpossibleArchitectureBlueprints": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ImpossibleArchitectureBlueprints secrets you need to know.",
+    "closing": "If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of ImpossibleArchitectureBlueprints are finally revealed.",
-        "duration": 5
+        "title": "Gravity-Defying Cathedral",
+        "name": "Aerial Eclipse",
+        "icon": "🏰"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Sea-Serpent Bridge",
+        "name": "Poseidon's Path",
+        "icon": "🌉"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Living Labyrinth",
+        "name": "Bioluminescent Maze",
+        "icon": "🏗️"
+      },
+      {
+        "title": "Eternal Spiral Tower",
+        "name": "Helix of Infinity",
+        "icon": "🌀"
+      },
+      {
+        "title": "Stellar Observatory",
+        "name": "Orbiting Eclipse",
+        "icon": "🚀"
+      },
+      {
+        "title": "Underground Cavern Estate",
+        "name": "Abyssal Manor",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Floating Island Resort",
+        "name": "Nimbus Retreat",
+        "icon": "🌐"
+      },
+      {
+        "title": "Phantom Train Station",
+        "name": "Spectral Rails",
+        "icon": "🛤️"
       }
     ]
   },
   "CosmicMegaStructureConstruction": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_bella",
+    "hook": "Here are the top 8 CosmicMegaStructureConstruction secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Imagine building a house that spans the entire star.",
-        "duration": 4
+        "title": "Stellar Framing",
+        "name": "Photon Lattice Grappling",
+        "icon": "🌌"
       },
       {
-        "text": "Could a Dyson sphere be our next megastructure?",
-        "duration": 4
+        "title": "Nebular Foundations",
+        "name": "Gas‑Ring Anchor Chains",
+        "icon": "💫"
       },
       {
-        "text": "A silent Dyson sphere harnesses a star's full power.",
-        "duration": 4
+        "title": "Quantum Anchoring",
+        "name": "Entanglement Rebar",
+        "icon": "🌀"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 3
+        "title": "Gravitational Tethers",
+        "name": "Micro‑Black Hole Bolts",
+        "icon": "⚫️"
+      },
+      {
+        "title": "Solar Flux Shingles",
+        "name": "Plasma Roofing",
+        "icon": "☀️"
+      },
+      {
+        "title": "Astro‑Sculpting",
+        "name": "Comet Dust Smoothing",
+        "icon": "🌠"
+      },
+      {
+        "title": "Interstellar Insulation",
+        "name": "Dark Matter Glazing",
+        "icon": "🪐"
+      },
+      {
+        "title": "Chrono‑Span Wiring",
+        "name": "Time‑Dilated Conduits",
+        "icon": "⌛"
       }
     ]
   },
@@ -11852,6 +11968,53 @@
         "title": "User Experience",
         "name": "Flow Feel",
         "icon": "🧭"
+      }
+    ]
+  },
+  "ApexFlow_1776666915924": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776666915924 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Epic Power Boost",
+        "name": "Apex Surge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Hidden Portal",
+        "name": "Veil Gate",
+        "icon": "🌌"
+      },
+      {
+        "title": "Chrono Key",
+        "name": "Time Fractal",
+        "icon": "⏳"
+      },
+      {
+        "title": "Celestial Map",
+        "name": "Stellar Chart",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Ancient Relic",
+        "name": "Obsidian Core",
+        "icon": "🗝️"
+      },
+      {
+        "title": "Quantum Device",
+        "name": "Echo Node",
+        "icon": "🔬"
+      },
+      {
+        "title": "Mystic Altar",
+        "name": "Soulforge",
+        "icon": "🔥"
+      },
+      {
+        "title": "Eternal Jewel",
+        "name": "Luminous Prism",
+        "icon": "💎"
       }
     ]
   }
