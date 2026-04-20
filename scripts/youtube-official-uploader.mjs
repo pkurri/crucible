@@ -65,10 +65,11 @@ async function uploadVideo() {
 
   // 🏛️ DYNAMIC METADATA ARCHITECTURE
   const METADATA_PATH = path.join(process.cwd(), 'data', 'viral-metadata.json');
+  const channelHandle = process.env.YOUTUBE_CHANNEL_HANDLE || '@AAKNation';
   let videoData = {
-    title: `${topicName} | Facts You Didn't Know #shorts`,
-    description: `Exploring the hidden depth of ${topicName}. \n\n🚀 Subscribe for more daily ${topicName} insights! \n🔥 Follow the journey: https://www.youtube.com/@AAK-tion \n\n#reels #viral #facts #${topicName.replace(/\s+/g, '')}`,
-    tags: [topicName, 'viral', 'facts', 'shorts', 'trending'],
+    title: `${topicName} | The Truth Nobody Tells You 🤯 #Shorts`,
+    description: `#Shorts\n\nThe hidden truth about ${topicName} that most people never discover.\n\n🚀 Subscribe for daily insights! \n🔥 Follow: https://www.youtube.com/${channelHandle} \n\n#viral #facts #${topicName.replace(/\s+/g, '')} #trending #shorts`,
+    tags: [topicName, 'viral', 'facts', 'Shorts', 'trending', 'hidden truth', 'mind blowing', 'did you know', 'eye opener', 'shocking facts'],
     category: '27'
   };
 
@@ -77,6 +78,13 @@ async function uploadVideo() {
     if (allMeta[topicName]) {
       videoData = allMeta[topicName];
       if (!videoData.category) videoData.category = '27';
+      // Ensure #Shorts is first in description (critical for YT Shorts feed injection)
+      if (videoData.description && !videoData.description.startsWith('#Shorts')) {
+        videoData.description = `#Shorts\n\n${videoData.description}`;
+      }
+      // Ensure Shorts tag is present
+      if (!videoData.tags) videoData.tags = [];
+      if (!videoData.tags.includes('Shorts')) videoData.tags.unshift('Shorts');
       console.log(`   💎 Local Viral Metadata loaded for ${topicName}.`);
     }
   }

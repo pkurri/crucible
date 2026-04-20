@@ -9,9 +9,14 @@ jobs:
   run-automations:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Article Generation (Daily-ish)
-        # Only run articles every 4 hours to save quota
-        if: github.event.schedule == '0 */4 * * *' || github.event_name == 'workflow_dispatch'
+      - name: Check article generation schedule
+        id: check-hour
+        run: |
+          HOUR=$(date -u +%-H)
+          if [ $((HOUR % 4)) -eq 0 ]; then echo "run=true" >> $GITHUB_OUTPUT; else echo "run=false" >> $GITHUB_OUTPUT; fi
+
+      - name: Trigger Article Generation (Every 4 hours)
+        if: steps.check-hour.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           curl -f -X GET "https://forge-agents.space/api/articles/generate-batch" \
           -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \

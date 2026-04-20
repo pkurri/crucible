@@ -298,6 +298,14 @@
       "stage": "tool",
       "tags": ["tool", "monetization", "revenue"],
       "summary": "Optimize game revenue by analyzing monetization models and segmenting features into Free and Pro tiers. Generates data-driven IAP and subscription strategies."
+    },
+    {
+      "name": "claude-token-saver",
+      "dir": "claude-token-saver",
+      "skillMd": "claude-token-saver/SKILL.md",
+      "stage": "meta",
+      "tags": ["meta", "optimization", "token"],
+      "summary": "Context window and token usage optimizer for Claude Code. Enforces strict protocols for smart searching, reading constraints, and redundancy prevention to maintain peak performance."
     }
   ]
 }

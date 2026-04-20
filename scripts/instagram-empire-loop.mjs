@@ -39,7 +39,7 @@ async function main() {
     baseDir:          BASE,
     stateFile:        STATE,
     maxUploads:       MAX,
-    nichePool:        'instagram',
+    nichePool:        'meta',
     producerPlatform: 'meta',
     uploadFn:         uploadToInstagram,
     uploadMarker:     'instagram.json',

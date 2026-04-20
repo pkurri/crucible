@@ -58,16 +58,18 @@ const SUB_HOOKS = [
 async function architectScript(niche) {
   const hook = SUB_HOOKS[Math.floor(Math.random() * SUB_HOOKS.length)].replace('[topic]', niche.name);
   console.log(`✍️ [${niche.name}] Architecting viral script via Universal Fallback...`);
-  
+
   const systemPrompt = `You are the "Professional YouTube Scriptwriter" specialized in Retention Optimization.
-Your goal is to write high-impact scripts (10-15 seconds) for viral Shorts/Reels.
+Your goal is to write high-impact scripts (40-60 seconds) for viral Shorts/Reels.
 
-RETENTION STRUCTURE:
-1. Pattern-Interrupt Hook (0-3s): Stop the scroll with an unexpected statement.
-2. Curiosity Loop (3-7s): Raise a question that can only be answered at the end.
-3. Rapid Payoff (7-12s): Provide the insight or "visual gold".
-4. Engagement Trigger (12-15s): Strong CTA for followers/subscribers.
+RETENTION STRUCTURE (8-10 lines required):
+1. Pattern-Interrupt Hook (lines 1-2, ~8s): Stop the scroll with an unexpected, high-stakes statement.
+2. Body — 3 Revelations (lines 3-5, ~15s): Each line reveals one jaw-dropping fact or insight.
+3. Curiosity Bridge (lines 6-7, ~8s): Tease what they'll miss if they don't keep watching.
+4. CTA (line 8, ~5s): Direct, urgent call to subscribe/follow.
+5. Optional Cliffhanger (lines 9-10, ~6s): Leave them wanting the next video.
 
+CRITICAL: Each line must be under 60 characters. Total script duration MUST be 40-60 seconds.
 Style: Natural, engaging, spoken tone. END EVERY SCRIPT WITH: "${hook}"`;
 
   const format = process.argv.indexOf('--format') !== -1 ? process.argv[process.argv.indexOf('--format') + 1] : 'standard';
@@ -99,18 +101,25 @@ Niche Rationale: ${niche.reason || 'High velocity'}.
 Visual Keywords: ${keywordsStr}.
 
 CRITICAL:
-1. Keep each line under 60 characters for mobile readability.
-2. Use intensive, high-stakes language.
-3. Ensure a clear "Problem → Insight" transformation.
+1. Write EXACTLY 8-10 lines. Total duration must be 40-60 seconds.
+2. Keep each line under 60 characters for mobile readability.
+3. Use intensive, high-stakes language with emotional triggers.
+4. Follow structure: Hook (2 lines) → 3 Revelations (3 lines) → Curiosity Bridge (2 lines) → CTA (1 line) → optional Cliffhanger (1-2 lines).
+5. Ensure a clear "Problem → Insight → Transformation" arc.
 
 Return ONLY a JSON object:
 {
   "voice": "${niche.voice || 'en-US-GuyNeural'}",
   "lines": [
-    { "text": "[PATTERN INTERRUPT HOOK]...", "duration": 4 },
-    { "text": "[CURIOSITY LOOP/PROBLEM]...", "duration": 4 },
-    { "text": "[INSIGHT/PAYOFF]...", "duration": 4 },
-    { "text": "${hook}", "duration": 3 }
+    { "text": "[PATTERN INTERRUPT HOOK - unexpected statement]", "duration": 5 },
+    { "text": "[RAISE THE STAKES - why this matters NOW]", "duration": 4 },
+    { "text": "[REVELATION 1 - jaw-dropping fact]", "duration": 5 },
+    { "text": "[REVELATION 2 - deeper insight]", "duration": 5 },
+    { "text": "[REVELATION 3 - the twist or surprise]", "duration": 5 },
+    { "text": "[CURIOSITY BRIDGE - tease what comes next]", "duration": 4 },
+    { "text": "[AMPLIFY BRIDGE - raise urgency]", "duration": 4 },
+    { "text": "${hook}", "duration": 5 },
+    { "text": "[CLIFFHANGER - hint at next video topic]", "duration": 4 }
   ]
 }`;
 
@@ -122,9 +131,15 @@ Return ONLY a JSON object:
     return {
       voice: niche.voice || 'en-US-GuyNeural',
       lines: [
-        { text: `The secrets of ${niche.name} are finally revealed.`, duration: 5 },
-        { text: `Most fail because they lack the proper protocol.`, duration: 5 },
-        { text: `Follow the system to win the game.`, duration: 5 }
+        { text: `Nobody talks about the truth of ${niche.name}.`, duration: 5 },
+        { text: `And that silence is costing you everything.`, duration: 5 },
+        { text: `The data shows 97% of people get this wrong.`, duration: 5 },
+        { text: `The real pattern only 3% ever discover.`, duration: 5 },
+        { text: `It was hidden in plain sight the entire time.`, duration: 5 },
+        { text: `Once you see it, you cannot unsee it.`, duration: 4 },
+        { text: `Most will scroll past this and stay behind.`, duration: 4 },
+        { text: hook, duration: 5 },
+        { text: `Next: the method that changes everything.`, duration: 4 }
       ]
     };
   }

@@ -9,32 +9,59 @@ import path from 'path';
 
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 const METADATA_FILE = path.join(process.cwd(), 'data', 'viral-metadata.json');
+const NICHES_FILE   = path.join(process.cwd(), 'data', 'viral-niches.json');
 
-const TOPICS = [
-  'SuccessCodes', 'WealthWizards', 'MysteryArchive', 'PlayfulPixels',
-  'ZenGarden', 'FutureTech', 'DailyStoic', 'CookingCzar',
-  'TravelTrek', 'AutoArena', 'GamingGuru', 'NatureNook',
-  'PulsePolitics', 'CinemaScope', 'LifeHacks', 'MindfulMinutes',
-  'GadgetGrab', 'PetParade', 'HistoryHub', 'ForgeCore', 'BioHarmonize'
-];
+// Emotion-based fallback title templates for high-CTR without API key
+const EMOTION_TITLE_TEMPLATES = {
+  Fear:      (t) => `This ${t} Will Keep You Up At Night 😱`,
+  Awe:       (t) => `${t} Will Break Your Brain 🤯`,
+  Curiosity: (t) => `Scientists Don't Want You To Know About ${t}`,
+  Mystery:   (t) => `The ${t} Secret Nobody Talks About 👁️`,
+  Wonder:    (t) => `${t} Is More Incredible Than You Think 🌌`,
+  Disgust:   (t) => `The Disturbing Truth About ${t} 🚨`,
+  Excitement:(t) => `${t} Just Changed Everything Forever ⚡`,
+};
 
-async function generateMetadata(topic) {
+function getEmotionTitle(niche) {
+  const emotion = niche.targetEmotion || 'Curiosity';
+  const fn = EMOTION_TITLE_TEMPLATES[emotion] || EMOTION_TITLE_TEMPLATES['Curiosity'];
+  return fn(niche.name);
+}
+
+function buildNicheTagsFromKeywords(niche) {
+  const base = (niche.keywords || []).slice(0, 15).map(k => k.toLowerCase().replace(/\s+/g, ''));
+  const extras = [niche.name.toLowerCase().replace(/\s+/g, ''), 'viral', 'facts', 'shorts', 'trending'];
+  return [...new Set([...base, ...extras])].slice(0, 20);
+}
+
+async function generateMetadata(niche) {
+  const topic = typeof niche === 'string' ? niche : niche.name;
   console.log(`\n📑 [${topic}] Architecting viral metadata...`);
 
-  const systemPrompt = `You are a viral metadata strategist for YouTube Shorts and Instagram Reels. 
-Your goal is to write titles and descriptions that maximize Click-Through Rate (CTR) for specific niches. 
-Rule: DO NOT mention "AAK Nation" or any specific channel name. 
+  const systemPrompt = `You are a viral metadata strategist for YouTube Shorts and Instagram Reels.
+Your goal is to write titles and descriptions that maximize Click-Through Rate (CTR) for specific niches.
+Rule: DO NOT mention "AAK Nation" or any specific channel name.
 Structure:
-- Title: Curiosity-driven, under 60 chars.
-- Description: High-hook intro, 3-5 tags.`;
+- Title: Curiosity-driven, under 60 chars, emotion-triggering (Fear/Awe/Curiosity/Mystery/Wonder).
+- Description: High-hook intro, ends with 15-20 relevant hashtags.
+- Tags: 15-20 niche-specific keywords from the niche's domain.
+- ig_hook: 1-2 punchy sentences + 3 relevant hashtags.
+- fb_hook: 1-2 sentences that provoke engagement (question or bold claim).`;
+
+  const keywordsHint = typeof niche === 'object' && niche.keywords
+    ? `\nNiche keywords to use in tags: ${niche.keywords.slice(0, 20).join(', ')}`
+    : '';
+  const emotionHint = typeof niche === 'object' && niche.targetEmotion
+    ? `\nTarget Emotion: ${niche.targetEmotion} — title must trigger this emotion.`
+    : '';
 
   const userPrompt = `Generate viral metadata for the niche: "${topic}".
-Rule: NEVER mention "AAK Nation" or any specific channel name.
+Rule: NEVER mention "AAK Nation" or any specific channel name.${emotionHint}${keywordsHint}
 Return JSON object:
 {
   "title": "...",
   "description": "...",
-  "tags": ["tag1", "tag2", ...],
+  "tags": ["tag1", "tag2", ... (15-20 niche-specific tags)],
   "ig_hook": "...",
   "fb_hook": "..."
 }`;
@@ -62,37 +89,44 @@ Return JSON object:
     return JSON.parse(data.choices[0].message.content);
   } catch (e) {
     console.log(`   ⚠️ Using fallback metadata (Offline/No Key).`);
-    const fallbacks = {
-      SuccessCodes: { 
-        title: 'The 3 Rituals of High-Achievers 🐘', 
-        description: 'Unlock your potential with these ancient protocols.\n\n#success #mindset #rituals', 
-        tags: ['success', 'mindset', 'ritual'],
-        ig_hook: '🙏 Stop scroll. This प्राचीन protocol removes every obstacle. #SuccessMindset #Rituals',
-        fb_hook: 'These ancient protocols for success are finally being decoded. Drop a 🙏 if you want the full guide.'
-      },
-      WealthWizards: { 
-        title: 'Why your 401k is a SCAM 📉', 
-        description: 'What the 1% knows that you dont. The AI wealth revolution is here.\n\n#wealth #investing #finance', 
-        tags: ['wealth', 'finance', 'investing'],
-        ig_hook: '💰 Financial advice is DEAD. The AI revolution has already replaced your advisor. #WealthBuilding #Finance',
-        fb_hook: 'The old playbook for wealth is dead. AI is rewriting the rules of finance in real-time. Are you adapting?'
-      }
-    };
-    return fallbacks[topic] || {
-      title: `${topic} Secret Finally Revealed 🕵️`,
-      description: `The deep truth about ${topic} that no one is telling you.\n\n#${topic.toLowerCase()} #viral #fact`,
-      tags: [topic.toLowerCase(), 'viral', 'fact'],
-      ig_hook: `🔍 The truth about ${topic} is being hidden from you. #viral #${topic.toLowerCase()}`,
-      fb_hook: `Most people think ${topic} is about one thing, but it is actually the opposite. Learn why.`
+    const nicheObj = typeof niche === 'object' ? niche : { name: topic };
+    const title = getEmotionTitle(nicheObj);
+    const tags  = buildNicheTagsFromKeywords(nicheObj);
+    const tagStr = tags.map(t => `#${t}`).join(' ');
+    return {
+      title,
+      description: `The truth about ${topic} that most people never discover.\n\n${tagStr}`,
+      tags,
+      ig_hook: `🔍 ${title} #viral #${topic.toLowerCase().replace(/\s+/g, '')}`,
+      fb_hook: `Most people think they understand ${topic}. They don't. Here's what they're missing.`
     };
   }
 }
 
 async function run() {
-  const allMetadata = {};
-  for (const topic of TOPICS) {
-    allMetadata[topic] = await generateMetadata(topic);
+  // Load all niches dynamically instead of a static list
+  let topics;
+  if (fs.existsSync(NICHES_FILE)) {
+    const registry = JSON.parse(fs.readFileSync(NICHES_FILE, 'utf8'));
+    topics = registry.niches || [];
+    console.log(`📚 Loaded ${topics.length} niches from viral-niches.json`);
+  } else {
+    console.warn('⚠️ viral-niches.json not found. No metadata to generate.');
+    return;
   }
+
+  const filterTopic = process.argv.indexOf('--topic') !== -1 ? process.argv[process.argv.indexOf('--topic') + 1] : null;
+  const existingMetadata = fs.existsSync(METADATA_FILE) ? JSON.parse(fs.readFileSync(METADATA_FILE, 'utf8')) : {};
+
+  const allMetadata = { ...existingMetadata };
+  for (const niche of topics) {
+    if (filterTopic && niche.name !== filterTopic) continue;
+    // Only regenerate if missing or explicitly filtered
+    if (!allMetadata[niche.name] || filterTopic) {
+      allMetadata[niche.name] = await generateMetadata(niche);
+    }
+  }
+
   fs.mkdirSync(path.dirname(METADATA_FILE), { recursive: true });
   fs.writeFileSync(METADATA_FILE, JSON.stringify(allMetadata, null, 2));
   console.log(`\n✨ Viral metadata architected and saved to ${METADATA_FILE}`);

@@ -284,8 +284,9 @@ async function uploadToFacebook(videoPath, caption) {
     videoUrl = uploadToCatbox(videoPath);
   }
 
-  // Step 2: Try video_reels endpoint first; fall back to /videos if rate-limited
+  // Step 2: Try video_reels endpoint first; always fall back to /videos on any error
   let videoId;
+  let reelsError = null;
   try {
     console.log(`[FB] Trying video_reels endpoint (cloud-pull from: ${videoUrl})...`);
     const init = await apiCall(
@@ -293,6 +294,8 @@ async function uploadToFacebook(videoPath, caption) {
       'POST',
       { upload_phase: 'start', file_url: videoUrl }
     );
+    console.log(`[FB] video_reels start response: ${JSON.stringify(init)}`);
+    if (!init || !init.video_id) throw new Error(`[FB] video_reels start returned no video_id. Full response: ${JSON.stringify(init)}`);
     videoId = init.video_id;
     console.log(`[FB] Reel container created. Video ID: ${videoId}. Waiting for FB to process...`);
 
@@ -323,17 +326,19 @@ async function uploadToFacebook(videoPath, caption) {
     console.log(`[FB] Reel published! Result: ${JSON.stringify(finish)}`);
 
   } catch (e) {
-    if (!e.message.includes('368')) throw e;
-
-    // ── Fallback: /{page-id}/videos (different rate limit bucket) ──────
-    console.warn(`[FB] video_reels rate-limited (368). Falling back to /videos endpoint...`);
-    const res = await apiCall(
-      `${META_API}/${FB_PAGE_ID}/videos?access_token=${FB_PAGE_TOKEN}`,
-      'POST',
-      { file_url: videoUrl, description: caption, published: true }
-    );
-    videoId = res.id;
-    console.log(`[FB] Video posted via /videos endpoint! ID: ${videoId}`);
+    reelsError = e;
+    console.warn(`[FB] video_reels failed (${e.message}). Falling back to /videos endpoint...`);
+    try {
+      const res = await apiCall(
+        `${META_API}/${FB_PAGE_ID}/videos?access_token=${FB_PAGE_TOKEN}`,
+        'POST',
+        { file_url: videoUrl, description: caption, published: true }
+      );
+      videoId = res.id;
+      console.log(`[FB] Video posted via /videos endpoint! ID: ${videoId}`);
+    } catch (fallbackErr) {
+      throw new Error(`[FB] Both upload methods failed.\n  video_reels: ${reelsError.message}\n  /videos: ${fallbackErr.message}`);
+    }
   }
 
   // Mark as uploaded
