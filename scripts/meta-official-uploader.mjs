@@ -159,35 +159,42 @@ async function uploadVideoFile(videoPath, uploadUrl, retryCount = 0, token = ACC
 }
 
 // ═══════════════════════════════════════════════════════
-// 🌐 HIGH-SPEED CDN TUNNEL (Fixes Meta Fwdproxy / Resumable Limits)
-// Uses 0x0.st (CI-friendly) with transfer.sh as fallback.
-// Catbox blocks GitHub Actions IPs ("Invalid uploader" error).
+// 🌐 CDN TUNNEL — for Instagram (URL-pull only API)
+// Uses pixeldrain.com (reliable from GitHub Actions).
 // ═══════════════════════════════════════════════════════
 function uploadToCDN(videoPath, retries = 3) {
   const filename = path.basename(videoPath);
   const providers = [
     {
-      name: '0x0.st',
-      cmd: () => `curl -s -F "file=@${videoPath}" https://0x0.st`,
-      parse: (out) => out.trim(),
+      name: 'pixeldrain',
+      cmd: () => `curl -s -T "${videoPath}" "https://pixeldrain.com/api/file/${filename}"`,
+      parse: (out) => {
+        const data = JSON.parse(out);
+        if (data.id) return `https://pixeldrain.com/api/file/${data.id}`;
+        throw new Error(data.message || JSON.stringify(data));
+      },
     },
     {
-      name: 'transfer.sh',
-      cmd: () => `curl -s --upload-file "${videoPath}" "https://transfer.sh/${filename}"`,
-      parse: (out) => out.trim(),
+      name: 'gofile',
+      cmd: () => `curl -s -F "file=@${videoPath}" https://store1.gofile.io/contents/uploadfile`,
+      parse: (out) => {
+        const data = JSON.parse(out);
+        if (data.status === 'ok' && data.data?.directLink) return data.data.directLink;
+        throw new Error(data.message || JSON.stringify(data));
+      },
     },
   ];
 
-  console.log(`[CDN] Tunneling video through CDN to bypass Meta proxy limitations...`);
+  console.log(`[CDN] Tunneling video for Instagram URL-pull...`);
   for (const provider of providers) {
     for (let i = 0; i < retries; i++) {
       try {
-        const tmpUrl = provider.parse(execSync(provider.cmd(), { timeout: 120000 }).toString());
+        const tmpUrl = provider.parse(execSync(provider.cmd(), { timeout: 120000 }).toString().trim());
         if (tmpUrl && tmpUrl.startsWith('http')) {
-          console.log(`[CDN] Tunnel URL acquired via ${provider.name}: ${tmpUrl}`);
+          console.log(`[CDN] URL acquired via ${provider.name}: ${tmpUrl}`);
           return tmpUrl;
         }
-        console.warn(`[CDN][${provider.name}] Attempt ${i + 1} failed. Output: ${tmpUrl}`);
+        console.warn(`[CDN][${provider.name}] Attempt ${i + 1}: no valid URL`);
       } catch (e) {
         console.warn(`[CDN][${provider.name}] Attempt ${i + 1} error: ${e.message}`);
       }
@@ -195,7 +202,28 @@ function uploadToCDN(videoPath, retries = 3) {
     }
     console.warn(`[CDN] ${provider.name} exhausted, trying next provider...`);
   }
-  throw new Error('[CDN] All providers failed after retries. Cannot get public video URL.');
+  throw new Error('[CDN] All providers failed. Cannot get public video URL for Instagram.');
+}
+
+// 📘 FACEBOOK DIRECT UPLOAD (no CDN needed — multipart form to Meta API)
+// ═══════════════════════════════════════════════════════
+function uploadVideoDirectToFacebook(videoPath, caption, fbPageId, fbPageToken) {
+  const tmpCaptionFile = `/tmp/fb_caption_${Date.now()}.txt`;
+  fs.writeFileSync(tmpCaptionFile, caption);
+  try {
+    console.log(`[FB] Direct multipart upload to Meta API...`);
+    const cmd = `curl -s -X POST \
+      "https://graph.facebook.com/v19.0/${fbPageId}/videos?access_token=${fbPageToken}" \
+      -F "description=<${tmpCaptionFile}" \
+      -F "published=true" \
+      -F "source=@${videoPath}"`;
+    const result = execSync(cmd, { timeout: 300000 }).toString().trim();
+    const data = JSON.parse(result);
+    if (data.error) throw new Error(`${data.error.message} (code: ${data.error.code})`);
+    return data.id;
+  } finally {
+    if (fs.existsSync(tmpCaptionFile)) fs.unlinkSync(tmpCaptionFile);
+  }
 }
 
 // ═══════════════════════════════════════════════════════
@@ -289,65 +317,24 @@ async function uploadToFacebook(videoPath, caption) {
     throw new Error(`[FB] Handshake FAILED: ${e.message}. Check Page Access Token permissions.`);
   }
 
-  // Step 1: Get public video URL (domain or Catbox CDN)
-  let videoUrl;
-  if (publicBaseUrl && publicBaseUrl.startsWith('http')) {
-    videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
-    console.log(`[FB] Using domain URL: ${videoUrl}`);
-  } else {
-    console.log(`[FB] Tunneling via Catbox CDN...`);
-    videoUrl = uploadToCDN(videoPath);
-  }
-
-  // Step 2: Upload via /videos (primary — works with pages_manage_posts + publish_video)
-  // video_reels requires the app to be linked to the page; /videos does not.
+  // Step 2: Direct multipart upload — no CDN needed, bypasses all URL-pull issues
   let videoId;
   try {
-    console.log(`[FB] Uploading via /videos endpoint (cloud-pull from: ${videoUrl})...`);
-    const res = await apiCall(
-      `${META_API}/${FB_PAGE_ID}/videos?access_token=${FB_PAGE_TOKEN}`,
-      'POST',
-      { file_url: videoUrl, description: caption, published: true }
-    );
-    videoId = res.id;
+    videoId = uploadVideoDirectToFacebook(videoPath, caption, FB_PAGE_ID, FB_PAGE_TOKEN);
     console.log(`[FB] Video posted! ID: ${videoId}`);
-  } catch (videosErr) {
-    console.warn(`[FB] /videos failed (${videosErr.message}). Trying video_reels endpoint...`);
+  } catch (directErr) {
+    console.warn(`[FB] Direct upload failed (${directErr.message}). Trying URL-pull via CDN...`);
     try {
-      const init = await apiCall(
-        `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
+      const videoUrl = uploadToCDN(videoPath);
+      const res = await apiCall(
+        `${META_API}/${FB_PAGE_ID}/videos?access_token=${FB_PAGE_TOKEN}`,
         'POST',
-        { upload_phase: 'start', file_url: videoUrl }
+        { file_url: videoUrl, description: caption, published: true }
       );
-      console.log(`[FB] video_reels start response: ${JSON.stringify(init)}`);
-      if (!init || !init.video_id) throw new Error(`video_reels start returned no video_id: ${JSON.stringify(init)}`);
-      videoId = init.video_id;
-
-      // Poll processing status
-      let videoStatus = 'processing';
-      let attempts = 0;
-      while (videoStatus === 'processing' && attempts < 40) {
-        await sleep(15000);
-        try {
-          const check = await apiCall(`${META_API}/${videoId}?fields=status&access_token=${FB_PAGE_TOKEN}`);
-          videoStatus = check?.status?.video_status || 'processing';
-          attempts++;
-          console.log(`[FB] Processing status: ${videoStatus} (attempt ${attempts})`);
-        } catch (e) {
-          console.warn(`[FB] Status poll failed (attempt ${attempts}): ${e.message}`);
-          attempts++;
-        }
-      }
-      if (videoStatus === 'error') throw new Error(`Video processing failed: status=${videoStatus}`);
-
-      const finish = await apiCall(
-        `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
-        'POST',
-        { video_id: videoId, upload_phase: 'finish', video_state: 'PUBLISHED', description: caption }
-      );
-      console.log(`[FB] Reel published via video_reels! Result: ${JSON.stringify(finish)}`);
-    } catch (reelsErr) {
-      throw new Error(`[FB] Both upload methods failed.\n  /videos: ${videosErr.message}\n  video_reels: ${reelsErr.message}`);
+      videoId = res.id;
+      console.log(`[FB] Video posted via URL-pull! ID: ${videoId}`);
+    } catch (urlErr) {
+      throw new Error(`[FB] All upload methods failed.\n  direct: ${directErr.message}\n  url-pull: ${urlErr.message}`);
     }
   }
 
