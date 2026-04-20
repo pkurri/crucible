@@ -89,19 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
-        "duration": 5
+        "title": "Nebular Majesty",
+        "name": "The Orion Nebula",
+        "icon": "🪐"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Stellar Birthplaces",
+        "name": "Eagle Nebula’s Pillars",
+        "icon": "✂️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Galactic Collisions",
+        "name": "Merging Milky Way & Andromeda",
+        "icon": "🌀"
+      },
+      {
+        "title": "Exoplanet Glows",
+        "name": "Red Dwarf Aurora",
+        "icon": "🌑"
+      },
+      {
+        "title": "Black Hole Lights",
+        "name": "M87’s Jet",
+        "icon": "⚡"
+      },
+      {
+        "title": "Supernova Spectra",
+        "name": "SN 1987A Remnants",
+        "icon": "✨"
+      },
+      {
+        "title": "Quantum Wavefronts",
+        "name": "Intergalactic Light",
+        "icon": "🔮"
+      },
+      {
+        "title": "Cosmic Dust Sculptures",
+        "name": "Barnard 68",
+        "icon": "🧵"
       }
     ]
   },
@@ -126,50 +156,114 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
-        "duration": 5
+        "text": "This video shatters the sky—watch the impossible.",
+        "duration": 4
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "text": "Ever wonder why auroras outshine rainbows?",
+        "duration": 4
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "text": "Because the ionosphere turns lightning into living light.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "If you want to master DystopianFutureSimulations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "Neural Net Overwatch",
+        "icon": "👁️"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Resource Scarcity",
+        "name": "Crystalplex Resource Grid",
+        "icon": "⛓️"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Synthetic Biology",
+        "name": "Coded Chimeras",
+        "icon": "🧬"
+      },
+      {
+        "title": "Weather Control",
+        "name": "Tempest Engine",
+        "icon": "🌩️"
+      },
+      {
+        "title": "Corporate Dominance",
+        "name": "OmniCorp Monolith",
+        "icon": "🏢"
+      },
+      {
+        "title": "AI Governance",
+        "name": "Sentinel Protocol",
+        "icon": "🤖"
+      },
+      {
+        "title": "Memory Hack",
+        "name": "Echo Pathways",
+        "icon": "🧠"
+      },
+      {
+        "title": "Underground Resistance",
+        "name": "Shadows Network",
+        "icon": "🤐"
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
+    "closing": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
-        "duration": 5
+        "title": "Genomic Hyperloop",
+        "name": "Chromosomal Singularity",
+        "icon": "🧬"
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
-        "duration": 5
+        "title": "Quantum Immortality Respiration",
+        "name": "Radiant Core",
+        "icon": "⚡"
       },
       {
-        "text": "Follow the system to win the game.",
-        "duration": 5
+        "title": "Aetheric Resonance",
+        "name": "Celestial Pulse",
+        "icon": "🎇"
+      },
+      {
+        "title": "Neural Synaptic Catapult",
+        "name": "Emotion Launcher",
+        "icon": "🦉"
+      },
+      {
+        "title": "Photonic Camouflage",
+        "name": "Spectral Veil",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Artificial Symbiosis",
+        "name": "Coalesce Matrix",
+        "icon": "👽"
+      },
+      {
+        "title": "Bio-Phased Chromatophores",
+        "name": "Nano Flicker",
+        "icon": "🔁"
+      },
+      {
+        "title": "Hyperelastic Dermis",
+        "name": "Flex Skin",
+        "icon": "🧜‍♂️"
       }
     ]
   },
@@ -11711,6 +11805,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "ApexFlow_1776652606405": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776652606405 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Automation Mastery",
+        "name": "Rapid-Trigger Wizard",
+        "icon": "⚡"
+      },
+      {
+        "title": "Analytics Insight",
+        "name": "Pulse-Tracker Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Workflow Efficiency",
+        "name": "Smart-Bridge Connector",
+        "icon": "🔗"
+      },
+      {
+        "title": "Data Integration",
+        "name": "Flux-Source Sync",
+        "icon": "🔄"
+      },
+      {
+        "title": "Security Fortification",
+        "name": "Guard-Node Protector",
+        "icon": "🛡️"
+      },
+      {
+        "title": "User Experience",
+        "name": "Glow-Interface Skin",
+        "icon": "✨"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinity-Node Cluster",
+        "icon": "📈"
+      },
+      {
+        "title": "Developer Toolkit",
+        "name": "Code-Forge IDE",
+        "icon": "🛠️"
       }
     ]
   }
