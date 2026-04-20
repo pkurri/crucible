@@ -7,17 +7,18 @@ import 'dotenv/config';
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 
 const FREE_MODELS = [
-  'google/gemini-2.0-flash-lite-001',
-  'meta-llama/llama-3.3-70b-instruct:free',
-  'meta-llama/llama-3.1-8b-instruct:free',
-  'google/gemini-2.0-flash-001',
-  'openai/gpt-4o-mini',
+  'google/gemini-2.0-flash-exp:free',
+  'deepseek/deepseek-chat-v3-0324:free',
+  'meta-llama/llama-4-scout:free',
+  'qwen/qwen3-30b-a3b:free',
+  'mistralai/mistral-small-3.1-24b-instruct:free',
 ];
 
 const PRO_MODELS = [
-  'google/gemini-2.0-flash-001',
-  'openai/gpt-4o-mini',
-  'anthropic/claude-3-haiku'
+  'google/gemini-2.5-pro-exp-03-25:free',
+  'meta-llama/llama-4-maverick:free',
+  'qwen/qwen3-235b-a22b:free',
+  'deepseek/deepseek-r1:free',
 ];
 
 export async function callAI(prompt, systemPrompt = "You are a viral content architect for AAK Nation.", usePro = false) {

@@ -299,60 +299,55 @@ async function uploadToFacebook(videoPath, caption) {
     videoUrl = uploadToCDN(videoPath);
   }
 
-  // Step 2: Try video_reels endpoint first; always fall back to /videos on any error
+  // Step 2: Upload via /videos (primary — works with pages_manage_posts + publish_video)
+  // video_reels requires the app to be linked to the page; /videos does not.
   let videoId;
-  let reelsError = null;
   try {
-    console.log(`[FB] Trying video_reels endpoint (cloud-pull from: ${videoUrl})...`);
-    const init = await apiCall(
-      `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
+    console.log(`[FB] Uploading via /videos endpoint (cloud-pull from: ${videoUrl})...`);
+    const res = await apiCall(
+      `${META_API}/${FB_PAGE_ID}/videos?access_token=${FB_PAGE_TOKEN}`,
       'POST',
-      { upload_phase: 'start', file_url: videoUrl }
+      { file_url: videoUrl, description: caption, published: true }
     );
-    console.log(`[FB] video_reels start response: ${JSON.stringify(init)}`);
-    if (!init || !init.video_id) throw new Error(`[FB] video_reels start returned no video_id. Full response: ${JSON.stringify(init)}`);
-    videoId = init.video_id;
-    console.log(`[FB] Reel container created. Video ID: ${videoId}. Waiting for FB to process...`);
-
-    // Poll processing status
-    let videoStatus = 'processing';
-    let attempts = 0;
-    while (videoStatus === 'processing' && attempts < 40) {
-      await sleep(15000);
-      try {
-        const check = await apiCall(`${META_API}/${videoId}?fields=status&access_token=${FB_PAGE_TOKEN}`);
-        videoStatus = check?.status?.video_status || 'processing';
-        attempts++;
-        console.log(`[FB] Processing status: ${videoStatus} (attempt ${attempts})`);
-      } catch (e) {
-        console.warn(`[FB] Status poll failed (attempt ${attempts}): ${e.message}`);
-        attempts++;
-      }
-    }
-    if (videoStatus === 'error') throw new Error(`[FB] Video processing failed: status=${videoStatus}`);
-
-    // Finish + publish as Reel
-    console.log(`[FB] Publishing Reel...`);
-    const finish = await apiCall(
-      `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
-      'POST',
-      { video_id: videoId, upload_phase: 'finish', video_state: 'PUBLISHED', description: caption }
-    );
-    console.log(`[FB] Reel published! Result: ${JSON.stringify(finish)}`);
-
-  } catch (e) {
-    reelsError = e;
-    console.warn(`[FB] video_reels failed (${e.message}). Falling back to /videos endpoint...`);
+    videoId = res.id;
+    console.log(`[FB] Video posted! ID: ${videoId}`);
+  } catch (videosErr) {
+    console.warn(`[FB] /videos failed (${videosErr.message}). Trying video_reels endpoint...`);
     try {
-      const res = await apiCall(
-        `${META_API}/${FB_PAGE_ID}/videos?access_token=${FB_PAGE_TOKEN}`,
+      const init = await apiCall(
+        `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
         'POST',
-        { file_url: videoUrl, description: caption, published: true }
+        { upload_phase: 'start', file_url: videoUrl }
       );
-      videoId = res.id;
-      console.log(`[FB] Video posted via /videos endpoint! ID: ${videoId}`);
-    } catch (fallbackErr) {
-      throw new Error(`[FB] Both upload methods failed.\n  video_reels: ${reelsError.message}\n  /videos: ${fallbackErr.message}`);
+      console.log(`[FB] video_reels start response: ${JSON.stringify(init)}`);
+      if (!init || !init.video_id) throw new Error(`video_reels start returned no video_id: ${JSON.stringify(init)}`);
+      videoId = init.video_id;
+
+      // Poll processing status
+      let videoStatus = 'processing';
+      let attempts = 0;
+      while (videoStatus === 'processing' && attempts < 40) {
+        await sleep(15000);
+        try {
+          const check = await apiCall(`${META_API}/${videoId}?fields=status&access_token=${FB_PAGE_TOKEN}`);
+          videoStatus = check?.status?.video_status || 'processing';
+          attempts++;
+          console.log(`[FB] Processing status: ${videoStatus} (attempt ${attempts})`);
+        } catch (e) {
+          console.warn(`[FB] Status poll failed (attempt ${attempts}): ${e.message}`);
+          attempts++;
+        }
+      }
+      if (videoStatus === 'error') throw new Error(`Video processing failed: status=${videoStatus}`);
+
+      const finish = await apiCall(
+        `${META_API}/${FB_PAGE_ID}/video_reels?access_token=${FB_PAGE_TOKEN}`,
+        'POST',
+        { video_id: videoId, upload_phase: 'finish', video_state: 'PUBLISHED', description: caption }
+      );
+      console.log(`[FB] Reel published via video_reels! Result: ${JSON.stringify(finish)}`);
+    } catch (reelsErr) {
+      throw new Error(`[FB] Both upload methods failed.\n  /videos: ${videosErr.message}\n  video_reels: ${reelsErr.message}`);
     }
   }
 
