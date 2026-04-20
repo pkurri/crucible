@@ -32,8 +32,17 @@ jobs:
       - name: Install Edge TTS
         run: pip install edge-tts
 
-      - name: Setup YouTube Credentials
+      - name: Validate YouTube Secrets
+        run: |
+          if [ -z "${{ secrets.YOUTUBE_CLIENT_SECRET }}" ]; then
+            echo "❌ FATAL: YOUTUBE_CLIENT_SECRET secret is missing or empty. Aborting." && exit 1
+          fi
+          if [ -z "${{ secrets.YOUTUBE_TOKEN_JSON }}" ]; then
+            echo "❌ FATAL: YOUTUBE_TOKEN_JSON secret is missing or empty. Re-run youtube-auth-test.mjs locally and update the secret." && exit 1
+          fi
+          echo "✅ YouTube secrets present."
 
+      - name: Setup YouTube Credentials
         run: |
           echo '${{ secrets.YOUTUBE_CLIENT_SECRET }}' > client_secret.json
           echo '${{ secrets.YOUTUBE_TOKEN_JSON }}' > youtube-token.json

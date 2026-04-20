@@ -1,6 +1,126 @@
 {
   "niches": [
     {
+      "name": "AIAgentsAreTakingOver",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.8,
+      "targetEmotion": "Fear",
+      "reason": "Agentic AI (Claude, GPT-4o, Gemini) is replacing white-collar jobs in real-time. April 2026 trending: 'AI agents doing entire jobs', 'AI replaced me', 'autopilot economy'. High CTR on fear + curiosity combo.",
+      "ideas": [
+        "The AI agent that replaced 12 employees \u2014 and nobody noticed / Hook: Your boss hired someone last week. You never met them. You never will.",
+        "5 white-collar jobs that vanished in 90 days \u2014 AI agents did it / Hook: These weren't factory workers. These were people like you.",
+        "I let an AI agent run my business for 30 days \u2014 here's what happened / Hook: Revenue went up. My anxiety went through the roof."
+      ],
+      "keywords": [
+        "AI agent",
+        "automation shock",
+        "job replacement",
+        "autonomous AI",
+        "future of work"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "LongevityHacksUnlocked",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.7,
+      "targetEmotion": "Curiosity",
+      "reason": "Bryan Johnson's Blueprint + NMN/NAD+ wave + Peter Attia going mainstream. April 2026: longevity biohacking is the #1 growing health niche. Massive 25-55 demographic hungry for 'live to 150' content.",
+      "ideas": [
+        "The billionaire protocol that reversed his age by 10 years / Hook: He spent $2M testing his own body. The results defy biology.",
+        "3 supplements scientists actually take to slow aging (Big Pharma hates this) / Hook: These aren't sold in stores. And they work.",
+        "The Japanese village where nobody dies before 100 \u2014 scientists finally know why / Hook: It's not the water. It's not the food. It's one daily habit."
+      ],
+      "keywords": [
+        "longevity",
+        "biohacking",
+        "NMN NAD",
+        "anti-aging protocol",
+        "lifespan extension"
+      ],
+      "voice": "en-US-JennyNeural",
+      "priority": true
+    },
+    {
+      "name": "CryptoBullRunSecrets",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.6,
+      "targetEmotion": "Greed",
+      "reason": "Bitcoin hit new ATH in Q1 2026. Altcoin season in full swing. April 2026 top searches: 'next 100x crypto', 'crypto portfolio 2026', 'how to not miss bull run'. Finance + crypto Shorts get 10x average watch time.",
+      "ideas": [
+        "The wallet that turned $500 into $180,000 in 60 days \u2014 on-chain proof / Hook: This isn't luck. The blockchain tells the whole story.",
+        "5 altcoins that 100x'd last cycle \u2014 the pattern is happening again / Hook: The signals appeared 8 weeks before the pump. Here they are.",
+        "Why 97% of retail investors lose in a bull market (and the 3% trick) / Hook: The market is up 300%. Your portfolio is down. Here's exactly why."
+      ],
+      "keywords": [
+        "crypto bull run",
+        "altcoin season",
+        "Bitcoin ATH",
+        "100x coins",
+        "on-chain signals"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "DarkPsychologyPower",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.6,
+      "targetEmotion": "Curiosity",
+      "reason": "Dark psychology / manipulation tactics is the #1 evergreen short-form niche. 'Laws of Power', Machiavelli, manipulation tactics videos consistently hit 5M+ views. April 2026: spiked again due to political cycles and workplace competition anxiety.",
+      "ideas": [
+        "The manipulation tactic so subtle, victims thank their abuser / Hook: You've experienced this. You just didn't have a name for it.",
+        "3 psychological tricks powerful people use in every conversation / Hook: The most dangerous one takes under 4 seconds to deploy.",
+        "Why intelligent people are the easiest to manipulate \u2014 dark truth / Hook: Higher IQ = higher vulnerability. The science is disturbing."
+      ],
+      "keywords": [
+        "dark psychology",
+        "manipulation tactics",
+        "psychological warfare",
+        "power dynamics",
+        "mind control"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
+      "name": "GeopoliticalCollapseWatch",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Fear",
+      "reason": "Global instability in 2026 \u2014 Middle East, Taiwan strait tensions, NATO expansion, dollar dominance challenged. 'What happens if...' geopolitical scenarios get massive watch time. Evergreen fear + information niche.",
+      "ideas": [
+        "What happens to your money if the US dollar collapses in 2026 / Hook: Three countries just stopped trading in dollars. This is how it starts.",
+        "The war scenario military analysts say is now 'most likely' / Hook: No news channel will say this out loud. The maps tell the story.",
+        "Why 11 countries are quietly stockpiling gold \u2014 and what they know / Hook: Central banks bought more gold in Q1 2026 than any quarter since 1950."
+      ],
+      "keywords": [
+        "geopolitical risk",
+        "dollar collapse",
+        "world war scenario",
+        "gold stockpile",
+        "global instability"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
+    },
+    {
       "name": "AncientTechMysteries",
       "platforms": [
         "youtube",
@@ -82,7 +202,7 @@
       "reason": "Symbolism and hidden meanings resonate deeply in the current cultural landscape. With the rise of interest in esoteric knowledge and self-discovery, audiences are drawn to content that offers a glimpse into the unseen forces shaping our reality. The combination of ancient symbolism and alchemical transformation promises to unlock profound insights, appealing to a broad audience seeking meaning and personal growth.",
       "ideas": [
         "Title: 'UNLOCK the Secret Power of Alchemical Symbols!' / Hook: Discover how ancient symbols can transform your life from the inside out. Are you ready to decode the hidden language of the universe?",
-        "Title: 'HIDDEN Alchemy: Turn LEAD into GOLD (Mindset Shift!)' / Hook: Alchemy isn't about magic; it’s about mastering your inner world. Learn to transmute negative thoughts into golden opportunities with these powerful mental techniques.",
+        "Title: 'HIDDEN Alchemy: Turn LEAD into GOLD (Mindset Shift!)' / Hook: Alchemy isn't about magic; it\u2019s about mastering your inner world. Learn to transmute negative thoughts into golden opportunities with these powerful mental techniques.",
         "Title: 'Alchemist's TOOLKIT: 3 Symbols for Manifesting Your Dreams!' / Hook: Attract abundance and success with these time-tested alchemical symbols. Tap into the universe's hidden forces and create the life you've always desired."
       ],
       "keywords": [
@@ -731,7 +851,7 @@
       "ideas": [
         "\"Quantum Entanglement: Spooky Action at a Distance Explained!\"",
         "\"Is Reality an Illusion? Exploring the Quantum Nature of Existence.\"",
-        "\"Quantum Computing: The Future Is Almost Here... and It’s Mind-Bending!\""
+        "\"Quantum Computing: The Future Is Almost Here... and It\u2019s Mind-Bending!\""
       ],
       "keywords": [
         "quantum physics",
@@ -755,7 +875,7 @@
       "ideas": [
         "\"Genetically Engineered Superhumans: Fact or Fiction?\"",
         "\"Unbelievable Bio-Engineering Breakthroughs That Will Change Everything!\"",
-        "\"De-Extinction Projects: Bringing Back the Dead…Should We?\""
+        "\"De-Extinction Projects: Bringing Back the Dead\u2026Should We?\""
       ],
       "keywords": [
         "genetic engineering",
@@ -1186,7 +1306,7 @@
       "reason": "Unexplained structures and hidden symbols in architecture throughout history ignite curiosity and demand deciphering.",
       "ideas": [
         "The Nazca Lines: Cosmic Messages Etched in Stone?",
-        "Göbekli Tepe: The World's Oldest Temple Hides a Secret!",
+        "G\u00f6bekli Tepe: The World's Oldest Temple Hides a Secret!",
         "Ancient Megaliths: Lost Technology or Supernatural Power?"
       ],
       "keywords": [
@@ -1859,7 +1979,7 @@
       "ideas": [
         "The Deep Ones Are Here: Cosmic Horror Sightings Caught on Camera",
         "Things Man Was Not Meant To Know: Visualizing the Unimaginable Terrors of Space",
-        "When The Stars Align… Prepare For The Cosmic Horror"
+        "When The Stars Align\u2026 Prepare For The Cosmic Horror"
       ],
       "keywords": [
         "cosmic horror",
@@ -2820,7 +2940,7 @@
       "targetEmotion": "Awe",
       "reason": "Biopunk and speculative biology are trending. People are fascinated and slightly disturbed by the possibilities of future biological manipulation. The fusion of technology and life generates inherent curiosity, fueled by ethical debates and visual potential.",
       "ideas": [
-        "Title: Genetically Engineered Pets of 2050: Cuteness or Catastrophe? / Hook: Imagine a dog that changes color with its mood. Get ready to meet the pets of the future – and some ethical nightmares.",
+        "Title: Genetically Engineered Pets of 2050: Cuteness or Catastrophe? / Hook: Imagine a dog that changes color with its mood. Get ready to meet the pets of the future \u2013 and some ethical nightmares.",
         "Title: Rewilding with Dinosaurs: A Jurassic Park Future? / Hook: What if we could bring back dinosaurs to restore ecosystems? See scientists attempt the impossible! (emotional music intro)",
         "Title: The Bioluminescent City: Living Buildings of Tomorrow. / Hook: Forget concrete jungles! Prepare to witness cities grown from living organisms. This is architecture meets biology."
       ],
@@ -11373,7 +11493,7 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
     }
   ]
 }

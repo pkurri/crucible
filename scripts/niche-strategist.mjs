@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
+import { callAI } from './ai-fallback-orchestrator.mjs';
 
 /**
  * 🎯 CRUCIBLE DYNAMIC NICHE VETTER (V2)
@@ -8,14 +9,12 @@ import 'dotenv/config';
  * Uses the Growth Strategy Personas to ensure only 1M+ subscriber potential niches are prioritized.
  */
 
-const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 const NICHES_FILE = path.join(process.cwd(), 'data', 'viral-niches.json');
 
 function cleanJSON(str) {
   try {
     return JSON.parse(str.replace(/```json\n?|```/g, '').trim());
   } catch (e) {
-    // If it still fails, try to extract first { and last }
     const start = str.indexOf('{');
     const end = str.lastIndexOf('}');
     if (start !== -1 && end !== -1) {
@@ -75,23 +74,8 @@ Return ONLY a JSON object:
 }`;
 
   try {
-    if (!OPENROUTER_KEY) throw new Error('No OPENROUTER_API_KEY set.');
-
-    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${OPENROUTER_KEY}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        model: 'google/gemini-2.0-flash-001',
-        messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userPrompt }],
-        response_format: { type: 'json_object' }
-      })
-    });
-
-    const data = await response.json();
-    const newNiche = cleanJSON(data.choices[0].message.content);
+    const aiResponse = await callAI(userPrompt, systemPrompt);
+    const newNiche = cleanJSON(aiResponse);
     
     if (newNiche.viralScore < 8.0) {
       console.warn(`⚠️ [Vetter] Niche ${newNiche.name} rejected with score ${newNiche.viralScore}.`);
