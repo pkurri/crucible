@@ -92,20 +92,16 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever felt the universe breathing at your fingertips?",
-        "duration": 4
+        "text": "The secrets of CosmicWondersVisuals are finally revealed.",
+        "duration": 5
       },
       {
-        "text": "What if the sky hides a secret that changes everything?",
-        "duration": 4
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -130,28 +126,7 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "You think you’ve seen all storms? Think again.",
-        "duration": 4
-      },
-      {
-        "text": "What happens when lightning meets the aurora?",
-        "duration": 4
-      },
-      {
-        "text": "Witness the sky bleed neon and thunder.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AtmosphericPhenomenaCaptured, you're in the right place. Subscribe.",
-        "duration": 3
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "text": "The secrets of AtmosphericPhenomenaCaptured are finally revealed.",
         "duration": 5
       },
       {
@@ -161,6 +136,53 @@
       {
         "text": "Follow the system to win the game.",
         "duration": 5
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Governance",
+        "name": "Surveillance Algorithm",
+        "icon": "👁️"
+      },
+      {
+        "title": "Environment",
+        "name": "Synthetic Bio-Destroyers",
+        "icon": "🧪"
+      },
+      {
+        "title": "Economics",
+        "name": "Debt-Nullification Bots",
+        "icon": "💸"
+      },
+      {
+        "title": "Technology",
+        "name": "Nanite Life Predictor",
+        "icon": "🤖"
+      },
+      {
+        "title": "Cognitive",
+        "name": "Subversion Drones",
+        "icon": "🧠"
+      },
+      {
+        "title": "Infrastructure",
+        "name": "Crackling Power Grid",
+        "icon": "⚡"
+      },
+      {
+        "title": "Society",
+        "name": "Memory Erasure Protocol",
+        "icon": "🗑️"
+      },
+      {
+        "title": "Silence",
+        "name": "Underground Data Forges",
+        "icon": "🕶️"
       }
     ]
   },
@@ -184,47 +206,47 @@
   "ImpossibleArchitectureBlueprints": {
     "voice": "af_heart",
     "hook": "Here are the top 8 ImpossibleArchitectureBlueprints secrets you need to know.",
-    "closing": "If you want to master ImpossibleArchitectureBlueprints, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Gravity-Defying Cathedral",
-        "name": "Aerial Eclipse",
+        "title": "Sky‑High Paradox",
+        "name": "Arius Skyport",
         "icon": "🏰"
       },
       {
-        "title": "Sea-Serpent Bridge",
-        "name": "Poseidon's Path",
-        "icon": "🌉"
+        "title": "Unfolding Spire",
+        "name": "Eterna Spiral",
+        "icon": "🔄"
       },
       {
-        "title": "Living Labyrinth",
-        "name": "Bioluminescent Maze",
-        "icon": "🏗️"
+        "title": "Floating Lighthouse",
+        "name": "Everlight Beacon",
+        "icon": "⚡"
       },
       {
-        "title": "Eternal Spiral Tower",
-        "name": "Helix of Infinity",
-        "icon": "🌀"
+        "title": "Infinite Hall",
+        "name": "Panta Rhei Forum",
+        "icon": "↩️"
       },
       {
-        "title": "Stellar Observatory",
-        "name": "Orbiting Eclipse",
-        "icon": "🚀"
+        "title": "Time‑Loop Tower",
+        "name": "Chrono Granum",
+        "icon": "⏳"
       },
       {
-        "title": "Underground Cavern Estate",
-        "name": "Abyssal Manor",
-        "icon": "🗺️"
+        "title": "Sub‑Zero Fortress",
+        "name": "Glacius Citadel",
+        "icon": "❄️"
       },
       {
-        "title": "Floating Island Resort",
-        "name": "Nimbus Retreat",
-        "icon": "🌐"
+        "title": "Mirrored City",
+        "name": "Reflector Metropolis",
+        "icon": "💎"
       },
       {
-        "title": "Phantom Train Station",
-        "name": "Spectral Rails",
-        "icon": "🛤️"
+        "title": "Vertical Ocean",
+        "name": "Aqua Vertis",
+        "icon": "🌊"
       }
     ]
   },
@@ -11950,6 +11972,23 @@
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 3
+      }
+    ]
+  },
+  "ApexFlow_1776679215636": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "The secrets of ApexFlow_1776679215636 are finally revealed.",
+        "duration": 5
+      },
+      {
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
+      },
+      {
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   }
