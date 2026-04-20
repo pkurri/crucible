@@ -89,84 +89,96 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CosmicWondersVisuals.",
-        "duration": 5
+        "title": "Telescope",
+        "name": "Celestron NexStar 6",
+        "icon": "🔭"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Camera",
+        "name": "Nikon D850",
+        "icon": "📷"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Apps",
+        "name": "SkyView Pro",
+        "icon": "🗺️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Filters",
+        "name": "Astrophotography ND Filter",
+        "icon": "🌌"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Dark Sky",
+        "name": "Dark Sky Network",
+        "icon": "🌑"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Light Pollution",
+        "name": "Sky Quality Meter",
+        "icon": "🌙"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Space Events",
+        "name": "Eclipse Watch",
+        "icon": "🖤"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Data Tools",
+        "name": "Astropy Python Library",
+        "icon": "🛠️"
       }
     ]
   },
   "DeepSeaCreatureDiscoveries": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
+    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DeepSeaCreatureDiscoveries.",
-        "duration": 5
+        "title": "Sea Screamers",
+        "name": "Giant Squid",
+        "icon": "🦑"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Ghostly",
+        "name": "Vampire Squid",
+        "icon": "🦑"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Ice Claws",
+        "name": "Yeti Crab",
+        "icon": "🦀"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Midnight Stalkers",
+        "name": "Goblin Shark",
+        "icon": "🦈"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Ghost Sharks",
+        "name": "Frilled Shark",
+        "icon": "🐟"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Night Pulse",
+        "name": "Anglerfish",
+        "icon": "🌑"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Monstrous",
+        "name": "Megamouth Shark",
+        "icon": "🦈"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DeepSeaCreatureDiscoveries.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Black Depths",
+        "name": "Black Dragonfish",
+        "icon": "🦑"
       }
     ]
   },
@@ -174,28 +186,7 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "This video shatters the sky—watch the impossible.",
-        "duration": 4
-      },
-      {
-        "text": "Ever wonder why auroras outshine rainbows?",
-        "duration": 4
-      },
-      {
-        "text": "Because the ionosphere turns lightning into living light.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 3
-      }
-    ]
-  },
-  "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Nobody talks about the truth of DystopianFutureSimulations.",
+        "text": "Nobody talks about the truth of AtmosphericPhenomenaCaptured.",
         "duration": 5
       },
       {
@@ -228,6 +219,47 @@
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "DystopianFutureSimulations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Your future is a glitch in the simulation.",
+        "duration": 5
+      },
+      {
+        "text": "If you ignore this, reality will crash tonight.",
+        "duration": 4
+      },
+      {
+        "text": "AI already rewrote human memory into code.",
+        "duration": 5
+      },
+      {
+        "text": "Cities flicker in server logs before shutting.",
+        "duration": 5
+      },
+      {
+        "text": "A single click could trigger a collapse.",
+        "duration": 5
+      },
+      {
+        "text": "One more twist—it's inside your own device.",
+        "duration": 4
+      },
+      {
+        "text": "The countdown starts, and every second counts.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: how to hack the simulation to survive.",
         "duration": 4
       }
     ]
@@ -280,49 +312,43 @@
     ]
   },
   "ImpossibleArchitectureBlueprints": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 ImpossibleArchitectureBlueprints secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Sky‑High Paradox",
-        "name": "Arius Skyport",
-        "icon": "🏰"
+        "text": "Nobody talks about the truth of ImpossibleArchitectureBlueprints.",
+        "duration": 5
       },
       {
-        "title": "Unfolding Spire",
-        "name": "Eterna Spiral",
-        "icon": "🔄"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Floating Lighthouse",
-        "name": "Everlight Beacon",
-        "icon": "⚡"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Infinite Hall",
-        "name": "Panta Rhei Forum",
-        "icon": "↩️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Time‑Loop Tower",
-        "name": "Chrono Granum",
-        "icon": "⏳"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Sub‑Zero Fortress",
-        "name": "Glacius Citadel",
-        "icon": "❄️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Mirrored City",
-        "name": "Reflector Metropolis",
-        "icon": "💎"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Vertical Ocean",
-        "name": "Aqua Vertis",
-        "icon": "🌊"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
