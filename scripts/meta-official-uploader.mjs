@@ -160,27 +160,42 @@ async function uploadVideoFile(videoPath, uploadUrl, retryCount = 0, token = ACC
 
 // ═══════════════════════════════════════════════════════
 // 🌐 HIGH-SPEED CDN TUNNEL (Fixes Meta Fwdproxy / Resumable Limits)
+// Uses 0x0.st (CI-friendly) with transfer.sh as fallback.
+// Catbox blocks GitHub Actions IPs ("Invalid uploader" error).
 // ═══════════════════════════════════════════════════════
-function uploadToCatbox(videoPath, retries = 3) {
-  console.log(`[CDN] Tunneling video through high-speed CDN to bypass Meta proxy limitations...`);
-  for (let i = 0; i < retries; i++) {
-    try {
-      const cmd = `curl -s -F "reqtype=fileupload" -F "fileToUpload=@${videoPath}" https://catbox.moe/user/api.php`;
-      const tmpUrl = execSync(cmd).toString().trim();
-      if (tmpUrl && tmpUrl.startsWith('http')) {
-        console.log(`[CDN] Tunnel URL acquired: ${tmpUrl}`);
-        return tmpUrl;
+function uploadToCDN(videoPath, retries = 3) {
+  const filename = path.basename(videoPath);
+  const providers = [
+    {
+      name: '0x0.st',
+      cmd: () => `curl -s -F "file=@${videoPath}" https://0x0.st`,
+      parse: (out) => out.trim(),
+    },
+    {
+      name: 'transfer.sh',
+      cmd: () => `curl -s --upload-file "${videoPath}" "https://transfer.sh/${filename}"`,
+      parse: (out) => out.trim(),
+    },
+  ];
+
+  console.log(`[CDN] Tunneling video through CDN to bypass Meta proxy limitations...`);
+  for (const provider of providers) {
+    for (let i = 0; i < retries; i++) {
+      try {
+        const tmpUrl = provider.parse(execSync(provider.cmd(), { timeout: 120000 }).toString());
+        if (tmpUrl && tmpUrl.startsWith('http')) {
+          console.log(`[CDN] Tunnel URL acquired via ${provider.name}: ${tmpUrl}`);
+          return tmpUrl;
+        }
+        console.warn(`[CDN][${provider.name}] Attempt ${i + 1} failed. Output: ${tmpUrl}`);
+      } catch (e) {
+        console.warn(`[CDN][${provider.name}] Attempt ${i + 1} error: ${e.message}`);
       }
-      console.warn(`[CDN] Attempt ${i + 1} failed. Output: ${tmpUrl}`);
-    } catch (e) {
-      console.warn(`[CDN] Attempt ${i + 1} error: ${e.message}`);
+      if (i < retries - 1) execSync('sleep 3');
     }
-    if (i < retries - 1) {
-      console.log(`[CDN] Waiting 3 seconds before retry...`);
-      execSync('node -e "setTimeout(()=>{}, 3000)"');
-    }
+    console.warn(`[CDN] ${provider.name} exhausted, trying next provider...`);
   }
-  throw new Error('CDN Handshake fully failed after 3 attempts.');
+  throw new Error('[CDN] All providers failed after retries. Cannot get public video URL.');
 }
 
 // ═══════════════════════════════════════════════════════
@@ -196,7 +211,7 @@ async function uploadToInstagram(videoPath, caption) {
     videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
     console.log(`[IG] Using provided domain URL: ${videoUrl}`);
   } else {
-    videoUrl = uploadToCatbox(videoPath);
+    videoUrl = uploadToCDN(videoPath);
   }
 
   console.log(`[IG] Creating media container (Cloud-Pull mode)...`);
@@ -281,7 +296,7 @@ async function uploadToFacebook(videoPath, caption) {
     console.log(`[FB] Using domain URL: ${videoUrl}`);
   } else {
     console.log(`[FB] Tunneling via Catbox CDN...`);
-    videoUrl = uploadToCatbox(videoPath);
+    videoUrl = uploadToCDN(videoPath);
   }
 
   // Step 2: Try video_reels endpoint first; always fall back to /videos on any error
