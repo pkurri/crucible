@@ -11619,6 +11619,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "HiddenInTheCanvas",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "AI-powered visual analysis can uncover impossible or hidden patterns in well-known artworks, sparking a mix of surprise, intrigue, and a ‘secret revealed’ moment that people love to share. The blend of technology with cultural heritage offers fresh content that hasn’t been saturated, allowing for rapid audience building and high viewer engagement.",
+      "ideas": [
+        "The Message AI Found Inside Van Gogh's Starry Night – You Won’t Believe It!",
+        "Why Salvador Dali's Painting Is a Time Capsule: AI Discovers Hidden Codes!",
+        "This AI Exposes a Secret Map Inside Picasso's Sculpture – Watch the Reveal!"
+      ],
+      "keywords": [
+        "AI",
+        "Hidden",
+        "Van Gogh",
+        "Picasso",
+        "SecretMessage"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
