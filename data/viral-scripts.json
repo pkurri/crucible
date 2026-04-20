@@ -89,104 +89,10 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Telescope",
-        "name": "Celestron NexStar 6",
-        "icon": "🔭"
-      },
-      {
-        "title": "Camera",
-        "name": "Nikon D850",
-        "icon": "📷"
-      },
-      {
-        "title": "Apps",
-        "name": "SkyView Pro",
-        "icon": "🗺️"
-      },
-      {
-        "title": "Filters",
-        "name": "Astrophotography ND Filter",
-        "icon": "🌌"
-      },
-      {
-        "title": "Dark Sky",
-        "name": "Dark Sky Network",
-        "icon": "🌑"
-      },
-      {
-        "title": "Light Pollution",
-        "name": "Sky Quality Meter",
-        "icon": "🌙"
-      },
-      {
-        "title": "Space Events",
-        "name": "Eclipse Watch",
-        "icon": "🖤"
-      },
-      {
-        "title": "Data Tools",
-        "name": "Astropy Python Library",
-        "icon": "🛠️"
-      }
-    ]
-  },
-  "DeepSeaCreatureDiscoveries": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DeepSeaCreatureDiscoveries secrets you need to know.",
-    "closing": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Sea Screamers",
-        "name": "Giant Squid",
-        "icon": "🦑"
-      },
-      {
-        "title": "Ghostly",
-        "name": "Vampire Squid",
-        "icon": "🦑"
-      },
-      {
-        "title": "Ice Claws",
-        "name": "Yeti Crab",
-        "icon": "🦀"
-      },
-      {
-        "title": "Midnight Stalkers",
-        "name": "Goblin Shark",
-        "icon": "🦈"
-      },
-      {
-        "title": "Ghost Sharks",
-        "name": "Frilled Shark",
-        "icon": "🐟"
-      },
-      {
-        "title": "Night Pulse",
-        "name": "Anglerfish",
-        "icon": "🌑"
-      },
-      {
-        "title": "Monstrous",
-        "name": "Megamouth Shark",
-        "icon": "🦈"
-      },
-      {
-        "title": "Black Depths",
-        "name": "Black Dragonfish",
-        "icon": "🦑"
-      }
-    ]
-  },
-  "AtmosphericPhenomenaCaptured": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AtmosphericPhenomenaCaptured.",
+        "text": "Nobody talks about the truth of CosmicWondersVisuals.",
         "duration": 5
       },
       {
@@ -214,12 +120,100 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master CosmicWondersVisuals, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "DeepSeaCreatureDiscoveries": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of DeepSeaCreatureDiscoveries.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "AtmosphericPhenomenaCaptured": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
+    "list": [
+      {
+        "title": "Aurora",
+        "name": "Borealis Candle",
+        "icon": "🌌"
+      },
+      {
+        "title": "Ball Lightning",
+        "name": "Radiant Orb",
+        "icon": "⚡"
+      },
+      {
+        "title": "Fire Rainbows",
+        "name": "Supernatural Prism",
+        "icon": "🌈🔥"
+      },
+      {
+        "title": "Singing Dunes",
+        "name": "Sandsong",
+        "icon": "🏜️🎶"
+      },
+      {
+        "title": "Dust Storms",
+        "name": "Shadow Shower",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Catatumbo Lightning",
+        "name": "Firefall",
+        "icon": "🌩️"
+      },
+      {
+        "title": "Streetlight Mirage",
+        "name": "Gleam Mirage",
+        "icon": "💡🌈"
+      },
+      {
+        "title": "Atmospheric Pipeline",
+        "name": "Sky Pipeline",
+        "icon": "🌬️"
       }
     ]
   },
@@ -12217,6 +12211,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1776699213623": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776699213623 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Automation",
+        "name": "Auto‑Pipeline",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑time Data",
+        "icon": "📊"
+      },
+      {
+        "title": "Security",
+        "name": "End‑to‑End Encryption",
+        "icon": "🔒"
+      },
+      {
+        "title": "Customizability",
+        "name": "Dynamic Dashboards",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Integration",
+        "name": "Seamless APIs",
+        "icon": "🔗"
+      },
+      {
+        "title": "AI",
+        "name": "Smart Recommendations",
+        "icon": "🤖"
+      },
+      {
+        "title": "Multilingual",
+        "name": "Auto Translate",
+        "icon": "🌐"
+      },
+      {
+        "title": "Performance",
+        "name": "Ultra Low Latency",
+        "icon": "🚀"
       }
     ]
   }
