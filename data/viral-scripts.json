@@ -89,49 +89,23 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Nebulae",
-        "name": "Eagle Nebula",
-        "icon": "🦅"
+        "text": "Ever felt the universe breathing at your fingertips?",
+        "duration": 4
       },
       {
-        "title": "Galaxies",
-        "name": "Whirlpool Galaxy",
-        "icon": "🌀"
+        "text": "What if the sky hides a secret that changes everything?",
+        "duration": 4
       },
       {
-        "title": "Black Holes",
-        "name": "Sagittarius A*",
-        "icon": "🕳️"
+        "text": "Witness the black hole's whisper—planets bend galaxies melt.",
+        "duration": 4
       },
       {
-        "title": "Exoplanets",
-        "name": "TRAPPIST-1",
-        "icon": "🌍"
-      },
-      {
-        "title": "Supernova Remnants",
-        "name": "Crab Nebula",
-        "icon": "🐦"
-      },
-      {
-        "title": "Star Clusters",
-        "name": "Pleiades",
-        "icon": "🌟"
-      },
-      {
-        "title": "CMB",
-        "name": "Trispectrum Map",
-        "icon": "📊"
-      },
-      {
-        "title": "Intergalactic Filaments",
-        "name": "Cosmic Web",
-        "icon": "🕸️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 3
       }
     ]
   },
@@ -174,96 +148,36 @@
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Mass Surveillance",
-        "name": "Eye in the Sky",
-        "icon": "📡"
+        "text": "The secrets of DystopianFutureSimulations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Mind Control",
-        "name": "Thought Spam",
-        "icon": "🧠"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Resource Depletion",
-        "name": "Water Wars",
-        "icon": "💧"
-      },
-      {
-        "title": "AI Dominance",
-        "name": "Algorithmic Tyrant",
-        "icon": "🤖"
-      },
-      {
-        "title": "Genetic Manipulation",
-        "name": "Designer Daughters",
-        "icon": "🧬"
-      },
-      {
-        "title": "Carbon Catastrophe",
-        "name": "Smog Sovereign",
-        "icon": "🌫️"
-      },
-      {
-        "title": "Digital Debt",
-        "name": "Crypto Crawler",
-        "icon": "💰"
-      },
-      {
-        "title": "Encrypted Catacombs",
-        "name": "Zero-Trust Vault",
-        "icon": "🗝️"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
   "HyperEvolutionaryAdaptations": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 HyperEvolutionaryAdaptations secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Quantum Reflexes",
-        "name": "Phase Shift Reflex",
-        "icon": "⚡"
+        "text": "The secrets of HyperEvolutionaryAdaptations are finally revealed.",
+        "duration": 5
       },
       {
-        "title": "Nanobiomimicry",
-        "name": "Self-Healing Nanofiber Contours",
-        "icon": "🧬"
+        "text": "Most fail because they lack the proper protocol.",
+        "duration": 5
       },
       {
-        "title": "Molecular Camouflage",
-        "name": "Chromatic Molecular Shifts",
-        "icon": "🎨"
-      },
-      {
-        "title": "Temporal Perception",
-        "name": "Chrono Sensing Array",
-        "icon": "⏳"
-      },
-      {
-        "title": "Energetic Resonance",
-        "name": "Subatomic Vibrational Modulator",
-        "icon": "🎵"
-      },
-      {
-        "title": "Adaptive Metabolism",
-        "name": "Hyperfuel Synthesis Engine",
-        "icon": "🔥"
-      },
-      {
-        "title": "Bio-Photonics",
-        "name": "Light-Absorbing Photonic Skin",
-        "icon": "🌟"
-      },
-      {
-        "title": "Genetic Polymorphism",
-        "name": "Cryptic Gene Switchboard",
-        "icon": "🌀"
+        "text": "Follow the system to win the game.",
+        "duration": 5
       }
     ]
   },
@@ -12015,6 +11929,27 @@
         "title": "Eternal Jewel",
         "name": "Luminous Prism",
         "icon": "💎"
+      }
+    ]
+  },
+  "ApexFlow_1776672135439": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid storms inside a hyper-car’s heart—",
+        "duration": 4
+      },
+      {
+        "text": "Do data points predict this pulse?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets reveal a secret map of motion.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 3
       }
     ]
   }
