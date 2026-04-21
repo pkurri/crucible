@@ -11667,6 +11667,30 @@
         "Cryptocurrency"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedCityExplorer",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Underwater city explorations combine the allure of travel, mystery and ocean science with accessible visual storytelling. The niche is unsaturated yet highly shareable, delivers scroll‑stopping hooks with hidden gems, and offers endless content possibilities—each episode can spotlight a different forgotten coral palace, submerged cathedral, haunted shipwreck, or artificial reef city. Faceless voice‑over format allows rapid production using found footage, drone shots and CGI, making it scalable to 25+ unique viral ideas while targeting audiences that crave curiosity, wonder and adventure across both YouTube and Meta.",
+      "ideas": [
+        "The Forgotten Temple Beneath Lake Titicaca – 10 Shocking Secrets Revealed / Hook: 'We dove 300 meters below the world’s largest lake and found a temple that 100 years ago was the site of a supernatural ritual.'",
+        "City of Glass: The Abandoned Underwater Dutch Sentosa – Virtual Tour / Hook: 'A sunken metropolis with crystalized buildings that glows at night—can we still walk its streets?'",
+        "From Ship to Skyline: The Coral Palace Rising in the Pacific – Hook: 'The coral banks have formed a city for sea creatures—can we travel inside its colossal domes?'"
+      ],
+      "keywords": [
+        "crystal-clear",
+        "glowing",
+        "underwater",
+        "abandoned",
+        "mysterious"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
