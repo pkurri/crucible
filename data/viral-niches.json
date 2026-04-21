@@ -11949,6 +11949,33 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "role": "assistant",
+      "reasoning_content": "We need to propose a niche. Must be not in the list? They want a new niche not currently listed. Must be eligible: 1M+ subs and 100k+ views per video. We need to vet criteria. Topic: maybe \"SilentArchitecture\" or something? Let's pick something trending: \"CryptoArt NFTs? No, that's niche.\n\nMaybe \"HiddenSecretsInSpotify\" (music analysis). Or \"LostSciFiTech Reimagined\"? Might be \"TheFutureInYourPocket\" (AI-driven predictive personal tech). They need high viral potential now. Let's find trending: Middle: \"End Times Predictions\" but already used. \"UrbanGhostStories\" maybe.\n\nPerhaps \"FuturisticFoodTech\" showing how AI will cook/hydrogen hyper-rapid genomics. But the trending topics: \"AI Lifehacks\", it's trending.\n\nBut we need a specific niche. \"DeepFakeLearn\" no.\n\nMaybe focusing on \"Future of Work & Remote\", but that's too generic. Must be specific.\n\n\"VanishingLandscapes\" already listed. \"SubmergedCityExplorer\" already listed. \"AlienLanguageAI\" listed.\n\nWe need new: For example \"SpaceBoundHouses\" - microspace habitat. Or \"QuantumCache\" ?\n\nConsider \"MicrobiomeHome\" - home labs for microbiome. Not trending.\n\nLook at interesting: \"AI Dreamscape\" - visualizing dreams through AI. Could be. But no.\n\n\"TeleportationTech\" is still speculative.\n\n\"OceanDepthHeat\" - maybe.\n\nLet’s think viral potential on YouTube: trending categories: gaming, tech reviews, AI hacks, cooking, storytelling. Niche must be unique and can produce scroll-stopping hooks.\n\nSomething like \"Future Cities in 60 Seconds\" - exploring futuristic city designs. But many exist.\n\nWhat about \"Time-Traveling Vlogs\" - showing historical events via reenactment. Too general.\n\n\"BizarreCropsFromTheFuture\" - showing mutated crops? Might highlight fear. Could be \"CryoHarvest\".\n\nMaybe \"AI-Generated Horror\" - string of spooky animated stories each created by AI. But \"DarkPsychologyPower\" present.\n\nLet's think about \"Longevity hacks\" already. \"Astrowatch\" maybe.\n\n\"QuantumSummary\" - summarizing complex topics in 60s.\n\nMaybe \"Cooking with Quantum\" idk.\n\nLet's see trending: \"AI Skin Detector\" etc.\n\nOkay we need a niche with 100k views per video. \"Living Money Stash\" (personal finance). But these are many.\n\nConsider \"Mystery of Vanishing Planets\" - but astrophys.\n\nAnother: \"Crypto Candle Charts\" ?\n\nLet's think: The big trends: NFT, AR, VR, AI, mental health. There's an emerging field: \"DeepMind AI tries to predict real people's emotions from face features\". But maybe too AI.\n\nMaybe we propose \"CursedTechRewards\" - exploring weird tech fails. But still.\n\nWe can pick: \"ShadowNetCrime\" - investigating cybercrime. Not.\n\nI think \"Futuristic Food Tech\" might be trending: e.g., \"The Future of Meat: Lab-Grown and 3D Printed\". Many fans. Angles: \"lab meat tastes as real as BBQ?\" We can craft hook and glimpses. Consider: \"Mushroom Meat Revolution\" etc. Could be trending. But is that unique? There are many YouTubers doing that. Might be competitive.\n\nHow about engaging: \"AI-Driven Haunted House Simulation\". We can generate a VHS-style AR haunted house? Good hook.\n\nNiche: \"AI-Generated Horror Stories\" is trending. But we need new. Could use \"Synthetic Voice Horror\".\n\nBetter: \"AI Makes The Oldest Song\". But unknown.\n\nMaybe \"Fireworks Spectacular Dive\" but no.\n\nOk maybe we pick \"Future of Virtual Reality Travel\" show VR experiences to impossible places. That could be viral.\n\nAlternatively \"Video News from undersea cities\"? But no.\n\nMaybe \"The Real Ws of TikTok: Hidden Algorithm Secrets\" but trending. But has many.\n\nWe need to ensure uniqueness: \"Hacking the Game: Teardown of Commercial Virtual Worlds\". But random.\n\nLet's choose \"AI Podcast from the Future\" but no.\n\nMaybe \"Urban Legends of the Algorithm\": exploring algorithm hallucinations. But tough.\n\nLet's step back: We have huge content but we need to propose a niche candidate that's not obviously used.\n\nWe could choose \"Secret Superfoods that Heal\". That has trending interest in health.\n\nBut we need \"video > 100k views\" and \"faceless\"? The prompt: high-velocity faceless niche. So it should be achieveable with faceless style.\n\n\"MindbodyMaker\" - something.\n\nCould choose \"DIY Joystick Man\" but no.\n\nOk think about trending topics around Earth: \"Vanishing coastlines\" already. \"Vanishing cities\" is similar.\n\n\"Uncharted Street Art of the Underworld\" but not.\n\nBetter: \"Hidden Lakes of the World\". That might have interest.\n\nBut our niche: \"Cursed Architectural Redisplay\" like \"Bleeding Buildings\". Eh.\n\nGiven the constraints, maybe we choose \"Deep Sea Food Lab\" - exploring exotic foods. Might be appealing.\n\nLet's settle: \"Future of Food\" seems plausible. Have many comps but we can differentiate by focusing on one angle: \"Lab-grown meat results get banned\" - hook.\n\nProfessor.\n\nWe need to generate 3 sample viral titles/hooks.\n\nLet's craft:\n\n- \"Inside the £10,000 Lab‑Grown Burger: Does It REALLY Taste Like Steak?\" Hook: \"You won't believe the taste tests!\"\n\n- \"3D‑Printed Sushi: The Impossible Food You Can Buy Today\" Hook: \"Watch chefs attempt to eat it.\"\n\n- \"The Future of Feeding the World: Could Mushroom Meat Save Us?\" Hook: \"A chemistry lab will prove it.\"\n\nAlso use viral score 9.2 because trending, high engagement.\n\nTarget emotion: Curiosity.\n\nKeywords: \"Lab Meat\", \"Biotech\", \"3D Food\", \"Sustainability\", \"Taste Test\".\n\nVoice: 'en-US-JennyNeural' maybe.\n\nLet's structure JSON accordingly.",
+      "tool_calls": [],
+      "priority": false
+    },
+    {
+      "name": "ApexFlow_1776790966181",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.5,
+      "targetEmotion": "Awe",
+      "reason": "High aesthetic flow videos have high retention and shareability.",
+      "ideas": [
+        "NEON LIQUID SECRETS / 99% of people miss the hidden pattern in physics."
+      ],
+      "keywords": [
+        "Neon liquid",
+        "Data points",
+        "Hyper-car interiors",
+        "Neural networks"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
