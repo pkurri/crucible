@@ -11976,6 +11976,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentStreetArt",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Bioluminescent street art combines the allure of hidden nightlife with vibrant, impossible colors, creating instant visual buzz. Urban explorers, art lovers, and Instagram seekers crave fresh, glowing visuals, making the niche both highly shareable and ripe for discovery on YouTube and Meta platforms.",
+      "ideas": [
+        "Glow Hunt: Exploring the City’s Hidden Bioluminescent Graffiti (5 Mysterious Spots You’ve Never Seen)",
+        "Neon Dreams: The Surreal Night Trend of Glowing Street Art & How to Capture it on Film",
+        "From Paint to Light: The Untold Science Behind Bioluminescent Urban Murals (Watch the Transformation!)"
+      ],
+      "keywords": [
+        "Neon",
+        "Glow",
+        "Luminescence",
+        "Night",
+        "Urban"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
