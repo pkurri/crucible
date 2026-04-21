@@ -12000,6 +12000,30 @@
         "Urban"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Ultra‑macro footage of bacterial and microbial colonies forming intricate, living cities unlockes a new visual frontier that blends science, art, and curiosity. The content is inherently scroll‑stopping, endlessly scalable with new species and environments, and naturally drives strong viewer retention through constant “wow” moments and curiosity loops.",
+      "ideas": [
+        "The Tiny City That Won’t Let You Sleep – Inside a Bacterial Metropolis / Ever wondered what a city would look like if it was made of microbes? Dive into this mesmerizing 300× zoom and experience life on a microscopic scale!",
+        "Scientists Reveal 3‑D Bacteria Cities — Lessons for AI & Architecture / Watch how bacterial colonies build 3‑D structures that inspire the next wave of AI‑generated architectures. Prepare to be stunned!",
+        "A 7200x Zoom into Nature’s Best‑Kept Secret — Ultra‑Macro Bacteria Live! / Hold your breath as we unlock the swirling, luminous world of bacteria that looks like a living neon city. This is a visual journey you can’t miss!"
+      ],
+      "keywords": [
+        "ultra‑macro",
+        "nanoscopic",
+        "bioluminescence",
+        "microcity",
+        "living‑architecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
