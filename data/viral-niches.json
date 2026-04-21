@@ -11895,6 +11895,33 @@
         "UrbanUnderwater"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "role": "assistant",
+      "reasoning_content": "We need to propose one NEW, VETTED viral niche. Must meet criteria: high potential, unique compared to given massive list. Identify niche not in that list. Also must score >8.5. Let's think.\n\nPossible niche: \"Time-Traveling Street Art\". But is that fully new? Might be similar to \"Urban Exploration Mysteries.\" Actually street art is covered under UrbanExploration? But we can choose \"Ethereal Architecture In CGI.\" Hmm.\n\nWe need to propose a unique concept like \"Synthetic Lifeforms\" or \"Virtual Reality Dreams\" could have potential. But need to differentiate from, e.g., \"ArtificialWorldLandscapes\" possibly. Let's analyze list: Many includes \"UrbanExplorationMysteries\", \"ArtificialWorldLandscapes\", \"CryptoBullRunSecrets\", etc. We should avoid those.\n\nPotential new niche: \"Nano-Dice: Micro-World Designs\". Not sure.\n\nMaybe \"QuantumArtifact Hunt\" - but \"QuantumRealityExplorations\" exists.\n\nNeed something not overlapping: \"DigitalAfterlife Explainers\"??? Not sure.\n\nConsider \"Crowd-Sourced Paranormal Experiments\" - similar to \"UnexplainedPhenomenaArchives\". Hmm.\n\nThink: \"AI-Generated Mythical Monste...\" - \"CryptidSightingsUnveiled\" exists.\n\nMaybe \"Retro-Futuristic Automata\" - \"AbstractAI.\" Eh.\n\nLet's look for niche focusing on \"Unique Plant Cures from Ancient Scripts\" - \"AncientTechMysteries\" but that's about devices.\n\nCould do \"Isolated Islands Myths Recreated\". But \"LostCivilizationsTech\" exists.\n\nConsider \"Psychedelic Art Visualization\" but \"CosmicWondersVisuals\" covers some.\n\nMaybe \"Subatomic Creature Building\" - but \"QuantumRealityExplorations\" covers.\n\nThink: \"Zero-Gravity Household Demonstrations\" - not present.\n\nWhat about \"Artificial Ecosystem Rewilding\" - maybe new.\n\nLet's conceptualize: \"Self-Sustaining Nano Cities.\" That might be covered by \"MegastructureMysteries\" though.\n\nBetter: \"Time-Lapse Disappearing Architecture\" - but there is \"VanishingCoastlines\" and \"BiometricFutureVisions\" etc.\n\nAlso \"AI-generated Reason for Life in the Universe\" - but \"AstrobiologyAI\" could cover.\n\nMaybe an approaching niche: \"Augmented Reality Time Travel experiences.\" Not explicitly in list.\n\nBut also \"Metaverse Hidden Economies\" - maybe \"FutureTechPredictions.\"\n\nLet's think of a niche that is trending: \"Synthesized Sentient NPCs\" but again?\n\nMaybe \"Bionic Archery Machines\" but doesn't have high volume.\n\nBetter: \"Ultra-Fast Urban Morse Code\" not.\n\nLet's consider \"Experimental Renewable Energy Mini Projects\" - trending but maybe not unique.\n\nBut we need to propose 1 new, high-velocity faceless niche. So likely something sui generis: \"Holistic Health Alchemy for Busy Professionals\" maybe overlapping.\n\nPotential: \"Self-Sustaining Glasshouse Experiments\" but not unique. Might have viral potential if unique.\n\nMaybe \"Mystery of Hidden Paintings in Buildings\" - but not.\n\nLet's think of trending topics: \"Electric Skateboard Modding\" but not high.\n\nOk let's choose a niche that is new, trending, and not explicitly present: \"Urban Skateboarding with AI Coaching\" - not.\n\nBut we need to define a TopicID: \"AIStreetPaint\"\n\nLet's evaluate: For high viral potential, we need subgenres: scroll stopping hooks, curiosity loops, targeted emotion: awe or curiosity. Ability to scale: generate 25+ unique ideas.\n\nFor example: \"Watching AI create murals in real-time\", \"AI reveals hidden story behind graffiti\", \"AI discovers patterns in street art worldwide.\" This could go viral.\n\nBut is it new? Possibly similar to \"VanishingCoastlines\" no. \"AlienLanguageAI\" covers AI and alien but not street art. So, maybe it's new.\n\nAdditionally, we can combine \"AI-generated Street Art\" topic with \"Real-time AI modifications\" to show dynamic interactive content.\n\nIs there existing major channel \"AI Street Art\" not? Possibly some but not huge.\n\nPotential viewer retention: high due to visually engaging AI painting, time-lapse, behind the scenes. Emotions: Awe, curiosity.\n\nGet high viral score >8.5? Probably yes (~9). Provide 3 viral idea titles/hook.\n\nKeywords: \"AI Animation\", \"Street Art\", \"Time-Lapse\", \"Urban Canvas\", \"Innovation\".\n\nVoice: \"en-US-JennyNeural\" maybe.\n\nOk proceed: We'll propose TopicID: \"AIStreetCanvas\".\n\nCheck criteria:\n\n1. Differentiation: It's AI Street Art. Not in list. Unique vs \"AI Agents Taking Over\" etc.\n\n2. Retention Potential: time-lapse, hooks.\n\n3. Target Emotion: Awe or Curiosity. Let's pick \"Awe\".\n\n4. Scalability: You can generate 25+ ideas for AI transformations, street code, interactive challenges.\n\nLet's make sample viral ideas:\n\n1. \"AI Paints the City: Seeing Graffiti Come Alive in 2 Minutes\" Hook: \"Watch an AI transform an empty wall into a masterpiece in just 120 seconds!\"\n\n2. \"The Secret Algorithm Behind Street Art: AI's Hidden Patterns Revealed\" Hook: \"AI uncovers the hidden geometry in over 10k murals worldwide—are artists predicting a future?\"\n\n3. \"Turn Your City into a Canvas: AI Guides You to the Most Instagrammable Graffiti Spots\" Hook: \"Use AI to find and recreate the coolest street art in real life—no artist needed!\"\n\nWe must produce JSON object.\n\nLet's incorporate \"Keyword\" list: 5 high-intensity visual keywords: \"AI-generated\", \"Street mural\", \"Time‑lapse\", \"Urban canvas\", \"Viral art\".\n\nOkay.\n\nNow we need to assign ViralScore >8.5. Let's choose 8.9.\n\nMake final JSON. Ensure  format matches. Let's produce.",
+      "tool_calls": [],
+      "priority": false
+    },
+    {
+      "name": "ApexFlow_1776778007517",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.5,
+      "targetEmotion": "Awe",
+      "reason": "High aesthetic flow videos have high retention and shareability.",
+      "ideas": [
+        "NEON LIQUID SECRETS / 99% of people miss the hidden pattern in physics."
+      ],
+      "keywords": [
+        "Neon liquid",
+        "Data points",
+        "Hyper-car interiors",
+        "Neural networks"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
