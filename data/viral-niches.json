@@ -11796,6 +11796,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIQuantumBlackHoles",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The fusion of cutting‑edge AI rendering with the deeply intriguing concept of black holes offers a visually stunning, mind‑bending experience that taps into humanity’s innate curiosity about the cosmos. AI allows for photorealistic, dynamic event‑horizon simulations that are impossible to capture in reality, creating massive scroll‑stopping hooks that keep viewers glued. The niche is currently untapped, highly shareable on social platforms, and lends itself to evergreen queries such as ‘What really happens inside a black hole?’",
+      "ideas": [
+        "Inside a Simulated Black Hole: 10 Seconds of Gravity‑Warp—What You’re Seeing Isn’t Real",
+        "AI Creates The First Ever Live 4D Black Hole Simulation—Reality Entirely Rewired",
+        "The Hidden Mind‑Bending Details of Black Holes That Hide in Our City… A Deep AI Dive"
+      ],
+      "keywords": [
+        "Nebula",
+        "Event Horizon",
+        "Light Flares",
+        "Gravitational Lensing",
+        "Supernova"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
