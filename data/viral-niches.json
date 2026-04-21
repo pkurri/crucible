@@ -11820,6 +11820,30 @@
         "Supernova"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Fear",
+      "reason": "Rapidly visible coastline erosion and island disappearance, amplified by satellite imagery and real‑time footage, taps into a global fear of climate change and the loss of familiar landscapes. The visual shock and the urgent ‘when will this happen’ hook translate into high engagement on both Meta and YouTube, making it highly shareable, scroll‑stopping and scalable for continuous content creation.",
+      "ideas": [
+        "1. 'Inside the Island‑That’s Vanishing in 48 Hours' – Hook: 'You’ll want to see what our homes are turning into. Spoiler: it’s not pretty.'",
+        "2. 'The Day the Shoreline Ran Away' – Hook: 'Watch as the beach disappears faster than a story in the feed—#ShorelineSmasher.'",
+        "3. 'Why This Island Is Turning Into a Sea Monster' – Hook: 'The water’s creeping back in, and it’s rewriting the map. Don’t miss the reveal.'"
+      ],
+      "keywords": [
+        "crashing waves",
+        "submerged cliffs",
+        "satellite view",
+        "shifting shorelines",
+        "tipping points"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
