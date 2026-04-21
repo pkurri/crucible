@@ -12051,6 +12051,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "TranshumanAugmentations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Humanity is on the cusp of merging biology with high‑tech cybernetics. The sheer novelty of augmented limbs, neural implants, and exoskeletons sparks fascination across tech, science, and pop cultures, creating a ripe feed for endless scroll‑stopping hook ideas that promise to reveal what the future body could look like.",
+      "ideas": [
+        "The Cybernetic Eye That Lets You Read Minds – 5 Shocking Real‑World Augmentation Breakthroughs",
+        "Exoskeleton Revolution: 7 Augmentations That Turn Ordinary People into Superheroes",
+        "Bionic Limb Myths Busted – 4 True Stories From People Who Live With Augmentation"
+      ],
+      "keywords": [
+        "futuristic",
+        "cybernetic",
+        "biotech",
+        "augmentation",
+        "exoskeleton"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
