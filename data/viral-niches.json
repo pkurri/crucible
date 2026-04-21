@@ -11718,6 +11718,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienLanguageAI",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "AlienLanguageAI taps into the enduring mystery of extraterrestrial communication while leveraging AI’s appeal. The niche differentiates itself from generic UFO content by offering a tangible and repeatable decoding process, justifying the use of faceless, data‑driven visuals. It naturally supports scroll‑stopping hooks, curiosity loops, and a high‑retention formula as viewers tune in to see whether the AI actually cracks alien code. The topic counts on both mainstream UFO intrigue and the new AI boom, giving it a large, overlapping audience pool capable of reaching 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "Can AI Actually Decode an Alien Message? 5 Minutes to the Invisible Language",
+        "The First Time an AI Translated a Cosmic Communication - Did It Reveal Secrets?",
+        "We Ran 3 AI Models on Satellite UFO Signals and the Results… Will Shock You"
+      ],
+      "keywords": [
+        "Alien Symbols",
+        "AI Translation",
+        "UFO",
+        "Decoded",
+        "Extraterrestrial Tech"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
