@@ -13118,49 +13118,84 @@
     ]
   },
   "VanishingCoastlines": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 VanishingCoastlines secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Peruvian",
-        "name": "Sinking Lima",
-        "icon": "🏚️"
+        "text": "The ocean will swallow half the world in 50 years.",
+        "duration": 5
       },
       {
-        "title": "Caribbean",
-        "name": "Bloodwashed Beach",
-        "icon": "💀"
+        "text": "Shut your eyes—your skyline could disappear tomorrow.",
+        "duration": 4
       },
       {
-        "title": "Greek",
-        "name": "Vanishing Marousi",
-        "icon": "🕳️"
+        "text": "Satellite images show a 3‑mile strip of Central Florida drained.",
+        "duration": 5
       },
       {
-        "title": "Pacific",
-        "name": "Submerged Borneo Reef",
-        "icon": "🌊"
+        "text": "A single storm surge can erase 30 years of built heritage.",
+        "duration": 5
       },
       {
-        "title": "British",
-        "name": "Frozen Severn",
-        "icon": "❄️"
+        "text": "Coastal towns are tipping—its not a myth, it's a deadline.",
+        "duration": 5
       },
       {
-        "title": "Norwegian",
-        "name": "Blacked‑Out Fjord",
-        "icon": "🌫️"
+        "text": "If you stay silent, the next video will show Your home submerged.",
+        "duration": 4
       },
       {
-        "title": "Australian",
-        "name": "Bleached Coral",
-        "icon": "🦑"
+        "text": "Every second we delay leaves a tide that looms larger.",
+        "duration": 4
       },
       {
-        "title": "African",
-        "name": "Eroding Cape Town",
-        "icon": "🗑️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: How a quiet island became a sunken skyscraper.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1776766019330": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1776766019330.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776766019330.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }

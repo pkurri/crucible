@@ -11871,6 +11871,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Fear",
+      "reason": "With escalating sea‑level rise and tangible evidence of small island disappearances, audiences are abnormally curious about tangible, location‑specific impacts. A faceless studio can combine high‑quality animation, real satellite imagery, and hard‑hitting first‑person narratives to create visually arresting, shareable content.  The urgency of climate change provides emotional hooks that encourage shares and comments, while the endless variety of coastlines guarantees a steady stream of fresh, scalable video ideas that can be produced at high volume.",
+      "ideas": [
+        "Top 10 Coastal Cities That Will Go Underwater By 2050 – The Countdown Unveiled / This photo will make you question whether your summer destination is still safe!",
+        "I RATIFIED 12 Impossible Megatsunami Predictions Before the World Even Knew They Were Real / By the time we finish, you'll know exactly where your home could turn into a tidepool!",
+        "From Beach Paradise to Floating Ruins – The 40‑Year Vanishing Coastline Timeline / 5 Minutes of your favorite island’s future (or whatever you consider a backyard)."
+      ],
+      "keywords": [
+        "FloatingCities",
+        "CoastalCollapse",
+        "SeaWalls",
+        "TidalSurprise",
+        "UrbanUnderwater"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
