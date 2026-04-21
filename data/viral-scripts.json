@@ -12344,81 +12344,34 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
-      {
-        "title": "Hidden Tokens",
-        "name": "MoonBeam",
-        "icon": "💎"
-      },
-      {
-        "title": "Lizard Leverage",
-        "name": "X‑Factor",
-        "icon": "📈"
-      },
-      {
-        "title": "Smart Contract Hacks",
-        "name": "Vortex",
-        "icon": "🔒"
-      },
-      {
-        "title": "Cross‑Chain ARK",
-        "name": "Atlas",
-        "icon": "🚀"
-      },
-      {
-        "title": "Protocol Predators",
-        "name": "Griffin",
-        "icon": "🐻"
-      },
-      {
-        "title": "Yield Yields",
-        "name": "Echo",
-        "icon": "💹"
-      },
-      {
-        "title": "Gas-Speed Gauntlet",
-        "name": "Giga",
-        "icon": "⚡"
-      },
-      {
-        "title": "Chain Whisperer",
-        "name": "Pulse",
-        "icon": "🎯"
-      }
-    ]
-  },
-  "DarkPsychologyPower": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Every time you smile, someone is watching your mind.",
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
         "duration": 5
       },
       {
-        "text": "In politics, your thoughts are hot currency.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Psychology’s first hidden layer: Mirroring.",
-        "duration": 5
-      },
-      {
-        "text": "You give opinions; they give you power.",
-        "duration": 5
-      },
-      {
-        "text": "The unseen trigger: a single word can split your loyalties.",
-        "duration": 5
-      },
-      {
-        "text": "Imagine mastering that trigger—no more being followed.",
-        "duration": 4
-      },
-      {
-        "text": "If you ignore this, you'll be prey in an invisible war.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
@@ -12426,8 +12379,55 @@
         "duration": 5
       },
       {
-        "text": "Next: The secret code in headlines that fuels manipulation.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "DarkPsychologyPower": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
+      {
+        "title": "Manipulation",
+        "name": "Mirroring",
+        "icon": "🪞"
+      },
+      {
+        "title": "Cognitive Bias",
+        "name": "Anchoring",
+        "icon": "⚓️"
+      },
+      {
+        "title": "Social Engineering",
+        "name": "Scarcity",
+        "icon": "📉"
+      },
+      {
+        "title": "Influence Tactics",
+        "name": "Foot‑in‑the‑door",
+        "icon": "🚪"
+      },
+      {
+        "title": "Emotional Leverage",
+        "name": "Gaslighting",
+        "icon": "💔"
+      },
+      {
+        "title": "Behavior Prediction",
+        "name": "Pattern Recognition",
+        "icon": "🔍"
+      },
+      {
+        "title": "Persuasion Loops",
+        "name": "Repetition",
+        "icon": "🔁"
+      },
+      {
+        "title": "Neuro Hacks",
+        "name": "Synaptic Priming",
+        "icon": "🧠"
       }
     ]
   },
@@ -13382,6 +13382,47 @@
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1776804937387": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid just crashed the neural net.",
+        "duration": 5
+      },
+      {
+        "text": "Now the future rides in hyper‑car paint.",
+        "duration": 4
+      },
+      {
+        "text": "Data points melt into color, rewriting reality.",
+        "duration": 5
+      },
+      {
+        "text": "The wall becomes a stream of AI choreography.",
+        "duration": 5
+      },
+      {
+        "text": "And every curve sings an algorithm. Watch it pulse.",
+        "duration": 5
+      },
+      {
+        "text": "But what if this melts the walls of your city?",
+        "duration": 4
+      },
+      {
+        "text": "Hold tight, the next frame defies physics and mind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next, watch a city morph into a living neon dream.",
         "duration": 4
       }
     ]
