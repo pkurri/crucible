@@ -12099,6 +12099,32 @@
         "FutureSeascape"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ForgottenScienceLabs",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Today’s viewers crave immersive, mysterious deep-dives that blend science with the uncanny. Abandoned research facilities, long-lost experiments, and eerie footage of still‑operational equipment tap into a powerful blend of curiosity and awe. The faceless format allows high production value editing, quick pacing, and a host of visual hooks that keep viewers on the edge of their seats, making it ideal for viral traction across meta and YouTube.",
+      "ideas": [
+        "The Midnight Test: Inside a 1970s Abandoned Lab https://clickybuzz.com | Watch the Forbidden Experiment in 4K!",
+        "Ghostly Glow: A 3‑Hour Tour of a Decommissioned Psychedelic Lab https://clickybuzz.com | Expanding Reality!",
+        "Time‑Warp Tapes: Strangest Forgotten Science Experiments Ever Recorded https://clickybuzz.com | The Unknown Revealed!",
+        "Forgotten Equipment Exposed: Inside the World's Darkest Beaker Vault https://clickybuzz.com | Unspeakable Science!",
+        "Eerie Lab Chambers: 5 Shocking Discoveries That Made the Modern World Change Sober https://clickybuzz.com | Unveil the Mystery!"
+      ],
+      "keywords": [
+        "EerieLabChambers",
+        "ForgottenEquipment",
+        "GhostlyGlow",
+        "TimeWarpTapes",
+        "BioluminescentDrainage"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
