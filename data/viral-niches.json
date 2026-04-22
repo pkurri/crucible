@@ -12179,6 +12179,33 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "role": "assistant",
+      "reasoning_content": "We need to propose one new vetted viral niche. Must meet criteria: can realistically reach 1M+ subs and 100k+ views per video. We need to identify niche that is underexplored but has high potential. The prompt lists many potential topics from the \"AIAgentsAreTakingOver, LongevityHacksUnlocked...\" etc, but we need to pick an entirely new niche not among those? Actually the list may represent many potential niches we could explore, but we should propose a new one.\n\nWe have to provide ViralScore >8.5. And we must ensure differentiation, retention.\n\nPotential niche: \"Steampunk Architecture Reimagined\" but maybe that existed. Maybe \"Vanishing Coasts: Real-time Coastal Disasters as they Happen\" - but that may be factual. But allows commentary.\n\nAnother potential niche: \"Beyond Earth: Life in Simulated Microgravity Environments\" but maybe not trending.\n\nAnother niche: \"AI-Created Mythical Creatures\" - using generative AI to create mythical creatures. That could be new. The niche: \"AI Myth Creatures\".\n\nLet's think: \"The Lost Language of Synthetic Bees\" - too specific.\n\nBetter: \"Historical Underwater Cities\" is already a niche. \"Ancient Tech Reconstructed\" maybe trending.\n\nWe want to maximize virality and differ from existing ones like \"AncientTechMysteries\" or \"LostCivilizationsTech\". So need a new angle: \"Bio-Language of Plants\" maybe. But video content might be limited.\n\nAnother idea: \"Inverted Gravity Experiments\" - show video of objects moving upward? Not realistic.\n\nCould use \"Procedurally Generated Dreamscapes\" - creating hyper-realistic dream visuals via AI? That could be trending. People like \"AI Art Transformer predictions\".\n\nWe need a niche that's info+visual. \"AI-Generated Alternate Histories\" - showing what if... e.g., \"What if the Romans discovered steam power by 300 AD\" - but video could incorporate 3D models, PDFs, animations. Could become viral.\n\nBut potential fails because video content production complexity high.\n\nAlternatively: \"The Silent City: How Modern Cities Are Becoming Ghost Towns Overnight\" - urban exodus. But maybe too broad.\n\nWhat about \"Resurrecting Extinct Instruments Via AI\" - e.g., reconstructing missing pieces of the viola, etc. That could be unique.\n\nAlternatively: \"Futuristic Sub Merge: Realistic Simulation of Earth + Mars merging\" absurd but can show.\n\nBetter: \"Time Capsule Trove: Hidden Inside 20th Century' Gas Stations Are...\" But I think \"AI Myth Creatures\" could be unique: each video features a new creature created by AI, with description, lore, 3D render.\n\nBut also content can quickly create 25+ unique ideas. But need high viral potential. Possibly trending but new.\n\nAlternatively: \"Micro-Worlds In Your Backyard: Real-Scale Micro-Exploration\" but we need to differentiate.\n\nMaybe niche: \"Unreal Daily: exhibits In Real-time, Using Photogrammetry 3D scanning\", but like \"Real Life AR\" but again.\n\nWe can likely produce high viral score for \"AI Myth Creatures\".\n\nCheck differentiation: AIAgentsAreTakingOver, CryptidSightingsUnveiled, etc. AI Myth Creatures is different: not actual cryptid but AI creativity. Could be new.\n\nRetention: Each video could start with \"This creature would frighten 90% of the crowd\" hook? Then show the generated creature, concept art, lore. Then \"Will it exist?\" etc. Or we can use \"What if...\".\n\nTarget emotion: Curiosity or Awe. Score high, at least 9.\n\nWe must provide: TopicID in CamelCase format: e.g., \"AIMythicCreatures\" maybe. Platform: [\"meta\", \"youtube\"]. ViralScore: e.g., 9.3. TargetEmotion: \"Awe\" maybe.\n\nViral rationale: Use AI art generation booming, trending to create unique content. Also can produce many unique videos quickly; never repeats. Visual content highly shareable. Not saturated.\n\nSample viral ideas: Provide 3 titles/hook.\n\nKeywords: 5 high-intensity visual keywords. e.g., \"Vibrant\", \"Mystical\", \"Intricate\", \"Surreal\", \"Luminous\"\n\nVoice: \"en-US-JennyNeural\" maybe but we can choose.\n\nPriority: true.\n\nReturn JSON object.\n\nLet's craft.\n\nBut requirement: Provide 3 Sample Viral Video Ideas: Titles and hooks.\n\nExamples:\n\n1. \"Meet the Midnight Serpent: AI Creates a New Mythic Beast That Hides Under Bridges\" Hook: \"You won't believe this creature is just a 20-minute AI brainstorm.\"\n\n2. \"The Sky‑Whispering Dragon: An AI’s Dark Fantasy coming to Life in 4K\" Hook: \"Picture a dragon that can only speak through the wind.\"\n\n3. \"When AI Dubs a Forest Giant: The Breathless Wolf‑Bison Myth\" Hook: \"What if the forest guard was a 10-foot tall wolf? Watch it grow.\"\n\nProvide 5 high-intensity visual keywords. Must be 5 keywords, e.g., \"Luminous\", \"Ultra-Hyperrealistic\", \"Mysterious\", \"Vibrant\", \"Spectral\".\n\nVoice: pick \"en-US-JennyNeural\"\n\nReturn JSON.\n\nLet's produce.",
+      "tool_calls": [],
+      "priority": false
+    },
+    {
+      "name": "ApexFlow_1776839128362",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.5,
+      "targetEmotion": "Awe",
+      "reason": "High aesthetic flow videos have high retention and shareability.",
+      "ideas": [
+        "NEON LIQUID SECRETS / 99% of people miss the hidden pattern in physics."
+      ],
+      "keywords": [
+        "Neon liquid",
+        "Data points",
+        "Hyper-car interiors",
+        "Neural networks"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
