@@ -12449,6 +12449,30 @@
         "before‑after"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "DigitalGhosts",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Fear",
+      "reason": "The niche of abandoned and haunted websites taps into the growing fascination with digital folklore and nostalgia for early internet culture. Its content offers instant ‘scroll-stopping’ hooks (e.g., a domain that still receives emails), deep curiosity loops (uncovering hidden messages), and a relentless stream of fresh material (thousands of defaced sites, old servers, and dead email accounts) that scales easily into 25+ viral concepts. The emotional mix of eeriness and intrigue aligns perfectly with current viewer engagement trends on both Meta and YouTube, ensuring high retention and shareability.",
+      "ideas": [
+        "The Haunted Domain That Still Sends E-Mails From 1999 – What if your inbox had a ghost in it?",
+        "The Abandoned Webpage That Gives Its Visitors a Terrifying Message – I clicked, and the browser crashed with a warning...",
+        "The Defaced Site That Predicts Deaths; How I Chased It in Real Life"
+      ],
+      "keywords": [
+        "Glitch",
+        "Haunted",
+        "Eerie",
+        "Retro",
+        "Fade"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
