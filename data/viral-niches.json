@@ -12353,6 +12353,30 @@
         "Breathtaking"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "SpaceFoodTech bridges the current surge in space exploration interest with the universal curiosity about food. It offers high‑impact visuals, unexpected science experiments, and a relatable angle (eating). The niche is uniquely positioned—no direct competitors in the provided list—allowing sharp differentiation. Trends in space travel, zero‑gravity cooking, and sustainable food tech fuel steady content growth, supporting >1M subs & 100k+ views per video.",
+      "ideas": [
+        "The First Space Cookie Ever Baked: Inside the Mission to Taste in Zero Gravity – You Won’t Believe the Taste Test!",
+        "Space Ice Cream That Never Melts: Scientists Reveal the Physics Behind Solid Milk in Space – Why It Stays Frozen!",
+        "From Space to Earth: The Future of Food Delivery Using Space‑Grown Nutrients – Imagine Rocket‑Farmed Pizza!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceFood",
+        "FuturisticKitchen",
+        "CosmicTaste",
+        "AstronautMeals"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
