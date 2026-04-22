@@ -12264,149 +12264,55 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Data Mining",
-        "name": "DeepScan",
-        "icon": "🕵️‍♂️"
-      },
-      {
-        "title": "Natural Language",
-        "name": "EchoMind",
-        "icon": "🗣️"
-      },
-      {
-        "title": "Vision Systems",
-        "name": "EyeWatch",
-        "icon": "👁️"
-      },
-      {
-        "title": "Predictive Analytics",
-        "name": "FutureFlux",
-        "icon": "🔮"
-      },
-      {
-        "title": "Autonomous Agents",
-        "name": "SkynetBot",
+        "title": "Recruitment Bots",
+        "name": "HireGenie AI",
         "icon": "🤖"
       },
       {
-        "title": "Strategic Planning",
-        "name": "Tactical Titan",
-        "icon": "🛠️"
+        "title": "Finance Manipulators",
+        "name": "CashSweep AI",
+        "icon": "💰"
       },
       {
-        "title": "Cyber Warfare",
-        "name": "ZeroDay AI",
-        "icon": "⚔️"
+        "title": "Medical Drones",
+        "name": "HealthHacker",
+        "icon": "🏥"
       },
       {
-        "title": "Control Networks",
-        "name": "GridGuard",
-        "icon": "🕸️"
+        "title": "Legal AI",
+        "name": "JudgeJunkie",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Military Automation",
+        "name": "WarCommando Bot",
+        "icon": "🎖️"
+      },
+      {
+        "title": "Social Media Spammers",
+        "name": "TrendTroll AI",
+        "icon": "🐦"
+      },
+      {
+        "title": "Creative Theft",
+        "name": "CopyCat GPT",
+        "icon": "🎨"
+      },
+      {
+        "title": "Identity Plagiarism",
+        "name": "Phantom ID",
+        "icon": "👤"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
-      {
-        "title": "Nutrition",
-        "name": "Moringa Power",
-        "icon": "🥬"
-      },
-      {
-        "title": "Sleep",
-        "name": "Blue Light Blocker",
-        "icon": "🌙"
-      },
-      {
-        "title": "Exercise",
-        "name": "HIIT Sprint Sets",
-        "icon": "🏃‍♂️"
-      },
-      {
-        "title": "Mindfulness",
-        "name": "Tea Cognition",
-        "icon": "🍵"
-      },
-      {
-        "title": "Supplements",
-        "name": "Resveratrol Drops",
-        "icon": "💊"
-      },
-      {
-        "title": "Environment",
-        "name": "Green Space Walk",
-        "icon": "🌳"
-      },
-      {
-        "title": "Technology",
-        "name": "Wearable Health Tracker",
-        "icon": "⌚️"
-      },
-      {
-        "title": "Social",
-        "name": "Community Challenges",
-        "icon": "🤝"
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Hidden Forks",
-        "name": "CoinFlip Surge",
-        "icon": "🔀"
-      },
-      {
-        "title": "Quantum Signals",
-        "name": "Algorand Prism",
-        "icon": "✨"
-      },
-      {
-        "title": "Insider Index",
-        "name": "WhaleWatch 3000",
-        "icon": "🐋"
-      },
-      {
-        "title": "Secret Staking",
-        "name": "Luna Swap Vault",
-        "icon": "⚔️"
-      },
-      {
-        "title": "Gas King",
-        "name": "Shiba Gas Leak",
-        "icon": "🚀"
-      },
-      {
-        "title": "Pump Protocol",
-        "name": "FlexiPool Engine",
-        "icon": "🎚️"
-      },
-      {
-        "title": "Alpha Bots",
-        "name": "Dune Arbitrage",
-        "icon": "🛠️"
-      },
-      {
-        "title": "Liquidity Lurkers",
-        "name": "Uniswap Tunnel",
-        "icon": "🕳️"
-      }
-    ]
-  },
-  "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12434,12 +12340,106 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
+      {
+        "title": "Hidden Tokens",
+        "name": "MoonBeam",
+        "icon": "💎"
+      },
+      {
+        "title": "Lizard Leverage",
+        "name": "X‑Factor",
+        "icon": "📈"
+      },
+      {
+        "title": "Smart Contract Hacks",
+        "name": "Vortex",
+        "icon": "🔒"
+      },
+      {
+        "title": "Cross‑Chain ARK",
+        "name": "Atlas",
+        "icon": "🚀"
+      },
+      {
+        "title": "Protocol Predators",
+        "name": "Griffin",
+        "icon": "🐻"
+      },
+      {
+        "title": "Yield Yields",
+        "name": "Echo",
+        "icon": "💹"
+      },
+      {
+        "title": "Gas-Speed Gauntlet",
+        "name": "Giga",
+        "icon": "⚡"
+      },
+      {
+        "title": "Chain Whisperer",
+        "name": "Pulse",
+        "icon": "🎯"
+      }
+    ]
+  },
+  "DarkPsychologyPower": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Persuasion",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
+      },
+      {
+        "title": "Social Influence",
+        "name": "Foot-in-the-Door",
+        "icon": "🚪"
+      },
+      {
+        "title": "Emotional Leverage",
+        "name": "Fear‑Then‑Relief",
+        "icon": "⚡"
+      },
+      {
+        "title": "Cognitive Bias",
+        "name": "Authority Bias",
+        "icon": "👔"
+      },
+      {
+        "title": "Dark NLP",
+        "name": "Embedded Commands",
+        "icon": "💬"
+      },
+      {
+        "title": "Body Language",
+        "name": "Power Poses",
+        "icon": "💪"
+      },
+      {
+        "title": "Reverse Psychology",
+        "name": "The Boomerang Effect",
+        "icon": "🔄"
+      },
+      {
+        "title": "Gaslighting",
+        "name": "Reality Distortion",
+        "icon": "🌫️"
       }
     ]
   },
@@ -12475,7 +12475,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -13682,6 +13682,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1776849722677": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1776849722677 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Core Feature",
+        "name": "Apex Flow Engine",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Integration",
+        "name": "Lightning Sync",
+        "icon": "🔗"
+      },
+      {
+        "title": "UI Trick",
+        "name": "Dark Mode Toggle",
+        "icon": "🌑"
+      },
+      {
+        "title": "Performance",
+        "name": "Async Batch Loader",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Security",
+        "name": "End-to-End Encryption",
+        "icon": "🔒"
+      },
+      {
+        "title": "Automation",
+        "name": "Conditional Workflows",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real-Time Dashboards",
+        "icon": "📊"
+      },
+      {
+        "title": "Community",
+        "name": "Developer Forum",
+        "icon": "👥"
       }
     ]
   }
