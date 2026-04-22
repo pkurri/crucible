@@ -12425,6 +12425,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "VanishingCoastlines leverages the urgent, emotionally charged narrative of climate change by showcasing dramatic, high‑resolution time‑lapse footage of coastlines eroding or submerging in real time. The visual contrast of familiar beachfronts turning to estuaries instantly grips viewers, providing effortless share‑ability, perfect algorithm performance on meta, and limitless content angles (different locations, seasonal variations, 3D reconstructions). Hook‑worthy, curiosity‑driven, and scalable across thousands of uncharted coastlines.",
+      "ideas": [
+        "Before & After: Watch the Seaside Erode in 30 Seconds – Shocked By Nature’s Speed!",
+        "Hidden Coastlines Disappearing This Season? The 3‑Minute Time‑Lapse That Will Change Your Mind!",
+        "Can We Still Save Them? Fast‑Forward Footage of Buildings Overrun by Water – Will You Believe It?"
+      ],
+      "keywords": [
+        "time‑lapse",
+        "climate change",
+        "coastline erosion",
+        "visual documentary",
+        "before‑after"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
