@@ -12075,6 +12075,30 @@
         "exoskeleton"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "The vanishing coastlines niche taps into an urgent climate crisis narrative that is visually arresting and highly shareable. Satellite timelapse footage, animated shoreline maps, and future scenario simulations ignite user curiosity, evoke fear of loss, and prompt emotional engagement—making content scroll‑stopping and perfect for algorithmic amplification across Meta and YouTube. Few faceless channels focus exclusively on this visual disaster, providing a clear differentiation and ample opportunities for recurring series.",
+      "ideas": [
+        "The Beach That Vanished in 10 Years: 4K Satellite Time‑Lapse – Hook: \"See the shoreline retreat like a moving painting.\"\n",
+        "Cities Underwater: How Towns Are Losing Their Shores (Animated 5K, 10K) – Hook: \"The map flips—your favorite beach might disappear in a decade.\"\n",
+        "Future Ocean: Predicting Which Coastlines Will Disappear by 2035 – Hook: \"A graphic timeline that shows our coastlines in a terrorously beautiful, future reality.\"\n"
+      ],
+      "keywords": [
+        "SatelliteImagery",
+        "AnimatedOcean",
+        "DisappearingCoastline",
+        "ClimateChangeVisualization",
+        "FutureSeascape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

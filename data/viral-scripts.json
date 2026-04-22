@@ -13103,31 +13103,31 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "The ocean will swallow half the world in 50 years.",
+        "text": "Nobody talks about the truth of VanishingCoastlines.",
         "duration": 5
       },
       {
-        "text": "Shut your eyes—your skyline could disappear tomorrow.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Satellite images show a 3‑mile strip of Central Florida drained.",
-        "duration": 5
-      },
-      {
-        "text": "A single storm surge can erase 30 years of built heritage.",
-        "duration": 5
-      },
-      {
-        "text": "Coastal towns are tipping—its not a myth, it's a deadline.",
-        "duration": 5
-      },
-      {
-        "text": "If you stay silent, the next video will show Your home submerged.",
-        "duration": 4
-      },
-      {
-        "text": "Every second we delay leaves a tide that looms larger.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
@@ -13135,7 +13135,7 @@
         "duration": 5
       },
       {
-        "text": "Next: How a quiet island became a sunken skyscraper.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -13423,6 +13423,47 @@
       },
       {
         "text": "Next, watch a city morph into a living neon dream.",
+        "duration": 4
+      }
+    ]
+  },
+  "TranshumanAugmentations": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Imagine your arm turning into a laser‑fire blade.",
+        "duration": 5
+      },
+      {
+        "text": "If not now, future will outpace you.",
+        "duration": 4
+      },
+      {
+        "text": "Circuits now replace bones in 2025 trials.",
+        "duration": 5
+      },
+      {
+        "text": "Neural lace lets you download skills in minutes.",
+        "duration": 5
+      },
+      {
+        "text": "Exosuits now power humans to run a mile in 2 minutes.",
+        "duration": 5
+      },
+      {
+        "text": "Soon, your next upgrade will be deeper than ever.",
+        "duration": 4
+      },
+      {
+        "text": "Missing this means living on a yesterday tech level.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next up: brains that feel the vibe of a galaxy.",
         "duration": 4
       }
     ]
