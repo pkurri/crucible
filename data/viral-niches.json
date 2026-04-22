@@ -12329,6 +12329,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AncientAstronomySecrets",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Ancient sites that encoded far‑ahead astronomical knowledge—Stonehenge eclipse predictions, Nazca sky‑maps, and Mayan star charts—combine mystery, ancient engineering, and the universal wonder of the cosmos. Faceless storytelling can dramatize how our ancestors decoded the heavens with stunning visuals, appealing to curiosity, fear of ignorance, and awe, while offering endless content angles (ancient eclipse simulations, lost star charts, subterranean observatories).",
+      "ideas": [
+        "Stonehenge’s 4,500‑Year‑Old Prediction of a Rare Solar Eclipse – How Do We Still Watch the Sky?",
+        "The Nazca Lines Re‑Decoded: Are They Hidden Astronomical Markers From a Lost Cosmic Science?",
+        "Lost Mayan Observatories: The Ancient Architecture That Could Precisely Forecast Planetary Alignments!"
+      ],
+      "keywords": [
+        "Stellar",
+        "Mysterious",
+        "Celestial",
+        "Stone",
+        "Breathtaking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
