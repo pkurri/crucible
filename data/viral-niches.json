@@ -12765,7 +12765,34 @@
         "The Future of Listening: Generating music based on your thoughts… watch it in action. Your mind becomes the composer.",
         "The Deep Learning DJ: Turn your brainwaves into club‑ready beats live on camera. See the brain‑voice remix.",
         "Exactly what my skull sounds like—Live EEG visualisation turned into a hypnotic dance soundtrack."
-      ]
+      ],
+      "priority": false
+    },
+    {
+      "name": "TemporalRiftEvents",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Time anomalies tap into humanity's age‑old fascination with time travel and the unexplained. With recent viral content on ‘time slips’ emerging from real‑world footage, this niche offers fresh, verifiable stories that can be continuously expanded with new locations and experiments. The concept is highly shareable, encourages community speculation, and naturally encourages repeat views for investigation updates, making it ideal for sustaining a 1M+ subscriber channel and 100k+ views per video.",
+      "ideas": [
+        "What If You Opened a Door to the Past? — The Most REAL Time Rift Experiments",
+        "Scientists Reveal a 30‑Second Time Slip in the Desert—Watch the Impossible Footage!",
+        "Time Loop Discovered in a Subway Tunnel—See the ███ that Houdini Wouldn't Believe",
+        "Unheard Voices from 1938: Are These Time‑Traveling Radios? Dive Into the Evidence",
+        "The Moon Tells Time—New Data Suggest a 2‑Minute Time Drift in 2025"
+      ],
+      "keywords": [
+        "time anomaly",
+        "sci‑fi mystery",
+        "paranormal footage",
+        "quantum rift",
+        "real time slip"
+      ],
+      "voice": "en-US-JennyNeural",
+      "priority": true
     }
   ]
 }
