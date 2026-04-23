@@ -14329,5 +14329,46 @@
         "duration": 4
       }
     ]
+  },
+  "QuantumFoodTech": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Quantum ovens melt meat in milliseconds—no more waiting.",
+        "duration": 5
+      },
+      {
+        "text": "This means you could eat a Sunday roast during a lunch break.",
+        "duration": 4
+      },
+      {
+        "text": "Quantum chips analyze flavor molecules in 0.001 seconds.",
+        "duration": 5
+      },
+      {
+        "text": "AI writes the perfect seasoning mix for any mood.",
+        "duration": 5
+      },
+      {
+        "text": "Imagine a pantry that saves you the next lunch.",
+        "duration": 5
+      },
+      {
+        "text": "But there’s a hidden risk: quantum spice could mutate.",
+        "duration": 4
+      },
+      {
+        "text": "Don’t miss the protocol that keeps flavors safe.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: quantum refrigerators that freeze AI dreams.",
+        "duration": 4
+      }
+    ]
   }
 }
