@@ -12647,6 +12647,32 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The climate crisis is fueling a surge of interest in visualizing what the next decades will look like. By combining high‑resolution AI‑generated timelapses, 3‑D reconstructions, and real‑time data, this niche offers visceral, hyper‑relevant content that hooks viewers instantly. The format is easily replicable across global hotspots, providing a scalable slate of stories—over 25 distinct city/region concepts—each ripe for scroll‑stopping hooks such as \"You Won't Believe How Fast the Beach is Gone.\" The emotional arc—curiosity → dread → awe—ensures long watchtimes and repeat shares, giving it a viral potential well above the 8.5 threshold.",
+      "ideas": [
+        "Miami in 2050? (The First 5 Minutes of a Drowned City) – You Won't Believe the Speed!",
+        "Chernobyl's Seaside Turned Ocean (AI Reimagines a Flooded Future) – Watch the Waves Take Over",
+        "This Ancient Greek Port Snapped by the Sea – The Last Street Before the Waves",
+        "New York City Turned Aquarium in 2060 – Hyperlapse of Manhattan Submerged",
+        "The Melting Arctic Coastline (3‑D Timelapse of Greenland’s Disappearing Shore)"
+      ],
+      "keywords": [
+        "TimeWarpCoastline",
+        "FloodedCity",
+        "IceMeltdown",
+        "DrownedMetropolis",
+        "SeaLevelTimeLapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
