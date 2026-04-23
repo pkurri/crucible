@@ -13106,49 +13106,43 @@
     ]
   },
   "VanishingCoastlines": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 VanishingCoastlines secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Island Drift",
-        "name": "Kelingala Reef",
-        "icon": "🏝️"
+        "text": "Nobody talks about the truth of VanishingCoastlines.",
+        "duration": 5
       },
       {
-        "title": "Sea Level Rise",
-        "name": "Mojave Coast",
-        "icon": "🌊"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Coastal Erosion",
-        "name": "Gulf of Coffee",
-        "icon": "⚠️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Climate Change",
-        "name": "Panglao Bay",
-        "icon": "🔥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Urban Flooding",
-        "name": "Miami Skyscrapers",
-        "icon": "🌇"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Island Disappearing",
-        "name": "Montserrat",
-        "icon": "🗺️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Sandy Beaches",
-        "name": "Bahama Sands",
-        "icon": "🏖️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Drying Lagoons",
-        "name": "Laguna de San Blas",
-        "icon": "🏜️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -14017,6 +14011,47 @@
       },
       {
         "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1776885114514.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "DigitalGhosts": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of DigitalGhosts.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master DigitalGhosts, you're in the right place. Subscribe.",
         "duration": 5
       },
       {

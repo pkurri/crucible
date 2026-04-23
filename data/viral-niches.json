@@ -12473,6 +12473,30 @@
         "Fade"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Climate change is accelerating shoreline erosion, turning familiar coastlines into disappearing landmarks. Visual time‑lapse reels of cliffs collapsing, beaches shrinking, and cities doing a reverse migration tap into a collective fear of loss and a fascination with the dramatic spectacle of nature. The content is quickly shareable, easily hook‑driven with the promise of a future scenario, and can be built on a steady stream of scientific and news sources, ensuring 25+ fresh viral ideas and sustained subscriber growth.",
+      "ideas": [
+        "THIS IS WHAT The U.S. Coast Looks Like In 2050 | VanishingCoastlines Countdown (Hook: \"5 years until this cliff disappears…\" )",
+        "Australia's Corrosion: 10 Stunning Time‑Lapse Erosion Videos You Can't Miss (Hook: \"Watch an entire island vanish within 2 minutes!\" )",
+        "Where Did It Go? The Top 5 Lost Coastlines Around the World in 2024 (Hook: \"You’ll never guess what happened to this beach…\" )"
+      ],
+      "keywords": [
+        "time-lapse",
+        "erosion",
+        "climatechange",
+        "futurescapes",
+        "vanishingcoastlines"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
