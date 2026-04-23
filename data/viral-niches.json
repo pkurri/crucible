@@ -12816,6 +12816,32 @@
         "MidnightGlow"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FutureCityAI",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Visualizing impossible cities with AI taps into the collective fascination with futuristic design while offering infinite variations. The concept is currently underserved, ensuring high differentiation. Each video can showcase a new AI-generated cityscape, incorporate interactive 3‑second teaser hooks, and link to deeper architectural explanations, guaranteeing scroll‑stopping retention and curiosity loops. The niche is scalable—every new city concept generates fresh content and allows dozens of unique hook constructions.",
+      "ideas": [
+        "How AI Reimagined Tokyo 2050 in 30 Seconds – See Tomorrow’s Skyline Now",
+        "The Hidden Cathedrals of an AI‑Generated New York – 15‑Second Time Travel",
+        "Explore a City Built for Zero Gravity – AI Surrealism You Can’t Believe",
+        "AI’s Secret Plan for a Floating Metropolis – 45‑Second Visual Puzzle",
+        "What Would a Cyberpunk Atlantis Look Like? – AI Cityscape Challenge"
+      ],
+      "keywords": [
+        "ultra-realistic",
+        "futuristic",
+        "cityscape",
+        "AI-generated",
+        "hyper-detailed"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
