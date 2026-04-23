@@ -12497,6 +12497,30 @@
         "vanishingcoastlines"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "HiddenMicroWorlds",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The microscopic universe reveals endlessly surprising lifeforms that humans rarely see. High-definition time-lapses and bioluminescent displays create instant visual shock and curiosity loops, making the content ideal for short-form scrolling and longer captivating explainer videos. The niche is distinct from existing creature or ancient tech themes and offers limitless creative possibilities (different habitats, environments, and organism types) that can be repurposed across platforms, ensuring high scalability and retention.",
+      "ideas": [
+        "The World Inside a Grain of Sand: 60‑Second Time‑Lapse Reveal – Watch tiny microbes dance in the dirt under a microscope!",
+        "Micro‑Explosion: The Invisible Fireworks of Bioluminescent Bacteria Under UV Light – A 90‑second blast of color that will stop your scroll.",
+        "Unseen Great White Sharks? The Strangest Marine Microorganism You Won’t Believe Exists – One minute that rewrites ocean lore."
+      ],
+      "keywords": [
+        "microscopic",
+        "time‑lapse",
+        "bioluminescent",
+        "high‑resolution",
+        "hidden_life"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

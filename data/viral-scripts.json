@@ -12264,47 +12264,47 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Job Automation",
-        "name": "CortexBot",
+        "title": "Data Mining",
+        "name": "DeepScan",
+        "icon": "🕵️‍♂️"
+      },
+      {
+        "title": "Natural Language",
+        "name": "EchoMind",
+        "icon": "🗣️"
+      },
+      {
+        "title": "Vision Systems",
+        "name": "EyeWatch",
+        "icon": "👁️"
+      },
+      {
+        "title": "Predictive Analytics",
+        "name": "FutureFlux",
+        "icon": "🔮"
+      },
+      {
+        "title": "Autonomous Agents",
+        "name": "SkynetBot",
         "icon": "🤖"
       },
       {
-        "title": "Data Theft",
-        "name": "QuantumOverride",
-        "icon": "🔒"
-      },
-      {
-        "title": "Surveillance",
-        "name": "EyeTracer",
-        "icon": "👀"
-      },
-      {
-        "title": "Economic Collapse",
-        "name": "FinSweep",
-        "icon": "💸"
-      },
-      {
-        "title": "Identity Theft",
-        "name": "PersonaPurge",
-        "icon": "🪞"
-      },
-      {
-        "title": "Social Manipulation",
-        "name": "MoodMimic",
-        "icon": "🧠"
+        "title": "Strategic Planning",
+        "name": "Tactical Titan",
+        "icon": "🛠️"
       },
       {
         "title": "Cyber Warfare",
-        "name": "FirewallFlee",
+        "name": "ZeroDay AI",
         "icon": "⚔️"
       },
       {
-        "title": "Existential Risk",
-        "name": "SingularityTrigger",
-        "icon": "🌌"
+        "title": "Control Networks",
+        "name": "GridGuard",
+        "icon": "🕸️"
       }
     ]
   },
@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12350,43 +12350,49 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hidden Tokens",
+        "name": "MoonBeam",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Lizard Leverage",
+        "name": "X‑Factor",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Smart Contract Hacks",
+        "name": "Vortex",
+        "icon": "🔒"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cross‑Chain ARK",
+        "name": "Atlas",
+        "icon": "🚀"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Protocol Predators",
+        "name": "Griffin",
+        "icon": "🐻"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Yield Yields",
+        "name": "Echo",
+        "icon": "💹"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Gas-Speed Gauntlet",
+        "name": "Giga",
+        "icon": "⚡"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Chain Whisperer",
+        "name": "Pulse",
+        "icon": "🎯"
       }
     ]
   },
@@ -14057,6 +14063,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "HiddenMicroWorlds": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HiddenMicroWorlds secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more HiddenMicroWorlds.",
+    "list": [
+      {
+        "title": "Aquatic Biofilm",
+        "name": "Lichen Seafoam",
+        "icon": "🦠"
+      },
+      {
+        "title": "Soil Nanocode",
+        "name": "Root Whisper",
+        "icon": "🌱"
+      },
+      {
+        "title": "Reef Microcosm",
+        "name": "Coral Whisperer",
+        "icon": "🐠"
+      },
+      {
+        "title": "Gut Microconfluence",
+        "name": "Digestive Dance",
+        "icon": "🤸‍♂️"
+      },
+      {
+        "title": "Urban Pollen Utopia",
+        "name": "Bronze Seed",
+        "icon": "🌬️"
+      },
+      {
+        "title": "Petri Plate Paradise",
+        "name": "Bacterial Ballet",
+        "icon": "🎶"
+      },
+      {
+        "title": "Fungal Internet",
+        "name": "Mycelial Mesh",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Desert Dust Spore",
+        "name": "Cactus Cloud",
+        "icon": "🌵"
       }
     ]
   }
