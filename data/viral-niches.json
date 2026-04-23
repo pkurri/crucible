@@ -12748,7 +12748,24 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
+    },
+    {
+      "name": "NeuralSymphony",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "Combining neuroscience, AI and music creates a near‑futuristic spectacle that sparks massive curiosity. The real‑time brain‑to‑melody workflow is wholly unexplored, offers endless variation, and naturally lends itself to unforgettable, scroll‑stopping visuals—perfect for the algorithm and viewers alike.",
+      "ideas": [
+        "I let my brain write an entire orchestra piece in real‑time. The result? Unbelievable! — Watch a full symphony unfold from raw EEG data.",
+        "Why my meditative music just made my heart race—AI decodes your EEG to play your perfect soundtrack. See how thoughts shape sound.",
+        "The Future of Listening: Generating music based on your thoughts… watch it in action. Your mind becomes the composer.",
+        "The Deep Learning DJ: Turn your brainwaves into club‑ready beats live on camera. See the brain‑voice remix.",
+        "Exactly what my skull sounds like—Live EEG visualisation turned into a hypnotic dance soundtrack."
+      ]
     }
   ]
 }
