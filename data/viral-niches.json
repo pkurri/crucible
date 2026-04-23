@@ -12697,6 +12697,30 @@
         "AI"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Space food innovation is a fast‑growing topic as humanity prepares for long‑duration space missions and Mars colonization. The blend of cutting‑edge science, tangible visual demonstrations, and the excitement of feeding astronauts on other planets fuels shareability and discussion across both Meta and YouTube.",
+      "ideas": [
+        "The 5 High‑Tech Foods That Will Keep the Next Space Colony Alive / Hook: Imagine eating a meal that can survive 20 years in a cryo‑freeze! Watch how these foods are engineered for Mars.",
+        "Mars Meal? The Secret Labs Developing the First Interplanetary Bread / Hook: We break down the proprietary recipe that could become humanity’s bread on the Red Planet.",
+        "Quantum Cookery: How Quantum Computers Are Brewing Your Future Space Snacks / Hook: Quantum algorithms are designing tastier, more nutritious space food in seconds – will it flavor-change everything?"
+      ],
+      "keywords": [
+        "MarsMeal",
+        "ZeroGravityChef",
+        "SpaceRobotics",
+        "QuantumBreakfast",
+        "FutureFoodTech"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
