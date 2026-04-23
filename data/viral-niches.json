@@ -12792,6 +12792,30 @@
         "real time slip"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "UrbanBioluminescence",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The convergence of cutting‑edge bioluminescent science with vibrant urban street art creates visually stunning, mystery‑laden content that invites exploration. Human curiosity about hidden city secrets, coupled with the high shareability of neon‑glow aesthetics, makes this niche ripe for rapid viral growth across both short‑form and long‑form platforms.",
+      "ideas": [
+        "The Night the City Glowed: Inside Tokyo's Hidden Bioluminescent Graffiti / Discover the glowing street art that turns the city into a living light show at night.",
+        "When Paint Comes Alive: How Artists Are Using Bioluminescence to Light Up Our Streets / Uncover the science and art behind murals that literally light up your path.",
+        "The Invisible Nightwalk: Finding Berlin's Secret Bioluminescent Urban Sculptures / Follow a drone into Berlin's underground to reveal neon under street art that hasn't been seen before."
+      ],
+      "keywords": [
+        "NeonGlowing",
+        "UrbanUnderwaterLighting",
+        "BioluminescentMural",
+        "GlowStreetArt",
+        "MidnightGlow"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
