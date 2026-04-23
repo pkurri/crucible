@@ -12542,6 +12542,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroCreepypasta",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The niche combines the high-visual appeal of macro photography with the inherent intrigue of creepypasta lore, a pairing that remains underserved. It offers limitless content opportunities (different creatures, legends, micro‑scenes) while keeping the production faceless, sustainable, and highly rewatchable. The mystery‑driven format naturally encourages scroll‑stopping hooks and curiosity loops, ensuring strong audience retention and rapid viral growth on both meta and YouTube.",
+      "ideas": [
+        "The Smallest Monster That Haunted Old Horror Movies (Macro Reveal) – Hook: ‘You won’t believe the creepy details revealed when you zoom in to 1000× your normal view!’",
+        "Creepypasta at 1,000X: The Creepy Creature That Lives on Your Smartphone Lens – Hook: ‘This hidden predator will make you think twice before you swipe the camera icon!’",
+        "Micro Creepypasta: The Mysterious Mouth‑licking Microbe That Eats Your Popcorn – Hook: ‘That mouth‑licking microbe isn’t fictional – watch it in 8k speed!’"
+      ],
+      "keywords": [
+        "macro",
+        "hyperreal",
+        "neon",
+        "ultrahigh",
+        "time‑lapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

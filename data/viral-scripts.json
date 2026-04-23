@@ -12264,47 +12264,47 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Data Mining",
-        "name": "DeepScan",
-        "icon": "🕵️‍♂️"
-      },
-      {
-        "title": "Natural Language",
-        "name": "EchoMind",
-        "icon": "🗣️"
-      },
-      {
-        "title": "Vision Systems",
-        "name": "EyeWatch",
-        "icon": "👁️"
-      },
-      {
-        "title": "Predictive Analytics",
-        "name": "FutureFlux",
-        "icon": "🔮"
-      },
-      {
-        "title": "Autonomous Agents",
-        "name": "SkynetBot",
+        "title": "Job Automation",
+        "name": "CortexBot",
         "icon": "🤖"
       },
       {
-        "title": "Strategic Planning",
-        "name": "Tactical Titan",
-        "icon": "🛠️"
+        "title": "Data Theft",
+        "name": "QuantumOverride",
+        "icon": "🔒"
+      },
+      {
+        "title": "Surveillance",
+        "name": "EyeTracer",
+        "icon": "👀"
+      },
+      {
+        "title": "Economic Collapse",
+        "name": "FinSweep",
+        "icon": "💸"
+      },
+      {
+        "title": "Identity Theft",
+        "name": "PersonaPurge",
+        "icon": "🪞"
+      },
+      {
+        "title": "Social Manipulation",
+        "name": "MoodMimic",
+        "icon": "🧠"
       },
       {
         "title": "Cyber Warfare",
-        "name": "ZeroDay AI",
+        "name": "FirewallFlee",
         "icon": "⚔️"
       },
       {
-        "title": "Control Networks",
-        "name": "GridGuard",
-        "icon": "🕸️"
+        "title": "Existential Risk",
+        "name": "SingularityTrigger",
+        "icon": "🌌"
       }
     ]
   },
@@ -12397,49 +12397,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Persuasion",
-        "name": "Scarcity Principle",
-        "icon": "🚫"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bystander Effect Hacker",
-        "icon": "👥"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Emotion Leverage",
-        "name": "Mirror Neuron Trigger",
-        "icon": "🪞"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Control Tactics",
-        "name": "Cognitive Dissonance Drill",
-        "icon": "🔄"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Power Dynamics",
-        "name": "Foot-in-the-Door Flip",
-        "icon": "🚪"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Memory Manipulation",
-        "name": "Retroactive Legend",
-        "icon": "📚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Authority",
-        "name": "Silly Authority Mask",
-        "icon": "🎭"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Fear",
-        "name": "Imaginary Threat Layer",
-        "icon": "😱"
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12475,7 +12469,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -14151,6 +14145,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "MicroCreepypasta": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroCreepypasta secrets you need to know.",
+    "closing": "If you want to master MicroCreepypasta, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Urban Legend",
+        "name": "The Elevator That Sees You",
+        "icon": "🚪"
+      },
+      {
+        "title": "Found Footage",
+        "name": "The Unnamed Door",
+        "icon": "📹"
+      },
+      {
+        "title": "Tech Horror",
+        "name": "Glitches in the Grid",
+        "icon": "💻"
+      },
+      {
+        "title": "Psychic Horror",
+        "name": "Echoes of the Cardboard Box",
+        "icon": "🧱"
+      },
+      {
+        "title": "Urban Fantasy",
+        "name": "The Whispering Lamp",
+        "icon": "🕯️"
+      },
+      {
+        "title": "Experimental",
+        "name": "Snippet from the Archive",
+        "icon": "🗄️"
+      },
+      {
+        "title": "Mundane Horror",
+        "name": "The Chair That Moves",
+        "icon": "🪑"
+      },
+      {
+        "title": "Supernatural",
+        "name": "The Mirror of the Misfiled Letter",
+        "icon": "🪞"
       }
     ]
   }
