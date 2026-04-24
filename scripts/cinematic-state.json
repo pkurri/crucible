@@ -1,7 +1,7 @@
 {
-  "lastUploadTime": "2026-04-23T13:53:11.678Z",
-  "uploadsToday": 3,
-  "lastDate": "2026-04-23",
+  "lastUploadTime": "2026-04-24T02:54:20.597Z",
+  "uploadsToday": 1,
+  "lastDate": "2026-04-24",
   "history": [
     {
       "topic": "The Cyber-Deckbuilder Origins",
@@ -51,6 +51,11 @@
     {
       "topic": "AI Entity Awakening",
       "date": "2026-04-23T13:53:11.678Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "High-Fantasy Architectures",
+      "date": "2026-04-24T02:54:20.597Z",
       "type": "Cinematic Reel"
     }
   ]
