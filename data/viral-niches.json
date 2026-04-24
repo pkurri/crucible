@@ -12968,6 +12968,30 @@
         "dramatic coastline"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuralSymphony",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Curiosity",
+      "reason": "Combines trending neuroscience and DIY bio‑feedback with music creation, offering instant visual and auditory hooks that resonate with both science enthusiasts and pop culture audiences. The niche is low‑competition, highly shareable, and easily scalable with endless content variations using EEG headbands, meditation sessions, and daily life activities.",
+      "ideas": [
+        "Turn Your Brainwaves Into a Chart‑Topping Song – 60 Seconds of Neuroscience Magic! / Hook: \"We recorded my thinking patterns and turned them into a piano track. The result? Unbelievable.\"",
+        "Meditation + Machine: Watch a 3D Visualizer React to My Calm Brain from a Phone Headband / Hook: \"I used my cheap clip‑on EEG to create real time psychedelic lights as I relaxed.\"",
+        "Did Your Work Brain Make This Sound? Brain‑Generated EDM Track from a Spreadsheet Stats Session / Hook: \"After a 30‑minute budgeting spreadsheet, my brain produced an intense beat—here’s the demo.\""
+      ],
+      "keywords": [
+        "Neuroscience",
+        "Brainwaves",
+        "EEG",
+        "Music",
+        "Interactive"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
