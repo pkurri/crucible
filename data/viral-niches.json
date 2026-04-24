@@ -12893,6 +12893,30 @@
         "LabGrown"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MoodBacteria",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Gut‑brain science is exploding online, and people are eager to find quick, actionable hacks that feel like science fiction. MoodBacteria offers a niche that blends rigorous microbiology with lifestyle‑style experiment videos, enabling endless “What if?” scenarios that keep viewers hooked and share‑worthy. The scientific angle gives credibility, while the playful, surprising experiments drive virality.",
+      "ideas": [
+        "\"The Bacterium That Can Erase Your Anxiety in 30 Seconds!\" - Watch a 60‑second gut hack that literally rewires your stress response.",
+        "\"Top 7 Gut Microbes That Make You Genius — Tested & Proven!\" - A countdown video revealing the microbes behind mental sharpness, complete with lab‑style visuals.",
+        "\"I Taught My Dog Bacteria... and Now My ADHD Vanished!\" - A heart‑warming, unexpected experiment linking pets, bacteria, and human cognition."
+      ],
+      "keywords": [
+        "Microbial Swarm",
+        "Gut Glow",
+        "Brain Wave",
+        "Bacterial Bloom",
+        "Stomach Stream"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
