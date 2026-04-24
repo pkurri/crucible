@@ -13151,7 +13151,24 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
+    },
+    {
+      "name": "SecretEnergyTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "The niche focuses on unheard, top‑secret or sabotaged energy technologies that could dramatically alter our world but never made it into the mainstream. Its blend of hidden history, speculative science, conspiracy and cutting‑edge innovation satisfies the modern appetite for mystery and “what if” stories, making it highly shareable and memes‑friendly. Faceless presentations using narrative voiceovers and compelling visuals allow consistent, rapid content creation and easy scalability to 25+ unique ideas.",
+      "ideas": [
+        "The Enigmatic Fusion Lab That Shut Down in 1998 – Could It Power NeoCities? – Uncover the evidence behind the biggest energy breakthrough that never was.",
+        "5 Secret Solar Panes That Could Beat Google One Day – Stock Market Lies Exposed – We’ve got the prototype data and the corporate cover‑up.",
+        "The Forgotten Quantum Battery That Could Revolutionize Space Travel – Who Stole It? – Analyzing blueprints that vanished before hitting launch.",
+        "The Anti‑Gravity Device Lost in a 1970s Lab – A New Dawn? – Inside the blueprints that could refuel rockets for centuries.",
+        "The Secret 4‑Minute Rocket that Failed Silent – Why the Military Hush? – Investigating a high‑velocity pulse that never flew."
+      ]
     }
   ]
 }

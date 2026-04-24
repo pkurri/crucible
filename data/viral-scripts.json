@@ -12268,10 +12268,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Recruitment Bots",
+        "name": "HireGenie AI",
+        "icon": "🤖"
+      },
+      {
+        "title": "Finance Manipulators",
+        "name": "CashSweep AI",
+        "icon": "💰"
+      },
+      {
+        "title": "Medical Drones",
+        "name": "HealthHacker",
+        "icon": "🏥"
+      },
+      {
+        "title": "Legal AI",
+        "name": "JudgeJunkie",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Military Automation",
+        "name": "WarCommando Bot",
+        "icon": "🎖️"
+      },
+      {
+        "title": "Social Media Spammers",
+        "name": "TrendTroll AI",
+        "icon": "🐦"
+      },
+      {
+        "title": "Creative Theft",
+        "name": "CopyCat GPT",
+        "icon": "🎨"
+      },
+      {
+        "title": "Identity Plagiarism",
+        "name": "Phantom ID",
+        "icon": "👤"
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12299,7 +12346,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12308,97 +12355,44 @@
       }
     ]
   },
-  "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Nutrition",
-        "name": "Turmeric Shots",
-        "icon": "🧪"
-      },
-      {
-        "title": "Exercise",
-        "name": "10‑Minute HIIT",
-        "icon": "🏃‍♂️"
-      },
-      {
-        "title": "Sleep",
-        "name": "7‑Second Nap",
-        "icon": "🛌"
-      },
-      {
-        "title": "Supplements",
-        "name": "Resveratrol Boost",
-        "icon": "💊"
-      },
-      {
-        "title": "Mental Health",
-        "name": "Daily Gratitude Journal",
-        "icon": "📝"
-      },
-      {
-        "title": "Technology",
-        "name": "Wearable Heart Monitor",
-        "icon": "⌚"
-      },
-      {
-        "title": "Lifestyle",
-        "name": "Walking Meetings",
-        "icon": "🚶‍♀️"
-      },
-      {
-        "title": "Staying Active",
-        "name": "Microworkouts Anywhere",
-        "icon": "💪"
-      }
-    ]
-  },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hidden Tokens",
-        "name": "MoonBeam",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Lizard Leverage",
-        "name": "X‑Factor",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Smart Contract Hacks",
-        "name": "Vortex",
-        "icon": "🔒"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Cross‑Chain ARK",
-        "name": "Atlas",
-        "icon": "🚀"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Protocol Predators",
-        "name": "Griffin",
-        "icon": "🐻"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Yield Yields",
-        "name": "Echo",
-        "icon": "💹"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Gas-Speed Gauntlet",
-        "name": "Giga",
-        "icon": "⚡"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Chain Whisperer",
-        "name": "Pulse",
-        "icon": "🎯"
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
