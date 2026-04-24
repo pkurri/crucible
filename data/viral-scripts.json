@@ -12268,43 +12268,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Data Mining",
+        "name": "DeepScan",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Natural Language",
+        "name": "EchoMind",
+        "icon": "🗣️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Vision Systems",
+        "name": "EyeWatch",
+        "icon": "👁️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Predictive Analytics",
+        "name": "FutureFlux",
+        "icon": "🔮"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Autonomous Agents",
+        "name": "SkynetBot",
+        "icon": "🤖"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Strategic Planning",
+        "name": "Tactical Titan",
+        "icon": "🛠️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cyber Warfare",
+        "name": "ZeroDay AI",
+        "icon": "⚔️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Control Networks",
+        "name": "GridGuard",
+        "icon": "🕸️"
       }
     ]
   },
@@ -12340,7 +12346,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12350,49 +12356,43 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Signal Engines",
-        "name": "Momentum Amplifier",
-        "icon": "⚡"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Whale Moves",
-        "name": "Crypto Whale Whisperer",
-        "icon": "🐋"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Indicators",
-        "name": "30-Span Stochastic Surge",
-        "icon": "📈"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Exploits",
-        "name": "Flash Loan Masking",
-        "icon": "🔒"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Pump Tactics",
-        "name": "Pump Triangle Protocol",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Sentiment",
-        "name": "Sentiment Squeeze Map",
-        "icon": "📊"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Tokenomics",
-        "name": "Inflation‑Resistant Token",
-        "icon": "🏦"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Volume Alerts",
-        "name": "Volume Surge Detector",
-        "icon": "🚀"
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13383,7 +13383,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
         "duration": 5
       },
       {

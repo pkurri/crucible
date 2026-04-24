@@ -13019,6 +13019,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes taps into the growing fascination with the unseen microscopic world, combining stunning, high‑resolution visuals with a compelling narrative that reveals hidden ecosystems. The niche is under‑explored, offers endless variables for creative storytelling, and aligns with current interests in science, nature, and discovery, making it highly shareable and adaptable across platforms.",
+      "ideas": [
+        "Hidden Micro World: The Bioluminescent Forest Inside a Drop of Pond Water / Imagine walking through a forest where every leaf glows. You won’t believe what you’ll see.",
+        "The Time‑Lapse-Traffic of Micro Bacteria City / A microscopic metropolis that moves faster than your eye can see—watch the traffic jam of living organisms in 5 minutes.",
+        "When Tiny Colonies Build Giant Architecture / Tiny organisms engineer structures that rival skyscrapers—discover the architects of the unseen world."
+      ],
+      "keywords": [
+        "bioluminescent",
+        "microscopic",
+        "glowing",
+        "time-lapse",
+        "underground"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
