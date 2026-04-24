@@ -13168,7 +13168,35 @@
         "The Forgotten Quantum Battery That Could Revolutionize Space Travel – Who Stole It? – Analyzing blueprints that vanished before hitting launch.",
         "The Anti‑Gravity Device Lost in a 1970s Lab – A New Dawn? – Inside the blueprints that could refuel rockets for centuries.",
         "The Secret 4‑Minute Rocket that Failed Silent – Why the Military Hush? – Investigating a high‑velocity pulse that never flew."
-      ]
+      ],
+      "priority": false
+    },
+    {
+      "role": "assistant",
+      "reasoning_content": "We need to vet a new niche. The list of \"existing niche\" includes a huge list of random topics. We can choose something not already in that list. We need to evaluate differentiation, retention, emotion, scalability. Let's think.\n\nPotential niche ideas that are trending: \"Urban Legends AI,\" \"Space Weather\", \"Nano-Marine Life,\" \"Future Food Tech,\" \"NeuralSymphony,\" \"QuantumFoodTech,\" \"VanishingCoastlines,\" \"MicroBioscapes,\" \"HiddenInTheCanvas.\" Many of those are present. We need something new: maybe \"AI-Generated Ancient Artifacts.\" Or \"AI Designed Mythic Creatures.\" Or \"Digital Ghost Stories using AI.\" Many are present. We need novelty.\n\nPossible niche: \"Cosmic Weather Forecasts\" - predicting storms on other planets. But might be too niche.\n\nAnother: \"Bio-Luminescent Plants in Dark Cities\" is present? No. \"UrbanBioluminescence\" various. But maybe not \"BioLuminescentPlants\" yet. That could be unique: showcase bioluminescent flora in urban black lights.\n\nAnother: \"Time Capsule Dispatches\" - exploring time capsules found worldwide. Not present.\n\n\"Quantum Quantum\" but \"QuantumBlockchain\" present. \"QuantumFoodTech\" present. \"NeuralSymphony\" present? yes \"NeuralSymphony\" is present in list.\n\n\"AI-Generated Ancient Language\" present? \"AlienLanguageAI\" present. Would \"TextToMusic\" maybe?\n\nWhat about \"Retrospective Architecture,\" \"Lost Architecture with Modern Rendering.\" Some present like \"LostWorldRecreations,\" but not.\n\nLet's pick \"Future Farming Underground\" - vertical farms underground. That's trending due to climate change.\n\nBut check differentiation: many vertical farms exist. We need unique twist: \"Underground Farming with Self-Sustaining Ecosystems\" turned into video series.\n\nMaybe \"Nano-Scale Farming\" but trending? We can propose \"Urban Mushroom Farming with Spore Storms.\" Not too good.\n\nAnother trending: \"Space Elevator Build.\" Already present?\n\nAlternatively, \"AI-Generated Myths\" not in list. Or \"AI Crafting Mythical Creatures\" could be. But there is \"CryptidSightingsUnveiled\" and \"PrehistoricCreatureEncounters\". There is \"SimulatedEvolutionScenarios,\" \"SimulatedRealityGlitches.\"\n\nMaybe \"Crypto\" not trending.\n\nLet's find something more emotional: \"Mystery of the Deepest Oceanic Gigantic Light.\" Or \"Macrobiotic Food Trends from Unknown Cultures.\"\n\nHowever, need to be high-velocity: must evoke curiosity/fear/wonder. The niche must be able to produce 25+ unique viral ideas. For example: \"VanishingCoastlines\" has huge potential. But it's present. So we can't reuse. Let's focus on something less represented: \"HiddenMicroWorlds\" (present). \"QuantumBlockchain\" present.\n\nMaybe we can play with \"Ultrasound Images of the Human Brain at Different Ages.\" It's a niche that hasn't been in list? \"Brain\" not present. Suggest \"BrainAgeEchoes.\" But we need check differentiation: Could be unique because we do Ultrasound and 3D animations. Emotion: Awe. Retention: hooks trending.\n\nHowever, we need viral potential. \"Secrets of the Brain\" are always trending. But many \"brain science\" channels exist. But uniqueness with ultrasound? Might be unknown to mainstream. It could differentiate.\n\nAlternatively: \"Embedded AI in Everyday Objects Stories.\" But too broad.\n\nThe list includes \"SimulatedPlanetaryTerraforming\" maybe but not \"Real PlanetaryTerraforming.\"\n\nCould propose \"Real Planet Terraforming Proposals\" but too speculative.\n\nWe need to pick one.\n\nLet's consider \"Giant Microplastic Swarms\" but it's not present, but 'Microplastic' trending? Could do \"MicroPlastic Oceans\" but maybe not enough interest.\n\nI think \"CryptidSightingsUnveiled\" about cryptids is present.\n\nWhat about \"Holographic Dreams\" or \"DreamVisualization\" but present? Not sure.\n\nAnother: \"Near-Earth Anomalous Weather Events\" trending? Possibly.\n\nPerhaps best is \"NanoMarineLife\" but not present. We can talk about microscopic marine life discovered with electron microscopy: \"the unseen world of microscopic sea creatures.\" That could be fascinating and not in list. Visual keywords: \"microscopic,\" \"sea,\" \"nano,\" \"bright,\" \"glow.\"\n\nEmotion: wonder. Retention: scroll-stopping with \"You wouldn't believe what exists under the waves.\" Scalability: many small species to profile.\n\nLet's frame: TopicID \"NanoMarineWorld.\" Use platforms: meta, youtube. ViralScore > 8.5? Let's argue: COVID produced increased interest in biology, interest in micro, many viewers. Could attract circ. Yes.\n\nBut we should ensure the niche is new: \"NanoMarineWorld\" not in list. Let's verify list: It includes \"MicroBioscapes,\" \"HiddenMicroWorlds,\" but not nautical micro. \"UltraMarineMicroscapes\"? No. So it's new.\n\nNow produce 3 sample viral ideas:\n\n1. \"20 Microscopic Sea Creatures That Look Like Aliens – You’ll Think They're Futuristic!\" Hook: \"What if I told you that the ocean hides creatures that look straight out of a sci‑fi movie? Watch Close‑Up to be amazed.\"\n\n2. \"The Tiny Coral Factory That Keeps the Ocean Alive – And It's Running Out of Time.\" Hook: \"Scientists discovered a nano‑scale coral reef secret, and its survival could change the planet.\"\n\n3. \"This Tiny Shark Swimmer Is Smarter Than You Think — A Microscopic Marvel Inside Your Everyday Fish.\" Hook: \"Meet the micro shark that lives inside common fish and has a mind of its own.\"\n\nBut we need \"Viral Idea Generator\" style. Usually includes title, hook, maybe \"with [shock].\"\n\nOk.\n\nKeywords: high-intensity visual: \"microscopic,\" \"bioluminescent,\" \"nano,\" \"photomicrograph,\" \"deepsea.\"\n\nVoice: choose 'en-US-JennyNeural'.\n\nNow viralScore: Let's estimate: 9.2. Provide reasoning: unique micro marine world fits trending microscopy content, scroll-stopping visuals, and encourages curiosity risk.\n\nTitle: \"NanoMarineWorld\" but we'd use CamelCase. So \"NanoMarineWorld\". We'll give name accordingly.\n\nNow format JSON. Ensure all fields.\n\nLet's craft.\n\n",
+      "tool_calls": [],
+      "priority": false
+    },
+    {
+      "name": "ApexFlow_1777052035727",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.5,
+      "targetEmotion": "Awe",
+      "reason": "High aesthetic flow videos have high retention and shareability.",
+      "ideas": [
+        "NEON LIQUID SECRETS / 99% of people miss the hidden pattern in physics."
+      ],
+      "keywords": [
+        "Neon liquid",
+        "Data points",
+        "Hyper-car interiors",
+        "Neural networks"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
     }
   ]
 }
