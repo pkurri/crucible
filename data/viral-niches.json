@@ -12869,6 +12869,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FutureFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The global shift towards sustainable and lab‑grown food has exploded in 2024, with new discoveries (cellular agriculture, AI‑crafted recipes, edible packaging) topping search queries. This niche offers visually stunning content (bioreactors, 3‑D‑printed proteins, high‑contrast lab footage) and a built‑in curiosity loop—watchers want to see what the future of eating looks like. The format supports short, scroll‑stopping hooks, can be produced quickly in green‑room labs, and naturally scales to dozens of episodes: product unveilings, “taste tests vs. real meat,” ingredient origins, ethical debates, and behind‑the‑scenes lab tours. With consistent, sharable visuals, it can hit 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "Lab‑Grown Meat vs. Steak: The Taste Test That Shook the World – Hook: “You won’t believe how close it is to real beef!”",
+        "3D‑Printed Salad Supreme: See How Mini-Cells Become a Full‑Frontal Meal – Hook: “From petri dish to plate in 60 seconds!”",
+        "Edible Packaging Revolution: Will Your Coffee Cup Disappear? – Hook: “Beverage waste ends tonight!”"
+      ],
+      "keywords": [
+        "Bioreactor",
+        "Cellular",
+        "3D‑Printed",
+        "EdibleInnovation",
+        "LabGrown"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
