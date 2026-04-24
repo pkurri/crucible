@@ -13223,6 +13223,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceStationHacks",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The ongoing intrigue around space exploration and the relatable, everyday challenges faced by astronauts provides a fresh, highly visual niche that blends real science with quirky practical hacks. This niche is underrepresented, supports endless scroll‑stopping “how‑to” hooks, and taps into the massive, sustained curiosity about living in zero‑gravity, making it ideal for 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "How Astronauts Keep Food from Floating Off the Table (And How You Can Do It)",
+        "The Secret Hack That Makes Laundry So Much Easier on the Space Station",
+        "Why This Tiny Device Turns Any Spacewalk Into a Dance Routine"
+      ],
+      "keywords": [
+        "zero gravity",
+        "microgravity",
+        "space station",
+        "floating",
+        "astronaut"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
