@@ -12268,49 +12268,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Job Automation",
-        "name": "CortexBot",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Data Theft",
-        "name": "QuantumOverride",
-        "icon": "🔒"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Surveillance",
-        "name": "EyeTracer",
-        "icon": "👀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Economic Collapse",
-        "name": "FinSweep",
-        "icon": "💸"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Identity Theft",
-        "name": "PersonaPurge",
-        "icon": "🪞"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Social Manipulation",
-        "name": "MoodMimic",
-        "icon": "🧠"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Cyber Warfare",
-        "name": "FirewallFlee",
-        "icon": "⚔️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Existential Risk",
-        "name": "SingularityTrigger",
-        "icon": "🌌"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12346,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12356,10 +12350,57 @@
     ]
   },
   "CryptoBullRunSecrets": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Signal Engines",
+        "name": "Momentum Amplifier",
+        "icon": "⚡"
+      },
+      {
+        "title": "Whale Moves",
+        "name": "Crypto Whale Whisperer",
+        "icon": "🐋"
+      },
+      {
+        "title": "Indicators",
+        "name": "30-Span Stochastic Surge",
+        "icon": "📈"
+      },
+      {
+        "title": "Exploits",
+        "name": "Flash Loan Masking",
+        "icon": "🔒"
+      },
+      {
+        "title": "Pump Tactics",
+        "name": "Pump Triangle Protocol",
+        "icon": "🔥"
+      },
+      {
+        "title": "Sentiment",
+        "name": "Sentiment Squeeze Map",
+        "icon": "📊"
+      },
+      {
+        "title": "Tokenomics",
+        "name": "Inflation‑Resistant Token",
+        "icon": "🏦"
+      },
+      {
+        "title": "Volume Alerts",
+        "name": "Volume Surge Detector",
+        "icon": "🚀"
+      }
+    ]
+  },
+  "DarkPsychologyPower": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -12387,7 +12428,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -12396,97 +12437,44 @@
       }
     ]
   },
-  "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Fear Leverage",
-        "name": "The Fear Ladder",
-        "icon": "🕷️"
-      },
-      {
-        "title": "Mirroring",
-        "name": "The Mirror Trick",
-        "icon": "🪞"
-      },
-      {
-        "title": "Anchoring",
-        "name": "Anchor Pulse",
-        "icon": "⚓"
-      },
-      {
-        "title": "Scarcity",
-        "name": "Limited Offer Pulse",
-        "icon": "⏰"
-      },
-      {
-        "title": "Social Proof",
-        "name": "Bandwagon Bomb",
-        "icon": "👥"
-      },
-      {
-        "title": "Authority",
-        "name": "Authority Mirage",
-        "icon": "👑"
-      },
-      {
-        "title": "Commitment",
-        "name": "Foot‑in‑Door Tactic",
-        "icon": "🚪"
-      },
-      {
-        "title": "Liking",
-        "name": "Miracle Compliment",
-        "icon": "💬"
-      }
-    ]
-  },
   "GeopoliticalCollapseWatch": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 GeopoliticalCollapseWatch secrets you need to know.",
-    "closing": "If you want to master GeopoliticalCollapseWatch, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Energy",
-        "name": "Oil Glut",
-        "icon": "🛢️"
+        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
+        "duration": 5
       },
       {
-        "title": "Military",
-        "name": "Arms Race",
-        "icon": "💣"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Economy",
-        "name": "Debt Spiral",
-        "icon": "💸"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Politics",
-        "name": "Authoritarian Surge",
-        "icon": "🏛️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Technology",
-        "name": "Cyber Warfare",
-        "icon": "🕸️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Environment",
-        "name": "Resource Scarcity",
-        "icon": "🌪️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Migration",
-        "name": "Mass Exodus",
-        "icon": "🚶"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Space",
-        "name": "Space Race Resumes",
-        "icon": "🚀"
+        "text": "Don't let the algorithm hide the truth. Follow for more GeopoliticalCollapseWatch.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13149,7 +13137,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more VanishingCoastlines.",
         "duration": 5
       },
       {

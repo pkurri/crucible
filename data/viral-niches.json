@@ -12944,6 +12944,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Climate change has shifted into mainstream conversation, but few stories focus on specific lost coastlines worldwide. By showcasing time‑lapse, drone footage, and personal journeys to towns that are literally disappearing, this niche offers shocking, relatable, and shareable content that can be replicated across numerous locations. The visual drama & urgent narrative give instant scroll‑stopping hooks, while the knowledge gap about \"what will become of these places\" fuels curiosity loops. With countless potential sites, the niche scales easily to 25+ unique stories, keeping audiences eager for more.",
+      "ideas": [
+        "Lost Tides: The Silent Beach That Vanished Overnight (Thumb‑ups!) — Fascinate your viewers with a full‑day time‑lapse of a once‑populated coastline receding and how it felt to walk the new shore.",
+        "I Traveled 300 Miles to Catch The Storm That Took My Backyard (And It Wasn't What You Expect) — A timed, reverse‑time video that starts with the empty beach and ends with trucks clearing debris after a massive storm.",
+        "The 5 Bizarre Coastal Towns That Beached Themselves In 2023 (Unbelievable Footage Included) — A compilation with on‑the‑ground commentary, weather data overlay, and how science forecasts the next disappearances."
+      ],
+      "keywords": [
+        "vanishing",
+        "time‑lapse",
+        "glacial melt",
+        "desolate beach",
+        "dramatic coastline"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
