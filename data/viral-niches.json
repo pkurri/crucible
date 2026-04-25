@@ -13583,6 +13583,33 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "role": "assistant",
+      "reasoning_content": "We need to research and propose one new, vetted viral niche. Must be high velocity faceless niche that can realistically reach 1M+ subs and 100K+ views per video. Must show differentiation with the long list of niche names in the prompt. The niche must be unmentioned. We should evaluate criteria: differentiation, retention potential, target emotion, scalability, viral score > 8.5. Must also supply JSON with fields. Need to generate sample viral ideas.\n\nWe need to come up with a niche that hasn't been mentioned. Focusing on faceless content: we can use topics like Urban Calligraphy, Hidden Tech in Everyday Life, Bizarre Food Science, Mythical Plant Mutations, Urban Waste-to-Art. But must differentiate uniquely vs many.\n\nWe have many mentions: \"VanishingCoastlines,\" \"HiddenMicroWorlds,\" etc. So we must find one not equally covered.\n\nLet's think about high-velocity due to psychometric science: e.g., \"NeuroHacking Hacks,\" \"Artificial Consciousness\". Or something about \"Biohacking Genes.\" But many might be similar to \"FutureFoodTech\" and \"BioFutureVisions\".\n\nWe need to ensure no overlap in names but unique. Something cutting-edge: maybe \"QuantumEnabled AI Art\" - no. \"Readerless Entertainment: 3D Push-Peel Stories\" - no.\n\nLet's choose \"SonicBiology: How Sound Shaped Life\". Not in list. See if it differentiates. Or \"Biosonar: How Animals Use Echoes.\" Possibly similar to \"HiddenMicroWorlds\".\n\nMaybe choose \"MetaReality Augmented Cooking\": 3D printed recipes, improbable.\n\nLet's analyze tags: long list of potential niches: many science / tech topics, history, unsolved mysteries. We could propose a niche focusing on \"Extreme Weather Agricultural Tech\", maybe \"Urban Farming in tempoes\".\n\nBut need to be different. Also \"faceless\" means we don't have a host.\n\nPotential trending: \"AI-generated Code Breaking,\" \"Cybersecurity in Everyday Life.\" Might attract 100k+ views.\n\nBut we also need high viral potential. Another trending theme: \"Space Mythology: Stories Of Space.\" But many similar.\n\nMaybe propose \"World's Fastest Matter: Particle Accelerator Visualisations\" but that's trending.\n\nAnother: \"Subversive Micro Ads\" not.\n\nWe could pick \"Unseen Animal Hybrid: Genetic Convergence\". But perhaps similar to Purple.\n\nWe need target emotion: Awe, Curiosity, Fear.\n\nI think \"QuantumFabrics: Fabrication of Quantum Materials\" could be trending. But let’s think of unique.\n\nAlternatively, exploring \"Aesthetic Mood Lighting in Realism\" or \"Dark Night Lightscapes\".\n\nWhat about \"AudioMimic: Voice Replication Tech\"? There's mention of \"VanishingCoastlines\" etc. But not \"Voice Cloning\". Let's propose niche: \"VoiceSynth Secrets: From AI to Real People\". That could be viral.\n\nLet's evaluate.\n\nTopic \"VoiceSynthSecrets\". Not in list. It could differentiate from \"ArtificialWorldLandscapes\" but not similar.\n\nHold on, maybe we can choose \"SyntheticPenguin\" but no.\n\nAlternatively, niche \"Nanofabricated Origami\" - but maybe not.\n\nLet's decide: \"SyntheticLife: The Future of Artificial Organisms\". That's trending. But many talk about AI. But \"Synthetic Life\" maybe not covered.\n\nLet's evaluate ranking.\n\nCriteria:\n\n1. Differentiation: must be unique relative to the huge list. \"SyntheticLife\" isn't in the list. Distinct from \"BioFutureVisions\" but still similar? Not exactly.\n\n2. Retention: Could scroll-stopping hooks like \"What if a machine could replicate a heartbeat?\" \"Who will we be when life is synthetic?\" So yes.\n\n3. Target emotion: \"Curiosity\" or \"Fear\". Could be fear of controlling life.\n\n4. Scalability: 25+ distinct idea potential: #Gentration - TOT.\n\nI think Synthetic Life is good.\n\nLet's propose:\n\nTopicID: SyntheticLife\n\nPlatform: [\"meta\",\"youtube\"].\n\nViralScore: maybe 9.3.\n\nTargetEmotion: Curiosity.\n\nViralRationale: It's trending due to CRISPR, synthetic biology leaps. People hype about creating loops. Faceless content can do voiceover and animated sequences. Could do unboxing \"First Synthetic Worm\" etc.\n\nSample ideas: provide 3 titles.\n\nWe need \"Viral Idea Generator\" style titles and hooks.\n\n3 examples:\n\n1. \"THE FIRST SYNTHETIC HEART: See It Beat 0.1 Seconds After Breathing In\" Hook: \"Imagine a cell engineered to mimic a human heart—here’s the video that will change the future of medicine.\"\n\n2. \"THIS BRAIN-LEVERAGED MICRO-ROBOT CAN THINK FOR 5 MINUTES—WATCH IT TELL YOU A MIND-READING SCENE\" Hook: \"We built a neural network puppet inside a mouse—now we’ll see if it can pick your thoughts.\"\n\n3. \"ELECTRONIC METEORIC: RIPPED OFF DNA BEGINS TO UNSHAPED ‘SYNTHETIC FAKES’—LIKE AN AETHERVE DISCOVERED\" Hook: \"Ever wondered if we can craft life from scratch? Here’s the first synthesized organism that runs on sunlight.\"\n\nBut we need to use the \"Viral Idea Generator\" style: maybe short hook within.\n\nLet's produce 3 ideas with Title and Hook.\n\nKeywords: 5 high-intensity visual keywords. Eg \"CRISPR\", \"LabAnimation\", \"BioEngineering\", \"SuspendedAnimation\", \"DigitalGlow\".\n\nVoice: en-US-JennyNeural.\n\nPriority true.\n\nBut we need to check whether \"SyntheticLife\" is too broad or might require at least one subtopic like \"Cellular Hack\" etc. It's okay.\n\nLet's confirm viralscore > 8.5.\n\nI will set 9.0.\n\nOk.\n\nLet's produce JSON object accordingly.",
+      "tool_calls": [],
+      "priority": false
+    },
+    {
+      "name": "ApexFlow_1777137274999",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.5,
+      "targetEmotion": "Awe",
+      "reason": "High aesthetic flow videos have high retention and shareability.",
+      "ideas": [
+        "NEON LIQUID SECRETS / 99% of people miss the hidden pattern in physics."
+      ],
+      "keywords": [
+        "Neon liquid",
+        "Data points",
+        "Hyper-car interiors",
+        "Neural networks"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
