@@ -13634,6 +13634,30 @@
         "awe-inspiring"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AISynthNature",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "AI-generated hyper-realistic nature scenes are a rapidly growing trend with high curiosity and shareability. The niche blends cutting-edge tech with visual storytelling, attracting both tech enthusiasts and art lovers. The content is easily scalable—each video can showcase a new AI-created ecosystem, plant, or sky, providing endless hooks like \"you won't believe these creatures are purely virtual.\" The differentiation lies in exclusive use of state‑of‑the‑art generative models, making it distinct from existing nature or AI genres.",
+      "ideas": [
+        "AI Creates Life: Watch a Phoenix Evolve Itself in Real Time – Hook: From Code to Creature in 60 seconds!",
+        "Planting a Virtual Garden in Minutes—Using GANs to Grow Real Flowers – Hook: Transform your backyard into an AI wonderland!",
+        "Shifting Horizons: AI Generates Skies of Never-Seen Colors – Hook: Witness a planet’s sky reinvented by AI!"
+      ],
+      "keywords": [
+        "hyperreal",
+        "surreal",
+        "glowing",
+        "phantasmagoric",
+        "luminescent"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
