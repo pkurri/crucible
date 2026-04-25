@@ -13610,6 +13610,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "EchoesOfHistory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "By reconstructing historical events into immersive 3D audio and pairing them with stunning visual reenactments, this niche taps into curiosity, nostalgia and the human desire to experience the past like never before. The format lends itself to shareable, short‑form clips for social platforms and longer, high‑production videos on YouTube, enabling rapid subscriber and view growth.",
+      "ideas": [
+        "The Battle of Hastings — 3D Audio Recreated for Modern Audiences: Hear the artillery like it’s happening live!",
+        "Sonic Secrets of the Colosseum: 3D Battle Sounds from Ancient Rome That Will Blow Your Mind",
+        "Titanic’s Final Minutes: 3D Audio Reconstruction That Turns a Tragedy into an Immersive Experience"
+      ],
+      "keywords": [
+        "immersive",
+        "stunning",
+        "ultra-realistic",
+        "historical",
+        "awe-inspiring"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
