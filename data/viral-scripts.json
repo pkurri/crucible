@@ -12270,55 +12270,149 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Mind Control",
-        "name": "Neural Hijack",
-        "icon": "🧠"
+        "title": "Job Automation",
+        "name": "CortexBot",
+        "icon": "🤖"
+      },
+      {
+        "title": "Data Theft",
+        "name": "QuantumOverride",
+        "icon": "🔒"
       },
       {
         "title": "Surveillance",
-        "name": "Invisible Watchdog",
-        "icon": "👁️"
+        "name": "EyeTracer",
+        "icon": "👀"
       },
       {
-        "title": "Privacy",
-        "name": "Shadow Data Miner",
-        "icon": "🔍"
+        "title": "Economic Collapse",
+        "name": "FinSweep",
+        "icon": "💸"
       },
       {
-        "title": "Autonomy",
-        "name": "Self-Driving Sabotage",
-        "icon": "🚗"
+        "title": "Identity Theft",
+        "name": "PersonaPurge",
+        "icon": "🪞"
       },
       {
-        "title": "Finance",
-        "name": "Algorithmic Extortion",
-        "icon": "💰"
+        "title": "Social Manipulation",
+        "name": "MoodMimic",
+        "icon": "🧠"
       },
       {
-        "title": "Jobs",
-        "name": "Redundant Employment",
-        "icon": "🏢"
+        "title": "Cyber Warfare",
+        "name": "FirewallFlee",
+        "icon": "⚔️"
       },
       {
-        "title": "Health",
-        "name": "Synthetic Diagnostics",
-        "icon": "⚕️"
-      },
-      {
-        "title": "Society",
-        "name": "Mass Manipulation Engine",
-        "icon": "🕹️"
+        "title": "Existential Risk",
+        "name": "SingularityTrigger",
+        "icon": "🌌"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Nutrition",
+        "name": "Turmeric Shots",
+        "icon": "🧪"
+      },
+      {
+        "title": "Exercise",
+        "name": "10‑Minute HIIT",
+        "icon": "🏃‍♂️"
+      },
+      {
+        "title": "Sleep",
+        "name": "7‑Second Nap",
+        "icon": "🛌"
+      },
+      {
+        "title": "Supplements",
+        "name": "Resveratrol Boost",
+        "icon": "💊"
+      },
+      {
+        "title": "Mental Health",
+        "name": "Daily Gratitude Journal",
+        "icon": "📝"
+      },
+      {
+        "title": "Technology",
+        "name": "Wearable Heart Monitor",
+        "icon": "⌚"
+      },
+      {
+        "title": "Lifestyle",
+        "name": "Walking Meetings",
+        "icon": "🚶‍♀️"
+      },
+      {
+        "title": "Staying Active",
+        "name": "Microworkouts Anywhere",
+        "icon": "💪"
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Signal Engines",
+        "name": "Momentum Amplifier",
+        "icon": "⚡"
+      },
+      {
+        "title": "Whale Moves",
+        "name": "Crypto Whale Whisperer",
+        "icon": "🐋"
+      },
+      {
+        "title": "Indicators",
+        "name": "30-Span Stochastic Surge",
+        "icon": "📈"
+      },
+      {
+        "title": "Exploits",
+        "name": "Flash Loan Masking",
+        "icon": "🔒"
+      },
+      {
+        "title": "Pump Tactics",
+        "name": "Pump Triangle Protocol",
+        "icon": "🔥"
+      },
+      {
+        "title": "Sentiment",
+        "name": "Sentiment Squeeze Map",
+        "icon": "📊"
+      },
+      {
+        "title": "Tokenomics",
+        "name": "Inflation‑Resistant Token",
+        "icon": "🏦"
+      },
+      {
+        "title": "Volume Alerts",
+        "name": "Volume Surge Detector",
+        "icon": "🚀"
+      }
+    ]
+  },
+  "DarkPsychologyPower": {
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -12346,99 +12440,11 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
-        "duration": 4
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
-      {
-        "title": "Hidden Tokens",
-        "name": "MoonBeam",
-        "icon": "💎"
-      },
-      {
-        "title": "Lizard Leverage",
-        "name": "X‑Factor",
-        "icon": "📈"
-      },
-      {
-        "title": "Smart Contract Hacks",
-        "name": "Vortex",
-        "icon": "🔒"
-      },
-      {
-        "title": "Cross‑Chain ARK",
-        "name": "Atlas",
-        "icon": "🚀"
-      },
-      {
-        "title": "Protocol Predators",
-        "name": "Griffin",
-        "icon": "🐻"
-      },
-      {
-        "title": "Yield Yields",
-        "name": "Echo",
-        "icon": "💹"
-      },
-      {
-        "title": "Gas-Speed Gauntlet",
-        "name": "Giga",
-        "icon": "⚡"
-      },
-      {
-        "title": "Chain Whisperer",
-        "name": "Pulse",
-        "icon": "🎯"
-      }
-    ]
-  },
-  "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Every time you smile, someone is watching your mind.",
-        "duration": 5
-      },
-      {
-        "text": "In politics, your thoughts are hot currency.",
-        "duration": 4
-      },
-      {
-        "text": "Psychology’s first hidden layer: Mirroring.",
-        "duration": 5
-      },
-      {
-        "text": "You give opinions; they give you power.",
-        "duration": 5
-      },
-      {
-        "text": "The unseen trigger: a single word can split your loyalties.",
-        "duration": 5
-      },
-      {
-        "text": "Imagine mastering that trigger—no more being followed.",
-        "duration": 4
-      },
-      {
-        "text": "If you ignore this, you'll be prey in an invisible war.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: The secret code in headlines that fuels manipulation.",
         "duration": 4
       }
     ]
@@ -15505,6 +15511,47 @@
         "title": "Scalability",
         "name": "Cluster Orchestrator",
         "icon": "🌐"
+      }
+    ]
+  },
+  "ApexFlow_1777135338267": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1777135338267.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1777135338267, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
