@@ -12268,96 +12268,84 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Job Automation",
-        "name": "CortexBot",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Data Theft",
-        "name": "QuantumOverride",
-        "icon": "🔒"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Surveillance",
-        "name": "EyeTracer",
-        "icon": "👀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Economic Collapse",
-        "name": "FinSweep",
-        "icon": "💸"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Identity Theft",
-        "name": "PersonaPurge",
-        "icon": "🪞"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Social Manipulation",
-        "name": "MoodMimic",
-        "icon": "🧠"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Cyber Warfare",
-        "name": "FirewallFlee",
-        "icon": "⚔️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Existential Risk",
-        "name": "SingularityTrigger",
-        "icon": "🌌"
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Turmeric Shots",
-        "icon": "🧪"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "10‑Minute HIIT",
-        "icon": "🏃‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "7‑Second Nap",
-        "icon": "🛌"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Resveratrol Boost",
-        "icon": "💊"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Mental Health",
-        "name": "Daily Gratitude Journal",
-        "icon": "📝"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Technology",
-        "name": "Wearable Heart Monitor",
-        "icon": "⌚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Lifestyle",
-        "name": "Walking Meetings",
-        "icon": "🚶‍♀️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Staying Active",
-        "name": "Microworkouts Anywhere",
-        "icon": "💪"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12411,47 +12399,47 @@
   "DarkPsychologyPower": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Influence",
-        "name": "Mirror Technique",
+        "title": "Fear Leverage",
+        "name": "The Fear Ladder",
+        "icon": "🕷️"
+      },
+      {
+        "title": "Mirroring",
+        "name": "The Mirror Trick",
         "icon": "🪞"
       },
       {
-        "title": "Persuasion",
-        "name": "Scarcity Trigger",
-        "icon": "⚡"
+        "title": "Anchoring",
+        "name": "Anchor Pulse",
+        "icon": "⚓"
       },
       {
-        "title": "Manipulation",
-        "name": "Foot‑In‑Door Tactic",
-        "icon": "🚪"
-      },
-      {
-        "title": "Subliminal",
-        "name": "Audio Sub Cue",
-        "icon": "🔊"
-      },
-      {
-        "title": "Covert",
-        "name": "Silent Persuader",
-        "icon": "🤐"
+        "title": "Scarcity",
+        "name": "Limited Offer Pulse",
+        "icon": "⏰"
       },
       {
         "title": "Social Proof",
-        "name": "Bandwagon Buzz",
+        "name": "Bandwagon Bomb",
         "icon": "👥"
       },
       {
-        "title": "Fear Appeal",
-        "name": "Dark Hook",
-        "icon": "🕶️"
+        "title": "Authority",
+        "name": "Authority Mirage",
+        "icon": "👑"
       },
       {
-        "title": "Cognitive Dissonance",
-        "name": "Reframe Trick",
-        "icon": "🌀"
+        "title": "Commitment",
+        "name": "Foot‑in‑Door Tactic",
+        "icon": "🚪"
+      },
+      {
+        "title": "Liking",
+        "name": "Miracle Compliment",
+        "icon": "💬"
       }
     ]
   },
@@ -15346,6 +15334,47 @@
       },
       {
         "text": "Next, we’ll map a portal through the sonic waves.",
+        "duration": 4
+      }
+    ]
+  },
+  "DigitalAfterlife": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of DigitalAfterlife.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master DigitalAfterlife, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]

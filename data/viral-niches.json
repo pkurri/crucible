@@ -13424,6 +13424,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DigitalAfterlife",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The concept of an online afterlife - preserving our digital personas, data, and memories beyond death - taps into deep human anxieties about mortality and legacy while leveraging AI and cloud tech. With rising discussions around digital estate planning, AI-generated avatars, and virtual memorials, this niche sits at the intersection of tech intrigue, emotional storytelling, and societal relevance, making it ripe for scroll‑stopping, curiosity‑loop videos that can attract 1M+ subscribers and 100K+ views per upload.",
+      "ideas": [
+        "The Digital Afterlife: Is Your Online Identity Immortal? | Uncover how your socials could live on forever.",
+        "AI Posthumous Lives: Will Your Chat History Talk After You Die? | A chilling look at data revivals.",
+        "5 Steps to Build a Virtual Legacy That Survives Death | DIY guide to leaving a lasting digital presence."
+      ],
+      "keywords": [
+        "glimmeringdata",
+        "etherealmemory",
+        "neonarchives",
+        "digitalghost",
+        "holographicpresence"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
