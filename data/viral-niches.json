@@ -13658,6 +13658,30 @@
         "luminescent"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes delivers unique, eye‑punching visuals that tap into humanity’s innate fascination with the unknown. By exposing hidden ecosystems and micro‑worlds invisible to the naked eye, it creates scroll‑stopping hooks and intense curiosity loops that translate into high retention, Likes, and shares—ideal for both YouTube vlogs and Meta carousel videos.",
+      "ideas": [
+        "Inside a 5,000× Drop of Rain: 5,000‑Headed Micro‑City Revealed /Hook: A raindrop turns into a bustling microscopic metropolis—click to zoom in!",
+        "Microscopic Life at Work: 3‑Second Time‑Lapse of a Cell Division (5M× Magnification) /Hook: Watch a single cell divide in a flash—will it morph into an animal?",
+        "The Secret Ocean Inside a Bead of Seafoam: 10× Magnification Reveals a Tiny Coral Reef /Hook: Dive into foam to uncover an invisible reef—amazing textures await!"
+      ],
+      "keywords": [
+        "Macro",
+        "Microscope",
+        "TimeLapse",
+        "Nano",
+        "3DTexture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
