@@ -13352,6 +13352,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "GlowFood",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The convergence of food hacks, neon aesthetics, and science‑based glow effects creates a visually striking and shareable content formula. Social media trends favor \"wow\" moments, and glowing food is a fresh, unexplored niche that fuels curiosity loops and invites viewers to try DIY recipes. The niche also benefits from cross‑platform potential: short Instagram Reels, TikTok clips, and longer YouTube deep dives, all of which can churn out 100k+ views per video.",
+      "ideas": [
+        "GlowFood Challenge: Turn Ordinary Snacks Into 3‑Second Glow‑Up! 🔦 | Guess the Ingredient",
+        "Bizarre Bioluminescent Food Lab: These Dishes Really Light Up While You Eat! 🌌",
+        "DIY Neon Meal Kit: Make Your Breakfast Glow Like a Sci‑Fi Breakfast Show! ✨ Hook – Watch It Light!"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "glowing food",
+        "neon kitchen",
+        "laser cooking",
+        "luminescent ingredients"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
