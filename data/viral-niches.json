@@ -13808,6 +13808,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DreamSynthAI",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "AI Dreamscapes blend curiosity‑driven machine learning with the universal human experience of dreaming, creating vivid, surreal visuals that people can’t resist sharing. The faceless format—AI‑generated dream imagery—allows endless content iterations (different dream types, color palettes, mood tones), ensuring a sustainable content pipeline. Current trends in AI art, increased interest in mental wellness, and the viral appeal of dream interpretation give this niche a unique edge over existing AI or mental health channels, meeting both 1M subscriber and 100K+ views per video benchmarks.",
+      "ideas": [
+        "The AI That Turns Your Nightmares Into Gorgeous Hyperreal Landscapes – Watch Now!",
+        "How We Use Machine Learning to Visualize the Most Bizarre Dream Memories – 50+ Surreal Scenes!",
+        "Dream Ever‑Changing AI Portraits: Peek Inside the Mind of a Sleepwalker (Hook: ‘What if your subconscious could be painted?’)"
+      ],
+      "keywords": [
+        "dreamlike",
+        "surreal",
+        "hyperreal",
+        "AI-generated",
+        "psychedelic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
