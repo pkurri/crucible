@@ -14030,6 +14030,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "RetroAdsReimagined",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Curiosity",
+      "reason": "The blend of nostalgia and cutting‑edge AI technology creates a highly scroll‑stopping hook that taps into users’ love for retro culture and their fascination with what AI can produce. Short, punchy video formats suit both YouTube and Meta’s feed, while the visual pump (color, motion, humor) encourages rapid sharing and high watch‑through rates.",
+      "ideas": [
+        "Throwback to the 1980s! | AI Recreates Iconic Pizza Ads | #Nostalgia – \"Will the AI make pizza ads *better*?\"",
+        "A 1950s New Coke Ad in 2024 | AI Paints the Future of Retro Advertising – \"What if Pepsi had a 1950s ad in 2024?\"",
+        "When AI Mashes Up 1970s Car Ads with 2024 Tech | The Unexpected Result – \"Ever wondered how a 70s Mustang ad looks on a hovercar?\""
+      ],
+      "keywords": [
+        "vivid",
+        "colorful",
+        "dynamic",
+        "stunning",
+        "immersive"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
