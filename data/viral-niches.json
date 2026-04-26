@@ -13682,6 +13682,30 @@
         "3DTexture"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedCityExplorer",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The mystery of lost, submerged cities taps into current climate anxieties while offering visually stunning, cinematic storytelling. Few channels deeply explore real underwater archaeology with high‑resolution footage and narrative context, creating a clear competitive edge. The combination of history, treasure hunts, and breathtaking sea footage keeps viewers scrolling AND sharing, driving massive organic reach on both Meta and YouTube.",
+      "ideas": [
+        "The City Beneath the Waves: Discovering 4000‑Year‑Old Atlantis‑Style Ruins – You Won’t Believe This is Real!",
+        "Secret Tunnel to a Vanished Empire? 3D‑Rendered Journey Inside an 8,000‑Year‑Old Submerged City!",
+        "Smashing Myths: The Truth About The Drowned Polynesian Capital – Unseen Footage Inside the Sand!"
+      ],
+      "keywords": [
+        "underwater archaeology",
+        "abandoned city",
+        "deep sea cinema",
+        "ancient ruins",
+        "cinematic exploration"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
