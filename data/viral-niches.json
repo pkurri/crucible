@@ -13757,6 +13757,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LostTechSaga",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The niche explores forgotten, failed, or suppressed inventions that could have altered history or modern life. Each video uncovers a story no one has told before, triggering intrigue and wonder. The concept pairs well with faceless storytelling (voice‑over + animated schematics or archival footage) and offers endless content depth. Search interest spikes around nostalgic tech, ‘lost inventions’, and curiosity‑driven “what if” topics, making high‑volume, high‑engagement videos very achievable.",
+      "ideas": [
+        "The 1950s Carbon‑Free Engine That Could've Ended the Oil Crisis—Why It Was Suppressed (Hook: *'If this was built, the world would look so different—here's why the plans were burned!')*",
+        "The Secret AI That Predicted the 2008 Crash—Why the Algorithm Was Shredded (Hook: *'Imagine a computer that could have stopped the crash—here's the story of why it never lived')*",
+        "The 1920s Portable Solar Oven That Never Reached Market (Hook: *'This tiny solar oven was ahead of its time—discover why the patent was lost.')*"
+      ],
+      "keywords": [
+        "RetroFuturistic",
+        "BlueprintAnimation",
+        "LostPrototype",
+        "HiddenInvention",
+        "HistoricalMystery"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

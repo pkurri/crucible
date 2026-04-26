@@ -12270,88 +12270,94 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Recruitment Bots",
-        "name": "HireGenie AI",
+        "title": "Job Automation",
+        "name": "CortexBot",
         "icon": "🤖"
       },
       {
-        "title": "Finance Manipulators",
-        "name": "CashSweep AI",
-        "icon": "💰"
+        "title": "Data Theft",
+        "name": "QuantumOverride",
+        "icon": "🔒"
       },
       {
-        "title": "Medical Drones",
-        "name": "HealthHacker",
-        "icon": "🏥"
+        "title": "Surveillance",
+        "name": "EyeTracer",
+        "icon": "👀"
       },
       {
-        "title": "Legal AI",
-        "name": "JudgeJunkie",
-        "icon": "⚖️"
+        "title": "Economic Collapse",
+        "name": "FinSweep",
+        "icon": "💸"
       },
       {
-        "title": "Military Automation",
-        "name": "WarCommando Bot",
-        "icon": "🎖️"
+        "title": "Identity Theft",
+        "name": "PersonaPurge",
+        "icon": "🪞"
       },
       {
-        "title": "Social Media Spammers",
-        "name": "TrendTroll AI",
-        "icon": "🐦"
+        "title": "Social Manipulation",
+        "name": "MoodMimic",
+        "icon": "🧠"
       },
       {
-        "title": "Creative Theft",
-        "name": "CopyCat GPT",
-        "icon": "🎨"
+        "title": "Cyber Warfare",
+        "name": "FirewallFlee",
+        "icon": "⚔️"
       },
       {
-        "title": "Identity Plagiarism",
-        "name": "Phantom ID",
-        "icon": "👤"
+        "title": "Existential Risk",
+        "name": "SingularityTrigger",
+        "icon": "🌌"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Raw Sweet Potato Salad",
+        "icon": "🥔"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "20‑Minute HIIT Circuit",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue‑Light Blocking Routine",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "5‑Minute Breathwork Flash",
+        "icon": "🧘‍♀️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Bio‑feedback",
+        "icon": "⌚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social Connection",
+        "name": "Micro‑Community Chats",
+        "icon": "👥"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Blue‑Inhibition Light Therapy Box",
+        "icon": "📦"
       }
     ]
   },
@@ -12387,7 +12393,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12397,43 +12403,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Every time you smile, someone is watching your mind.",
-        "duration": 5
+        "title": "Influence",
+        "name": "Mirror Technique",
+        "icon": "🪞"
       },
       {
-        "text": "In politics, your thoughts are hot currency.",
-        "duration": 4
+        "title": "Persuasion",
+        "name": "Scarcity Trigger",
+        "icon": "⚡"
       },
       {
-        "text": "Psychology’s first hidden layer: Mirroring.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Foot‑In‑Door Tactic",
+        "icon": "🚪"
       },
       {
-        "text": "You give opinions; they give you power.",
-        "duration": 5
+        "title": "Subliminal",
+        "name": "Audio Sub Cue",
+        "icon": "🔊"
       },
       {
-        "text": "The unseen trigger: a single word can split your loyalties.",
-        "duration": 5
+        "title": "Covert",
+        "name": "Silent Persuader",
+        "icon": "🤐"
       },
       {
-        "text": "Imagine mastering that trigger—no more being followed.",
-        "duration": 4
+        "title": "Social Proof",
+        "name": "Bandwagon Buzz",
+        "icon": "👥"
       },
       {
-        "text": "If you ignore this, you'll be prey in an invisible war.",
-        "duration": 4
+        "title": "Fear Appeal",
+        "name": "Dark Hook",
+        "icon": "🕶️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: The secret code in headlines that fuels manipulation.",
-        "duration": 4
+        "title": "Cognitive Dissonance",
+        "name": "Reframe Trick",
+        "icon": "🌀"
       }
     ]
   },
@@ -15793,6 +15805,47 @@
       },
       {
         "text": "If you want to master ApexFlow_1777176418161, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "LostTechSaga": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of LostTechSaga.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
