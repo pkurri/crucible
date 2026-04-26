@@ -13979,6 +13979,30 @@
         "Luminous"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "Universal fascination with space combined with the novelty of food defying gravity makes zero‑gravity cooking irresistibly visual. The concept is fresh—no personal interaction required, short 10‑20s loopable clips, and endless variations (pizza, coffee, ice cream, ramen). Current TikTok/YouTube Shorts trends favor bite‑size, high‑impact, visually astonishing content, and pseudo‑science footage aligns with virality data (high watch time, shares, comments).",
+      "ideas": [
+        "See How This Pizza Bites Itself in Zero Gravity – 5 Seconds of Pure Magic",
+        "Baking a Cupcake in Space – The Unexpected Thrilling Twist",
+        "Water Never Falls: Brewing Coffee in Zero Gravity – Watch the Foam Crash"
+      ],
+      "keywords": [
+        "Gravity",
+        "Float",
+        "SpaceFood",
+        "Bubbles",
+        "Suspension"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
