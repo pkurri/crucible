@@ -13706,6 +13706,30 @@
         "cinematic exploration"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BiohackedAging",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Extreme biohacking captures the zeitgeist of people pushing human limits with science. Combining real experiments, high‑energy visuals, and personal transformation stories triggers viral curiosity loops and scroll‑stopping hooks. The niche is fresh enough to differentiate from generic longevity content and scalable through series, challenges, and collaborative alpha‑tester communities.",
+      "ideas": [
+        "I Implanted My Own Neural Chip for 30 Days – What Happened When My Brain Went Hyperconnected",
+        "Swallowing Skin‑Regenerating Bacteria – 6 Weeks to Eliminate Wrinkles? Watch the Real Results",
+        "Cryogenic Sleep for 12 Hours at Home – Scientists Warn it Could Change Your Memory. Our Experiment?"
+      ],
+      "keywords": [
+        "Glowing DNA",
+        "Neural Implants",
+        "Skin‑Cell Bioart",
+        "Bioluminescent Bacteria",
+        "Nano Circuitry"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
