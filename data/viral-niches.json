@@ -13832,6 +13832,30 @@
         "psychedelic"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "UrbanRewilding",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "With the global surge in sustainability, people are fascinated by the dramatic transformation of neglected urban spaces into thriving ecosystems. This niche delivers stunning before‑and‑after visuals, surprises with unexpected wildlife, and endless content from cities worldwide, making it highly shareable and evergreen.",
+      "ideas": [
+        "THE ABANDONED FACTORY THAT GROWTH DEATH REBORN INTO A FANTASY FOREST – Watch nature reclaim this industrial ghosttown!",
+        "SHOCKING: 5 Cities Where Wildlife Took Over Urban Dreams – Discover who really owns the skyline!",
+        "BEFORE & AFTER: THE GREATEST CITY REWILDING TRANSFORMATION EVER – You won’t believe this vacant lot turned lush paradise!"
+      ],
+      "keywords": [
+        "nature",
+        "reclaiming",
+        "urban jungle",
+        "drones",
+        "green transformation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
