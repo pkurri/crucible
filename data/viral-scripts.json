@@ -13367,39 +13367,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of MicroBioscapes.",
+        "text": "Ever seen a cell that beats your heart rate?",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "MicroBioscapes reveals secret life in seconds!",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+        "text": "NanoColors vibrate at 400‑nm, unseen to naked eye.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "UltraZoom turns pond water into a living galaxy.",
+        "duration": 5
+      },
+      {
+        "text": "A single microbial colony can rewrite DNA in minutes.",
+        "duration": 5
+      },
+      {
+        "text": "Stay tuned: next clip will decode alien‑like spores.",
+        "duration": 4
+      },
+      {
+        "text": "They’ll show you the first living photonic watch.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Can we harness these microbes as bio‑lenses?",
         "duration": 4
       }
     ]
@@ -15974,6 +15974,47 @@
         "title": "Eco-friendly Pathways",
         "name": "Permeable Stone Walks",
         "icon": "🌞"
+      }
+    ]
+  },
+  "NeuroHack": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of NeuroHack.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master NeuroHack, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
