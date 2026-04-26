@@ -12268,10 +12268,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Recruitment Bots",
+        "name": "HireGenie AI",
+        "icon": "🤖"
+      },
+      {
+        "title": "Finance Manipulators",
+        "name": "CashSweep AI",
+        "icon": "💰"
+      },
+      {
+        "title": "Medical Drones",
+        "name": "HealthHacker",
+        "icon": "🏥"
+      },
+      {
+        "title": "Legal AI",
+        "name": "JudgeJunkie",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Military Automation",
+        "name": "WarCommando Bot",
+        "icon": "🎖️"
+      },
+      {
+        "title": "Social Media Spammers",
+        "name": "TrendTroll AI",
+        "icon": "🐦"
+      },
+      {
+        "title": "Creative Theft",
+        "name": "CopyCat GPT",
+        "icon": "🎨"
+      },
+      {
+        "title": "Identity Plagiarism",
+        "name": "Phantom ID",
+        "icon": "👤"
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12308,53 +12355,6 @@
       }
     ]
   },
-  "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Nutrition",
-        "name": "Raw Sweet Potato Salad",
-        "icon": "🥔"
-      },
-      {
-        "title": "Exercise",
-        "name": "20‑Minute HIIT Circuit",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Sleep",
-        "name": "Blue‑Light Blocking Routine",
-        "icon": "🌙"
-      },
-      {
-        "title": "Mindfulness",
-        "name": "5‑Minute Breathwork Flash",
-        "icon": "🧘‍♀️"
-      },
-      {
-        "title": "Supplements",
-        "name": "NAD+ Precursors",
-        "icon": "💊"
-      },
-      {
-        "title": "Technology",
-        "name": "Wearable Bio‑feedback",
-        "icon": "⌚"
-      },
-      {
-        "title": "Social Connection",
-        "name": "Micro‑Community Chats",
-        "icon": "👥"
-      },
-      {
-        "title": "Environment",
-        "name": "Blue‑Inhibition Light Therapy Box",
-        "icon": "📦"
-      }
-    ]
-  },
   "CryptoBullRunSecrets": {
     "voice": "en-US-GuyNeural",
     "lines": [
@@ -12387,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12397,49 +12397,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Influence",
-        "name": "Mirror Technique",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Persuasion",
-        "name": "Scarcity Trigger",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Manipulation",
-        "name": "Foot‑In‑Door Tactic",
-        "icon": "🚪"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Subliminal",
-        "name": "Audio Sub Cue",
-        "icon": "🔊"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Covert",
-        "name": "Silent Persuader",
-        "icon": "🤐"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bandwagon Buzz",
-        "icon": "👥"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Fear Appeal",
-        "name": "Dark Hook",
-        "icon": "🕶️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Cognitive Dissonance",
-        "name": "Reframe Trick",
-        "icon": "🌀"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -16015,6 +16009,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "SpaceMicrobialLife": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 SpaceMicrobialLife secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more SpaceMicrobialLife.",
+    "list": [
+      {
+        "title": "Radiation Resilience",
+        "name": "Deinococcus on ISS dust",
+        "icon": "🛸"
+      },
+      {
+        "title": "Frozen Pioneers",
+        "name": "Halobacterium in comet ice",
+        "icon": "❄️"
+      },
+      {
+        "title": "Asteroid Biota",
+        "name": "Pseudomonas on asteroid basalt",
+        "icon": "🪨"
+      },
+      {
+        "title": "Solar Sailors",
+        "name": "Sponge‑like microbes in Mars regolith",
+        "icon": "🌑"
+      },
+      {
+        "title": "Germanium Gliders",
+        "name": "Cyanobacteria in Europa’s plumes",
+        "icon": "☄️"
+      },
+      {
+        "title": "Dark‑Matter Detectives",
+        "name": "Dark‑adapted Bacteria in lunar dust",
+        "icon": "🌒"
+      },
+      {
+        "title": "Starlight Symbionts",
+        "name": "Xenorhabdus in Jovian clouds",
+        "icon": "☁️"
+      },
+      {
+        "title": "Titanic Treasures",
+        "name": "Methane‑thriving archaeans on Titan",
+        "icon": "🧊"
       }
     ]
   }

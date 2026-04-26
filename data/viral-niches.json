@@ -13904,6 +13904,30 @@
         "MicroRealm"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceMicrobialLife",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "SpaceMicrobialLife taps into the current surge of interest in space exploration, astrobiology, and the unseen biology of the cosmos. With new missions to Mars, the Moon, and the ISS, there’s a built‑in audience eager to see the tiniest living entities thriving beyond Earth. Visually stunning micro‑flora under fluorescent lights, glow‑in‑the‑dark content, and the promise of revealing alien ecosystems trigger scroll‑stopping hooks while delivering a non‑fiction story with a hint of mystery. The niche is distinct from existing micro or space topics, allowing fresh storytelling angles and a high potential for repeated viral content.",
+      "ideas": [
+        "The ISS Microbial Utopia: 5 Bacteria That Glow in Zero Gravity – Why This Space‑Microbiology Hack is Hitting 1M Views",
+        "Mini‑Life on the Moon? Scientists Have Discovered 3 New Microbes on Lunar Soil – Watch Their Surprising Growth Cycle",
+        "Space's Hidden Food Chain: How Little Microbes Are Feeding the Future of Mars Colonies – A Picture‑Rich, 3‑Minute Timeline"
+      ],
+      "keywords": [
+        "LuminescentMicrobe",
+        "SpaceGlow",
+        "AlienLife",
+        "BioEcosystem",
+        "ZeroGravityLab"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
