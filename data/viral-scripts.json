@@ -12268,57 +12268,98 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Recruitment Bots",
-        "name": "HireGenie AI",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Finance Manipulators",
-        "name": "CashSweep AI",
-        "icon": "💰"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Medical Drones",
-        "name": "HealthHacker",
-        "icon": "🏥"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Legal AI",
-        "name": "JudgeJunkie",
-        "icon": "⚖️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Military Automation",
-        "name": "WarCommando Bot",
-        "icon": "🎖️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Social Media Spammers",
-        "name": "TrendTroll AI",
-        "icon": "🐦"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Creative Theft",
-        "name": "CopyCat GPT",
-        "icon": "🎨"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Identity Plagiarism",
-        "name": "Phantom ID",
-        "icon": "👤"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Nutrition",
+        "name": "Turmeric Tea",
+        "icon": "☕"
+      },
+      {
+        "title": "Exercise",
+        "name": "HIIT 10‑Minute Blast",
+        "icon": "🔥"
+      },
+      {
+        "title": "Sleep",
+        "name": "10‑Minute Sunlight Wake",
+        "icon": "🌞"
+      },
+      {
+        "title": "Mindfulness",
+        "name": "Forest Bathing",
+        "icon": "🌲"
+      },
+      {
+        "title": "Superfood",
+        "name": "Blueberry Burst",
+        "icon": "🫐"
+      },
+      {
+        "title": "Hormone Sync",
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
+      },
+      {
+        "title": "Digital Hygiene",
+        "name": "One Hour Tech‑Free",
+        "icon": "📵"
+      },
+      {
+        "title": "Blood Flow",
+        "name": "Cold Shower Revival",
+        "icon": "🛁"
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12355,132 +12396,91 @@
       }
     ]
   },
-  "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
-      },
-      {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
-      }
-    ]
-  },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Influence",
+        "name": "Mirror Technique",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Scarcity Trigger",
+        "icon": "⚡"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Foot‑In‑Door Tactic",
+        "icon": "🚪"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Subliminal",
+        "name": "Audio Sub Cue",
+        "icon": "🔊"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Covert",
+        "name": "Silent Persuader",
+        "icon": "🤐"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social Proof",
+        "name": "Bandwagon Buzz",
+        "icon": "👥"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Fear Appeal",
+        "name": "Dark Hook",
+        "icon": "🕶️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Cognitive Dissonance",
+        "name": "Reframe Trick",
+        "icon": "🌀"
       }
     ]
   },
   "GeopoliticalCollapseWatch": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 GeopoliticalCollapseWatch secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Resource Scarcity",
-        "name": "Water Wars",
-        "icon": "💧"
+        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
+        "duration": 5
       },
       {
-        "title": "Economic Collapse",
-        "name": "Currency Crashes",
-        "icon": "💸"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Cyber Threats",
-        "name": "New Age Hacktivism",
-        "icon": "🕸️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Military Expansion",
-        "name": "Proxy Armageddon",
-        "icon": "💥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Climate Shock",
-        "name": "Global Heatwave",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Pandemic Resurgence",
-        "name": "Zoonotic Surge",
-        "icon": "🦠"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Satellite Blackout",
-        "name": "Signal Purge",
-        "icon": "📡"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Social Fragmentation",
-        "name": "Identity Echo Chambers",
-        "icon": "🧩"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -16056,6 +16056,53 @@
         "title": "Titanic Treasures",
         "name": "Methane‑thriving archaeans on Titan",
         "icon": "🧊"
+      }
+    ]
+  },
+  "AIDreamscapeCraft": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIDreamscapeCraft secrets you need to know.",
+    "closing": "If you want to master AIDreamscapeCraft, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Neural Canvas",
+        "name": "HyperGrid",
+        "icon": "🧠"
+      },
+      {
+        "title": "Dream Layering",
+        "name": "EchoFold",
+        "icon": "👂"
+      },
+      {
+        "title": "Reality Sculpting",
+        "name": "PixelForge",
+        "icon": "🪓"
+      },
+      {
+        "title": "Sensory Amplifier",
+        "name": "Synaesthetic Beam",
+        "icon": "🎆"
+      },
+      {
+        "title": "Temporal Weaving",
+        "name": "Chrono Syllable",
+        "icon": "⏳"
+      },
+      {
+        "title": "Morphic Transformers",
+        "name": "ShapeShifter 3000",
+        "icon": "🔄"
+      },
+      {
+        "title": "Ambient Protocols",
+        "name": "Nebula Loop",
+        "icon": "🌌"
+      },
+      {
+        "title": "Data Consciousness",
+        "name": "MindMesh",
+        "icon": "🕸"
       }
     ]
   }

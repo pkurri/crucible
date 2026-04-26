@@ -13955,6 +13955,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIDreamscapeCraft",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "AIDreamscapeCraft taps into the zeitgeist of AI visual creativity and the universal human fascination with dreams. By converting subconscious imagery into stunning, surreal visuals, it delivers instant scroll‑stopping hooks and curiosity loops that keep viewers glued while offering endless, shareable content possibilities. The niche blends high‑end tech appeal with deeply personal, emotionally resonant storytelling, guaranteeing rapid community growth and high viewer retention across meta and YouTube platforms.",
+      "ideas": [
+        "The Untold Secret of Your Dreams: How AI Turns REM into Reality (Mind‑Bending Lab Animation!) – Ever wondered what your subconscious looks like? AI shows us!",
+        "Do Aliens Dream? AI Decodes Universal Dream Patterns and Creates Bizarre Worlds – What hidden messages might out‑of‑this‑world dreams contain? Find out.",
+        "Hallucinations vs. Reality: Turning Your Most Creepy Nightmares into Stunning Visual Art with AI – Watch AI transform fear into feathered forests..."
+      ],
+      "keywords": [
+        "Surreal",
+        "Neon",
+        "Kaleidoscopic",
+        "Glitch",
+        "Luminous"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
