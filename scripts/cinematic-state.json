@@ -1,7 +1,7 @@
 {
-  "lastUploadTime": "2026-04-26T13:14:41.802Z",
-  "uploadsToday": 3,
-  "lastDate": "2026-04-26",
+  "lastUploadTime": "2026-04-27T03:24:26.237Z",
+  "uploadsToday": 1,
+  "lastDate": "2026-04-27",
   "history": [
     {
       "topic": "The Cyber-Deckbuilder Origins",
@@ -96,6 +96,11 @@
     {
       "topic": "High-Fantasy Architectures",
       "date": "2026-04-26T13:14:41.802Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "Neon Syndicate Lore",
+      "date": "2026-04-27T03:24:26.237Z",
       "type": "Cinematic Reel"
     }
   ]
