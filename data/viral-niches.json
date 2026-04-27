@@ -14159,6 +14159,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedCityExplorer",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The climate‑change narrative has spurred massive interest in lost civilizations that now lie under the tides. By pairing ultra‑high‑definition submarine footage with gripping, faceless storytelling, this niche taps into viewers’ fear, curiosity, and awe. The sheer volume of unexplored underwater ruins allows for continual fresh content at scale, making it a high‑velocity target for both Meta Reels and YouTube Shorts.",
+      "ideas": [
+        "The Forgotten Metropolis Unearthed Beneath the Waves / Hook: Watch a centuries‑old city collapse into light like never before in 90 seconds!",
+        "Shocking Deep‑Sea Footage: Streets Covered in Algae & Neon Dreams / Hook: 30‑second dive reveals a city that might be Atlantis… who knows?",
+        "Submerged City of 2024: Satellite Maps Show 4,000‑Year‑Old Grid Alive / Hook: The latest satellite data gives us a real‑time view of a lost city’s perfect layout!"
+      ],
+      "keywords": [
+        "underwater ruins",
+        "ancient submerged city",
+        "deep sea exploration",
+        "high definition submarine footage",
+        "lost city reveal"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
