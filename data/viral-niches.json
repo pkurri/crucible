@@ -14108,6 +14108,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "With global sea‑level rise and climate change front‑line coverage, people crave visual, AI‑generated predictions of what familiar coastlines will look like 20–50 years from now. The emotional hook of ‘Will X be gone?’, paired with striking 3D reconstructions, creates immediate curiosity loops and highly shareable content.",
+      "ideas": [
+        "Island Vanished in 2035? AI Time‑Travel CGI Reveals the Future of the Maldives! / 'See the last sunrise over the lost island before it disappears—click to uncover the future.'",
+        "If the Great Wall Walled Against Water, Would It Stand? AI Rebuilds a Flooded China! / 'Watch the ancient engineering collapse in stunning detail—inevitable, or preventable?'",
+        "Hidden Coastal Cities: AI Projects a 2050 Ocean Invasion Map! / 'Can you guess which towns will be swallowed? The graphic unveils the next wave of shoreline change.'"
+      ],
+      "keywords": [
+        "3D CGI",
+        "time‑lapse",
+        "digital sea‑level map",
+        "ocean invasion",
+        "archival footage"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

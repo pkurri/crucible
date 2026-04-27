@@ -13124,43 +13124,49 @@
     ]
   },
   "VanishingCoastlines": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 VanishingCoastlines secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more VanishingCoastlines.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of VanishingCoastlines.",
-        "duration": 5
+        "title": "Erosion Rates",
+        "name": "The Great Pacific Garbage Patch's Shrinking Edge",
+        "icon": "🌊"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Historical Maps",
+        "name": "Lost Oregon Coast Lines",
+        "icon": "🗺️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sea Level Rise",
+        "name": "Antarctic Ice Melt Speed",
+        "icon": "❄️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Storm Surge",
+        "name": "Hurricane Katrina's Vanishing Shoreline",
+        "icon": "☠️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Urban Reclamation",
+        "name": "New York's Shrinking Battery Park",
+        "icon": "🏙️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Cultural Impact",
+        "name": "Sculptures in Drowned Hills",
+        "icon": "🗿"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Remote Sensing",
+        "name": "Satellite Time-Lapse of Maldives",
+        "icon": "📡"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Future Projections",
+        "name": "New Jersey’s 2100 Flood Map",
+        "icon": "⚡"
       }
     ]
   },
