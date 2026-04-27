@@ -14391,6 +14391,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The VanishingCoastlines niche taps into the urgent climate change narrative and the visual drama of shoreline erosion. With data-driven maps, time-lapse footage, and predictive animations, it offers endless scroll-stopping hooks and curiosity loops. Parents, tourists, and residents worldwide can identify their local risk, driving shareability and cross-platform engagement. The topic scales to dozens of unique videos by focusing on specific towns, seasons, and years, ensuring 25+ viral concepts.",
+      "ideas": [
+        "VanishingCoastlines: Top 10 Beaches That Will Be Gone by 2035 – Countdown Time-Lapse!",
+        "VanishingCoastlines: Live 30-Day ERUPTING Tides – Watch Your Shoreline Shrink in Real Time!",
+        "VanishingCoastlines: Predicting Island Disappearance – Will Maya Bay Be Underwater Soon?"
+      ],
+      "keywords": [
+        "UltraHDCoastline",
+        "DynamicErosion",
+        "HurricaneTimeLapse",
+        "SubmergedCity",
+        "SeaLevelRise"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
