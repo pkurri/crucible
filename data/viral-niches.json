@@ -14207,6 +14207,30 @@
         "Animation"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlinesAI",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Climate change is the single most talked-about issue worldwide, and super‑visual predictions about how our coasts will deform by 2050 tap into massive curiosity and fear. By combining AI‑generated shoreline models with cinematic time‑lapse footage, we deliver content that is not only news‑worthy but also instantly shareable. The niche is unique enough to stand out from generic climate videos because it uses proprietary predictive tech, enabling endless fresh and up‑to‑date stories.",
+      "ideas": [
+        "Future Shoreline 2050: AI Time‑Lapse Shows Your Beach Vanishing in 40 Seconds – Stop and Watch!",
+        "3D Ocean Rise Model: Watch an Entire Coastal City Disappear in Minutes – AI Visuals Crackle",
+        "1mm of Climate Rise—Turns Major Cities Into Sunken Megastructures: The Clock Has Just Started"
+      ],
+      "keywords": [
+        "time-lapse",
+        "3D rendering",
+        "climate animation",
+        "future shoreline",
+        "global mapping"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
