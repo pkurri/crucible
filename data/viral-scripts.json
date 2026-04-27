@@ -12268,172 +12268,190 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Recruitment Bots",
+        "name": "HireGenie AI",
+        "icon": "🤖"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Finance Manipulators",
+        "name": "CashSweep AI",
+        "icon": "💰"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Medical Drones",
+        "name": "HealthHacker",
+        "icon": "🏥"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Legal AI",
+        "name": "JudgeJunkie",
+        "icon": "⚖️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Military Automation",
+        "name": "WarCommando Bot",
+        "icon": "🎖️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social Media Spammers",
+        "name": "TrendTroll AI",
+        "icon": "🐦"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Creative Theft",
+        "name": "CopyCat GPT",
+        "icon": "🎨"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Identity Plagiarism",
+        "name": "Phantom ID",
+        "icon": "👤"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Raw Sweet Potato Salad",
+        "icon": "🥔"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "20‑Minute HIIT Circuit",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue‑Light Blocking Routine",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "5‑Minute Breathwork Flash",
+        "icon": "🧘‍♀️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Bio‑feedback",
+        "icon": "⌚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social Connection",
+        "name": "Micro‑Community Chats",
+        "icon": "👥"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Blue‑Inhibition Light Therapy Box",
+        "icon": "📦"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hidden Tokens",
+        "name": "MoonBeam",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Lizard Leverage",
+        "name": "X‑Factor",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Smart Contract Hacks",
+        "name": "Vortex",
+        "icon": "🔒"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cross‑Chain ARK",
+        "name": "Atlas",
+        "icon": "🚀"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Protocol Predators",
+        "name": "Griffin",
+        "icon": "🐻"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Yield Yields",
+        "name": "Echo",
+        "icon": "💹"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Gas-Speed Gauntlet",
+        "name": "Giga",
+        "icon": "⚡"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Chain Whisperer",
+        "name": "Pulse",
+        "icon": "🎯"
       }
     ]
   },
   "DarkPsychologyPower": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Persuasion",
-        "name": "Scarcity Principle",
-        "icon": "🚫"
+        "title": "Fear Leverage",
+        "name": "The Fear Ladder",
+        "icon": "🕷️"
       },
       {
-        "title": "Social Proof",
-        "name": "Bystander Effect Hacker",
-        "icon": "👥"
-      },
-      {
-        "title": "Emotion Leverage",
-        "name": "Mirror Neuron Trigger",
+        "title": "Mirroring",
+        "name": "The Mirror Trick",
         "icon": "🪞"
       },
       {
-        "title": "Control Tactics",
-        "name": "Cognitive Dissonance Drill",
-        "icon": "🔄"
+        "title": "Anchoring",
+        "name": "Anchor Pulse",
+        "icon": "⚓"
       },
       {
-        "title": "Power Dynamics",
-        "name": "Foot-in-the-Door Flip",
-        "icon": "🚪"
+        "title": "Scarcity",
+        "name": "Limited Offer Pulse",
+        "icon": "⏰"
       },
       {
-        "title": "Memory Manipulation",
-        "name": "Retroactive Legend",
-        "icon": "📚"
+        "title": "Social Proof",
+        "name": "Bandwagon Bomb",
+        "icon": "👥"
       },
       {
         "title": "Authority",
-        "name": "Silly Authority Mask",
-        "icon": "🎭"
+        "name": "Authority Mirage",
+        "icon": "👑"
       },
       {
-        "title": "Fear",
-        "name": "Imaginary Threat Layer",
-        "icon": "😱"
+        "title": "Commitment",
+        "name": "Foot‑in‑Door Tactic",
+        "icon": "🚪"
+      },
+      {
+        "title": "Liking",
+        "name": "Miracle Compliment",
+        "icon": "💬"
       }
     ]
   },
@@ -16307,6 +16325,47 @@
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777257714817": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon liquid bursts like a starship's heart.",
+        "duration": 5
+      },
+      {
+        "text": "Hold tight—this data wave rewrites reality.",
+        "duration": 4
+      },
+      {
+        "text": "Data points glide, turning screen into cosmic highway.",
+        "duration": 5
+      },
+      {
+        "text": "Hyper‑car interiors pulse with neural network rhythm.",
+        "duration": 5
+      },
+      {
+        "text": "Every droplet decodes the future of design.",
+        "duration": 5
+      },
+      {
+        "text": "Missing this could freeze your creative flow.",
+        "duration": 4
+      },
+      {
+        "text": "Stay tuned: the next drop will ignite your vision.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next video dives into quantum code that fuels neon.",
         "duration": 4
       }
     ]
