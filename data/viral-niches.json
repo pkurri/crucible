@@ -14415,6 +14415,30 @@
         "SeaLevelRise"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "DigitalAfterlife",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The idea of preserving a digital version of ourselves after death taps into current tech anxieties and cultural fascination with longevity, AI, and nostalgia. With rising ventures like Stereum, and the timeliest social media policies, audiences are primed to explore what could be the next frontier of existence. The niche is highly visual, enables scroll‑stopping hooks (e.g., \"Your digital soulmate is alive now\"), invites endless content spin‑ups (virtual funeral VR, AI‑generated conversations, memory gamification), and produces a strong emotional pull—curiosity, awe, and a subtle nudge toward existential reflection. The combination of cutting‑edge tech and personal impact gives it high scalability and shareability.\n\n",
+      "ideas": [
+        "\"#1: What Happens to Your Instagram After You Pass Away? The Promise of Digital Resurrection\" – hook: \"Your likes might become your living legacy. Discover the startup secretly building eternal digital selves in 2024.\",",
+        "\"#2: Creating Forever Friends – The World's First Crybot Social Network\" – hook: \"Talk to your lost ones again through AI avatars that mimic their talking patterns. Is this a mirror? Is it a curse? Tune in to find out.\",",
+        "\"#3: The Afterlife of Music – Recreating Your Loved One’s Voice Through AI\" – hook: \"Hear your grandma sing her favorite lullaby long after she's gone. AI breathes music, memory and mourning into a single stream of hope.\"\n"
+      ],
+      "keywords": [
+        "digital",
+        "AI",
+        "afterlife",
+        "e‑death",
+        "immortal"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

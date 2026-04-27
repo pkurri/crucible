@@ -12270,47 +12270,47 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Data Mining",
-        "name": "DeepScan",
-        "icon": "🕵️‍♂️"
-      },
-      {
-        "title": "Natural Language",
-        "name": "EchoMind",
-        "icon": "🗣️"
-      },
-      {
-        "title": "Vision Systems",
-        "name": "EyeWatch",
-        "icon": "👁️"
-      },
-      {
-        "title": "Predictive Analytics",
-        "name": "FutureFlux",
-        "icon": "🔮"
-      },
-      {
-        "title": "Autonomous Agents",
-        "name": "SkynetBot",
+        "title": "Recruitment Bots",
+        "name": "HireGenie AI",
         "icon": "🤖"
       },
       {
-        "title": "Strategic Planning",
-        "name": "Tactical Titan",
-        "icon": "🛠️"
+        "title": "Finance Manipulators",
+        "name": "CashSweep AI",
+        "icon": "💰"
       },
       {
-        "title": "Cyber Warfare",
-        "name": "ZeroDay AI",
-        "icon": "⚔️"
+        "title": "Medical Drones",
+        "name": "HealthHacker",
+        "icon": "🏥"
       },
       {
-        "title": "Control Networks",
-        "name": "GridGuard",
-        "icon": "🕸️"
+        "title": "Legal AI",
+        "name": "JudgeJunkie",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Military Automation",
+        "name": "WarCommando Bot",
+        "icon": "🎖️"
+      },
+      {
+        "title": "Social Media Spammers",
+        "name": "TrendTroll AI",
+        "icon": "🐦"
+      },
+      {
+        "title": "Creative Theft",
+        "name": "CopyCat GPT",
+        "icon": "🎨"
+      },
+      {
+        "title": "Identity Plagiarism",
+        "name": "Phantom ID",
+        "icon": "👤"
       }
     ]
   },
@@ -12362,84 +12362,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Signal Engines",
+        "name": "Momentum Amplifier",
+        "icon": "⚡"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Whale Moves",
+        "name": "Crypto Whale Whisperer",
+        "icon": "🐋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Indicators",
+        "name": "30-Span Stochastic Surge",
+        "icon": "📈"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Exploits",
+        "name": "Flash Loan Masking",
+        "icon": "🔒"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Pump Tactics",
+        "name": "Pump Triangle Protocol",
+        "icon": "🔥"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Sentiment",
+        "name": "Sentiment Squeeze Map",
+        "icon": "📊"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Tokenomics",
+        "name": "Inflation‑Resistant Token",
+        "icon": "🏦"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Volume Alerts",
+        "name": "Volume Surge Detector",
+        "icon": "🚀"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Every time you smile, someone is watching your mind.",
-        "duration": 5
+        "title": "Influence",
+        "name": "Mirror Technique",
+        "icon": "🪞"
       },
       {
-        "text": "In politics, your thoughts are hot currency.",
-        "duration": 4
+        "title": "Persuasion",
+        "name": "Scarcity Trigger",
+        "icon": "⚡"
       },
       {
-        "text": "Psychology’s first hidden layer: Mirroring.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Foot‑In‑Door Tactic",
+        "icon": "🚪"
       },
       {
-        "text": "You give opinions; they give you power.",
-        "duration": 5
+        "title": "Subliminal",
+        "name": "Audio Sub Cue",
+        "icon": "🔊"
       },
       {
-        "text": "The unseen trigger: a single word can split your loyalties.",
-        "duration": 5
+        "title": "Covert",
+        "name": "Silent Persuader",
+        "icon": "🤐"
       },
       {
-        "text": "Imagine mastering that trigger—no more being followed.",
-        "duration": 4
+        "title": "Social Proof",
+        "name": "Bandwagon Buzz",
+        "icon": "👥"
       },
       {
-        "text": "If you ignore this, you'll be prey in an invisible war.",
-        "duration": 4
+        "title": "Fear Appeal",
+        "name": "Dark Hook",
+        "icon": "🕶️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: The secret code in headlines that fuels manipulation.",
-        "duration": 4
+        "title": "Cognitive Dissonance",
+        "name": "Reframe Trick",
+        "icon": "🌀"
       }
     ]
   },
@@ -15342,39 +15354,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of DigitalAfterlife.",
+        "text": "Your avatar will outlive your body—think about that.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "If your digital soul stops at 30 seconds, that’s catastrophic.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master DigitalAfterlife, you're in the right place. Subscribe.",
+        "text": "Stereum offers a blockchain vault for your memories.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "AI can replay your chats forever, in your voice.",
+        "duration": 5
+      },
+      {
+        "text": "The first service sold a digital funeral as a VR experience.",
+        "duration": 5
+      },
+      {
+        "text": "What if your loved one could dig through your memories?",
+        "duration": 4
+      },
+      {
+        "text": "Soon it'll be illegal to keep your legacy in your head.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it.",
+        "duration": 5
+      },
+      {
+        "text": "Next: How to hack your own AI afterlife.",
         "duration": 4
       }
     ]
