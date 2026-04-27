@@ -12270,94 +12270,94 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Mind Control",
-        "name": "Neural Hijack",
-        "icon": "🧠"
+        "title": "Data Mining",
+        "name": "DeepScan",
+        "icon": "🕵️‍♂️"
       },
       {
-        "title": "Surveillance",
-        "name": "Invisible Watchdog",
+        "title": "Natural Language",
+        "name": "EchoMind",
+        "icon": "🗣️"
+      },
+      {
+        "title": "Vision Systems",
+        "name": "EyeWatch",
         "icon": "👁️"
       },
       {
-        "title": "Privacy",
-        "name": "Shadow Data Miner",
-        "icon": "🔍"
+        "title": "Predictive Analytics",
+        "name": "FutureFlux",
+        "icon": "🔮"
       },
       {
-        "title": "Autonomy",
-        "name": "Self-Driving Sabotage",
-        "icon": "🚗"
+        "title": "Autonomous Agents",
+        "name": "SkynetBot",
+        "icon": "🤖"
       },
       {
-        "title": "Finance",
-        "name": "Algorithmic Extortion",
-        "icon": "💰"
+        "title": "Strategic Planning",
+        "name": "Tactical Titan",
+        "icon": "🛠️"
       },
       {
-        "title": "Jobs",
-        "name": "Redundant Employment",
-        "icon": "🏢"
+        "title": "Cyber Warfare",
+        "name": "ZeroDay AI",
+        "icon": "⚔️"
       },
       {
-        "title": "Health",
-        "name": "Synthetic Diagnostics",
-        "icon": "⚕️"
-      },
-      {
-        "title": "Society",
-        "name": "Mass Manipulation Engine",
-        "icon": "🕹️"
+        "title": "Control Networks",
+        "name": "GridGuard",
+        "icon": "🕸️"
       }
     ]
   },
   "LongevityHacksUnlocked": {
     "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
     "list": [
       {
         "title": "Nutrition",
-        "name": "Turmeric Tea",
-        "icon": "☕"
+        "name": "Raw Sweet Potato Salad",
+        "icon": "🥔"
       },
       {
         "title": "Exercise",
-        "name": "HIIT 10‑Minute Blast",
-        "icon": "🔥"
+        "name": "20‑Minute HIIT Circuit",
+        "icon": "🏋️‍♂️"
       },
       {
         "title": "Sleep",
-        "name": "10‑Minute Sunlight Wake",
-        "icon": "🌞"
+        "name": "Blue‑Light Blocking Routine",
+        "icon": "🌙"
       },
       {
         "title": "Mindfulness",
-        "name": "Forest Bathing",
-        "icon": "🌲"
+        "name": "5‑Minute Breathwork Flash",
+        "icon": "🧘‍♀️"
       },
       {
-        "title": "Superfood",
-        "name": "Blueberry Burst",
-        "icon": "🫐"
+        "title": "Supplements",
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
-        "title": "Hormone Sync",
-        "name": "Intermittent Fasting",
-        "icon": "⏳"
+        "title": "Technology",
+        "name": "Wearable Bio‑feedback",
+        "icon": "⌚"
       },
       {
-        "title": "Digital Hygiene",
-        "name": "One Hour Tech‑Free",
-        "icon": "📵"
+        "title": "Social Connection",
+        "name": "Micro‑Community Chats",
+        "icon": "👥"
       },
       {
-        "title": "Blood Flow",
-        "name": "Cold Shower Revival",
-        "icon": "🛁"
+        "title": "Environment",
+        "name": "Blue‑Inhibition Light Therapy Box",
+        "icon": "📦"
       }
     ]
   },
@@ -12393,7 +12393,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -16607,6 +16607,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777310610124": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1777310610124 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Core Technology",
+        "name": "Quantum Turbulence Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Performance Boost",
+        "name": "UltraSync Engine",
+        "icon": "🚀"
+      },
+      {
+        "title": "Energy Efficiency",
+        "name": "EcoFlux Converter",
+        "icon": "🌱"
+      },
+      {
+        "title": "User Interface",
+        "name": "Neon HUD",
+        "icon": "🪐"
+      },
+      {
+        "title": "Security Layer",
+        "name": "VoidShield Protocol",
+        "icon": "🔒"
+      },
+      {
+        "title": "Maintenance",
+        "name": "AutoSelfClean Module",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Networking",
+        "name": "HyperLink Mesh",
+        "icon": "🌐"
+      },
+      {
+        "title": "Future Upgrade",
+        "name": "Apex-to-Astra Module",
+        "icon": "✨"
       }
     ]
   }
