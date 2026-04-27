@@ -14183,6 +14183,30 @@
         "lost city reveal"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIAnimatedDreams",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Combining the current AI hype with the universal fascination of dreams creates a unique, faceless niche that naturally lends itself to scroll‑stopping hooks like \"what if your subconscious could be visualised?\" The concept is broad, scalable (any dream can be fed into the system), and blends deep curiosity loops with wonder, ensuring high shareability across social and video platforms.",
+      "ideas": [
+        "Your 3D Nightmare! Watch AI Build the Most Terrifying Dream Ever Described - What if your subconscious could be seen?",
+        "I Described MY Dream to AI and It Created THIS – You Won’t Believe What It Shaped Into! - I asked an AI to draw my dream and this is what it produced…",
+        "AI Turns Sleep Talk Into Spectacular Visuals – Watch Your Silent Stories Come Alive! - Ever wonder what your sleep‑talk looks like? AI animates the unheard part!"
+      ],
+      "keywords": [
+        "Dreamscape",
+        "SciFi",
+        "Neural",
+        "Illustration",
+        "Animation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
