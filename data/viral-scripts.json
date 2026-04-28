@@ -12309,84 +12309,96 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Raw Sweet Potato Salad",
+        "icon": "🥔"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "20‑Minute HIIT Circuit",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue‑Light Blocking Routine",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "5‑Minute Breathwork Flash",
+        "icon": "🧘‍♀️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Bio‑feedback",
+        "icon": "⌚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social Connection",
+        "name": "Micro‑Community Chats",
+        "icon": "👥"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Blue‑Inhibition Light Therapy Box",
+        "icon": "📦"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hidden Forks",
+        "name": "CoinFlip Surge",
+        "icon": "🔀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Quantum Signals",
+        "name": "Algorand Prism",
+        "icon": "✨"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Insider Index",
+        "name": "WhaleWatch 3000",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Secret Staking",
+        "name": "Luna Swap Vault",
+        "icon": "⚔️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Gas King",
+        "name": "Shiba Gas Leak",
+        "icon": "🚀"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Pump Protocol",
+        "name": "FlexiPool Engine",
+        "icon": "🎚️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Alpha Bots",
+        "name": "Dune Arbitrage",
+        "icon": "🛠️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Liquidity Lurkers",
+        "name": "Uniswap Tunnel",
+        "icon": "🕳️"
       }
     ]
   },
@@ -16976,6 +16988,53 @@
       {
         "text": "Next, I’ll show the engine that predicts your dreams.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777385129628": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1777385129628 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Level 1",
+        "name": "Unlimited XP Boost",
+        "icon": "🔥"
+      },
+      {
+        "title": "Level 2",
+        "name": "Secret Weapon Blueprint",
+        "icon": "🔧"
+      },
+      {
+        "title": "Level 3",
+        "name": "Minimap Hack",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Level 4",
+        "name": "Hidden Resource Chamber",
+        "icon": "⛏️"
+      },
+      {
+        "title": "Level 5",
+        "name": "Stealth Mode Override",
+        "icon": "🕵️"
+      },
+      {
+        "title": "Level 6",
+        "name": "Infinite Currency Code",
+        "icon": "💰"
+      },
+      {
+        "title": "Level 7",
+        "name": "NPC Dialogue Menu",
+        "icon": "💬"
+      },
+      {
+        "title": "Level 8",
+        "name": "Time Travel Toggle",
+        "icon": "⏱️"
       }
     ]
   }
