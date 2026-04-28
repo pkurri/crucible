@@ -14728,6 +14728,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIForgottenLanguages",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Recent breakthroughs in AI language models have enabled rapid deciphering of obscure scripts, sparking viral fascination on TikTok and Reddit. Audiences crave quick, mind‑blowing reveals of how ancient voices could sound today, making this niche ripe for faceless, high‑retention shorts and long‑form videos that combine mystery, tech, and history.",
+      "ideas": [
+        "AI Deciphers the Voynich Manuscript in 60 Seconds – Shocking Revelations",
+        "What If AI Could Speak Sumerian? Hear the First Ever AI‑Generated Ancient Prayer",
+        "Lost Language of Atlantis Reconstructed by Neural Networks – Experts Stunned"
+      ],
+      "keywords": [
+        "ancient script",
+        "AI translation",
+        "mystery glyphs",
+        "voice synthesis",
+        "lost civilization"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
