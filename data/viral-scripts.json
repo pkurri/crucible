@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12309,143 +12309,125 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Raw Sweet Potato Salad",
-        "icon": "🥔"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "20‑Minute HIIT Circuit",
-        "icon": "🏋️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue‑Light Blocking Routine",
-        "icon": "🌙"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mindfulness",
-        "name": "5‑Minute Breathwork Flash",
-        "icon": "🧘‍♀️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "NAD+ Precursors",
-        "icon": "💊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Technology",
-        "name": "Wearable Bio‑feedback",
-        "icon": "⌚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social Connection",
-        "name": "Micro‑Community Chats",
-        "icon": "👥"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Environment",
-        "name": "Blue‑Inhibition Light Therapy Box",
-        "icon": "📦"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hidden Forks",
-        "name": "CoinFlip Surge",
-        "icon": "🔀"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Quantum Signals",
-        "name": "Algorand Prism",
-        "icon": "✨"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Insider Index",
-        "name": "WhaleWatch 3000",
-        "icon": "🐋"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Secret Staking",
-        "name": "Luna Swap Vault",
-        "icon": "⚔️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Gas King",
-        "name": "Shiba Gas Leak",
-        "icon": "🚀"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Pump Protocol",
-        "name": "FlexiPool Engine",
-        "icon": "🎚️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Alpha Bots",
-        "name": "Dune Arbitrage",
-        "icon": "🛠️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Liquidity Lurkers",
-        "name": "Uniswap Tunnel",
-        "icon": "🕳️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Manipulation",
-        "name": "Mirroring",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Cognitive Bias",
-        "name": "Anchoring",
-        "icon": "⚓️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Social Engineering",
-        "name": "Scarcity",
-        "icon": "📉"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Influence Tactics",
-        "name": "Foot‑in‑the‑door",
-        "icon": "🚪"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Gaslighting",
-        "icon": "💔"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Behavior Prediction",
-        "name": "Pattern Recognition",
-        "icon": "🔍"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Persuasion Loops",
-        "name": "Repetition",
-        "icon": "🔁"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Neuro Hacks",
-        "name": "Synaptic Priming",
-        "icon": "🧠"
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -17035,6 +17017,53 @@
         "title": "Level 8",
         "name": "Time Travel Toggle",
         "icon": "⏱️"
+      }
+    ]
+  },
+  "ApexFlow_1777398616865": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1777398616865 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1777398616865.",
+    "list": [
+      {
+        "title": "Quantum Quarks",
+        "name": "Superparticle Surge",
+        "icon": "🔬"
+      },
+      {
+        "title": "Celestial",
+        "name": "Stellar Sync",
+        "icon": "🌌"
+      },
+      {
+        "title": "Mythic",
+        "name": "Eternal Echo",
+        "icon": "👻"
+      },
+      {
+        "title": "Holography",
+        "name": "Dimensional Drive",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Genomics",
+        "name": "Gene Whispers",
+        "icon": "🧬"
+      },
+      {
+        "title": "Chrono",
+        "name": "Time Tendril",
+        "icon": "⏳"
+      },
+      {
+        "title": "Network",
+        "name": "Quantum Link",
+        "icon": "🌐"
+      },
+      {
+        "title": "Phantom",
+        "name": "Shadow Pulse",
+        "icon": "🗡️"
       }
     ]
   }
