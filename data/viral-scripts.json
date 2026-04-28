@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12381,7 +12381,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12394,39 +12394,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "text": "Every time you smile, someone is watching your mind.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "In politics, your thoughts are hot currency.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "text": "Psychology’s first hidden layer: Mirroring.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "You give opinions; they give you power.",
+        "duration": 5
+      },
+      {
+        "text": "The unseen trigger: a single word can split your loyalties.",
+        "duration": 5
+      },
+      {
+        "text": "Imagine mastering that trigger—no more being followed.",
+        "duration": 4
+      },
+      {
+        "text": "If you ignore this, you'll be prey in an invisible war.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: The secret code in headlines that fuels manipulation.",
         "duration": 4
       }
     ]
@@ -12463,7 +12463,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more GeopoliticalCollapseWatch.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -17064,6 +17064,88 @@
         "title": "Phantom",
         "name": "Shadow Pulse",
         "icon": "🗡️"
+      }
+    ]
+  },
+  "AIForgottenLanguages": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of AIForgottenLanguages.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777404685134": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Ever seen neon liquid glow like liquid stardust?",
+        "duration": 5
+      },
+      {
+        "text": "Brain says this visual might rewrite your myths.",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid charts every data point in real‑time.",
+        "duration": 5
+      },
+      {
+        "text": "Hyper‑car interior pulses with AI color streams.",
+        "duration": 5
+      },
+      {
+        "text": "Neural net unlocks visual grammar, turning sights into feelings.",
+        "duration": 5
+      },
+      {
+        "text": "If you miss this, you'll never see patterns again.",
+        "duration": 4
+      },
+      {
+        "text": "Stay till the end—next reveal will melt your brain.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next we’ll decode the quantum glow of oceanic lava flows.",
+        "duration": 4
       }
     ]
   }
