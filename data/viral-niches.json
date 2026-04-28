@@ -14488,6 +14488,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NatureHackHub",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Wonder",
+      "reason": "The surge in sustainability and eco-design touts biomimicry as the future of innovation. NatureHackHub taps this trend by visualizing concrete, faceless explanations of how living organisms solve engineering puzzles—perfect for short, scannable content that clocks high engagement across Meta and YouTube. Its niche is underexplored for faceless formats, yet the appeal to STEM, design, and curiosity-driven audiences offers exponential growth potential.",
+      "ideas": [
+        "You Won't Believe This Bulletproof Car Was Inspired by a Spider Silk – Inside the Bio-Hack",
+        "The Bee‑Powered Energy Grid: How Nature Is Teaching Us to Store Power – A Step‑by‑Step Reveal",
+        "Flap‑less Flight: From Bird Wings to Solar Gliders – The Secret Tech Behind Wind‑Free Travel"
+      ],
+      "keywords": [
+        "NatureInspiredTech",
+        "SustainableDesign",
+        "LiveBiomimicryDemo",
+        "EcoEngineering",
+        "MicroNatureScience"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
