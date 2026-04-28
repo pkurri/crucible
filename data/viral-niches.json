@@ -14609,6 +14609,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "MicroBioscapes taps into the growing fascination with the microscopic world – from bioluminescent bacteria to biofilms in polluted sites. The niche offers endless high‑resolution visual content that instantly hooks viewers with hidden ecosystems, supports scroll‑stopping hooks (e.g., \"A Bacterium That CAN NOT Die…\"), and promises curiosity loops through surprising phenomena. Its visual intensity and limitless content possibilities keep audiences engaged and allow rapid scaling to 25 + unique concepts while remaining untapped in mainstream channels.",
+      "ideas": [
+        "The Bacteria That Can Travel Across the Globe in 48 Hours – Watch the Invisible Flight!",
+        "When a City’s Sewage Turns Into a Glow‑in‑Dark Jungle – Microscopic Secrets Released!",
+        "The Hidden Planet Under Your Toothbrush: 60‑Second Tour of Dental Micro‑Life (It’s Alarming!)"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Bioluminescence",
+        "PetriDish",
+        "NanoVision",
+        "HiddenLife"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
