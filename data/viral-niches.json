@@ -14564,6 +14564,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioGlowStreetArt",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of cutting‑edge biotechnology and urban culture is still largely unexplored, offering fresh, visually stunning content that taps into the growing public fascination with bioluminescence and sustainability. As climate‑change narratives increasingly spotlight innovative, low‑energy street solutions, bioluminescent street art provides a unique, scroll‑stopping hook that can attract both science and art audiences while remaining easily reproducible by faceless creators.",
+      "ideas": [
+        "You Won’t Believe the Cities That Glow at Night—Scientists Turn Streets Into Living Nightlife! / Hook: What if your nightly walk turned into a bioluminescent wonderland?",
+        "The Hidden Artists Behind the World's Glowing Graffiti—From Algae to Asphalt! / Hook: Discover the underground movement lighting cities without electricity.",
+        "How One Algae Coat Can Power Your Entire Neighborhood—Forgotten Tech Unveiled! / Hook: Imagine a street where plants keep the lights on."
+      ],
+      "keywords": [
+        "bioluminescence",
+        "night‑glow",
+        "urban‑alchemy",
+        "living‑streetart",
+        "eco‑lighting"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
