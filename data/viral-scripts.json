@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12350,84 +12350,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Signal Engines",
+        "name": "Momentum Amplifier",
+        "icon": "⚡"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Whale Moves",
+        "name": "Crypto Whale Whisperer",
+        "icon": "🐋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Indicators",
+        "name": "30-Span Stochastic Surge",
+        "icon": "📈"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Exploits",
+        "name": "Flash Loan Masking",
+        "icon": "🔒"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Pump Tactics",
+        "name": "Pump Triangle Protocol",
+        "icon": "🔥"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Sentiment",
+        "name": "Sentiment Squeeze Map",
+        "icon": "📊"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Tokenomics",
+        "name": "Inflation‑Resistant Token",
+        "icon": "🏦"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Volume Alerts",
+        "name": "Volume Surge Detector",
+        "icon": "🚀"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
       {
-        "text": "Every time you smile, someone is watching your mind.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Mirroring",
+        "icon": "🪞"
       },
       {
-        "text": "In politics, your thoughts are hot currency.",
-        "duration": 4
+        "title": "Cognitive Bias",
+        "name": "Anchoring",
+        "icon": "⚓️"
       },
       {
-        "text": "Psychology’s first hidden layer: Mirroring.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Scarcity",
+        "icon": "📉"
       },
       {
-        "text": "You give opinions; they give you power.",
-        "duration": 5
+        "title": "Influence Tactics",
+        "name": "Foot‑in‑the‑door",
+        "icon": "🚪"
       },
       {
-        "text": "The unseen trigger: a single word can split your loyalties.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Gaslighting",
+        "icon": "💔"
       },
       {
-        "text": "Imagine mastering that trigger—no more being followed.",
-        "duration": 4
+        "title": "Behavior Prediction",
+        "name": "Pattern Recognition",
+        "icon": "🔍"
       },
       {
-        "text": "If you ignore this, you'll be prey in an invisible war.",
-        "duration": 4
+        "title": "Persuasion Loops",
+        "name": "Repetition",
+        "icon": "🔁"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: The secret code in headlines that fuels manipulation.",
-        "duration": 4
+        "title": "Neuro Hacks",
+        "name": "Synaptic Priming",
+        "icon": "🧠"
       }
     ]
   },
@@ -13100,49 +13112,43 @@
     ]
   },
   "VanishingCoastlines": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 VanishingCoastlines secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more VanishingCoastlines.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Erosion Rates",
-        "name": "The Great Pacific Garbage Patch's Shrinking Edge",
-        "icon": "🌊"
+        "text": "Nobody talks about the truth of VanishingCoastlines.",
+        "duration": 5
       },
       {
-        "title": "Historical Maps",
-        "name": "Lost Oregon Coast Lines",
-        "icon": "🗺️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sea Level Rise",
-        "name": "Antarctic Ice Melt Speed",
-        "icon": "❄️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Storm Surge",
-        "name": "Hurricane Katrina's Vanishing Shoreline",
-        "icon": "☠️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Urban Reclamation",
-        "name": "New York's Shrinking Battery Park",
-        "icon": "🏙️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Cultural Impact",
-        "name": "Sculptures in Drowned Hills",
-        "icon": "🗿"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Remote Sensing",
-        "name": "Satellite Time-Lapse of Maldives",
-        "icon": "📡"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Future Projections",
-        "name": "New Jersey’s 2100 Flood Map",
-        "icon": "⚡"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },

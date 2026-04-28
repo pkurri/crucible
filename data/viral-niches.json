@@ -14773,6 +14773,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "With climate change accelerating, audiences are craving visceral evidence of disappearing environments. Focusing solely on vanishing coastlines delivers dramatic before‑and‑after content that triggers curiosity, fear, and a sense of urgency. The niche is underserved, allowing for rapid differentiation, high shareability on social platforms, and evergreen appeal as new regions face erosion. Short, striking time‑lapse videos and expert insights guarantee repeat viewership and organic growth to 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "The City That Vanished Overnight: 20 Minutes of Before & After Footage – Watch the coastline swallow an entire town in a single time‑lapse.",
+        "Will Your Nearest Beach Disappear? 50 Global ‘Vanishing Coastlines’ Revealed – Click to see which beaches are rushing toward extinction.",
+        "Predicting the Next 10 Big Coasts to Disappear—Scientists’ Shocking Models – Discover the top 10 most endangered shorelines this decade."
+      ],
+      "keywords": [
+        "time‑lapse",
+        "sea‑level rise",
+        "submerged",
+        "coastline transformation",
+        "environmental erosion"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
