@@ -14633,6 +14633,35 @@
         "HiddenLife"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "The climate‑change narrative is booming, but most channels spread generic data. A dedicated niche that shows entire coastlines and towns literally disappearing, using before‑and‑after drone and satellite footage, taps into deep curiosity and fear. The topic is globally relevant (esp. during 2026 climate awareness campaigns), visually striking for scroll‑stopping thumbnails, and delivers endless content from 25+ unique locations and causes, ensuring high scalability and retention.",
+      "ideas": [
+        "The Entire Town That Vanished Overnight: Watch the Mysterious Drone Footage",
+        "Why the Rocky Coastline Disappears Every Decade: Shocking Secrets Revealed!",
+        "The Secret Foam Cloud That Swallowed a Seaside Village – You Won’t Believe the Evidence"
+      ],
+      "keywords": [
+        "drone footage",
+        "satellite",
+        "cliff erosion",
+        "flooded town",
+        "deep ocean",
+        "climate change",
+        "imagery before after",
+        "underground water",
+        "techno disaster",
+        "coastal wipeout"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
