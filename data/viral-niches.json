@@ -14797,6 +14797,30 @@
         "environmental erosion"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking combines the universal fascination with space exploration and the irresistible curiosity about how everyday things behave without gravity. The visual novelty—bubbles, swirling dough, floating food—creates instant scroll‑stopping hooks, while the behind‑the‑scenes look at real experiments on the ISS or in simulated microgravity labs offers high retention and shareability across platforms.",
+      "ideas": [
+        "Zero Gravity Baking: Watch Bread Rise in Microgravity! – Hook: “Ever wondered what a loaf looks like when it can’t stay flat?”",
+        "Space Chef Showdown: 3‑D Printed Recipes Served in Zero‑G – Hook: “We didn’t just simulate it—actual astronauts cooked this recipe aboard the ISS!”",
+        "Floating Food Fight: Can a Slice of Pizza Stay Intact in Space? – Hook: “We tested pizza’s resistance to weightlessness and the results will surprise you.”"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "MicroGravityExperiment",
+        "AstroChef",
+        "WeightlessBaking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
