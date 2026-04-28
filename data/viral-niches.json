@@ -14512,6 +14512,30 @@
         "MicroNatureScience"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The climate‑change narrative is at peak global attention, and people are increasingly fascinated by both the looming threat and the mystery of lost worlds. Faceless storytelling with dramatic drone and AI‑driven satellite footage can generate eye‑catching, scroll‑stopping hooks that mingle nostalgia (old towns) with a chilling reality (underwater ruin). The niche differentiates with 3‑D reconstruction overlays, time‑lapse map transitions, and mystery‑driven narrative structure that keeps viewers in a curiosity loop. Its visual and emotional content is highly shareable, ideal for both Meta carousel posts and YouTube short‑form videos.",
+      "ideas": [
+        "The Island That Vanished 400 Years Ago—Hidden City Revealed! / Hook: \"The maps say it’s gone, but we found every street and story. Watch the lost town come back to life.\"",
+        "Why This Submerged Coastline Is Surfacing In 3‑D Now? / Hook: \"Scientists are freaking out after our AI reconstructed a 1930s fishing village that never existed. See the proof!\"",
+        "The 5 Deadliest Vanishing Coastlines—Who Will Survive? / Hook: \"From Machu Picchu to Miami, we’re showing you the places that could disappear this decade. Will you watch the clock tick?\""
+      ],
+      "keywords": [
+        "SubmergedRuins",
+        "IceCapVapor",
+        "ErodingShoreline",
+        "ArtificialReef",
+        "AILandRecon"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
