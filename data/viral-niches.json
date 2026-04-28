@@ -14683,6 +14683,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Fear",
+      "reason": "Climate‑change anxiety is at a peak, and disappearing coastlines offer instant visual shock, urgency, and a clear ‘before‑after’ narrative that works incredibly well on both short‑form (Meta) and long‑format (YouTube). The topic allows endless variations—timelapse of erosion, interviews with residents, future‑scenario simulations—making it highly scalable and; each video can hook viewers with questions like, “Will you or your family survive this?” and loop them through a curated story arc of loss and hope.",
+      "ideas": [
+        "BEFORE IT IS LOST: The Last 10 Beaches Before Sea Level Rises – Hook: ‘I filmed these exact spots last year; see how fast they’re vanishing now.’",
+        "The Coastal Cities in 3 Minutes: Time‑lapse of 200 m of shoreline disappearing – Hook: ‘Can a town survive a rising tide? Watch how it’s erased.’",
+        "Hidden Submerged Cities – What If They Were Back‑Flooded? – Hook: ‘These ruins beneath the sand will reveal the future we can’t ignore.’"
+      ],
+      "keywords": [
+        "sea‑level",
+        "timelapse",
+        "erosion",
+        "abandoned",
+        "visual‑story"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
