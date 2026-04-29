@@ -14921,6 +14921,27 @@
         "AncientArchitecture"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ApexFlow_1777446539888",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.5,
+      "targetEmotion": "Awe",
+      "reason": "High aesthetic flow videos have high retention and shareability.",
+      "ideas": [
+        "NEON LIQUID SECRETS / 99% of people miss the hidden pattern in physics."
+      ],
+      "keywords": [
+        "Neon liquid",
+        "Data points",
+        "Hyper-car interiors",
+        "Neural networks"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
