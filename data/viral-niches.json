@@ -14821,6 +14821,30 @@
         "WeightlessBaking"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceBioluminescence",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The cosmic glow phenomenon is a visually stunning, little-known mystery that instantly triggers curiosity and wonder. With thousands of high‑resolution SpaceX, Hubble, and amateur photos of glowing nebulae, it’s a fertile ground for \"scroll‑stopping\" hooks and endless visual variations, easily yielding 25+ unique video ideas and cross‑platform engagement.",
+      "ideas": [
+        "🔥 7 Celestial Fireflies That Light Up The Night Sky – The Real Astrophotography Secrets",
+        "👻 The Dark Nebula That Feels Like A Volcano – You Won’t Believe It’s a Star",
+        "🚀 Deep Space Lights Hidden Inside Galaxies – The Astonishing Truth Behind Cosmic Glow"
+      ],
+      "keywords": [
+        "GlowingNebula",
+        "StellarFirefly",
+        "CelestialGlow",
+        "DeepSpaceLights",
+        "CosmicFire"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
