@@ -14970,6 +14970,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DreamLibrary",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The DreamLibrary niche merges user‑generated dream stories with AI‑driven visual storytelling, tapping into the universal curiosity about the subconscious. It offers scroll‑stopping hooks, endless content creation opportunities, high shareability across meta and YouTube, and little direct competition.",
+      "ideas": [
+        "Just Fell into a Titanic: My Dream Journey & What It Tells About Creativity – Watch our AI reshape your subconscious in 3D!",
+        "When My Cat Turned into a Dragon! The Hidden Chronicle of 1200+ Shared Dreams – See the science behind the wildest on‑screen metamorphosis.",
+        "The Secret City Inside a Christmas Tree: A Global Dream Archive Reveal – Explore the fantastical architecture decoded by our neural engine."
+      ],
+      "keywords": [
+        "Dreamscape Animation",
+        "AI Generated Narrative",
+        "User‑Submitted Dreams",
+        "Synesthetic Visual",
+        "Surreal Visuals"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
