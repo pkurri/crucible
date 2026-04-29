@@ -15168,6 +15168,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LostMediaArchaeology",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The surge of digital nostalgia, AI-powered restoration tools, and growing communities hunting for lost films, TV episodes, video games, and music creates a perfect storm for faceless channels. Each discovery feels like uncovering a buried treasure, driving high click‑through rates and repeat views as audiences crave the next 'what was lost?' reveal.",
+      "ideas": [
+        "The 10‑Second Cartoon That Vanished From Netflix – AI Restores the Lost Frames",
+        "How a Forgotten 1980s Video Game Was Found on a Floppy Disk in a Thrift Store",
+        "The Mystery Soundtrack: Reconstructing a Lost Album from a Single Radio Broadcast"
+      ],
+      "keywords": [
+        "lost film reel",
+        "glitch restoration",
+        "forgotten VHS",
+        "AI reconstruction",
+        "mystery soundtrack"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
