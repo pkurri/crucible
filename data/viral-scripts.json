@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12309,125 +12309,143 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Moringa Power",
+        "icon": "🥬"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocker",
+        "icon": "🌙"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT Sprint Sets",
+        "icon": "🏃‍♂️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "Tea Cognition",
+        "icon": "🍵"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol Drops",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Green Space Walk",
+        "icon": "🌳"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Health Tracker",
+        "icon": "⌚️"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Social",
+        "name": "Community Challenges",
+        "icon": "🤝"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hidden Forks",
+        "name": "CoinFlip Surge",
+        "icon": "🔀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Quantum Signals",
+        "name": "Algorand Prism",
+        "icon": "✨"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Insider Index",
+        "name": "WhaleWatch 3000",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Secret Staking",
+        "name": "Luna Swap Vault",
+        "icon": "⚔️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Gas King",
+        "name": "Shiba Gas Leak",
+        "icon": "🚀"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Pump Protocol",
+        "name": "FlexiPool Engine",
+        "icon": "🎚️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Alpha Bots",
+        "name": "Dune Arbitrage",
+        "icon": "🛠️"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Liquidity Lurkers",
+        "name": "Uniswap Tunnel",
+        "icon": "🕳️"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Mirroring",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Cognitive Bias",
+        "name": "Anchoring",
+        "icon": "⚓️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Scarcity",
+        "icon": "📉"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Influence Tactics",
+        "name": "Foot‑in‑the‑door",
+        "icon": "🚪"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Gaslighting",
+        "icon": "💔"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Behavior Prediction",
+        "name": "Pattern Recognition",
+        "icon": "🔍"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Persuasion Loops",
+        "name": "Repetition",
+        "icon": "🔁"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Neuro Hacks",
+        "name": "Synaptic Priming",
+        "icon": "🧠"
       }
     ]
   },
@@ -16886,43 +16904,49 @@
     ]
   },
   "BioGlowStreetArt": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioGlowStreetArt secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioGlowStreetArt.",
-        "duration": 5
+        "title": "Light-Tech",
+        "name": "Photon Spray",
+        "icon": "💡"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Urban Canvas",
+        "name": "Night Projection",
+        "icon": "🌙"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Glow Paints",
+        "name": "Bio‑Ink Nightcoat",
+        "icon": "🎨"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Night Ambience",
+        "name": "Luminous Generators",
+        "icon": "🌌"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Interactive Install",
+        "name": "Touch‑Reactive Murals",
+        "icon": "🖐"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Eco‑Friendly",
+        "name": "Solar Glow Lights",
+        "icon": "☀️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "VR Collaboration",
+        "name": "Augmented Street Vision",
+        "icon": "🌐"
       },
       {
-        "text": "If you want to master BioGlowStreetArt, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Glow Gallery",
+        "name": "Bioluminescent Kiosk",
+        "icon": "🕶"
       }
     ]
   },

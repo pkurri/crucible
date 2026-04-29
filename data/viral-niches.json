@@ -14845,6 +14845,30 @@
         "CosmicFire"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioGlowStreetArt",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combining the visual allure of bioluminescence with the cultural hype around street art creates a fresh, highly shareable aesthetic. The niche taps into the growing interest in sustainable, living art and nighttime cityscapes, offering endless loopable content that sparks curiosity and wonder. Its intersection of science, urban culture, and ambient light captivates a wide audience across social platforms, enabling rapid subscriber growth and high per‑video views.",
+      "ideas": [
+        "Glow in the Dark: How Artists Use Bioluminescent Paints to Rewire City Streets — Hook: Unveil the secret black‑market of glowing pigments that are turning concrete into living canvases.",
+        "The Midnight Revolution: Street Art That Lights Up By Itself — Hook: Step inside the nocturnal gallery where bacteria paint the night and watch the city breathe.",
+        "From Trash to Treasure: Turning Waste into Bioluminescent Murals — Hook: Discover how recycled bottles are beaming the streets with pure, eco‑friendly neon."
+      ],
+      "keywords": [
+        "NeonGlow",
+        "Bioluminescent",
+        "UrbanCanvas",
+        "NightSpectacle",
+        "LivingStreetArt"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
