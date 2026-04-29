@@ -15022,6 +15022,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The microscopic world offers endless visuals of unseen life—bioluminescent patterns, swarm dynamics, and time‑lapse transformations that naturally trigger awe and curiosity. These videos are highly shareable on Meta due to their share‑ability in story format, and they captivate YouTube viewers with endless “slow‑motion” and macro magic, filling the retention gap and enabling rapid growth to 1M+ subs and 100K+ views per clip.",
+      "ideas": [
+        "10 Dazzling Bioluminescent Spirals Inside a Drop of Pond Water (4K Time‑Lapse) – You Won’t Believe The Shapes!",
+        "Meet the 0.2 mm Creatures Living in Your Tap Water: 60‑Second Snapshot of a Whole Ecosystem!",
+        "Microbe Dance: 5‑Minute Time‑Lapse of 50,000 Tiny Organisms Moving in Sync – Mind‑Blowing Patterns!"
+      ],
+      "keywords": [
+        "microscopy",
+        "bioluminescence",
+        "time‑lapse",
+        "microorganism",
+        "microscopic"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
