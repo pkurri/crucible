@@ -14897,6 +14897,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedCityExplorer",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The mystery and visually captivating nature of lost underwater cities tap into both curiosity and awe. The niche is unique enough to stand out from general underwater exploration channels and offers a near unlimited stream of locations that can fuel countless short-form and long‑form videos. Its substantial visual appeal and the possibility of tying in narratives about ancient civilizations or unexplained phenomena ensure strong retention via scroll‑stopping hooks and curiosity loops, positioning it for high reach and engagement.",
+      "ideas": [
+        "The Forgotten City of Palmyra – Owing The Entire [Hook] \"Drown, Discover, Dare to Decode Palmyra’s Submerged Secrets!\"",
+        "Dive into the Ocean’s Deepest Secret – 50,000 ft Underwater City! [Hook] \"Burst Through the Waves to Reveal a New Kingdom!\"",
+        "5 Mysterious Submerged Cities That Could Still Harbor a Hidden Civilization [Hook] \"Explore Crane‑Gravelships, Sunken Royal Palaces, and Uncover Myths!\""
+      ],
+      "keywords": [
+        "GlowingCoral",
+        "LostRuins",
+        "DarkWater",
+        "SeaCaves",
+        "AncientArchitecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
