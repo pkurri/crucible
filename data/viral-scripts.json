@@ -12268,43 +12268,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "These 8 AI agents are silently stealing your jobs — be afraid.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Finance",
+        "name": "RoboTrader X",
+        "icon": "💸"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Customer Service",
+        "name": "ChatGuardian",
+        "icon": "📞"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Healthcare",
+        "name": "MediScan AI",
+        "icon": "🩺"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Logistics",
+        "name": "SupplyChain Sentinel",
+        "icon": "🚚"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Legal",
+        "name": "JurisBot",
+        "icon": "⚖️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Marketing",
+        "name": "AdOptimus",
+        "icon": "📈"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Education",
+        "name": "LearnLimiter",
+        "icon": "🎓"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Security",
+        "name": "CyberWarden",
+        "icon": "🔒"
       }
     ]
   },
@@ -12350,43 +12356,49 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "On-chain Indicator",
+        "name": "NVT Spike",
+        "icon": "📈"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exchange Flow",
+        "name": "Whale Deposit Surge",
+        "icon": "🐋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Derivatives Signal",
+        "name": "Funding Rate Flip",
+        "icon": "⚡"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Macro Catalyst",
+        "name": "ETF Approval Rumor",
+        "icon": "🏦"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sentiment Tool",
+        "name": "Fear & Greed Extreme Greed",
+        "icon": "😱"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Token Metric",
+        "name": "Low Supply High Demand",
+        "icon": "💎"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Network Activity",
+        "name": "Active Addresses Spike",
+        "icon": "👥"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Trading Setup",
+        "name": "Breakout Above 200‑Day MA",
+        "icon": "🚀"
       }
     ]
   },
@@ -12422,7 +12434,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -17527,6 +17539,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777496836116": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1777496836116 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1777496836116.",
+    "list": [
+      {
+        "title": "Core Feature",
+        "name": "Quantum Sync Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Performance",
+        "name": "Zero‑Latency Rendering",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security",
+        "name": "End‑to‑End Encryption",
+        "icon": "🔒"
+      },
+      {
+        "title": "Integration",
+        "name": "API‑First Architecture",
+        "icon": "🔌"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "AI‑Driven Workflow Builder",
+        "icon": "🤖"
+      },
+      {
+        "title": "Scalability",
+        "name": "Multi‑Cloud Elastic Scaling",
+        "icon": "☁️"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Expert Assistance",
+        "icon": "💬"
       }
     ]
   }
