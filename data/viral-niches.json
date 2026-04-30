@@ -15216,6 +15216,39 @@
         "AI-generated"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Space Food Tech is riding the wave of growing public interest in Mars colonisation, zero‑gravity experiments, and sustainable food solutions. The niche is distinct from mainstream space or food channels, combining cutting‑edge science with relatable, visual storytelling that scales across short‑form and long‑form formats. It offers instantly engaging hooks like \"What did astronauts eat in space?\" and curiosity loops that keep viewers scrolling—ideal for meta reels and YouTube verticals.",
+      "ideas": [
+        {
+          "title": "Grow Lettuce in Microgravity: The First Taste of Space Food",
+          "hook": "Ever wonder what your first bite of astronaut food really looks like? Watch a tiny lettuce plant grow in zero‑gravity together!"
+        },
+        {
+          "title": "How NASA Is Cooking in Zero Gravity: Inside the Space Food Lab",
+          "hook": "Step inside the ISS kitchen and see the science behind every crumb—it's cooler than you think."
+        },
+        {
+          "title": "5 Impossible Foods That Could Feed Mars Settlers",
+          "hook": "From algae soup to 3‑D‑printed steak—discover the meals that may replace Earth on the Red Planet!"
+        }
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceEdibles",
+        "MarsGardening",
+        "FutureCuisine",
+        "LabSci"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
