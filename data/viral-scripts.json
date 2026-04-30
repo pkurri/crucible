@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -17902,6 +17902,53 @@
       {
         "text": "Next: decode the hyper‑sound wave that lies beneath.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777570037825": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1777570037825 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "Quantum Pipeline",
+        "icon": "⚡"
+      },
+      {
+        "title": "Scalability",
+        "name": "Neon Flux",
+        "icon": "🌌"
+      },
+      {
+        "title": "Security",
+        "name": "Cipher Lock",
+        "icon": "🔒"
+      },
+      {
+        "title": "Analytics",
+        "name": "Echo Insights",
+        "icon": "🔮"
+      },
+      {
+        "title": "UI/UX",
+        "name": "Glow Sync",
+        "icon": "✨"
+      },
+      {
+        "title": "Automation",
+        "name": "AutoPilot",
+        "icon": "🚀"
+      },
+      {
+        "title": "Ecosystem",
+        "name": "Mesh Connect",
+        "icon": "🌠"
+      },
+      {
+        "title": "Support",
+        "name": "GuruHelper",
+        "icon": "🛠️"
       }
     ]
   }
