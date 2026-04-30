@@ -12268,49 +12268,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "These 8 AI agents are silently stealing your jobs — be afraid.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Finance",
-        "name": "RoboTrader X",
-        "icon": "💸"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Customer Service",
-        "name": "ChatGuardian",
-        "icon": "📞"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Healthcare",
-        "name": "MediScan AI",
-        "icon": "🩺"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Logistics",
-        "name": "SupplyChain Sentinel",
-        "icon": "🚚"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Legal",
-        "name": "JurisBot",
-        "icon": "⚖️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Marketing",
-        "name": "AdOptimus",
-        "icon": "📈"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Education",
-        "name": "LearnLimiter",
-        "icon": "🎓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Security",
-        "name": "CyberWarden",
-        "icon": "🔒"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12356,57 +12350,10 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "On-chain Indicator",
-        "name": "NVT Spike",
-        "icon": "📈"
-      },
-      {
-        "title": "Exchange Flow",
-        "name": "Whale Deposit Surge",
-        "icon": "🐋"
-      },
-      {
-        "title": "Derivatives Signal",
-        "name": "Funding Rate Flip",
-        "icon": "⚡"
-      },
-      {
-        "title": "Macro Catalyst",
-        "name": "ETF Approval Rumor",
-        "icon": "🏦"
-      },
-      {
-        "title": "Sentiment Tool",
-        "name": "Fear & Greed Extreme Greed",
-        "icon": "😱"
-      },
-      {
-        "title": "Token Metric",
-        "name": "Low Supply High Demand",
-        "icon": "💎"
-      },
-      {
-        "title": "Network Activity",
-        "name": "Active Addresses Spike",
-        "icon": "👥"
-      },
-      {
-        "title": "Trading Setup",
-        "name": "Breakout Above 200‑Day MA",
-        "icon": "🚀"
-      }
-    ]
-  },
-  "DarkPsychologyPower": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12434,11 +12381,52 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "DarkPsychologyPower": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Every time you smile, someone is watching your mind.",
+        "duration": 5
+      },
+      {
+        "text": "In politics, your thoughts are hot currency.",
+        "duration": 4
+      },
+      {
+        "text": "Psychology’s first hidden layer: Mirroring.",
+        "duration": 5
+      },
+      {
+        "text": "You give opinions; they give you power.",
+        "duration": 5
+      },
+      {
+        "text": "The unseen trigger: a single word can split your loyalties.",
+        "duration": 5
+      },
+      {
+        "text": "Imagine mastering that trigger—no more being followed.",
+        "duration": 4
+      },
+      {
+        "text": "If you ignore this, you'll be prey in an invisible war.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: The secret code in headlines that fuels manipulation.",
         "duration": 4
       }
     ]
@@ -12475,7 +12463,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master GeopoliticalCollapseWatch, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -13149,7 +13137,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master VanishingCoastlines, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -17586,6 +17574,47 @@
         "title": "Support",
         "name": "24/7 Expert Assistance",
         "icon": "💬"
+      }
+    ]
+  },
+  "LostMediaArchaeology": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of LostMediaArchaeology.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }

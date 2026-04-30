@@ -15192,6 +15192,30 @@
         "mystery soundtrack"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "The vanishing-coastlines niche taps into urgent climate anxiety while offering hyperreal visual storytelling. By combining AI‑generated 3‑D time‑lapse maps with evocative soundscapes, it delivers instantly scroll‑stopping hooks such as \"Your coastline in 50 years\" and a curiosity loop that forces viewers to keep watching until the moment a familiar landmark disappears. The topic is niche enough to avoid saturation but broad enough to enable endless sub‑topics—every coastal city, landmark, or ecosystem—making scalability straightforward. The emotional mix of awe and dread drives high engagement, shares, and algorithm boosts.",
+      "ideas": [
+        "The Drowned City: Imagine New York Submerged in 2055 / Watch the exact moment the first wave dissolves Manhattan.",
+        "When Venice Vanishes: 3D Simulation of the Grand Canal in 2100 / Feel the rush as Venice turns into a silent harbor.",
+        "Underwater Bowman: The Last Spearheads of the Great Barrier Reef 2030 / Experience the reef fading under a rising tide."
+      ],
+      "keywords": [
+        "hyperrealistic",
+        "time-lapse",
+        "3D-rendered",
+        "underwater-city",
+        "AI-generated"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
