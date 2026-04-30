@@ -15473,6 +15473,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "SpaceFoodTech sits at the intersection of booming space exploration enthusiasm, cutting‑edge biotechnological research, and the universal fascination with food. With fresh NASA missions, Mars settlements on the horizon, and Instagram‑style visuals of zero‑gravity cooking, this niche offers endless, eye‑catching experiments that ignite curiosity, emotional wonder, and endless shareability—perfect for grabbing 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "Zero‑Gravity Pizza: How Astronauts Eat in Space (And Why It’s Heavily Tasty!) / Discover the most mind‑bending pizza‑making ritual that defies gravity.",
+        "Mars Farms: The First Self‑Sustaining Food Lab Aboard a Long‑Term Space Habitat / Watch Martian lettuce thrive in a bio‑reactor before it hits Earth’s plates.",
+        "Alien Food or Not? The Strange Snack the International Space Station Discovered / Could the ISS just find the universe’s first edible mystery?"
+      ],
+      "keywords": [
+        "Microgravity",
+        "Bio‑reactor",
+        "Space‑Kitchen",
+        "Zero‑Gravity Cooking",
+        "Space‑Food"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
