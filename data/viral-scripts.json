@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12350,84 +12350,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hidden Tokens",
+        "name": "MoonBeam",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Lizard Leverage",
+        "name": "X‑Factor",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Smart Contract Hacks",
+        "name": "Vortex",
+        "icon": "🔒"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cross‑Chain ARK",
+        "name": "Atlas",
+        "icon": "🚀"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Protocol Predators",
+        "name": "Griffin",
+        "icon": "🐻"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Yield Yields",
+        "name": "Echo",
+        "icon": "💹"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Gas-Speed Gauntlet",
+        "name": "Giga",
+        "icon": "⚡"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Chain Whisperer",
+        "name": "Pulse",
+        "icon": "🎯"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Fear Leverage",
+        "name": "The Fear Ladder",
+        "icon": "🕷️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Mirroring",
+        "name": "The Mirror Trick",
+        "icon": "🪞"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Anchoring",
+        "name": "Anchor Pulse",
+        "icon": "⚓"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Scarcity",
+        "name": "Limited Offer Pulse",
+        "icon": "⏰"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bandwagon Bomb",
+        "icon": "👥"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Authority",
+        "name": "Authority Mirage",
+        "icon": "👑"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Commitment",
+        "name": "Foot‑in‑Door Tactic",
+        "icon": "🚪"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Liking",
+        "name": "Miracle Compliment",
+        "icon": "💬"
       }
     ]
   },
@@ -18195,6 +18207,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777641489889": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1777641489889 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Core Algorithm",
+        "name": "Velocity Optimizer",
+        "icon": "🚀"
+      },
+      {
+        "title": "Data Layer",
+        "name": "Quantum Cache",
+        "icon": "⚡"
+      },
+      {
+        "title": "UI Module",
+        "name": "Neon Render",
+        "icon": "🌈"
+      },
+      {
+        "title": "Security Suite",
+        "name": "Titan Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Insight Lens",
+        "icon": "🔍"
+      },
+      {
+        "title": "Integration",
+        "name": "Bridge Layer",
+        "icon": "🔗"
+      },
+      {
+        "title": "Performance",
+        "name": "Turbo Boost",
+        "icon": "💨"
+      },
+      {
+        "title": "Documentation",
+        "name": "Omni Manual",
+        "icon": "📚"
       }
     ]
   }
