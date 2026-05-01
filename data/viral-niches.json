@@ -15861,6 +15861,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "The niche leverages the current fascination with space exploration, space travel and future food technology while remaining largely untapped. Faceless content can be produced via animations and narrated overlays, which keeps production costs low and allows rapid scaling. The hook potential is immense—impossible cooking scenarios, astronaut home‑cooked meals, and the science behind making food truly weight‑free—all of which create strong scroll‑stopping moments and curiosity loops that keep viewers watching and sharing.",
+      "ideas": [
+        "How Astronauts Cook Pizza in Zero Gravity – The Untold Recipe!",
+        "Soda Fizz Underweight: The Science Behind Space Pop!",
+        "Mars Meal Prep: 5 Foods We Can Eat on the Red Planet – Made with Earth Tech!"
+      ],
+      "keywords": [
+        "zero-g cooking",
+        "space kitchen",
+        "astronaut recipes",
+        "microgravity food",
+        "future cuisine"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
