@@ -15584,6 +15584,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "ZeroGravityKitchen merges the intrigue of space exploration with the universal love of food, offering visually stunning, physics-defying moments that are instantly shareable. The niche combines STEM, cooking, and a fresh aesthetic—an evergreen combination that attracts families, science buffs, and foodies alike. Its unique concept sets it apart from saturated cooking or space channels, while the slow‑motion, floating‑food visuals create scroll‑stopping hooks and long curiosity loops, making it perfect for rapid viral spread on both YouTube and Meta platforms.",
+      "ideas": [
+        "Zero Gravity Pizza: Watching Cheese Defy Gravity (A 60s Experiment) – Ever seen pizza dough float? This NASA kitchen experiment will leave you stunned!",
+        "Choco‑Mer: Making Chocolate Popsicles in Microgravity – The melt‑in‑your‑mouth magic of zero gravity chocolate, captured on slow motion!",
+        "Zero G Soufflé Challenge: 5 Seconds to Taste the Sky – Will this soufflé rise without gravity? Fair warning: it may collapse in the final seconds!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "FloatingFood",
+        "SlowMotionPhysics",
+        "SpaceKitchen",
+        "GravityDefying"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

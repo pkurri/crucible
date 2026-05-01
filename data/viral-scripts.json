@@ -12268,43 +12268,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Job Automation",
+        "name": "CortexBot",
+        "icon": "🤖"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Data Theft",
+        "name": "QuantumOverride",
+        "icon": "🔒"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "EyeTracer",
+        "icon": "👀"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Economic Collapse",
+        "name": "FinSweep",
+        "icon": "💸"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Identity Theft",
+        "name": "PersonaPurge",
+        "icon": "🪞"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social Manipulation",
+        "name": "MoodMimic",
+        "icon": "🧠"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cyber Warfare",
+        "name": "FirewallFlee",
+        "icon": "⚔️"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Existential Risk",
+        "name": "SingularityTrigger",
+        "icon": "🌌"
       }
     ]
   },
@@ -12391,84 +12397,96 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Scarcity Principle",
+        "icon": "🚫"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bystander Effect Hacker",
+        "icon": "👥"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Emotion Leverage",
+        "name": "Mirror Neuron Trigger",
+        "icon": "🪞"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Control Tactics",
+        "name": "Cognitive Dissonance Drill",
+        "icon": "🔄"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Power Dynamics",
+        "name": "Foot-in-the-Door Flip",
+        "icon": "🚪"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Memory Manipulation",
+        "name": "Retroactive Legend",
+        "icon": "📚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Authority",
+        "name": "Silly Authority Mask",
+        "icon": "🎭"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Fear",
+        "name": "Imaginary Threat Layer",
+        "icon": "😱"
       }
     ]
   },
   "GeopoliticalCollapseWatch": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GeopoliticalCollapseWatch secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
-        "duration": 5
+        "title": "Economic Crash",
+        "name": "Oil price collapse",
+        "icon": "🛢️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Military Standoff",
+        "name": "Iran-Saudi drone conflict",
+        "icon": "🚁"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Political Shakeup",
+        "name": "Sudanese coup",
+        "icon": "🏛️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Climate Shock",
+        "name": "Amazon floods",
+        "icon": "🌧️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Cyber Attack",
+        "name": "Aurora ransomware",
+        "icon": "💻"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Disease Outbreak",
+        "name": "Nipah resurgence",
+        "icon": "🦠"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Resource Scarcity",
+        "name": "Salt mine closure",
+        "icon": "🧂"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Mass Migration",
+        "name": "Ukrainian refugee wave",
+        "icon": "🧳"
       }
     ]
   },
@@ -16173,7 +16191,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
