@@ -12270,47 +12270,47 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Job Automation",
-        "name": "CortexBot",
+        "title": "Data Mining",
+        "name": "DeepScan",
+        "icon": "🕵️‍♂️"
+      },
+      {
+        "title": "Natural Language",
+        "name": "EchoMind",
+        "icon": "🗣️"
+      },
+      {
+        "title": "Vision Systems",
+        "name": "EyeWatch",
+        "icon": "👁️"
+      },
+      {
+        "title": "Predictive Analytics",
+        "name": "FutureFlux",
+        "icon": "🔮"
+      },
+      {
+        "title": "Autonomous Agents",
+        "name": "SkynetBot",
         "icon": "🤖"
       },
       {
-        "title": "Data Theft",
-        "name": "QuantumOverride",
-        "icon": "🔒"
-      },
-      {
-        "title": "Surveillance",
-        "name": "EyeTracer",
-        "icon": "👀"
-      },
-      {
-        "title": "Economic Collapse",
-        "name": "FinSweep",
-        "icon": "💸"
-      },
-      {
-        "title": "Identity Theft",
-        "name": "PersonaPurge",
-        "icon": "🪞"
-      },
-      {
-        "title": "Social Manipulation",
-        "name": "MoodMimic",
-        "icon": "🧠"
+        "title": "Strategic Planning",
+        "name": "Tactical Titan",
+        "icon": "🛠️"
       },
       {
         "title": "Cyber Warfare",
-        "name": "FirewallFlee",
+        "name": "ZeroDay AI",
         "icon": "⚔️"
       },
       {
-        "title": "Existential Risk",
-        "name": "SingularityTrigger",
-        "icon": "🌌"
+        "title": "Control Networks",
+        "name": "GridGuard",
+        "icon": "🕸️"
       }
     ]
   },
@@ -12387,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12399,94 +12399,88 @@
   "DarkPsychologyPower": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
     "list": [
       {
-        "title": "Persuasion",
-        "name": "Scarcity Principle",
-        "icon": "🚫"
-      },
-      {
-        "title": "Social Proof",
-        "name": "Bystander Effect Hacker",
-        "icon": "👥"
-      },
-      {
-        "title": "Emotion Leverage",
-        "name": "Mirror Neuron Trigger",
+        "title": "Manipulation",
+        "name": "Mirroring",
         "icon": "🪞"
       },
       {
-        "title": "Control Tactics",
-        "name": "Cognitive Dissonance Drill",
-        "icon": "🔄"
+        "title": "Cognitive Bias",
+        "name": "Anchoring",
+        "icon": "⚓️"
       },
       {
-        "title": "Power Dynamics",
-        "name": "Foot-in-the-Door Flip",
+        "title": "Social Engineering",
+        "name": "Scarcity",
+        "icon": "📉"
+      },
+      {
+        "title": "Influence Tactics",
+        "name": "Foot‑in‑the‑door",
         "icon": "🚪"
       },
       {
-        "title": "Memory Manipulation",
-        "name": "Retroactive Legend",
-        "icon": "📚"
+        "title": "Emotional Leverage",
+        "name": "Gaslighting",
+        "icon": "💔"
       },
       {
-        "title": "Authority",
-        "name": "Silly Authority Mask",
-        "icon": "🎭"
+        "title": "Behavior Prediction",
+        "name": "Pattern Recognition",
+        "icon": "🔍"
       },
       {
-        "title": "Fear",
-        "name": "Imaginary Threat Layer",
-        "icon": "😱"
+        "title": "Persuasion Loops",
+        "name": "Repetition",
+        "icon": "🔁"
+      },
+      {
+        "title": "Neuro Hacks",
+        "name": "Synaptic Priming",
+        "icon": "🧠"
       }
     ]
   },
   "GeopoliticalCollapseWatch": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 GeopoliticalCollapseWatch secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Economic Crash",
-        "name": "Oil price collapse",
-        "icon": "🛢️"
+        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
+        "duration": 5
       },
       {
-        "title": "Military Standoff",
-        "name": "Iran-Saudi drone conflict",
-        "icon": "🚁"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Political Shakeup",
-        "name": "Sudanese coup",
-        "icon": "🏛️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Climate Shock",
-        "name": "Amazon floods",
-        "icon": "🌧️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Cyber Attack",
-        "name": "Aurora ransomware",
-        "icon": "💻"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Disease Outbreak",
-        "name": "Nipah resurgence",
-        "icon": "🦠"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Resource Scarcity",
-        "name": "Salt mine closure",
-        "icon": "🧂"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Mass Migration",
-        "name": "Ukrainian refugee wave",
-        "icon": "🧳"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13372,47 +13366,47 @@
   "MicroBioscapes": {
     "voice": "af_heart",
     "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+    "closing": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Underground City",
-        "name": "Manganese Mine Microflora",
-        "icon": "🏙️"
+        "title": "Labyrinthine Bacteria",
+        "name": "MorphoBend",
+        "icon": "🌀"
       },
       {
-        "title": "Aquatic Dreamscape",
-        "name": "Deep‑Sea Thermophiles Cluster",
-        "icon": "🐟"
+        "title": "Nano Plant Roots",
+        "name": "RootGlow",
+        "icon": "🌱"
       },
       {
-        "title": "Viral Conspiracy",
-        "name": "Bacteriophage Dark Web",
-        "icon": "🦠"
+        "title": "Micro Life Canvas",
+        "name": "CelliCanvas",
+        "icon": "🎨"
       },
       {
-        "title": "Time Capsule",
-        "name": "Frozen Permafrost Symbiotes",
-        "icon": "❄️"
+        "title": "Symbiotic Pods",
+        "name": "SymbioSphere",
+        "icon": "🌐"
       },
       {
-        "title": "Urban Jungle",
-        "name": "Skyscraper Rainforest Bacteria",
-        "icon": "🌆"
+        "title": "Fungal Metaballs",
+        "name": "FungiWave",
+        "icon": "🍄"
       },
       {
-        "title": "Celestial Void",
-        "name": "Space Dust Microbe Colony",
-        "icon": "🌌"
+        "title": "Archaea Timecapsules",
+        "name": "ArchaVortex",
+        "icon": "🌀"
       },
       {
-        "title": "Fungal Sentience",
-        "name": "Lichen Nano‑Network",
-        "icon": "🌿"
+        "title": "Microhtag Landscapes",
+        "name": "Tagomorph",
+        "icon": "🏞️"
       },
       {
-        "title": "Chemical Alchemy",
-        "name": "Hydrothermal Sulphur Micro‑Engine",
-        "icon": "⚡"
+        "title": "Microbiome Web",
+        "name": "Plexicore",
+        "icon": "🕸️"
       }
     ]
   },

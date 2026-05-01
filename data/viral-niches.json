@@ -15636,6 +15636,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The micro world offers endless unseen wonders that can be captured in stunning macro footage. Each new organism or behavior provides a fresh hook, fueling curiosity loops and scroll‑stopping visual impact. The niche is underexplored yet highly scalable with countless species, environments, and science angles, making it primed for rapid viral growth.",
+      "ideas": [
+        "Inside a City Sized Microorganism: The Most Intense Bacteria Colony You'll Ever See! — Hook: Extreme close‑up reveals a living metropolis, leaving viewers baffled and wanting to uncover the secret.",
+        "5 Micro Worlds That Are Bigger Than Your Head—Microscope Reveals Hidden Lives! — Hook: 3‑second teaser of a giant sponge colony, prompting viewers to watch the full, reveal‑heavy story.",
+        "When Fungi Go Glowing: Exploring Bioluminescent MicroBeasts You Can't Believe Exist — Hook: First frame shows a glowing mushroom colony, followed by a mystery‑solving narrative driving curiosity."
+      ],
+      "keywords": [
+        "macro",
+        "microscopic",
+        "glowing",
+        "fluid",
+        "neon"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
