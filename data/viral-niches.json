@@ -15885,6 +15885,30 @@
         "future cuisine"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceBioluminescence",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Space research is booming with new discoveries about microorganisms surviving micro‑gravity, and the visual spectacle of bioluminescent life in a dark cosmos taps into humanity’s fascination with the unknown. The niche combines two high‑interest topics—space and glowing organisms—offering endless first‑time phenomena that naturally trigger awe, curiosity loops, and viral shareability.",
+      "ideas": [
+        "You Won’t Believe What Glows In The Black of Space – Microbes That Light Up the Universe! / Watch scientists discover luminous microbes orbiting Earth and why they’re changing the definition of life.",
+        "15 Astonishing Space Bioluminescence Displays That Look Like Cosmic Fireworks! / From “dead stars” to alien labs, see the most mind‑blowing footage of living lights defying gravity.",
+        "The Darkest Corner of the Milky Way Is A Glow‑Factory – Why It Matters For Life / Explore billions of unseen neon stars hiding in plain sight and their implications for extraterrestrial search."
+      ],
+      "keywords": [
+        "glowing",
+        "orbital",
+        "bioluminescent",
+        "cosmic",
+        "neon"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
