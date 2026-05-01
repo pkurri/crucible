@@ -15712,6 +15712,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FutureFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "With worldwide food insecurity, rising meat prices, and the rapid development of lab-grown meat, algae cocktails, and insect protein, audiences are hungry for insider science, taste tests, and visual demonstrations of what the future food market looks like. High‑quality visuals (lab setups, time‑lapse growth, taste‑test reactions) create scroll‑stopping hooks and curiosity loops. The niche is fresh, differentiates from generic food channels, and easily scales to 25+ viral ideas per year.",
+      "ideas": [
+        "The Meat That Grows in 48 Hours – Science Behind Lab Meat Explained (Skeptical Review)",
+        "Algae Beverages: The Future of Drinking? Lab Experiments & Tasting!",
+        "Insects as Protein? Small Bites Full of Surprises!"
+      ],
+      "keywords": [
+        "Sustainable",
+        "LabGrownMeat",
+        "AlgaeBeverage",
+        "ProteinInsects",
+        "FoodTechFuture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
