@@ -12268,49 +12268,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Mining",
-        "name": "DeepScan",
-        "icon": "🕵️‍♂️"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Natural Language",
-        "name": "EchoMind",
-        "icon": "🗣️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Vision Systems",
-        "name": "EyeWatch",
-        "icon": "👁️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Predictive Analytics",
-        "name": "FutureFlux",
-        "icon": "🔮"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Autonomous Agents",
-        "name": "SkynetBot",
-        "icon": "🤖"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Strategic Planning",
-        "name": "Tactical Titan",
-        "icon": "🛠️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Cyber Warfare",
-        "name": "ZeroDay AI",
-        "icon": "⚔️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Control Networks",
-        "name": "GridGuard",
-        "icon": "🕸️"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12346,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12387,7 +12381,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12397,49 +12391,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Manipulation",
-        "name": "Mirroring",
-        "icon": "🪞"
+        "text": "Every time you smile, someone is watching your mind.",
+        "duration": 5
       },
       {
-        "title": "Cognitive Bias",
-        "name": "Anchoring",
-        "icon": "⚓️"
+        "text": "In politics, your thoughts are hot currency.",
+        "duration": 4
       },
       {
-        "title": "Social Engineering",
-        "name": "Scarcity",
-        "icon": "📉"
+        "text": "Psychology’s first hidden layer: Mirroring.",
+        "duration": 5
       },
       {
-        "title": "Influence Tactics",
-        "name": "Foot‑in‑the‑door",
-        "icon": "🚪"
+        "text": "You give opinions; they give you power.",
+        "duration": 5
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Gaslighting",
-        "icon": "💔"
+        "text": "The unseen trigger: a single word can split your loyalties.",
+        "duration": 5
       },
       {
-        "title": "Behavior Prediction",
-        "name": "Pattern Recognition",
-        "icon": "🔍"
+        "text": "Imagine mastering that trigger—no more being followed.",
+        "duration": 4
       },
       {
-        "title": "Persuasion Loops",
-        "name": "Repetition",
-        "icon": "🔁"
+        "text": "If you ignore this, you'll be prey in an invisible war.",
+        "duration": 4
       },
       {
-        "title": "Neuro Hacks",
-        "name": "Synaptic Priming",
-        "icon": "🧠"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: The secret code in headlines that fuels manipulation.",
+        "duration": 4
       }
     ]
   },
@@ -12475,7 +12463,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -13364,49 +13352,43 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
-    "closing": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Labyrinthine Bacteria",
-        "name": "MorphoBend",
-        "icon": "🌀"
+        "text": "Nobody talks about the truth of MicroBioscapes.",
+        "duration": 5
       },
       {
-        "title": "Nano Plant Roots",
-        "name": "RootGlow",
-        "icon": "🌱"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Micro Life Canvas",
-        "name": "CelliCanvas",
-        "icon": "🎨"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Symbiotic Pods",
-        "name": "SymbioSphere",
-        "icon": "🌐"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Fungal Metaballs",
-        "name": "FungiWave",
-        "icon": "🍄"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Archaea Timecapsules",
-        "name": "ArchaVortex",
-        "icon": "🌀"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Microhtag Landscapes",
-        "name": "Tagomorph",
-        "icon": "🏞️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Microbiome Web",
-        "name": "Plexicore",
-        "icon": "🕸️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
