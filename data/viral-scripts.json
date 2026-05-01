@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12309,10 +12309,57 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Nutrition",
+        "name": "Raw Sweet Potato Salad",
+        "icon": "🥔"
+      },
+      {
+        "title": "Exercise",
+        "name": "20‑Minute HIIT Circuit",
+        "icon": "🏋️‍♂️"
+      },
+      {
+        "title": "Sleep",
+        "name": "Blue‑Light Blocking Routine",
+        "icon": "🌙"
+      },
+      {
+        "title": "Mindfulness",
+        "name": "5‑Minute Breathwork Flash",
+        "icon": "🧘‍♀️"
+      },
+      {
+        "title": "Supplements",
+        "name": "NAD+ Precursors",
+        "icon": "💊"
+      },
+      {
+        "title": "Technology",
+        "name": "Wearable Bio‑feedback",
+        "icon": "⌚"
+      },
+      {
+        "title": "Social Connection",
+        "name": "Micro‑Community Chats",
+        "icon": "👥"
+      },
+      {
+        "title": "Environment",
+        "name": "Blue‑Inhibition Light Therapy Box",
+        "icon": "📦"
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12340,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12349,97 +12396,50 @@
       }
     ]
   },
-  "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
-      {
-        "title": "Hidden Tokens",
-        "name": "MoonBeam",
-        "icon": "💎"
-      },
-      {
-        "title": "Lizard Leverage",
-        "name": "X‑Factor",
-        "icon": "📈"
-      },
-      {
-        "title": "Smart Contract Hacks",
-        "name": "Vortex",
-        "icon": "🔒"
-      },
-      {
-        "title": "Cross‑Chain ARK",
-        "name": "Atlas",
-        "icon": "🚀"
-      },
-      {
-        "title": "Protocol Predators",
-        "name": "Griffin",
-        "icon": "🐻"
-      },
-      {
-        "title": "Yield Yields",
-        "name": "Echo",
-        "icon": "💹"
-      },
-      {
-        "title": "Gas-Speed Gauntlet",
-        "name": "Giga",
-        "icon": "⚡"
-      },
-      {
-        "title": "Chain Whisperer",
-        "name": "Pulse",
-        "icon": "🎯"
-      }
-    ]
-  },
   "DarkPsychologyPower": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Fear Leverage",
-        "name": "The Fear Ladder",
-        "icon": "🕷️"
-      },
-      {
-        "title": "Mirroring",
-        "name": "The Mirror Trick",
-        "icon": "🪞"
-      },
-      {
-        "title": "Anchoring",
-        "name": "Anchor Pulse",
-        "icon": "⚓"
-      },
-      {
-        "title": "Scarcity",
-        "name": "Limited Offer Pulse",
-        "icon": "⏰"
+        "title": "Persuasion",
+        "name": "Scarcity Principle",
+        "icon": "🚫"
       },
       {
         "title": "Social Proof",
-        "name": "Bandwagon Bomb",
+        "name": "Bystander Effect Hacker",
         "icon": "👥"
       },
       {
-        "title": "Authority",
-        "name": "Authority Mirage",
-        "icon": "👑"
+        "title": "Emotion Leverage",
+        "name": "Mirror Neuron Trigger",
+        "icon": "🪞"
       },
       {
-        "title": "Commitment",
-        "name": "Foot‑in‑Door Tactic",
+        "title": "Control Tactics",
+        "name": "Cognitive Dissonance Drill",
+        "icon": "🔄"
+      },
+      {
+        "title": "Power Dynamics",
+        "name": "Foot-in-the-Door Flip",
         "icon": "🚪"
       },
       {
-        "title": "Liking",
-        "name": "Miracle Compliment",
-        "icon": "💬"
+        "title": "Memory Manipulation",
+        "name": "Retroactive Legend",
+        "icon": "📚"
+      },
+      {
+        "title": "Authority",
+        "name": "Silly Authority Mask",
+        "icon": "🎭"
+      },
+      {
+        "title": "Fear",
+        "name": "Imaginary Threat Layer",
+        "icon": "😱"
       }
     ]
   },
@@ -13364,43 +13364,49 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of MicroBioscapes.",
-        "duration": 5
+        "title": "Underground City",
+        "name": "Manganese Mine Microflora",
+        "icon": "🏙️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Aquatic Dreamscape",
+        "name": "Deep‑Sea Thermophiles Cluster",
+        "icon": "🐟"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Viral Conspiracy",
+        "name": "Bacteriophage Dark Web",
+        "icon": "🦠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Time Capsule",
+        "name": "Frozen Permafrost Symbiotes",
+        "icon": "❄️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Urban Jungle",
+        "name": "Skyscraper Rainforest Bacteria",
+        "icon": "🌆"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Celestial Void",
+        "name": "Space Dust Microbe Colony",
+        "icon": "🌌"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Fungal Sentience",
+        "name": "Lichen Nano‑Network",
+        "icon": "🌿"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Chemical Alchemy",
+        "name": "Hydrothermal Sulphur Micro‑Engine",
+        "icon": "⚡"
       }
     ]
   },

@@ -15785,6 +15785,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes taps into a instantly shareable visual gap—people are fascinated by the impossible, ultra‑high‑resolution footage of living organisms at a scale they rarely see. The niche is fresh, creation‑friendly (microscopes and software are accessible), and supports endless curiosity loops with every new species, phenomenon, or tiny artificial creation. Its emotion‑rich, awe/fear blend keeps viewers watching, while the replay value of 4K/8K micro‑scapes scales up quickly to meet 1M‑sub and 100K‑view targets.",
+      "ideas": [
+        "10 Mind‑Blowing Microscopic Lifeforms You Can Only See in a Smartphone Camera Lens – \"Hold this back for 5 seconds and keep watching…\"",
+        "Why the Sea’s Tiny Plastics Are Like an Alien Factory—Microscope Footage That Will Shatter Your Perspective – \"We’ve found something that moves like a tiny robotic swarm!\"",
+        "The Hidden Dance of Microbes Inside a Drop of Water—Microscopic 4K Footage That Will Make You Stop and Listen – \"The tiny world // The big mystery.\""
+      ],
+      "keywords": [
+        "UltraResolution",
+        "NeonGlow",
+        "MacroMasterpiece",
+        "CellularGlitz",
+        "NanoBloom"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
