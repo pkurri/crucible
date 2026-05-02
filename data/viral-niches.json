@@ -16248,6 +16248,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NanoDrugDelivery",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Awe",
+      "reason": "Nanomedicine is a hot, science‑centric trend with limitless visual potential. Faceless videos can showcase stunning microscope footage and 3‑D renders of nanoparticles navigating cells—perfect for scroll‑stopping hooks and curiosity loops. The topic is unique, highly educational, yet highly visual, ensuring scalability across 25+ ideas.",
+      "ideas": [
+        "Inside the Invisible Soldiers: How Nanoparticles Fight Cancer – 60 Seconds of Microscopic Warfare – Hook: \"What if your medication could dodge blood vessels and land straight on a tumor? Witness the unseen battle.\"",
+        "The Secret Life of a Pill – Tiny Nanobots Delivering Medicine in Real‑Time (ASMR) – Hook: \"Ever wonder what happens inside your body after you swallow a pill? Let us take you on the microscopic journey.\"",
+        "Microscopic Mission: Scientists Build Nanodevice That Talks to Your Immune System – Origami‑Like Nanobots in Action – Hook: \"See how a robot designed from a paper crane can scan a cell wall and give precision medicine a new meaning.\""
+      ],
+      "keywords": [
+        "microscopic",
+        "nanoparticles",
+        "cellular invasion",
+        "bioluminescent",
+        "swarm robotics"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
