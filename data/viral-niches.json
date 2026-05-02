@@ -16059,6 +16059,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes offers a visually stunning, largely unexplored angle on biology that sparks awe and scientific wonder. The niche differentiates itself from mainstream nature channels by focusing on sub-millimeter worlds, promising endless time-lapse, slow‑motion, and surprising facts that keep viewers scrolling and looping. Its ability to produce highly shareable, short bite‑size clips makes it ideal for viral growth across meta platforms and limitless idea generation for over 25 unique video concepts.",
+      "ideas": [
+        "6 Microscopic Creatures That Are BIGGER Than You Think – One Minute Reveal!",
+        "What Lies Beneath Your Coffee? The Most Dangerous Microorganism Inside Your Cup (Time‑Lapse)",
+        "The Colorful Life Cycle of a Tiny Fungus – 60‑Second Slow‑Mo Journey"
+      ],
+      "keywords": [
+        "microscopic",
+        "ultra close",
+        "time‑lapse",
+        "colorful",
+        "slow‑motion"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

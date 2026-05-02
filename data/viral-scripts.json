@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12309,84 +12309,96 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Raw Sweet Potato Salad",
+        "icon": "🥔"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "20‑Minute HIIT Circuit",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue‑Light Blocking Routine",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "5‑Minute Breathwork Flash",
+        "icon": "🧘‍♀️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Bio‑feedback",
+        "icon": "⌚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social Connection",
+        "name": "Micro‑Community Chats",
+        "icon": "👥"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Blue‑Inhibition Light Therapy Box",
+        "icon": "📦"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hidden Tokens",
+        "name": "MoonBeam",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Lizard Leverage",
+        "name": "X‑Factor",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Smart Contract Hacks",
+        "name": "Vortex",
+        "icon": "🔒"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cross‑Chain ARK",
+        "name": "Atlas",
+        "icon": "🚀"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Protocol Predators",
+        "name": "Griffin",
+        "icon": "🐻"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Yield Yields",
+        "name": "Echo",
+        "icon": "💹"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Gas-Speed Gauntlet",
+        "name": "Giga",
+        "icon": "⚡"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Chain Whisperer",
+        "name": "Pulse",
+        "icon": "🎯"
       }
     ]
   },
@@ -12422,7 +12434,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -12432,43 +12444,49 @@
     ]
   },
   "GeopoliticalCollapseWatch": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GeopoliticalCollapseWatch secrets you need to know.",
+    "closing": "If you want to master GeopoliticalCollapseWatch, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
-        "duration": 5
+        "title": "Energy",
+        "name": "Oil Glut",
+        "icon": "🛢️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Military",
+        "name": "Arms Race",
+        "icon": "💣"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Economy",
+        "name": "Debt Spiral",
+        "icon": "💸"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Politics",
+        "name": "Authoritarian Surge",
+        "icon": "🏛️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Technology",
+        "name": "Cyber Warfare",
+        "icon": "🕸️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Resource Scarcity",
+        "icon": "🌪️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Migration",
+        "name": "Mass Exodus",
+        "icon": "🚶"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more GeopoliticalCollapseWatch.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Space",
+        "name": "Space Race Resumes",
+        "icon": "🚀"
       }
     ]
   },
