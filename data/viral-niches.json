@@ -15930,6 +15930,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroStructureExploration",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Every household item hides a densely packed micro‑architecture that few people know exists. By magnifying these hidden structures with high‑speed cameras, close‑up footage, and dramatic storytelling, the niche taps into universal curiosity about the unseen, creates instant scroll‑stopping moments, and supports a vast library of 25+ ideas ranging from everyday objects to industrial components.",
+      "ideas": [
+        "The Invisible 100x-Scale Hidden Inside a Coffee Mug – See the Micro-World Unfold! / Hook: \"What if I told you your mug holds a secret world bigger than you think, invisible to your eyes but revealed under a microscope?\"",
+        "Caught on Camera: The Secret Micro-Engine Lying Under a Common Bottle Cap! / Hook: \"Every bottle cap has a hidden micro-engine that powers its shape – watch the reveal!\"",
+        "From Handgun to Pillow: Micro-Construction Gone Wrong – Shocking Hidden Lattice Revealed! / Hook: \"Explore the microscopic lattice that made a toy a disaster – the truth behind everyday materials.\""
+      ],
+      "keywords": [
+        "nano",
+        "microscopic",
+        "hidden",
+        "reveal",
+        "microscope"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
