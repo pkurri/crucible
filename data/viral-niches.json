@@ -16196,6 +16196,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "With climate change narratives booming, the dramatic disappearance of coastal landscapes—small islands, harbors, historic shorelines—offers instant shareability. Each episode can showcase eye‑catching drone and satellite time‑lapse footage, AI reconstructions of lost land, and urgent stories that hook viewers into a curiosity loop: \"Where did it go?\" and \"Can it be saved?\" This niche combines viral potential with endless content opportunities, allowing 25+ unique stories easily.",
+      "ideas": [
+        "The Vanished Skyscraper: How an Entire Dubai Precinct Fell Into the Desert – You Won’t Believe the Drone View!",
+        "Tidal Terror: Watch How the Entire Small Island of Grenada Disappears in 24 Hours – What’s Behind the Shock?",
+        "Lost City of the Sea: Using AI to Reconstruct a Forgotten Port Before It Erases Forever – Are We Witnessing History's Final Blink?"
+      ],
+      "keywords": [
+        "time‑lapse",
+        "drone footage",
+        "AI reconstruction",
+        "satellite imagery",
+        "coastal erosion"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
