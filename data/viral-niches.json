@@ -16119,7 +16119,32 @@
         "The 3D World Inside a Coffee Mug: Microscopic Life Exposed! / Hook: Hold your mug and watch an unseen universe bloom.",
         "Unmasking the Microbial Brain‑storm on Your Phone: 5 Seconds Reveals 5,000–10,000 Microbes! / Hook: Your phone might be a living ecosystem.",
         "The Hidden Bioluminescent Colony on Your Bathroom Whiteboard: Real Science or Magic? / Hook: Light up the darkness with microbes."
-      ]
+      ],
+      "priority": false
+    },
+    {
+      "name": "MicrobialMelodies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Wonder",
+      "reason": "Microbial sound is a rarely explored intersection of microbiology and acoustic art that quickly captivates audiences with awe‑inducing visuals and uncanny audio. The niche is fresh—most science content focuses on images, not sound—allowing high differentiation. Its inherent scroll‑stopping hooks (e.g., bacteria singing, viruses harmonizing in plants) naturally create curiosity loops and ensure shareability across social feeds, while the potential for endless micro‑organism varieties offers scalability to produce 25+ unique video concepts.",
+      "ideas": [
+        "Bacteria Just Caught a Song 🎶 The Micro‑World’s Hidden Choir! – What if microbes could sing? We recorded the first ever bacterial choir.",
+        "Viruses Singing in Your Potted Plant? 🌱 Inside the Ear of Microbes – Scientists discovered that plant viruses produce harmonic vibrations. Watch our live experiment.",
+        "Microbe Music Therapy: Silence, Sound & Survival 🐜 The Science Behind Bacterial Beats – Can bacteria’s pulse help in noise pollution? We decode the science behind microbe‑generated music."
+      ],
+      "keywords": [
+        "MicroscopicSound",
+        "BacterialChoir",
+        "UndergroundMusic",
+        "MicroBioSymphony",
+        "LiquidMelody"
+      ],
+      "voice": "en-US-JennyNeural",
+      "priority": true
     }
   ]
 }
