@@ -16104,7 +16104,22 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes blends the growing fascination with macro‑microscopic science, the visual drama of unseen life, and the everyday reach of relatable objects. It offers instantly eye‑catching footage that fuels scroll‑stopping hooks, opens endless curiosity loops (what is living inside your fridge? on your phone?), and scales across countless micro‑themes—two decades of hype around STEM, DIY science, and the ‘see‑it‑to‑believe‑it’ filter culture continue to drive engagement. This niche is under‑exploited: most macro channels focus on plants or insects, while MicroBioscapes dives into the hidden microbial ecosystems that sit in any urban or household surface, unlocking a novel, high‑avalanche potential for repeated viral content.",
+      "ideas": [
+        "The 3D World Inside a Coffee Mug: Microscopic Life Exposed! / Hook: Hold your mug and watch an unseen universe bloom.",
+        "Unmasking the Microbial Brain‑storm on Your Phone: 5 Seconds Reveals 5,000–10,000 Microbes! / Hook: Your phone might be a living ecosystem.",
+        "The Hidden Bioluminescent Colony on Your Bathroom Whiteboard: Real Science or Magic? / Hook: Light up the darkness with microbes."
+      ]
     }
   ]
 }
