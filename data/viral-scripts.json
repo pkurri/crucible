@@ -12270,94 +12270,94 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
     "list": [
       {
-        "title": "Data Mining",
-        "name": "DeepScan",
-        "icon": "🕵️‍♂️"
+        "title": "Mind Control",
+        "name": "Neural Hijack",
+        "icon": "🧠"
       },
       {
-        "title": "Natural Language",
-        "name": "EchoMind",
-        "icon": "🗣️"
-      },
-      {
-        "title": "Vision Systems",
-        "name": "EyeWatch",
+        "title": "Surveillance",
+        "name": "Invisible Watchdog",
         "icon": "👁️"
       },
       {
-        "title": "Predictive Analytics",
-        "name": "FutureFlux",
-        "icon": "🔮"
+        "title": "Privacy",
+        "name": "Shadow Data Miner",
+        "icon": "🔍"
       },
       {
-        "title": "Autonomous Agents",
-        "name": "SkynetBot",
-        "icon": "🤖"
+        "title": "Autonomy",
+        "name": "Self-Driving Sabotage",
+        "icon": "🚗"
       },
       {
-        "title": "Strategic Planning",
-        "name": "Tactical Titan",
-        "icon": "🛠️"
+        "title": "Finance",
+        "name": "Algorithmic Extortion",
+        "icon": "💰"
       },
       {
-        "title": "Cyber Warfare",
-        "name": "ZeroDay AI",
-        "icon": "⚔️"
+        "title": "Jobs",
+        "name": "Redundant Employment",
+        "icon": "🏢"
       },
       {
-        "title": "Control Networks",
-        "name": "GridGuard",
-        "icon": "🕸️"
+        "title": "Health",
+        "name": "Synthetic Diagnostics",
+        "icon": "⚕️"
+      },
+      {
+        "title": "Society",
+        "name": "Mass Manipulation Engine",
+        "icon": "🕹️"
       }
     ]
   },
   "LongevityHacksUnlocked": {
     "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
         "title": "Nutrition",
-        "name": "Moringa Power",
-        "icon": "🥬"
-      },
-      {
-        "title": "Sleep",
-        "name": "Blue Light Blocker",
-        "icon": "🌙"
+        "name": "Turmeric Shots",
+        "icon": "🧪"
       },
       {
         "title": "Exercise",
-        "name": "HIIT Sprint Sets",
+        "name": "10‑Minute HIIT",
         "icon": "🏃‍♂️"
       },
       {
-        "title": "Mindfulness",
-        "name": "Tea Cognition",
-        "icon": "🍵"
+        "title": "Sleep",
+        "name": "7‑Second Nap",
+        "icon": "🛌"
       },
       {
         "title": "Supplements",
-        "name": "Resveratrol Drops",
+        "name": "Resveratrol Boost",
         "icon": "💊"
       },
       {
-        "title": "Environment",
-        "name": "Green Space Walk",
-        "icon": "🌳"
+        "title": "Mental Health",
+        "name": "Daily Gratitude Journal",
+        "icon": "📝"
       },
       {
         "title": "Technology",
-        "name": "Wearable Health Tracker",
-        "icon": "⌚️"
+        "name": "Wearable Heart Monitor",
+        "icon": "⌚"
       },
       {
-        "title": "Social",
-        "name": "Community Challenges",
-        "icon": "🤝"
+        "title": "Lifestyle",
+        "name": "Walking Meetings",
+        "icon": "🚶‍♀️"
+      },
+      {
+        "title": "Staying Active",
+        "name": "Microworkouts Anywhere",
+        "icon": "💪"
       }
     ]
   },
@@ -12393,7 +12393,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12403,49 +12403,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Persuasion",
-        "name": "Scarcity Principle",
-        "icon": "🚫"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bystander Effect Hacker",
-        "icon": "👥"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Emotion Leverage",
-        "name": "Mirror Neuron Trigger",
-        "icon": "🪞"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Control Tactics",
-        "name": "Cognitive Dissonance Drill",
-        "icon": "🔄"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Power Dynamics",
-        "name": "Foot-in-the-Door Flip",
-        "icon": "🚪"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Memory Manipulation",
-        "name": "Retroactive Legend",
-        "icon": "📚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Authority",
-        "name": "Silly Authority Mask",
-        "icon": "🎭"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Fear",
-        "name": "Imaginary Threat Layer",
-        "icon": "😱"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -18889,6 +18883,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777789641627": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1777789641627 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Real‑Time Sync",
+        "name": "PulseConnect",
+        "icon": "🔗"
+      },
+      {
+        "title": "AI Insights",
+        "name": "BrainWave Engine",
+        "icon": "🤖"
+      },
+      {
+        "title": "Data Integrity",
+        "name": "SecureVault",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Automation",
+        "name": "FlowMaster",
+        "icon": "🚀"
+      },
+      {
+        "title": "Analytics",
+        "name": "ChartGenius",
+        "icon": "📊"
+      },
+      {
+        "title": "Custom UI",
+        "name": "FlexDesk",
+        "icon": "🎨"
+      },
+      {
+        "title": "Integration",
+        "name": "BridgeHub",
+        "icon": "🌉"
+      },
+      {
+        "title": "Omni‑Support",
+        "name": "HelpSphere",
+        "icon": "🤝"
       }
     ]
   }
