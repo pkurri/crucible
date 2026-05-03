@@ -16514,6 +16514,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The microscopic realm is a largely untapped visual goldmine with endless variations, from biofilms to engineered microbes. High‑definition macro footage gives viewers an ever‑changing, almost otherworldly aesthetic that excites curiosity, fear, and wonder. The niche supports scroll‑stopping hooks (e.g., “first-ever footage”), endless curiosity loops, and viral memes that can spread across social media. Its scientific angle keeps the content evergreen, while the visual spectacle makes each video shareable, ensuring sustained growth toward 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "The World’s Most Dangerous Microscopic City Revealed! — 1 minute deep‑dive into a 1‑µm biome that could rewrite biology.",
+        "We Caught These Microorganisms Capturing Each Other in 4K! — Witness the first ever microscopic battle scene.",
+        "Microbe Invasion: The Hidden Life Growing on Your Skin — 30‑second mind‑blown montage of the skin ecosystem."
+      ],
+      "keywords": [
+        "MacroLens",
+        "MicroscopicWorld",
+        "BacteriaLife",
+        "CellularWorld",
+        "MicroLife"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
