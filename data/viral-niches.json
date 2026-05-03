@@ -16469,6 +16469,30 @@
         "SurrealGlitch"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "Vanishing coastlines tap into the urgent narrative of climate change, combining shocking visual time‑lapse footage, real‑world case studies of disappearing towns, and expert predictions that trigger a strong emotional response. The niche is highly shareable on Meta and lends itself to a steady stream of evergreen content—each lost town, each predicted year, each citizen story—allowing over 25 unique viral ideas while maintaining high retention with hooks that ask “Why did this happen?” and “Could it be happening to you?”.",
+      "ideas": [
+        "This Creepy Small Town Vanished in 2024—Could Your Neighborhood Disappear?",
+        "5 Forgotten Coastal Cities Lost to the Ocean, Shown in 30‑Second Time‑Lapse",
+        "The Easiest Way to Predict Which Coasts Will Disappear Next—Science Explained"
+      ],
+      "keywords": [
+        "time-lapse",
+        "erosion",
+        "sea-level",
+        "ancient map",
+        "flood simulation"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
