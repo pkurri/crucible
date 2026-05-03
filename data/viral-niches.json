@@ -16300,6 +16300,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The urgent climate crisis has driven unprecedented public interest in visualizing changing coastlines. VanishingCoastlines merges high‑impact climate data with dynamic AR overlays and time‑lapse footage, offering clear, emotionally charged narratives that encourage sharing and debate. The niche is differentiated by its focus solely on sea‑level rise visualized through historic vs. projected coastlines, attracting both science‑curious audiences and emotionally engaged viewers. With strong scroll‑stopping hooks, curiosity loops (e.g., “What if this beach disappears? 10 years later”), and abundant data sets, it can generate >25 unique viral concepts that unify across Meta and YouTube platforms.",
+      "ideas": [
+        "The Last 10 Beaches That Will Vanish by 2035 – You Won’t Believe How Much They’ll Disappear / The future of our coastlines unraveled in 30 seconds",
+        "See the U.S. Map 2000‑2020 VS 2070 – Watch Your Familiar Shores Slip Into the Ocean / Time‑travel cast of America’s disappearing shorelines",
+        "Future Coastline AR: Walk This Path in 50 Years – What If You Could Step on the Land That No Longer Exists? / AR journey to tomorrow’s beach in 15 seconds"
+      ],
+      "keywords": [
+        "SeaLevelRise",
+        "CoastlineTimeLapse",
+        "ARMapOverlay",
+        "FutureCoastline",
+        "ClimateChangeVisual"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

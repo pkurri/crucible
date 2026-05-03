@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12309,49 +12309,43 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Moringa Power",
-        "icon": "🥬"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue Light Blocker",
-        "icon": "🌙"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "HIIT Sprint Sets",
-        "icon": "🏃‍♂️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mindfulness",
-        "name": "Tea Cognition",
-        "icon": "🍵"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Resveratrol Drops",
-        "icon": "💊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Environment",
-        "name": "Green Space Walk",
-        "icon": "🌳"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Technology",
-        "name": "Wearable Health Tracker",
-        "icon": "⌚️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Community Challenges",
-        "icon": "🤝"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12387,7 +12381,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12397,49 +12391,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Fear Leverage",
-        "name": "The Fear Ladder",
-        "icon": "🕷️"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Mirroring",
-        "name": "The Mirror Trick",
-        "icon": "🪞"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Anchoring",
-        "name": "Anchor Pulse",
-        "icon": "⚓"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Scarcity",
-        "name": "Limited Offer Pulse",
-        "icon": "⏰"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bandwagon Bomb",
-        "icon": "👥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Authority",
-        "name": "Authority Mirage",
-        "icon": "👑"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Commitment",
-        "name": "Foot‑in‑Door Tactic",
-        "icon": "🚪"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Liking",
-        "name": "Miracle Compliment",
-        "icon": "💬"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12475,7 +12463,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -13149,7 +13137,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master VanishingCoastlines, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -18800,6 +18788,47 @@
       },
       {
         "text": "Next up: How nano‑lifesavers fight viral pandemics.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777756382869": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine a neon liquid flowing through your mind.",
+        "duration": 5
+      },
+      {
+        "text": "What if every data point was a spark of inspiration?",
+        "duration": 4
+      },
+      {
+        "text": "Neural nets recast car interiors as liquid neon veins.",
+        "duration": 5
+      },
+      {
+        "text": "Each conn, a data point, pulses like a hypercar engine.",
+        "duration": 5
+      },
+      {
+        "text": "The twist? ApexFlow transforms your own brain into the ride.",
+        "duration": 5
+      },
+      {
+        "text": "Still wondering how this electrifies your workflow?",
+        "duration": 4
+      },
+      {
+        "text": "Every cheat code? It’s revealed in the next frame.",
+        "duration": 4
+      },
+      {
+        "text": "If you want ApexFlow_1777756382869 mastery, subscribe now.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: unlocking the neural right lane.",
         "duration": 4
       }
     ]
