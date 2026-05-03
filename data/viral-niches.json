@@ -16445,6 +16445,30 @@
         "AnimatedAnimation"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticDreamscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combines the ongoing AI art craze with the timeless lure of dream imagery. AI-generated dreamscapes provide endless unique visuals that can be paired with mysterious narratives, making each clip a scroll‑stopper. The concept taps into current neuro‑tech and speculative fiction discussions, guaranteeing broad appeal and ease of content iteration.",
+      "ideas": [
+        "What This AI Dream Feels Like to a Human Viewer – The Heartbeat in a Neon Storm / Hook: \"Every time the AI glitches, a new world blooms. Watch how we translate those digital whispers into human emotions.\"",
+        "AI Unleashes a Dreamscape with Hidden Messages About Climate Change / Hook: \"Beyond the colors, this surreal city hides symbols predicting our planet’s future. Can you spot them before the sunset?\"",
+        "From Lab to Screen: The First AI Dream That Makes You Question Reality / Hook: \"Three minutes in, your brain may switch to alpha. See the scene that challenges the line between imagination and perception.\""
+      ],
+      "keywords": [
+        "NeonFractal",
+        "SublimePulse",
+        "BioluminescentNebula",
+        "QuantumRipple",
+        "SurrealGlitch"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
