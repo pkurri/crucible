@@ -16538,6 +16538,30 @@
         "MicroLife"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SynestheticSoundscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The explosion of AI‑generated music visualizers, rising TikTok trends around ‘seeing sound’, and growing public fascination with synesthesia create a perfect storm for faceless, high‑retention videos that turn audio into mesmerizing color‑motion art.",
+      "ideas": [
+        "Seeing Beethoven’s 5th as a Neon Storm: What If You Could Hear Colors?",
+        "When Bass Drops Turn Into Liquid Light: AI‑Generated Synesthetic Journey",
+        "From Silence to Spectrum: Visualizing a 3‑Hour Ambient Soundscape in 60 Seconds"
+      ],
+      "keywords": [
+        "vibrant sound waves",
+        "colorful frequencies",
+        "neon audio pulses",
+        "synesthetic patterns",
+        "immersive beats"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
