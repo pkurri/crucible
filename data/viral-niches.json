@@ -16397,6 +16397,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroplasticMatrix",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Microplastics are a growing global crisis that people are just beginning to see in vivid detail. Visualizing the unseen, shattering myths on how many particles exist in a single drop, offers a powerful combination of education, shock, and urgency—perfect for scroll‑stopping hooks and curiosity loops. With limited niche saturation, it can quickly dominate evergreen channels on eco‑warfare and science, while being easily adapted for short‑form and long‑form formats.",
+      "ideas": [
+        "You Won’t Believe How Many Microparticles Are in a Drop of Ocean Water! (Shocking Reveal)",
+        "The Hidden Microplastic City Under Our Feet—What Does It Look Like? (Eye‑Opening Journey)",
+        "Microscopic Meltdown: When Microplastics Turn the Ocean into a Toxic Lab (Urgent Call to Action)"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Shocking",
+        "Eco‑Hazard",
+        "Breathtaking",
+        "Hidden"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
