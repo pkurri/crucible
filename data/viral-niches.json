@@ -16324,6 +16324,30 @@
         "ClimateChangeVisual"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FutureFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "FutureFoodTech taps into the global urgency around sustainable nourishment while offering jaw‑dropping, visual proof of science in action—3‑D printed burgers, algae‑based beverages, and insect protein spirals. The niche is intuitive for faceless storytelling, rich in remixable footage, and inherently share‑worthy across social and informational platforms, making it ripe to hit 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "The 3‑D Printed Explosion: How AI‑Designed Burgers Are Changing the Food Game / Imagine a burger that melts in seconds—watch the first fully 3‑D printed taste test!",
+        "Cell‑Farmed Weekend: From Cell to Carving Plate in 24 Hours / Meet the future of steak made with a single lab‑grown cell—this video breaks size, taste, and price myths!",
+        "Insects Over CBD: The Crunchy Protein Revolution / Try the world’s most exciting protein—rotten, crunchy, sustainable. See why everyone wants a bite."
+      ],
+      "keywords": [
+        "3DPrintedBurger",
+        "LabGrownMeat",
+        "EdibleInsects",
+        "AlgaeDrinks",
+        "VerticalFarmingCity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
