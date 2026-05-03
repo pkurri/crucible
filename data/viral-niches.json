@@ -16607,6 +16607,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of preparing meals in microgravity engages both culinary curiosity and the profound allure of space exploration. With growing public interest in commercial spaceflight, the novelty of floating ingredients, foam rhythms, and unpredictable kitchen physics generates instant shareability. It offers a flexible, evergreen framework—any dish can be transformed into a zero‑gravity spectacle—ensuring limitless content ideas that hook viewers with striking visual paradoxes and the promise of unseen food science.",
+      "ideas": [
+        "How to Make a Salad After a Zero‑Gravity Shake? – You'll Be Stunned!",
+        "5 Unbelievable Ways to Cook Pizza in Space – No Gravity Needed!",
+        "The Science of Spaghetti in Orbit – Why It Doesn’t Stick, and How It Flies"
+      ],
+      "keywords": [
+        "floating kitchen",
+        "microgravity cooking",
+        "space food",
+        "zero‑gravity chef",
+        "cosmic culinary"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

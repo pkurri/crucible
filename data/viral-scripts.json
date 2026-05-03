@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12350,84 +12350,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hidden Forks",
+        "name": "CoinFlip Surge",
+        "icon": "🔀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Quantum Signals",
+        "name": "Algorand Prism",
+        "icon": "✨"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Insider Index",
+        "name": "WhaleWatch 3000",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Secret Staking",
+        "name": "Luna Swap Vault",
+        "icon": "⚔️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Gas King",
+        "name": "Shiba Gas Leak",
+        "icon": "🚀"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Pump Protocol",
+        "name": "FlexiPool Engine",
+        "icon": "🎚️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Alpha Bots",
+        "name": "Dune Arbitrage",
+        "icon": "🛠️"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Liquidity Lurkers",
+        "name": "Uniswap Tunnel",
+        "icon": "🕳️"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Scarcity Principle",
+        "icon": "🚫"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bystander Effect Hacker",
+        "icon": "👥"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Emotion Leverage",
+        "name": "Mirror Neuron Trigger",
+        "icon": "🪞"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Control Tactics",
+        "name": "Cognitive Dissonance Drill",
+        "icon": "🔄"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Power Dynamics",
+        "name": "Foot-in-the-Door Flip",
+        "icon": "🚪"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Memory Manipulation",
+        "name": "Retroactive Legend",
+        "icon": "📚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Authority",
+        "name": "Silly Authority Mask",
+        "icon": "🎭"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Fear",
+        "name": "Imaginary Threat Layer",
+        "icon": "😱"
       }
     ]
   },
@@ -16136,49 +16148,43 @@
     ]
   },
   "ZeroGravityKitchen": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 ZeroGravityKitchen secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Wheeler-less Utensils",
-        "name": "Neptune Stirring Arm",
-        "icon": "🌀"
+        "text": "What if your dinner levitated in 3D?",
+        "duration": 5
       },
       {
-        "title": "Zero-Gravity Fryers",
-        "name": "Stellar Skillet",
-        "icon": "🥞"
+        "text": "Imagine flavors dancing like comet tail sparks.",
+        "duration": 4
       },
       {
-        "title": "Floating Fridge",
-        "name": "Orbit Cool",
-        "icon": "❄️"
+        "text": "Raw veggies drift, zero gravity turns them into boomerangs.",
+        "duration": 5
       },
       {
-        "title": "Anti-Gravity Spice Rack",
-        "name": "Cosmic Scent™",
-        "icon": "🌌"
+        "text": "Sautéing becomes a ballet; oil splashes rewrite physics.",
+        "duration": 5
       },
       {
-        "title": "Nano-Prep Stations",
-        "name": "Quark Chopper",
-        "icon": "🔪"
+        "text": "A single whisk launch creates edible galaxies that swirl.",
+        "duration": 5
       },
       {
-        "title": "Silent Appliances",
-        "name": "Velvet Vacuum Oven",
-        "icon": "🍞"
+        "text": "Stay to see the secret that turns foam into 3‑D art.",
+        "duration": 4
       },
       {
-        "title": "Energy Harvest",
-        "name": "Solar Slice",
-        "icon": "☀️"
+        "text": "Missing it means waste a whole universe of taste.",
+        "duration": 4
       },
       {
-        "title": "Safety Nanosensors",
-        "name": "Ion Shield",
-        "icon": "🛡️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next time, we’ll cook a pizza that spins like a planet.",
+        "duration": 4
       }
     ]
   },
