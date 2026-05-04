@@ -16897,6 +16897,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "HiddenMicroWorlds",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "The microscopic world is an endless source of wonder and discovery. Everyday objects, household items, and natural environments conceal vibrant, complex ecosystems that captivate viewers with their sheer scale and diversity. Faceless content—microscopic footage paired with engaging narration—has proven viral traction on YouTube and can easily cross‑platform to Meta’s Reels and Stories for quick, shareable bites. The niche offers endless creative possibilities, high engagement through visual intrigue, and aligns with current trends in science curiosity, sustainability, and urban exploration.",
+      "ideas": [
+        "You Won't Believe What Lives Under a Coffee Mug Cup – 4K Microscopic Time‑Lapse: Step Into a Tiny Jungle Hidden in Your Kitchen",
+        "The Secret Ecosystem In Your Garden Shed! – Microorganisms In Action: A Drop‑Sized World Revealed in Texture & Color",
+        "Hidden Microbial Cities In a Drop of Pond Water – What They Tell Us About Climate Change: Life, Society, and the Future Inside a Drop"
+      ],
+      "keywords": [
+        "Microscope",
+        "Macro",
+        "TimeLapse",
+        "Vibrant",
+        "Colorful"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
