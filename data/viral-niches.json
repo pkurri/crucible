@@ -16728,6 +16728,30 @@
         "miniature rocket"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Climate‑disaster narratives are currently trending worldwide, yet most content focuses on policy or personal stories. A faceless channel that showcases time‑lapse evidence of entire coastal cities disappearing—complete with dramatic countdowns, map overlays, and eerie ambient sound—offers a unique, high‑visual hook that aligns with the global urgency of sea‑level rise. The format naturally supports scroll‑stopper openings (e.g., “This coastline will be gone in ten seconds”), curiosity loops (“Who’s living in the next city?'), and can be replicated across a vast range of locales, ensuring scalability and endless viral potential.",
+      "ideas": [
+        "The Last Island: 50 Dangerous Places at Risk – 30‑second countdown of sinking cities",
+        "Flooded Memories: 98.1% of Coastal Homes Ruined in Five Minutes – a dramatic time‑lapse",
+        "Lost at Sea: The Unexpected Map of Vanished Nations – 90‑second epic map journey"
+      ],
+      "keywords": [
+        "TimeLapseDisaster",
+        "FloodedCity",
+        "ErodedCoast",
+        "LostSeaside",
+        "ClimateCatastrophe"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
