@@ -16800,6 +16800,30 @@
         "IslandDisappearance"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "GlowGraffiti",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Glowing street art that uses living bacteria creates a perfect blend of science and art, delivering arresting visual content that is both novel and share‑worthy. The niche supports rapid content iteration, punchy scroll‑stop hooks, and a high emotional payoff that has proven to attract large audiences focused on urban aesthetics and bio‑hacks.",
+      "ideas": [
+        "You Won’t Believe These Chicago Streets Are Naturally Glowing at Midnight! • How Bacteria Turn Concrete Into Neon",
+        "The Smallest City That Lights Up the Night—Bacterial Street Art in Singapore!",
+        "DIY Bioluminescent Graffiti: Turn Your Room Into a Glow‑Up Playground (No Special Paint Required)"
+      ],
+      "keywords": [
+        "Neon",
+        "Bacteria",
+        "Glow",
+        "Urban",
+        "Time‑Lapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

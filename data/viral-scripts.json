@@ -12268,125 +12268,143 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Job Automation",
+        "name": "CortexBot",
+        "icon": "🤖"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Data Theft",
+        "name": "QuantumOverride",
+        "icon": "🔒"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "EyeTracer",
+        "icon": "👀"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Economic Collapse",
+        "name": "FinSweep",
+        "icon": "💸"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Identity Theft",
+        "name": "PersonaPurge",
+        "icon": "🪞"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social Manipulation",
+        "name": "MoodMimic",
+        "icon": "🧠"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cyber Warfare",
+        "name": "FirewallFlee",
+        "icon": "⚔️"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Existential Risk",
+        "name": "SingularityTrigger",
+        "icon": "🌌"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Moringa Power",
+        "icon": "🥬"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocker",
+        "icon": "🌙"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT Sprint Sets",
+        "icon": "🏃‍♂️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "Tea Cognition",
+        "icon": "🍵"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol Drops",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Green Space Walk",
+        "icon": "🌳"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Health Tracker",
+        "icon": "⌚️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Social",
+        "name": "Community Challenges",
+        "icon": "🤝"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Signal Engines",
+        "name": "Momentum Amplifier",
+        "icon": "⚡"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Whale Moves",
+        "name": "Crypto Whale Whisperer",
+        "icon": "🐋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Indicators",
+        "name": "30-Span Stochastic Surge",
+        "icon": "📈"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Exploits",
+        "name": "Flash Loan Masking",
+        "icon": "🔒"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Pump Tactics",
+        "name": "Pump Triangle Protocol",
+        "icon": "🔥"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Sentiment",
+        "name": "Sentiment Squeeze Map",
+        "icon": "📊"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Tokenomics",
+        "name": "Inflation‑Resistant Token",
+        "icon": "🏦"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Volume Alerts",
+        "name": "Volume Surge Detector",
+        "icon": "🚀"
       }
     ]
   },
@@ -12422,7 +12440,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -19287,6 +19305,53 @@
         "title": "Photon Pulse Drift",
         "name": "Stellar Flow",
         "icon": "✨"
+      }
+    ]
+  },
+  "GlowGraffiti": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GlowGraffiti secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more GlowGraffiti.",
+    "list": [
+      {
+        "title": "Glow Tools",
+        "name": "Ultra‑Efex Brush",
+        "icon": "🖌️"
+      },
+      {
+        "title": "Light Layers",
+        "name": "Neon Silk Film",
+        "icon": "💫"
+      },
+      {
+        "title": "Pigmentation",
+        "name": "Phosphor Powder",
+        "icon": "⚡"
+      },
+      {
+        "title": "Color Theory",
+        "name": "Prism Spectrum Box",
+        "icon": "🌈"
+      },
+      {
+        "title": "Finish",
+        "name": "Glow‑Lock Varnish",
+        "icon": "✨"
+      },
+      {
+        "title": "Imaging",
+        "name": "Polar Flare Lens",
+        "icon": "📷"
+      },
+      {
+        "title": "Broadcast",
+        "name": "Night‑shot Software",
+        "icon": "🎥"
+      },
+      {
+        "title": "Maintenance",
+        "name": "UV Clean Pods",
+        "icon": "🧼"
       }
     ]
   }
