@@ -16973,6 +16973,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking blends the fascination of space exploration with everyday life hacks, offering visually stunning, reproducible content that taps into current interest in Mars missions and NASA projects. The niche is unique, easily faceless, and highly shareable, enabling rapid accumulation of over 100k views per video with endless spin‑off ideas such as \"Space‑Bread Challenge\" or \"Micro‑Gravity Smoothie Tech.\"",
+      "ideas": [
+        "The One Ingredient That Flies Perfectly on the Moon – Zero‑Gravity Baking for Beginners / 3 Tips to Get Super‑Light Dough in Microgravity!",
+        "How NASA Built a Whole Dessert Menu in Space – Ever Wondered What It Feels Like to Eat a Space Cookie?",
+        "The Great Zero‑Gravity Cooking Competition – Watch 10 Experts Try to Make a Complete Meal Without a Kitchen!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "Microgravity",
+        "NASA",
+        "SpaceBread"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
