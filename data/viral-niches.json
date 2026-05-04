@@ -16752,6 +16752,30 @@
         "ClimateCatastrophe"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Climate‑change disasters are turning iconic coastlines into disappearing memories. High‑resolution satellite time‑lapses coupled with dramatic sound design trigger visceral awe and urgency, while the subject is universally relevant. The niche remains under‑explored compared to broader climate content, yet the visual storytelling potential is immense, ensuring 25+ viral content variations.",
+      "ideas": [
+        "5 Ocean Trims That Vanished in 30 Years | Time‑Lapse – You Won’t Believe The Shoreline Is Gone!",
+        "The Shocking Reality of Vanishing South China Coast – Real Satellite Footage! | Sci‑Fi Meets Climate",
+        "Why Your Neighborhood Might Be Underwater Tomorrow – 48‑Hour TimeLapse of Florida’s Lost Coast"
+      ],
+      "keywords": [
+        "Satellite",
+        "TimeLapse",
+        "Crashing",
+        "Glitch",
+        "Underwater"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
