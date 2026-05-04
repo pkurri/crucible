@@ -16680,6 +16680,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentFood",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The convergence of food, science, and visual spectacle taps into a huge viral zeitgeist—people love glossy, glowing treats that look straight out of a sci‑fi movie. The niche is: 1) uniquely differentiated from existing food or bioluminescent niches; 2) offers instant scroll‑stopping hooks (glowing bowls, floating lights, midnight plating); 3) elicits wonder and curiosity; 4) scalability is high with recipe variations, ingredient sourcing hacks, and dinner‑party challenges that can spawn thousands of spin‑offs.",
+      "ideas": [
+        "Glowing Ice Cream That Punishes Darkness? 🌌 – Watch a spoon glide over creamy, bioluminescent dessert that changes hue with the light !!",
+        "How to Make a Dinner That Lights Up Your Kitchen 🌟 – Step‑by‑step guide to plating glowing cocktails, salads, and sushi for Instagram storms",
+        "The Secret Recipe Behind the Night‑Food Trend: Biolight Burgers! 🍔💡 – Unlock the science of edible glow and turn your grill into a neon laboratory"
+      ],
+      "keywords": [
+        "Glowing",
+        "Bioluminescent",
+        "EdibleLight",
+        "NightGlow",
+        "ColorfulFood"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
