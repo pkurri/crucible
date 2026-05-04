@@ -16921,6 +16921,30 @@
         "Colorful"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroDreamLink",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The convergence of consumer neuroscience, immersive VR and short‑form storytelling has created a bubble where audiences are hungry for content that visualizes the impossible—sharing and reliving dreams in a tangible, sensory way. With plenty of hooks (first‑person dream tours, real‑time dream sharing, dream tech comparisons) and ample narrative mileage, the niche supports scroll‑stopping short videos while encouraging repeat engagement through community dream sharing challenges.",
+      "ideas": [
+        "I Just Shared My Entire Dream LIVE – You Won’t Believe What Happened / Anyone else want to try?",
+        "The Most Mysterious Dream Reacting Video – Interpretations Ranked by Viewers / Which One Is Real?",
+        "Can You Hack Your Dreams? 5 Experiment Tricks that Let You Control What You See / Results Are Shocking!"
+      ],
+      "keywords": [
+        "NeuralInterface",
+        "VRDreamscape",
+        "ImmersiveCinema",
+        "BiometricVisual",
+        "DreamCircuit"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

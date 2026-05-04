@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12309,57 +12309,10 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
-      {
-        "title": "Nutrition",
-        "name": "Turmeric Tea",
-        "icon": "☕"
-      },
-      {
-        "title": "Exercise",
-        "name": "HIIT 10‑Minute Blast",
-        "icon": "🔥"
-      },
-      {
-        "title": "Sleep",
-        "name": "10‑Minute Sunlight Wake",
-        "icon": "🌞"
-      },
-      {
-        "title": "Mindfulness",
-        "name": "Forest Bathing",
-        "icon": "🌲"
-      },
-      {
-        "title": "Superfood",
-        "name": "Blueberry Burst",
-        "icon": "🫐"
-      },
-      {
-        "title": "Hormone Sync",
-        "name": "Intermittent Fasting",
-        "icon": "⏳"
-      },
-      {
-        "title": "Digital Hygiene",
-        "name": "One Hour Tech‑Free",
-        "icon": "📵"
-      },
-      {
-        "title": "Blood Flow",
-        "name": "Cold Shower Revival",
-        "icon": "🛁"
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12387,12 +12340,59 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Hidden Forks",
+        "name": "CoinFlip Surge",
+        "icon": "🔀"
+      },
+      {
+        "title": "Quantum Signals",
+        "name": "Algorand Prism",
+        "icon": "✨"
+      },
+      {
+        "title": "Insider Index",
+        "name": "WhaleWatch 3000",
+        "icon": "🐋"
+      },
+      {
+        "title": "Secret Staking",
+        "name": "Luna Swap Vault",
+        "icon": "⚔️"
+      },
+      {
+        "title": "Gas King",
+        "name": "Shiba Gas Leak",
+        "icon": "🚀"
+      },
+      {
+        "title": "Pump Protocol",
+        "name": "FlexiPool Engine",
+        "icon": "🎚️"
+      },
+      {
+        "title": "Alpha Bots",
+        "name": "Dune Arbitrage",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Liquidity Lurkers",
+        "name": "Uniswap Tunnel",
+        "icon": "🕳️"
       }
     ]
   },
@@ -12428,7 +12428,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -19469,6 +19469,47 @@
         "title": "Growth",
         "name": "Referral Loop",
         "icon": "👥"
+      }
+    ]
+  },
+  "NeuroDreamLink": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of NeuroDreamLink.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more NeuroDreamLink.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
