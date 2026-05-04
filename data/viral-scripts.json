@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12309,43 +12309,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Turmeric Tea",
+        "icon": "☕"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT 10‑Minute Blast",
+        "icon": "🔥"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "10‑Minute Sunlight Wake",
+        "icon": "🌞"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "Forest Bathing",
+        "icon": "🌲"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Superfood",
+        "name": "Blueberry Burst",
+        "icon": "🫐"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hormone Sync",
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Digital Hygiene",
+        "name": "One Hour Tech‑Free",
+        "icon": "📵"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Blood Flow",
+        "name": "Cold Shower Revival",
+        "icon": "🛁"
       }
     ]
   },
@@ -12381,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12422,7 +12428,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -19416,6 +19422,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1777903307273": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1777903307273 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Analytics",
+        "name": "Heatmap Visualizer",
+        "icon": "🔥"
+      },
+      {
+        "title": "Automation",
+        "name": "Auto-Deploy Bot",
+        "icon": "🤖"
+      },
+      {
+        "title": "ApexFlow",
+        "name": "Flow Optimizer",
+        "icon": "⚡"
+      },
+      {
+        "title": "User Experience",
+        "name": "Dynamic CTA Maker",
+        "icon": "🖱️"
+      },
+      {
+        "title": "Data",
+        "name": "Realtime Sync Engine",
+        "icon": "🔄"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Auth",
+        "icon": "🔐"
+      },
+      {
+        "title": "Integration",
+        "name": "API Marketplace",
+        "icon": "📡"
+      },
+      {
+        "title": "Growth",
+        "name": "Referral Loop",
+        "icon": "👥"
       }
     ]
   }
