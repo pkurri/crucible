@@ -16852,6 +16852,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "HolographicRealms",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "HolographicRealms blends the rapidly expanding fields of holography, AR/VR, and AI-driven content creation. The niche offers mind‑blowing visuals that keep viewers hooked, and the faceless format fits perfectly with automated 3‑D rendering and sound design. With a growing public appetite for immersive experiences and the ease of producing high‑quality synth‑generated visuals, the channel can scale quickly past 1M subs and 100k+ views per video.",
+      "ideas": [
+        "TOP 10 Cities You Can Explore in a Hologram – 3D Reality Revealed! – You Won’t Believe the Detail",
+        "How to Build a 5‑Minute Holographic Home Tour with Free AI Tools – The Ultimate DIY Guide",
+        "The Future of Entertainment: Inside the Most Advanced Holographic Concerts Yet • The Audience Never Leaves"
+      ],
+      "keywords": [
+        "Immersive",
+        "Holographic",
+        "Neo‑Neon",
+        "3D",
+        "VirtualReality"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
