@@ -17018,6 +17018,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FutureArchaeology",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "AI-driven satellite imaging and machine learning are rapidly revealing lost cities, underground temples, and forgotten artifacts, turning ancient mysteries into real-time discoveries that captivate audiences eager for cutting-edge science and exploration.",
+      "ideas": [
+        "What If AI Found a Lost City Beneath the Sahara? / Hook: Satellite scans reveal perfect geometric patterns where no civilization should exist.",
+        "The AI That Deciphered a 5,000-Year-Old Script No Human Could Read / Hook: Deep learning cracks a language that has baffled scholars for centuries.",
+        "Hidden Pyramids Under the Amazon Rainforest Exposed by Drone AI / Hook: Autonomous drones spot massive stone structures hidden under dense canopy."
+      ],
+      "keywords": [
+        "ancient ruins",
+        "satellite scan",
+        "AI reconstruction",
+        "mystery artifacts",
+        "desert sands"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
