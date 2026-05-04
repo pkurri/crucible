@@ -19242,5 +19242,52 @@
         "duration": 4
       }
     ]
+  },
+  "MicroSpaceWorlds": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroSpaceWorlds secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more MicroSpaceWorlds.",
+    "list": [
+      {
+        "title": "Dust Storm Silos",
+        "name": "Radiant Shimmer",
+        "icon": "🌩️"
+      },
+      {
+        "title": "Ionized Coral Forest",
+        "name": "Mirror Tide",
+        "icon": "🪸"
+      },
+      {
+        "title": "Whispering Quasar Nexus",
+        "name": "Silent Pulse",
+        "icon": "🌌"
+      },
+      {
+        "title": "Nano Crystal Facade",
+        "name": "Shimmer Facets",
+        "icon": "💠"
+      },
+      {
+        "title": "Temporal Rift Fog",
+        "name": "Eternal Blink",
+        "icon": "⏳"
+      },
+      {
+        "title": "Quantum Mirror Field",
+        "name": "Dual Horizon",
+        "icon": "🪞"
+      },
+      {
+        "title": "Esoteric Shimmer Pools",
+        "name": "Cosmic Echo",
+        "icon": "🌊"
+      },
+      {
+        "title": "Photon Pulse Drift",
+        "name": "Stellar Flow",
+        "icon": "✨"
+      }
+    ]
   }
 }

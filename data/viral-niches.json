@@ -16704,6 +16704,30 @@
         "ColorfulFood"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroSpaceWorlds",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The growing curiosity about space colonization combined with the visual appeal of miniature, hyper-simplified space hardware creates a unique, highly shareable hook that resonates with both science lovers and casual viewers alike.",
+      "ideas": [
+        "Tiny Space Colonies: The Secret Future of Space Living • What if we could colonize the Moon in a kitchen cabinet size habitat? Discover the tiny tech that could make interplanetary life possible!",
+        "Micro Spacecraft: These 2-Litre Rockets Are The New Frontier • Meet the miniature rocket that can carry a crew of 2 to the ISS! Why are we building 2-litre rockets?",
+        "The Micro-Gravity Lab: Simulating Moon Life in a Tiny Tube • Step inside a sentient lab that replicates low gravity in a glass tube. What could this mean for future astronauts?"
+      ],
+      "keywords": [
+        "hyperscale visual",
+        "nano-structures",
+        "3D simulation",
+        "micro space tech",
+        "miniature rocket"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
