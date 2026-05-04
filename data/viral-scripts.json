@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12309,49 +12309,43 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Turmeric Shots",
-        "icon": "🧪"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "10‑Minute HIIT",
-        "icon": "🏃‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "7‑Second Nap",
-        "icon": "🛌"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Resveratrol Boost",
-        "icon": "💊"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Mental Health",
-        "name": "Daily Gratitude Journal",
-        "icon": "📝"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Technology",
-        "name": "Wearable Heart Monitor",
-        "icon": "⌚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Lifestyle",
-        "name": "Walking Meetings",
-        "icon": "🚶‍♀️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Staying Active",
-        "name": "Microworkouts Anywhere",
-        "icon": "💪"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12387,7 +12381,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12397,96 +12391,84 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Fear Leverage",
-        "name": "The Fear Ladder",
-        "icon": "🕷️"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Mirroring",
-        "name": "The Mirror Trick",
-        "icon": "🪞"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Anchoring",
-        "name": "Anchor Pulse",
-        "icon": "⚓"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Scarcity",
-        "name": "Limited Offer Pulse",
-        "icon": "⏰"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bandwagon Bomb",
-        "icon": "👥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Authority",
-        "name": "Authority Mirage",
-        "icon": "👑"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Commitment",
-        "name": "Foot‑in‑Door Tactic",
-        "icon": "🚪"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Liking",
-        "name": "Miracle Compliment",
-        "icon": "💬"
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "GeopoliticalCollapseWatch": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 GeopoliticalCollapseWatch secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more GeopoliticalCollapseWatch.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Resource Scarcity",
-        "name": "Dryland Water Wars",
-        "icon": "💧"
+        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
+        "duration": 5
       },
       {
-        "title": "Military Alliances",
-        "name": "Arctic Military Triangle",
-        "icon": "🛡️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Cyber Threats",
-        "name": "Shadow Net Attack",
-        "icon": "💻"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Economic Sanctions",
-        "name": "Global Credit Collapse",
-        "icon": "💸"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Population Shifts",
-        "name": "Mass Migration Maze",
-        "icon": "🚶‍♂️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Political Instability",
-        "name": "Sudanese Coup Surge",
-        "icon": "🔪"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Climate Change",
-        "name": "Storm Surge Trigger",
-        "icon": "🌪️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Energy Transition",
-        "name": "Oil Price Surge",
-        "icon": "⚡"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13124,49 +13106,43 @@
     ]
   },
   "VanishingCoastlines": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 VanishingCoastlines secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more VanishingCoastlines.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Erosion Rates",
-        "name": "The Great Pacific Garbage Patch's Shrinking Edge",
-        "icon": "🌊"
+        "text": "Nobody talks about the truth of VanishingCoastlines.",
+        "duration": 5
       },
       {
-        "title": "Historical Maps",
-        "name": "Lost Oregon Coast Lines",
-        "icon": "🗺️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sea Level Rise",
-        "name": "Antarctic Ice Melt Speed",
-        "icon": "❄️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Storm Surge",
-        "name": "Hurricane Katrina's Vanishing Shoreline",
-        "icon": "☠️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Urban Reclamation",
-        "name": "New York's Shrinking Battery Park",
-        "icon": "🏙️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Cultural Impact",
-        "name": "Sculptures in Drowned Hills",
-        "icon": "🗿"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Remote Sensing",
-        "name": "Satellite Time-Lapse of Maldives",
-        "icon": "📡"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Future Projections",
-        "name": "New Jersey’s 2100 Flood Map",
-        "icon": "⚡"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },

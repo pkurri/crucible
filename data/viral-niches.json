@@ -16776,6 +16776,30 @@
         "Underwater"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Climate‑change content is in constant demand, yet time‑lapse videos of shoreline erosion are surprisingly under‑served. They combine stunning, high‑resolution visuals with a simple, yet compelling hook that sparks curiosity and a sense of urgency. The format is highly shareable, encourages user comments, and can be layered with educational captions or AI‑generated narratives for rapid content creation.",
+      "ideas": [
+        "85% of the world’s coastlines are disappearing – see the proof in 60 seconds",
+        "How the Atlantic Ocean is swallowing islands – before you’re too late",
+        "5 places that will vanish by 2030: the countdown to our lost coastlines"
+      ],
+      "keywords": [
+        "Erosion",
+        "TimeLapse",
+        "NatureShock",
+        "ClimateChange",
+        "IslandDisappearance"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
