@@ -17189,6 +17189,30 @@
         "Circuit"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes deliver ultra‑close‑up, high‑resolution footage of microscopic life that humans rarely see, blending science with breathtaking visual art. The content taps into the current surge of biohacking and micro‑biology fascination, offers endless endless variety, and the hook “Inside a world too small to see” grabs curiosity instantly, creating high potential for up‑viral shares and long‑term subscriber growth.",
+      "ideas": [
+        "1. Inside the Alien World of a 1‑Micron Bacteria – See What Happens When You Look This Close!",
+        "2. The Hidden Universe of Your Kitchen Salt: Micro‑Worlds You’ve Never Imagined",
+        "3. 36 Hours Live‑Crawling a Micro‑Bioscape – The Tiny Ecosystem That Plays Secrets with Light"
+      ],
+      "keywords": [
+        "microscopic",
+        "bioluminescent",
+        "nanoscopic",
+        "microfabricated",
+        "nano‑architecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
