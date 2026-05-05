@@ -17042,6 +17042,32 @@
         "desert sands"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The crisis of disappearing shorelines fuels global urgency—time‑lapse footage, satellite from above, and AR projections marry emotional storytelling with hard data. This mix creates scroll‑stopping hooks and endless curiosity loops, letting creators produce dozens of fresh angles (different coasts, before–after AR, expert panels). The environmental hook aligns with trending activism and social media advocacy, while the visual spectacle drives high engagement across both YouTube and Meta platforms.",
+      "ideas": [
+        "30x Faster Time‑Lapse of the Caribbean Coastline Slipping Into the Sea – You Didn’t See This Coming",
+        "Satellite View of China’s Lost River Delta vs. Ground Reality – The Battle You Must Watch",
+        "AR Projection: Watch a 2025 Coastal City Collapse in Your Living Room – It’s Shockingly Real",
+        "The Silent Crash: AI-Powered Simulation of Shoreline Erosion in 3D – Speak to the Future",
+        "Coastline War: Live Stream of Global Hotspots Losing Ground in Real Time – Comment Now"
+      ],
+      "keywords": [
+        "TimeLapse",
+        "SatelliteShots",
+        "ARProjection",
+        "ErosionImpact",
+        "SurrealWaves"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
