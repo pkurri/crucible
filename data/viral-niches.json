@@ -17113,6 +17113,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes blends the object‑of‑time fascination of high‑resolution microscopy with the viral appeal of unseen worlds. The niche offers endless variety—from glimmering bioluminescent bacteria to anthropogenic micro‑ecosystems—ensuring fresh, “Scroll‑Stopping” hooks that trigger curiosity and wonder. Its visual intensity and scientific curiosity make it scalable: each micro‑species, location, or experimental setup can spawn dozens of videos, giving creators 25+ unique viral angles and keeping audiences coming back for more.",
+      "ideas": [
+        "The Hidden Universe Inside a Drop of Pond Water / Hook: 'You’ll never think a single drop could hold an entire ecosystem. Watch and be amazed!'",
+        "Dust from Your Home Hosts Alien‑Like Life? / Hook: 'The tiniest speck of dust in your living room contains a secret micro‑world—here’s what it looks like under the lens.'",
+        "Micro‑Glow: How Bacteria Light Up Your Nightlife / Hook: 'Imagine a light source made of living bacteria—this is how they’re already powering tomorrow’s glowsticks!'"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Bioluminescent",
+        "Bacterial",
+        "Fibers",
+        "Macroview"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
