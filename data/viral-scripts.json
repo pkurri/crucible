@@ -12311,47 +12311,47 @@
   "LongevityHacksUnlocked": {
     "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
     "list": [
       {
         "title": "Nutrition",
-        "name": "Blueberries",
-        "icon": "🫐"
+        "name": "Intermittent Fasting Protocol",
+        "icon": "⏰"
       },
       {
-        "title": "Exercise",
-        "name": "HIIT",
-        "icon": "🔥"
-      },
-      {
-        "title": "Sleep",
-        "name": "Polyphasic Sleep",
-        "icon": "🛏️"
-      },
-      {
-        "title": "Mental Fitness",
-        "name": "Brain Gym",
-        "icon": "🧠"
+        "title": "Microbiome",
+        "name": "Probio+ Fermented Foods",
+        "icon": "🦠"
       },
       {
         "title": "Supplements",
-        "name": "Vitamin D3",
-        "icon": "☀️"
+        "name": "NMN + Resveratrol Combo",
+        "icon": "💊"
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Water",
-        "icon": "💧"
+        "title": "Exercise",
+        "name": "HIIT 10-min Home Circuit",
+        "icon": "🏋️‍♂️"
       },
       {
-        "title": "Social",
-        "name": "Laughing Groups",
-        "icon": "😂"
+        "title": "Sleep",
+        "name": "Blue-Light Blocking Routine",
+        "icon": "🛌"
       },
       {
-        "title": "Mindset",
-        "name": "Gratitude Journaling",
-        "icon": "📝"
+        "title": "Mindfulness",
+        "name": "Daily 5-min Breathwork",
+        "icon": "🧘‍♀️"
+      },
+      {
+        "title": "Tech",
+        "name": "Wearable Sleep Tracker",
+        "icon": "⌚"
+      },
+      {
+        "title": "Environment",
+        "name": "Low-TOX Air Purifier",
+        "icon": "🌬️"
       }
     ]
   },
@@ -12387,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12399,47 +12399,47 @@
   "DarkPsychologyPower": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Influence",
-        "name": "Commanding Gaze",
-        "icon": "👀"
+        "title": "Fear Leverage",
+        "name": "The Fear Ladder",
+        "icon": "🕷️"
       },
       {
-        "title": "Manipulation",
-        "name": "Anchor Technique",
-        "icon": "🪝"
+        "title": "Mirroring",
+        "name": "The Mirror Trick",
+        "icon": "🪞"
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Low-Rescue Protocol",
-        "icon": "👻"
+        "title": "Anchoring",
+        "name": "Anchor Pulse",
+        "icon": "⚓"
       },
       {
-        "title": "Hypnotic Language",
-        "name": "Pattern Language",
-        "icon": "🧩"
-      },
-      {
-        "title": "Perception Shaping",
-        "name": "Scarcity Mindset",
-        "icon": "🔒"
+        "title": "Scarcity",
+        "name": "Limited Offer Pulse",
+        "icon": "⏰"
       },
       {
         "title": "Social Proof",
-        "name": "Echo Chamber Tactics",
-        "icon": "📣"
+        "name": "Bandwagon Bomb",
+        "icon": "👥"
       },
       {
-        "title": "Memory Control",
-        "name": "False Memories",
-        "icon": "🧠"
+        "title": "Authority",
+        "name": "Authority Mirage",
+        "icon": "👑"
       },
       {
-        "title": "Fear Conditioning",
-        "name": "Cold-Call Fright",
-        "icon": "🕳️"
+        "title": "Commitment",
+        "name": "Foot‑in‑Door Tactic",
+        "icon": "🚪"
+      },
+      {
+        "title": "Liking",
+        "name": "Miracle Compliment",
+        "icon": "💬"
       }
     ]
   },
@@ -19821,6 +19821,53 @@
         "title": "Garden Pulse",
         "name": "Glow Basil Carpaccio",
         "icon": "🌱"
+      }
+    ]
+  },
+  "ApexFlow_1778001960063": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1778001960063 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1778001960063.",
+    "list": [
+      {
+        "title": "Acceleration Engine",
+        "name": "ApexSpeed 9.0",
+        "icon": "🚀"
+      },
+      {
+        "title": "Data Whisperer",
+        "name": "SilentQuery",
+        "icon": "🤐"
+      },
+      {
+        "title": "Quantum Interface",
+        "name": "FluxGate",
+        "icon": "⚛️"
+      },
+      {
+        "title": "Vision Cortex",
+        "name": "EyeWave",
+        "icon": "🧠"
+      },
+      {
+        "title": "Surprise Capsule",
+        "name": "HiddenTrick",
+        "icon": "🎁"
+      },
+      {
+        "title": "Stability Protocol",
+        "name": "AnchorLock",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Creative Blueprint",
+        "name": "DreamForge",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Mystery Key",
+        "name": "EnigmaLock",
+        "icon": "🔑"
       }
     ]
   }
