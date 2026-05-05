@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12350,84 +12350,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hidden Tokens",
+        "name": "MoonBeam",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Lizard Leverage",
+        "name": "X‑Factor",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Smart Contract Hacks",
+        "name": "Vortex",
+        "icon": "🔒"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cross‑Chain ARK",
+        "name": "Atlas",
+        "icon": "🚀"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Protocol Predators",
+        "name": "Griffin",
+        "icon": "🐻"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Yield Yields",
+        "name": "Echo",
+        "icon": "💹"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Gas-Speed Gauntlet",
+        "name": "Giga",
+        "icon": "⚡"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Chain Whisperer",
+        "name": "Pulse",
+        "icon": "🎯"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Mirroring",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Cognitive Bias",
+        "name": "Anchoring",
+        "icon": "⚓️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Scarcity",
+        "icon": "📉"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Influence Tactics",
+        "name": "Foot‑in‑the‑door",
+        "icon": "🚪"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Gaslighting",
+        "icon": "💔"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Behavior Prediction",
+        "name": "Pattern Recognition",
+        "icon": "🔍"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Persuasion Loops",
+        "name": "Repetition",
+        "icon": "🔁"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Neuro Hacks",
+        "name": "Synaptic Priming",
+        "icon": "🧠"
       }
     ]
   },
@@ -19715,6 +19727,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "QuantumFoodLab": {
+    "voice": "bf_emma",
+    "hook": "Here are the top 8 QuantumFoodLab secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more QuantumFoodLab.",
+    "list": [
+      {
+        "title": "Quantum Microwave",
+        "name": "Phase Packer",
+        "icon": "🔋"
+      },
+      {
+        "title": "Atomic Broth",
+        "name": "Molecular Miso",
+        "icon": "🍜"
+      },
+      {
+        "title": "Nano Protein",
+        "name": "Quantum Quinoa",
+        "icon": "🥗"
+      },
+      {
+        "title": "Gravity Grill",
+        "name": "Spacetime Sear",
+        "icon": "🔥"
+      },
+      {
+        "title": "Photon Pastry",
+        "name": "Light Croissant",
+        "icon": "🥐"
+      },
+      {
+        "title": "Entropy Smoothie",
+        "name": "Chaos Berry",
+        "icon": "🍇"
+      },
+      {
+        "title": "Time Freeze",
+        "name": "Ice Barbecue",
+        "icon": "🥓"
+      },
+      {
+        "title": "Subatomic Sushi",
+        "name": "Neutrino Roll",
+        "icon": "🍣"
       }
     ]
   }

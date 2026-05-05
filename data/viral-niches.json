@@ -17165,6 +17165,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumFoodLab",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Awe",
+      "reason": "Combines the buzz of quantum tech with everyday cooking, offering visually stunning, science‑based concepts that feel fresh and unexplored. The intersection of AI, quantum concepts, and food taps into current trends in both tech and culinary creativity, making it ideal for scroll‑stopping hooks and curiosity loops.",
+      "ideas": [
+        "Quantum Bowl Breathing In: One Microwave Pulse That Turns Flavor Into Sound Waves – Watch the Real‑Time Color & Taste Shift!",
+        "AI‑Generated Quantum Pasta: Watch as a Virtual Mixer Leaps Between Superpositions to Create Every Bite In A Different Flavor State!",
+        "Zero‑Point Energy Stir Fry: Use Quantum Randomness to Crunch Every Ingredient with Off‑Grid Light‑Pop Visuals – The Ultimate Kitchen Experiment!"
+      ],
+      "keywords": [
+        "Quantum",
+        "Glitch",
+        "Neon",
+        "LightFX",
+        "Circuit"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
