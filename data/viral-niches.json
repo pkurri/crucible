@@ -17237,6 +17237,30 @@
         "SinkingIslands"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCuisine",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "This niche blends visually stunning bioluminescence with the popular food & science trend. The novelty of glowing meals, combined with the science explanation, instantly hooks viewers. It is underexplored, offers plenty of serial content (different organisms, recipes, live demonstrations), and has strong cross‑platform appeal on meta and youtube. Fresh, share‑worthy visuals and the \"what if\" questions guarantee high scroll‑stop potential and long retention curves.",
+      "ideas": [
+        "I Cooked a Glowing Breakfast Using Microalgae – Watch It Sparkle! ⭐",
+        "Bizarre Glow Feast: 5 Dishes Made from Live Fireflies – Steam Power? 🔥",
+        "The Secret Punch – Bioluminescent Smoothie That Illuminates Inside! 💡"
+      ],
+      "keywords": [
+        "glow",
+        "bioluminescent",
+        "plankton",
+        "firefly",
+        "vivid"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

@@ -12309,43 +12309,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Blueberries",
+        "icon": "🫐"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT",
+        "icon": "🔥"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Polyphasic Sleep",
+        "icon": "🛏️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mental Fitness",
+        "name": "Brain Gym",
+        "icon": "🧠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Vitamin D3",
+        "icon": "☀️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Water",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Laughing Groups",
+        "icon": "😂"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Mindset",
+        "name": "Gratitude Journaling",
+        "icon": "📝"
       }
     ]
   },
@@ -12381,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12391,43 +12397,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Influence",
+        "name": "Commanding Gaze",
+        "icon": "👀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Anchor Technique",
+        "icon": "🪝"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Low-Rescue Protocol",
+        "icon": "👻"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Hypnotic Language",
+        "name": "Pattern Language",
+        "icon": "🧩"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Perception Shaping",
+        "name": "Scarcity Mindset",
+        "icon": "🔒"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social Proof",
+        "name": "Echo Chamber Tactics",
+        "icon": "📣"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Memory Control",
+        "name": "False Memories",
+        "icon": "🧠"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Fear Conditioning",
+        "name": "Cold-Call Fright",
+        "icon": "🕳️"
       }
     ]
   },
@@ -19762,6 +19774,53 @@
         "title": "Subatomic Sushi",
         "name": "Neutrino Roll",
         "icon": "🍣"
+      }
+    ]
+  },
+  "BioluminescentCuisine": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioluminescentCuisine secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Seaweed Symphony",
+        "name": "Glowing Miso Intip",
+        "icon": "🌿"
+      },
+      {
+        "title": "Mushroom Glow",
+        "name": "Luminescent Oyster Mushrooms",
+        "icon": "🍄"
+      },
+      {
+        "title": "Fusion Glow",
+        "name": "Photon Sushi Rolls",
+        "icon": "🍣"
+      },
+      {
+        "title": "Beverage Blaze",
+        "name": "Aurora Espresso",
+        "icon": "☕"
+      },
+      {
+        "title": "Dessert Glow",
+        "name": "Biolum Choco Bark",
+        "icon": "🍰"
+      },
+      {
+        "title": "Protein Shine",
+        "name": "Spectra Seared Salmon",
+        "icon": "🐟"
+      },
+      {
+        "title": "Cocktail Neon",
+        "name": "Neon Nightcap",
+        "icon": "🍸"
+      },
+      {
+        "title": "Garden Pulse",
+        "name": "Glow Basil Carpaccio",
+        "icon": "🌱"
       }
     ]
   }
