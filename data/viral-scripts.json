@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12350,96 +12350,84 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hidden Tokens",
-        "name": "MoonBeam",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Lizard Leverage",
-        "name": "X‑Factor",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Smart Contract Hacks",
-        "name": "Vortex",
-        "icon": "🔒"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Cross‑Chain ARK",
-        "name": "Atlas",
-        "icon": "🚀"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Protocol Predators",
-        "name": "Griffin",
-        "icon": "🐻"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Yield Yields",
-        "name": "Echo",
-        "icon": "💹"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Gas-Speed Gauntlet",
-        "name": "Giga",
-        "icon": "⚡"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Chain Whisperer",
-        "name": "Pulse",
-        "icon": "🎯"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Manipulation",
-        "name": "Mirroring",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Cognitive Bias",
-        "name": "Anchoring",
-        "icon": "⚓️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Social Engineering",
-        "name": "Scarcity",
-        "icon": "📉"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Influence Tactics",
-        "name": "Foot‑in‑the‑door",
-        "icon": "🚪"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Gaslighting",
-        "icon": "💔"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Behavior Prediction",
-        "name": "Pattern Recognition",
-        "icon": "🔍"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Persuasion Loops",
-        "name": "Repetition",
-        "icon": "🔁"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Neuro Hacks",
-        "name": "Synaptic Priming",
-        "icon": "🧠"
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13121,31 +13109,31 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of VanishingCoastlines.",
+        "text": "Your favorite beach could vanish in a storm.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "Every 30 seconds, a shoreline is swallowed.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
+        "text": "Storms now double erosion, battering coastlines daily.",
+        "duration": 5
+      },
+      {
+        "text": "Sea levels rise 8mm a year, a new record since 1944.",
+        "duration": 5
+      },
+      {
+        "text": "Sinkholes pop above streets, smashing whole neighborhoods.",
+        "duration": 5
+      },
+      {
+        "text": "The next wave could erase your hometown forever.",
+        "duration": 4
+      },
+      {
+        "text": "Imagine seeing yesterday's landmarks drowned.",
         "duration": 4
       },
       {
@@ -13153,7 +13141,7 @@
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "What next? The ice coastlines that keep us cold.",
         "duration": 4
       }
     ]

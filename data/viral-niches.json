@@ -17213,6 +17213,30 @@
         "nano‑architecture"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Fear",
+      "reason": "Storm‑induced and sea‑level rise are rapidly eroding iconic coastlines, sparking global concern and curiosity. The visual drama of disappearing shores is internet‑ready, and the narrative can be delivered in a faceless style with dramatic time‑lapse footage, voice‑over, and data overlays, ensuring high ENGAGEMENT—and the urgency of the issue encourages sharing and retweets.",
+      "ideas": [
+        "The Last Hour of the Hudson Park Coastline – An 8‑Minute Time‑Lapse That Will Amp‑Up Your Fear of Climate Change",
+        "How One Small Island Is Being Vanished in 48 Hours (Scroll‑Stopper: Real‑Time Ocean Animation)",
+        "The Vanishing Shoreline Myth vs. Reality – 5 Shocking Clues That Show Seawalls Are Sinking You Won’t Believe #1"
+      ],
+      "keywords": [
+        "StormSinkingCoasts",
+        "TimeLapseErosion",
+        "SeaLevelRise",
+        "DrowningRivers",
+        "SinkingIslands"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
