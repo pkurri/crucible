@@ -17338,6 +17338,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "This niche uncovers the unseen ecosystems hidden in everyday objects—coffee mugs, plastic bottles, phones, and more. The visual hook of microscopic lifeforms juxtaposed with familiar items captivates audiences, provides endless loop‑worthy content, and taps into current trends of science and sustainability, making it primed for massive shareability on both Meta Reels and YouTube.",
+      "ideas": [
+        "5 Surprising Microbial Cities Inside Your Coffee Mug – Ever wondered what lives in your daily sip? This invisible metropolis will blow your mind.",
+        "The Hidden Micro‑Ecosystem Inside a Plastic Water Bottle – A single bottle holds a world you can't see—let’s uncover its secrets.",
+        "The Tiny Life Form That Builds Inside Your Smartphone – Inside your phone is a bustling micro‑city—here's what it looks like."
+      ],
+      "keywords": [
+        "microscopic",
+        "invisible",
+        "colorful",
+        "macro life",
+        "hidden ecosystem"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
