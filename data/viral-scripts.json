@@ -13856,43 +13856,49 @@
     ]
   },
   "SpaceFoodTech": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 SpaceFoodTech secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of SpaceFoodTech.",
-        "duration": 5
+        "title": "Nutrient Preservation",
+        "name": "CryoCrumbs",
+        "icon": "🥶"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Edible 3D Printing",
+        "name": "StarPrint",
+        "icon": "🖨️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Molecular Gastronomy",
+        "name": "SpaceSauté",
+        "icon": "🍝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Astronaut Palate",
+        "name": "ZeroG S'mores",
+        "icon": "🔥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Microgravity Cooking",
+        "name": "Blue Light Beam",
+        "icon": "🌌"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Sustainable Food Production",
+        "name": "BiomeAgro",
+        "icon": "🌱"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Psychological Comfort Foods",
+        "name": "Lunar Loaf",
+        "icon": "🍞"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Personalized Nutrition",
+        "name": "MicroMeal",
+        "icon": "🍲"
       }
     ]
   },

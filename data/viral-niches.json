@@ -17068,6 +17068,30 @@
         "SurrealWaves"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "SpaceFoodTech blends the universal fascination with space with the everyday intrigue of food. The niche is still young, so there are few high‑quality creators, allowing for rapid subscriber growth. Every video can start with a dramatic hook (e.g., \"Ever wondered how astronauts eat?\" or \"This one space snack will blow your mind!\"), easy to make scroll‑stopping teasers for social media. The science‑backed content lends itself to bright, visually appealing imagery, perfect for cross‑platform sharing. With emerging interest in space travel, colonization, and culinary innovation, this niche can consistently produce fresh, curiosity‑looping stories that keep viewers coming back.",
+      "ideas": [
+        "Rocket-Ready Pizza: How NASA Cooked the First Space Pizza (and You Can Make It at Home) – \"You won't believe what NASA used to make pizza in zero‑gravity!\"",
+        "Zero‑Gravity Sushi: The Secret Science Behind Eating Sushi in Space (and Why It Turns Out Terribly Delicious) – \"Imagine biting into sushi that doesn’t sink – here’s the science!\"",
+        "Space Chocolate Lab: Inside the Lab That Created Chocolates That Won’t Melt in Space (and the Tasting Test That Shocked Everyone) – \"What’s better than chocolate that never melts? See why these treats survived a rocket launch!\""
+      ],
+      "keywords": [
+        "Space",
+        "Food",
+        "ZeroGravity",
+        "Innovation",
+        "Science"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
