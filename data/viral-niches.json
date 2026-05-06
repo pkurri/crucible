@@ -17463,6 +17463,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "VanishingCoastlines combines the urgency of climate change with the universally appealing beauty of travel destinations. The content is highly visual (drone footage, time-lapse, 3D mapping), lends itself to compelling scroll‑stopping hooks, and taps into current tabloid-level interest in disappearances and “last chance” stories. The niche can grow a global audience that shares urgent environmental stories and stunning imagery, making it scalable to 1M+ subs and high‑view videos.",
+      "ideas": [
+        "Top 5 Beaches That Will Vanish By 2035 | Climate Crisis in Time‑Lapse – Find out before it’s gone!",
+        "Hidden Coastlines Losing 80% in a Decade | Drone Footage of What’s About to Disappear – You’ll be shocked!",
+        "The Invisible Tunnel System Under Your Shore | 3D Map Reveal of Upcoming Erosion – Stay ahead of the tidal wave!"
+      ],
+      "keywords": [
+        "time‑lapse",
+        "drone footage",
+        "3D mapping",
+        "coastal erosion",
+        "climate change visualization"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
