@@ -17418,6 +17418,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LostPlanetology",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "LostPlanetology taps into the growing public fascination with exoplanet discoveries and cosmic mysteries. The idea of planets that seem to have appeared or vanished defies everyday expectations, combining high‑stakes science with thrilling speculative narratives. It stands out from other space niches by focusing on the ‘lost’ aspect—revealing new research, extraordinary simulations, and impossible scenarios that make for unforgettable scroll‑stopping content. This niche has huge shareability potential, invites easy viral hooks, and can generate endless content streams: each new exoplanet, each theoretical model, each debate about planetary protection or missing bodies.",
+      "ideas": [
+        "The Mysterious Planet That Vanished from the Solar System – Scientists Reveal Its Dark Secret",
+        "Exploring the Unknown Exoplanet That Defies All Physics – Why It Captures the Cosmos",
+        "Why This Alien Planet Looks Familiar: The Possible Connection Between Earth and a Lost World"
+      ],
+      "keywords": [
+        "StunningSky",
+        "UnseenSuns",
+        "BreathtakingVoid",
+        "AstroMystery",
+        "MindBlowing"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
