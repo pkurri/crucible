@@ -17508,6 +17508,28 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumFoodLab",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of quantum physics and culinary arts taps into current excitement about frontier tech and space exploration while offering visually stunning, bite‑size experiments that are impossible to replicate on earth. The topic is niche enough to avoid saturation yet broad enough to create endless experimental formats, inspiring both sprinkle‑flavored curiosity and awe‑filled visuals that perform exceptionally on Reel, TikTok, Shorts, and YouTube Algorithmic feeds.",
+      "ideas": [
+        "Quantum-Shifted Saffron: Taste of the Future / Hook: Ever wondered if spice can exist in two places at once?"
+      ],
+      "keywords": [
+        "Quantum Neon",
+        "Edible Particles",
+        "Starlight Flavor",
+        "Chromatic Circuits",
+        "Nebula Noodles"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

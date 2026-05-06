@@ -12268,57 +12268,10 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
-      {
-        "title": "Mind Control",
-        "name": "Neural Hijack",
-        "icon": "🧠"
-      },
-      {
-        "title": "Surveillance",
-        "name": "Invisible Watchdog",
-        "icon": "👁️"
-      },
-      {
-        "title": "Privacy",
-        "name": "Shadow Data Miner",
-        "icon": "🔍"
-      },
-      {
-        "title": "Autonomy",
-        "name": "Self-Driving Sabotage",
-        "icon": "🚗"
-      },
-      {
-        "title": "Finance",
-        "name": "Algorithmic Extortion",
-        "icon": "💰"
-      },
-      {
-        "title": "Jobs",
-        "name": "Redundant Employment",
-        "icon": "🏢"
-      },
-      {
-        "title": "Health",
-        "name": "Synthetic Diagnostics",
-        "icon": "⚕️"
-      },
-      {
-        "title": "Society",
-        "name": "Mass Manipulation Engine",
-        "icon": "🕹️"
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12346,11 +12299,52 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Your 70-year plan is doomed. Want 150?",
+        "duration": 5
+      },
+      {
+        "text": "Scientists just cracked the longevity code. Grab it!",
+        "duration": 4
+      },
+      {
+        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
+        "duration": 5
+      },
+      {
+        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
+        "duration": 5
+      },
+      {
+        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
+        "duration": 5
+      },
+      {
+        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
+        "duration": 4
+      },
+      {
+        "text": "Your competitors get the 40‑µg NMN pill next week.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: How to decode your genetic age in 5 mins.",
         "duration": 4
       }
     ]
@@ -12387,7 +12381,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12397,49 +12391,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Fear Leverage",
-        "name": "The Fear Ladder",
-        "icon": "🕷️"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Mirroring",
-        "name": "The Mirror Trick",
-        "icon": "🪞"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Anchoring",
-        "name": "Anchor Pulse",
-        "icon": "⚓"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Scarcity",
-        "name": "Limited Offer Pulse",
-        "icon": "⏰"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bandwagon Bomb",
-        "icon": "👥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Authority",
-        "name": "Authority Mirage",
-        "icon": "👑"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Commitment",
-        "name": "Foot‑in‑Door Tactic",
-        "icon": "🚪"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Liking",
-        "name": "Miracle Compliment",
-        "icon": "💬"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -19737,49 +19725,43 @@
     ]
   },
   "QuantumFoodLab": {
-    "voice": "bf_emma",
-    "hook": "Here are the top 8 QuantumFoodLab secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more QuantumFoodLab.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Quantum Microwave",
-        "name": "Phase Packer",
-        "icon": "🔋"
+        "text": "Nobody talks about the truth of QuantumFoodLab.",
+        "duration": 5
       },
       {
-        "title": "Atomic Broth",
-        "name": "Molecular Miso",
-        "icon": "🍜"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Nano Protein",
-        "name": "Quantum Quinoa",
-        "icon": "🥗"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Gravity Grill",
-        "name": "Spacetime Sear",
-        "icon": "🔥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Photon Pastry",
-        "name": "Light Croissant",
-        "icon": "🥐"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Entropy Smoothie",
-        "name": "Chaos Berry",
-        "icon": "🍇"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Time Freeze",
-        "name": "Ice Barbecue",
-        "icon": "🥓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Subatomic Sushi",
-        "name": "Neutrino Roll",
-        "icon": "🍣"
+        "text": "Don't let the algorithm hide the truth. Follow for more QuantumFoodLab.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -20093,6 +20075,47 @@
     "lines": [
       {
         "text": "Nobody talks about the truth of ApexFlow_1778041557944.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1778051987797": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1778051987797.",
         "duration": 5
       },
       {
