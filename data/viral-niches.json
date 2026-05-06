@@ -17631,6 +17631,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIHistoricalReenactments",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche blends cutting‑edge AI, high‑definition drone footage, and real historical events, creating immersive visual storytelling that feels both educational and spectacular. Its entirely faceless format lets creators produce hundreds of quick, hook‑heavy videos with little overhead, while the mix of wonder, curiosity, and a touch of nostalgia fuels shareability and engagement.",
+      "ideas": [
+        "Recreating the Great Fire of London with AI Drone Footage! | Shocking Visuals",
+        "AI Recreates Ancient Rome's Battle of the Milvian Bridge – 4K Flythrough",
+        "Future TV: AI Transforms 1969 Moon Landing into 3D Drone Experience"
+      ],
+      "keywords": [
+        "hyperrealistic",
+        "aerial",
+        "dramatic",
+        "historical",
+        "immersive"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
