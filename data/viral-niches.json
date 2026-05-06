@@ -17551,6 +17551,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes taps into the growing public fascination with the unseen microscopic world, offering endless visual wonder and data-driven revelations. Its niche focus on high-speed time-lapse, bioluminescence, and hidden ecosystems sets it apart from broader science channels, enabling rapid content diversification and strong shareability in both short-form (Meta) and long-form (YouTube) formats.",
+      "ideas": [
+        "’5 Seconds Inside a Bacterial City: Watch Microbial Traffic in Real Time’ – Hook: ‘What would a city look like if its streets were made of tiny living bacteria? See it in action before you’re done watching’",
+        "’The Secret Life of Your Toothbrush: A Time‑Lapse Journey Through Oral Microbes’ – Hook: ‘Every morning you brush, a microscopic war unfolds. Watch it in slow‑mo for the first time!’",
+        "’Exploding Insects: Visualizing Cellulase Enzymes in Macro‑Bugs’ – Hook: ‘Discover how giant insects digest plant fibers with microscopic viruses—and their swirling cytoplasmic streams’"
+      ],
+      "keywords": [
+        "Time‑Lapse",
+        "Microscopic",
+        "Bioluminescence",
+        "Microbial",
+        "Viral"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
