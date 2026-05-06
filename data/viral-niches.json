@@ -17707,6 +17707,28 @@
         "GlowMicroscopy"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticWildlife",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Digital wildlife leverages AI and deep‑learning visuals to create fantastical creatures that no one has ever seen, offering endless hooks for ‘first‑time’ videos, how‑it‑is‑made, and speculative lore. The faceless format keeps production costs low while the novelty can go viral across meta and youtube, and the niche is wide enough to create 25+ unique titles.",
+      "ideas": [
+        "See the First AI‑Generated Glow‑Eagle – a Mythical Bird That Never Lived / Ever Blackhole? The Digital Wolf That Paints Landscapes / Meet the Neon Aurora Raccoon: A Synthetic Wildlife That Moves Like Light and Let's You See the Future of Animation"
+      ],
+      "keywords": [
+        "Vibrant",
+        "Ethereal",
+        "Surreal",
+        "Dynamic",
+        "Glowing"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

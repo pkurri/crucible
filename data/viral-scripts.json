@@ -12309,84 +12309,96 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Blueberry Power",
+        "icon": "💙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "Micro‑Resistance",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocker",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD⁺ Booster",
+        "icon": "🔋"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Daily Gratitude Journal",
+        "icon": "📓"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Tech",
+        "name": "Wearable Health Tracker",
+        "icon": "⌚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Air Purifier with HEPA",
+        "icon": "🌬️"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Cellular",
+        "name": "Telomere Stimulator",
+        "icon": "🔬"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Microcap Momentum",
+        "name": "Rocket Rise",
+        "icon": "🚀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Whale Whisper",
+        "name": "Silent Surge",
+        "icon": "🐋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Chain Fork Windows",
+        "name": "Fork Lens",
+        "icon": "🔎"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Token Burn Alerts",
+        "name": "Fire Blast",
+        "icon": "🔥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stealth HODL",
+        "name": "Midnight Hold",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Insider Signals",
+        "name": "VIP Pulse",
+        "icon": "💓"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Pump & Dump Anticipation",
+        "name": "Bubble Peek",
+        "icon": "🍾"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tax-Loss Harvest Timing",
+        "name": "Golden Edge",
+        "icon": "💰"
       }
     ]
   },
@@ -20354,6 +20366,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "SyntheticWildlife": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 SyntheticWildlife secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more SyntheticWildlife.",
+    "list": [
+      {
+        "title": "Bioluminescent Forest",
+        "name": "Neon Griffin",
+        "icon": "🦅"
+      },
+      {
+        "title": "Synthetic Predator",
+        "name": "Iron Sabretooth",
+        "icon": "🦈"
+      },
+      {
+        "title": "Robotic Sea Creature",
+        "name": "Quantum Leviathan",
+        "icon": "🐋"
+      },
+      {
+        "title": "Neural Safari",
+        "name": "Eclipse Antelope",
+        "icon": "🦌"
+      },
+      {
+        "title": "Circuit Jungle",
+        "name": "Photon Jaguar",
+        "icon": "🐆"
+      },
+      {
+        "title": "Carbon Apex",
+        "name": "Carbon Condor",
+        "icon": "🦅"
+      },
+      {
+        "title": "Steel Savannah",
+        "name": "Titan Bull",
+        "icon": "🐂"
+      },
+      {
+        "title": "Techno Archipelago",
+        "name": "Digital Seahorse",
+        "icon": "🐎"
       }
     ]
   }
