@@ -17875,6 +17875,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "VanishingCoastlines taps into the immediate and visceral fear of disappearing places caused by climate change, coastal erosion, and seismic events. The niche can be differentiated by focusing on exclusive footage, historical records, and deep dives into each site’s personal stories, making each episode a scroll‑stopping mystery that invites viewers to learn the ‘why’ behind the disappearance. With sustainable content such as recurring series on different lost coastlines, this topic can consistently produce 25+ unique viral ideas, each featuring high‑production visuals and emotional hooks that drive both retention and shareability.",
+      "ideas": [
+        "Island Abandoned in 24 Hours: Inside the 3K People Who Vanished / Hook: Ever wondered what a whole town looks like when it disappears in a day? Find out in this shocking reveal!",
+        "The Ocean That Cried: Scientists Uncover the Ghost Reef of (Name) / Hook: Hidden under 30m of sand, this reef holds a story of a vanished ecosystem—watch the dive that will change everything you know about the sea.",
+        "Lost City of Light: The Seismic Shock That Erased (Place) from the Map / Hook: One tremor, one day—now this once‑lively harbor no longer exists. Hear the city’s final days in a stunning AR reconstruction."
+      ],
+      "keywords": [
+        "Cinematic",
+        "Breathtaking",
+        "Explosive",
+        "Haunting",
+        "Unreal"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
