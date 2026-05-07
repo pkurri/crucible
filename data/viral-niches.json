@@ -17972,6 +17972,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes taps into universal fascination with the unseen microscopic world, marrying ultra‑high‑resolution animation with bioluminescent imagery. The niche is fresh enough for a dedicated audience yet broad enough to sustain >25 unique story arcs—each focusing on a different micro‑community (e.g., soil, bathroom, space‑station bathrooms). The visual intensity, the potential for vivid “scroll‑stopping” thumbnails, and the feed‑rich format of both Meta and YouTube give this concept a high velocity for virality.",
+      "ideas": [
+        "The Secret City Under Your Kitchen Counter – 10 Seconds of Microbial Life",
+        "Bioluminescent Bacteria: A 60‑Second Night‑Vision Show on Your Bathroom Floor",
+        "Micro‑Ocean in a Drop: 3D Animation of a Pond‑Sized Biome Inside a Water Drop"
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Ultra‑High‑Resolution",
+        "3D Animation",
+        "Macro Lens",
+        "Color Shifts"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
