@@ -18048,6 +18048,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The micro‑world is still largely unseen by the general public, yet modern smartphone microscopes, DIY 3D printers, and AI enhancement tools have made it accessible. Curiosity drives viewers to witness impossible scales, while the vivid, neon‑lit visuals provide instant eye‑stopping appeal. The niche sits at the intersection of science, mystery, and artistry, making it ideal for scroll‑stopping hooks, charming narrative arcs, and recurring content themes.",
+      "ideas": [
+        "The Tiny World You’ve Been Missing: 5 Astonishing Micro‑Leviathan Ecosystems Revealed Under 40x Magnification",
+        "Microscopes at Midnight: One Scientist’s 30‑Day Immersion into Hidden Bacterial Cities",
+        "Inside the Smartest Algae Beach: How a Tiny Community Can Outsmart Human Pollution"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Neon",
+        "Glowing",
+        "Hidden",
+        "Biodiversity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
