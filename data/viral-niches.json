@@ -17899,6 +17899,30 @@
         "Unreal"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes delivers a fresh, hyper-visual view of microscopic microbial worlds that feel alien yet intimately connected to our reality. The niche is underexplored, blends science with never‑before‑seen footage, and offers endless storytelling angles (time‑lapse, zoom‑ins, soundscapes). Short hooks about hidden oceans, invisible cities, and micro‑ecosystems instantly trigger curiosity and wonder, while strong visual diversity keeps viewers scrolling. With a dedicated audience of science buffs, ASMR lovers, and the visually curious, it can rapidly hit 1M subscribers and 100K+ views per video.",
+      "ideas": [
+        "The Hidden Ocean Inside Your Coffee Cup—Micro‑Bioscape Time‑Lapse / 0:01: Fifty‑second teaser: \"What if the ocean you've never seen is inside the smallest cup?\"",
+        "Miniature Worlds of 1 Micrometer—Microscopically Immersive Bioscapes / 0:07: Hook: \"Ever wondered what life looks like at the micro level? Let’s dive in.\"",
+        "Alien Planet Life: Microbe Cities Growing Under a Petri Dish / 0:03: Hook: \"Imagine an entire civilization thriving at invisible scale—watch their cities bloom.\""
+      ],
+      "keywords": [
+        "microcosm",
+        "biofilm",
+        "algae",
+        "undersea",
+        "nanoscopic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
