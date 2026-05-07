@@ -17996,6 +17996,30 @@
         "Color Shifts"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "With the rapid acceleration of human spaceflight and the public’s growing fascination with Mars colonization, the niche of space-based food production offers a unique blend of cutting-edge science and speculative visualization. The topic differentiates itself from general future-tech channels by focusing exclusively on the science and aesthetics of feeding astronauts—an area with limited faceless content yet immense demand. Visuals can be highly engaging (micro-bioscapes, zero‑gravity farms, neon‑lit reactors), supporting scroll‑stopping hooks and curiosity loops. The niche’s core concepts (closed‑loop agriculture, in‑orbit hydroponics, algae protein) are abundant enough to sustain 25+ ideas per month, ensuring rapid subscriber build‑up to 1M+.\n",
+      "ideas": [
+        "Zero‑Gravity Farm: How Space Food Is Grown in Orbit – Imagine a farm orbiting Earth—here’s how astronauts grow food in zero gravity.",
+        "From Bacteria to Breakfast: Tiny Bio‑Factories Feeding Mars – Meet the tiny bio‑reactors secretly cooking breakfast for future Martian colonies.",
+        "Instant Moon Cravings: 10 Space Foods You Can Make on Mars – What would you eat when you step onto the moon? We cooked 10 ultra‑sustainable space dishes!"
+      ],
+      "keywords": [
+        "space",
+        "neon",
+        "glowing",
+        "metallic",
+        "zero‑gravity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
