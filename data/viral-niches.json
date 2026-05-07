@@ -17778,6 +17778,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Microbial world is visually stunning and largely unseen by mainstream audiences. High‑contrast microscope footage attracts natural curiosity and wonder, while cutting‑edge imaging keeps the content fresh. The niche is underexploited, perfect for faceless production and rapid scaling. Short, scroll‑stopping clips of glowing bacteria, plastic‑eating microbes and invisible micro‑architecture have high shareability on both Meta and YouTube.",
+      "ideas": [
+        "Title: ‘This 4‑Micrometer Microbe Has a Secret Weapon! Hook: Watch it devour plastic in seconds—and discover how it could save oceans.",
+        "Title: ‘Bioluminescence on a Microscale… The Hidden Spark That Illuminates the Darkest Lakes’ Hook: Catch a 3‑second flash that will make your heart race with the mystery of glowing microbes.",
+        "Title: ‘The Tiny Architects Building Invisible Structures — And Why They’re Smarter Than Humans! Hook: Meet the microbe that constructs micro‑bridges at the speed of light."
+      ],
+      "keywords": [
+        "Microscopic",
+        "Bioluminescent",
+        "Nano",
+        "Visible",
+        "Visual"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
