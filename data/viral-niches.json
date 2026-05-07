@@ -17823,6 +17823,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentFood",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Edible bioluminescence blends the immersive appeal of food hacks with the wonder of nature’s glow, trending across TikTok, Instagram, and YouTube. High‑saturation visuals create instant scroll‑stopping hooks, while the novelty of glowing flavors fuels curiosity loops and repeat viewership.",
+      "ideas": [
+        "Taste the Night: 5 Glow‑Edible Recipes that Light Up Your Plate! – Watch the spectrum of flavors change when light turns off.",
+        "This Bioluminescent Chocolate Melted in Zero Light – Can You See It? – Watch a chocolate bar glow brighter under a blue LED.",
+        "From Sea to Table: Harvesting Glow Mushrooms for Your Next Dinner Party – Discover where and how to grow glow fungi."
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescence",
+        "edible algae",
+        "nocturnal cuisine",
+        "firefly light"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
