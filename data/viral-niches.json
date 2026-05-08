@@ -18394,6 +18394,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuralSymphonies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The converging fields of neuroscience, AI, and art have never been as widely accessible as now. Bankable faceless YouTube content can visualize real-time brainwave-to-sound transformations, sparking curiosity and wonder. The novelty of hearing your own thoughts, or another person's dreams, as music hooks viewers, invites replay and shares, and plugs easily into Instagram Reels, TikTok, and Facebook videos for cross‑platform virality.",
+      "ideas": [
+        "Your Brain Just Tapped Into a Ghostly Song – The Neural Symphony Reveal!",
+        "21 Seconds of Music Generated From a Human Dream – Listen to the Unknown.",
+        "AI Converts Brainwaves Into Music: The Impossible Concert You Can't Believe!"
+      ],
+      "keywords": [
+        "Brainwaves",
+        "AI Music",
+        "Neural Animation",
+        "Dream‑to‑Music",
+        "Synthetic Soundscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
