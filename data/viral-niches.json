@@ -18245,6 +18245,30 @@
         "nano‑cityscapes"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "MicroBioscapes thrives on the visual thrill of unseen worlds; macro‑zoomed, time‑lapsed footage of microbes, pollen, and microscopic structures offers instant scroll‑stopping looks, deep curiosity loops, and a perfect blend of science and art. Its differentiation comes from pure visual spectacle rather than narration, ensuring high shareability on both Meta and YouTube. Current interest in nature, science, and micro‑technology drives rapid content discovery, making it highly scalable with 25+ idea permutations.",
+      "ideas": [
+        "The Tiny World Inside Your Morning Coffee – 4K Macro Time‑Lapse",
+        "What Happens When a Drop of Pond Water Encysts? – Microbial Crystal Flash",
+        "The Secret Life of Dust: 360° Macro Journey Through a Tiny Dust Particle"
+      ],
+      "keywords": [
+        "MacroLens",
+        "MicroLife",
+        "TimeLapse",
+        "NanoWorld",
+        "MicroscopeWonder"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
