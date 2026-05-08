@@ -18342,6 +18342,30 @@
         "bioluminescent cuisine"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "GlowFoodScience",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "Combining the universal appeal of food with the magical visual of bioluminescence creates a rapid visual hook that excites curiosity and wonder. The niche is fresh, highly shareable on visual platforms, and lends itself to short, eye‑catching clips perfect for scroll‑stopping feeds. The science behind the glow adds credibility, while the global variety of glowing foods keeps the content diverse enough for 25+ unique viral ideas, making it highly scalable in both platforms.",
+      "ideas": [
+        "Food That Glows In The Dark: 10‑Second Night Market Reveal - Watch The Shimmer!",
+        "Underwater Chocolate? The Surprising Bioluminescent Desserts Eaters Are Trying Tonight!",
+        "From Glowworms to Glow‑Fruits: The Science Behind Foods That Light Up Your Plate"
+      ],
+      "keywords": [
+        "bioluminescence",
+        "night‑market",
+        "glowing food",
+        "science",
+        "visual wonder"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
