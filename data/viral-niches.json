@@ -18418,6 +18418,30 @@
         "Synthetic Soundscape"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Wonder",
+      "reason": "Zero‑gravity cooking merges the allure of space science with everyday food, creating instantly sharable, visually stunning moments that spark curiosity and awe. Its novelty sets it apart from mainstream cooking and future‑tech channels, while endless recipe possibilities offer endless content creation and cross‑platform traction.",
+      "ideas": [
+        "THIS IS THE FIRST EVER Zero‑Gravity Cake – Watch Batter Float! HINT: It’s BREADTH‑FALLING!",
+        "Zero‑Gravity Coffee: How Does It Taste? (Space Beans vs Earth Beans)",
+        "Spin‑The‐Bowl: 5 Zero‑Gravity Recipes So Impossible, They’ll Blow Your Mind!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "BakingInSpace",
+        "FloatingBatter",
+        "SpaceChef",
+        "GravityFreeCooking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
