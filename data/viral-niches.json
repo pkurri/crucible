@@ -18318,6 +18318,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "QuantumFoodTech merges the exploding interest in quantum computing with everyday food and flavor science, creating a niche that is hugely novel, low in existing content, and highly shareable. The technology-driven culinary adventures trigger curiosity, the visual allure of molecular gastronomy excites the senses, and the promise of edible innovation resonates with food lovers and tech enthusiasts alike. Its cross‑disciplinary nature invites endless 25+ viral content ideas, and the faceless, AI‑narrated format keeps production scalable while keeping viewers engaged with scroll‑stopping hooks.",
+      "ideas": [
+        "Quantum Soups: The Invisible Chef Determines Your Perfect Broth – Watch qubits cook a broth that adapts to your taste in real time!",
+        "Quantum Burger That Never Melts – See how quantum computing keeps a burger burger‑solid at 80°C!",
+        "The Future of Breakfast: Quantum Donut Lab – What if your donut senses your mood? Let’s see quantum bytes rise!"
+      ],
+      "keywords": [
+        "quantum particles",
+        "flavor simulation",
+        "interactive kitchen",
+        "nanotech plating",
+        "bioluminescent cuisine"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
