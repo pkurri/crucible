@@ -18169,6 +18169,30 @@
         "Petrified"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes taps into the human fascination with the unseen, offering visually stunning footage of microscopic life hidden in everyday objects. The niche is highly differentiable from mainstream science channels, thrives on scroll‑stopping micro‑zoom shots and curiosity loops (e.g., “What lives inside your mug?”). Its content is endlessly expandable—any surface or food item can become a new micro‑ecosystem, making it ideal for 25+ viral concepts and high engagement on both Meta and YouTube.",
+      "ideas": [
+        "The Secret Kingdom Inside Your Car Seat: A Time‑Lapse 3‑Minute Micro‑World Reveal / Opening the back of your car reveals a living kingdom of bacteria—click to see the unseen!",
+        "Coffee Cup Biome Odyssey: How Microbes Shape Your Morning Brew / A close‑up of the coffee mug’s micro‑surface shows a bustling ecosystem you’ve never seen.",
+        "Bioluminescent Bathroom Bacteria: Tiny Lights Lighting Your Shower / Watch the glowing microbes that live in your shower drain turn your bath into a sci‑fi wonder."
+      ],
+      "keywords": [
+        "microscopic",
+        "bioluminescent",
+        "glowing",
+        "hidden",
+        "tiny"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
