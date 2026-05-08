@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12309,84 +12309,96 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Your 70-year plan is doomed. Want 150?",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Intermittent Fasting Protocol",
+        "icon": "⏰"
       },
       {
-        "text": "Scientists just cracked the longevity code. Grab it!",
-        "duration": 4
+        "title": "Microbiome",
+        "name": "Probio+ Fermented Foods",
+        "icon": "🦠"
       },
       {
-        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NMN + Resveratrol Combo",
+        "icon": "💊"
       },
       {
-        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT 10-min Home Circuit",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue-Light Blocking Routine",
+        "icon": "🛌"
       },
       {
-        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
-        "duration": 4
+        "title": "Mindfulness",
+        "name": "Daily 5-min Breathwork",
+        "icon": "🧘‍♀️"
       },
       {
-        "text": "Your competitors get the 40‑µg NMN pill next week.",
-        "duration": 4
+        "title": "Tech",
+        "name": "Wearable Sleep Tracker",
+        "icon": "⌚"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next video: How to decode your genetic age in 5 mins.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Low-TOX Air Purifier",
+        "icon": "🌬️"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hot Greedy Token",
+        "name": "AlphaCoin",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Volume Surge",
+        "name": "VolumeBlitz",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Insider Tool",
+        "name": "GoldMines",
+        "icon": "🚀"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "FOMO Watcher",
+        "name": "FOMOAlert",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Pump Tracker",
+        "name": "PumpPulse",
+        "icon": "🔥"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Lightning Yield",
+        "name": "YieldLightning",
+        "icon": "💰"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Coin Flip",
+        "name": "FlipMaster",
+        "icon": "🔓"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Vault Alert",
+        "name": "VaultGuard",
+        "icon": "🏦"
       }
     ]
   },
@@ -20688,6 +20700,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1778208693022": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1778208693022 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "UI Mastery",
+        "name": "QuantumCanvas",
+        "icon": "💡"
+      },
+      {
+        "title": "Speed",
+        "name": "TurboCache",
+        "icon": "⚡"
+      },
+      {
+        "title": "Security",
+        "name": "CryptShield",
+        "icon": "🔒"
+      },
+      {
+        "title": "Integration",
+        "name": "UniversalBridge",
+        "icon": "🌐"
+      },
+      {
+        "title": "Analytics",
+        "name": "InsightPulse",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "AutoPilot",
+        "icon": "🤖"
+      },
+      {
+        "title": "Customization",
+        "name": "TailorCraft",
+        "icon": "🎨"
+      },
+      {
+        "title": "Support",
+        "name": "RapidHelp",
+        "icon": "🤝"
       }
     ]
   }
