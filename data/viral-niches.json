@@ -18221,6 +18221,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The microscopic world of microbes is largely invisible yet crucial to life. With rapid advances in 3D rendering and time‑lapse microscopy, faceless creators can produce stunning, immersive visualizations of bacterial cities, bioluminescent ecosystems, and unseen chemical reactions. The topic taps into popular science, climate change, and bio‑tech curiosity, offering endless fresh angles that keep viewers scroll‑stopping and craving the next hidden realm.",
+      "ideas": [
+        "Algae City: Inside the 100‑Micron Metropolis That Powers the Ocean – Can a microscopic city outpace human traffic jams?",
+        "Space‑Age Microbes: How Tiny Bacteria are Reinventing Artificial Intelligence – 3D‑animated journey from genome to machine learning.",
+        "Bio‑Glow Sky: The Night Life of Oceanic Micro‑Predators in Ultra Slow‑Motion – Witness neon camouflage that can heal a colony in seconds."
+      ],
+      "keywords": [
+        "neon bioluminescence",
+        "microscopic ecosystems",
+        "3D microbial animation",
+        "ultra slow‑motion",
+        "nano‑cityscapes"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
