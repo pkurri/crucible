@@ -18145,6 +18145,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Wonder",
+      "reason": "MicroBioscapes unlocks the untapped curiosity of hidden microscopic worlds. With high visual intensity and endless variety—from glowing bacteria funnels to fungal forests—videos become instant scroll‑stopters. The niche is fresh, universally appealing, and perfect for short, high‑energy content that invites viewers to keep watching for never‑before‑seen life, guaranteeing strong retention and shareability.",
+      "ideas": [
+        "The Glow‑Farming Universe Inside a Petri Dish / How Tiny Algae Turn Dark into Light!",
+        "Underwater Micro Worlds: See the 3‑D Cities Built by Single‑Cell Organisms!",
+        "The Invisible Forests We All Hide In: 4K Time‑Lapse of Mould Growing into 3‑D Sculptures!"
+      ],
+      "keywords": [
+        "Glowing",
+        "3D",
+        "Time‑Lapse",
+        "Micro‑Scale",
+        "Petrified"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
