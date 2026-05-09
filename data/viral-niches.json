@@ -18591,6 +18591,30 @@
         "FutureKitchen"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialSymphony",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The microbial world is invisible yet profoundly influential—the microbiome shapes health, climate, and even our moods. Visualizing microbes in high‑resolution microscopy combined with soundscapes turns a niche topic into a stunning sensory experience. The concept blends trending interests (gut health, microbiome, bio‑art) with never‑before‑seen visuals, guaranteeing scroll‑stopping hooks that keep viewers glued to the screen. Faceless narration and minimal text grow the channel’s reach across language barriers, while the endless varieties of microbes and environments provide a limitless pipeline of 25+ viral ideas, all with high retention potential and a genuine wow factor.",
+      "ideas": [
+        "\"Microbial Symphonies: When Bacteria Turn Into Music & It Will Knock Your Socks Off\"",
+        "\"5 Microbes That Can Play You a Symphonic Melody—In Your Own Body!\"",
+        "\"The Secret Lives of Mould: Visualizing Inner Musicians in a Petri Dish\""
+      ],
+      "keywords": [
+        "Microscopic",
+        "Bioluminescence",
+        "Colorful",
+        "Vibrant",
+        "Fungal"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

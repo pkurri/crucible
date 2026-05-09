@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12309,96 +12309,84 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Intermittent Fasting Protocol",
-        "icon": "⏰"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Microbiome",
-        "name": "Probio+ Fermented Foods",
-        "icon": "🦠"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "NMN + Resveratrol Combo",
-        "icon": "💊"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "HIIT 10-min Home Circuit",
-        "icon": "🏋️‍♂️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue-Light Blocking Routine",
-        "icon": "🛌"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Mindfulness",
-        "name": "Daily 5-min Breathwork",
-        "icon": "🧘‍♀️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Tech",
-        "name": "Wearable Sleep Tracker",
-        "icon": "⌚"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Environment",
-        "name": "Low-TOX Air Purifier",
-        "icon": "🌬️"
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hot Greedy Token",
-        "name": "AlphaCoin",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Volume Surge",
-        "name": "VolumeBlitz",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Insider Tool",
-        "name": "GoldMines",
-        "icon": "🚀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "FOMO Watcher",
-        "name": "FOMOAlert",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Pump Tracker",
-        "name": "PumpPulse",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Lightning Yield",
-        "name": "YieldLightning",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Coin Flip",
-        "name": "FlipMaster",
-        "icon": "🔓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Vault Alert",
-        "name": "VaultGuard",
-        "icon": "🏦"
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12434,7 +12422,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -13395,7 +13383,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -21228,6 +21216,47 @@
         "title": "Guidance",
         "name": "Focus Map",
         "icon": "🎯"
+      }
+    ]
+  },
+  "MicrobialSymphony": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of MicrobialSymphony.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master MicrobialSymphony, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
