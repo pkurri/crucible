@@ -18498,6 +18498,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Space travel is now a mainstream conversation—Mars missions, private suborbital flights, and NASA’s cutting‑edge experiments keep people fascinated with “what happens in space”. Zero‑gravity cooking is a visually impossible concept that combines food, science, and speculative future tech. It offers instant, shareable hooks, high‑quality visual moments, and a blend of curiosity and wonder that drives re‑watchability and engagement across both Meta (short clips, memetic formats) and YouTube (in‑depth ASMR‑style experiments). This niche is unique, scalable with endless recipe variations, and can attract cross‑audiences of foodies, science enthusiasts, and space fans, making a 1M+ subscriber trajectory realistic.",
+      "ideas": [
+        "First Ever Zero-Gravity Pizza: Does Cheese Melt in Space? Watch It Rise ✨",
+        "Kitchen in Zero Gravity: Floating Egg Breakfast Challenge - The Actual Physics Behind It 🍳",
+        "Zero‑Gravity Burger Experiment: Can You Fry a Patty Without Gravity? 🚀"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "FloatingFood",
+        "StellarSizzle",
+        "ScienceExperiment"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
