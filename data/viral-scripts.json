@@ -12268,57 +12268,10 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
-      {
-        "title": "Customer Support",
-        "name": "Chatbot Revolutions",
-        "icon": "🤖"
-      },
-      {
-        "title": "Healthcare",
-        "name": "AI Diagnostics",
-        "icon": "🏥"
-      },
-      {
-        "title": "Finance",
-        "name": "Algorithmic Trading",
-        "icon": "💰"
-      },
-      {
-        "title": "Manufacturing",
-        "name": "Autonomous Factories",
-        "icon": "🏭"
-      },
-      {
-        "title": "Law",
-        "name": "Smart Contracts",
-        "icon": "⚖️"
-      },
-      {
-        "title": "Education",
-        "name": "Adaptive Learning AI",
-        "icon": "📚"
-      },
-      {
-        "title": "Security",
-        "name": "AI Surveillance",
-        "icon": "🛡️"
-      },
-      {
-        "title": "Recruitment",
-        "name": "AI Hiring Systems",
-        "icon": "📑"
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12346,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12355,97 +12308,138 @@
       }
     ]
   },
+  "LongevityHacksUnlocked": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Nutrition",
+        "name": "Intermittent Fasting Protocol",
+        "icon": "⏰"
+      },
+      {
+        "title": "Microbiome",
+        "name": "Probio+ Fermented Foods",
+        "icon": "🦠"
+      },
+      {
+        "title": "Supplements",
+        "name": "NMN + Resveratrol Combo",
+        "icon": "💊"
+      },
+      {
+        "title": "Exercise",
+        "name": "HIIT 10-min Home Circuit",
+        "icon": "🏋️‍♂️"
+      },
+      {
+        "title": "Sleep",
+        "name": "Blue-Light Blocking Routine",
+        "icon": "🛌"
+      },
+      {
+        "title": "Mindfulness",
+        "name": "Daily 5-min Breathwork",
+        "icon": "🧘‍♀️"
+      },
+      {
+        "title": "Tech",
+        "name": "Wearable Sleep Tracker",
+        "icon": "⌚"
+      },
+      {
+        "title": "Environment",
+        "name": "Low-TOX Air Purifier",
+        "icon": "🌬️"
+      }
+    ]
+  },
   "CryptoBullRunSecrets": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "On-Chain Metrics",
-        "name": "Nansen",
-        "icon": "🔍"
+        "title": "Hot Greedy Token",
+        "name": "AlphaCoin",
+        "icon": "💎"
       },
       {
-        "title": "Market Sentiment",
-        "name": "CryptoMood",
-        "icon": "🔥"
-      },
-      {
-        "title": "Early Whale Flows",
-        "name": "Glassnode",
-        "icon": "🐋"
-      },
-      {
-        "title": "ICO Research",
-        "name": "TokenInsight",
-        "icon": "📊"
-      },
-      {
-        "title": "Order Book Data",
-        "name": "TradingView",
+        "title": "Volume Surge",
+        "name": "VolumeBlitz",
         "icon": "📈"
       },
       {
-        "title": "Decentralized Exchanges",
-        "name": "Uniswap Stats",
-        "icon": "🔀"
+        "title": "Insider Tool",
+        "name": "GoldMines",
+        "icon": "🚀"
       },
       {
-        "title": "Regulatory Pulse",
-        "name": "CoinDesk",
-        "icon": "⚖️"
+        "title": "FOMO Watcher",
+        "name": "FOMOAlert",
+        "icon": "⚡"
       },
       {
-        "title": "Fundamentals Tracker",
-        "name": "CryptoRank",
-        "icon": "🏆"
+        "title": "Pump Tracker",
+        "name": "PumpPulse",
+        "icon": "🔥"
+      },
+      {
+        "title": "Lightning Yield",
+        "name": "YieldLightning",
+        "icon": "💰"
+      },
+      {
+        "title": "Coin Flip",
+        "name": "FlipMaster",
+        "icon": "🔓"
+      },
+      {
+        "title": "Vault Alert",
+        "name": "VaultGuard",
+        "icon": "🏦"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Social Proof",
-        "name": "Mirroring Technique",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Reciprocity",
-        "name": "Gift of Obscure Favor",
-        "icon": "🎁"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Scarcity",
-        "name": "Limited-Offer Tactics",
-        "icon": "⏳"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Authority",
-        "name": "Fake Credentials Spin",
-        "icon": "🛡️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Consistency",
-        "name": "Foot-in-Door Push",
-        "icon": "🚪"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Liking",
-        "name": "Charm Loop Effect",
-        "icon": "😍"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Fear",
-        "name": "Threat Amplification",
-        "icon": "😈"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Anchoring",
-        "name": "Contrast Price Trick",
-        "icon": "💰"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -21187,6 +21181,53 @@
         "title": "Sparkling Smoothies",
         "name": "Glitter Juice",
         "icon": "🥤"
+      }
+    ]
+  },
+  "ApexFlow_1778307419322": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1778307419322 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1778307419322, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Configuration",
+        "name": "AutoSync",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Visualization",
+        "name": "Dynamic HUD",
+        "icon": "💡"
+      },
+      {
+        "title": "Optimization",
+        "name": "Precision Pulse",
+        "icon": "🔥"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Networking",
+        "name": "Pulsar Link",
+        "icon": "🌠"
+      },
+      {
+        "title": "Analytics",
+        "name": "Insight Echo",
+        "icon": "🧭"
+      },
+      {
+        "title": "Deployment",
+        "name": "Fast Launch",
+        "icon": "🚀"
+      },
+      {
+        "title": "Guidance",
+        "name": "Focus Map",
+        "icon": "🎯"
       }
     ]
   }
