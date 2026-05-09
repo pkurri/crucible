@@ -18761,6 +18761,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NanoBiomes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "NanoBiomes melds the mesmerizing visual appeal of microscopic worlds with the current surge in science‑based content. High‑resolution time‑lapse footage of unseen organisms, coupled with vibrant augmented storytelling, naturally creates scroll‑stopping hooks and curiosity loops. The niche is untapped yet offers an endless array of visually spectacular concepts, supporting quick replication of viral videos while fostering long‑term engagement.",
+      "ideas": [
+        "Inside a Single Drop of Tap Water: 30‑Second Portal into a World of 100,000 Cells",
+        "The Hidden Jungle On Your Front Door: 4‑Minute Earth‑Like Ecosystem Revealed by 4K Smart‑LAB",
+        "Microbe Mayhem: 2‑Minute Battle Between Bacteria vs Fungi [Time‑Warp Animation]"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Glowing",
+        "Time‑Lapse",
+        "Vibrant",
+        "Mindblowing"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
