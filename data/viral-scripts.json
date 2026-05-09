@@ -21142,5 +21142,52 @@
         "duration": 4
       }
     ]
+  },
+  "BioluminescentStreetFood": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioluminescentStreetFood secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Neon Tacos",
+        "name": "Glow Pup",
+        "icon": "🌮"
+      },
+      {
+        "title": "Luminous Sushi",
+        "name": "Neon Mackerel",
+        "icon": "🐟"
+      },
+      {
+        "title": "Glowing Kebabs",
+        "name": "Phosphorescent Kebab",
+        "icon": "🍢"
+      },
+      {
+        "title": "Radiant Wraps",
+        "name": "Lustre Lettuce Wrap",
+        "icon": "🌯"
+      },
+      {
+        "title": "Shining Sliders",
+        "name": "Bioluminescent Burger",
+        "icon": "🍔"
+      },
+      {
+        "title": "Flickering Fries",
+        "name": "Electric Potato",
+        "icon": "🍟"
+      },
+      {
+        "title": "Aurora Pies",
+        "name": "Glowing Quiche",
+        "icon": "🥧"
+      },
+      {
+        "title": "Sparkling Smoothies",
+        "name": "Glitter Juice",
+        "icon": "🥤"
+      }
+    ]
   }
 }

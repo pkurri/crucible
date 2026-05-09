@@ -18522,6 +18522,30 @@
         "ScienceExperiment"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentStreetFood",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Combines the universal love of food with the mesmerizing, science‑backed spectacle of bioluminescence. The visual hook of glowing food, coupled with trending food exploration content, enables high share‑rate and easy cross‑platform distribution. Faceless production with night‑time footage, minimal voice‑over, and stylized graphics keeps costs low while providing scroll‑stopping images that feed curiosity loops. The niche is specific enough to dominate a trending sub‑genre yet broad enough to scale with 25+ concept variations, ensuring long‑term growth potential for 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "The Secret Glow: Street Food That Lights Up Your Night (Science Explained!) – Ever wondered why some street food looks like a mini galaxy?",
+        "Top 7 Bioluminescent Dishes You Need to Try Before You Die! – This list will change how you think about nightlife.",
+        "From Glowworms to Glow… The Science Making Street Food Shine! – Discover the chemical reaction behind each sparkly bite."
+      ],
+      "keywords": [
+        "Glowing",
+        "Neon",
+        "FoggyNight",
+        "Starlit",
+        "Sparkle"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
