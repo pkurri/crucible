@@ -18660,6 +18660,30 @@
         "NasaExperiment"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero-Gravity Kitchen blends the universal fascination with space, the novelty of cooking in microgravity, and access to authentic ISS footage. The niche offers endless curiosity hooks like \"first space salad\" or \"floating cake experiment,\" caters to broad audiences—from foodies to space enthusiasts— and is scalable with seasonal space missions, new recipes, and interactive live streams. Its visual appeal is high, and it remains underexplored compared to generic food or space channels, giving it a high differentiation factor.",
+      "ideas": [
+        "The First Time Food Floated in Space: Watch It Float! – Hook: Ever seen pepper in a zero‑gravity kitchen? Watch science meet culinary chaos.",
+        "NASA’s Secret Recipe: How Astronauts Cook on the ISS – Hook: This recipe uses the very air we breathe. See chefs defy gravity.",
+        "Floating Cake Challenge: Can You Bake a Cake in Space? – Hook: We ran a zero‑gravity baking experiment and the results are INSANE."
+      ],
+      "keywords": [
+        "ZeroGravityEffects",
+        "SpaceFood",
+        "ISSkitchen",
+        "FloatingFood",
+        "Microgravity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
