@@ -18809,6 +18809,30 @@
         "micro‑world"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialSounds",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicrobialSounds taps into the unexplored phenomenon of bacteria and microscopic organisms producing distinct audio frequencies, blending science, beauty and the unknown. It offers a fresh, highly visual and auditory experience that hasn’t been saturated yet, providing countless hooks for mind‑bending discoveries, fascinating sound‑scapes, and ‘you can’t imagine this exists’ moments, which are perfect for scroll‑stopping content.",
+      "ideas": [
+        "The Bacterial Choir: How Microbes Sing in a Petri Dish / Hook: Your home lab could become a symphony – watch vibrations turn into music.",
+        "Plankton Orchestra: Listening to the Microscopic Music of the Ocean / Hook: Ever wondered what silence in the deep looks like? Now you can hear it.",
+        "Bacteria Under Pressure: Where Sound Meets Science / Hook: See and hear how microbes speak when pushed to their limits."
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Microfluidic",
+        "Holographic",
+        "Neon",
+        "Glow"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
