@@ -18567,6 +18567,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero Gravity Kitchen blends the universal fascination with space, cutting-edge tech, and mind‑bending food visuals. The niche diverges from saturated food or tech channels by offering uniquely captivating, scroll‑stopping buttery‑fluid, floating recipes that appeal to both science lovers and casual viewers eager for spectacular entertainment. Its strong visual Hooks and instantly shareable “gravity‑defying” moments are perfect for rapid viral growth, while the endless variety of dishes ensures scalable content: each episode can be a new zero‑g experiment, a new utensil, or a new flavor combo.",
+      "ideas": [
+        "Cooking Without Gravity: 1st Zero‑G Hamburger in 60 Seconds! | Watch It Float",
+        "Hyper‑Gravity Salad: 10× Faster Taste in Space! | The Ultimate Zero‑G Food Hack",
+        "5 Foods Impossible to Cook on Earth — Now on Zero‑G! | Space‑Kitchen Secrets"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "FloatingFood",
+        "SpaceCuisine",
+        "AntiGravityCooking",
+        "FutureKitchen"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
