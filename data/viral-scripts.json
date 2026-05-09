@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12350,43 +12350,49 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "On-Chain Metrics",
+        "name": "Nansen",
+        "icon": "🔍"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Market Sentiment",
+        "name": "CryptoMood",
+        "icon": "🔥"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Early Whale Flows",
+        "name": "Glassnode",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "ICO Research",
+        "name": "TokenInsight",
+        "icon": "📊"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Order Book Data",
+        "name": "TradingView",
+        "icon": "📈"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Decentralized Exchanges",
+        "name": "Uniswap Stats",
+        "icon": "🔀"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Regulatory Pulse",
+        "name": "CoinDesk",
+        "icon": "⚖️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Fundamentals Tracker",
+        "name": "CryptoRank",
+        "icon": "🏆"
       }
     ]
   },
@@ -12422,7 +12428,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -13352,43 +13358,49 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
+    "closing": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of MicroBioscapes.",
-        "duration": 5
+        "title": "Labyrinthine Bacteria",
+        "name": "MorphoBend",
+        "icon": "🌀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Nano Plant Roots",
+        "name": "RootGlow",
+        "icon": "🌱"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Micro Life Canvas",
+        "name": "CelliCanvas",
+        "icon": "🎨"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Symbiotic Pods",
+        "name": "SymbioSphere",
+        "icon": "🌐"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Fungal Metaballs",
+        "name": "FungiWave",
+        "icon": "🍄"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Archaea Timecapsules",
+        "name": "ArchaVortex",
+        "icon": "🌀"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Microhtag Landscapes",
+        "name": "Tagomorph",
+        "icon": "🏞️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Microbiome Web",
+        "name": "Plexicore",
+        "icon": "🕸️"
       }
     ]
   },
@@ -21462,6 +21474,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "PetMicrobiomeSecrets": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 PetMicrobiomeSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Probiotic Allies",
+        "name": "Bifidobacterium Bonanza",
+        "icon": "🌱"
+      },
+      {
+        "title": "Symbiotic Foods",
+        "name": "Fermented Kibble",
+        "icon": "🍪"
+      },
+      {
+        "title": "Hidden Gut Friend",
+        "name": "Lactobacillus Love",
+        "icon": "💚"
+      },
+      {
+        "title": "Microbe Moods",
+        "name": "Short-Chain Fatty Acid Surge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Skin Suppressors",
+        "name": "Cutaneous Bacteria Calm",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Behavior Boosts",
+        "name": "Neurogenic Microbe Whisper",
+        "icon": "🧠"
+      },
+      {
+        "title": "Digestion Dynamics",
+        "name": "Enzyme Enhancer Cluster",
+        "icon": "🌀"
+      },
+      {
+        "title": "Immune Influencers",
+        "name": "Phage-Powered Protection",
+        "icon": "🦠"
       }
     ]
   }
