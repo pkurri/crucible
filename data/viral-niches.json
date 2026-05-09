@@ -18636,6 +18636,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "SpaceFoodTech blends the hotly trending domains of space exploration and culinary innovation, offering viewers a glimpse of what our future meals will look like on Mars or in orbit. NASA collaborations, uncertain materials, and visually stunning experiments create intrinsic curiosity loops and a sense of wonder that fuels shareability. The niche stands distinct from general FoodTech and Space content, ensuring a unique positioning that can tap into both science enthusiasts and foodie fans, driving high engagement, rapid growth, and the potential for 1M+ subscribers.",
+      "ideas": [
+        "How NASA Makes Pizza in Zero Gravity – the Ultimate Kitchen Hack",
+        "The Weirdest Space Recipes Tested on Earth – You Won’t Believe the Taste",
+        "From Mars Rovers to Your Plate: The Future of Eating in Orbit"
+      ],
+      "keywords": [
+        "ZeroGravityCooking",
+        "MarsMeals",
+        "SpaceLaboratory",
+        "FutureFood",
+        "NasaExperiment"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
