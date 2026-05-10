@@ -18854,6 +18854,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienBiomeSim",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The current surge in exoplanet discoveries combined with advances in generative AI creates an unparalleled opportunity: visually stunning, AI‑generated alien ecosystems that capture viewers’ imagination. With no major competitors and a format that automatically lends itself to high‑resolution, scroll‑stopping visuals, this niche meets all criteria—high differentiation, strong retention hooks, powerful emotional pull, and ready scalability to 25+ unique concepts per planet.",
+      "ideas": [
+        "Alien Biome: Rhea‑Prime – The AI‑Generated Jungle of a Super‑Earth",
+        "Biosphere of Gliese 667 Cc: 10 Seconds of Otherworldly Life (AI Simulation)",
+        "The Lost Forest of TRAPPIST‑1e – A Hyper‑Realistic Alien Habitat Reveal"
+      ],
+      "keywords": [
+        "Alien",
+        "Ecosystem",
+        "Simulation",
+        "AI",
+        "HD"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

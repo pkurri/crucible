@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -21591,6 +21591,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "AlienBiomeSim": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AlienBiomeSim secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Lifeform",
+        "name": "Lumina Floater",
+        "icon": "💫"
+      },
+      {
+        "title": "Flora",
+        "name": "Crystal Vines",
+        "icon": "🌿"
+      },
+      {
+        "title": "Geology",
+        "name": "Floating Basalt Arch",
+        "icon": "🪨"
+      },
+      {
+        "title": "Atmosphere",
+        "name": "Prismatic Aurora",
+        "icon": "🌈"
+      },
+      {
+        "title": "Technology",
+        "name": "Bio-Sync Drone",
+        "icon": "🤖"
+      },
+      {
+        "title": "Resource",
+        "name": "Quantum Gel",
+        "icon": "💧"
+      },
+      {
+        "title": "Phenomenon",
+        "name": "Gravity Whorls",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Mystery",
+        "name": "Echoing Monolith",
+        "icon": "🗿"
       }
     ]
   }
