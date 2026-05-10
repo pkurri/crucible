@@ -19038,6 +19038,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes taps into an untapped niche of ultra‑macro, time‑lapse close‑up footage of microscopic ecosystems. The visual wow factor is immense, and viewers are drawn by the secret worlds revealed. The content is inherently shareable, lends itself to endless themed variations, and aligns with the current surge in visual science and “hidden life” fascination.",
+      "ideas": [
+        "Bacteria Build Bridges: 1mm Bridges in Your Kitchen? – Macro Time‑Lapse! / Hook: Ever seen a bacteria city? Watch how they build roads in the blink of an eye.",
+        "The Forest’s Underground Railroad: Mycelium Networks Revealed in Stunning Macro! / Hook: Hidden highways beneath your feet – fungi connect and power the woods.",
+        "Microplastics’ Dark Secret: Hidden Life Beneath the Seas | Macro Discovery! / Hook: Dive into the invisible ecosystem thriving on plastic pollution."
+      ],
+      "keywords": [
+        "Macroscopic",
+        "Micro",
+        "Time‑Lapse",
+        "Underwater",
+        "Close‑up"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
