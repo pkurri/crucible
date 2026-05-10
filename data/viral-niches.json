@@ -19118,6 +19118,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "PlasticEaterPioneers",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Microplastic pollution is a global crisis that instantly resonates with viewers and drives social media shareability. The niche focuses on newly discovered organisms—bacteria, micro-dinoflagellates, and engineered microbes—that can degrade plastic into harmless substances. Unlike broad plastic waste or recycling channels, this theme offers scientific intrigue, a clear environmental hero narrative, and visual hooks (glowing bacteria under microscopes, slow‑motion plastic breakdown) that keep viewers scrolling. It taps into the urgent climate conversation, aligns with trending calls for concrete solutions, and fuels curiosity loops that can drive dozens of new ideas per month.",
+      "ideas": [
+        "Meet the Microbe That Chews Your Plastic Car—Results Are Shocking / Hook: \"One drop of this tiny bacterium can dissolve a plastic bottle in weeks. See what happens when it meets your plastic waste.\"",
+        "The Secret Lab Where Ocean Microorganisms Are Turning Plastic Into Food for Fish / Hook: \"Imagine oceans where plastic becomes a meal. This is how scientists are rewiring marine ecosystems.\"",
+        "How a Microscopic Creature Eats 100 Tons of Plastic in a Year—Scientists Are Stunned / Hook: \"Watch the experiment that proves plastic can be killed by nature’s own microbes.\""
+      ],
+      "keywords": [
+        "Microplastic",
+        "Microbe",
+        "PlasticDegradation",
+        "OceanLab",
+        "Biodegradable"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
