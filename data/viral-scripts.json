@@ -12268,43 +12268,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "8 AI agent secrets that will make you fear the future.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Unemployment",
+        "name": "AutoSweep Drones",
+        "icon": "🤖"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Income Inequality",
+        "name": "Wealth Analyzer",
+        "icon": "💸"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Privacy Violations",
+        "name": "MindMap 360",
+        "icon": "⚠️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Healthcare",
+        "name": "Deep-Doctor AI",
+        "icon": "🏥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Government Control",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Education",
+        "name": "Scholarbot",
+        "icon": "📚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Creative Theft",
+        "name": "Artifex AI",
+        "icon": "🎨"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Climate Manipulation",
+        "name": "NeoClimate",
+        "icon": "🌡️"
       }
     ]
   },
@@ -12350,84 +12356,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Microcap Momentum",
+        "name": "Rocket Rise",
+        "icon": "🚀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Whale Whisper",
+        "name": "Silent Surge",
+        "icon": "🐋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Chain Fork Windows",
+        "name": "Fork Lens",
+        "icon": "🔎"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Token Burn Alerts",
+        "name": "Fire Blast",
+        "icon": "🔥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stealth HODL",
+        "name": "Midnight Hold",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Insider Signals",
+        "name": "VIP Pulse",
+        "icon": "💓"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Pump & Dump Anticipation",
+        "name": "Bubble Peek",
+        "icon": "🍾"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tax-Loss Harvest Timing",
+        "name": "Golden Edge",
+        "icon": "💰"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Reciprocity",
+        "name": "Gift of Obscure Favor",
+        "icon": "🎁"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Scarcity",
+        "name": "Limited-Offer Tactics",
+        "icon": "⏳"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Authority",
+        "name": "Fake Credentials Spin",
+        "icon": "🛡️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Consistency",
+        "name": "Foot-in-Door Push",
+        "icon": "🚪"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Liking",
+        "name": "Charm Loop Effect",
+        "icon": "😍"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Fear",
+        "name": "Threat Amplification",
+        "icon": "😈"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Anchoring",
+        "name": "Contrast Price Trick",
+        "icon": "💰"
       }
     ]
   },
@@ -13352,43 +13370,49 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of MicroBioscapes.",
-        "duration": 5
+        "title": "Algal Fields",
+        "name": "Glowing Algae",
+        "icon": "🌿"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Bryophyte Den",
+        "name": "Mossy Nook",
+        "icon": "🍃"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Spore Islands",
+        "name": "Fungal Port",
+        "icon": "🍄"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Bacterial Canopy",
+        "name": "Micro Lattice",
+        "icon": "🦠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Micro Coral Reef",
+        "name": "Nano Reef",
+        "icon": "🏝️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Tiny Moss Moor",
+        "name": "Sapling Swamp",
+        "icon": "🪴"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Nano Jungle",
+        "name": "Micro Vines",
+        "icon": "🌵"
       },
       {
-        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Cellular Canyons",
+        "name": "DNA Valley",
+        "icon": "🧬"
       }
     ]
   },
@@ -21726,6 +21750,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "SyntheticOceanMonsters": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 SyntheticOceanMonsters secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more SyntheticOceanMonsters.",
+    "list": [
+      {
+        "title": "Bioluminescent Beast",
+        "name": "Glow Leviathan",
+        "icon": "🌊"
+      },
+      {
+        "title": "Abyssal Colossus",
+        "name": "Abyssal Leviathan",
+        "icon": "🦈"
+      },
+      {
+        "title": "Crystal Crawler",
+        "name": "Quartz Titan",
+        "icon": "💎"
+      },
+      {
+        "title": "Feathered Fiend",
+        "name": "Feather Kraken",
+        "icon": "🪶"
+      },
+      {
+        "title": "Electric Enigma",
+        "name": "Volt Kraken",
+        "icon": "⚡"
+      },
+      {
+        "title": "Glass Giant",
+        "name": "Mirage Scorpion",
+        "icon": "🌠"
+      },
+      {
+        "title": "Storm Sovereign",
+        "name": "Storm Siren",
+        "icon": "🌪"
+      },
+      {
+        "title": "Celestial Siren",
+        "name": "Stellar Serpent",
+        "icon": "✨"
       }
     ]
   }

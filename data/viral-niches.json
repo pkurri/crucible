@@ -18920,6 +18920,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticOceanMonsters",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "AI‑generated ocean beasts combine the current fascination with generative AI, the timeless lure of mythical sea creatures, and the visual impact of realistic 3D rendering. The niche is still largely untapped, offers endless content variation, and feeds strong television‑style hooks—perfect for scroll‑stopper reach and high curiosity loops.",
+      "ideas": [
+        "The AI Swarm You Never Knew Was Real—12 Terrifying New Ocean Monsters Created by Machine Learning / *Can a computer learn to create the most terrifying sea creature imaginable?*",
+        "I Breathed Life Into a Digital Kraken—Watch It Rise from the Deep / *From pixel to predator: an AI-born monstrosity tracks your every motion.*",
+        "This AI Whale Will Change How We Think About the Ocean—Its Shocking Design Explained / *Inside the mind of a generative model creating a leviathan beyond imagination.*"
+      ],
+      "keywords": [
+        "glowing",
+        "crimson",
+        "shadow",
+        "bioluminescent",
+        "surreal"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
