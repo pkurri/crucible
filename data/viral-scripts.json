@@ -12268,125 +12268,143 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "8 AI agent secrets that will make you fear the future.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Unemployment",
+        "name": "AutoSweep Drones",
+        "icon": "🤖"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Income Inequality",
+        "name": "Wealth Analyzer",
+        "icon": "💸"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Privacy Violations",
+        "name": "MindMap 360",
+        "icon": "⚠️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Healthcare",
+        "name": "Deep-Doctor AI",
+        "icon": "🏥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Government Control",
+        "name": "Surveillance Matrix",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Education",
+        "name": "Scholarbot",
+        "icon": "📚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Creative Theft",
+        "name": "Artifex AI",
+        "icon": "🎨"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Climate Manipulation",
+        "name": "NeoClimate",
+        "icon": "🌡️"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Blueberry Power",
+        "icon": "💙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "Micro‑Resistance",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocker",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD⁺ Booster",
+        "icon": "🔋"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Daily Gratitude Journal",
+        "icon": "📓"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Tech",
+        "name": "Wearable Health Tracker",
+        "icon": "⌚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Air Purifier with HEPA",
+        "icon": "🌬️"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Cellular",
+        "name": "Telomere Stimulator",
+        "icon": "🔬"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hot Greedy Token",
+        "name": "AlphaCoin",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Volume Surge",
+        "name": "VolumeBlitz",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Insider Tool",
+        "name": "GoldMines",
+        "icon": "🚀"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "FOMO Watcher",
+        "name": "FOMOAlert",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Pump Tracker",
+        "name": "PumpPulse",
+        "icon": "🔥"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Lightning Yield",
+        "name": "YieldLightning",
+        "icon": "💰"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Coin Flip",
+        "name": "FlipMaster",
+        "icon": "🔓"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Vault Alert",
+        "name": "VaultGuard",
+        "icon": "🏦"
       }
     ]
   },
@@ -12422,7 +12440,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -21937,6 +21955,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1778445988895": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1778445988895 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "Lightning‑Fast Render Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Design",
+        "name": "Adaptive UI Canvas",
+        "icon": "🎨"
+      },
+      {
+        "title": "Integration",
+        "name": "One‑Click API Bridge",
+        "icon": "🔗"
+      },
+      {
+        "title": "Automation",
+        "name": "Smart Workflow Scheduler",
+        "icon": "⏰"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Encryption Layer",
+        "icon": "🔒"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Collaboration",
+        "name": "Live Co‑Edit Mode",
+        "icon": "👥"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinite Node Expansion",
+        "icon": "🚀"
       }
     ]
   }
