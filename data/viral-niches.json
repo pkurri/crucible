@@ -18972,6 +18972,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The microscopic world of microbes, fungi, and biofilms offers visually stunning, almost alien imagery that satisfies the human craving for wonder and curiosity. With a growing public interest in science, sustainability, and the unseen realms of everyday environments, faceless documentary-style videos showcasing these micro-ecosystems can quickly capture wide attention. The content is highly shareable across platforms, can be created from high‑resolution microscope footage and low‑cost CGI, and has limitless sub‑themes (food microbiomes, biofilm art, microplastics, urban microbes) that support over 25 unique viral concepts without heavy creator presence. This niche remains under‑exploited yet has a strong, evergreen demand for curious, awe‑inducing content.",
+      "ideas": [
+        "The Hidden Foodborne Empire Inside Your Breakfast / 5 Surprising Microbes That Make Your Morning Meal Alive",
+        "When Microbial Swarms Turn Into 3D Cinematic Storms / Watch Nature's Invisible Hurricanes in Nanoscopic Detail",
+        "Microplastics: The Dark Ocean Monsters Burrowing Inside Your Skin / A Visual Journey Through the World Under Your Tissues"
+      ],
+      "keywords": [
+        "Bioluminescent microbe swarm",
+        "Nano forest",
+        "Microbial storm",
+        "Cellular cityscape",
+        "Microscopic ocean"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
