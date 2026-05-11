@@ -12268,143 +12268,125 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "8 AI agent secrets that will make you fear the future.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Unemployment",
-        "name": "AutoSweep Drones",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Income Inequality",
-        "name": "Wealth Analyzer",
-        "icon": "💸"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Privacy Violations",
-        "name": "MindMap 360",
-        "icon": "⚠️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Healthcare",
-        "name": "Deep-Doctor AI",
-        "icon": "🏥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Government Control",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Education",
-        "name": "Scholarbot",
-        "icon": "📚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Creative Theft",
-        "name": "Artifex AI",
-        "icon": "🎨"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Climate Manipulation",
-        "name": "NeoClimate",
-        "icon": "🌡️"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Blueberry Power",
-        "icon": "💙"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "Micro‑Resistance",
-        "icon": "🏋️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue Light Blocker",
-        "icon": "🌙"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "NAD⁺ Booster",
-        "icon": "🔋"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Mindset",
-        "name": "Daily Gratitude Journal",
-        "icon": "📓"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Tech",
-        "name": "Wearable Health Tracker",
-        "icon": "⌚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Environment",
-        "name": "Air Purifier with HEPA",
-        "icon": "🌬️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Cellular",
-        "name": "Telomere Stimulator",
-        "icon": "🔬"
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hot Greedy Token",
-        "name": "AlphaCoin",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Volume Surge",
-        "name": "VolumeBlitz",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Insider Tool",
-        "name": "GoldMines",
-        "icon": "🚀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "FOMO Watcher",
-        "name": "FOMOAlert",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Pump Tracker",
-        "name": "PumpPulse",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Lightning Yield",
-        "name": "YieldLightning",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Coin Flip",
-        "name": "FlipMaster",
-        "icon": "🔓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Vault Alert",
-        "name": "VaultGuard",
-        "icon": "🏦"
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12440,7 +12422,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -13373,39 +13355,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of MicroBioscapes.",
+        "text": "What if the ocean deep is a living skyscraper?",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "Every blink unlocks billions of unseen lives.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Bacteria expand faster than a plant seed, mapping life continents.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Each microbe whispers secrets in 50‑nanosecond bursts.",
+        "duration": 5
+      },
+      {
+        "text": "Some inhabitants swarm like galaxies, orbiting unseen suns.",
+        "duration": 5
+      },
+      {
+        "text": "Hold tight—next frame will show a bloom that could shift climate.",
+        "duration": 4
+      },
+      {
+        "text": "Stop watching or miss the hidden engine of our planet.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+        "duration": 5
+      },
+      {
+        "text": "Next up: The silent dance of oceanic fireflies.",
         "duration": 4
       }
     ]
@@ -22002,6 +21984,88 @@
         "title": "Scalability",
         "name": "Infinite Node Expansion",
         "icon": "🚀"
+      }
+    ]
+  },
+  "PlasticEaterPioneers": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of PlasticEaterPioneers.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master PlasticEaterPioneers, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "MicroBioscapesLive": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of MicroBioscapesLive.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master MicroBioscapesLive, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }

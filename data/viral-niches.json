@@ -19142,6 +19142,30 @@
         "Biodegradable"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapesLive",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The realm of microscopic life remains largely unseen by the average viewer, yet curiosity about microbial worlds is soaring. By providing high‑resolution, real‑time 4K live‑microscopy footage—augmented with AI commentary and clear visual annotations—we create fresh, endlessly scalable content that can consistently hook viewers with curiosity loops (e.g., “What will happen next?”). Such content already thrives on YouTube Shorts and TikTok, but a faceless, consistently produced channel adds depth for longer videos, enabling rapid subscriber growth toward the 1M+ mark. The niche is distinct from existing macro‑thrill or general science channels, ensuring differentiation, while the visual intensity of living cells guarantees scroll‑stopping hooks across social feeds.",
+      "ideas": [
+        "The First 4K Time‑lapse of a Bacteria Colony Invasion—Watch It Grow!",
+        "AI Reveals Life Inside a Speck of Dust—Hidden Worlds Uncovered!",
+        "Prepare to be Amazed: Live Microscopic Battle Between Friendly & Foul Bacteria!"
+      ],
+      "keywords": [
+        "4K microscopy",
+        "live bacteria",
+        "AI annotation",
+        "time‑lapse",
+        "microbiome"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
