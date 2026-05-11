@@ -19358,6 +19358,30 @@
         "Spaceborne"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes taps into the up‑trend of hyper‑macro nature videos, yet remains largely untapped on both Meta and YouTube. The niche offers endless, visually stunning content that can be created with affordable macro equipment, generating scroll‑stopping hooks like \"The city that never sleeps is a single droplet\" and curiosity loops that keep viewers watching till the end. With moderate competition and high emotional engagement, it can scale to 25+ viral concepts and generate 1M+ subs / 100K+ views per video.",
+      "ideas": [
+        "The Secret City You Can Only See With 1000x Magnification - Hook: “Every drop is a metropolis, and inside it lives a hidden civilization you’ll never believe.”",
+        "Bioluminescent Micro‑World: Light‑Nail Organisms that Paint the Ocean – Hook: “Meet the glowing bacteria that turn seawater into a living neon club.”",
+        "Microbial Construction Boom: How Tiny Creatures Build Giant Structures – Hook: “These invisible architects generate structures that outsize the smallest mushroom!”"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "macro lens",
+        "microorganism",
+        "unseen",
+        "nano"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
