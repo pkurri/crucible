@@ -19190,6 +19190,30 @@
         "cinematic"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "HiddenSpectrum",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The HiddenSpectrum niche delivers visual novelty that taps into the widespread fascination with colors and the unseen world. Using UV light, bio‑luminescence, and spectral photography, each video turns everyday objects and natural scenes into a kaleidoscopic spectacle. Faceless production (no hosts, just footage + AI voiceover) encourages repeat views, quick shares, and easy localization. The format supports endless content—different foods, cities, seasons, and scientific experiments—making it highly scalable. With the current TikTok/IG trend of ‘glow‑up’ and ‘neon art’ videos, this niche can quickly reach 1M subscribers and 100k+ views per video.",
+      "ideas": [
+        "You Won’t Believe the Colors of Your Kitchen When You Switch On UV Light | Fluorescence Time‑Lapse",
+        "Nature’s Hidden Palette: Bioluminescence of Tide Pools | Science Splash",
+        "Cities Under Night: Urban Fluorescence Secrets Revealed | Nighttime Photography"
+      ],
+      "keywords": [
+        "Fluorescence",
+        "Bioluminescence",
+        "UV",
+        "Spectral",
+        "Neon"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
