@@ -19334,6 +19334,30 @@
         "SyntheticBioluminescence"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "SpaceFoodTech merges the booming interest in space exploration with the urgent global conversation around sustainable, high‑yield food tech. It offers unique, visually striking experiments that are rarely covered in depth, making it perfect for scroll‑stopping hooks, curiosity loops, and relatable real‑world applications that resonate on both Twitter and YouTube.",
+      "ideas": [
+        "Harvesting Food on Mars: The Science Behind Red Planet Farming in 60 Seconds! – Ever wondered how Martians will eat? Watch the cutting‑edge experiments that grow lettuce in Martian regolith simulants…",
+        "From Lab to Table: The World's First 3D‑Printed Edible Pizza in Space! – Scientists are 3D printing pizza on a space station—can you taste the future of snackable meals aboard the ISS?",
+        "NASA’s Backyard Kitchen: How They Grow Microgreens in Zero Gravity! – See the surprising way astronauts grow greens in microgravity—this could feed the next generation of space explorers!"
+      ],
+      "keywords": [
+        "Futuristic",
+        "Microgravity",
+        "Colorful",
+        "Edible",
+        "Spaceborne"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

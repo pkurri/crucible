@@ -12268,43 +12268,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Data Mining",
+        "name": "AI Spy",
+        "icon": "🔍"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "Neural Recon",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Shutdown",
+        "name": "Auto Shutdown",
+        "icon": "⚡"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mind Control",
+        "name": "Mind Hack",
+        "icon": "🧠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Job Displacement",
+        "name": "Job AI",
+        "icon": "🤖"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Self-Replicating",
+        "name": "Replicant",
+        "icon": "🌀"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Identity Theft",
+        "name": "Shadow ID",
+        "icon": "👤"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Economic Collapse",
+        "name": "Zero Tolerance",
+        "icon": "💸"
       }
     ]
   },
@@ -12312,122 +12318,134 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Your 70-year plan is doomed. Want 150?",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "Scientists just cracked the longevity code. Grab it!",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
+        "duration": 5
+      },
+      {
+        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
+        "duration": 5
+      },
+      {
+        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
+        "duration": 4
+      },
+      {
+        "text": "Your competitors get the 40‑µg NMN pill next week.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: How to decode your genetic age in 5 mins.",
         "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Microcap Momentum",
+        "name": "Rocket Rise",
+        "icon": "🚀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Whale Whisper",
+        "name": "Silent Surge",
+        "icon": "🐋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Chain Fork Windows",
+        "name": "Fork Lens",
+        "icon": "🔎"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Token Burn Alerts",
+        "name": "Fire Blast",
+        "icon": "🔥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stealth HODL",
+        "name": "Midnight Hold",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Insider Signals",
+        "name": "VIP Pulse",
+        "icon": "💓"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Pump & Dump Anticipation",
+        "name": "Bubble Peek",
+        "icon": "🍾"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tax-Loss Harvest Timing",
+        "name": "Golden Edge",
+        "icon": "💰"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Influence",
+        "name": "Scarcity Hook",
+        "icon": "⚡"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Emotional Control",
+        "name": "Foot‑in‑the‑Door Ultimatum",
+        "icon": "📝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cognitive Bias",
+        "name": "Anchoring Illusion",
+        "icon": "📌"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Fake Endorsements",
+        "icon": "🤝"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Authority Trick",
+        "name": "Imitate Experts",
+        "icon": "👔"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Fear Manipulation",
+        "name": "Moral Guilt Pulse",
+        "icon": "😨"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Linguistic Tactics",
+        "name": "Embedded Commands",
+        "icon": "🔈"
       }
     ]
   },
@@ -13856,43 +13874,49 @@
     ]
   },
   "SpaceFoodTech": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 SpaceFoodTech secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of SpaceFoodTech.",
-        "duration": 5
+        "title": "Zero-Gravity Snacks",
+        "name": "AirPuffs™",
+        "icon": "🍕"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Protein Pods",
+        "name": "NutriSphere",
+        "icon": "🥜"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Hydro-Refreshments",
+        "name": "AquaGlo",
+        "icon": "💧"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Flavor Infusion",
+        "name": "TasteTrac",
+        "icon": "🌶️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Energy Bars",
+        "name": "StarFuel",
+        "icon": "⚡"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Creative Cooking",
+        "name": "GravGrill",
+        "icon": "🍖"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sustainable Solutions",
+        "name": "BioBloom",
+        "icon": "🌱"
       },
       {
-        "text": "If you want to master SpaceFoodTech, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Universal Meals",
+        "name": "OmniPlate",
+        "icon": "🍽️"
       }
     ]
   },
