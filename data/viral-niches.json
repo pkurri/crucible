@@ -19382,6 +19382,30 @@
         "nano"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentStreetFood",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "This niche blends pure visual spectacle with cultural curiosity, creating scroll‑stopping, share‑worthy content that resonates with both food lovers and visual explorers. By showcasing glowing street foods from around the globe, the channel tapers into the rising trend of bioluminescence while maintaining a fresh, faceless format perfect for AI narration and stock footage. The concept supports endless curiosity loops (what breeds this glow? how is it safe?) and easily compounds with 25+ unique viral ideas spanning continents, seasons, and hidden markets.",
+      "ideas": [
+        "The Midnight Glow of Thailand’s Night Market: Lanterns, Tacos & Sea‑Fire Flavors (Hook: Watch food light up like a living star‑field in a city that never sleeps.)",
+        "From Lava to Lizard: Florida’s Bioluminescent Seafood Platter Explained (Hook: Why does the ocean taste like fire? Dive into the science behind glowing fish cuisine.)",
+        "Meet the Secret Fireflies of Oaxaca’s Street Street: A Glowing Tacos & Mezcal Celebration (Hook: One bite and you’ll taste the night—glowing, spicy, unforgettable.)"
+      ],
+      "keywords": [
+        "Glowing",
+        "Luminous",
+        "Neon",
+        "Vibrant",
+        "Mystic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

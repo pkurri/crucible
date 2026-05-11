@@ -12268,81 +12268,34 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
-      {
-        "title": "Data Mining",
-        "name": "AI Spy",
-        "icon": "🔍"
-      },
-      {
-        "title": "Surveillance",
-        "name": "Neural Recon",
-        "icon": "🕵️‍♂️"
-      },
-      {
-        "title": "Shutdown",
-        "name": "Auto Shutdown",
-        "icon": "⚡"
-      },
-      {
-        "title": "Mind Control",
-        "name": "Mind Hack",
-        "icon": "🧠"
-      },
-      {
-        "title": "Job Displacement",
-        "name": "Job AI",
-        "icon": "🤖"
-      },
-      {
-        "title": "Self-Replicating",
-        "name": "Replicant",
-        "icon": "🌀"
-      },
-      {
-        "title": "Identity Theft",
-        "name": "Shadow ID",
-        "icon": "👤"
-      },
-      {
-        "title": "Economic Collapse",
-        "name": "Zero Tolerance",
-        "icon": "💸"
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your 70-year plan is doomed. Want 150?",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
-        "text": "Scientists just cracked the longevity code. Grab it!",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
-        "duration": 5
-      },
-      {
-        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
-        "duration": 5
-      },
-      {
-        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
-        "duration": 5
-      },
-      {
-        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
-        "duration": 4
-      },
-      {
-        "text": "Your competitors get the 40‑µg NMN pill next week.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
@@ -12350,102 +12303,131 @@
         "duration": 5
       },
       {
-        "text": "Next video: How to decode your genetic age in 5 mins.",
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Microcap Momentum",
-        "name": "Rocket Rise",
-        "icon": "🚀"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Whale Whisper",
-        "name": "Silent Surge",
-        "icon": "🐋"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Chain Fork Windows",
-        "name": "Fork Lens",
-        "icon": "🔎"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Token Burn Alerts",
-        "name": "Fire Blast",
-        "icon": "🔥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Stealth HODL",
-        "name": "Midnight Hold",
-        "icon": "🌙"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Insider Signals",
-        "name": "VIP Pulse",
-        "icon": "💓"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Pump & Dump Anticipation",
-        "name": "Bubble Peek",
-        "icon": "🍾"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Tax-Loss Harvest Timing",
-        "name": "Golden Edge",
-        "icon": "💰"
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Persuasion",
-        "name": "Mirroring Technique",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Influence",
-        "name": "Scarcity Hook",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Emotional Control",
-        "name": "Foot‑in‑the‑Door Ultimatum",
-        "icon": "📝"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Cognitive Bias",
-        "name": "Anchoring Illusion",
-        "icon": "📌"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Fake Endorsements",
-        "icon": "🤝"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Authority Trick",
-        "name": "Imitate Experts",
-        "icon": "👔"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Fear Manipulation",
-        "name": "Moral Guilt Pulse",
-        "icon": "😨"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Linguistic Tactics",
-        "name": "Embedded Commands",
-        "icon": "🔈"
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13370,7 +13352,7 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-JennyNeural",
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
         "text": "Nobody talks about the truth of MicroBioscapes.",
@@ -21138,49 +21120,43 @@
     ]
   },
   "BioluminescentStreetFood": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioluminescentStreetFood secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Neon Tacos",
-        "name": "Glow Pup",
-        "icon": "🌮"
+        "text": "Nobody talks about the truth of BioluminescentStreetFood.",
+        "duration": 5
       },
       {
-        "title": "Luminous Sushi",
-        "name": "Neon Mackerel",
-        "icon": "🐟"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Glowing Kebabs",
-        "name": "Phosphorescent Kebab",
-        "icon": "🍢"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Radiant Wraps",
-        "name": "Lustre Lettuce Wrap",
-        "icon": "🌯"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Shining Sliders",
-        "name": "Bioluminescent Burger",
-        "icon": "🍔"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Flickering Fries",
-        "name": "Electric Potato",
-        "icon": "🍟"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Aurora Pies",
-        "name": "Glowing Quiche",
-        "icon": "🥧"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Sparkling Smoothies",
-        "name": "Glitter Juice",
-        "icon": "🥤"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
