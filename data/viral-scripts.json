@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12309,43 +12309,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Blueberries",
+        "icon": "🫐"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT",
+        "icon": "🔥"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Polyphasic Sleep",
+        "icon": "🛏️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mental Fitness",
+        "name": "Brain Gym",
+        "icon": "🧠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Vitamin D3",
+        "icon": "☀️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Water",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Laughing Groups",
+        "icon": "😂"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Mindset",
+        "name": "Gratitude Journaling",
+        "icon": "📝"
       }
     ]
   },
@@ -12381,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -22236,6 +22242,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1778534265763": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1778534265763 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1778534265763, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Mechanics",
+        "name": "Quantum Rift Cannon",
+        "icon": "🌀"
+      },
+      {
+        "title": "Gear",
+        "name": "Plasma Silk Cloak",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Challenges",
+        "name": "Celestial Hunt",
+        "icon": "🌠"
+      },
+      {
+        "title": "Enemies",
+        "name": "Eldritch Stormbringer",
+        "icon": "⚡"
+      },
+      {
+        "title": "Lore",
+        "name": "Eclipsed Codex",
+        "icon": "📚"
+      },
+      {
+        "title": "Customization",
+        "name": "Chromatic Resonance",
+        "icon": "🎨"
+      },
+      {
+        "title": "UI",
+        "name": "Flux HUD",
+        "icon": "🖥️"
+      },
+      {
+        "title": "Spectator",
+        "name": "Nebula Replay",
+        "icon": "📺"
       }
     ]
   }
