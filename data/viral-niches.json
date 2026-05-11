@@ -19434,6 +19434,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCookery",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Zero‑gravity cooking taps into the current fascination with space, culinary creativity, and the science of gravity. The faceless, high‑visual format (slow‑motion, floating ingredients, light‑parallax effects) is instantly immersive and highly shareable. With incremental tweaks—different cuisines, extreme food physics, or AI‑generated recipes—there are endless sub‑themes, ensuring a steady stream of scroll‑stopping content that keeps viewers hooked and eager for the next bite. This niche outshines existing “ZeroGravityKitchen” content by focusing on the cooking process as an experiment, not just a gimmick, and leverages current tech (AR overlays, physics simulations) to create unique, eye‑catching visuals that perform exceptionally well on both meta and video platforms.",
+      "ideas": [
+        "Gravity‑Defying Omelette: Watch Eggs Fly, Curl, and Cook in 0G! – The first step, a sizzling spin that will blow your mind.",
+        "Floating Vegan Delights: How to Layer an Avatar Salad in Zero‑Gravity – Watch the leaves drift like confetti, the dressing swirl into a luminous plume.",
+        "Cooking in Space: A 60‑Second Cosmic Burger in Zero‑Gravity – From the batter to the grill, every moment a defying dance of flavor and physics."
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "GravityDefying",
+        "LiquidLight",
+        "FuturisticFood",
+        "CosmicEats"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
