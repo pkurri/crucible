@@ -19214,6 +19214,32 @@
         "Neon"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "HiddenMicroWorlds",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The microscopic universe is a largely untapped, highly visual niche that fuels perpetual curiosity. With advances in affordable macro lens and microlensing tech, viewers can now see detail beyond the naked eye. This niche blends awe, subtle fear, and endless discovery, making each video a scroll‑stopping hook. The channel can consistently produce fresh topics (water microbes, soil fauna, biofilms, tiny insects, bioluminescence) and scale to 25+ distinct viral ideas.",
+      "ideas": [
+        "The 3D Maze Inside a Pond / *What lives in the hidden corridors beneath the water?*",
+        "Microscopic City: The Tiny Ecosystem Living Beneath Your Floor / *Meet the tiny townsfolk that thrive unseen.*",
+        "Giant Under a Lens: The Largest Creature You’ve Never Seen / *Bigger than a desktop? Watch it move.*",
+        "Bioluminescent Monsters in the Soil / *Darkness comes alive with glow. Who's hunting?*",
+        "Micro-World Time-Lapse: A Day in an Ant Hill / *See the whole ecosystem in minutes.*"
+      ],
+      "keywords": [
+        "Microlife",
+        "HiddenBiospheres",
+        "BioluminescentMonster",
+        "InvisibleWorld",
+        "3DMicroscope"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
