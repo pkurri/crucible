@@ -19310,6 +19310,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticOceanMonsters",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Synthetic biology is exploding, with headlines about engineered microbes, bacteria, and even a lab‑grown rainforest. The ocean is the next frontier for synthetic life, combining the mystique of deep‑sea exploration with the wow factor of laboratory creation. Visually stunning, scientifically cutting‑edge, and intrinsically different from existing deep‑sea or synthetic biology niches, it’s poised to capture massive curiosity and share‑ability across both platforms.",
+      "ideas": [
+        "They Built a 2‑Meter Lab Whale: The World's First Synthetic Ocean Giant! / Watch the bioluminescent whale roar in a tank, shattering the mystery of deep‑sea giants.",
+        "The Lab’s Synthetic Shark Is Flocking Like a Storm—Shocking X‑ray Reveal! / Discover why this engineered predator could rewrite our understanding of marine evolution.",
+        "From Petri Dish to Ocean: Meet the Lab‑Created Bioluminescent Octopus That Can Ink Spectacles! / See the future of intelligent, glow‑neon tentacles in real‑time footage."
+      ],
+      "keywords": [
+        "BioGlow",
+        "NeonMoss",
+        "SpectacularXray",
+        "AlienShark",
+        "SyntheticBioluminescence"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
