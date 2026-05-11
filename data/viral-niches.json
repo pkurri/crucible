@@ -19166,6 +19166,30 @@
         "microbiome"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "Climate‑change‑driven coastal erosion is a current, urgent issue that captivates global audiences. Time‑lapse drone and holographic overlays give a visceral ‘scroll‑stopper’ effect, while curiosity loops around disappearing towns and future predictions keep viewers engaged. The niche isn’t yet saturated, allowing for rapid subscriber growth and high view counts when paired with trending visual storytelling.",
+      "ideas": [
+        "The Last Wave: How This Small Town Will Disappear Under Water by 2050 – Watch the shoreline recede one foot per minute in a time‑lapse you can’t blink at!",
+        "Beach Gone: The Mysterious Vanishing Coastlines of the Pacific Are Real (Time‑Lapse) – See the edge of the world tear away before your eyes in stunning drone footage!",
+        "Future Vacation Home? The Shocking Coastal Retreats Set to Sink – Find out if your dream getaway will vanish in a decade with this jaw‑dropping holographic overlay story."
+      ],
+      "keywords": [
+        "time-lapse",
+        "drone",
+        "holographic",
+        "neon",
+        "cinematic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
