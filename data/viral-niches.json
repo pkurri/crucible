@@ -19693,6 +19693,29 @@
         "GhostCities"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The unseen micro‑world offers endless visual marvels that combine science, art and sheer curiosity. High‑resolution macro footage (8K) of colorful bacteria, fungal spores, protozoa and algae provides a scroll‑stopping aesthetic that is both educational and binge‑worthy. The niche is under‑explored on faceless channels, enabling quick differentiation and strong retention through tear‑jerk “Did you know?” hooks. The subject matter scales to a wide range of content—time‑lapse, speed comparisons, interactive “zoom‑in” series, and themed compilations—allowing for 25+ viral concepts while appealing to both science lovers and visual explorers.",
+      "ideas": [
+        "10 Most Colorful Bacteria Caught in 8K Time‑Lapse – You Won’t Believe How They Move / Stunning Fungal Spore Explosion in 60‑Second Macro",
+        "Micro Bacteria BEAT Human Heartbeat – A 1‑Minute Speed Revolution / Watch Micro Life Race Around a Drop of Water in 30× Speed"
+      ],
+      "keywords": [
+        "MacroLens",
+        "TimeLapse",
+        "MicroLife",
+        "8K",
+        "ColorfulBacteria"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
