@@ -12268,143 +12268,125 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Mining",
-        "name": "AI Spy",
-        "icon": "🔍"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Surveillance",
-        "name": "Neural Recon",
-        "icon": "🕵️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Shutdown",
-        "name": "Auto Shutdown",
-        "icon": "⚡"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mind Control",
-        "name": "Mind Hack",
-        "icon": "🧠"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Job Displacement",
-        "name": "Job AI",
-        "icon": "🤖"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Self-Replicating",
-        "name": "Replicant",
-        "icon": "🌀"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Identity Theft",
-        "name": "Shadow ID",
-        "icon": "👤"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Economic Collapse",
-        "name": "Zero Tolerance",
-        "icon": "💸"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Blueberries",
-        "icon": "🫐"
+        "text": "Your 70-year plan is doomed. Want 150?",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "HIIT",
-        "icon": "🔥"
+        "text": "Scientists just cracked the longevity code. Grab it!",
+        "duration": 4
       },
       {
-        "title": "Sleep",
-        "name": "Polyphasic Sleep",
-        "icon": "🛏️"
+        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
+        "duration": 5
       },
       {
-        "title": "Mental Fitness",
-        "name": "Brain Gym",
-        "icon": "🧠"
+        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Vitamin D3",
-        "icon": "☀️"
+        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Water",
-        "icon": "💧"
+        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Laughing Groups",
-        "icon": "😂"
+        "text": "Your competitors get the 40‑µg NMN pill next week.",
+        "duration": 4
       },
       {
-        "title": "Mindset",
-        "name": "Gratitude Journaling",
-        "icon": "📝"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: How to decode your genetic age in 5 mins.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hot Greedy Token",
-        "name": "AlphaCoin",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Volume Surge",
-        "name": "VolumeBlitz",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Insider Tool",
-        "name": "GoldMines",
-        "icon": "🚀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "FOMO Watcher",
-        "name": "FOMOAlert",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Pump Tracker",
-        "name": "PumpPulse",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Lightning Yield",
-        "name": "YieldLightning",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Coin Flip",
-        "name": "FlipMaster",
-        "icon": "🔓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Vault Alert",
-        "name": "VaultGuard",
-        "icon": "🏦"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13370,7 +13352,7 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
         "text": "Nobody talks about the truth of MicroBioscapes.",
@@ -13401,7 +13383,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
         "duration": 5
       },
       {

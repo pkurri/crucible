@@ -19569,6 +19569,30 @@
         "Slow Motion Sizzle"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes harnesses the public's growing fascination with the unseen microscopic world while offering a feast of visually striking, time‑lapse microscope footage. Each video showcases unique, colorful, and sometimes neon‑lit micro‑ecosystems that create instant scroll‑stop and curiosity loops. The niche’s low production barriers, endless content variety, and high retention potential make it ideal for achieving 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "This Bacterial Colony Just Built an Invisible City Overnight | Time‑Lapse Micro‑World – Hook: \"What happens when 1,000,000 living cells collaborate? Prepare to be amazed.\"",
+        "Algae that Pulse Like a Living Heart? The Tiny Blue Ecosystem That Survives Forever – Hook: \"See this microscopic organism beat in perfect rhythm—nature’s tiny drummer!\"",
+        "The Dark, Neon Maze of Micro‑Fungal Networks Revealed in 4K | Inside a Fungus City – Hook: \"Enter a tunnel of living glass and watch the unseen highways of fungal spores.\""
+      ],
+      "keywords": [
+        "Microscopic",
+        "TimeLapse",
+        "Neon",
+        "Colorful",
+        "Tiny"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
