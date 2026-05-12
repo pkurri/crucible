@@ -19500,6 +19500,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "With growing climate anxiety, audiences crave tangible, jaw‑dropping evidence of how rapidly coastlines are eroding. A faceless series revealing hidden, vanished shorelines worldwide offers endless scroll‑stopping hooks—old maps, satellite before/after, eerie drone footage—while sparking curiosity and a visceral sense of loss. The niche is still underexplored, so the channel can become the go‑to authority on disappearing beaches and cliffs, producing 25+ unique storylines by calendar year (e.g., 15 lost coastlines of Europe, 10 New Zealand disasters, 5 Florida gulfs).",
+      "ideas": [
+        "Hidden Oceans: 12 Vanished Coastlines the World Forgot / Watch Breathtaking Before & After Timelines",
+        "AI Meets Archaeology: Reconstructing 9 Lost Beaches Caught by 2050 Climate Models / Imagine What’s Behind the Fog",
+        "Storm‑Forged Shores: The 7 Catastrophic Beach Extinctions in the 20th Century / Visual Evolution in 3‑Second Drones"
+      ],
+      "keywords": [
+        "ancient coastline",
+        "erosion timeline",
+        "sea‑level rise",
+        "cliff collapse",
+        "sandy reef"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
