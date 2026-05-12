@@ -19815,6 +19815,30 @@
         "synthetic biology"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Sea‑level rise is a global headline, but the focus on specific vanished coastlines is under‑explored. 3D reconstructions, dramatic before‑and‑after comparisons, and personal stories create scroll‑stopping hooks, while the looming threat triggers curiosity and a sense of urgency.  The niche is timely, highly shareable on Meta, and scalable for a faceless YouTube channel.",
+      "ideas": [
+        "5 Lost Coastlines of 2024 – Did Your Town Disappear? ‒ Hook: \"Watch the CGI reveal how seas swallowed these towns in just a few years!\"",
+        "The Endless Fade: How Climate Change Erases Coastal Heritage ‒ Hook: \"From bustling markets to silent streets—see the archival footage turn into emptiness.\"",
+        "For Sale in 2050? The Vanishing Coastal Cities That Everyone Forgot ‒ Hook: \"Could your beach home be a ghost town within a decade? Find out now!\""
+      ],
+      "keywords": [
+        "3D Reconstruction",
+        "Sea‑level Rise Animation",
+        "Coastline Erasure",
+        "Vintage Coastal Footage",
+        "Climate Change Time‑lapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
