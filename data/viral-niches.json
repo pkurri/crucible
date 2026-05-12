@@ -19593,6 +19593,30 @@
         "Tiny"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroCombat",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Brain‑Computer Interface gaming is a frontier that blends cutting‑edge neuroscience with competitive play—an intersection of tech, psychology, and entertainment that appeals to curious and thrill‑seeking audiences. The novelty of watching real‑time mind data drive wins offers instant hook potential, while the BCI space is ripe for cross‑posting across Meta platforms and YouTube, enabling rapid audience growth.",
+      "ideas": [
+        "The First Human vs AI Brainwave Duel—Reality or Hype? Hook: \"Can your mind beat a machine in a mind‑body battle?\"",
+        "Real‑Time Brainwave Sensing Transforms Esports—Watch the Future Unfold Hook: \"Sensing thoughts to win games—experience training like never before!\"",
+        "Inside a BCI‑Powered Hackathon—Recruiting Genius, Not Just Code Hook: \"How this hackathon uses mind data to unlock creative breakthroughs.\""
+      ],
+      "keywords": [
+        "Brainwaves",
+        "NeuralNet",
+        "ElectroPulse",
+        "Cybernetic",
+        "AugmentedReality"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
