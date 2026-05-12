@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12358,94 +12358,88 @@
   "CryptoBullRunSecrets": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "On-Chain Metrics",
-        "name": "Nansen",
-        "icon": "🔍"
+        "title": "Hot Greedy Token",
+        "name": "AlphaCoin",
+        "icon": "💎"
       },
       {
-        "title": "Market Sentiment",
-        "name": "CryptoMood",
-        "icon": "🔥"
-      },
-      {
-        "title": "Early Whale Flows",
-        "name": "Glassnode",
-        "icon": "🐋"
-      },
-      {
-        "title": "ICO Research",
-        "name": "TokenInsight",
-        "icon": "📊"
-      },
-      {
-        "title": "Order Book Data",
-        "name": "TradingView",
+        "title": "Volume Surge",
+        "name": "VolumeBlitz",
         "icon": "📈"
       },
       {
-        "title": "Decentralized Exchanges",
-        "name": "Uniswap Stats",
-        "icon": "🔀"
+        "title": "Insider Tool",
+        "name": "GoldMines",
+        "icon": "🚀"
       },
       {
-        "title": "Regulatory Pulse",
-        "name": "CoinDesk",
-        "icon": "⚖️"
+        "title": "FOMO Watcher",
+        "name": "FOMOAlert",
+        "icon": "⚡"
       },
       {
-        "title": "Fundamentals Tracker",
-        "name": "CryptoRank",
-        "icon": "🏆"
+        "title": "Pump Tracker",
+        "name": "PumpPulse",
+        "icon": "🔥"
+      },
+      {
+        "title": "Lightning Yield",
+        "name": "YieldLightning",
+        "icon": "💰"
+      },
+      {
+        "title": "Coin Flip",
+        "name": "FlipMaster",
+        "icon": "🔓"
+      },
+      {
+        "title": "Vault Alert",
+        "name": "VaultGuard",
+        "icon": "🏦"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Persuasion",
-        "name": "Mirroring Technique",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Influence",
-        "name": "Scarcity Hook",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Emotional Control",
-        "name": "Foot‑in‑the‑Door Ultimatum",
-        "icon": "📝"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Cognitive Bias",
-        "name": "Anchoring Illusion",
-        "icon": "📌"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Fake Endorsements",
-        "icon": "🤝"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Authority Trick",
-        "name": "Imitate Experts",
-        "icon": "👔"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Fear Manipulation",
-        "name": "Moral Guilt Pulse",
-        "icon": "😨"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Linguistic Tactics",
-        "name": "Embedded Commands",
-        "icon": "🔈"
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -22553,6 +22547,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ThermalVisionExplorers": {
+    "voice": "af_bella",
+    "hook": "Here are the top 8 ThermalVisionExplorers secrets you need to know.",
+    "closing": "If you want to master ThermalVisionExplorers, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Sensor Tech",
+        "name": "Smart infrared lenses",
+        "icon": "🔎"
+      },
+      {
+        "title": "Field Gear",
+        "name": "Waterproof thermal goggles",
+        "icon": "🥽"
+      },
+      {
+        "title": "Software",
+        "name": "Heat mapping AI",
+        "icon": "🧠"
+      },
+      {
+        "title": "Drone Ops",
+        "name": "Thermal VTOL drones",
+        "icon": "🚁"
+      },
+      {
+        "title": "Data Analysis",
+        "name": "Real-time anomaly detection",
+        "icon": "⚡"
+      },
+      {
+        "title": "Mission Planning",
+        "name": "Firezone prediction model",
+        "icon": "🔥"
+      },
+      {
+        "title": "Battery Power",
+        "name": "Long-life lithium cells",
+        "icon": "🔋"
+      },
+      {
+        "title": "Training",
+        "name": "Virtual reality drills",
+        "icon": "🕶️"
       }
     ]
   }

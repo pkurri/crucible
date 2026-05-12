@@ -19716,6 +19716,30 @@
         "ColorfulBacteria"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ThermalVisionExplorers",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Curiosity",
+      "reason": "Thermal footage taps into a timeless fascination with heat and the unseen world. The niche is currently under‑explored on YouTube, yet the visual appeal of infrared imagery is powerful and shareable. Scroll‑stopping thermal anomalies trigger curiosity loops: viewers keep watching to see what’s heating or cooling in the frame. The content can scale across cities, wildlife, weather events, or everyday objects, producing endless unique hooks and assuring massive growth to 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "Hidden Hotspots in City Streets: The Thermal Camera That Found a 90°C Anomaly",
+        "Nighttime Urban Heat Map: Explore the Hidden Warmth of Your City with Infrared",
+        "Unexpected Heat: What the Thermal Camera Revealed Inside a Well‑Known Coffee Shop"
+      ],
+      "keywords": [
+        "infrared",
+        "heatmap",
+        "nightvision",
+        "urbanheat",
+        "thermalcamera"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
