@@ -19669,6 +19669,30 @@
         "SwirlingBacteria"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The rising sea level narrative taps into urgent climate concerns while delivering eerie, cinematic visuals of once-thriving urban landscapes now submerged. The niche offers endless storylines—lost cities, ancient coastlines uncovered by drones, time‑lapse flood footage—making it ideal for scroll‑stopping hooks and endless curiosity loops.",
+      "ideas": [
+        "Sinking City (happens in 1 minute): Watch San Sebastian vanish beneath crystal waves in just 60 seconds!",
+        "Time‑Lapse Flood - The Last Street on Earth: How soon will New York's Brooklyn pier submerge?",
+        "Ghost City Secrets: What did the ancient Roman port look like when it was swallowed by the ocean?"
+      ],
+      "keywords": [
+        "SinkingMonuments",
+        "CrystalWaves",
+        "InfraredSubmerged",
+        "Time‑LapseFlood",
+        "GhostCities"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
