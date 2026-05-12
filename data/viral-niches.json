@@ -19645,6 +19645,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes taps into the growing fascination with hidden microscopic worlds found in everyday objects. The niche offers endlessly fresh, visually stunning, faceless content that can be produced quickly with a microscope and a smartphone. Its curio‑loop hook—\"See what lives under your coffee mug\"—forces scroll‑stopping clicks, while the sheer beauty of the footage fuels shareability. With over 200k active science‑and‑STEM channels and a proven appetite for macro‑mundo videos, a dedicated channel can hit 1M+ subs and 100k+ views per upload by consistently exploring new surfaces, environments, and micro‑species.",
+      "ideas": [
+        "The Hidden Life Inside Your Smartphone Screen – Microscopic Factory Tour",
+        "Microbacteria on Plastic: A Silent World Exposed Under 100x Magnification",
+        "Unseen Flora on Your Coffee Cup: Nature’s Tiny Architecture Revealed"
+      ],
+      "keywords": [
+        "Microscopic",
+        "UltraZoom",
+        "Bioluminescent",
+        "HiddenWorld",
+        "SwirlingBacteria"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
