@@ -19791,6 +19791,30 @@
         "immersive overlay"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FutureFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "FutureFoodTech taps into the massive, rapidly growing conversation around sustainable food – lab‑grown meat, algae‑based proteins, 3‑D printed food and AI‑driven agriculture. The topic offers endless visual spectacle with time‑lapse footage, holographic simulations, and before‑after comparisons that are perfect for faceless, high‑production YouTube videos. It uniquely blends climate urgency, technological awe, and culinary curiosity, providing strong scroll‑stopping hooks and long‑term cultural relevance. The industry’s rapid expansion guarantees fresh content and audience growth, pushing a creative funnel that can comfortably exceed 1 M subscribers and 100 K views per video.\n",
+      "ideas": [
+        "The Future of Meat: 10 Lab‑Grown Cuts You Won’t Believe Exist – \"This steak is built from a single cell, not a farmed cow!\"",
+        "5 Food Technologies That Will End Hunger by 2035 – \"Imagine a world where we never need to import tomatoes again…\"",
+        "When AI, Algae, and Bioengineering Combine: The New Protein Revolution – \"This algae can produce your next burger in a day!\""
+      ],
+      "keywords": [
+        "lab-grown",
+        "cultured meat",
+        "3D printed protein",
+        "algae",
+        "synthetic biology"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
