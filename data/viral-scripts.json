@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12309,96 +12309,84 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Blueberries",
-        "icon": "🫐"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "HIIT",
-        "icon": "🔥"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Polyphasic Sleep",
-        "icon": "🛏️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mental Fitness",
-        "name": "Brain Gym",
-        "icon": "🧠"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Vitamin D3",
-        "icon": "☀️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Water",
-        "icon": "💧"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Laughing Groups",
-        "icon": "😂"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Mindset",
-        "name": "Gratitude Journaling",
-        "icon": "📝"
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hot Greedy Token",
-        "name": "AlphaCoin",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Volume Surge",
-        "name": "VolumeBlitz",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Insider Tool",
-        "name": "GoldMines",
-        "icon": "🚀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "FOMO Watcher",
-        "name": "FOMOAlert",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Pump Tracker",
-        "name": "PumpPulse",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Lightning Yield",
-        "name": "YieldLightning",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Coin Flip",
-        "name": "FlipMaster",
-        "icon": "🔓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Vault Alert",
-        "name": "VaultGuard",
-        "icon": "🏦"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12434,7 +12422,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -13367,31 +13355,31 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Ever wondered if your mug hides a galaxy?",
+        "text": "Nobody talks about the truth of MicroBioscapes.",
         "duration": 5
       },
       {
-        "text": "36 hours of lens time reveals a hidden cosmos.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Under 200µm, bacteria dance like tiny neon cities.",
-        "duration": 5
-      },
-      {
-        "text": "A single droplet holds a forest of million glowing spores.",
-        "duration": 5
-      },
-      {
-        "text": "The surface of a stone resembles a star‑bloomed galaxy.",
-        "duration": 5
-      },
-      {
-        "text": "Skip this next reveal and you’ll miss the eerie glow.",
-        "duration": 4
-      },
-      {
-        "text": "One click could rewrite how we see everyday life.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
@@ -13399,7 +13387,7 @@
         "duration": 5
       },
       {
-        "text": "Next, we pull back the curtain on a glowing tomato peel.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -22594,6 +22582,88 @@
         "title": "Training",
         "name": "Virtual reality drills",
         "icon": "🕶️"
+      }
+    ]
+  },
+  "ApexFlow_1778610398933": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1778610398933.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1778610398933, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "CursedConsumerProducts": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of CursedConsumerProducts.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }

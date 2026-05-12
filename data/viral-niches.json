@@ -19767,6 +19767,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "CursedConsumerProducts",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "This niche exploits the human fascination with everyday gadgets that unexpectedly turn into creepy or comedic disasters. The format allows quick, scroll‑stopping hooks like \"You'll never guess what happened when ...\" and revisit‑unchain moments that build a curiosity loop. With high production value visuals, emotive narration, and the wide appeal of consumer hacks gone wrong, the content is inherently shareable and can scale across short‑form and long‑form, attracting millions of viewers and rendering content evergreen.",
+      "ideas": [
+        "The $5 Vacuum That Became a Mini‑Robot Overlord – You Won’t Believe What It Did!",
+        "Why This Self‑Cleaning Toothbrush Started a Viral Mini-Frankenstein",
+        "The Waffle Maker That Roared Like a Dragon – Kitchen Apocalypse in 90 Seconds"
+      ],
+      "keywords": [
+        "vibrant neon glitch",
+        "unexpected explosion",
+        "high‑contrast shock",
+        "dramatic sound bite",
+        "immersive overlay"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
