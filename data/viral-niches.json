@@ -20022,6 +20022,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes blends cutting‑edge macro photography, science discovery, and astonishing visuals into a niche rarely saturated on mainstream platforms. The door‑to‑tiny worlds offers endless fresh content: unseen microbes making art, microscopic ecosystems thriving in everyday items, and bio‑engineered wonders. Each clip can hook viewers with a quick reveal of an invisible world, fueling curiosity loops and high time‑on‑screen. With the rise of short‑format vertical video on Meta and the appetite for science/visual storytelling on YouTube, this niche can generate 25+ unique viral ideas and sustain a 1M+ subscriber base.",
+      "ideas": [
+        "The Petri Dish Paradise: 60‑Second Time‑Lapse of a Growing Micro‑City – Hook: “Ever wondered what a city looks like at a microscopic scale? Watch it come alive in 60 seconds.”",
+        "Micro Life Bombs! Hidden Toxic Polymers in Your Kitchen Revealed – Hook: “This tiny goo in your tap water is making a huge impact on the planet. See it captured on camera.”",
+        "Bio‑Engineered Micro Monsters: 3‑D Print That Comes to Life – Hook: “When 3‑D printing meets micro‑biology, the results are beyond anything seen in sci‑fi movies.”"
+      ],
+      "keywords": [
+        "MolecularMagnification",
+        "PetriDishParadise",
+        "MicroLifeMarvels",
+        "NanoAdventure",
+        "InvisibleWorlds"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
