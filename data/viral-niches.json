@@ -20118,6 +20118,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche taps into the growing fascination with the unseen microscopic world, leveraging high‑resolution 4K microscopy, time‑lapse, and bio‑storytelling to create endlessly shareable, visually stunning content that naturally invites curiosity loops and replay value.",
+      "ideas": [
+        "Microscopic Metropolis: 4K Time‑Lapse of a Petri Dish City – What’s Really Inside?",
+        "The Hidden Underwater Microbial Jungle – 30‑Second 4K Tour!",
+        "Your Bathroom’s Microbial Ecosystem in 1 Minute – Watch Tiny Life Thrive!"
+      ],
+      "keywords": [
+        "Microscopic",
+        "4K",
+        "Time‑Lapse",
+        "Microbiology",
+        "BioSpark"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
