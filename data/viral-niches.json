@@ -20046,6 +20046,30 @@
         "InvisibleWorlds"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.6,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes offers unprecedented ultra‑high‑resolution footage of the hidden micro‑world, a niche with low to medium competition but extremely high visual appeal. It capitalizes on the current fascination with science, nature, and hyper‑realistic timelapse content, allowing for massive shareability on both YouTube and Meta platforms. The endless variety of microscopic organisms guarantees over 25 fresh, hook‑laden video concepts, while the ‘scroll‑stopper’ nature of 4K/8K footage and curiosity loops on bizarre behaviors ensures strong audience retention and viral potential.",
+      "ideas": [
+        "The Midnight Dance of a Friendly Bacterium – Watch Its Nighttime Performance in 4K!",
+        "Inside the Tiny Waterworld – A 12‑Minute Journey Through a Drop of Lake Water in 8K!",
+        "Microscopic Mystery: The Giant Virus that Feeds on Plants – 4K Reveals Its Secret Life!"
+      ],
+      "keywords": [
+        "microwaveLapse",
+        "4KMicroscope",
+        "microorganisms",
+        "8KBioscapes",
+        "tinyWorld"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
