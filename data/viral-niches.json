@@ -19971,6 +19971,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "VanishingCoastlines taps into the urgent climate‑change narrative while offering visually stunning, emotionally charged content that is uniquely positioned between documentary storytelling and dynamic visual transformation. The niche is under‑explored, allows for compelling \"before & after\" hooks, lends itself to cross‑platform teasers, and can easily generate serialized series of specific lost towns, beaches, and coastlines that will resonate with viewers worldwide.",
+      "ideas": [
+        "The Last Town on the Coast: Watch it Disappear in 10 Years! – Find out what happens when this seaside city vanishes.",
+        "Top 5 Coastal Destinations that Will Be Gone by 2050 – Are You Visiting Yet? – Don’t miss these disappearing shorelines before they’re gone.",
+        "The Silent Destruction of the Atlantic Coast: Real Footage of Shrinking Beaches – See how a world‑famous beach is fading."
+      ],
+      "keywords": [
+        "time‑lapse",
+        "drone footage",
+        "digital reconstruction",
+        "before‑after",
+        "VR mapping"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
