@@ -20277,6 +20277,30 @@
         "drone"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The convergence of space exploration and everyday cooking taps into growing public fascination with Mars missions, astronaut diets, and \"future food tech\".  Zero‑gravity visuals provide instant scroll‑stopping chemistry, making the content shareable and exceptionally Instagram‑worthy.  Few creators explore this niche, giving it high differentiation and the potential for large evergreen traffic from science, cooking, and pop culture audiences.",
+      "ideas": [
+        "Floating Frying Pan: The First Zero‑Gravity Deep‑Fried Chicken Ever Cooked! / Hook: Imagine watching a chicken fly mid‑air while it becomes perfectly crispy…",
+        "Mars Meal Prep: How NASA Is Designing Food for Space Travelers / Hook: Get inside the lab where they test tortillas that can survive 6 months in microgravity…",
+        "The Ultimate Zero‑Gravity Breakfast – Toast, Eggs, and Coffee that Don’t Drip! / Hook: See how we power coffee makers and boil water without gravity, and why it might be the future of breakfast…"
+      ],
+      "keywords": [
+        "SpaceKitchen",
+        "ZeroGravityCooking",
+        "SpaceFoodTech",
+        "FloatingIngredients",
+        "GalileoBowl"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
