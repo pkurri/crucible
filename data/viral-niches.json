@@ -20229,6 +20229,30 @@
         "LevitateSauté"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LiveCircuit",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Bioprinted electronics combine cutting‑edge bio‑engineering with consumer tech, tapping into the current craze for sustainable, living products. The concept is novel enough to stand out from existing niche lists, offers endless visual hooks (living circuits, self‑healing batteries, living LEDs), and invites viewers to ‘see science come alive’—a perfect formula for high engagement and viral shareability.",
+      "ideas": [
+        "Self‑Healing Battery: The First Living Power Source! ‑ Hook: Watch a damaged battery knit itself back together in real‑time.",
+        "Bioprinted LED Display: Light Up With Living Cells ‑ Hook: See a screen grow new pixels from living tissue under your fingertips.",
+        "Living Smartphone Case: A Device That Evolves With You ‑ Hook: Watch your case adapt its texture and color to match your skin, layer by layer."
+      ],
+      "keywords": [
+        "Living Circuit",
+        "Cellular Battery",
+        "Bioprinted Light",
+        "Living LED",
+        "Self‑Healing Tech"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
