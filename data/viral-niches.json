@@ -20391,6 +20391,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Fear",
+      "reason": "Global climate change is producing real, visually dramatic coastline loss that many people find both chilling and compelling. The niche offers high‑impact imagery—time‑lapse, 3‑D reconstructions, and 360° footage—combined with a sobering narrative that fuels shareability and discussion across platforms. The subject is timely, widely relatable, and largely under‑explored in faceless content, giving it a unique angle and massive retention potential.",
+      "ideas": [
+        "3D Time‑Lapse of a City Lost to the Sea—Watch the Shoreline Vanish in 1 Minute / Hook: You’re witnessing the exact moment a town sinks—water swallowing every building. Every second feels like a cliff‑hanger.",
+        "The Mysterious Coastline That Disappeared Overnight: 360° Animation / Hook: Imagine waking up to find your beach gone—see streets dissolve before your eyes in real‑time, a terrifying yet mesmerizing visual.",
+        "Why Piers Are Gone Forever: The Climate Conspiracy Behind Vanishing Coastlines / Hook: The forces turning our shores to water are revealed—full of shocking stats, crisp CGI, and a warning that clicks instantly."
+      ],
+      "keywords": [
+        "3DAnimation",
+        "TimeLapse",
+        "CoastalErosion",
+        "ClimateChange",
+        "HDRVisualization"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
