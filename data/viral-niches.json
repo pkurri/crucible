@@ -20346,6 +20346,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking taps into the innate curiosity about space science and offers visually striking, \"out‑of‑this‑world\" moments that can be minified into quick, shareable clips. The niche is underexplored, allowing a faceless channel to quickly dominate the niche with consistent, high‑quality content that blends science, aesthetics, and playful experimentation.",
+      "ideas": [
+        "Zero Gravity Cake: The Ultimate Space Baking Experiment! • Hook: \"Ever seen a cake rise in mid‑air? Watch gravity leave the kitchen tonight.\"",
+        "Coffee in Zero‑G: Watch the Brew Defy Spill‑Proof Science! • Hook: \"A perfect cup with no foam spill‑over—can real coffee live in 0‑G? Find out here.\"",
+        "Space Pizza Toss: Slice, Float, Serve! • Hook: \"Astronauts' secret pizza recipe—dough levitates, toppings float—see how it looks before the first bite.\""
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "Space",
+        "Baking",
+        "Floating",
+        "3D"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

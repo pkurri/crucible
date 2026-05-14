@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12309,43 +12309,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Intermittent Fasting Protocol",
+        "icon": "⏰"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Microbiome",
+        "name": "Probio+ Fermented Foods",
+        "icon": "🦠"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NMN + Resveratrol Combo",
+        "icon": "💊"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT 10-min Home Circuit",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue-Light Blocking Routine",
+        "icon": "🛌"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Mindfulness",
+        "name": "Daily 5-min Breathwork",
+        "icon": "🧘‍♀️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Tech",
+        "name": "Wearable Sleep Tracker",
+        "icon": "⌚"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Low-TOX Air Purifier",
+        "icon": "🌬️"
       }
     ]
   },
@@ -12422,7 +12428,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -16144,47 +16150,47 @@
   "ZeroGravityKitchen": {
     "voice": "af_heart",
     "hook": "Here are the top 8 ZeroGravityKitchen secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ZeroGravityKitchen.",
     "list": [
       {
-        "title": "Zero‑Gravity Sauté",
-        "name": "Magnetic Fry Pan",
-        "icon": "🍳"
+        "title": "Fluffy Baking",
+        "name": "Trueweight Batch",
+        "icon": "🍞"
       },
       {
-        "title": "Taste Amplifiers",
-        "name": "Space‑Infused Salt",
+        "title": "Instant Flavor",
+        "name": "Microburst Seasoning",
+        "icon": "🌶️"
+      },
+      {
+        "title": "Protein Power",
+        "name": "AeroEggs",
+        "icon": "🥚"
+      },
+      {
+        "title": "Hydration Control",
+        "name": "Vacuum Veggie Pods",
+        "icon": "🥦"
+      },
+      {
+        "title": "Energy Efficiency",
+        "name": "SolarFry Pan",
+        "icon": "🥘"
+      },
+      {
+        "title": "Mystic Scent",
+        "name": "ZeroOdor Diffuser",
+        "icon": "🌿"
+      },
+      {
+        "title": "Nanotech Prep",
+        "name": "NanoGrind Spice",
         "icon": "🧂"
       },
       {
-        "title": "Heat Control",
-        "name": "Micro‑Battery Torch",
-        "icon": "🔥"
-      },
-      {
-        "title": "Hydration Hacks",
-        "name": "Froth‑Free Water Atomizer",
-        "icon": "💧"
-      },
-      {
-        "title": "Ingredient Storage",
-        "name": "Vacuum‑Seal Pods",
-        "icon": "🗃️"
-      },
-      {
-        "title": "Cleaning Essentials",
-        "name": "Zero‑Mess Swiffer",
-        "icon": "🧼"
-      },
-      {
-        "title": "Cooking Aids",
-        "name": "Anti‑Gravity Knife Set",
-        "icon": "🔪"
-      },
-      {
         "title": "Flavor Fusion",
-        "name": "Nano‑Spice Chips",
-        "icon": "🌶️"
+        "name": "HoverSauce",
+        "icon": "🍝"
       }
     ]
   },
