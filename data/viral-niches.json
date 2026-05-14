@@ -20253,6 +20253,30 @@
         "Self‑Healing Tech"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "With global sea‑level rise now a tangible threat, audiences are craving concrete visual proof of disappearing coastlines. Faceless, data‑driven videos that juxtapose before‑and‑after imagery, time‑lapse drones, and animated maps create instant scroll‑stopping hooks and curiosity loops. The topic taps into climate‑change anxiety and the wistfulness for lost places, ensuring shareability across platforms and a high potential for chain‑reactions among environmental, science‑tech, and travel communities.",
+      "ideas": [
+        "The Beaches That Vanished in 30 Years: A 4K Time‑Lapse Revealed – See the shoreline you thought was forever disappear before your eyes.",
+        "Top 10 Coastlines Visiting Gone Because of Sea‑Level Rise (2024) – This coastal town is already underwater – is yours next?",
+        "The Biggest ‘Lost’ Coves Around the World: How Climate Change Is Wiping Them Out – These hidden gems are literally evaporating – watch the map transform."
+      ],
+      "keywords": [
+        "immersive",
+        "time‑lapse",
+        "map‑visualization",
+        "seawater",
+        "drone"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
