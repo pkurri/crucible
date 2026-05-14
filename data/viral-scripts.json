@@ -12268,96 +12268,84 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "8 AI agent secrets that will make you fear the future.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Unemployment",
-        "name": "AutoSweep Drones",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Income Inequality",
-        "name": "Wealth Analyzer",
-        "icon": "💸"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Privacy Violations",
-        "name": "MindMap 360",
-        "icon": "⚠️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Healthcare",
-        "name": "Deep-Doctor AI",
-        "icon": "🏥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Government Control",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Education",
-        "name": "Scholarbot",
-        "icon": "📚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Creative Theft",
-        "name": "Artifex AI",
-        "icon": "🎨"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Climate Manipulation",
-        "name": "NeoClimate",
-        "icon": "🌡️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Hydration",
-        "name": "Drink 8 glasses daily",
-        "icon": "💧"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Nutrition",
-        "name": "Intermittent fasting 16/8",
-        "icon": "🍽️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "30 min HIIT thrice weekly",
-        "icon": "🏋️‍♂️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "7-8 hrs, blue‑light curfew",
-        "icon": "🛌"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Stress",
-        "name": "Meditation 10 min daily",
-        "icon": "🧘‍♂️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Resveratrol & CoQ10",
-        "icon": "💊"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Environment",
-        "name": "Fresh air, low pollution",
-        "icon": "🌿"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Weekly meaningful chats",
-        "icon": "💬"
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12403,49 +12391,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Persuasion",
-        "name": "Mirroring Technique",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Influence",
-        "name": "Scarcity Hook",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Emotional Control",
-        "name": "Foot‑in‑the‑Door Ultimatum",
-        "icon": "📝"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Cognitive Bias",
-        "name": "Anchoring Illusion",
-        "icon": "📌"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Fake Endorsements",
-        "icon": "🤝"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Authority Trick",
-        "name": "Imitate Experts",
-        "icon": "👔"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Fear Manipulation",
-        "name": "Moral Guilt Pulse",
-        "icon": "😨"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Linguistic Tactics",
-        "name": "Embedded Commands",
-        "icon": "🔈"
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13407,7 +13389,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -23218,6 +23200,47 @@
     "lines": [
       {
         "text": "Nobody talks about the truth of LiveCircuit.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "SolarStormWatcher": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of SolarStormWatcher.",
         "duration": 5
       },
       {

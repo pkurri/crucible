@@ -20301,6 +20301,30 @@
         "GalileoBowl"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SolarStormWatcher",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Fear",
+      "reason": "Solar storms are a high‑impact, low‑differentiation topic that receives spikes of news coverage whenever space weather agencies issue warnings. Faceless, animated explanations of real‑time forecasts hook viewers with urgent, weather‑related news, offering constant content churn. The vulnerability of modern electrical grids, satellite communications, and even everyday electronics to geomagnetic disturbances creates a visceral sense of impending catastrophe that drives high engagement and shareability, especially on social platforms where short, dramatic clips perform well.",
+      "ideas": [
+        "The Solar Flare That Could Knock Out Power for 48 Hours – LIVE Simulation Inside",
+        "Inside the 2026 Solar Storm Forecast: 5% of the U.S. Might Get Electromagnetic Blindness!",
+        "Silent Apocalypse Alert – How One Solar Storm Could Cut All Satellite Communications Worldwide"
+      ],
+      "keywords": [
+        "SolarFlare",
+        "AuroraShower",
+        "SpaceWeather",
+        "GeomagneticStorm",
+        "SatelliteGlitch"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
