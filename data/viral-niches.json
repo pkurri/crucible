@@ -20205,6 +20205,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Zero‑gravity cooking taps into the persistent human fascination with space while offering visually stunning experiments that are easy to comprehend and endlessly shareable. The niche is highly differentiated from mainstream food or science channels, supports scroll‑stopping hooks such as “Watch this burger levitate”, and can spawn a limitless library of content (from floating sauce to space‑antiques), making it ideal for 25+ viral ideas.",
+      "ideas": [
+        "Zero‑Gravity Burger: Does the Patty Float? / Watch the steak defy gravity on the ISS!",
+        "Espresso in Space: How Do Astronauts Brew Coffee? / See coffee beans orbit for a latte twist!",
+        "Floating Pasta - A Quantum Crispy Carb Challenge / Can spaghetti survive no‑gravity? Find out!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "FloatingFood",
+        "SpaceKitchen",
+        "Microgravity",
+        "LevitateSauté"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

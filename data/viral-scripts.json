@@ -12268,57 +12268,10 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "8 AI agent secrets that will make you fear the future.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Unemployment",
-        "name": "AutoSweep Drones",
-        "icon": "🤖"
-      },
-      {
-        "title": "Income Inequality",
-        "name": "Wealth Analyzer",
-        "icon": "💸"
-      },
-      {
-        "title": "Privacy Violations",
-        "name": "MindMap 360",
-        "icon": "⚠️"
-      },
-      {
-        "title": "Healthcare",
-        "name": "Deep-Doctor AI",
-        "icon": "🏥"
-      },
-      {
-        "title": "Government Control",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
-      },
-      {
-        "title": "Education",
-        "name": "Scholarbot",
-        "icon": "📚"
-      },
-      {
-        "title": "Creative Theft",
-        "name": "Artifex AI",
-        "icon": "🎨"
-      },
-      {
-        "title": "Climate Manipulation",
-        "name": "NeoClimate",
-        "icon": "🌡️"
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12346,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12355,97 +12308,138 @@
       }
     ]
   },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Your 70-year plan is doomed. Want 150?",
+        "duration": 5
+      },
+      {
+        "text": "Scientists just cracked the longevity code. Grab it!",
+        "duration": 4
+      },
+      {
+        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
+        "duration": 5
+      },
+      {
+        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
+        "duration": 5
+      },
+      {
+        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
+        "duration": 5
+      },
+      {
+        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
+        "duration": 4
+      },
+      {
+        "text": "Your competitors get the 40‑µg NMN pill next week.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: How to decode your genetic age in 5 mins.",
+        "duration": 4
+      }
+    ]
+  },
   "CryptoBullRunSecrets": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "On-Chain Metrics",
-        "name": "Nansen",
-        "icon": "🔍"
+        "title": "Hot Greedy Token",
+        "name": "AlphaCoin",
+        "icon": "💎"
       },
       {
-        "title": "Market Sentiment",
-        "name": "CryptoMood",
-        "icon": "🔥"
-      },
-      {
-        "title": "Early Whale Flows",
-        "name": "Glassnode",
-        "icon": "🐋"
-      },
-      {
-        "title": "ICO Research",
-        "name": "TokenInsight",
-        "icon": "📊"
-      },
-      {
-        "title": "Order Book Data",
-        "name": "TradingView",
+        "title": "Volume Surge",
+        "name": "VolumeBlitz",
         "icon": "📈"
       },
       {
-        "title": "Decentralized Exchanges",
-        "name": "Uniswap Stats",
-        "icon": "🔀"
+        "title": "Insider Tool",
+        "name": "GoldMines",
+        "icon": "🚀"
       },
       {
-        "title": "Regulatory Pulse",
-        "name": "CoinDesk",
-        "icon": "⚖️"
+        "title": "FOMO Watcher",
+        "name": "FOMOAlert",
+        "icon": "⚡"
       },
       {
-        "title": "Fundamentals Tracker",
-        "name": "CryptoRank",
-        "icon": "🏆"
+        "title": "Pump Tracker",
+        "name": "PumpPulse",
+        "icon": "🔥"
+      },
+      {
+        "title": "Lightning Yield",
+        "name": "YieldLightning",
+        "icon": "💰"
+      },
+      {
+        "title": "Coin Flip",
+        "name": "FlipMaster",
+        "icon": "🔓"
+      },
+      {
+        "title": "Vault Alert",
+        "name": "VaultGuard",
+        "icon": "🏦"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
+    "voice": "am_echo",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
     "list": [
       {
         "title": "Persuasion",
-        "name": "Mirroring Technique",
-        "icon": "🪞"
+        "name": "Foot‑In‑the‑Door Tactic",
+        "icon": "🚪"
       },
       {
-        "title": "Influence",
-        "name": "Scarcity Hook",
+        "title": "Social Control",
+        "name": "Micro‑Facial Cue Reader",
+        "icon": "👁️"
+      },
+      {
+        "title": "Memory Manipulation",
+        "name": "The Misinformation Loop",
+        "icon": "🧠"
+      },
+      {
+        "title": "Emotional Hijack",
+        "name": "Low‑Ball Offer Scripting",
+        "icon": "💸"
+      },
+      {
+        "title": "Subliminal Messaging",
+        "name": "Audio Back‑Noise Trigger",
+        "icon": "🔊"
+      },
+      {
+        "title": "Authority Exploit",
+        "name": "Fake Credentials Masquerade",
+        "icon": "🎩"
+      },
+      {
+        "title": "Fear Engineering",
+        "name": "Urgency Bombardment",
         "icon": "⚡"
       },
       {
-        "title": "Emotional Control",
-        "name": "Foot‑in‑the‑Door Ultimatum",
-        "icon": "📝"
-      },
-      {
-        "title": "Cognitive Bias",
-        "name": "Anchoring Illusion",
-        "icon": "📌"
-      },
-      {
-        "title": "Social Proof",
-        "name": "Fake Endorsements",
-        "icon": "🤝"
-      },
-      {
-        "title": "Authority Trick",
-        "name": "Imitate Experts",
-        "icon": "👔"
-      },
-      {
-        "title": "Fear Manipulation",
-        "name": "Moral Guilt Pulse",
-        "icon": "😨"
-      },
-      {
-        "title": "Linguistic Tactics",
-        "name": "Embedded Commands",
-        "icon": "🔈"
+        "title": "Identity Theft",
+        "name": "Profile Pro‑portional Mimicry",
+        "icon": "🕵️"
       }
     ]
   },
@@ -16154,43 +16148,49 @@
     ]
   },
   "ZeroGravityKitchen": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ZeroGravityKitchen secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of ZeroGravityKitchen.",
-        "duration": 5
+        "title": "Zero‑Gravity Sauté",
+        "name": "Magnetic Fry Pan",
+        "icon": "🍳"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Taste Amplifiers",
+        "name": "Space‑Infused Salt",
+        "icon": "🧂"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Heat Control",
+        "name": "Micro‑Battery Torch",
+        "icon": "🔥"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Hydration Hacks",
+        "name": "Froth‑Free Water Atomizer",
+        "icon": "💧"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Ingredient Storage",
+        "name": "Vacuum‑Seal Pods",
+        "icon": "🗃️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Cleaning Essentials",
+        "name": "Zero‑Mess Swiffer",
+        "icon": "🧼"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cooking Aids",
+        "name": "Anti‑Gravity Knife Set",
+        "icon": "🔪"
       },
       {
-        "text": "If you want to master ZeroGravityKitchen, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Flavor Fusion",
+        "name": "Nano‑Spice Chips",
+        "icon": "🌶️"
       }
     ]
   },
