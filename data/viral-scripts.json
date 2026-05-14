@@ -23153,5 +23153,52 @@
         "icon": "🤖"
       }
     ]
+  },
+  "ApexFlow_1778733206499": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1778733206499 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Automation",
+        "name": "FlowBot",
+        "icon": "🤖"
+      },
+      {
+        "title": "Analytics",
+        "name": "InsightEye",
+        "icon": "👀"
+      },
+      {
+        "title": "Optimization",
+        "name": "PeakGen",
+        "icon": "🚀"
+      },
+      {
+        "title": "Integration",
+        "name": "BridgeMaster",
+        "icon": "🌉"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldSafe",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Collaboration",
+        "name": "TeamConnect",
+        "icon": "👥"
+      },
+      {
+        "title": "Scalability",
+        "name": "ScaleForge",
+        "icon": "🔧"
+      },
+      {
+        "title": "UX",
+        "name": "SmoothFlow",
+        "icon": "🌀"
+      }
+    ]
   }
 }
