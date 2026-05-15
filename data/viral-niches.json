@@ -20763,6 +20763,30 @@
         "lost"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Fear",
+      "reason": "The tangible, heartbreaking erosion of iconic shorelines taps into global climate anxiety, offering visceral narratives and striking time‑lapse visuals that compel sharing. The human stories of displaced communities add emotional depth, while the urgent topic remains fresh, ensuring high relevance and rapid viral lift.",
+      "ideas": [
+        "Lost Beach 5 Years in 30 Seconds / Witness how a famed holiday spot drowned beneath sea‑level rise",
+        "Can We Stop the Coastline Vanishing? / 8 bold engineering fixes tested in just two minutes",
+        "Why the Gulf Coast Is Rising Faster Than Expected / Inside the data that could change future beach policies"
+      ],
+      "keywords": [
+        "TimeLapse",
+        "Flooded",
+        "Erosion",
+        "SeaLevelRise",
+        "CoastalCollapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
