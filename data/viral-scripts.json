@@ -16142,49 +16142,43 @@
     ]
   },
   "ZeroGravityKitchen": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 ZeroGravityKitchen secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more ZeroGravityKitchen.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Fluffy Baking",
-        "name": "Trueweight Batch",
-        "icon": "🍞"
+        "text": "Nobody talks about the truth of ZeroGravityKitchen.",
+        "duration": 5
       },
       {
-        "title": "Instant Flavor",
-        "name": "Microburst Seasoning",
-        "icon": "🌶️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Protein Power",
-        "name": "AeroEggs",
-        "icon": "🥚"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Hydration Control",
-        "name": "Vacuum Veggie Pods",
-        "icon": "🥦"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Energy Efficiency",
-        "name": "SolarFry Pan",
-        "icon": "🥘"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Mystic Scent",
-        "name": "ZeroOdor Diffuser",
-        "icon": "🌿"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Nanotech Prep",
-        "name": "NanoGrind Spice",
-        "icon": "🧂"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Flavor Fusion",
-        "name": "HoverSauce",
-        "icon": "🍝"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },

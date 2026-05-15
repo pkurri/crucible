@@ -20499,6 +20499,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking blends the massive appeal of space with everyday culinary curiosity, offering spectacular visuals, novel science experiments, and relatable content. The niche is fresh, highly shareable, and lends itself to a vast library of recipe‑themed videos that can sustain momentum and attract a broad audience.",
+      "ideas": [
+        "Zero-Gravity Pancakes: The Secret to Fluffy Breakfast in Space! — Hook: ‘Ever seen syrup float like a comet? Watch pancakes rise straight to the ceiling!’",
+        "Cooking in Orbit: How Astronauts Make Ramen Without Gravity — Hook: ‘What happens when ramen noodles spread out in a vacuum? Find out before your next meal!’",
+        "Defying Gravity: The Ultimate Space Burger Challenge! — Hook: ‘Can a burger stay together in zero‑gravity? Watch the science behind the sizzling test!’"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "FloatingFood",
+        "SpaceKitchen",
+        "OrbitTaste",
+        "GravitylessCooking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
