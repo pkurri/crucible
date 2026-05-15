@@ -20739,6 +20739,30 @@
         "Microscopy"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "VanishingCoastlines merges urgent climate change storytelling with stunning visual time‑lapses of historically iconic shoreline cities vanishing under rising seas. The topic is timely, highly shareable, and offers endless hooks: dramatic losses, ancient street scenes restored in digital reconstructions, and shocking near‑future predictions. The high‑contrast imagery fuels scroll‑stopping hooks, generous curiosity loops, and emotional resonance that translate across YouTube Vlog formats and TikTok/Reels quick bursts. The market is not yet saturated with cinematic, in‑depth explorations, enabling quick growth toward 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "Lost Amritsar: How the Indo‑Pak Border City Is Getting Submerged – Hook: 'What if every canal turned into a river…'",
+        "San Marco Vanishing: Watching Venice Dies Before Your Eyes – Hook: 'You’ll never see this footage again, but it’s all real…'",
+        "The 1970s Riviera Time‑Lapse: 60 Years of Coastline Loss – Hook: 'Time travel to the future of our beaches…'"
+      ],
+      "keywords": [
+        "satellite",
+        "time_lapse",
+        "underwater",
+        "drowned",
+        "lost"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
