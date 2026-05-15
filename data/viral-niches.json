@@ -20715,6 +20715,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The microscopic world is untapped, visually captivating, and highly shareable. Ultra‑zoom technology and bioluminescence reveal hidden ecosystems that feel like sci‑fi, feeding curiosity and wonder. Hook potential is immense with endless micro‑scenes to showcase, enabling prolific content creation. The niche distinguishes itself from mainstream science or travel content, offering a consistently fresh visual palette that thrives on scroll‑stopping hooks.",
+      "ideas": [
+        "Dive Into the Tiny World of Microbial Cities: 20x Zoom Magic #MicroBioscapes",
+        "Microplastics in Your Tofu: The Hidden Life Beneath Your Plate",
+        "Unseen Terraces: Underground Microbial Farms Growing in Subways"
+      ],
+      "keywords": [
+        "MicroScale",
+        "NanoLens",
+        "Bioluminescent",
+        "UltraZoom",
+        "Microscopy"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

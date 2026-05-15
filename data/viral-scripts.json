@@ -12268,143 +12268,125 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Mining",
-        "name": "AI Spy",
-        "icon": "🔍"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Surveillance",
-        "name": "Neural Recon",
-        "icon": "🕵️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Shutdown",
-        "name": "Auto Shutdown",
-        "icon": "⚡"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mind Control",
-        "name": "Mind Hack",
-        "icon": "🧠"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Job Displacement",
-        "name": "Job AI",
-        "icon": "🤖"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Self-Replicating",
-        "name": "Replicant",
-        "icon": "🌀"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Identity Theft",
-        "name": "Shadow ID",
-        "icon": "👤"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Economic Collapse",
-        "name": "Zero Tolerance",
-        "icon": "💸"
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Intermittent Fasting Protocol",
-        "icon": "⏰"
+        "text": "Your 70-year plan is doomed. Want 150?",
+        "duration": 5
       },
       {
-        "title": "Microbiome",
-        "name": "Probio+ Fermented Foods",
-        "icon": "🦠"
+        "text": "Scientists just cracked the longevity code. Grab it!",
+        "duration": 4
       },
       {
-        "title": "Supplements",
-        "name": "NMN + Resveratrol Combo",
-        "icon": "💊"
+        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "HIIT 10-min Home Circuit",
-        "icon": "🏋️‍♂️"
+        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue-Light Blocking Routine",
-        "icon": "🛌"
+        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
+        "duration": 5
       },
       {
-        "title": "Mindfulness",
-        "name": "Daily 5-min Breathwork",
-        "icon": "🧘‍♀️"
+        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
+        "duration": 4
       },
       {
-        "title": "Tech",
-        "name": "Wearable Sleep Tracker",
-        "icon": "⌚"
+        "text": "Your competitors get the 40‑µg NMN pill next week.",
+        "duration": 4
       },
       {
-        "title": "Environment",
-        "name": "Low-TOX Air Purifier",
-        "icon": "🌬️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: How to decode your genetic age in 5 mins.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Microcap Momentum",
-        "name": "Rocket Rise",
-        "icon": "🚀"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Whale Whisper",
-        "name": "Silent Surge",
-        "icon": "🐋"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Chain Fork Windows",
-        "name": "Fork Lens",
-        "icon": "🔎"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Token Burn Alerts",
-        "name": "Fire Blast",
-        "icon": "🔥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Stealth HODL",
-        "name": "Midnight Hold",
-        "icon": "🌙"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Insider Signals",
-        "name": "VIP Pulse",
-        "icon": "💓"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Pump & Dump Anticipation",
-        "name": "Bubble Peek",
-        "icon": "🍾"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Tax-Loss Harvest Timing",
-        "name": "Golden Edge",
-        "icon": "💰"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12440,7 +12422,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -23655,6 +23637,88 @@
         "title": "Community",
         "name": "Apex Hub Network",
         "icon": "🌐"
+      }
+    ]
+  },
+  "ApexFlow_1778842980374": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1778842980374.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1778868672431": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Ever seen liquid glow like neon data?",
+        "duration": 5
+      },
+      {
+        "text": "This portal rewrites how you see reality.",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid maps neural networks in real time.",
+        "duration": 5
+      },
+      {
+        "text": "Spin the flow, and hyper-car interiors appear.",
+        "duration": 5
+      },
+      {
+        "text": "Every droplet whispers a secret formula.",
+        "duration": 5
+      },
+      {
+        "text": "Hold on, the next frame will bend physics.",
+        "duration": 4
+      },
+      {
+        "text": "Skip this, and you'll miss tomorrow's impossible trick.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next video unlocks the code of the quantum highway.",
+        "duration": 4
       }
     ]
   }
