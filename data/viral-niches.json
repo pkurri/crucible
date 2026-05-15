@@ -20643,6 +20643,30 @@
         "FutureCuisine"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "ZeroGravityKitchen blends the growing public fascination with space exploration and the novelty of cooking in micro‑gravity. Few creators tackle realistic, faceless demonstrations of how food behaves without buoyancy, offering visually stunning sequences, unexpected physics, and a clear “how‑to” format that fuels scrolling and repeat engagement. With a strong hook—‘Don’t believe you can taste this—watch how it’s made in space’—the niche attracts viewers from science, culinary, and pop culture segments, driving high subscriber growth and easily hitting 100k+ views per video.",
+      "ideas": [
+        "Zero‑Gravity Pasta: The Untapped Challenge of Cooking Noodles in Orbit / Watch the spaghetti swirl into a perfect, weightless pasta masterpiece!",
+        "Space Ice Cream Revolution: How Astronauts Make Cream Without Gravity / Spoiler: It’s a beautiful freezing ballet of flavor! ",
+        "Zero‑Gravity Burger: From Space Sandwich to Earth‑Delivery Mystery / See the bun, sauce, and patty defy physics before landing on your plate."
+      ],
+      "keywords": [
+        "Microgravity",
+        "Orbit",
+        "Gravityless",
+        "SpaceChef",
+        "ZeroForces"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
