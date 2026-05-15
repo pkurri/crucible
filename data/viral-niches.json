@@ -20547,6 +20547,30 @@
         "GenomeMusic"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "SpaceFoodTech marries the universal appeal of food and the futuristic allure of space exploration. With NASA’s upcoming missions, Mars colonies, and continuous interest in ‘astronaut food’, this niche taps into curiously hungry science‑lovers and culinary enthusiasts alike. It is low‑saturation, perfect for faceless production using CGI, lab footage, and narration. The topic offers endless visual hooks—zero‑gravity cooking, dehydrated meals, and lab‑produced nutrient packs—that promise scroll‑stopping titles, strong curiosity loops, and cross‑platform shareability, making 1M+ subs and 100k+ views highly attainable.",
+      "ideas": [
+        "Top 10 Foods That Will Be Our Future Meals on Mars (You Won’t Believe #7)",
+        "Inside the ISS Kitchen: How Astronauts Prepare Zero‑Gravity Charcuterie — The Science Behind It",
+        "From Space to Your Plate: NASA’s Latest Space Food Lab Foodpack Revealed – How It Was Designed"
+      ],
+      "keywords": [
+        "SpaceKitchen",
+        "ZeroGravityCooking",
+        "AstronautMeals",
+        "MartianFood",
+        "MarsCatering"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

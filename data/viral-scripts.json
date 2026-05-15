@@ -12309,143 +12309,125 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Blueberry Power",
-        "icon": "💙"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "Micro‑Resistance",
-        "icon": "🏋️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue Light Blocker",
-        "icon": "🌙"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "NAD⁺ Booster",
-        "icon": "🔋"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Mindset",
-        "name": "Daily Gratitude Journal",
-        "icon": "📓"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Tech",
-        "name": "Wearable Health Tracker",
-        "icon": "⌚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Environment",
-        "name": "Air Purifier with HEPA",
-        "icon": "🌬️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Cellular",
-        "name": "Telomere Stimulator",
-        "icon": "🔬"
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Microcap Momentum",
-        "name": "Rocket Rise",
-        "icon": "🚀"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Whale Whisper",
-        "name": "Silent Surge",
-        "icon": "🐋"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Chain Fork Windows",
-        "name": "Fork Lens",
-        "icon": "🔎"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Token Burn Alerts",
-        "name": "Fire Blast",
-        "icon": "🔥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Stealth HODL",
-        "name": "Midnight Hold",
-        "icon": "🌙"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Insider Signals",
-        "name": "VIP Pulse",
-        "icon": "💓"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Pump & Dump Anticipation",
-        "name": "Bubble Peek",
-        "icon": "🍾"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Tax-Loss Harvest Timing",
-        "name": "Golden Edge",
-        "icon": "💰"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "am_echo",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Persuasion",
-        "name": "Foot‑In‑the‑Door Tactic",
-        "icon": "🚪"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Social Control",
-        "name": "Micro‑Facial Cue Reader",
-        "icon": "👁️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Memory Manipulation",
-        "name": "The Misinformation Loop",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Emotional Hijack",
-        "name": "Low‑Ball Offer Scripting",
-        "icon": "💸"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Subliminal Messaging",
-        "name": "Audio Back‑Noise Trigger",
-        "icon": "🔊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Authority Exploit",
-        "name": "Fake Credentials Masquerade",
-        "icon": "🎩"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Fear Engineering",
-        "name": "Urgency Bombardment",
-        "icon": "⚡"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Identity Theft",
-        "name": "Profile Pro‑portional Mimicry",
-        "icon": "🕵️"
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13370,49 +13352,43 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Algae Kingdom",
-        "name": "Aurora Phytoplankton",
-        "icon": "🌊"
+        "text": "Nobody talks about the truth of MicroBioscapes.",
+        "duration": 5
       },
       {
-        "title": "Bacterial Rainforest",
-        "name": "Methanogenic Nanobots",
-        "icon": "🦠"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Fungal Forest",
-        "name": "Knight's Mycelium",
-        "icon": "🍄"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Protozoan Playground",
-        "name": "Nematode Node",
-        "icon": "🪱"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Micro‑Coral Reef",
-        "name": "Glucose Coral",
-        "icon": "🐚"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Micro‑Glacier",
-        "name": "Cold‑Tide Algae",
-        "icon": "❄️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Gaseous Garden",
-        "name": "Luminous Methane Cloud",
-        "icon": "🌫️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Luminous Lake",
-        "name": "Bioluminescent Bloom",
-        "icon": "🌌"
+        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13880,49 +13856,43 @@
     ]
   },
   "SpaceFoodTech": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 SpaceFoodTech secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Zero-Gravity Snacks",
-        "name": "AirPuffs™",
-        "icon": "🍕"
+        "text": "Nobody talks about the truth of SpaceFoodTech.",
+        "duration": 5
       },
       {
-        "title": "Protein Pods",
-        "name": "NutriSphere",
-        "icon": "🥜"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Hydro-Refreshments",
-        "name": "AquaGlo",
-        "icon": "💧"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Flavor Infusion",
-        "name": "TasteTrac",
-        "icon": "🌶️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Energy Bars",
-        "name": "StarFuel",
-        "icon": "⚡"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Creative Cooking",
-        "name": "GravGrill",
-        "icon": "🍖"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Sustainable Solutions",
-        "name": "BioBloom",
-        "icon": "🌱"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Universal Meals",
-        "name": "OmniPlate",
-        "icon": "🍽️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
