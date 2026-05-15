@@ -20523,6 +20523,30 @@
         "GravitylessCooking"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "GenomicSymphony",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "DNA‑to‑music fusion taps into the universal curiosity about personal genetics and the universality of music. The novelty of turning a genome into an audible song provides instantly shareable, bite‑size moments that blend science, art, and identity—a proven combination for viral momentum. The format has low production cost, high replay value, and the potential to go viral as people challenge the AI to compose a tune from their own DNA, creating a sustainable, scalable content stream.",
+      "ideas": [
+        "From Genes to Guitars: The First Ever DNA‑Generated Song! / Hook: Watch a brass ensemble play a melody literally encoded in a human's DNA.",
+        "Meet the Symphonic Algorithms: Turning Bacteria DNA into Beautiful Beats! / Hook: This AI translates plasmid code into a haunting orchestra—can we find a new genre?",
+        "The Secret Language of DNA Revealed: A 3‑Minute Song Your DNA Can Play / Hook: Every person carries an original tune; we'll decode yours!"
+      ],
+      "keywords": [
+        "GeneticMelody",
+        "DNASoundscape",
+        "BioRhythm",
+        "MolecularHarmony",
+        "GenomeMusic"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
