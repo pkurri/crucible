@@ -12315,84 +12315,96 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Intermittent Fasting Protocol",
+        "icon": "⏰"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Microbiome",
+        "name": "Probio+ Fermented Foods",
+        "icon": "🦠"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NMN + Resveratrol Combo",
+        "icon": "💊"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT 10-min Home Circuit",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue-Light Blocking Routine",
+        "icon": "🛌"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Mindfulness",
+        "name": "Daily 5-min Breathwork",
+        "icon": "🧘‍♀️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Tech",
+        "name": "Wearable Sleep Tracker",
+        "icon": "⌚"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Low-TOX Air Purifier",
+        "icon": "🌬️"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Microcap Momentum",
+        "name": "Rocket Rise",
+        "icon": "🚀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Whale Whisper",
+        "name": "Silent Surge",
+        "icon": "🐋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Chain Fork Windows",
+        "name": "Fork Lens",
+        "icon": "🔎"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Token Burn Alerts",
+        "name": "Fire Blast",
+        "icon": "🔥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stealth HODL",
+        "name": "Midnight Hold",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Insider Signals",
+        "name": "VIP Pulse",
+        "icon": "💓"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Pump & Dump Anticipation",
+        "name": "Bubble Peek",
+        "icon": "🍾"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tax-Loss Harvest Timing",
+        "name": "Golden Edge",
+        "icon": "💰"
       }
     ]
   },
@@ -12428,7 +12440,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -23596,6 +23608,53 @@
       {
         "text": "Next video: Unlocking the secret code of rainbow gravity.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1778866182584": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1778866182584 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1778866182584, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "NodeFlux Kernel",
+        "icon": "⚡"
+      },
+      {
+        "title": "Data Stream",
+        "name": "PulseSync Hub",
+        "icon": "🌊"
+      },
+      {
+        "title": "AI Layer",
+        "name": "Visionary Grid",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldArray Protocol",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Scalability",
+        "name": "HyperScale Cluster",
+        "icon": "🚀"
+      },
+      {
+        "title": "Developer Tools",
+        "name": "CodePulse IDE",
+        "icon": "🧑‍💻"
+      },
+      {
+        "title": "Analytics",
+        "name": "InsightCore Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Community",
+        "name": "Apex Hub Network",
+        "icon": "🌐"
       }
     ]
   }
