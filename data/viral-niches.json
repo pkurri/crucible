@@ -20619,6 +20619,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "SpaceFoodTech taps into the massive curiosity surrounding human space exploration and the novel challenge of eating in zero‑gravity. With NASA’s Artemis missions, SpaceX’s Starship, and Mars research, audiences are hungry for behind‑the‑scenes content that reveals how astronauts prepare, store, and consume food. The niche is distinct from general cooking or science channels, offers endless experiment ideas, and can be produced faceless with voice‑over and engaging animations, making it ideal for 1M+ subscriber growth and 100K+ views per video.",
+      "ideas": [
+        "How Astronauts Eat on the International Space Station: Zero‑Gravity Cooking Demo / Watch the impossible trick of floating food in pure vacuum and learn the science behind it!",
+        "Recreating the First Martian Meal—What Does Food Taste Like on Mars? / Imagine eating on the red planet—see the first Earth‑landed snack with a twist of Mars terrain!",
+        "Space Food Hack: Turning Everyday Snacks into Zero‑Gravity Surprises / Spoiler: you won’t believe how butter melts in orbit—watch the goo pull straight to the air!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceFood",
+        "MarsMeal",
+        "AstronautCooking",
+        "FutureCuisine"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
