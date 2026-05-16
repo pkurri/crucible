@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12309,125 +12309,143 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Your 70-year plan is doomed. Want 150?",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Blueberries",
+        "icon": "🫐"
       },
       {
-        "text": "Scientists just cracked the longevity code. Grab it!",
-        "duration": 4
+        "title": "Exercise",
+        "name": "HIIT",
+        "icon": "🔥"
       },
       {
-        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Polyphasic Sleep",
+        "icon": "🛏️"
       },
       {
-        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
-        "duration": 5
+        "title": "Mental Fitness",
+        "name": "Brain Gym",
+        "icon": "🧠"
       },
       {
-        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Vitamin D3",
+        "icon": "☀️"
       },
       {
-        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Water",
+        "icon": "💧"
       },
       {
-        "text": "Your competitors get the 40‑µg NMN pill next week.",
-        "duration": 4
+        "title": "Social",
+        "name": "Laughing Groups",
+        "icon": "😂"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next video: How to decode your genetic age in 5 mins.",
-        "duration": 4
+        "title": "Mindset",
+        "name": "Gratitude Journaling",
+        "icon": "📝"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "On-Chain Metrics",
+        "name": "Nansen",
+        "icon": "🔍"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Market Sentiment",
+        "name": "CryptoMood",
+        "icon": "🔥"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Early Whale Flows",
+        "name": "Glassnode",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "ICO Research",
+        "name": "TokenInsight",
+        "icon": "📊"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Order Book Data",
+        "name": "TradingView",
+        "icon": "📈"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Decentralized Exchanges",
+        "name": "Uniswap Stats",
+        "icon": "🔀"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Regulatory Pulse",
+        "name": "CoinDesk",
+        "icon": "⚖️"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Fundamentals Tracker",
+        "name": "CryptoRank",
+        "icon": "🏆"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Influence",
+        "name": "Commanding Gaze",
+        "icon": "👀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Anchor Technique",
+        "icon": "🪝"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Low-Rescue Protocol",
+        "icon": "👻"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Hypnotic Language",
+        "name": "Pattern Language",
+        "icon": "🧩"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Perception Shaping",
+        "name": "Scarcity Mindset",
+        "icon": "🔒"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social Proof",
+        "name": "Echo Chamber Tactics",
+        "icon": "📣"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Memory Control",
+        "name": "False Memories",
+        "icon": "🧠"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Fear Conditioning",
+        "name": "Cold-Call Fright",
+        "icon": "🕳️"
       }
     ]
   },
@@ -24135,6 +24153,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1778964421678": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1778964421678 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1778964421678, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Principle",
+        "name": "Dynamic Load Balancing",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Workflow Hack",
+        "name": "Zero‑Latency Trigger",
+        "icon": "⚡"
+      },
+      {
+        "title": "Integration",
+        "name": "API‑First Connector",
+        "icon": "🔌"
+      },
+      {
+        "title": "Optimization",
+        "name": "Adaptive Buffer Sizing",
+        "icon": "📦"
+      },
+      {
+        "title": "Monitoring",
+        "name": "Real‑Time Flow Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Security",
+        "name": "Encrypted Token Vault",
+        "icon": "🔐"
+      },
+      {
+        "title": "Scaling",
+        "name": "Micro‑Service Pod Autoscaling",
+        "icon": "🚀"
+      },
+      {
+        "title": "Community",
+        "name": "Open‑Source Plugin Marketplace",
+        "icon": "🧩"
       }
     ]
   }
