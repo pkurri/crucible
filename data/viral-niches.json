@@ -20928,6 +20928,30 @@
         "neon"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The surge in science-culture memes, combined with rising interest in microbiome science and the sheer visual astonishment of minute living worlds, makes micro‑bioscapes an untapped goldmine. High‑resolution, time‑lapse footage of microbes interacting, building, and evolving creates scroll‑stopping hooks and endless curiosity loops. These short, visually striking videos perform exceptionally on both platforms and easily scale to 25+ viral concepts.",
+      "ideas": [
+        "‘$0:22 The City Inside Your Coffee Filter – Microbe Life‑Cycle Unveiled’ – Watch a bustling micro‑city form under a simple coffee granule in real time.",
+        "‘When Microorganisms Turn a Yardstick Into a Jungle – 1 Minute Time‑Lapse of a Microbe Ecosystem Growing in My Backyard’ – See nature thrive in the smallest space.",
+        "‘Microplastics: The Unexpected Home for a Hidden Microbial Society – 30 Seconds of Their Secret Life’ – Discover the micro‑world that thrives on pollution."
+      ],
+      "keywords": [
+        "MicroscopicAnimation",
+        "TimeLapse",
+        "MicrobialReality",
+        "HiddenUniverse",
+        "MicroscopeMagic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
