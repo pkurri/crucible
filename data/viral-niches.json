@@ -21003,6 +21003,30 @@
         "orbital gastronomy"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "UndergroundHiddenCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Hidden underground cities tap into a timeless fascination with secret spaces and urban myths. With high‑resolution footage, digital mapping, and eerie storytelling, the niche invites viewers to scroll, share, and binge explore. Trends in adventure, paranormal, and ‘lost places’ content give it instant shareability, and the visual intensity of dark tunnels and abandoned structures keeps audiences glued. Combined with a unique angle—real-world exploration supported by AR overlays—this niche stands out against crowded topics and can attract viral traction quickly on both meta and youtube.",
+      "ideas": [
+        "Hidden Underground City Found Beneath Prague - The Secret Royal Crypt You Never Knew Existed / Look Inside the Cold, Dark Stairs Where No Light Ever Touches!",
+        "The Catacombs of Chernobyl 2.0 – A Siren’s Call Inside the Poisonous Under‑Ground Labyrinth / Witness the Reeds of Concrete Whispering Dead Memories!",
+        "Lost Atlantis? The Mysterious Ancient Metro Below Jakarta – We Enter the City’s Shadow Home / Discover the Forgotten Train Tracks that Hided a Civilisation!"
+      ],
+      "keywords": [
+        "EerieTunnels",
+        "LostCities",
+        "SubterraneanMaps",
+        "HauntedPassages",
+        "UrbanSpelunking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
