@@ -20853,6 +20853,30 @@
         "Oceanography"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlinesForecast",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "The imminent collapse of coastal regions due to climate change sparks global anxiety. A faceless channel can deliver shocking time‑lapse footage, AI predictions, and stark before‑after comparisons that cater to both curiosity and fear. The topic is timely, visually compelling, and resonates strongly with current social media trends on environmental crisis, making it ripe for rapid viral growth and mass audience retention.",
+      "ideas": [
+        "Beach Vanishing in 72 Hours: Time‑Lapse Shock (Watch your summer spot disappear)",
+        "AI Predicts the Next 20 Years of Coastlines: Which Beach Will Go? (Future is now)",
+        "The Last Wave on a Lost Shoreline: 30‑Day Time‑Lapse (Your sea view may disappear)"
+      ],
+      "keywords": [
+        "TimeLapse",
+        "Erosion",
+        "SeaLevelRise",
+        "CoastlineCollapse",
+        "VanishingBeach"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
