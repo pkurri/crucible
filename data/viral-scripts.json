@@ -12268,49 +12268,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Customer Support",
-        "name": "Chatbot Revolutions",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Healthcare",
-        "name": "AI Diagnostics",
-        "icon": "🏥"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Finance",
-        "name": "Algorithmic Trading",
-        "icon": "💰"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Manufacturing",
-        "name": "Autonomous Factories",
-        "icon": "🏭"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Law",
-        "name": "Smart Contracts",
-        "icon": "⚖️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Education",
-        "name": "Adaptive Learning AI",
-        "icon": "📚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Security",
-        "name": "AI Surveillance",
-        "icon": "🛡️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Recruitment",
-        "name": "AI Hiring Systems",
-        "icon": "📑"
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12346,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12428,7 +12422,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -13358,49 +13352,43 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Microhabitats",
-        "name": "Oceanic Dust",
-        "icon": "🌊"
+        "text": "Nobody talks about the truth of MicroBioscapes.",
+        "duration": 5
       },
       {
-        "title": "Symbiosis",
-        "name": "Phytoplankton Partners",
-        "icon": "🌱"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "UV Armor",
-        "name": "Bioluminescent Shield",
-        "icon": "🔦"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Genome Banks",
-        "name": "Hidden Genes Vault",
-        "icon": "🗃"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Energy Flow",
-        "name": "Methane Microgear",
-        "icon": "⚡"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Thermal Pockets",
-        "name": "Subzero Survival",
-        "icon": "❄️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Communication",
-        "name": "Chemical Whisperers",
-        "icon": "🗣"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Adaptation",
-        "name": "Rapid Evolution Lens",
-        "icon": "🔍"
+        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -16179,7 +16167,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master ZeroGravityKitchen, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -23937,6 +23925,47 @@
       },
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1778925756886": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1778925756886.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1778925756886, you're in the right place. Subscribe.",
         "duration": 5
       },
       {

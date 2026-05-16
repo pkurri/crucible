@@ -20979,6 +20979,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking blends the universally beloved pastime of cooking with the irresistibly visual phenomenon of space.  The niche is highly calendar‑relevant—space‑flight content is trending—and it offers endless variations (dishes, techniques, experiments) that are vivid, shareable, and highly scroll‑stopping.  It occupies a sweet spot between niche novelty and mainstream appeal, with a low barrier to entry for faceless, AI‑generated production.  Competitors are mainly institutional NASA or ad‑heavy space shows; a casual, engaging brand can dominate the void with 1‑minute bite‑sized wonder pieces, making it scalable to 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "Cooking a Pizza in Zero‑G: Will It Turn Into a Floating Pie? – Imagine a pepperoni tossed in orbit—watch the dough rise in the vacuum of space!",
+        "Drop an Egg in Space: Shocking French Toast Experiment – This classic breakfast gets a cosmic twist—shockingly sweet or bacterial nightmare?",
+        "Zero‑G Protein Shake Challenge: Can You Mix It Without Gravity? – Think a shaker is tough on Earth? Test the science (and your sanity) in zero‑gravity."
+      ],
+      "keywords": [
+        "space cooking",
+        "zero-gravity cuisine",
+        "floating food",
+        "cargo‑craft kitchen",
+        "orbital gastronomy"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
