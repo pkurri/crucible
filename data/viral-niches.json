@@ -20904,6 +20904,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DeepSeaFlora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Untouched deep‑sea plant life is a goldmine for visual storytelling: it appears entirely alien, yet is crucial to oceanic ecosystems. The niche can easily mash high‑opportunity footage (bioluminescent glows, 3‑D reconstructions, time‑lapse growth) with compelling hook‑heavy scripts that spark curiosity and wonder. Science‑fiction vibes, mystery of ancient species, and real‑world climate relevance give it SUV (scalable, unique, viral) potential. Faceless, animation‑heavy production stays cost‑effective while granting limitless rendering variety, ensuring >25 unique viral ideas and high retention loops.",
+      "ideas": [
+        "Glowing Bioluminescent Seaweed – The Ocean’s Dark Garden / Watch these alien plants keep the abyss alive",
+        "3D Recreated Ancient Deep‑Sea Foliage – 200M Years of Secrets / Open the vault to humanity’s deepest vegetation",
+        "The Impossible Deep‑Sea Plant That Could Change Climate – It Grows Beyond Light / This algae might be the next clean‑energy breakthrough"
+      ],
+      "keywords": [
+        "glowing",
+        "cryptic",
+        "alien",
+        "silky",
+        "neon"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
