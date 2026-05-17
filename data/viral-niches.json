@@ -21330,6 +21330,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "Space colonization is the hottest trend now, with SpaceX, NASA, and private firms racing to send humans to Mars. Food for space travelers is a critical hurdle that has captivated scientists, hobbyists, and the public alike. This niche sits at the intersection of cutting‑edge science, culinary innovation, and the human dream of interplanetary life, offering endless story hooks that blend awe‑instilling visuals with high curiosity loops. It differentiates itself from mainstream science channels by focusing exclusively on the development, testing, and future of space‑grade foods, and scales effortlessly into 25+ fresh ideas—each one promising surprising discovery or counter‑intuitive revelation.",
+      "ideas": [
+        "The First 3D‑Printed Space Cookie: How It Will Change Life on Mars! - Hook: Ever wondered what the first snack on Mars will look like?",
+        "Why Soylent Isn’t Enough: The Untold Truth of Space Food Engineering - Hook: A secret ingredient could be the key to sustaining astronauts for decades…",
+        "Top 5 Foods Rediscovered for Space Travel – You Won’t Believe #3! - Hook: One ordinary ingredient is a game‑changer for the next generation of space explorers."
+      ],
+      "keywords": [
+        "Space",
+        "Food",
+        "3D‑Printed",
+        "Mars",
+        "AlternativeDiet"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
