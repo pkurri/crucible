@@ -12312,87 +12312,81 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Your 70-year plan is doomed. Want 150?",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
-        "text": "Scientists just cracked the longevity code. Grab it!",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
-        "duration": 5
-      },
-      {
-        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
-        "duration": 5
-      },
-      {
-        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
-        "duration": 5
-      },
-      {
-        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Your competitors get the 40‑µg NMN pill next week.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
-        "text": "Next video: How to decode your genetic age in 5 mins.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hot Greedy Token",
-        "name": "AlphaCoin",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Volume Surge",
-        "name": "VolumeBlitz",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Insider Tool",
-        "name": "GoldMines",
-        "icon": "🚀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "FOMO Watcher",
-        "name": "FOMOAlert",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Pump Tracker",
-        "name": "PumpPulse",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Lightning Yield",
-        "name": "YieldLightning",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Coin Flip",
-        "name": "FlipMaster",
-        "icon": "🔓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Vault Alert",
-        "name": "VaultGuard",
-        "icon": "🏦"
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12428,7 +12422,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -13358,49 +13352,43 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Underground Roots",
-        "name": "Nitrogen Whisperers",
-        "icon": "🌱"
+        "text": "Nobody talks about the truth of MicroBioscapes.",
+        "duration": 5
       },
       {
-        "title": "Aquatic Vents",
-        "name": "Sulfur Catalysts",
-        "icon": "🦀"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Urban Dust",
-        "name": "Biofilm Builders",
-        "icon": "🏙️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Cold Lake",
-        "name": "Cryo‑Photosynthesizers",
-        "icon": "❄️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Volcanic Soil",
-        "name": "Pyro‑Algae",
-        "icon": "🌋"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Space Habitats",
-        "name": "Micro‑Radiation Shields",
-        "icon": "🚀"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Human Gut",
-        "name": "Health Gatekeepers",
-        "icon": "👤"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Desert Soil",
-        "name": "Mite‑Microbe Feedbacks",
-        "icon": "🏜️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -24353,6 +24341,47 @@
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1779005911741": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1779005911741.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1779005911741, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
