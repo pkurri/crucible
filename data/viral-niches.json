@@ -21402,6 +21402,30 @@
         "tiny universe"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes taps into the growing fascination with science and the unseen microscopic world. The niche is inherently visual, making it ideal for faceless production and short attention spans. It stands out from mainstream science channels by offering ultra‑high‑resolution, time‑lapse, and AI‑generated 3‑D perspectives of microbes—content that consistently drives high engagement, shares, and comments. The infinite variety of species, behaviors, and surreal AI‑reimagined scenes guarantees a steady stream of unique video ideas, essential for hitting 1M+ subs and >100K views per clip.",
+      "ideas": [
+        "The Hidden World Inside Your Hand: 4K Microscopic Life Faster Than a Blink – \"Ever wondered what lives inside your skin? This 4K time‑lapse will blow your mind!\"",
+        "Microbe Wars: Bacteria vs Fungi - A Real‑Time Battle for Dominance – \"Watch the intense showdown that decides the fate of our environment!\"",
+        "Impossible Bacteria: Flying Micro Life Created by AI – \"We fed AI a 3D bacterium model & let it imagine flight—prepare to be freaked out!\""
+      ],
+      "keywords": [
+        "NanoZoom",
+        "CellMorph",
+        "MicroPrecision",
+        "NanoGlimmer",
+        "MicrowaveVis"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
