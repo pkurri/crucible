@@ -21378,6 +21378,30 @@
         "visual"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The microscopic world offers endless, never‑seen visual wonder that hooks viewers instantly and encourages binge‑watching. Human curiosity about tiny life-forms, amplified by high‑resolution time‑lapse and macro‑lens tech, creates perfect scroll‑stopping moments and strong curiosity loops. The content is inherently shareable across short‑form social platforms (Reels, TikTok, Meta Stories) and can be repurposed into clean, faceless YouTube videos. With countless species and phenomena to showcase, you can generate 25+ unique viral concepts quickly, keeping the niche fresh and scalable.",
+      "ideas": [
+        "How Tiny Bacteria Draw the Map of Their Habitat – Watch the Invisible Landscape Unfold!",
+        "15 Seconds of Algal Chaos: The Colorful Life Inside a Single Pond Drop",
+        "Under the Lens: 10 Bacteria You’ll Never See With the Naked Eye (But Will Amaze You)!"
+      ],
+      "keywords": [
+        "microscopic illumination",
+        "cellular time‑lapse",
+        "bioluminescent bacteria",
+        "macro‑lens extreme",
+        "tiny universe"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
