@@ -21426,6 +21426,30 @@
         "MicrowaveVis"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes fuses ultra‑high‑resolution microscopy, AI‑generated narratives, and faceless presentation to unveil invisible microbial ecosystems. The niche delivers astonishing visuals that satisfy human curiosity, create instant scroll‑stopping hooks, and allow endless variations—from plant seeds to bioluminescent bacteria—ensuring sustainable content velocity and high shareability.",
+      "ideas": [
+        "30,000× Inside an Apple Seed / Ever wondered what hides in your kitchen? Watch the AI zoom in 30,000× and uncover a micro‑city.",
+        "80,000× Worm City: Urban Life Inside a Nematode’s Gut / Think you know microbes? 80,000× turns a tiny worm into a bustling metropolis.",
+        "Glowing Bacteria on a Sea Slug: A Bioluminescent Science Lab / See a sea slug’s microbiome light up in real time—AI animation reveals the hidden chemistry."
+      ],
+      "keywords": [
+        "Hyper‑Microscopic",
+        "Bioluminescent",
+        "AI‑Animated",
+        "Extreme Zoom",
+        "Micro‑Ecosystem"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
