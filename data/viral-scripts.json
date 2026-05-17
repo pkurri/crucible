@@ -12299,47 +12299,6 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
-      {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
-      },
-      {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
@@ -12349,44 +12308,97 @@
       }
     ]
   },
+  "LongevityHacksUnlocked": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
+      {
+        "title": "Nutrition",
+        "name": "Blueberry Power",
+        "icon": "💙"
+      },
+      {
+        "title": "Exercise",
+        "name": "Micro‑Resistance",
+        "icon": "🏋️‍♂️"
+      },
+      {
+        "title": "Sleep",
+        "name": "Blue Light Blocker",
+        "icon": "🌙"
+      },
+      {
+        "title": "Supplements",
+        "name": "NAD⁺ Booster",
+        "icon": "🔋"
+      },
+      {
+        "title": "Mindset",
+        "name": "Daily Gratitude Journal",
+        "icon": "📓"
+      },
+      {
+        "title": "Tech",
+        "name": "Wearable Health Tracker",
+        "icon": "⌚"
+      },
+      {
+        "title": "Environment",
+        "name": "Air Purifier with HEPA",
+        "icon": "🌬️"
+      },
+      {
+        "title": "Cellular",
+        "name": "Telomere Stimulator",
+        "icon": "🔬"
+      }
+    ]
+  },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hot Greedy Token",
+        "name": "AlphaCoin",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Volume Surge",
+        "name": "VolumeBlitz",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Insider Tool",
+        "name": "GoldMines",
+        "icon": "🚀"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "FOMO Watcher",
+        "name": "FOMOAlert",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Pump Tracker",
+        "name": "PumpPulse",
+        "icon": "🔥"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Lightning Yield",
+        "name": "YieldLightning",
+        "icon": "💰"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Coin Flip",
+        "name": "FlipMaster",
+        "icon": "🔓"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Vault Alert",
+        "name": "VaultGuard",
+        "icon": "🏦"
       }
     ]
   },
@@ -12422,7 +12434,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -24259,6 +24271,47 @@
       },
       {
         "text": "If you want to master ApexFlow_1778985946888, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1778986742511": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1778986742511.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1778986742511, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
