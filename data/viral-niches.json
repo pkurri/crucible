@@ -21174,6 +21174,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "ZeroGravityKitchen blends two high‑interest topics – space exploration and culinary arts – into a fresh, faceless niche. The unique premise of cooking without gravity offers endless visual surprise (floating pans, swirling sauces) and science‑based explanations that satisfy curiosity while guaranteeing scroll‑stopping hooks. With the rapid rise of commercial spaceflight, the public’s appetite for space content is at an all‑time high, and the niche can produce over 25 distinct recipe & experiment ideas by simply swapping ingredients or controlling variables in zero‑gravity settings.",
+      "ideas": [
+        "Zero-Gravity Chocolate Fountain: Watch Gravity Defy Your Dessert! *Can you turn a fountain into a float?*",
+        "Cooking in Space: The First Zero-Gravity Pizza You Can’t Believe Exists *How does toppings cling without bars?*",
+        "How NASA’s Zero-Gravity Kitchen Works: A Step‑by‑Step Guide to Baking Without Gravity *Unlock the science of floating soufflés!*"
+      ],
+      "keywords": [
+        "zero-gravity",
+        "space cooking",
+        "weightless utensils",
+        "orbital kitchen",
+        "cosmic cuisine"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
