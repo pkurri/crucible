@@ -21252,6 +21252,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapesRevealed",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Microbial ecosystems in everyday objects tap into innate human fascination with the unseen world. High‑resolution time‑lapse footage, coupled with compelling narration, creates scroll‑stopping hooks that are easy to remix, scale to 25+ concepts, and maintain audience retention. The niche sits at the intersection of science, tech, and lifestyle, making it highly shareable across platforms.",
+      "ideas": [
+        "The Tiny Army in Your Coffee: Microbial Showdown Inside a Daily Brew / Ever wondered what battles raged in your cup before you even taste it? Watch microbes wage war over that latte!",
+        "Inside a Lost Smartphone: The Unexpected World of Micro Organisms / Think your phone is sterile? See the secret colony thriving between calligraphy and glass, surviving in the most unlikely space.",
+        "The Secret Forest Beneath Your Kitchen Counter: Unseen Ecosystem of Kitchen Surfaces / Your countertop hides a living rainforest. Dive millimeters deep to witness bacteria grow like trees in our unseen jungle."
+      ],
+      "keywords": [
+        "microscopic",
+        "time-lapse",
+        "biodiversity",
+        "invisible",
+        "nature"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
