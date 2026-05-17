@@ -21354,6 +21354,30 @@
         "AlternativeDiet"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "HolographicRealms",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Holographic Realms taps into the explosive interest in AR/VR, digital art, and speculative sci‑tech. The concept blends immersive visual experiences with accessible narration, making it ideal for faceless storytelling. With limited competition yet high curiosity, each video can feature a new imaginary environment, keeping audiences hooked and sharing across social platforms.",
+      "ideas": [
+        "Constructing a City that Exists Only in Light – Step Into the Future of AR Realms",
+        "The Most Mind‑Bending Holographic Landscapes Ever Created – Are They Real?",
+        "How to Build a Holographic World from Scratch in 3D – A 10‑Minute Time‑Lapse"
+      ],
+      "keywords": [
+        "holographic",
+        "immersive",
+        "digital",
+        "virtual",
+        "visual"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
