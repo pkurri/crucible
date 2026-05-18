@@ -21720,6 +21720,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of space exploration and everyday cooking taps into both the curiosity about zero‑gravity environments and the universal appeal of food. With high‑definition space‑agency footage and up‐to‑date research from NASA and ESA, this niche offers fresh, never‑before‑seen content that encourages repeat engagement. The format naturally supports scroll‑stopping hooks (e.g., “Can we make a cake in zero‑g?”) and curiosity loops (e.g., revealing the science behind the texture), enabling growth to 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "Zero‑Gravity Pizza: Watch as we make the first ever pizza in orbit – The Science Behind Each Bite!  // Hook: 'Can a pizza float correctly in space?'",
+        "The Zero‑G Breakfast Showdown: Who Can Flip an Omelette in Space?  // Hook: 'Who will win – normal hands or the cosmic chef?'",
+        "Cooking in Zero‑G, Live from the ISS: Real‑Time Recipes, Real‑Time Results!  // Hook: 'Join the astronauts for a live, zero‑gravity cooking session!'"
+      ],
+      "keywords": [
+        "Zero Gravity",
+        "Space Kitchen",
+        "Space Food",
+        "Zero G Cooking",
+        "Space Science"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
