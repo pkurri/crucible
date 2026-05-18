@@ -21669,6 +21669,30 @@
         "time‑lapse"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes taps into the surge of micro‑biology interest fueled by recent breakthroughs in human microbiome science and bio‑engineering, yet remains visually stunning and immensely shareable. Faceless, animated, and macro‑visual content easily satisfies scroll‑stopping hooks and curiosity loops, enabling 25+ unique video concepts that can reach 1M+ subscribers and 100k+ views per video.",
+      "ideas": [
+        "The Glowing Bacteria City: 24‑Hour Time‑Lapse Inside a Spicy Snack – Ever wonder what life looks like in a piece of cheese? Watch 24 hours of bacteria creating a city!",
+        "Microbial Musical: Turning Bacteria Into a Symphonic Orchestra – What if microbes could sing? We engineered a tiny bacterium to produce sound, and the result is…",
+        "Petri Dish P.U.G.: Bacteria Fight the Most Powerful Antibiotics – See the ultimate war between microbes and drugs. Who will conquer the battle arena?"
+      ],
+      "keywords": [
+        "macro",
+        "glowing",
+        "time‑lapse",
+        "microscopic",
+        "micro‑life"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
