@@ -21789,6 +21789,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticMemoryPalaces",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Growing fascination with AI-generated art, memory enhancement techniques, and futuristic self-improvement creates a perfect storm for faceless content that visualizes elaborate, neon‑lit memory palaces. The niche taps into the booming nootropic and productivity communities on TikTok/YouTube, offers endless visual variation, and satisfies curiosity about how the brain can be 'hacked' through immersive, aesthetically striking environments.",
+      "ideas": [
+        "Build a Memory Palace in a Cyberpunk City – AI‑Generated Walkthrough (Hook: 'What if you could store memories in a neon skyscraper?')",
+        "Ancient Memory Techniques vs. AI‑Created Futuristic Palaces – Side‑by‑Side Comparison (Hook: 'See how a 2,000‑year‑old method stacks up against a digital dreamscape.')",
+        "From Blank Mind to Mega Palace: 30‑Day AI‑Guided Memory Challenge (Hook: 'Watch my recall explode after living inside an AI‑crafted palace for a month.')"
+      ],
+      "keywords": [
+        "memory palace",
+        "AI architecture",
+        "mnemonic visualization",
+        "neon neural pathways",
+        "future brain"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
