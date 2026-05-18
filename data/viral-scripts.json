@@ -16148,43 +16148,49 @@
     ]
   },
   "ZeroGravityKitchen": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ZeroGravityKitchen secrets you need to know.",
+    "closing": "If you want to master ZeroGravityKitchen, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of ZeroGravityKitchen.",
-        "duration": 5
+        "title": "Grav‑Free Whisk",
+        "name": "AeroWhisk",
+        "icon": "🍶"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Hover Grill",
+        "name": "NimbusGrill",
+        "icon": "🌭"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Magnetic Blender",
+        "name": "SpinMix",
+        "icon": "🥤"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Plasma Pan",
+        "name": "SolarSizzler",
+        "icon": "🥘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Zero‑Gravity Salt",
+        "name": "NebulaSeasoning",
+        "icon": "🧂"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Liquid Flow Kettle",
+        "name": "StreamSteamer",
+        "icon": "☕"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Anti‑Gravity Pastry",
+        "name": "CloudCrumb",
+        "icon": "🍰"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Comet Knife",
+        "name": "StarlightSharp",
+        "icon": "🔪"
       }
     ]
   },

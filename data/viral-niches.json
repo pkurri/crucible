@@ -21519,6 +21519,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Space cooking merges popular food content with the irresistible fascination of microgravity science. The niche has little competition, ample opportunities for visual spectacle, and naturally lends itself to scroll‑stopping hooks. It taps into current trends—remote space experiments, future tech, and experiential learning—making it ripe for rapid subscriber growth and high view counts.",
+      "ideas": [
+        "Can You Cook a Burger in Zero Gravity? Watch the Floating Meat!",
+        "Baking an Egg in Space: The Slippery Science Experiment!",
+        "Space Sushi Roll: Creating the Perfect Bite in Microgravity!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "MicrogravityFood",
+        "FloatingBrew",
+        "AstroChef"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
