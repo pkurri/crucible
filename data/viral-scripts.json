@@ -12309,104 +12309,10 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Hydration",
-        "name": "Drink 8 glasses daily",
-        "icon": "💧"
-      },
-      {
-        "title": "Nutrition",
-        "name": "Intermittent fasting 16/8",
-        "icon": "🍽️"
-      },
-      {
-        "title": "Exercise",
-        "name": "30 min HIIT thrice weekly",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Sleep",
-        "name": "7-8 hrs, blue‑light curfew",
-        "icon": "🛌"
-      },
-      {
-        "title": "Stress",
-        "name": "Meditation 10 min daily",
-        "icon": "🧘‍♂️"
-      },
-      {
-        "title": "Supplements",
-        "name": "Resveratrol & CoQ10",
-        "icon": "💊"
-      },
-      {
-        "title": "Environment",
-        "name": "Fresh air, low pollution",
-        "icon": "🌿"
-      },
-      {
-        "title": "Social",
-        "name": "Weekly meaningful chats",
-        "icon": "💬"
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
-      {
-        "title": "On-Chain Metrics",
-        "name": "Nansen",
-        "icon": "🔍"
-      },
-      {
-        "title": "Market Sentiment",
-        "name": "CryptoMood",
-        "icon": "🔥"
-      },
-      {
-        "title": "Early Whale Flows",
-        "name": "Glassnode",
-        "icon": "🐋"
-      },
-      {
-        "title": "ICO Research",
-        "name": "TokenInsight",
-        "icon": "📊"
-      },
-      {
-        "title": "Order Book Data",
-        "name": "TradingView",
-        "icon": "📈"
-      },
-      {
-        "title": "Decentralized Exchanges",
-        "name": "Uniswap Stats",
-        "icon": "🔀"
-      },
-      {
-        "title": "Regulatory Pulse",
-        "name": "CoinDesk",
-        "icon": "⚖️"
-      },
-      {
-        "title": "Fundamentals Tracker",
-        "name": "CryptoRank",
-        "icon": "🏆"
-      }
-    ]
-  },
-  "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12434,12 +12340,100 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "DarkPsychologyPower": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Persuasion",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
+      },
+      {
+        "title": "Influence",
+        "name": "Scarcity Hook",
+        "icon": "⚡"
+      },
+      {
+        "title": "Emotional Control",
+        "name": "Foot‑in‑the‑Door Ultimatum",
+        "icon": "📝"
+      },
+      {
+        "title": "Cognitive Bias",
+        "name": "Anchoring Illusion",
+        "icon": "📌"
+      },
+      {
+        "title": "Social Proof",
+        "name": "Fake Endorsements",
+        "icon": "🤝"
+      },
+      {
+        "title": "Authority Trick",
+        "name": "Imitate Experts",
+        "icon": "👔"
+      },
+      {
+        "title": "Fear Manipulation",
+        "name": "Moral Guilt Pulse",
+        "icon": "😨"
+      },
+      {
+        "title": "Linguistic Tactics",
+        "name": "Embedded Commands",
+        "icon": "🔈"
       }
     ]
   },
@@ -24657,6 +24651,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1779091507083": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1779091507083 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Unseen Geometry",
+        "name": "Stardust Algorithms",
+        "icon": "🌌"
+      },
+      {
+        "title": "Quantum Computation",
+        "name": "Zero-Gravity Loop",
+        "icon": "🚀"
+      },
+      {
+        "title": "AI Symphony",
+        "name": "Echoing Paradox",
+        "icon": "🤖"
+      },
+      {
+        "title": "Swarm Dynamics",
+        "name": "Pulse of the Void",
+        "icon": "🌀"
+      },
+      {
+        "title": "Ethereal Interface",
+        "name": "Phantom Mesh",
+        "icon": "🕹️"
+      },
+      {
+        "title": "Temporal Crafts",
+        "name": "Chrono Puppet",
+        "icon": "⏳"
+      },
+      {
+        "title": "Xeno Code",
+        "name": "Alien Resonance",
+        "icon": "👽"
+      },
+      {
+        "title": "Nebula Engine",
+        "name": "Quantum Cascade",
+        "icon": "💡"
       }
     ]
   }
