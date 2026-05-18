@@ -12268,49 +12268,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "8 AI agent secrets that will make you fear the future.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Unemployment",
-        "name": "AutoSweep Drones",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Income Inequality",
-        "name": "Wealth Analyzer",
-        "icon": "💸"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Privacy Violations",
-        "name": "MindMap 360",
-        "icon": "⚠️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Healthcare",
-        "name": "Deep-Doctor AI",
-        "icon": "🏥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Government Control",
-        "name": "Surveillance Matrix",
-        "icon": "🕵️‍♂️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Education",
-        "name": "Scholarbot",
-        "icon": "📚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Creative Theft",
-        "name": "Artifex AI",
-        "icon": "🎨"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Climate Manipulation",
-        "name": "NeoClimate",
-        "icon": "🌡️"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12356,96 +12350,84 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hot Greedy Token",
-        "name": "AlphaCoin",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Volume Surge",
-        "name": "VolumeBlitz",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Insider Tool",
-        "name": "GoldMines",
-        "icon": "🚀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "FOMO Watcher",
-        "name": "FOMOAlert",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Pump Tracker",
-        "name": "PumpPulse",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Lightning Yield",
-        "name": "YieldLightning",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Coin Flip",
-        "name": "FlipMaster",
-        "icon": "🔓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Vault Alert",
-        "name": "VaultGuard",
-        "icon": "🏦"
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Social Proof",
-        "name": "Mirroring Technique",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Reciprocity",
-        "name": "Gift of Obscure Favor",
-        "icon": "🎁"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Scarcity",
-        "name": "Limited-Offer Tactics",
-        "icon": "⏳"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Authority",
-        "name": "Fake Credentials Spin",
-        "icon": "🛡️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Consistency",
-        "name": "Foot-in-Door Push",
-        "icon": "🚪"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Liking",
-        "name": "Charm Loop Effect",
-        "icon": "😍"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Fear",
-        "name": "Threat Amplification",
-        "icon": "😈"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Anchoring",
-        "name": "Contrast Price Trick",
-        "icon": "💰"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13874,49 +13856,43 @@
     ]
   },
   "SpaceFoodTech": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 SpaceFoodTech secrets you need to know.",
-    "closing": "If you want to master SpaceFoodTech, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Quantum Packaging",
-        "name": "Polyloft™",
-        "icon": "📦"
+        "text": "Nobody talks about the truth of SpaceFoodTech.",
+        "duration": 5
       },
       {
-        "title": "Flavour‑Microchip",
-        "name": "AromaX",
-        "icon": "🍃"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Zero‑G Edibles",
-        "name": "MoxieBite™",
-        "icon": "🍣"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Nutrient‑Replikator",
-        "name": "NutriSync",
-        "icon": "🥦"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Energy‑Density Boost",
-        "name": "FuelFood™",
-        "icon": "⚡"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Bio‑Fabricated Meat",
-        "name": "CellCure",
-        "icon": "🍖"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Shelf‑Life Scalability",
-        "name": "Longevix",
-        "icon": "🕒"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Hydro‑Cultivation Pods",
-        "name": "H2Grow",
-        "icon": "🌱"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },

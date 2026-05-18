@@ -21744,6 +21744,30 @@
         "Space Science"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "SpaceFoodTech fuses the universal fascination with space exploration and the niche of future food technology. With the recent boom in commercial spaceflight, Mars colonization talks, and NASA’s public focus on astronaut nutrition, audiences are hungry for visual, speculative content. Faceless production—animated zero‑gravity food demos, astronaut meal mock-ups, and futuristic cooking tech—delivers high‑impact visuals that are easy to share across platforms. The niche differentiates sharply from general science or cooking channels, offers endless scroll‑stopping hooks (e.g., “Can we eat pizza on the Moon?”), and scales up to 25+ unique concepts (space rations, zero‑gravity chocolate, asteroid-grown mushrooms, etc.).",
+      "ideas": [
+        "Five Zero‑Gravity Foods Astronauts Actually Eat ‑ Hook: NASA’s secret menu revealed, you’ll wonder how they taste in orbit!",
+        "Can We Cook on the Moon? ‑ Hook: Watch the first ever moon‑baked pizza, and see why it’s a game‑changer for future missions.",
+        "Future Food for Mars ‑ Hook: Imagine tasting the meals you’ll see on the Red Planet—impossible yet highly impressive!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceFoods",
+        "AstronautMeals",
+        "FoodTech",
+        "MarsRations"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
