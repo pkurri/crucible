@@ -21645,6 +21645,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "GlowArt",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Glowing art combines high visual drama with the rising fascination for bio‑engineering and sustainable aesthetics. Hyper‑realistic, living glow canvases are rare, creating a strong scroll‑stopper factor. The niche can be uniquely positioned against generic bioluminescent food or street art by focusing on controlled laboratory painting, vivid time‑lapses, and avant‑garde installations. It offers endless content loops (different bioluminescent species, mix‑and‑match paint skins, long‑term decay footage) and taps into the current meme culture that loves ‘living’ and ‘diy’ science experiments for both curious teens and adult hobbyists, making it scalable to 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "What Happens When You Paint with Bacteria? Bioluminescent Canvas Revealed! (Hook: Watch ordinary paint transform into living light in 5 minutes!)",
+        "The Ultimate Glow‑In‑The‑Dark Portrait: 24‑Hour Bioluminescent Painting Challenge (Hook: Will the painting survive the night without electricity?)",
+        "Five Different Bioluminescent Species: Which Glows Brightest on Canvas? See the Results! (Hook: Battle of the algae—watch the glow levels spike!)"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "glowing",
+        "algae",
+        "paint",
+        "time‑lapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

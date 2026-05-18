@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12309,125 +12309,143 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Blueberry Power",
+        "icon": "💙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "Micro‑Resistance",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocker",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD⁺ Booster",
+        "icon": "🔋"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Daily Gratitude Journal",
+        "icon": "📓"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Tech",
+        "name": "Wearable Health Tracker",
+        "icon": "⌚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Air Purifier with HEPA",
+        "icon": "🌬️"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Cellular",
+        "name": "Telomere Stimulator",
+        "icon": "🔬"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Microcap Momentum",
+        "name": "Rocket Rise",
+        "icon": "🚀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Whale Whisper",
+        "name": "Silent Surge",
+        "icon": "🐋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Chain Fork Windows",
+        "name": "Fork Lens",
+        "icon": "🔎"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Token Burn Alerts",
+        "name": "Fire Blast",
+        "icon": "🔥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stealth HODL",
+        "name": "Midnight Hold",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Insider Signals",
+        "name": "VIP Pulse",
+        "icon": "💓"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Pump & Dump Anticipation",
+        "name": "Bubble Peek",
+        "icon": "🍾"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tax-Loss Harvest Timing",
+        "name": "Golden Edge",
+        "icon": "💰"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Influence",
+        "name": "Scarcity Hook",
+        "icon": "⚡"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Emotional Control",
+        "name": "Foot‑in‑the‑Door Ultimatum",
+        "icon": "📝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cognitive Bias",
+        "name": "Anchoring Illusion",
+        "icon": "📌"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Fake Endorsements",
+        "icon": "🤝"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Authority Trick",
+        "name": "Imitate Experts",
+        "icon": "👔"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Fear Manipulation",
+        "name": "Moral Guilt Pulse",
+        "icon": "😨"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Linguistic Tactics",
+        "name": "Embedded Commands",
+        "icon": "🔈"
       }
     ]
   },
@@ -24815,6 +24833,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "GlowArt": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GlowArt secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Pigments",
+        "name": "Luminous Acrylic",
+        "icon": "✨"
+      },
+      {
+        "title": "Tools",
+        "name": "Glowpen",
+        "icon": "🖊️"
+      },
+      {
+        "title": "Medium",
+        "name": "Phosphorescent Ink",
+        "icon": "🖋️"
+      },
+      {
+        "title": "Techniques",
+        "name": "Midnight Masking",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Finish",
+        "name": "Glow Varnish",
+        "icon": "🎨"
+      },
+      {
+        "title": "Backlight",
+        "name": "LED Lamp Setup",
+        "icon": "💡"
+      },
+      {
+        "title": "Safety",
+        "name": "UV Protective Gloves",
+        "icon": "🧤"
+      },
+      {
+        "title": "Inspiration",
+        "name": "Night Sky Prints",
+        "icon": "🌌"
       }
     ]
   }
