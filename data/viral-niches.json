@@ -21984,6 +21984,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FutureFilmPredictions",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "The film‑going audience is endlessly hungry for spoilers and what‑ifs. A faceless channel that uses AI‑generated text, voice‑over, and cinematic graphics to predict plot twists, release dates, cast changes and box‑office outcomes for upcoming blockbusters meets a unique market gap. It offers instant hook with “What if…?” questions, is shareable across social media, and can produce short, scroll‑stopping videos that cycle through suspense, surprise and measurable future data—perfect for Generation‑Z binge‑viewers and social media jacking. This high‑volume, highly shareable content can quickly accumulate 100k+ views per video and attracts partnerships with film‑industry feeds, making it a prime 1M‑subscribed channel.",
+      "ideas": [
+        "AI Predicts the Next 'Matrix' Sequel: 5 Plot Twists Cinematic VFX That Will Blow Your Mind / ‘What if the source code was rewritten? Let the AI show you the impossible climax!’",
+        "Tomorrow’s Avengers Blockbuster: AI Forecasts $1.5B vs $3B – Will the Box Office Shatter Records? / ‘Could the biggest movie of 2026 beat all expectations? See AI’s shock prediction.’",
+        "Surprise Twist Ahead! AI-Generated Suicide Squad 2 Plot Board – You’ll Never Guess Who Survives / ‘Hold your breath! Our AI just mapped out the cliff‑hanger that no one saw coming.’"
+      ],
+      "keywords": [
+        "cinematic",
+        "AI-generated",
+        "future",
+        "box office",
+        "plot twist"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
