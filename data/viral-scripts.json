@@ -12268,49 +12268,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Mining",
-        "name": "AI Spy",
-        "icon": "🔍"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Surveillance",
-        "name": "Neural Recon",
-        "icon": "🕵️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Shutdown",
-        "name": "Auto Shutdown",
-        "icon": "⚡"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mind Control",
-        "name": "Mind Hack",
-        "icon": "🧠"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Job Displacement",
-        "name": "Job AI",
-        "icon": "🤖"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Self-Replicating",
-        "name": "Replicant",
-        "icon": "🌀"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Identity Theft",
-        "name": "Shadow ID",
-        "icon": "👤"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Economic Collapse",
-        "name": "Zero Tolerance",
-        "icon": "💸"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12318,134 +12312,122 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Your 70-year plan is doomed. Want 150?",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
-        "text": "Scientists just cracked the longevity code. Grab it!",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
-        "duration": 5
-      },
-      {
-        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
-        "duration": 5
-      },
-      {
-        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
-        "duration": 5
-      },
-      {
-        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Your competitors get the 40‑µg NMN pill next week.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
-        "text": "Next video: How to decode your genetic age in 5 mins.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hot Greedy Token",
-        "name": "AlphaCoin",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Volume Surge",
-        "name": "VolumeBlitz",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Insider Tool",
-        "name": "GoldMines",
-        "icon": "🚀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "FOMO Watcher",
-        "name": "FOMOAlert",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Pump Tracker",
-        "name": "PumpPulse",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Lightning Yield",
-        "name": "YieldLightning",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Coin Flip",
-        "name": "FlipMaster",
-        "icon": "🔓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Vault Alert",
-        "name": "VaultGuard",
-        "icon": "🏦"
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Social Proof",
-        "name": "Mirroring Technique",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Reciprocity",
-        "name": "Gift of Obscure Favor",
-        "icon": "🎁"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Scarcity",
-        "name": "Limited-Offer Tactics",
-        "icon": "⏳"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Authority",
-        "name": "Fake Credentials Spin",
-        "icon": "🛡️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Consistency",
-        "name": "Foot-in-Door Push",
-        "icon": "🚪"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Liking",
-        "name": "Charm Loop Effect",
-        "icon": "😍"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Fear",
-        "name": "Threat Amplification",
-        "icon": "😈"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Anchoring",
-        "name": "Contrast Price Trick",
-        "icon": "💰"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13401,7 +13383,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -24962,6 +24944,88 @@
         "title": "Community",
         "name": "Legacy Mod Vault",
         "icon": "🏛️"
+      }
+    ]
+  },
+  "SyntheticMemoryPalaces": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of SyntheticMemoryPalaces.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master SyntheticMemoryPalaces, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1779159163655": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1779159163655.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1779159163655.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
