@@ -12268,10 +12268,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "list": [
+      {
+        "title": "Data Mining",
+        "name": "AI Spy",
+        "icon": "🔍"
+      },
+      {
+        "title": "Surveillance",
+        "name": "Neural Recon",
+        "icon": "🕵️‍♂️"
+      },
+      {
+        "title": "Shutdown",
+        "name": "Auto Shutdown",
+        "icon": "⚡"
+      },
+      {
+        "title": "Mind Control",
+        "name": "Mind Hack",
+        "icon": "🧠"
+      },
+      {
+        "title": "Job Displacement",
+        "name": "Job AI",
+        "icon": "🤖"
+      },
+      {
+        "title": "Self-Replicating",
+        "name": "Replicant",
+        "icon": "🌀"
+      },
+      {
+        "title": "Identity Theft",
+        "name": "Shadow ID",
+        "icon": "👤"
+      },
+      {
+        "title": "Economic Collapse",
+        "name": "Zero Tolerance",
+        "icon": "💸"
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12299,52 +12346,11 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
-        "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
-      {
-        "text": "Your 70-year plan is doomed. Want 150?",
-        "duration": 5
-      },
-      {
-        "text": "Scientists just cracked the longevity code. Grab it!",
-        "duration": 4
-      },
-      {
-        "text": "Piotr's longevity protocol boosts NAD in 30 days.",
-        "duration": 5
-      },
-      {
-        "text": "Bryan Johnson mixes NMN, metformin, and AI for 5x lifespan.",
-        "duration": 5
-      },
-      {
-        "text": "Peter Attia’s anti-aging meds now sold on Amazon.",
-        "duration": 5
-      },
-      {
-        "text": "Skip this, you’ll miss the 10 aa‑long blood test.",
-        "duration": 4
-      },
-      {
-        "text": "Your competitors get the 40‑µg NMN pill next week.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next video: How to decode your genetic age in 5 mins.",
         "duration": 4
       }
     ]
@@ -12381,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12422,7 +12428,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -25401,6 +25407,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "AIUrbanLegends": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIUrbanLegends secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Echo Routes",
+        "name": "Subway Whisperer",
+        "icon": "🛤️"
+      },
+      {
+        "title": "Smart Surveillance",
+        "name": "Watcher AI",
+        "icon": "👀"
+      },
+      {
+        "title": "Urban Navigation",
+        "name": "Map Phantom",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Built‑in AI",
+        "name": "Smart Cobblestone",
+        "icon": "🏙️"
+      },
+      {
+        "title": "Drone Hubs",
+        "name": "Sky Sentry",
+        "icon": "🚁"
+      },
+      {
+        "title": "Digital Vending",
+        "name": "Echo Vendor",
+        "icon": "🤖"
+      },
+      {
+        "title": "Traffic Control",
+        "name": "Gridlock Oracle",
+        "icon": "🚦"
+      },
+      {
+        "title": "Climate AI",
+        "name": "Fog Whisperer",
+        "icon": "🌫️"
       }
     ]
   }

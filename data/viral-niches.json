@@ -22077,6 +22077,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIUrbanLegends",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Curiosity",
+      "reason": "AI urban legends merge the current hype around generative AI with the timeless human fascination for spooky folklore. The concept allows endless episode permutations (AI‑generated myth, AI‑judged authenticity, community‑crowdsourced sightings) and resonates on both Meta short‑form feeds and YouTube’s long‑form storytelling format. The blend of cutting‑edge tech and eerie storytelling triggers strong shareability, invites community participation, and taps into the growing trend of AI in creative narrative, giving it high viral potential.",
+      "ideas": [
+        "AI Generates a New Urban Legend About a Living Streetlight | Watch the Proof? (*Hook: “What if an AI could make a spooky legend feel real?”)",
+        "Can AI Detect Whether an Urban Legend Is True or Fake? | Live Truth‑Check with AI! (*Hook: “AI vs. folklore… who wins?”)",
+        "The AI‑Generated Legend That Is Already Swiped in Social Media | The Story Never Ends! (*Hook: “Every tweet could be a thread in this AI‑crafted nightmare.”)"
+      ],
+      "keywords": [
+        "Neon",
+        "Shadow",
+        "AI",
+        "Human",
+        "Mystery"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
