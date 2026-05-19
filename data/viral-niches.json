@@ -22008,6 +22008,30 @@
         "plot twist"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes combines the allure of unseen microscopic worlds with surreal, high‑contrast visual storytelling. The niche is saturated with general science content but lacks a dedicated, visually driven, faceless channel that showcases AI‑generated time‑lapse microscopy combined with dramatic soundscapes. It taps into the current appetite for bizarre, awe‑inducing visual experiences and science education, making it primed for 1M+ subscriptions and 100K+ views per video through scroll‑stopping before‑after shots, mystery hooks, and shareable micro‑clips.",
+      "ideas": [
+        "The Tiny City That Eats Light – 5‑Minute Time‑Lapse of Bioluminescent Micro‑Life",
+        "Monsters Under the Microscope: Giants in 1000x Magnification – Viewer’s Bonus Q&A",
+        "Hidden Bioluminescent Ecosystem: 30‑Second SPECTRUM Reveal of Unknown Micro‑Worlds"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Vibrant",
+        "TimeLapse",
+        "Bioluminescence",
+        "Alien‑like"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
