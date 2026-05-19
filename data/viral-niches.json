@@ -21918,6 +21918,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Curiosity",
+      "reason": "Microbiology has exploded into mainstream awareness after COVID‑19, and microscopic worlds are increasingly captured with ever‑better imaging tech. Faceless, high‑quality timelapse and close‑ups of microbes create scroll‑stopping hooks (“What happens in your coffee cup?”) and curiosity loops that keep viewers on for full videos. The niche offers limitless content (different organisms, environments, phenomena) and high visual intensity, making it a natural fit for 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "What Happens Inside a Coffee Cup? 120‑Second Time‑Lapse of a Biofilm Colony / Watch a microbial metropolis form on your latte in under two minutes.",
+        "The Microbial Architects of the Deep: 10‑Minute Dive into the World‑Largest Bacterial City / The sheer scale of bacterial cities will leave you in awe.",
+        "Predatory Bacteria: The Invisible Hunters of the Microscopic World / See how silent predators stalk and devour prey in a 7‑minute visual tour."
+      ],
+      "keywords": [
+        "micrograph",
+        "biofilm",
+        "nanoscopic",
+        "fluorescence",
+        "crystal"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
