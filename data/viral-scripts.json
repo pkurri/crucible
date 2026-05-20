@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12350,84 +12350,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "On-Chain Metrics",
+        "name": "Nansen",
+        "icon": "🔍"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Market Sentiment",
+        "name": "CryptoMood",
+        "icon": "🔥"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Early Whale Flows",
+        "name": "Glassnode",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "ICO Research",
+        "name": "TokenInsight",
+        "icon": "📊"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Order Book Data",
+        "name": "TradingView",
+        "icon": "📈"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Decentralized Exchanges",
+        "name": "Uniswap Stats",
+        "icon": "🔀"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Regulatory Pulse",
+        "name": "CoinDesk",
+        "icon": "⚖️"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Fundamentals Tracker",
+        "name": "CryptoRank",
+        "icon": "🏆"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Influence",
+        "name": "Scarcity Hook",
+        "icon": "⚡"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Emotional Control",
+        "name": "Foot‑in‑the‑Door Ultimatum",
+        "icon": "📝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cognitive Bias",
+        "name": "Anchoring Illusion",
+        "icon": "📌"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Fake Endorsements",
+        "icon": "🤝"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Authority Trick",
+        "name": "Imitate Experts",
+        "icon": "👔"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Fear Manipulation",
+        "name": "Moral Guilt Pulse",
+        "icon": "😨"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Linguistic Tactics",
+        "name": "Embedded Commands",
+        "icon": "🔈"
       }
     ]
   },
@@ -25577,6 +25589,53 @@
         "title": "Support",
         "name": "24/7 AI‑Powered Helpdesk",
         "icon": "💬"
+      }
+    ]
+  },
+  "ApexFlow_1779290308722": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1779290308722 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1779290308722.",
+    "list": [
+      {
+        "title": "Data Magic",
+        "name": "Flux Syncer",
+        "icon": "🔄"
+      },
+      {
+        "title": "AI Alchemy",
+        "name": "NeuroForge",
+        "icon": "🤖"
+      },
+      {
+        "title": "Quantum Leap",
+        "name": "Entangle Core",
+        "icon": "🌀"
+      },
+      {
+        "title": "Bio‑Signal",
+        "name": "Pulse Trace",
+        "icon": "💓"
+      },
+      {
+        "title": "Sustain Hub",
+        "name": "EcoFlux",
+        "icon": "🌱"
+      },
+      {
+        "title": "Viz Spectra",
+        "name": "Color Cascade",
+        "icon": "🌈"
+      },
+      {
+        "title": "Edge Compute",
+        "name": "NanoCore",
+        "icon": "💎"
+      },
+      {
+        "title": "Security Vault",
+        "name": "CipherLock",
+        "icon": "🔒"
       }
     ]
   }
