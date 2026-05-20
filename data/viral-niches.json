@@ -22218,6 +22218,30 @@
         "DehydratedCuisine"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The accelerating loss of coastlines is a tangible, visual embodiment of climate change that resonates emotionally and intellectually. With increasing global media attention on sea‑level rise, historic sites disappearing, and future projection maps, this niche offers fresh, high‑impact content that can hook viewers instantly. Faceless production permits rapid, scalable uploads featuring 3D animations, drone footage, and AI‑generated future scenarios—perfect for generating millions of views and subscriber counts.",
+      "ideas": [
+        "The Fastest Shoreline Loss in 100 Years – 3D Time‑Lapse Animation / Witness the erosion that will reshape coastlines by 2035!",
+        "Lost Towns Under Rising Seas – Drone Footage Shows How Entire Communities Vanish in Minutes!",
+        "Will Your City Become A Ghost Beach? Satellite Map Shows The Future of Your Shoreline in 2050 – Feel The Power Of Climate!"
+      ],
+      "keywords": [
+        "3D Animation",
+        "Time‑Lapse",
+        "Drone Footage",
+        "Satellite Imagery",
+        "Underwater Visualization"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
