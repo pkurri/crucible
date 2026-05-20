@@ -22383,6 +22383,30 @@
         "UnderwaterCityLights"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Space‑cooking captivates mass imagination—combining trending topics of space exploration, food hacks, and science experiments. The niche offers endless visual hooks (spheres of soup, floating noodles), high engagement potential on both meta and YouTube, and the ability to create serialized, scroll‑stopping content that quickly trends as it taps curiosity into a feel‑good wonder platform.",
+      "ideas": [
+        "Zero‑Gravity Tacos: Watch Astronauts Make Mexican Fast‑Food in Mid‑Air – The Ultimate Space Snack Hack!",
+        "Floating Soup Wars: 5 Ultra‑Visual Zero‑Gravity Recipes That Will Blow Your Mind (And Your Taste Buds!)",
+        "DIY Cosmic Kitchen: Build a Portable Microgravity Stove in Your Backyard & Cook Like an Astronaut!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "AstroChef",
+        "FloatingFood",
+        "GravityProof"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
