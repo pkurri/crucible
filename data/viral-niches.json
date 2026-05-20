@@ -22266,6 +22266,30 @@
         "OrbitalKitchen"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes blends high‑quality visual storytelling with underground science, offering viewers a never‑seen microscopic universe. The niche is fresh, not oversaturated, and taps into current trends of AI‑generated imagery, STEM fascination, and the visual curiosity that drives shares on Meta. With endless micro‑ecosystem variety, each video can introduce a new, eye‑punching animated habitat, ensuring endless fresh content and high retention through continuous mystery and exploration.",
+      "ideas": [
+        "The Hidden City Inside a Drop of Water – Innate Life Revealed / Stop scrolling, this micro‑world will blow your mind!",
+        "How Micro‑Bacteria Build Entire Ecosystems – The Invisible Architects of the Ocean / Watch till the end to see their mind‑blowing choreography!",
+        "Bioluminescent Alleyways – An Underground Glow City That Lives in Your Skin / ‘You Won’t Believe This Micro‑culture Exists!’"
+      ],
+      "keywords": [
+        "glowing",
+        "vibrant",
+        "microscopic",
+        "bioluminescent",
+        "animated"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
