@@ -22359,6 +22359,30 @@
         "time‑lapse"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedCityExplorer",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "The untapped realm of underwater archaeology offers a perfect blend of mystery, history, and cutting‑edge tech, sparking instant curiosity and wonder. Each episode can reveal a new lost civilization, supported by high‑quality footage, AI reconstruction, and immersive AR overlays, creating scroll‑stopping hooks and repeatable curiosity loops.",
+      "ideas": [
+        "Shocking Discovery: The Lost City Beneath the Atlantic – You Won’t Believe What Was Found! / Hook: \"We've unearthed a fully intact ancient city under the waves. Watch our AI bring it back to life in spectacular detail.\"",
+        "Underwater Relics Exposed: How We Unveiled the Secrets of the Sunken Maya Capital / Hook: \"Follow our drone’s first ever dive into the submerged ruins and witness the mysteries that surface.\"",
+        "Mystery of the Ocean‑Borne City: Using AR to Recreate the Lost Metropolis / Hook: \"Watch the city come alive in real‑time through augmented reality – an archaeological breakthrough you’ve never seen.\""
+      ],
+      "keywords": [
+        "StormyWaves",
+        "CrystalClearDebris",
+        "AbyssalRuins",
+        "3DReconstruction",
+        "UnderwaterCityLights"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
