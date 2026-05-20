@@ -22335,6 +22335,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialMelodies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Microbial Melodies taps into the intersection of science, sound, and awe—an almost untapped niche that doesn't compete with current high‑volume music or nature‑sound channels. Student‑drawing microscopes, time‑lapse B‑carries, and the promise that tiny bacteria can create music create instant scroll‑stopping hooks. The 4‑minute format lets us drop dozens of organisms, each revealing unheard‑of sounds, keeping the audience looping. This blend of curiosity and wonder aligns with the current viral appetite for odd science experiments and immersive visuals, making it a high‑velocity niche with endless content possibilities.",
+      "ideas": [
+        "Bacteria Create the Ultimate Nature Music – Microscopic Soundscapes in a Petri Dish / Hook: \"What if the tiniest life on Earth could play symphonies? Watch as a colony turns into a tiny conductor!\"",
+        "E. coli’s Symphony: A Single Colony Creates a Full Orchestra / Hook: \"One E. coli cell trapped in a dish? That’s the next big track in the lab. See the sounds that only science can make!\"",
+        "The Bacterial Sound Lab – Turning Micro‑Life Into Music / Hook: \"You’ve heard the ocean, the rain, the wind – now hear bacteria humming across a petri dish. This is audio like never before.\""
+      ],
+      "keywords": [
+        "microscopic",
+        "soundwave",
+        "bacteria",
+        "lab",
+        "time‑lapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
