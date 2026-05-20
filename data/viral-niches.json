@@ -22194,6 +22194,30 @@
         "3DCoastlineMapping"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "ZeroGravityKitchen taps into the booming interest in space exploration, Mars missions, and future astronaut life support. The niche blends the visceral curiosity of cooking with the mind‑bending visuals of microgravity, offering endless content hooks—from zero‑gravity noodle experiments to dehydrated Martian pantry staples. Its faceless formatting (animations, voice‑over, 3D models) requires minimal production overhead while delivering scroll‑stopping, curiosity‑loop videos that can quickly reach millions.",
+      "ideas": [
+        "Cooking on Mars: 5 Zero-Gravity Recipes That Will Blow Your Mind / Hook: Ever wondered how astronauts eat? Watch our zero‑gravity kitchen reveal the future of space food!",
+        "The Ultimate Zero-Gravity Snack: How to Make Crispy Chips Without a Fryer! / Hook: Think you need heat? Discover chemical methods to create crunchy snacks in microgravity!",
+        "From Earth's Kitchen to Space: The 3 Most Unexpected Ingredients for Zero-Gravity Cooking / Hook: The secret sauce? It's not just water—learn how NASA engineers use algae and freeze‑drying!"
+      ],
+      "keywords": [
+        "ZeroGravityCooking",
+        "SpaceKitchen",
+        "MartianFood",
+        "AstronautNutrition",
+        "DehydratedCuisine"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

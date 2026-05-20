@@ -12309,43 +12309,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "B12-Boost Juice",
+        "icon": "🥤"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "60‑Second HIIT",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Polyphasic Schedule",
+        "icon": "🛌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mind",
+        "name": "10‑Minute Meditation",
+        "icon": "🧘‍♀️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol Capsules",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Tracker",
+        "icon": "⌚"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Daily Connection Call",
+        "icon": "📞"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Blue‑Light Filter Glasses",
+        "icon": "🕶️"
       }
     ]
   },
@@ -12381,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12396,44 +12402,44 @@
     "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Manipulation Tactics",
+        "title": "Subtle Manipulation",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
+      },
+      {
+        "title": "Emotional Leverage",
+        "name": "Scarcity Pitch",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Trigger Tactics",
         "name": "Foot-in-the-Door",
         "icon": "🚪"
       },
       {
-        "title": "Cognitive Biases",
-        "name": "Confirmation Bias",
-        "icon": "👁️"
+        "title": "Social Proof",
+        "name": "Fake Authority",
+        "icon": "👑"
       },
       {
-        "title": "Social Influence",
-        "name": "Authority Principle",
-        "icon": "🧑‍⚖️"
+        "title": "Gaslighting",
+        "name": "Reality Distortion Field",
+        "icon": "🌀"
       },
       {
-        "title": "Emotional Triggers",
-        "name": "Fear Appeal",
-        "icon": "😱"
+        "title": "Language Power",
+        "name": "Swish Pattern",
+        "icon": "🗣️"
       },
       {
-        "title": "Persuasion Techniques",
-        "name": "Reciprocity",
-        "icon": "🔄"
+        "title": "Framing",
+        "name": "Reframe Negative",
+        "icon": "🔁"
       },
       {
-        "title": "Dark NLP",
-        "name": "Anchoring",
-        "icon": "⚓"
-      },
-      {
-        "title": "Mind Control",
-        "name": "Gaslighting",
-        "icon": "💡"
-      },
-      {
-        "title": "Behavioral Hacks",
-        "name": "Scarcity Loop",
-        "icon": "⏳"
+        "title": "Influence Loops",
+        "name": "Reciprocity Trap",
+        "icon": "🔗"
       }
     ]
   },
@@ -16138,47 +16144,47 @@
   "ZeroGravityKitchen": {
     "voice": "af_heart",
     "hook": "Here are the top 8 ZeroGravityKitchen secrets you need to know.",
-    "closing": "If you want to master ZeroGravityKitchen, you're in the right place. Subscribe.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Grav‑Free Whisk",
-        "name": "AeroWhisk",
-        "icon": "🍶"
+        "title": "Magnetic Spatula",
+        "name": "Grav‑Grip™",
+        "icon": "🧲"
       },
       {
-        "title": "Hover Grill",
-        "name": "NimbusGrill",
-        "icon": "🌭"
+        "title": "Zero‑G Oil Drip",
+        "name": "Slick Drop",
+        "icon": "🔧"
       },
       {
-        "title": "Magnetic Blender",
-        "name": "SpinMix",
-        "icon": "🥤"
+        "title": "Hover Cutting Board",
+        "name": "FloatSlice",
+        "icon": "🕳️"
       },
       {
-        "title": "Plasma Pan",
-        "name": "SolarSizzler",
-        "icon": "🥘"
+        "title": "Anti‑Drop Whisk",
+        "name": "Breeze Beat",
+        "icon": "🌬️"
       },
       {
-        "title": "Zero‑Gravity Salt",
-        "name": "NebulaSeasoning",
-        "icon": "🧂"
+        "title": "Spiral Oven Lid",
+        "name": "Rotary Halo",
+        "icon": "🍳"
       },
       {
-        "title": "Liquid Flow Kettle",
-        "name": "StreamSteamer",
-        "icon": "☕"
+        "title": "Leak‑Proof Ladle",
+        "name": "Suction Spoon",
+        "icon": "🥄"
       },
       {
-        "title": "Anti‑Gravity Pastry",
-        "name": "CloudCrumb",
-        "icon": "🍰"
+        "title": "Nut‑Grinder Pod",
+        "name": "Grav Crunch",
+        "icon": "🥜"
       },
       {
-        "title": "Comet Knife",
-        "name": "StarlightSharp",
-        "icon": "🔪"
+        "title": "Floating Recipe Pad",
+        "name": "Orbit Notes",
+        "icon": "📋"
       }
     ]
   },
