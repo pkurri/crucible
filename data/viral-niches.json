@@ -22242,6 +22242,30 @@
         "Underwater Visualization"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "ZeroGravityKitchen combines the instantly shareable, visually stunning appeal of space science with the universal passion for cooking. The concept taps into current public fascination with space travel (SpaceX, lunar missions, private spaceflight), leverages the viral trend of \"in‑orbit experiments,\" and provides a clear, novelty hook that’s easy to edit into 15‑second reels or 8‑minute deep‑dives. Scroll‑stopping visuals of floating ingredients, edible orbit, and unexpected kitchen mishaps create compelling curiosity loops, ensuring high retention and repeat shares across meta and YouTube.",
+      "ideas": [
+        "Watch a Sandwich Defy Gravity – Zero‑G Kitchen Fails & Wins (Scroll‑Stopper)",
+        "The Formula for Floating Pasta: NASA Kitchen Experiment (Curiosity Hook)",
+        "Zero‑Gravity Baking 101: How to Make the Reese‑Bar Cake in Orbit (Wonder Hook)"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceChef",
+        "FloatingFood",
+        "AstroSizzle",
+        "OrbitalKitchen"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
