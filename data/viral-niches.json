@@ -22407,6 +22407,30 @@
         "GravityProof"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.6,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking images and short experiments are inherently visual, shareable, and tap into the mainstream fascination with space. The niche remains thin—few creators are experimenting with cooking in microgravity. It offers endless hook variations (cook, bake, mix, melt) and quick‑watch clips that perform well on both Meta Stories and YouTube Shorts, while still allowing deep dives for longer content. The concept naturally triggers scroll‑stopping curiosity loops and the emotional impact of seeing everyday cooking defy physics, making it highly scalable.",
+      "ideas": [
+        "Zero‑Gravity Bake-Off: Can a Cake Rise in Space? / Hook: Watch the extraordinary moment when flour doesn’t settle back to the bottom!",
+        "Sushi in Zero‑G: A Zero‑Gravity Kitchen Experiment / Hook: Can you roll rice without gravity? The answer will wow you!",
+        "Space Smoothie Challenge: Mixing Drinks with Microgravity | Hook: Watch a smoothie form a floating halo—food never looked so fancy!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "Microgravity",
+        "SpaceFood",
+        "FloatingUtensils",
+        "SpaceCooking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
