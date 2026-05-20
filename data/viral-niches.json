@@ -22170,6 +22170,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "VanishingCoastlines taps into the urgent global narrative of climate change with highly visual, emotionally charged content that can be shared instantly. The combination of time-lapse beach erosion, real-world warnings, and local community stories creates scroll‑stopping hooks that replay on feeds and embed in discussions, making it ripe for viral spread across meta and YouTube.",
+      "ideas": [
+        "500 Millennial Towns Losing Their Shorelines in 12 Months - You Won’t Believe the Final Remaining House",
+        "The Day Beaches Vanish: Time‑Lapse of 10,000 Miles of Coastline Losing Its Sand Overnight",
+        "What Will Happen to Your Vacation Home? The Real‑Life Map of Regions at Risk of Losing All Wetlands"
+      ],
+      "keywords": [
+        "RisingShorelines",
+        "FloodedCottages",
+        "DesertifiedCoast",
+        "ErodedSand",
+        "3DCoastlineMapping"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
