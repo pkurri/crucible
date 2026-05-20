@@ -22290,6 +22290,30 @@
         "animated"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "This niche capitalizes on the urgent and emotionally charged topic of climate change, presenting dramatic time‑lapse reconstructions of coastlines that have already eroded or will erode soon. The visuals are cinematic and shareable across platforms, and the content can be segmented country‑by‑country, era‑by‑era, or hazard‑type‑by‑hazard, allowing for an endless stream of high‑quality variants that drive user engagement and word‑of‑mouth sharing.",
+      "ideas": [
+        "🌊 THE TREATMENT OF A POLAR ISLAND—SEE IT TURN INTO SEA IN 30 SECONDS",
+        "⚡️ SHOCKING 2024 Forecast: Which 10 Cities Will Be Underwater By 2045?",
+        "😱 BEFORE & AFTER COASTLINE – 70 Meters Gone; WATCH THE AI Recreate It!"
+      ],
+      "keywords": [
+        "hyperreality time‑lapse",
+        "AI reconstruction",
+        "cinematic erosion",
+        "descent into ocean",
+        "colorful wave simulation"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
