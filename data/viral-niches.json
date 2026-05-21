@@ -22636,6 +22636,30 @@
         "lab"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The topic of disappearing coastlines taps into the urgent and globally resonant conversation around climate change while offering striking before‑and‑after visual content that is both shareable and emotionally powerful.  It stands out from broader climate channels by focusing on highly specific, often little‑known coastlines and towns that have genuinely vanished or submerged, creating unique stories with a high-impact visual payoff.  The hook of lost places appeals to curiosity, wonder, and fear, making the content ideal for scroll‑stopping engagement and repeat views.  With endless potential stories worldwide, the niche is scalable to 25+ viral concepts, each featuring dramatic time‑lapse or aerial footage that works well on both TikTok/Meta and YouTube.",
+      "ideas": [
+        "Vanishing Island Expedition – Time‑lapse of a 5‑year beach loss / The sea’s slowest revenge",
+        "Top 10 Coastal Towns That Disappeared Without Warning / Real footage that will haunt you",
+        "The Maldives Meltdown: How an Island Vanished in 2025 / 60‑second flood of reality"
+      ],
+      "keywords": [
+        "TimeLapse",
+        "BeforeAfter",
+        "AerialShot",
+        "Deserted",
+        "Transformation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
