@@ -12350,84 +12350,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Hot Greedy Token",
+        "name": "AlphaCoin",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Volume Surge",
+        "name": "VolumeBlitz",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Insider Tool",
+        "name": "GoldMines",
+        "icon": "🚀"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "FOMO Watcher",
+        "name": "FOMOAlert",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Pump Tracker",
+        "name": "PumpPulse",
+        "icon": "🔥"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Lightning Yield",
+        "name": "YieldLightning",
+        "icon": "💰"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Coin Flip",
+        "name": "FlipMaster",
+        "icon": "🔓"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Vault Alert",
+        "name": "VaultGuard",
+        "icon": "🏦"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Influence",
+        "name": "Scarcity Hook",
+        "icon": "⚡"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Emotional Control",
+        "name": "Foot‑in‑the‑Door Ultimatum",
+        "icon": "📝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cognitive Bias",
+        "name": "Anchoring Illusion",
+        "icon": "📌"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Fake Endorsements",
+        "icon": "🤝"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Authority Trick",
+        "name": "Imitate Experts",
+        "icon": "👔"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Fear Manipulation",
+        "name": "Moral Guilt Pulse",
+        "icon": "😨"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Linguistic Tactics",
+        "name": "Embedded Commands",
+        "icon": "🔈"
       }
     ]
   },
@@ -13383,7 +13395,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
         "duration": 5
       },
       {
@@ -25870,6 +25882,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1779362727116": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1779362727116 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Interface",
+        "name": "Dynamic Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Performance",
+        "name": "Auto Scaling",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Security",
+        "name": "Advanced Encryption",
+        "icon": "🔒"
+      },
+      {
+        "title": "Integration",
+        "name": "API Connectors",
+        "icon": "🔗"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real-time Metrics",
+        "icon": "📈"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Live Chat",
+        "icon": "💬"
+      },
+      {
+        "title": "Customizaton",
+        "name": "User Roles",
+        "icon": "👤"
+      },
+      {
+        "title": "Community",
+        "name": "Open API Library",
+        "icon": "📚"
       }
     ]
   }
