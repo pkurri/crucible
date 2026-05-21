@@ -22660,6 +22660,30 @@
         "Transformation"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes combines the growing fascination with micro‑life, high‑resolution time‑lapse photography and AI‑generated visuals—an untapped, visually stunning niche that triggers wonder and curiosity. The content is easily compressible into short, scroll‑stopping clips that fit both Meta Reels and YouTube Shorts, while deep‑dive documentaries can capture longer‑form viewership. The high emotional hook, distinct visual style, and scalability across platforms make it primed for 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "10 Mind‑Blowing Tiny Creatures That Lived in Your Bathroom – Shocking Time Lapse!",
+        "Inside a Moth’s Eye: 30‑Second Journey Through a Tiny Universe! (Ultra‑detail)",
+        "Micro‑Life Replaces Human Tech? Why These Nanobios Are the Future of Quantum Devices!"
+      ],
+      "keywords": [
+        "MicroscopicTimeLapse",
+        "NeonBiofilm",
+        "MacroGlow",
+        "NanoRocket",
+        "UltraDetail"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
