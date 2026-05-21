@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12309,125 +12309,143 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Blueberry Elixir",
+        "icon": "🍇"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "Splash Drank Sprint",
+        "icon": "🏊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Midnight Chill Pillow",
+        "icon": "💤"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "Zen Gauntlet",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Curcumin Capsule",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Mud",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Genetics",
+        "name": "Telomere Tuner",
+        "icon": "🧬"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Social",
+        "name": "Digital Detox Club",
+        "icon": "📵"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Signal",
+        "name": "BTC Surge Indicator",
+        "icon": "💎"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Timing",
+        "name": "Pump Trigger",
+        "icon": "⏰"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Diversify",
+        "name": "Altcoin Ladder",
+        "icon": "📈"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Security",
+        "name": "Cold Storage Wallet",
+        "icon": "🔒"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Tax",
+        "name": "Capital Gains Optimizer",
+        "icon": "💰"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Automation",
+        "name": "Smart Trade Bot",
+        "icon": "🤖"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Funding",
+        "name": "Leverage Vault",
+        "icon": "💳"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Scam Detection",
+        "name": "Blacklist Watcher",
+        "icon": "🚨"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion Tactics",
+        "name": "Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Manipulation Loops",
+        "name": "Scarcity Signal",
+        "icon": "💣"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Psychological Triggers",
+        "name": "Anchoring Bias",
+        "icon": "📌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Neuroscience Hacks",
+        "name": "Neural Suppression",
+        "icon": "🧠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Gaslight Pattern",
+        "icon": "🎭"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Emotional Leverage",
+        "name": "Echo Chamber",
+        "icon": "🔊"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cognitive Control",
+        "name": "Reframe Narrative",
+        "icon": "🔁"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Inner Reflection",
+        "name": "Impulse Override",
+        "icon": "⚡"
       }
     ]
   },
@@ -13111,44 +13129,44 @@
     "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Paleon Shores",
-        "name": "Arkansas Barrier",
-        "icon": "🏖️"
-      },
-      {
-        "title": "Gone Beaches",
-        "name": "Redcoat Reef",
-        "icon": "🏝️"
-      },
-      {
-        "title": "Lost Archipelago",
-        "name": "Sinking Isles",
-        "icon": "🗺️"
-      },
-      {
-        "title": "Blasted Coastlines",
-        "name": "Demolition Dunes",
-        "icon": "⚒️"
-      },
-      {
-        "title": "Fading Chimneys",
-        "name": "Erased Estuary",
-        "icon": "⚠️"
-      },
-      {
-        "title": "Drowned Malls",
-        "name": "Cliffside Collapse",
-        "icon": "🏚️"
-      },
-      {
-        "title": "Eclipsed Bays",
-        "name": "Vanished Vald",
+        "title": "Geography",
+        "name": "The Emerald Drift",
         "icon": "🌊"
       },
       {
-        "title": "Absconded Delta",
-        "name": "Drifting Delta",
-        "icon": "🌀"
+        "title": "Erosion",
+        "name": "Sand Whisper",
+        "icon": "🏖️"
+      },
+      {
+        "title": "Climate",
+        "name": "Sea Level Eclipse",
+        "icon": "🌊⛔"
+      },
+      {
+        "title": "Urban Planning",
+        "name": "Coastal Submerged",
+        "icon": "🏙️🕳️"
+      },
+      {
+        "title": "Biodiversity",
+        "name": "Coral Vanish Act",
+        "icon": "🐚❌"
+      },
+      {
+        "title": "Cultural Loss",
+        "name": "Lost Harvest Shores",
+        "icon": "🌾🗻"
+      },
+      {
+        "title": "Historical Sites",
+        "name": "Ghost Lighthouse",
+        "icon": "🛠️🚢"
+      },
+      {
+        "title": "Perception",
+        "name": "Mirage Shores",
+        "icon": "👓🌴"
       }
     ]
   },
@@ -13389,7 +13407,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -16136,43 +16154,49 @@
     ]
   },
   "ZeroGravityKitchen": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ZeroGravityKitchen secrets you need to know.",
+    "closing": "If you want to master ZeroGravityKitchen, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of ZeroGravityKitchen.",
-        "duration": 5
+        "title": "Grav‑Free Whisk",
+        "name": "AeroWhisk",
+        "icon": "🍶"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Hover Grill",
+        "name": "NimbusGrill",
+        "icon": "🌭"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Magnetic Blender",
+        "name": "SpinMix",
+        "icon": "🥤"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Plasma Pan",
+        "name": "SolarSizzler",
+        "icon": "🥘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Zero‑Gravity Salt",
+        "name": "NebulaSeasoning",
+        "icon": "🧂"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Liquid Flow Kettle",
+        "name": "StreamSteamer",
+        "icon": "☕"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Anti‑Gravity Pastry",
+        "name": "CloudCrumb",
+        "icon": "🍰"
       },
       {
-        "text": "If you want to master ZeroGravityKitchen, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Comet Knife",
+        "name": "StarlightSharp",
+        "icon": "🔪"
       }
     ]
   },
