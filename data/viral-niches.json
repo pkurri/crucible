@@ -22561,6 +22561,30 @@
         "visual"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroSpaceBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "The high‑value micro‑worlds that thrive in simulated space habitats combine cutting‑edge science with mind‑bending visuals. The niche taps into the micro‑futurism trend, yields endless 3D‑animated content, and supports scroll‑stopping hooks like \"See life explore on Mars before launch\". Its content is evergreen, can be scaled into 25+ series topics, and aligns with the explosive curiosity surrounding the future of human space travel.",
+      "ideas": [
+        "MicroSpaceBioscapes: The first micro‑organism colony to survive a Mars orbital test – 2‑second teaser!",
+        "Space Microparas: Watch tiny algae paint the inside of a Mars habitat, week‑by‑week.",
+        "Can Microbe‑Crafting save astronauts? 5 unseen experiments that could change space food."
+      ],
+      "keywords": [
+        "micro‑aquarium",
+        "space‑lab",
+        "biophotons",
+        "cosmic‑ecosystem",
+        "micro‑photography"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
