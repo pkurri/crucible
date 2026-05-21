@@ -22537,6 +22537,30 @@
         "Mars‑kitchen"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ExtraterrestrialMicroAlgae",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Space colonization and sustainable life‑support systems are hot topics. Algae bioreactors are the cleanest, fastest growing bio‑technology on Mars and the Moon. The niche combines cutting‑edge science, stunning 3D visuals, and a clear narrative of humanity’s next frontier—perfect for social buzz.",
+      "ideas": [
+        "This Algae Colony is Growing in a Lunar Bioreactor—Watch It Hatch! / Hook: Scientists have grown algae on the Moon, and it’s a visual feast!",
+        "Algae on Mars: 24 Hours of Space Farming—Can It Feed 1000 Astronauts? / Hook: One green clip of algae turning Mars into a salad bar…",
+        "Can Algae Survive in a Red Planet’s Vacuum? The 60‑Second Space Survival Test / Hook: We tested algae outside Earth… the reaction will shock you!"
+      ],
+      "keywords": [
+        "bioreactor",
+        "microbial",
+        "lunar",
+        "spacefarming",
+        "visual"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
