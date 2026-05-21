@@ -22684,6 +22684,30 @@
         "UltraDetail"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "The imminent recession of coastlines fuels global anxiety and viral intrigue. Real‑time visualizations of iconic beaches, cities, and landscapes slowly disappearing due to sea‑level rise create compelling, shareable content that taps into current climate activist movements, news cycles, and personal stories of lost homes and heritage. The tension between nostalgic memories and stark, graphic evidence of loss provokes both emotional distress and curiosity, making it ideal for the algorithmic promotion of dramatic narratives.",
+      "ideas": [
+        "The Last Sunset on Miami Beach — 48 Hours Before the Water Claims It",
+        "Can Paris Survive? 3D Projection of a Vanishing Seine",
+        "Britain’s Secret Shorelines: Watch the Northern Coast Vanish in Real Time"
+      ],
+      "keywords": [
+        "VanishingLandscapes",
+        "SeaLevelProjections",
+        "TimeWarpVisualization",
+        "IconicBeaches",
+        "ClimateChangeDrama"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
