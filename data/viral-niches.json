@@ -22612,6 +22612,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The hidden micro‑world offers endless visual wonders that spark curiosity and awe. With high‑resolution microscopy, time‑lapse, and AR overlays, videos can deliver jaw‑dropping visuals that keep viewers scrolling. The niche is under‑exploited yet fuels science‑obsessed, family‑friendly content that scales well across social platforms.",
+      "ideas": [
+        "The Tiny World Inside Your Kitchen: 5 Microorganisms Eating Your Food Without You Knowing! – The hook: “Ever wondered what’s living in your fridge? Take a microscope trip into the invisible kitchen.”",
+        "Micro‑Farm Revolution: How 2‑cm Root Thrusters Produce City‑Sized Protein – Hook: “What if a 2‑cm root could feed a city? Discover the secret of micro‑farm breeding!”",
+        "Alien Shapes You Can See with a Smartphone Lens: The Weirdest Microorganisms on Earth – Hook: “Caught this on your selfie stick? You’re about to see the universe’s baddest biology.”"
+      ],
+      "keywords": [
+        "microscope",
+        "microorganisms",
+        "timelapse",
+        "nano",
+        "lab"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
