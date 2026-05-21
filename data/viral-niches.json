@@ -22759,6 +22759,30 @@
         "Microcosm"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "With the urgent global conversation around climate change, people are hungry for visceral, data‑driven visuals that reveal the fate of our coastlines. Time‑lapse footage, high‑resolution GIS overlays, and drone cinematic shots are shareable, scroll‑stopping, and emotionally resonant—perfect for a faceless channel that can scale rapidly with dozens of islands, beaches, and ports.",
+      "ideas": [
+        "The Island That Vanished Overnight: 4K Time‑Lapse 2010‑2024 ‑ Hook: Watch the coast melt away in minutes.",
+        "Miami Beach Will Be a Memory By 2035: The Data‑Driven Countdown ‑ Hook: The exact day the city sinks—can we save it?",
+        "Lost Paradise: Vanishing Pacific Island Park – 48‑Hour Sinking Shore ‑ Hook: 48 hours of real‑time erosion in crystal‑clear footage."
+      ],
+      "keywords": [
+        "4K time‑lapse",
+        "drone high‑speed",
+        "CGI coastlines",
+        "dramatic zoom",
+        "day‑to‑night transition"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
