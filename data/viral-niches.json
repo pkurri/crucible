@@ -22515,6 +22515,28 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking merges the irresistible fascination with astronaut life and culinary science, offering visually spectacular “gravity‑defying” demos that instantly trigger curiosity and shareability. The niche taps into booming interest in space tourism, NASA’s food experiments, and the broader trend of experiential science content. With endless recipe variations, seasonality, and possible collaborations with space agencies or food tech startups, it can sustain a steady stream of fresh, scroll‑stopping videos that encourage deep engagement and community participation.",
+      "ideas": [
+        "‘Watch a Chef Breathe in Space – Coffee That Won’t Stain! – 40‑Second Zero Gravity Coffee Demo (Scroll‑Stopper!)','The Most Dangerous Kitchen Experiment Anyone Has Ever Tried: Toast Rising Upwards in Zero Gravity – Share this 1‑Minute Revelation','Why You Can’t Grill in Space: The Science of Heat Without Gravity (Teaser Hook: ‘It’s Not What You Think!’)"
+      ],
+      "keywords": [
+        "microgravity",
+        "space‑cooking",
+        "gravity‑defying",
+        "zero‑gravity",
+        "Mars‑kitchen"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
