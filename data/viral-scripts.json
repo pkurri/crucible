@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12350,49 +12350,43 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Hot Greedy Token",
-        "name": "AlphaCoin",
-        "icon": "💎"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Volume Surge",
-        "name": "VolumeBlitz",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Insider Tool",
-        "name": "GoldMines",
-        "icon": "🚀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "FOMO Watcher",
-        "name": "FOMOAlert",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Pump Tracker",
-        "name": "PumpPulse",
-        "icon": "🔥"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Lightning Yield",
-        "name": "YieldLightning",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Coin Flip",
-        "name": "FlipMaster",
-        "icon": "🔓"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Vault Alert",
-        "name": "VaultGuard",
-        "icon": "🏦"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12428,7 +12422,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -13395,7 +13389,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -25929,6 +25923,47 @@
         "title": "Community",
         "name": "Open API Library",
         "icon": "📚"
+      }
+    ]
+  },
+  "ApexFlow_1779387865446": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Your mind just watched a neon liquid outsmart physics.",
+        "duration": 5
+      },
+      {
+        "text": "If you ignore this, your vision will never be the same.",
+        "duration": 4
+      },
+      {
+        "text": "Neon streams map data to color, turning raw numbers into light.",
+        "duration": 5
+      },
+      {
+        "text": "Hyper‑car interiors pulse with neon data waves.",
+        "duration": 5
+      },
+      {
+        "text": "Neural nets learn to sculpt every color shift in real‑time.",
+        "duration": 5
+      },
+      {
+        "text": "Imagine a dashboard where data flows like liquid mercury.",
+        "duration": 4
+      },
+      {
+        "text": "The next shift will break every design rule you trust.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1779387865446, subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next we unlock the code that turns neon into reality.",
+        "duration": 4
       }
     ]
   }

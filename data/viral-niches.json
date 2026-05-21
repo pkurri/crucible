@@ -22735,6 +22735,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes taps into humanity’s centuries‑old curiosity about unseen worlds while delivering stunning, high‑contrast visuals that naturally enchant viewers. The niche is technically lean yet vast, enabling endless content permutations—species profiles, comparative biomes, micro‑engineering, and extreme‑environment studies. Its visual appeal guarantees scroll‑stopping hooks, while the ongoing scientific push into microbiology keeps the audience hungry for discovery, driving both retention and creator scalability to millions of subscribers and 100k+ views per video.",
+      "ideas": [
+        "The Micro‑Planet In Your Petri Dish: 5 Life Forms Revealed in 60 Seconds – Hook: “Ever wondered what’s alive when you look under a microscope? Find out in just a minute.”",
+        "Microbial Night‑Life: Glow, Glide, and Survive – Hook: “These tiny creatures light up the darkest corners of our world. See how they dance in real time.”",
+        "MicroBioscapes Showdown: 3 Species Compete for Survival – Hook: \"Three micro‑life forms, one arena. Who will win the ultimate survival battle?”"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Glowing",
+        "Nano Technology",
+        "Hidden Cities",
+        "Microcosm"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
