@@ -22957,6 +22957,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The microscopic world is a visual goldmine that no one has fully captured for mainstream audiences. Ultra‑high resolution and time‑lapse footage of bacteria, algae, and tiny predators offers unprecedented scroll‑stopping images that naturally spark curiosity and wonder. The niche is under‑exploited, scalable for dozens of themed episodes, and aligns with rising interest in science‑leisure content that feels like a portal to another dimension.",
+      "ideas": [
+        "A 10‑Second Journey Through a Bacterial Ecosystem That Feels Like an Alien Planet – Hook: ‘Lock eyes with the tiniest sentient world—you’ll never look at eggs the same way again!’",
+        "Micro Plastic Monsters in Our Oceans: The Hidden Eaters You Can’t See – Hook: ‘An underwater zoo you thought didn’t exist—watch the plastic monsters feast in real‑time!’",
+        "The Biggest Bacteria on Earth: A Microscopic Time‑Lapse of a Titan One Is 100 Times Bigger Than a Cell – Hook: ‘Prepare to be stunned by the giants you can’t see, and why they’re rewriting what we think of “size.”’"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Close‑up",
+        "Bioluminescence",
+        "MacroLens",
+        "TimeLapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
