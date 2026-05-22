@@ -12309,43 +12309,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Hydration",
+        "name": "Drink 8 glasses daily",
+        "icon": "💧"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Intermittent fasting 16/8",
+        "icon": "🍽️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "30 min HIIT thrice weekly",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "7-8 hrs, blue‑light curfew",
+        "icon": "🛌"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress",
+        "name": "Meditation 10 min daily",
+        "icon": "🧘‍♂️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Supplements",
+        "name": "Resveratrol & CoQ10",
+        "icon": "💊"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Fresh air, low pollution",
+        "icon": "🌿"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Social",
+        "name": "Weekly meaningful chats",
+        "icon": "💬"
       }
     ]
   },
@@ -12381,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12391,43 +12397,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion Tactics",
+        "name": "Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Manipulation Loops",
+        "name": "Scarcity Signal",
+        "icon": "💣"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Psychological Triggers",
+        "name": "Anchoring Bias",
+        "icon": "📌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Neuroscience Hacks",
+        "name": "Neural Suppression",
+        "icon": "🧠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Gaslight Pattern",
+        "icon": "🎭"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Emotional Leverage",
+        "name": "Echo Chamber",
+        "icon": "🔊"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cognitive Control",
+        "name": "Reframe Narrative",
+        "icon": "🔁"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Inner Reflection",
+        "name": "Impulse Override",
+        "icon": "⚡"
       }
     ]
   },
@@ -26011,6 +26023,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1779420934345": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1779420934345 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Performance Boost",
+        "name": "TurboCore Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Design Innovation",
+        "name": "Zero‑Drag Frame",
+        "icon": "🌀"
+      },
+      {
+        "title": "Smart Tech",
+        "name": "Adaptive AI Controller",
+        "icon": "🤖"
+      },
+      {
+        "title": "Durability",
+        "name": "Nano‑Shield Coating",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Efficiency",
+        "name": "Energy‑Recapture System",
+        "icon": "🔋"
+      },
+      {
+        "title": "User Experience",
+        "name": "Haptic Feedback Suite",
+        "icon": "👆"
+      },
+      {
+        "title": "Connectivity",
+        "name": "Quantum‑Link Sync",
+        "icon": "🌐"
+      },
+      {
+        "title": "Aesthetics",
+        "name": "ChromaShift Paint",
+        "icon": "🎨"
       }
     ]
   }
