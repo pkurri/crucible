@@ -22981,6 +22981,30 @@
         "TimeLapse"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "With rising sea levels and increasing coastal erosion, viewers are urgently seeking visual proof and predictions of what's at stake. This niche blends real-world urgency, dramatic time-lapse visuals, and content that can be shared as warnings, fitting both newsfeed scrolling on Meta and long-form deep dives on YouTube.",
+      "ideas": [
+        "You Won’t Believe Which Landmarks Disappear By 2035 / We mapped the future of iconic sites in 5‑second time‑lapse",
+        "The Ocean Is Stealing 3,000 Islands – Countdown To Their Vanishing / See how quickly coastlines are rewritten in a 2‑minute clip",
+        "CLOSED BEACH TOWN: How Rising Seas Killed A City / The grim story that proves climate change is happening right now"
+      ],
+      "keywords": [
+        "Time‑Lapse",
+        "CoastalErosion",
+        "SeaLevelRise",
+        "ClimateCatastrophe",
+        "VanishingIslands"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
