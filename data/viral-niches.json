@@ -23005,6 +23005,30 @@
         "VanishingIslands"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes taps into the current surge of ultra‑close‑up science that mesmerizes viewers with surreal visuals and unheard stories of microscopic life. With little competition and unlimited variations—from bacterial cities to fungal spore auroras—this niche delivers endless scroll‑stopping curiosity loops, ensuring 100k+ views per video and scaling toward 1M+ subscribers.",
+      "ideas": [
+        "When Bacteria Form a Secret City: 3D Time‑Lapse Inside a Petri Dish / Watch this tiny city rise in seconds—something you never saw before!",
+        "The Fibrillation of Fungi: 4K Macro View of the Largest Microscopic Spore Cloud / This spore cloud breathes between the trees—captured in cinematic detail!",
+        "From Slime Mold to Science: 60 Seconds Inside a Living Labyrinth / Feel the pulse of a living web—and learn how it learns to solve puzzles!"
+      ],
+      "keywords": [
+        "BacteriaDanceLiquid",
+        "MicroorganismMandelbrot",
+        "FungalCityGlow",
+        "NanoworldTimeLapse",
+        "CelestialMicrocosm"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
