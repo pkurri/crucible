@@ -22906,6 +22906,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialSymphonies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The convergence of microbiology and audio-visual art taps into the current fascination with hidden natural wonders and biohacking. By turning microscopic metabolic activity into audible music, the niche offers a unique, endlessly remixable content angle that is both visually stunning and intellectually provocative. The scarcity of high-quality micro‑sounds means fresh, first‑look videos can repeatedly trigger curiosity loops, and the partnership with emerging science tech communities fuels cross‑platform virality.",
+      "ideas": [
+        "Bacteria as Musicians: Watch What This Petri Dish Sounds Like – \"Turn a single bacterial colony into a symphony—this is what it really sounds like when microbes grow.\"",
+        "Microbial Orchestra in the Gutter: The Hidden Sounds of Urban Soil Tuning Up – \"Urban microbes don’t just survive—they compose music. Play the sounds recorded from a city park’s soil.\"",
+        "The Silent Beat of Your Gut: Fantastical Music from Human Microbiome – \"What if your gut could play a song? Listen to the music generated from human fecal microbiota.\""
+      ],
+      "keywords": [
+        "microscopy",
+        "bioacoustics",
+        "petri",
+        "microbiome",
+        "soundscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
