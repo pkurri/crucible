@@ -23305,6 +23305,30 @@
         "CelestialFlavors"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes offers unprecedented visual access to the microscopic ecosystems that exist right under our noses. With vivid, high‑resolution footage, tiny worlds become visible, triggering sheer wonder and curiosity. The niche is untapped on mainstream platforms yet aligns with current trends in AR/digital visual storytelling and scientific curiosity. Its content can be easily replicated and expanded—new microbes, algae, fungal colonies, or engineered bacterial ‘cities’—ensuring over 25 fresh viral concepts. The shareability is high: people love to share something they can't see in living form, and the hook promises revelations about life that we rarely ponder. This combination of novelty, visual allure, and educational hook sets a high virality ceiling (9+).",
+      "ideas": [
+        "Inside a Drop of Water: The Micro-World You Never Knew Existed – Hook: \"Imagine a world shrinking 1 million times smaller…\"",
+        "The Surprising Life Inside Dead Leaves: A Tiny Ecosystem Revealed – Hook: \"What if I told you that dead leaves are bustling with life? Watch this microscopic city...\"",
+        "5 Astonishing Microbial Cities That Grow Overnight – You Won’t Believe How They Form! – Hook: \"These invisible metropolises rise in an hour…\""
+      ],
+      "keywords": [
+        "Microscopic",
+        "Biofilm",
+        "Fungal",
+        "Synthetic",
+        "Bioluminescent"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
