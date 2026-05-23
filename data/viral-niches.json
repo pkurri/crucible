@@ -23404,6 +23404,30 @@
         "NanoWorld"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Fear",
+      "reason": "Climate change and sea‑level rise are dominating news worldwide. The notion of entire islands and coastal cities literally disappearing taps into both fear and curiosity, providing endless visual hooks. The ability to create time‑lapse, holographic reconstructions and future‑scenario animations guarantees a steady flow of content that can scale past 1M subscribers and hit 100K+ views per video.",
+      "ideas": [
+        "The Last Island: 2023‑2028 Vanishing in 5 Minutes – Watch the Sinking in Real Time! / Can you spot the first crack before the flood?",
+        "Sinking Cities: Ultra‑HD Time‑Lapse of Venice’s Future – 7 Years of Rapid Erosion Captured on One Timeline! / Is this the final chapter of a historic metropolis?",
+        "How Will Detroit’s Shoreline Change? 2024‑2030 Visualized Projection – Prepare for the Collapse Before It Happens! / This simulation could stop a tragedy."
+      ],
+      "keywords": [
+        "Hyperrealistic",
+        "Time‑Lapse",
+        "Animated",
+        "Ultra‑HD",
+        "VirtualReconstruction"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
