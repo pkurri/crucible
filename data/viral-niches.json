@@ -23329,6 +23329,30 @@
         "Bioluminescent"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The climate‑change narrative is in constant flux: new smoothed coastlines, flooded towns, and vanished islands captivate public imagination. Faceless storytelling allows daily reels of before‑and‑after aerial footage, 3‑D reconstructions, satellite maps, and heritage‑loss narratives that hook viewers instantly. The emotional mix of awe, fear, and a sense of urgency fuels re‑shares, encouraging viral growth beyond typical niche limits. The format is deployable at scale – 25+ unique hooks targeting different seas, cities, and ancient ruins – ensuring continual content supply.",
+      "ideas": [
+        "The $5,000 Beach That Vanished in 1976 / 5B Before & After Maps",
+        "Did You Know This Pacific Island is Now Nothing? / 10 Years of Satellite Collapse",
+        "The Secret History of a New York Harbor That Disappeared - Watch the 3‑D Transformation"
+      ],
+      "keywords": [
+        "Aerial",
+        "BeforeAfter",
+        "3DAnimation",
+        "Satellite",
+        "CoastalErosion"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
