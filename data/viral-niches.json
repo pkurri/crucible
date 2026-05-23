@@ -23281,6 +23281,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "The ZeroGravityKitchen niche merges the universally appealing themes of cooking and science with the novelty of zero‑gravity experiments. Its visual spectacle—food literally floating, sizzling in vacuum‑simulated environments—provides instantly scroll‑stopping hooks, keeps viewers engaged through continuous curiosity loops, and taps into current interest in space, future tech, and kitchen hacks. The concept is easy to scale with endless recipe variations, equipment showcases, and atmospheric edits, ensuring over 25 fresh content ideas that can go viral across meta and YouTube.",
+      "ideas": [
+        "What Happens When You Cook Pasta Without Gravity? | Zero Gravity Kitchen Experiment",
+        "First Try: Making Bubble Sandwiches in Zero‑Gravity – You Won’t Believe the Result!",
+        "The Ultimate Zero‑Gravity Snack Challenge: Can You Finish It Before It Floats Away?"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "FloatingFood",
+        "FuturisticCooking",
+        "AstroKitchen",
+        "CelestialFlavors"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
