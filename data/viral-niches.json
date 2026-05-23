@@ -23449,6 +23449,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuralDreamCartography",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Mapping the subconscious with AI taps into universal human wonder about dreams while leveraging cutting‑edge generative tech. The niche is fresh, highly shareable, and invites endless variations (dreams of different ages, cultures, or protagonists), ensuring high content volume and hook potential.",
+      "ideas": [
+        "THIS AI MERGED 10,000 DREAMS INTO ONE VISUAL TOPOGRAPHY — CAN YOU SPOT THE HIDDEN SHAPES? (Hook: \"Every night, your brain builds a secret city. We fed 10k dream logs into an AI and it painted a landscape like nothing you've seen.\")",
+        "WE SIMULATED A 12-YEAR-OLD'S DREAMSCAPE — IT LOOKS LIKE A PARALLEL WONDERLAND (Hook: \"Take a child's unfiltered dream and watch it materialize into a 3‑D wonderland. The AI turned words into living terrain, and the twist will leave you stunned.\" )",
+        "THE SCIENCE OF DREAM‑DATA: HOW AI IS TURNING POETIC MEMORY INTO GEOLOGY REPORTS (Hook: \"Dreams are like layers of rock. With AI we can actually read their texture and map the subconscious. The outcome? A map that out‑of‑this‑world.\" )"
+      ],
+      "keywords": [
+        "AI-Generated",
+        "Dreamscape",
+        "Visualization",
+        "NeuralMapping",
+        "3DReconstruction"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
