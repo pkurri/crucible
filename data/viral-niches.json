@@ -23380,6 +23380,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes combine stunning ultra‑close‑up footage of unseen microbial ecosystems with compelling, story‑driven narration. The niche is visually arresting, easily faceless, and taps into current fascination with bio‑engineering, nanotech, and nature’s hidden wonders. Its content can be serialized across micro‑ecosystem themes, keeping viewers returning for the next tiny world, ensuring high retention and shareability.",
+      "ideas": [
+        "Tiny Giant — Inside the Castle of Micro Viruses / Hook: 'Where the smallest creatures rule a world the size of a grain of sand…'",
+        "Glow City Underwater— The Bioluminescent Nightlife of Deep‑Sea Microbes / Hook: 'Lights turn on when the ocean goes dark. Watch these luminous bacteria dance like stars' ",
+        "The Silent Hive— Exploring the Microbial Forest That Feeds 70% of the Planet / Hook: 'Hidden beneath the forest floor is an army of tiny builders. Do you see what’s powering our world?'"
+      ],
+      "keywords": [
+        "Microscopic",
+        "UltraZoom",
+        "HiddenLife",
+        "GlowMicro",
+        "NanoWorld"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
