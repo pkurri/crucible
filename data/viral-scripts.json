@@ -26476,5 +26476,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1779510593647": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1779510593647 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Dashboards",
+        "name": "InfiniView",
+        "icon": "📊"
+      },
+      {
+        "title": "Speed",
+        "name": "QuantumProcess",
+        "icon": "⚡"
+      },
+      {
+        "title": "Security",
+        "name": "NanoShield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "AI",
+        "name": "MindMesh",
+        "icon": "🤖"
+      },
+      {
+        "title": "Scalability",
+        "name": "ElasticCore",
+        "icon": "🌐"
+      },
+      {
+        "title": "UX",
+        "name": "GlowInteract",
+        "icon": "✨"
+      },
+      {
+        "title": "Data",
+        "name": "PulseSync",
+        "icon": "🧬"
+      },
+      {
+        "title": "Innovation",
+        "name": "StellarEdge",
+        "icon": "🚀"
+      }
+    ]
   }
 }
