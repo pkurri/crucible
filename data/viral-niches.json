@@ -23519,6 +23519,30 @@
         "high‑resolution"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The fusion of cooking and zero‑gravity science creates a visually stunning, knowledge‑rich spectacle that taps into current public fascination with space, NASA missions, and food innovation. Simulated zero‑gravity kitchens or drone‑ruled meaty experiments provide endlessly fresh content while no other channel dominates this niche, ensuring high differentiation. The hook‑rich format—showing ingredients flying, broth swirling, and the first taste test—feeds scroll‑stopping curiosity loops, while the novelty of “space cuisine” keeps viewers watching to the finish.",
+      "ideas": [
+        "CANNED IN AIR: How to Cook Pasta in Zero Gravity! – A mind‑blowing pasta experiment that shows noodles spun away, sticking together on an invisible magnetic platform.",
+        "Zero-Gravity Dessert Dare: Ice Cream That Flies Like a UFO! – We create the fluffiest, self‑flying ice cream in a weightless kitchen. Watch the allergic reaction when it lands on the counter.",
+        "Mars Meal Challenge: Cooking a Space Sandwich in Microgravity! – Using a custom DIY rocket‑kitchen, we make a bento‑style space sandwich that defies gravity and keeps the ingredients from drifting."
+      ],
+      "keywords": [
+        "zero gravity",
+        "space cooking",
+        "weightless food",
+        "NASA kitchen",
+        "military astronaut cooking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
