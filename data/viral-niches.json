@@ -23729,6 +23729,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑Gravity Kitchen blends two mega‑trends—space exploration and food innovation—into a highly visual, curiosity‑driven niche. With fresh footage of micro‑gravity experiments, captivating slow‑motion shots, and the promise of \"real\" space recipes, it offers endless scroll‑stopping hook opportunities. This niche is underserved; only a handful of faceless creators have deep‑dive videos, allowing rapid growth. The combination of awe, wonder, and shareable spectacle can quickly drive viral spikes and attracts both science lovers and casual viewers, maximizing retention and re‑engagement.",
+      "ideas": [
+        "5 Impossible DIY Zero‑Gravity Desserts – Watch Sweet Gravity Defy the Laws of Physics!",
+        "From Slicing to Sizzling: How NASA Scientists Cook Steak in Zero‑Gravity (Revealed!)",
+        "The Future of Food: Building a Zero‑Gravity Kitchen on the International Space Station (Step‑by‑Step Inside)"
+      ],
+      "keywords": [
+        "ZeroGravityFood",
+        "SpaceCooking",
+        "MicrogravityMeals",
+        "CosmicCuisine",
+        "ZeroGravityBaking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
