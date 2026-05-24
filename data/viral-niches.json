@@ -23497,6 +23497,28 @@
         "Microbes"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes taps into the hidden, hyper‑real world of microorganisms, offering mesmerizing visuals that few creators currently explore. The micro‑scale content delivers endless fresh angles, couples science with stunning VFX, thrives on social shares, and guarantees scroll‑stopping hooks and countable curiosity loops. This niche’s novelty, universal curiosity about unseen life, and unlimited idea‑generation potential make it a high‑velocity faceless niche ready for rapid growth.",
+      "ideas": [
+        "Micro‑Scale Marvel: Close‑up of a Night‑Blooming Bacterial Colony | Hook: 'What I saw blew my mind – did you see that?','$10,000 worth of spores dancing!"
+      ],
+      "keywords": [
+        "microscopic",
+        "intense",
+        "vivid",
+        "bioluminescent",
+        "high‑resolution"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12350,84 +12350,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Market Timing",
+        "name": "FlashBroke Indicator",
+        "icon": "🚀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Hidden Altcoins",
+        "name": "MoonLite Starter",
+        "icon": "⭐"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Whale Whisperer",
+        "name": "Silent Whale Tracker",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Funding Frenzy",
+        "name": "Leverage Leak Detector",
+        "icon": "💸"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Pump Signal",
+        "name": "SignalSiren",
+        "icon": "🔔"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hidden Partnerships",
+        "name": "Token Alliance Network",
+        "icon": "🤝"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Secret Staking",
+        "name": "Passive Gains Vault",
+        "icon": "🏦"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Regulatory Relay",
+        "name": "FastTrack Legal Beacon",
+        "icon": "⚖️"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion Tactics",
+        "name": "Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Manipulation Loops",
+        "name": "Scarcity Signal",
+        "icon": "💣"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Psychological Triggers",
+        "name": "Anchoring Bias",
+        "icon": "📌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Neuroscience Hacks",
+        "name": "Neural Suppression",
+        "icon": "🧠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Gaslight Pattern",
+        "icon": "🎭"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Emotional Leverage",
+        "name": "Echo Chamber",
+        "icon": "🔊"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cognitive Control",
+        "name": "Reframe Narrative",
+        "icon": "🔁"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Inner Reflection",
+        "name": "Impulse Override",
+        "icon": "⚡"
       }
     ]
   },
@@ -13352,43 +13364,49 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Imagine microbes that could power cities.",
-        "duration": 5
+        "title": "Bacterial Storms",
+        "name": "Pseudomonas Tempest",
+        "icon": "🌪️"
       },
       {
-        "text": "Their hidden city fires our future.",
-        "duration": 4
+        "title": "Fungal Forests",
+        "name": "Mycelia Glade",
+        "icon": "🍄"
       },
       {
-        "text": "Blink and see billions forming glowing colonies.",
-        "duration": 5
+        "title": "Protist Peaks",
+        "name": "Naegleria Ascent",
+        "icon": "🧬"
       },
       {
-        "text": "They communicate faster than any human network.",
-        "duration": 5
+        "title": "Microbial Metropolis",
+        "name": "E. coli District",
+        "icon": "🏙️"
       },
       {
-        "text": "One single droplet can detox 10,000 liters of water.",
-        "duration": 5
+        "title": "Archaeal Arches",
+        "name": "Methanobacterium Arch",
+        "icon": "🏛️"
       },
       {
-        "text": "Next, watch a microbe build solar panels.",
-        "duration": 4
+        "title": "Viral Vistas",
+        "name": "Influenza Horizon",
+        "icon": "🔭"
       },
       {
-        "text": "If we ignore them, we miss a hidden engine.",
-        "duration": 4
+        "title": "Chemoautotrophic Valleys",
+        "name": "Thiobacillus Valley",
+        "icon": "⛰️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Stay tuned for the microbe that sings electricity.",
-        "duration": 4
+        "title": "Photosynthetic Corridors",
+        "name": "Synechococcus Pathway",
+        "icon": "🌞"
       }
     ]
   },
