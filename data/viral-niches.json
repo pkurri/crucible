@@ -23473,6 +23473,30 @@
         "3DReconstruction"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialFireworks",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Microbial Fireworks blends cutting‑edge synthetic biology with mesmerizing visual spectacle, offering countless hook‑worthy moments that can be produced without a camera. The concept is fresh, highly shareable, and taps into current fascination with bioluminescence and live art, making it capable of scaling to 25+ viral ideas and garnering millions of views.",
+      "ideas": [
+        "Microbial Fireworks: Watch Bacteria Paint the Night in 5 Minutes! – Hook: \"Did you know tiny living lights can recreate the biggest fireworks show?\",",
+        "Bacterial Fireworks 2024: The Next Big Trend in Live Art – Hook: \"The world’s first viral microbial light show is about to ignite the internet!\",",
+        "Can Microbes Create the Ultimate Fireworks? See the Science Behind Glow Storms – Hook: \"Combining biology with fireworks could redefine entertainment—and sustainability.\""
+      ],
+      "keywords": [
+        "Glow",
+        "Bioluminescent",
+        "Aquatic",
+        "Fireworks",
+        "Microbes"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
