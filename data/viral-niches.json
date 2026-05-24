@@ -23684,6 +23684,30 @@
         "VibrantVisualization"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "With growing public interest in Mars missions and space tourism, people are dying to know what astronauts eat. SpaceFoodTech leverages the mystery and excitement of extraterrestrial cuisine, combining cutting‑edge science with visually stunning zero‑gravity footage—an untapped yet highly shareable hook.",
+      "ideas": [
+        "The FIRST Space Food You Can Eat in Zero Gravity / Why Astronauts Swear by It",
+        "Mars Meal: How Farmers Are Growing Food on the Red Planet / Watch It Bloom in 60 Seconds",
+        "From Space Junk to Supper: The Surprising Origin of Space Food / It's actually recycled stuff!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceFarm",
+        "MarsMeal",
+        "OrbitalEdibles",
+        "GalacticCuisines"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
