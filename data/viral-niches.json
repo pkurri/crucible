@@ -23567,6 +23567,30 @@
         "exploration"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "MicroBioscapes combines the proven fascination with \"micro\" visual content and the unexplored storytelling potential of the invisible biosphere. The niche is highly differentiated from generic microscope videos by curating life‑forming captures from everyday objects, time‑lapse transformations, and AR overlays that create a sense of stepping into a hidden city. The content is faceless, royalty‑free, and easily scripted, making high‑frequency uploads feasible. With the growing public interest in biology, microbiomes, and extreme micro‑ecosystems, these videos tap into curiosity, awe, and the sheer visual novelty that fuels YouTube and Meta feeds. The format scales to 25+ unique ideas per month, each supporting scroll‑stopping hooks and curiosity loops, ensuring sustained subscriber growth and 100k+ views per episode.",
+      "ideas": [
+        "Micro‑Mosquito Migration: 2‑Minute Time‑Lapse of Tiny Travelers – \"Ever wondered what a mosquito’s life looks like under a microscope? Watch 48 hours of them move in real time!\"",
+        "Unseen Cities on a Coffee Cup: A Macro‑Journey – \"Hidden beneath the foam is a bustling metropolis of microbes – discover the city of your morning brew.\"",
+        "Nano‑Kitchen: Inside the Microbe Kitchen of Your Toothbrush – \"What’s cooking in your toothbrush? Unveil the unseen culinary world that thrives inside!\""
+      ],
+      "keywords": [
+        "UltraMacro",
+        "MicroLife",
+        "TimeLapse",
+        "NanoWorld",
+        "MicroMuseum"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
