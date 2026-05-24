@@ -23660,6 +23660,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuralSymphonies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "Combining the cutting‑edge fields of neuroscience and generative AI, NeuralSymphonies delivers visually stunning, mind‑mapping audio that feels like a window into the human brain. The concept is fresh, highly shareable, and lends itself to endless variations—from stress‑relief tracks to sleep enhancers—making it perfect for high‑velocity faceless content that can easily reach 1M+ subscribers and 100k+ hits per upload.",
+      "ideas": [
+        "Your Brain in a Symphony: AI Transforms Mindwaves into Epic Soundtracks – Hook: \"Ever wondered what your thoughts sound like? Hear your own brainwaves turned into a celestial symphony by AI!\"",
+        "Stress‑Relief AI Music—Brainwave Edition – Hook: \"Stressed? Let AI compose a calming soundtrack directly from your brainwaves—watch stress melt into serene symphonies!\"",
+        "Sleep Enhancer—AI Merges Brainwaves with Soundscapes – Hook: \"Tossing at night? Watch AI turn your nighttime brainwaves into the perfect lullaby that cradles you to sleep.\""
+      ],
+      "keywords": [
+        "NeuralAudio",
+        "BrainwaveVisualization",
+        "AIComposedMusic",
+        "SymphonicAI",
+        "VibrantVisualization"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
