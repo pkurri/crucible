@@ -23543,6 +23543,30 @@
         "military astronaut cooking"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ARAncientCityVoyages",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The seismic rise of AR technology coupled with the universal fascination for ancient mysteries makes faceless, AR‑driven explorations of lost or hidden cities a fertile ground for viral content. No on‑location filming is required; the spectacle is delivered through immersive overlays, keeping production cost‑low while fueling viewer curiosity and wonder. The niche is fresh—largely untapped compared to popular AR gaming or historical documentary channels—offering high differentiation, abundant hook‑friendly storylines, and deep scalability for 25+ repeatable ideas.",
+      "ideas": [
+        "\"Unveil the Lost City of Petra in 3D AR: Are the Pyramids Hidden?\"",
+        "\"Mysterious Underwater Alexandria: Dive into AR History (Scroll‑Stopping Hook: ‘Imagine walking the ancient harbor!’)\"",
+        "\"Explore the Ancient City of Machu Picchu as a Time‑Traveling AR Tour— 24‑Hour Mysteries Uncovered!\""
+      ],
+      "keywords": [
+        "ancient",
+        "AR",
+        "immersive",
+        "virtual",
+        "exploration"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
