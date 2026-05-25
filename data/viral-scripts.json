@@ -12340,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12381,7 +12381,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12391,43 +12391,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Subtle Manipulation",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Scarcity Pitch",
+        "icon": "⚙️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Trigger Tactics",
+        "name": "Foot-in-the-Door",
+        "icon": "🚪"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Fake Authority",
+        "icon": "👑"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Gaslighting",
+        "name": "Reality Distortion Field",
+        "icon": "🌀"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Language Power",
+        "name": "Swish Pattern",
+        "icon": "🗣️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Framing",
+        "name": "Reframe Negative",
+        "icon": "🔁"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Influence Loops",
+        "name": "Reciprocity Trap",
+        "icon": "🔗"
       }
     ]
   },
@@ -13352,43 +13358,49 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of MicroBioscapes.",
-        "duration": 5
+        "title": "Bacterial Storms",
+        "name": "Pseudomonas Tempest",
+        "icon": "🌪️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Fungal Forests",
+        "name": "Mycelia Glade",
+        "icon": "🍄"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Protist Peaks",
+        "name": "Naegleria Ascent",
+        "icon": "🧬"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Microbial Metropolis",
+        "name": "E. coli District",
+        "icon": "🏙️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Archaeal Arches",
+        "name": "Methanobacterium Arch",
+        "icon": "🏛️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Viral Vistas",
+        "name": "Influenza Horizon",
+        "icon": "🔭"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Chemoautotrophic Valleys",
+        "name": "Thiobacillus Valley",
+        "icon": "⛰️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Photosynthetic Corridors",
+        "name": "Synechococcus Pathway",
+        "icon": "🌞"
       }
     ]
   },
@@ -27312,6 +27324,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1779731137471": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1779731137471 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Revolutionary Core",
+        "name": "Quantum Sync Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Mind‑Bending Feature",
+        "name": "Infinite Loop Renderer",
+        "icon": "🌀"
+      },
+      {
+        "title": "Hidden Capability",
+        "name": "Adaptive Gravity Fields",
+        "icon": "🌌"
+      },
+      {
+        "title": "Elite Performance",
+        "name": "Zero‑Latency Pulse Core",
+        "icon": "🚀"
+      },
+      {
+        "title": "Secret Sauce",
+        "name": "Neural‑Weave Algorithm",
+        "icon": "🧠"
+      },
+      {
+        "title": "Game‑Changer",
+        "name": "Echo‑Phase Modulator",
+        "icon": "🔊"
+      },
+      {
+        "title": "Ultimate Power",
+        "name": "Chrono‑Shift Buffer",
+        "icon": "⏳"
+      },
+      {
+        "title": "Awe‑Inducing",
+        "name": "Singularity Drive Core",
+        "icon": "💫"
       }
     ]
   }
