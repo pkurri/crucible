@@ -23960,6 +23960,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "EdiblePackaging",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Edible packaging is a cutting‑edge sustainability trend that’s still under‑exploited on mainstream platforms. The concept combines zero‑waste appeal, food science curiosity, and instantly shareable wow‑factor—perfect for short scroll‑stopper reels and longer, in‑depth YouTube videos. With numerous materials (gelatin, algae, rice paper, cactus, fruit‑based films, etc.) and real‑world demos, the niche offers endless content hooks that can easily generate 25+ viral ideas. High companion interest in eco‑innovation, vegan cooking, and DIY science makes it primed for rapid sub‑growth and high retention.",
+      "ideas": [
+        "\"Stop Throwing Away Packaging—Here’s How to Eat It Instead! (Cactus Wrap Try) – Watch It Disintegrate in Minutes\"",
+        "\"Is This The End Of Plastic? 3 Edible Coatings That Could Replace 1B Tons of Trash\"",
+        "\"From Nutmeg to Gelatin: DIY Edible Food Wrap in 5 Minutes – No Brain‑Bender Required\""
+      ],
+      "keywords": [
+        "EDIBLE",
+        "SUSTAINABLE",
+        "ZEROWASTE",
+        "FOODSAFETY",
+        "DIYWRAP"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
