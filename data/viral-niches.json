@@ -24065,6 +24065,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlinesAR",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "Climate‑change is a global narrative that continually drives massive engagement. Augmenting vanishings with AR time‑lapses gives viewers an immediate, visceral experience that spikes curiosity and emotional investment. The format is highly shareable, works on short‑form and long‑form feeds, and allows limitless fresh episode ideas—each disappearing shoreline or lost city can become a mini‑series.",
+      "ideas": [
+        "\"The Shoreline That Disappeared Overnight (AR Time Lapse)\" – Hook: \"See the sands drain away in real‑time and find out how fast your beloved beach could vanish today.\"",
+        "\"Lost City of [Name] – 5 Minutes in Its Reconstructed AR\" – Hook: \"Dive into the once‑thronged streets that sank under the sea and watch history flicker back to life.\"",
+        "\"Why the Pacific Coastline Is Vanishing: 1 Minute of Reality in AR\" – Hook: \"You won’t believe how one tiny change could erase entire coastlines. Watch the demo now.\""
+      ],
+      "keywords": [
+        "AR",
+        "TimeLapse",
+        "Coastline",
+        "ClimateChange",
+        "Vanishing"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
