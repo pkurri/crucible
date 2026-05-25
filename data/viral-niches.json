@@ -23891,6 +23891,30 @@
         "historic footage"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes taps into the universal fascination with the unseen world of microbes, merging hyper‑realistic microscopy footage with engaging storytelling. The niche offers endless visual hooks—time‑lapse animations, vibrant time‑slowed sequences, and surprising microbiome interactions—that are naturally scroll‑stopping. Current spikes in bio‑tech interest, easy cross‑platform repurposing (shorts, reels, TikTok), and minimal competition give this channel a unique edge to accumulate 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "The Bacteria That Paint the Walls of Your Bathroom – 60x Time‑Lapse Reveal! (Hook: \"Discover how tiny bacteria paint their own art on your tiles.\")",
+        "Inside a Human Gut – 5 Seconds of Micro‑World Life You’ll Never See (Hook: \"What if your gut could speak? Watch it in slow‑motion.\")",
+        "Microbiome Madness: Watch a Petri Plate Dance In Slow Motion (1080p) (Hook: \"A single drop of culture turns into a living dance floor.\")"
+      ],
+      "keywords": [
+        "Microscopy",
+        "Time‑Lapse",
+        "Bacteria",
+        "Microbiome",
+        "Cellular"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
