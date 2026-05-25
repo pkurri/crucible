@@ -23915,6 +23915,30 @@
         "Cellular"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The microscopic world offers endlessly immersive visuals that can be made faceless and high‑resolution. With increased interest in biology, climate, and AI‑generated visuals, audiences crave content that reveals the unseen. The niche is untapped enough to stand out but rich enough to keep generating new 25+ ideas, each with scroll‑stopping hooks and curiosity loops.",
+      "ideas": [
+        "Watch a Single Bacteria Turn Into a Giant Empire in 5 Minutes! – Ever wondered what 100 trillion tiny microbes do together? See the colony grow like never before.",
+        "This 0.5mm Fungus Spreads Like a Monster—Hidden Time‑Lapse Reveals Its Secrets! – Caught on camera, this fungal world will rewrite your idea of the invisible menace.",
+        "Unlocking the Microbial Kitchen: How a Single Drop Creates a Food Revolution! – From a teaspoon of soil to a superfood, watch the alien chemistry unfold."
+      ],
+      "keywords": [
+        "microscopic",
+        "time-lapse",
+        "bacteria colony",
+        "fungal network",
+        "microbial metabolism"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
