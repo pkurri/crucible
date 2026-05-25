@@ -24089,6 +24089,30 @@
         "Vanishing"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "With climate anxiety surging and the public craving tangible, visual proofs of future risks, a faceless channel that delivers slick drone footage, AR maps, and before‑after comparisons of coastlines taps into urgent curiosity. The topic is highly shareable, easily diversifiable into lists, live events, and localization, and thrives on the hook of \"see what your hometown looks like in 2025\". The high visual intensity and real‑time data make it a perfect fit for algorithmic discovery, scrolling hooks, and curiosity loops.",
+      "ideas": [
+        "Top 10 Beaches That Will Disappear Before You Even Turn 30 – Watch the Radar Today!",
+        "A Drone‑Cam Time‑Leap: [City]'s Shoreline in 2024 vs. 2050 – Who Knew This Could Exist?",
+        "THIS Tiny Map Predicts HOW YOUR HOUSE Will Vanish by 2025 – Hold On Tight!"
+      ],
+      "keywords": [
+        "ClimateChange",
+        "DroneFootage",
+        "ARMap",
+        "3DModel",
+        "BeforeAfter"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
