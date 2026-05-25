@@ -23843,6 +23843,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrogravityCulinary",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Space‑fuelled food experiments are a fresh, high‑legibility niche that blends science, culinary wonder, and the growing public fascination with human spaceflight. The low‑content barrier (timelapse of experiments, lab footage) and the inherent curiosity loop (“what will happen when we try X in zero G?”) create scroll‑stopper potential, appealing to both science buffs and cooking enthusiasts. Its scalability is high: countless recipes, comparisons, behind‑the‑scenes labs, and cross‑platform visual storytelling can generate 25+ unique viral concepts.",
+      "ideas": [
+        "Pancakes in Zero-Gravity: Watch This Be‑Gassed Breakfast Defy Physics! / Hook: “What if we could flip a pancake in mid‑air? The lab answer will blow your mind!”",
+        "How NASA’s Space Kitchen Uses Micro‑Bubbles to Make 3‑D Sushi in Zero‑G *SPRINTED* / Hook: “Ever wondered how sushi looks on the International Space Station? This lab trick shows the ultimate floating roll.”",
+        "The Secret Lab Ingredient That Makes Milkshake No‑Gravity‑Ready – The Science Behind the Sweet Cloud / Hook: “Milkshake that never drops? Find out the chemistry that keeps it sky‑high.”"
+      ],
+      "keywords": [
+        "zeroG",
+        "spacefood",
+        "labtime-lapse",
+        "cookingscience",
+        "microweird"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

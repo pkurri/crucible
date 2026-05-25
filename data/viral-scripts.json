@@ -27244,5 +27244,52 @@
         "icon": "⚙️"
       }
     ]
+  },
+  "MicrogravityCulinary": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicrogravityCulinary secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more MicrogravityCulinary.",
+    "list": [
+      {
+        "title": "Zero-Gravity Blender",
+        "name": "Orbit Mixer",
+        "icon": "🔄"
+      },
+      {
+        "title": "Micro-Cookware",
+        "name": "Stellar Fry Pan",
+        "icon": "🍳"
+      },
+      {
+        "title": "Edible Nebula",
+        "name": "Stardust Gelatin",
+        "icon": "🌌"
+      },
+      {
+        "title": "Atmosphere Control",
+        "name": "Pressurized Oven",
+        "icon": "🔥"
+      },
+      {
+        "title": "Flavor Float",
+        "name": "Lumos Mousse",
+        "icon": "✨"
+      },
+      {
+        "title": "Space Skewers",
+        "name": "Photon Kabobs",
+        "icon": "🍢"
+      },
+      {
+        "title": "Zero-Astral Sauce",
+        "name": "Astro Aioli",
+        "icon": "🥢"
+      },
+      {
+        "title": "Celestial Garnish",
+        "name": "Moon Dust Dusting",
+        "icon": "🌙"
+      }
+    ]
   }
 }
