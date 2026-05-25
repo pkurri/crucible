@@ -23867,6 +23867,30 @@
         "microweird"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "Vanishing coastlines combine urgent climate‑change narrative with stunning visual evidence (time‑lapse, drone, AI forecasts). The topic taps into widespread curiosity about lost heritage, triggers an emotional urgency, and is highly shareable across platforms. With endless geographies to cover, content can scale to 25+ fresh angles, ensuring sustained viewer retention through countdowns, retrospectives, and speculative projections.",
+      "ideas": [
+        "Will Your Coastline Disappear? Sensational 100‑Year Time Lapse of [City] – You Won’t Believe the Speed!",
+        "The Last 5 Beaches Before Vanishing – Stunning Drone Footage of Coasts in 2030",
+        "AI Predicts the 10 New Coastlines That Will Obliterate By 2050 – See Them Now!"
+      ],
+      "keywords": [
+        "time lapse",
+        "drone",
+        "erosion",
+        "AI projection",
+        "historic footage"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
