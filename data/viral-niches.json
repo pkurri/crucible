@@ -24296,6 +24296,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AICreatedMythology",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Explosive growth in generative AI tools has sparked public fascination with AI‑crafted stories, while timeless human craving for myth and meaning creates a perfect curiosity loop. Audiences crave fresh, visually stunning pantheons born from algorithms—content that feels both futuristic and archetypal, driving high click‑through rates, shares, and repeat views.",
+      "ideas": [
+        "What If AI Invented a New God? / Watch the AI‑generated deity that sparked a global meme frenzy",
+        "The Lost AI Myth of Cyber‑Olympus / A 3‑minute visual saga of an algorithm‑born pantheon no human ever imagined",
+        "AI vs Ancient Myths: Who Created the Better Legend? / Side‑by‑side comparison of AI‑forged legends vs. Greek myths"
+      ],
+      "keywords": [
+        "AI-generated gods",
+        "digital pantheon",
+        "mythic landscapes",
+        "AI folklore",
+        "cyber legends"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
