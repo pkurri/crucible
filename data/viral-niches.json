@@ -24161,6 +24161,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cooking without gravity sparks curiosity and wonder, blending relatable cooking content with a sci‑fi twist that taps into the growing public interest in space travel, future tech, and speculative edible science. Its uniqueness, the potential for surprising visual experiments, and cross‑platform shareability make it scalable to millions of viewers and 100k+ views per video.",
+      "ideas": [
+        "Zero-Gravity Cookies: The Sweetest Baked Treat You've Never Tried / Hook: Ever wondered how cookies would taste if there was no gravity? Watch the experiment!",
+        "SpaceChef Challenge: Cooking a Full Meal Without Gravity – It Was Harder Than You Think! / Hook: We tried to create a Michelin‑star dish in zero gravity. Did it work?",
+        "How to Bake in Zero Gravity: Physics Explained with Delicious Results / Hook: Learn the science of floating dough and how gravity‑free cooking could transform space travel!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "GravityFreeRecipes",
+        "CreativeKitchen",
+        "SpaceFood"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
