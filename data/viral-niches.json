@@ -24368,6 +24368,30 @@
         "SpaceFood"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Vanishing Coastlines taps into the urgent, globally relevant climate crisis with an irresistible visual hook: real satellite time‑lapse and 3‑D reconstructions of places that once existed. The niche is under‑served, offering endless location-based stories that naturally generate curiosity loops and share‑ability across social platforms. Its high emotional stakes, strong demographic reach, and potential for series‑style storytelling make it primed for 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "\"The Forgotten Island That Vanished in 2010 (Shocking 3D Reveal)\" – Hook: ‘You won’t believe what happened to this once-thriving island…’",
+        "\"From Shore to Sea: How Rising Tides Are Erasing Our Coastlines (2024 PSA)\" – Hook: ‘Imagine walking on this beach—and then…’",
+        "\"The Future of Our Cities: Which 12 U.S. Metros Will Disappear by 2035?\" – Hook: ‘Your city may be on the map’s brink. Find out if yours is safe.’"
+      ],
+      "keywords": [
+        "SatelliteImagery",
+        "TimeLapse",
+        "3DAnimation",
+        "ClimateCrisis",
+        "RisingTides"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
