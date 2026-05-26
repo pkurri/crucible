@@ -24320,6 +24320,30 @@
         "cyber legends"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "SpaceFoodTech taps into the surge of public curiosity about Mars exploration and space colonization. With NASA’s recent announcements on sustainable space cuisine, coupled with stunning visual footage of zero‑gravity cooking, the niche offers both solid science credibility and eye‑popping visuals. The content can consistently employ scroll‑stopping hooks, curiosity loops, and unique footage of cooking in microgravity, ensuring high retention and shareability.",
+      "ideas": [
+        "10 Secret Ingredients Astronauts Ate on the ISS (You Won’t Believe #3!)",
+        "Zero Gravity Ramen Challenge: Cooking Without Gravity",
+        "Terraforming Taste: 5 Foods That Will Enable Human Life on Mars"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "CosmicCuisine",
+        "MarsMeals",
+        "SpaceStove",
+        "Microgravity"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
