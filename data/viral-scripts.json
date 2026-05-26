@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12309,43 +12309,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Mushroom Extract",
+        "icon": "🍄"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Nicotinamide Riboside",
+        "icon": "💊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT Sprint",
+        "icon": "🏃‍♂️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking",
+        "icon": "🌙"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Microdosing Fasting",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Skincare",
+        "name": "Collagen Boost",
+        "icon": "🌸"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Community Ritual",
+        "icon": "🤝"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Tracking",
+        "icon": "⌚"
       }
     ]
   },
@@ -12381,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12391,49 +12397,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Persuasion Tactics",
-        "name": "Mirror Effect",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Manipulation Loops",
-        "name": "Scarcity Signal",
-        "icon": "💣"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Psychological Triggers",
-        "name": "Anchoring Bias",
-        "icon": "📌"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Neuroscience Hacks",
-        "name": "Neural Suppression",
-        "icon": "🧠"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Social Engineering",
-        "name": "Gaslight Pattern",
-        "icon": "🎭"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Echo Chamber",
-        "icon": "🔊"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Cognitive Control",
-        "name": "Reframe Narrative",
-        "icon": "🔁"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Inner Reflection",
-        "name": "Impulse Override",
-        "icon": "⚡"
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -20915,49 +20915,43 @@
     ]
   },
   "GlowFoodScience": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 GlowFoodScience secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Bioluminescence",
-        "name": "Glow‑Algae Broth",
-        "icon": "🌊"
+        "text": "They lit up the table, but I didn't know how.",
+        "duration": 5
       },
       {
-        "title": "Nutrient‑Infused",
-        "name": "Lucid Berry Smoothie",
-        "icon": "🍇"
+        "text": "Because glow‑food can break the rule of taste.",
+        "duration": 4
       },
       {
-        "title": "Protein Power",
-        "name": "Photon Whey Isolate",
-        "icon": "🥛"
+        "text": "Mushrooms found in deep seas emit neon light.",
+        "duration": 5
       },
       {
-        "title": "Vitamin Boost",
-        "name": "Solar Citrus Concentrate",
-        "icon": "🍊"
+        "text": "Adding tiny algae turns your salad into a living LED.",
+        "duration": 5
       },
       {
-        "title": "Antioxidant Burst",
-        "name": "Aurora Dark Chocolate",
-        "icon": "🍫"
+        "text": "The chemistry is a real‑time bioluminescent reaction.",
+        "duration": 5
       },
       {
-        "title": "Metabolic Magic",
-        "name": "Starlight Green Tea",
-        "icon": "🍵"
+        "text": "If you skip this, you'll miss the midnight broth.",
+        "duration": 4
       },
       {
-        "title": "Caloric Optimizer",
-        "name": "Nebula Energy Bars",
-        "icon": "🍫"
+        "text": "That broth lights up when you add salt—dangerously bright.",
+        "duration": 4
       },
       {
-        "title": "Digestive Aid",
-        "name": "Galaxy Kefir",
-        "icon": "🥛"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next we’ll glow‑cook with fireflies. Stay tuned.",
+        "duration": 4
       }
     ]
   },

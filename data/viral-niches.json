@@ -24185,6 +24185,30 @@
         "SpaceFood"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "GlowFoodScience",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of food, bioluminescence, and science‑based cooking offers visually stunning, easily shareable content that satisfies both the craving for aesthetic wonder and the desire for knowledge. Diners love watching food light up in real time, and the science explanations add educational depth that appeals to a broad audience. This niche has very low competition, high evergreen demand for food & science content, and provides endless recipe variations that can be turned into a prolific channel.",
+      "ideas": [
+        "Glow Burger! Watch This Patty Light Up Like a Star / See the Molecule‑Level Reaction with a Simple 5‑Minute Hack",
+        "Solar‑Powered Glowing Lemonade: The Easiest Bioluminescent Drink, No Candles Required / Prepare Your Kitchen for a Festival of Light",
+        "Glow‑in‑the‑Dark Curry: How to Cook a Meal That Illuminates the Table—A Beginner’s Step‑by‑Step Guide"
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Neon",
+        "Edible",
+        "Glow",
+        "MolecularGastronomy"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
