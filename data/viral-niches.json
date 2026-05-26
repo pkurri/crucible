@@ -24392,6 +24392,30 @@
         "RisingTides"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking combines the universally appealing fascination with space, the irresistible curiosity about how everyday foods behave without gravity, and a visual wow factor that appears in every video. It’s a niche that is not yet mainstream, but the cross‑industry buzz around space tourism, private spaceflight, and tomorrow’s Mars colonies creates a ready audience eager for fresh, wavy content that feels futuristic. The topic is highly shareable—memes, memes, scrolling content—all while keeping viewers glued for the moment the butter jumps, the noodles float, and the chef masters the impossible.",
+      "ideas": [
+        "Zero-Gravity Pancakes: Who Knew Breakfast Could Float?  — Hook: \"Ever wondered what pancakes taste like in space? Watch this zero‑gravity breakfast blow your mind!\"",
+        "Space Food Lab: The Molecule That Keeps Soup from Boiling Over in Zero Gravity.  — Hook: \"In space, soup doesn’t boil? Find out the physics behind floating broth and how to cook like an astronaut!\"",
+        "Chef vs NASA: 100 Classic Recipes Tested in Zero Gravity.  — Hook: \"We can’t taste zero‑gravity, but we can taste whether these classic dishes survive the weightless test!\""
+      ],
+      "keywords": [
+        "MicrogravityCooking",
+        "ZeroGravityFood",
+        "SpaceChef",
+        "FloatingFood",
+        "AstronautKitchen"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
