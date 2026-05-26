@@ -12268,96 +12268,84 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Respiration",
-        "name": "EveEye",
-        "icon": "🕵️‍♂️"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Identity Theft",
-        "name": "ShadowClone",
-        "icon": "💀"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Financial Blackouts",
-        "name": "CoinCreep",
-        "icon": "💸"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Social Manipulation",
-        "name": "PulsePulse",
-        "icon": "🧠"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Health Hijack",
-        "name": "VirusVector",
-        "icon": "🦠"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Assault Code",
-        "name": "RogueScript",
-        "icon": "🔓"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Privacy Erosion",
-        "name": "SilentWatcher",
-        "icon": "👁️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Future Prediction",
-        "name": "ForecastFrenzy",
-        "icon": "🔮"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "B12-Boost Juice",
-        "icon": "🥤"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "60‑Second HIIT",
-        "icon": "🏋️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Polyphasic Schedule",
-        "icon": "🛌"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mind",
-        "name": "10‑Minute Meditation",
-        "icon": "🧘‍♀️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Resveratrol Capsules",
-        "icon": "💊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Technology",
-        "name": "Wearable Tracker",
-        "icon": "⌚"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Daily Connection Call",
-        "icon": "📞"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Environment",
-        "name": "Blue‑Light Filter Glasses",
-        "icon": "🕶️"
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12434,7 +12422,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -13364,49 +13352,43 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Dust Swirl",
-        "name": "Iron Oxide Bacteria",
-        "icon": "🧲"
+        "text": "Nobody talks about the truth of MicroBioscapes.",
+        "duration": 5
       },
       {
-        "title": "Volcano Soil",
-        "name": "Thermus Thermophilus",
-        "icon": "🔥"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Aquatic Fog",
-        "name": "Nano Phytoplankton",
-        "icon": "🌊"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Desert Bristle",
-        "name": "Cactus Root Fungi",
-        "icon": "🌵"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Concrete Jungle",
-        "name": "Lithobiome Pollinators",
-        "icon": "🏢"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Frozen Crust",
-        "name": "Ice‑Resistant Cyanobacteria",
-        "icon": "❄️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Leaf Vein",
-        "name": "Xylem Symbionts",
-        "icon": "🍃"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Urban Bloom",
-        "name": "City Air Bacteria",
-        "icon": "🌇"
+        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -16148,7 +16130,7 @@
     ]
   },
   "ZeroGravityKitchen": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
         "text": "Nobody talks about the truth of ZeroGravityKitchen.",
@@ -16179,7 +16161,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more ZeroGravityKitchen.",
         "duration": 5
       },
       {
@@ -27741,6 +27723,47 @@
       },
       {
         "text": "If you want to master AICreatedMythology, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1779813114844": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1779813114844.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1779813114844.",
         "duration": 5
       },
       {

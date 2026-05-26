@@ -24344,6 +24344,30 @@
         "Microgravity"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "With the rise of commercial spaceflight, private astronauts, and the launch of the first space hotels, people are fascinated by how food is prepared beyond Earth's gravity. Zero‑gravity cooking is a niche with high curiosity, stark visuals, and limited content, making it ripe for rapid growth and viral potential.",
+      "ideas": [
+        "I Tried the World's First 0g Salmon Fillet – Here’s What Happened! / Hook: Can you eat a fish in space? Watch the science in action.",
+        "Building a Zero‑Gravity Oven from LEGO – The Challenge Explained / Hook: Who knew LEGO could handle space science? Find out why this matters for space food.",
+        "You Won’t Believe What Happens When You Drop an Egg in 0g – A Surprising Live Experiment / Hook: Watch the egg defy physics and learn the secret behind space breakfast."
+      ],
+      "keywords": [
+        "Space",
+        "Zero Gravity",
+        "Cooking",
+        "Microgravity",
+        "SpaceFood"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
