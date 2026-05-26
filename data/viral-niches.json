@@ -24251,6 +24251,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "ZeroGravityKitchen merges two high‑interest domains—space exploration and food—into a visually stunning, conceptually novel format. The curiosity‑driven question “how do astronauts eat?” rings with universal appeal, and the futuristic cooking visuals lend strong shareability. Its niche positioning avoids overlap with mainstream cooking or strictly space science channels, allowing rapid audience growth and cross‑posting potential on Meta platforms.",
+      "ideas": [
+        "Zero‑Gravity Cooking: Watch a Burger Floating While You Taste the Future!",
+        "From DIY to Launch Pad: Making Pancakes in Zero‑G (And the Unexpected Results)",
+        "Lab‑Grown Space Veggies—Why They’ll Change Your Meals on Mars (and Earth!)"
+      ],
+      "keywords": [
+        "ZeroGravityFood",
+        "SpaceCooking",
+        "FuturisticCuisine",
+        "3DSimulation",
+        "FloatingEats"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
