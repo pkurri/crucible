@@ -24443,6 +24443,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumFoodLab",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "QuantumFoodLab taps into two massive current trends—quantum physics and foodie creativity—while offering visually stunning, zero‑person content that is highly shareable. It’s a fresh angle that’s underexploited; viewers are naturally curious about how the abstract world of quantum mechanics can tangibly affect everyday cooking. The combination of science explanations with engaging UI‑captured experiments ensures scroll‑stopping hooks and curiosity loops that keep audiences watching and clicking.",
+      "ideas": [
+        "Schrödinger’s Sandwich: How Quantum Physics Can Turn Your Lunch into a Mystery Box (Visual Experiment) – Hook: \"Ever wondered if your sandwich could exist in two states at once? Let's find out.\"",
+        "Entangled Burgers: 7 Quantum Tricks to Cook the Most Perfect Patty (Science Meets Grill) – Hook: \"Grab your burger patty and let’s entangle flavor and temperature for a burger that’s both juicy and perfectly seared.\"",
+        "Superposition Smoothies: Mixing Flavors with Quantum Theory (Beverage Alchemy) – Hook: \"Add a quantum twist to your smoothie routine and watch your flavors superpose in one glass.\""
+      ],
+      "keywords": [
+        "QuantumParticles",
+        "Entanglement",
+        "Superposition",
+        "KitchenLab",
+        "VisualPhysics"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
