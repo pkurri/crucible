@@ -24587,6 +24587,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The imminent retreat of coastlines due to climate change captivates global audiences. Short, visually stunning time‑lapse footage of beaches disappearing, combined with compelling storytelling, creates powerful scroll‑stopping hooks that keep viewers engaged and compelled to share. The niche offers endless fresh angles—historic changes, future predictions, economic impact, endangered ecosystems—ensuring 25+ high‑impact viral concepts and the capacity to hit 100K+ views per video.",
+      "ideas": [
+        "70 Years of Our Shorelines in 60 Seconds: Where's the Beach? ▶️",
+        "The Last Shoreline of New Orleans: How Will the City Survive? ⚠️",
+        "Secret Islands Disappearing Today: The Unexpected Cost of Rising Seas 💧"
+      ],
+      "keywords": [
+        "time-lapse",
+        "erosion",
+        "climate change",
+        "coastal collapse",
+        "future city"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
