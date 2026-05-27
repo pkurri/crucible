@@ -24536,6 +24536,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "Climate change is a top global concern and coastal erosion is one of its most visible, emotionally charged manifestations. A focused channel presenting dramatic time‑lapse footage, AI‑generated future scenarios, and personal stories of coastal communities taps into widespread curiosity, anxiety, and the urgent desire for solutions, making content highly shareable across TikTok, Instagram Reels, and YouTube Shorts while sustaining long‑form documentaries for subscribers.",
+      "ideas": [
+        "The Last 3,000 Years of Coastlines: Time‑Lapse of a Vanishing Shoreline / Watch the sea swallow entire towns in 60 seconds!",
+        "AI Warns: 2050 Coastline Predictions – Which Cities Will Disappear First? / Find out before it happens!",
+        "From Skyline to Submerged: Exploring the Secrets Beneath Vanishing Beaches / You’ll never guess what lives under the sand!"
+      ],
+      "keywords": [
+        "submerged ruins",
+        "erosion time‑lapse",
+        "rainbow coral reefs",
+        "clifffall drama",
+        "coastal preservation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
