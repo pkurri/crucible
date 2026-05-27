@@ -12268,43 +12268,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Recruitment",
+        "name": "HireHellBot",
+        "icon": "🤖"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "EyeInCloud",
+        "icon": "👁️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Decision‑Making",
+        "name": "BrainCube",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Customer Service",
+        "name": "SupportDrone",
+        "icon": "📞"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Finance",
+        "name": "MoneyMogulAI",
+        "icon": "💸"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Healthcare",
+        "name": "MedInferno",
+        "icon": "🏥"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Legal",
+        "name": "JusticeZero",
+        "icon": "⚖️"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Education",
+        "name": "LessonSkipper",
+        "icon": "📚"
       }
     ]
   },
@@ -12313,47 +12319,6 @@
     "lines": [
       {
         "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
-      },
-      {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12390,44 +12355,97 @@
       }
     ]
   },
+  "CryptoBullRunSecrets": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Market Timing",
+        "name": "FlashBroke Indicator",
+        "icon": "🚀"
+      },
+      {
+        "title": "Hidden Altcoins",
+        "name": "MoonLite Starter",
+        "icon": "⭐"
+      },
+      {
+        "title": "Whale Whisperer",
+        "name": "Silent Whale Tracker",
+        "icon": "🐋"
+      },
+      {
+        "title": "Funding Frenzy",
+        "name": "Leverage Leak Detector",
+        "icon": "💸"
+      },
+      {
+        "title": "Pump Signal",
+        "name": "SignalSiren",
+        "icon": "🔔"
+      },
+      {
+        "title": "Hidden Partnerships",
+        "name": "Token Alliance Network",
+        "icon": "🤝"
+      },
+      {
+        "title": "Secret Staking",
+        "name": "Passive Gains Vault",
+        "icon": "🏦"
+      },
+      {
+        "title": "Regulatory Relay",
+        "name": "FastTrack Legal Beacon",
+        "icon": "⚖️"
+      }
+    ]
+  },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Unlock 8 dark psychology tricks that’ll leave you speechless.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Psychological Triggers",
+        "name": "The Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Deception",
+        "name": "The Misdirection Loop",
+        "icon": "🎭"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "The Bandwagon Hook",
+        "icon": "👥"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Fear Leveraging",
+        "name": "The Dark Suggestion",
+        "icon": "👻"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Micro-Expressions",
+        "name": "The Hidden Wink",
+        "icon": "😉"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Anchoring",
+        "name": "The False Anchor",
+        "icon": "🔗"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Scarcity",
+        "name": "The Invisible Deadline",
+        "icon": "⏳"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Authority",
+        "name": "The Silent Credo",
+        "icon": "🛡️"
       }
     ]
   },
@@ -27811,6 +27829,47 @@
       },
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1779869243699": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1779869243699.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
