@@ -24911,6 +24911,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumDNARepair",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Quantum computing is a hot buzzword while gene editing dominates biotech discourse.  Combining both unlocks a paradigm where DNA can be manipulated in milliseconds, sparking instant wonder, ethical debate, and a ‘what if’ curiosity loop that drives repeated shares and subscriptions. The niche is untapped on mainstream channels, ensuring high differentiation and a fresh hook for each video.",
+      "ideas": [
+        "How Quantum Computers Could Edit Your DNA in 1 Second – The Future of Gene Therapy!",
+        "The Quantum DNA Fix: Could This Unlock Eternal Youth? – 5 Shocking Possibilities!",
+        "Inside the Quantum Gene Editor – Why Scientists Are Hiding This Tech"
+      ],
+      "keywords": [
+        "Quantum",
+        "DNA",
+        "Microscopy",
+        "Neural Network",
+        "Time‑Lapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

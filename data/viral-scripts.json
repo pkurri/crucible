@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12309,125 +12309,143 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT Sprints",
+        "icon": "🏃‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Filter",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "5‑Minute Meditation",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol & Omega‑3",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Clean Air Filters",
+        "icon": "🌬️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Daily Connection",
+        "icon": "🤝"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Water",
+        "icon": "💧"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Market Timing",
+        "name": "FlashBroke Indicator",
+        "icon": "🚀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Hidden Altcoins",
+        "name": "MoonLite Starter",
+        "icon": "⭐"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Whale Whisperer",
+        "name": "Silent Whale Tracker",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Funding Frenzy",
+        "name": "Leverage Leak Detector",
+        "icon": "💸"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Pump Signal",
+        "name": "SignalSiren",
+        "icon": "🔔"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hidden Partnerships",
+        "name": "Token Alliance Network",
+        "icon": "🤝"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Secret Staking",
+        "name": "Passive Gains Vault",
+        "icon": "🏦"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Regulatory Relay",
+        "name": "FastTrack Legal Beacon",
+        "icon": "⚖️"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Sway Algorithm",
+        "icon": "🌀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Mirror Tactic",
+        "icon": "🪞"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Authority",
+        "name": "Echo Hierarchy",
+        "icon": "👑"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Fear Pulse",
+        "icon": "😱"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bandwagon Trap",
+        "icon": "🧑‍🤝‍🧑"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Scarcity",
+        "name": "Limited Glow",
+        "icon": "⚡"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Guilt",
+        "name": "Regret Loop",
+        "icon": "🤯"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Isolation",
+        "name": "Alone Echo",
+        "icon": "🕳️"
       }
     ]
   },
@@ -28537,6 +28555,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "QuantumDNARepair": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 QuantumDNARepair secrets you need to know.",
+    "closing": "If you want to master QuantumDNARepair, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Technique",
+        "name": "CRISPR-Guided Repair",
+        "icon": "🧬"
+      },
+      {
+        "title": "Supplement",
+        "name": "NAD+ Booster",
+        "icon": "💊"
+      },
+      {
+        "title": "Technology",
+        "name": "Photobiomodulation Laser",
+        "icon": "🔦"
+      },
+      {
+        "title": "Protocol",
+        "name": "Telomere Extension Routine",
+        "icon": "⏳"
+      },
+      {
+        "title": "Therapy",
+        "name": "Quantum Coherence Therapy",
+        "icon": "⚛️"
+      },
+      {
+        "title": "Epigenetics",
+        "name": "Histone Deacetylase Inhibitor",
+        "icon": "🧪"
+      },
+      {
+        "title": "Lifestyle",
+        "name": "Mitochondrial Optimizer Diet",
+        "icon": "🥑"
+      },
+      {
+        "title": "Mindset",
+        "name": "Sound Frequency Healing",
+        "icon": "🎵"
       }
     ]
   }
