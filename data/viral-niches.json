@@ -24935,6 +24935,30 @@
         "Time‑Lapse"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The microscopic world offers endlessly captivating visuals that satisfy universal curiosity and the human fascination with unseen life. Time‑lapse macro footage, glowing bacteria, and 3‑D animated overlays create scroll‑stopping hooks that perform exceptionally well on both short‑form (meta) and long‑form (Youtube) platforms. With a clear niche focus and a proven template for high‑engagement micro‑videos, this topic can scale to 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "The 2nd Life of Your Kitchen: Inside a Microbial Universe! – Ever wondered what lives under your kitchen counter? Travel 10,000× into the unseen world.",
+        "Time‑Lapse: 24 Hours of Bacteria Growing on a Piece of Bread! – Watch a single grain of bread become an entire ecosystem in one minute.",
+        "Meet the Microbe That Feeds on Plastic: Could It Save the Planet? – Scientists discovered a tiny creature that can digest plastic. We film its journey in real‑time."
+      ],
+      "keywords": [
+        "Macro lens",
+        "Time‑lapse",
+        "Microscopic",
+        "Glowing bacteria",
+        "3D animation"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
