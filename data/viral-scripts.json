@@ -12268,49 +12268,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Respiration",
-        "name": "EveEye",
-        "icon": "🕵️‍♂️"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Identity Theft",
-        "name": "ShadowClone",
-        "icon": "💀"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Financial Blackouts",
-        "name": "CoinCreep",
-        "icon": "💸"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Social Manipulation",
-        "name": "PulsePulse",
-        "icon": "🧠"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Health Hijack",
-        "name": "VirusVector",
-        "icon": "🦠"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Assault Code",
-        "name": "RogueScript",
-        "icon": "🔓"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Privacy Erosion",
-        "name": "SilentWatcher",
-        "icon": "👁️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Future Prediction",
-        "name": "ForecastFrenzy",
-        "icon": "🔮"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12346,7 +12340,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12387,7 +12381,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12397,43 +12391,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Unlock 8 dark psychology tricks that’ll leave you speechless.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Psychological Triggers",
+        "name": "The Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Deception",
+        "name": "The Misdirection Loop",
+        "icon": "🎭"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "The Bandwagon Hook",
+        "icon": "👥"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Fear Leveraging",
+        "name": "The Dark Suggestion",
+        "icon": "👻"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Micro-Expressions",
+        "name": "The Hidden Wink",
+        "icon": "😉"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Anchoring",
+        "name": "The False Anchor",
+        "icon": "🔗"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Scarcity",
+        "name": "The Invisible Deadline",
+        "icon": "⏳"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Authority",
+        "name": "The Silent Credo",
+        "icon": "🛡️"
       }
     ]
   },
@@ -13358,43 +13358,49 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
+    "closing": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of MicroBioscapes.",
-        "duration": 5
+        "title": "DNA Sequencer",
+        "name": "Micro‑U",
+        "icon": "🔬"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Drone Tech",
+        "name": "Smart Micro‑Drone",
+        "icon": "🚀"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Imaging",
+        "name": "Hyperspectral BioLens",
+        "icon": "🛰️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Sensors",
+        "name": "Nano Sensing Pod",
+        "icon": "🤖"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Plant Science",
+        "name": "Plant Microbiome Scan",
+        "icon": "🌱"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Growth",
+        "name": "Quantum Plant Growth Kit",
+        "icon": "⚛️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Physics",
+        "name": "Bio‑Particle Accelerator",
+        "icon": "🌀"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Fieldwork",
+        "name": "Portable Soil DNA Analyzer",
+        "icon": "🧪"
       }
     ]
   },
@@ -16136,43 +16142,49 @@
     ]
   },
   "ZeroGravityKitchen": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ZeroGravityKitchen secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of ZeroGravityKitchen.",
-        "duration": 5
+        "title": "Food Gizmos",
+        "name": "Hover Knife",
+        "icon": "🗡️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Starry Sweets",
+        "name": "Astro Cake",
+        "icon": "🎂"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Cosmic Drinks",
+        "name": "Nebula Shake",
+        "icon": "🥤"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Gravity Bites",
+        "name": "Micro Crunch",
+        "icon": "🍪"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Space Baking",
+        "name": "Lunar Bread",
+        "icon": "🍞"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Zero-G Flavors",
+        "name": "Milky Way Miso",
+        "icon": "🍜"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Floating Feasts",
+        "name": "Orbit Salad",
+        "icon": "🥗"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more ZeroGravityKitchen.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Celestial Cookware",
+        "name": "Orbit Pan",
+        "icon": "🥘"
       }
     ]
   },
@@ -28156,6 +28168,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1779955132643": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1779955132643 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Hidden Gameplay",
+        "name": "Shadow Hack",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Speed Boost",
+        "name": "Turbo Mode",
+        "icon": "💨"
+      },
+      {
+        "title": "Ultimate Weapon",
+        "name": "Photon Cannon",
+        "icon": "⚡"
+      },
+      {
+        "title": "Novice Guide",
+        "name": "Beginner's Luck",
+        "icon": "🍀"
+      },
+      {
+        "title": "Ultimate Boss",
+        "name": "Nebula Queen",
+        "icon": "👑"
+      },
+      {
+        "title": "Rare Collectible",
+        "name": "Aether Gem",
+        "icon": "💎"
+      },
+      {
+        "title": "Community Secret",
+        "name": "Discord Titan",
+        "icon": "🤖"
+      },
+      {
+        "title": "Future Update",
+        "name": "Alpha 2.0",
+        "icon": "🚀"
       }
     ]
   }
