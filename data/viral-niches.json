@@ -24845,6 +24845,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ForgottenFactoryChronicles",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The niche taps into humanity’s fascination with lost, secret industrial sites—answering the age‑old question of ‘What happened to these hidden factories?’ With faceless storytelling, dramatic \"secret‑uncovery\" hooks, and a wealth of historic data, it can deliver over 100k views per episode while scaling easily across dozens of abandoned sites worldwide.",
+      "ideas": [
+        "Inside the World's Largest Secret Factory: 5,000 Workers, Zero Records – Why It Vanished Overnight",
+        "The Factory That Manufactures Food in an Ice‑Cave Under Antarctica – Shocked The Global Food Supply Chain",
+        "How a 1920s Factory Discovered AI‑Like Voice‑Control Predicted the Future of Robotics"
+      ],
+      "keywords": [
+        "Abandoned",
+        "Factory",
+        "Hidden",
+        "Secret",
+        "Mystery"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
