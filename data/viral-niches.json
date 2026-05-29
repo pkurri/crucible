@@ -25169,6 +25169,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "MicroBioscapes taps into the human fascination with the unseen, offering stunning, high‑resolution microscopic footage of living microbes that can be edited into fast‑paced, color‑splashed visual stories. The niche is under‑exploited on mainstream platforms yet highly shareable and ideal for short, addictive clips that keep viewers scrolling. It aligns with trending interests in science, bio‑horror, and aesthetic internet culture, ensuring a rapid audience growth and high retention.",
+      "ideas": [
+        "5 Bacteria That Glow Like Neon Lights – Prepare to Be Amazed / Spotlight: The Bioluminescent Micro Society that Lives Under Your Tap Water!",
+        "Microbial Food Hacks: 3 Wall‑Eating Bacteria Turning Trash into Super Food – Watch the Transformation!",
+        "The Hidden World of 0.5‑Millimeter Creatures – You’ve Never Seen Nature’s Cameras In Action!"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Vibrant",
+        "Radiant",
+        "Bioluminescent",
+        "Alien‑Like"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
