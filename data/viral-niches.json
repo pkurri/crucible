@@ -25007,6 +25007,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Microscopic ecosystems are visually untapped, inherently wow‑worthy, and perfect for highly shareable loops. The niche offers endless unique subjects (bacteria, fungi, microbes, engineered bio‑art) that can be rendered in stunning 3‑d film. The content harnesses inherent curiosity, has high retention with animated footage, and scales easily with new microbes, bioluminescent labs, and micro‑reptiles. Current interest in X‑ray and 3‑D microscopy, combined with science‑trending social media, positions this niche for >1M subs and 100K+ views per video.",
+      "ideas": [
+        "15-Second Bacterial Metropolis: Inside a Cell That Defies Reality (Hook: \"Think you know bacteria? This city will change everything.\")",
+        "The Hidden Micro‑Forest In Your Backyard – 3D Rendered Bacteria Revealed (Hook: \"Stuck in a dusty attic? Your backyard hides a hidden empire…\")",
+        "Micro‑Plant Kingdoms Under Light‑Sleeve Fabrics: 1,000x Life Unleashed (Hook: \"Ever seen a forest so tiny? This micro garden will blow your mind.\")"
+      ],
+      "keywords": [
+        "Microscopic",
+        "3DRenderer",
+        "Bacteria",
+        "Microbiology",
+        "NanoLife"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
