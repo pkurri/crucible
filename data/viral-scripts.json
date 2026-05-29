@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12391,43 +12391,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Sway Algorithm",
+        "icon": "🌀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Mirror Tactic",
+        "icon": "🪞"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Authority",
+        "name": "Echo Hierarchy",
+        "icon": "👑"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Fear Pulse",
+        "icon": "😱"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bandwagon Trap",
+        "icon": "🧑‍🤝‍🧑"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Scarcity",
+        "name": "Limited Glow",
+        "icon": "⚡"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Guilt",
+        "name": "Regret Loop",
+        "icon": "🤯"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Isolation",
+        "name": "Alone Echo",
+        "icon": "🕳️"
       }
     ]
   },
@@ -28625,6 +28631,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1780025445086": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1780025445086 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1780025445086, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "ApexCore",
+        "icon": "⚡"
+      },
+      {
+        "title": "Integration Hub",
+        "name": "SyncSphere",
+        "icon": "🌐"
+      },
+      {
+        "title": "Visualization Suite",
+        "name": "GraphEagle",
+        "icon": "📊"
+      },
+      {
+        "title": "AI Companion",
+        "name": "NeuraMate",
+        "icon": "🧠"
+      },
+      {
+        "title": "Security Layer",
+        "name": "ShieldVault",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Workflow Templates",
+        "name": "BlueprintVault",
+        "icon": "📄"
+      },
+      {
+        "title": "Analytics Dashboard",
+        "name": "InsightOrb",
+        "icon": "🔭"
+      },
+      {
+        "title": "Developer Kit",
+        "name": "DevSpark",
+        "icon": "🔥"
       }
     ]
   }
