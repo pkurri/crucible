@@ -12309,43 +12309,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Mushroom Extract",
+        "icon": "🍄"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Nicotinamide Riboside",
+        "icon": "💊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT Sprint",
+        "icon": "🏃‍♂️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking",
+        "icon": "🌙"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Microdosing Fasting",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Skincare",
+        "name": "Collagen Boost",
+        "icon": "🌸"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Community Ritual",
+        "icon": "🤝"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Tracking",
+        "icon": "⌚"
       }
     ]
   },
@@ -12391,43 +12397,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Subtle Manipulation",
+        "name": "Mirroring Technique",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Scarcity Pitch",
+        "icon": "⚙️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Trigger Tactics",
+        "name": "Foot-in-the-Door",
+        "icon": "🚪"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Fake Authority",
+        "icon": "👑"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Gaslighting",
+        "name": "Reality Distortion Field",
+        "icon": "🌀"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Language Power",
+        "name": "Swish Pattern",
+        "icon": "🗣️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Framing",
+        "name": "Reframe Negative",
+        "icon": "🔁"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Influence Loops",
+        "name": "Reciprocity Trap",
+        "icon": "🔗"
       }
     ]
   },
@@ -16130,49 +16142,43 @@
     ]
   },
   "ZeroGravityKitchen": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 ZeroGravityKitchen secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Food Gizmos",
-        "name": "Hover Knife",
-        "icon": "🗡️"
+        "text": "Nobody talks about the truth of ZeroGravityKitchen.",
+        "duration": 5
       },
       {
-        "title": "Starry Sweets",
-        "name": "Astro Cake",
-        "icon": "🎂"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Cosmic Drinks",
-        "name": "Nebula Shake",
-        "icon": "🥤"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Gravity Bites",
-        "name": "Micro Crunch",
-        "icon": "🍪"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Space Baking",
-        "name": "Lunar Bread",
-        "icon": "🍞"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Zero-G Flavors",
-        "name": "Milky Way Miso",
-        "icon": "🍜"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Floating Feasts",
-        "name": "Orbit Salad",
-        "icon": "🥗"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Celestial Cookware",
-        "name": "Orbit Pan",
-        "icon": "🥘"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },

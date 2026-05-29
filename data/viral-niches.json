@@ -25262,6 +25262,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "ZeroGravityKitchen blends the irresistible curiosity of space science with the universal love of cooking, producing visually spectacular, mind‑blowing experiments that are both educational and endlessly shareable. The concept is underexplored on mainstream platforms, giving it a clean slate for dominance, and it can generate an infinite stream of content—different foods, cooking techniques, and lab‑style simulations—granting a 25+ idea pipeline. Its strong hook potential (e.g., “Eggs That Never Fall Down”) guarantees scroll‑stopping engagement, while the awe‑inducing visuals foster community growth and high retention.",
+      "ideas": [
+        "What Happens to a Boiled Egg in Zero Gravity? (Space Kitchen Experiment!)",
+        "Meat, Spaghetti, and Sauces Fly: The Ultimate Zero‑Gravity Cook‑Off",
+        "Microgravity Ramen: Can You Swallow Soup in Space? (Astro Chef Showdown)"
+      ],
+      "keywords": [
+        "ZeroGravityCooking",
+        "SpaceFood",
+        "MicrogravityReactions",
+        "AstroChef",
+        "SpaceKitchen"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
