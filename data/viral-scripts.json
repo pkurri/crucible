@@ -12381,7 +12381,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12391,43 +12391,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Sway Algorithm",
+        "icon": "🌀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Manipulation",
+        "name": "Mirror Tactic",
+        "icon": "🪞"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Authority",
+        "name": "Echo Hierarchy",
+        "icon": "👑"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Fear Pulse",
+        "icon": "😱"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bandwagon Trap",
+        "icon": "🧑‍🤝‍🧑"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Scarcity",
+        "name": "Limited Glow",
+        "icon": "⚡"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Guilt",
+        "name": "Regret Loop",
+        "icon": "🤯"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Isolation",
+        "name": "Alone Echo",
+        "icon": "🕳️"
       }
     ]
   },
@@ -13355,39 +13361,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Microbes are rewriting life’s hidden script.",
+        "text": "Nobody talks about the truth of MicroBioscapes.",
         "duration": 5
       },
       {
-        "text": "Imagine your future written by unseen 3D cells.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Bacteria can produce light faster than a hummingbird blink.",
-        "duration": 5
-      },
-      {
-        "text": "A single colony can outcompete an entire ecosystem in days.",
-        "duration": 5
-      },
-      {
-        "text": "Engineered microbes are crafting 3D art that punishes gravity.",
-        "duration": 5
-      },
-      {
-        "text": "If you think we’re done, the next video will blow your mind.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Stop missing tomorrow’s micro‑reptile catalyst hack!",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
         "duration": 5
       },
       {
-        "text": "Next up: micro‑be bioluminescence that paints the sky.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -28760,6 +28766,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ZeroGravityGardening": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ZeroGravityGardening secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ZeroGravityGardening.",
+    "list": [
+      {
+        "title": "Plant",
+        "name": "Lunar Lettuce",
+        "icon": "🌱"
+      },
+      {
+        "title": "Technique",
+        "name": "Magnetoponic Roots",
+        "icon": "🧲"
+      },
+      {
+        "title": "Equipment",
+        "name": "Zero‑G Mist Sprayer",
+        "icon": "💧"
+      },
+      {
+        "title": "Medium",
+        "name": "Aerogel Soil Substitute",
+        "icon": "🪨"
+      },
+      {
+        "title": "Innovation",
+        "name": "Photon‑Harvesting Panels",
+        "icon": "⚡"
+      },
+      {
+        "title": "Method",
+        "name": "Centrifugal Seed Sowing",
+        "icon": "🌀"
+      },
+      {
+        "title": "Supplement",
+        "name": "Micro‑Gravity Nutrient Gel",
+        "icon": "🥦"
+      },
+      {
+        "title": "Harvest",
+        "name": "Floating Fruit Pods",
+        "icon": "🍇"
       }
     ]
   }

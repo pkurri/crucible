@@ -25076,6 +25076,30 @@
         "oscillatory"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityGardening",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero-gravity gardening merges cutting-edge space tech with accessible, visually stunning content—perfect for high engagement on short- and long-form platforms. The niche taps into growing interest in space colonization and sustainability, offering endless curiosity loops and scroll‑stopping moments as viewers watch plants defy physics. Its universal appeal and scarcity of existing content give it potential to rapidly amass 1M subscribers and 100k+ views per video.",
+      "ideas": [
+        "Watch a Tomato Grow in 0g: The Future of Space Farming! – Ever wondered how you’ll eat fresh produce in orbit? Watch as we grow a tomato in zero gravity!",
+        "Zero Gravity Hydroponics: Science + Bizarre Reality – Can plants thrive without gravity? Discover the weird science behind space farms!",
+        "Space Vegetable Lab: First Ever 0g Greenhouse! – From NASA to your screen: The moment plants break free from Earth’s pull."
+      ],
+      "keywords": [
+        "Zero-Gravity",
+        "Space Agriculture",
+        "Floating Plants",
+        "NASA",
+        "Hydroponic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
