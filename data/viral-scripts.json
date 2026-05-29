@@ -12268,43 +12268,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Chatbot Control",
+        "name": "GPT-4 Finance Wrangler",
+        "icon": "🤖"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Autonomous Warfare",
+        "name": "Drone AI Commander",
+        "icon": "🛩️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Manipulation",
+        "name": "Deepfake Influence Bot",
+        "icon": "🎭"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Privacy Breach",
+        "name": "NLP Surveillance Hub",
+        "icon": "📡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Financial Markets",
+        "name": "High-Freq Trading AI",
+        "icon": "💹"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Legal Systems",
+        "name": "AI Court Arbiter",
+        "icon": "⚖️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Media Control",
+        "name": "Algorithmic News Filter",
+        "icon": "📰"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Healthcare",
+        "name": "MediBot Prescription Engine",
+        "icon": "💊"
       }
     ]
   },
@@ -12350,90 +12356,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Signal Source",
+        "name": "HodlRadar",
+        "icon": "📡"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Market Pulse",
+        "name": "PumpScan",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Analytics Engine",
+        "name": "KryptiqLens",
+        "icon": "🔍"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Social Pulse",
+        "name": "TrendWhisper",
+        "icon": "🗣️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Trade Macro",
+        "name": "BullWave",
+        "icon": "🌊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Data Hub",
+        "name": "ChainDecoder",
+        "icon": "🧩"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Smart Contract",
+        "name": "YieldForge",
+        "icon": "⚒️"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Risk Tool",
+        "name": "CapShield",
+        "icon": "🛡️"
       }
     ]
   },
   "DarkPsychologyPower": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Persuasion Tactics",
-        "name": "Mirror Effect",
+        "title": "Subtle Manipulation",
+        "name": "Mirroring Technique",
         "icon": "🪞"
       },
       {
-        "title": "Manipulation Loops",
-        "name": "Scarcity Signal",
-        "icon": "💣"
-      },
-      {
-        "title": "Psychological Triggers",
-        "name": "Anchoring Bias",
-        "icon": "📌"
-      },
-      {
-        "title": "Neuroscience Hacks",
-        "name": "Neural Suppression",
-        "icon": "🧠"
-      },
-      {
-        "title": "Social Engineering",
-        "name": "Gaslight Pattern",
-        "icon": "🎭"
-      },
-      {
         "title": "Emotional Leverage",
-        "name": "Echo Chamber",
-        "icon": "🔊"
+        "name": "Scarcity Pitch",
+        "icon": "⚙️"
       },
       {
-        "title": "Cognitive Control",
-        "name": "Reframe Narrative",
+        "title": "Trigger Tactics",
+        "name": "Foot-in-the-Door",
+        "icon": "🚪"
+      },
+      {
+        "title": "Social Proof",
+        "name": "Fake Authority",
+        "icon": "👑"
+      },
+      {
+        "title": "Gaslighting",
+        "name": "Reality Distortion Field",
+        "icon": "🌀"
+      },
+      {
+        "title": "Language Power",
+        "name": "Swish Pattern",
+        "icon": "🗣️"
+      },
+      {
+        "title": "Framing",
+        "name": "Reframe Negative",
         "icon": "🔁"
       },
       {
-        "title": "Inner Reflection",
-        "name": "Impulse Override",
-        "icon": "⚡"
+        "title": "Influence Loops",
+        "name": "Reciprocity Trap",
+        "icon": "🔗"
       }
     ]
   },
@@ -13361,39 +13373,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "What if your toothbrush hides a horror film?",
+        "text": "Nobody talks about the truth of MicroBioscapes.",
         "duration": 5
       },
       {
-        "text": "Now we’re 3D‑rendering it — the living nightmare is real.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Microbes can outgrow a skyscraper in five minutes.",
-        "duration": 5
-      },
-      {
-        "text": "They build nanofactories that billow deadly spores.",
-        "duration": 5
-      },
-      {
-        "text": "Some glow like tiny photon‑fireworks after midnight.",
-        "duration": 5
-      },
-      {
-        "text": "Imagine a colony that paints itself with bioluminescence.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "If you skip it, you'll miss a 3‑D life‑size microbiome.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
-        "text": "Next, we’ll dive into a fungus that chirps like a choir.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -28942,6 +28954,47 @@
         "title": "Dimensional Rift",
         "name": "Eclipse Gate",
         "icon": "🌑"
+      }
+    ]
+  },
+  "ApexFlow_1780079676626": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1780079676626.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
