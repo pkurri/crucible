@@ -25286,6 +25286,30 @@
         "SpaceKitchen"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes offers a unique blend of science and stunning visual discovery, showcasing the hidden complexity of microscopic life with ultra-high‑resolution imagery. This niche thrives on curiosity-driven content that perfectly fits short‑form platforms, has broad demographic appeal, and benefits from rapid content repeatability. The visual intensity and wonder associated with these unseen worlds spark share‑worthy moments and the potential for both educational and entertaining narratives—ideal for viral growth.",
+      "ideas": [
+        "The Hidden Aquatic Worlds Inside a Drop of Pond Water – Amazing Macro Photos / Hook: “Watch tiny ecosystems perform like entire cities in 4K!”",
+        "MicroBioscaping Surprise: These Tiny Creatures Build Complex Structures – You Won’t Believe the Details! / Hook: “See how organisms construct their habitats in under 100 µm.”",
+        "Explore the Microscopic Jungle: 4K View of a Coffee Cup’s Bacteria – Unbelievable Complexity / Hook: “One sip of coffee, a whole universe of life unfolding.”"
+      ],
+      "keywords": [
+        "macro",
+        "ultrawide",
+        "microscopic",
+        "detailed",
+        "colorful"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
