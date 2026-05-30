@@ -25355,6 +25355,30 @@
         "Eco_Innovation"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FutureSnackTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Sustainability and food innovation are at the forefront of global conversation, yet the concept of lab‑grown and algae‑based snacks remains under‑exploited on mainstream video platforms. This niche blends trend‑setting science with everyday relevance, allowing creators to showcase visually stunning food demos, taste tests, and expert interviews. The scarcity of high‑quality content and the appetite for “future food” discussions make it ripe for viral growth.",
+      "ideas": [
+        "Lab‑Grown Popcorn: The Snack That Will Replace All Corrupt Crunch! ‑ Watch the Surprising Taste Test 🥇🔬",
+        "Algae Snack Surprise: 5 Weird Things I Tried That Taste Like Gummy Bears 🤯😋",
+        "Future Food Taste Test: Chitin Chips vs. Traditional Chips – Which Wins?! 👀🔥"
+      ],
+      "keywords": [
+        "lab-grown",
+        "algae",
+        "future food",
+        "sustainable",
+        "taste test"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
