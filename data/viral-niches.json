@@ -25331,6 +25331,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "UrbanTrashArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "UrbanTrashArchitecture merges cutting‑edge recycling technology with stunning architectural visuals, a hot trend in sustainability and DIY culture. It offers endless experiment‑style content that hooks viewers with the promise of transforming everyday trash into functional, eye‑catching structures. The niche is quickly growing, highly shareable, and perfect for “scroll‑stopping” reveals and curiosity loops.",
+      "ideas": [
+        "\"From Trash to Tower: Building a Skyscraper with Recycled Roads!\" – Hook: What if your junk could become a skyline? We tested it!",
+        "\"The Million‑Dollar Apartment Made from Plastic Bottles\" – Hook: Can a home weigh less than a truck? Find out here!",
+        "\"The World's Smallest Mall Made from Recycled Shoes\" – Hook: A mall that fits on a coffee table—discover the impossible!"
+      ],
+      "keywords": [
+        "Recycled",
+        "3D_Printing",
+        "Zero_Waste",
+        "Urban_Architecture",
+        "Eco_Innovation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
