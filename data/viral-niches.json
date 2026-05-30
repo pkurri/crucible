@@ -25430,6 +25430,30 @@
         "culinary experiment"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "With rising sea‑level concerns and the abundance of high‑resolution satellite & drone footage, vanishing coastlines deliver a blend of urgency, wonder, and visual drama that is incredibly shareable and has evergreen relevance; it confidently supports scroll‑stopping hooks, curiosity loops and a large content generation potential.",
+      "ideas": [
+        "Vanishing Coastlines: Watch a Tropical Island Fade Away in 3 Seconds – Drone Time‑Lapse",
+        "23 Cities Underwater in 2029: Guess Which One Will Not Survive Forever – Vanishing Coastlines Challenge",
+        "1 Minute Reclamation: The Ocean Secretly Eats a Nation – Vanishing Coastlines 2024 Timeline"
+      ],
+      "keywords": [
+        "Drone",
+        "Time‑Lapse",
+        "Mapping",
+        "Underwater",
+        "Destruction"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
