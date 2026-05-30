@@ -25406,6 +25406,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking is a niche that fuses space exploration, culinary curiosity, and cutting‑edge visual effects. The visual spectacle of food defying gravity, combined with behind‑the‑scenes science explanations, keeps viewers hooked. The topic is fresh enough to carve its own space yet universally relatable, driving high watch‑time and shareability across YouTube and Meta platforms.",
+      "ideas": [
+        "The Unknown Science of Making Pizza in Zero‑Gravity: Watch It Float Like Never Before!",
+        "Can You Make a Perfect Cookie in 0G? This Experiment Reveals the Ultimate Space Snack!",
+        "Space Chef’s Countdown: 5 Fascinating Recipes You Won’t Find on Earth (Zero‑Gravity Edition)"
+      ],
+      "keywords": [
+        "zero gravity",
+        "space cooking",
+        "astronaut food",
+        "microgravity",
+        "culinary experiment"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
