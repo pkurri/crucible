@@ -12268,84 +12268,96 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Chatbot Control",
+        "name": "GPT-4 Finance Wrangler",
+        "icon": "🤖"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Autonomous Warfare",
+        "name": "Drone AI Commander",
+        "icon": "🛩️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Manipulation",
+        "name": "Deepfake Influence Bot",
+        "icon": "🎭"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Privacy Breach",
+        "name": "NLP Surveillance Hub",
+        "icon": "📡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Financial Markets",
+        "name": "High-Freq Trading AI",
+        "icon": "💹"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Legal Systems",
+        "name": "AI Court Arbiter",
+        "icon": "⚖️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Media Control",
+        "name": "Algorithmic News Filter",
+        "icon": "📰"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Healthcare",
+        "name": "MediBot Prescription Engine",
+        "icon": "💊"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT Sprints",
+        "icon": "🏃‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Filter",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "5‑Minute Meditation",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol & Omega‑3",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Clean Air Filters",
+        "icon": "🌬️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Daily Connection",
+        "icon": "🤝"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Water",
+        "icon": "💧"
       }
     ]
   },
@@ -29223,6 +29235,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1780160787059": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1780160787059 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1780160787059, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "Quantum Sync Module",
+        "icon": "⚡"
+      },
+      {
+        "title": "Visualization",
+        "name": "Real‑Time Flow Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "Adaptive Trigger Bot",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Encryption Layer",
+        "icon": "🔒"
+      },
+      {
+        "title": "Scalability",
+        "name": "Elastic Node Orchestrator",
+        "icon": "🚀"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Insight AI",
+        "icon": "🧠"
+      },
+      {
+        "title": "Integration",
+        "name": "Universal API Gateway",
+        "icon": "🔗"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Expert Concierge",
+        "icon": "💎"
       }
     ]
   }
