@@ -25724,6 +25724,32 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "SpaceFoodTech taps into the rapidly growing curiosity about space exploration, colonization, and zero‑gravity living. With the rise of Mars missions and private spaceflight, people are fascinated by how food will be grown, processed, and enjoyed beyond Earth. Unlike mainstream cooking channels, this niche blends science, technology, and speculative design, offering endless visual spectacle (e.g., floating meals, 3‑D printed proteins, edible habitats). The high‑end visual content and push‑the‑limits concept create strong scroll‑stopping hooks, easy curiosity loops, and scalable content across 25+ unique formats.",
+      "ideas": [
+        "10 Future Foods That Will Fuel Mars Colonists – And They Taste Like Pizza!",
+        "Zero‑Gravity Cooking Crash‑Course: How to Slice a Lasagna in 3‑D Space!",
+        "The Space Superfood of 2045 – Can It Cure Binge‑Eating? (Full 3‑D Animation)",
+        "Why the First Space Sandwich Looks Absolutely Impossible – Watch the 3‑Minute Test!",
+        "The Ultimate Space Food Hack: 10 Food‑Printing Recipes That Will Blow Your Mind!"
+      ],
+      "keywords": [
+        "zerogravity cooking",
+        "space kitchen",
+        "quantum food printing",
+        "futuristic food",
+        "floating food"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
