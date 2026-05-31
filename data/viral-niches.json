@@ -25750,6 +25750,30 @@
         "floating food"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The invisible micro‑world offers endless visual wonder and curiosity spikes, yet remains underexplored on mainstream channels. The niche allows endlessly scalable content—from macro‑factoids to ultra‑high‑magnification time‑lapses—each maintaining strong scroll‑stop and curiosity loop mechanics. High‑quality microscopy footage naturally engages viewers for 2–3 minutes, meeting YouTube’s watch‑time thresholds for rapid growth. Scarce competition, broad relevance (health, environment, daily life), and potential for cross‑posting on Meta’s Reels/Stories amplify reach.",
+      "ideas": [
+        "10 Microbial Cities Thriving in Your Bathroom / You’ll Never Guess How They Build Entire Societies in 1000× Zoom",
+        "The Silent Flood: 7 Tiny Creatures Threatening Global Water Systems / Watch Their Microscopic Sabotage in Real Time",
+        "Hidden Horror in Your Bedroom: 5 Night‑Owning Microorganisms That Never Sleep / What It Looks Like When They Breathe in Graphene‑Level Detail"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Bio‑Luminescent",
+        "Nano",
+        "Cellular",
+        "Hidden"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
