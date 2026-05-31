@@ -25942,6 +25942,30 @@
         "Culinary"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking combines two hot trends—space exploration and food‑innovation—with hyper‑visual, impossible‑looking experiments that naturally spark curiosity and awe. The niche lacks saturation, yet lends itself to endless micro‑episode concepts (e.g., floating dough, floating sauces, zero‑G soufflés) that drive instant shareability and scroll‑stopping hooks. Platforms like Meta’s Reels and YouTube Shorts thrive on such short, high‑impact moments, allowing quick viral traction while the full YouTube channel can cultivate depth and community.",
+      "ideas": [
+        "How to Bake a Classic Chocolate Cake in Zero‑G: The Cosmic No‑Fall Trick!",
+        "Flipping a Pancake in Space: The Solar‑Powered Pancake Challenge!",
+        "Micrometeorite‑Grade Food: Eating Astronaut Snacks vs Earth‑Based Recipes!"
+      ],
+      "keywords": [
+        "SpaceFood",
+        "ZeroG",
+        "FloatingIngredients",
+        "MicrogravityCooking",
+        "AstronautKitchen"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
