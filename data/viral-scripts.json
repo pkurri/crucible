@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12311,94 +12311,94 @@
   "LongevityHacksUnlocked": {
     "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
     "list": [
       {
         "title": "Nutrition",
-        "name": "Blueberry Elixir",
-        "icon": "🍇"
+        "name": "B12-Boost Juice",
+        "icon": "🥤"
       },
       {
         "title": "Exercise",
-        "name": "Splash Drank Sprint",
-        "icon": "🏊"
+        "name": "60‑Second HIIT",
+        "icon": "🏋️‍♂️"
       },
       {
         "title": "Sleep",
-        "name": "Midnight Chill Pillow",
-        "icon": "💤"
+        "name": "Polyphasic Schedule",
+        "icon": "🛌"
       },
       {
-        "title": "Mindfulness",
-        "name": "Zen Gauntlet",
-        "icon": "🧘"
+        "title": "Mind",
+        "name": "10‑Minute Meditation",
+        "icon": "🧘‍♀️"
       },
       {
         "title": "Supplements",
-        "name": "Curcumin Capsule",
+        "name": "Resveratrol Capsules",
         "icon": "💊"
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Mud",
-        "icon": "💧"
-      },
-      {
-        "title": "Genetics",
-        "name": "Telomere Tuner",
-        "icon": "🧬"
+        "title": "Technology",
+        "name": "Wearable Tracker",
+        "icon": "⌚"
       },
       {
         "title": "Social",
-        "name": "Digital Detox Club",
-        "icon": "📵"
+        "name": "Daily Connection Call",
+        "icon": "📞"
+      },
+      {
+        "title": "Environment",
+        "name": "Blue‑Light Filter Glasses",
+        "icon": "🕶️"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "am_adam",
+    "voice": "af_heart",
     "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Whale Tracking",
-        "name": "Silent Whale",
-        "icon": "🦈"
+        "title": "Signal Source",
+        "name": "HodlRadar",
+        "icon": "📡"
       },
       {
-        "title": "Liquidity Gaps",
-        "name": "LiquidityGhost",
-        "icon": "💧"
+        "title": "Market Pulse",
+        "name": "PumpScan",
+        "icon": "📈"
       },
       {
-        "title": "Layer-2 Storm",
-        "name": "LayerSpeedster",
-        "icon": "⚡"
+        "title": "Analytics Engine",
+        "name": "KryptiqLens",
+        "icon": "🔍"
       },
       {
-        "title": "Tokenomics Trap",
-        "name": "BurnEclipse",
-        "icon": "🔥"
-      },
-      {
-        "title": "Private Vaults",
-        "name": "VaultWormhole",
-        "icon": "🔑"
-      },
-      {
-        "title": "Oracular Insight",
-        "name": "OracleEye",
-        "icon": "🔮"
-      },
-      {
-        "title": "Cross-Chain Boost",
-        "name": "BridgeGiant",
-        "icon": "🌉"
-      },
-      {
-        "title": "Rumor Engines",
-        "name": "PhantomBuzz",
+        "title": "Social Pulse",
+        "name": "TrendWhisper",
         "icon": "🗣️"
+      },
+      {
+        "title": "Trade Macro",
+        "name": "BullWave",
+        "icon": "🌊"
+      },
+      {
+        "title": "Data Hub",
+        "name": "ChainDecoder",
+        "icon": "🧩"
+      },
+      {
+        "title": "Smart Contract",
+        "name": "YieldForge",
+        "icon": "⚒️"
+      },
+      {
+        "title": "Risk Tool",
+        "name": "CapShield",
+        "icon": "🛡️"
       }
     ]
   },
@@ -12434,7 +12434,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -13364,43 +13364,49 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of MicroBioscapes.",
-        "duration": 5
+        "title": "Subterra Sea",
+        "name": "Silky Hydrothermal Vortex",
+        "icon": "🌊"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Cloud Forest",
+        "name": "Mist Spore Cloudscape",
+        "icon": "☁️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Rotting Gardens",
+        "name": "Amber Rot Maze",
+        "icon": "🍃"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Icy Saliva",
+        "name": "Glacial Bio-ice Sheet",
+        "icon": "❄️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Fungal Joy",
+        "name": "Shimmering Mycelial Web",
+        "icon": "🕸️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Dusty Plains",
+        "name": "Nuggety Bacterial Field",
+        "icon": "🌾"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sulfur Springs",
+        "name": "Blazing Iron Bubbles",
+        "icon": "🌋"
       },
       {
-        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Luminous Depths",
+        "name": "Bioluminescent Chamber",
+        "icon": "✨"
       }
     ]
   },

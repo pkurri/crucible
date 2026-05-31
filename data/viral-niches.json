@@ -25846,6 +25846,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "MicroBioscapes offers never‑before‑seen microscopic worlds, blending science with visual spectacle—perfect for faceless, low‑cost production, high emotional engagement, and endless content ideas in a constantly trending niche.",
+      "ideas": [
+        "Inside a Drop of Water: 5 Hidden Micro‑Worlds You Never Knew Existed | Think your water is just H2O? Watch what happens when we zoom in...",
+        "Micro‑World Time‑Lapse: Watch 30 Seconds of a Bacteria Colony Take 30 Days to Grow | What would 30 days look like in 30 seconds? You won’t see anything like this.",
+        "The Black Market of Pet Food: Infested with Micro‑Organisms You Can’t Spot | We tested ordinary pet food—what we found will make you question everything."
+      ],
+      "keywords": [
+        "Microscopic",
+        "Bacteria",
+        "Nano",
+        "Time‑Lapse",
+        "Tiny"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
