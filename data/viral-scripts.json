@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12309,43 +12309,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Mushroom Extract",
+        "icon": "🍄"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Nicotinamide Riboside",
+        "icon": "💊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT Sprint",
+        "icon": "🏃‍♂️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking",
+        "icon": "🌙"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Microdosing Fasting",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Skincare",
+        "name": "Collagen Boost",
+        "icon": "🌸"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Community Ritual",
+        "icon": "🤝"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Wearable Tracking",
+        "icon": "⌚"
       }
     ]
   },
@@ -12381,7 +12387,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -29522,6 +29528,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1780199032710": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1780199032710 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Feature",
+        "name": "Auto‑Scaling Pipelines",
+        "icon": "⚡"
+      },
+      {
+        "title": "Technique",
+        "name": "Zero‑Downtime Deployments",
+        "icon": "🔄"
+      },
+      {
+        "title": "Tool",
+        "name": "Real‑Time Analytics Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Metric",
+        "name": "Sub‑Second Latency",
+        "icon": "⏱️"
+      },
+      {
+        "title": "Integration",
+        "name": "Multi‑Cloud Connectors",
+        "icon": "☁️"
+      },
+      {
+        "title": "Security",
+        "name": "End‑to‑End Encryption",
+        "icon": "🔒"
+      },
+      {
+        "title": "Optimization",
+        "name": "AI‑Driven Resource Tuning",
+        "icon": "🤖"
+      },
+      {
+        "title": "Community",
+        "name": "Open‑Source Plugin Marketplace",
+        "icon": "🧩"
       }
     ]
   }
