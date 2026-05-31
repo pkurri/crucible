@@ -25774,6 +25774,30 @@
         "Hidden"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceTrashTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "curiosity",
+      "reason": "The rapid increase in orbital debris, coupled with growing awareness of environmental responsibility, has created a global conversation around space waste. This niche blends high‑stakes science, cutting‑edge technology, and urgent sustainability themes, making it ripe for viral content that promises insider looks, jaw‑dropping visuals, and tangible science‑fiction meets reality stories.",
+      "ideas": [
+        "The $500 Billion Space Trash Industry – How Companies Are Turning Meteor‑Heavy Junk Into Power‑Generators 🚀",
+        "From Trash to Towers: Building Habitable Space Structures with 100% Recycled Orbital Debris – In‑Depth 4‑K Flight‑Sim Reveal",
+        "NASA’s Future Space Clean‑up: A Real‑Life Demo of Debris‑Collecting Robots in Low Earth Orbit – Live Footage"
+      ],
+      "keywords": [
+        "futuristic",
+        "glowing",
+        "high‑resolution",
+        "realistic",
+        "aerial"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
