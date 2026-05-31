@@ -12350,84 +12350,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Whale Tracking",
+        "name": "Silent Whale",
+        "icon": "🦈"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Liquidity Gaps",
+        "name": "LiquidityGhost",
+        "icon": "💧"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Layer-2 Storm",
+        "name": "LayerSpeedster",
+        "icon": "⚡"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Tokenomics Trap",
+        "name": "BurnEclipse",
+        "icon": "🔥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Private Vaults",
+        "name": "VaultWormhole",
+        "icon": "🔑"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Oracular Insight",
+        "name": "OracleEye",
+        "icon": "🔮"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cross-Chain Boost",
+        "name": "BridgeGiant",
+        "icon": "🌉"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Rumor Engines",
+        "name": "PhantomBuzz",
+        "icon": "🗣️"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Unlock 8 dark psychology tricks that’ll leave you speechless.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Psychological Triggers",
+        "name": "The Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Deception",
+        "name": "The Misdirection Loop",
+        "icon": "🎭"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "The Bandwagon Hook",
+        "icon": "👥"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Fear Leveraging",
+        "name": "The Dark Suggestion",
+        "icon": "👻"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Micro-Expressions",
+        "name": "The Hidden Wink",
+        "icon": "😉"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Anchoring",
+        "name": "The False Anchor",
+        "icon": "🔗"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Scarcity",
+        "name": "The Invisible Deadline",
+        "icon": "⏳"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Authority",
+        "name": "The Silent Credo",
+        "icon": "🛡️"
       }
     ]
   },
@@ -29849,6 +29861,47 @@
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "QuantumKitchen": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Quantum chips cook your dinner in 0.1 milliseconds.",
+        "duration": 5
+      },
+      {
+        "text": "What if your cake texture is controlled by entanglement?",
+        "duration": 4
+      },
+      {
+        "text": "Result: a soufflé that rises then flattens at the exact peak.",
+        "duration": 5
+      },
+      {
+        "text": "AI optimizes every spice, turning flavor into a code.",
+        "duration": 5
+      },
+      {
+        "text": "Quantum ovens emit heat waves that “entangle” aromas.",
+        "duration": 5
+      },
+      {
+        "text": "Lose a minute and you'll miss a flavor explosion.",
+        "duration": 4
+      },
+      {
+        "text": "The next step unlocks a flavor black hole—stay tuned.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master QuantumKitchen, you're the place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: Quantum pizza topping that defies gravity!",
         "duration": 4
       }
     ]

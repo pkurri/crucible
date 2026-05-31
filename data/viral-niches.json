@@ -25918,6 +25918,30 @@
         "Microgravity"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combining the ultra‑cutting‑edge world of quantum computing with everyday cooking creates a novel, highly visual niche that taps into both science‑enthusiast and food‑lover audiences. The concept offers endless scroll‑stopping hooks—quantum chips deciding doneness, entangled flavor matrices, AI‑optimized baking—and promises repeat‑viewable curiosity loops. With few competitors and strong cross‑platform potential, this niche can sustain 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "The Quantum Chef: 5 Minutes to the Perfect Steak with a Quantum Chip! (Extraordinary Science #1)",
+        "Quantum Infused Smoothies: Grab the Ultimate Flavor Profile Using Entangled Algorithms! (Taste Meets Tech #3)",
+        "Quantum Baking: 3 Bread Recipes That Bloat with Intelligence (The Future of Bread #7)"
+      ],
+      "keywords": [
+        "Quantum",
+        "Baking",
+        "Entanglement",
+        "AI",
+        "Culinary"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
