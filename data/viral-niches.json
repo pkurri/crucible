@@ -25673,6 +25673,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SkinMicrobiomeBeauty",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The skin microbiome has become a hot topic in consumer science and beauty, blending microbiology, personalized skincare, and AI. Nobody has yet consolidated the science of skin microbes into engaging, faceless, easily shareable content. The topic invites endless curiosity loops, tension about what living bacteria are doing to our skin, and promises tangible skincare tips, enabling high share rates. With a clear, relatable hook—\"Your skin might be smarter than you think\"—this niche can attract millions of viewers, each video debuting with 100K+ views and growing subscriber counts far beyond the 1M threshold.",
+      "ideas": [
+        "\"10 Secrets the Skin Microbiome Has Been Keeping From You / Fitness Enthusiasts Will Be Shocked!\"",
+        "\"I Let AI Design My Custom Skincare Routine – 80% Better Results in 3 Weeks / Watch How It Works!\"",
+        "\"The Microbial Battle in Your T-zone – How to Stop Acne Before It Starts / Dermatologists Hate This Hack\""
+      ],
+      "keywords": [
+        "Microbe",
+        "Glow",
+        "Custom",
+        "Clean",
+        "Science"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
