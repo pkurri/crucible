@@ -25894,6 +25894,30 @@
         "fluid‑dynamics"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The ZeroGravityKitchen niche leverages the surge in public interest in space exploration, futuristic technology, and food science. Combining mesmerizing zero‑g cooking demonstrations with intriguing “what‑if” scenarios creates hook‑pulling content that feeds curiosity and wonder. A faceless format using animated overlays and high‑energy narration keeps viewers scrolling, while the inherent unpredictability of gravity‑free cooking guarantees a plethora of bite‑sized, shareable stories that can be multiplied into 25+ unique viral concepts.",
+      "ideas": [
+        "Zero-Gravity Pancake Experiment: See What Happens When Flap Jums Into Space!",
+        "Hydrogen‑Powered Sous‑Vide: The Future of Food in Zero G?",
+        "Built-In Space Chef: A 60‑Second Kitchen Tour in Microgravity"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "FutureTech",
+        "GravityFree",
+        "Microgravity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
