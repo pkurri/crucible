@@ -26038,6 +26038,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The microscopic world is inherently unknown and visually stunning. High‑resolution macro footage of bacteria, biofilms, and single cells offers instant visual intrigue. As a faceless niche, creators can focus purely on imagery and audio, reducing production barriers and enabling rapid content iteration. The theme taps into growing interest in microbiology and sustainability, allowing cross‑platform traction (TikTok, Instagram Reels). It also encourages strong hook‑driven thumbnails and curiosity loops, meeting the retention criteria needed for high view counts.",
+      "ideas": [
+        "The Self‑Repairing Bacterial City Inside Your Kitchen / Watch microbes rebuild themselves in under 60 seconds!",
+        "Bacteria that Eat Plastic – Inside a Micro‑Factory Turning Trash into Fuel / The screencast will blow your mind!",
+        "The Invisible Giant – Macro View of a Micro‑cule, In 3× Depth – You’ll see life in a new dimension!"
+      ],
+      "keywords": [
+        "microscopic",
+        "high‑resolution",
+        "nanoscopic",
+        "biome",
+        "cellular"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

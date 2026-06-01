@@ -12268,98 +12268,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Data Respiration",
+        "name": "EveEye",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Identity Theft",
+        "name": "ShadowClone",
+        "icon": "💀"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Financial Blackouts",
+        "name": "CoinCreep",
+        "icon": "💸"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Social Manipulation",
+        "name": "PulsePulse",
+        "icon": "🧠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Health Hijack",
+        "name": "VirusVector",
+        "icon": "🦠"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Assault Code",
+        "name": "RogueScript",
+        "icon": "🔓"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Privacy Erosion",
+        "name": "SilentWatcher",
+        "icon": "👁️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Future Prediction",
+        "name": "ForecastFrenzy",
+        "icon": "🔮"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Nutrition",
-        "name": "Mushroom Extract",
-        "icon": "🍄"
-      },
-      {
-        "title": "Supplements",
-        "name": "Nicotinamide Riboside",
-        "icon": "💊"
-      },
-      {
-        "title": "Exercise",
-        "name": "HIIT Sprint",
-        "icon": "🏃‍♂️"
-      },
-      {
-        "title": "Sleep",
-        "name": "Blue Light Blocking",
-        "icon": "🌙"
-      },
-      {
-        "title": "Mindset",
-        "name": "Microdosing Fasting",
-        "icon": "🧘"
-      },
-      {
-        "title": "Skincare",
-        "name": "Collagen Boost",
-        "icon": "🌸"
-      },
-      {
-        "title": "Social",
-        "name": "Community Ritual",
-        "icon": "🤝"
-      },
-      {
-        "title": "Technology",
-        "name": "Wearable Tracking",
-        "icon": "⌚"
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12396,6 +12355,53 @@
       }
     ]
   },
+  "CryptoBullRunSecrets": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Signal Source",
+        "name": "HodlRadar",
+        "icon": "📡"
+      },
+      {
+        "title": "Market Pulse",
+        "name": "PumpScan",
+        "icon": "📈"
+      },
+      {
+        "title": "Analytics Engine",
+        "name": "KryptiqLens",
+        "icon": "🔍"
+      },
+      {
+        "title": "Social Pulse",
+        "name": "TrendWhisper",
+        "icon": "🗣️"
+      },
+      {
+        "title": "Trade Macro",
+        "name": "BullWave",
+        "icon": "🌊"
+      },
+      {
+        "title": "Data Hub",
+        "name": "ChainDecoder",
+        "icon": "🧩"
+      },
+      {
+        "title": "Smart Contract",
+        "name": "YieldForge",
+        "icon": "⚒️"
+      },
+      {
+        "title": "Risk Tool",
+        "name": "CapShield",
+        "icon": "🛡️"
+      }
+    ]
+  },
   "DarkPsychologyPower": {
     "voice": "en-US-GuyNeural",
     "lines": [
@@ -12428,7 +12434,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -13358,43 +13364,49 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroBioscapes secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of MicroBioscapes.",
-        "duration": 5
+        "title": "Cellular Jungle",
+        "name": "Chlorophyll Biomes",
+        "icon": "🌱"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Nano Prairie",
+        "name": "Bacterial Meadows",
+        "icon": "🌾"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Micro Cavern",
+        "name": "Fungal Crypt",
+        "icon": "🦠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Quantum Terrain",
+        "name": "Photon Meadows",
+        "icon": "🔬"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Echoing Streams",
+        "name": "Quorum Wave",
+        "icon": "🌊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Spore City",
+        "name": "Mycelial Metropolis",
+        "icon": "🏙️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Dust Dunes",
+        "name": "Aerobic Oases",
+        "icon": "🏜️"
       },
       {
-        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Iron Veil",
+        "name": "Ironbacteria Rift",
+        "icon": "🪙"
       }
     ]
   },
