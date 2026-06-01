@@ -26104,6 +26104,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicroBioscapes taps into an endlessly fascinating visual realm where ordinary microorganisms become spectacular, immersive worlds. The niche blends cutting‑edge microscopy, bioluminescence and the growing public interest in microbiology and sustainability. Its content is naturally faceless, easily produced with time‑lapse and animation, and lends itself to scroll‑stopping hooks (“Imagine a city that fits on a single grain of sand”) and curiosity loops that keep viewers watching until the reveal. With a deluge of unexplored themes—from plastic‑eating bacteria to hidden microbes in everyday water—there’s a virtually limitless pipeline for 25+ viral ideas, making it a high‑velocity channel capable of reaching a 1M+ subscriber milestone while consistently pulling in 100k+ views per video.",
+      "ideas": [
+        "The Tiny Bioluminescent City That Lights Up the Night – Inside MicroBioscapes! 🔥  (Hook: What if a whole city existed in the size of a grain of sand? Watch the neon glow of microbes in real time!)",
+        "Plastic‑Eating Bacteria: The Underground Army Killing Your Garbage! 🌱  (Hook: Meet the invisible soldiers cleaning our oceans. See them in action!)",
+        "The Algae Hidden Inside Your Shower – Is Your Skin Covered In a Micro World? 🛁  (Hook: Discover the secret ecosystem thriving on your tap water, and what it means for your health!)"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Glow",
+        "Bioluminescence",
+        "Micro‑ecosystem",
+        "Tiny Worlds"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
