@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12309,125 +12309,143 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Blueberry Elixir",
+        "icon": "🍇"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "Splash Drank Sprint",
+        "icon": "🏊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Midnight Chill Pillow",
+        "icon": "💤"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "Zen Gauntlet",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Curcumin Capsule",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Mud",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Genetics",
+        "name": "Telomere Tuner",
+        "icon": "🧬"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Social",
+        "name": "Digital Detox Club",
+        "icon": "📵"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Whale Tracking",
+        "name": "Silent Whale",
+        "icon": "🦈"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Liquidity Gaps",
+        "name": "LiquidityGhost",
+        "icon": "💧"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Layer-2 Storm",
+        "name": "LayerSpeedster",
+        "icon": "⚡"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Tokenomics Trap",
+        "name": "BurnEclipse",
+        "icon": "🔥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Private Vaults",
+        "name": "VaultWormhole",
+        "icon": "🔑"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Oracular Insight",
+        "name": "OracleEye",
+        "icon": "🔮"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cross-Chain Boost",
+        "name": "BridgeGiant",
+        "icon": "🌉"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Rumor Engines",
+        "name": "PhantomBuzz",
+        "icon": "🗣️"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Unlock 8 dark psychology tricks that’ll leave you speechless.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Psychological Triggers",
+        "name": "The Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Deception",
+        "name": "The Misdirection Loop",
+        "icon": "🎭"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "The Bandwagon Hook",
+        "icon": "👥"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Fear Leveraging",
+        "name": "The Dark Suggestion",
+        "icon": "👻"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Micro-Expressions",
+        "name": "The Hidden Wink",
+        "icon": "😉"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Anchoring",
+        "name": "The False Anchor",
+        "icon": "🔗"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Scarcity",
+        "name": "The Invisible Deadline",
+        "icon": "⏳"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Authority",
+        "name": "The Silent Credo",
+        "icon": "🛡️"
       }
     ]
   },
@@ -30178,6 +30196,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "BioPrintedCoral": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioPrintedCoral secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Structure",
+        "name": "Gem Reef",
+        "icon": "🏗️"
+      },
+      {
+        "title": "Shape",
+        "name": "Healing Spine",
+        "icon": "🩺"
+      },
+      {
+        "title": "Color",
+        "name": "Sunburst Prism",
+        "icon": "🌈"
+      },
+      {
+        "title": "Growth Speed",
+        "name": "Lightning Growth",
+        "icon": "⚡"
+      },
+      {
+        "title": "Durability",
+        "name": "Titanium Coral",
+        "icon": "💪"
+      },
+      {
+        "title": "Habitat",
+        "name": "Rainforest Reef",
+        "icon": "🌴"
+      },
+      {
+        "title": "Process",
+        "name": "AI-Driven Print",
+        "icon": "🧪"
+      },
+      {
+        "title": "Impact",
+        "name": "Eco Restoration",
+        "icon": "💚"
       }
     ]
   }

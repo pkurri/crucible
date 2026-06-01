@@ -26170,6 +26170,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioPrintedCoral",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Climate‑change fears and emerging bio‑printing tech create a high‑interest, low‑competition niche. The concept of creating vibrant, functional coral reefs in a lab is visually stunning, socially relevant, and instantly scroll‑stopping. It blends science, environmental activism, and aesthetic wonder, which fuels curiosity loops that keep viewers engaged. The topic also scales: hundreds of labs worldwide are experimenting with coral bio‑printing, providing endless content angles, collaborations, and time‑lapse footage.",
+      "ideas": [
+        "The First Lab‑Bred Coral Reef — 24‑Hour Time‑Lapse of a 3D‑Printed Ocean!",
+        "Can Synthetic Coral Beat Natural Bleaching? See the Science in 60 Seconds!",
+        "Micro‑World Inside the Lab – Watch a Coral Nursery Grow in 1 Minute!"
+      ],
+      "keywords": [
+        "time‑lapse",
+        "lab animation",
+        "synthetic coral",
+        "environmental restoration",
+        "bioprinting"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
