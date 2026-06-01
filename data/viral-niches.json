@@ -25966,6 +25966,30 @@
         "AstronautKitchen"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityMeditation",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity meditation blends the growing fascination with space and VR with the ubiquitous need for stress relief. The visual of a person drifting peacefully in a surreal environment instantly captivates audiences, encouraging sharing and comments. The high production value of VR footage, combined with the universality of meditation, creates a perfect storm for viral reach and retention, enabling endless content variations.",
+      "ideas": [
+        "You’ve Never Seen Meditation Like This – Floating In Zero Gravity (Watch the Calm Transform)",
+        "I Trained for 5 Minutes in Zero‑Gravity and MY Stress Levels Dropped 70% (Results Revealed)",
+        "Scientists Build a Zero‑Gravity Meditation Room for NASA – Here’s What Happened Inside"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "Meditation",
+        "Relaxation",
+        "Floating",
+        "VR"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

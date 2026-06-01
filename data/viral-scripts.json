@@ -12299,7 +12299,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12350,96 +12350,84 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Whale Tracking",
-        "name": "Silent Whale",
-        "icon": "🦈"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Liquidity Gaps",
-        "name": "LiquidityGhost",
-        "icon": "💧"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Layer-2 Storm",
-        "name": "LayerSpeedster",
-        "icon": "⚡"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Tokenomics Trap",
-        "name": "BurnEclipse",
-        "icon": "🔥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Private Vaults",
-        "name": "VaultWormhole",
-        "icon": "🔑"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Oracular Insight",
-        "name": "OracleEye",
-        "icon": "🔮"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Cross-Chain Boost",
-        "name": "BridgeGiant",
-        "icon": "🌉"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Rumor Engines",
-        "name": "PhantomBuzz",
-        "icon": "🗣️"
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "am_adam",
-    "hook": "Unlock 8 dark psychology tricks that’ll leave you speechless.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Psychological Triggers",
-        "name": "The Mirror Effect",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Deception",
-        "name": "The Misdirection Loop",
-        "icon": "🎭"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "The Bandwagon Hook",
-        "icon": "👥"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Fear Leveraging",
-        "name": "The Dark Suggestion",
-        "icon": "👻"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Micro-Expressions",
-        "name": "The Hidden Wink",
-        "icon": "😉"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Anchoring",
-        "name": "The False Anchor",
-        "icon": "🔗"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Scarcity",
-        "name": "The Invisible Deadline",
-        "icon": "⏳"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Authority",
-        "name": "The Silent Credo",
-        "icon": "🛡️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -13395,7 +13383,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more MicroBioscapes.",
+        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -29902,6 +29890,47 @@
       },
       {
         "text": "Next video: Quantum pizza topping that defies gravity!",
+        "duration": 4
+      }
+    ]
+  },
+  "ZeroGravityMeditation": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "What if your mind could float into another dimension?",
+        "duration": 5
+      },
+      {
+        "text": "Imagine zero‑gravity calm that rewires your stress.",
+        "duration": 4
+      },
+      {
+        "text": "In VR, floating meditation lowers cortisol by 30%.",
+        "duration": 5
+      },
+      {
+        "text": "The brain unlocks a pocket of cosmic clarity.",
+        "duration": 5
+      },
+      {
+        "text": "Every drift rewires neural pathways as if rebooting.",
+        "duration": 5
+      },
+      {
+        "text": "Missing this? You'll never feel weightless in chaos.",
+        "duration": 4
+      },
+      {
+        "text": "Now, stay tuned – the next trick can double your calm.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: how zero‑gravity can amplify focus for athletes.",
         "duration": 4
       }
     ]
