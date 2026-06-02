@@ -12309,125 +12309,143 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT Sprints",
+        "icon": "🏃‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Filter",
+        "icon": "🌙"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mindfulness",
+        "name": "5‑Minute Meditation",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol & Omega‑3",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Environment",
+        "name": "Clean Air Filters",
+        "icon": "🌬️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Daily Connection",
+        "icon": "🤝"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Water",
+        "icon": "💧"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Signal Source",
+        "name": "HodlRadar",
+        "icon": "📡"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Market Pulse",
+        "name": "PumpScan",
+        "icon": "📈"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Analytics Engine",
+        "name": "KryptiqLens",
+        "icon": "🔍"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Social Pulse",
+        "name": "TrendWhisper",
+        "icon": "🗣️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Trade Macro",
+        "name": "BullWave",
+        "icon": "🌊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Data Hub",
+        "name": "ChainDecoder",
+        "icon": "🧩"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Smart Contract",
+        "name": "YieldForge",
+        "icon": "⚒️"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Risk Tool",
+        "name": "CapShield",
+        "icon": "🛡️"
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Persuasion Tactics",
+        "name": "Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Manipulation Loops",
+        "name": "Scarcity Signal",
+        "icon": "💣"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Psychological Triggers",
+        "name": "Anchoring Bias",
+        "icon": "📌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Neuroscience Hacks",
+        "name": "Neural Suppression",
+        "icon": "🧠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Gaslight Pattern",
+        "icon": "🎭"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Emotional Leverage",
+        "name": "Echo Chamber",
+        "icon": "🔊"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Cognitive Control",
+        "name": "Reframe Narrative",
+        "icon": "🔁"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Inner Reflection",
+        "name": "Impulse Override",
+        "icon": "⚡"
       }
     ]
   },
@@ -13352,7 +13370,7 @@
     ]
   },
   "MicroBioscapes": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
         "text": "Nobody talks about the truth of MicroBioscapes.",
@@ -30436,6 +30454,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1780417501306": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1780417501306 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "UI Design",
+        "name": "Drip Opaque Theme",
+        "icon": "🎨"
+      },
+      {
+        "title": "Core Engine",
+        "name": "HyperFlow Sync",
+        "icon": "⚡"
+      },
+      {
+        "title": "Analytics",
+        "name": "Peak Insight Hub",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "AutoPilot Queue",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum Shield Layer",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Integration",
+        "name": "OmniConnect API",
+        "icon": "🔌"
+      },
+      {
+        "title": "Performance",
+        "name": "Turbo Render Mode",
+        "icon": "🚀"
+      },
+      {
+        "title": "Support",
+        "name": "Helix Help Desk",
+        "icon": "🆘"
       }
     ]
   }
