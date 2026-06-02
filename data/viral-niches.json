@@ -26215,6 +26215,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialCanvas",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicrobialCanvas blends the novelty of live, self‑growing art with a strong visual appeal that’s perfect for time‑lapse and science‑driven storytelling. The niche is currently underexplored, offers endless remix potential (different bacteria strains, pigments, scales), and taps into popular trends in bio‑art, DIY science, and the fascination with invisible living systems—prime ingredients for scroll‑stopping, curiosity loops, and share‑worthy content across YouTube and Meta.",
+      "ideas": [
+        "How Bacteria Paint an Ever‑Changing Masterpiece – 10 Days of Glow – I turned my kitchen microscope into a living studio, and the resulting artwork will change color every hour. Watch the evolution!",
+        "This Bacterial Painting Turns Dark to Light – Invisible Ink Meets Bio‑Luminescence. I used a 3‑layer pigment infusion and a nightly time‑lapse: the piece literally lights up in the dark!",
+        "Microbe Art That Ages in 30 Minutes – The Fast‑Forward Future of Living Paintings. I’ll show a living artwork that completes its life cycle in just 30 minutes, and how you can replicate it at home."
+      ],
+      "keywords": [
+        "bacteria",
+        "living art",
+        "time lapse",
+        "bio-luminescence",
+        "laboratory"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
