@@ -30327,5 +30327,46 @@
         "icon": "🌊"
       }
     ]
+  },
+  "ApexFlow_1780377457668": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Your senses are about to be hijacked by liquid neon.",
+        "duration": 5
+      },
+      {
+        "text": "Tonight, the grid unlocks a visual code.",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid moves faster than light, shaping reality.",
+        "duration": 5
+      },
+      {
+        "text": "Each droplet is a data point, building an AI mind.",
+        "duration": 5
+      },
+      {
+        "text": "Hyper-car interiors pulse with the rhythm of a living network.",
+        "duration": 5
+      },
+      {
+        "text": "See what happens when the neural engine goes rogue.",
+        "duration": 4
+      },
+      {
+        "text": "The next frame will break the internet’s perception.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Tomorrow, we dive into the AI that paints galaxies.",
+        "duration": 4
+      }
+    ]
   }
 }
