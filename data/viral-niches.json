@@ -26302,6 +26302,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBioscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Microbial worlds become incredibly vivid with modern microscopy and bio‑luminescence tech. The niche blends science, surreal visuals, and everyday relevance (e.g., your tap water, the food you eat). It's untapped on a large scale, offers endless high‑resolution footage, and sparks instant ‘What if?’ questions that keep viewers scrolling.",
+      "ideas": [
+        "The Secret Cities Inside Your Tap Water / Ever wondered what cities look like on a microscopic scale? Unlock the hidden metropolis in your bathroom sink!",
+        "10 Microbial Lifeforms That Glow in the Dark / Think all glow‑sticks are man‑made? Meet the living bioluminescent wonders that outshine any LED light.",
+        "Microscopic Food Wars: The Tiny Battle Inside Your Plate / Who really dominates your dinner when you zoom in to the cellular battlefield? Find out!"
+      ],
+      "keywords": [
+        "microscopic",
+        "bioluminescent",
+        "microscopy",
+        "cellular",
+        "microflora"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
