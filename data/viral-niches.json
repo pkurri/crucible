@@ -26452,6 +26452,30 @@
         "Future Kitchen"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ChronoFlora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Interest in speculative biology, space agriculture, and AI-driven hyperrealistic visualizations is surging; audiences crave awe‑inspiring glimpses of how life could adapt across deep time, making ChronoFlora a perfect blend of science fiction and factual visualization that drives shares and watch time.",
+      "ideas": [
+        "What If Plants Grew for 1 Million Years? – Time‑Lapse Evolution in a Simulated Future Earth",
+        "Alien Photosynthesis: Visualizing How Flora Might Harvest Light on Proxima b",
+        "Microscopic Miracles: The Hidden Cell Structures of Bioluminescent Trees in a Zero‑Gravity Greenhouse"
+      ],
+      "keywords": [
+        "bioluminescent flora",
+        "time‑lapse growth",
+        "alien photosynthesis",
+        "microscopic cell structures",
+        "futuristic greenhouse"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
