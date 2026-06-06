@@ -27169,6 +27169,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VanishingCoastlines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The disappearance of coastlines is a global, urgent issue that blends breathtaking visuals, time‑travel storytelling, and real‑world science. The added urgency of climate change creates share‑worthy footage with strong emotional resonance. Narratives that juxtapose historic and present‑day landscapes, especially via high‑resolution drone time‑lapses, capture curiosity and awe, encouraging repeat clicks and deep engagement.",
+      "ideas": [
+        "Last Sunset Over a Vanishing Town – 30‑Minute Drone Time‑Lapse of the Rising Sea #VanishingCoastlines",
+        "From 1950 to 2024: 3 Minutes of Shoreline Loss in a Heart­‑Racing Time‑Lapse #ClimateChange",
+        "Scientists Reveal the Hidden Threat Behind Shoreline Collapse – Myth vs Reality #SeaLevelRise"
+      ],
+      "keywords": [
+        "Drone Footage",
+        "Time Lapse",
+        "Sea Level Rise",
+        "Ghost Town",
+        "Historic vs Present"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
