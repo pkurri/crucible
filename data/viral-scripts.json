@@ -12256,49 +12256,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "These 8 AI agents are already plotting to replace you—watch before it's too late.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Job Automation",
-        "name": "Customer Service Bots",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Decision Making",
-        "name": "Financial Trading Agents",
-        "icon": "📈"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Content Creation",
-        "name": "Deepfake Video Agents",
-        "icon": "🎥"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Cybersecurity",
-        "name": "Autonomous Hacking AI",
-        "icon": "💻"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Personal Assistants",
-        "name": "Always‑Listening Voice Agents",
-        "icon": "🔊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Transportation",
-        "name": "Self‑Driving Fleet Controllers",
-        "icon": "🚗"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Healthcare",
-        "name": "Diagnostic AI Agents",
-        "icon": "🩺"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Military",
-        "name": "Lethal Autonomous Weapon Systems",
-        "icon": "⚔️"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12334,7 +12328,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12344,49 +12338,43 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Exchange",
-        "name": "Binance Futures",
-        "icon": "🚀"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Wallet",
-        "name": "MetaMask",
-        "icon": "🦊"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Indicator",
-        "name": "RSI Divergence",
-        "icon": "📈"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Strategy",
-        "name": "DCA on Dip",
-        "icon": "💰"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Token",
-        "name": "Layer‑2 Gem",
-        "icon": "💎"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Newsletter",
-        "name": "Crypto Bull Run Alerts",
-        "icon": "📧"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Community",
-        "name": "Private Telegram Alpha",
-        "icon": "👥"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Chart",
-        "name": "4‑Hour Breakout",
-        "icon": "📊"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12422,7 +12410,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -33746,6 +33734,88 @@
         "title": "Customization",
         "name": "Theme Forge",
         "icon": "🎨"
+      }
+    ]
+  },
+  "ApexFlow_1781067997196": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1781067997196.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1781067997196.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1781085289021": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1781085289021.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
