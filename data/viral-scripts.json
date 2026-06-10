@@ -12257,48 +12257,48 @@
   },
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "hook": "These 8 AI agents are already plotting to replace you—watch before it's too late.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Surveillance",
-        "name": "SkyNet Watcher",
-        "icon": "👁️"
+        "title": "Job Automation",
+        "name": "Customer Service Bots",
+        "icon": "🤖"
       },
       {
-        "title": "Finance",
-        "name": "Quantum Trader Bot",
-        "icon": "💸"
+        "title": "Decision Making",
+        "name": "Financial Trading Agents",
+        "icon": "📈"
       },
       {
-        "title": "Healthcare",
-        "name": "MediDiagnose AI",
-        "icon": "🩺"
-      },
-      {
-        "title": "Transport",
-        "name": "AutoFleet Commander",
-        "icon": "🚗"
-      },
-      {
-        "title": "Cybersecurity",
-        "name": "DarkWeb Sentinel",
-        "icon": "🛡️"
-      },
-      {
-        "title": "Media",
-        "name": "DeepFake Generator",
+        "title": "Content Creation",
+        "name": "Deepfake Video Agents",
         "icon": "🎥"
       },
       {
-        "title": "Manufacturing",
-        "name": "RoboFactory Overlord",
-        "icon": "⚙️"
+        "title": "Cybersecurity",
+        "name": "Autonomous Hacking AI",
+        "icon": "💻"
       },
       {
-        "title": "Education",
-        "name": "TutorMind AI",
-        "icon": "📚"
+        "title": "Personal Assistants",
+        "name": "Always‑Listening Voice Agents",
+        "icon": "🔊"
+      },
+      {
+        "title": "Transportation",
+        "name": "Self‑Driving Fleet Controllers",
+        "icon": "🚗"
+      },
+      {
+        "title": "Healthcare",
+        "name": "Diagnostic AI Agents",
+        "icon": "🩺"
+      },
+      {
+        "title": "Military",
+        "name": "Lethal Autonomous Weapon Systems",
+        "icon": "⚔️"
       }
     ]
   },
@@ -12334,7 +12334,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12422,7 +12422,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -13383,7 +13383,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master MicroBioscapes, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -33699,6 +33699,53 @@
         "title": "Challenge",
         "name": "30‑Day Future Self Sprint",
         "icon": "🚀"
+      }
+    ]
+  },
+  "ApexFlow_1781079037340": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1781079037340 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance Boost",
+        "name": "Turbo Mode",
+        "icon": "⚡"
+      },
+      {
+        "title": "Design",
+        "name": "Infinite Canvas",
+        "icon": "🖼️"
+      },
+      {
+        "title": "Integration",
+        "name": "AI Sync Engine",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Shield",
+        "icon": "🔒"
+      },
+      {
+        "title": "Automation",
+        "name": "One‑Click Workflow",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Pulse",
+        "icon": "📊"
+      },
+      {
+        "title": "Collaboration",
+        "name": "Live Co‑Edit",
+        "icon": "👥"
+      },
+      {
+        "title": "Customization",
+        "name": "Theme Forge",
+        "icon": "🎨"
       }
     ]
   }
