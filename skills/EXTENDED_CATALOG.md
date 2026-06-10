@@ -13,9 +13,11 @@
 **review-code** - General code review and quality assessment  
 **review-doc-consistency** - Documentation alignment verification  
 **review-merge-readiness** - PR merge readiness evaluation  
+**archivist** - Architectural decision tracking and wisdom extraction  
 **review-quality** - Comprehensive code quality analysis  
 **review-react-best-practices** - React/Next.js optimization review  
 **review-security** - Security vulnerability scanning  
+**security-scan** - AgentShield-inspired security auditor
 **review-seo-audit** - SEO optimization analysis  
 **review-performance** - Performance bottleneck identification  
 **review-accessibility** - WCAG compliance checking  
@@ -130,6 +132,7 @@
 **mcp-cloudflare** - Cloudflare MCP server  
 **mcp-stripe** - Stripe MCP server  
 **mcp-supabase** - Supabase MCP server  
+**mcp-unity** - Unity Editor automation via MCP
 **aws-architect** - AWS infrastructure design  
 **azure-optimizer** - Azure resource optimization  
 **gcp-deployer** - Google Cloud deployment  
@@ -147,7 +150,8 @@
 **gcp-cloud-functions** - Cloud Functions setup  
 **digitalocean-droplets** - DigitalOcean management  
 **heroku-deployer** - Heroku deployment helper  
-**railway-deployer** - Railway.app deployment
+**railway-deployer** - Railway.app deployment  
+**deploy-production-ready** - Expert-level production readiness and safety verification
 
 ---
 
@@ -308,6 +312,9 @@
 **resend** - Email service integration  
 **structured-prompting** - Prompt template system  
 **deep-research** - Research automation  
+**observer** - Persistent memory and session observation system  
+**continuous-learning-v2** - Instinct-based learning and pattern evolution
+**search-first** - Research-driven development workflow
 **code-generator** - Code generation templates  
 **boilerplate-creator** - Project boilerplate generator  
 **scaffold-builder** - Application scaffolding  
@@ -341,7 +348,7 @@
 
 ---
 
-## 🎮 Gaming & Entertainment (10 skills)
+## 🎮 Gaming & Entertainment (14 skills)
 
 **game-engine-helper** - Game development assistant  
 **unity-scripter** - Unity C# helper  
@@ -349,10 +356,15 @@
 **godot-helper** - Godot engine assistant  
 **phaser-game-builder** - Phaser.js game creator  
 **three-js-game** - 3D game development  
-**multiplayer-setup** - Multiplayer game networking  
+**multiplayer-game-networking** - Multiplayer game networking
+**game-asset-pipeline** - Game/web asset pipeline and licensing
+**game-qa-playtesting** - Playtesting, balance, bug triage, release QA
 **game-analytics** - Game analytics integration  
 **leaderboard-builder** - Leaderboard system  
 **achievement-system** - Achievement/trophy system
+**workflow-game-web-production** - End-to-end game/web production workflow
+**web-app-builder** - Production web app builder **frontend-performance-a11y** -
+Frontend performance and accessibility gate
 
 ---
 

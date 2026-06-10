@@ -23,7 +23,13 @@ Automatically invoked when large files are accessed or complex tasks are initiat
 - **Combined Invocations**: Use `multi_replace_file_content` for non-contiguous edits to avoid multiple file-rewrite tokens.
 - **Efficient Searching**: Combine multiple regex patterns in `grep_search` to reduce tool roundtrips.
 
-### 4. Output Compression
+### 4. Production Cost Strategy
+- **Model Routing**: Use Haiku for routine tasks (classification, simple extraction, summarizing). Reserve Opus/Sonnet for complex reasoning or architectural code generation.
+- **Prompt Caching**: Structure large static context (system prompts, huge docs) at the beginning of the message chain and mark for caching.
+- **Batch API**: Use for non-real-time workloads (bulk report generation, massive code audits) to save 50% on token costs.
+- **Context Summarization**: Truncate or summarize older conversation history instead of sending the full log in every turn.
+
+### 5. Output Compression
 - **Concise Summaries**: Provide executive-level summaries of changes rather than line-by-line descriptions.
 - **Artifact Reuse**: Update existing artifacts instead of creating new ones for iterative tasks.
 

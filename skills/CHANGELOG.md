@@ -2,6 +2,17 @@
 
 This changelog tracks changes to the `skills/` toolkit (not template app code).
 
+## 2026-04-28
+
+- Added the game/web production layer: `workflow-game-web-production`,
+  `game-engine-helper`, `phaser-game-builder`, `three-js-game`,
+  `multiplayer-game-networking`, `game-asset-pipeline`, `game-qa-playtesting`,
+  `web-app-builder`, and `frontend-performance-a11y`.
+- Added `.agents/workflows/game-web-production.md` and
+  `.agents/roles/game-web-roster.md` for specialized game/web agent routing.
+- Added `docs/game-web-development-rules.md` as the shared rulebook for game,
+  web, QA, accessibility, performance, asset, and release work.
+
 ## 2026-01-18
 
 - Migrated run artifacts to an OpenSpec-style lifecycle:
