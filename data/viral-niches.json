@@ -28033,6 +28033,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIFutureSelf",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The explosion of generative AI and personal data tools has created a massive appetite for visualizing one's own future self—career, health, lifestyle—based on current habits. Short-form videos that show AI‑generated “what‑if” scenarios (e.g., ‘If you keep scrolling 4 hrs/day, here’s your 2040 life’) tap into curiosity, self‑reflection, and shareability, driving high retention and repeat views.",
+      "ideas": [
+        "AI Shows You Your 2040 Self If You Quit Sugar Today – Shocking Transformation!",
+        "What Your Face Will Look Like in 10 Years Based on Your Sleep Habits (AI Prediction)",
+        "AI Predicts Your Dream Job in 2035 – See If You’re on the Right Path Now"
+      ],
+      "keywords": [
+        "AI avatar",
+        "future cityscape",
+        "aging timeline",
+        "digital twin",
+        "life simulation"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

@@ -12287,7 +12287,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12328,7 +12328,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12338,43 +12338,49 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Exchange",
+        "name": "Binance Futures",
+        "icon": "🚀"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Wallet",
+        "name": "MetaMask",
+        "icon": "🦊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Indicator",
+        "name": "RSI Divergence",
+        "icon": "📈"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Strategy",
+        "name": "DCA on Dip",
+        "icon": "💰"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Token",
+        "name": "Layer‑2 Gem",
+        "icon": "💎"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Newsletter",
+        "name": "Crypto Bull Run Alerts",
+        "icon": "📧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Community",
+        "name": "Private Telegram Alpha",
+        "icon": "👥"
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Chart",
+        "name": "4‑Hour Breakout",
+        "icon": "📊"
       }
     ]
   },
@@ -33640,6 +33646,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "AIFutureSelf": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIFutureSelf secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Mindset",
+        "name": "Future‑Self Visualization",
+        "icon": "🧠"
+      },
+      {
+        "title": "Tool",
+        "name": "AI Journaling Assistant",
+        "icon": "📓"
+      },
+      {
+        "title": "Habit",
+        "name": "Daily Identity Shift",
+        "icon": "🔄"
+      },
+      {
+        "title": "Prompt",
+        "name": "Future Self Prompt Stack",
+        "icon": "💬"
+      },
+      {
+        "title": "Analytics",
+        "name": "Progress Tracking Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Community",
+        "name": "Future‑Self Mastermind Group",
+        "icon": "👥"
+      },
+      {
+        "title": "Resource",
+        "name": "AI‑Generated Affirmation Library",
+        "icon": "✨"
+      },
+      {
+        "title": "Challenge",
+        "name": "30‑Day Future Self Sprint",
+        "icon": "🚀"
       }
     ]
   }
