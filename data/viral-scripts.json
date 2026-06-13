@@ -171,49 +171,43 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Aurora",
-        "name": "Borealis Candle",
-        "icon": "🌌"
+        "text": "Nobody talks about the truth of AtmosphericPhenomenaCaptured.",
+        "duration": 5
       },
       {
-        "title": "Ball Lightning",
-        "name": "Radiant Orb",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Fire Rainbows",
-        "name": "Supernatural Prism",
-        "icon": "🌈🔥"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Singing Dunes",
-        "name": "Sandsong",
-        "icon": "🏜️🎶"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Dust Storms",
-        "name": "Shadow Shower",
-        "icon": "🌪️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Catatumbo Lightning",
-        "name": "Firefall",
-        "icon": "🌩️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Streetlight Mirage",
-        "name": "Gleam Mirage",
-        "icon": "💡🌈"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Atmospheric Pipeline",
-        "name": "Sky Pipeline",
-        "icon": "🌬️"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -341,49 +335,43 @@
     ]
   },
   "CosmicMegaStructureConstruction": {
-    "voice": "af_bella",
-    "hook": "Here are the top 8 CosmicMegaStructureConstruction secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Stellar Framing",
-        "name": "Photon Lattice Grappling",
-        "icon": "🌌"
+        "text": "Nobody talks about the truth of CosmicMegaStructureConstruction.",
+        "duration": 5
       },
       {
-        "title": "Nebular Foundations",
-        "name": "Gas‑Ring Anchor Chains",
-        "icon": "💫"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Quantum Anchoring",
-        "name": "Entanglement Rebar",
-        "icon": "🌀"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Gravitational Tethers",
-        "name": "Micro‑Black Hole Bolts",
-        "icon": "⚫️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Solar Flux Shingles",
-        "name": "Plasma Roofing",
-        "icon": "☀️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Astro‑Sculpting",
-        "name": "Comet Dust Smoothing",
-        "icon": "🌠"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Interstellar Insulation",
-        "name": "Dark Matter Glazing",
-        "icon": "🪐"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Chrono‑Span Wiring",
-        "name": "Time‑Dilated Conduits",
-        "icon": "⌛"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12287,7 +12275,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12379,43 +12367,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Mind Tactics",
+        "name": "Silent Flags",
+        "icon": "🧠"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Persuasion Tools",
+        "name": "Mirror Matching",
+        "icon": "🗝️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Scarcity Shock",
+        "icon": "🤝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Fear Amplifier",
+        "icon": "😭"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Neuropsych Tricks",
+        "name": "Reversal Neural Code",
+        "icon": "⚡"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Behavioral Cues",
+        "name": "Gesture Signifier",
+        "icon": "🤐"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Covert Persuasion",
+        "name": "Subliminal Preset",
+        "icon": "⌛"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Memory Manipulation",
+        "name": "Recency Rewriter",
+        "icon": "🔄"
       }
     ]
   },
@@ -35369,6 +35363,47 @@
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1781385421464": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1781385421464.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1781385421464.",
         "duration": 5
       },
       {
