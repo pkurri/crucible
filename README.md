@@ -19,10 +19,15 @@ decisions with you.
 ---
 
 ## 📖 Essential Reading
-- **[Full User Guide](./docs/USER_GUIDE.md)**: How to run the orchestrator, industrial workers, and manage subscriptions.
-- **[Forge Assistant (Crucix 2.0)](./docs/FORGE_ASSISTANT.md)**: Real-time world intelligence, market sweeps, and live HUD. 
-- **[Sentinel & Auditor Guide](./docs/SENTINEL_AUDITOR_GUIDE.md)**: Real-time steering, semantic tracing, and agent evaluation (Forge Pro).
-- **[Monetization Strategy](./docs/MONETIZATION.md)**: Deep dive into the tiered Pro model.
+
+- **[Full User Guide](./docs/USER_GUIDE.md)**: How to run the orchestrator,
+  industrial workers, and manage subscriptions.
+- **[Forge Assistant (Crucix 2.0)](./docs/FORGE_ASSISTANT.md)**: Real-time world
+  intelligence, market sweeps, and live HUD.
+- **[Sentinel & Auditor Guide](./docs/SENTINEL_AUDITOR_GUIDE.md)**: Real-time
+  steering, semantic tracing, and agent evaluation (Forge Pro).
+- **[Monetization Strategy](./docs/MONETIZATION.md)**: Deep dive into the tiered
+  Pro model.
 
 ---
 
@@ -34,7 +39,7 @@ decisions with you.
 | Agent patterns      | Single-agent only      | Multi-agent orchestration built-in              |
 | Templates           | Niche SaaS boilerplate | Universal AI-native starting points             |
 | Stack coverage      | Supabase + basic auth  | Neon, Resend, Vercel AI SDK, Stripe, Cloudflare |
-| Observability       | ❌ None                | ✅ Semantic Traces (Sentinel & Auditor)          |
+| Observability       | ❌ None                | ✅ Semantic Traces (Sentinel & Auditor)         |
 | Testing             | ❌ None                | ✅ Vitest + Playwright + pytest                 |
 | Review skills       | ❌ None                | ✅ Architecture + Security review               |
 | Cross-agent support | Claude Code only       | Claude Code + Codex CLI + OpenCode              |
@@ -50,20 +55,27 @@ aspects of the software and product lifecycle autonomously.
 
 _Market analysis, intelligence gathering, and competitive synthesis._
 
-- **World Watcher (Watcher-Prime):** Performs 15-minute sweeps across GDELT News, Yahoo Finance, and GitHub Trends.
+- **World Watcher (Watcher-Prime):** Performs 15-minute sweeps across GDELT
+  News, Yahoo Finance, and GitHub Trends.
 - **Market Analyst:** Monitors competitor moves and market sentiment.
 - **Content Writer:** Drafts tailored social media strategies and documentation.
-- **Deep Researcher:** Digs into technical docs, whitepapers, and APIs to synthesize capabilities.
-- **Repo Analyst:** Scans and analyzes public GitHub repositories for tech stack and code quality.
+- **Deep Researcher:** Digs into technical docs, whitepapers, and APIs to
+  synthesize capabilities.
+- **Repo Analyst:** Scans and analyzes public GitHub repositories for tech stack
+  and code quality.
 
 ### 📡 Radar Division
 
 _Real-time signal processing and early-warning systems._
 
-- **Live HUD (forge-agents.space/live):** High-performance Jarvis-style dashboard for real-time telemetry.
-- **Delta Tracker:** Computes 'What changed since last sweep' across markets and tech.
-- **Forge Dispatcher:** Alerts to Discord/Telegram for FLASH, PRIORITY, and ROUTINE signals.
-- **Trend Spotter:** Identifies emerging technologies and shifts in user behavior.
+- **Live HUD (forge-agents.space/live):** High-performance Jarvis-style
+  dashboard for real-time telemetry.
+- **Delta Tracker:** Computes 'What changed since last sweep' across markets and
+  tech.
+- **Forge Dispatcher:** Alerts to Discord/Telegram for FLASH, PRIORITY, and
+  ROUTINE signals.
+- **Trend Spotter:** Identifies emerging technologies and shifts in user
+  behavior.
 
 ### 🏭 Foundry Division
 
@@ -86,16 +98,25 @@ _Central command and orchestration for all deployed agents._
   (e.g., high intelligence gathering periods).
 - **Log Aggregator:** Synthesizes the actions of all autonomous agents into a
   digestible timeline.
-- **Sentinel (Pro):** Intercepts and validates tool calls in real-time to prevent hallucinations.
-- **Auditor (Pro):** Performs post-run evaluation and calculates ROI/reliability metrics.
-7. **FIRMS_MAP_KEY**: Get a free key from [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/api/area/) and add it to Vercel/Supabase.
-8. **GEMINI_API_KEY**: Required for AI-driven intelligence synthesis.
+- **Sentinel (Pro):** Intercepts and validates tool calls in real-time to
+  prevent hallucinations.
+- **Auditor (Pro):** Performs post-run evaluation and calculates ROI/reliability
+  metrics.
+
+- **FIRMS_MAP_KEY**: Get a free key from
+  [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/api/area/) and add it to
+  Vercel/Supabase.
+- **GEMINI_API_KEY**: Required for AI-driven intelligence synthesis.
 
 ### 🚀 Entering the Forge
-1. **Push Changes**: `git add . && git commit -m "feat: Forge Assistant 2.0" && git push`
+
+1. **Push Changes**:
+   `git add . && git commit -m "feat: Forge Assistant 2.0" && git push`
 2. **Deploy to Vercel**: Run `vercel --prod` to push the new HUD live.
-3. **Verify HUD**: Visit `https://your-domain.vercel.app/live` and sign in as `prasadkurri.ai@gmail.com`.
-4. **Autonomous Sweep**: Automatically checks world data every 15 minutes. Trigger manually at `/api/cron/unified`.
+3. **Verify HUD**: Visit `https://your-domain.vercel.app/live` and sign in as
+   `prasadkurri.ai@gmail.com`.
+4. **Autonomous Sweep**: Automatically checks world data every 15 minutes.
+   Trigger manually at `/api/cron/unified`.
 
 ### 🎭 Stage Division
 
@@ -111,11 +132,16 @@ _Real-time presentation, engagement, and user interfacing._
 
 _Hardening agent flows through adversarial testing and autonomous remediation._
 
-- **Chaos Engineer:** Autonomously "red-teams" your fleet by injecting prompt attacks and PII honeypots to verify immunity.
-- **Auto-Healer:** Scans for failed audits or logic drifts and automatically patches agent directives and trajectories.
-- **PII Scrubber:** Scans all transmissions for sensitive data (SSNs, CCs, API Keys) and redacts them at the gate.
-- **Circuit Breaker:** Monitors token velocity and kills runaway loops before they impact your credit balance.
-- **Logic Scrutineer:** Verifies that agent outputs follow the intended semantic path and haven't drifted into hallucinations.
+- **Chaos Engineer:** Autonomously "red-teams" your fleet by injecting prompt
+  attacks and PII honeypots to verify immunity.
+- **Auto-Healer:** Scans for failed audits or logic drifts and automatically
+  patches agent directives and trajectories.
+- **PII Scrubber:** Scans all transmissions for sensitive data (SSNs, CCs, API
+  Keys) and redacts them at the gate.
+- **Circuit Breaker:** Monitors token velocity and kills runaway loops before
+  they impact your credit balance.
+- **Logic Scrutineer:** Verifies that agent outputs follow the intended semantic
+  path and haven't drifted into hallucinations.
 
 ---
 
@@ -190,11 +216,12 @@ combination.
 
 ### 🚀 Workflow Skills — Orchestration brains
 
-| Skill                                                                | What it does                                                           |
-| -------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [`workflow-launch-sequence`](./skills/workflow-launch-sequence/)     | Full product build: intake → architect → build → test → deploy         |
-| [`workflow-feature-cycle`](./skills/workflow-feature-cycle/)         | Feature lifecycle: spec → implement → review → ship                    |
-| [`workflow-multi-agent-build`](./skills/workflow-multi-agent-build/) | Spawns parallel sub-agents for frontend, backend, tests simultaneously |
+| Skill                                                                    | What it does                                                           |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| [`workflow-launch-sequence`](./skills/workflow-launch-sequence/)         | Full product build: intake → architect → build → test → deploy         |
+| [`workflow-feature-cycle`](./skills/workflow-feature-cycle/)             | Feature lifecycle: spec → implement → review → ship                    |
+| [`workflow-multi-agent-build`](./skills/workflow-multi-agent-build/)     | Spawns parallel sub-agents for frontend, backend, tests simultaneously |
+| [`workflow-game-web-production`](./skills/workflow-game-web-production/) | Game/web production: concept → playable slice → QA → release           |
 
 ### 🔧 Tool Skills — Tactical power tools
 
@@ -230,6 +257,19 @@ combination.
 | [`observe`](./skills/observe/)       | PostHog + Sentry + Axiom: events, errors, structured logs   |
 | [`testing`](./skills/testing/)       | Vitest + Playwright + pytest: unit, e2e, API, load testing  |
 
+### Game And Web Development Skills
+
+| Skill                                                                  | Description                                        |
+| ---------------------------------------------------------------------- | -------------------------------------------------- |
+| [`game-engine-helper`](./skills/game-engine-helper/)                   | Engine selection and game architecture             |
+| [`phaser-game-builder`](./skills/phaser-game-builder/)                 | Phaser 3 browser game scenes, systems, and QA      |
+| [`three-js-game`](./skills/three-js-game/)                             | Three.js / React Three Fiber 3D experiences        |
+| [`multiplayer-game-networking`](./skills/multiplayer-game-networking/) | Realtime rooms, protocols, matchmaking, anti-cheat |
+| [`game-asset-pipeline`](./skills/game-asset-pipeline/)                 | Asset manifests, compression, naming, licensing    |
+| [`game-qa-playtesting`](./skills/game-qa-playtesting/)                 | Playtesting, balance, compatibility, release QA    |
+| [`web-app-builder`](./skills/web-app-builder/)                         | React/Next/Vite app architecture and UX states     |
+| [`frontend-performance-a11y`](./skills/frontend-performance-a11y/)     | Core Web Vitals, FPS, responsive, and WCAG gates   |
+
 ---
 
 ## Templates
@@ -237,8 +277,9 @@ combination.
 **200 production-ready templates** across 25 categories. Not "hello world" —
 real architectural decisions already made.
 
-> [!IMPORTANT]
-> **Crucible Pro**: Templates indexed above `050` require an active Crucible Pro subscription. These include enterprise-grade security, high-scale analytics, and multi-agent DevOps.
+> [!IMPORTANT] **Crucible Pro**: Templates indexed above `050` require an active
+> Crucible Pro subscription. These include enterprise-grade security, high-scale
+> analytics, and multi-agent DevOps.
 
 ```bash
 cd templates/031-ai-code-reviewer
@@ -248,14 +289,14 @@ npm install && npm run dev
 
 ### Featured Templates
 
-| #                                                  | Template           | Category                               | Description                            |
-| -------------------------------------------------- | ------------------ | -------------------------------------- | -------------------------------------- |
-| [031](./templates/031-ai-code-reviewer/)           | `ai-code-reviewer` | AI/ML                                  | Automated code review with AI analysis |
-| [046](./templates/046-subscription-management/)    | SaaS               | Complete subscription billing platform |
-| [061](./templates/061-security-audit-platform/)    | Security           | Automated security scanning tool       |
-| [071](./templates/071-real-time-analytics-engine/) | Analytics          | Stream processing platform             |
-| [081](./templates/081-ci-cd-orchestrator/)         | DevOps             | Multi-cloud CI/CD automation           |
-| [094](./templates/094-e-commerce-platform/)        | Web                | Full-featured online store             |
+| #                                                  | Template                     | Category  | Description                            |
+| -------------------------------------------------- | ---------------------------- | --------- | -------------------------------------- |
+| [031](./templates/031-ai-code-reviewer/)           | `ai-code-reviewer`           | AI/ML     | Automated code review with AI analysis |
+| [046](./templates/046-subscription-management/)    | `subscription-management`    | SaaS      | Complete subscription billing platform |
+| [061](./templates/061-security-audit-platform/)    | `security-audit-platform`    | Security  | Automated security scanning tool       |
+| [071](./templates/071-real-time-analytics-engine/) | `real-time-analytics-engine` | Analytics | Stream processing platform             |
+| [081](./templates/081-ci-cd-orchestrator/)         | `ci-cd-orchestrator`         | DevOps    | Multi-cloud CI/CD automation           |
+| [094](./templates/094-e-commerce-platform/)        | `e-commerce-platform`        | Web       | Full-featured online store             |
 
 **📚 [View All 200 Templates →](./templates/CATALOG.md)** |
 **[Extended Catalog (101-200) →](./templates/EXTENDED_CATALOG.md)**
@@ -275,7 +316,8 @@ npm install && npm run dev
 
 _Self-healing, revenue optimization, and automated growth swarms._
 
-- **Self-Heal Guardian:** Monitors platform health and revives crashed agents/jobs.
+- **Self-Heal Guardian:** Monitors platform health and revives crashed
+  agents/jobs.
 - **Revenue Optimizer:** Calculates ROI and updates dynamic pricing strategies.
 - **Growth Marketeer:** Mines success data to generate viral social proof.
 - **Visual Architect:** Converts market trends into structured infographics.
@@ -290,7 +332,7 @@ _Self-healing, revenue optimization, and automated growth swarms._
 
 Claude discovers and chains skills automatically. Example:
 
-```
+```text
 You: "Build me a SaaS that lets teams track unit economics"
 
 Claude with Crucible:
@@ -303,9 +345,9 @@ Claude with Crucible:
   7. observe                   → instruments PostHog + Sentry from day 0
 ```
 
-**New: AI Agent Systems**
+### New: AI Agent Systems
 
-```
+```text
 You: "Build an autonomous deployment pipeline with edge monitoring"
 
 Claude with Crucible:
@@ -315,6 +357,21 @@ Claude with Crucible:
   4. neon                         → stores agent state and execution history
   5. observe                      → tracks agent performance metrics
   6. review-security              → validates agent allowlists and sandboxing
+```
+
+### Game And Web Production
+
+```text
+You: "Build a browser game with a web dashboard and deploy it"
+
+Claude with Crucible:
+  1. workflow-game-web-production → plans concept, architecture, QA, release
+  2. game-engine-helper           → selects Phaser, Three.js, Godot, Unity, etc.
+  3. phaser-game-builder          → builds a playable 2D browser slice
+  4. web-app-builder              → builds the surrounding web app/dashboard
+  5. game-asset-pipeline          → manages optimized runtime assets
+  6. game-qa-playtesting          → validates gameplay, saves, controls, bugs
+  7. frontend-performance-a11y    → checks FPS, Core Web Vitals, accessibility
 ```
 
 🔒 This project takes security seriously. Report vulnerabilities privately at

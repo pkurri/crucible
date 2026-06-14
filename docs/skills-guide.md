@@ -150,6 +150,18 @@ recommendations
 **component-library-builder** - Design system creator  
 **css-optimizer** - CSS optimization
 
+### Game & Interactive Web
+
+**workflow-game-web-production** - End-to-end game and rich web production
+**game-engine-helper** - Engine selection and game architecture
+**phaser-game-builder** - Phaser 3 browser games and 2D systems
+**three-js-game** - Three.js and React Three Fiber 3D experiences
+**multiplayer-game-networking** - Realtime rooms, protocols, matchmaking
+**game-asset-pipeline** - Sprites, GLB, audio, compression, licensing
+**game-qa-playtesting** - Playtesting, balance, compatibility, bug triage
+**web-app-builder** - React, Next.js, Vite, APIs, routes, app UX states
+**frontend-performance-a11y** - Core Web Vitals, FPS, responsive, WCAG gates
+
 ### 🔐 Security & Auth (8)
 
 **stripe** - Stripe payment integration  
@@ -264,7 +276,7 @@ recommendations
 
 ### Skill Structure
 
-```
+```text
 skills/my-custom-skill/
 ├── SKILL.md           # Skill description
 ├── examples/          # Usage examples
@@ -331,8 +343,9 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for details.
 ## Support
 
 - **Documentation**: Check skill-specific SKILL.md files
-- **Issues**: https://github.com/pkurri/crucible/issues
-- **Discussions**: https://github.com/pkurri/crucible/discussions
+- **Issues**: [GitHub Issues](https://github.com/pkurri/crucible/issues)
+- **Discussions**:
+  [GitHub Discussions](https://github.com/pkurri/crucible/discussions)
 
 ---
 

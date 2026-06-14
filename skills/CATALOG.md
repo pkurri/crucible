@@ -86,7 +86,8 @@
 **azure-optimizer** - Azure resource optimization  
 **gcp-deployer** - Google Cloud deployment  
 **kubernetes-manager** - K8s cluster management  
-**terraform-generator** - IaC template creation
+**terraform-generator** - IaC template creation  
+**deploy-production-ready** - Production readiness checklist and verification
 
 ---
 
@@ -142,7 +143,8 @@
 **oauth-integrator** - OAuth provider setup  
 **rbac-designer** - Role-based access control  
 **encryption-helper** - Data encryption utilities  
-**security-headers** - HTTP security headers
+**security-headers** - HTTP security headers  
+**security-scan** - AgentShield-inspired security auditor
 
 ---
 
@@ -185,7 +187,10 @@
 **python-backend-expert** - Python backend helper  
 **resend** - Email service integration  
 **structured-prompting** - Prompt template system  
-**deep-research** - Research automation
+**deep-research** - Research automation  
+**observer** - Persistent memory and session observation system  
+**continuous-learning-v2** - Instinct-based learning and pattern evolution  
+**search-first** - Research-driven development workflow
 
 ---
 

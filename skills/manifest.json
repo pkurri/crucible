@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "skillsVersion": "2026-01-24",
-  "generatedAt": "2026-01-24",
+  "skillsVersion": "2026-04-28",
+  "generatedAt": "2026-04-28",
   "skills": [
     {
       "name": "cloudflare",
@@ -300,12 +300,92 @@
       "summary": "Optimize game revenue by analyzing monetization models and segmenting features into Free and Pro tiers. Generates data-driven IAP and subscription strategies."
     },
     {
+      "name": "workflow-game-web-production",
+      "dir": "workflow-game-web-production",
+      "skillMd": "workflow-game-web-production/SKILL.md",
+      "stage": "workflow",
+      "tags": ["workflow", "gaming", "web", "production"],
+      "summary": "End-to-end production workflow for games and rich web apps: intake, architecture, vertical slices, QA, performance, accessibility, and release gates."
+    },
+    {
+      "name": "game-engine-helper",
+      "dir": "game-engine-helper",
+      "skillMd": "game-engine-helper/SKILL.md",
+      "stage": "tool",
+      "tags": ["tool", "gaming", "architecture"],
+      "summary": "Game engine decision and architecture helper for browser games, Phaser, Three.js, Unity, Godot, Unreal, and native exports."
+    },
+    {
+      "name": "phaser-game-builder",
+      "dir": "phaser-game-builder",
+      "skillMd": "phaser-game-builder/SKILL.md",
+      "stage": "tool",
+      "tags": ["tool", "gaming", "phaser", "web"],
+      "summary": "Phaser 3 browser game builder for 2D scenes, sprites, input, physics, UI overlays, saves, build setup, and deployable web games."
+    },
+    {
+      "name": "three-js-game",
+      "dir": "three-js-game",
+      "skillMd": "three-js-game/SKILL.md",
+      "stage": "tool",
+      "tags": ["tool", "gaming", "three-js", "webgl"],
+      "summary": "Three.js and React Three Fiber guidance for WebGL scenes, 3D web games, physics interactions, shaders, asset loading, and browser 3D performance."
+    },
+    {
+      "name": "multiplayer-game-networking",
+      "dir": "multiplayer-game-networking",
+      "skillMd": "multiplayer-game-networking/SKILL.md",
+      "stage": "tool",
+      "tags": ["tool", "gaming", "realtime", "networking"],
+      "summary": "Multiplayer and realtime game networking for WebSocket, WebRTC, authoritative servers, rooms, matchmaking, latency handling, and anti-cheat boundaries."
+    },
+    {
+      "name": "game-asset-pipeline",
+      "dir": "game-asset-pipeline",
+      "skillMd": "game-asset-pipeline/SKILL.md",
+      "stage": "tool",
+      "tags": ["tool", "gaming", "assets", "media"],
+      "summary": "Game and web asset pipeline for sprites, textures, GLB/GLTF models, audio, fonts, compression, licensing, naming, and runtime loading strategy."
+    },
+    {
+      "name": "game-qa-playtesting",
+      "dir": "game-qa-playtesting",
+      "skillMd": "game-qa-playtesting/SKILL.md",
+      "stage": "review",
+      "tags": ["review", "gaming", "qa"],
+      "summary": "Game QA, playtesting, accessibility, balance, bug triage, browser compatibility, save/load validation, and release readiness."
+    },
+    {
+      "name": "web-app-builder",
+      "dir": "web-app-builder",
+      "skillMd": "web-app-builder/SKILL.md",
+      "stage": "tool",
+      "tags": ["tool", "web", "frontend", "fullstack"],
+      "summary": "Modern web app builder for React, Next.js, Vite, APIs, routing, state, forms, auth, databases, deployment, and production UX."
+    },
+    {
+      "name": "frontend-performance-a11y",
+      "dir": "frontend-performance-a11y",
+      "skillMd": "frontend-performance-a11y/SKILL.md",
+      "stage": "review",
+      "tags": ["review", "frontend", "performance", "accessibility"],
+      "summary": "Frontend performance and accessibility quality gate for Core Web Vitals, FPS, bundle size, layout stability, keyboard access, contrast, motion, and responsiveness."
+    },
+    {
       "name": "claude-token-saver",
       "dir": "claude-token-saver",
       "skillMd": "claude-token-saver/SKILL.md",
       "stage": "meta",
       "tags": ["meta", "optimization", "token"],
       "summary": "Context window and token usage optimizer for Claude Code. Enforces strict protocols for smart searching, reading constraints, and redundancy prevention to maintain peak performance."
+    },
+    {
+      "name": "marketing-engine",
+      "dir": "marketing-engine",
+      "skillMd": "marketing-engine/SKILL.md",
+      "stage": "tool",
+      "tags": ["tool", "marketing", "cro", "seo", "copywriting", "growth", "sales", "analytics"],
+      "summary": "Bundled marketing intelligence engine with 41 specialized skills across 7 verticals: Conversion (CRO), Content & Copy, SEO & Discovery, Paid & Measurement, Growth & Retention, Sales & GTM, and Strategy. Includes 73 reference documents with frameworks, templates, and playbooks. All skills share a product-marketing-context foundation."
     }
   ]
 }
