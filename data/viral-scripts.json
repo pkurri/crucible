@@ -120,7 +120,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12285,49 +12285,43 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Intermittent Fasting",
-        "icon": "⏳"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Exercise",
-        "name": "HIIT Sprint Sessions",
-        "icon": "🏃‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue Light Blocking Glasses",
-        "icon": "👓"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Supplement",
-        "name": "NAD+ Boosters (NR/NMN)",
-        "icon": "💊"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Mindfulness",
-        "name": "Daily Breathwork (Box Breathing)",
-        "icon": "🌬️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Temperature",
-        "name": "Cold Exposure (Ice Baths)",
-        "icon": "❄️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Strong Community Ties",
-        "icon": "👥"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Genetics",
-        "name": "Epigenetic Testing & Personalized Plans",
-        "icon": "🧬"
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12373,43 +12367,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Mind Tactics",
+        "name": "Silent Flags",
+        "icon": "🧠"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Persuasion Tools",
+        "name": "Mirror Matching",
+        "icon": "🗝️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Scarcity Shock",
+        "icon": "🤝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Fear Amplifier",
+        "icon": "😭"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Neuropsych Tricks",
+        "name": "Reversal Neural Code",
+        "icon": "⚡"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Behavioral Cues",
+        "name": "Gesture Signifier",
+        "icon": "🤐"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Covert Persuasion",
+        "name": "Subliminal Preset",
+        "icon": "⌛"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Memory Manipulation",
+        "name": "Recency Rewriter",
+        "icon": "🔄"
       }
     ]
   },
@@ -35538,6 +35538,47 @@
         "title": "Customization",
         "name": "Drag‑and‑Drop Builder",
         "icon": "🛠️"
+      }
+    ]
+  },
+  "ApexFlow_1781425096582": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1781425096582.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
