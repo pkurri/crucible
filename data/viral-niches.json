@@ -11535,6 +11535,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Growing fascination with sustainable biotech, viral TikTok/IG reels of glowing plants and algae, and upcoming smart-city concepts that integrate living light sources make this niche ripe for faceless, visually stunning content that stops the scroll and fuels wonder.",
+      "ideas": [
+        "What If New York Glowed Like a Deep‑Sea Reef? – A 60‑Second Bioluminescent City Simulation",
+        "Tokyo at Night Reimagined: Streets Lit by Genetically Engineered Algae – Watch the Transformation",
+        "From Lab to Skyline: How Scientists Are Turning Skyscrapers into Living Light Sources – The Future Is Already Glowing"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "neon",
+        "cityscape",
+        "night",
+        "algae"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
