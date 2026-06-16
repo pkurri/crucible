@@ -12105,6 +12105,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Bioluminescent cities blend cutting‑edge sustainable tech with the dream of living light. The concept is fresh, visually striking, and taps into growing interest in green innovation and sci‑fi aesthetics. Its novelty sets it apart from mainstream AI or space topics, while limitless design possibilities allow endless viral content creation.",
+      "ideas": [
+        "The World’s First Glow‑City: Inside the Bioluminescent Megalopolis – Hook: 'Step into a city that shines at night without electricity – you’ll see streets lit by living lights…'",
+        "How Bioluminescent Plants Could Replace Streetlamps Forever! – Hook: 'Imagine streets illuminated by living flora – no batteries, no bulbs, just science—real or fiction?'",
+        "Dreaming of a Luminous Underground Metro: The Science Behind Glow AI – Hook: 'What if your subway runs on shimmering algae? Find out how glow lights could power underground transit!'"
+      ],
+      "keywords": [
+        "GLITTERING CITYSCAPE",
+        "LIVING LIGHTS",
+        "PHOSPHORESCENT FOAM",
+        "SUSTAINABLE FANTASY",
+        "NEON RAIN"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
