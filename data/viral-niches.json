@@ -12174,6 +12174,32 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienBiomeFactory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "AI‑generated alien worlds have zero upfront production cost, offer endless creative possibilities, and tap into the growing interest in space, exploration and speculative biology. The texture and color palettes can be rendered automatically for each clip, enabling over 25 unique concepts per month while sustaining high retention through visually staggering, scroll‑stopping imagery.",
+      "ideas": [
+        "Transparent Forests on a Mysterious Planet? AI Designs Earth‑Like Ecosystems",
+        "A Blue‑Lunged Ocean World with Floating Cities – Instant Alien Landscape Showcase",
+        "The ‘Phantom Crystal Forest’: A Surreal Biome Brought to Life by AI",
+        "Living Tentacled Trees: Witness the Most Unreal Alien Ecosystem Ever Created",
+        "Rapid‑Fused Reality: 30 Scenes of AI‑Generated Alien Biomes in 60 Seconds"
+      ],
+      "keywords": [
+        "alien",
+        "AI‑generated",
+        "vibrant",
+        "surreal",
+        "ecosystem"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
