@@ -12285,43 +12285,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Diet",
+        "name": "Blue Juice",
+        "icon": "💧"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Morning Walk",
+        "icon": "🚶"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "30‑Min Night",
+        "icon": "🛌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mind",
+        "name": "Micro Med",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electro Hydrate",
+        "icon": "🥤"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Laugh Circles",
+        "icon": "😂"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Gut",
+        "name": "Fermented Foods",
+        "icon": "🥖"
       }
     ]
   },
@@ -12398,7 +12404,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -12408,43 +12414,49 @@
     ]
   },
   "GeopoliticalCollapseWatch": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GeopoliticalCollapseWatch secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
-        "duration": 5
+        "title": "Military",
+        "name": "Arms Race Avalanche",
+        "icon": "⚔️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Economy",
+        "name": "Currency Crash Blitz",
+        "icon": "💰"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Cyber",
+        "name": "Data Dreadfall",
+        "icon": "🕸️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Climate",
+        "name": "Heatwave Hysteria",
+        "icon": "🔥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Alliances",
+        "name": "Alliance Anomaly",
+        "icon": "🤝"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Population",
+        "name": "Migration Mayhem",
+        "icon": "🚶"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Leadership",
+        "name": "Power Shift Panic",
+        "icon": "👑"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Resources",
+        "name": "Fuel Famine",
+        "icon": "⛽"
       }
     ]
   },
@@ -36692,6 +36704,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1781648048330": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1781648048330 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Gameplay",
+        "name": "Dynamic Objectives",
+        "icon": "🏆"
+      },
+      {
+        "title": "Graphics",
+        "name": "Ultra Realism Shader",
+        "icon": "🔮"
+      },
+      {
+        "title": "AI",
+        "name": "Predictive Pathing",
+        "icon": "🤖"
+      },
+      {
+        "title": "Network",
+        "name": "Low Latency Mesh",
+        "icon": "🌐"
+      },
+      {
+        "title": "UI",
+        "name": "Adaptive HUD",
+        "icon": "🎛️"
+      },
+      {
+        "title": "Audio",
+        "name": "Spatial Binaural",
+        "icon": "🎧"
+      },
+      {
+        "title": "Cosmetics",
+        "name": "Procedural Skins",
+        "icon": "🧬"
+      },
+      {
+        "title": "Esports",
+        "name": "Referee SDK",
+        "icon": "🏅"
       }
     ]
   }
