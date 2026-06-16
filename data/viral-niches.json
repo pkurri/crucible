@@ -12129,6 +12129,30 @@
         "NEON RAIN"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of natural bioluminescence and urban infrastructure offers a never-before-seen visual spectacle that captivates both nature lovers and tech enthusiasts. High‑quality, vibrant imagery fuels scroll‑stopping hooks, while the mystery of experimental city lighting generates curiosity loops. This niche is visually arresting, evergreen, and ripe for scalable content across both YouTube and Meta platforms.",
+      "ideas": [
+        "10 Cities Illuminated by Nature: The Future of Light 🌿🌊 / Hook: Imagine walking through streets made of glowing seaweed and watching neon sky‑indigo lights dance in real‑time!",
+        "We Lived 24 Hours in a Bioluminescent City – The Results Will Shock You 😲 / Hook: From zero to glowing, this live experiment shows how nature’s glow can redefine everyday life.",
+        "Why Bioluminescent Cities Are the Next Smart City? 5 Shocking Scientific Breakthroughs 🚀 / Hook: Inside the science that turns cities into living, breathing light displays."
+      ],
+      "keywords": [
+        "Glowing",
+        "Neon",
+        "Seaweed",
+        "FutureCity",
+        "NatureTech"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
