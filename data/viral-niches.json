@@ -12395,6 +12395,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VerticalUrbanForests",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Vertical urban forests are a rapidly growing trend that blends cutting‑edge architecture, sustainability and incredible visual storytelling. Urban dwellers crave short, visually stunning glimpses of nature embedded in cityscapes, and the scarcity of behind‑the‑scenes footage fuels curiosity. This niche can be leveraged for a limitless stream of micro‑clips—tree‑roofs, living facades, rooftop farms—each teeming with kinetic movement, light play and heart‑warming “hidden miracle” hooks that perform strongly in both YouTube Shorts and Instagram Reels. The combination of awe‑inducing visuals, a strong emotional pull and the ability to create dozens of distinct subjects gives it a high‑scalability, sustaining the 1M+ subscriber and 100K+ views per video targets.",
+      "ideas": [
+        "Hidden Sky Forests: Cities That Grow Skyscraper Trees – You Won’t Believe What’s Inside.",
+        "Inside the World’s First Infinite Green Roof – 30 Hours of Mother Nature in 60 Seconds.",
+        "From Concrete Jungle to Verdant Skies: The Secret Life of Vertical Forest Buildings Revealed."
+      ],
+      "keywords": [
+        "SkylineGreenery",
+        "VerticalCanopy",
+        "BioTechGreen",
+        "EcoSkyscraper",
+        "LivingFacade"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
