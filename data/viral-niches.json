@@ -12440,6 +12440,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrocosmicMazes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche dives into the hidden, living ecosystems that exist at scales invisible to the naked eye, offering endless visually stunning, curiosity‑driven content that’s not yet saturated. Its exploratory nature aligns with top trending scientific curiosity feeds on both Meta and YouTube, and each video can be turned into a scroll‑stopping micro‑documentary that promotes high engagement and shareability.",
+      "ideas": [
+        "The Ant City Beneath Ice – A Microscopic Freeze‑Frame Story",
+        "Hidden in Sound: The Symphony of Bacterial Breeding Grounds",
+        "When Bone Meets Micro: Bioluminescent Mushrooms in Your Kitchen"
+      ],
+      "keywords": [
+        "Microscopic",
+        "Nano",
+        "ScaledDown",
+        "Hidden",
+        "Bioluminescent"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
