@@ -36876,5 +36876,52 @@
         "icon": "🧩"
       }
     ]
+  },
+  "ApexFlow_1781674229520": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1781674229520 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Pipeline Magic",
+        "name": "CascadeX",
+        "icon": "🌊"
+      },
+      {
+        "title": "Velocity Boost",
+        "name": "SpeedStreak",
+        "icon": "⚡"
+      },
+      {
+        "title": "Precision Mapping",
+        "name": "Quantum Mapper",
+        "icon": "🧭"
+      },
+      {
+        "title": "Stellar Scale",
+        "name": "StellarScale",
+        "icon": "🚀"
+      },
+      {
+        "title": "Iron Guard",
+        "name": "IronGuard",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Nebula View",
+        "name": "NebulaView",
+        "icon": "🌌"
+      },
+      {
+        "title": "FortiNet",
+        "name": "FortiNet",
+        "icon": "🔐"
+      },
+      {
+        "title": "AutoPilot",
+        "name": "AutoPilot",
+        "icon": "🤖"
+      }
+    ]
   }
 }
