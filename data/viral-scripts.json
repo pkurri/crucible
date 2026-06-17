@@ -12275,7 +12275,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12287,47 +12287,47 @@
   "LongevityHacksUnlocked": {
     "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
         "title": "Nutrition",
-        "name": "Oyster Omega Fats",
-        "icon": "🦪"
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "title": "Movement",
-        "name": "Desk Squat Hack",
-        "icon": "🏋️"
-      },
-      {
-        "title": "Mindset",
-        "name": "Midday Mindfulness Call",
-        "icon": "🧘"
+        "title": "Exercise",
+        "name": "HIIT",
+        "icon": "🏋️‍♂️"
       },
       {
         "title": "Supplements",
-        "name": "NAD+ Booster",
-        "icon": "⚡"
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
         "title": "Sleep",
-        "name": "Blue Light Blocking Glasses",
-        "icon": "🌙"
+        "name": "5‑Second Wake‑Up",
+        "icon": "😴"
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Infused Water",
-        "icon": "💧"
+        "title": "Stress",
+        "name": "Forest Bathing",
+        "icon": "🌲"
       },
       {
         "title": "Social",
-        "name": "Weekly Lifelong Learning Circles",
+        "name": "Cohort Coaching",
         "icon": "🤝"
       },
       {
-        "title": "Tech",
-        "name": "AI Sleep Tracker",
-        "icon": "🚀"
+        "title": "Mindfulness",
+        "name": "Quiet Journaling",
+        "icon": "✍️"
+      },
+      {
+        "title": "Hormone",
+        "name": "Hormone Reset Diet",
+        "icon": "🔄"
       }
     ]
   },
@@ -12363,7 +12363,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -37056,6 +37056,53 @@
         "title": "Community",
         "name": "SubUrban Garden Club",
         "icon": "🤝"
+      }
+    ]
+  },
+  "ApexFlow_1781723899264": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1781723899264 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "TurboBoost Engine",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum Shield Protocol",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "Universal API Connector",
+        "icon": "🔌"
+      },
+      {
+        "title": "Automation",
+        "name": "Smart Workflow Orchestrator",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Scalability",
+        "name": "Elastic Load Balancer",
+        "icon": "⚖️"
+      },
+      {
+        "title": "User Experience",
+        "name": "Adaptive UI Framework",
+        "icon": "🎨"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 AI Assistance Bot",
+        "icon": "🤖"
       }
     ]
   }
