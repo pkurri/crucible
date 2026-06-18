@@ -12704,6 +12704,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The concept of entire cities glowing at night with living, bioluminescent organisms is fresh, visually stunning, and taps into current interests in sustainable tech and urban futurism. It naturally carries scroll‑stopping visuals and curiosity loops—viewers are drawn to the idea of replacing harsh LED lights with eco‑friendly, self‑sustaining bioluminescent illumination. Beyond the first few videos, the niche is scalable with multiple angles: different cities, bioluminescent species, market impacts, DIY projects, how‑to guides, and environmental analysis—providing endless content hooks that keep subscribers engaged.",
+      "ideas": [
+        "This City’s Nightlights Are Made Of Living Light—See the Stunning Reveal! / Hook: \"Ever wondered what cities would look like if they were lit by living organisms? We toured a bioluminescent‑lit street that literally grows!\"",
+        "How Bioluminescent Algae Could Replace LED Streetlights—A Demo in the Wild! / Hook: \"We planted glowing algae on a bustling sidewalk. Watch until the LED switches off and see the natural light that follows—no batteries required!\"",
+        "The Silent Revolution: 5 Cities Turning Night into Neon Bio‑Light / Hook: \"From Seoul to Barcelona, discover how urban planners are turning streets into glowing forests. These living lights could power the next era of sustainability.\""
+      ],
+      "keywords": [
+        "glow",
+        "bioluminescence",
+        "night cityscape",
+        "living lights",
+        "sustainability"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
