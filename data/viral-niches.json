@@ -12728,6 +12728,30 @@
         "sustainability"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VerticalFarmCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Vertical farm cities combine cutting‑edge agriculture, sustainable architecture, and mesmerizing cityscapes—topics that are already trending on social media and resonate with the growing eco‑conscious audience. The visual spectacle of towering greenhouses, drone‑planted rooftop forests, and ultra‑modern LED farms offers endless scroll‑stopping hooks while sparking curiosity about the future of food. The niche is highly differentiated from generic urban or farming content and supports a vast library of 25+ unique video ideas across myriad cities worldwide.",
+      "ideas": [
+        "The Hidden Giant: Inside the World's Tallest Vertical Farm—Sky‑High Harvests Revealed!",
+        "How a Skyscraper Feeds 50,000 People: The Science Behind How Sky‑Garden Cities Are Built",
+        "Drone‑Seeded Rooftop Forgeries: Watch a City Grow an Entire Forest in 24 Hours"
+      ],
+      "keywords": [
+        "skyline",
+        "greenery",
+        "LED",
+        "hydroponic",
+        "drone"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
