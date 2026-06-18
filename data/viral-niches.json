@@ -12611,6 +12611,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienBiomeFactory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "AlienBiomeFactory taps into the rising curiosity for extraterrestrial life and bioluminescent ecosystems. Its unique visual concept—fully realized synthetic biomes that could exist on other planets—captures attention, lends itself to scroll‑stopping animation, and fuels curiosity loops. The niche is highly differentiable, provides endless content variations (each alien ecosystem can be a new video), and aligns with current trends in sci‑fi, space exploration and the fascination with micro‑worlds. Faceless storytelling with high‑definition visuals is ideal for both YouTube long‑form and Meta short stories.",
+      "ideas": [
+        "Exploring a Lab‑Built Planet: The First Alien Biome That Glows Inside Your Home // Prepare to be amazed by nature that doesn’t exist on Earth!",
+        "Inside the Xeno‑Garden: 10 Bizarre Creatures We’re Creating to Survive on Other Worlds // Fall in love with the most otherworldly life forms yet!",
+        "The Perilously Beautiful World of the Gray Blob – A Surreal Bioluminescent Ecosystem in the Lab // Take a glimpse of a future jungle you’ll never see on Earth!"
+      ],
+      "keywords": [
+        "luminescent",
+        "otherworldly",
+        "bioluminescent",
+        "alien",
+        "surreal"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
