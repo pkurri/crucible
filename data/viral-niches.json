@@ -12815,6 +12815,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "RooftopGardenRevival",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Rooftop gardens combine sustainability, urban innovation, and unexpected visual storytelling—an emerging trend that captivates eco‑enthusiasts and city dwellers alike. The niche offers endless scroll‑stopping visuals (lush greenery atop concrete), compelling hooks (secret economies, urban farms growing in lock‑step with city life), and a broad, passionate audience. Faceless storytelling (text overlays, ambient audio, and dynamic imagery) ensures high engagement and scalability.",
+      "ideas": [
+        "10 Rooftop Gardens that Are Turning Cities Into Living Palaces – You’ll Be Shocked by the Size of Each One!",
+        "How Rooftop Gardens Generate More Than Food: The Hidden Revenue Streams Powering a New Urban Economy",
+        "From Concrete Blankets to Bountiful Harvests: The 60‑Second Transformation of a Rooftop into a Full‑Time Farm"
+      ],
+      "keywords": [
+        "Urban Green",
+        "Rooftop Farming",
+        "Sustainable City",
+        "Green Roofs",
+        "Food Production"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
