@@ -12860,6 +12860,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The world’s first cities built with mycelium bricks, fungal concrete and glow‑in‑the‑dark spores are turning urban architecture into living ecosystems. This niche blends high‑impact visuals—glowing fungal lattices and eco‑friendly construction—with current eco‑sustainability trends, offering massive cross‑platform shareability. Faceless content can showcase crystal‑clear time‑lapse construction, immersive 3D tours of fungal skyscrapers, and expert interviews—all elements that naturally support scroll‑stopping hooks and curiosity loops.",
+      "ideas": [
+        "5 Astonishing Mycelium Buildings That Are Smarter Than Concrete! / Imagine a city that thinks and breathes.",
+        "Can Your Next Home Be Built from Spikes? The Fungal Architecture Revolution Explained.",
+        "How Fungi Are Turning Concrete Into a Super‑Absorbent Liquid... The Secret Inside the World’s First Mycelium Skyscraper."
+      ],
+      "keywords": [
+        "MyceliumBricks",
+        "GlowInDarkSporeCity",
+        "FungalConcrete",
+        "BioluminescentFungi",
+        "NetworkedFungalArchitecture"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
