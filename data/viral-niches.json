@@ -13193,6 +13193,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VerticalUrbanForests",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Vertical Urban Forests combine the visual drama of towering green canopies with the urgent global conversation around climate action and sustainable city planning. The concept is fresh enough to differentiate from other eco‑centric niches, yet grounded in realistic and scalable projects like the Bosco Verticale. Its cinematic potential and the narrative of transforming concrete jungles into living ecosystems create scroll‑stopping hooks that resonate with curiosity‑driven viewers and eco‑conscious communities.",
+      "ideas": [
+        "Inside the World's Largest Vertical Forest: 400+ Trees Above the City – A Day in the Life of the Bosco Verticale",
+        "How Vertical Urban Forests Are Turning Skyscrapers Green – See the Science Behind the Roof’s Living Biome",
+        "This City’s Green Skyscraper: 100% Powered By Trees – The Inspiring Story of Urban Sustainability in Motion"
+      ],
+      "keywords": [
+        "Biophilic",
+        "Skyscraper",
+        "Green",
+        "Layers",
+        "Urban"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
