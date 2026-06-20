@@ -35454,43 +35454,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Stop scrolling! 8 cities glow like stars you can't miss.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Imagine every street puddled with fireflies.",
-        "duration": 5
+        "title": "Architecture",
+        "name": "NeonNova",
+        "icon": "🏙️"
       },
       {
-        "text": "Cities need to ditch LED to beat climate crisis.",
-        "duration": 4
+        "title": "Parks",
+        "name": "Glowing Grove",
+        "icon": "🌿"
       },
       {
-        "text": "Scientists grew algae that glow brighter than sunrise.",
-        "duration": 5
+        "title": "Streets",
+        "name": "Luminous Lane",
+        "icon": "🌆"
       },
       {
-        "text": "Cities in Singapore have pilot lantern streets powered by it.",
-        "duration": 5
+        "title": "Sky",
+        "name": "Aurora Zenith",
+        "icon": "🌌"
       },
       {
-        "text": "The glow reduces power bills by 70% instantly.",
-        "duration": 5
+        "title": "Seafront",
+        "name": "Biolume Bay",
+        "icon": "🌊"
       },
       {
-        "text": "What if your own alley becomes a living sky?",
-        "duration": 4
+        "title": "Transit",
+        "name": "Rail Radiance",
+        "icon": "🚆"
       },
       {
-        "text": "Glowing cities will draw tourists beyond imagination.",
-        "duration": 4
+        "title": "Markets",
+        "name": "Shimmer Market",
+        "icon": "🛍️"
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: how DIY bioluminescent walls could power your home.",
-        "duration": 4
+        "title": "Districts",
+        "name": "Glowpolis",
+        "icon": "🎡"
       }
     ]
   },

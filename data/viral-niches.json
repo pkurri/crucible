@@ -13061,6 +13061,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "With the increasing focus on sustainability, urban innovation, and bio‑engineering, the concept of cities lighting themselves with bioluminescent algae and living pigments is both visually breathtaking and scientifically intriguing. This niche packs instant scroll‑stopping hooks (glowing night‑scapes, algae fibers lighting streets), supports endless curiosity loops (how it works, how it’s built, future implications), and taps into the wanderlust and wonder of viewers, enabling rapid cross‑platform virality and the potential to create 25+ unique, shareable video ideas.",
+      "ideas": [
+        "The City That Glows: Inside Thailand’s First Bioluminescent Street – 8K WQHD AWE!",
+        "Algae Lights: How Singapore Is Turning Night Markets Into Living Neon—No Power Needed!",
+        "From Neon to Nature: Seoul’s Underground Bioluminescent Tunnel Reveals Future Urban Lighting!"
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescence",
+        "cityscape",
+        "nighttime",
+        "activating algae"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
