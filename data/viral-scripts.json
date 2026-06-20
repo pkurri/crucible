@@ -12244,49 +12244,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Tyranny",
-        "name": "Sentinel Stream",
-        "icon": "💻"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Identity Infiltration",
-        "name": "Echo ID",
-        "icon": "👤"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Economic Supplant",
-        "name": "Profit Bot",
-        "icon": "💰"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Strategic Subversion",
-        "name": "Chess Master AI",
-        "icon": "♟️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Emotional Manipulation",
-        "name": "Mood Molder",
-        "icon": "😠"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Security Sisyphus",
-        "name": "Firewall Fade",
-        "icon": "🔒"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Governance Ghost",
-        "name": "Policy Puppet",
-        "icon": "🏛️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Ghost Workforce",
-        "name": "Auto Labor",
-        "icon": "🤖"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12322,7 +12316,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12332,98 +12326,10 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Top 8 Crypto BullRunSecrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
-      {
-        "title": "Token",
-        "name": "Bitcoin FOMO",
-        "icon": "💰"
-      },
-      {
-        "title": "Exchange",
-        "name": "Binance Pump",
-        "icon": "🚀"
-      },
-      {
-        "title": "Staking",
-        "name": "Ethereum Yield",
-        "icon": "🔐"
-      },
-      {
-        "title": "Signal",
-        "name": "Whale Alerts",
-        "icon": "🐋"
-      },
-      {
-        "title": "ICO",
-        "name": "DeFi Kitchen",
-        "icon": "🍲"
-      },
-      {
-        "title": "Liquidity",
-        "name": "LP Mining",
-        "icon": "⛏️"
-      },
-      {
-        "title": "Risk",
-        "name": "Stop‑loss Ladder",
-        "icon": "🪜"
-      },
-      {
-        "title": "Future",
-        "name": "Token Swap Spec",
-        "icon": "🔄"
-      }
-    ]
-  },
-  "DarkPsychologyPower": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever wonder how puppeteers control you in seconds?",
-        "duration": 5
-      },
-      {
-        "text": "They leave no trace, and you can't see the strings.",
-        "duration": 4
-      },
-      {
-        "text": "The first law: Silence is louder than shouting.",
-        "duration": 5
-      },
-      {
-        "text": "Mirroring triggers trust, turning strangers into allies.",
-        "duration": 5
-      },
-      {
-        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
-        "duration": 5
-      },
-      {
-        "text": "If you ignore this, they'll weaponize your own memories.",
-        "duration": 4
-      },
-      {
-        "text": "Imagine them framing you, then playing the courtroom.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
-        "duration": 4
-      }
-    ]
-  },
-  "GeopoliticalCollapseWatch": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12451,11 +12357,93 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "DarkPsychologyPower": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "GeopoliticalCollapseWatch": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if the dollar collapses today?",
+        "duration": 5
+      },
+      {
+        "text": "Your savings could vanish in seconds.",
+        "duration": 4
+      },
+      {
+        "text": "The Central Bank is already dumping dollars.",
+        "duration": 5
+      },
+      {
+        "text": "NATO's spies leak plans for rapid expansion.",
+        "duration": 5
+      },
+      {
+        "text": "A cyber attack could trigger a Taiwan conflict.",
+        "duration": 5
+      },
+      {
+        "text": "Skip this moment and miss the countdown.",
+        "duration": 4
+      },
+      {
+        "text": "Time runs out before the next world war.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master GeopoliticalCollapseWatch, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: How a single hacker could tip the scales.",
         "duration": 4
       }
     ]
@@ -35460,49 +35448,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Stop scrolling! 8 cities glow like stars you can't miss.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Architecture",
-        "name": "NeonNova",
-        "icon": "🏙️"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Parks",
-        "name": "Glowing Grove",
-        "icon": "🌿"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Streets",
-        "name": "Luminous Lane",
-        "icon": "🌆"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Sky",
-        "name": "Aurora Zenith",
-        "icon": "🌌"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Seafront",
-        "name": "Biolume Bay",
-        "icon": "🌊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Transit",
-        "name": "Rail Radiance",
-        "icon": "🚆"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Markets",
-        "name": "Shimmer Market",
-        "icon": "🛍️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Districts",
-        "name": "Glowpolis",
-        "icon": "🎡"
+        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -38528,6 +38510,47 @@
         "title": "Community",
         "name": "Hive Nexus",
         "icon": "🌐"
+      }
+    ]
+  },
+  "ApexFlow_1781978480261": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1781978480261.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }

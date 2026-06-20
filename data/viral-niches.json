@@ -13259,6 +13259,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The world is rapidly shifting toward sustainable urban solutions, and bio‑luminescent cities epitomize the intersection of nature, technology, and visual spectacle. With the proliferation of drone footage, timelapse tech, and hyper‑realistic CGI, content that showcases glowing streets, algae‑powered lighting, and bioluminescent skylines captivates viewers on both TikTok and YouTube. The niche has a built‑in share‑worthy aesthetic, strong cross‑platform appeal, and high retention potential through dramatic before‑and‑after transformations and countdown reveal formats.",
+      "ideas": [
+        "10 Cities That Glow Green At Night | The Future Is Bright – Hook: \"What if your city could light itself without electricity? 10 mind‑blowing proofs!\"",
+        "Bioluminescent Streets: How to Build a Glow‑Up City – Hook: \"Turn your neighborhood into a living neon gallery using science, not wires!\"",
+        "From Pollution to Poise: 5 Times Nature Illuminated Urban Life – Hook: \"Nature’s own streetlight revealed – the science that’s changing cityscapes forever!\""
+      ],
+      "keywords": [
+        "Glowing",
+        "Electric",
+        "Neon",
+        "Silhouettes",
+        "Nighttime"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
