@@ -13283,6 +13283,30 @@
         "Nighttime"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Bio-luminescent city concepts fuse cutting‑edge science, sustainable design, and mesmerizing visuals—perfect for scrolling feeds and binge‑watching. Few creators tap this niche, leaving massive untapped demand. The combination of glowing architecture, live‑action experiments, and speculative future design creates endless curiosity loops, while the high‑contrast, neon‑bright imagery commands instant attention across platforms.",
+      "ideas": [
+        "Glowing Streets of Tomorrow: Inside the First City Powered by Bioluminescent Plants / Hook: ‘What if your streetlights were nature’s own LEDs…’",
+        "The Secret Labs Turning Neon into Nature’s Light – Discover the Code Behind Bioluminescent Skyscrapers  / Hook: ‘Scientists are rewriting light itself…’",
+        "How a Tiny Algae Could Light Entire Neighborhoods — Cost, Power, and Planet‑Friendly Prospects  / Hook: ‘Think renewable + gorgeous? This is the future!’"
+      ],
+      "keywords": [
+        "Glowing",
+        "Neon",
+        "Electric",
+        "Futuristic",
+        "Bioluminescent"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
