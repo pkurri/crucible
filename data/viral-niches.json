@@ -13148,6 +13148,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LivingArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Wonder",
+      "reason": "The surge in sustainable construction, bio‑engineering and generative design has sparked public imagination about buildings that literally grow and adapt. This niche is under‑explored, highly visual, and perfect for scroll‑stopping transformations and curiosity loops, making it ripe for 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "Self‑Healing Roads: Watch a Cracked Highway Repair Itself in 3 Minutes / Hook: \"What if your street could heal itself overnight? Witness the future of roads right now!\"",
+        "Algae Light‑Up Facades: The City That Grows Its Own Street Lamps / Hook: \"Ever seen a building that lights up with ocean‑green algae? Discover the world's first living LED walls.\"",
+        "Vertical Farm Houses: How a House Can Feed Its Own Family / Hook: \"Imagine eating breakfast from your own roof garden. The world's first edible house has arrived—watch it sprout on camera.\""
+      ],
+      "keywords": [
+        "Self Healing",
+        "Algae Luminescence",
+        "Vertical Gardens",
+        "Bio‑Constructed",
+        "Living Facades"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
