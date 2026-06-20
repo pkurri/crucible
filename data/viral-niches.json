@@ -13016,6 +13016,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumBiologySecrets",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "Recent breakthroughs show quantum effects in photosynthesis, avian navigation, and enzyme catalysis—topics that blend the mystery of quantum physics with the intimacy of life itself. This intersection offers fresh, mind‑bending visuals, high curiosity triggers, and virtually no faceless competition, making it ripe for rapid growth to 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "How Birds Use Quantum Entanglement to Navigate Across Continents – Mind‑Blowing Proof / Scientists just observed entangled electrons in a robin’s eye – here’s what it means for reality.",
+        "The Secret Quantum Dance Inside Your Cells That Powers Life – Visualized / Watch ATP synthase spin at quantum speeds – a hidden engine you’ve never seen.",
+        "If Photosynthesis Used Quantum Computing, Plants Would Be Supercomputers – Here’s Why / New experiments reveal plants performing quantum calculations faster than any supercomputer."
+      ],
+      "keywords": [
+        "quantum biology",
+        "entangled electrons",
+        "photosynthesis visualization",
+        "cellular quantum spin",
+        "avian navigation mystery"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
