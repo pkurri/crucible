@@ -13352,6 +13352,30 @@
         "FloatingGreen"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "BioLuminescentCities merges two current cultural currents—sustainability/green tech and immersive visual storytelling. The concept of cities that literally glow with engineered bioluminescent flora or retrofitted architecture is novel, highly shareable, and lends itself to 4K/Night‑time cinematography. Current media interest in future city planning and the viral appeal of neon‑lit spectacle create a ready audience hungry for mystery, wonder, and how‑to knowledge. Faceless narration over high‑quality footage keeps editing simple, and the niche can support endless sub‑topics (city tours, tech guides, comparative overlays), meeting the 25+ idea threshold.",
+      "ideas": [
+        "How One City Became a Living Light Show – 5 Bioluminescent Landmarks You Must See",
+        "The Science Behind Bio‑Glow Cities: Turning Concrete into Ecosystems",
+        "13 Ways Cities Are Using Glow‑Plants to Replace LED Streetlights – Futurbeforet Edition"
+      ],
+      "keywords": [
+        "glowing",
+        "neon",
+        "nightscape",
+        "futuristic",
+        "bioluminescent"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
