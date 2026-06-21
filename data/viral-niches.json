@@ -13451,6 +13451,30 @@
         "SustainableUrban"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "With the global push toward sustainable urban futures, bio‑luminescent cities—urban landscapes that glow through living organisms—have become a visual and emotional phenomenon. The concept is unique, visually stunning, and taps into current interests in biotech, climate resilience, and futuristic design, making it ripe for viral traction across platforms.",
+      "ideas": [
+        "EU’s Secret Bio‑Glow City: Watch the Streets Come Alive Like Never Before! — Hook: \"This city isn't powered by electricity—it's powered by living light. You'll wonder how they did it.\"",
+        "How a Bioluminescent River Transformed an Entire Neighborhood—See the Shocking Before & After! — Hook: \"You won't believe the magic before you see the glow.\"",
+        "The Top 5 Cities Using Glow‑Biology—Which One Will Be Your Next Travel Destination? — Hook: \"From Singapore to a hidden gem in Brazil, discover those glowing wonders.\""
+      ],
+      "keywords": [
+        "bioluminescence",
+        "glowing streets",
+        "living architecture",
+        "neon bio‑light",
+        "infrared citylight"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
