@@ -13520,6 +13520,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Space‑Agnostics and Foodies alike are fascinated by the idea of creating meals in zero‑gravity—NASA footage, experimental hobbyists, and the growing \"space tourism\" market keep the interest fresh. The niche offers visual spectacle, clear experiment setup, and a trending intersection of science and culinary art that lends itself to fast‑paced, scroll‑stopping videos.",
+      "ideas": [
+        "How to Cook a Perfect Omelette in Zero Gravity – Watch Every Egg Float! / Hook: \"What happens when you crack an egg in space? Find out before it Bounces Away!\"",
+        "NASA’s Secret Space Cookbook Exposed: 5 Recipes That Work in Microgravity / Hook: \"This one recipe broke the rules of Earth’s gravity—now we’ll show you the science behind it!\"",
+        "Zero‑Gravity Kitchen Tour: The Future of Food on Mars / Hook: \"Step inside a lab where they’re whipping up meals for Martian astronauts. The twist? No floor to hold your fork!\""
+      ],
+      "keywords": [
+        "ZeroGravityKitchen",
+        "SpaceFood",
+        "Microgravity",
+        "StellarTaste",
+        "CelestialCuisine"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
