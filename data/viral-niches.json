@@ -13403,6 +13403,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "GeneEdFood",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.6,
+      "targetEmotion": "Awe",
+      "reason": "The growing public intrigue around genetic editing of food combined with dramatic visual transformations and the potential to reshape gastronomy creates ripe material for viral‑fit content. Audiences are curious about what CRISPR can do to ordinary foods, and the results—unexpected flavors, textures, and even living ingredients—make for scroll‑stopping hooks that keep viewers glued to the screen. The niche is distinct from existing viral topics, offers many repeatable formats, and aligns perfectly with social shares across Meta and YouTube.",
+      "ideas": [
+        "CRISPR Magic: Turning Spaghetti into a Living Creature in 5 Minutes – Watch the Plant Come to Life!",
+        "Bacon or Basil? CRISPR Creates the Ultimate Fusion Food – Scientists Live Demo!",
+        "The Future of Fast Food: CRISPR‑Crafted Tacos Made from Lab‑Grown Corn – Taste Test Shock!"
+      ],
+      "keywords": [
+        "GeneEditing",
+        "FutureFood",
+        "BioHack",
+        "CRISPR",
+        "ProteinRevolution"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
