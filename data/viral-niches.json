@@ -13475,6 +13475,30 @@
         "infrared citylight"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicrobialCities taps into the current fascination with bio‑engineering, AI, and the unseen micro‑world. The niche offers endless visual hooks—3D microscopes, time‑lapse, and ultra‑high‑resolution—making it perfect for scroll‑stopping content. It differentiates sharply from generic microbes or AI topics, gives a clear scientific angle, and scales to dozens of series (cities on spoons, beer bottles, walls, and even ocean shells). The content fuels curiosity loops (“what if this were a real city?”) and keeps viewers watching for STEM, art, and wonder.",
+      "ideas": [
+        "The Hidden Skyscrapers on Your Toothbrush / Hook: Ever wondered what's living on your toothbrush? Take a 3D microscopic tour and discover an invisible city!",
+        "Microplastics: Tiny Cities Building Our Future / Hook: Zoom 500× onto a plastic bottle—watch a city grow, and the question is: will we become its city planners?",
+        "From Mold to Metropolis: The Architecture of Fungi / Hook: Witness a forest floor transform into a cathedral—fungal architecture that beats any skyscraper."
+      ],
+      "keywords": [
+        "Ultra‑High‑Resolution",
+        "3D Rendering",
+        "Time‑Lapse",
+        "Neon‑Glow",
+        "Macro‑Scale"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
