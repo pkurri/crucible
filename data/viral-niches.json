@@ -13427,6 +13427,30 @@
         "ProteinRevolution"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities illuminated by living bioluminescent organisms taps into growing audience interest in sustainable, green tech and futuristic urbanism. Visually stunning, it appeals to both science‑enthusiasts and design lovers, providing endless content possibilities (plant‑powered streetlights, bioluminescent parks, night‑life aesthetics). The niche is distinct from conventional tech or travel channels yet aligns with current hype around regenerative design, making it highly shareable and perfect for scroll‑stopping hooks and curiosity loops.",
+      "ideas": [
+        "The City That Never Sleeps: 24/7 Bioluminescent Streets - Hook: *Imagine strolling beneath a canopy of glowing lights that cost nothing but exist naturally.*",
+        "From Monarchs to Metropolis: How Bees Shape Tomorrow’s Neon - Hook: *What if the very insects that pollinate your garden could power your lights forever?*",
+        "Hidden in the Forests: 5 Bio-Luminescent Plants Powering Urban Life - Hook: *You won’t believe which common plants can light up an entire city.*"
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "GreenTech",
+        "FutureCity",
+        "Nightscape",
+        "SustainableUrban"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
