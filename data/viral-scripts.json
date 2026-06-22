@@ -12445,39 +12445,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Your next paycheck might already be in code.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "AI agents are stealing white‑collar jobs live.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
+      },
+      {
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
+      },
+      {
+        "text": "Would your desk be next?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
         "duration": 4
       }
     ]
@@ -12555,7 +12555,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12565,49 +12565,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Mind Tactics",
-        "name": "Silent Flags",
-        "icon": "🧠"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Persuasion Tools",
-        "name": "Mirror Matching",
-        "icon": "🗝️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Social Engineering",
-        "name": "Scarcity Shock",
-        "icon": "🤝"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Fear Amplifier",
-        "icon": "😭"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Neuropsych Tricks",
-        "name": "Reversal Neural Code",
-        "icon": "⚡"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Behavioral Cues",
-        "name": "Gesture Signifier",
-        "icon": "🤐"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Covert Persuasion",
-        "name": "Subliminal Preset",
-        "icon": "⌛"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Memory Manipulation",
-        "name": "Recency Rewriter",
-        "icon": "🔄"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -38894,49 +38888,43 @@
     ]
   },
   "GeneEdFood": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 GeneEdFood secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Protein Prowess",
-        "name": "Gene-Optimized Whey",
-        "icon": "🥛"
+        "text": "Nobody talks about the truth of GeneEdFood.",
+        "duration": 5
       },
       {
-        "title": "Viral Veggies",
-        "name": "CRISPR Kale Chips",
-        "icon": "🥬"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Energy Eats",
-        "name": "MitoFuel Bars",
-        "icon": "🍫"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Anti-Aging Antioxidants",
-        "name": "Nicotinamide-Rich Acai",
-        "icon": "🥭"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Microbiome Magic",
-        "name": "Synbiotic Fermented Yogurt",
-        "icon": "🥤"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Neuro Boost Nibbles",
-        "name": "L-theanine Almonds",
-        "icon": "🥜"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Hydration Hacks",
-        "name": "Kv-Enhanced Sparkling Water",
-        "icon": "💧"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Sleep Support Snacks",
-        "name": "Melatonin Cookie",
-        "icon": "🍪"
+        "text": "Don't let the algorithm hide the truth. Follow for more GeneEdFood.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -39305,6 +39293,47 @@
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1782147094395": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Stop scrolling—something's reshaping reality in 60 seconds.",
+        "duration": 5
+      },
+      {
+        "text": "Neon liquid spikes through data, redefining hyper‑car dreams.",
+        "duration": 4
+      },
+      {
+        "text": "Neon streams form a living circuit inside the car.",
+        "duration": 5
+      },
+      {
+        "text": "The data points are synced by AI, predicting every drift.",
+        "duration": 5
+      },
+      {
+        "text": "It turns each interior into a neural network playground.",
+        "duration": 5
+      },
+      {
+        "text": "Hold on—if you stop now, you'll miss the neural secret.",
+        "duration": 4
+      },
+      {
+        "text": "This tech could eclipse all future car engines.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next up: How neural hums can control your heartbeat.",
         "duration": 4
       }
     ]
