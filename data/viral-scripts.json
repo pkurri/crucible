@@ -89,43 +89,49 @@
     ]
   },
   "CosmicWondersVisuals": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CosmicWondersVisuals.",
-        "duration": 5
+        "title": "Nebula",
+        "name": "Eagle Nebula",
+        "icon": "🦅"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Galaxy",
+        "name": "Sombrero Galaxy",
+        "icon": "🌑"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Supernova",
+        "name": "Tycho's Supernova",
+        "icon": "🌟"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Black Hole",
+        "name": "Messier 87",
+        "icon": "⚫"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stellar Cluster",
+        "name": "Pleiades",
+        "icon": "✨"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Exoplanet",
+        "name": "HD 209458 b",
+        "icon": "🪐"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Aurora",
+        "name": "Aurora Australis",
+        "icon": "🌌"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Rogue Star",
+        "name": "Barnard's Star",
+        "icon": "🚶"
       }
     ]
   },
@@ -171,84 +177,96 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AtmosphericPhenomenaCaptured.",
-        "duration": 5
+        "title": "Auroras",
+        "name": "Northern Lights",
+        "icon": "🌌"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Mirages",
+        "name": "Heat Haze Mirage",
+        "icon": "🔥"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Fata Morgana",
+        "name": "Floating Island Illusion",
+        "icon": "🏝️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Sundogs",
+        "name": "Solar Halo Rings",
+        "icon": "☀️✨"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Bioluminescence",
+        "name": "Glowing Night Clouds",
+        "icon": "💫"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Fireballs",
+        "name": "Meteoric Light Show",
+        "icon": "✨🔥"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Rainbow Dreams",
+        "name": "Jeylove Arc",
+        "icon": "🌈"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AtmosphericPhenomenaCaptured.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Halo",
+        "name": "Moon Halo Circle",
+        "icon": "🌙🌀"
       }
     ]
   },
   "DystopianFutureSimulations": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DystopianFutureSimulations.",
-        "duration": 5
+        "title": "Bureaucratic Surveillance",
+        "name": "The Glass Cage",
+        "icon": "🕳️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Resource Scarcity",
+        "name": "The Hunger Drone",
+        "icon": "🥀"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Corporate Control",
+        "name": "The Market Midas",
+        "icon": "🤑"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Climate Catastrophe",
+        "name": "The Boreal Blight",
+        "icon": "🌰"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Genetic Manipulation",
+        "name": "The Serum Shift",
+        "icon": "⚗️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Digital Immortality",
+        "name": "The Echo Loop",
+        "icon": "🔁"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Space Colonization",
+        "name": "The Void Harvest",
+        "icon": "🛸"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Artificial Intelligence",
+        "name": "The Neural Dominion",
+        "icon": "🤖"
       }
     ]
   },
@@ -284,7 +302,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -294,84 +312,96 @@
     ]
   },
   "ImpossibleArchitectureBlueprints": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ImpossibleArchitectureBlueprints secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of ImpossibleArchitectureBlueprints.",
-        "duration": 5
+        "title": "Zero-Gravity Atriums",
+        "name": "Floating Garden",
+        "icon": "🌬️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Underground Cities",
+        "name": "Molten Core Complex",
+        "icon": "🌋"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Oceanic Spires",
+        "name": "Waterfall Dome",
+        "icon": "🌊"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Helical Villages",
+        "name": "Spiral Village",
+        "icon": "🌪️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Vertical Farms",
+        "name": "Sky Farm",
+        "icon": "🌱"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Fractal Towers",
+        "name": "Hyperloop Hub",
+        "icon": "🌀"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Mirror Facades",
+        "name": "Infinity Facade",
+        "icon": "🪞"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Shape-Shifting Enclaves",
+        "name": "Morphing Pavilion",
+        "icon": "🏗️"
       }
     ]
   },
   "CosmicMegaStructureConstruction": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CosmicMegaStructureConstruction secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicMegaStructureConstruction.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CosmicMegaStructureConstruction.",
-        "duration": 5
+        "title": "Stellar Gateway",
+        "name": "Nebula Gate",
+        "icon": "🪐"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Quantum Core",
+        "name": "Photon Spire",
+        "icon": "⚛️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Astro Bridge",
+        "name": "Orion Arc",
+        "icon": "🌉"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Celestial Dome",
+        "name": "Eclipse Vault",
+        "icon": "🌑"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Gravity Well",
+        "name": "Event Horizon",
+        "icon": "🌀"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Energy Reservoir",
+        "name": "Zero‑Point Field",
+        "icon": "⚡"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Time Anchor",
+        "name": "Chrono Core",
+        "icon": "⏳"
       },
       {
-        "text": "If you want to master CosmicMegaStructureConstruction, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Interstellar Hubs",
+        "name": "Warp Conduit",
+        "icon": "🚀"
       }
     ]
   },
@@ -425,55 +455,102 @@
   "AccidentalGodhoodMoments": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AccidentalGodhoodMoments secrets you need to know.",
-    "closing": "If you want to master AccidentalGodhoodMoments, you're in the right place. Subscribe.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Parallel Realm",
-        "name": "The Whispering Gate",
-        "icon": "🚪"
+        "title": "Kitchen",
+        "name": "Midnight Alchemy",
+        "icon": "🍳"
       },
       {
-        "title": "Temporal Anomaly",
-        "name": "The Forgotten Cipher",
-        "icon": "🗝️"
-      },
-      {
-        "title": "Phantom Script",
-        "name": "The Mirage Mirror",
-        "icon": "🪞"
-      },
-      {
-        "title": "Mystic Lemma",
-        "name": "The Null Catalyst",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Quantum Slip",
-        "name": "The Reversed Clock",
-        "icon": "🕰️"
-      },
-      {
-        "title": "Arcane Token",
-        "name": "The Haunted Ledger",
+        "title": "Office",
+        "name": "Hidden Cipher",
         "icon": "📜"
       },
       {
-        "title": "Eternal Lapse",
-        "name": "The Phantom Sigil",
-        "icon": "🧿"
+        "title": "Road",
+        "name": "Unmuffled Echo",
+        "icon": "🚗"
       },
       {
-        "title": "Spectral Phase",
-        "name": "The Echoed Pulse",
-        "icon": "🔊"
+        "title": "Nature",
+        "name": "Twilight Spark",
+        "icon": "🌿"
+      },
+      {
+        "title": "Fitness",
+        "name": "Grit Harmony",
+        "icon": "🏋️‍♂️"
+      },
+      {
+        "title": "Music",
+        "name": "Silent Riff",
+        "icon": "🎸"
+      },
+      {
+        "title": "Space",
+        "name": "Stellar Whisper",
+        "icon": "🌌"
+      },
+      {
+        "title": "Dream",
+        "name": "Moonlit Vow",
+        "icon": "🌙"
       }
     ]
   },
   "MegastructureConstructionVisuals": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MegastructureConstructionVisuals secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Gravity Defying",
+        "name": "Eternity Skyscraper",
+        "icon": "💫"
+      },
+      {
+        "title": "Space Elevator",
+        "name": "Celestial Elevator",
+        "icon": "🌐"
+      },
+      {
+        "title": "Undersea Megastructure",
+        "name": "Abyssal Dome",
+        "icon": "🌊"
+      },
+      {
+        "title": "Solar Farm Megastructure",
+        "name": "Helios Megafarm",
+        "icon": "🌞"
+      },
+      {
+        "title": "Tunnel Network",
+        "name": "Subterrene Tunnel",
+        "icon": "🚇"
+      },
+      {
+        "title": "Floating City",
+        "name": "Nimbus Isles",
+        "icon": "☁️"
+      },
+      {
+        "title": "Mega Steel Bridge",
+        "name": "Titan Bridge",
+        "icon": "🌉"
+      },
+      {
+        "title": "Hyperloop Hub",
+        "name": "Horizon Hyperloop",
+        "icon": "🚅"
+      }
+    ]
+  },
+  "HyperRealisticDreamscapes": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of MegastructureConstructionVisuals.",
+        "text": "Nobody talks about the truth of HyperRealisticDreamscapes.",
         "duration": 5
       },
       {
@@ -501,7 +578,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more MegastructureConstructionVisuals.",
+        "text": "Don't let the algorithm hide the truth. Follow for more HyperRealisticDreamscapes.",
         "duration": 5
       },
       {
@@ -510,46 +587,91 @@
       }
     ]
   },
-  "HyperRealisticDreamscapes": {
+  "SimulatedExtinctionEvents": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "The secrets of HyperRealisticDreamscapes are finally revealed.",
+        "text": "Nobody talks about the truth of SimulatedExtinctionEvents.",
         "duration": 5
       },
       {
-        "text": "Most fail because they lack the proper protocol.",
+        "text": "And that silence is costing you everything.",
         "duration": 5
       },
       {
-        "text": "Follow the system to win the game.",
+        "text": "The data shows 97% of people get this wrong.",
         "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more SimulatedExtinctionEvents.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
-  "SimulatedExtinctionEvents": {
-    "role": "assistant",
-    "reasoning_content": "The user wants a JSON object with key \"voice\" and \"lines\", each line having text and duration.\n\nConstraints:\n- Lines: 4 lines. Must end with exactly that CTA line. That CTA line has 3 seconds duration. The text must be exactly \"If you want to master SimulatedExtinctionEvents, you're in the right place. Subscribe.\" \n- Each line under 60 characters for mobile readability. Let’s check constraints: 4 second durations for first three lines, 3 second for last.\n\nWe need to write 3 lines under 60 chars each.\n\nWe need to follow pattern: Pattern-Interrupt Hook (0-3s but they set 4 seconds for it). It's the \"stop scroll\" line. Then Curiosity Loop (4s) question. Then Insight (4s). Then CTA.\n\nUse high stakes, fear, and problem insight transformation.\n\nLine 1 (Pattern interrupt): Something intense. E.g., \"What if the next 30 minutes, Earth turns into a wasteland?\" Count characters: \"What if the next 30 minutes, Earth turns into a wasteland?\" Let's count: \nWhat(4) +(1)if(2)=7 plus space=8 plus next(4)=12 plus space=13 plus 30(2)=15 plus space=16 plus minutes, (8)=24 plus space=25 plus Earth(5)=30 plus space=31 plus turns(5)=36 plus space=37 plus into(4)=41 plus space=42 plus a(1)=43 plus space=44 plus wasteland?(9)=53. So 53 characters <60. Good.\n\nBut may shorten? It's okay.\n\nLine 2 (Curiosity loop): \"Could a single solar flare wipe us out?\" Count: \"Could\"5 + space1 =6 + \"a\"1 =7 + space =8 + \"single\"6=14 + space=15 + \"solar\"5=20 + space=21 + \"flare\"5=26 + space=27 + \"wipe\"4=31 + space=32 + \"us\"2=34 + space=35 + \"out?\"4=39. 39<60 good.\n\nLine 3 (Insight): Provide simulation insight: \"Our AI shows a 0.3% chance in the next decade.\" Count: \"Our\"3 + space=4 + \"AI\"2=6 + space=7 + \"shows\"5=12 + space=13 + \"a\"1=14 + space=15 + \"0.3%\"4=19 + space=20 + \"chance\"6=26 + space=27 + \"in\"2=29 + space=30 + \"the\"3=33 + space=34 + \"next\"4=38 + space=39 + \"decade.\"7=46. Under 60.\n\nBut maybe include more fear? \"0.3% chance\" is small but okay? Might be less fear. We can intensify: \"Our AI predicts a 5% chance of a mega asteroid in 2035.\" Count: \"Our\"3+space1=4+ \"AI\"(2)=6+space=7+\"predicts\"(8)=15+space=16+\"a\"(1)=17+space=18+\"5%\"(2)=20+space=21+\"chance\"(6)=27+space=28+\"of\"(2)=30+space=31+\"a\"(1)=32+space=33+\"mega\"(4)=37+space=38+\"asteroid\"(8)=46+space=47+\"in\"(2)=49+space=50+\"2035.\"5=55. 55 <60. Good.\n\nWe can keep the sci-fi.\n\nBut we also want a \"Clear Problem → Insight\" transformation. The problem is potential catastrophe; the insight is the probability or simulation. The line 3 gives the insight. Should be \"AI predicted 5% risk of mega asteroid by 2035.\" That is indeed problem to insight.\n\nHowever, need to maintain high stakes, intensify language. Maybe: \"AI sim says a 5% chance of a 10km comet destroying humanity by 2035.\" Count: \"AI\"2+space=3+\"sim\"(3)=6+space=7+\"says\"(4)=11+space=12+\"a\"(1)=13+space=14+\"5%\"=2=16+space=17+\"chance\"(6)=23+space=24+\"of\"(2)=26+space=27+\"a\"(1)=28+space=29+\"10km\"(5)=34+space=35+\"comet\"(5)=40+space=41+\"destroying\"(10)=51+space=52+\"humanity\"(8)=60+space=61+\"by\"(2)=63+space=64+\"2035.\"5=69. Over 60. Too many.\n\nLet's refine: \"AI sim shows 5% risk of 10km comet by 2035.\" Count: \"AI\"(2)=2+space=3.\"sim\"(3)=6+space=7.\"shows\"(5)=12+space=13.\"5%\"(2)=15+space=16.\"risk\"(4)=20+space=21.\"of\"(2)=23+space=24.\"10km\"(5)=29+space=30.\"comet\"(5)=35+space=36.\"by\"(2)=38+space=39.\"2035.\"5=44. 44<60.\n\nNice.\n\nNow ensure each line under 60 characters.\n\nLine 1: \"What if the next 30 minutes, Earth turns into a wasteland?\" Count: let's recount: What(4)=4, space=5, if(2)=7, space=8, the(3)=11, space=12, next(4)=16, space=17, 30(2)=19, space=20, minutes,(8)=28, space=29, Earth(5)=34, space=35, turns(5)=40, space=41, into(4)=45, space=46, a(1)=47, space=48, wasteland?(9)=57. Good.\n\nLine 2: \"Could a single solar flare wipe us out?\" Count: We earlier got 39 <60.\n\nLine 3: \"AI sim shows 5% risk of 10km comet by 2035.\" Count: 44.\n\nLine 4: Exactly: \"If you want to master SimulatedExtinctionEvents, you're in the right place. Subscribe.\" Count: Let's count characters: \nIf(2)=2+space=3+you(3)=6+space=7+want(4)=11+space=12+to(2)=14+space=15+master(6)=21+space=22+SimulatedExtinctionEvents,(24)=46+space=47+you're(5)=52+space=53+in(2)=55+space=56+the(3)=59+space=60+right(5)=65+space=66+place.(6)=72+space=73+Subscribe.(",
-    "tool_calls": []
-  },
   "ImpossibleArchitectureDesigns": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ImpossibleArchitectureDesigns secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Ever seen a city rise *upwards*?",
-        "duration": 4
+        "title": "Gravity-Defying",
+        "name": "Floating Staircase",
+        "icon": "🪜"
       },
       {
-        "text": "How can building defy gravity?",
-        "duration": 4
+        "title": "Endless Loop",
+        "name": "Penrose Stairs Illusion",
+        "icon": "🔁"
       },
       {
-        "text": "By folding space, architects cheat physics.",
-        "duration": 4
+        "title": "Impossible Geometry",
+        "name": "Impossible Triangle Bridge",
+        "icon": "🔺"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 3
+        "title": "Mirror Maze",
+        "name": "Infinite Reflection Corridor",
+        "icon": "🪞"
+      },
+      {
+        "title": "Cantilever Marvel",
+        "name": "Overhanging Sky Villa",
+        "icon": "☁️"
+      },
+      {
+        "title": "Impossible Dome",
+        "name": "Klein Bottle Observatory",
+        "icon": "🌐"
+      },
+      {
+        "title": "Self-Supporting Arch",
+        "name": "Möbius Strip Gateway",
+        "icon": "♾️"
+      },
+      {
+        "title": "Vertical Forest",
+        "name": "Upside‑Down Tree Tower",
+        "icon": "🌳"
       }
     ]
   },
@@ -12351,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12433,7 +12555,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12443,84 +12565,96 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Mind Tactics",
+        "name": "Silent Flags",
+        "icon": "🧠"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Persuasion Tools",
+        "name": "Mirror Matching",
+        "icon": "🗝️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Scarcity Shock",
+        "icon": "🤝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Fear Amplifier",
+        "icon": "😭"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Neuropsych Tricks",
+        "name": "Reversal Neural Code",
+        "icon": "⚡"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Behavioral Cues",
+        "name": "Gesture Signifier",
+        "icon": "🤐"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Covert Persuasion",
+        "name": "Subliminal Preset",
+        "icon": "⌛"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Memory Manipulation",
+        "name": "Recency Rewriter",
+        "icon": "🔄"
       }
     ]
   },
   "GeopoliticalCollapseWatch": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GeopoliticalCollapseWatch secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
-        "duration": 5
+        "title": "Supply Chains",
+        "name": "Food & Fuel Scarcity",
+        "icon": "🥤"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Military",
+        "name": "Silent Proxy Wars",
+        "icon": "⚔️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Economy",
+        "name": "Shadow Inflation Spikes",
+        "icon": "💰"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Tech",
+        "name": "Cyber Blackouts",
+        "icon": "💻"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Governance",
+        "name": "Autocratic Breakouts",
+        "icon": "🏛️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Public Health",
+        "name": "Pandemic Meltdown",
+        "icon": "🦠"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Migration",
+        "name": "Mass Exodus Waves",
+        "icon": "🚶"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Media",
+        "name": "Information Purges",
+        "icon": "📰"
       }
     ]
   },
@@ -35524,43 +35658,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Neon Metropolis",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Underwater Glow",
+        "name": "Aquatalia",
+        "icon": "🌊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Forest Lighthouse",
+        "name": "Verdant Radiance",
+        "icon": "🌲"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Starlit Sanctuary",
+        "name": "Celestial City",
+        "icon": "✨"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Subterranean Beacon",
+        "name": "Glowhole City",
+        "icon": "🕳️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Skyward Spectra",
+        "name": "Nimbus Nexus",
+        "icon": "☁️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Prismatic Hub",
+        "name": "Spectrum City",
+        "icon": "🌈"
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Time‑Warp Port",
+        "name": "Eternity Harbor",
+        "icon": "⏳"
       }
     ]
   },
@@ -38754,43 +38894,49 @@
     ]
   },
   "GeneEdFood": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GeneEdFood secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of GeneEdFood.",
-        "duration": 5
+        "title": "Protein Prowess",
+        "name": "Gene-Optimized Whey",
+        "icon": "🥛"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Viral Veggies",
+        "name": "CRISPR Kale Chips",
+        "icon": "🥬"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Energy Eats",
+        "name": "MitoFuel Bars",
+        "icon": "🍫"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Anti-Aging Antioxidants",
+        "name": "Nicotinamide-Rich Acai",
+        "icon": "🥭"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Microbiome Magic",
+        "name": "Synbiotic Fermented Yogurt",
+        "icon": "🥤"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Neuro Boost Nibbles",
+        "name": "L-theanine Almonds",
+        "icon": "🥜"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Hydration Hacks",
+        "name": "Kv-Enhanced Sparkling Water",
+        "icon": "💧"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more GeneEdFood.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Sleep Support Snacks",
+        "name": "Melatonin Cookie",
+        "icon": "🍪"
       }
     ]
   },

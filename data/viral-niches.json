@@ -13688,6 +13688,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche blends future urban design, sustainability, and nature’s own lighting, tapping into rising interest in green tech and speculative science. Its visual appeal—cities bathed in gentle, living glow—creates instant scroll‑stopping hooks, while the underlying story of biophilic engineering sparks curiosity loops. Faceless storytelling (text overlays, animations, drone footage, voice‑over) works perfectly on both short‑form social feeds and long‑form YouTube, and the concept has enough depth to spawn 25+ unique viral ideas around bioluminescent flora, architecture, AI‑generated eco‑cities, and real‑world prototypes.",
+      "ideas": [
+        "Walking Through a City That Glows 24/7: The Future of BioLuminescent Urban Design – Hook: \"Imagine a city where every lamp and street sign emits a gentle, natural light. One night’s walk will rewrite how you see the night.\"",
+        "How Bioluminescent Plants Are Replacing LED Grids in 2035: An Inside Look – Hook: \"See the moment a fern with glowing roots powers the whole downtown—no wires, no flickers.\"",
+        "The Hidden Glow of the Night: Drone Footage Stumbles on a BioLuminescent City – Hook: \"What the drone saw will change the way you view dark nights forever.\""
+      ],
+      "keywords": [
+        "neonGlow",
+        "bioluminescentPlants",
+        "sustainableLight",
+        "futureArchitecture",
+        "electroflora"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
