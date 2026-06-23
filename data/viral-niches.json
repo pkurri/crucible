@@ -14085,6 +14085,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VerticalUrbanForests",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Vertical urban forests combine the viral appeal of nature, sustainability, and cutting‑edge architecture—an audience that loves eco‑innovation and stunning visuals. Their real‑world case studies, behind‑the‑scenes footage, and tangible climate‑impact metrics create compelling scroll‑stopping hooks that drive repeated views and strong engagement while remaining distinct from the saturated urban‑exploration and generic green‑architecture niches.",
+      "ideas": [
+        "The Skypark Revolution: Inside the World’s Tallest Vertical Forest – You Won’t Believe What Sleeps on the Roof! (Hook: Ever wondered what a city looks like when it grows up? Discover the jaw‑dropping secrets behind the tallest vertical forest.)",
+        "From Concrete Jungle to Living Jungle: How Green Skyscrapers Are Curing Climate Change (Hook: See how a 200‑meter building turns CO₂ into oxygen while powering itself—and how you can bring the forest to your home!).",
+        "The Hidden Solar Farms That Power Vertical Forests: A Blueprint for Zero‑Energy Cities (Hook: What if an entire city was powered by gardens? Follow us inside the green skyscraper that proves it’s not just fiction!)."
+      ],
+      "keywords": [
+        "biophilic",
+        "vertical green",
+        "futuristic architecture",
+        "skyland farms",
+        "sustainable city"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
