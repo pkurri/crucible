@@ -13949,6 +13949,28 @@
         "Glowing Streets"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Sustainability and sci‑fi architecture are exploding worldwide, yet no one has captured the striking visual potential of cities built from living mycelium. Stunning 3‑D renderings, real‑world prototypes, and the mystery of bio‑engineering create a perfect equation for high engagement, scroll‑stopping hooks, and long‑form curiosity loops. The niche is fresh, easily scalable across platforms, and taps into growing public interest in climate‑resilient living spaces.",
+      "ideas": [
+        "\"What If Your Next Skyscraper Is Made Of Mushrooms? | Mycelium Cities Revealed\",\"5 Futuristic Ways Fungi Will Rewrite Urban Skylines – Number 3 Shocks Scientists\",\"Inside the First Living Mushroom Metropolis – Secrets, Science, and Chaos\""
+      ],
+      "keywords": [
+        "mycelium spires",
+        "bioluminescent forests",
+        "living architecture",
+        "sustainable skyscrapers",
+        "mushroom city rendering"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

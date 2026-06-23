@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12555,7 +12555,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12568,39 +12568,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever wonder how puppeteers control you in seconds?",
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
         "duration": 5
       },
       {
-        "text": "They leave no trace, and you can't see the strings.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "The first law: Silence is louder than shouting.",
-        "duration": 5
-      },
-      {
-        "text": "Mirroring triggers trust, turning strangers into allies.",
-        "duration": 5
-      },
-      {
-        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
-        "duration": 5
-      },
-      {
-        "text": "If you ignore this, they'll weaponize your own memories.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Imagine them framing you, then playing the courtroom.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
-        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -38085,43 +38085,49 @@
     ]
   },
   "FungalFutureCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 FungalFutureCities secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more FungalFutureCities.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of FungalFutureCities.",
-        "duration": 5
+        "title": "Architecture",
+        "name": "MycoBrick",
+        "icon": "🧱"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Energy",
+        "name": "Fungal Fuel Cells",
+        "icon": "⚡"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Waste",
+        "name": "Biofiltration Pods",
+        "icon": "🌱"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Medicine",
+        "name": "MycoMed",
+        "icon": "💊"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Transport",
+        "name": "AeroMycel",
+        "icon": "🛸"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Agriculture",
+        "name": "FarmSpore",
+        "icon": "🌾"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Climate",
+        "name": "AirMycel",
+        "icon": "🌬️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Art",
+        "name": "GlowFungi",
+        "icon": "✨"
       }
     ]
   },
