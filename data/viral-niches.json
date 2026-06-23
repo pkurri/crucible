@@ -13992,6 +13992,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "HoloProsthetics",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Holographic prosthetics combine cutting‑edge optics, AI animation and bio‑inspired design to create implants that appear, but aren&#39;t physically there. The concept is brand new, has quick visual payoff, taps into the universal desire to merge tech and biology, and can be presented facelessly through demos and synth‑voice narratives—making it ideal for 1M+ sub potential and 100K+/video view growth.",
+      "ideas": [
+        "The Invisible Hand: How Holographic Prosthetics Are Redefining Human Anatomy • What if your new arm never had to be made of metal and could just appear where you need it? This tech shows…",
+        "From Sci‑Fi to Surgery: Real‑Life Holo‑Prosthetics Inside the 3D‑Printed Lab • Guess what the latest breakthrough is? A prosthetic that is visible only when you touch it.",
+        "Can Holographic Prosthetics Replace Real Bones? The Shocking Test That Will Blow Your Mind • We set up a test with a man who received a holo‑prosthetic and let the results speak for themselves."
+      ],
+      "keywords": [
+        "holographic",
+        "prosthetics",
+        "augmented",
+        "biotech",
+        "future"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
