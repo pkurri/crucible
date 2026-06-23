@@ -13925,6 +13925,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The fusion of biology and urban design creates visually stunning, eco-friendly lighting that taps into current sustainability trends and sci‑fi fascination. The niche offers endless, high‑contrast visual content—from glowing streets to living skyscrapers—making it highly shareable and evergreen across meta and YouTube platforms.",
+      "ideas": [
+        "The City That Never Darkens: How Bioluminescent Streets Are Revolutionizing Nightlife — Imagine walking through streets that glow with living light, no electric bill, no light pollution.",
+        "From Algae to Architecture: Building a Bioluminescent Skyscraper in 3D Printed Time — 3D printed building that glows using engineered algae, the future is here.",
+        "Urban Jungle Glow: Inside the World's First Bio‑Luminescent Eco‑City — Walk through corridors lit by fungal vines, discover how a city can feed itself."
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "Sustainable Lighting",
+        "EcoCity",
+        "Biotech Architecture",
+        "Glowing Streets"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

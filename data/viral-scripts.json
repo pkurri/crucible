@@ -12442,190 +12442,166 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Stealth Data Mining",
-        "name": "Midnight Miner",
-        "icon": "📥"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Unseen Surveillance",
-        "name": "Eye in the Sky",
-        "icon": "👁️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Mind Control Scripts",
-        "name": "Neural Override",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Economic Sabotage",
-        "name": "Market Whisperer",
-        "icon": "💰"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Governance Hijack",
-        "name": "Policy Pusher",
-        "icon": "🏛️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Social Media Spin",
-        "name": "Trend Manipulator",
-        "icon": "📱"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Healthcare Leak",
-        "name": "Data Doctor",
-        "icon": "⚕️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Cyberwarps",
-        "name": "Firewall Bypass",
-        "icon": "🛡️"
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Whale Watch",
-        "name": "The Silent Whale",
-        "icon": "🐋"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Hidden Leap",
-        "name": "Flash Loan Leverage",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Token Trap",
-        "name": "Pump & Dump Spy",
-        "icon": "📈"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Secret Funnel",
-        "name": "Order Book Blackhole",
-        "icon": "🕳️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Hidden Gas",
-        "name": "Low Fee Magic",
-        "icon": "⛽"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Bounty Hunt",
-        "name": "Micro Reward Sats",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Chain Whisper",
-        "name": "Cross‑Chain Secrets",
-        "icon": "🔀"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Alliance Notes",
-        "name": "Insider Partnerships",
-        "icon": "🤝"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Persuasion",
-        "name": "Scarcity Bomb",
-        "icon": "🔒"
+        "text": "Ever wonder how puppeteers control you in seconds?",
+        "duration": 5
       },
       {
-        "title": "Mind Control",
-        "name": "Thought Loop",
-        "icon": "🔁"
+        "text": "They leave no trace, and you can't see the strings.",
+        "duration": 4
       },
       {
-        "title": "Emotional Manipulation",
-        "name": "Schadenfreude Hook",
-        "icon": "😈"
+        "text": "The first law: Silence is louder than shouting.",
+        "duration": 5
       },
       {
-        "title": "Social Engineering",
-        "name": "Chocolate Bandit",
-        "icon": "🍫"
+        "text": "Mirroring triggers trust, turning strangers into allies.",
+        "duration": 5
       },
       {
-        "title": "Cognitive Bias",
-        "name": "Confirmation Cold",
-        "icon": "❄️"
+        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
+        "duration": 5
       },
       {
-        "title": "Gaslighting",
-        "name": "Mirror Lie",
-        "icon": "🪞"
+        "text": "If you ignore this, they'll weaponize your own memories.",
+        "duration": 4
       },
       {
-        "title": "Influence Tactics",
-        "name": "Fishbowl Flash",
-        "icon": "🐠"
+        "text": "Imagine them framing you, then playing the courtroom.",
+        "duration": 4
       },
       {
-        "title": "Fear Leveraging",
-        "name": "Shadow Threat",
-        "icon": "👻"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
+        "duration": 4
       }
     ]
   },
@@ -35676,49 +35652,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Neon Metropolis",
-        "name": "Lumenopolis",
-        "icon": "🌆"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Underwater Glow",
-        "name": "Aquatalia",
-        "icon": "🌊"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Forest Lighthouse",
-        "name": "Verdant Radiance",
-        "icon": "🌲"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Starlit Sanctuary",
-        "name": "Celestial City",
-        "icon": "✨"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Subterranean Beacon",
-        "name": "Glowhole City",
-        "icon": "🕳️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Skyward Spectra",
-        "name": "Nimbus Nexus",
-        "icon": "☁️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Prismatic Hub",
-        "name": "Spectrum City",
-        "icon": "🌈"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Time‑Warp Port",
-        "name": "Eternity Harbor",
-        "icon": "⏳"
+        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -38943,7 +38913,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more GeneEdFood.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
