@@ -13838,6 +13838,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.6,
+      "targetEmotion": "Awe",
+      "reason": "The niche blends cutting‑edge sustainability tech with the mystical allure of fungi, a topic still underexploited on social media. With the global push toward carbon‑neutral cities, viewers are hungry for fresh visual stories about living infrastructure. The concept offers many sub‑themes (mushroom skyscrapers, bioluminescent districts, underground mycelium farms), each perfect for scroll‑stopping hooks and curiosity loops, making it highly scalable.",
+      "ideas": [
+        "MUSHROOM SKYLINE: The City That Eats Waste Like Food (Stop scrolling – this could be the future of urban living!)",
+        "BIRDS BEWARE: A Real‑Time Demo of a Mushroom‑Powered Building Cooling System (Watch the science unfold!)",
+        "WHY 10 ENGINEERS ARE Rebuilding the World Inside a Bioluminescent Forest (the secret never told)"
+      ],
+      "keywords": [
+        "MushroomSkyscraper",
+        "BioluminescentCity",
+        "LivingBuilding",
+        "MyceliumFarm",
+        "SustainableArchitecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
