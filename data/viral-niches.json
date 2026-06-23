@@ -14133,6 +14133,30 @@
         "AI nutrition"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroRealmLuxe",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Micro realms are visually stunning yet largely unexplored in mainstream YouTube. By blending high‑resolution time‑lapse, photorealistic 3D animation and AI‑generated narration, the niche offers an endless library of captivating content that satisfies both curiosity and wonder, promising high watch‑time and sharability.",
+      "ideas": [
+        "Inside the World of a Single Bacterium – 3D Time‑Lapse Animation / Hook: “What happens in 1 second of a bacterium's day? Witness it in ultra‑slow motion!”",
+        "The Surreal Social Life of Ants in 3D – You’ll Never Guess Their Secrets / Hook: “Underneath the pavement, ants orchestrate an invisible metropolis….”",
+        "When Tardigrades Come Alive: The Most Resilient Creatures Revealed / Hook: “Can a microscopic titan survive extreme conditions? Watch them defy the impossible!”"
+      ],
+      "keywords": [
+        "Microscopic",
+        "3D",
+        "Time‑lapse",
+        "Animation",
+        "TinyWorlds"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
