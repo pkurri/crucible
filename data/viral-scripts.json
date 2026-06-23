@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12483,84 +12483,96 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Market Signals",
+        "name": "Onchain Heatmap",
+        "icon": "🔥"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Timing Tools",
+        "name": "Fomo Detector",
+        "icon": "⏰"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Fundamental Analyzer",
+        "name": "Whale Watch",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Risk Manager",
+        "name": "Stop-Loss Automator",
+        "icon": "🔒"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Tax Optimizer",
+        "name": "TaxPro",
+        "icon": "🧾"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Community Insight",
+        "name": "DiscordGauge",
+        "icon": "💬"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Strategy Mentor",
+        "name": "StrategyGuru",
+        "icon": "🧠"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Portfolio Tracker",
+        "name": "Lookout",
+        "icon": "📈"
       }
     ]
   },
@@ -12568,39 +12580,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever wonder how puppeteers control you in seconds?",
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
         "duration": 5
       },
       {
-        "text": "They leave no trace, and you can't see the strings.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "The first law: Silence is louder than shouting.",
-        "duration": 5
-      },
-      {
-        "text": "Mirroring triggers trust, turning strangers into allies.",
-        "duration": 5
-      },
-      {
-        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
-        "duration": 5
-      },
-      {
-        "text": "If you ignore this, they'll weaponize your own memories.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Imagine them framing you, then playing the courtroom.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
-        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -14745,43 +14757,49 @@
     ]
   },
   "FutureFoodTech": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 FutureFoodTech secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "What if your steak could vanish before you chew?",
-        "duration": 5
+        "title": "Vertical Farming",
+        "name": "SkyGrow Farms",
+        "icon": "🏙️"
       },
       {
-        "text": "Lab‑grown meat burns 90% less waste—do you believe?",
-        "duration": 4
+        "title": "Lab-grown Meat",
+        "name": "PureBite",
+        "icon": "🥩"
       },
       {
-        "text": "It takes 3 days to grow a 10‑lb steak—no cows needed.",
-        "duration": 5
+        "title": "Plant-based Protein",
+        "name": "NutriPlant",
+        "icon": "🌱"
       },
       {
-        "text": "3D printed meals taste like gourmet—print them at home.",
-        "duration": 5
+        "title": "3D Food Printing",
+        "name": "PrintMeal",
+        "icon": "🛠️"
       },
       {
-        "text": "Algae protein packs 20x more iron than spinach—taste it!",
-        "duration": 5
+        "title": "Smart Kitchen Appliances",
+        "name": "ChefBot",
+        "icon": "🤖"
       },
       {
-        "text": "What does a single algae smoothie cost you?",
-        "duration": 4
+        "title": "AI Nutrition Planning",
+        "name": "NutriAI",
+        "icon": "🧠"
       },
       {
-        "text": "If a steak vanished tomorrow, would you miss the taste?",
-        "duration": 4
+        "title": "Cellular Agriculture",
+        "name": "CellFarm",
+        "icon": "🔬"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next week: can the first 3D‑printed pizza cure global hunger?",
-        "duration": 4
+        "title": "Edible Packaging",
+        "name": "EatPack",
+        "icon": "🍱"
       }
     ]
   },
@@ -38876,43 +38894,49 @@
     ]
   },
   "GeneEdFood": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GeneEdFood secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "What if a tomato could give you a rocket‑powered workout?",
-        "duration": 5
+        "title": "Protein Prowess",
+        "name": "Gene-Optimized Whey",
+        "icon": "🥛"
       },
       {
-        "text": "CRISPR is rewriting food like never before.",
-        "duration": 4
+        "title": "Viral Veggies",
+        "name": "CRISPR Kale Chips",
+        "icon": "🥬"
       },
       {
-        "text": "A strawberry engineered to taste pure maple syrup.",
-        "duration": 5
+        "title": "Energy Eats",
+        "name": "MitoFuel Bars",
+        "icon": "🍫"
       },
       {
-        "text": "Eggs that rise to a protein height of 30% more.",
-        "duration": 5
+        "title": "Anti-Aging Antioxidants",
+        "name": "Nicotinamide-Rich Acai",
+        "icon": "🥭"
       },
       {
-        "text": "Imagine carrots that glow and grow a 24‑hour espresso.",
-        "duration": 5
+        "title": "Microbiome Magic",
+        "name": "Synbiotic Fermented Yogurt",
+        "icon": "🥤"
       },
       {
-        "text": "If you miss the next shock, you’ll forget what decodes flavor.",
-        "duration": 4
+        "title": "Neuro Boost Nibbles",
+        "name": "L-theanine Almonds",
+        "icon": "🥜"
       },
       {
-        "text": "The clock is ticking—science is launching tomorrow.",
-        "duration": 4
+        "title": "Hydration Hacks",
+        "name": "Kv-Enhanced Sparkling Water",
+        "icon": "💧"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: Genetically brewed coffee that tastes of midnight.",
-        "duration": 4
+        "title": "Sleep Support Snacks",
+        "name": "Melatonin Cookie",
+        "icon": "🍪"
       }
     ]
   },

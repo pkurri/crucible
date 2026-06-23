@@ -14109,6 +14109,30 @@
         "sustainable city"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FutureFoodTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "As climate anxiety spikes, audiences are hungry for sustainable food solutions. Synthetic meat and insect protein are emerging with visual wonders that are easy to produce (lab footage, animated graphics). The niche is untapped on a large scale, offers endless hooks, and maps to both education and entertainment, ensuring high engagement and shareability.",
+      "ideas": [
+        "Lab‑Grown Lobster – The Seafood That Won’t Die / Hook: “What if you could eat a lobster made in a lab? The future is now!”",
+        "Insects in Our Diet: Rainbow Beetle Burgers Taste Like Heaven / Hook: “They’re crunchy, protein-packed, and surprisingly delicious!”",
+        "AI‑Designed Superfoods: The Plant That Will Replace Meat / Hook: “This plant bioengineered by AI can satisfy every craving – but can you trust it?”"
+      ],
+      "keywords": [
+        "lab-grown",
+        "synthetic meat",
+        "insect protein",
+        "future kitchen",
+        "AI nutrition"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
