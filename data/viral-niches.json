@@ -14184,6 +14184,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The world’s shift toward sustainable, biotechnological urban designs is creating a twilight of wonder-fully‑glowing skylines. \"BioLuminescentCities\" taps into a visual lottery—ultra‑realistic, neon‑harvested ecosystems—that aligns with space‑obsessed, tech‑savvy audiences. Its concept is rare enough to avoid saturation but broad enough to hook viewers who crave futuristic spectacle and environmental intrigue, ensuring high retentional scroll‑stopping hooks and expandability to over 25 viral spin‑offs.",
+      "ideas": [
+        "Neon Dreams: Inside a City That Lights The Night With Living Glow / Watch lights bloom from algae farms! 🚀🎇",
+        "Zero‑Gravity Gardens: How Passive‑Solar Bioluminescence Powers Tomorrow’s Metropolis / See a city run by a living neon fire! 🌱🌌",
+        "The Glow‑City Paradox: Is Skin‑Friendly Light the Future of Urban Calm? / Explore the science behind living nightlights in 4K! 🔬✨"
+      ],
+      "keywords": [
+        "Neon",
+        "Glow",
+        "Bioluminescent",
+        "Futuristic",
+        "Spectral"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
