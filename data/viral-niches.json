@@ -14283,6 +14283,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Living‑organism constructed buildings merge cutting‑edge science with eye‑catching visuals, tapping the current craze for bio‑art, sustainability, and 'micro‑explosions in a petri dish'. The niche is fresh, offers endless variations (different microbes, materials, challenges) and naturally lends itself to scroll‑stopping 'watch as bacteria build a skyscraper' hooks and curiosity loops, ensuring high shareability across YouTube and meta platforms.",
+      "ideas": [
+        "The Bacterial Skyscraper: Watch Microbes Build a 50Ft Tower in 30 Days! — Scientists had 30 days to build a skyscraper using nothing but bacteria and a petri dish. See the astonishing growth and the final structure.",
+        "Living Walls vs Concrete: Microbes Take Over the City Street — We replaced a concrete wall with microbes in downtown, and you won’t believe what happened in 3 weeks.",
+        "Designer Microbe: Creating Sculptures with Light‑Responsive Bacteria — Using engineered bacteria that glow, I built a living sculpture that reacts to music. The demo will blow your mind!"
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "LivingWall",
+        "BacterialTower",
+        "MicrobialSculpture",
+        "EcoBioprinting"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
