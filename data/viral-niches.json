@@ -14487,6 +14487,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities that literally glow with living light merges sustainability, futuristic tech, and stunning visuals. It taps into rising global interest in green architecture, planetary wellness, and psychedelic aesthetic trends. The idea is niche enough to avoid saturation yet broad enough for endless storytelling, making it ideal for faceless, high‑production vids that can hook viewers instantly and keep them scrolling.",
+      "ideas": [
+        "The City That Lights Up by Night: Inside a Real Bio‑Luminescent Metropolis (Full 5K POV) – Imagine walking through a city where every street and skyscraper pulses with bioluminescent glow, and you’ll never see night the same way again.",
+        "Nighttime Photos in a Real Bio‑Luminescent City – You’ll Be Speechless! – Secret street‑level footage shows buildings lighting up like living neon, beating any cyberpunk dream you guessed.",
+        "From Lab to Skyline: How Bio‑Luminescent Architecture Will Change Urban Life – Witness the breakthrough that lets bacteria power whole neighborhoods in the dark, making cities brighter, greener, and forever different."
+      ],
+      "keywords": [
+        "Glow",
+        "Neon",
+        "Bioluminescence",
+        "FutureCity",
+        "Nightscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
