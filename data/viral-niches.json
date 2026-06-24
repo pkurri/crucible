@@ -14436,6 +14436,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "FungalFutureCities taps into the current fascination with sustainability, bio‑engineering, and futuristic design while offering a visually stunning concept—entire cities built from mycelium scaffolds. The niche is fresh, highly differentiable, and ripe for scroll‑stopping hooks that promise unseen, luminous urban landscapes, driving engagement and repeat viewership.",
+      "ideas": [
+        "Mycelium Metropolis: The City That Grows Overnight – Watch How Engineers Build a Neo‑Gaia City with Living Mold!",
+        "Neon‑Lit Mycelium: How a Biodegradable Skyscraper Could Replace Concrete Forever – Full Immersion Tour Inside!",
+        "Urban Jungle 2.0: Inside the First Fully Fungus‑Powered Suburb – You Won’t Believe the Architecture!"
+      ],
+      "keywords": [
+        "Mycelium",
+        "Biodegradable",
+        "Neon‑Lit",
+        "Urban Jungle",
+        "Bio‑Architecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
