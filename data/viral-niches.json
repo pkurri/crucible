@@ -14385,6 +14385,30 @@
         "nanoscopic"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIRevivingLanguages",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche merges the exploding interest in generative AI with deep cultural preservation, a relatively untapped intersection. English-titled videos explain how neural networks can reconstruct extinct languages, revealing forgotten stories and artifacts on a scale never seen before. The concept is inherently unique, invites emotional resonance (heritage, loss, revival), and can produce an endless stream of series—different languages, scholar interviews, AI tutorials—ensuring high content velocity and strong shareability across social platforms.",
+      "ideas": [
+        "How AI Is Reviving a Vanished Language—The Full Story in 4 Minutes | Hook: 'See how a digital ghost lifts the last words of a lost culture,'",
+        "Can a Machine Teach You a Language Spoken Before Rome? | Hook: 'Learn the 5 most obscure tongues, all taught by AI in one video!' ",
+        "From Dust to Digital: Reconstructing the Ancient Script of [Specific Tribe] with AI | Hook: 'Watch the AI write the first sonnet in a language not spoken for 600 years—watch it appear on the screen!'"
+      ],
+      "keywords": [
+        "ancient calligraphy",
+        "digital reconstruction",
+        "AI-generated vocal",
+        "world map of languages",
+        "cryptic hieroglyphs"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
