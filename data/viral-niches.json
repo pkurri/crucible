@@ -14232,6 +14232,30 @@
         "VisualTech"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobiomeKitchen",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Curiosity",
+      "reason": "The microbiome kitchen niche taps into the booming interest in gut health, fermentation, and DIY food science. With instant visual appeal—colorful cultures, bubbling jars, radiant microbial life—content hooks viewers’ curiosity and encourages repeat engagement via step‑by‑step recipes and myth‑busting hacks. This niche is distinct from existing food or science channels and scales across quick tips, deep dives, and collaborative challenges, easily generating 25+ unique viral concepts.",
+      "ideas": [
+        "Fermented Food 101: Unlock the Hidden Power of Microbes / Hook: See how a tiny drop of microbes can change flavor and nutrition in seconds!",
+        "5 Everyday Foods that Are Secretly Fermented in Your Kitchen / Hook: Explore the hidden cultures people are eating daily—prepare to be amazed by their health‑boosting power!",
+        "Bacterial Bioluminescence: How Glow‑Grown Foods Break the Internet / Hook: Watch microbes light up your plate in stunning violet and green!"
+      ],
+      "keywords": [
+        "Fermented",
+        "Vibrant",
+        "Microbial",
+        "Lush",
+        "Kaleidoscope"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
