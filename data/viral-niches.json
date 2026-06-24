@@ -14361,6 +14361,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumBiomes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "QuantumBiomes blends cutting‑edge quantum simulation with hyper‑real visual art, offering a fresh, unseen perspective on life that feels both alien and intimately compelling. Scalable content can explore countless quantum ecosystems, each episode featuring a new “quantum plant”, “nano‑city”, or “particle‑meme environment” that hooks viewers with the promise of revealing the unseen, satisfies curiosity loops, and capitalizes on the current explosion of AI‑generated content and science curiosity on social platforms.",
+      "ideas": [
+        "Quantum Garden Reveal: Watch a Photon‑Flower Bloom in 60 Seconds – Curious? Click to see the wavefunction collapse!",
+        "From Probability to Life: How a Quantum Tree Grows in 3 Minutes – End your scrolling with a living quantum forest.",
+        "The Day a Quantum Biome Did a 360° Transformation – Witness the moment a nano‑city changes reality like a glitch!"
+      ],
+      "keywords": [
+        "luminous",
+        "neon",
+        "quantum",
+        "hyperreal",
+        "nanoscopic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
