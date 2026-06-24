@@ -14208,6 +14208,30 @@
         "Spectral"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "NanoSelfRepair",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "With the rise of smart infrastructure and DIY repair culture, audiences crave visual showcases of materials that fix themselves. Demonstrating real-time self-repair—cracked concrete, wood splinters, or even glass cracks filling in—offers instant, shareable wonder. The niche is low-saturated yet high-visual, and its intersection with nanotech and eco-friendly narratives fuels both curiosity loops and social proof, making it ideal for viral momentum.",
+      "ideas": [
+        "The Invisible Crack Fixer: See a Highway Crack Heal Itself in 5 Minutes!",
+        "Nano‑Paint Magic: Watch a Wall ‘Mend’ While You’re Sleeping",
+        "Garden of Self‑Repairing Wood: A Secret Living Furniture Demo"
+      ],
+      "keywords": [
+        "NanoSelfRepair",
+        "CrackFixing",
+        "SmartMaterials",
+        "ContinuousRepair",
+        "VisualTech"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
