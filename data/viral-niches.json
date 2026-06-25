@@ -14589,6 +14589,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroplasticWatch",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Fear",
+      "reason": "Microplastics are a growing public health concern that sparks instant curiosity and alarm. With widespread consumption habits, everyday items become shocking case studies that can prompt impulsive clicks. The faceless format allows rapid, visually striking illustrations of invisible particles, perfect for quick 'scroll‑stopping' hooks and endless curiosity loops. The issue appeals to both environmental and health‑savvy audiences, giving a wide reach and high potential for viral sharing across Meta and YouTube. The brand can scale quickly with over 25+ snack‑size reveal topics (coffee, soda, shampoo, salt, etc.).",
+      "ideas": [
+        "Microplastics in Your Coffee: The Tiny Beads You Never Knew Were There / Watch the invisible sea of plastic swirl through your cup!",
+        "The Shocking Truth About Orange Juice: Are You Drinking Tiny Plastic Particles? / A sunset‑orange overlay shows the unseen menace.",
+        "What’s Lurking in Your Salt? Microplastics Found in Every Household Crate / Clicking would expose the glittering danger behind everyday staples."
+      ],
+      "keywords": [
+        "microplastic swirl",
+        "invisible plastic beads",
+        "hidden plastic particles",
+        "sparkling in drink",
+        "tiny plastic bubbles"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

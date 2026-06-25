@@ -12442,90 +12442,90 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Your next paycheck might already be in code.",
-        "duration": 5
+        "title": "Job Loss",
+        "name": "ChatGPT for Customer Support",
+        "icon": "🤖"
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
-        "duration": 4
+        "title": "Privacy Breach",
+        "name": "AI Surveillance Bot",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
+        "title": "Deepfake Fears",
+        "name": "Real‑Time Video Synthesizer",
+        "icon": "🎭"
       },
       {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
+        "title": "Market Domination",
+        "name": "Automated Trading AI",
+        "icon": "📈"
       },
       {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
+        "title": "Data Theft",
+        "name": "Predictive Analytics Wizard",
+        "icon": "📊"
       },
       {
-        "text": "Would your desk be next?",
-        "duration": 4
+        "title": "Identity Theft",
+        "name": "Speech‑to‑Text Converter",
+        "icon": "🗣️"
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
+        "title": "Moral Erosion",
+        "name": "Algorithmic Editorial AI",
+        "icon": "📰"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the AI that can replace your spouse.",
-        "duration": 4
+        "title": "Existential Risk",
+        "name": "Self‑Learning Autopilot",
+        "icon": "🚢"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Diet",
-        "name": "Blue Juice",
-        "icon": "💧"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Morning Walk",
-        "icon": "🚶"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "30‑Min Night",
-        "icon": "🛌"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mind",
-        "name": "Micro Med",
-        "icon": "🧘"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Resveratrol",
-        "icon": "💊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electro Hydrate",
-        "icon": "🥤"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Laugh Circles",
-        "icon": "😂"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Gut",
-        "name": "Fermented Foods",
-        "icon": "🥖"
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -38894,43 +38894,49 @@
     ]
   },
   "GeneEdFood": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GeneEdFood secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of GeneEdFood.",
-        "duration": 5
+        "title": "Protein Prowess",
+        "name": "Gene-Optimized Whey",
+        "icon": "🥛"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Viral Veggies",
+        "name": "CRISPR Kale Chips",
+        "icon": "🥬"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Energy Eats",
+        "name": "MitoFuel Bars",
+        "icon": "🍫"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Anti-Aging Antioxidants",
+        "name": "Nicotinamide-Rich Acai",
+        "icon": "🥭"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Microbiome Magic",
+        "name": "Synbiotic Fermented Yogurt",
+        "icon": "🥤"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Neuro Boost Nibbles",
+        "name": "L-theanine Almonds",
+        "icon": "🥜"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Hydration Hacks",
+        "name": "Kv-Enhanced Sparkling Water",
+        "icon": "💧"
       },
       {
-        "text": "If you want to master GeneEdFood, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Sleep Support Snacks",
+        "name": "Melatonin Cookie",
+        "icon": "🍪"
       }
     ]
   },
@@ -40515,6 +40521,53 @@
         "title": "Community Gems",
         "name": "Meta Data Vault",
         "icon": "🏆"
+      }
+    ]
+  },
+  "MicroplasticWatch": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 MicroplasticWatch secrets you need to know.",
+    "closing": "If you want to master MicroplasticWatch, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Microplastic Toxins",
+        "name": "Neurotoxicity Analyzer",
+        "icon": "🧠"
+      },
+      {
+        "title": "Ocean Load",
+        "name": "SeaVeil Pollution Map",
+        "icon": "🌊"
+      },
+      {
+        "title": "Health Risk",
+        "name": "MicroTaste Lister",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Hidden Sources",
+        "name": "WasteTrack Sensor",
+        "icon": "🚮"
+      },
+      {
+        "title": "Regulatory Gaps",
+        "name": "Policy Leak Detector",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Water Filtration",
+        "name": "NanoFilter HUD",
+        "icon": "🚰"
+      },
+      {
+        "title": "Bioaccumulation",
+        "name": "Ecospeak Monitor",
+        "icon": "🐠"
+      },
+      {
+        "title": "Consumer Choice",
+        "name": "Product Trace Radar",
+        "icon": "📦"
       }
     ]
   }
