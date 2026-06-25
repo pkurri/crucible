@@ -14805,6 +14805,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The public hunger for space exploration content has exploded, yet cooking under zero‑gravity remains largely unexplored. This niche blends the science of fluid dynamics with visually stunning simulations and storytelling, offering crisp differences from mainstream cooking or space news channels. Its high visual appeal and built‑in curiosity loops (e.g., “what if gravity vanished?”) guarantee strong engagement and easy scaling to hundreds of unique recipe‑or‑experiment ideas.",
+      "ideas": [
+        "Why Astronauts Can't Eat Space Pizza: The Science of Zero-Gravity Meals – We’ve seen space food, but you won’t believe the physics behind it!",
+        "Cooking Ramen in Zero-Gravity: The Ultimate Space Kitchen Hack – Ever wondered how astronauts chomp noodles while floating? Find out!",
+        "Zero-Gravity Dessert Challenge: Making Oomphless Ice Cream Without Freezers – What happens when gravity stops? Watch us melt, freeze, and float!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "AstronautKitchen",
+        "SpaceCooking",
+        "FloatingFood",
+        "GravityScience"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
