@@ -14511,6 +14511,30 @@
         "Nightscape"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.7,
+      "targetEmotion": "Awe",
+      "reason": "With global focus on sustainable, smart cities, the concept of fully bioluminescent urban landscapes merges eco‑innovation, sci‑fi aesthetics, and real‑world tech hacks. It taps into current #FutureTech and #GreenLiving trends while offering endless creative visual content—from holographic streetlights to glowing parks—perfect for eye‑catching thumbnails and immersive 60‑second reels. This niche also scales easily: countless cities, designs and “secret spots” can be showcased, generating fresh hooks week after week.",
+      "ideas": [
+        "20 Cascading Neon Trees: The First Real Bioluminescent Urban Forest Ever Built • How It Changed City Life",
+        "Turning Night into Day: 7 Cities Aiming to Glow 24/7 with Pineal Lighting – You Won’t Believe the Tech Behind It",
+        "Why Everyone’s Talking About Bioluminescent Skyscrapers (And What It Means for Real Estate Prices)"
+      ],
+      "keywords": [
+        "Neon",
+        "Glow",
+        "NightSky",
+        "FutureCity",
+        "UrbanForest"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
