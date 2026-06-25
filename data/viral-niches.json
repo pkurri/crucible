@@ -14664,6 +14664,30 @@
         "EcoLuminescence"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "DreamAIReconstruction",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Curiosity",
+      "reason": "Dream AI Reconstruction blends the current craze for AI-generated art with the age-old human fascination with dreams. By showcasing an AI that visualizes brainwave data captured during sleep, creators tap into a niche that is both scientifically intriguing and visually stunning, enabling highly scroll‑stopping, curiosity‑loop content that can go viral across platforms. The concept is unique enough to avoid overlap with existing big‑category niches while being accessible for daily uploads and spin‑offs—perfect for building a 1M+ subscriber base.",
+      "ideas": [
+        "We Built the First AI That Turns Your Nightmares Into CGI Movies! (Psyched Everyone)",
+        "This Tech Can Copy Your Dreams into 3D Models—See the Most Stunning Visuals You'll Ever Witness",
+        "I Tucked an AI Into My Sleep, and It Photographed My Mind—Watch the Results"
+      ],
+      "keywords": [
+        "dream",
+        "AI",
+        "CGI",
+        "visualization",
+        "nightmare"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
