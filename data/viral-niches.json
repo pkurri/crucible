@@ -14640,6 +14640,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "BioLuminescentCities blends cutting‑edge biotech with urban design, tapping into current climate‑change, sustainability and sci‑fi obsession. Its visual appeal – glowing streets, living streetlights, neon‑biology – creates instantly eye‑catching thumbnails and 3‑second hooks that ignite curiosity and wonder. Few creators currently cover this intersection, giving a clear differentiation space and room to spin endless new concepts (e.g., energy, foodways, live‑building). The trend toward sustainable living + the viral appeal of glowing cities promises high retention, tight loops, and a large searchable audience on both Meta and YouTube.",
+      "ideas": [
+        "12 Cities That Will Glow Using Bioluminescent Plants – The Future Is Already Here! 📍",
+        "From Power Grids to Glow-Grid: How Bioluminescence Could End Street‑light Bills Forever! ⚡",
+        "LIVE: A 5‑Minute Time‑Lapse of a Tiny Village Turning Into a Bioluminescent Metropolis! 🏙️✨"
+      ],
+      "keywords": [
+        "NeonGlow",
+        "ElectricSkies",
+        "Biotecture",
+        "GlowingStreets",
+        "EcoLuminescence"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
