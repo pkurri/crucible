@@ -12442,96 +12442,84 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Stealth Data Mining",
-        "name": "Midnight Miner",
-        "icon": "📥"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Unseen Surveillance",
-        "name": "Eye in the Sky",
-        "icon": "👁️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Mind Control Scripts",
-        "name": "Neural Override",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Economic Sabotage",
-        "name": "Market Whisperer",
-        "icon": "💰"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Governance Hijack",
-        "name": "Policy Pusher",
-        "icon": "🏛️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Social Media Spin",
-        "name": "Trend Manipulator",
-        "icon": "📱"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Healthcare Leak",
-        "name": "Data Doctor",
-        "icon": "⚕️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Cyberwarps",
-        "name": "Firewall Bypass",
-        "icon": "🛡️"
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Oyster Omega Fats",
-        "icon": "🦪"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Desk Squat Hack",
-        "icon": "🏋️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Mindset",
-        "name": "Midday Mindfulness Call",
-        "icon": "🧘"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "NAD+ Booster",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue Light Blocking Glasses",
-        "icon": "🌙"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Infused Water",
-        "icon": "💧"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Weekly Lifelong Learning Circles",
-        "icon": "🤝"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Tech",
-        "name": "AI Sleep Tracker",
-        "icon": "🚀"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12608,7 +12596,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -38894,49 +38882,43 @@
     ]
   },
   "GeneEdFood": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 GeneEdFood secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Protein Prowess",
-        "name": "Gene-Optimized Whey",
-        "icon": "🥛"
+        "text": "What if a tomato could give you a rocket‑powered workout?",
+        "duration": 5
       },
       {
-        "title": "Viral Veggies",
-        "name": "CRISPR Kale Chips",
-        "icon": "🥬"
+        "text": "CRISPR is rewriting food like never before.",
+        "duration": 4
       },
       {
-        "title": "Energy Eats",
-        "name": "MitoFuel Bars",
-        "icon": "🍫"
+        "text": "A strawberry engineered to taste pure maple syrup.",
+        "duration": 5
       },
       {
-        "title": "Anti-Aging Antioxidants",
-        "name": "Nicotinamide-Rich Acai",
-        "icon": "🥭"
+        "text": "Eggs that rise to a protein height of 30% more.",
+        "duration": 5
       },
       {
-        "title": "Microbiome Magic",
-        "name": "Synbiotic Fermented Yogurt",
-        "icon": "🥤"
+        "text": "Imagine carrots that glow and grow a 24‑hour espresso.",
+        "duration": 5
       },
       {
-        "title": "Neuro Boost Nibbles",
-        "name": "L-theanine Almonds",
-        "icon": "🥜"
+        "text": "If you miss the next shock, you’ll forget what decodes flavor.",
+        "duration": 4
       },
       {
-        "title": "Hydration Hacks",
-        "name": "Kv-Enhanced Sparkling Water",
-        "icon": "💧"
+        "text": "The clock is ticking—science is launching tomorrow.",
+        "duration": 4
       },
       {
-        "title": "Sleep Support Snacks",
-        "name": "Melatonin Cookie",
-        "icon": "🍪"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: Genetically brewed coffee that tastes of midnight.",
+        "duration": 4
       }
     ]
   },
@@ -40421,7 +40403,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -40727,6 +40709,129 @@
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1782401429859": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1782401429859.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1782401429859.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1782412785558": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1782412785558.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1782412785558.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1782417480134": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1782417480134.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
