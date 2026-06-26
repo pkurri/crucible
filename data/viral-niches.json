@@ -15132,6 +15132,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "UrbanSurvivalTools",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Curiosity",
+      "reason": "Urban survival hacks thrive on the fear‑toward unpredictable emergencies and the promise to be prepared. The niche is highly differentiated from general survival or luxury travel content, has clear scroll‑stopping hooks around everyday city scenarios, and offers endless micro‑themes (storm gear, flood prep, heatwave protocols). It scales easily with 25+ unique video angles, each delivering a clear “how‑to” or “top X” format that naturally prompts viewer curiosity loops and high retention.",
+      "ideas": [
+        "Survive a Solar Flare in 5 Minutes – TOP 3 Tools You Need Now / Ever wondered how to shield your home in seconds? Discover the quickest protective gear before the next burst hits!",
+        "The Ultimate Backpack for a 4‑Day Wilderness: Does it Pack EVERYTHING? / Think your pack is essential? We tested 10 top packs for only 4 days to uncover the one that might save your life.",
+        "Zero‑G City Fire: Build a Fire in a Crowded Parking Lot Using Only a Smartphone + 3 Items! / Learn the secret to lighting an emergency fire when electricity and gas are out—print this step‑by‑step guide before you’re stuck without heat."
+      ],
+      "keywords": [
+        "Backpack",
+        "Compass",
+        "FireStarter",
+        "WaterFilter",
+        "Rope"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
