@@ -15009,6 +15009,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumBiomes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "QuantumBiomes blends cutting‑edge quantum‑biological research with visually stunning, easy‑to‑understand storytelling. The niche is fresh, highly shareable, and invites endless curiosity loops—making each video a scroll‑stopper. Current media hype around quantum biology, coupled with an appetite for speculative science, positions this topic for rapid viral growth and 100k+ views per upload.",
+      "ideas": [
+        "Quantum Bees: How Hives Use Quantum Entanglement to Communicate – You Won't Believe Their Secret!",
+        "The Plant That Sees Time: Inside the Quantum Biome Where Leaves Remember the Future",
+        "Invisible Quantum Rivers: Discover the Sub‑Microscopic Biome That Bends Light and Warps Perception"
+      ],
+      "keywords": [
+        "quantum",
+        "entangled",
+        "nanoscopic",
+        "hyperspectral",
+        "biome"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
