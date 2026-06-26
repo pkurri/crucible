@@ -15081,6 +15081,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "CellSeedCuisine",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Cell‑seed cuisine combines the visual buzz of cutting‑edge science with the universal love of food. In the age of sustainability excitement, viewers are craving the next frontier—lab‑grown meats that look, taste, and smell indistinguishable from their traditional counterparts. The niche offers high‑impact graphics (bioreactor vats, molecular food‑structuring), clear narrative hooks (how a single stem cell becomes a steak), and constant fresh content (new dishes, tech updates, cost comparisons). Faceless production works well with voiceovers and high‑quality footage, making it ideal for rapid, scalable uploads that keep audiences scrolling.",
+      "ideas": [
+        "Microscopic Meat: How Lab‑Cultured Steak Is Made Inside a Tiny Bioreactor (Watch the SMELL!) – Hook: *Ever wondered how a steak is grown in a lab? Join me as we open a bioreactor and taste the future!*",
+        "From Cells to Table: 5 Surprising Lab‑Cooked Dishes You Don’t Know About – Hook: *Lab‑grown burgers are just the start! Discover dishes that will blow your mind and taste the science!*",
+        "The Future of Food: Can Your Next Dinner Be 100% Cell‑Sourced? – Hook: *I visited a lab that proves the impossible—get ready to taste a juicy chicken breast grown from a single cell!*"
+      ],
+      "keywords": [
+        "bioreactor",
+        "cultured meat",
+        "lab‑grown steak",
+        "future cuisine",
+        "cellular cooking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
