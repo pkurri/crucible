@@ -12442,131 +12442,143 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Job Loss",
+        "name": "ChatGPT for Customer Support",
+        "icon": "🤖"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Privacy Breach",
+        "name": "AI Surveillance Bot",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Deepfake Fears",
+        "name": "Real‑Time Video Synthesizer",
+        "icon": "🎭"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Market Domination",
+        "name": "Automated Trading AI",
+        "icon": "📈"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Data Theft",
+        "name": "Predictive Analytics Wizard",
+        "icon": "📊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Identity Theft",
+        "name": "Speech‑to‑Text Converter",
+        "icon": "🗣️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Moral Erosion",
+        "name": "Algorithmic Editorial AI",
+        "icon": "📰"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Existential Risk",
+        "name": "Self‑Learning Autopilot",
+        "icon": "🚢"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "am_adam",
+    "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
+        "title": "Nutrition",
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
+        "title": "Exercise",
+        "name": "HIIT",
         "icon": "🏋️‍♂️"
       },
       {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
+        "title": "Supplements",
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
+        "title": "Sleep",
+        "name": "5‑Second Wake‑Up",
+        "icon": "😴"
       },
       {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
+        "title": "Stress",
+        "name": "Forest Bathing",
+        "icon": "🌲"
       },
       {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
+        "title": "Social",
+        "name": "Cohort Coaching",
+        "icon": "🤝"
+      },
+      {
+        "title": "Mindfulness",
+        "name": "Quiet Journaling",
+        "icon": "✍️"
+      },
+      {
+        "title": "Hormone",
+        "name": "Hormone Reset Diet",
+        "icon": "🔄"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Market Signals",
+        "name": "Onchain Heatmap",
+        "icon": "🔥"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Timing Tools",
+        "name": "Fomo Detector",
+        "icon": "⏰"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Fundamental Analyzer",
+        "name": "Whale Watch",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Risk Manager",
+        "name": "Stop-Loss Automator",
+        "icon": "🔒"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Tax Optimizer",
+        "name": "TaxPro",
+        "icon": "🧾"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Community Insight",
+        "name": "DiscordGauge",
+        "icon": "💬"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Strategy Mentor",
+        "name": "StrategyGuru",
+        "icon": "🧠"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Portfolio Tracker",
+        "name": "Lookout",
+        "icon": "📈"
       }
     ]
   },
@@ -40427,7 +40439,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -40990,6 +41002,53 @@
         "title": "Performance",
         "name": "SpeedBoost Pro",
         "icon": "🚀"
+      }
+    ]
+  },
+  "ApexFlow_1782460488112": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1782460488112 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Power-Ups",
+        "name": "Apex Surge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Map Secrets",
+        "name": "Hidden Velocity Gate",
+        "icon": "🗺"
+      },
+      {
+        "title": "Best Builds",
+        "name": "Precision Build",
+        "icon": "🏗"
+      },
+      {
+        "title": "Game Mechanics",
+        "name": "Ego Virus",
+        "icon": "🦠"
+      },
+      {
+        "title": "Legend Abilities",
+        "name": "Mirage's Blink",
+        "icon": "👻"
+      },
+      {
+        "title": "Competitive Tricks",
+        "name": "Shadowfall Strategy",
+        "icon": "🎭"
+      },
+      {
+        "title": "Hardware Setup",
+        "name": "HyperBoost",
+        "icon": "🚀"
+      },
+      {
+        "title": "Commander Tips",
+        "name": "Ultimate Source",
+        "icon": "🔥"
       }
     ]
   }
