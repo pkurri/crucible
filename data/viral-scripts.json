@@ -12514,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12596,7 +12596,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -40415,7 +40415,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -41148,6 +41148,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1782496153850": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1782496153850 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1782496153850.",
+    "list": [
+      {
+        "title": "Launch Vehicle",
+        "name": "Falcon Prime",
+        "icon": "🚀"
+      },
+      {
+        "title": "Stealth Tech",
+        "name": "Shadow Cloak",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Energy Source",
+        "name": "Quantum Cell",
+        "icon": "🔋"
+      },
+      {
+        "title": "AI Companion",
+        "name": "Helios AI",
+        "icon": "🤖"
+      },
+      {
+        "title": "Combat System",
+        "name": "Blade Fusion",
+        "icon": "⚔️"
+      },
+      {
+        "title": "Recon Gear",
+        "name": "Specter Drone",
+        "icon": "🛸"
+      },
+      {
+        "title": "Upgrade Path",
+        "name": "Titanium Core",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Victory Seal",
+        "name": "Omni Trophy",
+        "icon": "🏆"
       }
     ]
   }
