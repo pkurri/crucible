@@ -14937,6 +14937,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumBiology",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Quantum biology sits at the cutting edge of both physics and biology, fueling a massive curiosity gap that mainstream science channels haven’t fully tapped. The concept of quantum tunneling guiding bird navigation, quantum photosynthesis in plants, or quantum smell in animals guarantees spectacular, awe‑inducing visuals paired with mind‑boggling explanations—perfect for scroll‑stopping hooks and curiosity loops that keep viewers glued to their screens. With the growing public fascination in quantum tech and the natural world, this niche can generate endless viral content (25+ ideas), drive high views per video, and attract a diverse, engaged audience eager for content that feels both profoundly scientific and visually breathtaking.\n",
+      "ideas": [
+        "The Quantum GPS Inside Birds: How Quantum Tunneling Steers Migration! – You’ll Never Guess What Controls the Riddle of the North Star!",
+        "Photosynthesis Secrets Unveiled: The Quantum Dance That Powers Life – Step Inside the Quantum Light Show in Your Own Garden!",
+        "Quantum Smell: How Your Nose, Cats, and Plants Detect Danger with Super‑Fast Quantum Leaps! – A Mind‑Blowing Sneak Peek into Quantum Olfaction!"
+      ],
+      "keywords": [
+        "QuantumTunneling",
+        "BirdNavigation",
+        "SuperpositionAnimation",
+        "QuantumPhotosynthesis",
+        "QuantumSmell"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
