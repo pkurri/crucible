@@ -12514,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12524,43 +12524,49 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Market Signals",
+        "name": "Onchain Heatmap",
+        "icon": "🔥"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Timing Tools",
+        "name": "Fomo Detector",
+        "icon": "⏰"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Fundamental Analyzer",
+        "name": "Whale Watch",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Risk Manager",
+        "name": "Stop-Loss Automator",
+        "icon": "🔒"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Tax Optimizer",
+        "name": "TaxPro",
+        "icon": "🧾"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Community Insight",
+        "name": "DiscordGauge",
+        "icon": "💬"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Strategy Mentor",
+        "name": "StrategyGuru",
+        "icon": "🧠"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Portfolio Tracker",
+        "name": "Lookout",
+        "icon": "📈"
       }
     ]
   },
@@ -40384,43 +40390,49 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
+    "closing": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioluminescentCities.",
-        "duration": 5
+        "title": "Glowing Geysers",
+        "name": "Aurora Tides",
+        "icon": "🌊"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Nightly Nebulas",
+        "name": "Luminous Skyline",
+        "icon": "🌌"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Illuminated Bridges",
+        "name": "Phosphor Span",
+        "icon": "🌉"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Radiant Rooftops",
+        "name": "Neon Canopy",
+        "icon": "🏙️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Electric Alleys",
+        "name": "Bokeh Path",
+        "icon": "🌆"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Mystic Markets",
+        "name": "Glint Bazaar",
+        "icon": "🛒"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Shimmering Subways",
+        "name": "Lattice Line",
+        "icon": "🚇"
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Sparkling Seabeds",
+        "name": "Glow Reef",
+        "icon": "🐠"
       }
     ]
   },
@@ -41061,6 +41073,47 @@
       },
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1782471231755": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1782471231755.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
