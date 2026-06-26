@@ -15156,6 +15156,30 @@
         "Rope"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities that glow with living, bioluminescent organisms combines the universal allure of glowing visuals, cutting‑edge sustainable tech, and the mystery of nature. The hook is instantly scroll‑stopping: \"This city lights itself without electricity\". It appeals to broad interests—from architecture and sustainability to sci‑fi fans—and offers endless content possibilities that require no storytelling but stunning visuals, making it scalable for 100k+ views per video and rapidly building a subscriber base.",
+      "ideas": [
+        "City of the Future: 5 Bio‑Luminescent Buildings That Glow 24/7 Without Power! – Hook: \"Imagine a city that never needs streetlights. These living structures are lighting the world.\"",
+        "I Lived in a Bioluminescent City for 24 Hours—Shocking Results! – Hook: \"Spent a night in a city made of glowing algae. The sunrise was nothing like you expect.\"",
+        "The Science Behind Bioluminescent Cities: How Living Light Is Building the Future – Hook: \"From engineered fireflies to glowing skyscrapers, discover the lab tech turning dreams into streets.\""
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescent",
+        "neon",
+        "living light",
+        "futuristic city"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
