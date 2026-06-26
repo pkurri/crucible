@@ -12483,10 +12483,57 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
+      {
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
+      },
+      {
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
+      },
+      {
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
+      },
+      {
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
+      },
+      {
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
+      },
+      {
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
+      },
+      {
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
+      },
+      {
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12523,85 +12570,50 @@
       }
     ]
   },
-  "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
-      {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
-      },
-      {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
-      }
-    ]
-  },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Mind Tactics",
+        "name": "Silent Flags",
+        "icon": "🧠"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Persuasion Tools",
+        "name": "Mirror Matching",
+        "icon": "🗝️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Scarcity Shock",
+        "icon": "🤝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Fear Amplifier",
+        "icon": "😭"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Neuropsych Tricks",
+        "name": "Reversal Neural Code",
+        "icon": "⚡"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Behavioral Cues",
+        "name": "Gesture Signifier",
+        "icon": "🤐"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Covert Persuasion",
+        "name": "Subliminal Preset",
+        "icon": "⌛"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Memory Manipulation",
+        "name": "Recency Rewriter",
+        "icon": "🔄"
       }
     ]
   },
@@ -38085,43 +38097,49 @@
     ]
   },
   "FungalFutureCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 FungalFutureCities secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of FungalFutureCities.",
-        "duration": 5
+        "title": "Skyscraper",
+        "name": "Mycelial Tower",
+        "icon": "🏢"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Facade",
+        "name": "Fungus Facade",
+        "icon": "🌿"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Infrastructure",
+        "name": "Mushroom Mosaics",
+        "icon": "🌾"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Waste",
+        "name": "Perennial Pots",
+        "icon": "♻️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Energy",
+        "name": "Biofuel Blooms",
+        "icon": "🔋"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Health",
+        "name": "Medicinal Mycelium",
+        "icon": "🩺"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Transport",
+        "name": "SporeShuttle",
+        "icon": "🚗"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Community",
+        "name": "Shroom Sanctuary",
+        "icon": "🏘️"
       }
     ]
   },
@@ -38885,39 +38903,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "What if a tomato could give you a rocket‑powered workout?",
+        "text": "Nobody talks about the truth of GeneEdFood.",
         "duration": 5
       },
       {
-        "text": "CRISPR is rewriting food like never before.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "A strawberry engineered to taste pure maple syrup.",
-        "duration": 5
-      },
-      {
-        "text": "Eggs that rise to a protein height of 30% more.",
-        "duration": 5
-      },
-      {
-        "text": "Imagine carrots that glow and grow a 24‑hour espresso.",
-        "duration": 5
-      },
-      {
-        "text": "If you miss the next shock, you’ll forget what decodes flavor.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "The clock is ticking—science is launching tomorrow.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
-        "text": "Next: Genetically brewed coffee that tastes of midnight.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -40925,6 +40943,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1782445066032": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1782445066032 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Core Module",
+        "name": "ApexCore Engine",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Data Pipeline",
+        "name": "FluxNode",
+        "icon": "🔄"
+      },
+      {
+        "title": "User Interface",
+        "name": "ApexFlow UI",
+        "icon": "🖥️"
+      },
+      {
+        "title": "Automation",
+        "name": "AutoPilot Sync",
+        "icon": "🤖"
+      },
+      {
+        "title": "Analytics",
+        "name": "InsightMatrix",
+        "icon": "📊"
+      },
+      {
+        "title": "Security",
+        "name": "SecurePass Shield",
+        "icon": "🔒"
+      },
+      {
+        "title": "Integration",
+        "name": "ConnectorBridge",
+        "icon": "🔌"
+      },
+      {
+        "title": "Performance",
+        "name": "SpeedBoost Pro",
+        "icon": "🚀"
       }
     ]
   }
