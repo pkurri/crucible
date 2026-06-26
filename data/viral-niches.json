@@ -14892,6 +14892,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "FungalFutureCities fuses cutting‑edge bioengineering with the mystique of mycelium networks. The concept of living, self‑growing architecture creates visually stunning slow‑motion growth sequences that naturally trigger curiosity and wonder. Its relevance to sustainability, urban innovation, and the spectacle of bioluminescent glow offers a fresh narrative that appeals to a broad audience, ensuring scroll‑stopping hooks, high retention, and shareability across TikTok, Instagram, and YouTube Shorts.",
+      "ideas": [
+        "The Mycelium Mega‑Mansion: Watch 5 Years of Living Architecture Grow in 60 Seconds – Hook: ‘What if your home grew itself?’",
+        "Bioluminescent Metropolis: A 3D‑Printed City Powered by Fungi – Hook: ‘The city that lights up when you sleep!’",
+        "From Spores to Skyscrapers: The Secret Blueprint of Mushroom‑Based Urban Planning – Hook: ‘Why fungi might build the next megacity!’"
+      ],
+      "keywords": [
+        "Mycelium",
+        "Bioluminescent",
+        "Living Architecture",
+        "Urban Sustainability",
+        "Organic Structures"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
