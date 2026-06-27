@@ -15393,6 +15393,30 @@
         "SustainableArchitecture"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "DeepSeaLuminescence",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The deep sea remains largely unseen and highly mysterious, yet recent scientific footage of bioluminescent organisms offers stunning, ethereal visuals that are perfect for viral storytelling. The blend of scientific intrigue, cinematic underwater footage, and the universal human fascination with the unexplored makes this niche a hot bank for attention, especially on visual-first platforms where the glow can literally literally capture hearts.",
+      "ideas": [
+        "They Light Up The Ocean: The Tiny Creatures That Illuminate the Dark – Hook: \"Do you know that the deepest part of the ocean is a galaxy of glowing beings? Watch as they pulse in an impossible light show!\"",
+        "Beyond Nightlife: The Deep Sea Bioluminescent Parade Revealed – Hook: \"This underwater blockbuster happens every night, but no one has ever seen it live. Join the parade of 50,000 luminous creatures today!\"",
+        "Silent Spectacle: 50,000 Lights in a Forever‑Black Ocean – Hook: \"Cameras captured a 2,000‑meter deep dive where 50,000 bioluminescent creatures lit up the sea. You won’t believe your eyes.\""
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "Underwater",
+        "DeepSea",
+        "Glowing",
+        "Glow"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
