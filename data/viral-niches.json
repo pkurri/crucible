@@ -15273,6 +15273,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The idea of a city powered by living bioluminescent organisms taps into widespread interest in sustainable tech, urban futures, and sci‑fi aesthetics. It sparks wonder and a sense of possibility, offering endless visual and storytelling hooks—from glowing skyscrapers to algae‑lit streets—making it highly shareable across social and video platforms.",
+      "ideas": [
+        "The City That Never Darkens: How Bioluminescent Buildings Are Lighting Up the Future • Imagine walking through a city that lights itself from within…",
+        "From Forests to Farmlands: The Secret Bioluminescent Ecosystems Powering Tomorrow's Metropolises • Discover the hidden blue glow that could replace street lamps forever.",
+        "Biolumi‑Bulb Revolution: The First BioLuminescent City Prototype – You Won't Believe How It Works! • A living light offers clean energy—watch the prototype city spring to life."
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescence",
+        "future city",
+        "sustainable lighting",
+        "urban glow"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

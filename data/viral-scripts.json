@@ -12442,49 +12442,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Job Loss",
-        "name": "ChatGPT for Customer Support",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Privacy Breach",
-        "name": "AI Surveillance Bot",
-        "icon": "🕵️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Deepfake Fears",
-        "name": "Real‑Time Video Synthesizer",
-        "icon": "🎭"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Market Domination",
-        "name": "Automated Trading AI",
-        "icon": "📈"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Data Theft",
-        "name": "Predictive Analytics Wizard",
-        "icon": "📊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Identity Theft",
-        "name": "Speech‑to‑Text Converter",
-        "icon": "🗣️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Moral Erosion",
-        "name": "Algorithmic Editorial AI",
-        "icon": "📰"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Existential Risk",
-        "name": "Self‑Learning Autopilot",
-        "icon": "🚢"
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12571,49 +12565,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Mind Persuasion",
-        "name": "Mirror Technique",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Scarcity Cue",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Behavioral Triggers",
-        "name": "Foot-in-the-Door",
-        "icon": "🚪"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bandwagon Tactic",
-        "icon": "🤝"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Authority Manipulation",
-        "name": "Fake Credentials",
-        "icon": "🏛️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Anchoring Effects",
-        "name": "Price Anchor",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Scarcity & Urgency",
-        "name": "Limited Time Offer",
-        "icon": "⏳"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Reframing Illusion",
-        "name": "Cognitive Dissonance",
-        "icon": "🧠"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -35667,39 +35655,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Imagine cities that glow brighter than stars!",
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
         "duration": 5
       },
       {
-        "text": "Tonight, they reveal a future you can't ignore!",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Bacteria engineered to emit a neon blue light.",
-        "duration": 5
-      },
-      {
-        "text": "Whole grids powered by algae—zero fossil waste.",
-        "duration": 5
-      },
-      {
-        "text": "Skylines now serve as living, breathing art.",
-        "duration": 5
-      },
-      {
-        "text": "If you miss this, you’ll never see nightscapes again.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "The energy shift is happening right now—stop watching.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
         "duration": 5
       },
       {
-        "text": "Next, we’ll dive into cities that pulse with sound.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -40427,7 +40415,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
