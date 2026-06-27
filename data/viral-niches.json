@@ -15468,6 +15468,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "HiddenCityAI",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The convergence of AI, satellite imaging, and archaeology taps into current fascination with tech solving ancient mysteries. The niche offers a unique angle not heavily saturated, allowing dramatic, scroll‑stopping discoveries that spark curiosity loops. The hook “AI found a lost city” is instantly shareable across social platforms and encourages binge‑watching of multiple content pieces, making it highly scalable.",
+      "ideas": [
+        "AI Discovers a Hidden Ancient City in the Sahara Desert—What Does It Tell Us About Early Civilization?!",
+        "Surprise! AI Uncovers Floating Island of Atlantis in the Mediterranean—Proof or Coincidence?",
+        "You Won’t Believe What AI Revealed 500 Years Before the Romans—Lost Roads and Ancient Engineering Secrets!"
+      ],
+      "keywords": [
+        "Satellite",
+        "AI",
+        "HiddenCity",
+        "Desert",
+        "Infrared"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
