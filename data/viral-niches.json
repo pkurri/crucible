@@ -15297,6 +15297,30 @@
         "urban glow"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche celebrates the rare fusion of urban life and natural bioluminescence—visuals that immediately capture attention. With the rise of multimedia content celebrating sustainable art, street science, and eco‑tech, this topic offers endless hook‑worthy angles: glowing street art, bio‑powered pedestrian tunnels, nighttime cityscapes lit by living organisms. Its uniqueness sets it apart from generic city walk‑throughs, while its spectacular imagery keeps viewers scrolling and sharing. When paired with looping “night‑time city light” formats and secret‑location storytelling, retention skyrockets, and the content scales to dozens of cities worldwide, meeting the 1M+ subscriber and 100K+ view per video target.",
+      "ideas": [
+        "The Invisible City: Overnight, a Madrid Street Turns Into Living Light / Watch a City Turn Qualitative Safe!",
+        "Japan’s Bioluminescent Night Market: Step Inside the World's Glow‑Giant Lucky Town / AMBLE through 3 Steps!",
+        "Secret Bio‑Lights of New Orleans: How City Street Art Will Prevent Crime With Light / BLIND‑folded Villages!"
+      ],
+      "keywords": [
+        "glowing",
+        "night",
+        "cityscape",
+        "bioluminescence",
+        "saturated"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
