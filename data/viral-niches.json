@@ -15369,6 +15369,30 @@
         "living skyscrapers"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Mycelium‑based building is the hottest sustainability breakthrough right now, blending cutting‑edge bio‑engineering, 3D printing and green architecture. It offers stunning visual storytelling – living cityscapes that grow, not construct, and a narrative of humanity turning to nature for solutions. The faceless format (time‑lapse, rendering, narration) supports scroll‑stopping hooks and endless curiosity loops, making it ripe for 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "Mycelium Cities: The Urban Jungle Bubble – Can Mushrooms Replace Concrete?",
+        "The Mushroom That Outlasts Concrete: Inside the Mycelium Skyscraper Project",
+        "Biocellulose to Skyscrapers: 3‑D Printed Mycelium Buildings Revealed"
+      ],
+      "keywords": [
+        "Mycelium",
+        "Biocellulose",
+        "3DPrinting",
+        "UrbanGreenscape",
+        "SustainableArchitecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
