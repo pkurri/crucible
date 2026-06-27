@@ -15321,6 +15321,30 @@
         "saturated"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SecretSpaceLegacy",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Lost and secret space programs from the Cold War, 1990s covert missions, and unpublicized research are ripe for exploration. The niche is unique—few channels focus exclusively on declassified aerospace projects—yet it feeds the universal thrill of forbidden knowledge and the mystery of vanished probes. Episodic storytelling (each video a different project) allows constant fresh content, scroll‑stopping hooks (“You won't believe this hidden spacecraft!”), and strong curiosity loops, driving high retention and shareability.",
+      "ideas": [
+        "The Vanished Rover that Never Mapped Mars – Untold Secrets Revealed / Hook: ‘What if the first Mars rover was lost in the desert? You’ll be shocked!’",
+        "The Cold‑War Spaceplane That Could Have Winged Through the Sky – Hook: ‘Meet the aircraft that vanished in the 70s. Why was its launch changed?’",
+        "The Hidden Lunar Station No One Mentions – Hook: ‘Americans built a secret base on the moon… and then erased it!’"
+      ],
+      "keywords": [
+        "interstellar mystery",
+        "deserted launchpad",
+        "blacklight test",
+        "glitch footage",
+        "maze‑like control room"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
