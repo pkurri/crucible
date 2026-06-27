@@ -41408,5 +41408,52 @@
         "icon": "🔍"
       }
     ]
+  },
+  "ApexFlow_1782535286087": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1782535286087 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Core Module",
+        "name": "Flow Engine",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Integration",
+        "name": "API Bridge",
+        "icon": "🔗"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "Smart Triggers",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Vault",
+        "icon": "🔒"
+      },
+      {
+        "title": "Scalability",
+        "name": "Elastic Nodes",
+        "icon": "📈"
+      },
+      {
+        "title": "Customization",
+        "name": "Theme Studio",
+        "icon": "🎨"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Concierge",
+        "icon": "🧭"
+      }
+    ]
   }
 }
