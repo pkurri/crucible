@@ -15417,6 +15417,30 @@
         "Glow"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The booming bio‑engineering and sustainability movements are converging on mycelium‑based architecture – a rare, visually stunning, and scientifically exciting topic. Mushroom bricks, self‑healing walls, and living cityscapes capture curiosity, create scroll‑stopping visuals, and tap into the growing desire for eco‑friendly solutions, positioning the niche for rapid subscriber growth and high watch time.",
+      "ideas": [
+        "3-Day Mushroom House: Build a Living Home from Mycelium in Your Backyard / Watch Mycelium Turn Into Brick in Minutes!",
+        "Mushroom Brick vs Concrete: The Ultimate Eco Battle / Which is Faster, Stronger, and Better for the Planet?",
+        "The Secret Lab Behind Mycelium Cities – Inside the Living Construct that Grew Overnight / How Mushrooms Could Replace Concrete Forever!"
+      ],
+      "keywords": [
+        "Mycelium",
+        "LivingBricks",
+        "SustainableArchitecture",
+        "BioFabrication",
+        "EcoFriendly"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
