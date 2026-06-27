@@ -15516,6 +15516,30 @@
         "spaceSustainability"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienBiomeFactory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "AlienBiomeFactory blends cutting‑edge bioengineering, 3D printing, and speculative biology into a shockingly visual narrative that satisfies Curiosity and Awe. The niche is uncharted, offering endless sub‑topics—from micro‑alien forests to synthetic ecosystems—making it ideal for 25+ fresh viral concepts. The wide appeal to science enthusiasts and sci‑fi dreamers, combined with the ‘unseen world’ hook, positions it for high engagement on both Meta and YouTube.",
+      "ideas": [
+        "\"The First Time Scientists Printed an Alien Forest: WATCH It Grow!\" / Hook: Ever wonder how an alien forest would look? See the groundbreaking experiment that turned a 3D printer into a living world.",
+        "\"How We’re Building a Micro‑Planet With Alien Life Inside\" / Hook: Inside a secret lab, researchers craft a self‑sustaining ecosystem that could thrive far beyond Earth.",
+        "\"From 3D Printer to Alien Life: The Beginner's Guide to DIY Alien Biomes\" / Hook: Think you can't build your own alien world? Think again—learn how hobbyists can create a synthetic biome step by step."
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "AlienForest",
+        "MicroFactory",
+        "3DPrintedNature",
+        "SyntheticEcosystem"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
