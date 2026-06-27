@@ -15345,6 +15345,30 @@
         "maze‑like control room"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Bioluminescent cities fuse cutting‑edge synthetic biology with urban design, tapping into growing excitement around sustainable and living cities. The concept offers vivid, envy‑inducing visuals that naturally encourage share‑ability, scroll‑stopping hooks, and deep curiosity loops. It’s distinct from generic ‘future city’ content, yet scalable with endless sub‑themes (microbial lighting, mycelium skylines, programmable glow‑infrastructure, etc.) providing ample material for 25+ viral ideas.",
+      "ideas": [
+        "10 Cities That Could Glow Bright Like Fireflies in 2075 – Your Nighttime Dream (Ever wondered what cities would look like if the streets were alive? Join us as we explore the 10 most stunning bioluminescent city designs…)",
+        "The Surprising Science Behind Street Glow: How Bacteria Might Light Up Your Commute! (What if every lamp you pass was powered by microbes? Let’s dive into the science of bioluminescent lighting…)",
+        "Meet the Architects Turning Mycelium into Glow‑Skyline – The Future of Urban Lighting! (Behind the glowing towers are engineers and fungi – discover how mycelium is becoming the next LED!)"
+      ],
+      "keywords": [
+        "glowing streets",
+        "mycelium skyline",
+        "bioluminescent alley",
+        "engineered bacteria light",
+        "living skyscrapers"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
