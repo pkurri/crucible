@@ -15180,6 +15180,30 @@
         "futuristic city"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities literally glowing with engineered bioluminescence taps into the hot trends of sustainability, urban futurism, and mind‑blowing visual spectacles. With global fascination for eco‑innovation and the viral appeal of neon‑lit nightscapes, this niche is uniquely positioned for high engagement, endless curiosity loops, and cross‑platform shareability.",
+      "ideas": [
+        "\"10 Cities That Glow Like Ocean Biomes – The Future Isn’t a Film Myth\" /Hook: Shocked by a skyline that lights up like a coral reef? You’ll question whether our cities belong on Earth too.",
+        "\"From Soil to Skyscraper: How Bioluminescent Plants Light Tokyo’s Streets Tonight\" /Hook: Watch the 24‑hour transformation as Tokyo’s arteries pulse with living neon – the city is literally breathing.",
+        "\"The Secrets Behind The Glow: Inside the First Bioluminescent City Prototype\" /Hook: Dive into the labs and streets that turned bio‑engineering experiments into floating light shows. Prepare to see the unseen."
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescent",
+        "neon",
+        "luminescent",
+        "nightscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
