@@ -15492,6 +15492,30 @@
         "Infrared"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceJunkHomemaking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Space junk recycling is a novel, high‑impact concept that merges environmental urgency with the fascination of outer space. The visual spectacle of turning orbital debris into human habitats sparks curiosity and wonder, and the “watch it happen” format lends itself to scroll‑stopping hooks and long‑term engagement. With growing public interest in space sustainability and green tech, the niche taps a timely trend and offers fresh angles not yet saturated in mainstream channels.",
+      "ideas": [
+        "From Trash to Tower: Watch a 25‑meter Space Junk Habitat Build in 48 Hours – #SpaceEngineering",
+        "Zero‑Gravity House Hack – How We 3‑D Print Homes from Recycled Satellites!",
+        "The Invisible Web: Inside the Drone‑Controlled Assembly Line Turning Space Debris Into Real Homes"
+      ],
+      "keywords": [
+        "zeroGravity",
+        "orbitalDebris",
+        "droneConstruction",
+        "3DPrinted",
+        "spaceSustainability"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
