@@ -15540,6 +15540,30 @@
         "SyntheticEcosystem"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobiomeCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The edible microbiome is an emergent frontier that blends science, gastronomy, and DIY culture. People are fascinated by the unseen and transformative power of microbes—especially when they appear as vivid, swirling bioluminescent soups or crunchy living snacks. Viral success hinges on the visual spectacle of fermentation processes, the promise of experimental cuisine, and the narrative of \"making food at the frontier of biology.\" With mainstream food chefs experimenting, cult science podcasts, and a growing vegan/biotech community, the niche can tap into millions of viewers eager to taste the unknown. Its high novelty status avoids saturation, while the combination of science‑backed topics and accessible DIY culture guarantees rapid shareability and high retention through curiosity loops. ",
+      "ideas": [
+        "We Turned a Radioactive Waste Tank into Fermented Soup—The Results Will Shock You / Disclaimer: This is a simulation...",
+        "10 Foods You Can Grow with Your Own Backyard Microbiome—No Lab Required—See the Evolution in 24 Hours!",
+        "From Mushroom Residue to Bioluminescent Dinner: The Ultimate Microbiome Kitchen Challenge"
+      ],
+      "keywords": [
+        "Fermentation",
+        "Bioluminescence",
+        "Microorganisms",
+        "DIY Kitchen",
+        "Edible Lab"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
