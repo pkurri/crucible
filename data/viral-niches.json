@@ -15564,6 +15564,30 @@
         "Edible Lab"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "MicrobialArchitecture taps into growing public fascination with bio‑engineering and sustainable construction, offering a visual, self‑building phenomenon that is both scientifically credible and visually irresistible. Its unique, faceless format—time‑lapse footage of living concrete, mycelium bridges, and bioluminescent walls—fits naturally into short, scroll‑stopping format on Meta and full‑length educational content on YouTube. The niche is low competition, has clear hooks for curiosity loops about \"living homes,\" and scales effortlessly to dozens of spin‑offs: ingredient manipulation, speed‑ups, comparisons to steel, and future‑tech speculation. With such high‑visibility science, viewers are instantly intrigued, likely to watch 10‑15 minutes of content, and share across social feeds, moving the channel toward 1M+ subs and 100K+ view thresholds.",
+      "ideas": [
+        "Living Concrete House: 48‑Hour Time‑Lapse / Watch microbes build a 3‑story home from the ground up in less than two days.",
+        "Mycelium Bridge Boom: A Mushroom Architecture That Spans a River / See fungal highways replace steel in this experimental bridge tour.",
+        "Bioluminescent Living Wall: Nature’s Glow‑Powered Energy / Discover how fungal lights can power homes while cleaning air."
+      ],
+      "keywords": [
+        "living concrete",
+        "time‑lapse",
+        "bioluminescent",
+        "mycelium architecture",
+        "microbial self‑healing"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
