@@ -15657,6 +15657,30 @@
         "fungal skyscraper"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "LuminoCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Bioluminescent cities combine cutting‑edge sustainable technology with jaw‑dropping visuals. With growing interest in eco‑innovation and night‑time content, the niche offers endless scroll‑stopping hooks, feel‑good narrative and vibrant imagery that performs across both Facebook and YouTube. The concept is fresh, highly visual, and ripe for storytelling around future‑proof urban design, giving it a clear path to 1M+ subs and high view counts.",
+      "ideas": [
+        "They Light the Night: Inside the World's First Fully Bioluminescent City – What Happens When Streets Glow?",
+        "From Black to Brilliance: How Bioluminescent Plants Are Powering Tomorrow's Urban Lighting – 5 Stunning Cities Revealed",
+        "Secret to Zero‑Energy Nightlife? A Deep Dive into Cities Powered by Bioluminescent Alleyways – 24 Hours of Glowing Night"
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescent",
+        "neon",
+        "nightscape",
+        "futurecity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
