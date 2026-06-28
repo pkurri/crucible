@@ -15681,6 +15681,30 @@
         "futurecity"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceDebris",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Space debris is an urgent, visually spectacular problem attracting widespread media attention, from NASA’s debris maps to SpaceX’s autonomous missions. The sheer scale—more than 1.5 billion tracked objects—creates a sense of cosmographic suspense that can be visually dramatized with orbiting shards and luminous trails. The niche offers confidential tech stories, transformative recycling ideas, and real‑time orbital alerts, all of which can hook audiences with “scroll‑stopping” hooks and endless curiosity loops to sustain high playback and share rates.",
+      "ideas": [
+        "The Clock is Ticking: 1.5 Billion Space Junk Pieces Circling Earth—Can We Stop Them?",
+        "From Trash to Treasure: How Companies Are Turning Space Debris into Building Materials for Mars.",
+        "When Orbital Ice Melts: New Space Debris Quantum Sensor Could Save Satellites."
+      ],
+      "keywords": [
+        "OrbitingGlow",
+        "CelestialShards",
+        "StarlitDust",
+        "LuminousTrails",
+        "Skyfire"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
