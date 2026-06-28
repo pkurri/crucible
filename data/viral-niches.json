@@ -15879,6 +15879,30 @@
         "sustainability"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero-G cooking combines the massive public fascination with space exploration, the visual wow factor of floating food, and a niche that few creators explore. Trending NASA footage, the novelty of seeing everyday dishes performed in weightlessness, and the perfect hook of \"what happens when you cook in space\" create high shareability and retention.",
+      "ideas": [
+        "Cooking in Zero-G: Watch How the ISS Chef Prepares Pizza in Weightless Mode! (Weightless pizza that never burns—watch how the cosmos cooks up a slice.)",
+        "Can You Make a Perfect Soup in Zero Gravity? Watch the ISS Kitchen Challenge! (When stakes are high and there’s no gravity—see how zero-g soup defies expectations.)",
+        "The Secret to Space Chocolate: Why Zero-G Melting is Mind-Blowing! (Think melting chocolate is easy? In zero-g it turns into a swirling dream.)"
+      ],
+      "keywords": [
+        "zero-g",
+        "space-cooking",
+        "weightless",
+        "NASA",
+        "ISS"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
