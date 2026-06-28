@@ -15855,6 +15855,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "This niche sits at the intersection of sustainability, architecture, and visual spectacle—an emerging trend that no major channel has fully exploited. The concept draws on the recent surge in biophilic design and the fascination with city beautification through technology, making it highly differentiated. The visually stunning glow of bioluminescent materials offers instant scroll‑stopping appeal and can be extended into endless generational comparisons, green‑tech hacks, and future scenario storytelling, feeding curiosity loops. The scalability is high: from micro‑upgrades for small parks to full‑scale vertical farms, each subject can spawn 25+ unique videos. With TikTok and Instagram reels already full of “city glow” content, a focused YouTube long‑form channel can capture 1M+ subs and 100k+ views per video.",
+      "ideas": [
+        "The City That Lights Up By Itself: Inside the World’s First Bioluminescent Metropolis / Well‑Dressed & Well‑Lit? Dive Into the Glow!",
+        "Transforming Puddles into Nano‑LED Rivers: How Bioluminescent Paint is Changing Nightlife / You Won’t Believe What These Streets Look Like O’Clock 3!",
+        "Eco‑Architecture Expo 2027: 5 Bioluminescent Building Hacks for a Future‑Proof Neighborhood / Watch the Dark City Turn Into a Neon Dream"
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescence",
+        "night",
+        "cityscape",
+        "sustainability"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
