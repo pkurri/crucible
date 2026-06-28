@@ -36830,43 +36830,49 @@
     ]
   },
   "AlienBiomeFactory": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AlienBiomeFactory secrets you need to know.",
+    "closing": "If you want to master AlienBiomeFactory, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AlienBiomeFactory.",
-        "duration": 5
+        "title": "Eco Modules",
+        "name": "Verdant Core",
+        "icon": "🌱"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Terraformers",
+        "name": "Nebula Engine",
+        "icon": "🚀"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Probe Types",
+        "name": "Spectral Scout",
+        "icon": "🔭"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Genetic Templates",
+        "name": "Proto-Spore",
+        "icon": "🦠"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Energy Systems",
+        "name": "Quantum Flux",
+        "icon": "⚡"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Defense Protocols",
+        "name": "Plasma Shield",
+        "icon": "🛡️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Control Interface",
+        "name": "Holo Nexus",
+        "icon": "🌀"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Data Archives",
+        "name": "Void Ledger",
+        "icon": "📚"
       }
     ]
   },

@@ -15588,6 +15588,30 @@
         "microbial self‑healing"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienBiomeFactory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The AlienBiomeFactory niche is currently underexplored yet visually electrifying, merging cutting‑edge synthetic biology with space‑age ambition. It offers endless scroll‑stopping hooks—glowing ecosystems, bio‑engineered forests for extraterrestrial habitats, and real lab footage of processes that look like science‑fiction. The shock value of unseen organisms, combined with the societal fascination with colonizing other planets, creates high curiosity loops and amplifies shareability across platforms, making it prime for rapid subscriber growth and deep engagement.",
+      "ideas": [
+        "Inside the Alien Biome Factory: 5 Plants That Glow in Oxygen‑Free Atmospheres",
+        "This Lab Built an Entire Forest to Survive on Mars – Watch the Pod Vines Grow",
+        "Top 7 Impossible Biomes You Won’t Believe Were Created in 2025"
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Space",
+        "Lab",
+        "Alien",
+        "Future"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
