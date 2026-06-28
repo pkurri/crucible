@@ -15756,6 +15756,30 @@
         "photorealistic ocean visual"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Mycelium‑based architecture is a hot, under‑explored trend that merges biology, sustainability, and speculative future design. The niche is visually striking, lends itself to short, scroll‑stopping visual storytelling, and taps into current interests in bio‑engineering, eco‑buildings, and climate solutions. It offers endless, high‑volume content—building a city from fungus, underground tunnels, molecular bioreactors—ideal for faceless presentation, high retention, and viral growth.",
+      "ideas": [
+        "The Mycelium City That Could Save the Plastic Crisis – Watch the Forest‑Like Building Grow in 60 Seconds",
+        "How to Build a Sustainable Skyscraper Inside Your Backyard – Fungal Architecture Secrets Revealed",
+        "Why Mycelium Is the Next Concrete Alternative – A Live Time‑Lapse of a Living Building"
+      ],
+      "keywords": [
+        "Mycelium",
+        "Bioluminescent",
+        "LivingCities",
+        "SustainableArchitecture",
+        "EcoFuture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
