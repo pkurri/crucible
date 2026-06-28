@@ -15633,6 +15633,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MyceliumCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "The idea of living, bioluminescent urban structures made from mycelium combines cutting‑edge bio‑engineering with surreal, nature‑powered visuals that resonate on both emotional and ecological levels. Modern audiences are hungry for green tech stories, while the sheer novelty of fungal skyscrapers creates scroll‑stopping hooks. The niche is rare, competitive but highly shareable, and easily expanded into 25+ topics ranging from sustainability to sci‑fi speculation.",
+      "ideas": [
+        "How Mycelium Myths Sent an Entire City to Life – 60‑Second Forest Architecture",
+        "The Secret Life of Mycelium: Building a Zero‑Carbon City in 5 Minutes",
+        "Do Mycelium Cities Save Humanity? The Dark Side of a Fungal Megalopolis"
+      ],
+      "keywords": [
+        "mycelium",
+        "bioluminescence",
+        "living architecture",
+        "green city",
+        "fungal skyscraper"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

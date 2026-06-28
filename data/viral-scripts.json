@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12514,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12524,96 +12524,84 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Whale Watch",
-        "name": "The Silent Whale",
-        "icon": "🐋"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Hidden Leap",
-        "name": "Flash Loan Leverage",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Token Trap",
-        "name": "Pump & Dump Spy",
-        "icon": "📈"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Secret Funnel",
-        "name": "Order Book Blackhole",
-        "icon": "🕳️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Hidden Gas",
-        "name": "Low Fee Magic",
-        "icon": "⛽"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Bounty Hunt",
-        "name": "Micro Reward Sats",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Chain Whisper",
-        "name": "Cross‑Chain Secrets",
-        "icon": "🔀"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Alliance Notes",
-        "name": "Insider Partnerships",
-        "icon": "🤝"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Mind Tactics",
-        "name": "Silent Flags",
-        "icon": "🧠"
+        "text": "Ever wonder how puppeteers control you in seconds?",
+        "duration": 5
       },
       {
-        "title": "Persuasion Tools",
-        "name": "Mirror Matching",
-        "icon": "🗝️"
+        "text": "They leave no trace, and you can't see the strings.",
+        "duration": 4
       },
       {
-        "title": "Social Engineering",
-        "name": "Scarcity Shock",
-        "icon": "🤝"
+        "text": "The first law: Silence is louder than shouting.",
+        "duration": 5
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Fear Amplifier",
-        "icon": "😭"
+        "text": "Mirroring triggers trust, turning strangers into allies.",
+        "duration": 5
       },
       {
-        "title": "Neuropsych Tricks",
-        "name": "Reversal Neural Code",
-        "icon": "⚡"
+        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
+        "duration": 5
       },
       {
-        "title": "Behavioral Cues",
-        "name": "Gesture Signifier",
-        "icon": "🤐"
+        "text": "If you ignore this, they'll weaponize your own memories.",
+        "duration": 4
       },
       {
-        "title": "Covert Persuasion",
-        "name": "Subliminal Preset",
-        "icon": "⌛"
+        "text": "Imagine them framing you, then playing the courtroom.",
+        "duration": 4
       },
       {
-        "title": "Memory Manipulation",
-        "name": "Recency Rewriter",
-        "icon": "🔄"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
+        "duration": 4
       }
     ]
   },
@@ -40433,7 +40421,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -41806,6 +41794,47 @@
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "MyceliumCities": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of MyceliumCities.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
