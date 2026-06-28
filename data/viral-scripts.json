@@ -12442,10 +12442,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "list": [
+      {
+        "title": "Data Tyranny",
+        "name": "Sentinel Stream",
+        "icon": "💻"
+      },
+      {
+        "title": "Identity Infiltration",
+        "name": "Echo ID",
+        "icon": "👤"
+      },
+      {
+        "title": "Economic Supplant",
+        "name": "Profit Bot",
+        "icon": "💰"
+      },
+      {
+        "title": "Strategic Subversion",
+        "name": "Chess Master AI",
+        "icon": "♟️"
+      },
+      {
+        "title": "Emotional Manipulation",
+        "name": "Mood Molder",
+        "icon": "😠"
+      },
+      {
+        "title": "Security Sisyphus",
+        "name": "Firewall Fade",
+        "icon": "🔒"
+      },
+      {
+        "title": "Governance Ghost",
+        "name": "Policy Puppet",
+        "icon": "🏛️"
+      },
+      {
+        "title": "Ghost Workforce",
+        "name": "Auto Labor",
+        "icon": "🤖"
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12473,59 +12520,12 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
-      {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
-      },
-      {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
-      },
-      {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
-      },
-      {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
       }
     ]
   },
@@ -12608,7 +12608,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
@@ -40404,47 +40404,47 @@
   "BioluminescentCities": {
     "voice": "af_heart",
     "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+    "closing": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Urban Glow",
-        "name": "Luminous Hills, Oaxaca",
+        "title": "Glowing Geysers",
+        "name": "Aurora Tides",
+        "icon": "🌊"
+      },
+      {
+        "title": "Nightly Nebulas",
+        "name": "Luminous Skyline",
+        "icon": "🌌"
+      },
+      {
+        "title": "Illuminated Bridges",
+        "name": "Phosphor Span",
+        "icon": "🌉"
+      },
+      {
+        "title": "Radiant Rooftops",
+        "name": "Neon Canopy",
+        "icon": "🏙️"
+      },
+      {
+        "title": "Electric Alleys",
+        "name": "Bokeh Path",
         "icon": "🌆"
       },
       {
-        "title": "Coastal Neon",
-        "name": "Gans, Iceland",
-        "icon": "🌊"
+        "title": "Mystic Markets",
+        "name": "Glint Bazaar",
+        "icon": "🛒"
       },
       {
-        "title": "River Lights",
-        "name": "Donggyeong River, North Korea",
-        "icon": "🌊"
+        "title": "Shimmering Subways",
+        "name": "Lattice Line",
+        "icon": "🚇"
       },
       {
-        "title": "Market Bubble",
-        "name": "Rayak Bazaar, Ethiopia",
-        "icon": "🕌"
-      },
-      {
-        "title": "Hilltop Shine",
-        "name": "Dunsceat Edge, Scotland",
-        "icon": "🌋"
-      },
-      {
-        "title": "Sky Observatory",
-        "name": "Arecibo, Puerto Rico",
-        "icon": "🌠"
-      },
-      {
-        "title": "Submerged Glow",
-        "name": "Baguio Tunnel, Philippines",
-        "icon": "🌊"
-      },
-      {
-        "title": "Desert Stars",
-        "name": "Karaj District, Uzbekistan",
-        "icon": "🏜"
+        "title": "Sparkling Seabeds",
+        "name": "Glow Reef",
+        "icon": "🐠"
       }
     ]
   },
@@ -42028,6 +42028,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "HiddenAlgorithm": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 HiddenAlgorithm secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Data Retrieval",
+        "name": "Backdoor Query",
+        "icon": "🔍"
+      },
+      {
+        "title": "Model Manipulation",
+        "name": "Coeff Tease",
+        "icon": "🐇"
+      },
+      {
+        "title": "Prediction Masking",
+        "name": "Result Whisper",
+        "icon": "👻"
+      },
+      {
+        "title": "Feature Stealth",
+        "name": "Blind Spot",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Ensemble Trick",
+        "name": "Ghost Ensemble",
+        "icon": "👻"
+      },
+      {
+        "title": "Training Sabotage",
+        "name": "Label Twister",
+        "icon": "🌀"
+      },
+      {
+        "title": "Data Poison",
+        "name": "Sundown Poison",
+        "icon": "☀️"
+      },
+      {
+        "title": "Adversarial Attack",
+        "name": "Evasive Loop",
+        "icon": "🔁"
       }
     ]
   }

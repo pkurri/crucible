@@ -15780,6 +15780,30 @@
         "EcoFuture"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "HiddenAlgorithm",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The algorithmic manipulation behind social media feeds is a hot, under-explored topic with massive audience intrigue. Faceless narration, data visualizations, and real-world examples lend themselves to quick, scroll-stopping hooks that keep viewers racked, fostering frequent shares and high engagement on both Meta and YouTube.",
+      "ideas": [
+        "You Won’t Believe What 70% of Your Feed Is Actually Tuning To – Break the Algorithm Today",
+        "The Dark Algorithm Conspiracy That Influences Your Choices – What Facebook Doesn’t Want You to Know",
+        "How Hidden Algorithms Are Rewriting Reality: A 60-Second Reveal of the Digital Mind Control Matrix"
+      ],
+      "keywords": [
+        "Algorithmic",
+        "Neural",
+        "Digital",
+        "Hidden",
+        "Shadow"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
