@@ -15804,6 +15804,30 @@
         "Shadow"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The fascination with biotech, sustainable architecture, and speculative future worlds creates a massive demand for visually stunning, science‑based storytelling. Short, faceless videos that showcase mycelium‑powered cities tap into the trending \"green tech\" conversation while offering an impossible‑looking aesthetic that keeps viewers scrolling. The niche is fresh—few creators explore fungal architecture on a large scale—making it ripe for rapid subscriber growth and high view counts.",
+      "ideas": [
+        "The City That Grown From a Mushroom: Mycelium‑Powered Megalopolis – Watch how a fungal labyrinth becomes a self‑sustaining metropolis!",
+        "No Power, No Problem: The Hidden Spore‑Powered City That Runs on Air—Can a city exist without electricity?",
+        "From Spore to Skyline: The Secret Blueprint of the First Bio‑Fungus Cities—Discover the design that could replace concrete forever!"
+      ],
+      "keywords": [
+        "Mycelium",
+        "Biotech",
+        "EcoCity",
+        "BioArch",
+        "Nanofungi"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
