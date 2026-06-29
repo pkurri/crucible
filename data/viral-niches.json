@@ -15903,6 +15903,30 @@
         "ISS"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche marries the explosive interest in sustainable architecture with the uncharted visual spectacle of mycelium‑based construction. Mycelium’s self‑healing, carbon‑sequestering, and ultra‑stiff properties create inherently shareable, awe‑inducing content that differentiates sharply from existing ‘green tech’ trends while offering endless hook possibilities—from edible bricks to living skyscrapers.",
+      "ideas": [
+        "The Fungal Metropolis: Mycelium Skyscrapers That Grow and Repair Themselves / Watch living concrete convert CO₂ into solid walls in 48 hours.",
+        "Living Soil Towers: Building Homes With Mushroom Roots? / Step‑by‑step demo of a mushroom‑based house that cleans indoor air in real time.",
+        "Zero‑Waste Cities: How Fungi Could Power the Next Urban Generation / From food to insulation—discover the secret ecosystem that could replace plastic."
+      ],
+      "keywords": [
+        "MyceliumArchitecture",
+        "BioplasticSpire",
+        "SustainableSpores",
+        "FungalSkyscraper",
+        "EcoConcrete"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
