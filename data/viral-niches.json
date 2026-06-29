@@ -15999,6 +15999,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienBiomeFactory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "AlienBiomeFactory creates a never-before-seen library of photorealistic alien landscapes, flora, and fauna generated through AI. Its high visual appeal, endless diversity, and the sense of discovering an unknown world make scroll-stopping hooks and curiosity loops very natural. The faceless format—cinematic narration paired with AI visuals—ensures low barrier to production and repeatable viral ideas. Current interest in space exploration, bioengineering, and creative AI content gives it strong scalablility potential.",
+      "ideas": [
+        "5 Terrifying Aliens You’ve Never Seen Before – Are They Real?",
+        "This Acidic Ocean Shines Like a Rainbow – What’s Inside?",
+        "The Living Forest That Generates its Own Light – See How It Works"
+      ],
+      "keywords": [
+        "NeonNebula",
+        "TranslucentGleam",
+        "EpicCosmic",
+        "BioluminescentGlow",
+        "SpectralLandscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
