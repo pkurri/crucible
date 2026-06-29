@@ -15927,6 +15927,30 @@
         "EcoConcrete"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The concept of cities powered by bioluminescent organisms taps into the growing public fascination with sustainable tech, sci‑fi visual artistry, and AI‑generated simulations. Unlike simple nature videos, it blends urban design with jungle‑inspired glow, offering endless visual hooks. With no current major faceless channel occupying this exact niche, it provides a unique angle that can be scaled into thousands of AI‑driven cityscapes and evolution over time.",
+      "ideas": [
+        "\"Glowing Metropolis: A City Powered by Marine Algae – You Won’t Believe the Light!\" / Hook: Start with an impossibly bright night‑time cityscape that slowly buds light, then reveal the AI‑crafted algae‑powered grid.",
+        "\"If Your City Lit Itself: Bio‑Glow Architecture in 4K 60FPS – Mind-Blowing Visuals Inside 30 Seconds\" / Hook: Quick montage of glowing streets, then flash a reveal of the underlying organism network.",
+        "\"Future of Urban Lighting—The Secret Quantum-Bioluminescent System Powers Tomorrow’s Cities – 4B Viewers Love It\" / Hook: Introduction of a speculative bio‑engineering concept, proven by AI simulation, coupled with an emotional end‑card about a brighter, cleaner future."
+      ],
+      "keywords": [
+        "glowing",
+        "cityscape",
+        "AI-generated",
+        "sci‑fi",
+        "nighttime"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
