@@ -16077,6 +16077,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "BioLuminescentCities taps into the rising fascination with sustainable tech, bio‑engineering, and eco‑innovation. The visual spectacle of living light is instantly eye‑catching and feeds powerful scroll‑stopping hooks and curiosity loops. The niche is still nascent, not crowded by large creators, and the concept has clear real‑world research behind it, making it a perfect candidate for rapid viral momentum and long‑term scaling with 25+ unique ideas.",
+      "ideas": [
+        "This City Is Lit by Living Lights—Watch the Bioluminescent Revolution in Action! (What if your streetlights were powered by living algae? Here’s the first prototype city unveiled!)",
+        "From Lab to Urban Jungle: Turning Night into Nature—Inside the First Bio‑Luminescent City (Discover how scientists use firefly DNA to light streets without electricity!)",
+        "The Dark City No Longer Exists—Meet the Scientists Turning Cities Into Light with Bacteria! (See astonishing footage of bacteria painting glowing streets in real time!)"
+      ],
+      "keywords": [
+        "NeonBioluminescence",
+        "GlowStreet",
+        "NightLightRevolution",
+        "LivingLights",
+        "EcoCityGlow"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
