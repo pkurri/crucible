@@ -16453,6 +16453,30 @@
         "Micro-Engineering"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "NanoSurgons",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of cutting‑edge nanomedicine and the public’s fascination with tiny, almost science‑fiction tech offers instant hook potential. Live demonstrations of microrobots inside the body create visceral wonder, evoke curiosity, and are ripe for shareable clips, algorithmic amplification, and cross‑platform engagement, pushing the niche above 1M subscribers and 100K views per video.",
+      "ideas": [
+        "Mini‑Titanic Surgery: Doctors Use Nanobots to Fix Your Heart in 5 Minutes – See the Microscopic Marvel!",
+        "The Room‑Temperature Future: Live Nanobot Brain Repair – Watch as Cells Heal Right Before Your Eyes!",
+        "How NanoSurgeons Could Tackle Cancer Without Chemotherapy – Inside the Tiny Robots Crafting Tomorrow’s Cure"
+      ],
+      "keywords": [
+        "nanobots",
+        "microscopic surgery",
+        "bio‑luminescence",
+        "micro‑robotics",
+        "nanomedicine"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
