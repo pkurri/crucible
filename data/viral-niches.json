@@ -16317,6 +16317,28 @@
         "FuturisticNightscape"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "VerticalUrbanForests",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "VerticalUrbanForests combine the irresistible visual allure of towering green buildings with the growing global focus on sustainability and climate resilience. The niche offers endlessly varied, scroll‑stopping footage of sky‑high trees, humming green elevators, and glowing biophilic skylights that naturally ignite curiosity and awe. Its visual richness lends itself to faceless production—short, high‑energy clips, voice‑over narratives, and AI‑enhanced montages—making it easy to churn out 25+ unique viral concepts while maintaining high retention through curiosity loops. Moreover, the current zeitgeist around “green cities” and “future architecture” provides a ready audience hungry for fresh, imaginative content, positioning the niche to reach 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "‘Sky‑High Greenhouse: Inside the Tallest Vertical Forest on Earth – You Won’t Believe the Views!','The Secret Life of a Living Skyscraper – Trees, Tech, and Tiny Animals in the Clouds','Why this Tower Will Save Cities from Climate Change – A Visual Journey into Vertical Urban Forests"
+      ],
+      "keywords": [
+        "SkyHigh",
+        "LivingSkyscraper",
+        "LushTower",
+        "GreenWall",
+        "EcoCity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
