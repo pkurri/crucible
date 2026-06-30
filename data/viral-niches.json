@@ -16206,6 +16206,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DreamAIDecoder",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of cutting‑edge AI and the universally personal realm of dreams creates a niche that’s both emotionally resonant and tech‑savvy. Faceless storytelling lets creators tap into endless personal dream stories while AI analysis provides a fresh, authoritative voice that feels futuristic. Trending AI interest, widespread curiosity about subconscious meaning, and the potential for endless personalized hooks make this niche highly scalable and share‑worthy.",
+      "ideas": [
+        "AI Decodes My Dream About Flying – The Neuroscience Behind the Wonder",
+        "What an AI Can Reveal About Your Dream of Money: 5 Shocking Interpretations",
+        "The 7 Deep‑Sea Dream Symbols AI Uncovers (And What They Mean for You!)"
+      ],
+      "keywords": [
+        "AI neural landscapes",
+        "dreamscape visuals",
+        "psychedelic brain imaging",
+        "cerebral echo",
+        "virtual subconscious"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
