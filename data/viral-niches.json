@@ -16429,6 +16429,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "MicrobialArchitecture rides the convergence of microbiology, nano‑engineering, and viral visual storytelling. With fresh micro‑seen structures from bacteria, fungi, and viruses, these engaging 3‑D renderings tap into the zeitgeist of science fascination, sustainable living, and the uncanny beauty of tiny worlds. Faceless narration paired with stunning graphics fuels endless curiosity loops and keeps viewers scrolling for the next unexpected micro‑contraption. The niche is still nascent on major platforms, providing a low‑saturation entry point for high‑velocity growth.",
+      "ideas": [
+        "\"How Tiny Bacteria Build Skyscrapers In Seconds – Microscopic Architecture Unveiled!\"",
+        "\"From Spores to Cities: The Secret Architectural World Inside Your Kitchen\"",
+        "\"See The Invisible City Of Fungi: Microbial Construction That Could Bio‑Engineer Tomorrow\""
+      ],
+      "keywords": [
+        "Microbiology",
+        "NanoArchitecture",
+        "TinyStructures",
+        "3DMicrobiology",
+        "Micro-Engineering"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
