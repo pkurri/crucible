@@ -16293,6 +16293,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LuminoUrban",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Urban bioluminescence is a compelling blend of science, sustainability, and spectacle. With growing interest in green tech, megafuture city concepts, and nighttime photography, this niche offers a fresh, visually arresting angle that can be delivered via faceless storytelling. Its unique premise—cities that glow organically—distinguishes it from other futurism or environmental channels, while the endless possibilities for creative visuals create perfect hook loops and high retention potential.",
+      "ideas": [
+        "The First City That Glows All Night – Inside the Bioluminescent Urban Dream / Experience a metropolis powered by living light and discover the science behind it.",
+        "How Bioluminescent Plants Could End City Night Pollution / Get ready for dazzling neon gardens that replace streetlamps in an eco‑friendly way.",
+        "This Sahara Project Is Shining on Global Charts – The Bioluminescent Desert City / Witness a desert city turn into a living starfield thanks to engineered glow‑mint plants."
+      ],
+      "keywords": [
+        "NeonGlow",
+        "StarlitCity",
+        "BioLight",
+        "EtherealUrban",
+        "FuturisticNightscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
