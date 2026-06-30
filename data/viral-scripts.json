@@ -12489,96 +12489,90 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
     "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "hook": "Top 8 Crypto BullRunSecrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Market Signals",
-        "name": "Onchain Heatmap",
-        "icon": "🔥"
+        "title": "Token",
+        "name": "Bitcoin FOMO",
+        "icon": "💰"
       },
       {
-        "title": "Timing Tools",
-        "name": "Fomo Detector",
-        "icon": "⏰"
+        "title": "Exchange",
+        "name": "Binance Pump",
+        "icon": "🚀"
       },
       {
-        "title": "Fundamental Analyzer",
-        "name": "Whale Watch",
+        "title": "Staking",
+        "name": "Ethereum Yield",
+        "icon": "🔐"
+      },
+      {
+        "title": "Signal",
+        "name": "Whale Alerts",
         "icon": "🐋"
       },
       {
-        "title": "Risk Manager",
-        "name": "Stop-Loss Automator",
-        "icon": "🔒"
+        "title": "ICO",
+        "name": "DeFi Kitchen",
+        "icon": "🍲"
       },
       {
-        "title": "Tax Optimizer",
-        "name": "TaxPro",
-        "icon": "🧾"
+        "title": "Liquidity",
+        "name": "LP Mining",
+        "icon": "⛏️"
       },
       {
-        "title": "Community Insight",
-        "name": "DiscordGauge",
-        "icon": "💬"
+        "title": "Risk",
+        "name": "Stop‑loss Ladder",
+        "icon": "🪜"
       },
       {
-        "title": "Strategy Mentor",
-        "name": "StrategyGuru",
-        "icon": "🧠"
-      },
-      {
-        "title": "Portfolio Tracker",
-        "name": "Lookout",
-        "icon": "📈"
+        "title": "Future",
+        "name": "Token Swap Spec",
+        "icon": "🔄"
       }
     ]
   },
@@ -40402,49 +40396,43 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Island Glow",
-        "name": "Puerto Viejo, Costa Rica",
-        "icon": "🌴"
+        "text": "Nobody talks about the truth of BioluminescentCities.",
+        "duration": 5
       },
       {
-        "title": "River Light",
-        "name": "Lake Joy, Oregon",
-        "icon": "🏞️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sea Spark",
-        "name": "Biolum",
-        "icon": "🌊"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Night Harbor",
-        "name": "Havana, Cuba",
-        "icon": "⚓"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Sky Bay",
-        "name": "Ha Long, Vietnam",
-        "icon": "✈️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hidden Reef",
-        "name": "Blue Hole, Belize",
-        "icon": "🏖️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Forest Glow",
-        "name": "Akko, Israel",
-        "icon": "🌲"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Moonlit Coast",
-        "name": "St. Simons Island, USA",
-        "icon": "🌙"
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -42574,6 +42562,47 @@
       },
       {
         "text": "If you want to master ApexFlow_1782795115584, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1782806176024": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1782806176024.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1782806176024, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
