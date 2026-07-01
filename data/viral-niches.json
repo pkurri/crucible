@@ -16777,6 +16777,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The concept of entire cities powered and illuminated by living bioluminescent organisms taps into current societal focus on sustainability, green tech, and the fascination with nature’s hidden wonders. It offers unparalleled visual spectacle—gleaming streets, glowing parks, and radiant skylines—making it instantly eye‑catching. The unique blend of science, architecture, and fantasy differentiates it from mainstream sustainability or sci‑fi channels, ensuring high scroll‑stopping hooks and curiosity loops. With endless potential for series (e.g., city concept on Mars, Japanese bioluminescent garden festivals, DIY bio‑lum for urban art), it scales to 25+ viral concepts while maintaining high engagement.",
+      "ideas": [
+        "Glowing Nightscapes: Watch How Bio‑Lum Cities Light Up the World – Does Nature Replace LEDs?",
+        "From Lab to Landscape: Building a Fully Bioluminescent City – Test Run in a Backyard",
+        "The Future of Urban Glow: I Designed a Tiny Bioluminescent City Prototype – You Won’t Believe the Light Show"
+      ],
+      "keywords": [
+        "Glowing",
+        "Bioluminescent",
+        "Urban",
+        "Night",
+        "Sustainability"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
