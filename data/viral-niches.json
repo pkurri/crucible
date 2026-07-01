@@ -16552,6 +16552,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "In an era of climate anxiety and fascination with living technologies, bioluminescent city lighting offers a visually stunning, eco‑friendly alternative to conventional LEDs. Its novelty, strong visual appeal, and the ability to tap into trending topics like sustainable architecture and bio‑engineering give it high shareability and long‑term interest.",
+      "ideas": [
+        "The City That Never Sleeps: Bioluminescent Streets Light Up Without Electricity – Imagine walking through a neon‑glow city powered by microbes…",
+        "How Algae Became the New LED: Inside the Bio‑Luminescent Lighting Revolution – Can we replace bright lights with glowing algae?",
+        "From Sci‑Fi to Reality: Bioluminescent Architecture Smiles Back at Night – See how architects are turning streets into living galleries of bio‑light."
+      ],
+      "keywords": [
+        "bioluminescent",
+        "glow",
+        "algae",
+        "sustainable lighting",
+        "future architecture"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
