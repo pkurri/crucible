@@ -16642,6 +16642,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MushroomCityFuture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "MushroomCityFuture captures the explosive convergence of biology, sustainability, and architecture that is currently underreported yet trending in tech, environmental and design communities. Mycelium‑based living structures offer mind‑blowing visuals, real‑world prototypes (like the first biodegradable skyscraper), and a narrative of future cities that could eat their own waste and grow with their inhabitants. The niche is underserved, high‑scalable content, feeds countless curiosity loops, and the biophilic aesthetic appeals to a broad audience on both short‑format (Reels/ TikTok) and long‑form (YouTube) platforms.",
+      "ideas": [
+        "How One Mushroom Could Power an Entire City / The science of mycelium skyscrapers revealed!",
+        "Living Walls That Grow the Shape of Your Pet / Watch a tiny fungus bloom into a galaxy‑like sculpture.",
+        "The Secret City Building Process: From Soil to Skyline / Discover how engineers are turning underground fungi into sustainable homes."
+      ],
+      "keywords": [
+        "mycelium",
+        "living walls",
+        "biofabric",
+        "biophilic architecture",
+        "geometric fungus"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
