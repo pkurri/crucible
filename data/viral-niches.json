@@ -16732,6 +16732,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "This niche blends mesmerizing bioluminescent imagery with urban landscapes, creating unprecedented aesthetic appeal. The convergence of biology and city infrastructure offers a fresh angle that sparks curiosity and wonder, while the growing trend of sustainable urban greening fuels audience interest. High visual intensity and easy replication across different cities guarantee scalability and viral potential.",
+      "ideas": [
+        "City of Light: Transforming Manhattan into a Living LED Forest | Inside the Bioluminescent Revolution / Hook: \"Ever imagined New York’s skyline glowing with living light? Watch the science that turns Manhattan into a bioluminescent wonderland.\"",
+        "Tokyo’s Secret Glow: Microbes Powering the Neon Metropolis | 60-Second Mini Guide / Hook: \"Discover how bacterial oceans are painting Tokyo at night, turning skyscrapers into lanterns without electricity.\"",
+        "Suburban Paradise in 60 Seconds: Build Your Own Bioluminescent Backyard / Hook: \"Step-by-step guide to turning any suburb into a glowing, eco-friendly masterpiece—no power grid required!\""
+      ],
+      "keywords": [
+        "GlowingStreets",
+        "NeonBioluminescence",
+        "LuminousInfrastructure",
+        "BioLightCity",
+        "EcoGlow"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
