@@ -16666,6 +16666,30 @@
         "geometric fungus"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of cutting‑edge biomaterials, sustainable architecture, and mesmerizing visual spectacle has never been more relevant. With growing interest in green cities, bioluminescent infrastructure offers a tangible, yet fantastical, glimpse of the future. The niche is broadly accessible—no technical jargon—yet distinct enough to fill a content void. This combined uniqueness, visual appeal, and sustainability buzz gives it high viral potential for both meta and YouTube platforms.",
+      "ideas": [
+        "5 Cities That Glow Like a Star – The Future of Nighttime Living / Imagine walking through streets that light up by themselves. Here’s where humanity is heading.",
+        "How Bioluminescent Robots Build Cities—Science Meets Art / What if the city buildings could breathe? Meet the algae-powered skyscrapers.",
+        "The Most Secret Bioluminescent Neighborhoods You’ve Never Seen / We discovered hidden glowing villages in remote lands—future is already here."
+      ],
+      "keywords": [
+        "Glow",
+        "Bioluminescence",
+        "Futuristic",
+        "Cityscape",
+        "Nightlife"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
