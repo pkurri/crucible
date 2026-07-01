@@ -16597,6 +16597,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobiomeCuisine",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Combines the booming gut‑health trend with the evergreen love of cooking, offering viewers a novel, science‑driven way to taste and see the invisible world of microbes. The niche is fresh, not saturated on major platforms, and can generate endless experiment‑style content that naturally fuels share‑ability, comments, and binge‑watching. With the right pacing and visual flair, videos can pull in 100 K+ views and grow to 1 M+ subscribers.",
+      "ideas": [
+        "Your Gut Produces a New Spice? How Microbes Create Unheard‑of Flavors – Hook: \"What if your intestine really suggested a sauce? Watch bacteria turn plain rice into a smoky, umami punch!\"",
+        "Bacteria in the Kitchen: The Secret Recipe That Turned a Lemon into Lava! – Hook: \"We teamed a cheesemaker & a lab‑grown Lactobacillus to make the most explosive citrus dessert… you’ll see your tongue twist.\"",
+        "Creating Fire with Microbes: The First Food‑Creating Bacteria From Old‑World Kitchens – Hook: \"Think Vikings’ gravlax was just fermented fish? We recreated the ancient method with a 2‑step microbiome trick that sparks flavors like never before.\""
+      ],
+      "keywords": [
+        "GlowingMicrobes",
+        "SizzlingBacteria",
+        "LuminousFermentation",
+        "SparklingSauces",
+        "ColorfulMolds"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
