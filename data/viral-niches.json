@@ -16849,6 +16849,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Mycelium‑based architecture blends cutting‑edge technology with the mind‑blowing imagery of living, self‑healing buildings. The concept is novel, visually arresting, and ties directly into current climate‑action narratives. Its storytelling potential (e.g., haunted mushroom skyscrapers, bioluminescent cityscapes, underground fungal colonies) lends itself to scroll‑stopping hooks, curiosity loops, and share‑worthy content across meta & YouTube.",
+      "ideas": [
+        "An Underground Mushroom Tower that Breathes Oxygen and Emits Light | Future Mycelium Architecture",
+        "The Mycelium Home You Can 3D‑Print in Your Backyard | Sustainable Building 2025",
+        "Mycelium Mars Colony: Building Habitats with Alien Fungi | Out‑of‑This‑World Architecture"
+      ],
+      "keywords": [
+        "Mycelium",
+        "3D‑Printing",
+        "Bioluminescent",
+        "Futuristic",
+        "Sustainable"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
