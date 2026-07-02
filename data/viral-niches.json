@@ -16924,6 +16924,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Bioluminescent cities combine cutting‑edge bio‑engineering with stunning visual spectacle. The concept taps into current interests in sustainable energy, futuristic urban design, and neon‑styled aesthetics. Faceless content can showcase 24/7 night‑time glow, drone time‑lapses, and comparisons with traditional street lighting—all of which generate scroll‑stopping hooks and curiosity loops. The niche is unique enough to avoid saturating the market yet broad enough to produce endless sub‑topics, allowing production of 25+ viral videos. High emotional resonance and shareability boost potential for 1M+ subscribers and 100K+ views per upload.",
+      "ideas": [
+        "Why This City Lights Up By Itself at Night (Glowing 24/7 360° Time‑Lapse)",
+        "5 Cities That Are Powered Entirely By Bioluminescence (Future Is Now)",
+        "The Science Behind Villages That Glow Like Neon, Explained In 3 Minutes"
+      ],
+      "keywords": [
+        "glowing",
+        "nighttime",
+        "sci‑fi",
+        "bioluminescence",
+        "future"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
