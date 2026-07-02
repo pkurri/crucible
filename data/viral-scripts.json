@@ -12442,10 +12442,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Job Loss",
+        "name": "ChatGPT for Customer Support",
+        "icon": "🤖"
+      },
+      {
+        "title": "Privacy Breach",
+        "name": "AI Surveillance Bot",
+        "icon": "🕵️‍♂️"
+      },
+      {
+        "title": "Deepfake Fears",
+        "name": "Real‑Time Video Synthesizer",
+        "icon": "🎭"
+      },
+      {
+        "title": "Market Domination",
+        "name": "Automated Trading AI",
+        "icon": "📈"
+      },
+      {
+        "title": "Data Theft",
+        "name": "Predictive Analytics Wizard",
+        "icon": "📊"
+      },
+      {
+        "title": "Identity Theft",
+        "name": "Speech‑to‑Text Converter",
+        "icon": "🗣️"
+      },
+      {
+        "title": "Moral Erosion",
+        "name": "Algorithmic Editorial AI",
+        "icon": "📰"
+      },
+      {
+        "title": "Existential Risk",
+        "name": "Self‑Learning Autopilot",
+        "icon": "🚢"
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12473,59 +12520,12 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
-      {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
-      },
-      {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
-      },
-      {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
-      },
-      {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
       }
     ]
   },
@@ -12571,49 +12571,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Neural Triggers",
-        "name": "Mirror Effect",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Emotional Hooks",
-        "name": "Psyche Pulse",
-        "icon": "💓"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Body Language",
-        "name": "Anchor Stance",
-        "icon": "🦵"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bandwagon Echo",
-        "icon": "👥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Scarcity Tactics",
-        "name": "Last Chance Pulse",
-        "icon": "⏰"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Linguistic Tricks",
-        "name": "Double Bind",
-        "icon": "⚖️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Authority Play",
-        "name": "Fake Expert",
-        "icon": "🎩"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Micro Persuasion",
-        "name": "Foot in Door",
-        "icon": "🚪"
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -35664,49 +35658,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Neon Metropolis",
-        "name": "Lumenopolis",
-        "icon": "🌆"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Underwater Glow",
-        "name": "Aquatalia",
-        "icon": "🌊"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Forest Lighthouse",
-        "name": "Verdant Radiance",
-        "icon": "🌲"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Starlit Sanctuary",
-        "name": "Celestial City",
-        "icon": "✨"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Subterranean Beacon",
-        "name": "Glowhole City",
-        "icon": "🕳️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Skyward Spectra",
-        "name": "Nimbus Nexus",
-        "icon": "☁️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Prismatic Hub",
-        "name": "Spectrum City",
-        "icon": "🌈"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Time‑Warp Port",
-        "name": "Eternity Harbor",
-        "icon": "⏳"
+        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -40390,49 +40378,43 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Island Glow",
-        "name": "Puerto Viejo, Costa Rica",
-        "icon": "🌴"
+        "text": "Nobody talks about the truth of BioluminescentCities.",
+        "duration": 5
       },
       {
-        "title": "River Light",
-        "name": "Lake Joy, Oregon",
-        "icon": "🏞️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sea Spark",
-        "name": "Biolum",
-        "icon": "🌊"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Night Harbor",
-        "name": "Havana, Cuba",
-        "icon": "⚓"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Sky Bay",
-        "name": "Ha Long, Vietnam",
-        "icon": "✈️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hidden Reef",
-        "name": "Blue Hole, Belize",
-        "icon": "🏖️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Forest Glow",
-        "name": "Akko, Israel",
-        "icon": "🌲"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Moonlit Coast",
-        "name": "St. Simons Island, USA",
-        "icon": "🌙"
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },

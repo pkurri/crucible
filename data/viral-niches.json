@@ -16873,6 +16873,30 @@
         "Sustainable"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "Bio‑luminescent cities combine cutting‑edge biotechnology with stunning night‑time visuals, sparking massive curiosity and awe across audiences. The niche is under‑explored, offering high differentiation, rich scroll‑stopping hooks (“What if your city glowed only at night?”), and endless storylines (city planning, ecology, urban myths). Visual content is inherently shareable, fueling rapid viral growth on both Meta and YouTube while supporting scalability with 25+ unique concepts.",
+      "ideas": [
+        "The City That Never Sleeps at Night: Inside a Bio‑Luminescent Metropolis – Hook: ‘You won’t believe you can walk through streets lit by living plants!’",
+        "How Scientists Turned a Desert into a Glow‑Garden City – Hook: ‘Watch a barren landscape transform into a living neon wonderland!’",
+        "Top 7 Bio‑Luminescent Architecture Features You Can Recreate at Home – Hook: ‘Turn your balcony into a glowing oasis in 30 minutes!’"
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "NeonNightscape",
+        "Futuristic",
+        "UrbanGlow",
+        "EcoArchitecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
