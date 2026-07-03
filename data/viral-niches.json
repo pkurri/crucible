@@ -17326,6 +17326,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Mycelium‑based architecture is emerging as a sustainable, low‑impact construction method that blends biology with urban design. The tech is new enough for excitement yet accessible enough to appeal to eco‑enthusiasts, architects, and the general public. It offers endless visual and narrative variations—glowing fungal skylines, underground mushroom farms, and “living buildings”—which are perfect for faceless, voice‑over storytelling that can spike curiosity and retention on both meta and YouTube.",
+      "ideas": [
+        "The City Built From Mycelium: How Fungi Are Sculpting the Future of Urban Living - Hook: 'Imagine a city that grows itself—next‑gen construction is here'",
+        "Concrete vs Fungi: Why Mycelium Architecture Will Outlast the Concrete Jungle - Hook: 'Concrete vs fungi—see which wins the fight against climate change'",
+        "Top 5 Mycelium Buildings That Are Changing The World (No Concrete Required) - Hook: 'From paper to skyscraper: Mycelium transforms architecture'"
+      ],
+      "keywords": [
+        "glowing fungal canopy",
+        "bio‑luminescent textures",
+        "mycelium resin sprawl",
+        "sci‑fi mushroom city",
+        "underwater fungal forest"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
