@@ -17257,6 +17257,30 @@
         "Surreal Weather Graphics"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienBiomeFactory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "AlienBiomeFactory taps into the explosive public fascination with extraterrestrial life and cutting‑edge biotechnology, offering visually arresting, story‑driven content that feels both scientifically legit and sci‑fi‑wow. The niche is not yet saturated, guarantees high reveal moments, and can be scaled by exploring new “alien” species, bioreactors, and interstellar inspiration. Its hook pairs deep curiosity with awe‑inducing CGI, ensuring strong Scroll‑Stopping potential across social feeds.",
+      "ideas": [
+        "Inside the Lab That Grows Aliens: First‑Time Microbiologist’s Wild Discovery / Bleeding Purple City: The Secret Lab That Created a Life‑Like Alien Ecosystem",
+        "Aliens Lab Revealed: How Scientists Are Growing the Impossible (and the Shocking Result) / Bacteria to Extraterrestrials: The Unexpected Evolution That Happened In Our Bio‑Factory",
+        "The Day an Alien Bloom First Surprised Researchers / Watch an Artificial Lifeform Thawing From Cryo‑Freeze in Real Time"
+      ],
+      "keywords": [
+        "Alien",
+        "Lab",
+        "Biotech",
+        "SciFi",
+        "Vibrant"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
