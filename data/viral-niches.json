@@ -17281,6 +17281,30 @@
         "Vibrant"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroplasticWatch",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.6,
+      "targetEmotion": "Curiosity",
+      "reason": "Microplastics have surged into mainstream consciousness as a hidden threat in food, cosmetics, and even the air. People are eager to see where it lurks and how it affects daily life. The niche offers endless angle possibilities—exotic sources, shocking lab visuals, extreme comparisons—that are perfect for scroll‑stopping hooks and curiosity loops. Its universal relevance and the blending of science with striking visual storytelling enable explosive shareability and high retention across social feeds and YouTube’s algorithm.",
+      "ideas": [
+        "How Tiny Insects Are Killing You: The Invisible Microplastic Menace in Your Daily Coffee ☕️😱",
+        "The Surprising Source of Plastic in Your Favorite Skincare Brand! (It’s Not What You Think!) 💄🧐",
+        "Drone Footage of Microplastic Rivers: The Silent Wave Threatening Our Oceans 🌊👀"
+      ],
+      "keywords": [
+        "Invisible microplastics",
+        "Hidden pollution",
+        "Extreme visuals",
+        "Surprising sources",
+        "Microplastics in everyday life"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
