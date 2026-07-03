@@ -17350,6 +17350,30 @@
         "underwater fungal forest"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Microbial Architecture merges cutting‑edge biology with DIY fabrication, offering never‑before‑seen visuals of living walls, furniture, and shelters that grow in real time. The niche is uniquely distinct—few creators showcase live micro‑organism construction—yet taps into massive current trends (sustainability, 3D printing, bio‑fabrication). Scroll‑stopping hooks like \"Watch Mycelium Build a House Overnight\" instantly engage curiosity and wonder, while the continuous growth process provides natural curiosity loops. The concept can spin off dozens of viral ideas (bioreactor homes, algae panels, fungus‑based furniture) and invites community participation, ensuring high retention and scalable content growth.",
+      "ideas": [
+        "\"Watch Mycelium Build a 3‑Story Home in 48 Hours – The Future of Sustainable Housing?\"",
+        "\"Algae Walls That Grow Inside Your Apartment – A DIY Living Home Experiment\"",
+        "\"Live Streaming: A Mushroom Structure Growing 4ft High in 24 Hours – DIY Biotech Time Lapse\""
+      ],
+      "keywords": [
+        "mycelium",
+        "bioreactor",
+        "living walls",
+        "geodesic fungus",
+        "eco‑fabrication"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
