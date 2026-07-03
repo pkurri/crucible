@@ -17374,6 +17374,30 @@
         "eco‑fabrication"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "DreamScapeVis",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "DreamScapeVis turns intangible dreams into vivid, high‑resolution 3‑D visual narratives, blending AI artistry, VR ambience, and personal storytelling. The niche is untapped, highly visual, and fuels curiosity loops: viewers can imagine their own subconscious landscapes. Its scalability is high—every dream generates a unique, shareable video, and the emotional resonance of awe and personal connection drives retention and cross‑platform virality.",
+      "ideas": [
+        "7 INSANE Dreams Recreated in 4K VR – Watch Your Own Nightmares! / \"Ever wondered what your most vivid dream looks like if it existed? Jump into the instant 4K VR rendering now.\"",
+        "The 3 Dreamscapes That Will Make You Believe In Magic – Real‑Time 3D Render / \"Step inside the most surreal dream sequences ever captured and see why millions are going crazy.*\"",
+        "How AI Turns Your Nightmares into Stunning Visual Art – 90 Seconds of Horror / \"This 90‑second journey transforms your darkest nightmare into a breathtaking visual masterpiece.*\""
+      ],
+      "keywords": [
+        "Ethereal",
+        "Surreal",
+        "Immersive",
+        "Vivid",
+        "Breathtaking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
