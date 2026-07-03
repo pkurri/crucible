@@ -17140,6 +17140,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SleepScienceHacks",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Sleep optimization is exploding as post‑pandemic fatigue, remote work blur, and wearable tech drive millions to seek science‑backed, actionable hacks. Faceless videos can leverage stunning sleep‑lab visuals, brain‑wave animations, and real‑world before/after demos, delivering high retention through curiosity‑loops and scroll‑stopping hooks.",
+      "ideas": [
+        "The 2‑Minute Light Hack That Doubles Deep Sleep – See Your Brain Waves Change Live",
+        "Why Cooling Your Feet to 60°F Triggers Instant REM – Thermal Imaging Proof",
+        "The Silent Sound Frequency That Boosts Melatonin by 40% – Tested on 10,000 Users"
+      ],
+      "keywords": [
+        "brain waves",
+        "cozy bedroom",
+        "sleep tracker",
+        "dreamscape",
+        "melatonin"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
