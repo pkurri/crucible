@@ -17209,6 +17209,30 @@
         "future"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities that glow with bioluminescent technology blends cutting‑edge sustainability with surreal visual spectacle, appealing to both tech‑savvy audiences and dream‑like beauty seekers. Its novelty and visual urgency make it ripe for shareable, scroll‑stopping content across social platforms.",
+      "ideas": [
+        "What If Every Building in the World Was a Bioluminescent Light? | City Glow Hack / Hook: Imagine walking through a city that lights itself...",
+        "The Future of Nighttime: Cities that Self‑Illuminate with Nature's Tech / Hook: You won't believe this glowing metropolis...",
+        "5 Cities Already Using Bioluminescent Materials to Reduce Energy Bills / Hook: These real‑life glowing cities are turning energy into art."
+      ],
+      "keywords": [
+        "GlowingSkyscraper",
+        "NeonBioLattice",
+        "LuminousStreet",
+        "RadiantBiosynthetic",
+        "EcoNeonGrid"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
