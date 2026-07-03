@@ -17185,6 +17185,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The surge in sustainable tech hype, combined with the allure of vibrant night‑time cityscapes, makes glowing urban futures irresistibly visual and shareable. This niche blends cutting‑edge biotech, urban planning, and sci‑fi aesthetics, offering endless opportunities for high‑impact 3D renders, drone footage, and speculative storytelling—ideal for faceless thumbnails and AI‑generated narration, ensuring rapid viral traction.",
+      "ideas": [
+        "10 Cities That Could Glow 24/7 With Bio‑Light\nHook: \"Imagine walking through a metropolis where every building glows like a living organism—here are the 10 most plausible bioluminescent cities of 2050!\"",
+        "\"Inside the City That Never Sleeps: The Power of Bioluminescent Lighting\"\nHook: \"What if darkness was an illusion? Dive into the science behind the city that outshines neon—and why it could save billions in energy.\"",
+        "\"From Dr. Bee Science to Global Megacities: The Surprising Reality of Bio‑Lighting\"\nHook: \"We’re borrowing light from nature—watch how this tiny research lab could illuminate entire urban skylines.\""
+      ],
+      "keywords": [
+        "glowing",
+        "neon",
+        "bioluminescence",
+        "cityscape",
+        "future"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
