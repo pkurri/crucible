@@ -17398,6 +17398,30 @@
         "Breathtaking"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroWorldExplorer",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The micro‑world is visually stunning, endlessly surprising, and has proven viral success on platforms like TikTok and YouTube Shorts. 4K macro footage of everyday objects reveals hidden creatures and patterns that trigger instant curiosity and awe—qualities that compel viewers to share. With high‑resolution visualization, this niche scales easily through thousands of unique shots (coffee foam, dust motes, tap water, salt crystals), enabling rapid content generation while maintaining a consistent, high‑visual brand.",
+      "ideas": [
+        "\"Coffee Foam is NOT What It Looks Like – INSANE 500x Microscopes!\" / Hook: Surprise + Unbelievable detail at close‑up.",
+        "\"5 DAYS Search for Microplastics Inside a Water Bottle – The Hidden World Revealed!\" / Hook: Mystery + Countdown, driving viewers to binge the series.",
+        "\"Tap Water's Secret Life: 4K Live Microscopic Tour – You Won’t Believe What We Found!\" / Hook: Fear of unknown + Amazing visual exploration."
+      ],
+      "keywords": [
+        "microscopy",
+        "ultrahigh‑definition",
+        "macro‑lens",
+        "nanoscience visuals",
+        "entomology"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
