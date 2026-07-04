@@ -17712,6 +17712,30 @@
         "FutureCity"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "BioLuminescentCities blends the allure of futuristic urban design with the natural magic of bioluminescence, creating a visually arresting concept that is still untapped by mainstream green‑tech narratives. Its unique glow‑based architecture offers countless scroll‑stopping hooks, high visibility on both meta and YouTube, and the capacity for deep curiosity loops: viewers wonder how streets could light themselves, how ecosystems could power cities, and what a night under a living skyline would feel like. The niche simultaneously satisfies current sustainability interest and feeds the innate human fascination with glowing, living environments—prime ingredients for rapid virality and a 1M+ subscriber trajectory.",
+      "ideas": [
+        "Ever Wonder How Cities Could Glow Overnight? The Future of BioLuminescent Cities Explained!",
+        "Bioluminescent Cities: The Neon Self‑Sustained Cities That Could Replace Streetlamps For Good?",
+        "Under 10 Seconds: Why BioLuminescent Cities Could Save Millions on Energy Bills (and Be Beautiful)"
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "FutureCities",
+        "SustainableLighting",
+        "LivingArchitecture",
+        "EcoTech"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
