@@ -17688,6 +17688,30 @@
         "Futuristic"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "With growing interest in sustainable urban design and photonics, bioluminescent cityscapes tap into the fascination for invisible natural light sources that can replace electric lighting. Visually stunning footage, real-world prototypes, and the promise of eco-friendly nightlife generate high curiosity and shareability across platforms.",
+      "ideas": [
+        "The City That Glows 🌃: Inside the First Bioluminescent Urban Nightscape — Hook: See a downtown strip that lights up naturally by sunrise!",
+        "No Electricity, All Light? Exploring Bioluminescent Streets in a Modern Metropolis — Hook: Lose yourself in neon without wires for 5 seconds before the reveal!",
+        "Future of Nightlife: How BioLuminescent Architecture is Powering Smart Cities — Hook: Witness a rooftop garden shining like a living LED installation!"
+      ],
+      "keywords": [
+        "Glowing",
+        "Eco-Friendly",
+        "Nightscape",
+        "Bioluminescence",
+        "FutureCity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
