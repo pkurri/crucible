@@ -17616,6 +17616,30 @@
         "Luminescent"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "UnderwaterAurora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Underwater auroras—the shimmering bioluminescent phenomenon that lights up the deep sea—are visually stunning and inherently mysterious. Their rarity, combined with the growing demand for awe‑inducing nature content, makes this niche perfect for faceless, scroll‑stopping videos that can generate hook‑repeating curiosity loops. The visual spectacle translates well across platforms, encouraging shares, replays, and a wide audience span from science lovers to Instagram wanderers. Its visual novelty allows for countless unique angles, making scalability to 25+ viral concepts straightforward.",
+      "ideas": [
+        "The Hidden City Beneath the Sea: Underwater Aurora Revealed! / Hook: \"You won’t believe what lights up the ocean at night.\"",
+        "Captain’s Guide to Witnessing the Most Stunning Underwater Aurora / Hook: \"Where to find the most luminous waves, and why they’re so rare.\"",
+        "Silent Spectacle: How Underwater Aurora Chills the Coolest Depths / Hook: \"Unmasking the mystery behind the glowing waves that mesmerize fishermen.\""
+      ],
+      "keywords": [
+        "bioluminescence",
+        "glimmering waves",
+        "marine glow",
+        "deep sea sparkle",
+        "underwater neon"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
