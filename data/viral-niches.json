@@ -17784,6 +17784,30 @@
         "MiniatureCityscape"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "The concept of bright, self‑lighting cities powered by living bioluminescent organisms sits at the intersection of futurism, renewable energy, and stunning visual storytelling. Its novelty, strong visual appeal, and alignment with ongoing climate‑tech trends give it exceptional shareability and long‑term growth potential.",
+      "ideas": [
+        "The Future of Urban Lighting: HOW Bioluminescent Cities Glow from Within — Hook: \"Walk into a city that lights itself with living light. No bulbs, no batteries, just pure natural glow!\"",
+        "From Lab to Skyline: The Science Behind Bioluminescent Architecture — Hook: \"What if your skyscraper could light itself using nature’s own glow? Discover the breakthrough science that will change skylines.\"",
+        "The Most Futuristic Cities That Will Light Up Earth — SBIR Bio‑Photon Projects Revealed — Hook: \"Find out which real accelerators are turning entire cities into glowing forests of hope.\""
+      ],
+      "keywords": [
+        "glow",
+        "luminescence",
+        "bioluminescent_lighting",
+        "future_cityscape",
+        "eco_fantasy"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
