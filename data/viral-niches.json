@@ -17736,6 +17736,30 @@
         "EcoTech"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Microbial Cities taps into the growing fascination with microbiology, subterranean mysteries, and fantastical city‑like structures built by microorganisms. The niche is untapped, visually stunning for both microscopic detail and imaginative storytelling, and lends itself to repeat themed content—monthly discoveries, “The day we found a microbial metropolis” style hooks that keep viewers scrolling and engaged. The blend of science credibility and wonder generates strong retention via curiosity loops and fresh hook potential. ",
+      "ideas": [
+        "10 Microscopes Reveal an Invisible City: The Microbial Metropolis Beneath Your Backyard / Imagine a city of living walls that thrives in the soil—watch the first time we see it bubble into view!",
+        "The Microbial Architects: 5 Structures that Could Outshine any Human City – You’ve seen underground tunnels, but never this! / How sunlight travels through a mycelial “high‑rise” and why it’s the world’s next skyscraper?",
+        "When Microbes Take Over: The Silent City Lurking Beneath Our Footsteps – The discovery that could change how we think about agriculture and urban planning / This is not sci‑fi, it’s real."
+      ],
+      "keywords": [
+        "bioluminescent",
+        "mycelial",
+        "microscopic",
+        "underground",
+        "glimmering"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
