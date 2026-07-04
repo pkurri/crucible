@@ -17592,6 +17592,30 @@
         "Blueprint"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Sustainable bio‑architecture meets mesmerising visual spectacle. The concept of cities powered by living organisms offers untapped curiosity loops, scroll‑stopping neon light palettes, and endless content angles—from city plans to micro‑biome science—perfect for 1M+ growth and 100K+ views per video.",
+      "ideas": [
+        "The City That Never Sleeps: Bioluminescent Skyscrapers Light Up the Night – Watch as a metropolis glows using algae, not electricity.",
+        "Inside the Glowing Forest: A BioLuminescent City Is Here – Discover how living trees and microbes power urban life in real time.",
+        "How to Turn Your Neighborhood into a Bioluminescent City – Secret Techniques to Create Glowing Streets with Algae, Microbes, and Bio‑Walls."
+      ],
+      "keywords": [
+        "Glow",
+        "Neon",
+        "Nightscape",
+        "Bioluminescence",
+        "Luminescent"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
