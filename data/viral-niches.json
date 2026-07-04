@@ -17485,6 +17485,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumConsciousnessExplorations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Recent breakthroughs in quantum biology and theories linking consciousness to quantum processes (e.g., Orch-OR, quantum entanglement in microtubules) have sparked public fascination. The topic blends cutting-edge science with profound philosophical questions, making it highly shareable and ripe for faceless, visually-driven content that can attract massive, sustained audiences.",
+      "ideas": [
+        "What If Your Thoughts Are Quantum Entangled? / Scientists reveal a mind‑bending link between consciousness and the quantum field",
+        "The Quantum Brain Experiment That Could Prove Free Will Is an Illusion / Inside the lab testing consciousness at the subatomic level",
+        "How Quantum Fluctuations Might Be Shaping Your Dreams / A stunning visualization of brain activity as quantum noise"
+      ],
+      "keywords": [
+        "quantum foam",
+        "neural synapses",
+        "brain waves",
+        "particle collider",
+        "glowing synapses"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
