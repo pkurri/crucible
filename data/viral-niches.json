@@ -17509,6 +17509,30 @@
         "glowing synapses"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroFrequencyHacks",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Growing biohacking and mental performance trends on TikTok/YouTube, combined with rising demand for non‑pharmaceutical focus and stress‑relief tools, make brainwave entrainment content highly shareable. Faceless videos can use striking audio‑visual waveforms, neural animations, and before/after performance tests to create scroll‑stopping hooks and curiosity loops.",
+      "ideas": [
+        "The 5‑Minute Frequency That Rewires Your Brain for Focus / Discover how a simple tone can boost productivity instantly",
+        "What Happens to Your Brain When You Listen to 432Hz for 24 Hours? / Shocking EEG results revealed",
+        "Sleep Hack: The Delta Wave Trick That Makes You Fall Asleep in 60 Seconds / Real‑time brainwave proof"
+      ],
+      "keywords": [
+        "brainwaves",
+        "frequency visuals",
+        "neural pulses",
+        "sound waves",
+        "meditative graphics"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
