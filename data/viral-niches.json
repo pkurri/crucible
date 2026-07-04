@@ -17640,6 +17640,30 @@
         "underwater neon"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Living buildings built with microbes are a booming intersection of IoT, sustainability, and bio‑engineering. They combine the visual allure of bioluminescent forests, the hype around self‑healing materials, and the urgency of climate‑smart design. The niche is fresh enough to avoid saturation, offers endless hookable \"build-it-in-30‑days\" and \"microbe‑powered architecture\" formats, and benefits from cross‑posting on TikTok, Reels, and YouTube’s Shorts ecosystem.",
+      "ideas": [
+        "THIS Microbes Will Build Your Dream Home in 30 Days – Proof Inside",
+        "A 50‑Story Skyscraper Made from Bacteria – Watch the Walls Grow",
+        "Do You Want Your Next Office to Feed Itself? Inside the Genetic NYC Lab"
+      ],
+      "keywords": [
+        "LivingWalls",
+        "SelfHealing",
+        "Biomimetic",
+        "GlowBacteria",
+        "EcoFuturistic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
