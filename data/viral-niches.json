@@ -17568,6 +17568,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIArchitecturalVisions",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The convergence of rapidly advancing AI generative models and the universal fascination with futuristic architecture creates a ripe niche. Viewers are drawn to stunning, never-before-seen cityscapes that feel tangible yet impossible, making the content endlessly shareable and perfect for scroll‑stopping hooks. AI‑generated visuals are already trending on social media, and applying them to speculative city design offers a fresh angle that can quickly amass millions of views and a large subscriber base.",
+      "ideas": [
+        "5 AI‑Generated Skyscrapers That Will Shock the World: You Won’t Believe They’re Imaginary! – Hook: \"What happens when an AI decides what the skyline should look like? We reveal the top 5 jaw‑dropping designs that already exist only in code, and how they could change our cities forever.\"",
+        "The Future of Cities: Inside the AI Blueprint That Could Replace Planning Departments – Hook: \"City planners are handing over to machines. Watch the AI blueprint that could dictate every corner of a megacity—and why we’re all in awe.\"",
+        "From Pixels to Towers: Watch AI Turn Dreams Into 3D City Masterpieces in Minutes – Hook: \"No CAD skills? No problem. See how an AI studio morphs a quick sketch into an ultra‑realistic cityscape in seconds, and why this tech will be game‑changing for architects and dreamers alike.\""
+      ],
+      "keywords": [
+        "Neon",
+        "Glass",
+        "Metallic",
+        "Digital",
+        "Blueprint"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
