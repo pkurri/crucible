@@ -17664,6 +17664,30 @@
         "EcoFuturistic"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of mycelium-based architecture and sustainable urban design is a niche that blends cutting‑edge science, eco‑future speculation, and spectacular visual storytelling. The idea of entire city‑scapes grown from intertwined fungal networks generates extreme curiosity and a sense of wonder, while the underlying themes of resilience, resource efficiency, and biomimicry tap into current sustainable‑tech buzz. With a virtually limitless palette of future‑city concepts—from floating mushroom towers to self‑healing streets—we can generate 25+ unique hooks, each ripe for high‑engagement, scroll‑stopping Vlog‑style narratives. The visual potential is immense, featuring bioluminescent streets, translucent mycelium walls, and living sky‑bridges that will draw viewers into a vivid, otherworldly urban ecosystem.",
+      "ideas": [
+        "The World's First City Built Entirely From Mushrooms – See How It Works! / Hook: Build‑a‑City with Mycelium!",
+        "How Mycelium Is Designing the Next Generation of Carbon‑Neutral Metropolises! / Hook: Nature + Tech = The Future City",
+        "Can a Mushroom‑Powered City Survive Climate Catastrophe? The Scientific Reality Behind Fungal Skyscrapers! / Hook: Urban Resilience Through Fungi"
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Mycelium",
+        "Architecture",
+        "Cityscape",
+        "Futuristic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
