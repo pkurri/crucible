@@ -17546,7 +17546,29 @@
       "reason": "BioLuminescentCities blends cutting‑edge bio‑engineering with visually arresting cyberpunk aesthetics, tapping into the current surge of interest in sustainable futures, augmented reality, and glowing urban landscapes. Its hook‑rich format—showcasing glowing skylines, living streets, and entire city‑scale ecosystems—ensures scroll‑stopping thumbnails and curiosity loops that keep viewers replaying. Faceless, animation‑based production is low‑cost yet visually stunning, allowing rapid output of 25+ unique ideas that each promise fresh, mesmerizing visuals for a global audience seeking awe and wonder.",
       "ideas": [
         "GlowUp City: 5 New BioLuminescent Skylines That Could Replace Neon Lights — Travel inside the future where streetlight becomes living light.\\nUnderwater Metropolis: 7 BioLuminescent Cityscapes That Never Sleep — Explore cities that submerge, illuminating the deep.\\nThe ‘Living’ City of Tomorrow: How Scientists Build BioLuminescent Metropolises — Secrets to sustainable, glowing urban futures revealed."
-      ]
+      ],
+      "priority": false
+    },
+    {
+      "name": "ApexFlow_1783147729614",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.5,
+      "targetEmotion": "Awe",
+      "reason": "High aesthetic flow videos have high retention and shareability.",
+      "ideas": [
+        "NEON LIQUID SECRETS / 99% of people miss the hidden pattern in physics."
+      ],
+      "keywords": [
+        "Neon liquid",
+        "Data points",
+        "Hyper-car interiors",
+        "Neural networks"
+      ],
+      "voice": "en-US-GuyNeural",
+      "priority": true
     }
   ]
 }
