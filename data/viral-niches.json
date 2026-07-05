@@ -17901,6 +17901,30 @@
         "sustainable city"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "LivingCircuitCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of living biology and technology—tiny ecosystems engineered on printed circuit boards—offers a dazzling, tangible mis-match of nature and circuitry. This paradox excites curiosity, builds an instant hook with visual surprise, and taps into current social media trends around sustainability, AI, and maker culture. Faceless storytelling can focus on the wonder of watching cells grow across copper traces, making the audience feel like they are witnessing a future prototype largely unknown yet deeply rooted in everyday tech.",
+      "ideas": [
+        "👀 Watch a Circuit Board GO LIVE: Tiny Forests Growing Inside Microchips – The Future Of Sustainable Tech!",
+        "⚡ From Wiring To Life: How Scientists Biodegrade CPUs Into Insect-Friendly Gardens – The Internet’s Newest Living Vlog!",
+        "🔬 Shocked In 2 Minutes? Inside the Lab Where Engineers Turn A PCB Into A Living Ecosystem That Could Revive Worlds!"
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Microbiome",
+        "CircuitBoard",
+        "Eco-Fabrication",
+        "NanoLiving"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
