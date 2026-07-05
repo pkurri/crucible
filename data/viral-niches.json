@@ -17829,6 +17829,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "UnderwaterAurora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Underwater Aurora showcases natural bioluminescence in the deep sea, a visually stunning phenomenon with little existing content. Its mysterious origins, vivid neon colors, and high‑resolution footage create perfect scroll‑stopping hooks and endless curiosity loops. The niche combines strong visual appeal, scientific intrigue, and the current trend of awe‑inducing nature videos, positioning it for high engagement and rapid subscriber growth.",
+      "ideas": [
+        "9 Best Clips of Underwater Aurora Ever Captured – You Won’t Believe the Colours | Viral Hook: Cinematic footage that will blow your mind!",
+        "Why Is the Ocean Turning Neon at Night? The Science Behind Underwater Aurora | Hook: Unlock nature's secret glow, explained simply.",
+        "Underwater Aurora vs. Northern Lights: The Earth's Double Glow | Hook: The same effect, different scales—prepare to be amazed!"
+      ],
+      "keywords": [
+        "DeepSea",
+        "NeonGleam",
+        "Bioluminescence",
+        "AbyssalLights",
+        "SpectacularView"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

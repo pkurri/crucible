@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12514,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12524,49 +12524,43 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Whale Watch",
-        "name": "The Silent Whale",
-        "icon": "🐋"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Hidden Leap",
-        "name": "Flash Loan Leverage",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Token Trap",
-        "name": "Pump & Dump Spy",
-        "icon": "📈"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Secret Funnel",
-        "name": "Order Book Blackhole",
-        "icon": "🕳️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Hidden Gas",
-        "name": "Low Fee Magic",
-        "icon": "⛽"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Bounty Hunt",
-        "name": "Micro Reward Sats",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Chain Whisper",
-        "name": "Cross‑Chain Secrets",
-        "icon": "🔀"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Alliance Notes",
-        "name": "Insider Partnerships",
-        "icon": "🤝"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12602,7 +12596,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -40384,7 +40378,7 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
         "text": "Nobody talks about the truth of BioluminescentCities.",
@@ -40415,7 +40409,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -41998,7 +41992,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master UnderwaterAurora, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -44349,6 +44343,47 @@
       },
       {
         "text": "Don't let the algorithm hide the truth. Follow for more MicroscopicMarvels.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1783200825024": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1783200825024.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1783200825024.",
         "duration": 5
       },
       {
