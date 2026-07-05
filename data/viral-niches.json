@@ -17853,6 +17853,30 @@
         "SpectacularView"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BrainwaveMusic",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combines cutting‑edge neuroscience and AI, transforming viewers’ unreleased brain activity into instantly playable music. The concept is unique, triggers visualized neural activity, invites curiosity‑looped experiments, and is highly shareable across platforms. Viral hooks like “Hear your own heartbeat turned into a symphony” drive high engagement and repeat views.",
+      "ideas": [
+        "Brainwaves to Beats: Watch an Empty Mind Create a Concert in 60 Seconds / Hook: ‘Ever wondered what your resting brain sounds like? This tiny device turns it into music.’",
+        "From Calm to Chaos: Convert a Rock‑star’s EEG into a Full‑Band Jam in Real Time / Hook: ‘See the brain of a guitarist as it fuels an improvisation—no instruments needed.’",
+        "Synaptic Symphony: Custom Compose a Song by Reading Your Thoughts While You Sleep / Hook: ‘Losing your thoughts can be a soundtrack—wake up to your own dream‑driven track.’"
+      ],
+      "keywords": [
+        "Neon",
+        "Synaptic",
+        "Pulse",
+        "Glow",
+        "Electric"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
