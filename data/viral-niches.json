@@ -18111,6 +18111,30 @@
         "immersive"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienBiomeFactory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of artificially cultivating alien ecosystems is fresh, taps into booming interests in Mars colonization and bioengineering, offers endless visual surprises and a compelling 'scroll‑stopper' hook with tangible, time‑lapse progress, and can generate dozens of spin‑off stories about exotic biomes, lab tech, and future terraforming.",
+      "ideas": [
+        "5 Secrets Revealed: How a Lab is Growing an Entire Alien Planet, Live! – Imagine a greenhouse where every plant evolved on another world…",
+        "Inside the Factory Creating A Martian Forest – Watch It Grow in 24 Hours! – What if we could conjure a forest that hasn't seen sun yet?",
+        "The Hidden Machine That Builds Alien Ecosystems – 10 Minutes to Transformation! – Step inside the mind‑blowing tech that turns data into life."
+      ],
+      "keywords": [
+        "Alien Ecosystem",
+        "Lab‑Grown Plants",
+        "Terraforming",
+        "Bioengineering",
+        "Space Greenhouse"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
