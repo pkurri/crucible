@@ -18087,6 +18087,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AugmentedRealityStreetArt",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "AR technology is exploding across mobile devices, and street art already fuels urban storytelling. Combining the two creates instant visual wonder and shareability—users instinctively want to show their phones revealing hidden murals in real‑time. The niche is untapped, highly visual, and perfect for \"scroll‑stopping\" moments that ignite curiosity and awe, with a massive cross‑platform audience ready to engage and share.",
+      "ideas": [
+        "This Street Paintings Come Alive When You Scan Them (AR Street Art Reveal!)",
+        "Augmented Reality Graffiti – Watch a City Transform in 60 Seconds",
+        "Hidden 3D Murals? AR City Tour: The Future of Street Art"
+      ],
+      "keywords": [
+        "vibrant",
+        "interactive",
+        "3D",
+        "glow",
+        "immersive"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
