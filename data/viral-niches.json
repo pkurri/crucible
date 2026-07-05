@@ -17946,6 +17946,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of living, glowing urban landscapes taps into current sustainability trends, massive visual appeal, and the universal fascination with nature reimagining modern cityscapes. It offers endless creative angles (e.g., iconic skylines, futuristic construction, time‑lapse transformations) that naturally lend themselves to scroll‑stopping hooks and curiosity loops, making it highly scalable for viral video production.",
+      "ideas": [
+        "Title: \"This City Lights Like a Living Starry Night – You Won’t Believe How It Works!\" / Hook: \"What if your street lights were replaced by glowing algae? Watch the city transform in real time!\"",
+        "Title: \"The Future of Urban Lighting: Bioluminescent Streets in a Zero‑Waste World\" / Hook: \"Discover why eco‑engineers are building glowing rivers and why cities are turning to living lights today.\"",
+        "Title: \"Bioluminescent Architecture: The Most Stunning Time‑Lapse of New York Illuminated by Nature\" / Hook: \"See how a skyline made of glow‑ing fungi could change the night skyline forever!\""
+      ],
+      "keywords": [
+        "glow",
+        "neon",
+        "luminescence",
+        "cityscape",
+        "time-lapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
