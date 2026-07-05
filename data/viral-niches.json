@@ -17994,6 +17994,30 @@
         "Futuristic Cooking"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "RetroFutureCityscapes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Retro‑future city design blends nostalgic pop‑culture aesthetics with cutting‑edge urban planning, sparking a wave of curiosity and transformative awe. This niche capitalizes on the current fascination with retro‑futurism in architecture, fashion, and media, while offering endless content possibilities—from 3D visualizations and VR tours to expert interviews and DIY scale models. Its unique visual appeal and connection to both past dreams and future aspirations provide a scroll‑stopper hook and endless curiosity loops.",
+      "ideas": [
+        "The 1950s City of Tomorrow That Was Already Built – Inside the Lost Retro‑Future Hub",
+        "Unveiling the 1980s Cyberpunk Skyline Planned for 2050 – Full 3D Render",
+        "Why Architects Are Choosing Retro‑Future Design to Solve Climate Crisis – Expert Panel"
+      ],
+      "keywords": [
+        "NeonGlow",
+        "RetroSciFi",
+        "Cyberpunk",
+        "FutureCity",
+        "3DVisualization"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
