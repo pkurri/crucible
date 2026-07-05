@@ -17877,6 +17877,30 @@
         "Electric"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Bioluminescent Cities leverages the visually stunning phenomenon of naturally glowing organisms to solve real‑world urban lighting and sustainability problems. The concept is fresh, visually arresting, and ties into trending conversations about green tech, climate action and future infrastructure – making it ripe for high‑engagement, shareable content.",
+      "ideas": [
+        "Living Light: The City That Ignites At Night Using Algae – Future Urban Lighting Explained (Hook: Imagine walking through a street lit by glowing algae instead of streetlights…)",
+        "How Bioluminescent Buildings Could Power Cities in 50 Years – 4 Real Life Projects You Haven't Heard Of (Hook: Could glowing walls replace electricity as we know it?)",
+        "The World’s First Bioluminescent Street: 360° Tour & What It Means For Climate Change (Hook: This street runs on the glow of nature – see how it turns cities greener.)"
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescent",
+        "night light",
+        "eco-tech",
+        "sustainable city"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
