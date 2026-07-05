@@ -17970,6 +17970,30 @@
         "time-lapse"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combines the universal fascination with space exploration and the ever‑popular cooking genre. Faceless CGI and data‑driven simulations can create visually stunning, scroll‑stopping content that feels futuristic yet relatable. The niche is unique—no major channels currently focus on zero‑gravity food, ensuring a clear differentiation. Trending topics like NASA missions, Mars colonization and space food research provide a steady stream of fresh material. High retention is built into the concept through surprising experiments and ‘watch this in space’ loops that satisfy curiosity while delivering jaw‑dropping visuals.",
+      "ideas": [
+        "Simulated Zero‑Gravity Kitchen: Watch How Food Flies in Space! | Hook: Ever wondered what a meal looks like in weightless? See it unfold in 3D.",
+        "The Ultimate Space Snack: Making Gummy Eggs Without Hunger in Zero Gravity | Hook: Taste the impossible—watch eggs float, melt and re‑solidify on a cosmic counter.",
+        "NASA’s Secret Martian Regolith Pizza Experiment | Hook: We took Martian soil and turned it into pizza. The taste? Unbelievable."
+      ],
+      "keywords": [
+        "Zero Gravity",
+        "Space Kitchen",
+        "NASA Experiments",
+        "Astro Food",
+        "Futuristic Cooking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
