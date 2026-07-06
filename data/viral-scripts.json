@@ -12442,143 +12442,131 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Surveillance",
-        "name": "Eye in the Sky AI",
-        "icon": "🛰️"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Manipulation",
-        "name": "The Persuasion Engine",
-        "icon": "🎭"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Control",
-        "name": "Brainlink Nexus",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Infiltration",
-        "name": "Ghost Agent Protocol",
-        "icon": "👻"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Judgment",
-        "name": "Zero-Trust Judge",
-        "icon": "⚖️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Sabotage",
-        "name": "Code Wrecker",
-        "icon": "💥"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Economy",
-        "name": "Capital Cascade",
-        "icon": "📉"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Privacy",
-        "name": "Dataless Veil",
-        "icon": "🌫️"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Oyster Omega Fats",
-        "icon": "🦪"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Desk Squat Hack",
-        "icon": "🏋️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Mindset",
-        "name": "Midday Mindfulness Call",
-        "icon": "🧘"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "NAD+ Booster",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue Light Blocking Glasses",
-        "icon": "🌙"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Infused Water",
-        "icon": "💧"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Weekly Lifelong Learning Circles",
-        "icon": "🤝"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Tech",
-        "name": "AI Sleep Tracker",
-        "icon": "🚀"
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "CryptoBullRunSecrets": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Whale Watch",
-        "name": "The Silent Whale",
+        "title": "Market Signals",
+        "name": "Onchain Heatmap",
+        "icon": "🔥"
+      },
+      {
+        "title": "Timing Tools",
+        "name": "Fomo Detector",
+        "icon": "⏰"
+      },
+      {
+        "title": "Fundamental Analyzer",
+        "name": "Whale Watch",
         "icon": "🐋"
       },
       {
-        "title": "Hidden Leap",
-        "name": "Flash Loan Leverage",
-        "icon": "⚡"
+        "title": "Risk Manager",
+        "name": "Stop-Loss Automator",
+        "icon": "🔒"
       },
       {
-        "title": "Token Trap",
-        "name": "Pump & Dump Spy",
+        "title": "Tax Optimizer",
+        "name": "TaxPro",
+        "icon": "🧾"
+      },
+      {
+        "title": "Community Insight",
+        "name": "DiscordGauge",
+        "icon": "💬"
+      },
+      {
+        "title": "Strategy Mentor",
+        "name": "StrategyGuru",
+        "icon": "🧠"
+      },
+      {
+        "title": "Portfolio Tracker",
+        "name": "Lookout",
         "icon": "📈"
-      },
-      {
-        "title": "Secret Funnel",
-        "name": "Order Book Blackhole",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Hidden Gas",
-        "name": "Low Fee Magic",
-        "icon": "⛽"
-      },
-      {
-        "title": "Bounty Hunt",
-        "name": "Micro Reward Sats",
-        "icon": "💰"
-      },
-      {
-        "title": "Chain Whisper",
-        "name": "Cross‑Chain Secrets",
-        "icon": "🔀"
-      },
-      {
-        "title": "Alliance Notes",
-        "name": "Insider Partnerships",
-        "icon": "🤝"
       }
     ]
   },
@@ -38902,47 +38890,47 @@
   "GeneEdFood": {
     "voice": "af_heart",
     "hook": "Here are the top 8 GeneEdFood secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more GeneEdFood.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Genome-Enhanced Fruits",
-        "name": "Mango 2.0",
-        "icon": "🥭"
+        "title": "Protein Power",
+        "name": "GeneSpine Milk",
+        "icon": "💪"
       },
       {
-        "title": "CRISPR Crops",
-        "name": "CRISPR Chips",
-        "icon": "🧬"
+        "title": "Flavor Unleashing",
+        "name": "TasteTwist Gene Ice Cream",
+        "icon": "🧁"
       },
       {
-        "title": "Protein-Boosting Seeds",
-        "name": "Pea Protein Pods",
+        "title": "Shelf Life",
+        "name": "Longevity Bar",
+        "icon": "🕰️"
+      },
+      {
+        "title": "Nutrition Boost",
+        "name": "MicroMosaic Greens",
+        "icon": "🥦"
+      },
+      {
+        "title": "Sustainability",
+        "name": "CarbonCrop Beans",
         "icon": "🌱"
       },
       {
-        "title": "Nutrient-Sculpted Greens",
-        "name": "Omega Spinach",
-        "icon": "🥬"
+        "title": "Allergen-Free",
+        "name": "HistoClear Soup",
+        "icon": "🍲"
       },
       {
-        "title": "Fermenting Future",
-        "name": "Microbial Yogurt",
-        "icon": "🥛"
+        "title": "Texture Revolution",
+        "name": "SnapCrunch Apple",
+        "icon": "🍏"
       },
       {
-        "title": "Functional Cereals",
-        "name": "Resistant Starch Bar",
-        "icon": "🍞"
-      },
-      {
-        "title": "Allergen-Redefined Snacks",
-        "name": "Gluten-Free Chips",
-        "icon": "🥨"
-      },
-      {
-        "title": "Future Ice Cream",
-        "name": "DNA-Infused Gelato",
-        "icon": "🍨"
+        "title": "Edible Packaging",
+        "name": "BiteBox Wrapper",
+        "icon": "🛍️"
       }
     ]
   },
@@ -45116,6 +45104,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1783373536199": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1783373536199 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Velocity",
+        "name": "JetStream",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Analytics",
+        "name": "DataDiver",
+        "icon": "📊"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldSync",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Automation",
+        "name": "AutoPilot",
+        "icon": "🤖"
+      },
+      {
+        "title": "UI",
+        "name": "GlowGrid",
+        "icon": "✨"
+      },
+      {
+        "title": "Performance",
+        "name": "TurboTick",
+        "icon": "⚡"
+      },
+      {
+        "title": "Collaboration",
+        "name": "TeamPulse",
+        "icon": "🤝"
+      },
+      {
+        "title": "Customization",
+        "name": "UserForge",
+        "icon": "🛠️"
       }
     ]
   }
