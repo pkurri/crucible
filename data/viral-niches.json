@@ -18225,6 +18225,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentInsects",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Wonder",
+      "reason": "The niche of glowing insects offers unrivaled, easily shareable visual hooks that spark curiosity and awe. Unlike mainstream bio‑luminescence videos, it focuses on tiny, circadian creatures that can be kept or illustrated in a home setting, offering endless product variations and repeat content. The concept appeals to both science buffs and aesthetic seekers, providing high retention potential because viewers can’t immediately see how the glow works or how to replicate it.",
+      "ideas": [
+        "10 Glowing Insects That Will Light Up Your Backyard – You Won’t Believe Their Colors! | Hook: Imagine walking into your yard and seeing a living LED forest. Which one will make you want to keep it at home?",
+        "How to Turn Your Bedroom Into a Bioluminescent Wonderland in 5 Minutes | Hook: You thought your night lights were bright—watch these tiny living LEDs outshine them all.",
+        "The Science Behind Glowworms: How Nature Builds the Life’s First LED | Hook: It turns out the secret behind glowing insects is a molecule anyone can explain—and maybe replicate."
+      ],
+      "keywords": [
+        "GlowInTheDark",
+        "Bioluminescence",
+        "NightGarden",
+        "InsectLights",
+        "TinyShimmer"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
