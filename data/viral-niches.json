@@ -18420,6 +18420,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DeepSeaLuminescence",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "The deep sea remains one of Earth’s last frontiers, and its bioluminescent inhabitants provide endlessly mesmerizing, high‑contrast visuals that naturally trigger curiosity and awe. Faceless content can showcase thousands of unseen glowing organisms and deep‑sea habitats without the need for on‑camera presenters. The niche is distinct from generic ‘Unexplained Phenomena’ channels, offering a blend of science, stunning cinematography, and mysterious storytelling that appeals to both science enthusiasts and casual viewers, making it primed for high subscriber growth and 100k+ video views.",
+      "ideas": [
+        "Top 10 Over‑Luminous Creatures of the Deep Sea – Their Shimmering Secrets Revealed / 5‑Second Hook: ‘Can you name this glowing beast with only its light? Watch the reveal.’",
+        "The Dark Ocean’s Hidden Light Cities – How Bioluminescence Builds Underwater Metropolises / Hook: ‘Imagine a city that never shuts off its lights – that’s the deep sea.’",
+        "Why Every Deep‑Sea Predator Follows a Light Trail – The Survival Tactics of Bioluminescence / Hook: ‘What if the prey could see the hunter in the dark? Higher‑stakes fishing.'"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "deepsea",
+        "underwater",
+        "glowing",
+        "mysterious"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
