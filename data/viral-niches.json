@@ -18534,6 +18534,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combining cutting‑edge biophotonics with urban design offers visually striking, future‑forward content that taps into growing trends of sustainability, smart cities, and nano‑biology. The premise—cities that glow from the living organisms integrated into infrastructure—creates high‑impact visuals and endless hooks for short‑form storytelling, ensuring broad appeal and strong shareability.",
+      "ideas": [
+        "1. \"How a New City Lights Up at Night with Living Glow‑Lights – It’s Not Sci‑Fi!” / Hook: “Imagine walking through a glowing metropolis powered by bioluminescence. Here’s how it could be built.”",
+        "2. \"The Darkest Night City Ever? See How Biotech Turns Streets Into Neon Rivers\" / Hook: \"What if your city’s streets were rivers of light—made by bacteria, powered by nature. Let’s jump into this glowing experiment.”",
+        "3. \"Urban Architects' Secret to Eco‑Friendly Nightlife – Bio‑Glowing Skyscrapers Revealed\" / Hook: \"Forget LED strips. Architects are ascribing city lighting to living organisms. Watch the future of night lighting unfold.”"
+      ],
+      "keywords": [
+        "glowing",
+        "biotech",
+        "sustainability",
+        "nightscape",
+        "futurecity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
