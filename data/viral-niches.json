@@ -18699,6 +18699,30 @@
         "glow"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche fuses cutting‑edge sustainable architecture with the visual spectacle of bioluminescence, appealing to fans of sci‑fi, green tech, and urban planning. Its high‑contrast night imagery is highly shareable, can be turned into short, eye‑popping videos, and the concept offers endless variations (city maps, 3‑D renderings, time‑lapse transforms) that satisfy deep curiosity loops. The topic is distinct enough from current ‘vertical forest’ or ‘floating city’ trends, yet broad enough for 25+ scalable content ideas, making it ideal for 1M+ subscribers and 100K+ views per video.}",
+      "ideas": [
+        "Neon Nights: 5 Cities Powered Entirely by Bioluminescent Plants – You Won’t Believe the Breathtaking Nightscapes!",
+        "How to Build a Self‑Sustaining Glow‑City in 2026 – A Step‑by‑Step Guide to Turning Your Neighborhood into a Living Bioluminescent Wonderland!",
+        "The Dark Side of Glow Fashion: Do Bioluminescent Cities Endanger Local Wildlife? – Stirring Debate & Awe‑Inspiring Visuals!"
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "NeonGlow",
+        "FuturisticArchitecture",
+        "SustainableCity",
+        "Nightscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
