@@ -18468,6 +18468,30 @@
         "TinyHouse"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Space cuisine appeals to both STEM and lifestyle audiences. The novelty of cooking in microgravity offers endless, visually striking challenges—floating ingredients, levitating sauces, and the law-defying physics that spark curiosity and wonder. Few creators explore this niche, ensuring high differentiation. The format naturally lends itself to scroll‑stopping hooks, repeat viewers, and endless recipe variations for sustained growth.",
+      "ideas": [
+        "Zero‑Gravity Lasagna: Watch How It Glides Through Space – 5‑Minute Montage of Floating Layers and Souping Sauces!",
+        "Space Churros Challenge: Saw Them Float? Learn the Physics Behind Zero‑Gravity Confectioneries!",
+        "Astronaut Breakfast Bonanza: 15 Seconds of Perrier‑Splashed Eggs & Space‑Baked Toast!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "MicrogravityCuisine",
+        "AstronautKitchen",
+        "CosmicFood"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

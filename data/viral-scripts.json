@@ -12514,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12555,7 +12555,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12596,7 +12596,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -38876,49 +38876,43 @@
     ]
   },
   "GeneEdFood": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 GeneEdFood secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Protein Power",
-        "name": "GeneSpine Milk",
-        "icon": "💪"
+        "text": "Nobody talks about the truth of GeneEdFood.",
+        "duration": 5
       },
       {
-        "title": "Flavor Unleashing",
-        "name": "TasteTwist Gene Ice Cream",
-        "icon": "🧁"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Shelf Life",
-        "name": "Longevity Bar",
-        "icon": "🕰️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Nutrition Boost",
-        "name": "MicroMosaic Greens",
-        "icon": "🥦"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Sustainability",
-        "name": "CarbonCrop Beans",
-        "icon": "🌱"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Allergen-Free",
-        "name": "HistoClear Soup",
-        "icon": "🍲"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Texture Revolution",
-        "name": "SnapCrunch Apple",
-        "icon": "🍏"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Edible Packaging",
-        "name": "BiteBox Wrapper",
-        "icon": "🛍️"
+        "text": "Don't let the algorithm hide the truth. Follow for more GeneEdFood.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -38964,49 +38958,43 @@
     ]
   },
   "ZeroGravityCooking": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 ZeroGravityCooking secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more ZeroGravityCooking.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Ingredient",
-        "name": "Freeze‑dried Astronaut Ice Cream",
-        "icon": "🍦"
+        "text": "Your stomach hates gravity—watch it rebel.",
+        "duration": 5
       },
       {
-        "title": "Technique",
-        "name": "Surface‑tension Sphere Cooking",
-        "icon": "🌀"
+        "text": "Why continents of flavor dance in zero G.",
+        "duration": 4
       },
       {
-        "title": "Equipment",
-        "name": "Magnetic Induction Pan",
-        "icon": "🧲"
+        "text": "Sauces float like planets, seasoning spirals turn.",
+        "duration": 5
       },
       {
-        "title": "Process",
-        "name": "Zero‑G Foam Infusion",
-        "icon": "💨"
+        "text": "A single whisk turns a whole galaxy of herbs.",
+        "duration": 5
       },
       {
-        "title": "Safety",
-        "name": "Containment Airlock Oven",
-        "icon": "🔒"
+        "text": "Stove absent, but a plasma fire cooks items at 3000°.",
+        "duration": 5
       },
       {
-        "title": "Flavor",
-        "name": "Volatile Aroma Capture",
-        "icon": "🌬️"
+        "text": "Imagine cooking a soufflé that never sinks.",
+        "duration": 4
       },
       {
-        "title": "Presentation",
-        "name": "Floating Plating Gel",
-        "icon": "🥄"
+        "text": "If you skip this, you'll never see gravity‑free meals.",
+        "duration": 4
       },
       {
-        "title": "Innovation",
-        "name": "Nutrient‑dense Algae Paste",
-        "icon": "🌿"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: Rocket fuel brownies that power a star.",
+        "duration": 4
       }
     ]
   },
