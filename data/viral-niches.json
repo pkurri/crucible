@@ -18603,6 +18603,30 @@
         "Bioluminescence"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrocosmicMazes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Micro‑world footage is inherently addictive – it turns the invisible universe into a visual wonderland. The unique, faceless format of high‑resolution microscopy videos builds immediate curiosity loops, encourages endless sharing on social feeds, and taps into a verified trend of science‑visuals that routinely hit 100k+ views. The niche is special because it combines natural beauty, surprising detail, and scientific curiosity, ensuring strong retention and repeat subscribers.",
+      "ideas": [
+        "The Most Stunning Micrograph Ever Captured – You Won’t Believe What’s Inside a Sugar Crystal! (Hook: “Imagine biting your breakfast and seeing a city inside your grain.”)",
+        "Did You Know Your Eyes Are Built on a Maze? Explore the Human Eye Under a Microscope (Hook: “Every blink hides a puzzle – see it, and feel the awe.”)",
+        "The Hidden World Of Microgreens – The Tubes That Grow Your Salad Crunch! (Hook: “Tiny roots, giant flavors – watch the secret garden grow in real‑time.”)"
+      ],
+      "keywords": [
+        "Microscopic",
+        "HighResolution",
+        "Tiny",
+        "Breathtaking",
+        "VisualWonder"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
