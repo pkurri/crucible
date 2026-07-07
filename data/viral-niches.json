@@ -18675,6 +18675,30 @@
         "simulation"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MyceliumCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The ‘MyceliumCities’ niche marries the captivating visual of growing fungal structures with the trending topics of bio‑engineering, sustainability, and urban renewal. Fungi grow at an astonishing pace, creating glowing, self‑healing walls that can be showcased in short, scroll‑stopping time‑lapse videos. The concept is unique—elementary science meets futuristic architecture—while still accessible to a broad audience. Its visual nature fuels high engagement on Meta and YouTube Shorts, and creators can easily produce a steady stream of content (over 25 viral ideas) using simple growth setups and CGI overlays, ensuring rapid content rollout and scalability to 1M+ subscribers.",
+      "ideas": [
+        "One Week of a City Made From Fungi: The Living Architecture Experiment You Can’t Believe",
+        "Will This Mycelium Build a Bridge? Real‑Life Fungal Engineering in 30 Seconds",
+        "From Spore to Skyline: How Mycelium is Creating Tomorrow’s Bioluminescent Cities"
+      ],
+      "keywords": [
+        "mycelium",
+        "living-structure",
+        "bioengineering",
+        "fungal",
+        "glow"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
