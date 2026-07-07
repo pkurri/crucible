@@ -18579,6 +18579,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "MicrobialArchitecture blends stunning microscopic visuals, self‑assembling living structures, and a clear narrative of how tiny organisms can build the unexpected—ideas that naturally spark curiosity and curiosity loops. The topic is niche enough to stand out against the overcrowded self‑help and natural science fields, yet it widens into many sub‑themes (biofilm bridges, living concrete, engineered bacterial sculptures, bio‑glow cities, etc.) that allow for a high volume of video content. Social‑media users are drawn to the concept of 'living factories,' animated time‑lapse processes, and the promise that the world could be rebuilt with microbes, offering high retention hooks and conversion potential for monetized sub‑channels, merch, and educational ties. As sustainable tech and bio‑hacking continue to rise in popularity, this visual, science‑driven narrative is positioned for rapid viral growth on both meta platforms and YouTube.",
+      "ideas": [
+        "How a Colony of Bacteria Just Built a Bridge – Watch the Micro‑Scale Engineering Miracle!",
+        "Bacterial Concrete: See the Invisible Life Inside ‘Green’ Walls That Could Replace Concrete Forever!",
+        "The Glowing Life City: Engineers Use Microbes to Create Bioluminescent Streets – Full Time‑Lapse Inside"
+      ],
+      "keywords": [
+        "Microbial",
+        "Living",
+        "Biofilm",
+        "Self‑Assembly",
+        "Bioluminescence"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
