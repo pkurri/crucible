@@ -18627,6 +18627,30 @@
         "VisualWonder"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.7,
+      "targetEmotion": "Awe",
+      "reason": "This niche sits at the intersection of futuristic architecture, bioluminescent biology, and AI design, creating a visually stunning concept that captivates curiosity and wonder. The idea is fresh enough to stand out yet grounded in real science and popular design trends, allowing for endless scroll‑stopping hooks such as \"A city that glows 24/7 powered by living light,\" and strong retention via curiosity loops (e.g., \"What if this tech existed today?\" ). It lends itself to dynamic visuals—3D renderings, time‑lapse footage, concept walkthroughs—that can easily be shared across Meta feeds and YouTube Shorts, with the potential to generate 25+ unique viral ideas. The theme also encourages collaborations with designers, biologists, and future‑tech influencers, driving engagement and growth toward 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "This 3D Model of a Bioluminescent City Is So Real, You Won’t Believe It’s AI! – Imagine walking through a glowing metropolis powered entirely by living light.",
+        "The Secret Architects Behind Tomorrow’s Glow: Inside the Blueprint of a Bioluminescent City – We leaked the design that could replace streetlights forever.",
+        "From Titan’s Wife to Bioluminescent Streets: How Real Animals Provide Inspiration for Future Cities – We turned nature’s glow into city streets. See the science."
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Glowing",
+        "Future Architecture",
+        "Living Lights",
+        "3D Animation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
