@@ -18444,6 +18444,30 @@
         "mysterious"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "IndoorRainforestHack",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "The global surge in sustainable living and tiny house trends fuels curiosity about indoor agriculture. Spatially compact, visually stunning hydroponic rainforests combine green tech with home decor, making them perfect for scrolling, time‑lapse videos, and AI voiceovers. Faceless, data‑rich content that reveals how a greener future can fit on any balcony majorly amplifies shareability and cross‑platform engagement.",
+      "ideas": [
+        "Inside the World's Largest Indoor Rainforest—You Won’t Believe What Happens Next!",
+        "How to Turn Your Small Apartment into a Mini Rainforest in 30 Days—Mind-Blowing Results",
+        "Scientists Build an Indoor Rainforest—The Secret Behind the Green Miracle Revealed"
+      ],
+      "keywords": [
+        "Hydroponic",
+        "VerticalFarm",
+        "IndoorRainforest",
+        "Biomimicry",
+        "TinyHouse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
