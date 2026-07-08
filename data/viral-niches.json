@@ -18915,6 +18915,30 @@
         "Nighttime Innovation"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "LivingArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Living Architecture blends cutting‑edge nanotechnology, sustainable design, and mind‑blowing visual transformations that never fully saturate mainstream media. The self‑healing concrete, living walls, and nano‑repair systems offer unprecedented ‘build‑it‑and‑heal‑it‑back’ moments that trigger instant shock, curiosity, and long‑form engagement. The niche is distinct from generic eco‑design, providing high‑quality, never‑before‑seen footage that can be shared cross‑platform, sustaining virality and subscriber growth.",
+      "ideas": [
+        "The House That Heal Itself After a Car Crash – Live Self‑Healing Concrete in Action! / Watch the walls snap back to life instantly after a vehicle collision.",
+        "3D‑Printed Home Rebuilds a Broken Floor in 24 Hours – Nano‑Repair Magic Revealed! / See how nano‑reinforcing agents restore a collapsed structure from scratch.",
+        "Evergreen Living Walls That Clean Air, Generate Energy, and Grow Food – Build Your Backyard Paradise! / Experience how plant‑based walls blend AI sensors, water recycling, and bio‑hydroponics."
+      ],
+      "keywords": [
+        "Self‑Healing Concrete",
+        "Living Walls",
+        "NanoRepair",
+        "Sustainable Homes",
+        "Real‑time Healing"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
