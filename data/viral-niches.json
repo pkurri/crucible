@@ -18939,6 +18939,30 @@
         "Real‑time Healing"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "WeatherControlLab",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The notion of manipulating weather taps into climate anxiety, wonder about unstoppable natural forces, and the promise of life‑saving tech. Rapid AI‑driven simulations and real‑world experiments (like cloud seeding, hurricane tornado tests) generate high‑quality, eye‑catching footage. In a world where climate change dominates media headlines, a niche that explores the science, ethics, and cinematic possibilities of weather control is both relevant and irresistibly speculative, ensuring strong hook potential and shareability across Meta and YouTube.",
+      "ideas": [
+        "\"Can We Stop a Hurricane? Inside NASA's Weather Control Lab\" – Show a dramatic simulation sequence of artificially creating a barrier that deflects a storm, ending with the question: what would you do if you could control the sky?",
+        "\"Tornado to Taco Truck? Turning Hurricanes into Food Trucks\" – Hyper‑bolic demonstration of a giant tornado shrinking and transforming into a giant moving restaurant, highlighting the physics and engineering behind weather manipulation.",
+        "\"Shocking Secrets: The World's Biggest Weather-Hacking Projects Revealed\" – Countdown of real projects like DARPA's Tempest, cloud‑seeding, and their potential for climate engineering, leaving viewers craving more behind‑the‑scenes content."
+      ],
+      "keywords": [
+        "RealTimeSim",
+        "HurricaneStorm",
+        "ReversibleStorm",
+        "ClimateLab",
+        "WeatherHacking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
