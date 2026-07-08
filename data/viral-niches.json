@@ -18891,6 +18891,30 @@
         "FutureArchitecture"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "With the global push towards sustainable, low‑energy urban design, bioluminescent architecture blends science, art, and green tech into visually stunning, naturally glowing cityscapes. The concept is fresh yet rooted in real feasibility (e.g., engineered algae, glow‑in‑the‑dark polymers). It sparks curiosity about future cities, offers striking Instagram‑ready imagery, and resonates with eco‑tech enthusiasts and visual seekers alike, creating perfect “scroll‑stopping” hooks.",
+      "ideas": [
+        "This City Lights Up With Living Light — How Bioluminescent Trees Power Streets! (Hook: Imagine walking on streets that glow from the ground up, no lights needed!)",
+        "Solar‑Powered vs. Glow‑Powered? The Future of Urban Nightscapes (Hook: If solar panels are cool, watch nature’s own lights outshine them!)",
+        "10 Bio‑Luminescent Buildings That Will Blow Your Mind (Hook: From glowing façades to neon gardens, see the skyscrapers of tomorrow.)"
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "Urban Glow",
+        "Living Neon",
+        "Eco City",
+        "Nighttime Innovation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
