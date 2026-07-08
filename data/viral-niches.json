@@ -18963,6 +18963,30 @@
         "WeatherHacking"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "LuminoCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "LuminoCities taps into the growing fascination with bio‑engineering, sustainability, and sci‑fi aesthetics. It is a fresh, highly visual concept that blends nanobiotech with urban design, offering endless hook potential (e.g., \"What if every street lamp was a living organism?\") and massive share‑ability. The idea hits current trends in climate‑action tech, influencer sci‑fi narratives, and urban aesthetics, promising high retention and cross‑platform virality.",
+      "ideas": [
+        "The City That Lights the Night: Inside the First BioLuminescent Metropolis – Watch civilization glow from bacteria, see the economic and ecological impact in under 5 minutes.",
+        "How Tiny Bacteria Could Power 1 Billion Street Lamps – The Future of Urban Light – Learn how engineered microbes could replace LEDs in a global energy‑saving experiment.",
+        "From Fantasy to Floor Plan: Architects Build a Luminous Skyline in 3D Animation – A time‑lapse rendering that shows how bioluminescent tech meets modern skyline design."
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "SustainableGlow",
+        "UrbanLab",
+        "NanoBioTech",
+        "LuminousArchitecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
