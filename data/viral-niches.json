@@ -18843,6 +18843,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumWeatherPulse",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Quantum computing is exploding, and climate change is a top global concern. A faceless channel that visualizes quantum‑powered weather forecasts taps into both fascination with AI/quantum tech and urgent real‑world impact. The blend of futuristic sci‑tech graphics with relatable weather drama creates scroll‑stopping hooks, making it highly shareable on meta and capable of breaking into 1M+ view thresholds on YouTube.",
+      "ideas": [
+        "Quantum Storm: Predicting the Next Hurricane 30 Days Before It Hits – See the Orbital Data That Forecasts Devastation!",
+        "AI vs Quantum – Who Wins the Climate Battle? Traditional Models vs. Quantum‑Backed Predictions in 5 Minutes",
+        "The Quantum Mirage: Watching a Heatwave Emerge on Screen Before It Spills Over – You Won’t Believe the Accuracy!"
+      ],
+      "keywords": [
+        "Quantum Crystals",
+        "Holographic Storms",
+        "Neutrino Shocks",
+        "Ultra‑High Resolution Weather Maps",
+        "Space‑Time Distortion"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
