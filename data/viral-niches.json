@@ -18867,6 +18867,30 @@
         "Space‑Time Distortion"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentMaterials",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "The sustainability and futurism hype is at a peak, and bioluminescent materials blend both into one visually stunning story. The niche is highly differentiated from the usual eco‑tech channels, allowing scroll‑stopping hooks around glowing homes, living paint, and self‑sustaining gardens. The subject invites endless curiosity loops and showcases incredible visuals that naturally generate shares, comments, and re‑views, ensuring high retention and the potential for 25+ unique viral concepts.",
+      "ideas": [
+        "5 Bioluminescent Algae That Light Up Entire Rooms at Night — Can They Replace LED? (Hook: \"Imagine walking into a room that glows on its own…\"",
+        "I Built a Self‑Sustaining Bioluminescent Garden in My Apartment (3‑Month Time‑Lapse) (Hook: \"Watch a garden rise, glow, and thrive in just 90 days, producing light AND oxygen…\"",
+        "Can Bioluminescent Paint Paint Your Car a Living Glow? Our Overnight Experiment (Hook: \"After 24 hours, this paint didn’t just color your car, it made it shine from inside…\")"
+      ],
+      "keywords": [
+        "NightGlow",
+        "LivingLight",
+        "EcoArt",
+        "Bioluminescence",
+        "FutureArchitecture"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

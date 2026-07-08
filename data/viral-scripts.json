@@ -12442,96 +12442,90 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Tyranny",
-        "name": "Sentinel Stream",
-        "icon": "💻"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Identity Infiltration",
-        "name": "Echo ID",
-        "icon": "👤"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Economic Supplant",
-        "name": "Profit Bot",
-        "icon": "💰"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Strategic Subversion",
-        "name": "Chess Master AI",
-        "icon": "♟️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Emotional Manipulation",
-        "name": "Mood Molder",
-        "icon": "😠"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Security Sisyphus",
-        "name": "Firewall Fade",
-        "icon": "🔒"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Governance Ghost",
-        "name": "Policy Puppet",
-        "icon": "🏛️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Ghost Workforce",
-        "name": "Auto Labor",
-        "icon": "🤖"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
+    "voice": "am_adam",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
     "list": [
       {
-        "title": "Nutrition",
-        "name": "Intermittent Fasting",
-        "icon": "⏳"
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
       },
       {
-        "title": "Exercise",
-        "name": "HIIT",
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
+      },
+      {
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
+      },
+      {
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
         "icon": "🏋️‍♂️"
       },
       {
-        "title": "Supplements",
-        "name": "NAD+ Precursors",
-        "icon": "💊"
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
       },
       {
-        "title": "Sleep",
-        "name": "5‑Second Wake‑Up",
-        "icon": "😴"
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
       },
       {
-        "title": "Stress",
-        "name": "Forest Bathing",
-        "icon": "🌲"
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
       },
       {
-        "title": "Social",
-        "name": "Cohort Coaching",
-        "icon": "🤝"
-      },
-      {
-        "title": "Mindfulness",
-        "name": "Quiet Journaling",
-        "icon": "✍️"
-      },
-      {
-        "title": "Hormone",
-        "name": "Hormone Reset Diet",
-        "icon": "🔄"
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
       }
     ]
   },
@@ -12567,7 +12561,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -35664,49 +35658,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Neon Metropolis",
-        "name": "Lumenopolis",
-        "icon": "🌆"
+        "text": "Imagine a city that glows like a living star.",
+        "duration": 5
       },
       {
-        "title": "Underwater Glow",
-        "name": "Aquatalia",
-        "icon": "🌊"
+        "text": "It's not a movie, it's tomorrow’s reality.",
+        "duration": 4
       },
       {
-        "title": "Forest Lighthouse",
-        "name": "Verdant Radiance",
-        "icon": "🌲"
+        "text": "Bioluminescent streets powered by algae farms.",
+        "duration": 5
       },
       {
-        "title": "Starlit Sanctuary",
-        "name": "Celestial City",
-        "icon": "✨"
+        "text": "Parks that recharge cities with natural light energy.",
+        "duration": 5
       },
       {
-        "title": "Subterranean Beacon",
-        "name": "Glowhole City",
-        "icon": "🕳️"
+        "text": "Buildings that pulse, guiding traffic like fireflies.",
+        "duration": 5
       },
       {
-        "title": "Skyward Spectra",
-        "name": "Nimbus Nexus",
-        "icon": "☁️"
+        "text": "What if every sunrise was a neon explosion?",
+        "duration": 4
       },
       {
-        "title": "Prismatic Hub",
-        "name": "Spectrum City",
-        "icon": "🌈"
+        "text": "Keep watching or miss the power switch to a new dawn.",
+        "duration": 4
       },
       {
-        "title": "Time‑Warp Port",
-        "name": "Eternity Harbor",
-        "icon": "⏳"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next up: Cities that drip with data – see the future.",
+        "duration": 4
       }
     ]
   },
@@ -45651,6 +45639,53 @@
         "title": "Energy Harness",
         "name": "Storm Singularity Reactor",
         "icon": "🔥"
+      }
+    ]
+  },
+  "BioLuminescentMaterials": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentMaterials secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Bacteria",
+        "name": "Vibrio fischeri",
+        "icon": "🦠"
+      },
+      {
+        "title": "Algae",
+        "name": "Pyrocystis fusiformis",
+        "icon": "🌊"
+      },
+      {
+        "title": "Fungi",
+        "name": "Panellus stipticus",
+        "icon": "🍄"
+      },
+      {
+        "title": "Jellyfish",
+        "name": "Aequorea victoria",
+        "icon": "🪼"
+      },
+      {
+        "title": "Synthetic Bio-LEDs",
+        "name": "NanoLuc",
+        "icon": "🔬"
+      },
+      {
+        "title": "Biofilm Electrodes",
+        "name": "Glo-Myco",
+        "icon": "⚡️"
+      },
+      {
+        "title": "Seaweed",
+        "name": "Caulerpa luciferans",
+        "icon": "🌱"
+      },
+      {
+        "title": "Engineered Human Skin",
+        "name": "CRISPR-luciferase skin",
+        "icon": "👩‍⚕️"
       }
     ]
   }
