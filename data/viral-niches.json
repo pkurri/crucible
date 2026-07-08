@@ -19104,6 +19104,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "GlowInTheDarkCuisine",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Awe",
+      "reason": "Glowing food taps into the viral fascination with visual spectacle and the unexpected. Recipes that transform plain snacks into luminous masterpieces are share‑worthy, easy to reproduce, and lend themselves to short, eye‑catching clips on Meta and YouTube Shorts. The trend marries light‑art with culinary curiosity, meeting high engagement thresholds while staying fresh from current food‑tech discussions.",
+      "ideas": [
+        "Turning Ordinary Snacks into Glowing Foods: The Science Behind Bioluminescent Cooking – Hook: \"What if your snack lit up when you eat it? Step into the future of edible illumination.\",",
+        "DIY Glow‑in‑the‑Dark Burger: Our Kitchen Became a Night Light – Hook: \"Watch us turn a mundane burger into a glowing masterpiece using only kitchen staples.\",",
+        "Glow Nightlife: Creating Bioluminescent Cocktails That Light Up Your Night – Hook: \"Join us as we mix glowing drinks that will steal the spotlight at every party.\""
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescence",
+        "neon",
+        "iridescent",
+        "phosphorescent"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
