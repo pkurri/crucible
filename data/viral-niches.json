@@ -19035,6 +19035,30 @@
         "Neon"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "NanoWorldArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The niche blends cutting‑edge nanotechnology with architectural imagination, delivering visually stunning, microscopic‑scale creations that spark extreme curiosity and wonder. Its unique appeal to science‑enthusiasts and broader audiences alike, coupled with endless potential for shareable viral content, makes it highly scalable to 1M+ subs and 100k+ views per video.",
+      "ideas": [
+        "Building a Nano Skyscraper in 60 Seconds (NanoWorldArchitecture) – Watch Gravity Play Out in the Microscopic Realm",
+        "Can Viruses Construct Buildings? The Nano City Project That Might Change Architecture Forever (NanoWorldArchitecture) – Shocking Results Inside",
+        "Nano Bridge: The Smallest Transportation Network Ever Built (NanoWorldArchitecture) – See the World Upside Down"
+      ],
+      "keywords": [
+        "microscopic",
+        "nanoscopic",
+        "3D-printed",
+        "bacteria-based",
+        "protein lattice"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
