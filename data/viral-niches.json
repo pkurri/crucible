@@ -18987,6 +18987,30 @@
         "LuminousArchitecture"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "UnderwaterAurora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Underwater auroras combine mesmerizing visuals with a mystery that is rarely shown to audiences. The concept taps into the massive fascination with bioluminescence, deep‑sea exploration, and the intersection of science and art. Highest potential for scroll‑stopping hooks such as \"This unseen light show is thousands of miles below the surface\" and curiosity loops around hidden species and emerging tech. The niche is distinct (not saturated by generic deep‑sea footage) and lends itself to faceless storytelling via narration and CGI, enabling scalable production and quick virality.",
+      "ideas": [
+        "Underwater Aurora: The Mysterious Bioluminescent Light Show You Haven’t Seen Before / Hook: Watch the sea lights pulse like a galaxy—what creatures create this wonder?",
+        "Can We Replicate an Underwater Aurora On Land? / Hook: Scientists are building a lab that mimics the sea’s own neon sky—see the experiment fail, then succeed.",
+        "The Deep‑Sea Aurora That Beats the Northern Lights / Hook: How deep‑sea bacteria produce brighter, faster flashes than any sky show—watch the comparison."
+      ],
+      "keywords": [
+        "bioluminescent",
+        "neon",
+        "glimmering",
+        "undersea",
+        "spectral"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
