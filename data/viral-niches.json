@@ -19011,6 +19011,30 @@
         "spectral"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIGeneratedStreetArt",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of AI and urban art is a fresh, visually stunning niche with low creator saturation and high shareability. Faceless videos of AI-generated murals, street scenes, and animated graffiti can hook viewers with impossible visuals, encourage curiosity loops, and leverage trending AI and art conversations. The format allows endless content ideas (99+), ensuring scalability and the potential for 1M+ subscribers and 100k+ views per video.",
+      "ideas": [
+        "\"Cityscapes Reimagined: AI Instantly Creates a New Metropolis\"\nHook: \"Watch an empty grid transform into a living neon city in seconds—this AI will change how you see streets forever!\"",
+        "\"Underground Delights: AI Draws Legendary Street Art in 60 Seconds\"\nHook: \"From graffiti legends to unknown hyperrealism—an AI that can paint any vibe. Will you guess which crowd it’s mocking?\"",
+        "\"Animated Alleyways: AI Makes Every Corner Dance\"\nHook: \"Turn a silent alley into a moving theatre with an unreleased AI model. Let the colors bleed into reality and share the wonder.\""
+      ],
+      "keywords": [
+        "Vibrant",
+        "AI",
+        "StreetArt",
+        "Urban",
+        "Neon"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
