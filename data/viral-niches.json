@@ -19059,6 +19059,30 @@
         "protein lattice"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumBiology",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Quantum biology merges two high‑interest science fields—quantum physics and life sciences—creating an inherently mysterious and awe‑inducing subject that is under‑explored. The novelty of quantum effects in everyday organisms fuels endless ‘what‑if’ questions, perfect for scroll‑stopping hooks and curiosity loops. With the current surge in quantum content and a growing appetite for cutting‑edge biology, the niche can attract 1M+ subscribers and easily hit 100k+ views per video.",
+      "ideas": [
+        "The Quantum Secrets Inside Photosynthesis: Nature's Invisible Power Plant / Hook: 'Discover how plants use quantum tunneling to absorb sunlight faster than light and fuel the planet.'",
+        "Do Birds Fly with Quantum GPS? The Astonishing Science Behind Avian Navigation / Hook: 'Scientists uncovered a quantum compass that lets pigeons find home with single‑atom precision—could your bird talk to the cosmos?'",
+        "Quantum Senses: How Creepy Creatures Detect Energy at the Speed of Light / Hook: 'From fireflies to deep‑sea squids, learn how living beings harness quantum phenomena to communicate faster than light.'"
+      ],
+      "keywords": [
+        "quantum",
+        "biology",
+        "tunneling",
+        "entanglement",
+        "photosynthesis"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
