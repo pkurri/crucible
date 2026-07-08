@@ -18792,6 +18792,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The convergence of biology and construction is a rapidly growing, heavily funded field.  Public fascination with living systems, sustainability, and future‑tech is at an all‑time high, yet very few mainstream channels explore how microbes can literally build structures.  Short‑form, awe‑inducing experiments are ideal for TikTok/Meta and expand naturally to 7‑minute YouTube videos, allowing high subscriber growth and view counts.",
+      "ideas": [
+        "Bacterial 3D Printer: Building a House Made of Microbes in 60 Seconds – ‘You think 3D printing is only plastic? Watch microbes create a full house!’",
+        "Living Bricks: My First Bacterium‑Enhanced Skyscraper – ‘Get ready for a building that grows, repairs, and cleans itself.’",
+        "Inside the World’s First Microbial Concrete: The Future of Construction? – ‘See how this green concrete is made by living bacteria and why it’s a game‑changer.’"
+      ],
+      "keywords": [
+        "microbial",
+        "biofabrication",
+        "living",
+        "sustainable",
+        "lab"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
