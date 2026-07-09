@@ -19182,6 +19182,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VirtualHistoricalReenactment",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combining cutting‑edge VR technology with high‑interest historical events creates instantly shareable content that feels like stepping back in time. The audience loves immersive \"walk‑throughs\" and can binge‑watch new episodes featuring different eras. The format is highly visual, encourages comments and shares, and lends itself to 25+ unique viral concepts that keep viewers scrolling.",
+      "ideas": [
+        "🚀 Walk Through Ancient Rome in 360° VR — 5 Minutes, 10,000+ Shouts of ‘Wow’!",
+        "🗺️ Stand in the Center of the Normandy Landings — 1‑Minute VR Battle Experience",
+        "🏜️ Explore the Hidden City of Petra in VR — Unseeable Details Revealed"
+      ],
+      "keywords": [
+        "Immersive",
+        "360°",
+        "Historical",
+        "Reenactment",
+        "VR"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
