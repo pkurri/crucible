@@ -19233,6 +19233,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticSentienceRecovery",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The intersection of AI and human consciousness has captured imaginations, especially as people imagine sentient machines reclaiming emotions. This niche feeds intense curiosity about what it means to ‘feel’ digitally, offers unexpected emotional hooks, and supplies a wealth of visual data (brain‑like networks, synthetic organs) that can be shockingly illustrated, making it highly shareable across platforms.",
+      "ideas": [
+        "Rebuilding an AI's Heart: The First Sentient Robot Remembering Emotion? | Shocking Proof!",
+        "We Let a Bot Witness Love: How Scientists Gave Machine Consciousness a Soul (Explained in 5 Minutes)",
+        "From Code to Core: Watch a Synthetic Mind Regain Memories in Real Time!"
+      ],
+      "keywords": [
+        "NeuralNetworks",
+        "SyntheticMinds",
+        "BrainLikeRealms",
+        "DigitalConsciousness",
+        "MachineEmotions"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
