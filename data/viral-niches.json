@@ -19395,6 +19395,30 @@
         "Superposition"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Wonder",
+      "reason": "Zero‑Gravity cooking blends the awe of space with everyday culinary curiosity. The niche is distinct from mainstream food or space‑tech channels, offering visually arresting, physics‑based content that invites endless creative variations. Its inherently dramatic visual hooks—food floating, melting in orbit—encourage scroll‑stopper thumbnails and strong curiosity loops, making it highly scalable for a faceless format.",
+      "ideas": [
+        "Levitating Pancakes: Watch Bread Cook Without a Pan!",
+        "Floating Ice Cream Chaos: Zero‑Gravity Dessert Explosion",
+        "Space Chef Challenge: Turn Your Breakfast Into a Zero‑Gravity Spectacle"
+      ],
+      "keywords": [
+        "Weightless",
+        "Floating",
+        "ZeroGravity",
+        "SpaceKitchen",
+        "FluidDynamics"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
