@@ -19305,6 +19305,30 @@
         "rare"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroplasticLab",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Fear",
+      "reason": "Microplastics in everyday food and water has become a hotly debated environmental issue. The combination of hidden danger and the promise of laboratory evidence makes it instantly shareable and highly relatable, especially for parents, health-conscious audiences, and eco‑activists.",
+      "ideas": [
+        "Microplastics in Your House Water: 10 Shocking Findings That Will Stop You From Drinking!",
+        "The Hidden Truth: How Microplastics End Up Inside the Coffee You Love (Lab‑Verified)",
+        "5 Everyday Foods Buried In Microplastics—Lab Results Exposed!"
+      ],
+      "keywords": [
+        "Lab Test",
+        "Microplastic Particles",
+        "Hidden Pollution",
+        "Food Analysis",
+        "Bite-Size Science"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
