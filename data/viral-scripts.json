@@ -12445,81 +12445,87 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Your next paycheck might already be in code.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "AI agents are stealing white‑collar jobs live.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
+      },
+      {
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
+      },
+      {
+        "text": "Would your desk be next?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
         "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Booster",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Weekly Lifelong Learning Circles",
+        "icon": "🤝"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
       }
     ]
   },
@@ -40366,43 +40372,49 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
+    "closing": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioluminescentCities.",
-        "duration": 5
+        "title": "Glowing Geysers",
+        "name": "Aurora Tides",
+        "icon": "🌊"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Nightly Nebulas",
+        "name": "Luminous Skyline",
+        "icon": "🌌"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Illuminated Bridges",
+        "name": "Phosphor Span",
+        "icon": "🌉"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Radiant Rooftops",
+        "name": "Neon Canopy",
+        "icon": "🏙️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Electric Alleys",
+        "name": "Bokeh Path",
+        "icon": "🌆"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Mystic Markets",
+        "name": "Glint Bazaar",
+        "icon": "🛒"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Shimmering Subways",
+        "name": "Lattice Line",
+        "icon": "🚇"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Sparkling Seabeds",
+        "name": "Glow Reef",
+        "icon": "🐠"
       }
     ]
   },
@@ -41939,42 +41951,42 @@
     ]
   },
   "UnderwaterAurora": {
-    "voice": "en-US-JennyNeural",
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of UnderwaterAurora.",
+        "text": "What if the ocean could paint the sky?",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "Dive into 23°C abyss and watch auroras rise.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Only 7 species trigger bioluminescent waves.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "They pulse at 14Hz—like underwater lightning.",
+        "duration": 5
+      },
+      {
+        "text": "Marine biologists just pinned the photos today.",
+        "duration": 5
+      },
+      {
+        "text": "What if this glow hides an ancient predator?",
+        "duration": 4
+      },
+      {
+        "text": "If you miss it, you’ll never see sky like this.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next reveal: the secrets of bioluminescent dragons.",
         "duration": 4
       }
     ]

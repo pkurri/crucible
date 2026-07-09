@@ -19281,6 +19281,30 @@
         "future urban glow"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "UnderwaterAurora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Underwater Aurora blends scientific intrigue with stunning visual spectacle, tapping into the current fascination with deep‑sea mysteries and bioluminescence. The rarity of the phenomenon creates natural curiosity loops, while its visual intensity guarantees scroll‑stopping hooks. With minimal competition and high shareability across social media, a faceless channel can quickly amass 1M+ subs and 100k+ views per video.",
+      "ideas": [
+        "Title: 'The Hidden Glow of the Deep – First‑Time Footage of an Underwater Aurora!'; Hook: 'Ever seen a city of stars beneath the sea? Watch the breathtaking lights that appear only at midnight.'",
+        "Title: 'Scientists Prove Underwater Aurora Exists – But Is It Safe?'; Hook: 'We dive into the science behind the glow and what it could mean for marine life.'",
+        "Title: 'You Won’t Believe What Stun the Ocean’s New Aurora'; Hook: 'From bioluminescent jellyfish to glowing coral, see the most surreal deep‑sea lights ever captured.'"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "glowing",
+        "underwater",
+        "aurora",
+        "rare"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
