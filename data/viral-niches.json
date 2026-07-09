@@ -19257,6 +19257,30 @@
         "MachineEmotions"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "LuminoCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Future‑urban landscapes powered by bioluminescent plants, fungi and nano‑LED paint tap into a rapidly growing fascination with sustainable architecture, photonic art and immersive nighttime cityscapes. The niche offers endlessly scroll‑stopping, highly visual content that blends awe‑inducing footage with practical insights, making it ripe for viral traction and high retention.",
+      "ideas": [
+        "Inside the City that Lights Up Overnight: 5 Bio‑Luminescent Architectural Marvels",
+        "Top 10 Cities Turning Night into a Neon Forest – You Won’t Believe What’s Real",
+        "From Rainforest to Skyscraper: How Bioluminescence is Powering Tomorrow’s Urban Landscapes"
+      ],
+      "keywords": [
+        "glowing architecture",
+        "bioluminescent city",
+        "neon forests",
+        "sustainable illumination",
+        "future urban glow"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
