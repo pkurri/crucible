@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12514,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -35683,7 +35683,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -40397,7 +40397,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -46184,6 +46184,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "QuantumInternet": {
+    "voice": "am_adam",
+    "hook": "Here are the top 8 QuantumInternet secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more QuantumInternet.",
+    "list": [
+      {
+        "title": "Superposition Networks",
+        "name": "QuantumRouter",
+        "icon": "🚀"
+      },
+      {
+        "title": "Entanglement",
+        "name": "EntangleMesh",
+        "icon": "🔗"
+      },
+      {
+        "title": "Photon Gateways",
+        "name": "PhotonBeam",
+        "icon": "🌠"
+      },
+      {
+        "title": "Decoherence Immunity",
+        "name": "DecoShield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Quantum Cloud",
+        "name": "QuCloud",
+        "icon": "☁️"
+      },
+      {
+        "title": "Instant Sync",
+        "name": "ZeroLatency",
+        "icon": "⏱️"
+      },
+      {
+        "title": "Data Security",
+        "name": "QVault",
+        "icon": "🔒"
+      },
+      {
+        "title": "Energy Efficiency",
+        "name": "EnergySonic",
+        "icon": "⚡"
       }
     ]
   }

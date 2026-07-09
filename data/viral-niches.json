@@ -19371,6 +19371,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumInternet",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Quantum Internet is an emerging frontier that combines cutting‑edge physics and everyday tech. It has just entered public discourse with the launch of the first quantum network. The topic is distinct from existing quantum niches, offers limitless sub‑topics, and aligns with the public’s fascination with secure communication, future tech, and interstellar possibilities. The hype cycle is at its peak, and scifi‑inspired curiosity drives rapid spread across platforms.",
+      "ideas": [
+        "Quantum Internet Explained in 4 Minutes — Secure the Future Now! \nHook: ‘Ever wonder how a phone call could be unhackable? Meet quantum internet.’",
+        "The First Quantum Network Released into the Wild – Find Out Who Traveled It! \nHook: ‘Last week, the world’s first quantum internet link went live. What does that mean for you?’",
+        "5 Mind‑Blowing Breakthroughs that Will Turn the Internet into a Quantum Highway! \nHook: ‘From labs to satellites, quantum internet is no longer a dream. Here’s the scoop.’"
+      ],
+      "keywords": [
+        "QuantumEntanglement",
+        "Teleportation",
+        "PhotonicCrystal",
+        "BellTest",
+        "Superposition"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
