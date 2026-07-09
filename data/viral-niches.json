@@ -19440,6 +19440,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentFood",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Bioluminescent Food blends the marvel of living lights with everyday gadgets—it's visually stunning, easy to produce with DIY ingredients, and taps into the current boom of food‑tech and wow‑factor content. Faceless storytelling can simply show the glowing plates, recipes, and the science in a quick, scroll‑stopping format, making it ripe for viral reach.",
+      "ideas": [
+        "Watch This Street Food Turn Into a Living Light Show! – The Aesthetic Trap of Bioluminescent Feasts",
+        "Why Bioluminescent Food Will Change Your Dinner Forever: A 30‑Second Tutorial",
+        "The Secret Recipe of Nature's Own Glow: From Tiny Jellyfish to Your Kitchen"
+      ],
+      "keywords": [
+        "NeonGlow",
+        "Bioluminescence",
+        "EtherealLight",
+        "GlowUp",
+        "Luminosity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

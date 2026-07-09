@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12514,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -19377,43 +19377,49 @@
     ]
   },
   "BioluminescentFood": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioluminescentFood secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioluminescentFood.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioluminescentFood.",
-        "duration": 5
+        "title": "Glowing Jellyfish",
+        "name": "Aurelia Calyptris",
+        "icon": "🦑"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Luminous Seaweed",
+        "name": "Phospo Nori",
+        "icon": "🌱"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Radiant Algae",
+        "name": "Glowkins Soup",
+        "icon": "🍲"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Neon Mussel",
+        "name": "Starling Pied",
+        "icon": "🐚"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Bioluminescent Crab",
+        "name": "Luminica",
+        "icon": "🦀"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Firefly Fish",
+        "name": "Sparkling Mackerel",
+        "icon": "🐟"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Moonlit Lobster",
+        "name": "Lunar Crabby",
+        "icon": "🦞"
       },
       {
-        "text": "If you want to master BioluminescentFood, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Nightbeam Kelp",
+        "name": "Aurora Tea",
+        "icon": "🍵"
       }
     ]
   },
@@ -35652,43 +35658,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Neon Flora",
+        "name": "Glow Orchid",
+        "icon": "🌸"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Urban Hydroponics",
+        "name": "LED Aquafarm",
+        "icon": "💧"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Biotic Lighting",
+        "name": "Moth Net Grid",
+        "icon": "🦋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Energy Source",
+        "name": "Blue Flagellate Solar",
+        "icon": "🔋"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Public Transit",
+        "name": "Biolum Trans",
+        "icon": "🚋"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Night Markets",
+        "name": "Glow Bazaar",
+        "icon": "🛍️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sky Lines",
+        "name": "Chili Aurora",
+        "icon": "🌌"
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Resilient Architecture",
+        "name": "Glowing Arches",
+        "icon": "🏛️"
       }
     ]
   },
@@ -40369,39 +40381,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of BioluminescentCities.",
+        "text": "Imagine your city glowing like a midnight forest.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "Today we reveal the power that’s turning skylines into LEDs.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+        "text": "Solar‑mesh panels turn streetlights 95% brighter.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "For every mile walked, bioluminescent algae convert CO₂ into pure oxygen.",
+        "duration": 5
+      },
+      {
+        "text": "Cities recoup 7‑year construction debt just by glowing at night.",
+        "duration": 5
+      },
+      {
+        "text": "But the real wonder is how these lights sync into a living rhythm.",
+        "duration": 4
+      },
+      {
+        "text": "Missing this means you’ll lose a billion star‑shaped stories.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next up: Cities that breathe water instead of air.",
         "duration": 4
       }
     ]
