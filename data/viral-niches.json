@@ -19578,6 +19578,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentForests",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Bioluminescent forests combine the universal appeal of nature with the intrigue of a living light show. The visuals are inherently shareable, and the mystery of glowing ecosystems fuels endless curiosity loops. With high‑contrast night footage and time‑lapse sequences, the content is easily adaptable across platforms, ensuring scroll‑stopping hooks. The niche is fresh, not saturated by the listed topics, and can generate thousands of viral ideas by exploring different biomes, species, and phenomena.",
+      "ideas": [
+        "Title / Hook: The Night Forest That Illuminates Itself – 7 Hours of Glowing Wilderness! | Do you believe a forest can light up?",
+        "Title / Hook: Rise of the Bioluminescent Insects – How Nature is Building the First Natural LED. | Watch them paint the night!",
+        "Title / Hook: What Happens When a Forest Lights Up? The Stunning Glow of Mangrove Nightscape. | You’ll never see a jungle the same way again!"
+      ],
+      "keywords": [
+        "Glowing Vines",
+        "Night‑Time Jungle",
+        "Neon Fungi",
+        "Luminous Insects",
+        "Electric Mist"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
