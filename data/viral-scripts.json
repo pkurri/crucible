@@ -12442,43 +12442,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Your next paycheck might already be in code.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "Eye in the Sky AI",
+        "icon": "🛰️"
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
-        "duration": 4
+        "title": "Manipulation",
+        "name": "The Persuasion Engine",
+        "icon": "🎭"
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
+        "title": "Control",
+        "name": "Brainlink Nexus",
+        "icon": "🧠"
       },
       {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
+        "title": "Infiltration",
+        "name": "Ghost Agent Protocol",
+        "icon": "👻"
       },
       {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
+        "title": "Judgment",
+        "name": "Zero-Trust Judge",
+        "icon": "⚖️"
       },
       {
-        "text": "Would your desk be next?",
-        "duration": 4
+        "title": "Sabotage",
+        "name": "Code Wrecker",
+        "icon": "💥"
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
+        "title": "Economy",
+        "name": "Capital Cascade",
+        "icon": "📉"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the AI that can replace your spouse.",
-        "duration": 4
+        "title": "Privacy",
+        "name": "Dataless Veil",
+        "icon": "🌫️"
       }
     ]
   },
@@ -12524,43 +12530,49 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Whale Watch",
+        "name": "The Silent Whale",
+        "icon": "🐋"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Hidden Leap",
+        "name": "Flash Loan Leverage",
+        "icon": "⚡"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Token Trap",
+        "name": "Pump & Dump Spy",
+        "icon": "📈"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Secret Funnel",
+        "name": "Order Book Blackhole",
+        "icon": "🕳️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Hidden Gas",
+        "name": "Low Fee Magic",
+        "icon": "⛽"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Bounty Hunt",
+        "name": "Micro Reward Sats",
+        "icon": "💰"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Chain Whisper",
+        "name": "Cross‑Chain Secrets",
+        "icon": "🔀"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Alliance Notes",
+        "name": "Insider Partnerships",
+        "icon": "🤝"
       }
     ]
   },
@@ -35658,43 +35670,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Capital City",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "River City",
+        "name": "Glowhaven",
+        "icon": "🌊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mountain City",
+        "name": "Peaklight",
+        "icon": "🏔️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Coastal City",
+        "name": "Seavivid",
+        "icon": "🌊"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Forest City",
+        "name": "Sylvan Glow",
+        "icon": "🌲"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Desert City",
+        "name": "Sirocco Glow",
+        "icon": "🏜️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Isle City",
+        "name": "Isle Dazzle",
+        "icon": "🏝️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Urban Jungle",
+        "name": "Neon Nexus",
+        "icon": "🌿"
       }
     ]
   },
@@ -46368,6 +46386,47 @@
     "lines": [
       {
         "text": "Nobody talks about the truth of TrashTechMarvels.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1783652092148": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1783652092148.",
         "duration": 5
       },
       {
