@@ -12442,49 +12442,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Surveillance",
-        "name": "Eye in the Sky AI",
-        "icon": "🛰️"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Manipulation",
-        "name": "The Persuasion Engine",
-        "icon": "🎭"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Control",
-        "name": "Brainlink Nexus",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Infiltration",
-        "name": "Ghost Agent Protocol",
-        "icon": "👻"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Judgment",
-        "name": "Zero-Trust Judge",
-        "icon": "⚖️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Sabotage",
-        "name": "Code Wrecker",
-        "icon": "💥"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Economy",
-        "name": "Capital Cascade",
-        "icon": "📉"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Privacy",
-        "name": "Dataless Veil",
-        "icon": "🌫️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12520,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -35670,49 +35664,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Capital City",
-        "name": "Lumenopolis",
-        "icon": "🌆"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "River City",
-        "name": "Glowhaven",
-        "icon": "🌊"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Mountain City",
-        "name": "Peaklight",
-        "icon": "🏔️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Coastal City",
-        "name": "Seavivid",
-        "icon": "🌊"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Forest City",
-        "name": "Sylvan Glow",
-        "icon": "🌲"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Desert City",
-        "name": "Sirocco Glow",
-        "icon": "🏜️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Isle City",
-        "name": "Isle Dazzle",
-        "icon": "🏝️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Urban Jungle",
-        "name": "Neon Nexus",
-        "icon": "🌿"
+        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -40393,39 +40381,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Imagine your city glowing like a midnight forest.",
+        "text": "Nobody talks about the truth of BioluminescentCities.",
         "duration": 5
       },
       {
-        "text": "Today we reveal the power that’s turning skylines into LEDs.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Solar‑mesh panels turn streetlights 95% brighter.",
-        "duration": 5
-      },
-      {
-        "text": "For every mile walked, bioluminescent algae convert CO₂ into pure oxygen.",
-        "duration": 5
-      },
-      {
-        "text": "Cities recoup 7‑year construction debt just by glowing at night.",
-        "duration": 5
-      },
-      {
-        "text": "But the real wonder is how these lights sync into a living rhythm.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Missing this means you’ll lose a billion star‑shaped stories.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
-        "text": "Next up: Cities that breathe water instead of air.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -46501,6 +46489,53 @@
       {
         "text": "Next up: turning neon streams into real money streams.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1783668985266": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1783668985266 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1783668985266, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Mechanics",
+        "name": "Quantum Drift",
+        "icon": "⚡"
+      },
+      {
+        "title": "Advanced Tactics",
+        "name": "Shadow Pulse",
+        "icon": "🌀"
+      },
+      {
+        "title": "Resource Management",
+        "name": "Flux Reserve",
+        "icon": "💧"
+      },
+      {
+        "title": "Skill Trees",
+        "name": "Eclipse Throne",
+        "icon": "🌑"
+      },
+      {
+        "title": "Equipment Mastery",
+        "name": "Nebula Blade",
+        "icon": "🗡️"
+      },
+      {
+        "title": "Combat Strategies",
+        "name": "Phantom Burst",
+        "icon": "👻"
+      },
+      {
+        "title": "Stealth Operations",
+        "name": "Silent Gear",
+        "icon": "🤐"
+      },
+      {
+        "title": "Character Progression",
+        "name": "Celestial Ascend",
+        "icon": "🌠"
       }
     ]
   }
