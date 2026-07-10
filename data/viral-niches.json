@@ -19602,6 +19602,30 @@
         "Electric Mist"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentSkylines",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "With the growing fascination around bio‑hacking, sustainable urban design, and neon‑filled aesthetic culture, a visually stunning niche that blends science with sci‑fi has minimal direct competition. The concept of cities that glow using engineered organisms taps into both environmental optimism and spectacle, offering endless scroll‑stopping hooks and curiosity loops—perfect for high‑frequency viral uploads.",
+      "ideas": [
+        "Night‑Bite: How Algae Power a Midnight City (watch the city light up on a single wave)",
+        "From Dark to Neon: Turning Urban Rooftops into Bio‑Glowing Parks (50 seconds of pulsating light)",
+        "The Infinity Light‑Show: Time‑Lapse of a Bioluminescent Subway System (minutes of continuous glow)"
+      ],
+      "keywords": [
+        "glowing",
+        "algae",
+        "neon",
+        "bioluminescence",
+        "futuristic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
