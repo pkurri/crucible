@@ -19485,6 +19485,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "TrashTechMarvels",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Waste‑to‑tech transforms a universally relatable problem into awe‑inducing wonder. By showcasing cutting‑edge upcycling, 3D‑printed smart devices, and clandestine salvage projects, the niche hooks both eco‑conscious viewers and tech enthusiasts. The universal urgency of plastic pollution, combined with easy, shareable visual demonstrations, fuels rapid sharing, high replay value and strong community engagement. Its novelty, combined with actionable creative inspiration, gives it a compelling differentiation that can scale beyond 1M subscribers and 100K views per video.",
+      "ideas": [
+        "Title: ‘From Trash to Treasure: 3D‑Printed Smart Sunscreen! ? — You’ll Never Guess the Materials Used’",
+        "Title: ‘Dumpster 404: The Hidden Machine that Turns Plastic Bottles into Solar Panels (Step‑by‑Step)’",
+        "Title: ‘Micro‑Wasted Worlds: Building a Self‑Sustaining Garden From San‑Glares—The Secret Design!’"
+      ],
+      "keywords": [
+        "upcycling",
+        "3dprint",
+        "plastictransform",
+        "ecoinnovation",
+        "waste‑tech"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
