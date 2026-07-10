@@ -19626,6 +19626,30 @@
         "futuristic"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero-Gravity Cooking blends the universally loved hobby of food prep with the mind‑bending physics of space. NASA releases are often overcrowded with tech demos, yet people crave sensory, bite‑size spectacle. The look of ingredients flying, dough rising, and sauces swirling is inherently eye‑catching, perfect for short clips on Meta platforms and engaging, scroll-stopping YouTube videos. The concept can be expanded across every cuisine, from pizza to ramen, offering a steady stream of repeatable, high‑visual content that keeps viewers hooked by continuous curiosity loops and novelty. With the explosive trend of food experiments and space fascination, this niche can realistically reach 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "First Ever Space Pizza: Watch the Dough Defy Gravity – 5 Seconds of Floating Dough at 10x Speed",
+        "Zero‑Gravity Burger Challenge: Do These Toppings Stay Put? (Mouthwatering 30‑Second Drops)",
+        "How to Cook Ramen in Microgravity: The Weird Egg Trick Guaranted to Surprise You!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceKitchen",
+        "FloatingFood",
+        "MicrogravityMeals",
+        "AstroCulinary"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
