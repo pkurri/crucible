@@ -19650,6 +19650,30 @@
         "AstroCulinary"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "This niche fuses cutting‑edge bioengineering, sustainability, and the wonder of fungi—all hot topics with broad appeal. The visual‑rich concept of mushroom‑based cities offers endless scroll‑stopping hooks, a high curiosity loop, and fresh differentiation from other architecture or science channels, positioning it to capture 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "The Mycelium Metropolis: How Spores Could Build Tomorrow’s Skyscrapers! – “What if your city was built out of mushroom roots? Watch the bio‑engineering breakthrough that could reshape urban living.”",
+        "From Spore to Skyscraper: Inside the First Fungus‑Designed Megastructure! – “Architects are human: imagine a mushroom architect. See the real blueprint that’s changing the skyline.”",
+        "The Secret Cities Growing Under Our Feet? Fungal Architecture Revealed! – “Underground fungal cities are the future of sustainable housing—here’s the tech behind the ecosystem.”"
+      ],
+      "keywords": [
+        "MyceliumCityscape",
+        "SporeSkyscrapers",
+        "BioengineeredMushrooms",
+        "FungalArchitecture",
+        "SustainableSpores"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
