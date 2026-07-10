@@ -19749,6 +19749,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Awe",
+      "reason": "FungalFutureCities blends the visual magic of bioluminescence with the cutting‑edge science of mycelium‑based building materials. With the global push for climate‑resilient urban design, audiences crave content that shows a tangible vision of sustainable tomorrow. Faceless production is perfect—time‑lapse of a forest‑style skyscraper, animated simulations of mycelium growth, and narrated eco‑impact stats can be delivered with striking visuals and minimal production costs, perfect for scrolling feeds.",
+      "ideas": [
+        "Mycelium Skyscrapers: The 24‑Hour Time‑Lapse of a Fungus‑Powered City – Hook: \"Watch a 300‑story building come alive from seed to skyline in under 2 minutes!\"",
+        "Bioluminescent Roofs: How Cities Will Glow at Night – Hook: \"Your streetlamp might get a serious makeover—see how fungi are lighting Amsterdam in 90 seconds.\"",
+        "The Carbon‑Negative Housing Market Explained in 60 Seconds – Hook: \"Could a mushroom bridge the energy gap? The science behind mycelium homes, simplified in a one‑minute video.\""
+      ],
+      "keywords": [
+        "mycelium fiber",
+        "bioluminescent architecture",
+        "sustainable skyscraper",
+        "green facade",
+        "fungus construction"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
