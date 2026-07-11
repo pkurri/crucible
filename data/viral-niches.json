@@ -20071,6 +20071,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCuisine",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "The recent surge in public interest around space missions, coupled with community experiments and the novelty of food preparation beyond Earth, creates a perfect storm for viral faceless content. By presenting zero‑gravity cooking through high‑quality animations and playful storytelling, the niche uniquely blends science, lifestyle, and future tech—fields that already dominate YouTube trends. The format requires no on‑camera live action, making it easy to produce and scale with minimal overhead, while the emotional pull of wonder keeps viewers hooked. Thousands of people are now searching for ‘space food’, ‘zero‑gravity experiments’, and ‘future cooking hacks’, establishing a large and hungry audience ready to hit 100K+ views per video.",
+      "ideas": [
+        "Crispy Space Pizza: How to Slice in Zero Gravity? (Hook: ‘Watch pizza float that perfect slice!’)",
+        "Zero‑Gravity Soup Challenge: Can You Stir It Without a Spoon? (Hook: ‘Let’s see if gravity even matters!’)",
+        "10 Space‑Ready Recipes for Earth‑bound Foodies (Hook: ‘Try astronaut-approved meals right in your kitchen!’)"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceKitchen",
+        "FloatingFood",
+        "SpaceMade",
+        "FutureCooking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
