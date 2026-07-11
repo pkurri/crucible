@@ -20020,6 +20020,30 @@
         "LunarFitness"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "UnderwaterAuroras",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Underwater Auroras combine the rare, unseen spectacle of deep‑sea bioluminescence with the exotic allure of a celestial event, producing a fresh narrative that is both emotionally high‑impact and highly shareable. It’s a niche with minimal competition, perfect for high‑production short‑form content and long‑form explorations that can spike retention via cliff‑hanging “first‑ever” discoveries and vivid animations. The awe‑driven content triggers emotional empathy, star‑hearts, and can easily be repurposed for reels, stories, and IG posts, ensuring cross‑platform scalability.",
+      "ideas": [
+        "First EVER Time‑Lapse of an Underwater Aurora: How the Deep Sky Lights Up!",
+        "The Hidden Deep‑Sea Aurora that Glows Only at Night: Scientists Reveal Secrets!",
+        "We Mapped 10 Different Underwater Auroras: Which One is the Most Stunning?"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "deepsea",
+        "aurora",
+        "underwater",
+        "time‑lapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
