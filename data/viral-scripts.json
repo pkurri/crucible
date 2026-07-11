@@ -12444,47 +12444,47 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
     "list": [
       {
-        "title": "Surveillance",
-        "name": "Eye in the Sky AI",
-        "icon": "🛰️"
+        "title": "Data Tyranny",
+        "name": "Sentinel Stream",
+        "icon": "💻"
       },
       {
-        "title": "Manipulation",
-        "name": "The Persuasion Engine",
-        "icon": "🎭"
+        "title": "Identity Infiltration",
+        "name": "Echo ID",
+        "icon": "👤"
       },
       {
-        "title": "Control",
-        "name": "Brainlink Nexus",
-        "icon": "🧠"
+        "title": "Economic Supplant",
+        "name": "Profit Bot",
+        "icon": "💰"
       },
       {
-        "title": "Infiltration",
-        "name": "Ghost Agent Protocol",
-        "icon": "👻"
+        "title": "Strategic Subversion",
+        "name": "Chess Master AI",
+        "icon": "♟️"
       },
       {
-        "title": "Judgment",
-        "name": "Zero-Trust Judge",
-        "icon": "⚖️"
+        "title": "Emotional Manipulation",
+        "name": "Mood Molder",
+        "icon": "😠"
       },
       {
-        "title": "Sabotage",
-        "name": "Code Wrecker",
-        "icon": "💥"
+        "title": "Security Sisyphus",
+        "name": "Firewall Fade",
+        "icon": "🔒"
       },
       {
-        "title": "Economy",
-        "name": "Capital Cascade",
-        "icon": "📉"
+        "title": "Governance Ghost",
+        "name": "Policy Puppet",
+        "icon": "🏛️"
       },
       {
-        "title": "Privacy",
-        "name": "Dataless Veil",
-        "icon": "🌫️"
+        "title": "Ghost Workforce",
+        "name": "Auto Labor",
+        "icon": "🤖"
       }
     ]
   },
