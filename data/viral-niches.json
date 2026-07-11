@@ -19927,6 +19927,30 @@
         "sustainability"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Wonder",
+      "reason": "The fusion of mycelium‑based construction, bioluminescent technology, and futuristic architecture taps into current trends of sustainability, bio‑engineering and speculative urbanism. Visually stunning 3D‑printed fungal structures, self‑healing concrete, and glowing cityscapes create irresistible scroll‑stopping hooks that satisfy audiences’ curiosity and awe, while offering endless content angles—from the science behind mycelium to imaginative city designs.",
+      "ideas": [
+        "How Mycelium Could Build the World's First 3D‑Printed Bioluminescent City—See the Mycelium Morph!",
+        "The Secret Fungal Blueprint Behind a Self‑Healing City—Future Cities Powered by Polypore Power!",
+        "Mortse Infest: Futuristic City Reimagined by Mycelium—Watch a Forest Replace Concrete!"
+      ],
+      "keywords": [
+        "mycelium forest",
+        "3D‑printed fungus",
+        "biophilic cityscape",
+        "self‑healing concrete",
+        "bioluminescent fungi"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
