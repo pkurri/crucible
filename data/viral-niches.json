@@ -19905,6 +19905,28 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "UrbanRewilding",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Urban Rewilding taps into the growing trend of cities turning abandoned or underutilized spaces into biodiverse havens. It offers high‑impact visual content – dramatic before‑and‑after, time‑lapse restoration of concrete into lush green, and surprising wildlife discoveries. The niche is pure, not over‑crowded, and it fuels curiosity while sparking wonder about nature reclaiming urban life.",
+      "ideas": [
+        "Transform a Vacant Lot Into a Wild Sanctuary – 60‑Day Time‑Lapse / \"Can You Turn Concrete into Green? Watch It Happen!\""
+      ],
+      "keywords": [
+        "time-lapse",
+        "before-after",
+        "wildlife",
+        "urban-eco",
+        "sustainability"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
