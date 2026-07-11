@@ -19996,6 +19996,30 @@
         "underwater wonders"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityFitness",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero-Gravity Fitness captures the current fascination with space exploration and fitness tech, offering visually stunning, scroll‑stopping workouts that are not yet saturated on YouTube or the meta platforms. With growing interest in astronaut training, nano-botics, and anti‑gravity tech, audiences are primed for fresh, mind‑blowing content that can easily cascade from short‑form reels to long‑form vlogs while retaining a faceless, stock‑ile‑style aesthetic.",
+      "ideas": [
+        "Zero-Gravity Chest Workout: 5 Exercises That Defy Physics – Hook: *Ever wondered what a push‑up looks like in space? Watch this!*",
+        "Recovery in Zero Gravity: How Astronauts Rebuild Muscles – Hook: *Can muscle repair happen without gravity? The answer will shock you!*",
+        "Zero-Gravity Aerobics: 3 Minutes That Leave Normal Gym Trainers Speechless – Hook: *What if your cardio could be that easy? Dive in and stare in disbelief!*"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceWorkout",
+        "GravityDefying",
+        "CosmicGym",
+        "LunarFitness"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
