@@ -20095,6 +20095,30 @@
         "FutureCooking"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities and buildings constructed from living microbes combines cutting‑edge biotechnology with astonishing visuals—self‑healing walls, bioplastic skyscrapers, and active green infrastructure that grow in real time. This niche is socio‑tech, eco‑tonic, and highly shareable, with plenty of hook‑worthy promises (“build an entire living house overnight”). It stands apart from generic eco‑topics, offers scroll‑stopping footage, and fuels a strong curiosity loop. With so many angles (from bioplastic production to microbial energy storage), more than 25 unique viral ideas can be produced, making it a mass‑appeal, high‑velocity channel.",
+      "ideas": [
+        "‘My House Was Built From Living Microbes—Watch It Grow in 30 Minutes!’ / Hook: ‘Imagine your home repair itself in real time…’",
+        "‘The Self‑Healing Wall That Can Close a Leak in Seconds!’ / Hook: ‘What if your walls fixed themselves?’",
+        "‘Bioplastic Skyscraper: The Future of Sustainable Architecture!’ / Hook: ‘See a building made entirely from mushrooms!’"
+      ],
+      "keywords": [
+        "Microbial",
+        "Livingwalls",
+        "Self‑healing",
+        "Bioplastic",
+        "Bioarchitecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
