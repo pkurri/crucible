@@ -19972,6 +19972,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "UnderwaterAurora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "The underwater aurora concept blends the surreal beauty of natural light displays with the mystery of the deep sea. It differs from other “deep sea anomalies” topics by focusing on visually stunning, rarely filmed bioluminescent phenomena. The hook of ‘aurora at sea’ offers a refreshing twist that instantly stops scrolling, while the curiosity loop around how they form keeps viewers engaged. High‑resolution footage and immersive narratives fuel strong retention and shareability, enabling a steady stream of 25+ unique viral ideas. With the rise of short‑form visual storytelling, this niche is primed for meta reels and YouTube Shorts, ensuring rapid audience growth and sustained view counts.",
+      "ideas": [
+        "10 Most Breathtaking Underwater Aurora Light Shows & How They Happen / Watch the ocean glow like never before—discover the science behind each shimmering wave!",
+        "Why Scientists Are Obsessed With Underwater Aurora—The Truth Behind This Natural Phenomenon / Think auroras only appear in the sky? Prepare to be amazed as we dive into the sea’s glowing secrets!",
+        "Can We Travel to the Underwater Aurora? Virtual Reality Dive Into the Dark Zone / Ever imagined floating through a glowing ocean? See what future explorers might experience!"
+      ],
+      "keywords": [
+        "bioluminescence",
+        "deep sea",
+        "glowing ocean",
+        "spectral lights",
+        "underwater wonders"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
