@@ -20143,6 +20143,30 @@
         "glimmering quantum lattice"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityGrow",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Zero‑gravity agriculture taps into the explosive public fascination with space exploration, sustainable living, and futuristic tech. With NASA and commercial spaceflight taking center stage, viewers are hungry for exclusive, visual‑rich content that shows life beyond Earth’s gravity. The niche blends science, DIY, and dramatic visuals—perfect for scroll‑stopping hooks and curiosity loops—while offering endless angles (hydroponics, seed sprouting, crop yield, environmental impact, human live‑testing).",
+      "ideas": [
+        "The First Zero‑G Garden Ever Built! Watch Plants Grow in Space 24/7 – Hook: ‘Ever seen a plant float in your living room?’",
+        "How to Grow Your Own Fruit in Zero Gravity – NASA‑Approved Hacks – Hook: ‘Imagine picking strawberries on the International Space Station!’",
+        "Space Farming Secrets: 5 Amazing Plants That Thrive in Zero‑G – Hook: ‘These garden heroes will change the future of food!’"
+      ],
+      "keywords": [
+        "ZeroG",
+        "SpaceGarden",
+        "Gravityfree",
+        "OrbitGrow",
+        "FutureFarming"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
