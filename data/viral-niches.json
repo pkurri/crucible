@@ -20188,6 +20188,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "The concept of turning entire cityscapes into LED‑free, living bioluminescent glowing environments captivates viewers with a striking visual hack of nature versus technology. It offers limitless, high‑contrast content—time‑lapse city glow‑ups, behind‑the‑science demos, and relatable “future reality” scenarios—guaranteeing scroll‑stopping hooks, high curiosity loops, and shareable wonder. With the current trend toward sustainable urban design, immersive 4K visual storytelling, and viral “future tech” content, the niche can quickly hit 1M+ subs and >100K views per video.",
+      "ideas": [
+        "NYC Illuminated by 10,000+ Bioluminescent Lights – Will Streetlamps Ever Be Needed?",
+        "Tokyo’s Midnight Glow: A City Powered by Living Light – Here’s How It Works!",
+        "Scientists Build First Bioluminescent City Model – Watch It Light Up in Seconds"
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "Urban",
+        "NeonGlow",
+        "TimeLapse",
+        "LivingLights"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
