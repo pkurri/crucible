@@ -20437,6 +20437,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialPowerPioneers",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Microbial energy combines cutting‑edge bio‑science with the global urgency around sustainable power—capturing widespread wonder and curiosity. The niche is fresh enough to stand out from existing biopharma and food‑centric channels yet offers endless hook potential (living batteries, micro‑power plants, real‑time demos). Its visual and emotional impact guarantees scroll‑stopping content that scales across millions of viewers.",
+      "ideas": [
+        "This Tiny Microbe Powers a Small Town  – Watch It Work!  / Imagine a single bacterium turning water into electricity—see a whole town ignite.",
+        "The Future of Energy: 5 Microbial Power Plants Explained  – How Bio‑Fuel Can Outsmart Solar",
+        "Microbial Batteries: The World’s First Living Power Storage  – We built a battery powered by microbes that can charge your phone for days!"
+      ],
+      "keywords": [
+        "microbial",
+        "bioelectricity",
+        "green energy",
+        "sustainable",
+        "living battery"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
