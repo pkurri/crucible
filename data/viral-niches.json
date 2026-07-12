@@ -20368,6 +20368,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityGardening",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The fascination with space and Mars colonization fuel a growing audience eager to see photography of plants floating in micro‑gravity. Feeding astronauts sustainably is a headline‑grabbing challenge. Combining science, new tech (hydroponics, LED lights, AI monitoring) and visually stunning footage of lettuce and other greens drifting in orbit creates high‑retention, scroll‑stopping content that stands out from existing ‘zero‑gravity cooking’ niches.",
+      "ideas": [
+        "\"How to Grow Fresh Salad in Zero Gravity – NASA’s New Space Farm Experiment!\" / Hook: ‘Ever wondered if you can taste fresh salad from orbit? Watch the breakthrough experiment that shows orbit-grown lettuce sprout and stay crisp!’",
+        "\"Zero‑Gravity Hydroponics Showdown – Plant Growth Without Earth's Pull!\" / Hook: ‘See the jaw‑dropping moment a carrot sprouts in 0g, and find out how engineers made it happen!’",
+        "\"From Earth to Mars: Real Space Gardening Demo – Will Chef Space Grow Your Food?\" / Hook: ‘Watch as astronauts grow leafy greens in a spacecraft, and find out how this could fuel life on Mars!’"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "Hydroponics",
+        "SpaceGardening",
+        "Microgravity",
+        "SpaceFood"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
