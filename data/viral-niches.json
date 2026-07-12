@@ -20392,6 +20392,30 @@
         "SpaceFood"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SolarIslandTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Floating solar islands tap into three booming interests—climate‑action, cutting‑edge renewable tech, and visually stunning engineering. The concept is novel yet grounded in real projects, offers endless \"how‑it‑works\" content, and naturally lends itself to scroll‑stopping visuals and curiosity loops, positioning it for massive audience reach and rapid monetization.",
+      "ideas": [
+        "The World’s Largest Floating Solar Farm: How 70,000 Panels Stay on the Ocean – Hook: \"Imagine a giant sunlit island covering an area larger than a football field—this is the future of clean energy.\"",
+        "Solar Islands vs Traditional Solar Farms: 5 Reasons Why Oceans Are the Next Frontier – Hook: \"If sea levels rise, solar islands could stay afloat—here’s why they beat ground‑based panels.\"",
+        "Inside the Design of a Floating Solar Island: Engineering Marvels You’ll Love – Hook: \"Ever wondered how a 600‑meter long solar platform can survive waves? Let’s explore the hidden tech.\""
+      ],
+      "keywords": [
+        "Floating",
+        "Solar",
+        "RenewableEnergy",
+        "Ocean",
+        "Innovation"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
