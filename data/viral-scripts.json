@@ -47288,5 +47288,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1783829447825": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1783829447825 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1783829447825.",
+    "list": [
+      {
+        "title": "Algorithm",
+        "name": "MetaPulse Tool",
+        "icon": "🔢"
+      },
+      {
+        "title": "Analytics",
+        "name": "Data-Driven Hook",
+        "icon": "📊"
+      },
+      {
+        "title": "Audience",
+        "name": "Subscriber Magnet",
+        "icon": "🧲"
+      },
+      {
+        "title": "Automation",
+        "name": "ZapFlow Integrator",
+        "icon": "🤖"
+      },
+      {
+        "title": "Asset",
+        "name": "Content Vault",
+        "icon": "🗃️"
+      },
+      {
+        "title": "Authorship",
+        "name": "Influence Ledger",
+        "icon": "🪙"
+      },
+      {
+        "title": "Amplify",
+        "name": "Growth Engine",
+        "icon": "🚀"
+      },
+      {
+        "title": "Ad",
+        "name": "Ad Optimizer",
+        "icon": "💰"
+      }
+    ]
   }
 }
