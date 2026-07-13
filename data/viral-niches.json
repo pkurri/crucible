@@ -20527,6 +20527,30 @@
         "ElectrostaticReactor"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "UrbanTimeCapsule",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Urban time capsules are a niche that blends nostalgia, future‑prediction intrigue and the thrill of discovery, all of which hook viewers instantly. The content is inherently scroll‑stopper: a sealed box buried for decades, the anticipation of what’s inside, and the often surprising reveal. There are thousands of cities with such capsules—each an entirely different story—so the concept scales massively. The emotional payoff (wonder, shock, a dose of nostalgic awe) fuels shares and repeat visits, making it ripe to hit 1M+ subscribers and >100k views per video quickly.",
+      "ideas": [
+        "15,000 Years of History in One Box: Inside the 1932 NYC Time Capsule (Shocking Revelation!)",
+        "The 1979 Time Capsule from a Forgotten Subway Tunnel – What Did They Predict About 2025?",
+        "Unexpected 1990s Time Capsule Found Inside a New Mexico Loo – Is It Science Fiction or Reality?"
+      ],
+      "keywords": [
+        "TimeCapsule",
+        "UndergroundSecrets",
+        "FuturePredictions",
+        "UrbanDiscoveries",
+        "Nostalgia"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
