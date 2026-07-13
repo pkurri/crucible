@@ -20740,6 +20740,30 @@
         "Floating"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LuminoGardens",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Wonder",
+      "reason": "LuminoGardens blends cutting‑edge biotechnology with aesthetic allure, offering a fresh visual obsession that sparks curiosity and wonder. Neon‑lit flora, time‑lapse growth, and the promise of a sustainable glow‑eco garden tap into current trends like biophilic design, plant parenthood, and immersive science storytelling, creating irresistible hooks for scrolling audiences and high shareability.",
+      "ideas": [
+        "Why Every Dreamy Nighttime Garden Will Glow in 2025 – *The secret bio‑ink plants use to light up streets*",
+        "I Set Up a Bioluminescent Garden in My Backyard – *Watch the transformation from dusk to electric dawn*",
+        "How Scientists Are Engineering Self‑Lighting Plants – *Is this the future of sustainable gardening?*"
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescent",
+        "neon",
+        "moonlit",
+        "electric"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
