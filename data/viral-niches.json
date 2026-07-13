@@ -20716,6 +20716,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking blends the allure of space with everyday kitchen curiosity—a niche with minimal competition yet high visual spectacle. The scarcity of realistic, high‑quality microgravity cooking content drives curiosity and shareability, making it ripe for rapid viral amplification across TikTok, Instagram Reels, and YouTube Shorts.",
+      "ideas": [
+        "Zero‑G Pizzas: How to Flip a Pizza in 5 Seconds of Weightlessness! | Witness the impossible spin of a pizza in space.",
+        "Space Frying Challenge: Can You Beat the Crash of a Bat Above the Ukrainian Skies? | Watch a fry float, collide, and re‑cooking in zero‑G.",
+        "Cosmic Kitchen Confusion: Making Micro‑Gravity Pancakes in Under 2 Minutes – The Unexpected Sticky Result | A twist on breakfast that defies physics."
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "Microgravity",
+        "Weightless",
+        "Floating"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
