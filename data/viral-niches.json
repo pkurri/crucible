@@ -20575,6 +20575,30 @@
         "CelestialBites"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AugmentedRealityFarming",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "AR technology is exploding while people’s desire for sustainable, easy gardening solutions is higher than ever. A niche that blends vivid AR visuals with tangible farm‑ing tips creates instant surprise, shareability, and endless tweakability. The format works cross‑platform: Instagram/Meta feeds hook viewers with a realistic garden “before/after” transform, while YouTube offers longer tutorials and community challenges. High‑contrast, close‑up shots of AR plants, soil‑like effects, and real‑time plant growth guarantee scroll‑stopping hooks and endless curiosity loops.",
+      "ideas": [
+        "You Won’t Believe This AR Farm Turns Your Balcony Into a 3D Garden in Seconds – #ARGarden",
+        "Grow a Virtual Tomato in Your Living Room with 5 Easy Steps – AR Gardening 101",
+        "From City Bench to Orchard: How AR Transforms Urban Space in Real Time"
+      ],
+      "keywords": [
+        "Augmented",
+        "Interactive",
+        "Gardening",
+        "Reality",
+        "Shrub"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
