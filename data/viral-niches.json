@@ -20860,6 +20860,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "UrbanMushroomForaging",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Urban mushroom foraging taps into the surge of interest in sustainable city living, wild food, and adventure. With striking visuals of hidden fungi in city alleys, the niche offers endless hooks – from seasonal discoveries to recipe transformations – that keep viewers scrolling and sharing. The unique angle of edible nature farming in concrete jungles sets it apart from existing fungal or urban agriculture themes, ensuring differentiation and high retention potential.",
+      "ideas": [
+        "Hidden City Spores: Discover the Chicagoland Mushroom Bombs You Can Eat Tonight – Hook: ‘What if your next dinner could be found hiding under the city’s old brick?’",
+        "The Friday Night Forager: 7 Edible Mushrooms You Can Find in New York City Parks – Hook: ‘Grab a basket, I’ll show you the top spots before the crowd shows up.’",
+        "From Spores to Plate: Cooking a 5-Star Meal with Only Urban Mushrooms – Hook: ‘Feed your housemates with nothing but the city’s own wild ingredients.’"
+      ],
+      "keywords": [
+        "GlowingFungi",
+        "UrbanJungle",
+        "EdibleSpores",
+        "NightTreasure",
+        "HiddenGems"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
