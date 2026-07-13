@@ -20551,6 +20551,30 @@
         "Nostalgia"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Modern audiences are captivated by space exploration and the quirky unknowns of zero‑gravity life. Zero‑gravity cooking blends cutting‑edge science with everyday culinary curiosity, making it easy to create visually stunning ‘scroll‑stopping’ moments that spark wonder and shareability across both YouTube and Instagram Reels without competing with saturated niches.",
+      "ideas": [
+        "How to Make a Space Burger in Zero Gravity – Watch the Meat Roll by Itself!",
+        "Baking a Cake in Orbit: The Sweetest Paradox of No‑Gravity Baking",
+        "Zero‑Gravity Pasta: The Recipe That Skips Cloud‑Like Sizzling!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "OrbitKitchen",
+        "ZeroG",
+        "CelestialBites"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
