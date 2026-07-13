@@ -20650,6 +20650,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "EcoAIHome",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "EcoAIHome blends the explosive growth of AI with the urgent global focus on sustainability. Viewers crave tangible, proven methods to reduce energy costs and carbon footprints. AI-powered smart home solutions are a fresh, unexplored angle that promises practical results, powerful visual transformations, and clear value. The niche is highly differentiable, packed with scroll‑stopping hooks, and offers endless content potential—from AI home audits to automated garden systems—making it perfect for 1M+ subscriber growth.",
+      "ideas": [
+        "AI That Cut My Energy Bill by 25% Overnight – Verify It Yourself",
+        "How I Let a Smart AI Plant a Rainbow Forest Inside My Living Room",
+        "The Invisible AI Detector That Found 150kWh Hidden Waste – Now Replacing It"
+      ],
+      "keywords": [
+        "AI-powered",
+        "smart home",
+        "energy efficiency",
+        "green living",
+        "DIY automation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
