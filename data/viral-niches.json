@@ -20599,6 +20599,30 @@
         "Shrub"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroWorldExploration",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The microscopic universe remains largely unseen by the public and offers endless visually stunning content—from biofilms and plankton to granular dust motility. With growing interest in microbiomes, nanotechnology, and untapped biological diversity, a faceless channel that delivers high‑resolution time‑lapse and 3D visualizations can become a daily feed people’ll binge‑watch. The niche is distinct from existing biology or nature channels, has natural scroll‑stopping hooks (tiny, unexpected creatures doing unimaginable activities), and supports an infinite content pipeline.",
+      "ideas": [
+        "The Tiny Jungle Inside a Drop of Water | 4K Time‑Lapse of Micro‑Flora",
+        "Hidden Cities on a Beach: A 3‑D Microscopic Walk‑Through",
+        "Meet the Invisible Super‑Sculptors that Build Your Dust Bunnies"
+      ],
+      "keywords": [
+        "Microcosm",
+        "Microscopic",
+        "Time‑Lapse",
+        "Hidden",
+        "Nano"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
