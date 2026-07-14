@@ -21232,6 +21232,30 @@
         "FutureTech"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combining the rising fascination with sustainable tech, bioprinting and mycelium—the world’s fastest-growing building material—into a visually stunning, entirely living metropolis offers a fresh, heart‑stopping vision that hasn't been explored yet. The concept is inherently visual, perfect for scroll‑stopping thumbnails and intrigue loops, and lends itself to 25+ story variations such as mushroom skyscrapers, biosynthetic roadways, and roaming biomechanical cities. This novelty, paired with clear sustainability narratives, taps into current environmental consciousness, providing a unique hook for viral traction on both YouTube and Meta.",
+      "ideas": [
+        "Mushroom Skyscrapers: Watch a 30‑meter high, living building sprout in 48 hours – the future of urban walls revealed!",
+        "Bioluminescent Roads: See how glowing mycelium circuits light up a city without batteries, and why this could save billions!",
+        "The City that Grows Itself: Inside the first prototype of a self‑repairing, fungus‑powered metropolis – is this the end of demolition?"
+      ],
+      "keywords": [
+        "mycelium architecture",
+        "bioluminescent city",
+        "fungal skyscraper",
+        "living street lights",
+        "grown cityscape"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
