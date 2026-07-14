@@ -21112,6 +21112,30 @@
         "NighttimeStorm"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The world’s growing obsession with sustainability and biophilic design is converging on a visceral, tangible concept: cities engineered from fungus. Mycelium can replicate concrete’s strength while decomposing naturally, offering a radical alternative to urban infrastructure. Combos of striking visual elements (giant mushroom towers, bioluminescent spore streets), futuristic cultural relevance, and accessible science storytelling make it ripe for viral scroll‑stopping hooks. The niche is fresh enough to stand out from traditional architecture channels yet grounded in real emerging tech, ensuring a large potential audience and long‑term growth as the trend amplifies.",
+      "ideas": [
+        "The FUNGAL CITY THAT WILL Rewire Urban Design—Watch How Mycelium Replaces Concrete!",
+        "What Happens When A Huge Mushroom City Takes Over Your Neighborhood? (A Time‑Lapse Reveal)",
+        "Can Mushrooms Build a Skyline? Inside the Science Lab Creating Mycelium Megastructures"
+      ],
+      "keywords": [
+        "giant mushroom towers",
+        "bioluminescent spore streets",
+        "living concrete",
+        "mycelium skylines",
+        "biophilic architecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
