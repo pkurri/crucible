@@ -21208,6 +21208,30 @@
         "Narrative"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIPoweredClimateEngineering",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The intersection of AI and climate engineering taps into two high‑interest worlds—artificial intelligence and urgent environmental solutions. It differentiates itself from existing tech or climate niches by focusing on how machine learning is actively shaping geo‑engineering experiments, policy simulations, and real‑world deployments. The topic is timely as governments and tech companies increasingly invest in AI‑driven climate solutions, sparking debate, skepticism, and awe. Every episode can hook viewers with dramatic hooks (“AI That Could Melt the Ice Sheets”) and curiosity loops (“Will this tech save our cities?”), making it perfectly suited for scroll‑stopping, viral content. Its wide appeal—science nerds, policy watchers, green activists, AI enthusiasts—supports the possibility of 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "The AI That Could Melt Global Warming—And What’s REALLY Involved / Hook: A short 15‑second demo of a neural net predicting ice‑sheet collapse, followed by the question: \"Is this the future or a myth?\"",
+        "Behind the Cloud: How Machine‑Learning Controls Geo‑Engineering Projects / Hook: Show a real-time AI dashboard of cloud‑seeding simulations, then ask viewers what they'd approve for climate engineering.",
+        "Can a Super‑Intelligent Algorithm Save Our Oceans? The Dangers of AI‑Driven Climate Fixes / Hook: Start with a dramatic ocean footage glitch and ask: \"What would happen if AI decides the next storm?\""
+      ],
+      "keywords": [
+        "AI",
+        "ClimateEngineering",
+        "Geoengineering",
+        "MachineLearning",
+        "FutureTech"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
