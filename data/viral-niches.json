@@ -20992,6 +20992,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities powered by genetically engineered, glow‑producing bacteria is the perfect blend of cutting‑edge science, sustainability, and visual spectacle. It taps into widespread fascination with bioluminescence, renewable energy, and futuristic design—content that instantly generates curiosity and shareability across platforms. The niche is fresh enough to stand out yet broadly relevant, promising high engagement and easy scalability through endless sub‑themes such as glowing streetlights, luminous skyscrapers, and eco‑tech tourism.",
+      "ideas": [
+        "City of Light: How Bioluminescent Bacteria Will Replace Street Lamps Forever – Watch the Glow in Action! | Hook: Imagine walking through city streets at night that glow from the ground up—no electricity needed!",
+        "The Secret Glow: Engineers Build The First Fully Bioluminescent Building – Is This the Future of Energy? | Hook: What if a skyscraper could power itself by glowing? Inside the lab where this happens.",
+        "From Glow to Clean Air: Using Bioluminescent Sensors to Track Pollution in Real Time – Competitive Tech | Hook: A hidden network of glowing sensors is reading our air. See how they work."
+      ],
+      "keywords": [
+        "Glowing",
+        "Neon",
+        "Bioluminescent",
+        "Urban",
+        "Sustainable"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
