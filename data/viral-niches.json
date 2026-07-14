@@ -21184,6 +21184,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIMyth",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "AI-generated mythology blends the fresh, limitless creativity of machine learning with the timeless human love for legends. The niche offers infinite storyline possibilities, perfect for faceless production with AI voices and animated visuals, creating scalable, continually fresh content that naturally fuels curiosity, shares, and community engagement.",
+      "ideas": [
+        "AI Creates a New Myth: The Legend of the Sky Serpent! 🐉 Hook: \"Watch as artificial intelligence spins a brand‑new myth that could become the next global legend…\"",
+        "The Future Myth Channel: AI's Tale of the Lost City of Sound 🎶 Hook: \"Discover the ancient story AI invented—then watch the world react as it becomes mythic reality!\"",
+        "When AI Writes God: The Myth of the Clockwork Suns ⏰ Hook: \"See how AI constructs a deity imbued with time, and watch humans defend their faith in the face of a new supernatural.\""
+      ],
+      "keywords": [
+        "AIGenerated",
+        "Myth",
+        "Legend",
+        "Animation",
+        "Narrative"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

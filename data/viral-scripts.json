@@ -12442,49 +12442,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Tyranny",
-        "name": "Sentinel Stream",
-        "icon": "💻"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Identity Infiltration",
-        "name": "Echo ID",
-        "icon": "👤"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Economic Supplant",
-        "name": "Profit Bot",
-        "icon": "💰"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Strategic Subversion",
-        "name": "Chess Master AI",
-        "icon": "♟️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Emotional Manipulation",
-        "name": "Mood Molder",
-        "icon": "😠"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Security Sisyphus",
-        "name": "Firewall Fade",
-        "icon": "🔒"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Governance Ghost",
-        "name": "Policy Puppet",
-        "icon": "🏛️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Ghost Workforce",
-        "name": "Auto Labor",
-        "icon": "🤖"
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12520,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12561,7 +12555,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -35664,49 +35658,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Neon Metropolis",
-        "name": "Lumenopolis",
-        "icon": "🌆"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Underwater Glow",
-        "name": "Aquatalia",
-        "icon": "🌊"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Forest Lighthouse",
-        "name": "Verdant Radiance",
-        "icon": "🌲"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Starlit Sanctuary",
-        "name": "Celestial City",
-        "icon": "✨"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Subterranean Beacon",
-        "name": "Glowhole City",
-        "icon": "🕳️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Skyward Spectra",
-        "name": "Nimbus Nexus",
-        "icon": "☁️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Prismatic Hub",
-        "name": "Spectrum City",
-        "icon": "🌈"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Time‑Warp Port",
-        "name": "Eternity Harbor",
-        "icon": "⏳"
+        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -40384,49 +40372,43 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
-    "closing": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Glowing Geysers",
-        "name": "Aurora Tides",
-        "icon": "🌊"
+        "text": "Nobody talks about the truth of BioluminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Nightly Nebulas",
-        "name": "Luminous Skyline",
-        "icon": "🌌"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Illuminated Bridges",
-        "name": "Phosphor Span",
-        "icon": "🌉"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Radiant Rooftops",
-        "name": "Neon Canopy",
-        "icon": "🏙️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Electric Alleys",
-        "name": "Bokeh Path",
-        "icon": "🌆"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Mystic Markets",
-        "name": "Glint Bazaar",
-        "icon": "🛒"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Shimmering Subways",
-        "name": "Lattice Line",
-        "icon": "🚇"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Sparkling Seabeds",
-        "name": "Glow Reef",
-        "icon": "🐠"
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -48646,6 +48628,88 @@
         "title": "Community Mode",
         "name": "Neon Alliance",
         "icon": "🌐"
+      }
+    ]
+  },
+  "ApexFlow_1784051162286": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1784051162286.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "AIMyth": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of AIMyth.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
