@@ -21088,6 +21088,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AquaAurora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "The niche blends two viral visuals—bioluminescence and aurora—to create the never‑before‑seen concept of underwater auroras. Its high‑contrast, neon glow footage instantly captivates scrolling audiences, enabling viral hooks and curiosity loops. The concept is very scalable: dozens of unique locations (trench, reef, kelp forest, plankton blooms) and temporal variations (time‑lapse, slow‑motion, daylight vs. night). It taps current fascination with deep‑sea exploration and climate change, and the faceless format keeps production low cost while maximizing shareability.",
+      "ideas": [
+        "Underwater Aurora: The Hidden Night Sky in the Mariana Trench – Imagine stars glowing beneath the waves. Dive into the deepest bioluminescent aurora ever filmed.",
+        "Auroras of the Deep: Bioluminescent Night in the Great Barrier Reef – See the reef transform into a living aurora when the sun sets.",
+        "Ghostly Light Dances: The Aurora of Plankton Storms – Witness plankton swirl into a neon aurora that paints the ocean."
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Aurora",
+        "DeepSea",
+        "NeonGlow",
+        "NighttimeStorm"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
