@@ -21016,6 +21016,30 @@
         "Sustainable"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The idea of entire cities powered by living bioluminescent organisms taps into the booming interest in sustainable urban design, biophilic architecture, and sci‑fi aesthetics. Visually stunning, shareable, and practically untapped in mainstream content, it offers endless macro‑ and nano‑geometry possibilities, high‑contrast night footage, and a compelling narrative about the future of the planet.",
+      "ideas": [
+        "The FIRST City That Shines Like a Star — Inside the World’s Bio‑Luminescent Metropolis / Hook: “You’ll never see a city again after this!",
+        "Scientists Turned Slug‑Like Algae into a Neon Skyline – The Secret Formula / Hook: “The living light you weren’t looking for is about to change the skyline forever!",
+        "After Dark: How a Dark Night Turns into a Nebula‑like City / Hook: “What happens when the stars go off and your city lights up on its own?”"
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescent",
+        "neon",
+        "ultrawide",
+        "scape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
