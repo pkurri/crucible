@@ -21553,6 +21553,30 @@
         "climate"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of living, self‑lit cities merges cutting‑edge biotechnology with iconic sci‑fi aesthetics, striking a perfect chord between curiosity and environmental urgency. High‑contrast, glowing visuals and the promise of renewable, glowing infrastructure generate instant shareability, while the novelty of a city powered by bioluminescence sets it apart from existing ‘green city’ and ‘future tech’ channels. The niche is fresh, visually stunning, and has strong cross‑platform appeal (TikTok, Reels, YouTube Shorts) that fuels rapid viral growth and subscriber spike potential.",
+      "ideas": [
+        "The City That Glows: Inside the 2025 Bio‑Luminescent Metropolis – Hook: ‘What if city streets could power themselves? We explore the research that makes glowing roads a real thing.’",
+        "When Streets Beat Brighter Than Lights: The Science of Living Architecture – Hook: ‘From algae pools to luminous walls, discover how living organisms are rewriting urban lighting.’",
+        "Green Glow Revolution: Building Tomorrow’s Cities with Bioluminescent Plants – Hook: ‘Could a city run on plant light? We prototype a test‑bed city powered by glowing vines.’"
+      ],
+      "keywords": [
+        "sci‑fi neon glow",
+        "bioluminescent cityscape",
+        "future urban lighting",
+        "living architecture",
+        "glowing eco‑city"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
