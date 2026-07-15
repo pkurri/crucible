@@ -21373,6 +21373,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SpaceJunkRecycling",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Space junk raises a globally relevant crisis while offering a hopeful, visually stunning solution. The concept taps into current concerns about climate and space sustainability, combines high-impact CGI of debris turning into functional satellites, and aligns with tech‑buzzworthy themes that users love to scroll, share, and re‑watch. It can generate endless hook‑loaded micro‑videos—from thrilling zero‑gravity tests to heart‑warming upcycling models—ensuring high retention and shareability.",
+      "ideas": [
+        "Rapid Reboot: How One Space Mission Recycled a 1‑Year‑Old Satellite into a Mars Probe (Hook: Will Earth’s trash become tomorrow’s destination?)",
+        "Zero‑Gravity Marry‑‑A‑Madden-Style: Watch a Space Junk Collector Turn Debris into a Rocket (Hook: Can we build a rocket from junk in orbit?)",
+        "The Great Orbital Return: Turning Satellite Waste into 3D‑Printed Habitats (Hook: See how engineers are printing homes with space trash)"
+      ],
+      "keywords": [
+        "Spacecraft",
+        "Debris",
+        "Recycling",
+        "Rocket",
+        "Orbit"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
