@@ -21397,6 +21397,30 @@
         "Orbit"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "LuminoCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "A niche that marries cutting‑edge sustainable architecture with the mesmerizing natural phenomenon of bioluminescence. Few creators are focusing exclusively on cities that light up at night through engineered glow rather than artificial LEDs. The visual appeal is high‑intensity, easily shareable, and taps into current trends in green tech, urban planning, and the growing fascination with natural light phenomena. The content can be faceless, using stunning drone footage, time‑lapse sequences, and animated city plans. The hook of “what if every city could glow?” drives curiosity loops, making the channel ripe for virality with strong scroll‑stopping visuals.",
+      "ideas": [
+        "Top 5 Cities Designing a Glow: Will Tomorrow’s Urban Landscape Light Up Like a Meteor Shower? / Ever wondered why cities with bioluminescent roofs could save electricity and wow tourists?",
+        "The Guinness Record for the Most Luminous City—Inside the Lab That Will Make Streets Shine Like Forest Fireflies / Click to see how scientists are turning light pollution into a natural spectacle.",
+        "Why This Quiet Town Will Soon Outshine New York’s Night Lights—A Look Inside the First Fully Glowing City | Are Cities Going Bioluminescent?"
+      ],
+      "keywords": [
+        "glowing",
+        "neon",
+        "cityscape",
+        "bioluminescent",
+        "nighttime"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
