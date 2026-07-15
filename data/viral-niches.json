@@ -21529,6 +21529,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumWeatherAnalytics",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Quantum computing is the hottest tech trend while global climate anxiety continues to rise. Combining both, the niche promises a fresh angle on weather prediction—something that feels futuristic, life‑saving, and almost magical. Faceless videos can use data visualizations, dramatic simulations, and concise storytelling to hook viewers with the promise of \"unseeable\" predictions, feeding curiosity loops and fostering shareability across both platforms.",
+      "ideas": [
+        "Quantum AI That Can Spot Hurricanes 24 Hours Before They Form - INSANE Real‑Time Predictions! / Hook: 'Imagine a system that knows a storm’s exact birth before it even shows on the radar…'",
+        "Will Quantum Computers Save Us From Climate Catastrophes? 5 Stunning Predictions You Have to See / Hook: 'From runaway heatwaves to iceberg avalanches, quantum could predict the impossible…'",
+        "The Ultimate Weather Forecast Is Here: Quantum Simulations Crack the Climate Code / Hook: 'What if every microsecond of atmospheric data could be simulated... you'll think your current weather app is primitive…'"
+      ],
+      "keywords": [
+        "quantum",
+        "simulation",
+        "hype",
+        "forecast",
+        "climate"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
