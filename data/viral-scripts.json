@@ -12442,57 +12442,10 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Surveillance",
-        "name": "Eye in the Sky AI",
-        "icon": "🛰️"
-      },
-      {
-        "title": "Manipulation",
-        "name": "The Persuasion Engine",
-        "icon": "🎭"
-      },
-      {
-        "title": "Control",
-        "name": "Brainlink Nexus",
-        "icon": "🧠"
-      },
-      {
-        "title": "Infiltration",
-        "name": "Ghost Agent Protocol",
-        "icon": "👻"
-      },
-      {
-        "title": "Judgment",
-        "name": "Zero-Trust Judge",
-        "icon": "⚖️"
-      },
-      {
-        "title": "Sabotage",
-        "name": "Code Wrecker",
-        "icon": "💥"
-      },
-      {
-        "title": "Economy",
-        "name": "Capital Cascade",
-        "icon": "📉"
-      },
-      {
-        "title": "Privacy",
-        "name": "Dataless Veil",
-        "icon": "🌫️"
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12520,12 +12473,59 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
+      {
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
+      },
+      {
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
+      },
+      {
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
+      },
+      {
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
+      },
+      {
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
+      },
+      {
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
+      },
+      {
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
+      },
+      {
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
       }
     ]
   },
@@ -35666,47 +35666,47 @@
   "BioLuminescentCities": {
     "voice": "af_heart",
     "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
     "list": [
       {
-        "title": "Neon Flora",
-        "name": "Glow Orchid",
-        "icon": "🌸"
+        "title": "Neon Metropolis",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "title": "Urban Hydroponics",
-        "name": "LED Aquafarm",
-        "icon": "💧"
+        "title": "Underwater Glow",
+        "name": "Aquatalia",
+        "icon": "🌊"
       },
       {
-        "title": "Biotic Lighting",
-        "name": "Moth Net Grid",
-        "icon": "🦋"
+        "title": "Forest Lighthouse",
+        "name": "Verdant Radiance",
+        "icon": "🌲"
       },
       {
-        "title": "Energy Source",
-        "name": "Blue Flagellate Solar",
-        "icon": "🔋"
+        "title": "Starlit Sanctuary",
+        "name": "Celestial City",
+        "icon": "✨"
       },
       {
-        "title": "Public Transit",
-        "name": "Biolum Trans",
-        "icon": "🚋"
+        "title": "Subterranean Beacon",
+        "name": "Glowhole City",
+        "icon": "🕳️"
       },
       {
-        "title": "Night Markets",
-        "name": "Glow Bazaar",
-        "icon": "🛍️"
+        "title": "Skyward Spectra",
+        "name": "Nimbus Nexus",
+        "icon": "☁️"
       },
       {
-        "title": "Sky Lines",
-        "name": "Chili Aurora",
-        "icon": "🌌"
+        "title": "Prismatic Hub",
+        "name": "Spectrum City",
+        "icon": "🌈"
       },
       {
-        "title": "Resilient Architecture",
-        "name": "Glowing Arches",
-        "icon": "🏛️"
+        "title": "Time‑Warp Port",
+        "name": "Eternity Harbor",
+        "icon": "⏳"
       }
     ]
   },
@@ -40421,7 +40421,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -49062,6 +49062,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1784136003040": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1784136003040 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "UI Tricks",
+        "name": "Dynamic Dashboards",
+        "icon": "📊"
+      },
+      {
+        "title": "Workflow Gems",
+        "name": "Auto-Trigger Rules",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Security",
+        "name": "Zero-Trust API",
+        "icon": "🔒"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Heatmaps",
+        "icon": "🌡️"
+      },
+      {
+        "title": "Integration",
+        "name": "Webhook Fusion",
+        "icon": "🔗"
+      },
+      {
+        "title": "Performance",
+        "name": "Edge Caching",
+        "icon": "🚀"
+      },
+      {
+        "title": "Developer",
+        "name": "Instant CLI Builder",
+        "icon": "💻"
+      },
+      {
+        "title": "Community",
+        "name": "Open Source SDK",
+        "icon": "🤝"
       }
     ]
   }
