@@ -21277,6 +21277,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities that glow with living, self‑powered lights taps into growing interest in sustainable urban design, biophilic architecture, and sci‑fi wonder. It is distinct from mainstream eco‑city content because it combines high‑contrast visuals, cutting‑edge bioengineering, and immersive storytelling that invites “scroll‑stopping” curiosity about how nature can become the city’s streetlamps.",
+      "ideas": [
+        "The City that Glows: 10 Mind‑Blowing Bioluminescent Building Designs That Could Replace Streetlights – Hook: ‘Imagine walking through a city that lights itself without electricity…’",
+        "How Bioluminescent Plants Could Power Nighttime Metropolises (Step Into the Future with Living Lights) – Hook: ‘What if your city’s night glow came from the trees that grew on its rooftops?’",
+        "From Science Fiction to Architecture: The Blueprint Behind Bio‑Luminescent Skyscrapers – Hook: ‘See the engineering secrets that could turn skyscrapers into living light factories’"
+      ],
+      "keywords": [
+        "bioluminescence",
+        "glowing architecture",
+        "living light",
+        "future city",
+        "sustainable design"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
