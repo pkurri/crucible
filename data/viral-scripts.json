@@ -12444,88 +12444,94 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
     "list": [
       {
-        "title": "Surveillance",
-        "name": "Eye in the Sky AI",
-        "icon": "🛰️"
+        "title": "Data Tyranny",
+        "name": "Sentinel Stream",
+        "icon": "💻"
       },
       {
-        "title": "Manipulation",
-        "name": "The Persuasion Engine",
-        "icon": "🎭"
+        "title": "Identity Infiltration",
+        "name": "Echo ID",
+        "icon": "👤"
       },
       {
-        "title": "Control",
-        "name": "Brainlink Nexus",
-        "icon": "🧠"
+        "title": "Economic Supplant",
+        "name": "Profit Bot",
+        "icon": "💰"
       },
       {
-        "title": "Infiltration",
-        "name": "Ghost Agent Protocol",
-        "icon": "👻"
+        "title": "Strategic Subversion",
+        "name": "Chess Master AI",
+        "icon": "♟️"
       },
       {
-        "title": "Judgment",
-        "name": "Zero-Trust Judge",
-        "icon": "⚖️"
+        "title": "Emotional Manipulation",
+        "name": "Mood Molder",
+        "icon": "😠"
       },
       {
-        "title": "Sabotage",
-        "name": "Code Wrecker",
-        "icon": "💥"
+        "title": "Security Sisyphus",
+        "name": "Firewall Fade",
+        "icon": "🔒"
       },
       {
-        "title": "Economy",
-        "name": "Capital Cascade",
-        "icon": "📉"
+        "title": "Governance Ghost",
+        "name": "Policy Puppet",
+        "icon": "🏛️"
       },
       {
-        "title": "Privacy",
-        "name": "Dataless Veil",
-        "icon": "🌫️"
+        "title": "Ghost Workforce",
+        "name": "Auto Labor",
+        "icon": "🤖"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
       }
     ]
   },
@@ -35665,48 +35671,48 @@
   },
   "BioLuminescentCities": {
     "voice": "af_heart",
-    "hook": "Stop scrolling! 8 cities glow like stars you can't miss.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Architecture",
-        "name": "NeonNova",
-        "icon": "🏙️"
-      },
-      {
-        "title": "Parks",
-        "name": "Glowing Grove",
-        "icon": "🌿"
-      },
-      {
-        "title": "Streets",
-        "name": "Luminous Lane",
+        "title": "Capital City",
+        "name": "Lumenopolis",
         "icon": "🌆"
       },
       {
-        "title": "Sky",
-        "name": "Aurora Zenith",
-        "icon": "🌌"
-      },
-      {
-        "title": "Seafront",
-        "name": "Biolume Bay",
+        "title": "River City",
+        "name": "Glowhaven",
         "icon": "🌊"
       },
       {
-        "title": "Transit",
-        "name": "Rail Radiance",
-        "icon": "🚆"
+        "title": "Mountain City",
+        "name": "Peaklight",
+        "icon": "🏔️"
       },
       {
-        "title": "Markets",
-        "name": "Shimmer Market",
-        "icon": "🛍️"
+        "title": "Coastal City",
+        "name": "Seavivid",
+        "icon": "🌊"
       },
       {
-        "title": "Districts",
-        "name": "Glowpolis",
-        "icon": "🎡"
+        "title": "Forest City",
+        "name": "Sylvan Glow",
+        "icon": "🌲"
+      },
+      {
+        "title": "Desert City",
+        "name": "Sirocco Glow",
+        "icon": "🏜️"
+      },
+      {
+        "title": "Isle City",
+        "name": "Isle Dazzle",
+        "icon": "🏝️"
+      },
+      {
+        "title": "Urban Jungle",
+        "name": "Neon Nexus",
+        "icon": "🌿"
       }
     ]
   },
@@ -38976,43 +38982,49 @@
     ]
   },
   "ZeroGravityCooking": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ZeroGravityCooking secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of ZeroGravityCooking.",
-        "duration": 5
+        "title": "Micro‑Greens",
+        "name": "Spherical Kale Pods",
+        "icon": "🥬"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Ingredient",
+        "name": "Photon Eggplant Spheres",
+        "icon": "🥚"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Flavor",
+        "name": "Luminous Lemon Zest",
+        "icon": "🍋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Technique",
+        "name": "Rotating Sous‑Vide Caster",
+        "icon": "🔄"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Cooling",
+        "name": "Cryo‑Churro Gel",
+        "icon": "🍧"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Cooking Tool",
+        "name": "Zero‑G Spatula",
+        "icon": "🥄"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Presentation",
+        "name": "Hovering Caviar Clouds",
+        "icon": "🩸"
       },
       {
-        "text": "If you want to master ZeroGravityCooking, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Nutrition",
+        "name": "Astro‑Protein Powder",
+        "icon": "💪"
       }
     ]
   },
@@ -40415,7 +40427,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {

@@ -21328,6 +21328,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking marries the fascination of space‑tech with the universal love of food, offering visually stunning, impossible‑seeming food moments that are perfect for short‑form reels and long‑form digestible science‑style narratives. The novelty, relatability and data‑driven explanations create high shareability and evergreen interest among both science buffs and foodies.",
+      "ideas": [
+        "Cooking in Space: Watch a Chef Whip Up a Meal Floating in Zero Gravity! / Hook: \"Ever wondered how gravity affects taste? Let's find out with a zero‑gravity kitchen experiment!\"",
+        "The Science Behind Zero‑Gravity Baking: How Do Sprinkles Stay Put? / Hook: \"Baking in zero gravity means flours and sugars defy the laws we know—discover the physics behind it!\"",
+        "From Space to Plate: The First Zero‑Gravity Recipe Tried by A Professional Chef / Hook: \"A world‑first dish cooked in orbit—can you guess the flavor profile?\""
+      ],
+      "keywords": [
+        "glowing",
+        "catapulted",
+        "fluffy",
+        "floating",
+        "future"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
