@@ -48806,5 +48806,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1784087380657": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1784087380657 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Titanium Gear",
+        "name": "Quantum Drive",
+        "icon": "🚀"
+      },
+      {
+        "title": "Blazing Insight",
+        "name": "Nova Flash",
+        "icon": "✨"
+      },
+      {
+        "title": "Stealth Module",
+        "name": "Shadow Echo",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Energy Core",
+        "name": "Helix Pulse",
+        "icon": "⚡"
+      },
+      {
+        "title": "Strategic Tactic",
+        "name": "Momentum Shift",
+        "icon": "🎯"
+      },
+      {
+        "title": "Revamp Upgrade",
+        "name": "Eclipse Armor",
+        "icon": "🥇"
+      },
+      {
+        "title": "Legendary Quest",
+        "name": "Phantom Ascent",
+        "icon": "🏔️"
+      },
+      {
+        "title": "Ultimate Artifact",
+        "name": "Celestial Prism",
+        "icon": "🌟"
+      }
+    ]
   }
 }
