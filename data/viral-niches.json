@@ -21421,6 +21421,30 @@
         "nighttime"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityChef",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "The emerging fascination with life beyond Earth combined with the visual spectacle of cooking in zero‑gravity creates a unique, scroll‑stopping hook. Space‑themed content is trending, but dedicated ‘zero‑gravity cooking’ channels are scarce, offering high differentiation and massive curiosity potential for both science buffs and general audiences.",
+      "ideas": [
+        "Zero‑Gravity Carbonara: Watch Pasta Flow Like Clouds / Witness Meatless Lasagna Hover in the Dark!",
+        "Space Toast 101: How Bread Bubbles in Zero‑Gravity & The Secrets Behind the Flat White Cape",
+        "Cooking on the ISS in 60 Seconds: From Quantum Spatula to Zero‑Gravity S’mores"
+      ],
+      "keywords": [
+        "Floating",
+        "Suspended",
+        "GlowingBubbles",
+        "ZeroGravity",
+        "LiquidSpiral"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
