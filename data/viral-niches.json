@@ -21577,6 +21577,30 @@
         "glowing eco‑city"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroWasteFurniture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "ZeroHarvestFurniture taps into the urgent global push for sustainability coupled with DIY culture. The niche is underexplored, highly visual, and aligns with keyword trends like upcycling and 3D printing. Its friction‑free production using faceless narration and graphic overlays makes it perfect for high‑frequency releases, attracting eco‑conscious parents, minimalists, and TikTok creators alike. Currently, there is a publishing void as mainstream channels rarely dive deep into furniture repurposing—this gives it a clear path to top the evergreen “how‑to” and “transformations” buckets on both Meta and YouTube.",
+      "ideas": [
+        "From Kitchen Scraps to a Stunning Coffee Table: Watch the Transformation | Surfacing the Zero‑Waste Revolution",
+        "Crank Up Your Living Space: 3 DIY Furniture Hacks That Save the Planet (No Power Tools Needed)",
+        "The Eco‑Friendly Wonder: 5 Secret Tricks to Recycle Old Furniture Into Chic Design"
+      ],
+      "keywords": [
+        "Upcycling",
+        "Recycled",
+        "3D-Printed",
+        "ZeroWaste",
+        "FurnitureTransformation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
