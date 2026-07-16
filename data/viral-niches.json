@@ -21691,6 +21691,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Mushroom‑based building materials are emerging as a breakthrough in sustainable, regenerative architecture—combining speed‑of‑growth, carbon sequestration, and self‑healing properties. With global attention on zero‑carbon construction, climate‑positive design, and the race to build resilient megacities, a visually striking, science‑backed channel dedicated to mycelium skyscrapers offers fresh, rare content that appeals to eco‑enthusiasts, architects, and curious audiences alike. Its niche uniqueness and high emotional payoff give it a strong edge over saturated tech or general science channels.",
+      "ideas": [
+        "Mushroom Metropolis: How Mycelium Builds Self‑Healing Skyscrapers / You won’t believe the speed of this living concrete landscape…",
+        "From Forest Floor to Cityscape: The 3‑Minute Guide to Bioluminescent Mushroom Buildings / See how a single bag of spores turns into a glowing mega‑structure!",
+        "Do fungi power our future? Inside the lab where Mycelium Architects create Zero‑Carbon ’Living Concrete’ / The secret to a 30‑kW sustainable city in a few weeks."
+      ],
+      "keywords": [
+        "mycelium metropolis",
+        "living concrete",
+        "bioluminescent construction",
+        "mushroom skyscraper",
+        "regenerative building"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
