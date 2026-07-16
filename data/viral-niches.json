@@ -21886,6 +21886,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialTrashToFood",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The intersection of sustainability, science, and food innovation taps a massive, currently underserved audience. Microorganism‑based plastic‑to‑food processes are both eye‑catching and highly shareable, fitting the current trend toward circular economy solutions. Faceless, animation‑heavy content scales across platforms and can quickly amass high view counts.",
+      "ideas": [
+        "How Bacteria Turn Plastic into Bread: Time‑Lapse Lab",
+        "From Trash to Snack: Microbes Converting Plastic into Edible Cereal",
+        "The Secret Process that Turns Your Plastic Bag into Popcorn—Microbiology 101"
+      ],
+      "keywords": [
+        "Time‑Lapse",
+        "Microscopic",
+        "Plastic",
+        "Bacteria",
+        "Edible"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
