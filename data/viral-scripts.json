@@ -49351,5 +49351,52 @@
         "icon": "🚀"
       }
     ]
+  },
+  "ApexFlow_1784173951558": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1784173951558 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1784173951558, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Strategy",
+        "name": "Macro Harmony",
+        "icon": "🌐"
+      },
+      {
+        "title": "Visualization",
+        "name": "Pixel Oracle",
+        "icon": "🖼️"
+      },
+      {
+        "title": "Automation",
+        "name": "Code Whisperer",
+        "icon": "🤖"
+      },
+      {
+        "title": "Optimization",
+        "name": "Speed Booster",
+        "icon": "⚡"
+      },
+      {
+        "title": "Analytics",
+        "name": "Data Scryer",
+        "icon": "📊"
+      },
+      {
+        "title": "Security",
+        "name": "Shield Sentinel",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Integration",
+        "name": "Portal Sync",
+        "icon": "🔗"
+      },
+      {
+        "title": "Innovation",
+        "name": "Idea Catalyst",
+        "icon": "💡"
+      }
+    ]
   }
 }
