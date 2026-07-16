@@ -21790,6 +21790,30 @@
         "storm pocket"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobiomeCuisine",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "MicrobiomeCuisine blends the emerging science of gut microbiology with the universal allure of food. The niche is fresh, has low content saturation, and offers endless recipe experiments that naturally trigger curiosity loops and mood‑altering food science discoveries—ideal for scroll‑stopping hooks and high retention.",
+      "ideas": [
+        "This Tiny Bacteria Recipe Is 10x Tastier Than Normal Food! – Inside the glass jar, a living army is cooking your next meal.",
+        "The Secret Science Behind Kombucha That Will Blow Your Mind! – What happens to your taste buds when you sip this age‑old potion?",
+        "We Let Lab‑Grown Mushrooms Grow Inside a Homescreen—The Results Are Astonishing! – No fancy lab, just a USB and your kitchen."
+      ],
+      "keywords": [
+        "Fermentation",
+        "Mushroom",
+        "Bacteria",
+        "ColorChanging",
+        "Microscopic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
