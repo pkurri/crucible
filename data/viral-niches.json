@@ -21841,6 +21841,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityGardening",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "ZeroGravityGardening taps the growing fascination with space exploration while offering a unique, science‑based visual narrative. The scarcity of high‑quality, faceless content around plant growth in microgravity, combined with the inherent wonder of seeing plants thrive in zero‑gravity, creates scroll‑stopping hooks. The topic remains ahead of mainstream competition, can generate a wide range of experiment‑based videos (e.g., 48‑hour growth tests, hydroponic setups, comparative studies between Earth and space), and naturally leads to curiosity loops and emotional awe, making it highly scalable for 25+ ideas.",
+      "ideas": [
+        "Lettuce vs. Space: The 48‑Hour Growth Experiment on the ISS – Watch a lettuce plant battle zero gravity for the first time and see the mind‑blowing results.",
+        "No Gravity, No Limits: How Hydroponic Plants Thrive in Space – If we can grow food in orbit, can we colonize Mars? Discover the secret behind space gardening.",
+        "Microgravity Magic: The Surprising Shape of Flowers Grown on the ISS – These flowers look like they’re made of glass—learn why space turns them into living art."
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceGarden",
+        "MicrogravityPlants",
+        "ISSExperiment",
+        "SpaceAgriculture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
