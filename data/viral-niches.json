@@ -21742,6 +21742,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityAquaculture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Space tech and sustainability are explosively trending. Zero‑gravity aquaculture combines the intrigue of a new frontier with real‑world implications for feeding future populations. It’s a clear, underserved niche with visual spectacle, science curiosity loops, and easy cross‑platform engagement.",
+      "ideas": [
+        "Can a Fish Grow Unhindered in Space? Inside the First Zero‑Gravity Aquaculture Lab",
+        "What Would a Koi Look Like on the Moon? 5 Astonishing Sea‑Farm Experiments in Microgravity",
+        "The Future of Food: 60‑Second VR Tour of a Zero‑Gravity Fish Farm Feeding 1 Billion People"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "Aquaculture",
+        "SpaceFarming",
+        "Microgravity",
+        "SustainableFood"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
