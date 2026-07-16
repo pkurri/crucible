@@ -21766,6 +21766,30 @@
         "SustainableFood"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "NanoMeteorics",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "NanoMeteorics (nanotech-driven weather shaping) taps into the zeitgeist of climate control and hyper‑advanced tech while staying distinctly separate from generic climate‑change or AI ethics channels. The premise—controlling individual elements of weather with micro‑scale agents—creates instant visual spectacles, irresistible hooks (e.g., “swipe to stop a thunderstorm”) and a curiosity loop that can be expanded into dozens of sub‑topics, ensuring steady content growth and high audience retention.",
+      "ideas": [
+        "Microbots in the Sky: The First Real‑Time Weather Shaping Demonstration",
+        "NanoStorm: Capturing a Rainstorm in a Petri Dish – The Future of Climate?",
+        "Hack the Sky: How Nanotechnology Can Quiet a Thunderstorm in 30 Seconds"
+      ],
+      "keywords": [
+        "nanobots",
+        "weather manipulation",
+        "sky hacking",
+        "cloud condensation",
+        "storm pocket"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
