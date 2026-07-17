@@ -22084,6 +22084,30 @@
         "Transformation"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityGardening",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The fusion of space exploration with sustainable agriculture has captured global imagination. As companies like SpaceX, Blue Origin, and NASA collaborate on creating self‑sustaining life support systems, the concept of growing plants in microgravity offers both a tangible glimpse into future colonies and a visually striking sub‑genre. The niche is fresh—no large pre‑existing audiences yet—yet inherently lends itself to scroll‑stopping, curiosity‑driven content and has strong cross‑platform appeal due to its visual wow factor.",
+      "ideas": [
+        "Growing a Tomato in Zero Gravity: Step‑by‑Step NASA Demo – See the Plants Defy Gravity!",
+        "Build Your Own Space Garden in 60 Seconds: From Hydroponics to 3D‑Printed Structures!",
+        "How an Astronaut Grows Fresh Lettuce in the ISS – The Future of Food Is Here!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceGarden",
+        "MicrogravityAgriculture",
+        "SpaceFarm",
+        "FutureFood"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
