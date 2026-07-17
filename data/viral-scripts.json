@@ -12445,7 +12445,48 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Your next paycheck might already be in code.",
+        "duration": 5
+      },
+      {
+        "text": "AI agents are stealing white‑collar jobs live.",
+        "duration": 4
+      },
+      {
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
+        "duration": 5
+      },
+      {
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
+      },
+      {
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
+      },
+      {
+        "text": "Would your desk be next?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
+        "duration": 4
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12473,59 +12514,12 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
-      {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
-      },
-      {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
-      },
-      {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
-      },
-      {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
       }
     ]
   },
@@ -12561,7 +12555,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -35661,31 +35655,31 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "text": "Imagine your city turns on itself at night.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "This isn't sci‑fi—it could end climate chaos.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
+        "text": "Bioluminescent algae power streetlights.",
+        "duration": 5
+      },
+      {
+        "text": "Glow coatings turn buildings into living LEDs.",
+        "duration": 5
+      },
+      {
+        "text": "Urban jungles now pump clean energy, never flicker.",
+        "duration": 5
+      },
+      {
+        "text": "But what if the glow could heal sick city hearts?",
+        "duration": 4
+      },
+      {
+        "text": "Skip this, and you'll miss the next green revolution.",
         "duration": 4
       },
       {
@@ -35693,7 +35687,7 @@
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Next: cities that grow charging stations in the streets.",
         "duration": 4
       }
     ]
@@ -40381,39 +40375,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Imagine a city where streets glow like fireflies.",
+        "text": "Imagine a city that glows like a firefly in cyberspace.",
         "duration": 5
       },
       {
-        "text": "These glowing streets could slash energy bills by 10%.",
+        "text": "What if the night sky was replaced by neon biology?",
         "duration": 4
       },
       {
-        "text": "Scientists engineered algae that burn cleanly in city pipes.",
+        "text": "Scientists just engineered algae that produce 10x brighter streetlights.",
         "duration": 5
       },
       {
-        "text": "These bioluminescent boulevards light themselves 24/7.",
+        "text": "These living lights need zero electricity, only ocean salt.",
         "duration": 5
       },
       {
-        "text": "And the glow controls traffic, cutting accidents by 30%.",
+        "text": "Soon, entire streets will hum with carbon-negative glow.",
         "duration": 5
       },
       {
-        "text": "Hold on—there's a secret tech powering those lights.",
+        "text": "Skip this and miss the first city built on moonlit algae.",
         "duration": 4
       },
       {
-        "text": "Skip this, and you'll never see night cities again.",
+        "text": "Every second you wait, the grid may be eclipsed for good.",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
-        "text": "Next—cities that run on pure moonlight. Stay tuned.",
+        "text": "Next week, watch a city powered solely by bioluminescent rain.",
         "duration": 4
       }
     ]
@@ -50094,6 +50088,88 @@
         "title": "Analytics",
         "name": "StellarInsight",
         "icon": "📊"
+      }
+    ]
+  },
+  "ApexFlow_1784297765483": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1784297765483.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ZeroGravitySports": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ZeroGravitySports.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ZeroGravitySports, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }

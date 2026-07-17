@@ -22282,6 +22282,30 @@
         "QuantumBounce"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The prospect of cities illuminated by living light sources taps into the rising fascination with sustainable, biophilic urban design and future tech. Visually arresting glow effects create instant share‑ability, while the concept is fresh enough to stand out from typical tech and travel channels, ensuring high scroll‑stopping hooks and curiosity loops. It offers endless inspiration for faceless content—from staged cityscapes to behind‑the‑scenes experiments—characterized by striking visuals that perform well on both Meta and YouTube.",
+      "ideas": [
+        "5 Hidden Bioluminescent Cities Across the Globe – You Won’t Believe Their Glow!",
+        "Can a City Truly Light Up With Bacteria? The Ultimate Science Experiment?!",
+        "From Darkness to Light: How Bio‑Luminescence Is Redesigning Urban Nightlife"
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "GlowingCity",
+        "SustainableCity",
+        "FutureUrbanDesign",
+        "NeonNature"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
