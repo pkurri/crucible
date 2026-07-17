@@ -22108,6 +22108,30 @@
         "FutureFood"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "BioluminescentCities taps into the growing eco‑innovation trend while offering ultra‑visual, zero‑cost illumination concepts. The niche is fresh, highly speculative, and instantly skippable with vivid 'glow in the dark' aesthetics that capture curiosity and awe, making it perfect for scroll‑stopping hooks and curiosity loops. Its unique blend of biology, design, and environmental tech sets it apart from established eco‑city or green‑tech topics, providing abundant angles and a clear path to over 25 viral idea possibilities.",
+      "ideas": [
+        "How a Bioluminescent City Could Drop Urban Energy Costs by 90% — Imagine walking through a night city where every street glows without LEDs, and the electricity bill disappears.",
+        "Top 10 Bioluminescence City Designs That Are Already in the Pipeline — These visionary architects are building cities that actually light themselves with nature’s own glow.",
+        "The Science Behind Bioluminescent Light: Can We Turn Whole Cities into Neon Nightlights? — From jellyfish to algae, see how nature’s glow could power our future skylines."
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescent",
+        "neon",
+        "night",
+        "cityscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
