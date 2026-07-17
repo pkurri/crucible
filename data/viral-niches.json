@@ -22159,6 +22159,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Bioluminescent Cities merge cutting‑edge bio‑engineering, sustainability, and awe‑inspiring visuals—an unexploited niche that sparks curiosity and emotional wonder while tapping into the current enthusiasm for green innovations and visually arresting content. The idea of living lights converting urban skylines into natural glow‑scapes offers fresh hooks beyond conventional lighting or architecture channels, promising high scroll‑stop potential and a scalable content library.",
+      "ideas": [
+        "How Bioluminescent Streets Are Lighting the Future of Urban Nightlife (Without Electricity) – Imagine walking through a city where every street lamp is a living glow, cutting power consumption to zero while creating a living light show.",
+        "3 Real-World Projects Turning Cities Into Streams of Living Light – These cities are pioneering algae‑powered glow‑shows that could replace neon and illuminate skylines sustainably.",
+        "Can Bioluminescent Buildings Replace Neon? The Unexpected Benefits of Living Light – Explore how living lights could reduce energy use, improve urban aesthetics, and even boost local ecosystems."
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Glowing",
+        "Neon",
+        "Skyline",
+        "EcoLight"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
