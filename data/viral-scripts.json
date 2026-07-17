@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12483,43 +12483,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
       }
     ]
   },
@@ -12555,7 +12561,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -35652,43 +35658,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Stop scrolling! 8 cities glow like stars you can't miss.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Architecture",
+        "name": "NeonNova",
+        "icon": "🏙️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Parks",
+        "name": "Glowing Grove",
+        "icon": "🌿"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Streets",
+        "name": "Luminous Lane",
+        "icon": "🌆"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Sky",
+        "name": "Aurora Zenith",
+        "icon": "🌌"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Seafront",
+        "name": "Biolume Bay",
+        "icon": "🌊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Transit",
+        "name": "Rail Radiance",
+        "icon": "🚆"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Markets",
+        "name": "Shimmer Market",
+        "icon": "🛍️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Districts",
+        "name": "Glowpolis",
+        "icon": "🎡"
       }
     ]
   },
@@ -49818,6 +49830,53 @@
       {
         "text": "Next, a city that’s powered entirely by emotion‑driven AI.",
         "duration": 4
+      }
+    ]
+  },
+  "BatterieRecycleRevamp": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BatterieRecycleRevamp secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BatterieRecycleRevamp.",
+    "list": [
+      {
+        "title": "AI-Powered",
+        "name": "NikOne",
+        "icon": "🤖"
+      },
+      {
+        "title": "Nano-Tech",
+        "name": "NanoCell",
+        "icon": "🔬"
+      },
+      {
+        "title": "Solar-Powered",
+        "name": "SunCharge",
+        "icon": "🌞"
+      },
+      {
+        "title": "Zero-Waste",
+        "name": "RecycloMax",
+        "icon": "♻️"
+      },
+      {
+        "title": "Smart Navigation",
+        "name": "PathFinder",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Blockchain Tracking",
+        "name": "BlockBatter",
+        "icon": "🔗"
+      },
+      {
+        "title": "Circular Economy",
+        "name": "LoopLife",
+        "icon": "🔁"
+      },
+      {
+        "title": "Hybrid Energy",
+        "name": "BlendVolt",
+        "icon": "⚡"
       }
     ]
   }
