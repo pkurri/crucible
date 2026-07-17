@@ -22258,6 +22258,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravitySports",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "As space tourism grows and NASA/SpaceX reveal silent zero‑gravity test chambers, viewers crave scenes that challenge physics. 0‑G sports deliver stunning visuals, novel challenges, and tech‑driven simulations—perfect for scroll‑stopping hooks and keystone curiosity loops.",
+      "ideas": [
+        "Zero‑Gravity Soccer: Can You Score a Goal in 0 G? – Watch the Impossible!",
+        "Top 5 Zero‑Gravity Sports That Rewrite the Rules – 3D Sim & Gear Review",
+        "Space Bowling X‑Cel: No‑Gym Handball Tested in Zero‑Gravity – Most Unexpected Moves!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceSports",
+        "AntiGravity",
+        "AstroMatch",
+        "QuantumBounce"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
