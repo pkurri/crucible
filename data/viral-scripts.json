@@ -12445,87 +12445,87 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Your next paycheck might already be in code.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "AI agents are stealing white‑collar jobs live.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
+      },
+      {
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
+      },
+      {
+        "text": "Would your desk be next?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
         "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "am_adam",
+    "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
-      },
-      {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
+        "title": "Diet",
+        "name": "Blue Juice",
         "icon": "💧"
       },
       {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
+        "title": "Movement",
+        "name": "Morning Walk",
+        "icon": "🚶"
       },
       {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
+        "title": "Sleep",
+        "name": "30‑Min Night",
+        "icon": "🛌"
+      },
+      {
+        "title": "Mind",
+        "name": "Micro Med",
+        "icon": "🧘"
+      },
+      {
+        "title": "Supplements",
+        "name": "Resveratrol",
+        "icon": "💊"
+      },
+      {
+        "title": "Hydration",
+        "name": "Electro Hydrate",
+        "icon": "🥤"
+      },
+      {
+        "title": "Social",
+        "name": "Laugh Circles",
+        "icon": "😂"
+      },
+      {
+        "title": "Gut",
+        "name": "Fermented Foods",
+        "icon": "🥖"
       }
     ]
   },
@@ -12571,43 +12571,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Ever wonder how puppeteers control you in seconds?",
-        "duration": 5
+        "title": "Mind Persuasion",
+        "name": "Mirror Technique",
+        "icon": "🪞"
       },
       {
-        "text": "They leave no trace, and you can't see the strings.",
-        "duration": 4
+        "title": "Emotional Leverage",
+        "name": "Scarcity Cue",
+        "icon": "⚡"
       },
       {
-        "text": "The first law: Silence is louder than shouting.",
-        "duration": 5
+        "title": "Behavioral Triggers",
+        "name": "Foot-in-the-Door",
+        "icon": "🚪"
       },
       {
-        "text": "Mirroring triggers trust, turning strangers into allies.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bandwagon Tactic",
+        "icon": "🤝"
       },
       {
-        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
-        "duration": 5
+        "title": "Authority Manipulation",
+        "name": "Fake Credentials",
+        "icon": "🏛️"
       },
       {
-        "text": "If you ignore this, they'll weaponize your own memories.",
-        "duration": 4
+        "title": "Anchoring Effects",
+        "name": "Price Anchor",
+        "icon": "💰"
       },
       {
-        "text": "Imagine them framing you, then playing the courtroom.",
-        "duration": 4
+        "title": "Scarcity & Urgency",
+        "name": "Limited Time Offer",
+        "icon": "⏳"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
-        "duration": 4
+        "title": "Reframing Illusion",
+        "name": "Cognitive Dissonance",
+        "icon": "🧠"
       }
     ]
   },
@@ -35659,48 +35665,48 @@
   },
   "BioLuminescentCities": {
     "voice": "af_heart",
-    "hook": "Stop scrolling! 8 cities glow like stars you can't miss.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Architecture",
-        "name": "NeonNova",
-        "icon": "🏙️"
+        "title": "Neon Flora",
+        "name": "Glow Orchid",
+        "icon": "🌸"
       },
       {
-        "title": "Parks",
-        "name": "Glowing Grove",
-        "icon": "🌿"
+        "title": "Urban Hydroponics",
+        "name": "LED Aquafarm",
+        "icon": "💧"
       },
       {
-        "title": "Streets",
-        "name": "Luminous Lane",
-        "icon": "🌆"
+        "title": "Biotic Lighting",
+        "name": "Moth Net Grid",
+        "icon": "🦋"
       },
       {
-        "title": "Sky",
-        "name": "Aurora Zenith",
-        "icon": "🌌"
+        "title": "Energy Source",
+        "name": "Blue Flagellate Solar",
+        "icon": "🔋"
       },
       {
-        "title": "Seafront",
-        "name": "Biolume Bay",
-        "icon": "🌊"
+        "title": "Public Transit",
+        "name": "Biolum Trans",
+        "icon": "🚋"
       },
       {
-        "title": "Transit",
-        "name": "Rail Radiance",
-        "icon": "🚆"
-      },
-      {
-        "title": "Markets",
-        "name": "Shimmer Market",
+        "title": "Night Markets",
+        "name": "Glow Bazaar",
         "icon": "🛍️"
       },
       {
-        "title": "Districts",
-        "name": "Glowpolis",
-        "icon": "🎡"
+        "title": "Sky Lines",
+        "name": "Chili Aurora",
+        "icon": "🌌"
+      },
+      {
+        "title": "Resilient Architecture",
+        "name": "Glowing Arches",
+        "icon": "🏛️"
       }
     ]
   },
@@ -49924,6 +49930,47 @@
         "title": "Adaptive Learning Graph",
         "name": "Growth Predictor",
         "icon": "📈"
+      }
+    ]
+  },
+  "AIStreetArt": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of AIStreetArt.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }

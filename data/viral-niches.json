@@ -22060,6 +22060,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIStreetArt",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "AI-Generated Street Art merges the viral fascination with generative AI and the visual allure of urban murals, offering endless, stunning transformations that captivate curiosity and awe. Its format is inherently scroll‑stopper, ideal for algorithm feeds, and lends itself to faceless, voice‑over driven production, ensuring high retention and shareability.",
+      "ideas": [
+        "Watch an AI Turn a Blank Wall into a 3‑D Neon Map in 5 Seconds!",
+        "The Quickest AI Street Art Transformation – 10 Seconds, 1,000,000 Views!",
+        "How an AI Paints a Bat‑cave on a City Building in 3 Seconds!"
+      ],
+      "keywords": [
+        "Animated",
+        "Urban",
+        "StreetArt",
+        "AI",
+        "Transformation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
