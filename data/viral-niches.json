@@ -22306,6 +22306,30 @@
         "NeonNature"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities lit entirely by bioluminescent organisms blends cutting‑edge sustainability with mesmerizing visual appeal. It offers endless storytelling angles—from architectural designs and real‑world experiments to speculative future scenarios—all of which hook viewers with the promise of a glowing, electricity‑free urban landscape.",
+      "ideas": [
+        "How a City Could Brighten With Glowworms: The Science of BioLuminescent Cities – Imagine walking through streets bathed in natural glow, no power grid needed!",
+        "5 Real‑Life Projects Turning Urban Jungles Into Neon Forests – From Tokyo’s glow‑lighthouses to Dubai’s bioluminescent rooftops, see how cities are lighting up sustainably.",
+        "This Secret Ecosystem Might Power the Entire World – Meet Micro‑Algae Bioluminescent Urban Networks That Could Replace LEDs Forever."
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescent",
+        "futuristic city",
+        "neon lights",
+        "night glow"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
