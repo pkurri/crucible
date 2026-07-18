@@ -22352,6 +22352,30 @@
         "self‑healing"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedVolcano",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Underwater volcanoes are one of the planet’s rarest and most visually captivating natural phenomena. The unseen lava flows beneath the ocean, combined with real‑time footage and stunning CGI overlays, creates an unmatched blend of scientific intrigue, suspense, and breathtaking visuals. Since most viewers never have an opportunity to witness such extremes, the niche offers high scroll‑stopping hooks (e.g., “The Earth’s hidden lava rivers”), persistent curiosity loops, and endless source material from different volcanic hotspots. The emotional payoff is awe and wonder, universally appealing and shareable across social media and YouTube, making it highly scalable and capable of reaching 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "Rising from the Abyss: The First Live Footage of a Submerged Volcano Eruption / Every 3 hours we’ve captured the molten sea‑roof rising—watch it unveil itself in real time!",
+        "Lava at 4000m Depth: How Underwater Volcanoes Shape Our Ocean – The science behind the glowing mystery that no one has seen on TV.",
+        "The Sunken Lava Lake: Inside Earth’s Deepest Volcanic Demon – 5 Mind‑Blowing Facts about the hidden fire that’s been silently melting the planet."
+      ],
+      "keywords": [
+        "LavaFlows",
+        "DeepSea",
+        "Erupting",
+        "Glowing",
+        "Seafloor"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
