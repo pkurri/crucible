@@ -22403,6 +22403,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Bioluminescent Cities merge cutting‑edge sustainability science with mesmerizing nightlife aesthetics. The concept taps into the current renewable‑energy buzz, the perpetual fascination with neon and glow‑stick visuals, and the growing appetite for speculative future cityscapes. Faceless voice‑over and cinematic time‑lapse footage keep production low while satisfying viewers’ curiosity about a glowing, eco‑friendly horizon.",
+      "ideas": [
+        "Will Bioluminescent Lights Replace Neon? Hidden Cities of Tomorrow – Explore glowing skyscrapers powered by genetically engineered algae",
+        "Inside the Glimmering Metropolis: How Fungi Are Lighting Urban Space – Time‑lapse of bioluminescent mushroom arrays illuminating streets at night",
+        "The Midnight Run of the Sky: When Cities Go Bio‑Lit After Dark – A 90‑second journey through a city that turns on itself when the sun sets"
+      ],
+      "keywords": [
+        "bioluminescence",
+        "future",
+        "glowing",
+        "sustainable",
+        "nightscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
