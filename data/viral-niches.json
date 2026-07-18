@@ -22427,6 +22427,30 @@
         "nightscape"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubglacialLakeSecrets",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Subglacial lake biology blends cutting‑edge science with Alien‑like visuals. The recent surge in discoveries—glowing microbes, unseen ecosystems, and hidden ice cities—catapults the topic into current headlines, fueling curiosity and wonder. The niche is untapped by faceless channels, offers endless drip‑feed hooks (new species, life‑support systems, climatic implications), and can produce a library of 25+ unique concepts: from dramatic exploration footage to interactive data visualizations and speculative comparisons with extraterrestrial environments. The combination of awe‑inducing imagery, top‑tier science credibility, and the broader conversation about climate change guarantees high scroll‑stopping engagement and repeat subscribers.",
+      "ideas": [
+        "The Shimmering Underwater Oasis: Inside Earth's Hidden Glacial Cities – You Won't Believe What's Inside! – Hook: Scientists drill into iceberg and uncover living cities that defy gravity.",
+        "Creatures of the Deep Freeze: Meet the Microbes that Thrive in Antarctica's 4°C Oceans! – Hook: For decades, the world thought these lakes were lifeless, but they're teeming with life.",
+        "Alien Bioluminescence Under the Ice: What Are Those Glowing Orbs? – Hook: I entered a subglacial lake in Antarctica and recorded the most surreal light show ever."
+      ],
+      "keywords": [
+        "crystalline_ice",
+        "submarine_aurora",
+        "bioluminescent_biome",
+        "icy_slab",
+        "alien_ecosphere"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
