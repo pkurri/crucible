@@ -22580,7 +22580,29 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
-      "priority": true
+      "priority": false
+    },
+    {
+      "name": "NeuralNanobotRevival",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "NeuralNanobotRevival blends the cutting‑edge fields of quantum computing, synthetic biology, and AI with the universally relatable human desire for health and longevity. The visual spectacle of nanobots maneuvering at synaptic scale offers instant scroll‑stopping hooks, while the ethical and existential questions it raises create endless curiosity loops. With micro‑scale footage, animated reconstructions, and expert interviews, creators can produce a steady stream of 25+ unique, high‑impact videos that resonate across science, tech, and wellness audiences, driving rapid subscriber growth and high view counts.",
+      "ideas": [
+        "5 Nanobots Repairing a Human Brain In Real Time – Scientists Live‑Demo!",
+        "From Sci‑Fi to Reality: Inside the First Commercial Neural Nanobot Clinic",
+        "Could Nanobots Cure Alzheimer’s? 3 Ground‑breaking Trials You Must See"
+      ],
+      "keywords": [
+        "Nanobots",
+        "Brain Repair",
+        "AI",
+        "Micro‑Scale",
+        "Visual"
+      ]
     }
   ]
 }
