@@ -22451,6 +22451,30 @@
         "alien_ecosphere"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityLiving",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The fascination with zero‑gravity experiences continues to surge—thanks to recent space‑tourism news, sci‑fi movies, and the success of VR simulations. Zero‑gravity living space videos combine mind‑bending visuals with design storytelling, offering endless scroll‑stopping hooks, curiosity loops, and shareability. Faceless production is easy with 3‑D renders, animated physics, and stock atmospheric footage, making it scalable for 25+ unique concepts per month.",
+      "ideas": [
+        "Title: Inside the First Zero‑Gravity Living Room – Floating Furniture, Hovering Plants\nHook: Watch a living room defy physics and discover how designers can create comfort without gravity. ",
+        "Title: Zero‑Gravity Kitchen Tour: Floating Utensils & Infinite Space\nHook: Step into a kitchen where your apron flies, your stove balances, and every dish becomes a 3‑D art piece—perfect for DIY space‑home lovers. ",
+        "Title: The Future Home: Life Without Gravity (20‑Minute VR Space Tour)\nHook: Immerse yourself in a full‑size zero‑gravity house that showcases everyday living in weightless conditions—ideal for science fans and futurists."
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "Floating",
+        "Surreal",
+        "Futuristic",
+        "Breathtaking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
