@@ -22672,6 +22672,30 @@
         "Delicious"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravitySports",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity sports blend the thrill of extreme athletics with the wonder of physics in a way that no current channel offers. The unique visual spectacle, the new‑angle competitions, and the potential for shareable moments (e.g., first zero‑gravity slam dunk) create instant hook‑power. Faceless production keeps costs low, while high‑quality narration (en‑US‑GuyNeural) keeps engagement high.",
+      "ideas": [
+        "Zero Gravity Basketball Dunk Contest 🚀 | Heaviest Planets Can't Stop Him! – Watch a basketball player slam in zero‑gravity and stay till the finish for the most insane slam.",
+        "Unbelievable Zero Gravity Skateboard Tricks 🤯 | Can Gravity Be Broken? – Skateboarding without gravity produces wild angles; keep watching for the trick that breaks the screen.",
+        "Zero Gravity Obstacle Course Challenge: Crash‑Free Legends! – Complete a never‑falling obstacle course; the finale will leave you amazed."
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "ExtremeSports",
+        "Mindblowing",
+        "PhysicsProof",
+        "StuntRevolution"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

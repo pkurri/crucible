@@ -12445,39 +12445,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Your next paycheck might already be in code.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "AI agents are stealing white‑collar jobs live.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
+      },
+      {
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
+      },
+      {
+        "text": "Would your desk be next?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
         "duration": 4
       }
     ]
@@ -12514,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -35689,7 +35689,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
         "duration": 5
       },
       {
@@ -40372,43 +40372,49 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Imagine a city where streets glow like fireflies.",
-        "duration": 5
+        "title": "Island Glow",
+        "name": "Puerto Viejo, Costa Rica",
+        "icon": "🌴"
       },
       {
-        "text": "These glowing streets could slash energy bills by 10%.",
-        "duration": 4
+        "title": "River Light",
+        "name": "Lake Joy, Oregon",
+        "icon": "🏞️"
       },
       {
-        "text": "Scientists engineered algae that burn cleanly in city pipes.",
-        "duration": 5
+        "title": "Sea Spark",
+        "name": "Biolum",
+        "icon": "🌊"
       },
       {
-        "text": "These bioluminescent boulevards light themselves 24/7.",
-        "duration": 5
+        "title": "Night Harbor",
+        "name": "Havana, Cuba",
+        "icon": "⚓"
       },
       {
-        "text": "And the glow controls traffic, cutting accidents by 30%.",
-        "duration": 5
+        "title": "Sky Bay",
+        "name": "Ha Long, Vietnam",
+        "icon": "✈️"
       },
       {
-        "text": "Hold on—there's a secret tech powering those lights.",
-        "duration": 4
+        "title": "Hidden Reef",
+        "name": "Blue Hole, Belize",
+        "icon": "🏖️"
       },
       {
-        "text": "Skip this, and you'll never see night cities again.",
-        "duration": 4
+        "title": "Forest Glow",
+        "name": "Akko, Israel",
+        "icon": "🌲"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next—cities that run on pure moonlight. Stay tuned.",
-        "duration": 4
+        "title": "Moonlit Coast",
+        "name": "St. Simons Island, USA",
+        "icon": "🌙"
       }
     ]
   },
@@ -50133,43 +50139,49 @@
     ]
   },
   "ZeroGravitySports": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ZeroGravitySports secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of ZeroGravitySports.",
-        "duration": 5
+        "title": "Harness",
+        "name": "AeroGravity Belt",
+        "icon": "🛡️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Goggles",
+        "name": "Nimbus Optics",
+        "icon": "👓"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Gravity Bed",
+        "name": "ZeroPad Lux",
+        "icon": "🛌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Neutrino Detector",
+        "name": "XenoPulse",
+        "icon": "🔬"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Anti-Gravity Boots",
+        "name": "FloatStep 3.0",
+        "icon": "👟"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Zero-Loop Swimsuit",
+        "name": "NullWave Regs",
+        "icon": "🏊"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Hover Ball",
+        "name": "AetherSphere",
+        "icon": "⚽"
       },
       {
-        "text": "If you want to master ZeroGravitySports, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Molecular Belt",
+        "name": "QuantumFlux Waist",
+        "icon": "💎"
       }
     ]
   },
