@@ -22624,6 +22624,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "OceanicAurora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The rare spectacle of sea auroras—bioluminescent waves that light up like polar skies—is a visually stunning, under‑explored phenomenon with a sense of mystery that captures curiosity and wonder. It blends nature, science, and so‑called supernatural awe, encouraging repeat content production (different locations, seasons, science explanations). The niche is unique enough to stand out from mainstream nature or AI content while offering limitless, high‑visceral, faceless video potential.",
+      "ideas": [
+        "Why the Ocean Lights Up Like a Sky – The Hidden Aurora of the Sea (Breathtaking Footage!)",
+        "Sea Aurora Explained: How Tiny Marine Creatures Create Lightning on the Water",
+        "Top 5 Most Amazing Ocean Auroras Around the World (You Won’t Believe #3)"
+      ],
+      "keywords": [
+        "glowing sea",
+        "bioluminescent water",
+        "submarine aurora",
+        "ocean wave lights",
+        "natural light show"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
