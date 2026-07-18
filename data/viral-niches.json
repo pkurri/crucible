@@ -22648,6 +22648,30 @@
         "natural light show"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Curiosity",
+      "reason": "Zero‑gravity cooking blends two massive viral trends—space exploration and food hacks—into one visually stunning, share‑worthy package. Gifs of floating saucers or sizzling eggs orbiting the camera can trend on Meta, while YouTube videos can leverage deep‑dive demos & beginner challenges that viewers can replicate. The science‑backed, almost impossible feel triggers gut‑worm curiosity and keeps viewers scrolling through a curated playlist of zero‑gravity recipes, ensuring high retention and killer CTR. Growth is amplified by endorsements from NASA partners, culinary influencers, and the ever‑present curiosity‑driven meme culture.",
+      "ideas": [
+        "How to Make the Perfect \"Space\" Pizza: Real Zero‑Gravity Cooking Demo! — Watch the dough literally lift off the pan…",
+        "Bounce Your Breakfast: 5 Zero‑Gravity Egg Recipes Every Foodie Must Try / Hook: Imagine eggs that never touch the pan—a kitchen impossible with physics!",
+        "The Ultimate Space Food Hack: Throwing Spaghetti in Zero‑Gravity – Watch It Tangle & Free-Fly! — This is the stuff TikTok talk!"
+      ],
+      "keywords": [
+        "Floating",
+        "ZeroGravity",
+        "Sizzling",
+        "Drip",
+        "Delicious"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
