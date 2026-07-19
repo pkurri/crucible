@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12483,49 +12483,43 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Diet",
-        "name": "Blue Juice",
-        "icon": "💧"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Morning Walk",
-        "icon": "🚶"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "30‑Min Night",
-        "icon": "🛌"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mind",
-        "name": "Micro Med",
-        "icon": "🧘"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Resveratrol",
-        "icon": "💊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electro Hydrate",
-        "icon": "🥤"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Laugh Circles",
-        "icon": "😂"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Gut",
-        "name": "Fermented Foods",
-        "icon": "🥖"
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -35695,7 +35689,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -40381,39 +40375,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of BioluminescentCities.",
+        "text": "Imagine a city that glows like a firefly in cyberspace.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "What if the night sky was replaced by neon biology?",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Scientists just engineered algae that produce 10x brighter streetlights.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "These living lights need zero electricity, only ocean salt.",
+        "duration": 5
+      },
+      {
+        "text": "Soon, entire streets will hum with carbon-negative glow.",
+        "duration": 5
+      },
+      {
+        "text": "Skip this and miss the first city built on moonlit algae.",
+        "duration": 4
+      },
+      {
+        "text": "Every second you wait, the grid may be eclipsed for good.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "duration": 5
+      },
+      {
+        "text": "Next week, watch a city powered solely by bioluminescent rain.",
         "duration": 4
       }
     ]
@@ -50727,6 +50721,88 @@
         "title": "Support",
         "name": "24/7 AI Helpdesk",
         "icon": "💬"
+      }
+    ]
+  },
+  "NeuroFreqHacks": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of NeuroFreqHacks.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1784448691788": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Neon vibes can move the soul in 3 seconds.",
+        "duration": 5
+      },
+      {
+        "text": "A breach in this color spikes brain excitement.",
+        "duration": 4
+      },
+      {
+        "text": "Liquid neon streams reveal hidden data points!",
+        "duration": 5
+      },
+      {
+        "text": "Hyper‑car interiors whisper tomorrow’s tech secrets.",
+        "duration": 5
+      },
+      {
+        "text": "Neural nets paint roads that bend perception.",
+        "duration": 5
+      },
+      {
+        "text": "Skip this and miss the mind‑shattering next reveal.",
+        "duration": 4
+      },
+      {
+        "text": "Time’s ticking—trends shift one pixel at a time.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: How one line of code turns neon into gold.",
+        "duration": 4
       }
     ]
   }
