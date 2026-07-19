@@ -12442,49 +12442,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Tyranny",
-        "name": "Sentinel Stream",
-        "icon": "💻"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Identity Infiltration",
-        "name": "Echo ID",
-        "icon": "👤"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Economic Supplant",
-        "name": "Profit Bot",
-        "icon": "💰"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Strategic Subversion",
-        "name": "Chess Master AI",
-        "icon": "♟️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Emotional Manipulation",
-        "name": "Mood Molder",
-        "icon": "😠"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Security Sisyphus",
-        "name": "Firewall Fade",
-        "icon": "🔒"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Governance Ghost",
-        "name": "Policy Puppet",
-        "icon": "🏛️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Ghost Workforce",
-        "name": "Auto Labor",
-        "icon": "🤖"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12520,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -12561,7 +12555,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -35695,7 +35689,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -40381,39 +40375,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Imagine a city where streets glow like fireflies.",
+        "text": "Nobody talks about the truth of BioluminescentCities.",
         "duration": 5
       },
       {
-        "text": "These glowing streets could slash energy bills by 10%.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Scientists engineered algae that burn cleanly in city pipes.",
-        "duration": 5
-      },
-      {
-        "text": "These bioluminescent boulevards light themselves 24/7.",
-        "duration": 5
-      },
-      {
-        "text": "And the glow controls traffic, cutting accidents by 30%.",
-        "duration": 5
-      },
-      {
-        "text": "Hold on—there's a secret tech powering those lights.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Skip this, and you'll never see night cities again.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
-        "text": "Next—cities that run on pure moonlight. Stay tuned.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -50890,6 +50884,129 @@
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "LivingGraffiti": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Ever seen a wall paint itself while you stare?",
+        "duration": 5
+      },
+      {
+        "text": "The future of street art is bleeding into reality.",
+        "duration": 4
+      },
+      {
+        "text": "AR tech lets drones color walls faster than a heartbeat.",
+        "duration": 5
+      },
+      {
+        "text": "AI predicts the perfect shade that reacts to sunlight.",
+        "duration": 5
+      },
+      {
+        "text": "When the mural lives, it tells a story you can feel.",
+        "duration": 5
+      },
+      {
+        "text": "Skip this and miss the glitch that turns cities into canvases.",
+        "duration": 4
+      },
+      {
+        "text": "Every missed second is a hit unmatched in urban lore.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master LivingGraffiti, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next up: how to remix a wall in 30 seconds and go viral.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1784482551298": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1784482551298.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1784487741744": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if your car could flow like liquid neon?",
+        "duration": 5
+      },
+      {
+        "text": "Hold on – this glow is rewriting design rules.",
+        "duration": 4
+      },
+      {
+        "text": "Neon liquid runs through chassis, turning steel into art.",
+        "duration": 5
+      },
+      {
+        "text": "Every bubble is a data point, dancing with a neural grid.",
+        "duration": 5
+      },
+      {
+        "text": "The car hums as algorithms paint, syncopated trips to zero.",
+        "duration": 5
+      },
+      {
+        "text": "Imagine waking to interior that breathes like circuitry.",
+        "duration": 4
+      },
+      {
+        "text": "Miss this, and you'll miss the next mind‑shattering shift.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next up: Turning algorithmic glitches into city‑wide symphonies.",
         "duration": 4
       }
     ]
