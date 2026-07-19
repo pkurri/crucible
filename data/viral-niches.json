@@ -22887,6 +22887,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The rise of bio‑engineering and renewable energy has sparked real scientific efforts to graft bioluminescent organisms into urban infrastructure.  The visual spectacle—glowing streets, animated billboards, eco‑light festivals—offers pure curiosity, awe, and a concrete look at the future of cities.  This niche is fresh, highly shareable, and resonates with sustainability, tech‑enthusiasts, and sci‑fi lovers, creating massive scroll‑stopping hooks for both short‑form and long‑form content.",
+      "ideas": [
+        "Explore the \"City That Never Sleeps\" – Inside a Prototype Bioluminescent Urban Lab",
+        "The Science Behind Glowing Streets: How Bioluminescent Plants Are Reinventing Nighttime Cityscapes",
+        "City Guide: 10 Real‑Life Tests of Bio‑Luminescent Alleyways You’ve Never Saw"
+      ],
+      "keywords": [
+        "glowing skyline",
+        "bioluminescent glow",
+        "nighttime cityscape",
+        "colored bioluminescence",
+        "future glow cities"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
