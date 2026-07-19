@@ -22956,6 +22956,30 @@
         "TimeLapse"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Bio‑luminescent cities merge environmental science, biophotonics, and futuristic architecture into a visually stunning concept that appeals to eco‑enthusiasts, tech‑geeks, and fantasy lovers. The combination of electric visuals, green sustainability narratives, and speculative design lends itself to hyper‑shareable, scroll‑stopping footage, while the niche remains relatively low‑competition, enabling rapid growth to 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "Top 10 Bio‑Luminescent Cities That Look Like Fantasy Worlds – Are They Real or Just 3D Art?",
+        "How One Tiny Fungus Could Light Up Entire Cities – The 5Step Bio‑Photon Blueprint",
+        "Spectacular Hidden Cities: 7 Real-Life Bioluminescent Architecture Projects You’ve Never Heard Of"
+      ],
+      "keywords": [
+        "Glowing",
+        "Neon",
+        "Bioluminescent",
+        "Luminous",
+        "Spectacular"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
