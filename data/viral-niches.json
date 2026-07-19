@@ -22747,6 +22747,32 @@
         "ClimateFX"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Cities powered by bioluminescent organisms are a fresh, visually stunning concept that blends sustainable tech with the enchantment of glowing streets. The novelty, combined with the potential for jaw‑dropping nighttime visuals, makes it highly scroll‑stopping and shareable—perfect for 1M+ growth and 100K+ views per clip.",
+      "ideas": [
+        "Glowing into the Night: Inside Tomorrow’s Bioluminescent Cities / Witness a city that lights up brighter than your phone screen—this is the future of urban nightlife",
+        "The Secret Chemistry Behind Bioluminescent City Lights / Learn how microbes can replace streetlamps in this mind‑blowing look at glowing infrastructure",
+        "Top 5 Bioluminescent Urban Experiments You Need to See / From glowing sidewalks to luminescent skyscrapers—discover the real science behind the dreams",
+        "Bioluminescent Metropolis: A 360° Immersive Night Tour / Step into a city where every corner is lit by living light—feel the awe with every frame",
+        "The Business of Glow: How Startups are Turning Cityscapes into Living Nightlights / Meet the entrepreneurs turning bioluminescence into a global sustainability revolution"
+      ],
+      "keywords": [
+        "glowing streets",
+        "bioluminescent glow",
+        "nighttime cityscape",
+        "luminescent architecture",
+        "biotech illumination"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
