@@ -22932,6 +22932,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LivingGraffiti",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "LivingGraffiti taps into the intersection of urban art, AR, and AI, a hot trend showcased by viral time‑lapse murals at art festivals. It offers visually stunning, instantly shareable content that sparks curiosity and awe, while the idea of a wall that ‘comes alive’ invites countless remix and tutorial opportunities, making it ripe for endless fresh angles.",
+      "ideas": [
+        "Living Graffiti: 7 Esports Walls That Just Jumped To Life – Watch the Epic Reveal!",
+        "From Zero to Live: How I Turned a Plain Brick Wall into a Moving AI‑Generated Masterpiece",
+        "10 Street Art Spots Where The Murals Are Animating in Real Time – You Won’t Believe #3!"
+      ],
+      "keywords": [
+        "StreetArt",
+        "LiveGraffiti",
+        "AugmentedReality",
+        "UrbanTransformation",
+        "TimeLapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
