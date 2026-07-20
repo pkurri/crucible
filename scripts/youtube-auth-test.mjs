@@ -17,6 +17,7 @@ import url from 'url';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 import open from 'open';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -37,10 +38,29 @@ const SCOPES = [
   'https://www.googleapis.com/auth/youtube.readonly'
 ];
 
+// Every explicit consent issues a new refresh token, and Google silently
+// invalidates the oldest one past its per-client/user limit — so the CI
+// secret must be kept in sync with whatever token this script just wrote,
+// or the empire fleet will keep running on a token that's about to die.
+function syncTokenToGitHubSecret() {
+  try {
+    execSync('gh auth status', { stdio: 'ignore' });
+  } catch {
+    console.warn('⚠️  gh CLI not authenticated — skipping GitHub secret sync. Update YOUTUBE_TOKEN_JSON manually.');
+    return;
+  }
+  try {
+    execSync(`gh secret set YOUTUBE_TOKEN_JSON --repo pkurri/crucible < "${TOKEN_PATH}"`, { stdio: 'inherit', shell: '/bin/sh' });
+    console.log('🔐 GitHub Actions secret YOUTUBE_TOKEN_JSON updated — the empire fleet will pick up the new token on its next scheduled run.');
+  } catch (e) {
+    console.warn(`⚠️  Failed to update GitHub secret automatically: ${e.message}. Update it manually via 'gh secret set YOUTUBE_TOKEN_JSON --body-file youtube-token.json'.`);
+  }
+}
+
 async function authenticate() {
   if (!existsSync(SECRET_PATH)) {
     console.error('❌ Error: client_secret.json not found in the root directory.');
-    console.log('   Please move your Google Cloud JSON file to C:\\Users\\Prasad\\workspace\\dups\\crucible\\client_secret.json');
+    console.log(`   Please place your Google Cloud OAuth JSON file at ${SECRET_PATH}`);
     process.exit(1);
   }
 
@@ -74,6 +94,7 @@ async function authenticate() {
           oauth2Client.setCredentials(tokens);
           writeFileSync(TOKEN_PATH, JSON.stringify(tokens, null, 2));
           console.log('📦 Token saved to youtube-token.json');
+          syncTokenToGitHubSecret();
           resolve(oauth2Client);
         }
       } catch (e) {
@@ -82,7 +103,8 @@ async function authenticate() {
     }).listen(3001, () => {
       console.log('📡 Auth server listening on port 3001.');
       console.log('🌐 Opening browser for authorization...');
-      open(authUrl);
+      console.log(`   If no window opens, visit this URL manually:\n   ${authUrl}\n`);
+      open(authUrl).catch(() => {});
     });
   });
 }
