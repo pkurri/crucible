@@ -23317,6 +23317,30 @@
         "GravitylessMeals"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumWeather",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The intersection of quantum computing and weather prediction taps into a hot science frontier, high‑stakes climate concerns, and visually stunning data visualizations. This niche is unique, currently underexplored, and perfect for rapid‑engagement in short‑form content.",
+      "ideas": [
+        "\"Quantum Weather Forecast: Will Tomorrow's Hurricane Be Worse Than You Imagine? | Reality\" – Hook: \"Quantum computers could predict the next big storm before it even forms.\"",
+        "\"Hidden Rainbows: How Quantum Algorithms Reveal Hidden Weather Patterns\" – Hook: \"Discover the invisible data that could forecast climate catastrophes.\"",
+        "\"Quantum Climate Lab: 5 Minutes to Predict a Tornado That Currently Has No Forecast\" – Hook: \"Watch as quantum principles decode tornado genesis faster than satellites.\""
+      ],
+      "keywords": [
+        "QuantumStorm",
+        "SkyPrediction",
+        "DataGlitch",
+        "FutureCloud",
+        "NebulaComputing"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
