@@ -23097,6 +23097,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticEcosystems",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Advances in lab‑grown biology, biofabrication, and climate‑resilient design are exploding in mainstream science news, yet no dedicated faceless channel visualizes these living‑tech futures in stunning, cinematic detail. Audiences crave awe‑inspiring glimpses of tomorrow’s self‑sustaining worlds, driving high click‑through and retention.",
+      "ideas": [
+        "What If Cities Grew Like Forests? – A 3‑minute tour of a self‑healing, bioluminescent metropolis built from engineered moss and fungal networks.",
+        "Lab‑Made Oceans: The Rise of Floating Bioreactors That Cleanse Plastic & Produce Oxygen – See the neon‑lit algae farms that could save our seas.",
+        "Gene‑Edited Super‑Plants That Thrive on Mars – Watch how scientists are tweaking DNA to create food‑producing ecosystems for off‑world colonies."
+      ],
+      "keywords": [
+        "bioluminescent moss",
+        "floating bioreactors",
+        "gene‑edited algae",
+        "self‑healing soil",
+        "neon nutrient cycles"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
