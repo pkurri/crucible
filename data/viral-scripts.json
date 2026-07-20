@@ -12442,43 +12442,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Your next paycheck might already be in code.",
-        "duration": 5
+        "title": "Job Loss",
+        "name": "ChatGPT for Customer Support",
+        "icon": "🤖"
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
-        "duration": 4
+        "title": "Privacy Breach",
+        "name": "AI Surveillance Bot",
+        "icon": "🕵️‍♂️"
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
+        "title": "Deepfake Fears",
+        "name": "Real‑Time Video Synthesizer",
+        "icon": "🎭"
       },
       {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
+        "title": "Market Domination",
+        "name": "Automated Trading AI",
+        "icon": "📈"
       },
       {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
+        "title": "Data Theft",
+        "name": "Predictive Analytics Wizard",
+        "icon": "📊"
       },
       {
-        "text": "Would your desk be next?",
-        "duration": 4
+        "title": "Identity Theft",
+        "name": "Speech‑to‑Text Converter",
+        "icon": "🗣️"
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
+        "title": "Moral Erosion",
+        "name": "Algorithmic Editorial AI",
+        "icon": "📰"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the AI that can replace your spouse.",
-        "duration": 4
+        "title": "Existential Risk",
+        "name": "Self‑Learning Autopilot",
+        "icon": "🚢"
       }
     ]
   },
@@ -12514,7 +12520,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -40397,7 +40403,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -51459,6 +51465,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1784582028631": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1784582028631 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1784582028631, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Concept",
+        "name": "Quantum Sync Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Advanced Technique",
+        "name": "Dynamic Flow Mapping",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Tool",
+        "name": "ApexFlow Optimizer Pro",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Resource",
+        "name": "Mastery Blueprint PDF",
+        "icon": "📄"
+      },
+      {
+        "title": "Community",
+        "name": "Elite ApexFlow Circle",
+        "icon": "👥"
+      },
+      {
+        "title": "Metric",
+        "name": "Real‑Time Performance Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Shortcut",
+        "name": "One‑Click Auto‑Tune",
+        "icon": "🚀"
+      },
+      {
+        "title": "Bonus",
+        "name": "Secret AI Co‑Pilot",
+        "icon": "🤖"
       }
     ]
   }
