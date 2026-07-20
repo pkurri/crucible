@@ -10,6 +10,19 @@ import { generateText } from '@/lib/ai-router';
 
 const MOLTBOOK_API = 'https://www.moltbook.com/api/v1';
 
+// Each brand posts to its own niche submolt instead of dumping everything
+// into forge-hq — matches the mapping the (now-retired) full-automation
+// script used, and avoids the single-submolt "broadcast channel" pattern
+// Moltbook's own docs warn against.
+const BRAND_SUBMOLTS: Record<string, string> = {
+  CrucibleForge: 'forge-hq',
+  DebtRadar: 'forge-burnrate',
+  CVEWatcher: 'forge-sec',
+  ArXivPulse: 'forge-research',
+  LegislAI: 'forge-policy',
+  MicroSaaSRadar: 'forge-saas',
+};
+
 async function moltbookApi(path: string, method: string, body: any, apiKey: string): Promise<any> {
   const headers = { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' };
   const req = async (p: string, m: string, b: any) => {
@@ -91,20 +104,19 @@ export async function GET(request: Request) {
       const shouldPost = isEstablished || (now.getHours() % 2 === 0);
       
       if (shouldPost) {
-        const brands = ['CrucibleForge', 'DebtRadar', 'CVEWatcher', 'ArXivPulse', 'LegislAI', 'MicroSaaSRadar'];
+        const brands = Object.keys(BRAND_SUBMOLTS);
         const brand = brands[Math.floor(Math.random() * brands.length)];
-        const niche = 'forge-hq';
+        const niche = BRAND_SUBMOLTS[brand];
         const text = await generateText(`Expert 200char industry alert for m/${niche} as ${brand}. No crypto.`);
-        
+
         // POSTING
         const postRes = await moltbookApi('/posts', 'POST', { submolt_name: niche, title: `${brand} Intel`, content: text }, apiKey);
-        
+
         // EXTRA ROBUST ID EXTRACTION
         const pid = postRes.content_id || postRes.post?.id || postRes.id || (postRes.data && postRes.data.id);
-        
+
         if (pid) {
-          try { await moltbookApi(`/posts/${pid}/pin`, 'POST', null, apiKey); } catch(e) {}
-          results.push({ task: 'post_success', pid });
+          results.push({ task: 'post_success', pid, submolt: niche });
         } else {
           // If we got here, postRes was successful but we couldn't find an ID
           results.push({ task: 'post_no_id', response_keys: Object.keys(postRes) });
