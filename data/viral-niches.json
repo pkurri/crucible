@@ -23271,6 +23271,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FloatingSolarCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Floating Solar Cities combine cutting‑edge renewable energy, climate‑resilient architecture, and the mystical allure of living \"on the water\" – a highly relatable future threat paired with a visionary solution. The concept is novel, visually impressive, and ripe for visual storytelling that can spark curiosity, fear, and wonder, making it perfect for scroll‑stopping hooks and cloneable content.",
+      "ideas": [
+        "Title: The Future We Can't Predict: Inside the World's Largest Floating Solar City | Hook: Imagine a metropolis powered entirely by sunlight, built on the sea. See how this thought‑experiment is already shaping tomorrow’s urban planning.",
+        "Title: 5 Groundbreaking Designs Turning Ocean Foam Into Urban Paradise | Hook: From inflatable habitats to solar farms, discover how architects are turning waves into living, breathing spaces.",
+        "Title: Why Rising Tide Could Launch the Next Megacity: The Floating Solar Revolution | Hook: As sea levels climb, the only solution for millions might be floating. Dive into the technology, drama and urgency behind this bold vision."
+      ],
+      "keywords": [
+        "splashing",
+        "solar",
+        "concrete",
+        "glass",
+        "floating"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
