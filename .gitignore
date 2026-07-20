@@ -15,6 +15,7 @@ youtube-token.json
 moltbook-credentials.json
 moltbook-state.json
 yt-empire-state.json
+scripts/agents/*.json
 *.pem
 *.key
 .env*
