@@ -23295,6 +23295,28 @@
         "floating"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Curiosity",
+      "reason": "People’s fascination with space travel and the novelty of eating without gravity creates natural curiosity and shareability. The niche is novel, highly visual, and lends itself to rapid scroll‑stopping hooks—perfect for faceless, short‑form content that can be repurposed across TikTok/Instagram Reels and YouTube Shorts. The versatility of combining science, cooking, and space themes allows for 25+ unique, viral angles while keeping production low‑cost and highly engaging.",
+      "ideas": [
+        "\"Cook a Steak on the International Space Station: Step‑by‑Step!\" / Hook: ‘Ever wondered how astronauts selfie‑feed their appetite? Watch our zero‑gravity steak recipe!\",\"\"The Impossible Zero‑Gravity Snack: 3 Foods That Don’t Sink!\" / Hook: ‘Can you enjoy a bowl of soup in orbit? Check out this gravity‑free treat, then share!\",\"\"Zero‑Gravity Pasta: Aromatic Bolognese Without Gravity!\" / Hook: ‘Watch this droplet‑sling pasta transformation and learn the secrets to orbit‑ready noodles!"
+      ],
+      "keywords": [
+        "SpaceKitchen",
+        "ZeroGravity",
+        "AstroCooking",
+        "OrbitalFood",
+        "GravitylessMeals"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
