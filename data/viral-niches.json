@@ -23341,6 +23341,30 @@
         "NebulaComputing"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "This niche taps into the growing fascination with natural wonders and urban exploration. The concept of cities illuminated by bioluminescent organisms is visually stunning, conceptually fresh, and highly shareable. It offers endless content permutations—different cities, seasons, and hidden corners—ensuring scalable production. The visual intensity and novelty trigger strong scroll‑stopping hooks, while the underlying mystery keeps viewers engaged, satisfying curiosity loops. With the rise of sustainable tourism and eco‑Awe, this niche aligns perfectly with current audience interests, setting the stage for 1M+ subscribers and 100k+ views per video.",
+      "ideas": [
+        "Tokyo's Night Streets Turn Into Neon Forests — The Secrets Behind Bioluminescent Tokyo Revealed",
+        "Paris in Glow: How Bioluminescence Is Lighting the Eiffel Tower at Midnight — You Won't Believe Your Eyes",
+        "Shenzhen's Hidden Neon Alleyways: Discover the City’s Secret Bioluminescent Paradise"
+      ],
+      "keywords": [
+        "Glowing",
+        "Neon",
+        "Luminous",
+        "Nightlight",
+        "Aurora"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
