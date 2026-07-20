@@ -23220,6 +23220,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The concept of cities powered by bioluminescence merges sustainability, sci‑fi aesthetics, and cutting‑edge biology—perfect for a visually arresting, high‑curiosity niche that can spark endless sub‑topics (design, technology, ecology, urban planning). The visual wow factor fuels scroll‑stopping hooks and keeps viewers engaged, while the future‑forward angle taps into current enthusiasm for green innovation, ensuring huge potential for virality and subscriber growth.",
+      "ideas": [
+        "The Glow‑City That Never Turns Dark: Inside the First Bioluminescent Metropolis – Hook: ‘What if your streetlights were powered by living light?’",
+        "How Bioluminescent Plants Could Replace Electric Grids – Hook: ‘Can algae light up the next megacity?’",
+        "Designing a Sustainable Bioluminescent City with 2026 Tech – Hook: ‘Step into the night that never sleeps!’"
+      ],
+      "keywords": [
+        "glow",
+        "nightscape",
+        "bioluminescence",
+        "eco-city",
+        "futuristic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
