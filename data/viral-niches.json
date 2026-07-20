@@ -23148,6 +23148,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The concept of cities that literally glow with engineered bioluminescent organisms taps into growing interests in sustainability, technology, and urban fantasy. It offers unique, highly visual content that can be scaled into a series of short clips, 3‑minute documentary‑style videos, and immersive social media reels. The hook is that this isn't just future tech—it's already happening in pilot projects, making the promise tangible and highly shareable.",
+      "ideas": [
+        "The City That Never Sleeps: How Bioluminescent Skyscrapers Could End Street‑Light Bills / See the mind‑blowing glow that parks and highways are getting tonight!",
+        "Inside the World’s First Bioluminescent City: The Tech That Turns Streets Into Living Neon Forests / Watch engineers turn algae into glowing billboards!",
+        "Zero‑Gravity Fitness? Robots Build Bioluminescent Shrines Under Desert Skies / Find out how light‑emitting domes might replace night‑time alarms!"
+      ],
+      "keywords": [
+        "NeonGlow",
+        "BiotechCity",
+        "SustainableGlow",
+        "LuminousSkyline",
+        "FutureCity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
