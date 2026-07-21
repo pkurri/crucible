@@ -1,6 +1,6 @@
 {
-  "lastUploadTime": "2026-07-21T02:54:24.525Z",
-  "uploadsToday": 1,
+  "lastUploadTime": "2026-07-21T10:30:09.258Z",
+  "uploadsToday": 2,
   "lastDate": "2026-07-21",
   "history": [
     {
@@ -121,6 +121,11 @@
     {
       "topic": "The Cyber-Deckbuilder Origins",
       "date": "2026-07-21T02:54:24.525Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "High-Fantasy Architectures",
+      "date": "2026-07-21T10:30:09.258Z",
       "type": "Cinematic Reel"
     }
   ]
