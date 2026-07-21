@@ -23596,6 +23596,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobiomeMysteries",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Exploding interest in gut‑brain axis research, viral TikTok/Shorts trends about \"gut feelings\" and probiotics, and the ability to visualize microscopic worlds with stunning macro‑lens or AI‑generated footage makes this a perfect faceless niche for high‑retention, curiosity‑driven content.",
+      "ideas": [
+        "The Hidden Organ That Controls Your Mood – 5 Shocking Gut Bacteria Facts",
+        "What If Your Microbiome Could Talk? AI‑Generated Conversations Inside Your Gut",
+        "The 3‑Second Gut Hack That Boosts Immunity – Backed by New 2024 Study"
+      ],
+      "keywords": [
+        "macro bacteria",
+        "glowing gut flora",
+        "microbe battle",
+        "digestive galaxy",
+        "viral microbiome"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
