@@ -28,7 +28,7 @@
 
 ---
 
-### 🛠️ Development Tools (20 skills)
+### 🛠️ Development Tools (21 skills)
 
 **tool-agent-coordinator** - Multi-agent task coordination  
 **tool-agent-logger** - Structured logging and monitoring  
@@ -49,11 +49,12 @@
 **tool-dependency-analyzer** - Dependency graph analysis  
 **tool-code-formatter** - Multi-language code formatting  
 **tool-refactoring-assistant** - Automated refactoring suggestions  
-**tool-migration-helper** - Framework/library migration guide
+**tool-migration-helper** - Framework/library migration guide  
+**likec4-diagrams** - LikeC4 architecture-as-code diagram authoring (AOD)
 
 ---
 
-### 🔄 Workflow Automation (15 skills)
+### 🔄 Workflow Automation (16 skills)
 
 **workflow-agent-orchestration** - Multi-agent workflow coordination  
 **workflow-brainstorm** - Ideation and brainstorming facilitator  
@@ -69,7 +70,8 @@
 **workflow-release-manager** - Release planning and execution  
 **workflow-hotfix-handler** - Emergency fix workflow  
 **workflow-code-review-flow** - Automated review process  
-**workflow-onboarding** - Developer onboarding automation
+**workflow-onboarding** - Developer onboarding automation  
+**workflow-likec4-aod-pipeline** - LikeC4 AOD generation pipeline
 
 ---
 
@@ -199,7 +201,7 @@
 ### 🎮 Gaming & Interactive (New)
 
 **gaming-studio** - Full-cycle game studio orchestration (48 agents)  
-**revenue-optimizer** - Monetization strategy and Free/Pro segmentation  
+**revenue-optimizer** - Monetization strategy and Free/Pro segmentation
 
 ## Skill Structure
 
