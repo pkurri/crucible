@@ -1,0 +1,51 @@
+name: '📊 Monetization Status Report'
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Once daily
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Node Dependencies
+        run: npm install
+
+      - name: Setup YouTube Credentials
+        run: |
+          if [ -n "${{ secrets.YOUTUBE_CLIENT_SECRET }}" ] && [ -n "${{ secrets.YOUTUBE_TOKEN_JSON }}" ]; then
+            echo '${{ secrets.YOUTUBE_CLIENT_SECRET }}' > client_secret.json
+            echo '${{ secrets.YOUTUBE_TOKEN_JSON }}' > youtube-token.json
+          else
+            echo "⚠️ YouTube secrets missing — report will skip YouTube stats."
+          fi
+
+      - name: Generate Monetization Status Report
+        run: node scripts/monetization-status-report.mjs
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }}
+          META_IG_ACCOUNT_ID: ${{ secrets.META_IG_ACCOUNT_ID }}
+
+      - name: Commit Status Update
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          rm -f client_secret.json youtube-token.json
+          git config --global user.name "Crucible Bot"
+          git config --global user.email "bot@crucible.ai"
+          git add -f data/monetization-status.json || echo "No new report to add"
+          git diff --staged --quiet || git commit -m "chore: update monetization status report [skip ci]"
+          git pull --rebase origin main || true
+          git push origin main || echo "Push failed"
