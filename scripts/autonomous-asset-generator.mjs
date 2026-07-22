@@ -137,19 +137,25 @@ async function generateImagesForTopic(topic) {
         }
       }
 
-      // ✅ Provider 3: Picsum (reliable stock fallback, always works)
+      // ✅ Provider 3: Picsum (reliable stock fallback — retried since it's the last resort)
       if (!success) {
-        try {
-          const seed = Math.floor(Math.random() * 1000);
-          const buffer = Buffer.from(await (await fetch(`https://picsum.photos/seed/${seed}/1080/1920`)).arrayBuffer());
-          if (buffer.length > 50000) {
-            fs.writeFileSync(imgPath, buffer);
-            console.log(`   ✅ [Picsum] Stock fallback: ${(buffer.length/1024).toFixed(0)}KB`);
-            success = true;
+        for (let attempt = 1; attempt <= 3 && !success; attempt++) {
+          try {
+            const seed = Math.floor(Math.random() * 100000);
+            const buffer = Buffer.from(await (await fetch(`https://picsum.photos/seed/${seed}/1080/1920`)).arrayBuffer());
+            if (buffer.length > 50000) {
+              fs.writeFileSync(imgPath, buffer);
+              console.log(`   ✅ [Picsum] Stock fallback: ${(buffer.length/1024).toFixed(0)}KB`);
+              success = true;
+            } else {
+              console.warn(`   ⚠️ [Picsum] Attempt ${attempt} returned undersized image (${buffer.length}B)`);
+            }
+          } catch (picsumErr) {
+            console.warn(`   ⚠️ [Picsum] Attempt ${attempt} error: ${picsumErr.message}`);
           }
-        } catch (picsumErr) {
-          console.error(`   ❌ [Picsum] ${picsumErr.message}`);
+          if (!success && attempt < 3) await new Promise(r => setTimeout(r, 1500));
         }
+        if (!success) console.error(`   ❌ [Picsum] All 3 attempts failed`);
       }
 
       if (!success) throw new Error(`All image providers exhausted for slot ${i}.`);
