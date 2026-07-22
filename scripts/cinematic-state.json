@@ -1,7 +1,7 @@
 {
-  "lastUploadTime": "2026-07-21T15:48:29.631Z",
-  "uploadsToday": 3,
-  "lastDate": "2026-07-21",
+  "lastUploadTime": "2026-07-22T02:51:30.269Z",
+  "uploadsToday": 1,
+  "lastDate": "2026-07-22",
   "history": [
     {
       "topic": "The Cyber-Deckbuilder Origins",
@@ -131,6 +131,11 @@
     {
       "topic": "Mystical Algorithms",
       "date": "2026-07-21T15:48:29.631Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "Neon Syndicate Lore",
+      "date": "2026-07-22T02:51:30.269Z",
       "type": "Cinematic Reel"
     }
   ]
