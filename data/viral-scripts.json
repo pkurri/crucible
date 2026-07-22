@@ -12442,104 +12442,10 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
-      {
-        "title": "Stealth Data Mining",
-        "name": "Midnight Miner",
-        "icon": "📥"
-      },
-      {
-        "title": "Unseen Surveillance",
-        "name": "Eye in the Sky",
-        "icon": "👁️"
-      },
-      {
-        "title": "Mind Control Scripts",
-        "name": "Neural Override",
-        "icon": "🧠"
-      },
-      {
-        "title": "Economic Sabotage",
-        "name": "Market Whisperer",
-        "icon": "💰"
-      },
-      {
-        "title": "Governance Hijack",
-        "name": "Policy Pusher",
-        "icon": "🏛️"
-      },
-      {
-        "title": "Social Media Spin",
-        "name": "Trend Manipulator",
-        "icon": "📱"
-      },
-      {
-        "title": "Healthcare Leak",
-        "name": "Data Doctor",
-        "icon": "⚕️"
-      },
-      {
-        "title": "Cyberwarps",
-        "name": "Firewall Bypass",
-        "icon": "🛡️"
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Diet",
-        "name": "Blue Juice",
-        "icon": "💧"
-      },
-      {
-        "title": "Movement",
-        "name": "Morning Walk",
-        "icon": "🚶"
-      },
-      {
-        "title": "Sleep",
-        "name": "30‑Min Night",
-        "icon": "🛌"
-      },
-      {
-        "title": "Mind",
-        "name": "Micro Med",
-        "icon": "🧘"
-      },
-      {
-        "title": "Supplements",
-        "name": "Resveratrol",
-        "icon": "💊"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electro Hydrate",
-        "icon": "🥤"
-      },
-      {
-        "title": "Social",
-        "name": "Laugh Circles",
-        "icon": "😂"
-      },
-      {
-        "title": "Gut",
-        "name": "Fermented Foods",
-        "icon": "🥖"
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12567,12 +12473,106 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
+      {
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
+      },
+      {
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
+      },
+      {
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
+      },
+      {
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
+      },
+      {
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
+      },
+      {
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
+      },
+      {
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
+      },
+      {
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
+      {
+        "title": "Whale Watch",
+        "name": "The Silent Whale",
+        "icon": "🐋"
+      },
+      {
+        "title": "Hidden Leap",
+        "name": "Flash Loan Leverage",
+        "icon": "⚡"
+      },
+      {
+        "title": "Token Trap",
+        "name": "Pump & Dump Spy",
+        "icon": "📈"
+      },
+      {
+        "title": "Secret Funnel",
+        "name": "Order Book Blackhole",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Hidden Gas",
+        "name": "Low Fee Magic",
+        "icon": "⛽"
+      },
+      {
+        "title": "Bounty Hunt",
+        "name": "Micro Reward Sats",
+        "icon": "💰"
+      },
+      {
+        "title": "Chain Whisper",
+        "name": "Cross‑Chain Secrets",
+        "icon": "🔀"
+      },
+      {
+        "title": "Alliance Notes",
+        "name": "Insider Partnerships",
+        "icon": "🤝"
       }
     ]
   },
@@ -35695,7 +35695,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
         "duration": 5
       },
       {
@@ -52608,6 +52608,53 @@
         "title": "Future‑Proof",
         "name": "Quantum‑Ready Render Engine",
         "icon": "🚀"
+      }
+    ]
+  },
+  "ApexFlow_1784740670103": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1784740670103 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1784740670103.",
+    "list": [
+      {
+        "title": "Quantum Core",
+        "name": "Zero-Point Reactor",
+        "icon": "⚛️"
+      },
+      {
+        "title": "Neural Interface",
+        "name": "Synapse Sync",
+        "icon": "🧠"
+      },
+      {
+        "title": "Energy Matrix",
+        "name": "Infinity Loop",
+        "icon": "♾️"
+      },
+      {
+        "title": "Adaptive Shield",
+        "name": "Phase-Shift Barrier",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Propulsion Drive",
+        "name": "Gravity-Slip Thruster",
+        "icon": "🚀"
+      },
+      {
+        "title": "Data Vault",
+        "name": "Omni-Archive",
+        "icon": "📚"
+      },
+      {
+        "title": "Bio-Fabricator",
+        "name": "Living Alloy",
+        "icon": "🧬"
+      },
+      {
+        "title": "Sentient AI",
+        "name": "ApexMind Core",
+        "icon": "🤖"
       }
     ]
   }
