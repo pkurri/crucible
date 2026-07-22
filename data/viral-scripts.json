@@ -12442,10 +12442,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Job Loss",
+        "name": "ChatGPT for Customer Support",
+        "icon": "🤖"
+      },
+      {
+        "title": "Privacy Breach",
+        "name": "AI Surveillance Bot",
+        "icon": "🕵️‍♂️"
+      },
+      {
+        "title": "Deepfake Fears",
+        "name": "Real‑Time Video Synthesizer",
+        "icon": "🎭"
+      },
+      {
+        "title": "Market Domination",
+        "name": "Automated Trading AI",
+        "icon": "📈"
+      },
+      {
+        "title": "Data Theft",
+        "name": "Predictive Analytics Wizard",
+        "icon": "📊"
+      },
+      {
+        "title": "Identity Theft",
+        "name": "Speech‑to‑Text Converter",
+        "icon": "🗣️"
+      },
+      {
+        "title": "Moral Erosion",
+        "name": "Algorithmic Editorial AI",
+        "icon": "📰"
+      },
+      {
+        "title": "Existential Risk",
+        "name": "Self‑Learning Autopilot",
+        "icon": "🚢"
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12473,59 +12520,12 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
-      {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
-      },
-      {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
-      },
-      {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
-      },
-      {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
       }
     ]
   },
@@ -12577,43 +12577,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Ever wonder how puppeteers control you in seconds?",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Scarcity Bomb",
+        "icon": "🔒"
       },
       {
-        "text": "They leave no trace, and you can't see the strings.",
-        "duration": 4
+        "title": "Mind Control",
+        "name": "Thought Loop",
+        "icon": "🔁"
       },
       {
-        "text": "The first law: Silence is louder than shouting.",
-        "duration": 5
+        "title": "Emotional Manipulation",
+        "name": "Schadenfreude Hook",
+        "icon": "😈"
       },
       {
-        "text": "Mirroring triggers trust, turning strangers into allies.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Chocolate Bandit",
+        "icon": "🍫"
       },
       {
-        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
-        "duration": 5
+        "title": "Cognitive Bias",
+        "name": "Confirmation Cold",
+        "icon": "❄️"
       },
       {
-        "text": "If you ignore this, they'll weaponize your own memories.",
-        "duration": 4
+        "title": "Gaslighting",
+        "name": "Mirror Lie",
+        "icon": "🪞"
       },
       {
-        "text": "Imagine them framing you, then playing the courtroom.",
-        "duration": 4
+        "title": "Influence Tactics",
+        "name": "Fishbowl Flash",
+        "icon": "🐠"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
-        "duration": 4
+        "title": "Fear Leveraging",
+        "name": "Shadow Threat",
+        "icon": "👻"
       }
     ]
   },
@@ -35695,7 +35701,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
