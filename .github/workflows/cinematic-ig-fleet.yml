@@ -55,7 +55,8 @@ jobs:
         run: |
           git config --global user.name "Crucible Bot"
           git config --global user.email "bot@crucible.ai"
-          git add -f scripts/cinematic-ig-state.json data/cinematic-empire/CognitiveShadows-IG/ || true
+          rm -rf data/cinematic-empire/CognitiveShadows-IG/
+          git add -f scripts/cinematic-ig-state.json || true
           git diff --staged --quiet || git commit -m "chore: cinematic IG cycle advanced [skip ci]"
           git pull --rebase origin main || true
           git push origin main || echo "Push failed"

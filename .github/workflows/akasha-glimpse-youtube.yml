@@ -53,7 +53,8 @@ jobs:
         run: |
           git config --global user.name "Crucible Bot"
           git config --global user.email "bot@crucible.ai"
-          git add -f data/instagram-empire/AkashaGlimpse/ scripts/ data/viral-metadata.json || true
+          rm -rf data/instagram-empire/AkashaGlimpse/
+          git add -f scripts/akasha-state.json data/viral-metadata.json || true
           git diff --staged --quiet || git commit -m "chore: akasha glimpse video released [skip ci]"
           git pull --rebase origin main || true
           git push origin main || echo "Push failed"

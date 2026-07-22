@@ -16,6 +16,7 @@ moltbook-credentials.json
 moltbook-state.json
 yt-empire-state.json
 scripts/agents/*.json
+scripts/ltx-credentials.json
 *.pem
 *.key
 .env*
