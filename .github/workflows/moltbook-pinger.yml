@@ -18,12 +18,24 @@ jobs:
       - name: Trigger Article Generation (Every 4 hours)
         if: steps.check-hour.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          curl -f -X GET "https://forge-agents.space/api/articles/generate-batch" \
-          -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
-          -v || echo "Article generation timed out or failed, but continuing..."
+          response=$(curl -s -w '\n%{http_code}' -X GET "https://forge-agents.space/api/articles/generate-batch" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}")
+          status="${response##*$'\n'}"
+          body="${response%$'\n'*}"
+          echo "HTTP status: $status"
+          echo "Response body: $body"
+          if [ "$status" -ge 400 ]; then
+            echo "::warning::Article generation failed with status $status"
+          fi
 
       - name: Trigger Moltbook Growth Cycle (High Frequency)
         run: |
-          curl -f -X GET "https://forge-agents.space/api/moltbook/automation" \
-          -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
-          -v || echo "Moltbook automation timed out or failed (server-side), but continuing..."
+          response=$(curl -s -w '\n%{http_code}' -X GET "https://forge-agents.space/api/moltbook/automation" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}")
+          status="${response##*$'\n'}"
+          body="${response%$'\n'*}"
+          echo "HTTP status: $status"
+          echo "Response body: $body"
+          if [ "$status" -ge 400 ]; then
+            echo "::warning::Moltbook automation failed with status $status"
+          fi
