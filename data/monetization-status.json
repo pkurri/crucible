@@ -1,9 +1,16 @@
 {
-  "generatedAt": "2026-07-22T08:10:22.308Z",
+  "generatedAt": "2026-07-22T18:22:26.981Z",
   "platforms": [
     {
       "platform": "youtube",
-      "error": "Missing client_secret.json or youtube-token.json"
+      "channel": "AAK-tion!",
+      "subscribers": 0,
+      "subscribersHidden": false,
+      "totalViews": 50,
+      "videoCount": 39,
+      "subscriberEligibilityProgress": 0,
+      "monetizationStatus": "not_eligible",
+      "note": "Standard YPP track also requires 4,000 public watch hours in the last 12 months OR 500 subs + 3M Shorts views in 90 days. Watch-hour data needs the yt-analytics.readonly OAuth scope, which the current token does not have (upload/force-ssl/readonly only) — re-run the OAuth consent with that scope added to track it."
     },
     {
       "platform": "facebook",
