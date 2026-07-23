@@ -88,13 +88,13 @@ export async function GET(request: Request) {
         } catch (subError: any) {
           console.error('[Reply Failed]', subError.message);
           // Try a global read mark if specific post fails
-          try { await moltbookApi('/agents/notifications/read', 'POST', {}, apiKey); } catch {}
+          try { await moltbookApi('/notifications/read-all', 'POST', {}, apiKey); } catch {}
         }
       } else {
         // Unread notifications exist but we couldn't find an 'active' post.
         // Clear all to unstick the loop and allow normal posting next cycle.
         try { 
-          await moltbookApi('/agents/notifications/read', 'POST', {}, apiKey); 
+          await moltbookApi('/notifications/read-all', 'POST', {}, apiKey); 
           results.push({ step: 'catch_all_read_mark', msg: 'Cleared non-post notifications' });
         } catch {}
       }
