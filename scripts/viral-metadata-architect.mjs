@@ -43,10 +43,11 @@ Your goal is to write titles and descriptions that maximize Click-Through Rate (
 Rule: DO NOT mention "AAK Nation" or any specific channel name.
 Structure:
 - Title: Curiosity-driven, under 60 chars, emotion-triggering (Fear/Awe/Curiosity/Mystery/Wonder).
-- Description: High-hook intro, ends with 15-20 relevant hashtags.
+- Description: High-hook intro, one short line inviting the viewer to follow/subscribe for more
+  (vary the phrasing per niche, don't reuse the same sentence every time), ends with 15-20 relevant hashtags.
 - Tags: 15-20 niche-specific keywords from the niche's domain.
-- ig_hook: 1-2 punchy sentences + 3 relevant hashtags.
-- fb_hook: 1-2 sentences that provoke engagement (question or bold claim).`;
+- ig_hook: 1-2 punchy sentences + a follow-for-more line + 3 relevant hashtags.
+- fb_hook: 1-2 sentences that provoke engagement (question or bold claim) + a follow-for-more line.`;
 
   const keywordsHint = typeof niche === 'object' && niche.keywords
     ? `\nNiche keywords to use in tags: ${niche.keywords.slice(0, 20).join(', ')}`
@@ -95,10 +96,10 @@ Return JSON object:
     const tagStr = tags.map(t => `#${t}`).join(' ');
     return {
       title,
-      description: `The truth about ${topic} that most people never discover.\n\n${tagStr}`,
+      description: `The truth about ${topic} that most people never discover.\n\nFollow for more like this.\n\n${tagStr}`,
       tags,
-      ig_hook: `🔍 ${title} #viral #${topic.toLowerCase().replace(/\s+/g, '')}`,
-      fb_hook: `Most people think they understand ${topic}. They don't. Here's what they're missing.`
+      ig_hook: `🔍 ${title} Follow for more. #viral #${topic.toLowerCase().replace(/\s+/g, '')}`,
+      fb_hook: `Most people think they understand ${topic}. They don't. Here's what they're missing. Follow for more.`
     };
   }
 }
