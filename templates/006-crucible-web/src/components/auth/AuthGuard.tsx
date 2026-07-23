@@ -5,8 +5,6 @@ import { usePathname, useRouter } from 'next/navigation';
 import { getSupabase } from '@/lib/supabase';
 import { LoadingSpinner } from '../ui/LoadingSpinner';
 
-const ADMIN_EMAIL = 'prasadkurri.ai@gmail.com';
-
 export function AuthGuard({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
   const [isAuthorized, setIsAuthorized] = useState(false);
@@ -17,30 +15,21 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
     const supabase = getSupabase();
 
     const checkAuth = async () => {
-      // 1. Skip check for auth-related routes
-      if (pathname === '/login' || pathname === '/auth/callback' || pathname === '/') {
+      // 1. Skip check for auth-related and public marketing routes
+      if (pathname === '/login' || pathname === '/auth/callback' || pathname === '/' || pathname === '/pricing') {
         setIsAuthorized(true);
         setLoading(false);
         return;
       }
 
       const { data: { session } } = await supabase.auth.getSession();
-      
+
       if (!session) {
         router.push('/login');
         return;
       }
 
-      // 2. Admin restriction (LOCK EVERYTHING TO PRASAD)
-      const userEmail = session.user.email;
-      if (userEmail === ADMIN_EMAIL) {
-        setIsAuthorized(true);
-      } else {
-        // Not the admin, kick them back
-        console.warn(`[AUTH] Non-admin access rejected: ${userEmail}`);
-        router.push('/');
-      }
-      
+      setIsAuthorized(true);
       setLoading(false);
     };
 
