@@ -1,7 +1,7 @@
 {
-  "lastUploadTime": "2026-07-23T17:25:12.402Z",
-  "uploadsToday": 3,
-  "lastDate": "2026-07-23",
+  "lastUploadTime": "2026-07-24T02:50:00.256Z",
+  "uploadsToday": 1,
+  "lastDate": "2026-07-24",
   "history": [
     {
       "topic": "The Cyber-Deckbuilder Origins",
@@ -161,6 +161,11 @@
     {
       "topic": "Mystical Algorithms",
       "date": "2026-07-23T17:25:12.402Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "Mystical Algorithms",
+      "date": "2026-07-24T02:50:00.256Z",
       "type": "Cinematic Reel"
     }
   ]
