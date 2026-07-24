@@ -2,7 +2,7 @@ import Markdown from 'react-markdown'
 import {BuyMeCoffee} from '@/components/BuyMeCoffee'
 import {CheckCircle2, Zap, Sparkles} from 'lucide-react'
 import {PricingButton} from '@/components/PricingButtons'
-import pricingData from '../../../data/pricing.json'
+import pricingData from '@/data/pricing.json'
 
 export const metadata = {
   title: 'Pricing | Crucible',

@@ -3,7 +3,12 @@ import path from 'path';
 import { generateWithYield } from './ai-router';
 import { getCompetitorContext } from './market-researcher';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+// The Next.js app statically imports pricing.json/sales-copy.md from
+// src/data/ so they actually ship in the deployed bundle (a runtime fs
+// read from a dynamic path silently failed to trace in Vercel's build).
+// Write here so a pricing update from this agent takes effect on the
+// next deploy.
+const DATA_DIR = path.join(process.cwd(), 'src', 'data');
 
 async function main() {
   console.log('🤖 Starting Revenue / Monetization Agent...');
