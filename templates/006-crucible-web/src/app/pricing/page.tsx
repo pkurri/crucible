@@ -1,9 +1,8 @@
-import fs from 'fs'
-import path from 'path'
 import Markdown from 'react-markdown'
 import {BuyMeCoffee} from '@/components/BuyMeCoffee'
 import {CheckCircle2, Zap, Sparkles} from 'lucide-react'
 import {PricingButton} from '@/components/PricingButtons'
+import pricingData from '../../../data/pricing.json'
 
 export const metadata = {
   title: 'Pricing | Crucible',
@@ -11,66 +10,16 @@ export const metadata = {
     'Plans for every stage — from solo developer access to 365+ skills and 63 agents, up to custom Enterprise Cloud deployment with dedicated infrastructure and SLAs.',
 }
 
+const SALES_COPY = `# Skip the setup. Ship with Crucible
+
+365+ production-grade skills, 63 agent definitions, and 114+ project
+templates — install as Claude Code slash commands and orchestrate them from
+one live dashboard. Pick the plan that matches how much of your stack you
+want automated.`
+
 async function getPricingData() {
-  const defaults = {
-    pricing: [
-      {
-        name: 'Starter',
-        price: 'Free',
-        description: 'Get started with basic AI templates.',
-        features: ['1 Agent Execution', 'Basic Templates', 'Community Support'],
-        targeted_at: 'Individuals',
-      },
-      {
-        name: 'Pro',
-        price: '$29/mo',
-        description: 'For power users and small teams.',
-        features: [
-          '10 Concurrent Agents',
-          'Premium Blueprints',
-          'Email Support',
-          'Custom Integrations',
-        ],
-        targeted_at: 'Startups',
-      },
-      {
-        name: 'Enterprise Cloud',
-        price: 'Custom',
-        description: 'Scale your AI orchestration to the cloud.',
-        features: [
-          'Unlimited Agents',
-          'Dedicated Cloud Infrastructure',
-          'SLA Guarantees',
-          'White-labeled',
-        ],
-        targeted_at: 'Enterprises',
-      },
-    ],
-    salesCopy:
-      '# Crucible: AI Agents Made Easy\nAutomate everything in 5 minutes with our Next-Gen AI router.',
-  }
-
-  try {
-    const dataDir = path.join(process.cwd(), 'data')
-    const pricingPath = path.join(dataDir, 'pricing.json')
-    const salesPath = path.join(dataDir, 'sales-copy.md')
-
-    let pricing = defaults.pricing
-    let salesCopy = defaults.salesCopy
-
-    if (fs.existsSync(pricingPath)) {
-      const parsed = JSON.parse(fs.readFileSync(pricingPath, 'utf8'))
-      if (Array.isArray(parsed)) pricing = parsed
-    }
-    if (fs.existsSync(salesPath)) {
-      salesCopy = fs.readFileSync(salesPath, 'utf8')
-    }
-
-    return {pricing, salesCopy}
-  } catch (err) {
-    console.error('Error reading pricing data:', err)
-    return defaults
-  }
+  const pricing = Array.isArray(pricingData) ? pricingData : []
+  return {pricing, salesCopy: SALES_COPY}
 }
 
 export default async function PricingPage() {
