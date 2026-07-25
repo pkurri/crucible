@@ -4,7 +4,7 @@
 # Large binary files (ffmpeg, etc.)
 scripts/bin/
 scripts/lipsync/
-data/
+/data/
 
 # Local dev / temp files
 *.log
