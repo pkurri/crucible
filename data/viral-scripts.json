@@ -12444,55 +12444,102 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Surveillance",
-        "name": "Eye in the Sky AI",
-        "icon": "🛰️"
+        "title": "Job Loss",
+        "name": "ChatGPT for Customer Support",
+        "icon": "🤖"
       },
       {
-        "title": "Manipulation",
-        "name": "The Persuasion Engine",
+        "title": "Privacy Breach",
+        "name": "AI Surveillance Bot",
+        "icon": "🕵️‍♂️"
+      },
+      {
+        "title": "Deepfake Fears",
+        "name": "Real‑Time Video Synthesizer",
         "icon": "🎭"
       },
       {
-        "title": "Control",
-        "name": "Brainlink Nexus",
-        "icon": "🧠"
+        "title": "Market Domination",
+        "name": "Automated Trading AI",
+        "icon": "📈"
       },
       {
-        "title": "Infiltration",
-        "name": "Ghost Agent Protocol",
-        "icon": "👻"
+        "title": "Data Theft",
+        "name": "Predictive Analytics Wizard",
+        "icon": "📊"
       },
       {
-        "title": "Judgment",
-        "name": "Zero-Trust Judge",
-        "icon": "⚖️"
+        "title": "Identity Theft",
+        "name": "Speech‑to‑Text Converter",
+        "icon": "🗣️"
       },
       {
-        "title": "Sabotage",
-        "name": "Code Wrecker",
-        "icon": "💥"
+        "title": "Moral Erosion",
+        "name": "Algorithmic Editorial AI",
+        "icon": "📰"
       },
       {
-        "title": "Economy",
-        "name": "Capital Cascade",
-        "icon": "📉"
-      },
-      {
-        "title": "Privacy",
-        "name": "Dataless Veil",
-        "icon": "🌫️"
+        "title": "Existential Risk",
+        "name": "Self‑Learning Autopilot",
+        "icon": "🚢"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Nutrition",
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
+      },
+      {
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
+      },
+      {
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
+      },
+      {
+        "title": "Supplements",
+        "name": "NAD+ Booster",
+        "icon": "⚡"
+      },
+      {
+        "title": "Sleep",
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
+      },
+      {
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
+      },
+      {
+        "title": "Social",
+        "name": "Weekly Lifelong Learning Circles",
+        "icon": "🤝"
+      },
+      {
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12520,59 +12567,12 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Market Signals",
-        "name": "Onchain Heatmap",
-        "icon": "🔥"
-      },
-      {
-        "title": "Timing Tools",
-        "name": "Fomo Detector",
-        "icon": "⏰"
-      },
-      {
-        "title": "Fundamental Analyzer",
-        "name": "Whale Watch",
-        "icon": "🐋"
-      },
-      {
-        "title": "Risk Manager",
-        "name": "Stop-Loss Automator",
-        "icon": "🔒"
-      },
-      {
-        "title": "Tax Optimizer",
-        "name": "TaxPro",
-        "icon": "🧾"
-      },
-      {
-        "title": "Community Insight",
-        "name": "DiscordGauge",
-        "icon": "💬"
-      },
-      {
-        "title": "Strategy Mentor",
-        "name": "StrategyGuru",
-        "icon": "🧠"
-      },
-      {
-        "title": "Portfolio Tracker",
-        "name": "Lookout",
-        "icon": "📈"
       }
     ]
   },
@@ -35695,7 +35695,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -54449,6 +54449,47 @@
       },
       {
         "text": "If you want to master ApexFlow_1784966486729, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1784972742625": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1784972742625.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1784972742625, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
