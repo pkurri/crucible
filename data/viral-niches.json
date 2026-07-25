@@ -24925,6 +24925,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeoMythicAI",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The fusion of AI-generated visual storytelling with ancient mythic archetypes taps into current trends of generative AI art, rising interest in alternative spirituality, and short-form mythic storytelling on platforms like TikTok and YouTube Shorts, driving high shareability and repeat views.",
+      "ideas": [
+        "When AI Rewrites Zeus: The Birth of a Digital God / Hook: Watch an AI create a never-before-seen deity that controls internet traffic.",
+        "Lost Civilizations Reimagined by Neural Networks: Atlantis Reborn / Hook: See how a deep‑learning model reconstructs the city of Atlantis from fragmented myths.",
+        "AI‑Forged Prophecies: What the Future Holds According to Machine Myth / Hook: An AI generates a prophecy that predicts a viral trend before it happens."
+      ],
+      "keywords": [
+        "AI-generated deities",
+        "glowing mythic runes",
+        "floating digital citadels",
+        "ethereal neon constellations",
+        "surreal dreamscape landscapes"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
