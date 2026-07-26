@@ -1,7 +1,7 @@
 {
-  "lastUploadTime": "2026-07-25T15:05:33.520Z",
-  "uploadsToday": 3,
-  "lastDate": "2026-07-25",
+  "lastUploadTime": "2026-07-26T02:57:29.286Z",
+  "uploadsToday": 1,
+  "lastDate": "2026-07-26",
   "history": [
     {
       "topic": "The Cyber-Deckbuilder Origins",
@@ -191,6 +191,11 @@
     {
       "topic": "The Cyber-Deckbuilder Origins",
       "date": "2026-07-25T15:05:33.520Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "The Cyber-Deckbuilder Origins",
+      "date": "2026-07-26T02:57:29.286Z",
       "type": "Cinematic Reel"
     }
   ]
