@@ -25138,6 +25138,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroLandscapeArt",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "NeuroLandscapeArt merges cutting‑edge brain imaging with fantastical, otherworldly scenery, offering a fresh visual twist on both neuroscience and fantasy art. The niche taps into the current surge of interest in brain‑tech (Neuralink, AI‑brain interfaces) and the evergreen love for mesmerizing, mind‑bending visuals, making it highly shareable on short‑form platforms and conducive to long‑form deep dives on YouTube.",
+      "ideas": [
+        "How Your Brain Paints Alien Worlds: 3D Neuro‑Art Reveals Hidden Dimensions / Watch as fMRI data transforms into glowing alien landscapes you’ve never seen.",
+        "From Thoughts to Aurora: Turning Brainwaves into Psychedelic Skies / See real‑time EEG signals morph into breathtaking auroras over impossible terrains.",
+        "The Secret Geometry of Dreams: Neural Fractals That Build Fantasy Cities / Explore how dreaming brains generate fractal cities that defy physics."
+      ],
+      "keywords": [
+        "neural fractals",
+        "luminescent synapses",
+        "psychedelic terrain",
+        "brainwave aurora",
+        "cognitive aurora"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
