@@ -1,6 +1,6 @@
 {
-  "lastUploadTime": "2026-07-26T02:57:29.286Z",
-  "uploadsToday": 1,
+  "lastUploadTime": "2026-07-26T10:02:35.240Z",
+  "uploadsToday": 2,
   "lastDate": "2026-07-26",
   "history": [
     {
@@ -196,6 +196,11 @@
     {
       "topic": "The Cyber-Deckbuilder Origins",
       "date": "2026-07-26T02:57:29.286Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "Abstract Flow States",
+      "date": "2026-07-26T10:02:35.240Z",
       "type": "Cinematic Reel"
     }
   ]
