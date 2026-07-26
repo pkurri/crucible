@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12485,47 +12485,47 @@
   "LongevityHacksUnlocked": {
     "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
         "title": "Nutrition",
-        "name": "Intermittent Fasting",
-        "icon": "⏳"
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
       },
       {
-        "title": "Exercise",
-        "name": "HIIT",
-        "icon": "🏋️‍♂️"
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
+      },
+      {
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
       },
       {
         "title": "Supplements",
-        "name": "NAD+ Precursors",
-        "icon": "💊"
+        "name": "NAD+ Booster",
+        "icon": "⚡"
       },
       {
         "title": "Sleep",
-        "name": "5‑Second Wake‑Up",
-        "icon": "😴"
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
       },
       {
-        "title": "Stress",
-        "name": "Forest Bathing",
-        "icon": "🌲"
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
       },
       {
         "title": "Social",
-        "name": "Cohort Coaching",
+        "name": "Weekly Lifelong Learning Circles",
         "icon": "🤝"
       },
       {
-        "title": "Mindfulness",
-        "name": "Quiet Journaling",
-        "icon": "✍️"
-      },
-      {
-        "title": "Hormone",
-        "name": "Hormone Reset Diet",
-        "icon": "🔄"
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
       }
     ]
   },
@@ -35664,49 +35664,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
+    "voice": "af_bella",
     "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Waterfront",
-        "name": "Blue Lagoon City",
-        "icon": "💧"
-      },
-      {
-        "title": "Forest",
-        "name": "Neon Woods City",
-        "icon": "🌿"
-      },
-      {
-        "title": "Night Sky",
-        "name": "Twilight Metropolis",
+        "title": "Midnight Skies",
+        "name": "Aurora City",
         "icon": "🌃"
       },
       {
-        "title": "River",
-        "name": "Glow River Town",
-        "icon": "🌊"
+        "title": "River Glow",
+        "name": "Luminous Harbor",
+        "icon": "🛥️"
       },
       {
-        "title": "Urban",
-        "name": "Neon Skyline City",
+        "title": "Skywalk Brilliance",
+        "name": "Glowing Arcology",
         "icon": "🏙️"
       },
       {
-        "title": "Culture",
-        "name": "Festival Glow Village",
-        "icon": "🎭"
+        "title": "Forest Shimmer",
+        "name": "Eternal Forest District",
+        "icon": "🌲"
       },
       {
-        "title": "Technology",
-        "name": "Quantum City",
-        "icon": "🤖"
+        "title": "Underground Lanes",
+        "name": "Neon Subway",
+        "icon": "🚇"
       },
       {
-        "title": "Economy",
-        "name": "Energy Hub City",
-        "icon": "⚡"
+        "title": "Desert Mirage",
+        "name": "Sandfire Plaza",
+        "icon": "🏜️"
+      },
+      {
+        "title": "Coastal Springs",
+        "name": "Blue Wave Quarter",
+        "icon": "🌊"
+      },
+      {
+        "title": "Historical Glow",
+        "name": "Ancient Light Market",
+        "icon": "🏛️"
       }
     ]
   },
@@ -40384,49 +40384,43 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Island Glow",
-        "name": "Puerto Viejo, Costa Rica",
-        "icon": "🌴"
+        "text": "Nobody talks about the truth of BioluminescentCities.",
+        "duration": 5
       },
       {
-        "title": "River Light",
-        "name": "Lake Joy, Oregon",
-        "icon": "🏞️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sea Spark",
-        "name": "Biolum",
-        "icon": "🌊"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Night Harbor",
-        "name": "Havana, Cuba",
-        "icon": "⚓"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Sky Bay",
-        "name": "Ha Long, Vietnam",
-        "icon": "✈️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hidden Reef",
-        "name": "Blue Hole, Belize",
-        "icon": "🏖️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Forest Glow",
-        "name": "Akko, Israel",
-        "icon": "🌲"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Moonlit Coast",
-        "name": "St. Simons Island, USA",
-        "icon": "🌙"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -55240,6 +55234,47 @@
       },
       {
         "text": "If you want to master ApexFlow_1785071445593, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1785085126099": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1785085126099.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
