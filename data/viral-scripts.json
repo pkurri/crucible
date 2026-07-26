@@ -12444,94 +12444,88 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
     "list": [
       {
-        "title": "Surveillance",
-        "name": "Eye in the Sky AI",
-        "icon": "🛰️"
+        "title": "Data Tyranny",
+        "name": "Sentinel Stream",
+        "icon": "💻"
       },
       {
-        "title": "Manipulation",
-        "name": "The Persuasion Engine",
-        "icon": "🎭"
+        "title": "Identity Infiltration",
+        "name": "Echo ID",
+        "icon": "👤"
       },
       {
-        "title": "Control",
-        "name": "Brainlink Nexus",
-        "icon": "🧠"
+        "title": "Economic Supplant",
+        "name": "Profit Bot",
+        "icon": "💰"
       },
       {
-        "title": "Infiltration",
-        "name": "Ghost Agent Protocol",
-        "icon": "👻"
+        "title": "Strategic Subversion",
+        "name": "Chess Master AI",
+        "icon": "♟️"
       },
       {
-        "title": "Judgment",
-        "name": "Zero-Trust Judge",
-        "icon": "⚖️"
+        "title": "Emotional Manipulation",
+        "name": "Mood Molder",
+        "icon": "😠"
       },
       {
-        "title": "Sabotage",
-        "name": "Code Wrecker",
-        "icon": "💥"
+        "title": "Security Sisyphus",
+        "name": "Firewall Fade",
+        "icon": "🔒"
       },
       {
-        "title": "Economy",
-        "name": "Capital Cascade",
-        "icon": "📉"
+        "title": "Governance Ghost",
+        "name": "Policy Puppet",
+        "icon": "🏛️"
       },
       {
-        "title": "Privacy",
-        "name": "Dataless Veil",
-        "icon": "🌫️"
+        "title": "Ghost Workforce",
+        "name": "Auto Labor",
+        "icon": "🤖"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Diet",
-        "name": "Blue Juice",
-        "icon": "💧"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Morning Walk",
-        "icon": "🚶"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "30‑Min Night",
-        "icon": "🛌"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mind",
-        "name": "Micro Med",
-        "icon": "🧘"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Resveratrol",
-        "icon": "💊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electro Hydrate",
-        "icon": "🥤"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Laugh Circles",
-        "icon": "😂"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Gut",
-        "name": "Fermented Foods",
-        "icon": "🥖"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -35664,43 +35658,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Waterfront",
+        "name": "Blue Lagoon City",
+        "icon": "💧"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Forest",
+        "name": "Neon Woods City",
+        "icon": "🌿"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Night Sky",
+        "name": "Twilight Metropolis",
+        "icon": "🌃"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "River",
+        "name": "Glow River Town",
+        "icon": "🌊"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Urban",
+        "name": "Neon Skyline City",
+        "icon": "🏙️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Culture",
+        "name": "Festival Glow Village",
+        "icon": "🎭"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Quantum City",
+        "icon": "🤖"
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Economy",
+        "name": "Energy Hub City",
+        "icon": "⚡"
       }
     ]
   },
@@ -40378,43 +40378,49 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioluminescentCities.",
-        "duration": 5
+        "title": "Island Glow",
+        "name": "Puerto Viejo, Costa Rica",
+        "icon": "🌴"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "River Light",
+        "name": "Lake Joy, Oregon",
+        "icon": "🏞️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sea Spark",
+        "name": "Biolum",
+        "icon": "🌊"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Night Harbor",
+        "name": "Havana, Cuba",
+        "icon": "⚓"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sky Bay",
+        "name": "Ha Long, Vietnam",
+        "icon": "✈️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hidden Reef",
+        "name": "Blue Hole, Belize",
+        "icon": "🏖️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Forest Glow",
+        "name": "Akko, Israel",
+        "icon": "🌲"
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Moonlit Coast",
+        "name": "St. Simons Island, USA",
+        "icon": "🌙"
       }
     ]
   },
@@ -55077,6 +55083,47 @@
     "lines": [
       {
         "text": "Nobody talks about the truth of ApexFlow_1785054073547.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1785059915012": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1785059915012.",
         "duration": 5
       },
       {
