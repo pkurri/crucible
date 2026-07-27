@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="cbTitle cbDesc" font-family="Inter, system-ui, sans-serif">
+  <title id="cbTitle">Context budget: monolith vs. specialist team</title>
+  <desc id="cbDesc">Left: one agent loads a 432-line context block on every request. Right: eleven specialists (eight infra plus a three-agent cyber sub-layer) load small focused blocks, leaving substantial available headroom.</desc>
+
+  <defs>
+    <radialGradient id="cbBgL" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0" stop-color="#3a2510" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#0a0a0f" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="cbBgR" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0" stop-color="#0d2030" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#0a0a0f" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="cbAgentBox" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b78dff"/>
+      <stop offset="1" stop-color="#7a4be0"/>
+    </linearGradient>
+    <linearGradient id="cbHotCtx" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd28a"/>
+      <stop offset="0.5" stop-color="#f2b33d"/>
+      <stop offset="1" stop-color="#9a6920"/>
+    </linearGradient>
+    <linearGradient id="cbCoolCtx" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7aa8ff"/>
+      <stop offset="1" stop-color="#3568cc"/>
+    </linearGradient>
+    <filter id="cbHotGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cbCoolGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="cbHex" width="22" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 11 0 L 22 6 L 22 14 L 11 20 L 0 14 L 0 6 Z" fill="none" stroke="#1a1a26" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="#0a0a0f"/>
+  <rect width="600" height="800" fill="url(#cbBgL)"/>
+  <rect x="600" width="600" height="800" fill="url(#cbBgR)"/>
+  <rect width="1200" height="800" fill="url(#cbHex)" opacity="0.5"/>
+
+  <!-- Divider -->
+  <line x1="600" y1="40" x2="600" y2="700" stroke="#606080" stroke-width="1" stroke-dasharray="6 8"/>
+
+  <!-- Headers -->
+  <text x="300" y="50" text-anchor="middle" fill="#f2b33d" font-size="13" font-family="JetBrains Mono, monospace" letter-spacing="0.15em">MONOLITHIC CONTEXT</text>
+  <text x="900" y="50" text-anchor="middle" fill="#7aa8ff" font-size="13" font-family="JetBrains Mono, monospace" letter-spacing="0.15em">FOCUSED CONTEXT · CYBER · HEADROOM</text>
+
+  <!-- ====== LEFT: monolith ====== -->
+  <g>
+    <!-- Agent box -->
+    <g>
+      <rect x="250" y="90" width="100" height="60" rx="10" fill="url(#cbAgentBox)" stroke="#9c5cff" stroke-width="1"/>
+      <text x="300" y="125" text-anchor="middle" fill="#0a0a0f" font-size="14" font-weight="700" letter-spacing="0.08em">AGENT</text>
+    </g>
+    <!-- Connector -->
+    <line x1="300" y1="150" x2="300" y2="190" stroke="#f2b33d" stroke-width="2"/>
+
+    <!-- Big context block -->
+    <g filter="url(#cbHotGlow)">
+      <rect x="170" y="190" width="260" height="450" rx="14" fill="url(#cbHotCtx)" opacity="0.95"/>
+    </g>
+    <rect x="170" y="190" width="260" height="450" rx="14" fill="none" stroke="#ffd28a" stroke-width="1.5"/>
+
+    <!-- Pseudo-text lines inside -->
+    <g fill="#3a2510" font-family="JetBrains Mono, monospace" font-size="7" opacity="0.55">
+      <text x="186" y="215">## mesh runbook · setup keys · routes · policies</text>
+      <text x="186" y="226">netbird up --setup-key &lt;key&gt; --management-url ...</text>
+      <text x="186" y="237">curl -H "Authorization: Token $TOK" /api/peers</text>
+      <text x="186" y="248">## vault runbook · machine identity · rotations</text>
+      <text x="186" y="259">infisical run --env=prod --path=/infra -- ...</text>
+      <text x="186" y="270">vault-cli secrets set TOKEN=&lt;new&gt; --path=/infra</text>
+      <text x="186" y="281">## substrate runbook · proxmox · ssh topology</text>
+      <text x="186" y="292">pct list ; pct stop &lt;ctid&gt; ; pct destroy ...</text>
+      <text x="186" y="303">ssh -J pve3 root@10.x.x.x "pvecm status"</text>
+      <text x="186" y="314">## edge runbook · cloudflare · dns · tunnels</text>
+      <text x="186" y="325">curl -H "Authorization: Bearer $TOK" /zones</text>
+      <text x="186" y="336">cloudflared tunnel route dns &lt;name&gt; &lt;host&gt;</text>
+      <text x="186" y="347">## lan runbook · pihole pair · unifi controller</text>
+      <text x="186" y="358">echo "10.x.x.x host.lan" &gt;&gt; /etc/pihole/custom</text>
+      <text x="186" y="369">pihole reloaddns ; pihole reloaddns # both nodes</text>
+      <text x="186" y="380">## telemetry runbook · wazuh · alerts · agents</text>
+      <text x="186" y="391">/var/ossec/bin/agent_control -l | head</text>
+      <text x="186" y="402">tail -10000 /var/ossec/logs/alerts/alerts.json</text>
+      <text x="186" y="413">## flow runbook · n8n · webhooks · executions</text>
+      <text x="186" y="424">curl -H "X-N8N-API-KEY:$KEY" /api/v1/workflows</text>
+      <text x="186" y="435">## confirmation gate · gated actions list ...</text>
+      <text x="186" y="446">CONFIRMATION REQUIRED: Command / Targets / Effect</text>
+      <text x="186" y="457">## model routing · tier 1 haiku / 2 sonnet / 3 opus</text>
+      <text x="186" y="468">## escalation triggers · &gt;2 failed attempts ...</text>
+      <text x="186" y="479">## downshift triggers · stable known runbook ...</text>
+      <text x="186" y="490">## safeguards · masked secrets · no auto-escalate</text>
+      <text x="186" y="501">## break-glass: mesh · vault · substrate · edge ...</text>
+      <text x="186" y="512">## peer enrollment · group bind · policy attach</text>
+      <text x="186" y="523">## dns scoping · short ttl ≤ 300 ; tunnel walkthrough</text>
+      <text x="186" y="534">## dual resolver discipline · diverged custom.list</text>
+      <text x="186" y="545">## ir triage output · confidence · blast radius</text>
+      <text x="186" y="556">## rule mutation · agent unenrollment · gated</text>
+      <text x="186" y="567">## activate / deactivate / delete workflow · gated</text>
+      <text x="186" y="578">## webhook host registry · dev-first promotion</text>
+      <text x="186" y="589">## cluster split-brain procedure · pvecm + corosync</text>
+      <text x="186" y="600">## ssh ~/.ssh/config · proxyjump aliases · naming</text>
+      <text x="186" y="611">## vault folder /entity/service/KEY · masked output</text>
+      <text x="186" y="622">## edge token scoping · least privilege · rotate ...</text>
+    </g>
+
+    <!-- "432 lines" label -->
+    <g>
+      <rect x="170" y="650" width="260" height="32" rx="8" fill="#0a0a0f" stroke="#f2b33d" stroke-width="1"/>
+      <text x="300" y="671" text-anchor="middle" fill="#f2b33d" font-size="13" font-weight="600" font-family="JetBrains Mono, monospace">432 LINES · LOADED EVERY CALL</text>
+    </g>
+  </g>
+
+  <!-- ====== RIGHT: 8 specialists in 2 rows × 4 cols + DOMINANT headroom ====== -->
+  <g>
+    <!-- 4 columns at x=650, 790, 930, 1070 (agent box width 80, gap 60)
+         2 rows: row 1 y=130-232, row 2 y=255-357
+         agent box 80x36, line 16 tall, context box 80x50 -->
+
+    <!-- Row 1 -->
+    <g>
+      <rect x="650" y="130" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#9c5cff" stroke-width="1"/>
+      <text x="690" y="153" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="690" y1="166" x2="690" y2="182" stroke="#4f8cff" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="650" y="182" width="80" height="50" rx="8" fill="url(#cbCoolCtx)" opacity="0.85"/>
+      </g>
+      <text x="690" y="213" text-anchor="middle" fill="#0a1a30" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~80 lines</text>
+    </g>
+    <g>
+      <rect x="790" y="130" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#9c5cff" stroke-width="1"/>
+      <text x="830" y="153" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="830" y1="166" x2="830" y2="182" stroke="#4f8cff" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="790" y="182" width="80" height="50" rx="8" fill="url(#cbCoolCtx)" opacity="0.85"/>
+      </g>
+      <text x="830" y="213" text-anchor="middle" fill="#0a1a30" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~95 lines</text>
+    </g>
+    <g>
+      <rect x="930" y="130" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#9c5cff" stroke-width="1"/>
+      <text x="970" y="153" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="970" y1="166" x2="970" y2="182" stroke="#4f8cff" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="930" y="182" width="80" height="50" rx="8" fill="url(#cbCoolCtx)" opacity="0.85"/>
+      </g>
+      <text x="970" y="213" text-anchor="middle" fill="#0a1a30" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~110 lines</text>
+    </g>
+    <g>
+      <rect x="1070" y="130" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#9c5cff" stroke-width="1"/>
+      <text x="1110" y="153" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="1110" y1="166" x2="1110" y2="182" stroke="#4f8cff" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="1070" y="182" width="80" height="50" rx="8" fill="url(#cbCoolCtx)" opacity="0.85"/>
+      </g>
+      <text x="1110" y="213" text-anchor="middle" fill="#0a1a30" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~85 lines</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g>
+      <rect x="650" y="255" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#9c5cff" stroke-width="1"/>
+      <text x="690" y="278" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="690" y1="291" x2="690" y2="307" stroke="#4f8cff" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="650" y="307" width="80" height="50" rx="8" fill="url(#cbCoolCtx)" opacity="0.85"/>
+      </g>
+      <text x="690" y="338" text-anchor="middle" fill="#0a1a30" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~100 lines</text>
+    </g>
+    <g>
+      <rect x="790" y="255" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#9c5cff" stroke-width="1"/>
+      <text x="830" y="278" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="830" y1="291" x2="830" y2="307" stroke="#4f8cff" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="790" y="307" width="80" height="50" rx="8" fill="url(#cbCoolCtx)" opacity="0.85"/>
+      </g>
+      <text x="830" y="338" text-anchor="middle" fill="#0a1a30" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~90 lines</text>
+    </g>
+    <g>
+      <rect x="930" y="255" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#9c5cff" stroke-width="1"/>
+      <text x="970" y="278" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="970" y1="291" x2="970" y2="307" stroke="#4f8cff" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="930" y="307" width="80" height="50" rx="8" fill="url(#cbCoolCtx)" opacity="0.85"/>
+      </g>
+      <text x="970" y="338" text-anchor="middle" fill="#0a1a30" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~120 lines</text>
+    </g>
+    <g>
+      <rect x="1070" y="255" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#9c5cff" stroke-width="1"/>
+      <text x="1110" y="278" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="1110" y1="291" x2="1110" y2="307" stroke="#4f8cff" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="1070" y="307" width="80" height="50" rx="8" fill="url(#cbCoolCtx)" opacity="0.85"/>
+      </g>
+      <text x="1110" y="338" text-anchor="middle" fill="#0a1a30" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~75 lines</text>
+    </g>
+
+    <!-- Cyber sub-layer label -->
+    <text x="900" y="395" text-anchor="middle" fill="#ff5a5f" font-size="11" font-family="JetBrains Mono, monospace" letter-spacing="0.18em" font-weight="600">CYBER LAYER</text>
+
+    <!-- Cyber row: 3 specialists, narrower spacing -->
+    <g>
+      <rect x="755" y="408" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#ff5a5f" stroke-width="1.2"/>
+      <text x="795" y="431" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="795" y1="444" x2="795" y2="460" stroke="#ff5a5f" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="755" y="460" width="80" height="50" rx="8" fill="#ff8888" opacity="0.75"/>
+      </g>
+      <text x="795" y="491" text-anchor="middle" fill="#2a0a0a" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~115 lines</text>
+    </g>
+    <g>
+      <rect x="860" y="408" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#ff5a5f" stroke-width="1.2"/>
+      <text x="900" y="431" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="900" y1="444" x2="900" y2="460" stroke="#ff5a5f" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="860" y="460" width="80" height="50" rx="8" fill="#ff8888" opacity="0.75"/>
+      </g>
+      <text x="900" y="491" text-anchor="middle" fill="#2a0a0a" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~95 lines</text>
+    </g>
+    <g>
+      <rect x="965" y="408" width="80" height="36" rx="8" fill="url(#cbAgentBox)" stroke="#ff5a5f" stroke-width="1.2"/>
+      <text x="1005" y="431" text-anchor="middle" fill="#0a0a0f" font-size="11" font-weight="700" letter-spacing="0.06em">AGENT</text>
+      <line x1="1005" y1="444" x2="1005" y2="460" stroke="#ff5a5f" stroke-width="1.5"/>
+      <g filter="url(#cbCoolGlow)">
+        <rect x="965" y="460" width="80" height="50" rx="8" fill="#ff8888" opacity="0.75"/>
+      </g>
+      <text x="1005" y="491" text-anchor="middle" fill="#2a0a0a" font-size="9" font-weight="600" font-family="JetBrains Mono, monospace">~70 lines</text>
+    </g>
+
+    <!-- DOMINANT available headroom -->
+    <g>
+      <rect x="640" y="540" width="520" height="145" rx="12" fill="none" stroke="#606080" stroke-width="1.2" stroke-dasharray="6 6"/>
+      <text x="900" y="595" text-anchor="middle" fill="#7aa8ff" font-size="22" font-weight="600" letter-spacing="0.2em" font-family="JetBrains Mono, monospace">AVAILABLE HEADROOM</text>
+      <text x="900" y="625" text-anchor="middle" fill="#848494" font-size="11" font-family="JetBrains Mono, monospace">budget left for tools, history, scratch</text>
+    </g>
+  </g>
+
+  <!-- Footer caption -->
+  <g>
+    <rect x="0" y="710" width="1200" height="90" fill="#0d0d14"/>
+    <text x="600" y="765" text-anchor="middle" fill="#e2e2ec" font-size="32" font-weight="700">432 Lines. Eleven Specialists.</text>
+  </g>
+</svg>
