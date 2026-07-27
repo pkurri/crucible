@@ -1,0 +1,367 @@
+"""Lambda — async pattern with direct Strands agent (no AgentCore).
+
+POST /generate  → starts async job, returns job_id
+GET  /result    → polls for completion
+GET  /diagrams  → list saved diagrams
+PUT  /diagrams  → update existing diagram
+"""
+
+import json
+import os
+import sys
+import uuid
+
+import boto3
+
+# Add project root to path so src/ imports work
+sys.path.insert(0, os.path.dirname(__file__))
+
+REGION = os.environ.get("AWS_REGION", "us-east-1")
+BUCKET = os.environ.get("S3_BUCKET", "blueprint-diagrams")
+USAGE_TABLE = os.environ.get("USAGE_TABLE", "")
+INTERNAL_POOL_ID = os.environ.get("INTERNAL_POOL_ID", "")
+FREE_TIER_LIMIT = 5
+
+s3 = boto3.client("s3", region_name=REGION)
+lam = boto3.client("lambda", region_name=REGION)
+dynamo = boto3.resource("dynamodb", region_name=REGION) if USAGE_TABLE else None
+
+
+def _get_user_id(event: dict) -> str:
+    """Extract user sub from JWT claims."""
+    claims = event.get("requestContext", {}).get("authorizer", {}).get("jwt", {}).get("claims", {})
+    return claims.get("sub", "anonymous")
+
+
+def _is_internal_user(event: dict) -> bool:
+    """Check if request comes from internal Cognito pool."""
+    claims = event.get("requestContext", {}).get("authorizer", {}).get("jwt", {}).get("claims", {})
+    issuer = claims.get("iss", "")
+    return INTERNAL_POOL_ID and INTERNAL_POOL_ID in issuer
+
+
+def _check_usage(user_id: str) -> tuple[int, bool]:
+    """Returns (current_count, allowed). Internal users always allowed."""
+    if not USAGE_TABLE or not dynamo:
+        return 0, True
+    from datetime import datetime, timezone
+    month = datetime.now(timezone.utc).strftime("%Y-%m")
+    table = dynamo.Table(USAGE_TABLE)
+    item = table.get_item(Key={"userId": user_id, "month": month}).get("Item")
+    count = int(item["count"]) if item else 0
+    return count, count < FREE_TIER_LIMIT
+
+
+def _increment_usage(user_id: str):
+    """Increment monthly diagram count."""
+    if not USAGE_TABLE or not dynamo:
+        return
+    from datetime import datetime, timezone
+    month = datetime.now(timezone.utc).strftime("%Y-%m")
+    table = dynamo.Table(USAGE_TABLE)
+    table.update_item(
+        Key={"userId": user_id, "month": month},
+        UpdateExpression="SET #c = if_not_exists(#c, :zero) + :one",
+        ExpressionAttributeNames={"#c": "count"},
+        ExpressionAttributeValues={":zero": 0, ":one": 1},
+    )
+
+def _extract_positions(xml: str, spec: dict) -> dict[str, list[float]]:
+    """Extract node positions from draw.io XML by matching cell labels to spec node IDs."""
+    from lxml import etree
+    try:
+        root = etree.fromstring(xml.encode("utf-8"))
+    except Exception:
+        return {}
+
+    # Build label → node_id map from spec (reverse lookup)
+    label_to_nid: dict[str, str] = {}
+    for nid, node in spec.get("nodes", {}).items():
+        label_to_nid[node.get("label", "")] = nid
+
+    # Build cell_id → parent_cell_id and cell_id → geometry maps
+    # Nodes inside clusters have coordinates relative to their parent cluster cell
+    cells = root.findall(".//mxCell")
+    cell_parent: dict[str, str] = {}
+    cell_geom: dict[str, tuple[float, float]] = {}
+
+    for cell in cells:
+        cid = cell.get("id", "")
+        parent = cell.get("parent", "1")
+        cell_parent[cid] = parent
+        geom = cell.find("mxGeometry")
+        if geom is not None and cell.get("vertex") == "1":
+            x = float(geom.get("x", "0"))
+            y = float(geom.get("y", "0"))
+            cell_geom[cid] = (x, y)
+
+    # Resolve absolute positions by walking up parent chain
+    def _absolute_pos(cid: str) -> tuple[float, float]:
+        x, y = cell_geom.get(cid, (0, 0))
+        parent = cell_parent.get(cid, "1")
+        while parent not in ("0", "1", ""):
+            px, py = cell_geom.get(parent, (0, 0))
+            x += px
+            y += py
+            parent = cell_parent.get(parent, "1")
+        return x, y
+
+    positions: dict[str, list[float]] = {}
+    for cell in cells:
+        value = cell.get("value", "")
+        style = cell.get("style", "")
+        cid = cell.get("id", "")
+        # Match node cells: have a geometry, are vertices, and match a known label
+        if (value in label_to_nid and cell.get("vertex") == "1"
+                and "mxgraph.aws4" in style and cid in cell_geom):
+            nid = label_to_nid[value]
+            ax, ay = _absolute_pos(cid)
+            positions[nid] = [round(ax), round(ay)]
+
+    return positions
+
+
+# Lazy-init agent (only in async worker path, not on cold start for API calls)
+_agent = None
+
+def _get_agent():
+    global _agent
+    if _agent is None:
+        from strands import Agent
+        from strands.models.bedrock import BedrockModel
+        from src.prompts.spec_system_prompt import get_system_prompt
+        from src.tools.render_drawio import render_drawio
+        from src.tools.load_diagram import load_diagram
+
+        model = BedrockModel(
+            model_id=os.environ.get("BEDROCK_MODEL_ID", "us.anthropic.claude-haiku-4-5-20251001-v1:0"),
+            region_name=REGION,
+            max_tokens=8192,
+        )
+        _agent = Agent(
+            model=model,
+            system_prompt=get_system_prompt(),
+            tools=[render_drawio, load_diagram],
+        )
+    return _agent
+
+
+def handler(event, context):
+    # ── Async worker path (self-invoked) ──────────────────────────────────
+    if isinstance(event, dict) and "_async_job" in event:
+        job_id = event["_async_job"]
+        prompt = event["prompt"]
+        diagram_key = event.get("diagram_key")
+        user_id = event.get("_user_id", "anonymous")
+
+        from datetime import datetime, timezone
+        job_start = datetime.now(timezone.utc)
+
+        try:
+            agent = _get_agent()
+
+            # If editing an existing diagram, load its spec first
+            if diagram_key:
+                from src.tools.render_drawio import set_current_spec, set_current_diagram_key, set_current_user_id
+                set_current_diagram_key(diagram_key)
+                set_current_user_id(user_id)
+                spec_key = diagram_key.replace(".drawio", ".spec.json")
+                try:
+                    obj = s3.get_object(Bucket=BUCKET, Key=spec_key)
+                    spec = json.loads(obj["Body"].read())
+                    set_current_spec(spec)
+                    prompt = f"The current diagram spec is:\n```json\n{json.dumps(spec, indent=2)}\n```\n\nUser request: {prompt}"
+                except Exception:
+                    pass  # No spec found — agent will generate fresh
+            else:
+                from src.tools.render_drawio import set_current_user_id
+                set_current_user_id(user_id)
+
+            result = str(agent(prompt))
+
+            # Get diagram key and XML from render_drawio tool state (set during agent execution)
+            from src.tools.render_drawio import get_current_diagram_key, get_current_spec
+            edit_key = get_current_diagram_key() or event.get("diagram_key")
+            diagram_url = None
+            diagram_xml = None
+
+            if not edit_key:
+                print(f"WARNING: No diagram key after agent execution. Tool may not have been called. Result: {result[:200]}")
+
+            if edit_key:
+                diagram_url = s3.generate_presigned_url(
+                    "get_object", Params={"Bucket": BUCKET, "Key": edit_key}, ExpiresIn=3600,
+                )
+                # Get XML directly from S3 (tool just wrote it)
+                try:
+                    xml_obj = s3.get_object(Bucket=BUCKET, Key=edit_key)
+                    diagram_xml = xml_obj["Body"].read().decode("utf-8")
+                except Exception as e:
+                    print(f"Failed to read diagram XML from {edit_key}: {e}")
+                    diagram_xml = None
+
+            s3.put_object(
+                Bucket=BUCKET,
+                Key=f"jobs/{job_id}.json",
+                Body=json.dumps({
+                    "status": "complete",
+                    "response": result,
+                    "diagram_key": edit_key,
+                    "diagram_url": diagram_url,
+                    "diagram_xml": diagram_xml,
+                }),
+                ContentType="application/json",
+            )
+            # Increment usage counter on successful new diagram
+            if event.get("_increment_user"):
+                _increment_usage(event["_increment_user"])
+        except Exception as e:
+            s3.put_object(
+                Bucket=BUCKET,
+                Key=f"jobs/{job_id}.json",
+                Body=json.dumps({"status": "error", "error": str(e)}),
+                ContentType="application/json",
+            )
+        return
+
+    # ── API Gateway path ──────────────────────────────────────────────────
+    method = event.get("requestContext", {}).get("http", {}).get("method", "POST")
+    path = event.get("rawPath", "/generate")
+
+    if method == "OPTIONS":
+        return resp(200, {})
+
+    try:
+        body = json.loads(event.get("body", "{}"))
+    except (json.JSONDecodeError, TypeError):
+        body = {}
+
+    # POST /generate
+    if path == "/generate" and method == "POST":
+        prompt = body.get("prompt", "")
+        if not prompt:
+            return resp(400, {"error": "prompt is required"})
+
+        # Usage limit check (skip for internal users and edits)
+        user_id = _get_user_id(event)
+        is_edit = bool(body.get("diagram_key"))
+        if not is_edit and not _is_internal_user(event):
+            count, allowed = _check_usage(user_id)
+            if not allowed:
+                return resp(429, {"error": "Monthly limit reached (5 diagrams). Upgrade for unlimited.", "count": count, "limit": FREE_TIER_LIMIT})
+
+        job_id = str(uuid.uuid4())
+        s3.put_object(
+            Bucket=BUCKET,
+            Key=f"jobs/{job_id}.json",
+            Body=json.dumps({"status": "processing"}),
+            ContentType="application/json",
+        )
+
+        payload = {"_async_job": job_id, "prompt": prompt, "_user_id": user_id}
+        if body.get("diagram_key"):
+            payload["diagram_key"] = body["diagram_key"]
+        # Pass user_id for usage increment after success
+        if not is_edit and not _is_internal_user(event):
+            payload["_increment_user"] = user_id
+
+        lam.invoke(
+            FunctionName=context.function_name,
+            InvocationType="Event",
+            Payload=json.dumps(payload),
+        )
+
+        return resp(202, {"job_id": job_id, "status": "processing"})
+
+    # GET /result?job_id=xxx
+    if path == "/result" and method == "GET":
+        job_id = (event.get("queryStringParameters") or {}).get("job_id", "")
+        if not job_id:
+            return resp(400, {"error": "job_id is required"})
+        try:
+            obj = s3.get_object(Bucket=BUCKET, Key=f"jobs/{job_id}.json")
+            return resp(200, json.loads(obj["Body"].read()))
+        except s3.exceptions.NoSuchKey:
+            return resp(404, {"error": "job not found"})
+
+    # GET /diagrams
+    if path == "/diagrams" and method == "GET":
+        user_id = _get_user_id(event)
+        user_prefix = f"diagrams/{user_id}/"
+        try:
+            objs = s3.list_objects_v2(Bucket=BUCKET, Prefix=user_prefix, MaxKeys=50)
+            items = []
+            for obj in sorted(objs.get("Contents", []), key=lambda x: x["LastModified"], reverse=True):
+                key = obj["Key"]
+                url = s3.generate_presigned_url("get_object", Params={"Bucket": BUCKET, "Key": key}, ExpiresIn=3600)
+                items.append({"key": key, "name": key.split("/")[-1], "size": obj["Size"],
+                              "modified": obj["LastModified"].isoformat(), "url": url})
+            return resp(200, {"diagrams": items})
+        except Exception as e:
+            return resp(500, {"error": str(e)})
+
+    # PUT /diagrams
+    if path == "/diagrams" and method == "PUT":
+        xml = body.get("xml", "")
+        key = body.get("key", "")
+        if not xml or not key:
+            return resp(400, {"error": "xml and key are required"})
+        user_id = _get_user_id(event)
+        if not key.startswith(f"diagrams/{user_id}/"):
+            return resp(403, {"error": "access denied"})
+        s3.put_object(Bucket=BUCKET, Key=key, Body=xml.encode("utf-8"), ContentType="application/xml")
+
+        # Extract positions from XML and update spec.json
+        spec_key = key.replace(".drawio", ".spec.json")
+        try:
+            obj = s3.get_object(Bucket=BUCKET, Key=spec_key)
+            spec = json.loads(obj["Body"].read())
+            positions = _extract_positions(xml, spec)
+            if positions:
+                spec["positions"] = positions
+                s3.put_object(Bucket=BUCKET, Key=spec_key,
+                              Body=json.dumps(spec, indent=2).encode("utf-8"),
+                              ContentType="application/json")
+        except Exception:
+            pass  # No spec found or parse error — save XML only
+
+        return resp(200, {"key": key, "status": "saved"})
+
+    # DELETE /diagrams?key=xxx
+    if path == "/diagrams" and method == "DELETE":
+        key = (event.get("queryStringParameters") or {}).get("key", "")
+        if not key:
+            return resp(400, {"error": "key is required"})
+        user_id = _get_user_id(event)
+        if not key.startswith(f"diagrams/{user_id}/"):
+            return resp(403, {"error": "access denied"})
+        try:
+            s3.delete_object(Bucket=BUCKET, Key=key)
+            spec_key = key.replace(".drawio", ".spec.json")
+            s3.delete_object(Bucket=BUCKET, Key=spec_key)
+            return resp(200, {"status": "deleted"})
+        except Exception as e:
+            return resp(500, {"error": str(e)})
+
+    # GET /usage
+    if path == "/usage" and method == "GET":
+        user_id = _get_user_id(event)
+        if _is_internal_user(event):
+            return resp(200, {"count": 0, "limit": -1, "plan": "internal"})
+        count, _ = _check_usage(user_id)
+        return resp(200, {"count": count, "limit": FREE_TIER_LIMIT, "plan": "free"})
+
+    return resp(404, {"error": "not found"})
+
+
+def resp(status, body):
+    return {
+        "statusCode": status,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Content-Type,Authorization",
+            "Access-Control-Allow-Methods": "POST,GET,PUT,DELETE,OPTIONS",
+        },
+        "body": json.dumps(body) if isinstance(body, dict) else body,
+    }

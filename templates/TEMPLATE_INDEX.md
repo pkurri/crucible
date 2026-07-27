@@ -284,6 +284,11 @@ Excalidraw-style canvas with CRDTs
 
 Backend for mobile apps with sync and push
 
+## 103-aws-diagram-generator
+
+AI-powered AWS architecture diagram generator: natural language to editable
+.drawio files with 178 AWS service icons
+
 ---
 
 **Status**: All 70 templates (031-100) cataloged and ready for implementation
