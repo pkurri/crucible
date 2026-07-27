@@ -25582,6 +25582,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SynestheticTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The fusion of neuroscience, AI, and immersive media is creating real‑time multisensory experiences where sound can be seen, tasted, or felt. Recent breakthroughs in wearable haptics, AI‑driven audio‑visual mapping, and viral TikTok/YouTube shorts of 'tasting music' or 'seeing beats' have sparked massive curiosity. Audiences crave novel, share‑worthy sensations that challenge perception, making this niche ripe for explosive growth and sustained high‑engagement content.",
+      "ideas": [
+        "What Does Your Favorite Song TASTE Like? AI‑Generated Flavor Mapping Tested on 100 People",
+        "Seeing Music in 8K: How Neuro‑Tech Turns Beats into Vivid Color Patterns You Can Touch",
+        "Feeling Bass Through Your Skin: Wearable Haptics That Let You 'Touch' a Symphony"
+      ],
+      "keywords": [
+        "colorful sound",
+        "taste of music",
+        "seeing melodies",
+        "feeling colors",
+        "neon synesthesia"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
