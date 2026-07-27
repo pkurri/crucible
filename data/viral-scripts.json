@@ -12489,49 +12489,43 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12567,7 +12561,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -55960,6 +55954,53 @@
         "title": "Community",
         "name": "Open‑Source Innovation Hub",
         "icon": "🚀"
+      }
+    ]
+  },
+  "ApexFlow_1785174104336": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1785174104336 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Feature",
+        "name": "Zero‑Latency Sync",
+        "icon": "⚡"
+      },
+      {
+        "title": "Integration",
+        "name": "One‑Click API Bridge",
+        "icon": "🔗"
+      },
+      {
+        "title": "Performance",
+        "name": "Adaptive Scaling Engine",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum‑Grade Encryption",
+        "icon": "🔐"
+      },
+      {
+        "title": "Automation",
+        "name": "Smart Workflow Builder",
+        "icon": "🤖"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Customization",
+        "name": "Theme‑able UI Kit",
+        "icon": "🎨"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 AI‑Powered Helpdesk",
+        "icon": "💬"
       }
     ]
   }
