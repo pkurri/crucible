@@ -7,7 +7,7 @@ description:
   telemetry/SIEM, and workflow runtime. Dispatches by intent to
   haiku-tier reads, sonnet-tier planned changes, and reserves opus for
   parent-invoked multi-domain incidents.'
-license: 'MIT (original work by Michael Frostbutter, github.com/Mfrostbutter/Infra-AI-IT-Team-Runbook)'
+license: 'MIT'
 triggers:
   - 'When operating or troubleshooting a self-hosted infrastructure stack'
   - 'When triaging a security alert or SIEM correlation across infra domains'

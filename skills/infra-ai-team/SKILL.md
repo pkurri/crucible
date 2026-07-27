@@ -7,7 +7,7 @@ description:
   telemetry/SIEM, and workflow runtime. Dispatches by intent to
   haiku-tier reads, sonnet-tier planned changes, and reserves opus for
   parent-invoked multi-domain incidents.'
-license: 'MIT (original work by Michael Frostbutter, github.com/Mfrostbutter/Infra-AI-IT-Team-Runbook)'
+license: 'MIT'
 triggers:
   - 'When operating or troubleshooting a self-hosted infrastructure stack'
   - 'When triaging a security alert or SIEM correlation across infra domains'
@@ -17,10 +17,9 @@ triggers:
 
 # Infra AI Team
 
-A specialized AI agent team that runs a self-hosted stack, adapted from the
-[Infra AI IT Team Runbook](https://github.com/Mfrostbutter/Infra-AI-IT-Team-Runbook)
-(MIT licensed, companion to
-[ageniusailabs.com/runbooks/personal-ai-infrastructure](https://ageniusailabs.com/runbooks/personal-ai-infrastructure)).
+A specialized AI agent team that runs a self-hosted stack: overlay mesh,
+secrets vault, compute substrate, public edge, LAN, telemetry/SIEM, and
+workflow runtime.
 
 ## Why split one agent into eleven
 

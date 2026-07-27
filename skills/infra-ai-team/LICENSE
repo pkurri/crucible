@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Original source: https://github.com/Mfrostbutter/Infra-AI-IT-Team-Runbook
-Adapted into this skill pack's agents/ and skills/infra-ai-team/ directories.
-The 12 agent definitions under agents/infra-*.md had their frontmatter
-reformatted (tools -> allowed-tools) to match this repo's convention; their
-instructional content is unmodified.
