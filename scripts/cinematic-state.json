@@ -1,7 +1,7 @@
 {
-  "lastUploadTime": "2026-07-27T14:40:44.360Z",
-  "uploadsToday": 3,
-  "lastDate": "2026-07-27",
+  "lastUploadTime": "2026-07-28T02:41:07.650Z",
+  "uploadsToday": 1,
+  "lastDate": "2026-07-28",
   "history": [
     {
       "topic": "The Cyber-Deckbuilder Origins",
@@ -221,6 +221,11 @@
     {
       "topic": "AI Entity Awakening",
       "date": "2026-07-27T14:40:44.360Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "The Cyber-Deckbuilder Origins",
+      "date": "2026-07-28T02:41:07.650Z",
       "type": "Cinematic Reel"
     }
   ]
