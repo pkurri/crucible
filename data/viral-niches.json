@@ -25837,6 +25837,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SelfHealingInfrastructure",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Growing global focus on climate resilience and sustainable cities has sparked intense curiosity about materials that can repair themselves. Viral‑ready visuals of cracks sealing in real time, combined with easy‑to‑understand science, drive high click‑through and share rates, making this niche poised for rapid subscriber growth and consistently high view counts.",
+      "ideas": [
+        "Self‑Healing Concrete: Watch a Crack Seal Itself in 30 Seconds",
+        "The Bacteria That Fix Bridges Overnight – No Humans Needed",
+        "Future Roads That Never Need Repairs – AI‑Designed Smart Materials"
+      ],
+      "keywords": [
+        "self-healing concrete",
+        "smart materials",
+        "bio concrete",
+        "crack repair",
+        "futuristic infrastructure"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

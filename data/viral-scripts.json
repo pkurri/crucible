@@ -12445,39 +12445,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Your next paycheck might already be in code.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "AI agents are stealing white‑collar jobs live.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
+      },
+      {
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
+      },
+      {
+        "text": "Would your desk be next?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
         "duration": 4
       }
     ]
@@ -12561,7 +12561,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -35660,47 +35660,47 @@
   "BioLuminescentCities": {
     "voice": "af_heart",
     "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
     "list": [
       {
-        "title": "Glow Park",
-        "name": "Luminous Plaza",
+        "title": "Glowing Streets",
+        "name": "Aurora Avenue",
         "icon": "🌌"
       },
       {
-        "title": "Neon Nightlife",
-        "name": "Bioluminescent Bar",
-        "icon": "🍹"
-      },
-      {
-        "title": "Sustainable Streets",
-        "name": "Gleam Grid",
-        "icon": "🚶"
-      },
-      {
-        "title": "Ambient Architecture",
-        "name": "Radiant Rooftop",
-        "icon": "🏢"
-      },
-      {
-        "title": "Eco-Transit",
-        "name": "Shimmer Subways",
-        "icon": "🚇"
-      },
-      {
-        "title": "Oceanic Oasis",
-        "name": "Blue Glow Harbor",
-        "icon": "⚓"
-      },
-      {
-        "title": "Floating Markets",
-        "name": "Glow Bazaar",
-        "icon": "🏬"
-      },
-      {
-        "title": "Night Gardens",
-        "name": "Aurora Alley",
+        "title": "Radiant Parks",
+        "name": "Pulse Park",
         "icon": "🌿"
+      },
+      {
+        "title": "Neon Skyscrapers",
+        "name": "Neon Tower",
+        "icon": "🌆"
+      },
+      {
+        "title": "BioLED Canopies",
+        "name": "Lumen Plaza",
+        "icon": "🌇"
+      },
+      {
+        "title": "Glitter Waterways",
+        "name": "Glitter Canal",
+        "icon": "🌊"
+      },
+      {
+        "title": "Electric Forests",
+        "name": "ForestFlow",
+        "icon": "🌠"
+      },
+      {
+        "title": "Starlit Cabins",
+        "name": "Celestial Lodge",
+        "icon": "🌒"
+      },
+      {
+        "title": "Spectrum Hubs",
+        "name": "Beacon Square",
+        "icon": "🔭"
       }
     ]
   },
@@ -56288,6 +56288,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "SelfHealingInfrastructure": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 SelfHealingInfrastructure secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Self-Healing Materials",
+        "name": "Self-Repairing Concrete",
+        "icon": "💎"
+      },
+      {
+        "title": "Adaptive Networks",
+        "name": "Self-Optimizing Mesh",
+        "icon": "🌐"
+      },
+      {
+        "title": "AI-Driven Monitoring",
+        "name": "Predictive Maintenance AI",
+        "icon": "🤖"
+      },
+      {
+        "title": "Autonomic Robotics",
+        "name": "Swarm Repair Drones",
+        "icon": "🚁"
+      },
+      {
+        "title": "Distributed Ledger",
+        "name": "Blockchain Integrity Ledger",
+        "icon": "🔗"
+      },
+      {
+        "title": "Quantum Sensors",
+        "name": "Quantum-Enhanced Strain Sensors",
+        "icon": "⚛️"
+      },
+      {
+        "title": "Edge Computing",
+        "name": "Micro-Edge Healing Nodes",
+        "icon": "☁️"
+      },
+      {
+        "title": "Bio-Inspired Design",
+        "name": "Bio-Mimetic Vascular Channels",
+        "icon": "🌿"
       }
     ]
   }
