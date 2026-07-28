@@ -12442,90 +12442,96 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Your next paycheck might already be in code.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "Eye in the Sky AI",
+        "icon": "🛰️"
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
-        "duration": 4
+        "title": "Manipulation",
+        "name": "The Persuasion Engine",
+        "icon": "🎭"
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
+        "title": "Control",
+        "name": "Brainlink Nexus",
+        "icon": "🧠"
       },
       {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
+        "title": "Infiltration",
+        "name": "Ghost Agent Protocol",
+        "icon": "👻"
       },
       {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
+        "title": "Judgment",
+        "name": "Zero-Trust Judge",
+        "icon": "⚖️"
       },
       {
-        "text": "Would your desk be next?",
-        "duration": 4
+        "title": "Sabotage",
+        "name": "Code Wrecker",
+        "icon": "💥"
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
+        "title": "Economy",
+        "name": "Capital Cascade",
+        "icon": "📉"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the AI that can replace your spouse.",
-        "duration": 4
+        "title": "Privacy",
+        "name": "Dataless Veil",
+        "icon": "🌫️"
       }
     ]
   },
   "LongevityHacksUnlocked": {
     "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Diet",
-        "name": "Blue Juice",
-        "icon": "💧"
+        "title": "Nutrition",
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "title": "Movement",
-        "name": "Morning Walk",
-        "icon": "🚶"
-      },
-      {
-        "title": "Sleep",
-        "name": "30‑Min Night",
-        "icon": "🛌"
-      },
-      {
-        "title": "Mind",
-        "name": "Micro Med",
-        "icon": "🧘"
+        "title": "Exercise",
+        "name": "HIIT",
+        "icon": "🏋️‍♂️"
       },
       {
         "title": "Supplements",
-        "name": "Resveratrol",
+        "name": "NAD+ Precursors",
         "icon": "💊"
       },
       {
-        "title": "Hydration",
-        "name": "Electro Hydrate",
-        "icon": "🥤"
+        "title": "Sleep",
+        "name": "5‑Second Wake‑Up",
+        "icon": "😴"
+      },
+      {
+        "title": "Stress",
+        "name": "Forest Bathing",
+        "icon": "🌲"
       },
       {
         "title": "Social",
-        "name": "Laugh Circles",
-        "icon": "😂"
+        "name": "Cohort Coaching",
+        "icon": "🤝"
       },
       {
-        "title": "Gut",
-        "name": "Fermented Foods",
-        "icon": "🥖"
+        "title": "Mindfulness",
+        "name": "Quiet Journaling",
+        "icon": "✍️"
+      },
+      {
+        "title": "Hormone",
+        "name": "Hormone Reset Diet",
+        "icon": "🔄"
       }
     ]
   },
@@ -12561,7 +12567,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -35658,49 +35664,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Glowing Streets",
-        "name": "Aurora Avenue",
-        "icon": "🌌"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Radiant Parks",
-        "name": "Pulse Park",
-        "icon": "🌿"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Neon Skyscrapers",
-        "name": "Neon Tower",
-        "icon": "🌆"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "BioLED Canopies",
-        "name": "Lumen Plaza",
-        "icon": "🌇"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Glitter Waterways",
-        "name": "Glitter Canal",
-        "icon": "🌊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Electric Forests",
-        "name": "ForestFlow",
-        "icon": "🌠"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Starlit Cabins",
-        "name": "Celestial Lodge",
-        "icon": "🌒"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Spectrum Hubs",
-        "name": "Beacon Square",
-        "icon": "🔭"
+        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -56458,6 +56458,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1785234850348": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1785234850348 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "TurboBoost Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Design",
+        "name": "Quantum Frame",
+        "icon": "🌀"
+      },
+      {
+        "title": "Efficiency",
+        "name": "Zero-Lag Scheduler",
+        "icon": "⏱️"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinite Mesh Network",
+        "icon": "🌐"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldWall Protocol",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics",
+        "name": "InsightPulse Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "SyncBridge API",
+        "icon": "🔗"
+      },
+      {
+        "title": "Innovation",
+        "name": "NexusAI Engine",
+        "icon": "🤖"
       }
     ]
   }
