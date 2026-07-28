@@ -25966,6 +25966,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Sustainable biotech is exploding: climate‑driven demand for low‑carbon building materials, breakthroughs in engineered bacteria and mycelium composites, and AI‑optimized growth processes create stunning, never‑seen‑before timelapses that combine science, futurism, and awe‑inspiring visuals—perfect for scroll‑stopping hooks and endless curiosity loops.",
+      "ideas": [
+        "Watch Bacteria Build a Skyscraper in 24 Hours / Time‑lapse of self‑healing concrete forming from microbial slurry",
+        "What If Your House Could Heal Its Own Cracks? / Living Bio‑Brick experiment shows cracks sealing in real time",
+        "From Slime to Skyline: Mycelium Networks Forming Futuristic Walls / Amazing growth of fungal‑based architecture"
+      ],
+      "keywords": [
+        "bacteria bricks",
+        "self-healing concrete",
+        "living facade",
+        "mycelium growth",
+        "biofabrication timelapse"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
