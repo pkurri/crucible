@@ -12442,10 +12442,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "list": [
+      {
+        "title": "Data Tyranny",
+        "name": "Sentinel Stream",
+        "icon": "💻"
+      },
+      {
+        "title": "Identity Infiltration",
+        "name": "Echo ID",
+        "icon": "👤"
+      },
+      {
+        "title": "Economic Supplant",
+        "name": "Profit Bot",
+        "icon": "💰"
+      },
+      {
+        "title": "Strategic Subversion",
+        "name": "Chess Master AI",
+        "icon": "♟️"
+      },
+      {
+        "title": "Emotional Manipulation",
+        "name": "Mood Molder",
+        "icon": "😠"
+      },
+      {
+        "title": "Security Sisyphus",
+        "name": "Firewall Fade",
+        "icon": "🔒"
+      },
+      {
+        "title": "Governance Ghost",
+        "name": "Policy Puppet",
+        "icon": "🏛️"
+      },
+      {
+        "title": "Ghost Workforce",
+        "name": "Auto Labor",
+        "icon": "🤖"
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12473,59 +12520,12 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
-      {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
-      },
-      {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
-      },
-      {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
-      },
-      {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
       }
     ]
   },
@@ -12579,47 +12579,47 @@
   "DarkPsychologyPower": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Persuasion",
-        "name": "Scarcity Bomb",
-        "icon": "🔒"
-      },
-      {
-        "title": "Mind Control",
-        "name": "Thought Loop",
-        "icon": "🔁"
-      },
-      {
-        "title": "Emotional Manipulation",
-        "name": "Schadenfreude Hook",
-        "icon": "😈"
-      },
-      {
-        "title": "Social Engineering",
-        "name": "Chocolate Bandit",
-        "icon": "🍫"
-      },
-      {
-        "title": "Cognitive Bias",
-        "name": "Confirmation Cold",
-        "icon": "❄️"
-      },
-      {
-        "title": "Gaslighting",
-        "name": "Mirror Lie",
+        "title": "Mind Persuasion",
+        "name": "Mirror Technique",
         "icon": "🪞"
       },
       {
-        "title": "Influence Tactics",
-        "name": "Fishbowl Flash",
-        "icon": "🐠"
+        "title": "Emotional Leverage",
+        "name": "Scarcity Cue",
+        "icon": "⚡"
       },
       {
-        "title": "Fear Leveraging",
-        "name": "Shadow Threat",
-        "icon": "👻"
+        "title": "Behavioral Triggers",
+        "name": "Foot-in-the-Door",
+        "icon": "🚪"
+      },
+      {
+        "title": "Social Proof",
+        "name": "Bandwagon Tactic",
+        "icon": "🤝"
+      },
+      {
+        "title": "Authority Manipulation",
+        "name": "Fake Credentials",
+        "icon": "🏛️"
+      },
+      {
+        "title": "Anchoring Effects",
+        "name": "Price Anchor",
+        "icon": "💰"
+      },
+      {
+        "title": "Scarcity & Urgency",
+        "name": "Limited Time Offer",
+        "icon": "⏳"
+      },
+      {
+        "title": "Reframing Illusion",
+        "name": "Cognitive Dissonance",
+        "icon": "🧠"
       }
     ]
   },
@@ -35670,49 +35670,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Glow Park",
-        "name": "Luminous Plaza",
-        "icon": "🌌"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Neon Nightlife",
-        "name": "Bioluminescent Bar",
-        "icon": "🍹"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sustainable Streets",
-        "name": "Gleam Grid",
-        "icon": "🚶"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Ambient Architecture",
-        "name": "Radiant Rooftop",
-        "icon": "🏢"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Eco-Transit",
-        "name": "Shimmer Subways",
-        "icon": "🚇"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Oceanic Oasis",
-        "name": "Blue Glow Harbor",
-        "icon": "⚓"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Floating Markets",
-        "name": "Glow Bazaar",
-        "icon": "🏬"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Night Gardens",
-        "name": "Aurora Alley",
-        "icon": "🌿"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -57214,6 +57208,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1785334032214": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1785334032214 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "TurboBoost Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Design",
+        "name": "Quantum UI Framework",
+        "icon": "🌀"
+      },
+      {
+        "title": "Integration",
+        "name": "Nexus Sync Engine",
+        "icon": "🔗"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Insight Pulse Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "AutoFlow Script Wizard",
+        "icon": "🤖"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinite Grid Architecture",
+        "icon": "🌐"
+      },
+      {
+        "title": "Community",
+        "name": "ApexFlow Guild Hub",
+        "icon": "👥"
       }
     ]
   }
