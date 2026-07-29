@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12577,43 +12577,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Ever wonder how puppeteers control you in seconds?",
-        "duration": 5
+        "title": "Persuasion",
+        "name": "Scarcity Bomb",
+        "icon": "🔒"
       },
       {
-        "text": "They leave no trace, and you can't see the strings.",
-        "duration": 4
+        "title": "Mind Control",
+        "name": "Thought Loop",
+        "icon": "🔁"
       },
       {
-        "text": "The first law: Silence is louder than shouting.",
-        "duration": 5
+        "title": "Emotional Manipulation",
+        "name": "Schadenfreude Hook",
+        "icon": "😈"
       },
       {
-        "text": "Mirroring triggers trust, turning strangers into allies.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Chocolate Bandit",
+        "icon": "🍫"
       },
       {
-        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
-        "duration": 5
+        "title": "Cognitive Bias",
+        "name": "Confirmation Cold",
+        "icon": "❄️"
       },
       {
-        "text": "If you ignore this, they'll weaponize your own memories.",
-        "duration": 4
+        "title": "Gaslighting",
+        "name": "Mirror Lie",
+        "icon": "🪞"
       },
       {
-        "text": "Imagine them framing you, then playing the courtroom.",
-        "duration": 4
+        "title": "Influence Tactics",
+        "name": "Fishbowl Flash",
+        "icon": "🐠"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
-        "duration": 4
+        "title": "Fear Leveraging",
+        "name": "Shadow Threat",
+        "icon": "👻"
       }
     ]
   },
@@ -35664,49 +35670,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_bella",
+    "voice": "af_heart",
     "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Midnight Skies",
-        "name": "Aurora City",
-        "icon": "🌃"
+        "title": "Glow Park",
+        "name": "Luminous Plaza",
+        "icon": "🌌"
       },
       {
-        "title": "River Glow",
-        "name": "Luminous Harbor",
-        "icon": "🛥️"
+        "title": "Neon Nightlife",
+        "name": "Bioluminescent Bar",
+        "icon": "🍹"
       },
       {
-        "title": "Skywalk Brilliance",
-        "name": "Glowing Arcology",
-        "icon": "🏙️"
+        "title": "Sustainable Streets",
+        "name": "Gleam Grid",
+        "icon": "🚶"
       },
       {
-        "title": "Forest Shimmer",
-        "name": "Eternal Forest District",
-        "icon": "🌲"
+        "title": "Ambient Architecture",
+        "name": "Radiant Rooftop",
+        "icon": "🏢"
       },
       {
-        "title": "Underground Lanes",
-        "name": "Neon Subway",
+        "title": "Eco-Transit",
+        "name": "Shimmer Subways",
         "icon": "🚇"
       },
       {
-        "title": "Desert Mirage",
-        "name": "Sandfire Plaza",
-        "icon": "🏜️"
+        "title": "Oceanic Oasis",
+        "name": "Blue Glow Harbor",
+        "icon": "⚓"
       },
       {
-        "title": "Coastal Springs",
-        "name": "Blue Wave Quarter",
-        "icon": "🌊"
+        "title": "Floating Markets",
+        "name": "Glow Bazaar",
+        "icon": "🏬"
       },
       {
-        "title": "Historical Glow",
-        "name": "Ancient Light Market",
-        "icon": "🏛️"
+        "title": "Night Gardens",
+        "name": "Aurora Alley",
+        "icon": "🌿"
       }
     ]
   },
@@ -57080,6 +57086,47 @@
       },
       {
         "text": "If you want to master ApexFlow_1785313972578, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1785321419894": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1785321419894.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
