@@ -26494,6 +26494,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuralDustNetworks",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Neural dust technology—microscopic, wireless sensors that can interface with neurons—is moving from lab prototypes to real‑world brain‑computer interfaces, sparking massive public fascination. The concept blends cutting‑edge neuroscience, sci‑fi aesthetics, and tangible near‑future applications, making it perfect for scroll‑stopping hooks and curiosity loops that drive high retention and shareability.",
+      "ideas": [
+        "What If Your Thoughts Could Control Smart Devices? / A 60‑second dive into how neural dust could turn your brain into a universal remote.",
+        "The Secret Living Circuit Inside Your Head / Revealing the invisible mesh of glowing sensors that scientists are already implanting in lab rats.",
+        "From Sci‑Fi to Surgery: Neural Dust’s First Human Trial / Inside look at the breakthrough procedure that lets paralyzed patients move robotic arms with their minds."
+      ],
+      "keywords": [
+        "glowing neural dust",
+        "brain mesh",
+        "micro sensors",
+        "futuristic cortex",
+        "living circuitry"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
