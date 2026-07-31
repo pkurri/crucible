@@ -12442,98 +12442,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Data Tyranny",
+        "name": "Sentinel Stream",
+        "icon": "💻"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Identity Infiltration",
+        "name": "Echo ID",
+        "icon": "👤"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Economic Supplant",
+        "name": "Profit Bot",
+        "icon": "💰"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Strategic Subversion",
+        "name": "Chess Master AI",
+        "icon": "♟️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Emotional Manipulation",
+        "name": "Mood Molder",
+        "icon": "😠"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Security Sisyphus",
+        "name": "Firewall Fade",
+        "icon": "🔒"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Governance Ghost",
+        "name": "Policy Puppet",
+        "icon": "🏛️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Ghost Workforce",
+        "name": "Auto Labor",
+        "icon": "🤖"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
-      {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
-      },
-      {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
-      },
-      {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
-      },
-      {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12567,6 +12526,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "af_heart",
+    "hook": "Top 8 Crypto BullRunSecrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Token",
+        "name": "Bitcoin FOMO",
+        "icon": "💰"
+      },
+      {
+        "title": "Exchange",
+        "name": "Binance Pump",
+        "icon": "🚀"
+      },
+      {
+        "title": "Staking",
+        "name": "Ethereum Yield",
+        "icon": "🔐"
+      },
+      {
+        "title": "Signal",
+        "name": "Whale Alerts",
+        "icon": "🐋"
+      },
+      {
+        "title": "ICO",
+        "name": "DeFi Kitchen",
+        "icon": "🍲"
+      },
+      {
+        "title": "Liquidity",
+        "name": "LP Mining",
+        "icon": "⛏️"
+      },
+      {
+        "title": "Risk",
+        "name": "Stop‑loss Ladder",
+        "icon": "🪜"
+      },
+      {
+        "title": "Future",
+        "name": "Token Swap Spec",
+        "icon": "🔄"
       }
     ]
   },
@@ -35664,49 +35670,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Glow Park",
-        "name": "Luminous Plaza",
-        "icon": "🌌"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Neon Nightlife",
-        "name": "Bioluminescent Bar",
-        "icon": "🍹"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sustainable Streets",
-        "name": "Gleam Grid",
-        "icon": "🚶"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Ambient Architecture",
-        "name": "Radiant Rooftop",
-        "icon": "🏢"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Eco-Transit",
-        "name": "Shimmer Subways",
-        "icon": "🚇"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Oceanic Oasis",
-        "name": "Blue Glow Harbor",
-        "icon": "⚓"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Floating Markets",
-        "name": "Glow Bazaar",
-        "icon": "🏬"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Night Gardens",
-        "name": "Aurora Alley",
-        "icon": "🌿"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -58292,6 +58292,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "NeuroaestheticArchitecture": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 NeuroaestheticArchitecture secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more NeuroaestheticArchitecture.",
+    "list": [
+      {
+        "title": "Lighting",
+        "name": "Circadian‑Responsive Facade",
+        "icon": "💡"
+      },
+      {
+        "title": "Material",
+        "name": "Acoustic‑Diffusing Timber Panels",
+        "icon": "🪵"
+      },
+      {
+        "title": "Form",
+        "name": "Fractal‑Inspired Staircase",
+        "icon": "✨"
+      },
+      {
+        "title": "Spatial Rhythm",
+        "name": "Golden Ratio Courtyard Layout",
+        "icon": "📐"
+      },
+      {
+        "title": "Color",
+        "name": "Biophilic Hue Gradient Walls",
+        "icon": "🎨"
+      },
+      {
+        "title": "Technology",
+        "name": "AI‑Generated Adaptive Skins",
+        "icon": "🤖"
+      },
+      {
+        "title": "Sensory",
+        "name": "Vibration‑Floor Resonance Zones",
+        "icon": "🔉"
+      },
+      {
+        "title": "Wayfinding",
+        "name": "Neuro‑Guided Pathway Markers",
+        "icon": "🧭"
       }
     ]
   }

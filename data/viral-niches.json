@@ -26854,6 +26854,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroaestheticArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Neuroaesthetic Architecture merges cutting-edge neuroscience with futuristic design, tapping into the viral trend of 'brain‑friendly' spaces showcased on TikTok and Instagram. Audiences crave visual proof that environments can boost mood, focus, and creativity—perfect for scroll‑stopping hooks, curiosity loops, and awe‑inspiring before/after transformations. The niche is underserved on YouTube, allowing a faceless channel to dominate with high‑retention, visually rich explainers and room‑tours that consistently break the 100K‑view barrier.",
+      "ideas": [
+        "This Room Rewires Your Brain for Focus – See the Science Behind the Walls",
+        "I Turned My Apartment into a Neuro‑Responsive Sanctuary (Before/After)",
+        "Why These Curved Facades Make You Feel Happier – A Neuroscientist Explains"
+      ],
+      "keywords": [
+        "brainwave patterns",
+        "serotonin lighting",
+        "curvilinear facades",
+        "immersive soundscapes",
+        "bio-responsive materials"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
