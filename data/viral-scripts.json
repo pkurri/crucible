@@ -12565,49 +12565,43 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Neural Triggers",
-        "name": "Mirror Effect",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Emotional Hooks",
-        "name": "Psyche Pulse",
-        "icon": "💓"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Body Language",
-        "name": "Anchor Stance",
-        "icon": "🦵"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bandwagon Echo",
-        "icon": "👥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Scarcity Tactics",
-        "name": "Last Chance Pulse",
-        "icon": "⏰"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Linguistic Tricks",
-        "name": "Double Bind",
-        "icon": "⚖️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Authority Play",
-        "name": "Fake Expert",
-        "icon": "🎩"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Micro Persuasion",
-        "name": "Foot in Door",
-        "icon": "🚪"
+        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -35689,7 +35683,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -59065,6 +59059,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1785578245662": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1785578245662 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "Turbo Mode",
+        "icon": "⚡"
+      },
+      {
+        "title": "Security",
+        "name": "Zero-Trust Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Integration",
+        "name": "API Nexus",
+        "icon": "🔗"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Pulse",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "Workflow Wizard",
+        "icon": "🤖"
+      },
+      {
+        "title": "Scalability",
+        "name": "Elastic Grid",
+        "icon": "📈"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Concierge",
+        "icon": "🧭"
+      },
+      {
+        "title": "Innovation",
+        "name": "Quantum Leap Lab",
+        "icon": "🚀"
       }
     ]
   }
