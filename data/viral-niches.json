@@ -27613,6 +27613,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticEcology",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Synthetic Ecology taps into the surge of interest in bioengineering, climate solutions, and futuristic living spaces. Audiences are fascinated by real‑time visuals of lab‑grown forests, living architecture, and self‑sustaining ecosystems—content that feels both scientifically credible and wonder‑inducing, driving high click‑through and share rates.",
+      "ideas": [
+        "Lab‑Grown Rainforest in 24 Hours: Watch a Forest Emerge from Cells / The future of reforestation is here",
+        "Living Skyscraper: Walls That Breathe, Grow, and Clean the Air / See architecture that’s literally alive",
+        "Bio‑Fabricated Coral Reef: Saving Oceans with Synthetic Biology / Witness a reef built from scratch in a tank"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "living walls",
+        "biofabricated",
+        "microforest",
+        "symbiotic"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
