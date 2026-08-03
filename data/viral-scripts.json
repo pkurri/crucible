@@ -12445,122 +12445,134 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your next paycheck might already be in code.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
-      },
-      {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
-      },
-      {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
-      },
-      {
-        "text": "Would your desk be next?",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
-        "text": "Next: the AI that can replace your spouse.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Booster",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Weekly Lifelong Learning Circles",
+        "icon": "🤝"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Top 8 Crypto BullRunSecrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Token",
+        "name": "Bitcoin FOMO",
+        "icon": "💰"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exchange",
+        "name": "Binance Pump",
+        "icon": "🚀"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Staking",
+        "name": "Ethereum Yield",
+        "icon": "🔐"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Signal",
+        "name": "Whale Alerts",
+        "icon": "🐋"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "ICO",
+        "name": "DeFi Kitchen",
+        "icon": "🍲"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Liquidity",
+        "name": "LP Mining",
+        "icon": "⛏️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Risk",
+        "name": "Stop‑loss Ladder",
+        "icon": "🪜"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Future",
+        "name": "Token Swap Spec",
+        "icon": "🔄"
       }
     ]
   },
@@ -35652,43 +35664,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Waterfront",
+        "name": "Blue Lagoon City",
+        "icon": "💧"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Forest",
+        "name": "Neon Woods City",
+        "icon": "🌿"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Night Sky",
+        "name": "Twilight Metropolis",
+        "icon": "🌃"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "River",
+        "name": "Glow River Town",
+        "icon": "🌊"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Urban",
+        "name": "Neon Skyline City",
+        "icon": "🏙️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Culture",
+        "name": "Festival Glow Village",
+        "icon": "🎭"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Quantum City",
+        "icon": "🤖"
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Economy",
+        "name": "Energy Hub City",
+        "icon": "⚡"
       }
     ]
   },
@@ -60348,6 +60366,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1785756084217": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1785756084217 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1785756084217.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "Quantum Flow Core",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Optimization",
+        "name": "Adaptive Load Balancer",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Shield",
+        "icon": "🔒"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "API Harmony Suite",
+        "icon": "🔗"
+      },
+      {
+        "title": "Scalability",
+        "name": "Auto‑Scale Orchestrator",
+        "icon": "📈"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 AI Concierge",
+        "icon": "🤖"
+      },
+      {
+        "title": "Community",
+        "name": "ApexFlow Pioneers Forum",
+        "icon": "👥"
       }
     ]
   }
