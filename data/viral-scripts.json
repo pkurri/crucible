@@ -12445,39 +12445,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your next paycheck might already be in code.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
-      },
-      {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
-      },
-      {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
-      },
-      {
-        "text": "Would your desk be next?",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
-        "text": "Next: the AI that can replace your spouse.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -12485,141 +12485,129 @@
   "LongevityHacksUnlocked": {
     "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
         "title": "Nutrition",
-        "name": "Intermittent Fasting",
-        "icon": "⏳"
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
       },
       {
-        "title": "Exercise",
-        "name": "HIIT",
-        "icon": "🏋️‍♂️"
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
+      },
+      {
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
       },
       {
         "title": "Supplements",
-        "name": "NAD+ Precursors",
-        "icon": "💊"
+        "name": "NAD+ Booster",
+        "icon": "⚡"
       },
       {
         "title": "Sleep",
-        "name": "5‑Second Wake‑Up",
-        "icon": "😴"
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
       },
       {
-        "title": "Stress",
-        "name": "Forest Bathing",
-        "icon": "🌲"
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
       },
       {
         "title": "Social",
-        "name": "Cohort Coaching",
+        "name": "Weekly Lifelong Learning Circles",
         "icon": "🤝"
       },
       {
-        "title": "Mindfulness",
-        "name": "Quiet Journaling",
-        "icon": "✍️"
-      },
-      {
-        "title": "Hormone",
-        "name": "Hormone Reset Diet",
-        "icon": "🔄"
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Top 8 Crypto BullRunSecrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Token",
-        "name": "Bitcoin FOMO",
-        "icon": "💰"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Exchange",
-        "name": "Binance Pump",
-        "icon": "🚀"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Staking",
-        "name": "Ethereum Yield",
-        "icon": "🔐"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Signal",
-        "name": "Whale Alerts",
-        "icon": "🐋"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "ICO",
-        "name": "DeFi Kitchen",
-        "icon": "🍲"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Liquidity",
-        "name": "LP Mining",
-        "icon": "⛏️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Risk",
-        "name": "Stop‑loss Ladder",
-        "icon": "🪜"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Future",
-        "name": "Token Swap Spec",
-        "icon": "🔄"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Mind Persuasion",
-        "name": "Mirror Technique",
-        "icon": "🪞"
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
+        "duration": 5
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Scarcity Cue",
-        "icon": "⚡"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Behavioral Triggers",
-        "name": "Foot-in-the-Door",
-        "icon": "🚪"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Social Proof",
-        "name": "Bandwagon Tactic",
-        "icon": "🤝"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Authority Manipulation",
-        "name": "Fake Credentials",
-        "icon": "🏛️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Anchoring Effects",
-        "name": "Price Anchor",
-        "icon": "💰"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Scarcity & Urgency",
-        "name": "Limited Time Offer",
-        "icon": "⏳"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Reframing Illusion",
-        "name": "Cognitive Dissonance",
-        "icon": "🧠"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -35701,7 +35689,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
