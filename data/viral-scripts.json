@@ -61434,5 +61434,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1785901605520": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1785901605520 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1785901605520, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Mindset",
+        "name": "Quantum Focus",
+        "icon": "🧠"
+      },
+      {
+        "title": "Technique",
+        "name": "Flow State Trigger",
+        "icon": "⚡"
+      },
+      {
+        "title": "Tool",
+        "name": "ApexSync Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Habit",
+        "name": "Micro‑Reset Ritual",
+        "icon": "🔄"
+      },
+      {
+        "title": "Resource",
+        "name": "Neuro‑Boost Playlist",
+        "icon": "🎧"
+      },
+      {
+        "title": "Strategy",
+        "name": "Reverse‑Engineer Goals",
+        "icon": "🎯"
+      },
+      {
+        "title": "Community",
+        "name": "ApexCircle Mastermind",
+        "icon": "🤝"
+      },
+      {
+        "title": "Bonus",
+        "name": "Instant Clarity Hack",
+        "icon": "💡"
+      }
+    ]
   }
 }
