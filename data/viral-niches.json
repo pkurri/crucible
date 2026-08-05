@@ -28582,6 +28582,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ChronoArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "ChronoArchitecture taps into the explosive fascination with AI‑driven generative design, time‑based building facades, and futuristic cities that literally reshape themselves over hours, days, or seasons. Recent breakthroughs in 4D printing, programmable materials, and real‑time urban simulation have flooded tech news and design forums, creating a perfect storm of curiosity‑driven content that rewards viewers with mind‑bending visualizations of structures that breathe, grow, and evolve—exactly the kind of scroll‑stopping, wonder‑inducing material that algorithms push to massive audiences.",
+      "ideas": [
+        "ChronoSkyscraper: Watch a Building Grow 200 Floors in 60 Seconds (AI‑Generated Time‑Lapse)",
+        "The Living Facade: How This Museum’s Walls Change Color with the Seasons – No Paint Needed",
+        "4D Printed Bridges: Self‑Assembling Structures That Repair Themselves After Earthquakes"
+      ],
+      "keywords": [
+        "temporal facade",
+        "morphing skyscraper",
+        "time-lapse building",
+        "AI-generated architecture",
+        "chrono-structure"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
