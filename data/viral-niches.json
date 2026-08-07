@@ -28984,6 +28984,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroplasticityHacks",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Neuroscience and self‑optimization content is exploding on short‑form platforms, with audiences eager for actionable, science‑backed ways to boost focus, memory, and mental resilience. The topic is evergreen, highly visual (brain scans, neural animations), and lends itself to faceless formats using stock footage, AI‑generated graphics, and clear voiceover, making it ideal for rapid subscriber growth and consistent 100K+ views per video.",
+      "ideas": [
+        "5 Daily Habits That Physically Rewire Your Brain in Just One Week (Neuroscience Proof)",
+        "The 3-Minute ‘Brain Reset’ Technique Top Neuroscientists Use to Eliminate Brain Fog",
+        "How to Double Your Learning Speed: Proven Neuroplasticity Tricks Backed by fMRI Studies"
+      ],
+      "keywords": [
+        "brain scan animation",
+        "glowing neural pathways",
+        "synapse firing visualization",
+        "mind map explosion",
+        "person meditating with light aura"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
