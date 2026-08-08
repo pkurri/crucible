@@ -12442,49 +12442,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Job Loss",
-        "name": "ChatGPT for Customer Support",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Privacy Breach",
-        "name": "AI Surveillance Bot",
-        "icon": "🕵️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Deepfake Fears",
-        "name": "Real‑Time Video Synthesizer",
-        "icon": "🎭"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Market Domination",
-        "name": "Automated Trading AI",
-        "icon": "📈"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Data Theft",
-        "name": "Predictive Analytics Wizard",
-        "icon": "📊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Identity Theft",
-        "name": "Speech‑to‑Text Converter",
-        "icon": "🗣️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Moral Erosion",
-        "name": "Algorithmic Editorial AI",
-        "icon": "📰"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Existential Risk",
-        "name": "Self‑Learning Autopilot",
-        "icon": "🚢"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12520,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12530,49 +12524,43 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Market Signals",
-        "name": "Onchain Heatmap",
-        "icon": "🔥"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Timing Tools",
-        "name": "Fomo Detector",
-        "icon": "⏰"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Fundamental Analyzer",
-        "name": "Whale Watch",
-        "icon": "🐋"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Risk Manager",
-        "name": "Stop-Loss Automator",
-        "icon": "🔒"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Tax Optimizer",
-        "name": "TaxPro",
-        "icon": "🧾"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Community Insight",
-        "name": "DiscordGauge",
-        "icon": "💬"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Strategy Mentor",
-        "name": "StrategyGuru",
-        "icon": "🧠"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Portfolio Tracker",
-        "name": "Lookout",
-        "icon": "📈"
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -35664,49 +35652,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Waterfront",
-        "name": "Blue Lagoon City",
-        "icon": "💧"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Forest",
-        "name": "Neon Woods City",
-        "icon": "🌿"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Night Sky",
-        "name": "Twilight Metropolis",
-        "icon": "🌃"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "River",
-        "name": "Glow River Town",
-        "icon": "🌊"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Urban",
-        "name": "Neon Skyline City",
-        "icon": "🏙️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Culture",
-        "name": "Festival Glow Village",
-        "icon": "🎭"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Technology",
-        "name": "Quantum City",
-        "icon": "🤖"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Economy",
-        "name": "Energy Hub City",
-        "icon": "⚡"
+        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -40415,7 +40397,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -63097,6 +63079,88 @@
       },
       {
         "text": "If you want to master ApexFlow_1786164944632, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1786166559546": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Your eyes are lying—this isn't CGI, it's real.",
+        "duration": 5
+      },
+      {
+        "text": "Watch how neon liquid rewires your brain in 3 seconds.",
+        "duration": 4
+      },
+      {
+        "text": "Each drop mimics a firing neuron at light speed.",
+        "duration": 5
+      },
+      {
+        "text": "Data points dance like hyper‑car pistons in sync.",
+        "duration": 5
+      },
+      {
+        "text": "The flow predicts your next move before you think.",
+        "duration": 5
+      },
+      {
+        "text": "Stay for the secret that turns viewers into creators.",
+        "duration": 4
+      },
+      {
+        "text": "Miss it, and you’ll never see the pattern again.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1786166559546, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: how to hack this flow for viral TikToks.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1786171434820": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1786171434820.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
