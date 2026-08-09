@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12483,43 +12483,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
       }
     ]
   },
@@ -12565,43 +12571,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Mind Tactics",
+        "name": "Silent Flags",
+        "icon": "🧠"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Persuasion Tools",
+        "name": "Mirror Matching",
+        "icon": "🗝️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Social Engineering",
+        "name": "Scarcity Shock",
+        "icon": "🤝"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Fear Amplifier",
+        "icon": "😭"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Neuropsych Tricks",
+        "name": "Reversal Neural Code",
+        "icon": "⚡"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Behavioral Cues",
+        "name": "Gesture Signifier",
+        "icon": "🤐"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Covert Persuasion",
+        "name": "Subliminal Preset",
+        "icon": "⌛"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Memory Manipulation",
+        "name": "Recency Rewriter",
+        "icon": "🔄"
       }
     ]
   },
@@ -35683,7 +35695,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -40397,7 +40409,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
