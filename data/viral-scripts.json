@@ -12442,96 +12442,90 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Job Loss",
-        "name": "ChatGPT for Customer Support",
-        "icon": "🤖"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Privacy Breach",
-        "name": "AI Surveillance Bot",
-        "icon": "🕵️‍♂️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Deepfake Fears",
-        "name": "Real‑Time Video Synthesizer",
-        "icon": "🎭"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Market Domination",
-        "name": "Automated Trading AI",
-        "icon": "📈"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Data Theft",
-        "name": "Predictive Analytics Wizard",
-        "icon": "📊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Identity Theft",
-        "name": "Speech‑to‑Text Converter",
-        "icon": "🗣️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Moral Erosion",
-        "name": "Algorithmic Editorial AI",
-        "icon": "📰"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Existential Risk",
-        "name": "Self‑Learning Autopilot",
-        "icon": "🚢"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
     "voice": "af_heart",
     "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
         "title": "Nutrition",
-        "name": "Oyster Omega Fats",
-        "icon": "🦪"
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "title": "Movement",
-        "name": "Desk Squat Hack",
-        "icon": "🏋️"
-      },
-      {
-        "title": "Mindset",
-        "name": "Midday Mindfulness Call",
-        "icon": "🧘"
+        "title": "Exercise",
+        "name": "HIIT",
+        "icon": "🏋️‍♂️"
       },
       {
         "title": "Supplements",
-        "name": "NAD+ Booster",
-        "icon": "⚡"
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
         "title": "Sleep",
-        "name": "Blue Light Blocking Glasses",
-        "icon": "🌙"
+        "name": "5‑Second Wake‑Up",
+        "icon": "😴"
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Infused Water",
-        "icon": "💧"
+        "title": "Stress",
+        "name": "Forest Bathing",
+        "icon": "🌲"
       },
       {
         "title": "Social",
-        "name": "Weekly Lifelong Learning Circles",
+        "name": "Cohort Coaching",
         "icon": "🤝"
       },
       {
-        "title": "Tech",
-        "name": "AI Sleep Tracker",
-        "icon": "🚀"
+        "title": "Mindfulness",
+        "name": "Quiet Journaling",
+        "icon": "✍️"
+      },
+      {
+        "title": "Hormone",
+        "name": "Hormone Reset Diet",
+        "icon": "🔄"
       }
     ]
   },
@@ -35666,47 +35660,47 @@
   "BioLuminescentCities": {
     "voice": "af_heart",
     "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
     "list": [
       {
-        "title": "Waterfront",
-        "name": "Blue Lagoon City",
-        "icon": "💧"
+        "title": "Glowing Streets",
+        "name": "Aurora Avenue",
+        "icon": "🌌"
       },
       {
-        "title": "Forest",
-        "name": "Neon Woods City",
+        "title": "Radiant Parks",
+        "name": "Pulse Park",
         "icon": "🌿"
       },
       {
-        "title": "Night Sky",
-        "name": "Twilight Metropolis",
-        "icon": "🌃"
+        "title": "Neon Skyscrapers",
+        "name": "Neon Tower",
+        "icon": "🌆"
       },
       {
-        "title": "River",
-        "name": "Glow River Town",
+        "title": "BioLED Canopies",
+        "name": "Lumen Plaza",
+        "icon": "🌇"
+      },
+      {
+        "title": "Glitter Waterways",
+        "name": "Glitter Canal",
         "icon": "🌊"
       },
       {
-        "title": "Urban",
-        "name": "Neon Skyline City",
-        "icon": "🏙️"
+        "title": "Electric Forests",
+        "name": "ForestFlow",
+        "icon": "🌠"
       },
       {
-        "title": "Culture",
-        "name": "Festival Glow Village",
-        "icon": "🎭"
+        "title": "Starlit Cabins",
+        "name": "Celestial Lodge",
+        "icon": "🌒"
       },
       {
-        "title": "Technology",
-        "name": "Quantum City",
-        "icon": "🤖"
-      },
-      {
-        "title": "Economy",
-        "name": "Energy Hub City",
-        "icon": "⚡"
+        "title": "Spectrum Hubs",
+        "name": "Beacon Square",
+        "icon": "🔭"
       }
     ]
   },
@@ -40415,7 +40409,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -63694,6 +63688,47 @@
         "title": "User Experience",
         "name": "Immersive Control Canvas",
         "icon": "🎨"
+      }
+    ]
+  },
+  "ApexFlow_1786251787065": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1786251787065.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }
