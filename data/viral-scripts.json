@@ -12442,43 +12442,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Your next paycheck might already be in code.",
-        "duration": 5
+        "title": "Surveillance",
+        "name": "Eye in the Sky AI",
+        "icon": "🛰️"
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
-        "duration": 4
+        "title": "Manipulation",
+        "name": "The Persuasion Engine",
+        "icon": "🎭"
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
+        "title": "Control",
+        "name": "Brainlink Nexus",
+        "icon": "🧠"
       },
       {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
+        "title": "Infiltration",
+        "name": "Ghost Agent Protocol",
+        "icon": "👻"
       },
       {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
+        "title": "Judgment",
+        "name": "Zero-Trust Judge",
+        "icon": "⚖️"
       },
       {
-        "text": "Would your desk be next?",
-        "duration": 4
+        "title": "Sabotage",
+        "name": "Code Wrecker",
+        "icon": "💥"
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
+        "title": "Economy",
+        "name": "Capital Cascade",
+        "icon": "📉"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the AI that can replace your spouse.",
-        "duration": 4
+        "title": "Privacy",
+        "name": "Dataless Veil",
+        "icon": "🌫️"
       }
     ]
   },
@@ -12555,7 +12561,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -35689,7 +35695,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
         "duration": 5
       },
       {
@@ -64215,6 +64221,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1786326040142": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1786326040142 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "Turbo Boost Mode",
+        "icon": "⚡"
+      },
+      {
+        "title": "Design",
+        "name": "Invisible Seamless Integration",
+        "icon": "🌀"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum‑Grade Encryption",
+        "icon": "🔐"
+      },
+      {
+        "title": "Usability",
+        "name": "One‑Click Workflow Wizard",
+        "icon": "🧙‍♂️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Pulse Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Customization",
+        "name": "Adaptive Theme Engine",
+        "icon": "🎨"
+      },
+      {
+        "title": "Community",
+        "name": "Global ApexFlow Guild",
+        "icon": "🌍"
+      },
+      {
+        "title": "Future",
+        "name": "AI‑Powered Predictive Scaling",
+        "icon": "🤖"
       }
     ]
   }
