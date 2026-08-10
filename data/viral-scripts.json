@@ -64270,5 +64270,52 @@
         "icon": "🤖"
       }
     ]
+  },
+  "ApexFlow_1786329824457": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1786329824457 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1786329824457.",
+    "list": [
+      {
+        "title": "Mindset",
+        "name": "Quantum Focus",
+        "icon": "🧠"
+      },
+      {
+        "title": "Tool",
+        "name": "Flow Catalyst X",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Technique",
+        "name": "Pulse Sync Method",
+        "icon": "💓"
+      },
+      {
+        "title": "Habit",
+        "name": "Daily Apex Ritual",
+        "icon": "🕒"
+      },
+      {
+        "title": "Resource",
+        "name": "Infinity Blueprint",
+        "icon": "📜"
+      },
+      {
+        "title": "Community",
+        "name": "Apex Circle",
+        "icon": "🤝"
+      },
+      {
+        "title": "Metric",
+        "name": "Peak Score Tracker",
+        "icon": "📈"
+      },
+      {
+        "title": "Secret",
+        "name": "Zero‑Delay Trigger",
+        "icon": "⚡"
+      }
+    ]
   }
 }
