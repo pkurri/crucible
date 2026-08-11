@@ -12442,10 +12442,57 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Surveillance",
+        "name": "Eye in the Sky AI",
+        "icon": "🛰️"
+      },
+      {
+        "title": "Manipulation",
+        "name": "The Persuasion Engine",
+        "icon": "🎭"
+      },
+      {
+        "title": "Control",
+        "name": "Brainlink Nexus",
+        "icon": "🧠"
+      },
+      {
+        "title": "Infiltration",
+        "name": "Ghost Agent Protocol",
+        "icon": "👻"
+      },
+      {
+        "title": "Judgment",
+        "name": "Zero-Trust Judge",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Sabotage",
+        "name": "Code Wrecker",
+        "icon": "💥"
+      },
+      {
+        "title": "Economy",
+        "name": "Capital Cascade",
+        "icon": "📉"
+      },
+      {
+        "title": "Privacy",
+        "name": "Dataless Veil",
+        "icon": "🌫️"
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12473,59 +12520,12 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
-      {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
-      },
-      {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
-      },
-      {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
-      },
-      {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
       }
     ]
   },
@@ -35689,7 +35689,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -40403,7 +40403,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -64930,6 +64930,53 @@
         "title": "Epic Revelation",
         "name": "The Equation That Predicts Destiny",
         "icon": "📜"
+      }
+    ]
+  },
+  "ApexFlow_1786424819111": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1786424819111 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Workflow Automation",
+        "name": "Smart Trigger Builder",
+        "icon": "⚡"
+      },
+      {
+        "title": "Data Integration",
+        "name": "Live API Connector",
+        "icon": "🔗"
+      },
+      {
+        "title": "Performance Monitoring",
+        "name": "Real‑time Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Collaboration",
+        "name": "Team Sync Hub",
+        "icon": "🤝"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Scalability",
+        "name": "Auto‑Scale Engine",
+        "icon": "🚀"
+      },
+      {
+        "title": "Customization",
+        "name": "Drag‑and‑Drop Builder",
+        "icon": "🧩"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Insight AI",
+        "icon": "🔮"
       }
     ]
   }
