@@ -30205,6 +30205,22 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "TopicID",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "...",
+      "ideas": [
+        "Title / Hook..."
+      ],
+      "keywords": [],
+      "voice": "",
       "priority": true
     }
   ]

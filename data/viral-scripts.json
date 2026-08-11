@@ -64885,5 +64885,52 @@
         "duration": 4
       }
     ]
+  },
+  "TopicID": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 TopicID secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Ancient Wisdom",
+        "name": "Lost Algorithm of the Ancients",
+        "icon": "🕰️"
+      },
+      {
+        "title": "Quantum Leap",
+        "name": "Entangled Data Patterns",
+        "icon": "⚛️"
+      },
+      {
+        "title": "Cosmic Scale",
+        "name": "Galaxy-Sized Dataset",
+        "icon": "🌌"
+      },
+      {
+        "title": "Human Potential",
+        "name": "Neuro‑Sync Learning Hack",
+        "icon": "🧠"
+      },
+      {
+        "title": "Nature's Code",
+        "name": "Fractal Growth Formula",
+        "icon": "🌿"
+      },
+      {
+        "title": "Future Tech",
+        "name": "Zero‑Latency Neural Interface",
+        "icon": "🚀"
+      },
+      {
+        "title": "Secret Society",
+        "name": "Cipher‑Guarded Knowledge Vault",
+        "icon": "🔐"
+      },
+      {
+        "title": "Epic Revelation",
+        "name": "The Equation That Predicts Destiny",
+        "icon": "📜"
+      }
+    ]
   }
 }
