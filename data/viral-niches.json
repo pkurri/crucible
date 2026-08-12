@@ -30494,6 +30494,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumGravityVisuals",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Recent breakthroughs in quantum gravity research and stunning visual simulations of spacetime foam, gravitational waves, and extra-dimensional phenomena are capturing public imagination. Faceless animation channels can turn complex physics into mesmerizing, scroll‑stopping visuals that trigger wonder and curiosity, driving high retention and shareability.",
+      "ideas": [
+        "What If You Could See Quantum Foam? – 4K Simulation of Spacetime at the Planck Scale",
+        "Watch Two Black Holes Merge in Quantum Gravity – The Moment Space-Time Ripples",
+        "Extra Dimensions Revealed: A Visual Journey Through Calabi‑Yau Shapes in Real Time"
+      ],
+      "keywords": [
+        "spacetime foam",
+        "gravitational waves",
+        "quantum foam",
+        "black hole merger",
+        "extra dimensions"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
