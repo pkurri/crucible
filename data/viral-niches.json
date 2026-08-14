@@ -31067,6 +31067,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumGarden",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "QuantumGarden visualizes abstract quantum physics concepts as lush, surreal gardens, merging cutting-edge science with breathtaking, easily digestible imagery. This faceless format leverages trending interest in quantum computing and pop‑science wonder, offering scroll‑stopping hooks like \"What if entanglement grew like vines?\" and endless curiosity loops by exploring a new quantum phenomenon each video, driving high retention and shareability.",
+      "ideas": [
+        "\"Entanglement Vines: How Two Particles Grow Together Across the Universe\" – Hook: Watch invisible links bloom as glowing vines that instantly mirror each other's growth, no matter the distance.",
+        "\"Superposition Petals: A Flower That Exists in Two States Until You Look\" – Hook: See a quantum flower simultaneously open and closed, collapsing into one state only when observed—pure visual weirdness.",
+        "\"Wave‑Interference Lagoons: Ripples That Create Impossible Patterns\" – Hook: Drop a quantum pebble and watch overlapping waves forge hypnotic, fractal‑like lagoons that defy everyday physics."
+      ],
+      "keywords": [
+        "quantum flora",
+        "particle blossoms",
+        "wave interference patterns",
+        "entanglement vines",
+        "superposition petals"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
