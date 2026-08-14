@@ -66702,5 +66702,52 @@
         "icon": "💬"
       }
     ]
+  },
+  "ApexFlow_1786676986897": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1786676986897 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1786676986897, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Mindset",
+        "name": "Flow State Activation",
+        "icon": "🧠"
+      },
+      {
+        "title": "Technique",
+        "name": "Micro‑Batch Sequencing",
+        "icon": "⚡"
+      },
+      {
+        "title": "Tool",
+        "name": "ApexFlow Dashboard Pro",
+        "icon": "📊"
+      },
+      {
+        "title": "Habit",
+        "name": "Daily 5‑Minute Reset",
+        "icon": "🔁"
+      },
+      {
+        "title": "Strategy",
+        "name": "Adaptive Prioritization Matrix",
+        "icon": "🗂️"
+      },
+      {
+        "title": "Shortcut",
+        "name": "One‑Click Macro Builder",
+        "icon": "🚀"
+      },
+      {
+        "title": "Mindset",
+        "name": "Continuous Improvement Loop",
+        "icon": "🔄"
+      },
+      {
+        "title": "Resource",
+        "name": "Community Template Library",
+        "icon": "📚"
+      }
+    ]
   }
 }
