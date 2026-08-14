@@ -28,7 +28,7 @@
 
 ---
 
-### 🛠️ Development Tools (21 skills)
+### 🛠️ Development Tools (22 skills)
 
 **tool-agent-coordinator** - Multi-agent task coordination  
 **tool-agent-logger** - Structured logging and monitoring  
@@ -50,11 +50,12 @@
 **tool-code-formatter** - Multi-language code formatting  
 **tool-refactoring-assistant** - Automated refactoring suggestions  
 **tool-migration-helper** - Framework/library migration guide  
-**likec4-diagrams** - LikeC4 architecture-as-code diagram authoring (AOD)
+**likec4-diagrams** - LikeC4 architecture-as-code diagram authoring (AOD)  
+**app-store-connect-cli** - App Store Connect CLI release automation (asc)
 
 ---
 
-### 🔄 Workflow Automation (16 skills)
+### 🔄 Workflow Automation (17 skills)
 
 **workflow-agent-orchestration** - Multi-agent workflow coordination  
 **workflow-brainstorm** - Ideation and brainstorming facilitator  
@@ -71,7 +72,8 @@
 **workflow-hotfix-handler** - Emergency fix workflow  
 **workflow-code-review-flow** - Automated review process  
 **workflow-onboarding** - Developer onboarding automation  
-**workflow-likec4-aod-pipeline** - LikeC4 AOD generation pipeline
+**workflow-likec4-aod-pipeline** - LikeC4 AOD generation pipeline  
+**workflow-app-store-release** - App Store Connect release pipeline (asc)
 
 ---
 

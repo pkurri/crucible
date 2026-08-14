@@ -8,7 +8,7 @@ code in this repository.
 Know which one you're in before making changes; they have different audiences,
 different risk profiles, and different commands.
 
-1. **The Crucible skill pack product** — `skills/` (366+ skills), `agents/` (64
+1. **The Crucible skill pack product** — `skills/` (368+ skills), `agents/` (65
    agent definitions), `templates/` (~114 project templates), installed as slash
    commands under `.claude/commands/`. This is the commercial deliverable
    described in the root `README.md` and sold via the Stripe integration in the
@@ -139,6 +139,8 @@ the most commonly used are grouped below. Full list: `ls skills/`.
 - `/gaming-studio` — Full-cycle 48-agent game studio orchestration
 - `/workflow-likec4-aod-pipeline` — LikeC4 architecture diagram (AOD) generation
   pipeline: intake → model → render → review → publish
+- `/workflow-app-store-release` — App Store Connect release pipeline: preflight
+  → TestFlight → metadata → submit → monitor
 
 ### Code Review
 
@@ -180,6 +182,7 @@ the most commonly used are grouped below. Full list: `ls skills/`.
 - `/python-backend-expert` — Python backend guidance
 - `/vector-database-search` — Vector DB search
 - `/likec4-diagrams` — LikeC4 architecture-as-code diagrams (AOD)
+- `/app-store-connect-cli` — App Store Connect CLI release automation (asc)
 
 ### Gaming
 
