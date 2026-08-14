@@ -1,7 +1,7 @@
 {
-  "lastUploadTime": "2026-07-27T03:23:08.835Z",
+  "lastUploadTime": "2026-07-29T02:47:47.208Z",
   "uploadsToday": 1,
-  "lastDate": "2026-07-27",
+  "lastDate": "2026-07-29",
   "history": [
     {
       "topic": "The Cyber-Deckbuilder Origins",
@@ -211,6 +211,36 @@
     {
       "topic": "High-Fantasy Architectures",
       "date": "2026-07-27T03:23:08.835Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "AI Entity Awakening",
+      "date": "2026-07-27T07:35:35.894Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "AI Entity Awakening",
+      "date": "2026-07-27T14:40:44.360Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "The Cyber-Deckbuilder Origins",
+      "date": "2026-07-28T02:41:07.650Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "AI Entity Awakening",
+      "date": "2026-07-28T10:38:46.230Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "High-Fantasy Architectures",
+      "date": "2026-07-28T17:37:55.642Z",
+      "type": "Cinematic Reel"
+    },
+    {
+      "topic": "Abstract Flow States",
+      "date": "2026-07-29T02:47:47.208Z",
       "type": "Cinematic Reel"
     }
   ]
