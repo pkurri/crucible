@@ -12442,43 +12442,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Data Tyranny",
+        "name": "Sentinel Stream",
+        "icon": "💻"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Identity Infiltration",
+        "name": "Echo ID",
+        "icon": "👤"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Economic Supplant",
+        "name": "Profit Bot",
+        "icon": "💰"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Strategic Subversion",
+        "name": "Chess Master AI",
+        "icon": "♟️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Emotional Manipulation",
+        "name": "Mood Molder",
+        "icon": "😠"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Security Sisyphus",
+        "name": "Firewall Fade",
+        "icon": "🔒"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Governance Ghost",
+        "name": "Policy Puppet",
+        "icon": "🏛️"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Ghost Workforce",
+        "name": "Auto Labor",
+        "icon": "🤖"
       }
     ]
   },
@@ -12514,7 +12520,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -35683,7 +35689,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -68686,6 +68692,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1786956103698": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1786956103698 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Core Feature",
+        "name": "Quantum Sync Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Performance Boost",
+        "name": "Zero‑Latency Rendering",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security Layer",
+        "name": "Adaptive Encryption Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "User Experience",
+        "name": "Holographic Dashboard",
+        "icon": "🌐"
+      },
+      {
+        "title": "Integration",
+        "name": "Universal API Bridge",
+        "icon": "🔗"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Insight AI",
+        "icon": "🧠"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinite Node Cluster",
+        "icon": "♾️"
+      },
+      {
+        "title": "Community",
+        "name": "Open‑Source Forge",
+        "icon": "💫"
       }
     ]
   }
