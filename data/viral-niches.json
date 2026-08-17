@@ -32099,6 +32099,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumDreamWeaving",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The intersection of quantum physics, neuroscience, and AI-generated visuals taps into exploding public fascination with dreams, consciousness, and cutting-edge science. Short-form platforms are already seeing surges in #lucid dreaming and #quantumphysics content, while long-form YouTube thrives on deep, visually stunning explorations that combine mystery with wonder. This niche offers endless faceless content possibilities—simulated quantum neural landscapes, dream‑state visualizations, and speculative future tech—allowing creators to maintain high output without appearing on camera, driving both subscriber growth and consistent 100K+ view videos.",
+      "ideas": [
+        "What If Your Dreams Were Quantum Simulations? (Mind‑Blowing Visual Journey)",
+        "Seeing the Brain’s Quantum Fields: AI Renders a Lucid Dream in Real Time",
+        "From Neurons to Quarks: How Scientists Are Visualizing Dreams Using Quantum Computing"
+      ],
+      "keywords": [
+        "quantum",
+        "dreamscape",
+        "neural",
+        "fractal",
+        "luminescence"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
