@@ -68524,5 +68524,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1786932391138": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1786932391138 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance Boost",
+        "name": "Quantum Accelerator",
+        "icon": "⚡"
+      },
+      {
+        "title": "Design",
+        "name": "Zero-Gravity Frame",
+        "icon": "🪐"
+      },
+      {
+        "title": "Efficiency",
+        "name": "Infinity Loop Algorithm",
+        "icon": "🔁"
+      },
+      {
+        "title": "Durability",
+        "name": "Nano‑Shield Coating",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Connectivity",
+        "name": "Neural Mesh Network",
+        "icon": "🧠"
+      },
+      {
+        "title": "Energy",
+        "name": "Solar‑Fusion Core",
+        "icon": "☀️"
+      },
+      {
+        "title": "Precision",
+        "name": "Atomic‑Scale Calibrator",
+        "icon": "🔬"
+      },
+      {
+        "title": "Innovation",
+        "name": "Hyperloop Interface",
+        "icon": "🚀"
+      }
+    ]
   }
 }
