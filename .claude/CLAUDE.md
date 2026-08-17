@@ -183,6 +183,7 @@ the most commonly used are grouped below. Full list: `ls skills/`.
 - `/vector-database-search` — Vector DB search
 - `/likec4-diagrams` — LikeC4 architecture-as-code diagrams (AOD)
 - `/app-store-connect-cli` — App Store Connect CLI release automation (asc)
+- `/legal-skills` — Legal-domain skill directory and install guide
 
 ### Gaming
 

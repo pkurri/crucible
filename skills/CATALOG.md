@@ -28,7 +28,7 @@
 
 ---
 
-### 🛠️ Development Tools (22 skills)
+### 🛠️ Development Tools (23 skills)
 
 **tool-agent-coordinator** - Multi-agent task coordination  
 **tool-agent-logger** - Structured logging and monitoring  
@@ -51,7 +51,8 @@
 **tool-refactoring-assistant** - Automated refactoring suggestions  
 **tool-migration-helper** - Framework/library migration guide  
 **likec4-diagrams** - LikeC4 architecture-as-code diagram authoring (AOD)  
-**app-store-connect-cli** - App Store Connect CLI release automation (asc)
+**app-store-connect-cli** - App Store Connect CLI release automation (asc)  
+**legal-skills** - Legal-domain skill directory and install guide
 
 ---
 
