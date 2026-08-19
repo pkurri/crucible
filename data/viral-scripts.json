@@ -12514,7 +12514,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -40403,7 +40403,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -69770,6 +69770,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1787114370768": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1787114370768 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Speed Hack",
+        "name": "Turbo Mode Activation",
+        "icon": "⚡"
+      },
+      {
+        "title": "Workflow",
+        "name": "Zero‑Click Task Scheduler",
+        "icon": "🗓️"
+      },
+      {
+        "title": "Security",
+        "name": "Encrypted Vault Sync",
+        "icon": "🔐"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "AI‑Driven Macro Builder",
+        "icon": "🤖"
+      },
+      {
+        "title": "Integration",
+        "name": "Cross‑Platform API Bridge",
+        "icon": "🌐"
+      },
+      {
+        "title": "Customization",
+        "name": "Theme‑Engine Studio",
+        "icon": "🎨"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Expert Chatbot",
+        "icon": "💬"
       }
     ]
   }
