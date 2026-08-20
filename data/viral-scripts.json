@@ -12483,43 +12483,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Booster",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Weekly Lifelong Learning Circles",
+        "icon": "🤝"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
       }
     ]
   },
@@ -35652,43 +35658,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Glowing Streets",
+        "name": "Aurora Avenue",
+        "icon": "🌌"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Radiant Parks",
+        "name": "Pulse Park",
+        "icon": "🌿"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Neon Skyscrapers",
+        "name": "Neon Tower",
+        "icon": "🌆"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "BioLED Canopies",
+        "name": "Lumen Plaza",
+        "icon": "🌇"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Glitter Waterways",
+        "name": "Glitter Canal",
+        "icon": "🌊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Electric Forests",
+        "name": "ForestFlow",
+        "icon": "🌠"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Starlit Cabins",
+        "name": "Celestial Lodge",
+        "icon": "🌒"
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Spectrum Hubs",
+        "name": "Beacon Square",
+        "icon": "🔭"
       }
     ]
   },
@@ -40372,43 +40384,49 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioluminescentCities.",
-        "duration": 5
+        "title": "Urban Glow",
+        "name": "Luminous Hills, Oaxaca",
+        "icon": "🌆"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Coastal Neon",
+        "name": "Gans, Iceland",
+        "icon": "🌊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "River Lights",
+        "name": "Donggyeong River, North Korea",
+        "icon": "🌊"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Market Bubble",
+        "name": "Rayak Bazaar, Ethiopia",
+        "icon": "🕌"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Hilltop Shine",
+        "name": "Dunsceat Edge, Scotland",
+        "icon": "🌋"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Sky Observatory",
+        "name": "Arecibo, Puerto Rico",
+        "icon": "🌠"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Submerged Glow",
+        "name": "Baguio Tunnel, Philippines",
+        "icon": "🌊"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Desert Stars",
+        "name": "Karaj District, Uzbekistan",
+        "icon": "🏜"
       }
     ]
   },
@@ -70356,6 +70374,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1787214967615": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1787214967615 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Core Algorithm",
+        "name": "Quantum Sync Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Optimization Tip",
+        "name": "Adaptive Load Balancer",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Hidden Setting",
+        "name": "Turbo Cache Mode",
+        "icon": "🚀"
+      },
+      {
+        "title": "Performance Hack",
+        "name": "Zero‑Latency Pipeline",
+        "icon": "💨"
+      },
+      {
+        "title": "Security Layer",
+        "name": "Quantum‑Safe Encryption",
+        "icon": "🔐"
+      },
+      {
+        "title": "Integration Trick",
+        "name": "Plug‑and‑Play API Bridge",
+        "icon": "🔌"
+      },
+      {
+        "title": "Analytics Boost",
+        "name": "Real‑Time Insight Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Pro Secret",
+        "name": "Self‑Healing Recovery Loop",
+        "icon": "🔄"
       }
     ]
   }
