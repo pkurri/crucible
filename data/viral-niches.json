@@ -32984,6 +32984,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroFloraDreams",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The intersection of neuroscience, bio‑luminescent art, and immersive storytelling is exploding on social media as creators showcase living neural networks that glow like forests. Audiences crave mind‑bending visuals that make the invisible visible, driving high click‑through rates and shareability.",
+      "ideas": [
+        "What If Your Brain Grew a Glowing Forest? – Watch neurons sprout bioluminescent trees in real time",
+        "NeuroFlora Dreams: The Secret Light Show Inside Your Mind – A 60‑second journey through a living neural canopy",
+        "From Thought to Bioluminescence: How Scientists Are Turning Brainwaves Into Living Light"
+      ],
+      "keywords": [
+        "bioluminescent neurons",
+        "glowing neural forest",
+        "living light brain",
+        "psychedelic synapse glow",
+        "organic light pathways"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
