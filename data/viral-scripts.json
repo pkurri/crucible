@@ -12483,84 +12483,96 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Diet",
+        "name": "Blue Juice",
+        "icon": "💧"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Morning Walk",
+        "icon": "🚶"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "30‑Min Night",
+        "icon": "🛌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mind",
+        "name": "Micro Med",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electro Hydrate",
+        "icon": "🥤"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Laugh Circles",
+        "icon": "😂"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Gut",
+        "name": "Fermented Foods",
+        "icon": "🥖"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Market Signals",
+        "name": "Onchain Heatmap",
+        "icon": "🔥"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Timing Tools",
+        "name": "Fomo Detector",
+        "icon": "⏰"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Fundamental Analyzer",
+        "name": "Whale Watch",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Risk Manager",
+        "name": "Stop-Loss Automator",
+        "icon": "🔒"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Tax Optimizer",
+        "name": "TaxPro",
+        "icon": "🧾"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Community Insight",
+        "name": "DiscordGauge",
+        "icon": "💬"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Strategy Mentor",
+        "name": "StrategyGuru",
+        "icon": "🧠"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Portfolio Tracker",
+        "name": "Lookout",
+        "icon": "📈"
       }
     ]
   },
@@ -35652,43 +35664,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Glow Park",
+        "name": "Luminous Plaza",
+        "icon": "🌌"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Neon Nightlife",
+        "name": "Bioluminescent Bar",
+        "icon": "🍹"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sustainable Streets",
+        "name": "Gleam Grid",
+        "icon": "🚶"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Ambient Architecture",
+        "name": "Radiant Rooftop",
+        "icon": "🏢"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Eco-Transit",
+        "name": "Shimmer Subways",
+        "icon": "🚇"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Oceanic Oasis",
+        "name": "Blue Glow Harbor",
+        "icon": "⚓"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Floating Markets",
+        "name": "Glow Bazaar",
+        "icon": "🏬"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Night Gardens",
+        "name": "Aurora Alley",
+        "icon": "🌿"
       }
     ]
   },
@@ -70989,6 +71007,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1787301516943": {
+    "voice": "af_heart",
+    "hook": "Unlock the awe‑inspiring power of ApexFlow_1787301516943 with these 8 mind‑blowing secrets.",
+    "closing": "If you want to master ApexFlow_1787301516943, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Principle",
+        "name": "Quantum Sync",
+        "icon": "⚛️"
+      },
+      {
+        "title": "Performance Boost",
+        "name": "TurboCore Engine",
+        "icon": "🚀"
+      },
+      {
+        "title": "Design Insight",
+        "name": "FluxLayer Architecture",
+        "icon": "🌀"
+      },
+      {
+        "title": "Security Feature",
+        "name": "Aegis Shield Protocol",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics Tool",
+        "name": "PulseMetrics Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation Hack",
+        "name": "Zero‑Touch Orchestrator",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Integration Gem",
+        "name": "Nebula Connector Suite",
+        "icon": "🌌"
+      },
+      {
+        "title": "Community Secret",
+        "name": "ApexFlow Legends Forum",
+        "icon": "💬"
       }
     ]
   }
