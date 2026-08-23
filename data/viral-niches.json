@@ -33935,6 +33935,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ChronoBioSynthesis",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of cutting-edge gene editing (CRISPR, base editing), synthetic biology, and emerging research on temporal biomarkers is capturing public imagination. Recent headlines about \"biological clocks\" that can be slowed or reversed, plus AI-driven predictions of lifespan extension, create a perfect storm of curiosity and wonder. Audiences crave visionary yet scientifically grounded content that shows how life might be engineered to control time itself, making this niche ripe for high‑retention, shareable videos.",
+      "ideas": [
+        "ChronoBioSynthesis: Scientists Just Reversed Cellular Aging by 20 Years – Here’s How",
+        "What If Your Cells Had a Built‑In Time Machine? The Breakthrough Bio‑Clock Explained",
+        "From Lab to Life: The First Organism Engineered to Pause Its Own Aging Process"
+      ],
+      "keywords": [
+        "temporal cells",
+        "age reversal",
+        "biochronology",
+        "living clock",
+        "quantum biology"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
