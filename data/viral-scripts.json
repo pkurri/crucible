@@ -73329,5 +73329,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1787623529475": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1787623529475 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "Quantum Sync Core",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Pulse Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "Nexus API Bridge",
+        "icon": "🔗"
+      },
+      {
+        "title": "Automation",
+        "name": "FlowBot Orchestrator",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Vault",
+        "icon": "🔐"
+      },
+      {
+        "title": "Scaling",
+        "name": "Elastic Mesh Grid",
+        "icon": "🌐"
+      },
+      {
+        "title": "UI/UX",
+        "name": "Adaptive Canvas Studio",
+        "icon": "🎨"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 ApexAssist AI",
+        "icon": "💬"
+      }
+    ]
   }
 }
