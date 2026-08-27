@@ -12473,7 +12473,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12483,43 +12483,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Booster",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Weekly Lifelong Learning Circles",
+        "icon": "🤝"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
       }
     ]
   },
@@ -35660,47 +35666,47 @@
   "BioLuminescentCities": {
     "voice": "af_heart",
     "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Glowing Streets",
-        "name": "Aurora Avenue",
-        "icon": "🌌"
+        "title": "Waterfront",
+        "name": "Blue Lagoon City",
+        "icon": "💧"
       },
       {
-        "title": "Radiant Parks",
-        "name": "Pulse Park",
+        "title": "Forest",
+        "name": "Neon Woods City",
         "icon": "🌿"
       },
       {
-        "title": "Neon Skyscrapers",
-        "name": "Neon Tower",
-        "icon": "🌆"
+        "title": "Night Sky",
+        "name": "Twilight Metropolis",
+        "icon": "🌃"
       },
       {
-        "title": "BioLED Canopies",
-        "name": "Lumen Plaza",
-        "icon": "🌇"
-      },
-      {
-        "title": "Glitter Waterways",
-        "name": "Glitter Canal",
+        "title": "River",
+        "name": "Glow River Town",
         "icon": "🌊"
       },
       {
-        "title": "Electric Forests",
-        "name": "ForestFlow",
-        "icon": "🌠"
+        "title": "Urban",
+        "name": "Neon Skyline City",
+        "icon": "🏙️"
       },
       {
-        "title": "Starlit Cabins",
-        "name": "Celestial Lodge",
-        "icon": "🌒"
+        "title": "Culture",
+        "name": "Festival Glow Village",
+        "icon": "🎭"
       },
       {
-        "title": "Spectrum Hubs",
-        "name": "Beacon Square",
-        "icon": "🔭"
+        "title": "Technology",
+        "name": "Quantum City",
+        "icon": "🤖"
+      },
+      {
+        "title": "Economy",
+        "name": "Energy Hub City",
+        "icon": "⚡"
       }
     ]
   },
@@ -74616,6 +74622,53 @@
         "title": "Support",
         "name": "24/7 Expert Chat",
         "icon": "💬"
+      }
+    ]
+  },
+  "ApexFlow_1787856693042": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1787856693042 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1787856693042.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "Turbo Boost Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Design",
+        "name": "Aero‑Dynamic Frame",
+        "icon": "🚀"
+      },
+      {
+        "title": "Technology",
+        "name": "Quantum Sync Chip",
+        "icon": "🔬"
+      },
+      {
+        "title": "Usability",
+        "name": "One‑Touch Control",
+        "icon": "👆"
+      },
+      {
+        "title": "Durability",
+        "name": "Nano‑Coated Shell",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Connectivity",
+        "name": "5G‑Ready Module",
+        "icon": "📶"
+      },
+      {
+        "title": "Efficiency",
+        "name": "Solar‑Harvest Panel",
+        "icon": "☀️"
+      },
+      {
+        "title": "Security",
+        "name": "Biometric Lock",
+        "icon": "🔒"
       }
     ]
   }
