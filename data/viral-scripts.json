@@ -74864,5 +74864,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1787918757076": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1787918757076 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1787918757076.",
+    "list": [
+      {
+        "title": "Core Feature",
+        "name": "Real‑Time Analytics Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "One‑Click CRM Sync",
+        "icon": "🔗"
+      },
+      {
+        "title": "Automation",
+        "name": "AI‑Driven Workflow Builder",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Encryption Layer",
+        "icon": "🔒"
+      },
+      {
+        "title": "Scalability",
+        "name": "Multi‑Region Auto‑Scaling",
+        "icon": "🌐"
+      },
+      {
+        "title": "Customization",
+        "name": "Drag‑and‑Drop UI Kit",
+        "icon": "🎨"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Expert Chatbot",
+        "icon": "💬"
+      },
+      {
+        "title": "Community",
+        "name": "ApexFlow Developer Hub",
+        "icon": "🚀"
+      }
+    ]
   }
 }
