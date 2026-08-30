@@ -12445,81 +12445,87 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Your next paycheck might already be in code.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "AI agents are stealing white‑collar jobs live.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
+      },
+      {
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
+      },
+      {
+        "text": "Would your desk be next?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
         "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
       }
     ]
   },
@@ -12565,43 +12571,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Neural Triggers",
+        "name": "Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Emotional Hooks",
+        "name": "Psyche Pulse",
+        "icon": "💓"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Body Language",
+        "name": "Anchor Stance",
+        "icon": "🦵"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bandwagon Echo",
+        "icon": "👥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Scarcity Tactics",
+        "name": "Last Chance Pulse",
+        "icon": "⏰"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Linguistic Tricks",
+        "name": "Double Bind",
+        "icon": "⚖️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Authority Play",
+        "name": "Fake Expert",
+        "icon": "🎩"
       },
       {
-        "text": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Micro Persuasion",
+        "name": "Foot in Door",
+        "icon": "🚪"
       }
     ]
   },
@@ -35652,43 +35664,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Glow Park",
+        "name": "Luminous Plaza",
+        "icon": "🌌"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Neon Nightlife",
+        "name": "Bioluminescent Bar",
+        "icon": "🍹"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sustainable Streets",
+        "name": "Gleam Grid",
+        "icon": "🚶"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Ambient Architecture",
+        "name": "Radiant Rooftop",
+        "icon": "🏢"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Eco-Transit",
+        "name": "Shimmer Subways",
+        "icon": "🚇"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Oceanic Oasis",
+        "name": "Blue Glow Harbor",
+        "icon": "⚓"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Floating Markets",
+        "name": "Glow Bazaar",
+        "icon": "🏬"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Night Gardens",
+        "name": "Aurora Alley",
+        "icon": "🌿"
       }
     ]
   },
@@ -38878,47 +38896,47 @@
   "GeneEdFood": {
     "voice": "af_heart",
     "hook": "Here are the top 8 GeneEdFood secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "If you want to master GeneEdFood, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Protein Prowess",
-        "name": "Gene-Optimized Whey",
-        "icon": "🥛"
+        "title": "Genetic Tweaks",
+        "name": "CRISPR-X",
+        "icon": "🧬"
       },
       {
-        "title": "Viral Veggies",
-        "name": "CRISPR Kale Chips",
-        "icon": "🥬"
+        "title": "Nutrient Boosters",
+        "name": "MacroMeld",
+        "icon": "💡"
       },
       {
-        "title": "Energy Eats",
-        "name": "MitoFuel Bars",
-        "icon": "🍫"
+        "title": "Flavor Enhancers",
+        "name": "TasteForge",
+        "icon": "🍽️"
       },
       {
-        "title": "Anti-Aging Antioxidants",
-        "name": "Nicotinamide-Rich Acai",
-        "icon": "🥭"
+        "title": "Shelf-Stable Genes",
+        "name": "PreservePlus",
+        "icon": "🏷️"
       },
       {
-        "title": "Microbiome Magic",
-        "name": "Synbiotic Fermented Yogurt",
-        "icon": "🥤"
+        "title": "Allergen Removers",
+        "name": "AllergyErase",
+        "icon": "🚫"
       },
       {
-        "title": "Neuro Boost Nibbles",
-        "name": "L-theanine Almonds",
-        "icon": "🥜"
+        "title": "Protein Synthesizers",
+        "name": "ProteinPulse",
+        "icon": "💪"
       },
       {
-        "title": "Hydration Hacks",
-        "name": "Kv-Enhanced Sparkling Water",
-        "icon": "💧"
+        "title": "Taste Modifiers",
+        "name": "FlavorFlux",
+        "icon": "🌈"
       },
       {
-        "title": "Sleep Support Snacks",
-        "name": "Melatonin Cookie",
-        "icon": "🍪"
+        "title": "Environmental Adaptors",
+        "name": "EcoAdapt",
+        "icon": "🌿"
       }
     ]
   },
