@@ -91,47 +91,47 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
     "list": [
       {
         "title": "Nebula",
         "name": "Eagle Nebula",
-        "icon": "🦅"
+        "icon": "🌌"
       },
       {
         "title": "Galaxy",
-        "name": "Sombrero Galaxy",
-        "icon": "🌑"
+        "name": "Whirlpool Galaxy",
+        "icon": "🌠"
       },
       {
-        "title": "Supernova",
-        "name": "Tycho's Supernova",
-        "icon": "🌟"
+        "title": "Pulsar",
+        "name": "PSR B1509‑58",
+        "icon": "🌀"
       },
       {
         "title": "Black Hole",
-        "name": "Messier 87",
+        "name": "Sagittarius A*",
         "icon": "⚫"
       },
       {
-        "title": "Stellar Cluster",
+        "title": "Star Cluster",
         "name": "Pleiades",
         "icon": "✨"
       },
       {
         "title": "Exoplanet",
-        "name": "HD 209458 b",
-        "icon": "🪐"
+        "name": "Kepler-186f",
+        "icon": "🌍"
+      },
+      {
+        "title": "Supernova",
+        "name": "SN 1987A",
+        "icon": "💥"
       },
       {
         "title": "Aurora",
-        "name": "Aurora Australis",
-        "icon": "🌌"
-      },
-      {
-        "title": "Rogue Star",
-        "name": "Barnard's Star",
-        "icon": "🚶"
+        "name": "Northern Lights",
+        "icon": "🌈"
       }
     ]
   },
@@ -167,7 +167,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master DeepSeaCreatureDiscoveries, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -177,96 +177,90 @@
     ]
   },
   "AtmosphericPhenomenaCaptured": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AtmosphericPhenomenaCaptured secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Auroras",
-        "name": "Northern Lights",
-        "icon": "🌌"
+        "text": "Nobody talks about the truth of AtmosphericPhenomenaCaptured.",
+        "duration": 5
       },
       {
-        "title": "Mirages",
-        "name": "Heat Haze Mirage",
-        "icon": "🔥"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Fata Morgana",
-        "name": "Floating Island Illusion",
-        "icon": "🏝️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Sundogs",
-        "name": "Solar Halo Rings",
-        "icon": "☀️✨"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Bioluminescence",
-        "name": "Glowing Night Clouds",
-        "icon": "💫"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Fireballs",
-        "name": "Meteoric Light Show",
-        "icon": "✨🔥"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Rainbow Dreams",
-        "name": "Jeylove Arc",
-        "icon": "🌈"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Halo",
-        "name": "Moon Halo Circle",
-        "icon": "🌙🌀"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DystopianFutureSimulations": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DystopianFutureSimulations secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DystopianFutureSimulations.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Bureaucratic Surveillance",
-        "name": "The Glass Cage",
-        "icon": "🕳️"
-      },
-      {
-        "title": "Resource Scarcity",
-        "name": "The Hunger Drone",
-        "icon": "🥀"
-      },
-      {
-        "title": "Corporate Control",
-        "name": "The Market Midas",
-        "icon": "🤑"
-      },
-      {
-        "title": "Climate Catastrophe",
-        "name": "The Boreal Blight",
-        "icon": "🌰"
-      },
-      {
-        "title": "Genetic Manipulation",
-        "name": "The Serum Shift",
-        "icon": "⚗️"
-      },
-      {
-        "title": "Digital Immortality",
-        "name": "The Echo Loop",
-        "icon": "🔁"
-      },
-      {
-        "title": "Space Colonization",
-        "name": "The Void Harvest",
-        "icon": "🛸"
-      },
-      {
-        "title": "Artificial Intelligence",
-        "name": "The Neural Dominion",
+        "title": "AI Threat",
+        "name": "Sentient Overlord",
         "icon": "🤖"
+      },
+      {
+        "title": "Surveillance",
+        "name": "Omnipresent Neural Net",
+        "icon": "👁️"
+      },
+      {
+        "title": "Control",
+        "name": "Behavioral Conditioning Grid",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Reality",
+        "name": "Immersive Virtual Gulag",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Biology",
+        "name": "Genetic Tracking Implant",
+        "icon": "🧬"
+      },
+      {
+        "title": "Prediction",
+        "name": "Quantum Fate Engine",
+        "icon": "⚛️"
+      },
+      {
+        "title": "Autonomy",
+        "name": "Drone Swarm Enforcers",
+        "icon": "🚁"
+      },
+      {
+        "title": "Time",
+        "name": "Chrono-Loop Prison",
+        "icon": "⏳"
       }
     ]
   },
@@ -302,7 +296,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master HyperEvolutionaryAdaptations, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -359,96 +353,84 @@
     ]
   },
   "CosmicMegaStructureConstruction": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CosmicMegaStructureConstruction secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicMegaStructureConstruction.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Stellar Gateway",
-        "name": "Nebula Gate",
-        "icon": "🪐"
+        "text": "Nobody talks about the truth of CosmicMegaStructureConstruction.",
+        "duration": 5
       },
       {
-        "title": "Quantum Core",
-        "name": "Photon Spire",
-        "icon": "⚛️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Astro Bridge",
-        "name": "Orion Arc",
-        "icon": "🌉"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Celestial Dome",
-        "name": "Eclipse Vault",
-        "icon": "🌑"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Gravity Well",
-        "name": "Event Horizon",
-        "icon": "🌀"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Energy Reservoir",
-        "name": "Zero‑Point Field",
-        "icon": "⚡"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Time Anchor",
-        "name": "Chrono Core",
-        "icon": "⏳"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Interstellar Hubs",
-        "name": "Warp Conduit",
-        "icon": "🚀"
+        "text": "If you want to master CosmicMegaStructureConstruction, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "SymbioticSpeciesDocumentary": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 SymbioticSpeciesDocumentary secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Horticultural Helpers",
-        "name": "Bees & Crops",
-        "icon": "🐝"
+        "text": "Nobody talks about the truth of SymbioticSpeciesDocumentary.",
+        "duration": 5
       },
       {
-        "title": "Marine Marvels",
-        "name": "Coral & Zooxanthellae",
-        "icon": "🐠"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Desert Dynamos",
-        "name": "Moss on Rock",
-        "icon": "🌵"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Forest Allies",
-        "name": "Mycorrhizal Network",
-        "icon": "🌳"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Underwater Undercover",
-        "name": "Squid & Algae Light",
-        "icon": "🐬"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Nighttime Nectars",
-        "name": "Lily & Bat",
-        "icon": "🌙"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Bird & Plant Bonds",
-        "name": "Orchid & Beetle",
-        "icon": "🐦"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Home Hydroponics",
-        "name": "Fungus & Roots",
-        "icon": "🏠"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12445,39 +12427,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your next paycheck might already be in code.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
-      },
-      {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
-      },
-      {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
-      },
-      {
-        "text": "Would your desk be next?",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
-        "text": "Next: the AI that can replace your spouse.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -12514,7 +12496,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12524,90 +12506,96 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Top 8 Crypto BullRunSecrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Token",
+        "name": "Bitcoin FOMO",
+        "icon": "💰"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exchange",
+        "name": "Binance Pump",
+        "icon": "🚀"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Staking",
+        "name": "Ethereum Yield",
+        "icon": "🔐"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Signal",
+        "name": "Whale Alerts",
+        "icon": "🐋"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "ICO",
+        "name": "DeFi Kitchen",
+        "icon": "🍲"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Liquidity",
+        "name": "LP Mining",
+        "icon": "⛏️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Risk",
+        "name": "Stop‑loss Ladder",
+        "icon": "🪜"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Future",
+        "name": "Token Swap Spec",
+        "icon": "🔄"
       }
     ]
   },
   "DarkPsychologyPower": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Neural Triggers",
-        "name": "Mirror Effect",
+        "title": "Mind Persuasion",
+        "name": "Mirror Technique",
         "icon": "🪞"
       },
       {
-        "title": "Emotional Hooks",
-        "name": "Psyche Pulse",
-        "icon": "💓"
+        "title": "Emotional Leverage",
+        "name": "Scarcity Cue",
+        "icon": "⚡"
       },
       {
-        "title": "Body Language",
-        "name": "Anchor Stance",
-        "icon": "🦵"
+        "title": "Behavioral Triggers",
+        "name": "Foot-in-the-Door",
+        "icon": "🚪"
       },
       {
         "title": "Social Proof",
-        "name": "Bandwagon Echo",
-        "icon": "👥"
+        "name": "Bandwagon Tactic",
+        "icon": "🤝"
       },
       {
-        "title": "Scarcity Tactics",
-        "name": "Last Chance Pulse",
-        "icon": "⏰"
+        "title": "Authority Manipulation",
+        "name": "Fake Credentials",
+        "icon": "🏛️"
       },
       {
-        "title": "Linguistic Tricks",
-        "name": "Double Bind",
-        "icon": "⚖️"
+        "title": "Anchoring Effects",
+        "name": "Price Anchor",
+        "icon": "💰"
       },
       {
-        "title": "Authority Play",
-        "name": "Fake Expert",
-        "icon": "🎩"
+        "title": "Scarcity & Urgency",
+        "name": "Limited Time Offer",
+        "icon": "⏳"
       },
       {
-        "title": "Micro Persuasion",
-        "name": "Foot in Door",
-        "icon": "🚪"
+        "title": "Reframing Illusion",
+        "name": "Cognitive Dissonance",
+        "icon": "🧠"
       }
     ]
   },
@@ -12643,7 +12631,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -35689,7 +35677,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -38116,7 +38104,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more FungalFutureCities.",
+        "text": "If you want to master FungalFutureCities, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -38884,47 +38872,47 @@
   "GeneEdFood": {
     "voice": "af_heart",
     "hook": "Here are the top 8 GeneEdFood secrets you need to know.",
-    "closing": "If you want to master GeneEdFood, you're in the right place. Subscribe.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more GeneEdFood.",
     "list": [
       {
-        "title": "Genetic Tweaks",
-        "name": "CRISPR-X",
+        "title": "Genome-Enhanced Fruits",
+        "name": "Mango 2.0",
+        "icon": "🥭"
+      },
+      {
+        "title": "CRISPR Crops",
+        "name": "CRISPR Chips",
         "icon": "🧬"
       },
       {
-        "title": "Nutrient Boosters",
-        "name": "MacroMeld",
-        "icon": "💡"
+        "title": "Protein-Boosting Seeds",
+        "name": "Pea Protein Pods",
+        "icon": "🌱"
       },
       {
-        "title": "Flavor Enhancers",
-        "name": "TasteForge",
-        "icon": "🍽️"
+        "title": "Nutrient-Sculpted Greens",
+        "name": "Omega Spinach",
+        "icon": "🥬"
       },
       {
-        "title": "Shelf-Stable Genes",
-        "name": "PreservePlus",
-        "icon": "🏷️"
+        "title": "Fermenting Future",
+        "name": "Microbial Yogurt",
+        "icon": "🥛"
       },
       {
-        "title": "Allergen Removers",
-        "name": "AllergyErase",
-        "icon": "🚫"
+        "title": "Functional Cereals",
+        "name": "Resistant Starch Bar",
+        "icon": "🍞"
       },
       {
-        "title": "Protein Synthesizers",
-        "name": "ProteinPulse",
-        "icon": "💪"
+        "title": "Allergen-Redefined Snacks",
+        "name": "Gluten-Free Chips",
+        "icon": "🥨"
       },
       {
-        "title": "Taste Modifiers",
-        "name": "FlavorFlux",
-        "icon": "🌈"
-      },
-      {
-        "title": "Environmental Adaptors",
-        "name": "EcoAdapt",
-        "icon": "🌿"
+        "title": "Future Ice Cream",
+        "name": "DNA-Infused Gelato",
+        "icon": "🍨"
       }
     ]
   },
@@ -40409,7 +40397,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -40513,49 +40501,43 @@
     ]
   },
   "MicroplasticWatch": {
-    "voice": "af_bella",
-    "hook": "Here are the top 8 MicroplasticWatch secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more MicroplasticWatch.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Sources",
-        "name": "Microfiber from Textiles",
-        "icon": "👕"
+        "text": "Nobody talks about the truth of MicroplasticWatch.",
+        "duration": 5
       },
       {
-        "title": "Sources",
-        "name": "Plastic Crusher Fragments",
-        "icon": "⚙️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Health",
-        "name": "Endocrine Disruptors",
-        "icon": "⚗️"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Health",
-        "name": "Inflammation Triggers",
-        "icon": "🔥"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Detection",
-        "name": "FTIR Spectroscopy",
-        "icon": "🔬"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Solutions",
-        "name": "Biodegradable Alternatives",
-        "icon": "🌱"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Consumer Tips",
-        "name": "Wash Once in Hot Water",
-        "icon": "🚿"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Policy",
-        "name": "Plastic Bag Ban",
-        "icon": "🚫"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -75960,6 +75942,47 @@
     "lines": [
       {
         "text": "Nobody talks about the truth of ApexFlow_1788145947298.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1788147766525": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1788147766525.",
         "duration": 5
       },
       {
