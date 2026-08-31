@@ -91,47 +91,47 @@
   "CosmicWondersVisuals": {
     "voice": "af_heart",
     "hook": "Here are the top 8 CosmicWondersVisuals secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more CosmicWondersVisuals.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
         "title": "Nebula",
         "name": "Eagle Nebula",
-        "icon": "🌌"
+        "icon": "🦅"
       },
       {
         "title": "Galaxy",
-        "name": "Whirlpool Galaxy",
-        "icon": "🌠"
+        "name": "Sombrero Galaxy",
+        "icon": "🌑"
       },
       {
-        "title": "Pulsar",
-        "name": "PSR B1509‑58",
-        "icon": "🌀"
+        "title": "Supernova",
+        "name": "Tycho's Supernova",
+        "icon": "🌟"
       },
       {
         "title": "Black Hole",
-        "name": "Sagittarius A*",
+        "name": "Messier 87",
         "icon": "⚫"
       },
       {
-        "title": "Star Cluster",
+        "title": "Stellar Cluster",
         "name": "Pleiades",
         "icon": "✨"
       },
       {
         "title": "Exoplanet",
-        "name": "Kepler-186f",
-        "icon": "🌍"
-      },
-      {
-        "title": "Supernova",
-        "name": "SN 1987A",
-        "icon": "💥"
+        "name": "HD 209458 b",
+        "icon": "🪐"
       },
       {
         "title": "Aurora",
-        "name": "Northern Lights",
-        "icon": "🌈"
+        "name": "Aurora Australis",
+        "icon": "🌌"
+      },
+      {
+        "title": "Rogue Star",
+        "name": "Barnard's Star",
+        "icon": "🚶"
       }
     ]
   },
@@ -12424,131 +12424,143 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Data Tyranny",
+        "name": "Sentinel Stream",
+        "icon": "💻"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Identity Infiltration",
+        "name": "Echo ID",
+        "icon": "👤"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Economic Supplant",
+        "name": "Profit Bot",
+        "icon": "💰"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Strategic Subversion",
+        "name": "Chess Master AI",
+        "icon": "♟️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Emotional Manipulation",
+        "name": "Mood Molder",
+        "icon": "😠"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Security Sisyphus",
+        "name": "Firewall Fade",
+        "icon": "🔒"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Governance Ghost",
+        "name": "Policy Puppet",
+        "icon": "🏛️"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Ghost Workforce",
+        "name": "Auto Labor",
+        "icon": "🤖"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
       }
     ]
   },
   "CryptoBullRunSecrets": {
     "voice": "af_heart",
-    "hook": "Top 8 Crypto BullRunSecrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Token",
-        "name": "Bitcoin FOMO",
-        "icon": "💰"
+        "title": "Market Signals",
+        "name": "Onchain Heatmap",
+        "icon": "🔥"
       },
       {
-        "title": "Exchange",
-        "name": "Binance Pump",
-        "icon": "🚀"
+        "title": "Timing Tools",
+        "name": "Fomo Detector",
+        "icon": "⏰"
       },
       {
-        "title": "Staking",
-        "name": "Ethereum Yield",
-        "icon": "🔐"
-      },
-      {
-        "title": "Signal",
-        "name": "Whale Alerts",
+        "title": "Fundamental Analyzer",
+        "name": "Whale Watch",
         "icon": "🐋"
       },
       {
-        "title": "ICO",
-        "name": "DeFi Kitchen",
-        "icon": "🍲"
+        "title": "Risk Manager",
+        "name": "Stop-Loss Automator",
+        "icon": "🔒"
       },
       {
-        "title": "Liquidity",
-        "name": "LP Mining",
-        "icon": "⛏️"
+        "title": "Tax Optimizer",
+        "name": "TaxPro",
+        "icon": "🧾"
       },
       {
-        "title": "Risk",
-        "name": "Stop‑loss Ladder",
-        "icon": "🪜"
+        "title": "Community Insight",
+        "name": "DiscordGauge",
+        "icon": "💬"
       },
       {
-        "title": "Future",
-        "name": "Token Swap Spec",
-        "icon": "🔄"
+        "title": "Strategy Mentor",
+        "name": "StrategyGuru",
+        "icon": "🧠"
+      },
+      {
+        "title": "Portfolio Tracker",
+        "name": "Lookout",
+        "icon": "📈"
       }
     ]
   },
@@ -12600,43 +12612,49 @@
     ]
   },
   "GeopoliticalCollapseWatch": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 GeopoliticalCollapseWatch secrets you need to know.",
+    "closing": "If you want to master GeopoliticalCollapseWatch, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of GeopoliticalCollapseWatch.",
-        "duration": 5
+        "title": "Military",
+        "name": "Border Skirmishes",
+        "icon": "⚔️"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Economy",
+        "name": "Currency Collapse",
+        "icon": "💰"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Energy",
+        "name": "Oil Blackout",
+        "icon": "🛢️"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Cyber",
+        "name": "Global Hack Wave",
+        "icon": "💻"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Refugee",
+        "name": "Mass Exodus",
+        "icon": "🛫"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Politics",
+        "name": "Regime Flip",
+        "icon": "🏛️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Food",
+        "name": "Famine Spread",
+        "icon": "🥖"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Climate",
+        "name": "Rising Tides",
+        "icon": "🌊"
       }
     ]
   },
@@ -38104,7 +38122,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master FungalFutureCities, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more FungalFutureCities.",
         "duration": 5
       },
       {
@@ -40397,7 +40415,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -76011,6 +76029,47 @@
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1788156005625": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1788156005625.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
