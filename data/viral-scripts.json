@@ -12427,7 +12427,48 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Your next paycheck might already be in code.",
+        "duration": 5
+      },
+      {
+        "text": "AI agents are stealing white‑collar jobs live.",
+        "duration": 4
+      },
+      {
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
+        "duration": 5
+      },
+      {
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
+      },
+      {
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
+      },
+      {
+        "text": "Would your desk be next?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
+        "duration": 4
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12455,7 +12496,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12464,144 +12505,85 @@
       }
     ]
   },
-  "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Diet",
-        "name": "Blue Juice",
-        "icon": "💧"
-      },
-      {
-        "title": "Movement",
-        "name": "Morning Walk",
-        "icon": "🚶"
-      },
-      {
-        "title": "Sleep",
-        "name": "30‑Min Night",
-        "icon": "🛌"
-      },
-      {
-        "title": "Mind",
-        "name": "Micro Med",
-        "icon": "🧘"
-      },
-      {
-        "title": "Supplements",
-        "name": "Resveratrol",
-        "icon": "💊"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electro Hydrate",
-        "icon": "🥤"
-      },
-      {
-        "title": "Social",
-        "name": "Laugh Circles",
-        "icon": "😂"
-      },
-      {
-        "title": "Gut",
-        "name": "Fermented Foods",
-        "icon": "🥖"
-      }
-    ]
-  },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Market Signals",
-        "name": "Onchain Heatmap",
-        "icon": "🔥"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Timing Tools",
-        "name": "Fomo Detector",
-        "icon": "⏰"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Fundamental Analyzer",
-        "name": "Whale Watch",
-        "icon": "🐋"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Risk Manager",
-        "name": "Stop-Loss Automator",
-        "icon": "🔒"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Tax Optimizer",
-        "name": "TaxPro",
-        "icon": "🧾"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Community Insight",
-        "name": "DiscordGauge",
-        "icon": "💬"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Strategy Mentor",
-        "name": "StrategyGuru",
-        "icon": "🧠"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Portfolio Tracker",
-        "name": "Lookout",
-        "icon": "📈"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Mind Tactics",
-        "name": "Silent Flags",
-        "icon": "🧠"
+        "text": "Ever wonder how puppeteers control you in seconds?",
+        "duration": 5
       },
       {
-        "title": "Persuasion Tools",
-        "name": "Mirror Matching",
-        "icon": "🗝️"
+        "text": "They leave no trace, and you can't see the strings.",
+        "duration": 4
       },
       {
-        "title": "Social Engineering",
-        "name": "Scarcity Shock",
-        "icon": "🤝"
+        "text": "The first law: Silence is louder than shouting.",
+        "duration": 5
       },
       {
-        "title": "Emotional Leverage",
-        "name": "Fear Amplifier",
-        "icon": "😭"
+        "text": "Mirroring triggers trust, turning strangers into allies.",
+        "duration": 5
       },
       {
-        "title": "Neuropsych Tricks",
-        "name": "Reversal Neural Code",
-        "icon": "⚡"
+        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
+        "duration": 5
       },
       {
-        "title": "Behavioral Cues",
-        "name": "Gesture Signifier",
-        "icon": "🤐"
+        "text": "If you ignore this, they'll weaponize your own memories.",
+        "duration": 4
       },
       {
-        "title": "Covert Persuasion",
-        "name": "Subliminal Preset",
-        "icon": "⌛"
+        "text": "Imagine them framing you, then playing the courtroom.",
+        "duration": 4
       },
       {
-        "title": "Memory Manipulation",
-        "name": "Recency Rewriter",
-        "icon": "🔄"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
+        "duration": 4
       }
     ]
   },
@@ -35652,49 +35634,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Glow Park",
-        "name": "Luminous Plaza",
-        "icon": "🌌"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Neon Nightlife",
-        "name": "Bioluminescent Bar",
-        "icon": "🍹"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sustainable Streets",
-        "name": "Gleam Grid",
-        "icon": "🚶"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Ambient Architecture",
-        "name": "Radiant Rooftop",
-        "icon": "🏢"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Eco-Transit",
-        "name": "Shimmer Subways",
-        "icon": "🚇"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Oceanic Oasis",
-        "name": "Blue Glow Harbor",
-        "icon": "⚓"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Floating Markets",
-        "name": "Glow Bazaar",
-        "icon": "🏬"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Night Gardens",
-        "name": "Aurora Alley",
-        "icon": "🌿"
+        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -38116,7 +38092,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more FungalFutureCities.",
+        "text": "If you want to master FungalFutureCities, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -38913,7 +38889,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master GeneEdFood, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more GeneEdFood.",
         "duration": 5
       },
       {
@@ -40403,7 +40379,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -76234,6 +76210,129 @@
       },
       {
         "text": "If you want to master ApexFlow_1788219534461, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1788193269043": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1788193269043.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1788212243059": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1788212243059.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1788212243059.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1788232616479": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1788232616479.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
