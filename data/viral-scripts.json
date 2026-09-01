@@ -12465,84 +12465,96 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "5‑Second Wake‑Up",
+        "icon": "😴"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress",
+        "name": "Forest Bathing",
+        "icon": "🌲"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social",
+        "name": "Cohort Coaching",
+        "icon": "🤝"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Mindfulness",
+        "name": "Quiet Journaling",
+        "icon": "✍️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Hormone",
+        "name": "Hormone Reset Diet",
+        "icon": "🔄"
       }
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Market Signals",
+        "name": "Onchain Heatmap",
+        "icon": "🔥"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Timing Tools",
+        "name": "Fomo Detector",
+        "icon": "⏰"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Fundamental Analyzer",
+        "name": "Whale Watch",
+        "icon": "🐋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Risk Manager",
+        "name": "Stop-Loss Automator",
+        "icon": "🔒"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Tax Optimizer",
+        "name": "TaxPro",
+        "icon": "🧾"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Community Insight",
+        "name": "DiscordGauge",
+        "icon": "💬"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Strategy Mentor",
+        "name": "StrategyGuru",
+        "icon": "🧠"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Portfolio Tracker",
+        "name": "Lookout",
+        "icon": "📈"
       }
     ]
   },
@@ -12550,39 +12562,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Ever wonder how puppeteers control you in seconds?",
+        "text": "Nobody talks about the truth of DarkPsychologyPower.",
         "duration": 5
       },
       {
-        "text": "They leave no trace, and you can't see the strings.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "The first law: Silence is louder than shouting.",
-        "duration": 5
-      },
-      {
-        "text": "Mirroring triggers trust, turning strangers into allies.",
-        "duration": 5
-      },
-      {
-        "text": "The darkest trick? Planting doubts so they demand you reclaim.",
-        "duration": 5
-      },
-      {
-        "text": "If you ignore this, they'll weaponize your own memories.",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Imagine them framing you, then playing the courtroom.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
         "duration": 5
       },
       {
-        "text": "Next reveal: How to expose a master manipulator—stay tuned.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -35634,43 +35646,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Waterfront",
+        "name": "Blue Lagoon City",
+        "icon": "💧"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Forest",
+        "name": "Neon Woods City",
+        "icon": "🌿"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Night Sky",
+        "name": "Twilight Metropolis",
+        "icon": "🌃"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "River",
+        "name": "Glow River Town",
+        "icon": "🌊"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Urban",
+        "name": "Neon Skyline City",
+        "icon": "🏙️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Culture",
+        "name": "Festival Glow Village",
+        "icon": "🎭"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Technology",
+        "name": "Quantum City",
+        "icon": "🤖"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Economy",
+        "name": "Energy Hub City",
+        "icon": "⚡"
       }
     ]
   },
