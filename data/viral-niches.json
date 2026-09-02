@@ -36332,6 +36332,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticDreamWeaving",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Rising interest in neurotech, AI-generated dream content, and viral TikTok trends about lucid dreaming and dream sharing; faceless channels can use AI visuals to depict surreal dreamscapes, tapping curiosity and awe.",
+      "ideas": [
+        "AI Just Recorded My Dream – Here’s What It Saw (Mind‑Blowing Visuals)",
+        "Lucid Dreaming Hack: How Scientists Are Turning Dreams Into Shareable Videos",
+        "What If You Could Watch Someone Else’s Dream? The Tech That’s Already Here"
+      ],
+      "keywords": [
+        "surreal dreamscape",
+        "neural lace",
+        "AI dream decoder",
+        "lucid dreaming",
+        "glitchy subconscious"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
