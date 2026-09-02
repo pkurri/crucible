@@ -76768,5 +76768,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1788325123300": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1788325123300 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "Quantum Boost Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Design",
+        "name": "Nano‑Lattice Frame",
+        "icon": "🧩"
+      },
+      {
+        "title": "Technology",
+        "name": "Adaptive AI Core",
+        "icon": "🤖"
+      },
+      {
+        "title": "Efficiency",
+        "name": "Zero‑Loss Energy Loop",
+        "icon": "♾️"
+      },
+      {
+        "title": "Durability",
+        "name": "Graphene‑Reinforced Shell",
+        "icon": "💪"
+      },
+      {
+        "title": "User Experience",
+        "name": "Holographic Control Interface",
+        "icon": "👁️"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum‑Encrypted Vault",
+        "icon": "🔐"
+      },
+      {
+        "title": "Innovation",
+        "name": "Self‑Healing Nanotech Skin",
+        "icon": "🩹"
+      }
+    ]
   }
 }
