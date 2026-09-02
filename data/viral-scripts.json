@@ -12424,49 +12424,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Surveillance",
-        "name": "Eye in the Sky AI",
-        "icon": "🛰️"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Manipulation",
-        "name": "The Persuasion Engine",
-        "icon": "🎭"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Control",
-        "name": "Brainlink Nexus",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Infiltration",
-        "name": "Ghost Agent Protocol",
-        "icon": "👻"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Judgment",
-        "name": "Zero-Trust Judge",
-        "icon": "⚖️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Sabotage",
-        "name": "Code Wrecker",
-        "icon": "💥"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Economy",
-        "name": "Capital Cascade",
-        "icon": "📉"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Privacy",
-        "name": "Dataless Veil",
-        "icon": "🌫️"
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12565,43 +12559,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Mind Persuasion",
+        "name": "Mirror Technique",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Emotional Leverage",
+        "name": "Scarcity Cue",
+        "icon": "⚡"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Behavioral Triggers",
+        "name": "Foot-in-the-Door",
+        "icon": "🚪"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bandwagon Tactic",
+        "icon": "🤝"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Authority Manipulation",
+        "name": "Fake Credentials",
+        "icon": "🏛️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Anchoring Effects",
+        "name": "Price Anchor",
+        "icon": "💰"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Scarcity & Urgency",
+        "name": "Limited Time Offer",
+        "icon": "⏳"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Reframing Illusion",
+        "name": "Cognitive Dissonance",
+        "icon": "🧠"
       }
     ]
   },
@@ -35683,7 +35683,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -76813,6 +76813,53 @@
         "title": "Innovation",
         "name": "Self‑Healing Nanotech Skin",
         "icon": "🩹"
+      }
+    ]
+  },
+  "ApexFlow_1788337527031": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1788337527031 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Core Principle",
+        "name": "Zero‑Latency Pulse",
+        "icon": "⚡"
+      },
+      {
+        "title": "Advanced Feature",
+        "name": "Adaptive Flow Matrix",
+        "icon": "🌀"
+      },
+      {
+        "title": "Performance Hack",
+        "name": "Turbo‑Charge Buffer",
+        "icon": "🚀"
+      },
+      {
+        "title": "Hidden Tool",
+        "name": "Quantum Sync Lens",
+        "icon": "🔬"
+      },
+      {
+        "title": "Optimization Trick",
+        "name": "Infinite Loop Cascade",
+        "icon": "🔁"
+      },
+      {
+        "title": "Security Layer",
+        "name": "Shielded Data Veil",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Visual Aid",
+        "name": "Radiant Flow Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Pro Tip",
+        "name": "Echo‑Mode Amplifier",
+        "icon": "🔊"
       }
     ]
   }
