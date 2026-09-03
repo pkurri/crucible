@@ -12465,49 +12465,43 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Diet",
-        "name": "Blue Juice",
-        "icon": "💧"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Morning Walk",
-        "icon": "🚶"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "30‑Min Night",
-        "icon": "🛌"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Mind",
-        "name": "Micro Med",
-        "icon": "🧘"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "Resveratrol",
-        "icon": "💊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electro Hydrate",
-        "icon": "🥤"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Laugh Circles",
-        "icon": "😂"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Gut",
-        "name": "Fermented Foods",
-        "icon": "🥖"
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -35646,49 +35640,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
+    "voice": "af_bella",
     "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
     "list": [
       {
-        "title": "Glow Park",
-        "name": "Luminous Plaza",
-        "icon": "🌌"
+        "title": "Midnight Skies",
+        "name": "Aurora City",
+        "icon": "🌃"
       },
       {
-        "title": "Neon Nightlife",
-        "name": "Bioluminescent Bar",
-        "icon": "🍹"
+        "title": "River Glow",
+        "name": "Luminous Harbor",
+        "icon": "🛥️"
       },
       {
-        "title": "Sustainable Streets",
-        "name": "Gleam Grid",
-        "icon": "🚶"
+        "title": "Skywalk Brilliance",
+        "name": "Glowing Arcology",
+        "icon": "🏙️"
       },
       {
-        "title": "Ambient Architecture",
-        "name": "Radiant Rooftop",
-        "icon": "🏢"
+        "title": "Forest Shimmer",
+        "name": "Eternal Forest District",
+        "icon": "🌲"
       },
       {
-        "title": "Eco-Transit",
-        "name": "Shimmer Subways",
+        "title": "Underground Lanes",
+        "name": "Neon Subway",
         "icon": "🚇"
       },
       {
-        "title": "Oceanic Oasis",
-        "name": "Blue Glow Harbor",
-        "icon": "⚓"
+        "title": "Desert Mirage",
+        "name": "Sandfire Plaza",
+        "icon": "🏜️"
       },
       {
-        "title": "Floating Markets",
-        "name": "Glow Bazaar",
-        "icon": "🏬"
+        "title": "Coastal Springs",
+        "name": "Blue Wave Quarter",
+        "icon": "🌊"
       },
       {
-        "title": "Night Gardens",
-        "name": "Aurora Alley",
-        "icon": "🌿"
+        "title": "Historical Glow",
+        "name": "Ancient Light Market",
+        "icon": "🏛️"
       }
     ]
   },
@@ -40397,7 +40391,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -77370,6 +77364,53 @@
         "title": "Innovation",
         "name": "Neural Fusion Module",
         "icon": "🧠"
+      }
+    ]
+  },
+  "ApexFlow_1788424439093": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1788424439093 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1788424439093, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Principle",
+        "name": "Quantum Sync",
+        "icon": "⚡"
+      },
+      {
+        "title": "Advanced Technique",
+        "name": "Phase Shift",
+        "icon": "🌀"
+      },
+      {
+        "title": "Tool",
+        "name": "FlowMapper X",
+        "icon": "🗺️"
+      },
+      {
+        "title": "Shortcut",
+        "name": "Turbo Boost",
+        "icon": "🚀"
+      },
+      {
+        "title": "Secret",
+        "name": "Echo Loop",
+        "icon": "🔁"
+      },
+      {
+        "title": "Hack",
+        "name": "Null Buffer",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Pro Tip",
+        "name": "Velocity Mask",
+        "icon": "⏩"
+      },
+      {
+        "title": "Final Step",
+        "name": "Apex Crown",
+        "icon": "👑"
       }
     ]
   }
