@@ -37343,6 +37343,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ProgrammableMatterSculptures",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Programmable matter and 4D printing are breaking into mainstream science news, offering mesmerizing visuals of objects that self‑assemble, morph, and heal on cue. The niche combines cutting‑edge material science with stunning CGI‑style demonstrations, satisfying curiosity and wonder while remaining largely untouched on YouTube, giving a clear path to 1M+ subs and 100K+ views per video.",
+      "ideas": [
+        "Watch This Metal Cube Fold Itself Into a Walking Robot – No Motors!",
+        "How Scientists Made Liquid Glass That Rebuilds Itself After Being Shattered",
+        "The 4D‑Printed Flower That Blooms Only When You Touch It – Real‑Time Morphing"
+      ],
+      "keywords": [
+        "shape‑shifting",
+        "4D printing",
+        "self‑assembly",
+        "liquid metal",
+        "morphing structures"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
