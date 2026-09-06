@@ -206,6 +206,29 @@
 **gaming-studio** - Full-cycle game studio orchestration (48 agents)  
 **revenue-optimizer** - Monetization strategy and Free/Pro segmentation
 
+---
+
+### 📱 LinkedIn Content Ops (12 skills)
+
+**linkedin-post-writer** - Draft new LinkedIn posts from 20 proven hook
+formulas  
+**linkedin-comment-drafter** - Draft or reshare comments on other people's
+posts  
+**linkedin-reply-handler** - Reply correctly to a specific existing LinkedIn
+comment  
+**linkedin-hook-extractor** - Reverse-engineer the hook formula behind a viral
+post  
+**linkedin-humanizer** - Scrub AI tells and audit a draft before it ships  
+**linkedin-profile-optimizer** - Audit and rewrite a LinkedIn profile
+end-to-end  
+**linkedin-content-planner** - Generate a 7-day LinkedIn content calendar  
+**linkedin-thread-monitor** - Track which comments earned author replies  
+**linkedin-engager-analytics** - Segment post likers/commenters by ICP fit  
+**linkedin-employee-advocacy** - Stand up a team LinkedIn advocacy program  
+**linkedin-repurposer** - Rebuild a tweet, video, or blog into a native post  
+**linkedin-skills-shared** - Shared references, Python clients, and
+Publora/Apify setup for the family above
+
 ## Skill Structure
 
 Each skill includes:

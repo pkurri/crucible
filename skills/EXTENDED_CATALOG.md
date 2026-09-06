@@ -17,8 +17,8 @@
 **review-quality** - Comprehensive code quality analysis  
 **review-react-best-practices** - React/Next.js optimization review  
 **review-security** - Security vulnerability scanning  
-**security-scan** - AgentShield-inspired security auditor
-**review-seo-audit** - SEO optimization analysis  
+**security-scan** - AgentShield-inspired security auditor **review-seo-audit** -
+SEO optimization analysis  
 **review-performance** - Performance bottleneck identification  
 **review-accessibility** - WCAG compliance checking  
 **review-test-coverage** - Test completeness analysis  
@@ -132,8 +132,8 @@
 **mcp-cloudflare** - Cloudflare MCP server  
 **mcp-stripe** - Stripe MCP server  
 **mcp-supabase** - Supabase MCP server  
-**mcp-unity** - Unity Editor automation via MCP
-**aws-architect** - AWS infrastructure design  
+**mcp-unity** - Unity Editor automation via MCP **aws-architect** - AWS
+infrastructure design  
 **azure-optimizer** - Azure resource optimization  
 **gcp-deployer** - Google Cloud deployment  
 **kubernetes-manager** - K8s cluster management  
@@ -151,7 +151,8 @@
 **digitalocean-droplets** - DigitalOcean management  
 **heroku-deployer** - Heroku deployment helper  
 **railway-deployer** - Railway.app deployment  
-**deploy-production-ready** - Expert-level production readiness and safety verification
+**deploy-production-ready** - Expert-level production readiness and safety
+verification
 
 ---
 
@@ -314,8 +315,8 @@
 **deep-research** - Research automation  
 **observer** - Persistent memory and session observation system  
 **continuous-learning-v2** - Instinct-based learning and pattern evolution
-**search-first** - Research-driven development workflow
-**code-generator** - Code generation templates  
+**search-first** - Research-driven development workflow **code-generator** -
+Code generation templates  
 **boilerplate-creator** - Project boilerplate generator  
 **scaffold-builder** - Application scaffolding  
 **template-engine** - Template processing  
@@ -385,6 +386,29 @@ Frontend performance and accessibility gate
 **cdn-optimizer** - CDN configuration  
 **media-library** - Media asset management  
 **content-scheduler** - Content publishing automation
+
+---
+
+## 📱 LinkedIn Content Ops (12 skills)
+
+**linkedin-post-writer** - Draft new LinkedIn posts from 20 proven hook
+formulas  
+**linkedin-comment-drafter** - Draft or reshare comments on other people's
+posts  
+**linkedin-reply-handler** - Reply correctly to a specific existing LinkedIn
+comment  
+**linkedin-hook-extractor** - Reverse-engineer the hook formula behind a viral
+post  
+**linkedin-humanizer** - Scrub AI tells and audit a draft before it ships  
+**linkedin-profile-optimizer** - Audit and rewrite a LinkedIn profile
+end-to-end  
+**linkedin-content-planner** - Generate a 7-day LinkedIn content calendar  
+**linkedin-thread-monitor** - Track which comments earned author replies  
+**linkedin-engager-analytics** - Segment post likers/commenters by ICP fit  
+**linkedin-employee-advocacy** - Stand up a team LinkedIn advocacy program  
+**linkedin-repurposer** - Rebuild a tweet, video, or blog into a native post  
+**linkedin-skills-shared** - Shared references, Python clients, and
+Publora/Apify setup for the family above
 
 ---
 
