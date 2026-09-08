@@ -37913,6 +37913,32 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumFloraFarms",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "QuantumFloraFarms merges cutting‑edge quantum biology with futuristic agriculture, offering visually stunning, never‑seen‑before content (glowing, entangled plants, instant growth bursts). The topic taps into current hype around quantum tech, sustainable food, and sci‑fi aesthetics, guaranteeing scroll‑stopping hooks and high retention via curiosity loops about how science can revolutionize what we eat.",
+      "ideas": [
+        "5 Quantum‑Enhanced Plants That Glow in the Dark & Grow 10x Faster – Lab Footage Revealed",
+        "How Scientists Used Quantum Entanglement to Boost Tomato Yields by 500% (Exclusive Experiment)",
+        "Inside a Secret Farm Where Crops Grow Using Only Light & Quantum Fields – No Soil, No Water",
+        "The Future of Food: Quantum‑Edited Wheat That Resists Drought & Pests – Real‑Time Growth Demo",
+        "From Lab to Table: Tasting the First Quantum‑Grown Strawberry – Flavor Test & Science Breakdown"
+      ],
+      "keywords": [
+        "quantum plants",
+        "glowing agriculture",
+        "future farming",
+        "bioluminescent crops",
+        "lab‑grown food"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
