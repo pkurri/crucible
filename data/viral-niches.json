@@ -38107,6 +38107,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroSyntheticDreams",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The convergence of brain‑computer interface breakthroughs, AI‑generated neurovisuals, and public fascination with lucid dreaming creates a perfect storm for faceless content that visualizes how technology can shape, record, and manipulate human dreams—topics that are trending in neuroscience forums, tech conferences, and pop‑culture discussions right now.",
+      "ideas": [
+        "What If AI Could Record Your Dreams? – Inside the First Neuro‑Dream Capture Experiment",
+        "Seeing Your Brain’s Nightly Adventures: Real‑Time fMRI Dream Visualization",
+        "The Future of Lucid Dreaming: How Neural Laces Let You Design Your Own Dreamscapes"
+      ],
+      "keywords": [
+        "neural lace",
+        "glowing synapses",
+        "dream simulation",
+        "brainwave patterns",
+        "futuristic neuro lab"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]

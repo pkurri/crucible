@@ -80530,5 +80530,52 @@
         "duration": 4
       }
     ]
+  },
+  "NeuroSyntheticDreams": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 NeuroSyntheticDreams secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Dream State",
+        "name": "Lucid Sync",
+        "icon": "🧠"
+      },
+      {
+        "title": "Synthetic Layer",
+        "name": "Quantum Weave",
+        "icon": "⚡"
+      },
+      {
+        "title": "Neuro Feedback",
+        "name": "Pulse Mapper",
+        "icon": "📈"
+      },
+      {
+        "title": "Immersive Realm",
+        "name": "Echo Garden",
+        "icon": "🌿"
+      },
+      {
+        "title": "Cognitive Boost",
+        "name": "Mind Spark",
+        "icon": "💡"
+      },
+      {
+        "title": "Temporal Flow",
+        "name": "Time Ripple",
+        "icon": "⏳"
+      },
+      {
+        "title": "Sensory Fusion",
+        "name": "Chroma Pulse",
+        "icon": "🎨"
+      },
+      {
+        "title": "Hidden Pattern",
+        "name": "Arcane Core",
+        "icon": "🔐"
+      }
+    ]
   }
 }
