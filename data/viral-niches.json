@@ -38446,6 +38446,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumGarden",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Quantum biology is exploding in mainstream science, with recent breakthroughs showing plants can exploit quantum coherence for photosynthesis and sensory processing. Audiences are fascinated by the invisible quantum world, and visualizing a garden where flora literally computes, glows, and responds at the subatomic level offers a fresh, mind‑bending twist on nature content that stands out from typical bioluminescent or futuristic city niches.",
+      "ideas": [
+        "What If Your Houseplants Could Solve Quantum Equations? – Watch a tomato plant entangle photons to crack a puzzle in real time.",
+        "The Quantum Garden That Glows When You Think: EEG‑linked bio‑lights reveal your thoughts in living color.",
+        "Scientists Grow a Living Quantum Computer Inside a Bonsai Tree – See the world’s first bio‑quantum processor in action."
+      ],
+      "keywords": [
+        "quantum coherence",
+        "glowing roots",
+        "photosynthesis entanglement",
+        "bio‑luminescent foliage",
+        "subatomic plant signals"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
