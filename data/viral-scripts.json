@@ -12512,43 +12512,49 @@
     ]
   },
   "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
-        "duration": 5
+        "title": "Whale Watch",
+        "name": "The Silent Whale",
+        "icon": "🐋"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Hidden Leap",
+        "name": "Flash Loan Leverage",
+        "icon": "⚡"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Token Trap",
+        "name": "Pump & Dump Spy",
+        "icon": "📈"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Secret Funnel",
+        "name": "Order Book Blackhole",
+        "icon": "🕳️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Hidden Gas",
+        "name": "Low Fee Magic",
+        "icon": "⛽"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Bounty Hunt",
+        "name": "Micro Reward Sats",
+        "icon": "💰"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Chain Whisper",
+        "name": "Cross‑Chain Secrets",
+        "icon": "🔀"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Alliance Notes",
+        "name": "Insider Partnerships",
+        "icon": "🤝"
       }
     ]
   },
@@ -35646,43 +35652,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Glow Park",
+        "name": "Luminous Plaza",
+        "icon": "🌌"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Neon Nightlife",
+        "name": "Bioluminescent Bar",
+        "icon": "🍹"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sustainable Streets",
+        "name": "Gleam Grid",
+        "icon": "🚶"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Ambient Architecture",
+        "name": "Radiant Rooftop",
+        "icon": "🏢"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Eco-Transit",
+        "name": "Shimmer Subways",
+        "icon": "🚇"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Oceanic Oasis",
+        "name": "Blue Glow Harbor",
+        "icon": "⚓"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Floating Markets",
+        "name": "Glow Bazaar",
+        "icon": "🏬"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Night Gardens",
+        "name": "Aurora Alley",
+        "icon": "🌿"
       }
     ]
   },
@@ -40397,7 +40409,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
