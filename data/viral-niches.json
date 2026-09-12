@@ -38869,6 +38869,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumFashion",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "QuantumFashion taps into the exploding interest in wearable tech, metamaterials, and quantum dot textiles that change color, texture, or even self-repair. Stunning AI‑generated visuals of garments that shift hues with light, react to sound, or display living patterns create instant scroll‑stopping hooks. The niche blends cutting‑edge science with high‑style aesthetics, satisfying curiosity and wonder while remaining fully faceless—ideal for short‑form and long‑form video algorithms.",
+      "ideas": [
+        "Quantum Dress That Changes Color With Your Mood – See the Science!",
+        "Wearing a Living Fabric: How Quantum Dot Clothes Repair Themselves",
+        "From Runway to Reality: The First Self‑Healing Quantum Couture"
+      ],
+      "keywords": [
+        "shimmering fabric",
+        "quantum dot dress",
+        "color‑shifting cloak",
+        "self‑healing textile",
+        "holographic weave"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
