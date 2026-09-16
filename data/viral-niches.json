@@ -40027,6 +40027,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroDroneDelivery",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Micro drone food‑delivery showcases a tangible glimpse of the near‑future, satisfying strong curiosity loops and delivering stunning, bite‑size tech marvels that are both relatable and mind‑blowing. The niche taps into the current hype around autonomous vehicles and sustainability, while being distinct from larger drone content, promising fresh, shareable moments ideal for social platforms.",
+      "ideas": [
+        "The FIRST Micro Drone Delivery of a Pizza: Watch the Revolution in 1 Minute!",
+        "Can a 5‑gram Drone Deliver Your Breakfast? The Unbelievable Test",
+        "Drone Delivery of a Live Cat? See How Feasibility Meets Comedy"
+      ],
+      "keywords": [
+        "mini drone",
+        "tiny delivery",
+        "microscopic tech",
+        "future food delivery",
+        "small scale marvel"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
