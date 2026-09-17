@@ -40385,6 +40385,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MyceliumSkyline",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The fusion of sustainable mycelium architecture with futuristic cityscapes ignites curiosity and awe, tapping into the zeitgeist of eco‑innovation and speculative design. Its visual spectacle—glowing fungal towers, self‑repairing facades—offers instant scroll‑stop potential, while the underlying sustainability narrative fuels share‑ability across meta, TikTok, and YouTube Shorts.",
+      "ideas": [
+        "How Mycelium Skyscrapers Could End the Climate Crisis — 25‑Second Vision",
+        "The First Mycelium City: Watch a Fungus‑Powered Metropolis Grow in 90 Seconds",
+        "City of the Future? Mycelium Towers That Repair Themselves After Storms"
+      ],
+      "keywords": [
+        "mycelium",
+        "futuristic",
+        "cityscape",
+        "glowing",
+        "sustainable"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
