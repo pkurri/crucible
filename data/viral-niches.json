@@ -40186,6 +40186,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DreamVisualizer",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Dream content has a universal, evergreen appeal. By transforming viewers’ dream descriptions into AI-generated surreal visuals, the channel creates a distinct faceless format that is instantly shareable and drives high engagement. The concept supports endless variations—nightmares, recurring themes, lucid experiences—allowing for 25+ unique viral titles that tap into curiosity loops and scroll‑stopping hooks. Visuals are high‑impact and the format scales easily across both Meta and YouTube platforms.",
+      "ideas": [
+        "Your Dream About Crumbling Towers Comes Alive in 3D (AI Animation) – The Shocking Twist",
+        "Ever Felt Like You Were Inside a Burning Cathedral? AI Brings It to Life (Watch the Fear Dissolve)",
+        "Unveiling Recurring Dreams: Your House on Fire Goes Real – Watch the AI Render It!"
+      ],
+      "keywords": [
+        "surreal",
+        "hyperreal",
+        "dreamscape",
+        "neon",
+        "futuristic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
