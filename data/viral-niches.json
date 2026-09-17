@@ -40210,6 +40210,30 @@
         "futuristic"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "LuminoGardening",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Bioluminescent plants are a quirky, evergreen trend that blends science, gardening and ‘wow’ aesthetics. The niche is fresh enough to stand out, yet taps into massive interests in DIY home projects, innovative gardening, and nighttime beauty. Its visual charm guarantees scroll‐stopper hooks, and curiosity loops (“Will it glow?” / “What if I add sugar?”) are built into every concept.",
+      "ideas": [
+        "I Planted 10 Bioluminescent Plants. The Result Will BLOW Your Mind! – Find out whether glow‑up garden lasts a week or a month.",
+        "Turn Your Backyard Into an Alien Realm with DIY Glow Garden – Step‑by‑step mix of algae & LEDs for zero‑cost night lighting.",
+        "The Secret Setup to Grow Nightlight Butterflies (Bioluminescent Fungi) – 24‑hour time‑lapse that proves they’re real, not just Instagram filters."
+      ],
+      "keywords": [
+        "glowing",
+        "bioluminescence",
+        "garden",
+        "nightlight",
+        "DIY"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
