@@ -40234,6 +40234,30 @@
         "DIY"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "EchoesOfHistory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "AI-generated voices of iconic historical figures reacting to modern tech create shock, humor and deep curiosity—high retention content that can be produced faceless and scaled with countless personalities and contemporary topics.",
+      "ideas": [
+        "If Cleopatra Took a Selfie: AI Recreates Her Reactions to Smartphones – Watch the AI generate Cleopatra’s own voice and eyes as she sees the world of 2025!",
+        "Einstein on AI: An Avatar Explains the Theory of Everything – Meet a hyper‑real Einstein who explains why machine learning is his new theory of everything.",
+        "Marie Curie Meets Quantum Computing – AI Curie Explains ‘Quantum Leap’ on a Modern Day Podcast!"
+      ],
+      "keywords": [
+        "AIVoice",
+        "HyperRealPortrait",
+        "DeepfakeAnimation",
+        "NarrativeTimeWarp",
+        "ViralShock"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
