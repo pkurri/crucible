@@ -40258,6 +40258,31 @@
         "ViralShock"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobiomeMakeup",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "The human microbiome is a rapidly growing science field that blends health, beauty, and mystique. A faceless channel that visualizes microscopic life, demonstrates surprising bacterial behaviors, and offers actionable, ‘make‑up’ hacks for everyday skin care can capture a vast, curious audience. The niche differentiates from generic health or beauty content by providing science‑driven, time‑lapse, and visual‐rich content that encourages viewers to watch beyond the first 60 seconds, creating strong scroll‑stopping hooks and curiosity loops. With an accessible format and easy scalability through themed series (skin bacteria, food microbiome, environmental microbes, DIY culturing), it can generate 25+ unique viral ideas and reach 1 M+ subs and 100K+ views per video.",
+      "ideas": [
+        "The 5 Skin Bacteria That Turn Dark Spots Alchemically – Time‑Lapse Reveal",
+        "Can Your Toothbrush Kill the Good Bacteria? 10 Shocking Micro‑World Experiments",
+        "Microbiome Make‑Up: DIY \"Healthy Skin Cocktail” Using Only Household Items",
+        "What Happens When Your Hair Care Routine Is Antibiotic‑Free? 48‑Hour Microscopes!"
+      ],
+      "keywords": [
+        "Bacterial Time‑Lapse",
+        "Microscope Glow",
+        "Color Change Cultures",
+        "Micro‑World Wonder",
+        "Skin Microbiome Magic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
