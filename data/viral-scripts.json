@@ -12424,49 +12424,43 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Job Loss",
-        "name": "ChatGPT for Customer Support",
-        "icon": "🤖"
+        "text": "Your next paycheck might already be in code.",
+        "duration": 5
       },
       {
-        "title": "Privacy Breach",
-        "name": "AI Surveillance Bot",
-        "icon": "🕵️‍♂️"
+        "text": "AI agents are stealing white‑collar jobs live.",
+        "duration": 4
       },
       {
-        "title": "Deepfake Fears",
-        "name": "Real‑Time Video Synthesizer",
-        "icon": "🎭"
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
+        "duration": 5
       },
       {
-        "title": "Market Domination",
-        "name": "Automated Trading AI",
-        "icon": "📈"
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
       },
       {
-        "title": "Data Theft",
-        "name": "Predictive Analytics Wizard",
-        "icon": "📊"
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
       },
       {
-        "title": "Identity Theft",
-        "name": "Speech‑to‑Text Converter",
-        "icon": "🗣️"
+        "text": "Would your desk be next?",
+        "duration": 4
       },
       {
-        "title": "Moral Erosion",
-        "name": "Algorithmic Editorial AI",
-        "icon": "📰"
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
       },
       {
-        "title": "Existential Risk",
-        "name": "Self‑Learning Autopilot",
-        "icon": "🚢"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
+        "duration": 4
       }
     ]
   },
@@ -12502,7 +12496,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12543,7 +12537,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -35640,49 +35634,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Glowing Streets",
-        "name": "Aurora Avenue",
-        "icon": "🌌"
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "duration": 5
       },
       {
-        "title": "Radiant Parks",
-        "name": "Pulse Park",
-        "icon": "🌿"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Neon Skyscrapers",
-        "name": "Neon Tower",
-        "icon": "🌆"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "BioLED Canopies",
-        "name": "Lumen Plaza",
-        "icon": "🌇"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Glitter Waterways",
-        "name": "Glitter Canal",
-        "icon": "🌊"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Electric Forests",
-        "name": "ForestFlow",
-        "icon": "🌠"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Starlit Cabins",
-        "name": "Celestial Lodge",
-        "icon": "🌒"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Spectrum Hubs",
-        "name": "Beacon Square",
-        "icon": "🔭"
+        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -40397,7 +40385,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -84792,6 +84780,88 @@
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "MyceliumSkyline": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of MyceliumSkyline.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master MyceliumSkyline, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1789678489641": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "What if neon liquid could rewrite reality?",
+        "duration": 5
+      },
+      {
+        "text": "Witness the future of hyper‑car interiors now!",
+        "duration": 4
+      },
+      {
+        "text": "10 seconds of color that syncs to your heartbeat.",
+        "duration": 5
+      },
+      {
+        "text": "Neural networks learn from that pulse to glide.",
+        "duration": 5
+      },
+      {
+        "text": "It turns every drive into a living art piece.",
+        "duration": 5
+      },
+      {
+        "text": "Imagine steering a stream of data through your veins.",
+        "duration": 4
+      },
+      {
+        "text": "Your ride could eclipse every silicon masterpiece.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next week, neon liquid meets quantum AI. Don’t miss.",
         "duration": 4
       }
     ]
