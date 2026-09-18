@@ -84994,5 +84994,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1789708007238": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1789708007238 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Meta Mechanics",
+        "name": "Infinite Cascade",
+        "icon": "🌪️"
+      },
+      {
+        "title": "Signature Skill",
+        "name": "Flux Surge",
+        "icon": "⚡"
+      },
+      {
+        "title": "Unlockable Boost",
+        "name": "Void Echo",
+        "icon": "🔊"
+      },
+      {
+        "title": "Legendary Item",
+        "name": "Nebula Blade",
+        "icon": "🗡️"
+      },
+      {
+        "title": "Tactical Secret",
+        "name": "Dark Phase",
+        "icon": "🌑"
+      },
+      {
+        "title": "Cosmic Resource",
+        "name": "Stellar Core",
+        "icon": "⭐"
+      },
+      {
+        "title": "Stealth Feature",
+        "name": "Phantom Veil",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Ultimate Combo",
+        "name": "Apocalypse Chain",
+        "icon": "🔥"
+      }
+    ]
   }
 }
