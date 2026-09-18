@@ -40676,6 +40676,30 @@
         "underseafuturism"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "The convergence of cutting‑edge biotechnology and futuristic urban design creates a unique, highly visual narrative that sparks curiosity and wonder. Bioluminescent cities promise zero‑carbon lighting, greener streets, and surreal glowing skylines—concepts that resonate with sustainability‑focused audiences while offering endless aesthetic content for faceless presentation. The topic is still nascent, has untapped storytelling potential, and aligns with current trends of bio‑tech, climate action, and hyper‑realistic visual media.",
+      "ideas": [
+        "What If Cities Were Lit By Glowworms?   Inside the Future of Zero‑Carbon Nightlife",
+        "From Lab to Skyline: Engineers Build Bioluminescent Skyscrapers – A Visual Revolution",
+        "The Secret to Overnight Glow: How Living City Lights Could Replace Every Streetlamp"
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "NightCityscape",
+        "GlowBiology",
+        "FuturisticLighting",
+        "ZeroCarbonInfrastructure"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
