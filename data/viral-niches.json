@@ -40652,6 +40652,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ArtificialOceanReefs",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "ArtificialOceanReefs taps into the urgent climate‑change narrative with a visually arresting twist—man‑made reefs using 3D printing, bio‑engineering and AI. The niche offers limitless sub‑topics (designing synthetic corals, AI‑guided maintenance, ecological impact studies) and naturally lends itself to scroll‑stopping hooks like \"We just printed a whole reef—here’s what happened\" or \"The world's first fully bio‑engineered coral colony revealed.\" The combination of environmental relevance, cutting‑edge tech, and mesmerizing imagery guarantees high engagement, shareability, and rapid growth potential on both Meta and YouTube.",
+      "ideas": [
+        "3D‑Printed Reefs: The Future of Coral Restoration — See the First Live Test!",
+        "Why ‘Artificial Reefs’ Could Save the Ocean (And How We’re Building Them)",
+        "From Engineers to Ecosystems: Inside the World’s First AI‑Controlled Reef"
+      ],
+      "keywords": [
+        "bioengineering",
+        "3dprinting",
+        "coralrestoration",
+        "marineecosystem",
+        "underseafuturism"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
