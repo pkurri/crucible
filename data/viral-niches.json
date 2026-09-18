@@ -40766,6 +40766,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The fascination with glowing urban environments—combined with growing interest in biotechnological sustainability—creates a fresh, highly visual niche rarely touched by mainstream creators. Bio-luminescent cities promise endless lock‑ins with wonder‑inducing footage, endless storytelling angles, and instant cross‑platform shareability.",
+      "ideas": [
+        "The Midnight Glow: How Tokyo’s Streets Are Lighted with Living Bacteria – I Fell Through the City’s Glow",
+        "From Trash to Light: Berlin’s Bioluminescent Lights That Turn Pollution into Art – Watch the Transformation",
+        "Urban Alchemy or Bio‑Risks? New York’s Controversial Glow‑Up That Sparked a Citywide Debate"
+      ],
+      "keywords": [
+        "Luminescence",
+        "Bioluminescent",
+        "Glowing Streets",
+        "City Lighting",
+        "Synthetic Bacteria"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
