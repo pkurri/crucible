@@ -40721,6 +40721,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedUrbanOasis",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "SubmergedUrbanOasis blends cutting‑edge underwater exploration with mesmerizing, never‑before‑seen cityscapes, tapping into the booming interest in marine preservation, immersive VR tourism, and viral visual stories. The niche offers endlessly scroll‑stopping hooks about lost neon streets, crystal coral boulevards, and AI‑guided drone dives—powered by high‑resolution imagery that audiences can’t help but pause, share, and revisit.",
+      "ideas": [
+        "The Hidden City Below the Waves: Inside the First Fully Underwater Metropolis – Hook: \"Imagine walking through market squares that glitter with bioluminescence and never touch the surface.\"",
+        "Ghost Neon Town Unveiled: 2050's Vanished Aquatic Architecture – Hook: \"Drones reveal flickering neon ghost‑towns beneath the sea that disappeared after the great flood.\"",
+        "Ever‑Seen Luminous Coral Maze: The Ocean’s Secret VR Garden – Hook: \"Follow the whispers of immortal koi as they glide through crystal coral labyrinths, designed for a fully immersive virtual reality experience.\""
+      ],
+      "keywords": [
+        "NeonGlow",
+        "SirenShadows",
+        "CrystalCoral",
+        "ImmersiveDepth",
+        "AquaNeons"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
