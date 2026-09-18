@@ -40490,6 +40490,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "With the growing interest in commercial space travel, space tourism, and NASA’s ‘kitchen in microgravity’ experiments, zero‑gravity cooking has become a visual wonder. The sheer novelty of eggs flipping without a flip‑over, pasta floating in a swirl, and the chemical reactions that defy Earth’s physics creates instant scroll‑stopping curiosity. Every new recipe, whether it’s ramen, a soufflé, or a simple smoothie, offers fresh, shareable “first‑time” moments that people will want to comment on and repost. The niche is ripe for rapid growth because it merges cooking (a mass‑appeal content type) with the awe‑inspiring space science trend, promising each upload the potential to cross 100K views and scale to a subscriber base exceeding one million.",
+      "ideas": [
+        "Surface‑Tension Soup: How to Cook a Perfect Broth in Zero Gravity / Watch the sauce rise like a star in vacuum!",
+        "Space‑Style Pizza: Hand‑made crust and bubbling cheese on a floating plate / The ultimate kitchen disaster & victory rolled into one!",
+        "Floating Fruit Salad Challenge: No sticks, no mess, just fruit tossed in micro‑gravity / Can you keep it together on the first try?"
+      ],
+      "keywords": [
+        "Weightless",
+        "Spaghetti",
+        "VacuumPan",
+        "AstroChef",
+        "KitchenZeroGravity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
