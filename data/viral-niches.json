@@ -40955,6 +40955,30 @@
         "Mystery"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Wonder",
+      "reason": "Urban bioluminescence is a fresh, astonishing visual trend that merges nature with cityscapes, appealing to curiosity and awe. The niche is untapped by mainstream channels, enabling high differentiation. The glow effect is naturally eye‑catching, supporting scroll‑stopping hooks and engaging narrative loops. Audience interest in sustainable, eco‑friendly urban design is rising, fueling retention and shares across meta and YouTube. The concept’s visual strengths lend themselves to dramatized storytelling and fast‑paced montages, ideal for both platforms.",
+      "ideas": [
+        "The City That Never Sleeps: 5 Places Where Bioluminescence Lights Up the Night / Imagine a city where streetlights are replaced by living glow‑emitting organisms.",
+        "From Sharks to Streets: The Untold Story of Bio‑Luminescent Architecture / Discover how architects are turning cities into living lanterns.",
+        "Glow on the Go! How Bioluminescent Parks Are Changing Urban Life / See how glowing fungi and algae are creating the next wave of nightlife."
+      ],
+      "keywords": [
+        "glow",
+        "neon",
+        "cityscape",
+        "bioluminescence",
+        "underwater"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
