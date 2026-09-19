@@ -40931,6 +40931,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DeepSeaDroneExplorations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "The surge in underwater content, combined with cutting‑edge drone technology, creates a story‑driven mix that fuels curiosity and wonder. Viewers crave real, unseen deep‑sea footage, and drones can capture high‑resolution, 360° footage of bioluminescent creatures, ancient structures, and volcanic vents—content that feels fresh, visually stunning, and share‑worthy. The topic is broad enough for endless creative angles, fostering high retention and looped curiosity hooks across platforms.",
+      "ideas": [
+        "Drone Into Dark Abyss: Unbelievable Bioluminescent Life Discovered – Watch our drone document the first ever live footage of the world’s deepest glowing ecosystems.",
+        "The Undiscovered City Beneath Ocean Floor? Drone Surfaces Astonishing Structures – Spectacular reveal of ancient undersea civilization carved by nature.",
+        "Drone Reveals 100m Underwater Volcano and Jellyfish Carnival – Seeing the mystical lights created by volcanic gases and luminous jellyfish like never before."
+      ],
+      "keywords": [
+        "Underwater",
+        "Drone",
+        "Bioluminescence",
+        "Abyss",
+        "Mystery"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
