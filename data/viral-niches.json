@@ -40880,6 +40880,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DesertRainboxes",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "This niche taps into growing global interest in climate‑adaptation and zero‑water innovations. Desert rainboxes – compact, self‑contained irrigation systems that trigger localized rain – combine science, hope, and striking visual storytelling. The concept is unobtrusive (faceless footage and narration), supports scroll‑stopping hooks (e.g., \"watch the Sahara rain for the first time\") and curiosity loops (e.g., \"how does a 500‑liter glass teapot become a rainmaker?\"), and carries high shareability due to its news‑worthy, transformative nature. Its visual content is easy to produce with time‑lapse and drone footage, enabling rapid content creation at scale, while the fundamental story is new and not represented in existing viral tropes, keeping differentiation strong.",
+      "ideas": [
+        "This 500‑Liter Rainbox Turned the Sahara Into a Jungle— Amazing Time‑Lapse",
+        "Can You Believe This Desert Rainbox Created Life? Watch 4 Weeks of Rewilding",
+        "3 Bio‑Inspired Desert Rainboxes That Are Turning Dust into Water— The Future Revealed"
+      ],
+      "keywords": [
+        "raindrop",
+        "mirage",
+        "desert",
+        "rain",
+        "silhouette"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
