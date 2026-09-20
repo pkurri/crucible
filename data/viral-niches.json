@@ -41189,6 +41189,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DeepSeaDroneExplorations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Awe",
+      "reason": "The combination of high‑resolution drone footage with the mystery of the deep ocean creates instant visual allure and high curiosity. Audiences are drawn to unseen creatures, alien landscapes, and stories of fragile ecosystems. The niche is under‑saturated yet easily expandable with endless new dive locations, creature features, and environmental themes, making it ideal for repeated content releases that keep viewers hooked.",
+      "ideas": [
+        "\"The Drone that Found a Hidden Underwater City: 10 Seconds Inside a 2,000‑Year‑Old Shipwreck\" / Hook: Watch 30 seconds of the most shocking deep‑sea ruin discovered so far!",
+        "\"This Drone Unearthed a 13‑Foot‑Long Alien‑Like Creature Under 10,000 Feet of Water\" / Hook: A 60‑second reveal of the creature that made the marine world gasp.",
+        "\"Why Every Ocean Conservationist Is Watching Our Drone’s 7‑Minute Deep‑Sea Journey\" / Hook: The footage alone could change how we think about ocean policy."
+      ],
+      "keywords": [
+        "bioluminescent",
+        "drone‑captured",
+        "deep‑sea",
+        "colorful",
+        "intense"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
