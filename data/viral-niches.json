@@ -41447,6 +41447,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "VirtualGardenMysteries",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Virtual and augmented reality gardening experiences have exploded in 2024, yet no one is exploring the hidden, AI‑generated gardens that exist only in the digital landscape. This niche blends the universal fascination with gardens, the mystery of the unseen, and the immersive power of VR/AR, creating perfect scroll‑stopping hooks and curiosity loops that attract both tech enthusiasts and the general audience. With endless possibilities for differences (bioluminescent glades, floating archipelagos, subterranean aquifers), it offers more than 25 unique viral concepts and can aggregate more than 1M subscribers and 100K views per video.",
+      "ideas": [
+        "The Secret Virtual Garden That Vanishes Every 5 Minutes—Will You Catch It?",
+        "Exploring the HIDDEN AI‑Generated Garden In VR—Your Mind Won't Believe It's Not Real!",
+        "Top 10 Surreal Garden Worlds You Didn't Know Existed Inside Your Head!"
+      ],
+      "keywords": [
+        "glowing",
+        "hidden",
+        "surreal",
+        "interactive",
+        "colorful"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
