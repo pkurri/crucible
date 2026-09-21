@@ -41589,6 +41589,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroplasticCleanupTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The global plastic crisis has unified consumer activism and corporate responsibility. Emerging tech—such as robotic cleaners, 3‑D plastic reconstruction and laser‑fusion plants—delivers tangible, visually stunning solutions that can be shown in real‑time demos. Audiences are hungry for hopeful, transformative stories that clearly demonstrate progress, making this niche perfect for evergreen virality.",
+      "ideas": [
+        "The Robot Recyclers Turning Ocean Trash Into Jet Fuel (Live 5 Minutes)",
+        "Disappearing Plastic: How 3D Printers Turn Junk Into Jewelry (Explained)",
+        "Cleaning the Planet: Inside the First Onshore Plastic Fusion Plant (Factory Tour)"
+      ],
+      "keywords": [
+        "OceanShoreline",
+        "RoboticArms",
+        "3DPrinting",
+        "PlasticFusion",
+        "LaserCoating"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
