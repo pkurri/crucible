@@ -41613,6 +41613,30 @@
         "LaserCoating"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities lit by genetically engineered bioluminescent organisms taps into current interests in sustainability, biotechnology, and futuristic urban design. It offers jaw‑dropping visual content while sparking discussions about ecological innovation, making it highly shareable and hook‑rich for scroll‑stopping engagement.",
+      "ideas": [
+        "The Future City That Lights Up by Itself — Inside the BioLuminescent Metropolis",
+        "How Who Would Replace Streetlights in 2050? Meet the Glow‑Powered City",
+        "From Glowworms to Neon Skies: Building the First Fully Bioluminescent City"
+      ],
+      "keywords": [
+        "Luminous",
+        "Neon",
+        "Biotech",
+        "Futuristic",
+        "Nighttime"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
