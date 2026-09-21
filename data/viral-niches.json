@@ -41540,6 +41540,28 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking fuses two evergreen, high‑visually‑appealing genres—space/astrophysics and cooking. Faceless, text‑over‑video formats keep production costs low while the zero‑G effect guarantees \"scroll‑stopper\" moments that encourage re‑watching and sharing. With endless recipe variations and relatable “how‑to” hooks, the niche scales to dozens of videos, each primed for 100k+ views, making it ripe to hit 1M+ subscribers quickly.",
+      "ideas": [
+        "Zero‑G Breakfast: Floating Omelette Explained In 1 Minute! – \"Ever wondered how astronauts eat? Watch this floating omelette take center stage!\",\"Space Pizza Delivery: How To Bake Pizza In Zero Gravity! – \"No oven? No problem! See how a pizza levitates!\",\"Zero Gravity Mac n Cheese: The Future Of Comfort Food? – \"Will gravity‑free mac treat please your taste buds? Let's find out!\""
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "FloatingPantry",
+        "UnbelievableFood",
+        "SciFiKitchen"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
