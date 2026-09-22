@@ -41835,6 +41835,30 @@
         "Proof"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combining the visual allure of night cityscapes with the rare, enchanting glow of bioluminescence creates a fresh, eye‑catching aesthetic that taps into current interests in nature, urban exploration, and science.  The niche stands out because bioluminescent phenomena are typically associated with oceans or caves, not concrete streets.  This novelty, paired with high‑quality footage, drives strong scroll‑stopping hooks, curiosity loops, and shareability across platforms, making 1M+ subs and 100k+ views per video eminently achievable.",
+      "ideas": [
+        "The Hidden Glow: What’s Shining Beneath Our City Streets? / Witness the bioluminescent secrets lurking under the asphalt!",
+        "Glowing Nights: The Urban Ecosystem that Lights Up After Dark / Can you spot the living neon in your city?",
+        "Bioluminescent Metropolis: A City Alive with Neon Microbes / Every streetlamp hides a microscopic light show—see it for yourself!"
+      ],
+      "keywords": [
+        "bioluminescence",
+        "urban night",
+        "glowing city",
+        "microbial lights",
+        "nightscapes"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
