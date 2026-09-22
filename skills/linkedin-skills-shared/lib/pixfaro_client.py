@@ -15,7 +15,10 @@ Endpoint (OpenAI-SDK-compatible):
     overlay: {text|logo_id, position, opacity, font, color}  # pixel-exact
              composite, NOT model-generated text — so a cheap base model plus
              an overlay renders crisp quote-cards / thumbnails at low cost.
-    resp: {id, url, cost, balance_after}   # hosted URL, not base64
+    resp: {id, url, cost, balance_after, premium, low_balance}   # hosted URL, not
+          base64; cost/balance_after are normalized to float (the raw API
+          returns them as strings), and premium/low_balance are computed
+          client-side since the API does not set them
 
 Models (id / median latency / $ per image):
   gemini-flash-lite  3.0s   $0.041   (high-volume, cheap)
@@ -49,10 +52,33 @@ class PixfaroError(RuntimeError):
 BASE_URL = "https://api.pixfaro.com/v1"
 DEFAULT_MODEL = "nano-banana-2"
 KNOWN_MODELS = ("gemini-flash-lite", "nano-banana-2", "gemini-pro-image", "gpt-5-image")
+PREMIUM_MODELS = ("gemini-pro-image", "gpt-5-image")
+# No published threshold from Pixfaro; one more generation at the priciest
+# known tier (gpt-5-image, $0.238) is the floor below which a next call could
+# fail outright, so that is the low-balance line.
+LOW_BALANCE_THRESHOLD = 0.238
 
 RETRYABLE_STATUSES = {408, 429, 500, 502, 503, 504}
 CACHE_MAX_ENTRIES = 128
 CACHE_TTL_SECONDS = 6 * 60 * 60
+
+
+def _normalize_result(data: dict[str, Any], model: str) -> dict[str, Any]:
+    """The API returns `cost`/`balance_after` as strings and never sets
+    `premium`/`low_balance` — but `illustration.md` tells callers to branch on
+    exactly those two derived fields. Compute them here so the documented
+    contract is actually true."""
+    out = dict(data)
+    for key in ("cost", "balance_after"):
+        if key in out and out[key] is not None:
+            try:
+                out[key] = float(out[key])
+            except (TypeError, ValueError):
+                pass
+    out["premium"] = model in PREMIUM_MODELS
+    balance = out.get("balance_after")
+    out["low_balance"] = isinstance(balance, (int, float)) and balance < LOW_BALANCE_THRESHOLD
+    return out
 
 
 def _retry(attempts: int = 3, base_delay: float = 0.6):
@@ -146,7 +172,7 @@ class PixfaroClient:
             if cached is not None:
                 return cached
 
-        data = self._post("/images/generations", payload)
+        data = _normalize_result(self._post("/images/generations", payload), model)
         self._cache_put(key, data)
         return data
 
@@ -198,7 +224,7 @@ class PixfaroClient:
             if cached is not None:
                 return cached
 
-        data = self._post("/images/edits", payload)
+        data = _normalize_result(self._post("/images/edits", payload), model)
         self._cache_put(key, data)
         return data
 

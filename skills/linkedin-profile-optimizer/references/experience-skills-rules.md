@@ -53,7 +53,7 @@ Roles with media get **2.1x more profile view duration** than text-only roles.
 
 ### Volume rules
 
-- **Up to 50 skills** listed (LinkedIn cap)
+- **Up to 100 skills** listed (LinkedIn cap, raised from 50)
 - **Pin top 3** at the top of the section
 - **Mirror skills** from target job descriptions if job-seeking
 - **≥1 endorsement per skill** to count in search (skills with 0 endorsements

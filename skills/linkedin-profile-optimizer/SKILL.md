@@ -36,9 +36,9 @@ more views and convert visitors 3-5x better than default/resume-style profiles.
 
 - Profile URL or username. When `APIFY_TOKEN` is set, headline/About/
   Experience/Education/Skills/location are fetched automatically via
-  `lib.ApifyClient.fetch_profile(username=...)`; otherwise ask the user to
-  paste those sections. Photo and banner are never auto-fetched (image
-  composition needs a screenshot or manual description either way).
+  `lib.ApifyClient.fetch_profile(username=...)`; otherwise ask the user to paste
+  those sections. Photo and banner are never auto-fetched (image composition
+  needs a screenshot or manual description either way).
 - Goal: **clients** / **job seeking** / **authority** — Featured and CTA vary by
   goal
 - Optional: draft content to grade against the existing profile
@@ -88,7 +88,7 @@ A structured audit + rewrite in this shape:
 | 4   | **About**           | 200-300 words, first-person, 7-step structure, hook in first 265-275 chars                  |
 | 5   | **Featured**        | 3 items, matched to goal, custom 1200x627 thumbnails                                        |
 | 6   | **Experience**      | Every bullet = `action verb + metric`, 5+ skills per role, media attached                   |
-| 7   | **Skills**          | 50 listed, top 3 pinned, mirrors target job descriptions, ≥1 endorsement each               |
+| 7   | **Skills**          | Up to 100 listed, top 3 pinned, mirrors target job descriptions, ≥1 endorsement each        |
 | 8   | **Custom URL**      | `linkedin.com/in/firstnamelastname` (not the default hash)                                  |
 | 9   | **Recommendations** | At least 3 recent, specific (not generic), from diverse contexts                            |
 

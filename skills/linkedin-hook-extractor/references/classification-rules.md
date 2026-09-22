@@ -33,6 +33,33 @@ Features extracted from a post and how they map to formulas.
 - `soft_offer`: "Connect + DM me for X"
 - `comment_gate`: "Comment KEYWORD below"
 
+### F11-F16 features (2026 corpus set — shorter, more emotional)
+
+- `in_medias_res_open`: line 1 drops into an emotional peak (breaking, loss,
+  impossible odds) with no setup line before it
+- `permission_phrase`: "I don't know who needs to hear this today, but..."
+- `fake_bad_news`: "Enough is enough. No more {perk/practice}..." followed by a
+  reveal that the change is actually positive
+- `named_tribute`: "To {Name}, {Name}, and {Name}: thank you for..." — 2+ real
+  people named by name
+- `explain_to_kids_phrase`: "{jargon term} explained to kids" opener, or an
+  emoji-anchored glossary body (`{emoji} {term} = {plain meaning}`, 3+ lines)
+- `status_strip_contrast`: "Outside, I get called {title}. At home, none of
+  that survives {moment}."
+
+### F17-F20 features (structural formulas — shape logic, not topic)
+
+- `controlled_ab`: two outcomes stated back to back that differ by exactly one
+  named variable ("Same X. Same Y. The only variable is Z.")
+- `false_binary_kill`: "Everyone reaches for one of two answers" (or
+  equivalent), then both named options are explicitly killed ("{Option A}? ...
+  {Option B}? ...") before a third option is proposed
+- `evidence_arrow_stack`: 3+ consecutive `→` (or `-`/bullet) lines, each citing
+  a real number, following a "turns out it was already measured" style bridge
+- `diverging_curves`: two named approaches/trajectories described moving in
+  opposite directions over an explicit timeline ("Month one, X. Month six,
+  Y."), closing on a one-line maxim
+
 ## Mapping features → formulas
 
 ```python
@@ -77,8 +104,73 @@ FORMULA_RULES = {
         "required": ["has_dated_receipts"],
         "boost": ["identity_reframe"],
     },
+    "F11_emotional_cold_open": {
+        "required": ["in_medias_res_open"],
+        "boost": [],
+        "primary_goal": "likes",
+    },
+    "F12_permission_slip": {
+        "required": ["permission_phrase"],
+        "boost": [],
+        "primary_goal": "comments",
+    },
+    "F13_bait_and_switch": {
+        "required": ["fake_bad_news"],
+        "boost": [],
+        "primary_goal": "likes",
+    },
+    "F14_named_gratitude": {
+        "required": ["named_tribute"],
+        "boost": [],
+        "primary_goal": "reposts",
+    },
+    "F15_explain_to_kids": {
+        "required": ["explain_to_kids_phrase"],
+        "boost": [],
+        "primary_goal": "saves",
+    },
+    "F16_status_strip": {
+        "required": ["status_strip_contrast"],
+        "boost": [],
+        "primary_goal": "likes",
+    },
+    "F17_controlled_ab": {
+        "required": ["controlled_ab"],
+        "boost": ["mirror_question"],
+        "primary_goal": "comments",
+    },
+    "F18_false_binary": {
+        "required": ["false_binary_kill"],
+        "boost": ["mirror_question"],
+        "primary_goal": "comments_reposts",
+    },
+    "F19_evidence_bridge": {
+        "required": ["evidence_arrow_stack"],
+        "boost": [],
+        "primary_goal": "comments_saves",
+    },
+    "F20_diverging_curves": {
+        "required": ["diverging_curves"],
+        "boost": [],
+        "primary_goal": "reposts",
+    },
 }
 ```
+
+F11-F20 carry no `boost`-driven confidence bump beyond 1.0 in most cases —
+their required feature is a strong, low-ambiguity structural signal on its own
+(unlike F1-F10's shorter anaphora/number cues, which benefit from a
+corroborating boost). F17 and F18 keep `mirror_question` as an optional boost
+since both close on an operational or identity question in the reference
+skeletons.
+
+**Structural-formula pairing note (from the Density rule):** F17-F20 shape a
+post's *logic*, and the source material (`hook-formulas.md`) explicitly warns
+against stacking two of them — e.g. a post should not read as both F18
+(false-binary dissolve) and F20 (diverging-curves close) at once. If a post's
+features satisfy two structural formulas simultaneously, report both but flag
+that the source post is double-stacking contrasts, which the 2026 reach notes
+treat as a penalty, not a stronger signal.
 
 ## Confidence scoring
 

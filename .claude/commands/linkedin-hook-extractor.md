@@ -67,6 +67,14 @@ A LinkedIn post URL (any type: activity, share, ugcPost).
      Bait-and-Switch); a roll-call of named people thanked (F14 Named
      Gratitude); "{jargon} explained to kids" glossary (F15 Explain-to-Kids);
      "outside I'm called X, at home none of it survives" (F16 Status-Strip).
+   - F17-F20 structural cues (shape logic, not topic — flag if two appear in
+     the same post, see classification-rules.md's pairing note): two outcomes
+     differing by exactly one named variable (F17 Controlled A/B); two named
+     options each explicitly killed before a third is proposed (F18
+     False-Binary Dissolve); a "turns out it was already measured" bridge into
+     3+ arrow-bulleted evidence lines (F19 Anecdote-Meets-Evidence); two named
+     trajectories diverging over an explicit timeline, closing on a maxim (F20
+     Diverging-Curves).
 4. **Score confidence.** If multiple formulas fit, return top 2 with fit scores.
 5. **Extract structure.** Pull each logical section and label it by formula
    role.
