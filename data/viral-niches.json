@@ -41811,6 +41811,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DeepFakeDetectives",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Fear",
+      "reason": "The proliferation of realistic deepfakes has created a pressing need for trustworthy verification content. A faceless channel that uses forensic visuals and clear, concise narration can deliver instant credibility checks, turning curiosity into trust or alarm. The combination of quick, algorithm‑driven threat detection clips with emotional hooks makes the niche highly shareable on meta and YouTube, meeting the strong retention and viral potential seen in the current misinformation environment.",
+      "ideas": [
+        "Deepfake? I Discovered the Original Video Behind a Viral Clip (Exposed)",
+        "Top 10 Celebrities Targeted by Deepfakes—And The Proof You Need",
+        "Can I Fake My Own Face? My Personal Deepfake Experiment (And the Shocking Result)"
+      ],
+      "keywords": [
+        "Viral",
+        "Fake",
+        "Exposed",
+        "Authentic",
+        "Proof"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
