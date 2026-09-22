@@ -221,6 +221,12 @@ a number.
 
 ### Pass 3: ADD (human fingerprints)
 
+Check the draft's perspective mode first (see
+`../linkedin-skills-shared/references/voice-profile.md` §0, or whatever the
+calling skill labeled the draft as). The number/name/vulnerability
+requirements below are the same in both modes; the difference is only in
+*whose* detail fills them.
+
 Require at least:
 
 - One odd-precision number WITH a named referent: who, what, when, or what it
@@ -228,14 +234,19 @@ Require at least:
   "significant costs"). A bare number is not a fingerprint; LLM news copy uses
   more numbers than humans do. The referent is what carries the signal.
 - One named entity (real person, company, date, city, tool)
-- One first-person sensory detail
+- One first-person sensory detail in `personal` mode. In `general` mode,
+  substitute a second named/documented example instead — never fabricate a
+  first-person detail the user hasn't actually lived.
 - One contradiction or self-correction, stated as a fact ("I predicted 3 months.
-  It took 11."), not framed
+  It took 11.") in `personal` mode; in `general` mode, drawn from a named
+  external source ("[Company] predicted 3 months. It took them 11.") — not
+  framed either way.
 - One specific, dated, uncomfortable fact stated flat, with no framing sentence
   before or after it. Not "I'll be honest, this hurt: we lost the client." Just
   "We lost Carta as a client on 14 Feb." The fact carries the vulnerability. A
   framing sentence converts it into performed sincerity, which readers now read
-  as the tell.
+  as the tell. In `general` mode this fact belongs to the named external
+  example, not the user.
 
 Forbidden as openers or pivots (sincerity announcements, a named 2026 tell):
 "let me be honest", "I'll be real", "honestly?", "to be direct", "the honest

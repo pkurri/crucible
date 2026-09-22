@@ -22,6 +22,10 @@ Produce a 7-day LinkedIn plan built around the 3-pillar discipline (Authority
 40-50%, Personal Narrative 30-40%, Community 20-30%). Optionally adds a
 Product/Offer pillar at 10-15%.
 
+In `general` perspective mode (see Input below), the Narrative pillar becomes
+"Field Observation": stakes/vulnerability come from a named external example
+or documented incident instead of the user's own first-person story.
+
 ## When to use
 
 - User asks "plan my week" or "what should I post this week"
@@ -37,6 +41,11 @@ Product/Offer pillar at 10-15%.
   Community / 10% Product
 - **Posting days** (optional): defaults to Tue/Wed/Thu/Fri (4 posts)
 - **Voice samples** (optional): paths to past posts for voice calibration
+- **Perspective mode** (optional): `personal` (first-person, the user's real
+  experience) or `general` (third-person industry-observer, no invented "I
+  did X" anecdotes) — see `../linkedin-skills-shared/references/voice-profile.md`
+  §0. Defaults to `general` when nobody is present to confirm a real
+  personal incident.
 
 ## Output
 
@@ -68,7 +77,8 @@ For each posting day:
 
 ### Weekly inbound-readiness check
 
-- [ ] At least 1 vulnerability post (Narrative)
+- [ ] At least 1 vulnerability/stakes post (Narrative in `personal` mode, or a
+      named documented incident in `general` mode)
 - [ ] At least 1 receipt/data post (Authority)
 - [ ] At least 1 soft offer or CTA-driving post
 - [ ] Comment strategy includes 70% peers, 20% aspirational, 10% prospects
@@ -134,8 +144,10 @@ and flattens reach. Spread the goals across the week:
 
 ## Steps
 
-1. Gather inputs. Ask user for theme, audience, pillar preferences if not
-   provided.
+1. Gather inputs. Ask user for theme, audience, pillar preferences, and
+   perspective mode if not provided. If the run is unattended and no one can
+   answer, default perspective mode to `general` rather than guessing at a
+   real personal incident.
 2. Validate pillar mix sums to 100%; warn if any pillar >60%.
 3. For each posting day, pick:
    - Pillar (rotate to match mix)

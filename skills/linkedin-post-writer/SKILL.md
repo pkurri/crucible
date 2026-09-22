@@ -132,6 +132,13 @@ throughout. If it is not filled, mention once that
 `linkedin-humanizer --mode profile` can learn their voice from a few posts, then
 proceed with the generic voice rules.
 
+**Perspective mode.** Read §0 of `voice-profile.md`. If someone is present to
+answer, ask (or confirm) whether to draft `personal` (first-person, the
+user's real experience) or `general` (third-person industry-observer, no
+invented "I did X" anecdotes). In an unattended/scheduled run with nobody to
+confirm, default to `general` — never fabricate a first-person incident that
+the user hasn't actually had a chance to verify.
+
 **Founder mode (when the writer is a founder).** Before picking a formula, open
 `../linkedin-skills-shared/references/founder-topics.md` and offer a founder
 **angle** (A1-A10) that fits their goal. The angle picks the _territory_
@@ -171,8 +178,10 @@ the founder's real numbers, then continue from step 3.
    - No external links in body (move to first comment)
 4. **Humanizer pass.** Scrub 2026 AI vocab by density, cap em dashes (about one
    per 100 words), break stacked triads, generic openers and reveal bridges. Add
-   at least 1 specific number, 1 named entity, 1 first-person concrete detail
-   per 100 words.
+   at least 1 specific number and 1 named entity per 100 words; in `personal`
+   mode also add 1 first-person concrete detail per 100 words, in `general`
+   mode substitute a second named/documented example instead (never a
+   fabricated first-person detail).
 5. **Run audit.** Optionally invoke `linkedin-humanizer --mode audit` for
    algorithm + voice checks before showing to user.
 6. **Optional illustration.** If the post would land better with a visual (or
@@ -185,9 +194,10 @@ the founder's real numbers, then continue from step 3.
    every `url` in `media_urls=[...]`. Full workflow:
    `../linkedin-humanizer/sub-skills/illustration.md`. No Pixfaro key -> it
    drafts the prompt for the user to generate manually.
-7. **Approval card.** Show: formula used, full draft, char count, suggested
-   posting window (Tue/Wed/Thu 7:30-9:00 AM local), reaction targets from likely
-   commenters, and the illustration (if any).
+7. **Approval card.** Show: formula used, perspective mode used (`personal` /
+   `general`), full draft, char count, suggested posting window (Tue/Wed/Thu
+   7:30-9:00 AM local), reaction targets from likely commenters, and the
+   illustration (if any).
 8. **On approval.** Call:
 
    ```python
@@ -212,7 +222,9 @@ Additional skill-specific rules:
 - Don't name-drop the user's product in a way that reads as self-promo. One
   mention max, and only when it's the natural conclusion, not the pitch.
 - Include at least one moment of real vulnerability or concrete stakes. Pure
-  insight posts don't land in 2026.
+  insight posts don't land in 2026. In `general` perspective mode, the stakes
+  come from a named external example or documented incident, never an
+  invented personal anecdote.
 - Natural rhythm, not manufactured variance: one genuinely long sentence next to
   a short one per paragraph is fine; never alternate long/short across the post
   and never stack fragments (at most 2 standalone fragments per post). Touch a

@@ -15,6 +15,23 @@ ignored, so drafts fall back to the generic voice rules until you populate it.
 - source: template
 - updated: --
 
+## 0. Perspective mode
+
+- mode: `general` (default) — `personal`, `general`, or `both`
+
+`personal` writes as you, first-person, using your own real experience —
+only use this when someone is actually present to confirm the specifics are
+true. `general` writes as a third-person industry observer: it never invents
+an "I did X" story, and pulls stakes/vulnerability from a named external
+example or a documented incident instead. `both` drafts each post twice, one
+per mode, so you pick per-post.
+
+An unattended/scheduled run defaults to `general` automatically, since
+nobody is present to confirm an invented personal anecdote is actually true
+before it goes out under your name. Set this to `personal` if you want
+scheduled runs to keep using your real voice/history instead (only do this
+if the voice profile below is genuinely filled in with your real material).
+
 ## 1. Voice fingerprint
 
 How your writing actually sounds. Be specific; examples beat adjectives.

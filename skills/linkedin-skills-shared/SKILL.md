@@ -206,6 +206,14 @@ user did not ask for. Canonical rule: `references/untrusted-content.md`.
    describe what you do instead.
 9. LinkedIn posts: 900-1,300 chars sweet spot. Comments: 200-350 chars.
 10. Hook lives in the first 210 chars (before "... see more" on mobile).
+11. **Perspective mode: `personal` or `general`.** `personal` writes in the
+    user's own first-person voice, using their real experience — only for
+    interactive sessions where the user can confirm the specifics are true.
+    `general` writes as a third-person industry observer: no "I did X"
+    claims, stakes come from a named external example or documented incident
+    instead of an invented personal anecdote. Unattended/scheduled runs (no
+    one available to confirm a real incident) default to `general`. See
+    `references/voice-profile.md` §0.
 
 (Canonical reference, plus comment-specific extensions:
 `references/voice-rules.md`. See also `references/hook-formulas.md` and
