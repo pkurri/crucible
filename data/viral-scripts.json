@@ -47577,7 +47577,7 @@
     ]
   },
   "SolarIslandTech": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
         "text": "Nobody talks about the truth of SolarIslandTech.",
@@ -47608,7 +47608,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master SolarIslandTech, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more SolarIslandTech.",
         "duration": 5
       },
       {

@@ -41679,6 +41679,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SolarIslandTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Floating solar islands are a cutting‑edge solution to energy scarcity in remote coastal regions and wildfire‑prone areas. The concept blends renewable energy, engineering ingenuity, and sustainability, sparking immense curiosity and awe among audiences. With a clear visual appeal—solar panels on water—and societal relevance (climate resilience, off‑grid living), it stands out from saturated solar content and offers endless evergreen angles for series, micro‑tutorials, and case studies. The high production value potential (time‑lapse of island installation, drone shots) and strong shareability on social media position it for 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "The Ocean’s New Power Plant: How Solar Islands are Rewiring Off‑Grid Communities – 2‑Minute Hook: “Did you know the ocean can power cities without a single fossil fuel? Watch the future of energy unfold!”",
+        "From Dead Seas to Green Dreams: The Step‑by‑Step Construction of a Floating Solar Island – 2‑Minute Hook: “See the world’s most ambitious renewable project built in the middle of the ocean.”",
+        "Storm‑Proof Solar: Why Floating Islands Are the Only Way to Keep Energy Running During Blackouts – 2‑Minute Hook: “A hurricane hits – can your power stay on? Discover the secret.”"
+      ],
+      "keywords": [
+        "floating solar panels",
+        "off‑grid islands",
+        "renewable energy",
+        "eco‑friendly technology",
+        "sustainable islands"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
