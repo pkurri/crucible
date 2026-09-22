@@ -41766,6 +41766,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCamping",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity camping explores a combination of space‑flight ingenuity and the universal curiosity about living in free‑fall. With the rise of private spaceflight, zero‑G tech is becoming mainstream and the public’s imagination is captivated by the idea of camping under the stars without gravity. The niche is highly differentiated, offers scroll‑stopping ultra‑visual content (floating tents, zero‑G cooking, floating campfires), and can be expanded into dozens of stories – from zero‑G tiny houses to pets in free‑fall – making it perfect for 100K+ views per video.",
+      "ideas": [
+        "Zero‑Gravity Tent Life‑Stream: First Ever 24‑Hour Hanging Camp Adventure / Watch the tent float, firelight??",
+        "Floating BBQ Challenge! Cooking a Gourmet Meal in Zero‑G Mice‑Weight, No Spills Guaranteed / Can we taste a steak that doesn’t fall?",
+        "Zero‑G Wildlife Safari – Encounter Floating Animals & Fish in an Artificial Micro‑Gravity 🌊 Animal‑Freefall Mysteries"
+      ],
+      "keywords": [
+        "AntiGravity",
+        "SpaceTent",
+        "ZeroG",
+        "FloatingCamp",
+        "Interstellar"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
