@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T11:30:08.955Z",
+  "generatedAt": "2026-09-22T10:37:34.095Z",
   "platforms": [
     {
       "platform": "youtube",
@@ -8,8 +8,8 @@
     {
       "platform": "facebook",
       "page": "AAK Nation",
-      "followers": 17,
-      "followerEligibilityProgress": 0.0017,
+      "followers": 18,
+      "followerEligibilityProgress": 0.0018,
       "monetizationStatus": "not_eligible",
       "note": "In-stream ads eligibility also requires meeting Meta Partner Monetization Policies and a recent watch-time minimum — this only checks the follower count proxy. Verify actual status in Meta Business Suite."
     },
