@@ -12465,43 +12465,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Diet",
+        "name": "Blue Juice",
+        "icon": "💧"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Morning Walk",
+        "icon": "🚶"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "30‑Min Night",
+        "icon": "🛌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mind",
+        "name": "Micro Med",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electro Hydrate",
+        "icon": "🥤"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Laugh Circles",
+        "icon": "😂"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Gut",
+        "name": "Fermented Foods",
+        "icon": "🥖"
       }
     ]
   },
@@ -35640,43 +35646,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Neon Flora",
+        "name": "Glow Orchid",
+        "icon": "🌸"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Urban Hydroponics",
+        "name": "LED Aquafarm",
+        "icon": "💧"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Biotic Lighting",
+        "name": "Moth Net Grid",
+        "icon": "🦋"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Energy Source",
+        "name": "Blue Flagellate Solar",
+        "icon": "🔋"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Public Transit",
+        "name": "Biolum Trans",
+        "icon": "🚋"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Night Markets",
+        "name": "Glow Bazaar",
+        "icon": "🛍️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sky Lines",
+        "name": "Chili Aurora",
+        "icon": "🌌"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Resilient Architecture",
+        "name": "Glowing Arches",
+        "icon": "🏛️"
       }
     ]
   },
@@ -40363,39 +40375,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of BioluminescentCities.",
+        "text": "Imagine cities that glow without batteries.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "Tonight, I’ll reveal the secret of bioluminescent streets.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "text": "Bioluminescent algae already light Tokyo parks.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "These tiny organisms emit 99% less heat than LEDs.",
+        "duration": 5
+      },
+      {
+        "text": "Future skylines will look like bioluminescent art.",
+        "duration": 5
+      },
+      {
+        "text": "But one hidden danger could dim this glow forever.",
+        "duration": 4
+      },
+      {
+        "text": "If we ignore microbial stability, the whole plan fails.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next up: how to grow glowing skyscrapers.",
         "duration": 4
       }
     ]
@@ -86984,6 +86996,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790093955522": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790093955522 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Foundations",
+        "name": "Core Workflow Designer",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time KPI Dash",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "Auto‑Trigger Events",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "Granular User Policies",
+        "icon": "🔐"
+      },
+      {
+        "title": "Integration",
+        "name": "API‑First Connectors",
+        "icon": "🔌"
+      },
+      {
+        "title": "Collaboration",
+        "name": "Live Chat Hub",
+        "icon": "💬"
+      },
+      {
+        "title": "Customizability",
+        "name": "Drag‑And‑Drop UI",
+        "icon": "🖱️"
+      },
+      {
+        "title": "Compliance",
+        "name": "GDPR & ISO Ready",
+        "icon": "👁️"
       }
     ]
   }
