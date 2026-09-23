@@ -42135,6 +42135,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SolarPoweredMegaCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The global surge in renewable energy interest, rising fascination with hyper‑sustainable urban planning, and the visual allure of expansive, sun‑infused megacities create a fresh, high‑impact niche. It is distinctly different from current solar or city‑tour channels, supports endless carousel‑style or 360° “virtual tours”, and fuels curiosity‑driven discussion about the future of living in zero‑emission environments.",
+      "ideas": [
+        "The Complete Solar City Blueprint — How 1,000,000 People Could Live on 100% Sun Power (Scroll‑stopper: *100% solar? 5M buildings?*)",
+        "From Concept to Reality: 3 New Solar‑Powered Megastructures That Will Blow Your Mind (Hook: *You’ll never believe how one city cradles the sun*)",
+        "Day‑In‑The‑Life of a Solar‑Powered Megacity — See How Every Building Generates Its Own Energy (Curiosity Loop: *What’s inside that rooftop?*)"
+      ],
+      "keywords": [
+        "Solar",
+        "Megacity",
+        "RenewableEnergy",
+        "DroneFlythrough",
+        "Futuristic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
