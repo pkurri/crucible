@@ -42036,6 +42036,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MyceliumArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The rapid rise of interest in bio‑inspired, sustainable design makes the concept of a mushroom‑based skyscraper both novel and highly visual. 48‑hour growth time‑lapse footage, concrete structural tests, and the dramatic contrast between organic growth and engineered architecture create irresistibly scroll‑stopping hook content. The niche is distinct from mainstream AI or fossil‑fuel channels yet lends itself to endless variations on shape, scale, and material, ensuring over 25 fresh viral concepts.",
+      "ideas": [
+        "From Soil to Skyscraper: 48‑Hour Mycelium Building Time‑Lapse! / Watch a mushroom grow into a miracle structure in real time.",
+        "What Happens When a Mushroom Becomes a Bridge? / The first spore‑made arch tested against real wind.",
+        "Can Mycelium Out‑Strengthen Concrete? 30‑Day Growth Experiment! / A time‑lapse showdown that will blow your mind."
+      ],
+      "keywords": [
+        "Fungal",
+        "Spongy",
+        "Bioluminescent",
+        "TimeLapse",
+        "Experimental"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
