@@ -41943,6 +41943,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroWasteCity",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The concept of a fully sustainable, waste‑free metropolis combines the high public interest in climate change, futuristic urban design, and DIY circular economy hacks. It offers fresh, visually compelling stories that can be broken into countless micro‑episodes, from underground waste‑sorting labs to rooftop algae farms, making it ideal for serial content with click‑through potential across YouTube and Meta platforms.",
+      "ideas": [
+        "The City That Sees Nothing: Inside the World's First Zero‑Waste Metropolis",
+        "From Trash to Treasure: 6 Secret Technologies Turning City Garbage Into Gold",
+        "How a New U‑City Is Recycling 90% of Household Waste With One Machine"
+      ],
+      "keywords": [
+        "Biodegradable",
+        "Self‑sustaining",
+        "Circular",
+        "Smart",
+        "Renewable"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
