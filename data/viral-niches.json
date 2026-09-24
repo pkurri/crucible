@@ -42327,6 +42327,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "LivingFurniture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Living Furniture blends sustainability, interior design, and plant science into a visually stunning, hyper‑shareable format. Time‑lapse videos of a chair growing from a seed, practical DIY hacks, and the emotional appeal of creating furniture that literally breathes tap into current trends for eco‑friendly living, home décor stunners, and viral slow‑motion content. The niche is untouched in existing listings, offering fresh hooks, endless visual variations, and a community eager to test, fail, and showcase their own living pieces. It naturally encourages scroll‑stopping thumbnails, curiosity loops around “will it stand?” and builds a loyal, engaged audience on both Meta (short clips, IG Reels, Facebook Stories) and YouTube (longer tutorials, 4K timelapses).",
+      "ideas": [
+        "How to Grow a Living Sofa in 30 Days – The Ultimate Plant Furniture Experiment",
+        "The SHOCKING Truth Behind Living Furniture – Does a Plant Chair Handle 120 Weeks?",
+        "Living Furniture Night Edition – Watch a Light‑Installing Plant Table Light Up!"
+      ],
+      "keywords": [
+        "TimeLapse",
+        "LivingFurniture",
+        "SustainableDesign",
+        "PlantArt",
+        "SlowMotion"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
