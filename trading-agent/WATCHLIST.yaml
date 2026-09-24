@@ -1,0 +1,55 @@
+watchlist_version: '2.0.0'
+# Rebuilt 2026-09-23 from the actual Agentic-account holdings, replacing the
+# placeholder large-caps. This is the ONLY universe the agent may analyze.
+# Never add a name because it appeared in social chatter or a news scan.
+
+# Real, listed, liquid companies currently held. These are analyzable on
+# fundamentals, so the agent can produce an honest hold/trim/exit read on each.
+symbols:
+  - LULU
+  - IONQ
+  - QS
+  - LCID
+  - NIO
+  - FUBO
+  - PSFE
+  - AMC
+  - SPCE
+
+# Held, but not an operating company. RVII is Robinhood Ventures Fund II, a
+# closed-end BDC holding early-stage private companies. It reports no P/E, no
+# employees and no CEO because there is nothing to report them for; its value
+# comes from marks on illiquid private positions. The six-step loop in AGENT.md
+# assumes an operating business, so running it here would manufacture an
+# analysis rather than produce one. Removed from the universe 2026-09-23 after
+# the first analysis pass surfaced the mismatch.
+excluded_wrong_class:
+  - RVII
+
+# Held, but deliberately NOT analyzable. Listed here so the exclusion is a
+# recorded decision rather than an oversight.
+
+# Bankruptcy shells. State is 'unlisted', combined market value is under one
+# cent, and there is no business left to value. Nothing to analyze; the only
+# open question is whether to close them for the realized tax loss.
+excluded_dead:
+  - SRNE
+  - ARVLF
+  - OTRKQ
+
+# Still listed and trading, but now a sub-$1 microcap. Position value is under
+# a dollar, so any analysis costs more than the outcome can possibly matter.
+excluded_micro:
+  - KITT
+
+# Daily-rebalanced leveraged and inverse products. These track a multiple of
+# one day's move, not the underlying over time, so path volatility erodes them
+# by construction. They cannot be analyzed with the fundamental workflow in
+# AGENT.md, and a buy-and-hold thesis on one is a category error rather than a
+# bad forecast.
+excluded_leveraged:
+  - NAIL
+  - SOLT
+  - HIMZ
+  - XXRP
+  - TSLQ

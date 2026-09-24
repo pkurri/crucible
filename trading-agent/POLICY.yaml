@@ -1,0 +1,54 @@
+policy_version: '2.0.0'
+
+# Phase 2. Proposals may be formed and frozen; no order tool may be called.
+# Promotion path: research_only -> shadow -> tiny_live -> limited_automation
+mode: shadow
+
+account_scope: agentic_only
+assets: [equity]
+long_only: true
+
+# The Agentic account is limited margin, not the cash account the pilot first
+# assumed. Limited margin may reuse unsettled sale proceeds; margin borrowing
+# is not enabled and must never be relied on.
+account_type: limited_margin
+settlement:
+  reuse_unsettled_proceeds: true
+  equity_settlement_days: 1
+  margin_borrowing_enabled: false
+
+# Existing holdings count toward every limit (user decision, 2026-09-23).
+# The account holds 19 positions against max_positions 1, and its largest
+# holding is ~49% against max_position_pct 12. Both are standing breaches.
+# The consequence is deliberate and must not be "fixed" by raising a limit:
+# no new buy can pass the gate until the breaches are cured, and only exits
+# can cure them.
+legacy_positions_count_toward_limits: true
+
+max_positions: 1
+max_position_pct: 12
+budget_usd: 2600
+max_order_usd: 312
+daily_loss_limit_pct: 3
+
+order_type: limit
+require_order_preview: true
+require_human_approval: true
+regular_hours_only: true
+allow_scheduled_execution: false
+
+# Quote older than this is treated as missing data -> NO_TRADE.
+max_quote_age_seconds: 120
+
+# Minimum score (0-100) a proposal must clear before it may be PROPOSE_ORDER.
+min_score_to_propose: 70
+
+# Shadow mode only. This cash exists in the simulation and nowhere else; it is
+# never read by anything that can place an order, and the real account's
+# balance is unaffected. It exists so the buy path can be exercised over the
+# 20-session shadow period despite the account holding $10.80 in cash.
+shadow:
+  notional_cash_usd: 500
+  sessions_required: 20
+  record_preview: true
+  placement_enabled: false

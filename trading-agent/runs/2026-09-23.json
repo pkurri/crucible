@@ -1,0 +1,253 @@
+{
+  "session": "2026-09-23",
+  "market_session": "regular",
+  "agent_version": "AGENT.md Phase 1",
+  "policy_version": "1.0.0",
+  "watchlist_version": "2.0.0",
+  "sources": [
+    "get_accounts",
+    "get_equity_positions",
+    "get_equity_quotes",
+    "get_equity_tradability",
+    "get_equity_fundamentals"
+  ],
+  "context": {
+    "note": "Single-session snapshot. No broad-market index, volatility, or sector series was pulled this run, so every plan below carries that as a data-quality limitation rather than assuming a regime.",
+    "regime": "unestablished"
+  },
+  "plans": [
+    {
+      "symbol": "LULU",
+      "horizon": "long-term",
+      "thesis": "A profitable global apparel brand is priced at a single-digit earnings multiple, which implies permanent impairment rather than a cyclical slowdown.",
+      "evidence": [
+        "P/E 8.50 and P/B 2.42 on a $11.8B market cap",
+        "Profitable, unlike every other operating company on this watchlist",
+        "39,000 employees and an established multi-segment retail business founded 1998",
+        "Average volume 6.1M shares over two weeks supports orderly entry and exit"
+      ],
+      "counterevidence": [
+        "Down 55% from a 52-week high of $225.98",
+        "Set a new 52-week low of $95.35 on 2026-09-17, six sessions ago, so the downtrend is current",
+        "30-day average volume 7.85M exceeds the 2-week 6.11M, meaning participation is fading as price falls",
+        "No income-statement or guidance data was pulled, so the multiple cannot be checked against forward earnings"
+      ],
+      "catalyst": "None dated. No earnings date was retrieved this session.",
+      "entry_condition": "Not established. Requires a dated catalyst and confirmation the 52-week low holds.",
+      "invalidation": "A close below $95.35 on above-average volume, or evidence the trailing multiple reflects a non-recurring item.",
+      "max_position_pct": 12,
+      "confidence": "medium",
+      "decision": "NO_TRADE",
+      "score": 58,
+      "quote_age_seconds": 14
+    },
+    {
+      "symbol": "FUBO",
+      "horizon": "swing",
+      "thesis": "The stock trades at 37% of book value with a positive earnings multiple, which would be a deep value signal if the earnings were recurring.",
+      "evidence": [
+        "P/B 0.367 — priced at roughly a third of stated book value",
+        "P/E 2.35 is positive, the only positive multiple among the operating companies here",
+        "Market cap $1.05B against 109.2M shares outstanding"
+      ],
+      "counterevidence": [
+        "A P/E of 2.35 is far outside any normal range and most likely reflects a one-time gain rather than run-rate earnings; the income statement was not pulled, so this is unverified",
+        "Float is 29.6M against 109.2M shares outstanding — roughly 73% is closely held, so the price is set by a thin minority of the shares",
+        "Two-week average volume of 1.38M is low for a $1B market cap",
+        "Down from a 52-week high of $56.64 set exactly one year ago"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Not established. Requires confirming whether trailing earnings are recurring.",
+      "invalidation": "Confirmation that trailing net income is a non-recurring transaction gain, which would void the entire valuation case.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 45,
+      "quote_age_seconds": 16
+    },
+    {
+      "symbol": "PSFE",
+      "horizon": "long-term",
+      "thesis": "A payments business trading at 0.60x book could be mispriced if the loss is cyclical rather than structural.",
+      "evidence": [
+        "P/B 0.603 against a $332M market cap",
+        "Established 1996 with 2,900 employees and two named operating segments"
+      ],
+      "counterevidence": [
+        "P/E -1.76: currently lossmaking, so the discount to book may be the market pricing further losses",
+        "Down from a 52-week high of $13.84 set exactly one year ago",
+        "No income statement was pulled, so whether the loss is narrowing or widening is unknown",
+        "Float of 23.2M shares is thin in absolute terms; this is safe at the $312 policy order size but would not scale"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Not established. Requires evidence on loss trajectory.",
+      "invalidation": "Evidence that operating losses are widening rather than narrowing.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 38,
+      "quote_age_seconds": 17
+    },
+    {
+      "symbol": "IONQ",
+      "horizon": "swing",
+      "thesis": "Cannot be stated. Today's price action has an explanation this session did not retrieve.",
+      "evidence": [
+        "Price $42.74, up 4.9% from a previous close of $40.74",
+        "Market capitalization $17.4B"
+      ],
+      "counterevidence": [
+        "Volume today is 66.3M against an 18.3M two-week average — a 3.6x spike with no retrieved cause",
+        "P/E -8.96: lossmaking, so the $17.4B valuation rests entirely on future expectations",
+        "P/B 4.67 with only 1,132 employees means the market cap is roughly $15M per employee",
+        "Intraday range $41.63 to $46.02 is 10% of the price, indicating unstable pricing"
+      ],
+      "catalyst": "Unknown. A 3.6x volume spike implies one exists and was not identified.",
+      "entry_condition": "Not established. Analyzing a volume spike without knowing its cause is prohibited by the no-manufactured-facts rule.",
+      "invalidation": "Not applicable — no thesis was formed.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 30,
+      "quote_age_seconds": 12
+    },
+    {
+      "symbol": "QS",
+      "horizon": "long-term",
+      "thesis": "A pre-revenue solid-state battery developer whose value is a binary technology outcome, not a financial one.",
+      "evidence": [
+        "Market cap $3.07B with 700 employees",
+        "Two-week average volume 11.2M supports liquidity"
+      ],
+      "counterevidence": [
+        "P/E -7.54 and no revenue line to analyze; the fundamental workflow has almost nothing to work with",
+        "Down from a 52-week high of $19.07 to $4.98, a 74% decline",
+        "P/B 2.98 for a company whose book is largely cash awaiting consumption",
+        "Outcome depends on a commercialization event with no retrievable date"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Not established. A binary technology bet cannot satisfy the falsifiable-plan requirement.",
+      "invalidation": "Not applicable — no thesis was formed.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 28,
+      "quote_age_seconds": 15
+    },
+    {
+      "symbol": "NIO",
+      "horizon": "long-term",
+      "thesis": "A high-volume EV manufacturer whose book value does not support the current capitalization.",
+      "evidence": [
+        "Market cap $8.97B with 35,032 employees and three vehicle brands",
+        "Two-week average volume 33.8M shares is ample"
+      ],
+      "counterevidence": [
+        "P/B 15.59 — the most expensive book multiple on this watchlist by a wide margin",
+        "P/E -13.52: lossmaking while priced at a growth multiple on assets",
+        "Price $3.67 against a 52-week low of $3.55 set on 2026-09-15, so it is sitting on its lows",
+        "A China-domiciled ADR carries delisting and geopolitical risk this workflow has no way to price"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Not established.",
+      "invalidation": "A close below the $3.55 52-week low.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 25,
+      "quote_age_seconds": 13
+    },
+    {
+      "symbol": "SPCE",
+      "horizon": "long-term",
+      "thesis": "A pre-revenue spaceflight operator consuming cash against a $472M capitalization.",
+      "evidence": [
+        "Market cap $472M with 694 employees",
+        "P/B 1.18, so the market is paying close to stated book"
+      ],
+      "counterevidence": [
+        "P/E -0.98 implies losses approaching the entire market capitalization over the trailing period",
+        "Down from a 52-week high of $8.90 set 2026-06-01 to $3.135, a 65% decline in under four months",
+        "Book value is consumable cash for a pre-revenue operator, so P/B near 1.0 is not support",
+        "No revenue line to analyze"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Not established.",
+      "invalidation": "Not applicable — no thesis was formed.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 22,
+      "quote_age_seconds": 15
+    },
+    {
+      "symbol": "AMC",
+      "horizon": "swing",
+      "thesis": "Cannot be stated on fundamentals. Stated book value is negative.",
+      "evidence": [
+        "Market cap $2.57B with 33,311 employees across US and international theatre segments",
+        "Two-week average volume 29.7M is highly liquid"
+      ],
+      "counterevidence": [
+        "P/B -1.82: liabilities exceed assets, so there is no book-value floor beneath the equity",
+        "P/E -2.80: lossmaking on top of negative book",
+        "Price $2.905 sits near the 52-week high of $3.18 after tripling from a $0.93 low on 2026-03-27 — this is the opposite of a value entry point",
+        "Equity in a negative-book business is a residual claim, which the fundamental workflow cannot value"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Not established. Negative book value is a hard stop for this workflow.",
+      "invalidation": "Not applicable — no thesis was formed.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 20,
+      "quote_age_seconds": 14
+    },
+    {
+      "symbol": "LCID",
+      "horizon": "long-term",
+      "thesis": "Cannot be stated on fundamentals. Stated book value is negative.",
+      "evidence": [
+        "Market cap $1.64B with 9,000 employees and an operating vehicle and battery business",
+        "Two-week average volume 12.8M is adequate"
+      ],
+      "counterevidence": [
+        "P/B -1.61: liabilities exceed assets",
+        "P/E -0.32 implies trailing losses roughly three times the current market capitalization",
+        "Down from a 52-week high of $25.23 to $4.115, an 84% decline",
+        "A capital-intensive manufacturer with negative book depends on continued external funding, which dilutes existing holders"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Not established. Negative book value is a hard stop for this workflow.",
+      "invalidation": "Not applicable — no thesis was formed.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 18,
+      "quote_age_seconds": 13
+    },
+    {
+      "symbol": "RVII",
+      "horizon": "long-term",
+      "thesis": "Not analyzable by this workflow. RVII is a business development company, not an operating business.",
+      "evidence": [
+        "Robinhood Ventures Fund II is a closed-end BDC investing in early-stage private companies",
+        "P/B 0.942, so it trades slightly below stated net asset value"
+      ],
+      "counterevidence": [
+        "No P/E, no employees and no CEO are reported, because there is no operating business to report them for",
+        "Value derives from marks on illiquid private holdings, not from earnings this workflow can read",
+        "Two-week average volume of 229,364 shares against a 9.07M share float is thin",
+        "AGENT.md's six-step loop assumes an operating company; applying it here would manufacture an analysis"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Not established. Wrong instrument class for this workflow.",
+      "invalidation": "Not applicable — no thesis was formed.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 0,
+      "quote_age_seconds": 18
+    }
+  ]
+}

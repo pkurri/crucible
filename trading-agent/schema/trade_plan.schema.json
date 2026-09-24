@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Trade Plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "symbol",
+    "horizon",
+    "thesis",
+    "evidence",
+    "counterevidence",
+    "catalyst",
+    "entry_condition",
+    "invalidation",
+    "max_position_pct",
+    "confidence",
+    "decision"
+  ],
+  "properties": {
+    "symbol": {
+      "type": "string",
+      "pattern": "^[A-Z.]{1,6}$"
+    },
+    "horizon": {
+      "enum": ["intraday", "swing", "long-term"]
+    },
+    "thesis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "counterevidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "catalyst": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entry_condition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "invalidation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "max_position_pct": {
+      "type": "number",
+      "description": "Copied from POLICY.yaml. The model never chooses this.",
+      "exclusiveMinimum": 0
+    },
+    "confidence": {
+      "enum": ["low", "medium", "high"],
+      "description": "Narrative confidence only. Never an input to position size."
+    },
+    "decision": {
+      "enum": ["NO_TRADE", "PROPOSE_ORDER"]
+    },
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "quote_age_seconds": {
+      "type": "number",
+      "minimum": 0
+    },
+    "order": {
+      "type": "object",
+      "description": "Required when decision is PROPOSE_ORDER. These fields define the proposal's frozen identity.",
+      "additionalProperties": false,
+      "required": [
+        "action",
+        "order_type",
+        "quantity",
+        "limit_price",
+        "time_in_force"
+      ],
+      "properties": {
+        "action": {"enum": ["buy", "sell"]},
+        "order_type": {"enum": ["limit"]},
+        "quantity": {"type": "number", "exclusiveMinimum": 0},
+        "limit_price": {"type": "number", "exclusiveMinimum": 0},
+        "time_in_force": {"enum": ["gfd", "gtc"]}
+      }
+    }
+  }
+}

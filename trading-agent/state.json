@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "policy_version": "2.0.0",
+  "mode": "shadow",
+  "last_run_utc": "2026-09-23T19:42:18+00:00",
+  "sessions_completed": {
+    "research": 1,
+    "shadow": 1
+  },
+  "last_decisions": {},
+  "open_proposal_ids": ["d9bb337d0e95d81f", "eb5e57c1b84d18d4"],
+  "anomalies": [
+    {
+      "utc": "2026-09-23T19:42:18+00:00",
+      "note": "shadow.py was run a second time on the same session file to verify the duplicate gate. Both proposals were correctly rejected as duplicates. The counter self-incremented to 2 and was corrected back to 1 by hand: a re-run of one session file is not a second market session. The two ledger rows from that run are real records and were left in place.",
+      "counts_toward_shadow_period": false
+    },
+    {
+      "utc": "2026-09-24T13:25:00+00:00",
+      "note": "Proposal lifecycle bug found and fixed before session 02. open_proposal_ids accumulated forever, so yesterday's two GFD proposals would have rejected an identical order today as a duplicate. A GFD order dies at the close and a filled one is done; only an unfilled GTC carries forward. State migrated from the ledger. No ledger row was altered.",
+      "counts_toward_shadow_period": false
+    }
+  ],
+  "open_proposals": [
+    {
+      "id": "eb5e57c1b84d18d4",
+      "session": "2026-09-23-shadow-01",
+      "symbol": "LCID",
+      "tif": "gfd",
+      "filled": true
+    },
+    {
+      "id": "d9bb337d0e95d81f",
+      "session": "2026-09-23-shadow-01",
+      "symbol": "AMC",
+      "tif": "gfd",
+      "filled": false
+    }
+  ]
+}

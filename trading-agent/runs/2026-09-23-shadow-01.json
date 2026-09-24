@@ -1,0 +1,160 @@
+{
+  "session": "2026-09-23-shadow-01",
+  "market_session": "regular",
+  "agent_version": "AGENT.md Phase 2",
+  "policy_version": "2.0.0",
+  "watchlist_version": "2.1.0",
+  "sources": [
+    "get_equity_positions",
+    "get_equity_quotes",
+    "get_equity_fundamentals"
+  ],
+  "context": {
+    "note": "Broad-market regime still not pulled. Recorded as a limitation on every plan; closing this gap is tracked as a Phase 2 task.",
+    "regime": "unestablished"
+  },
+  "portfolio": {
+    "equity_value": 2514.76,
+    "positions": {
+      "NAIL": {"quantity": 40.360611, "value": 1228.38},
+      "LULU": {"quantity": 3.0, "value": 306.8},
+      "SOLT": {"quantity": 2.532948, "value": 179.46},
+      "RVII": {"quantity": 6.0, "value": 135.42},
+      "AMC": {"quantity": 46.54036, "value": 133.57},
+      "IONQ": {"quantity": 3.0, "value": 128.22},
+      "NIO": {"quantity": 26.0, "value": 95.42},
+      "HIMZ": {"quantity": 3.512481, "value": 91.78},
+      "QS": {"quantity": 16.0, "value": 79.68},
+      "FUBO": {"quantity": 4.916667, "value": 47.55},
+      "PSFE": {"quantity": 5.0, "value": 31.95},
+      "XXRP": {"quantity": 0.745006, "value": 26.64},
+      "TSLQ": {"quantity": 0.70727, "value": 12.02},
+      "LCID": {"quantity": 2.1, "value": 8.72},
+      "SPCE": {"quantity": 2.75, "value": 8.62},
+      "KITT": {"quantity": 1.0, "value": 0.53},
+      "SRNE": {"quantity": 3.0, "value": 0.0},
+      "ARVLF": {"quantity": 1.0, "value": 0.0},
+      "OTRKQ": {"quantity": 2.0, "value": 0.0}
+    }
+  },
+  "markets": {
+    "LCID": {"bid": 4.15, "ask": 4.16, "last": 4.15},
+    "AMC": {"bid": 2.87, "ask": 2.88, "last": 2.87},
+    "LULU": {"bid": 102.22, "ask": 102.29, "last": 102.265}
+  },
+  "plans": [
+    {
+      "symbol": "LCID",
+      "horizon": "swing",
+      "thesis": "Equity in a business whose liabilities exceed its assets has no book-value floor, so the position should be closed rather than held for a recovery.",
+      "evidence": [
+        "P/B -1.61: stated book value is negative, so liabilities exceed assets",
+        "P/E -0.32 implies trailing losses roughly three times the $1.64B market cap",
+        "A capital-intensive manufacturer in this position depends on external funding, which dilutes existing holders",
+        "Position is $8.72 of a $2,514 account, so closing it costs almost nothing in slippage"
+      ],
+      "counterevidence": [
+        "The position is small enough that closing it changes little; the tax loss is the main benefit",
+        "Negative book value can be reversed by a capital raise, which would not necessarily be bad for the equity",
+        "No income statement was pulled, so the trajectory of losses is unverified",
+        "Broad-market regime was not established this session"
+      ],
+      "catalyst": "None dated. The exit case rests on balance-sheet condition, not on an event.",
+      "entry_condition": "Enter a sell limit at 4.14, at or below the prevailing bid of 4.15.",
+      "invalidation": "Evidence that stated book value has turned positive, or a funded path to profitability.",
+      "max_position_pct": 12,
+      "confidence": "high",
+      "decision": "PROPOSE_ORDER",
+      "score": 84,
+      "quote_age_seconds": 22,
+      "order": {
+        "action": "sell",
+        "order_type": "limit",
+        "quantity": 2.1,
+        "limit_price": 4.14,
+        "time_in_force": "gfd"
+      }
+    },
+    {
+      "symbol": "AMC",
+      "horizon": "swing",
+      "thesis": "Negative book value plus a price near its 52-week high is the worst combination of the two: no asset floor beneath the equity, and no discount being offered for it.",
+      "evidence": [
+        "P/B -1.82: liabilities exceed assets",
+        "P/E -2.80: lossmaking on top of negative book",
+        "Price $2.87 sits near the 52-week high of $3.18 after tripling from a $0.93 low on 2026-03-27",
+        "Two-week average volume of 29.7M means a 46-share exit has no market impact"
+      ],
+      "counterevidence": [
+        "Selling near a 52-week high after a triple means forgoing any continuation of that move",
+        "The position carries a $618 unrealized loss whose tax value is only realized on sale, which argues for the sale but also biases the analysis toward it",
+        "A negative-book business can still be repriced by refinancing news",
+        "Broad-market regime was not established this session"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Enter a sell limit at 2.90, above the prevailing bid of 2.87, accepting that it may not fill.",
+      "invalidation": "Stated book value turns positive, or a refinancing removes the solvency concern.",
+      "max_position_pct": 12,
+      "confidence": "medium",
+      "decision": "PROPOSE_ORDER",
+      "score": 78,
+      "quote_age_seconds": 25,
+      "order": {
+        "action": "sell",
+        "order_type": "limit",
+        "quantity": 46.54036,
+        "limit_price": 2.9,
+        "time_in_force": "gfd"
+      }
+    },
+    {
+      "symbol": "LULU",
+      "horizon": "long-term",
+      "thesis": "A profitable brand at a single-digit earnings multiple is worth adding to, if the account had room and the evidence cleared the bar.",
+      "evidence": [
+        "P/E 8.50 on a profitable $11.8B business",
+        "Two-week average volume 6.1M supports orderly entry"
+      ],
+      "counterevidence": [
+        "Made a new 52-week low of $95.35 six sessions ago; the downtrend is current",
+        "No dated catalyst was retrieved",
+        "30-day volume exceeds 2-week volume, so participation is fading as price falls",
+        "Broad-market regime was not established this session"
+      ],
+      "catalyst": "None dated.",
+      "entry_condition": "Enter a buy limit at 102.00, at or below the prevailing bid.",
+      "invalidation": "A close below $95.35 on above-average volume.",
+      "max_position_pct": 12,
+      "confidence": "medium",
+      "decision": "PROPOSE_ORDER",
+      "score": 58,
+      "quote_age_seconds": 30,
+      "order": {
+        "action": "buy",
+        "order_type": "limit",
+        "quantity": 3.0,
+        "limit_price": 102.0,
+        "time_in_force": "gfd"
+      }
+    },
+    {
+      "symbol": "IONQ",
+      "horizon": "swing",
+      "thesis": "Cannot be stated. Today's 3.6x volume spike has an explanation this session did not retrieve.",
+      "evidence": ["Volume 66.3M against an 18.3M two-week average"],
+      "counterevidence": [
+        "The cause of the spike is unknown, and inventing one is prohibited",
+        "P/E -8.96 on a $17.4B capitalization",
+        "Broad-market regime was not established this session"
+      ],
+      "catalyst": "Unknown.",
+      "entry_condition": "Not established.",
+      "invalidation": "Not applicable — no thesis was formed.",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 30,
+      "quote_age_seconds": 28
+    }
+  ]
+}
