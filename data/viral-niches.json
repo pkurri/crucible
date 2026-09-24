@@ -42372,6 +42372,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobiomeBeauty",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "With rising interest in biohacking and personalized wellness, the idea that slimy, unseen microbes in our gut can dictate skin health is both shocking and highly visual. Faceless videos can showcase vibrant, glowing animations of microbial ecosystems linked to everyday foods, captivating effects that entice viewers to keep scrolling. This niche offers endless curated content: food‑microbe pairings, gut‑skin charts, and DIY microbiome tips—all topics trending on social platforms. Its novelty, low creator barrier, and high viewer engagement potential make it a top‑tier viral niche.",
+      "ideas": [
+        "Can Your Gut Decide When You’re Going to Shine? 🔬✨ #MicrobiomeBeauty Explained! - Hook: What if I told you that the tiny bugs in your belly are the real secret to flawless skin? You’re about to find out!",
+        "Top 5 Food Bacteria That Are Making Models Look Flawless!!! - Hook: Everyone’s chasing Instagram glow—here’s the bacteria that actually help. Step‑by‑step guide!",
+        "The Skincare Hack That Uses Invisible Gut Microbes (No Filters Needed) - Hook: Forget expensive creams; your microbiome is your new skincare guru. Watch the transformation in 60 seconds!"
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Glowing",
+        "Chroma",
+        "Vibrant",
+        "Translucent"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
