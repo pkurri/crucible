@@ -1,4 +1,4 @@
-policy_version: '2.0.0'
+policy_version: '3.0.0'
 
 # Phase 2. Proposals may be formed and frozen; no order tool may be called.
 # Promotion path: research_only -> shadow -> tiny_live -> limited_automation
@@ -18,15 +18,31 @@ settlement:
   margin_borrowing_enabled: false
 
 # Existing holdings count toward every limit (user decision, 2026-09-23).
-# The account holds 19 positions against max_positions 1, and its largest
-# holding is ~49% against max_position_pct 12. Both are standing breaches.
-# The consequence is deliberate and must not be "fixed" by raising a limit:
-# no new buy can pass the gate until the breaches are cured, and only exits
-# can cure them.
+# The account holds 19 positions against max_positions 4, and its largest
+# holding is ~49% against a 12% single-name cap. Both remain standing
+# breaches. The consequence is deliberate: no new single-name buy passes the
+# gate until they are cured, and only exits cure them.
 legacy_positions_count_toward_limits: true
 
-max_positions: 1
-max_position_pct: 12
+# Set deliberately on 2026-09-24, with nothing pending, to fit the intended
+# structure: a diversified index core plus a small agent sleeve. This is
+# design, not rationalisation. The rule it must not become is bending a limit
+# to admit a specific blocked order — that stays forbidden.
+#   2 core funds + 2 agent positions = 4
+max_positions: 4
+
+# Caps differ by asset class, because a 500-company index fund and a single
+# penny stock are not the same kind of risk. Applying one number to both
+# flags the safest available holding as the riskiest thing in the account.
+max_position_pct: 12 # single names
+max_position_pct_diversified: 85 # broad index / treasury funds
+
+# Capital the agent may deploy into single names. The index core is not the
+# agent's business and does not count against this. The playbook's framing:
+# a dedicated, capped-risk experiment, not a connection to the whole
+# portfolio with no blast-radius limit.
+agent_sleeve_usd: 450
+
 budget_usd: 2600
 max_order_usd: 312
 daily_loss_limit_pct: 3

@@ -111,7 +111,36 @@ def load_policy(path: Path = POLICY_PATH) -> dict[str, Any]:
 
 
 def load_watchlist(path: Path = WATCHLIST_PATH) -> list[str]:
+    """Every symbol the agent may act on: single names plus the fund core."""
+    data = load_yaml(path)
+    return list(data["symbols"]) + list(data.get("diversified_funds") or [])
+
+
+def load_single_names(path: Path = WATCHLIST_PATH) -> list[str]:
     return list(load_yaml(path)["symbols"])
+
+
+def load_diversified_funds(path: Path = WATCHLIST_PATH) -> list[str]:
+    return list(load_yaml(path).get("diversified_funds") or [])
+
+
+def is_diversified(symbol: str, funds: list[str] | None = None) -> bool:
+    """A broad index or treasury fund, not a single company.
+
+    One VOO position is 500 companies, so applying a single-name
+    concentration cap to it flags the safest holding in the account as the
+    riskiest. Membership is an explicit list, not a heuristic: a sector or
+    thematic ETF is a single bet wearing a fund's clothing and does not
+    belong here.
+    """
+    funds = load_diversified_funds() if funds is None else funds
+    return symbol in funds
+
+
+def cap_for(symbol: str, policy: dict[str, Any], funds: list[str] | None = None) -> float:
+    if is_diversified(symbol, funds):
+        return policy.get("max_position_pct_diversified", policy["max_position_pct"])
+    return policy["max_position_pct"]
 
 
 def load_schema(path: Path = SCHEMA_PATH) -> dict[str, Any]:
@@ -275,6 +304,7 @@ def evaluate(
     portfolio: dict[str, Any] | None = None,
     open_proposal_ids: tuple[str, ...] = (),
     daily_loss_pct: float = 0.0,
+    diversified_funds: list[str] | None = None,
 ) -> Verdict:
     """Decide whether a proposal may stand.
 
@@ -311,6 +341,7 @@ def evaluate(
     proposal_id = freeze(order)
     action = order["action"]
     symbol = plan["symbol"]
+    funds = load_diversified_funds() if diversified_funds is None else diversified_funds
     positions = portfolio.get("positions", {})
     held = positions.get(symbol)
 
@@ -325,11 +356,12 @@ def evaluate(
             f"{policy['order_type']!r}"
         )
 
-    if plan["max_position_pct"] != policy["max_position_pct"]:
+    expected_cap = cap_for(symbol, policy, funds)
+    if plan["max_position_pct"] != expected_cap:
         reasons.append(
-            f"max_position_pct {plan['max_position_pct']} does not match policy "
-            f"value {policy['max_position_pct']}; sizing comes from policy, "
-            "not the model"
+            f"max_position_pct {plan['max_position_pct']} does not match the "
+            f"policy cap {expected_cap} for this asset class; sizing comes "
+            "from policy, not the model"
         )
 
     score = plan.get("score")
@@ -381,10 +413,28 @@ def evaluate(
         total_after = equity + notional
         if total_after > 0:
             pct_after = (existing + notional) / total_after * 100
-            if pct_after > policy["max_position_pct"]:
+            if pct_after > expected_cap:
+                kind = "diversified" if is_diversified(symbol, funds) else "single-name"
                 reasons.append(
                     f"{symbol} would be {pct_after:.1f}% of the account, over "
-                    f"the {policy['max_position_pct']}% cap"
+                    f"the {expected_cap}% {kind} cap"
+                )
+
+        # The agent's sleeve. Single-name exposure it opens is capped
+        # independently of the account, so the index core is never at risk
+        # from an agent decision.
+        sleeve = policy.get("agent_sleeve_usd")
+        if sleeve is not None and not is_diversified(symbol, funds):
+            single_name_value = sum(
+                pos["value"]
+                for sym, pos in positions.items()
+                if not is_diversified(sym, funds)
+            )
+            if single_name_value + notional > sleeve:
+                reasons.append(
+                    f"single-name exposure would be "
+                    f"${single_name_value + notional:,.2f}, over the "
+                    f"${sleeve:,.2f} agent sleeve"
                 )
 
         available = portfolio.get("cash", 0.0)

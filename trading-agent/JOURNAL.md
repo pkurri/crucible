@@ -300,3 +300,37 @@ Entry template:
   closing, and an assertion against the shipped state that yesterday's proposals
   cannot block today's.
 - shadow sessions: still 1 of 20. Session 02 can run after the 09:30 open.
+
+## 2026-09-24 09:40 ET — policy 3.0.0: asset classes, sleeve, position count
+
+User chose the index-core-plus-agent-sleeve structure, asset-class-aware caps,
+and setting the position count deliberately now. All three implemented.
+
+- **Position count 1 → 4**, set with nothing pending: two diversified core funds
+  plus two agent positions. The rule against loosening a limit is about not
+  bending one to admit a specific blocked order; choosing a number that fits the
+  intended structure, in advance, is design. The distinction is the whole point
+  and is written into POLICY.yaml so a later reader sees which kind of change
+  this was.
+- **Caps now differ by asset class.** A 500-company index fund and a penny stock
+  are not the same risk, and one number for both flagged the safest available
+  holding as the riskiest thing in the account. Single names stay at 12%; broad
+  index and treasury funds get 85%. Membership is an explicit list in
+  `WATCHLIST.yaml` under `diversified_funds`, not a heuristic — a sector or
+  thematic ETF is a single bet wearing a fund's clothing and stays a single
+  name. Leveraged products remain excluded outright.
+- **Agent sleeve, $450.** Single-name exposure the agent opens is capped
+  independently of the account, so the index core can never be drawn down by an
+  agent decision. The playbook's framing: a dedicated, capped-risk experiment,
+  not a connection to the whole portfolio.
+- **A test caught a design question I had not settled.** `max_order_usd: 312`
+  refuses a $700 VOO order, which failed my first draft test. The gate was right
+  and the test was wrong: a ~$2,000 index core is the _user's_ purchase, made
+  manually, and an agent able to move core-sized money is precisely the
+  unbounded-blast-radius case. The order cap binds funds too. That invariant now
+  has its own test rather than being an accident of configuration.
+- Policy 2.0.0 → 3.0.0, watchlist 2.0.0 → 3.0.0.
+- Tests: 275 → 294.
+- Unchanged: mode is still `shadow`, placement still disabled, no order has been
+  placed, and the 19 legacy positions remain a standing breach against the new
+  count of 4 exactly as they were against 1.
