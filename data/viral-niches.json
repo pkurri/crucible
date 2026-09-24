@@ -42396,6 +42396,30 @@
         "Translucent"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AnimalAITranslator",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Curiosity",
+      "reason": "Pet lovers already crave insights into their animals’ thoughts, but no channel has combined that demand with cutting‑edge AI visualizations that actually read and animate brain waves in real time. The novelty of an AI “translator” for dogs, cats, birds, or even farm animals instantly fulfills a universal curiosity, offers interactive scroll‑stopping hooks, and can be replicated across dozens of animal species, ensuring endless content variety. The high visual intensity—brain scans, animated speech bubbles, and real‑time audio decoding—creates shareable moments that thrive on social media. With the pet‑video market already massive, this unique AI twist has a clear growth path to 1M+ subscribers and 100k+ views per video. ",
+      "ideas": [
+        "We Decoded Our Dog’s Inner Monologue with AI! Watch What It Really Wants to Say! | How the AI Talked to Dog",
+        "AI Can Hear Your Cat’s Silent Thoughts—Here’s the First Scan Ever! | The Stunning Brain‑Reading Moment",
+        "The First AI That Translates Birdsong into Text—You Won’t Believe What It Taught Us About These Feathers!"
+      ],
+      "keywords": [
+        "AI",
+        "Dog",
+        "NeuralNetwork",
+        "BrainScan",
+        "AnimalCommunication"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
