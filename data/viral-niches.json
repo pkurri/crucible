@@ -42420,6 +42420,30 @@
         "AnimalCommunication"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities that harness bioluminescence for lighting and aesthetics is a fresh, visually stunning, and highly optimistic narrative that blends science, sustainability, and urban design. It taps into global concerns about energy consumption while promising a nightscape that feels magical and environmentally responsible, sparking curiosity and wonder. The niche is still underexploited, allowing for a high volume of unique content ideas that can be easily presented facelessly using compelling visuals and voiceover, making it ideal for rapid scaling (25+ hookable concepts).",
+      "ideas": [
+        "10 Cities Turning into Living Night Lights – The Future of Urban Bioluminescence / Hook: \"Imagine walking through streets that glow with the color of ocean bioluminescence – is this the new standard for city living?\"",
+        "\"How to Build Your Own Glow-In-The-Dark City – Step-by-Step Guide for Residents\" / Hook: \"Turn your neighborhood into a glowing wonderland with science and design – no superhero required!\"",
+        "\"The Science Behind Bioluminescent Cities – Why It Could Replace All Street Lamps\" / Hook: \"Energy, ecology, and aesthetics collide—here’s why the next city might be literally lit from the inside out.\""
+      ],
+      "keywords": [
+        "GlowingBuildings",
+        "BioluminescentLights",
+        "FutureCityScape",
+        "NightGlow",
+        "EcoLighting"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
