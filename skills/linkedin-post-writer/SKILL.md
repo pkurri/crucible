@@ -70,6 +70,19 @@ rather than its topic. They carry no reference number and are chosen by primary
 goal. They were built for the founders edition and several founder angles pin
 them by name.
 
+**F21 — Pipeline-Chain Diagram (optional, use only when the topic is genuinely a
+multi-stage process).** Not a numbered-engagement formula; a structural option
+alongside F17-F20. Hook is an arrow-chain showing the old vs. new pipeline
+("Prompt → LLM → Response" becoming "Intent → Context → Agent → Reasoning →
+Tools → Action"), body groups supporting points under 3-5 bolded category
+headers each with a short sub-list, close is a second arrow-chain summarizing
+the full loop (e.g. "Understand → Reason → Decide → Act → Evaluate →
+Recover"). Best for: architecture/systems-design topics with a real multi-step
+pipeline. Do not force this structure onto a topic that isn't actually a
+pipeline — it reads as a formatting gimmick when the arrows aren't load-bearing.
+Default to the standard hook formulas above; reach for F21 only when a genuine
+staged process is the whole point of the post.
+
 Full skeletons in `../linkedin-skills-shared/references/hook-formulas.md`.
 F1-F10 are the long-form thought-leadership set; F11-F16 (validated against a
 2026 corpus of above-average performers) skew shorter and emotional and each
