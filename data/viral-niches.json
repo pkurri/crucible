@@ -42444,6 +42444,30 @@
         "EcoLighting"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroWasteArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "ZeroWasteArchitecture taps into the booming eco‑recycling trend and the fascination with sustainable living. Current audiences are hungry for real, actionable green hacks, and the visual appeal of transforming everyday trash into architectural marvels provides irresistible scroll‑stopper potential. The niche is uncharted compared to the existing mega‑trends, offering fresh content that can be serialized in series, challenges, and before‑and‑after reveal formats, ensuring high retention and viral shareability.",
+      "ideas": [
+        "I Built a 100% Recycled Plastic House! Watch the Eco‑Home Transform Sealand style…",
+        "Turning Trash into Luxury: The Recycled Concrete Apartment That Breathed New Life",
+        "30 Days to a Zero‑Waste Home—Did I Survive the Final Reveal?"
+      ],
+      "keywords": [
+        "Sustainable",
+        "Recycled",
+        "Green",
+        "Construction",
+        "Drone"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
