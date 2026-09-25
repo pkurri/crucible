@@ -42657,6 +42657,30 @@
         "Future City"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Wonder",
+      "reason": "This niche blends cutting‑edge sustainability with otherworldly visuals, captivating a broad audience curious about future tech and eco‑artistry. The concept of an entire city illuminated by living organisms is novel, rarely covered, and highly shareable. Platforms for short, stunning footage (Meta Reels) and longer explorations (YouTube) are ideal, and the topic can spawn endless variations—from bioluminescent streetlamps to glow‑powered skyscraper facades—ensuring 25+ unique viral concepts. The high‑impact imagery fuels scroll‑stopping hooks, memory retention, and strong emotional response.",
+      "ideas": [
+        "The City that Glows 24/7—Watch How Bioluminescence Transforms Urban Life (WTF)",
+        "Inside the World's First Bioluminescent City: Eco‑Lights Replace Power Plants",
+        "From Dark Streets to Starry Nights: This Skyscraper is Powered by Fungi"
+      ],
+      "keywords": [
+        "Glowing urban",
+        "Bioluminescent skyline",
+        "Nature‑lit streets",
+        "Sustainable glow",
+        "City of light"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
