@@ -42633,6 +42633,30 @@
         "hyperreal"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "TranslucentSolarCity",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Transparent solar glass is the next frontier of sustainable architecture, blending renewable energy with futuristic city skylines. The visual spectacle of lights streaming from clear buildings instantly captivates eco‑enthusiasts, tech lovers, and everyday viewers alike, fueling curiosity and awe while opening endless content possibilities from DIY tutorials to city‑wide experimental shots.",
+      "ideas": [
+        "Invisible Power: How Transparent Solar Roofs Can Turn Every Building into a Solar Power Plant! / \"Imagine a city where every window and roof glows with clean energy—no more dark, greasy panels, just dazzling transparency.\"",
+        "The 3 Hidden Layers of Ultra‑Transparent Solar Glass Revealed (Secrets The Sun Won’t Tell You) / \"What if you could see the future tech powering our cities today? Let’s dissect the invisible layers that make it possible.\"",
+        "City‑Wide Solar Test: Can a Landscape of Glass Buildings Power an Entire Neighborhood? / \"We drop a live experiment on a downtown block—watch the glass roofs transform energy consumption—and you never look at windows the same way again.\""
+      ],
+      "keywords": [
+        "Transparent Solar Glass",
+        "Glass Buildings",
+        "Urban Solar",
+        "Eco‑Friendly Architecture",
+        "Future City"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
