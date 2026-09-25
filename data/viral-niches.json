@@ -42609,6 +42609,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ConsciousnessDataMining",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "The intersection of neuroscience and AI – extracting patterns from raw consciousness data – stokes deep curiosity, moral debate, and a sense of awe. It taps into trending topics like brain‑computer interfaces, AI ethics, and speculative future tech, offering endless hook‑savvy content and high share‑ability.",
+      "ideas": [
+        "The AI That ‘Reads’ Your Thoughts: Inside the Lab That Decodes Dreams – Hook: \"Imagine a machine that translates your subconscious into images. This is the tech destroying the line between mind and machine.\"",
+        "Predicting Human Willingness with 99% Accuracy? Real‑Time Emotional Mining Exposed – Hook: \"A startup claims to read your mood before you even feel it. We tested their algorithm live with volunteers.\"",
+        "How We Could Stall Neuroscience with Spam Data – A Deep‑Dive into Animal Right‑To‑Privacy Via Brain‑Data Crawling – Hook: \"If your thoughts belong to corporations, who owns your soul? Let’s examine the potential scandal.\""
+      ],
+      "keywords": [
+        "neural",
+        "immersive",
+        "data",
+        "consciousness",
+        "hyperreal"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
