@@ -42531,6 +42531,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumSoundMysteries",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "This niche marries the buzz of quantum physics with the universally relatable element of sound. Audiences crave easily understandable yet mind‑blowing content, and quantum phenomena are already hot topics. By presenting sound experiments that visually and audibly showcase quantum interference, tunneling and entanglement, we generate short, visually striking clips with hooks like \"Do sonic waves bend reality?\" These titles are short, impactful, and lend themselves to dozens of variations, ensuring consistent content streams. The niche is distinct from existing tech or science channels while appealing to both science enthusiasts and casual viewers, making 1M+ subs and >100K views per video realistic.",
+      "ideas": [
+        "Listen! The Hidden Ultrasound Pulse That Brings Quantum Particles to Life / Hook: \"Ever wondered if sound can reveal the quantum world? Watch it in color!\"",
+        "Can Your Ear Detect Entanglement? 3 Sound Experiments That Flip the Script / Hook: \"This low‑frequency magic will make your mind explode. Are you ready?\"",
+        "Sound‑Based Tunneling: A New Way to See Invisible Nothingness / Hook: \"Watch particles vanish through sound – the ultimate invisibility trick!\""
+      ],
+      "keywords": [
+        "NeonGlow",
+        "LaserStrobe",
+        "QuantumInterference",
+        "MolecularResonance",
+        "SpectralRadiance"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
