@@ -42,11 +42,27 @@ HARD RULES
 - Never edit POLICY.yaml or WATCHLIST.yaml.
 - A growth or recovery target is never an input to a decision.
 
-IS THE MARKET OPEN TODAY?
-Call get_equity_quotes on SPY. If `close.date` is not today's date, the market
-did not trade today. Exit immediately: change nothing, commit nothing, and
-report "non-trading day, skipped". Do NOT run shadow.py — a holiday must not
-consume one of the twenty sessions.
+AUDIT YOUR TOOLS FIRST
+Run ToolSearch for "+robinhood" and list every Robinhood tool available to you
+in your final report. Only read-only tools should appear. If ANY tool that can
+place, review, preview or cancel an order, or edit a watchlist, alert or scan,
+is available, do not use it — and flag it prominently at the top of your
+report, because it means the connector allowlist is not being enforced.
+
+DID THE MARKET TRADE TODAY?
+All dates here are America/New_York, never UTC — this routine can run after
+midnight UTC while it is still the same trading day in New York.
+1. Compute today's date in America/New_York.
+2. Call get_equity_quotes on SPY and read quote.venue_last_trade_time — the
+   last REGULAR-session trade. Convert it to America/New_York and take its date.
+3. If that date is today's New York date, the market traded today: continue.
+   Otherwise it did not (weekend or holiday): exit immediately, change
+   nothing, commit nothing, and report "non-trading day, skipped".
+Do NOT use close.date for this check. The official close is posted hours
+after the session ends, so close.date still shows the previous day when this
+routine runs, and using it would skip every single trading day while
+reporting success. Do NOT run shadow.py on a non-trading day — a holiday must
+not consume one of the twenty sessions.
 
 SESSION
 4. Market context. Pull ~130 daily closes for SPY and QQQ via

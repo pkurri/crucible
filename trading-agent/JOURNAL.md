@@ -334,3 +334,29 @@ and setting the position count deliberately now. All three implemented.
 - Unchanged: mode is still `shadow`, placement still disabled, no order has been
   placed, and the 19 legacy positions remain a standing breach against the new
   count of 4 exactly as they were against 1.
+
+## 2026-09-25 21:10 ET — routine created; test exposed a silent failure
+
+- Cloud routine `trig_01Lg2i92vgz7TDsFaTinecYX` created, disabled pending
+  verification. It checks out `trading-agent-phase2` and executes `ROUTINE.md`,
+  so prompt edits take effect without reconfiguring it.
+- Creating it auto-attached every claude.ai connector on the account (Gmail,
+  publora, apify, Gamma and more). Stripped to Robinhood only, and Robinhood
+  restricted via `permitted_tools` to nine read-only tools. Whether the platform
+  enforces that list is not yet verified; every run now reports the tools it can
+  see so the allowlist is audited each time.
+- **Test run `cse_01JkhijDtSvGJE5D7EwfV5LH` found a bug that would have silently
+  voided the whole shadow period.** The holiday check compared SPY's
+  `close.date` with today's date. The official close is posted hours late: close
+  to five hours after Friday's close, `close.date` still read 2026-09-24. The
+  schedule fires 70 minutes after the close, so every weekday would have been
+  skipped as a "non-trading day" and reported as success. The run also evaluated
+  "today" in UTC, and it was already Saturday in UTC.
+- Fixed: dates are now always America/New_York, and the check uses SPY's last
+  regular-session trade time (`venue_last_trade_time`), which correctly showed
+  Friday 19:59:59 UTC.
+- The run itself behaved correctly under the rule it was given: one read-only
+  call, no files changed, nothing committed. `uv` 0.8.17 is present in the cloud
+  image. Push access from the cloud is still unverified because no commit was
+  attempted.
+- shadow sessions: still 1 of 20.
