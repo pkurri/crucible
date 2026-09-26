@@ -91,8 +91,18 @@ brief and do not claim success for anything you did not verify.
 
 ## Schedule
 
-Weekdays, shortly after the US close (16:00 ET), so the session sees a full
-trading day. 16:40 ET = 20:40 UTC → `40 20 * * 1-5`.
+Weekdays at 21:10 UTC: 17:10 ET under daylight saving, 16:10 ET after it ends on
+1 November. Both are after the 16:00 close. An earlier draft used 20:40 UTC,
+which would have fired at 15:40 EST — before the close — once the clocks
+changed, and analysed a session that had not finished.
 
-Running after the close rather than during the session also means quotes are
-settled rather than moving underneath the analysis.
+`10 21 * * 1-5`
+
+Running after the close also means quotes are settled rather than moving
+underneath the analysis.
+
+## Routine wrapper
+
+The scheduled routine does not duplicate the prompt above. It checks out this
+branch and executes this file, so editing the prompt here takes effect on the
+next run without touching the routine's configuration.
