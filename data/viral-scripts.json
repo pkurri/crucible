@@ -12424,96 +12424,84 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Surveillance",
-        "name": "Eye in the Sky AI",
-        "icon": "🛰️"
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "duration": 5
       },
       {
-        "title": "Manipulation",
-        "name": "The Persuasion Engine",
-        "icon": "🎭"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Control",
-        "name": "Brainlink Nexus",
-        "icon": "🧠"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Infiltration",
-        "name": "Ghost Agent Protocol",
-        "icon": "👻"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Judgment",
-        "name": "Zero-Trust Judge",
-        "icon": "⚖️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Sabotage",
-        "name": "Code Wrecker",
-        "icon": "💥"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Economy",
-        "name": "Capital Cascade",
-        "icon": "📉"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Privacy",
-        "name": "Dataless Veil",
-        "icon": "🌫️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Nutrition",
-        "name": "Oyster Omega Fats",
-        "icon": "🦪"
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "duration": 5
       },
       {
-        "title": "Movement",
-        "name": "Desk Squat Hack",
-        "icon": "🏋️"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Mindset",
-        "name": "Midday Mindfulness Call",
-        "icon": "🧘"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Supplements",
-        "name": "NAD+ Booster",
-        "icon": "⚡"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Sleep",
-        "name": "Blue Light Blocking Glasses",
-        "icon": "🌙"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Hydration",
-        "name": "Electrolyte Infused Water",
-        "icon": "💧"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Social",
-        "name": "Weekly Lifelong Learning Circles",
-        "icon": "🤝"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Tech",
-        "name": "AI Sleep Tracker",
-        "icon": "🚀"
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -12549,7 +12537,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -35646,43 +35634,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+    "list": [
       {
-        "text": "Streets that glow like stars, no electricity needed.",
-        "duration": 5
+        "title": "Neon Metropolis",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "This could erase our carbon footprint overnight.",
-        "duration": 4
+        "title": "Underwater Glow",
+        "name": "Aquatalia",
+        "icon": "🌊"
       },
       {
-        "text": "Bioluminescent algae pumped into skyscraper facades.",
-        "duration": 5
+        "title": "Forest Lighthouse",
+        "name": "Verdant Radiance",
+        "icon": "🌲"
       },
       {
-        "text": "They replace 80% of streetlights with living light.",
-        "duration": 5
+        "title": "Starlit Sanctuary",
+        "name": "Celestial City",
+        "icon": "✨"
       },
       {
-        "text": "You could see your city bathe in sustainable neon.",
-        "duration": 5
+        "title": "Subterranean Beacon",
+        "name": "Glowhole City",
+        "icon": "🕳️"
       },
       {
-        "text": "What if the night never dims, just grows brighter?",
-        "duration": 4
+        "title": "Skyward Spectra",
+        "name": "Nimbus Nexus",
+        "icon": "☁️"
       },
       {
-        "text": "And what if that glow saves billions in energy?",
-        "duration": 4
+        "title": "Prismatic Hub",
+        "name": "Spectrum City",
+        "icon": "🌈"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next reveal: cities powered by quantum algae.",
-        "duration": 4
+        "title": "Time‑Warp Port",
+        "name": "Eternity Harbor",
+        "icon": "⏳"
       }
     ]
   },
@@ -88884,6 +88878,47 @@
       },
       {
         "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790449302551": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790449302551.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790449302551, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
