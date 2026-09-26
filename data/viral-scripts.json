@@ -12427,7 +12427,48 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Your next paycheck might already be in code.",
+        "duration": 5
+      },
+      {
+        "text": "AI agents are stealing white‑collar jobs live.",
+        "duration": 4
+      },
+      {
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
+        "duration": 5
+      },
+      {
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
+      },
+      {
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
+      },
+      {
+        "text": "Would your desk be next?",
+        "duration": 4
+      },
+      {
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
+        "duration": 4
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12455,7 +12496,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12464,97 +12505,44 @@
       }
     ]
   },
-  "LongevityHacksUnlocked": {
-    "voice": "am_adam",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
-    "list": [
-      {
-        "title": "Deep Sleep",
-        "name": "Melatonin Fortnight (4kHz)",
-        "icon": "🌙"
-      },
-      {
-        "title": "Gut Health",
-        "name": "Synbiotics Daily Mix",
-        "icon": "💫"
-      },
-      {
-        "title": "Brain Boost",
-        "name": "Cognitive Bifid",
-        "icon": "🧠"
-      },
-      {
-        "title": "Movement",
-        "name": "Micro-Intensity Squats",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Stress Reduction",
-        "name": "Alpha Harmonic Breathing",
-        "icon": "🧘"
-      },
-      {
-        "title": "Hydration",
-        "name": "Electrolyte Zing",
-        "icon": "💧"
-      },
-      {
-        "title": "Sunlight",
-        "name": "Golden Hour Timing",
-        "icon": "☀️"
-      },
-      {
-        "title": "Detox",
-        "name": "Respiratory Roll",
-        "icon": "🌀"
-      }
-    ]
-  },
   "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Top 8 Crypto BullRunSecrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Token",
-        "name": "Bitcoin FOMO",
-        "icon": "💰"
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "duration": 5
       },
       {
-        "title": "Exchange",
-        "name": "Binance Pump",
-        "icon": "🚀"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Staking",
-        "name": "Ethereum Yield",
-        "icon": "🔐"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Signal",
-        "name": "Whale Alerts",
-        "icon": "🐋"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "ICO",
-        "name": "DeFi Kitchen",
-        "icon": "🍲"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Liquidity",
-        "name": "LP Mining",
-        "icon": "⛏️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Risk",
-        "name": "Stop‑loss Ladder",
-        "icon": "🪜"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Future",
-        "name": "Token Swap Spec",
-        "icon": "🔄"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -35649,39 +35637,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
+        "text": "Streets that glow like stars, no electricity needed.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "This could erase our carbon footprint overnight.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
+        "text": "Bioluminescent algae pumped into skyscraper facades.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "They replace 80% of streetlights with living light.",
+        "duration": 5
+      },
+      {
+        "text": "You could see your city bathe in sustainable neon.",
+        "duration": 5
+      },
+      {
+        "text": "What if the night never dims, just grows brighter?",
+        "duration": 4
+      },
+      {
+        "text": "And what if that glow saves billions in energy?",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next reveal: cities powered by quantum algae.",
         "duration": 4
       }
     ]
@@ -40397,7 +40385,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -86707,7 +86695,7 @@
     ]
   },
   "MicroplasticCleanupTech": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
         "text": "Nobody talks about the truth of MicroplasticCleanupTech.",
@@ -86738,7 +86726,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {

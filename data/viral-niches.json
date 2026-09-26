@@ -42846,6 +42846,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroplasticCleanupTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Microplastic pollution is a headline‑grabbing environmental crisis with growing public concern and policy interest. Tech‑centric content that showcases cutting‑edge nanotech, underwater robotics, and AI‑guided cleanup solutions taps into both the emotional urgency of environmental activism and the fascination with future‑proofing our planet. Few faceless channels focus exclusively on micro‑scale cleanup tech, giving this niche a unique space to dominate traffic and virality.",
+      "ideas": [
+        "Tiny Robots, Giant Impact: How Nanobots Are Shredding Ocean Microplastics (A [hook]! Watch a single micrometer‑sized machine tackle a city‑sized problem in 2 minutes.)",
+        "AI‑Driven Ocean Cleanup in 4K: The Day a Drone Saved 10 Tons of Plastic from the Pacific (Shocking visuals + explanation of AI logic that made it possible.)",
+        "The Plastic‑Eating Bacteria Revolution: Are We Ready for a Global Mothership? (Start with a living micro‑scene, then build a curiosity loop around real‑world implementation.)"
+      ],
+      "keywords": [
+        "microplastic",
+        "nanotech",
+        "underwater",
+        "cleaning",
+        "plastic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
