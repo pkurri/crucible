@@ -360,3 +360,38 @@ and setting the position count deliberately now. All three implemented.
   image. Push access from the cloud is still unverified because no commit was
   attempted.
 - shadow sessions: still 1 of 20.
+
+## 2026-09-25 22:05 ET — test run 2: two more bugs, one security finding
+
+Run `cse_017o7f3eHCK31i6iZSEgdfUy`, 13 minutes, fired manually after the close
+on a real trading day. It committed nothing, which is correct under its rules,
+so session 02 is **not** recorded. Still 1 of 20.
+
+- **Security: the connector allowlist is not enforced.** The run's tool audit
+  found Robinhood's full write-capable toolset available, including
+  `place_equity_order` and every cancel and watchlist-write tool, despite
+  `permitted_tools` listing nine read-only tools. The run called none of them.
+  An attempt to use `tool_policy_overrides` instead was abandoned: the API
+  accepted fields and then silently dropped them, so any override was of unknown
+  effect and was cleared. The routine stays **disabled** until this has a
+  verified answer.
+- **Schedule contradicted the freshness gate.** Running after the close made
+  every quote ~21,000 seconds old against a 120-second limit; both exit
+  proposals (LCID, AMC) were rejected as stale. Every after-close run would have
+  done the same. It also broke `regular_hours_only`. Schedule moved to 19:10
+  UTC, inside market hours year-round.
+- **`validate_run.py` checked plans against an empty portfolio**, so every sell
+  failed as "not held". Hidden until now because Phase 1 runs had no proposals.
+  The cloud agent found it and confirmed it reproduced on session 01's file.
+- **Found while fixing that:** `validate_run.py` also treated a gate refusal as
+  an invalid run. Combined with the routine's commit-nothing-on-failure rule,
+  every session in which the agent proposed something the policy refused would
+  have been discarded, leaving the shadow period to record only easy days. Now
+  only malformed plans invalidate a run; refusals are reported.
+- The agent's analysis used quarterly financials for the first time: LCID exit
+  scored 83 (negative book, widening losses), AMC 72 (negative book, narrowing
+  losses). Regime: chop, +0.79% vs 50d, VIX 14.87. QS reports 2026-10-21 pm —
+  the watchlist's first dated catalyst.
+- It resisted a stop hook demanding a commit, holding to the routine's rule. Its
+  push-notification tool errored in the cloud environment.
+- Tests: 294 → 299.

@@ -107,15 +107,23 @@ brief and do not claim success for anything you did not verify.
 
 ## Schedule
 
-Weekdays at 21:10 UTC: 17:10 ET under daylight saving, 16:10 ET after it ends on
-1 November. Both are after the 16:00 close. An earlier draft used 20:40 UTC,
-which would have fired at 15:40 EST — before the close — once the clocks
-changed, and analysed a session that had not finished.
+Weekdays at 19:10 UTC: 15:10 ET under daylight saving, 14:10 ET after it ends on
+1 November. Both are inside regular hours with close to an hour of margin before
+the 16:00 bell; a full session took about 13 minutes in testing.
 
-`10 21 * * 1-5`
+`10 19 * * 1-5`
 
-Running after the close also means quotes are settled rather than moving
-underneath the analysis.
+It runs **during** the session, not after it, for two reasons that the second
+test run exposed:
+
+- The policy rejects any quote older than 120 seconds. After the close every
+  quote is hours old, so an after-close schedule would have rejected every
+  proposal as stale on every run, and twenty sessions would have logged without
+  one proposal ever passing the gate.
+- `regular_hours_only: true`. Simulating fills against after-hours bid/ask (LULU
+  was 98.83 bid against a 101.30 last) measures nothing real.
+
+Earlier drafts used 20:40 UTC and then 21:10 UTC, both after the close.
 
 ## Routine wrapper
 
