@@ -43225,6 +43225,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "CarbonCaptureDynamos",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "Carbon Capture is a hot, urgent topic as climate anxiety rises. Visualizing the instant conversion of CO₂ into everyday products (plastic, fuel, materials) captivates quick‑scroll viewers with impossible transformations, unlocks endless content themes, and can attract both science communities and eco‑fashion fans for high‑volume traffic.",
+      "ideas": [
+        "Turning Air into Plastic: Watch a Machine Convert CO₂ into Plastic in 30 Seconds!",
+        "From Breath to Fuel: Live Demo of a CO₂‑to‑Methane Reactor Changing Climate Tech Forever",
+        "Sculpting CO₂: See How Factories Turn Carbon Dioxide into Spectacular Decorative Glass"
+      ],
+      "keywords": [
+        "CarbonCapture",
+        "PlasticTransformation",
+        "ElectrolysisReactor",
+        "IndustrialBiology",
+        "NeonGlowLaboratory"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
