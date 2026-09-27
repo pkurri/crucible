@@ -43059,6 +43059,22 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroFeedbackCanvas",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Awe",
+      "reason": "ViralRationale...",
+      "ideas": [
+        "Title / Hook..."
+      ],
+      "keywords": [],
+      "voice": "",
       "priority": true
     }
   ]
