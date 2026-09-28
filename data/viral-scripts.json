@@ -12455,7 +12455,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12496,7 +12496,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -35640,49 +35640,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Capital City",
-        "name": "Lumenopolis",
-        "icon": "🌆"
+        "text": "Streets that glow like stars, no electricity needed.",
+        "duration": 5
       },
       {
-        "title": "River City",
-        "name": "Glowhaven",
-        "icon": "🌊"
+        "text": "This could erase our carbon footprint overnight.",
+        "duration": 4
       },
       {
-        "title": "Mountain City",
-        "name": "Peaklight",
-        "icon": "🏔️"
+        "text": "Bioluminescent algae pumped into skyscraper facades.",
+        "duration": 5
       },
       {
-        "title": "Coastal City",
-        "name": "Seavivid",
-        "icon": "🌊"
+        "text": "They replace 80% of streetlights with living light.",
+        "duration": 5
       },
       {
-        "title": "Forest City",
-        "name": "Sylvan Glow",
-        "icon": "🌲"
+        "text": "You could see your city bathe in sustainable neon.",
+        "duration": 5
       },
       {
-        "title": "Desert City",
-        "name": "Sirocco Glow",
-        "icon": "🏜️"
+        "text": "What if the night never dims, just grows brighter?",
+        "duration": 4
       },
       {
-        "title": "Isle City",
-        "name": "Isle Dazzle",
-        "icon": "🏝️"
+        "text": "And what if that glow saves billions in energy?",
+        "duration": 4
       },
       {
-        "title": "Urban Jungle",
-        "name": "Neon Nexus",
-        "icon": "🌿"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next reveal: cities powered by quantum algae.",
+        "duration": 4
       }
     ]
   },
@@ -40397,7 +40391,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -89804,6 +89798,88 @@
       },
       {
         "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790623019562.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ZeroGravityFashion": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ZeroGravityFashion.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790636082792": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790636082792.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
