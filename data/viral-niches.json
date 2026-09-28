@@ -43405,6 +43405,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MyceliumArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MyceliumArchitecture taps into the explosive intersection of sustainable tech, biology, and architecture. Fungal 3D‑printing showcases a tangible, living alternative to traditional construction, sparking curiosity about eco‑innovation while delivering visually stunning, time‑lapse transformations that naturally scroll‑stop viewers. Its unique blend of science, eco‑poetry, and aesthetic wow‑factor sets it apart from other tech or architecture channels, making it ripe for virality.",
+      "ideas": [
+        "Watch As Fungi 3D‑Print A Whole House In 48 Hours / (Hook) “This isn’t a sci‑fi movie—watch an entire living home grow from spores in record time.”",
+        "The Secret Life Inside Bio‑Bipeds: Crushing Concrete with Mycelium | (Hook) “Can the soil’s network replace steel? The answer will change the way you think about walls.”",
+        "From Spore to Skyline: Building Skyscrapers Out of Living Mycelium | (Hook) “What if skyscrapers could breathe? See the future of high‑rise design.”"
+      ],
+      "keywords": [
+        "Fungal",
+        "3D‑Print",
+        "Living",
+        "Eco",
+        "Biosynthetic"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
