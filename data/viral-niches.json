@@ -43429,6 +43429,30 @@
         "Biosynthetic"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityFashion",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Space and fashion intersect right now—people are obsessed with future tech and seeing everyday items reimagined for zero‑gravity. The niche jumps between science, DIY, and design, giving plenty of eye‑catching visuals and narrative hooks that keep viewers scrolling. It’s untapped compared to the many other future‑tech or fashion channels, creating a unique, stand‑out brand. The content is faceless yet highly engaging: 3‑D renders, prototype demos, and mini‑documentaries with strong emotion and curiosity loops.",
+      "ideas": [
+        "Zero‑Gravity Fashion: Turning Everyday Jeans Into Spacewear – How Your Closet Could Look in Orbit",
+        "The Future of Fashion – Clothes That Work in Space – Watch Our Prototype Survive Microgravity",
+        "5 Mind‑Blowing Space Outfit Concepts NASA Wants – Design Revolution for the Final Frontier"
+      ],
+      "keywords": [
+        "zero‑g",
+        "spacewear",
+        "future fashion",
+        "gravity‑defying clothes",
+        "cosmic style"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
