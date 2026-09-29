@@ -43714,6 +43714,30 @@
         "tide‑powered engines"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "The fusion of cutting‑edge fungal science with urban design taps into current fascinations with sustainability, biophilic architecture, and the rapid advances in mycelium‑based materials. It offers a fresh narrative unaddressed by mainstream tech or architecture channels, inviting viewers to imagine entire cities that grow rather than are built. This unique angle supports high engagement through curiosity loops, visually stunning footage of bioluminescent streets, and relatable implications for everyday life—making it ripe for massive YouTube reach and viral social media spread.",
+      "ideas": [
+        "The Mycelium City: Building the Future Kinda Like a Spore Forest – What if your next apartment grew from underground fungi?",
+        "Spore‑Engineering: Mycelium Materials Could Replace Concrete Forever – Scientists prove fungi can out‑strength steel!",
+        "Bioluminescent Subways: Walking Through a City Lit by Fungi – Imagine a subway that glows like a jellyfish."
+      ],
+      "keywords": [
+        "Mycelium",
+        "Bioluminescence",
+        "UrbanFungi",
+        "MyceliumBuildings",
+        "SustainableArchitecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
