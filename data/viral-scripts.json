@@ -89887,5 +89887,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1790641873477": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790641873477 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance Boost",
+        "name": "Turbo Mode Activation",
+        "icon": "⚡"
+      },
+      {
+        "title": "Automation",
+        "name": "Zero‑Click Workflow Builder",
+        "icon": "🤖"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Heatmap Overlay",
+        "icon": "🔥"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum‑Grade Encryption Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Integration",
+        "name": "One‑Click API Bridge Suite",
+        "icon": "🔗"
+      },
+      {
+        "title": "Customization",
+        "name": "Dynamic Theme Engine",
+        "icon": "🎨"
+      },
+      {
+        "title": "Scalability",
+        "name": "Auto‑Scaling Cluster Wizard",
+        "icon": "📈"
+      },
+      {
+        "title": "Support",
+        "name": "AI‑Powered 24/7 Help Bot",
+        "icon": "💬"
+      }
+    ]
   }
 }
