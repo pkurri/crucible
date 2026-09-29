@@ -43738,6 +43738,30 @@
         "SustainableArchitecture"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobiomeMeals",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "MicrobiomeMeals taps into the booming interest in gut health, fermentation, and the invisible world of microbes that shape our food. The niche offers endless visual hooks: glowing bacteria, swirling fermentations, and surprising transformations that keep viewers scrolling. It’s unexplored compared to saturated food and health topics, making it highly differentiated. The intersection of science and culinary delight drives shareability on both Meta (short reels, FB stories) and YouTube (longer deep dives, narrative experiments), supporting the 1M+ subs & 100K+ views target.",
+      "ideas": [
+        "The Bacteria Behind Your Favorite Pickles / 7 Minutes / [Hook] ‘Stop scrolling – watch the shroom that grows overnight!’",
+        "Fermentation Factories: How Yeast Turns in 3 Days / 12 Minutes / [Hook] ‘A single grain of corn can become a sparkling town in 72 hours—see it!’.",
+        "Microbes Make Food Taste ‘The Best Dish of 2024’ / 9 Minutes / [Hook] ‘You’ve never seen bacteria that taste like chocolate – until now!’"
+      ],
+      "keywords": [
+        "Microscopic Glow",
+        "Fermentation Flow",
+        "Bacterial Growth",
+        "Viral Swirl",
+        "Invisible Chemistry"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
