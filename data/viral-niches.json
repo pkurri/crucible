@@ -43564,6 +43564,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "GlowCityTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Bioluminescent cities combine cutting‑edge biological engineering with urban design, offering stunning, naturally sourced light that captivates viewers and solves sustainability woes. The concept is fresh, visually arresting, and offers endless micro‑topics (algae LEDs, glowing street trees, night‑time molecular gardens), making it highly scalable. Social media trends favor eco‑tech, while the mysterious glow taps into the human love for awe and mystery, driving high engagement across meme culture and educational content.",
+      "ideas": [
+        "The City That Lights Itself: How Algae Streetlamps Are Revolutionizing Nighttime Urban Landscapes – Hook: Ever imagined walking down a completely dark street that suddenly glows with a soothing blue light? This video reveals the science behind nature‑powered streetlamps.",
+        "From Plastic to Neon – Turning Algae Waste into Citywide Glow: Hook: Plastic pollution is getting a glowing makeover. Learn how engineers are turning discarded algae into the next generation of streetlights.",
+        "Glowing Green: The Secret Life of Bioluminescent Urban Trees – Hook: What if your local park tree could illuminate the entire block at night? Discover the future of glowing treehouses and eco‑friendly lighting."
+      ],
+      "keywords": [
+        "glowing",
+        "neon",
+        "bioluminescence",
+        "cityscape",
+        "nightlight"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
