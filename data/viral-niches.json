@@ -43666,6 +43666,30 @@
         "citylights"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIDeepfakeHistory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The niche ‘AIDeepfakeHistory’ leverages the rapidly growing interest in AI-generated deepfakes combined with the timeless intrigue of historical events. It stands out from generic history or deepfake channels by offering hyper-realistic reenactments of pivotal moments that viewers have never seen, yet crave a sense of authenticity. The concept tap‑sits at the intersection of cutting‑edge tech and nostalgia, making it instantly shareable on both social and video platforms. Its high production value prospects screen‑stop moments (e.g., a live AI‑generated sword duel from medieval battles or a 3‑D reenactment of a WWII fleet), guaranteeing scroll‑stopping hooks, curiosity loops, and the ability to generate 25+ unique viral ideas simply by swapping time‑periods, key figures, or “what‑if” scenarios. With a clear target emotion of awe and curiosity, the niche promises strong virality now and in the future.",
+      "ideas": [
+        "BOOM! The 1066 Battle Recreated by AI—Watch the First AI-Generated Swordfight Ever! / Hook: ‘What happens when machine learning steps into the past? Witness AI step into the hands of an ancient warrior.’",
+        "The Lost Red Army 54th Battalion—99% Authentic AI Footage from 1942! / Hook: ‘Imagine if we had a time machine—here's AI's version of WWII you haven't seen before.’",
+        "AI Spies Mastermind: Recreating Napoleon’s Battle of Marengo—Is It Real or Synthetic? / Hook: ‘They say history forgets itself; AI wants to remember. See the battle that wasn’t planned.’"
+      ],
+      "keywords": [
+        "AIGenerated",
+        "HistoricalReenactment",
+        "3DDeepfake",
+        "EpicBattle",
+        "ImmersiveAI"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
