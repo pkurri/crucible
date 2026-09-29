@@ -43642,6 +43642,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of bioluminescent urban landscapes marries ecological science with visually stunning cityscapes—a perfect blend for viral, faceless content. With increasing interest in sustainable city projects and the growing use of CGI and high‑resolution footage, videos can showcase real and imagined glowing streets, towers, and parks that captivate viewers. Scroll‑stopping hooks come naturally from the unprecedented visuals and the mystery of living light, making the niche highly shareable across social platforms.",
+      "ideas": [
+        "⚡️ Brightest Glow of Night: How Cities Turn into Glowing Oases / Hook: Ever seen a city bathed in blue light? Discover how bioluminescence transforms urban landscapes.",
+        "🌃 From Concrete to Light: The Future of Bioluminescent City Streets / Hook: Imagine walking on light! Learn the tech behind glowing sidewalks and roofs.",
+        "🏙️ The Secret Cities: Exploring Bioluminescent Architecture Around the World / Hook: Join us on a journey through cities that shine like stars."
+      ],
+      "keywords": [
+        "glowing",
+        "nighttime",
+        "urban",
+        "bioluminescence",
+        "citylights"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
