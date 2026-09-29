@@ -43690,6 +43690,30 @@
         "ImmersiveAI"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "OceanicUtopia",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Wonder",
+      "reason": "The concept of an entire city submerged beneath the ocean blends cutting‑edge technology, climate urgency, and surreal visual possibilities. It stands out from mainstream architecture or sci‑fi channels, offers limitless animation and drop‑in content formats, and taps into current global conversations about sea‑level rise and sustainable living. These elements create strong scroll‑stopping hooks, curiosity loops, and share‑worthy visuals that can scale to millions of viewers.",
+      "ideas": [
+        "10 Unthinkable Technologies That Would Make an Underwater City Possible - Imagine Living Under the Waves!",
+        "How Bioluminescent Coral Could Power a Future Ocean Metropolis – Solar? No, Glow!",
+        "From Tidal Energy to Hydroponic Skyscrapers: The Blueprint for a Self‑Sustaining Underwater City"
+      ],
+      "keywords": [
+        "submerged skyscraper",
+        "bioluminescent reef",
+        "crushing water pressure",
+        "floating hydroponic farms",
+        "tide‑powered engines"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
