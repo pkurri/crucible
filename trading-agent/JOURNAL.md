@@ -395,3 +395,23 @@ so session 02 is **not** recorded. Still 1 of 20.
 - It resisted a stop hook demanding a commit, holding to the routine's rule. Its
   push-notification tool errored in the cloud environment.
 - Tests: 294 → 299.
+
+## 2026-09-29 22:35 ET — write tools blocked at the harness; routine enabled
+
+- Routine given a `disallowed_tools` deny list of all 26 Robinhood write tools:
+  every place, review, preview, cancel and exercise tool, and every watchlist,
+  alert and scan write. Unlike the connector's `permitted_tools`, this is
+  enforced by the Claude Code harness, not by the model.
+- Verified by test run `cse_01CLBkDvEurobWPiQqTrJEf2`: its tool audit found only
+  read-only Robinhood tools. No order or write tool was present in the session
+  at all. This closes the blocker recorded on 2026-09-25.
+- Robinhood itself enforces no per-order approval, trade limit or read-only mode
+  (per its own support pages); approval depends on the AI client. The harness
+  deny list is therefore the real control.
+- Routine **enabled**: weekdays 19:10 UTC, inside market hours. First fire
+  2026-09-30. Monday 28 and Tuesday 29 Sep produced no session because the
+  routine was still disabled; they are not backfilled, since a session
+  reconstructed after the fact is not evidence.
+- Still unproven until the first committing run: push access from the cloud to
+  `trading-agent-phase2`.
+- shadow sessions: 1 of 20.
