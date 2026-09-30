@@ -43837,6 +43837,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIRewrittenFolktales",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Combining the timeless allure of lost cultural myths with the cutting‑edge promise of AI, this niche offers endless curiosity loops: every video can claim to uncover a \"new\" tradition rewritten by advanced algorithms. The faceless format lets creators deliver high‑quality cinematic storytelling while keeping production costs low, making it scalable for 25+ viral concepts. The niche is distinct from existing topics like ancient tech or lost civilizations, granting a unique angle that resonates with audiences fascinated by both folklore and AI innovation.",
+      "ideas": [
+        "The Last Tale of the Yeti: An AI‑Reconstructed Legend – What if the Yeti had a name? Let AI bring unheard stories to life!",
+        "Sorcerer's Scrolls: AI‑Generated Ancient Prophecies from Lost Kingdoms – Scrolls that never existed—AI writes them for you! Dive into rewritten destiny.",
+        "Cave Paintings 2.0: AI Breathes Life into Pre‑Historical Stories – Can an algorithm film ancient myths? Watch AI turn stone into living narrative."
+      ],
+      "keywords": [
+        "Stunning Animation",
+        "Vivid Color Palette",
+        "Cinematic Effects",
+        "Shimmering Light",
+        "Immersive Depth"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
