@@ -439,3 +439,12 @@ so session 02 is **not** recorded. Still 1 of 20.
   resolved before Phase 3, either by removing the shells through Robinhood
   support or by a deliberate policy decision on untradeable zero-value
   positions.
+- **Refined by the user: sell only what is worth selling at execution time.**
+  Each position is judged on Wednesday's live quote against a fixed test,
+  written down now so it is applied rather than improvised: (1) live bid and
+  active state, else it cannot be sold; (2) the tax value of the realised loss
+  (loss × 22%) must exceed the spread cost of selling at the bid; (3) leveraged
+  and inverse funds (NAIL, SOLT, HIMZ, XXRP, TSLQ) are sold whenever tradable,
+  because holding them erodes value by construction. Each skipped position is
+  reported with its reason. On last week's figures RVII is the only marginal
+  case (~$3.21 of tax value against ~$3 of spread).
