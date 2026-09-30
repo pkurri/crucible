@@ -415,3 +415,27 @@ so session 02 is **not** recorded. Still 1 of 20.
 - Still unproven until the first committing run: push access from the cloud to
   `trading-agent-phase2`.
 - shadow sessions: 1 of 20.
+
+## 2026-09-29 22:45 ET — user decision: liquidate legacy book, build index core
+
+- User decided to sell every sellable legacy position (16 of 19; SRNE, ARVLF and
+  OTRKQ have no bid) and restructure as a diversified index core (~$2,000 VOO or
+  VTI) plus a ~$450 cash sleeve reserved for the agent once Phase 3 is earned.
+  Execution: Wednesday 2026-09-30, mid-session (10:00–15:00 ET).
+- These are the **user's** orders, not agent proposals. Each is previewed with
+  `review_equity_order` and placed only after the user explicitly approves the
+  exact frozen list. The shadow agent's mode, gate and deny list are unchanged;
+  it still cannot place anything.
+- Declined: using the proceeds for discretionary trading now. No edge has been
+  demonstrated — the only backtested strategy failed out of sample and no
+  forecast has settled — and recovery-driven trading is what this project exists
+  to prevent.
+- Expected: roughly $2,530 raised and roughly −$6,355 of losses realised.
+  Wash-sale window: none of the sold names may be rebought for 30 days, which
+  runs to about 2026-10-30. That overlaps the earliest possible Phase 3 date.
+- Open design question, not changed now: after the sale the account holds VOO
+  plus three worthless unsellable shells — 4 positions against
+  `max_positions: 4` — so the agent sleeve could never open a position. To be
+  resolved before Phase 3, either by removing the shells through Robinhood
+  support or by a deliberate policy decision on untradeable zero-value
+  positions.
