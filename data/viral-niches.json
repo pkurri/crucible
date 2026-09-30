@@ -43909,6 +43909,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroFeedbackCanvas",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of brain‑computer interfaces, AI‑generated art, and mindfulness is exploding on TikTok and Reddit, with EEG headsets becoming affordable and creators sharing real‑time brainwave visualizations. This niche offers faceless, hypnotic loops that trigger awe and curiosity, perfect for short‑form algorithmic boosts and long‑form deep dives on YouTube.",
+      "ideas": [
+        "Your Brain Painted a Masterpiece While You Slept – AI Turns Overnight EEG into Stunning Abstract Art (Watch the Colors Shift)",
+        "Can You Control This Visual Symphony With Your Mind? Live Neurofeedback Challenge – See Your Focus Morph the Pattern in Real Time",
+        "The Secret Language of Dreams: EEG Data from REM Sleep Transformed into Flowing Light‑Shows – What Your Subconscious Looks Like"
+      ],
+      "keywords": [
+        "brainwave art",
+        "EEG visualization",
+        "neurofeedback",
+        "AI generated patterns",
+        "mindful light"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
