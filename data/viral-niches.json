@@ -44017,6 +44017,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BacteriumThreads",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Sustainability and biotechnology converge in a novel visual spectacle: microbes producing wearable fibers and fabrics. The concept combines cutting‑edge science, eco‑fashion urgency and the irresistible visual of living, glowing materials—perfect for short, scroll‑stopping hooks, endless variation and high share‑potential across Meta and YouTube.",
+      "ideas": [
+        "Bacteria‑Factory Fabrics: The Future of Sustainable Fashion? – Watch microbes spin silk in real time!",
+        "From Petri Dish to Party Dress: Microbiome‑Generated Clothing in 60 Seconds – A fabric blooms before your eyes.",
+        "The Bacterial Leather That Could Replace Leather? – See how microbes mimic ivory, leather, and more."
+      ],
+      "keywords": [
+        "GlowingMicrobes",
+        "PetriDishPrinter",
+        "BioluminescentFabric",
+        "SyntheticSkin",
+        "LabLED"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

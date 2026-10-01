@@ -12455,7 +12455,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12496,7 +12496,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -35640,43 +35640,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Cities that glow brighter than sunrise—impossible? Think again!",
-        "duration": 5
+        "title": "Capital City",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "They’re powered by living light, not fossil fuel.",
-        "duration": 4
+        "title": "River City",
+        "name": "Glowhaven",
+        "icon": "🌊"
       },
       {
-        "text": "Scientists hack firefly genes to paint streets red.",
-        "duration": 5
+        "title": "Mountain City",
+        "name": "Peaklight",
+        "icon": "🏔️"
       },
       {
-        "text": "Nanotech algae paint walls, turning them into lanterns.",
-        "duration": 5
+        "title": "Coastal City",
+        "name": "Seavivid",
+        "icon": "🌊"
       },
       {
-        "text": "Every night, the skyline shifts like a living aurora.",
-        "duration": 5
+        "title": "Forest City",
+        "name": "Sylvan Glow",
+        "icon": "🌲"
       },
       {
-        "text": "You miss out if you haven’t seen this glow yet.",
-        "duration": 4
+        "title": "Desert City",
+        "name": "Sirocco Glow",
+        "icon": "🏜️"
       },
       {
-        "text": "Our planet’s future brightens, but only if we act.",
-        "duration": 4
+        "title": "Isle City",
+        "name": "Isle Dazzle",
+        "icon": "🏝️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next video: how cities harness quantum firefly tech.",
-        "duration": 4
+        "title": "Urban Jungle",
+        "name": "Neon Nexus",
+        "icon": "🌿"
       }
     ]
   },
@@ -90682,6 +90688,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "BacteriumThreads": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BacteriumThreads secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Origin",
+        "name": "Primeval Microbe",
+        "icon": "🧫"
+      },
+      {
+        "title": "Habitat",
+        "name": "Deep-Sea Vent",
+        "icon": "🌊"
+      },
+      {
+        "title": "Mutation",
+        "name": "CRISPR‑Enhanced Thread",
+        "icon": "🧬"
+      },
+      {
+        "title": "Application",
+        "name": "Bio‑Fabric Weave",
+        "icon": "🧵"
+      },
+      {
+        "title": "Resistance",
+        "name": "Antibiotic‑Proof Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Growth",
+        "name": "Rapid Biofilm Expansion",
+        "icon": "📈"
+      },
+      {
+        "title": "Interaction",
+        "name": "Symbiotic Plant Bond",
+        "icon": "🌱"
+      },
+      {
+        "title": "Future",
+        "name": "Living Smart Textile",
+        "icon": "🚀"
       }
     ]
   }
