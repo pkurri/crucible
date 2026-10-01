@@ -44062,6 +44062,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticOceanLife",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Synthetic Ocean Life taps into the growing interests in synthetic biology, ocean conservation, and immersive AR/VR. Its visual spectacle—living, engineered ecosystems—offers high replay value and shareability. Unlike existing marine niche channels, this focus on artificially created, dynamically evolving oceans provides fresh, up‑to‑date content that can be resolved in short, faceless videos, making it ideal for rapid subscriber growth and viral reach.",
+      "ideas": [
+        "The Ocean Inside Your Living Room: Watch a Synthetic Reef Evolve in 60 Seconds!",
+        "From Lab to Reality: How Scientists Build Entirely New Synthetic Marine Ecosystems",
+        "Neon Waves & Bioluminescent Seas: A 5‑Minute Journey Through Artificial Ocean Life"
+      ],
+      "keywords": [
+        "LuminousReef",
+        "BioluminescentWave",
+        "NeonMarine",
+        "DigitalSeascape",
+        "ImmersiveAquarium"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
