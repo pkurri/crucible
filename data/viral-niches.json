@@ -44344,6 +44344,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "DreamWeaverAI",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "AI‑generated dreamscapes tap into the skyrocketing curiosity around generative AI and the timeless fascination with surreal, dream‑like imagery. The faceless format allows fast, high‑quality production with endless fresh content—each episode can feature a new AI‑crafted world, keeping viewers scrolling and sharing. The cross‑industry appeal (AI enthusiasts, art lovers, paranormal seekers) and the strong hook potential for odd, uncanny scenes give it virality footing for a 1M+ subscriber trajectory.",
+      "ideas": [
+        "What Happens When AI Dreams Your Reality? 10 Mind‑Bending Scenes",
+        "The Dark Side of AI Dreamscapes—5 Visual Aliases That Haunt Your Imagination",
+        "Can Machines Dream? Explore 7 AI‑Generated Worlds That Look Too Real"
+      ],
+      "keywords": [
+        "AIArt",
+        "Dreamscape",
+        "Surreal",
+        "NeuralNet",
+        "VisualMystery"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
