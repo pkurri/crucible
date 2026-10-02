@@ -91077,5 +91077,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1790921158671": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790921158671 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Mindset",
+        "name": "Quantum Focus",
+        "icon": "🧠"
+      },
+      {
+        "title": "Tech",
+        "name": "Hyper‑Link Engine",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Design",
+        "name": "FlowCanvas",
+        "icon": "🎨"
+      },
+      {
+        "title": "Strategy",
+        "name": "Adaptive Cycles",
+        "icon": "🔄"
+      },
+      {
+        "title": "Collaboration",
+        "name": "TeamSync Hub",
+        "icon": "🤝"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Pulse",
+        "icon": "📈"
+      },
+      {
+        "title": "Marketing",
+        "name": "Audience Amplifier",
+        "icon": "📣"
+      },
+      {
+        "title": "Automation",
+        "name": "AutoPilot Scripts",
+        "icon": "🤖"
+      }
+    ]
   }
 }
