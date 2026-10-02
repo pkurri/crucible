@@ -44224,6 +44224,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Mycelium‑based urban architecture marries cutting‑edge biology with stunning visual appeal. The concept is fresh (no major channels dominate it), the imagery of living fungal skyscrapers and glowing underground forests captivates curiosity, and the climate‑sustainability angle sparks global conversation—perfect for scroll‑stopping hooks and long‑term engagement.",
+      "ideas": [
+        "\"The Mushroom Skyscraper That Could Save Our Planet\" / Hook: Discover how an edible building could eclipse concrete in carbon‑capture power.",
+        "\"Eating Your House? The Rise of Mycelium Mansions\" / Hook: Watch a prototype mushroom house grow from soil and learn why it’s the future of affordable housing.",
+        "\"Can a City Be Built from Fungus? The Science Behind Fungal Future Cities\" / Hook: Follow a time‑lapse of a self‑healing, oxygen‑producing fungal city block—engineering meets nature."
+      ],
+      "keywords": [
+        "Bioluminescent",
+        "Mycelium",
+        "GreenArchitecture",
+        "SustainableFarming",
+        "EcoCities"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
