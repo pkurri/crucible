@@ -12455,7 +12455,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12465,43 +12465,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Intermittent Fasting",
+        "icon": "⏳"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Exercise",
+        "name": "HIIT",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Precursors",
+        "icon": "💊"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "5‑Second Wake‑Up",
+        "icon": "😴"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress",
+        "name": "Forest Bathing",
+        "icon": "🌲"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social",
+        "name": "Cohort Coaching",
+        "icon": "🤝"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Mindfulness",
+        "name": "Quiet Journaling",
+        "icon": "✍️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Hormone",
+        "name": "Hormone Reset Diet",
+        "icon": "🔄"
       }
     ]
   },
@@ -12549,47 +12555,47 @@
   "DarkPsychologyPower": {
     "voice": "af_heart",
     "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master DarkPsychologyPower, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Persuasion",
-        "name": "Scarcity Bomb",
-        "icon": "🔒"
-      },
-      {
-        "title": "Mind Control",
-        "name": "Thought Loop",
-        "icon": "🔁"
-      },
-      {
-        "title": "Emotional Manipulation",
-        "name": "Schadenfreude Hook",
-        "icon": "😈"
-      },
-      {
-        "title": "Social Engineering",
-        "name": "Chocolate Bandit",
-        "icon": "🍫"
-      },
-      {
-        "title": "Cognitive Bias",
-        "name": "Confirmation Cold",
-        "icon": "❄️"
-      },
-      {
-        "title": "Gaslighting",
-        "name": "Mirror Lie",
+        "title": "Mind Persuasion",
+        "name": "Mirror Technique",
         "icon": "🪞"
       },
       {
-        "title": "Influence Tactics",
-        "name": "Fishbowl Flash",
-        "icon": "🐠"
+        "title": "Emotional Leverage",
+        "name": "Scarcity Cue",
+        "icon": "⚡"
       },
       {
-        "title": "Fear Leveraging",
-        "name": "Shadow Threat",
-        "icon": "👻"
+        "title": "Behavioral Triggers",
+        "name": "Foot-in-the-Door",
+        "icon": "🚪"
+      },
+      {
+        "title": "Social Proof",
+        "name": "Bandwagon Tactic",
+        "icon": "🤝"
+      },
+      {
+        "title": "Authority Manipulation",
+        "name": "Fake Credentials",
+        "icon": "🏛️"
+      },
+      {
+        "title": "Anchoring Effects",
+        "name": "Price Anchor",
+        "icon": "💰"
+      },
+      {
+        "title": "Scarcity & Urgency",
+        "name": "Limited Time Offer",
+        "icon": "⏳"
+      },
+      {
+        "title": "Reframing Illusion",
+        "name": "Cognitive Dissonance",
+        "icon": "🧠"
       }
     ]
   },
@@ -35640,43 +35646,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Cities that glow brighter than sunrise—impossible? Think again!",
-        "duration": 5
+        "title": "Capital City",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "They’re powered by living light, not fossil fuel.",
-        "duration": 4
+        "title": "River City",
+        "name": "Glowhaven",
+        "icon": "🌊"
       },
       {
-        "text": "Scientists hack firefly genes to paint streets red.",
-        "duration": 5
+        "title": "Mountain City",
+        "name": "Peaklight",
+        "icon": "🏔️"
       },
       {
-        "text": "Nanotech algae paint walls, turning them into lanterns.",
-        "duration": 5
+        "title": "Coastal City",
+        "name": "Seavivid",
+        "icon": "🌊"
       },
       {
-        "text": "Every night, the skyline shifts like a living aurora.",
-        "duration": 5
+        "title": "Forest City",
+        "name": "Sylvan Glow",
+        "icon": "🌲"
       },
       {
-        "text": "You miss out if you haven’t seen this glow yet.",
-        "duration": 4
+        "title": "Desert City",
+        "name": "Sirocco Glow",
+        "icon": "🏜️"
       },
       {
-        "text": "Our planet’s future brightens, but only if we act.",
-        "duration": 4
+        "title": "Isle City",
+        "name": "Isle Dazzle",
+        "icon": "🏝️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next video: how cities harness quantum firefly tech.",
-        "duration": 4
+        "title": "Urban Jungle",
+        "name": "Neon Nexus",
+        "icon": "🌿"
       }
     ]
   },
@@ -91703,6 +91715,47 @@
       },
       {
         "text": "If you want to master ApexFlow_1791041899431, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791042313720": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791042313720.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1791042313720, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
