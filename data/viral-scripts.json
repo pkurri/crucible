@@ -12424,10 +12424,104 @@
     ]
   },
   "AIAgentsAreTakingOver": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Job Loss",
+        "name": "ChatGPT for Customer Support",
+        "icon": "🤖"
+      },
+      {
+        "title": "Privacy Breach",
+        "name": "AI Surveillance Bot",
+        "icon": "🕵️‍♂️"
+      },
+      {
+        "title": "Deepfake Fears",
+        "name": "Real‑Time Video Synthesizer",
+        "icon": "🎭"
+      },
+      {
+        "title": "Market Domination",
+        "name": "Automated Trading AI",
+        "icon": "📈"
+      },
+      {
+        "title": "Data Theft",
+        "name": "Predictive Analytics Wizard",
+        "icon": "📊"
+      },
+      {
+        "title": "Identity Theft",
+        "name": "Speech‑to‑Text Converter",
+        "icon": "🗣️"
+      },
+      {
+        "title": "Moral Erosion",
+        "name": "Algorithmic Editorial AI",
+        "icon": "📰"
+      },
+      {
+        "title": "Existential Risk",
+        "name": "Self‑Learning Autopilot",
+        "icon": "🚢"
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Diet",
+        "name": "Blue Juice",
+        "icon": "💧"
+      },
+      {
+        "title": "Movement",
+        "name": "Morning Walk",
+        "icon": "🚶"
+      },
+      {
+        "title": "Sleep",
+        "name": "30‑Min Night",
+        "icon": "🛌"
+      },
+      {
+        "title": "Mind",
+        "name": "Micro Med",
+        "icon": "🧘"
+      },
+      {
+        "title": "Supplements",
+        "name": "Resveratrol",
+        "icon": "💊"
+      },
+      {
+        "title": "Hydration",
+        "name": "Electro Hydrate",
+        "icon": "🥤"
+      },
+      {
+        "title": "Social",
+        "name": "Laugh Circles",
+        "icon": "😂"
+      },
+      {
+        "title": "Gut",
+        "name": "Fermented Foods",
+        "icon": "🥖"
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
+        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -12455,106 +12549,12 @@
         "duration": 4
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Nutrition",
-        "name": "Intermittent Fasting",
-        "icon": "⏳"
-      },
-      {
-        "title": "Exercise",
-        "name": "HIIT",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Supplements",
-        "name": "NAD+ Precursors",
-        "icon": "💊"
-      },
-      {
-        "title": "Sleep",
-        "name": "5‑Second Wake‑Up",
-        "icon": "😴"
-      },
-      {
-        "title": "Stress",
-        "name": "Forest Bathing",
-        "icon": "🌲"
-      },
-      {
-        "title": "Social",
-        "name": "Cohort Coaching",
-        "icon": "🤝"
-      },
-      {
-        "title": "Mindfulness",
-        "name": "Quiet Journaling",
-        "icon": "✍️"
-      },
-      {
-        "title": "Hormone",
-        "name": "Hormone Reset Diet",
-        "icon": "🔄"
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 CryptoBullRunSecrets secrets you need to know.",
-    "closing": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
-    "list": [
-      {
-        "title": "Market Signals",
-        "name": "Onchain Heatmap",
-        "icon": "🔥"
-      },
-      {
-        "title": "Timing Tools",
-        "name": "Fomo Detector",
-        "icon": "⏰"
-      },
-      {
-        "title": "Fundamental Analyzer",
-        "name": "Whale Watch",
-        "icon": "🐋"
-      },
-      {
-        "title": "Risk Manager",
-        "name": "Stop-Loss Automator",
-        "icon": "🔒"
-      },
-      {
-        "title": "Tax Optimizer",
-        "name": "TaxPro",
-        "icon": "🧾"
-      },
-      {
-        "title": "Community Insight",
-        "name": "DiscordGauge",
-        "icon": "💬"
-      },
-      {
-        "title": "Strategy Mentor",
-        "name": "StrategyGuru",
-        "icon": "🧠"
-      },
-      {
-        "title": "Portfolio Tracker",
-        "name": "Lookout",
-        "icon": "📈"
       }
     ]
   },
@@ -35652,49 +35652,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Neon Flora",
-        "name": "Glow Orchid",
-        "icon": "🌸"
+        "text": "Streets that glow like stars, no electricity needed.",
+        "duration": 5
       },
       {
-        "title": "Urban Hydroponics",
-        "name": "LED Aquafarm",
-        "icon": "💧"
+        "text": "This could erase our carbon footprint overnight.",
+        "duration": 4
       },
       {
-        "title": "Biotic Lighting",
-        "name": "Moth Net Grid",
-        "icon": "🦋"
+        "text": "Bioluminescent algae pumped into skyscraper facades.",
+        "duration": 5
       },
       {
-        "title": "Energy Source",
-        "name": "Blue Flagellate Solar",
-        "icon": "🔋"
+        "text": "They replace 80% of streetlights with living light.",
+        "duration": 5
       },
       {
-        "title": "Public Transit",
-        "name": "Biolum Trans",
-        "icon": "🚋"
+        "text": "You could see your city bathe in sustainable neon.",
+        "duration": 5
       },
       {
-        "title": "Night Markets",
-        "name": "Glow Bazaar",
-        "icon": "🛍️"
+        "text": "What if the night never dims, just grows brighter?",
+        "duration": 4
       },
       {
-        "title": "Sky Lines",
-        "name": "Chili Aurora",
-        "icon": "🌌"
+        "text": "And what if that glow saves billions in energy?",
+        "duration": 4
       },
       {
-        "title": "Resilient Architecture",
-        "name": "Glowing Arches",
-        "icon": "🏛️"
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next reveal: cities powered by quantum algae.",
+        "duration": 4
       }
     ]
   },
@@ -91557,6 +91551,47 @@
       },
       {
         "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1791006018588.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791020456727": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791020456727.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
