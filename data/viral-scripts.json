@@ -12455,7 +12455,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -12465,57 +12465,10 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
-    "list": [
-      {
-        "title": "Nutrition",
-        "name": "Intermittent Fasting",
-        "icon": "⏳"
-      },
-      {
-        "title": "Exercise",
-        "name": "HIIT",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "title": "Supplements",
-        "name": "NAD+ Precursors",
-        "icon": "💊"
-      },
-      {
-        "title": "Sleep",
-        "name": "5‑Second Wake‑Up",
-        "icon": "😴"
-      },
-      {
-        "title": "Stress",
-        "name": "Forest Bathing",
-        "icon": "🌲"
-      },
-      {
-        "title": "Social",
-        "name": "Cohort Coaching",
-        "icon": "🤝"
-      },
-      {
-        "title": "Mindfulness",
-        "name": "Quiet Journaling",
-        "icon": "✍️"
-      },
-      {
-        "title": "Hormone",
-        "name": "Hormone Reset Diet",
-        "icon": "🔄"
-      }
-    ]
-  },
-  "CryptoBullRunSecrets": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of CryptoBullRunSecrets.",
+        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -12549,6 +12502,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "CryptoBullRunSecrets": {
+    "voice": "af_heart",
+    "hook": "Top 8 Crypto BullRunSecrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Token",
+        "name": "Bitcoin FOMO",
+        "icon": "💰"
+      },
+      {
+        "title": "Exchange",
+        "name": "Binance Pump",
+        "icon": "🚀"
+      },
+      {
+        "title": "Staking",
+        "name": "Ethereum Yield",
+        "icon": "🔐"
+      },
+      {
+        "title": "Signal",
+        "name": "Whale Alerts",
+        "icon": "🐋"
+      },
+      {
+        "title": "ICO",
+        "name": "DeFi Kitchen",
+        "icon": "🍲"
+      },
+      {
+        "title": "Liquidity",
+        "name": "LP Mining",
+        "icon": "⛏️"
+      },
+      {
+        "title": "Risk",
+        "name": "Stop‑loss Ladder",
+        "icon": "🪜"
+      },
+      {
+        "title": "Future",
+        "name": "Token Swap Spec",
+        "icon": "🔄"
       }
     ]
   },
@@ -35648,47 +35648,47 @@
   "BioLuminescentCities": {
     "voice": "af_heart",
     "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "closing": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
     "list": [
       {
-        "title": "Capital City",
-        "name": "Lumenopolis",
-        "icon": "🌆"
+        "title": "Neon Flora",
+        "name": "Glow Orchid",
+        "icon": "🌸"
       },
       {
-        "title": "River City",
-        "name": "Glowhaven",
-        "icon": "🌊"
+        "title": "Urban Hydroponics",
+        "name": "LED Aquafarm",
+        "icon": "💧"
       },
       {
-        "title": "Mountain City",
-        "name": "Peaklight",
-        "icon": "🏔️"
+        "title": "Biotic Lighting",
+        "name": "Moth Net Grid",
+        "icon": "🦋"
       },
       {
-        "title": "Coastal City",
-        "name": "Seavivid",
-        "icon": "🌊"
+        "title": "Energy Source",
+        "name": "Blue Flagellate Solar",
+        "icon": "🔋"
       },
       {
-        "title": "Forest City",
-        "name": "Sylvan Glow",
-        "icon": "🌲"
+        "title": "Public Transit",
+        "name": "Biolum Trans",
+        "icon": "🚋"
       },
       {
-        "title": "Desert City",
-        "name": "Sirocco Glow",
-        "icon": "🏜️"
+        "title": "Night Markets",
+        "name": "Glow Bazaar",
+        "icon": "🛍️"
       },
       {
-        "title": "Isle City",
-        "name": "Isle Dazzle",
-        "icon": "🏝️"
+        "title": "Sky Lines",
+        "name": "Chili Aurora",
+        "icon": "🌌"
       },
       {
-        "title": "Urban Jungle",
-        "name": "Neon Nexus",
-        "icon": "🌿"
+        "title": "Resilient Architecture",
+        "name": "Glowing Arches",
+        "icon": "🏛️"
       }
     ]
   },
@@ -91761,6 +91761,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791054155296": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791054155296 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1791054155296.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "Quantum Sync Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Data Flow",
+        "name": "Zero‑Latency Pipeline",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security",
+        "name": "Adaptive Encryption Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinite Node Mesh",
+        "icon": "🌐"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Lens",
+        "icon": "🔍"
+      },
+      {
+        "title": "Automation",
+        "name": "Self‑Healing Orchestrator",
+        "icon": "🤖"
+      },
+      {
+        "title": "Integration",
+        "name": "Universal API Gateway",
+        "icon": "🔗"
+      },
+      {
+        "title": "User Experience",
+        "name": "Immersive Flow Dashboard",
+        "icon": "🖥️"
       }
     ]
   }
