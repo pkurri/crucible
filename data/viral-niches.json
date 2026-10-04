@@ -44740,6 +44740,30 @@
         "GravityFree"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "DigitalArchaeology",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Awe",
+      "reason": "Combines the current AI hype with the evergreen fascination of ancient mysteries, creating a new hybrid genre that no other faceless channel offers. The concept delivers immediate hook potential (e.g., \"AI Decodes a Lost City!\" or \"Robot Finds Jesus's Tomb?\"), high audience retention through curiosity loops, and limitless extension possibilities across countless historical sites. With AI-generated 3‑D reconstructions, time‑lapse footage, and dramatic storytelling, each episode can go viral and attract a broad, engaged audience, making 1M+ subs achievable.",
+      "ideas": [
+        "AI Reveals a Hidden Pyramid Beneath the Amazon Rainforest — Watch the Machine Bring It to Life!",
+        "Robot Archaeologists Reconstruct the Lost City of Petra in 60 Seconds — You Won’t Believe the Details!",
+        "Artificial Intelligence Finds Jesus’s Tomb? The Shocking Evidence AI Unearthed on the Holy Mountain!"
+      ],
+      "keywords": [
+        "ancient ruins",
+        "AI reconstruction",
+        "digital 3D models",
+        "mystery uncovering",
+        "robot archaeologist"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
