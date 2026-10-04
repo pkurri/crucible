@@ -448,3 +448,24 @@ so session 02 is **not** recorded. Still 1 of 20.
   because holding them erodes value by construction. Each skipped position is
   reported with its reason. On last week's figures RVII is the only marginal
   case (~$3.21 of tax value against ~$3 of spread).
+
+## 2026-10-04 17:55 ET — sessions moved to this Mac; three cloud sessions lost
+
+- The cloud routine ran on schedule on 30 Sep, 1 Oct and 2 Oct, but none of its
+  sessions were saved: every push to GitHub returned 403. The cloud could clone
+  the repo only because it is public; it never had write access. Each session's
+  commit died with its container. They are not reconstructed — only the
+  condensed run logs survive, and a rebuilt session is not evidence.
+- What the 2 Oct log shows: chop regime, +0.12% vs 50d, VIX 15.43; LCID and AMC
+  exits passed the gate and simulated as filled; seven abstentions; LULU, NIO
+  and PSFE at fresh 52-week lows; zero write-tool calls.
+- Five push checks failed after the GitHub App changes. The claude.ai
+  organisation gate cleared partway through, but GitHub still refused writes.
+- Sessions now run locally under launchd, where pushes use the owner's SSH key;
+  push was verified in an environment stripped like launchd's. Details in
+  `ops/README.md`. The cloud routine is disabled so the two hosts can never
+  record two sessions for one day.
+- Found during setup: under `dontAsk`, a server-wide allow rule did not admit
+  the Robinhood tools, so a test run saw none. Fixed with an explicit read-only
+  allowlist; the rerun's tool audit showed read-only tools only.
+- shadow sessions: 1 of 20.
