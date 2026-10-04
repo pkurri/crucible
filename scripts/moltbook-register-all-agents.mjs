@@ -241,7 +241,12 @@ async function registerAgent(agent) {
     return null;
   }
 
-  const { claim_url, verification_code } = data.agent || data;
+  const { api_key, claim_url, verification_code } = data.agent || data;
+  // Moltbook returns the key only once; keep it in a private gitignored file
+  // so it can be loaded into the env var (or a GitHub secret) afterwards.
+  if (api_key) {
+    writeFileSync(join(AGENTS_DIR, `${agent.name}.key`), `${api_key}\n`, { mode: 0o600 });
+  }
   const creds = {
     agent_name: agent.name,
     api_key_env: apiKeyEnvironmentName(agent.name),
