@@ -2,6 +2,7 @@ import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
+import { buildSocialCallToAction } from './social-monetization.mjs';
 
 /**
  * 🔱 AAK NATION: META SOCIAL EMPIRE UPLOADER
@@ -501,6 +502,9 @@ async function uploadToMeta() {
       console.log(`   💎 Local Viral Metadata loaded for Meta [${topicName}].`);
     }
   }
+
+  hook.ig = `${hook.ig}\n\n${buildSocialCallToAction('instagram', topicName)}`;
+  hook.fb = `${hook.fb}\n\n${buildSocialCallToAction('facebook', topicName)}`;
 
   const targetStr = getArg('--target') || 'both';
   const forceRemix = process.argv.includes('--force-remix');

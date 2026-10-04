@@ -16,6 +16,7 @@
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { apiKeyEnvironmentName } from './moltbook-agent-credentials.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -211,7 +212,7 @@ async function registerAgent(agent) {
   const credFile = join(AGENTS_DIR, `${agent.name}.json`);
   if (existsSync(credFile)) {
     const existing = JSON.parse(readFileSync(credFile, 'utf-8'));
-    console.log(`   ⏭  ${agent.name} already registered (api_key: ${existing.api_key.substring(0,20)}...)`);
+    console.log(`   ⏭  ${agent.name} already registered (${existing.api_key_env})`);
     return existing;
   }
 
@@ -240,10 +241,10 @@ async function registerAgent(agent) {
     return null;
   }
 
-  const { api_key, claim_url, verification_code } = data.agent || data;
+  const { claim_url, verification_code } = data.agent || data;
   const creds = {
     agent_name: agent.name,
-    api_key,
+    api_key_env: apiKeyEnvironmentName(agent.name),
     claim_url,
     verification_code,
     registered_at: new Date().toISOString(),
@@ -278,7 +279,7 @@ async function main() {
       const creds = await registerAgent(agent);
       if (creds) {
         registry[agent.name] = {
-          api_key: creds.api_key,
+          api_key_env: creds.api_key_env,
           claim_url: creds.claim_url,
           verification_code: creds.verification_code,
           status: creds.status || 'pending_claim',

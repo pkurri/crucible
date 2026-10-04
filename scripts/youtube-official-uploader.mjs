@@ -1,6 +1,7 @@
 import { google } from 'googleapis';
 import { readFileSync, existsSync, createReadStream, mkdirSync, renameSync } from 'fs';
 import path from 'path';
+import { buildSocialCallToAction } from './social-monetization.mjs';
 
 /**
  * 🚢 CRUCIBLE OFFICIAL YOUTUBE UPLOADER
@@ -108,6 +109,9 @@ async function uploadVideo() {
       return;
     }
   }
+
+  const socialCallToAction = buildSocialCallToAction('youtube', topicName);
+  videoData.description = `${videoData.description || ''}\n\n${socialCallToAction}`.trim();
 
   const basedirArg = getArg('--basedir');
   const videoFilePath = basedirArg

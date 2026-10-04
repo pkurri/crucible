@@ -1,5 +1,6 @@
 import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
+import { resolveAgentApiKey } from './moltbook-agent-credentials.mjs';
 
 const MOLTBOOK_API = 'https://www.moltbook.com/api/v1';
 
@@ -68,8 +69,8 @@ async function main() {
     let status = 'ready (protocol)';
     let displayName = name;
     
-    if (regData && regData.api_key) {
-      status = await getStatus(actualName, regData.api_key);
+    if (regData) {
+      status = await getStatus(actualName, resolveAgentApiKey(regData, actualName));
       displayName = actualName;
     } else {
       // If no dedicated key, check if it's running via CrucibleForge

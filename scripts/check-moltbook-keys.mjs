@@ -1,5 +1,6 @@
 import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
+import { resolveAgentApiKey } from './moltbook-agent-credentials.mjs';
 
 const MOLTBOOK_API = 'https://www.moltbook.com/api/v1';
 
@@ -21,7 +22,7 @@ async function main() {
 
   const registry = JSON.parse(readFileSync('scripts/agents/registry.json', 'utf-8'));
   for (const [name, data] of Object.entries(registry)) {
-    await checkKey(name, data.api_key);
+    await checkKey(name, resolveAgentApiKey(data, name));
   }
 }
 

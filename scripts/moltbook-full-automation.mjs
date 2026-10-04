@@ -38,6 +38,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { resolveAgentApiKey } from './moltbook-agent-credentials.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -375,14 +376,19 @@ mkdirSync(STATE_DIR, { recursive: true });
 
 function loadAgentCreds(agentName) {
   const f = join(AGENTS_DIR, `${agentName}.json`);
-  if (existsSync(f)) return JSON.parse(readFileSync(f, 'utf-8'));
-  
+  if (existsSync(f)) {
+    const credentials = JSON.parse(readFileSync(f, 'utf-8'));
+    return { ...credentials, api_key: resolveAgentApiKey(credentials) };
+  }
+
   const registryFile = join(AGENTS_DIR, 'registry.json');
   if (existsSync(registryFile)) {
     const registry = JSON.parse(readFileSync(registryFile, 'utf-8'));
-    if (registry[agentName]) return registry[agentName];
+    if (registry[agentName]) {
+      return { ...registry[agentName], api_key: resolveAgentApiKey(registry[agentName], agentName) };
+    }
   }
-  
+
   throw new Error(`No credentials for ${agentName}`);
 }
 
@@ -1064,9 +1070,9 @@ async function main() {
         let regData = registry[brandName];
         if (!regData && registry[`${brandName}_CF`]) regData = registry[`${brandName}_CF`];
 
-        if (regData && regData.api_key) {
+        if (regData) {
            identityName = regData.agent_name || brandName;
-           identityKey = regData.api_key;
+           identityKey = resolveAgentApiKey(regData, identityName);
            console.log(`   🔸 Using registered agent identity: ${identityName}`);
         } else {
            console.log(`   🔸 Protocol Mode: Delivering via ${identityName} unified identity`);
