@@ -13,7 +13,6 @@ import { fetchJobrightMatches } from './job-sources/jobright-source.mjs';
 import { searchAdzuna } from './job-sources/adzuna-source.mjs';
 import { searchJSearch } from './job-sources/jsearch-source.mjs';
 
-const CANDIDATE_NAME = process.env.CANDIDATE_NAME || 'Prasad Kurri';
 const MATCH_THRESHOLD = Number(process.env.MATCH_THRESHOLD || 55);
 const MAX_NEW_TAILORED_PER_CYCLE = 5;
 
@@ -59,7 +58,7 @@ export async function runCycle({ location = '' } = {}) {
   const newlyPending = [];
   for (const { posting, score, matchedKeywords, reasons } of toTailor) {
     try {
-      const tailored = await tailorForPosting(resume, posting, CANDIDATE_NAME);
+      const tailored = await tailorForPosting(resume, posting, process.env.CANDIDATE_NAME || resume.contact?.name || '');
       const record = {
         ...posting,
         status: 'pending_approval',

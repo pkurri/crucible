@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Pulls job matches from the user's Jobright.ai account (already logged in
-// as prasadkurri.ai@gmail.com in the Chrome instance browser.mjs attaches
+// in the Chrome instance browser.mjs attaches
 // to). Jobright already runs its own resume-match + auto-apply pipeline;
 // this just surfaces its matches into our own review/notify flow.
 //
