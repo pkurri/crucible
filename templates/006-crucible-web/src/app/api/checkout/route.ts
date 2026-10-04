@@ -6,9 +6,41 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || 'sk_test_placeholder'
   apiVersion: '2024-06-20' as any,
 });
 
+function sanitizeAttribution(value: unknown) {
+  if (!value || typeof value !== 'object') return {};
+
+  return Object.fromEntries(
+    ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'].flatMap((key) => {
+      const candidate = (value as Record<string, unknown>)[key];
+      return typeof candidate === 'string' && /^[a-zA-Z0-9_-]{1,100}$/.test(candidate)
+        ? [[key, candidate]]
+        : [];
+    }),
+  );
+}
+
+// Product-specific checkouts (e.g. the LinkedIn automation add-on) need to
+// carry who's buying and what company they're buying it for through to the
+// webhook, since checkout.session.completed has no session/cookie context —
+// metadata is the only channel. Validated narrowly (UUID / short slug shape)
+// since metadata ends up echoed back verbatim in the webhook handler.
+function sanitizeProductMetadata(body: Record<string, unknown>) {
+  const out: Record<string, string> = {};
+  const userId = typeof body.userId === 'string' ? body.userId : '';
+  const product = typeof body.product === 'string' ? body.product : '';
+  const companyName = typeof body.companyName === 'string' ? body.companyName : '';
+  if (/^[0-9a-f-]{36}$/i.test(userId)) out.userId = userId;
+  if (/^[a-z0-9_-]{1,64}$/i.test(product)) out.product = product;
+  if (companyName.length > 0 && companyName.length <= 200) out.companyName = companyName;
+  return out;
+}
+
 export async function POST(req: Request) {
   try {
-    const { tierName } = await req.json();
+    const body = await req.json();
+    const { tierName, attribution } = body;
+    const checkoutAttribution = sanitizeAttribution(attribution);
+    const productMetadata = sanitizeProductMetadata(body);
     // Fallback only - the static pricingData import below should always
     // override this with the real, current price.
     let unitAmount = 0;
@@ -60,6 +92,8 @@ export async function POST(req: Request) {
       metadata: {
         project: 'crucible',
         tier: tierName,
+        ...checkoutAttribution,
+        ...productMetadata,
       }
     });
 

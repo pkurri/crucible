@@ -29,6 +29,8 @@ import {
   X
 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
+import { useSearchParams } from 'next/navigation';
+import { logConversionEvent } from '@/lib/analytics';
 
 interface HubTemplate {
   id: string;
@@ -67,6 +69,7 @@ const ICON_MAP: Record<string, any> = {
 };
 
 export default function ForgeHub() {
+  const searchParams = useSearchParams();
   const [templates, setTemplates] = useState<HubTemplate[]>([]);
   const [skills, setSkills] = useState<HubSkill[]>([]);
   const [loading, setLoading] = useState(true);
@@ -86,6 +89,14 @@ export default function ForgeHub() {
     // Auto-hide toast
     setTimeout(() => setActiveToast(null), 4000);
   };
+
+  useEffect(() => {
+    const starter = searchParams.get('starter');
+    if (starter) {
+      setSearchQuery(starter);
+      void logConversionEvent('click', { cta: 'free_starter_hub_opened', workflow: starter });
+    }
+  }, [searchParams]);
 
   useEffect(() => {
     async function fetchData() {
@@ -160,6 +171,13 @@ export default function ForgeHub() {
             </motion.div>
           ))}
         </div>
+
+        {searchParams.get('starter') && (
+          <div className="mb-8 rounded-xl border border-[#ff8c00]/30 bg-[#ff8c00]/5 p-5">
+            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#ff8c00] mb-2">Free starter workflow</p>
+            <p className="text-sm text-white">Review the workflow, then import the blueprint to begin configuring it for your stack.</p>
+          </div>
+        )}
 
         {/* Controls */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-12 border-b border-[#111] pb-8">

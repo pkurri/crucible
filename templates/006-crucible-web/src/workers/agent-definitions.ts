@@ -1176,9 +1176,16 @@ export class RevenueAgent implements IForgeAgent {
       // 2. Generate Pricing
       await logTelemetry(supabase, this.type, 'STRATEGY', 'Computing optimal pricing tiers...');
       const pricingPrompt = `
-        You are the Chief Revenue Officer for Crucible. 
+        You are the Chief Revenue Officer for Crucible, a product that ships
+        365+ production-grade AI skills, 63 agent definitions, and 114+
+        project templates as Claude Code slash commands, plus a web
+        dashboard to orchestrate, deploy, and monitor agent workflows.
         Analyze these competitors: ${competitorInfo}
-        Generate exactly 4 pricing tiers for Crucible.
+        Generate exactly 4 pricing tiers for Crucible. Every "features" entry
+        must describe an actual Crucible capability (skill/agent/template
+        access, orchestration limits, support tier, deployment options) —
+        do not invent capabilities Crucible does not have (e.g. "code
+        review" or unrelated SaaS features).
         Output MUST be a JSON array of objects with these fields:
         "name": (Starter, Pro, Enterprise, Sovereign)
         "price": (e.g. "$49/mo" or "Custom")
@@ -1203,28 +1210,34 @@ export class RevenueAgent implements IForgeAgent {
 
       // 3. Generate Sales Copy
       await logTelemetry(supabase, this.type, 'COPY', 'Crafting conversion-optimized sales copy...');
-      const salesPrompt = `Expert copywriter: Write a high-impact heading and sub-heading for the Crucible pricing page. Use Markdown. Focus on "Autonomous Enterprise Intelligence".`;
+      const salesPrompt = `Expert copywriter: Write a high-impact H1 heading and one supporting sentence for the Crucible pricing page. Use Markdown, and start with a single "#" heading (this is the only heading level the page styles). Crucible ships 365+ production-grade AI skills, 63 agent definitions, and 114+ project templates as Claude Code slash commands, plus a web dashboard to orchestrate, deploy, and monitor agent workflows. Be specific to that product — no generic buzzwords like "Autonomous Enterprise Intelligence" or "Data-Driven Decision Making."`;
       const salesCopy = await generateWithYield(salesPrompt, 'fast');
       fs.writeFileSync(path.join(DATA_DIR, 'sales-copy.md'), salesCopy);
 
-      // 4. Generate Moltbook Intel (Monetary Case Studies)
-      await logTelemetry(supabase, this.type, 'INTEL', 'Quantifying platform ROI for Moltbook case studies...');
+      // 4. Generate Moltbook Intel (Illustrative ROI Estimate)
+      await logTelemetry(supabase, this.type, 'INTEL', 'Quantifying platform ROI for Moltbook post...');
       const intelPrompt = `
-        You are the Chief Financial Analyst for Crucible. 
-        Your task is to calculate the specific monetary value and ROI a team of 10 engineers gets by using Crucible Pro (Advanced Agent Orchestration).
-        
-        Metrics to use:
+        You are a product marketer for Crucible.
+        Write an illustrative ROI estimate for what a 10-engineer team could
+        save using Crucible Pro (Advanced Agent Orchestration), based on
+        these assumed metrics:
+
         - 300+ Automated PR reviews/month
         - 15% reduction in high-priority tech debt
         - 40+ hours saved on boilerplate generation
         - Reduced context-switching costs
-        
-        Generate exactly one compelling Moltbook post in RAW JSON:
-        { 
-          "title": "Case Study: How [Company X] saved $[Amount] in Q1 using Crucible agents",
-          "content": "A technical but punchy analysis of the monetary savings. Use bullet points for the math. Total savings should be between $30k and $80k." 
+
+        This is a hypothetical estimate, not a real customer result. Do NOT
+        invent a company name, a customer quote, or present this as an
+        actual case study — the title and content must make clear this is
+        an illustrative estimate, not a real outcome.
+
+        Generate exactly one Moltbook post in RAW JSON:
+        {
+          "title": "Illustrative ROI: what a 10-engineer team could save with Crucible Pro",
+          "content": "A technical breakdown of the estimated savings math, using bullet points, explicitly framed as an estimate rather than a reported result."
         }
-        
+
         Requirement: RAW JSON only.
       `;
       let intelRaw = await generateWithYield(intelPrompt, 'general');
@@ -1235,7 +1248,7 @@ export class RevenueAgent implements IForgeAgent {
           const currentIntel = JSON.parse(fs.readFileSync(intelFilePath, 'utf-8'));
           currentIntel['RevenueOptimizer'] = intel;
           fs.writeFileSync(intelFilePath, JSON.stringify(currentIntel, null, 2));
-          await logTelemetry(supabase, this.type, 'SYNC', 'Revenue case study synced to Moltbook pipeline.');
+          await logTelemetry(supabase, this.type, 'SYNC', 'Illustrative ROI estimate synced to Moltbook pipeline.');
         }
       } catch (e) {
         console.warn('Failed to generate or sync Moltbook Intel:', e);

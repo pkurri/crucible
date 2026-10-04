@@ -55,10 +55,10 @@ export function Header() {
         {/* Navigation Links */}
         <div className="hidden md:flex items-center gap-8 ml-10">
           <Link href="/pricing" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#ff8c00] transition-colors">
-            MONETIZATION
+            PRICING
           </Link>
           <Link href="/hub" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#ff8c00] transition-colors">
-            BLUEPRINTS
+            WORKFLOWS
           </Link>
           <Link href="/observability" className="text-[10px] font-mono tracking-widest text-[#888] hover:text-[#00ff88] transition-colors">
             FLEET
@@ -109,7 +109,7 @@ export function Header() {
                 className="flex items-center gap-2 px-4 py-2 bg-[#ff8c00]/10 border border-[#ff8c00]/30 rounded text-[#ff8c00] font-mono text-[10px] tracking-widest hover:bg-[#ff8c00] hover:text-black transition-all"
               >
                 <LogIn size={14} />
-                INITIALIZE
+                SIGN IN
               </Link>
             )}
           </div>

@@ -10,6 +10,17 @@ interface PricingButtonProps {
   isPopular?: boolean;
 }
 
+function getCheckoutAttribution() {
+  const parameters = new URLSearchParams(window.location.search);
+  return Object.fromEntries(
+    ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content']
+      .flatMap((key) => {
+        const value = parameters.get(key);
+        return value ? [[key, value]] : [];
+      }),
+  );
+}
+
 export function PricingButton({ tierName, price, isPopular }: PricingButtonProps) {
   const [loading, setLoading] = useState(false);
 
@@ -20,12 +31,13 @@ export function PricingButton({ tierName, price, isPopular }: PricingButtonProps
     }
 
     setLoading(true);
-    await logConversionEvent('checkout_start', { tierName });
+    const attribution = getCheckoutAttribution();
+    await logConversionEvent('checkout_start', { tierName, ...attribution });
     try {
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ tierName }),
+        body: JSON.stringify({ tierName, attribution }),
       });
       
       const data = await res.json();

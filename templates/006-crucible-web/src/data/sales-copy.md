@@ -1,5 +1,6 @@
-### **Unlock the Power of Autonomous Enterprise Intelligence**
+# Skip the setup. Ship with Crucible
 
-#### **Transform Your Business with Data-Driven Decision Making**
-
-In this section, we'll outline the pricing options for Crucible, a cutting-edge platform that empowers your organization to harness the full potential of Autonomous Enterprise Intelligence.
+365+ production-grade skills, 63 agent definitions, and 114+ project
+templates — install as Claude Code slash commands and orchestrate them from
+one live dashboard. Pick the plan that matches how much of your stack you
+want automated.

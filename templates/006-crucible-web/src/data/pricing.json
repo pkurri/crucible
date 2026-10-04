@@ -2,55 +2,64 @@
   {
     "name": "Starter",
     "price": "$49/mo",
-    "description": "Ideal for small teams and individual developers",
+    "description": "Full skill pack access for solo developers shipping with Claude Code",
     "features": [
-      "Basic code review",
-      "1 project repository",
-      "5 users",
-      "Basic analytics"
+      "365+ skills, 63 agents, 114+ project templates",
+      "Install as Claude Code slash commands",
+      "Self-hosted / local usage",
+      "Community support"
     ],
-    "targeted_at": "Small Teams"
+    "targeted_at": "Solo Developers"
   },
   {
     "name": "Pro",
     "price": "$99/mo",
-    "description": "Suitable for growing teams and projects",
+    "description": "Everything in Starter, plus the web dashboard for teams orchestrating multiple agents",
     "features": [
-      "Advanced code review",
-      "10 project repositories",
-      "20 users",
-      "Enhanced analytics",
-      "Custom integrations"
+      "Everything in Starter",
+      "Web orchestration dashboard",
+      "Pro-only specialized agents",
+      "Multi-agent workflow monitoring",
+      "Priority email support"
     ],
     "targeted_at": "Growing Teams"
   },
   {
     "name": "Enterprise",
     "price": "Custom",
-    "description": "Designed for large organizations and enterprises",
+    "description": "Everything in Pro, plus dedicated infrastructure and support for larger orgs",
     "features": [
-      "Advanced code review",
-      "Unlimited project repositories",
-      "Unlimited users",
-      "Advanced analytics",
+      "Everything in Pro",
+      "Dedicated Enterprise Cloud hosting",
       "Custom integrations",
-      "Dedicated support"
+      "Dedicated onboarding and support",
+      "SLA guarantees"
     ],
     "targeted_at": "Large Org"
   },
   {
     "name": "Sovereign",
     "price": "Custom",
-    "description": "Tailored for government, defense, and high-performance computing (HPC) sectors",
+    "description": "Everything in Enterprise, tailored for government, defense, and HPC deployments",
     "features": [
-      "Advanced code review",
-      "Unlimited project repositories",
-      "Unlimited users",
-      "Advanced analytics",
-      "Custom integrations",
-      "Dedicated support",
-      "Compliance and security certifications"
+      "Everything in Enterprise",
+      "Compliance and security certification support",
+      "Isolated/dedicated deployment options",
+      "Named account team"
     ],
     "targeted_at": "Government/HPC"
+  },
+  {
+    "name": "LinkedIn Growth",
+    "price": "$149/mo",
+    "description": "Automated LinkedIn content ops for your company: your own Publora/Apify/Pixfaro accounts, your voice, drafted and scheduled by the linkedin-* skill pack, published only after you approve each draft",
+    "features": [
+      "Weekly content batch + daily comment-check automation",
+      "Bring your own Publora, Apify, and Pixfaro accounts (not resold — you own and pay for these directly)",
+      "Per-company voice profile and posting cadence",
+      "Human-in-the-loop approval inbox — nothing publishes unreviewed",
+      "On-demand \"Run now\" for any skill"
+    ],
+    "targeted_at": "Companies automating their own LinkedIn presence"
   }
 ]

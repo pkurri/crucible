@@ -18,7 +18,10 @@ export function AuthForm() {
 
     try {
       // If we're on the login page, redirect to home. Otherwise, return to the current page.
-      const redirectTo = window.location.pathname === '/login' ? '/' : window.location.pathname;
+      const requestedRedirect = new URLSearchParams(window.location.search).get('next');
+      const redirectTo = requestedRedirect?.startsWith('/') && !requestedRedirect.startsWith('//')
+        ? requestedRedirect
+        : window.location.pathname === '/login' ? '/' : window.location.pathname;
       const { error } = await signInWithEmail(email, redirectTo);
       if (error) {
         setError(error.message);
