@@ -42,3 +42,4 @@ scripts/job-search/output/
 .DS_Store
 .playwright-mcp/
 scratchpad/
+!.env.example
