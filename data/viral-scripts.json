@@ -12455,7 +12455,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12465,43 +12465,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Booster",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Weekly Lifelong Learning Circles",
+        "icon": "🤝"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
       }
     ]
   },
@@ -12537,7 +12543,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master CryptoBullRunSecrets, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -12547,43 +12553,49 @@
     ]
   },
   "DarkPsychologyPower": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 DarkPsychologyPower secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of DarkPsychologyPower.",
-        "duration": 5
+        "title": "Neural Triggers",
+        "name": "Mirror Effect",
+        "icon": "🪞"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Emotional Hooks",
+        "name": "Psyche Pulse",
+        "icon": "💓"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Body Language",
+        "name": "Anchor Stance",
+        "icon": "🦵"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Social Proof",
+        "name": "Bandwagon Echo",
+        "icon": "👥"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Scarcity Tactics",
+        "name": "Last Chance Pulse",
+        "icon": "⏰"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Linguistic Tricks",
+        "name": "Double Bind",
+        "icon": "⚖️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Authority Play",
+        "name": "Fake Expert",
+        "icon": "🎩"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more DarkPsychologyPower.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Micro Persuasion",
+        "name": "Foot in Door",
+        "icon": "🚪"
       }
     ]
   },
@@ -35634,43 +35646,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Neon Metropolis",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Underwater Glow",
+        "name": "Aquatalia",
+        "icon": "🌊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Forest Lighthouse",
+        "name": "Verdant Radiance",
+        "icon": "🌲"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Starlit Sanctuary",
+        "name": "Celestial City",
+        "icon": "✨"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Subterranean Beacon",
+        "name": "Glowhole City",
+        "icon": "🕳️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Skyward Spectra",
+        "name": "Nimbus Nexus",
+        "icon": "☁️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Prismatic Hub",
+        "name": "Spectrum City",
+        "icon": "🌈"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Time‑Warp Port",
+        "name": "Eternity Harbor",
+        "icon": "⏳"
       }
     ]
   },
@@ -38092,7 +38110,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master FungalFutureCities, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -38977,7 +38995,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more ZeroGravityCooking.",
         "duration": 5
       },
       {
@@ -40385,7 +40403,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -86695,7 +86713,7 @@
     ]
   },
   "MicroplasticCleanupTech": {
-    "voice": "en-US-GuyNeural",
+    "voice": "en-US-JennyNeural",
     "lines": [
       {
         "text": "Nobody talks about the truth of MicroplasticCleanupTech.",
@@ -86726,7 +86744,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -87441,7 +87459,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more MyceliumArchitecture.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
@@ -87864,6 +87882,4261 @@
       },
       {
         "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790257515522": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790257515522.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790257515522, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "LivingFurniture": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of LivingFurniture.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790267537313": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790267537313.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "MicrobiomeBeauty": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of MicrobiomeBeauty.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more MicrobiomeBeauty.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "AnimalAITranslator": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of AnimalAITranslator.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master AnimalAITranslator, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ZeroWasteArchitecture": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ZeroWasteArchitecture.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ZeroWasteArchitecture.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790305753099": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790305753099.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790305753099, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790307029875": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790307029875 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1790307029875, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Feature",
+        "name": "Dynamic Workflow Engine",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Integration",
+        "name": "API Sync Hub",
+        "icon": "🔗"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "Smart Trigger Bot",
+        "icon": "🤖"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Encryption Layer",
+        "icon": "🔒"
+      },
+      {
+        "title": "Collaboration",
+        "name": "Team Pulse Chat",
+        "icon": "💬"
+      },
+      {
+        "title": "Scalability",
+        "name": "Elastic Cloud Scaler",
+        "icon": "☁️"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 AI Assistant",
+        "icon": "🧠"
+      }
+    ]
+  },
+  "QuantumSoundMysteries": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of QuantumSoundMysteries.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790313472903": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790313472903.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790313472903, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790334099130": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790334099130.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790345245808": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790345245808.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790345245808.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ConsciousnessDataMining": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ConsciousnessDataMining.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ConsciousnessDataMining.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "TranslucentSolarCity": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 TranslucentSolarCity secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Blueprints 🏗️",
+        "name": "GlassSolar Grid",
+        "icon": "🪟"
+      },
+      {
+        "title": "Transparent Tech 🌞",
+        "name": "PaneEQ Panels",
+        "icon": "🌞"
+      },
+      {
+        "title": "Power Grid ⚡",
+        "name": "SolarMesh Network",
+        "icon": "⚡"
+      },
+      {
+        "title": "Eco-Cities 🌱",
+        "name": "SunCity",
+        "icon": "🏙️"
+      },
+      {
+        "title": "Design Awards 🏆",
+        "name": "ClearDesign 2024",
+        "icon": "🏆"
+      },
+      {
+        "title": "Investment 💰",
+        "name": "SolarFund",
+        "icon": "💵"
+      },
+      {
+        "title": "Climate Impact 🌍",
+        "name": "Zero‑Emissions City",
+        "icon": "🌍"
+      },
+      {
+        "title": "Future Visions 🔮",
+        "name": "DreamBuilders",
+        "icon": "🔮"
+      }
+    ]
+  },
+  "ApexFlow_1790370180306": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790370180306.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790377578752": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790377578752.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790377578752, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790378964352": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790378964352.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790378964352, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790392424030": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790392424030.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790392424030, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790393761243": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790393761243 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790393761243.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "TurboBoost Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Automation",
+        "name": "Self-Healing Pipeline",
+        "icon": "🔧"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Scalability",
+        "name": "Elastic Mesh Network",
+        "icon": "🌐"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Engine",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "Universal Adapter Suite",
+        "icon": "🔌"
+      },
+      {
+        "title": "Reliability",
+        "name": "99.999% Uptime Guarantee",
+        "icon": "⏱️"
+      },
+      {
+        "title": "Innovation",
+        "name": "Quantum‑Ready Framework",
+        "icon": "🚀"
+      }
+    ]
+  },
+  "ApexFlow_1790400143163": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790400143163.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790400143163.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790413682316": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790413682316 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Superfluid Core",
+        "name": "ApexFlow 179 Core MC‑1",
+        "icon": "🚀"
+      },
+      {
+        "title": "Holographic Interface",
+        "name": "SpectraView HUD",
+        "icon": "🕶️"
+      },
+      {
+        "title": "Nano Fabric",
+        "name": "Quantum Thread",
+        "icon": "🧬"
+      },
+      {
+        "title": "AI Ops",
+        "name": "NeuroSync AI",
+        "icon": "🤖"
+      },
+      {
+        "title": "Zero Gravity Mode",
+        "name": "Levity Drive",
+        "icon": "🪐"
+      },
+      {
+        "title": "Temporal Analysis",
+        "name": "ChronoAI Lens",
+        "icon": "⌛"
+      },
+      {
+        "title": "Energy Recovery",
+        "name": "ReFlux MP‑T",
+        "icon": "⚡"
+      },
+      {
+        "title": "Immersive Audio",
+        "name": "SonicSpectrum",
+        "icon": "🎧"
+      }
+    ]
+  },
+  "ApexFlow_1790428912690": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790428912690.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790428912690, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790437142654": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790437142654.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790437749090": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790437749090.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790449302551": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790449302551.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790449302551, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790450438035": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790450438035.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790450438035, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790454994394": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790454994394.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790461441727": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790461441727.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790464030377": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790464030377.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790464030377, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790479282686": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790479282686.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "NeuroFeedbackCanvas": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of NeuroFeedbackCanvas.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790487517363": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790487517363.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790502619529": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790502619529 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1790502619529, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Mechanics",
+        "name": "Dynamic Flow Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Power Moves",
+        "name": "Flux Surge",
+        "icon": "🔥"
+      },
+      {
+        "title": "Visuals",
+        "name": "Nebula Mirage",
+        "icon": "🌌"
+      },
+      {
+        "title": "Strategy",
+        "name": "Chain Reaction Tactics",
+        "icon": "🧩"
+      },
+      {
+        "title": "Customization",
+        "name": "Quantum Skin Pack",
+        "icon": "🎨"
+      },
+      {
+        "title": "Competitive Edge",
+        "name": "Ace Leaderboard Boost",
+        "icon": "🏆"
+      },
+      {
+        "title": "Community",
+        "name": "Guild Domination Hub",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Future Updates",
+        "name": "Eclipse Expansion",
+        "icon": "🌑"
+      }
+    ]
+  },
+  "ApexFlow_1790507853636": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790507853636.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790518534145": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790518534145.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790525860151": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790525860151.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790525860151, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790526337300": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790526337300 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Launchpad",
+        "name": "Omega Portal",
+        "icon": "🚀"
+      },
+      {
+        "title": "Evolution Engine",
+        "name": "Apex Core",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Neural Network",
+        "name": "NeuWave",
+        "icon": "🤖"
+      },
+      {
+        "title": "Quantum Scheduler",
+        "name": "Chrono Sync",
+        "icon": "⏱️"
+      },
+      {
+        "title": "Data Hub",
+        "name": "InfiniVault",
+        "icon": "💾"
+      },
+      {
+        "title": "User Interface",
+        "name": "Apex Lens",
+        "icon": "🔍"
+      },
+      {
+        "title": "Security Layer",
+        "name": "Quantum Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics Suite",
+        "name": "Pulse Insight",
+        "icon": "📊"
+      }
+    ]
+  },
+  "CarbonCaptureDynamos": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of CarbonCaptureDynamos.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790542085285": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790542085285.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790542085285.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790549437919": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790549437919.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790549437919, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790551324730": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790551324730.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790565527598": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790565527598.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790565527598, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "EdiblePackagingInnovations": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of EdiblePackagingInnovations.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790574413555": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790574413555.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790591737035": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790591737035.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790623019562": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790623019562.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790623019562.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ZeroGravityFashion": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ZeroGravityFashion.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790636082792": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790636082792.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790641873477": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790641873477 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance Boost",
+        "name": "Turbo Mode Activation",
+        "icon": "⚡"
+      },
+      {
+        "title": "Automation",
+        "name": "Zero‑Click Workflow Builder",
+        "icon": "🤖"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Heatmap Overlay",
+        "icon": "🔥"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum‑Grade Encryption Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Integration",
+        "name": "One‑Click API Bridge Suite",
+        "icon": "🔗"
+      },
+      {
+        "title": "Customization",
+        "name": "Dynamic Theme Engine",
+        "icon": "🎨"
+      },
+      {
+        "title": "Scalability",
+        "name": "Auto‑Scaling Cluster Wizard",
+        "icon": "📈"
+      },
+      {
+        "title": "Support",
+        "name": "AI‑Powered 24/7 Help Bot",
+        "icon": "💬"
+      }
+    ]
+  },
+  "ApexFlow_1790640754284": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790640754284.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790640754284, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790654149524": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790654149524.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790654149524.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790677534196": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790677534196 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790677534196.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "TurboScape",
+        "icon": "🚀"
+      },
+      {
+        "title": "Scalability",
+        "name": "ElasticEdge",
+        "icon": "🧩"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldPulse",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Automation",
+        "name": "FluxEngine",
+        "icon": "🤖"
+      },
+      {
+        "title": "Visualization",
+        "name": "PixelStream",
+        "icon": "🎨"
+      },
+      {
+        "title": "Integration",
+        "name": "NexusLink",
+        "icon": "🔗"
+      },
+      {
+        "title": "Monitoring",
+        "name": "Watchtower",
+        "icon": "📊"
+      },
+      {
+        "title": "AI",
+        "name": "MindMesh",
+        "icon": "🧠"
+      }
+    ]
+  },
+  "GlowCityTech": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of GlowCityTech.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master GlowCityTech, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790683348760": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790683348760.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790683348760.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "AIDeepfakeHistory": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIDeepfakeHistory secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Early Experiments",
+        "name": "Synthesizing Obama 2017",
+        "icon": "🎥"
+      },
+      {
+        "title": "Breakthrough Tech",
+        "name": "DeepFaceLab Launch",
+        "icon": "🧪"
+      },
+      {
+        "title": "Viral Moment",
+        "name": "Jordan Peele Obama Deepfake",
+        "icon": "😲"
+      },
+      {
+        "title": "Ethical Debate",
+        "name": "First Deepfake Legislation",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Entertainment",
+        "name": "Star Wars CGI Resurrection",
+        "icon": "✨"
+      },
+      {
+        "title": "Research",
+        "name": "First GAN-based Deepfake Paper",
+        "icon": "📚"
+      },
+      {
+        "title": "Misuse",
+        "name": "Political Deepfake Scandal 2020",
+        "icon": "🚨"
+      },
+      {
+        "title": "Future",
+        "name": "Real-time Deepfake Avatars",
+        "icon": "🤖"
+      }
+    ]
+  },
+  "OceanicUtopia": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of OceanicUtopia.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more OceanicUtopia.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "MicrobiomeMeals": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of MicrobiomeMeals.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790739807191": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790739807191.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790739807191, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790747620459": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790747620459 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1790747620459, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Principle",
+        "name": "Quantum Sync",
+        "icon": "⚛️"
+      },
+      {
+        "title": "Performance Boost",
+        "name": "Turbo Flux",
+        "icon": "🚀"
+      },
+      {
+        "title": "Hidden Metric",
+        "name": "Echo Ratio",
+        "icon": "📊"
+      },
+      {
+        "title": "Security Layer",
+        "name": "Veil Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Automation Hack",
+        "name": "Pulse Loop",
+        "icon": "🔁"
+      },
+      {
+        "title": "Integration Trick",
+        "name": "Nexus Bridge",
+        "icon": "🌉"
+      },
+      {
+        "title": "Visual Flair",
+        "name": "Prisma Render",
+        "icon": "🌈"
+      },
+      {
+        "title": "Community Tip",
+        "name": "Apex Guild",
+        "icon": "👥"
+      }
+    ]
+  },
+  "ApexFlow_1790740941744": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790740941744.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "AIRewrittenFolktales": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of AIRewrittenFolktales.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more AIRewrittenFolktales.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790779116815": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790779116815.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790781191234": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790781191234.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790800958407": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790800958407.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790800958407.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790801930641": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790801930641.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790801930641, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790805702775": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790805702775.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790826609536": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790826609536.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790826609536, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "BacteriumThreads": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BacteriumThreads secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Origin",
+        "name": "Primeval Microbe",
+        "icon": "🧫"
+      },
+      {
+        "title": "Habitat",
+        "name": "Deep-Sea Vent",
+        "icon": "🌊"
+      },
+      {
+        "title": "Mutation",
+        "name": "CRISPR‑Enhanced Thread",
+        "icon": "🧬"
+      },
+      {
+        "title": "Application",
+        "name": "Bio‑Fabric Weave",
+        "icon": "🧵"
+      },
+      {
+        "title": "Resistance",
+        "name": "Antibiotic‑Proof Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Growth",
+        "name": "Rapid Biofilm Expansion",
+        "icon": "📈"
+      },
+      {
+        "title": "Interaction",
+        "name": "Symbiotic Plant Bond",
+        "icon": "🌱"
+      },
+      {
+        "title": "Future",
+        "name": "Living Smart Textile",
+        "icon": "🚀"
+      }
+    ]
+  },
+  "ApexFlow_1790836040745": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790836040745 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance Boost",
+        "name": "Turbo Mode Activation",
+        "icon": "⚡"
+      },
+      {
+        "title": "Hidden Feature",
+        "name": "Quantum Sync Protocol",
+        "icon": "🌀"
+      },
+      {
+        "title": "Design Hack",
+        "name": "Infinite Canvas Layout",
+        "icon": "🎨"
+      },
+      {
+        "title": "Security Trick",
+        "name": "Zero‑Trust Encryption Shield",
+        "icon": "🔒"
+      },
+      {
+        "title": "Automation Gem",
+        "name": "AI‑Driven Workflow Weaver",
+        "icon": "🤖"
+      },
+      {
+        "title": "Analytics Secret",
+        "name": "Real‑Time Pulse Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration Power",
+        "name": "Universal API Gateway",
+        "icon": "🌐"
+      },
+      {
+        "title": "Community Perk",
+        "name": "Exclusive Beta Access Pass",
+        "icon": "🎟️"
+      }
+    ]
+  },
+  "SyntheticOceanLife": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of SyntheticOceanLife.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more SyntheticOceanLife.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790867208217": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790867208217 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790867208217.",
+    "list": [
+      {
+        "title": "Automation",
+        "name": "FlowMapper Pro",
+        "icon": "💻"
+      },
+      {
+        "title": "Data Sync",
+        "name": "SyncStream",
+        "icon": "🔄"
+      },
+      {
+        "title": "Analytics",
+        "name": "InsightPulse",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "BridgeSuite",
+        "icon": "🌉"
+      },
+      {
+        "title": "UI",
+        "name": "DashQuark",
+        "icon": "🪐"
+      },
+      {
+        "title": "Security",
+        "name": "SecurePeak",
+        "icon": "🔐"
+      },
+      {
+        "title": "Performance",
+        "name": "SpeedNova",
+        "icon": "⚡"
+      },
+      {
+        "title": "Support",
+        "name": "HelpHub",
+        "icon": "🆘"
+      }
+    ]
+  },
+  "ApexFlow_1790887768032": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790887768032.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790870235569": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790870235569.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790870235569, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790889370888": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790889370888.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790889370888, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790893067564": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790893067564.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790893067564.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790912892930": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790912892930.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790912892930, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790921158671": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790921158671 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Mindset",
+        "name": "Quantum Focus",
+        "icon": "🧠"
+      },
+      {
+        "title": "Tech",
+        "name": "Hyper‑Link Engine",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Design",
+        "name": "FlowCanvas",
+        "icon": "🎨"
+      },
+      {
+        "title": "Strategy",
+        "name": "Adaptive Cycles",
+        "icon": "🔄"
+      },
+      {
+        "title": "Collaboration",
+        "name": "TeamSync Hub",
+        "icon": "🤝"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Pulse",
+        "icon": "📈"
+      },
+      {
+        "title": "Marketing",
+        "name": "Audience Amplifier",
+        "icon": "📣"
+      },
+      {
+        "title": "Automation",
+        "name": "AutoPilot Scripts",
+        "icon": "🤖"
+      }
+    ]
+  },
+  "ApexFlow_1790941689408": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790941689408.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790941689408, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790951302219": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790951302219 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790951302219.",
+    "list": [
+      {
+        "title": "Velocity",
+        "name": "Swift Surge Lens",
+        "icon": "⚡"
+      },
+      {
+        "title": "Precision",
+        "name": "Focus Grid",
+        "icon": "🔮"
+      },
+      {
+        "title": "Scalability",
+        "name": "Chainlink Node",
+        "icon": "⛓️"
+      },
+      {
+        "title": "Aesthetics",
+        "name": "Glitch Nebula",
+        "icon": "🌌"
+      },
+      {
+        "title": "Security",
+        "name": "Quantum Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "User Flow",
+        "name": "Pathfinder AI",
+        "icon": "🚀"
+      },
+      {
+        "title": "Analytics",
+        "name": "Pulse Tracker",
+        "icon": "📈"
+      },
+      {
+        "title": "Integration",
+        "name": "BridgeSync Hub",
+        "icon": "🔗"
+      }
+    ]
+  },
+  "ApexFlow_1790953030263": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790953030263.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1790953030263, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "DreamWeaverAI": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of DreamWeaverAI.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790972638491": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790972638491 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790972638491.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "Quantum Pulse Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Data Sync",
+        "name": "Zero-Lag Mirror",
+        "icon": "🔄"
+      },
+      {
+        "title": "Security",
+        "name": "Aegis Shield Protocol",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Analytics",
+        "name": "Insight Prism Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "FlowWeaver Bot",
+        "icon": "🤖"
+      },
+      {
+        "title": "Storage",
+        "name": "Nebula Vault",
+        "icon": "☁️"
+      },
+      {
+        "title": "Integration",
+        "name": "OmniLink Adapter",
+        "icon": "🔗"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Pulse Assist",
+        "icon": "💬"
+      }
+    ]
+  },
+  "ApexFlow_1790974510637": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790974510637.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790974510637.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790977578020": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790977578020.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790977578020.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790998358008": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1790998358008.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1790998358008.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1790999529291": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1790999529291 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "Quantum Compressor",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Optimization",
+        "name": "Adaptive Flow Scheduler",
+        "icon": "📈"
+      },
+      {
+        "title": "Security",
+        "name": "Zero-Trust Encryption Layer",
+        "icon": "🔐"
+      },
+      {
+        "title": "Monitoring",
+        "name": "Real‑Time Telemetry Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Scaling",
+        "name": "Elastic Node Orchestrator",
+        "icon": "🚀"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Insight AI",
+        "icon": "🤖"
+      },
+      {
+        "title": "Integration",
+        "name": "Multi‑Cloud Connector Suite",
+        "icon": "☁️"
+      },
+      {
+        "title": "Support",
+        "name": "24/7 Autonomous Helpbot",
+        "icon": "💬"
+      }
+    ]
+  },
+  "ApexFlow_1791006018588": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791006018588.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1791006018588.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791020456727": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791020456727.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791025293046": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791025293046.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1791025293046.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791034821513": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791034821513.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1791034821513, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791041899431": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791041899431.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1791041899431, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791042313720": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791042313720.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1791042313720, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791054155296": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791054155296 secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1791054155296.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "Quantum Sync Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Data Flow",
+        "name": "Zero‑Latency Pipeline",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security",
+        "name": "Adaptive Encryption Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinite Node Mesh",
+        "icon": "🌐"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Lens",
+        "icon": "🔍"
+      },
+      {
+        "title": "Automation",
+        "name": "Self‑Healing Orchestrator",
+        "icon": "🤖"
+      },
+      {
+        "title": "Integration",
+        "name": "Universal API Gateway",
+        "icon": "🔗"
+      },
+      {
+        "title": "User Experience",
+        "name": "Immersive Flow Dashboard",
+        "icon": "🖥️"
+      }
+    ]
+  },
+  "ApexFlow_1791055364420": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791055364420.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1791055364420, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791059583446": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791059583446.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791067342599": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791067342599.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "If you want to master ApexFlow_1791067342599, you're in the right place. Subscribe.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791069466073": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791069466073.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Don't let the algorithm hide the truth. Follow for more ApexFlow_1791069466073.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "DigitalArchaeology": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of DigitalArchaeology.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791094529034": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791094529034 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Mastery",
+        "name": "Quantum Leap",
+        "icon": "🚀"
+      },
+      {
+        "title": "Aesthetics",
+        "name": "Kaleido Lens",
+        "icon": "🎨"
+      },
+      {
+        "title": "Resources",
+        "name": "Hydra Cache",
+        "icon": "🏦"
+      },
+      {
+        "title": "Defense",
+        "name": "Nova Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Enhancement",
+        "name": "Echo Blade",
+        "icon": "✨"
+      },
+      {
+        "title": "Exploration",
+        "name": "Rift Horizon",
+        "icon": "🌌"
+      },
+      {
+        "title": "Communication",
+        "name": "Stellar Beacon",
+        "icon": "🌠"
+      },
+      {
+        "title": "Dominance",
+        "name": "Apex Throne",
+        "icon": "👑"
+      }
+    ]
+  },
+  "AlgaePoweredCities": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Imagine a city that runs on algae, not cars.",
+        "duration": 5
+      },
+      {
+        "text": "It lights the night with bioluminescent glow.",
+        "duration": 4
+      },
+      {
+        "text": "Algae soak up 80% of CO2 each day.",
+        "duration": 5
+      },
+      {
+        "text": "Second: 90% of power comes from a single algae wall.",
+        "duration": 5
+      },
+      {
+        "text": "Twist: the same algae crystals also purify our drinking water.",
+        "duration": 5
+      },
+      {
+        "text": "Next, watch how to mold an algae power block.",
+        "duration": 4
+      },
+      {
+        "text": "If you miss this, you’ll miss the future of cities.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: how algae can cure plastic waste.",
+        "duration": 4
+      }
+    ]
+  },
+  "ZeroWasteCities": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ZeroWasteCities.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
