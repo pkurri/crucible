@@ -91997,5 +91997,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1791094529034": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791094529034 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Mastery",
+        "name": "Quantum Leap",
+        "icon": "🚀"
+      },
+      {
+        "title": "Aesthetics",
+        "name": "Kaleido Lens",
+        "icon": "🎨"
+      },
+      {
+        "title": "Resources",
+        "name": "Hydra Cache",
+        "icon": "🏦"
+      },
+      {
+        "title": "Defense",
+        "name": "Nova Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Enhancement",
+        "name": "Echo Blade",
+        "icon": "✨"
+      },
+      {
+        "title": "Exploration",
+        "name": "Rift Horizon",
+        "icon": "🌌"
+      },
+      {
+        "title": "Communication",
+        "name": "Stellar Beacon",
+        "icon": "🌠"
+      },
+      {
+        "title": "Dominance",
+        "name": "Apex Throne",
+        "icon": "👑"
+      }
+    ]
   }
 }
