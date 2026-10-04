@@ -1,6 +1,11 @@
 ---
 name: verification-loop
 description: "A comprehensive verification system for Claude Code sessions."
+triggers:
+  - 'verification loop'
+  - 'pre-PR checks'
+  - 'run quality gates'
+  - 'build and lint check'
 ---
 
 # Verification Loop Skill

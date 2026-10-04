@@ -1,6 +1,11 @@
 ---
 name: orch-pipeline
 description: Shared orchestration engine for the orch-* skill family. Defines the gated Research-Plan-TDD-Review-Commit pipeline, the size classifier, the agent map, and the two human gates that the orch-* operation skills delegate to. Not usually invoked directly.
+triggers:
+  - 'orch-pipeline engine'
+  - 'orchestrator shared pipeline'
+  - 'orch size classifier'
+  - 'orchestration gates'
 ---
 
 # Orchestrator Pipeline (shared engine)

@@ -1,6 +1,11 @@
 ---
 name: scholar-evaluation
 description: Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback. Use when evaluating academic or scientific work — papers, proposals, methods sections, or evidence quality — against a repeatable rubric.
+triggers:
+  - 'evaluate research paper'
+  - 'review methodology'
+  - 'check citation support'
+  - 'peer review feedback'
 metadata:
   origin: community
 ---

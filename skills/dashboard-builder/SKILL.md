@@ -1,7 +1,12 @@
 ---
 name: dashboard-builder
 description: Build monitoring dashboards that answer real operator questions for Grafana, SigNoz, and similar platforms. Use when turning metrics into a working dashboard instead of a vanity board.
- direct-port adaptation
+triggers:
+  - 'build a dashboard'
+  - 'Grafana dashboard'
+  - 'SigNoz dashboard'
+  - 'monitoring dashboard'
+  - 'operational dashboard'
 version: "1.0.0"
 ---
 

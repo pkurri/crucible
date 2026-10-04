@@ -1,6 +1,12 @@
 ---
 name: homelab-pihole-dns
 description: Pi-hole installation, blocklist management, DNS-over-HTTPS setup, DHCP integration, local DNS records, and troubleshooting broken DNS resolution on a home network. Use when the task explicitly involves Pi-hole — installing it, managing blocklists, configuring DoH or DHCP, adding local DNS records, or diagnosing DNS resolution with Pi-hole in the path.
+triggers:
+  - 'Pi-hole setup'
+  - 'DNS ad blocking'
+  - 'pihole blocklist'
+  - 'DNS-over-HTTPS homelab'
+  - 'local DNS records'
 metadata:
   origin: community
 ---

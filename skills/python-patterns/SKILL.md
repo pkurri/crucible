@@ -1,6 +1,11 @@
 ---
 name: python-patterns
 description: Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications. Use when writing or reviewing Python code and idiomatic structure, typing, or PEP 8 is in question.
+triggers:
+  - 'pythonic idioms'
+  - 'pep 8 review'
+  - 'python type hints'
+  - 'python code review'
 metadata:
   origin: ECC
 ---

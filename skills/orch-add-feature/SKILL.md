@@ -1,6 +1,11 @@
 ---
 name: orch-add-feature
 description: Orchestrate building a brand-new feature end to end — research, plan, TDD implementation, review, and gated commit — by delegating each phase to the matching crucible agent. Use when adding a capability that does not exist yet.
+triggers:
+  - 'add new feature orchestrate'
+  - 'orch-add-feature'
+  - 'build new capability tdd'
+  - 'implement feature end to end'
 ---
 
 # orch-add-feature

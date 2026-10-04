@@ -1,6 +1,12 @@
 ---
 name: browser-qa
 description: Use this skill to automate visual testing and UI interaction verification using browser automation after deploying features.
+triggers:
+  - 'browser QA'
+  - 'visual testing after deploy'
+  - 'UI interaction verification'
+  - 'smoke test staging'
+  - 'automated browser check'
 metadata:
   origin: ECC
 ---

@@ -1,6 +1,12 @@
 ---
 name: clickhouse-io
 description: ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. Use when writing ClickHouse schemas or queries, or when an analytical query is too slow.
+triggers:
+  - 'ClickHouse schema'
+  - 'ClickHouse query optimization'
+  - 'analytical query slow'
+  - 'MergeTree engine'
+  - 'ClickHouse migration'
 metadata:
   origin: ECC
 ---

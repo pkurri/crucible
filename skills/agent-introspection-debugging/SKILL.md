@@ -1,6 +1,12 @@
 ---
 name: agent-introspection-debugging
 description: Structured self-debugging workflow for AI agent failures using capture, diagnosis, contained recovery, and introspection reports.
+triggers:
+  - 'agent stuck looping'
+  - 'agent debug itself'
+  - 'agent failure capture'
+  - 'agent drifting off task'
+  - 'self-debug agent run'
 ---
 
 # Agent Introspection Debugging

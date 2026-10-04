@@ -13,6 +13,11 @@ description: >-
   DO NOT TRIGGER when: user has already specified a level in the current
   session (maintain it), the request is clearly a one-word answer, or
   "token" refers to auth/session/payment tokens rather than response size.
+triggers:
+  - 'token budget'
+  - 'short version'
+  - 'control response length'
+  - 'brief answer'
 metadata:
   origin: community
 ---

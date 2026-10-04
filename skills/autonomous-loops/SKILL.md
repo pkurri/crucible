@@ -1,6 +1,11 @@
 ---
 name: autonomous-loops
 description: "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems."
+triggers:
+  - 'autonomous Claude Code loop'
+  - 'multi-agent DAG'
+  - 'claude -p pipeline'
+  - 'continuous development pipeline'
 ---
 
 # Autonomous Loops Skill

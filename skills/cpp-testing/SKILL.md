@@ -1,6 +1,12 @@
 ---
 name: cpp-testing
 description: Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers.
+triggers:
+  - 'GoogleTest setup'
+  - 'CTest configuration'
+  - 'C++ unit tests'
+  - 'flaky C++ test'
+  - 'sanitizers for C++'
 metadata:
   origin: ECC
 ---

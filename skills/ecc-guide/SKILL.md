@@ -1,6 +1,11 @@
 ---
 name: ecc-guide
 description: Guide users through crucible's current agents, skills, commands, hooks, rules, install profiles, and project onboarding by reading the live repository surface before answering.
+triggers:
+  - 'what does crucible include'
+  - 'find a skill'
+  - 'install profile help'
+  - 'how do I use crucible'
 origin: community
 ---
 

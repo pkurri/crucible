@@ -8,6 +8,12 @@ description: >
   pattern recognition, and vendor recovery processes. Use when handling
   product returns, reverse logistics, refund decisions, return fraud
   detection, or warranty claims.
+triggers:
+  - 'process a return'
+  - 'RMA'
+  - 'reverse logistics'
+  - 'return fraud detection'
+  - 'warranty claim'
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

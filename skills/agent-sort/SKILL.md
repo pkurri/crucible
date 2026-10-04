@@ -1,6 +1,12 @@
 ---
 name: agent-sort
 description: Build an evidence-backed skills install plan for a specific repo by sorting skills, commands, rules, hooks, and extras into DAILY vs LIBRARY buckets using parallel repo-aware review passes. Use when crucible should be trimmed to what a project actually needs instead of loading the full bundle.
+triggers:
+  - 'trim skill pack'
+  - 'skills install plan'
+  - 'DAILY vs LIBRARY'
+  - 'project-specific skill set'
+  - 'reduce skill noise'
 ---
 
 # Agent Sort

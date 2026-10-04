@@ -1,6 +1,12 @@
 ---
 name: content-engine
 description: Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.
+triggers:
+  - 'write X thread'
+  - 'LinkedIn post draft'
+  - 'content calendar'
+  - 'repurpose article into posts'
+  - 'launch sequence content'
 ---
 
 # Content Engine

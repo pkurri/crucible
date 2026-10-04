@@ -1,6 +1,11 @@
 ---
 name: ecc-tools-cost-audit
 description: Evidence-first crucible Tools burn and billing audit workflow. Use when investigating runaway PR creation, quota bypass, premium-model leakage, duplicate jobs, or GitHub App cost spikes in this project Tools repo.
+triggers:
+  - 'crucible Tools cost audit'
+  - 'runaway PR creation'
+  - 'quota bypass'
+  - 'GitHub App billing spike'
 ---
 
 # Tools Cost Audit

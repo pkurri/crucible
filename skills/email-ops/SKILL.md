@@ -1,6 +1,11 @@
 ---
 name: email-ops
 description: Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for this project. Use when the user wants to organize email, draft or send through the real mail surface, or prove what landed in Sent.
+triggers:
+  - 'triage inbox'
+  - 'draft an email'
+  - 'send email'
+  - 'verify email sent'
 ---
 
 # Email Ops

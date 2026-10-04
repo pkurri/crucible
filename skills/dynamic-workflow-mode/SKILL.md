@@ -1,6 +1,11 @@
 ---
 name: dynamic-workflow-mode
 description: "Design task-local harnesses, eval gates, and reusable skill extraction for Claude dynamic workflow mode and other adaptive agent harnesses."
+triggers:
+  - 'dynamic workflow mode'
+  - 'task-local harness'
+  - 'custom agent harness'
+  - 'adaptive workflow'
 ---
 
 # Dynamic Workflow Mode

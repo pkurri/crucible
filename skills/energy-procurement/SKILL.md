@@ -8,6 +8,11 @@ description: >
   structure analysis, hedging strategies, load profiling, and sustainability
   reporting frameworks. Use when procuring energy, optimizing tariffs, managing
   demand charges, evaluating PPAs, or developing energy strategies.
+triggers:
+  - 'energy procurement'
+  - 'electricity tariff optimization'
+  - 'PPA evaluation'
+  - 'demand charge management'
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

@@ -1,7 +1,12 @@
 ---
 name: hipaa-compliance
 description: HIPAA-specific entrypoint for healthcare privacy and security work. Use when a task is explicitly framed around HIPAA, PHI handling, covered entities, BAAs, breach posture, or US healthcare compliance requirements.
- direct-port adaptation
+triggers:
+  - 'HIPAA compliance'
+  - 'business associate agreement'
+  - 'PHI handling'
+  - 'covered entity requirements'
+  - 'HIPAA breach posture'
 version: "1.0.0"
 ---
 

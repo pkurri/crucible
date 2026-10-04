@@ -1,6 +1,11 @@
 ---
 name: literature-review
 description: Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including search planning, source screening, synthesis, citation checks, and evidence logging. Use when the task is to find, screen, synthesize, and cite a body of academic or technical literature.
+triggers:
+  - 'literature review'
+  - 'systematic review'
+  - 'synthesize research papers'
+  - 'scoping review'
 metadata:
   origin: community
 ---

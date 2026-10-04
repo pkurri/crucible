@@ -1,6 +1,11 @@
 ---
 name: configure-ecc
 description: Interactive installer for Everything Claude Code — guides users through selecting and installing skills and rules to user-level or project-level directories, verifies paths, and optionally optimizes installed files.
+triggers:
+  - 'configure ecc'
+  - 'install everything claude code'
+  - 'setup skill pack'
+  - 'install skills selectively'
 ---
 
 # Configure Skills Harness

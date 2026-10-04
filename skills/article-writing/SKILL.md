@@ -1,6 +1,12 @@
 ---
 name: article-writing
 description: Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when voice consistency, structure, and credibility matter.
+triggers:
+  - 'write a blog post'
+  - 'long-form article'
+  - 'newsletter issue'
+  - 'tutorial writing'
+  - 'write in brand voice'
 metadata:
   origin: ECC
 ---

@@ -1,6 +1,11 @@
 ---
 name: orch-change-feature
 description: Orchestrate altering an existing, working feature to new desired behavior — update its tests to the new spec, change the implementation to match, review, and gated commit. Use when behavior is not broken but should be different.
+triggers:
+  - 'change existing feature'
+  - 'orch-change-feature'
+  - 'alter feature behavior'
+  - 'adjust existing behavior'
 metadata:
   origin: ECC
 ---

@@ -1,6 +1,12 @@
 ---
 name: benchmark-optimization-loop
 description: Use when the user asks to make something faster, try many variants, run recursive optimization, benchmark latency/throughput/cost, or choose the best implementation by repeated measured tests.
+triggers:
+  - 'make it faster'
+  - 'recursive optimization'
+  - 'benchmark latency'
+  - 'choose best implementation'
+  - 'measured optimization loop'
 license: MIT
 metadata:
   origin: ECC

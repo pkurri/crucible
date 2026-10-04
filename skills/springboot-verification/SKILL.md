@@ -1,6 +1,11 @@
 ---
 name: springboot-verification
 description: "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR."
+triggers:
+  - 'spring boot verification'
+  - 'pre-deploy checks java'
+  - 'maven verify'
+  - 'spring boot CI pipeline'
 metadata:
   origin: ECC
 ---

@@ -1,6 +1,12 @@
 ---
 name: postgres-patterns
 description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices. Use when designing PostgreSQL schemas, indexes, or RLS policies, or when a query is too slow.
+triggers:
+  - 'postgresql schema design'
+  - 'postgres indexing'
+  - 'row level security'
+  - 'slow postgres query'
+  - 'connection pooling postgres'
 metadata:
   origin: ECC
 ---

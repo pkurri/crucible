@@ -1,6 +1,12 @@
 ---
 name: benchmark
 description: Use this skill to measure performance baselines, detect regressions before/after PRs, and compare stack alternatives.
+triggers:
+  - 'performance baseline'
+  - 'detect regressions'
+  - 'Core Web Vitals check'
+  - 'compare stack alternatives'
+  - 'before after PR performance'
 license: MIT
 metadata:
   origin: ECC

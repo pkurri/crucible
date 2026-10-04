@@ -7,6 +7,11 @@ description: >
   carrier-specific behaviors, claims procedures, and judgment frameworks.
   Use when handling shipping exceptions, freight claims, delivery issues,
   or carrier disputes.
+triggers:
+  - 'freight exception'
+  - 'shipment damage claim'
+  - 'carrier dispute'
+  - 'delivery delay escalation'
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

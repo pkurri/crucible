@@ -1,6 +1,11 @@
 ---
 name: nextjs-turbopack
 description: Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.
+triggers:
+  - 'turbopack'
+  - 'next.js dev speed'
+  - 'slow hmr'
+  - 'next dev startup'
 metadata:
   origin: ECC
 ---

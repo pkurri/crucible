@@ -1,3 +1,16 @@
+---
+name: claude-token-saver
+description:
+  Token optimization protocols for Claude Code that maximize context window
+  efficiency and reduce latency. Use when context is filling up, when reading
+  large files, or before complex multi-step tasks.
+triggers:
+  - 'save tokens'
+  - 'token usage'
+  - 'context window'
+  - 'reduce context'
+---
+
 # Claude Token Saver
 
 ## Description

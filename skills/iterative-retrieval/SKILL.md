@@ -1,6 +1,11 @@
 ---
 name: iterative-retrieval
 description: Pattern for progressively refining context retrieval to solve the subagent context problem
+triggers:
+  - 'subagent context problem'
+  - 'iterative retrieval pattern'
+  - 'progressive context refinement'
+  - 'multi-agent context limits'
 ---
 
 # Iterative Retrieval Pattern

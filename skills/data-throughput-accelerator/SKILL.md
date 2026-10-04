@@ -1,6 +1,12 @@
 ---
 name: data-throughput-accelerator
 description: Use when large data ingestion, backfill, export, ETL, warehouse loading, manifest catch-up, or table synchronization needs to become much faster while preserving data correctness.
+triggers:
+  - 'speed up data ingestion'
+  - 'backfill performance'
+  - 'ETL throughput'
+  - 'warehouse loading speed'
+  - 'table sync speed'
 license: MIT
 metadata:
   origin: ECC

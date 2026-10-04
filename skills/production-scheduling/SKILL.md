@@ -8,6 +8,12 @@ description: >
   frameworks, and ERP/MES interaction patterns. Use when scheduling production,
   resolving bottlenecks, optimizing changeovers, responding to disruptions,
   or balancing manufacturing lines.
+triggers:
+  - 'production scheduling'
+  - 'job sequencing'
+  - 'line balancing'
+  - 'changeover optimization'
+  - 'bottleneck resolution'
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

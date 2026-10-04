@@ -1,6 +1,12 @@
 ---
 name: parallel-execution-optimizer
 description: Use when the user wants a task done much faster through parallel work, concurrent agents, batched tool calls, isolated worktrees, or many independent verification lanes without losing correctness.
+triggers:
+  - 'run tasks in parallel'
+  - 'concurrent agents'
+  - 'parallel worktrees'
+  - 'batch tool calls'
+  - 'speed up with parallelism'
 license: MIT
 metadata:
   origin: ECC

@@ -1,6 +1,11 @@
 ---
 name: nanoclaw-repl
 description: Operate and extend NanoClaw v2, crucible's zero-dependency session-aware REPL built on claude -p.
+triggers:
+  - 'nanoclaw repl'
+  - 'claw.js session'
+  - 'session branching'
+  - 'repl session search'
 ---
 
 # NanoClaw REPL

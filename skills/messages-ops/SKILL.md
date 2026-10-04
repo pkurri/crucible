@@ -1,6 +1,11 @@
 ---
 name: messages-ops
 description: Evidence-first live messaging workflow for this project. Use when the user wants to read texts or DMs, recover a recent one-time code, inspect a thread before replying, or prove which message source was actually checked.
+triggers:
+  - 'read my messages'
+  - 'check texts'
+  - 'look in DMs'
+  - 'find the verification code'
 ---
 
 # Messages Ops

@@ -1,6 +1,12 @@
 ---
 name: coding-standards
 description: Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns.
+triggers:
+  - 'naming conventions'
+  - 'code quality review'
+  - 'readability standards'
+  - 'immutability defaults'
+  - 'coding conventions'
 ---
 
 # Coding Standards & Best Practices

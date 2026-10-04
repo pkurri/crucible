@@ -1,6 +1,11 @@
 ---
 name: terminal-ops
 description: Evidence-first repo execution workflow for this project. Use when the user wants a command run, a repo checked, a CI failure debugged, or a narrow fix pushed with exact proof of what was executed and verified.
+triggers:
+  - 'run this command'
+  - 'debug CI failure'
+  - 'check the repo'
+  - 'push a fix'
 ---
 
 # Terminal Ops

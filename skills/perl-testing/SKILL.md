@@ -1,6 +1,11 @@
 ---
 name: perl-testing
 description: Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology. Use when writing Perl tests with Test2::V0 or Test::More, or measuring coverage.
+triggers:
+  - 'perl test2 v0'
+  - 'perl test more'
+  - 'perl tdd'
+  - 'perl test coverage'
 metadata:
   origin: ECC
 ---

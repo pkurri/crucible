@@ -1,6 +1,11 @@
 ---
 name: manim-video
 description: Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider crucible video stack if needed. Use when the user wants a clean animated explainer rather than a generic talking-head script.
+triggers:
+  - 'Manim explainer video'
+  - 'animated technical diagram'
+  - 'system diagram animation'
+  - 'product walkthrough video'
 ---
 
 # Manim Video

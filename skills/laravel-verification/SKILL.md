@@ -1,6 +1,10 @@
 ---
 name: laravel-verification
 description: "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness. Use when verifying a Laravel project before merge or deploy — lint, static analysis, tests, coverage, security."
+triggers:
+  - 'Laravel pre-merge verification'
+  - 'Laravel deploy readiness check'
+  - 'Laravel lint and test pipeline'
 metadata:
   origin: ECC
 ---

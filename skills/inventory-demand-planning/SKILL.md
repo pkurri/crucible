@@ -8,6 +8,12 @@ description: >
   seasonal transition management, and vendor negotiation frameworks.
   Use when forecasting demand, setting safety stock, planning replenishment,
   managing promotions, or optimizing inventory levels.
+triggers:
+  - 'demand forecasting'
+  - 'safety stock planning'
+  - 'replenishment planning'
+  - 'ABC XYZ analysis'
+  - 'promotional lift estimate'
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

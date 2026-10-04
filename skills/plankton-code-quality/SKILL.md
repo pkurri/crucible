@@ -1,6 +1,11 @@
 ---
 name: plankton-code-quality
 description: "Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks."
+triggers:
+  - 'plankton code quality'
+  - 'write-time linting hook'
+  - 'auto-fix lint violations'
+  - 'posttooluse formatter hook'
 origin: community
 ---
 

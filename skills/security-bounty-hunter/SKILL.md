@@ -1,7 +1,12 @@
 ---
 name: security-bounty-hunter
 description: Hunt for exploitable, bounty-worthy security issues in repositories. Focuses on remotely reachable vulnerabilities that qualify for real reports instead of noisy local-only findings.
- direct-port adaptation
+triggers:
+  - 'bug bounty'
+  - 'vulnerability hunting'
+  - 'HackerOne submission'
+  - 'find exploitable vulnerability'
+  - 'responsible disclosure'
 version: "1.0.0"
 ---
 

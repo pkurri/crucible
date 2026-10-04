@@ -1,6 +1,11 @@
 ---
 name: orch-fix-defect
 description: Orchestrate fixing a bug — reproduce it as a failing regression test, fix to green, review, and gated commit — by delegating each phase to the matching crucible agent. Use when existing behavior is broken or wrong.
+triggers:
+  - 'fix a bug orchestrate'
+  - 'orch-fix-defect'
+  - 'reproduce bug as test'
+  - 'fix regression'
 ---
 
 # orch-fix-defect

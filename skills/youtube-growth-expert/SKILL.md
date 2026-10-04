@@ -4,6 +4,11 @@ description: >
   A suite of 5 high-performance YouTube growth personas: Channel Strategy Architect, 
   Viral Idea Generator, CTR Expert, Scriptwriter, and SEO Optimizer.
   Used for niche vetting, retention-optimized scripting, and growth planning.
+triggers:
+  - 'youtube channel strategy'
+  - 'viral video ideas'
+  - 'youtube SEO optimization'
+  - 'youtube title and thumbnail'
 ---
 
 # YouTube Growth Expert Suite

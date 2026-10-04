@@ -1,7 +1,12 @@
 ---
 name: api-connector-builder
 description: Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architecture.
- direct-port adaptation
+triggers:
+  - 'build API connector'
+  - 'new integration provider'
+  - 'add connector matching repo pattern'
+  - 'Jira connector'
+  - 'Slack provider'
 version: "1.0.0"
 ---
 

@@ -8,6 +8,12 @@ description: >
   FTA utilization, and penalty mitigation. Use when handling customs clearance,
   tariff classification, trade compliance, import/export documentation, or
   duty optimization.
+triggers:
+  - 'HS classification'
+  - 'customs clearance'
+  - 'tariff classification'
+  - 'import export documentation'
+  - 'duty optimization'
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

@@ -8,6 +8,12 @@ description: >
   lifecycle management, CAPA systems, SPC interpretation, and audit methodology.
   Use when investigating non-conformances, performing root cause analysis,
   managing CAPAs, interpreting SPC data, or handling supplier quality issues.
+triggers:
+  - 'non-conformance investigation'
+  - 'root cause analysis ncr'
+  - 'capa plan'
+  - 'spc control chart'
+  - 'supplier quality issue'
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

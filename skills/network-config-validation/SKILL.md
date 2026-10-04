@@ -1,6 +1,11 @@
 ---
 name: network-config-validation
 description: Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security hygiene. Use when reviewing a router or switch configuration before deployment.
+triggers:
+  - 'router config review'
+  - 'switch config validation'
+  - 'pre-deployment config check'
+  - 'dangerous config commands'
 metadata:
   origin: community
 ---

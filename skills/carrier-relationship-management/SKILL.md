@@ -7,6 +7,12 @@ description: >
   experience. Includes scorecarding frameworks, RFP processes, market intelligence,
   and compliance vetting. Use when managing carriers, negotiating rates, evaluating
   carrier performance, or building freight strategies.
+triggers:
+  - 'carrier negotiation'
+  - 'freight RFP'
+  - 'carrier scorecard'
+  - 'carrier performance review'
+  - 'freight allocation'
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

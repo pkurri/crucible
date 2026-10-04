@@ -1,6 +1,12 @@
 ---
 name: automation-audit-ops
 description: Evidence-first automation inventory and overlap audit workflow for this project. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live, broken, redundant, or missing before fixing anything.
+triggers:
+  - 'automation inventory'
+  - 'what cron jobs are running'
+  - 'audit MCP servers'
+  - 'overlap audit'
+  - 'broken automations'
 ---
 
 # Automation Audit Ops

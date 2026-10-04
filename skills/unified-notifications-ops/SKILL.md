@@ -1,6 +1,11 @@
 ---
 name: unified-notifications-ops
 description: Operate notifications as one native workflow across GitHub, Linear, desktop alerts, hooks, and connected communication surfaces. Use when the real problem is alert routing, deduplication, escalation, or inbox collapse.
+triggers:
+  - 'unify notifications'
+  - 'alert routing'
+  - 'notification inbox collapse'
+  - 'consolidate CI alerts'
 ---
 
 # Unified Notifications Ops

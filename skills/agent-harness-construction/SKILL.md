@@ -1,6 +1,12 @@
 ---
 name: agent-harness-construction
 description: Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates. Use when defining or revising an agent's tool set, action space, or observation format.
+triggers:
+  - 'tool definitions'
+  - 'agent action space'
+  - 'tool schema design'
+  - 'agent observation format'
+  - 'improve tool calling'
 metadata:
   origin: ECC
 ---
