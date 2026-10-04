@@ -44716,6 +44716,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Awe",
+      "reason": "With growing public interest in space travel and private lunar missions, content that reimagines everyday tasks in micro‑gravity captures both science lovers and the mainstream. Zero‑gravity cooking is highly visual and inherently paradoxical, offering a perfect hook for scroll‑stopping curiosity loops (“What happens when you fry an egg with no gravity?”). The niche is distinct from ordinary cooking channels, easy to produce serially, and lends itself to eye‑catching micro‑clips that can quickly accumulate 100K+ views.",
+      "ideas": [
+        "How to Fry an Egg in Zero Gravity! / Hook: Watch me cook an egg *floating* with no gravity – the result will blow your mind!",
+        "Space Chef Challenge: Boiling Soup in Microgravity / Hook: Can a pot on Earth boil soup in orbit? Find out the TRICK behind it!",
+        "Zero‑Gravity Baking – Do Bread Loaves Float? / Hook: We baked bread without gravity and you won't believe how it turned out!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceKitchen",
+        "MicrogravityCooking",
+        "AstroChef",
+        "GravityFree"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
