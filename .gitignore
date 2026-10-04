@@ -31,3 +31,13 @@ scripts/bin/
 error.log
 meta_response.json
 tmp/
+
+# Job search automation
+scripts/job-search-state.json
+scripts/job-search-credentials.json
+scripts/job-search/output/
+
+# OS / local tool artifacts
+.DS_Store
+.playwright-mcp/
+scratchpad/
