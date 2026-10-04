@@ -1,6 +1,8 @@
 ---
 name: cpp-coding-standards
 description: C++ coding standards based on the C++ Core Guidelines (isocpp.github.io). Use when writing, reviewing, or refactoring C++ code to enforce modern, safe, and idiomatic practices.
+metadata:
+  origin: ECC
 ---
 
 # C++ Coding Standards (C++ Core Guidelines)
@@ -419,8 +421,7 @@ private:
 
 // Con.3: Pass by const reference
 void display(const Sensor& s) {
-    std::cout << s.id() << ": " << s.last_reading() << '
-';
+    std::cout << s.id() << ": " << s.last_reading() << '\n';
 }
 
 // Con.5: Compile-time constants
@@ -555,8 +556,7 @@ void save(const T& obj, const std::string& path);
 | **SL.con.2** | Prefer `std::vector` by default |
 | **SL.str.1** | Use `std::string` to own character sequences |
 | **SL.str.2** | Use `std::string_view` to refer to character sequences |
-| **SL.io.50** | Avoid `endl` (use `'
-'` -- `endl` forces a flush) |
+| **SL.io.50** | Avoid `endl` (use `'\n'` -- `endl` forces a flush) |
 
 ```cpp
 // SL.con.1 + SL.con.2: Prefer vector/array over C arrays
@@ -568,10 +568,8 @@ std::string build_greeting(std::string_view name) {
     return "Hello, " + std::string(name) + "!";
 }
 
-// SL.io.50: Use '
-' not endl
-std::cout << "result: " << value << '
-';
+// SL.io.50: Use '\n' not endl
+std::cout << "result: " << value << '\n';
 ```
 
 ## Enumerations (Enum.*)
@@ -722,6 +720,5 @@ Before marking C++ work complete:
 - [ ] Headers have include guards and are self-contained (SF.8, SF.11)
 - [ ] Locks use RAII (`scoped_lock`/`lock_guard`) (CP.20)
 - [ ] Exceptions are custom types, thrown by value, caught by reference (E.14, E.15)
-- [ ] `'
-'` instead of `std::endl` (SL.io.50)
+- [ ] `'\n'` instead of `std::endl` (SL.io.50)
 - [ ] No magic numbers (ES.45)

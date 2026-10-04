@@ -1,6 +1,8 @@
 ---
 name: nutrient-document-processing
-description: Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Works with PDFs, DOCX, XLSX, PPTX, HTML, and images.
+description: Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Works with PDFs, DOCX, XLSX, PPTX, HTML, and images. Use when converting, OCRing, extracting from, redacting, signing, or filling documents via the Nutrient DWS API.
+metadata:
+  origin: ECC
 ---
 
 # Nutrient Document Processing
@@ -93,7 +95,7 @@ curl -X POST https://api.nutrient.io/build \
 curl -X POST https://api.nutrient.io/build \
   -H "Authorization: Bearer $NUTRIENT_API_KEY" \
   -F "document.pdf=@document.pdf" \
-  -F 'instructions={"parts":[{"file":"document.pdf"}],"actions":[{"type":"redaction","strategy":"regex","strategyOptions":{"regex":"\b[A-Z]{2}\d{6}\b"}}]}' \
+  -F 'instructions={"parts":[{"file":"document.pdf"}],"actions":[{"type":"redaction","strategy":"regex","strategyOptions":{"regex":"\\b[A-Z]{2}\\d{6}\\b"}}]}' \
   -o redacted.pdf
 ```
 

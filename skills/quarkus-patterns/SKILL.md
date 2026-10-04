@@ -1,6 +1,8 @@
 ---
 name: quarkus-patterns
-description: Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services, data access with Panache, and async processing. Use for Java Quarkus backend work with event-driven architectures.
+description: Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services, data access with Panache, and async processing. Use for Java Quarkus backend work with event-driven architectures. Use when building or reviewing a Quarkus service, especially with Camel messaging or Panache data access.
+metadata:
+  origin: ECC
 ---
 
 # Quarkus Development Patterns
@@ -69,7 +71,7 @@ public class OrderProcessingService {
 ```java
 @ApplicationScoped
 public class ProcessingService {
-    
+
     public void processDocument(Document doc) {
         LogContext logContext = CustomLog.getCurrentContext();
         try (SafeAutoCloseable ignored = CustomLog.startScope(logContext)) {
@@ -77,12 +79,12 @@ public class ProcessingService {
             logContext.put("documentId", doc.getId().toString());
             logContext.put("documentType", doc.getType());
             logContext.put("userId", SecurityContext.getUserId());
-            
+
             log.info("Starting document processing");
-            
+
             // All logs within this scope inherit the context
             processInternal(doc);
-            
+
             log.info("Document processing completed");
         } catch (Exception e) {
             log.error("Document processing failed", e);
@@ -102,7 +104,7 @@ public class ProcessingService {
             <includeMdc>true</includeMdc>
         </encoder>
     </appender>
-    
+
     <logger name="com.example" level="INFO"/>
     <root level="WARN">
         <appender-ref ref="CONSOLE"/>
@@ -119,7 +121,7 @@ public class ProcessingService {
 public class EventService {
     private final EventRepository eventRepository;
     private final ObjectMapper objectMapper;
-    
+
     public void createSuccessEvent(Object payload, String eventType) {
         Objects.requireNonNull(payload, "Payload cannot be null");
         Event event = new Event();
@@ -127,11 +129,11 @@ public class EventService {
         event.setStatus(EventStatus.SUCCESS);
         event.setPayload(serializePayload(payload));
         event.setTimestamp(Instant.now());
-        
+
         eventRepository.persist(event);
         log.info("Success event created: {}", eventType);
     }
-    
+
     public void createErrorEvent(Object payload, String eventType, String errorMessage) {
         Objects.requireNonNull(payload, "Payload cannot be null");
         if (errorMessage == null || errorMessage.isBlank()) {
@@ -143,11 +145,11 @@ public class EventService {
         event.setErrorMessage(errorMessage);
         event.setPayload(serializePayload(payload));
         event.setTimestamp(Instant.now());
-        
+
         eventRepository.persist(event);
         log.error("Error event created: {} - {}", eventType, errorMessage);
     }
-    
+
     private String serializePayload(Object payload) {
         try {
             return objectMapper.writeValueAsString(payload);
@@ -166,10 +168,10 @@ public class EventService {
 @RequiredArgsConstructor
 public class BusinessRulesPublisher {
     private final ProducerTemplate producerTemplate;
-    
+
     public void publishSync(BusinessRulesPayload payload) {
         producerTemplate.sendBody(
-            "direct:business-rules-publisher", 
+            "direct:business-rules-publisher",
             payload
         );
     }
@@ -181,23 +183,23 @@ public class BusinessRulesPublisher {
 ```java
 @ApplicationScoped
 public class BusinessRulesRoute extends RouteBuilder {
-    
+
     @ConfigProperty(name = "camel.rabbitmq.queue.business-rules")
     String businessRulesQueue;
-    
+
     @ConfigProperty(name = "rabbitmq.host")
     String rabbitHost;
-    
+
     @ConfigProperty(name = "rabbitmq.port")
     Integer rabbitPort;
-    
+
     @Override
     public void configure() {
         from("direct:business-rules-publisher")
             .routeId("business-rules-publisher")
             .log("Publishing message to RabbitMQ: ${body}")
             .marshal().json(JsonLibrary.Jackson)
-            .toF("spring-rabbitmq:%s?hostname=%s&portNumber=%d", 
+            .toF("spring-rabbitmq:%s?hostname=%s&portNumber=%d",
                 businessRulesQueue, rabbitHost, rabbitPort);
     }
 }
@@ -208,7 +210,7 @@ public class BusinessRulesRoute extends RouteBuilder {
 ```java
 @ApplicationScoped
 public class DocumentProcessingRoute extends RouteBuilder {
-    
+
     @Override
     public void configure() {
         // Error handling
@@ -216,7 +218,7 @@ public class DocumentProcessingRoute extends RouteBuilder {
             .handled(true)
             .to("direct:validation-error-handler")
             .log("Validation error: ${exception.message}");
-        
+
         // Main processing route
         from("direct:process-document")
             .routeId("document-processing")
@@ -231,7 +233,7 @@ public class DocumentProcessingRoute extends RouteBuilder {
                 .otherwise()
                     .to("direct:process-generic")
             .end();
-        
+
         from("direct:validation-error-handler")
             .bean(EventService.class, "createErrorEvent")
             .log("Validation error handled");
@@ -244,24 +246,24 @@ public class DocumentProcessingRoute extends RouteBuilder {
 ```java
 @ApplicationScoped
 public class FileMonitoringRoute extends RouteBuilder {
-    
+
     @ConfigProperty(name = "file.input.directory")
     String inputDirectory;
-    
+
     @ConfigProperty(name = "file.processed.directory")
     String processedDirectory;
-    
+
     @ConfigProperty(name = "file.error.directory")
     String errorDirectory;
-    
+
     @Override
     public void configure() {
-        from("file:" + inputDirectory + "?move=" + processedDirectory + 
+        from("file:" + inputDirectory + "?move=" + processedDirectory +
              "&moveFailed=" + errorDirectory + "&delay=5000")
             .routeId("file-monitor")
             .log("Processing file: ${header.CamelFileName}")
             .to("direct:process-file");
-        
+
         from("direct:process-file")
             .bean(OrderProcessingService.class, "processFile")
             .log("File processing completed");
@@ -274,13 +276,13 @@ public class FileMonitoringRoute extends RouteBuilder {
 ```java
 @ApplicationScoped
 public class InvoiceRoute extends RouteBuilder {
-    
+
     @Override
     public void configure() {
         from("direct:invoice-validation")
             .bean(InvoiceFlowValidator.class, "validateFlowWithConfig")
             .log("Validation result: ${body}");
-        
+
         from("direct:persist-and-publish")
             .bean(DocumentJobService.class, "createDocumentAndJobEntities")
             .bean(BusinessRulesPublisher.class, "publishAsync")
@@ -333,7 +335,7 @@ public class DocumentResource {
 ```java
 @ApplicationScoped
 public class DocumentRepository implements PanacheRepository<Document> {
-  
+
   public List<Document> findByStatus(DocumentStatus status, int page, int size) {
     return find("status = ?1 order by createdAt desc", status)
         .page(page, size)
@@ -343,7 +345,7 @@ public class DocumentRepository implements PanacheRepository<Document> {
   public Optional<Document> findByReferenceNumber(String referenceNumber) {
     return find("referenceNumber", referenceNumber).firstResultOptional();
   }
-  
+
   public long countByStatusAndDate(DocumentStatus status, LocalDate date) {
     return count("status = ?1 and createdAt >= ?2", status, date.atStartOfDay());
   }
@@ -366,11 +368,11 @@ public class DocumentService {
     document.setDescription(request.description());
     document.setStatus(DocumentStatus.PENDING);
     document.setCreatedAt(Instant.now());
-    
+
     repo.persist(document);
-    
+
     eventService.createSuccessEvent(document, "DOCUMENT_CREATED");
-    
+
     return document;
   }
 
@@ -397,7 +399,7 @@ public record CreateDocumentRequest(
 
 public record DocumentResponse(Long id, String referenceNumber, DocumentStatus status) {
   public static DocumentResponse from(Document document) {
-    return new DocumentResponse(document.getId(), document.getReferenceNumber(), 
+    return new DocumentResponse(document.getId(), document.getReferenceNumber(),
         document.getStatus());
   }
 }
@@ -413,7 +415,7 @@ public class ValidationExceptionMapper implements ExceptionMapper<ConstraintViol
     String message = exception.getConstraintViolations().stream()
         .map(cv -> cv.getPropertyPath() + ": " + cv.getMessage())
         .collect(Collectors.joining(", "));
-    
+
     return Response.status(Response.Status.BAD_REQUEST)
         .entity(Map.of("error", "validation_error", "message", message))
         .build();
@@ -443,30 +445,30 @@ public class GenericExceptionMapper implements ExceptionMapper<Exception> {
 public class FileStorageService {
     private final S3Client s3Client;
     private final ExecutorService executorService;
-    
+
     @ConfigProperty(name = "storage.bucket-name")
     String bucketName;
-    
+
     public CompletableFuture<StoredDocumentInfo> uploadOriginalFile(
-            InputStream inputStream, 
-            long size, 
+            InputStream inputStream,
+            long size,
             LogContext logContext,
             InvoiceFormat format) {
-        
+
         return CompletableFuture.supplyAsync(() -> {
             try (SafeAutoCloseable ignored = CustomLog.startScope(logContext)) {
                 String path = generateStoragePath(format);
-                
+
                 PutObjectRequest request = PutObjectRequest.builder()
                     .bucket(bucketName)
                     .key(path)
                     .contentLength(size)
                     .build();
-                
+
                 s3Client.putObject(request, RequestBody.fromInputStream(inputStream, size));
-                
+
                 log.info("File uploaded to S3: {}", path);
-                
+
                 return new StoredDocumentInfo(path, size, Instant.now());
             } catch (Exception e) {
                 log.error("Failed to upload file to S3", e);
@@ -512,7 +514,7 @@ public class DocumentCacheService {
     hibernate-orm:
       database:
         generation: drop-and-create
-  
+
   rabbitmq:
     host: localhost
     port: 5672
@@ -538,7 +540,7 @@ public class DocumentCacheService {
     hibernate-orm:
       database:
         generation: validate
-  
+
   rabbitmq:
     host: ${RABBITMQ_HOST}
     port: ${RABBITMQ_PORT}
@@ -631,7 +633,7 @@ public class CamelHealthCheck implements HealthCheck {
         <groupId>io.quarkus</groupId>
         <artifactId>quarkus-config-yaml</artifactId>
     </dependency>
-    
+
     <!-- Camel Extensions -->
     <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -645,7 +647,7 @@ public class CamelHealthCheck implements HealthCheck {
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-bean</artifactId>
     </dependency>
-    
+
     <!-- Lombok -->
     <dependency>
         <groupId>org.projectlombok</groupId>
@@ -653,7 +655,7 @@ public class CamelHealthCheck implements HealthCheck {
         <version>${lombok.version}</version>
         <scope>provided</scope>
     </dependency>
-    
+
     <!-- Logging -->
     <dependency>
         <groupId>io.quarkiverse.logging.logback</groupId>

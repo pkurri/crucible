@@ -1,6 +1,8 @@
 ---
 name: perl-testing
-description: Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology.
+description: Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology. Use when writing Perl tests with Test2::V0 or Test::More, or measuring coverage.
+metadata:
+  origin: ECC
 ---
 
 # Perl Testing Patterns
@@ -297,10 +299,7 @@ subtest 'file processing' => sub {
     # Setup
     my $dir = tempdir(CLEANUP => 1);
     my $file = path($dir, 'input.txt');
-    $file->spew_utf8("line1
-line2
-line3
-");
+    $file->spew_utf8("line1\nline2\nline3\n");
 
     # Test
     my $result = process_file("$file");

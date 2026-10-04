@@ -1,6 +1,8 @@
 ---
 name: windows-desktop-e2e
-description: E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Windows UI Automation.
+description: E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Windows UI Automation. Use when writing E2E tests for a Windows native desktop app with pywinauto or UI Automation.
+metadata:
+  origin: ECC
 ---
 
 # Windows Desktop E2E Testing
@@ -38,13 +40,13 @@ Your test (Python)
 
 | Framework | AutomationId | Reliability | Notes |
 |-----------|-------------|-------------|-------|
-| WPF | ★★★★★ | Excellent | `x:Name` maps directly to AutomationId |
-| WinForms | ★★★★☆ | Good | `AccessibleName` = AutomationId |
-| UWP / WinUI 3 | ★★★★★ | Excellent | Full Microsoft support |
-| Qt 6.x | ★★★★★ | Excellent | Accessibility enabled by default; class names change to `Qt6*` |
-| Qt 5.15+ | ★★★★☆ | Good | Improved Accessibility module |
-| Qt 5.7–5.14 | ★★★☆☆ | Fair | Needs `QT_ACCESSIBILITY=1`; objectName manual |
-| Win32 / MFC | ★★★☆☆ | Fair | Control IDs accessible; text matching common |
+| WPF | 5/5 | Excellent | `x:Name` maps directly to AutomationId |
+| WinForms | 4/5 | Good | `AccessibleName` = AutomationId |
+| UWP / WinUI 3 | 5/5 | Excellent | Full Microsoft support |
+| Qt 6.x | 5/5 | Excellent | Accessibility enabled by default; class names change to `Qt6*` |
+| Qt 5.15+ | 4/5 | Good | Improved Accessibility module |
+| Qt 5.7–5.14 | 3/5 | Fair | Needs `QT_ACCESSIBILITY=1`; objectName manual |
+| Win32 / MFC | 3/5 | Fair | Control IDs accessible; text matching common |
 
 ## Setup & Prerequisites
 
@@ -404,8 +406,7 @@ class BasePage:
             "text": text if TRACE_INCLUDE_TEXT else ("<redacted>" if text else None),
         }
         with open(os.path.join(ARTIFACT_DIR, "trace.jsonl"), "a") as f:
-            f.write(json.dumps(rec) + "
-")
+            f.write(json.dumps(rec) + "\n")
 
     def click(self, spec):
         self.wait_visible(spec); self._trace("click_before", spec)
@@ -585,14 +586,14 @@ Create `e2e-sandbox.wsb` in your project root:
   <MappedFolders>
     <!-- App binary (read-only) -->
     <MappedFolder>
-      <HostFolder>C:\path	o\youruild\Release</HostFolder>
-      <SandboxFolder>C:pp</SandboxFolder>
+      <HostFolder>C:\path\to\your\build\Release</HostFolder>
+      <SandboxFolder>C:\app</SandboxFolder>
       <ReadOnly>true</ReadOnly>
     </MappedFolder>
     <!-- Test suite (read-write for artifacts) -->
     <MappedFolder>
-      <HostFolder>C:\path	o\your2e_test</HostFolder>
-      <SandboxFolder>C:2e_test</SandboxFolder>
+      <HostFolder>C:\path\to\your\e2e_test</HostFolder>
+      <SandboxFolder>C:\e2e_test</SandboxFolder>
       <ReadOnly>false</ReadOnly>
     </MappedFolder>
   </MappedFolders>
@@ -605,7 +606,7 @@ Create `e2e-sandbox.wsb` in your project root:
     <Command>powershell -Command "
       winget install --id Python.Python.3.11 --silent --accept-package-agreements;
       $env:PATH += ';' + $env:LOCALAPPDATA + '\Programs\Python\Python311\Scripts';
-      cd C:2e_test;
+      cd C:\e2e_test;
       pip install -r requirements.txt;
       pytest tests\ -v
     "</Command>
@@ -654,7 +655,7 @@ jobs:
 
       - name: Run E2E
         env:
-          APP_PATH: ${{ github.workspace }}uild\Release\MyApp.exe
+          APP_PATH: ${{ github.workspace }}\build\Release\MyApp.exe
           APP_TITLE: "My Application"
           CI: "true"
         run: pytest tests/ --html=artifacts/report.html --self-contained-html --junitxml=artifacts/results.xml -v
@@ -873,7 +874,7 @@ pytest tests/ -m smoke -v
 pytest tests/test_login.py -v
 
 # With custom app path
-APP_PATH="C:uild\Release\MyApp.exe" APP_TITLE="MyApp" pytest tests/ -v
+APP_PATH="C:\build\Release\MyApp.exe" APP_TITLE="MyApp" pytest tests/ -v
 
 # Detect flaky tests (repeat each 5 times)
 pip install pytest-repeat

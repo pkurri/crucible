@@ -1,6 +1,8 @@
 ---
 name: ui-demo
 description: Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen recording, or tutorial video of a web application. Produces WebM videos with visible cursor, natural pacing, and professional feel.
+metadata:
+  origin: ECC
 ---
 
 # UI Demo Video Recorder
@@ -105,11 +107,9 @@ async function ensureVisible(page, locator, label) {
       return Array.from(document.querySelectorAll('button, input, select, textarea, a'))
         .filter(el => el.offsetParent !== null)
         .map(el => `${el.tagName}[${el.type || ''}] "${el.textContent?.trim().substring(0, 30)}"`)
-        .join('
-  ');
+        .join('\n  ');
     });
-    console.error('  Visible elements:
-  ' + found);
+    console.error('  Visible elements:\n  ' + found);
     return false;
   }
   console.log(`REHEARSAL OK: "${label}"`);

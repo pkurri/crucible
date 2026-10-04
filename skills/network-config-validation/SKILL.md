@@ -1,7 +1,8 @@
 ---
 name: network-config-validation
-description: Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security hygiene.
-origin: community
+description: Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security hygiene. Use when reviewing a router or switch configuration before deployment.
+metadata:
+  origin: community
 ---
 
 # Network Config Validation
@@ -38,13 +39,13 @@ Validate in this order:
 import re
 
 DANGEROUS_PATTERNS: list[tuple[re.Pattern[str], str]] = [
-    (re.compile(r"reload", re.I), "reload causes downtime"),
-    (re.compile(r"erase\s+(startup|nvram|flash)", re.I), "erases persistent storage"),
-    (re.compile(r"format", re.I), "formats a device filesystem"),
-    (re.compile(r"no\s+router\s+(bgp|ospf|eigrp)", re.I), "removes a routing process"),
-    (re.compile(r"no\s+interface\s+\S+", re.I), "removes interface configuration"),
-    (re.compile(r"aaa\s+new-model", re.I), "changes authentication behavior"),
-    (re.compile(r"crypto\s+key\s+(zeroize|generate)", re.I), "changes device SSH keys"),
+    (re.compile(r"\breload\b", re.I), "reload causes downtime"),
+    (re.compile(r"\berase\s+(startup|nvram|flash)", re.I), "erases persistent storage"),
+    (re.compile(r"\bformat\b", re.I), "formats a device filesystem"),
+    (re.compile(r"\bno\s+router\s+(bgp|ospf|eigrp)\b", re.I), "removes a routing process"),
+    (re.compile(r"\bno\s+interface\s+\S+", re.I), "removes interface configuration"),
+    (re.compile(r"\baaa\s+new-model\b", re.I), "changes authentication behavior"),
+    (re.compile(r"\bcrypto\s+key\s+(zeroize|generate)\b", re.I), "changes device SSH keys"),
 ]
 
 def find_dangerous_commands(lines: list[str]) -> list[dict[str, str | int]]:
@@ -71,7 +72,7 @@ from collections import Counter
 IP_ADDRESS_RE = re.compile(
     r"^\s*ip address\s+"
     r"(?P<ip>\d{1,3}(?:\.\d{1,3}){3})\s+"
-    r"(?P<mask>\d{1,3}(?:\.\d{1,3}){3})",
+    r"(?P<mask>\d{1,3}(?:\.\d{1,3}){3})\b",
     re.I | re.M,
 )
 
@@ -119,20 +120,17 @@ def iter_blocks(config: str, starts_with: str) -> list[str]:
     for line in config.splitlines():
         if line.startswith(starts_with):
             if current:
-                blocks.append("
-".join(current))
+                blocks.append("\n".join(current))
             current = [line]
             continue
         if current:
             if line and not line.startswith(" "):
-                blocks.append("
-".join(current))
+                blocks.append("\n".join(current))
                 current = []
             else:
                 current.append(line)
     if current:
-        blocks.append("
-".join(current))
+        blocks.append("\n".join(current))
     return blocks
 
 def check_vty_blocks(config: str) -> list[str]:
@@ -140,9 +138,9 @@ def check_vty_blocks(config: str) -> list[str]:
     for block in iter_blocks(config, "line vty"):
         if re.search(r"transport\s+input\s+.*telnet", block, re.I):
             issues.append("VTY allows Telnet; require SSH only.")
-        if not re.search(r"access-class\s+\S+\s+in", block, re.I):
+        if not re.search(r"\baccess-class\s+\S+\s+in\b", block, re.I):
             issues.append("VTY block has no inbound access-class source restriction.")
-        if not re.search(r"exec-timeout\s+\d+\s+\d+", block, re.I):
+        if not re.search(r"\bexec-timeout\s+\d+\s+\d+\b", block, re.I):
             issues.append("VTY block has no explicit exec-timeout.")
     return issues
 ```
@@ -151,24 +149,24 @@ def check_vty_blocks(config: str) -> list[str]:
 
 ```python
 SECURITY_PATTERNS = [
-    (re.compile(r"snmp-server community\s+(public|private)", re.I),
+    (re.compile(r"\bsnmp-server community\s+(public|private)\b", re.I),
      "default SNMP community configured"),
-    (re.compile(r"snmp-server community\s+\S+", re.I),
+    (re.compile(r"\bsnmp-server community\s+\S+", re.I),
      "SNMPv2 community string configured; prefer SNMPv3 authPriv"),
-    (re.compile(r"ip ssh version 1", re.I),
+    (re.compile(r"\bip ssh version 1\b", re.I),
      "SSH version 1 enabled"),
-    (re.compile(r"enable password", re.I),
+    (re.compile(r"\benable password\b", re.I),
      "enable password is present; use enable secret"),
-    (re.compile(r"username\s+\S+\s+password", re.I),
+    (re.compile(r"\busername\s+\S+\s+password\b", re.I),
      "local username uses password instead of secret"),
 ]
 
 BEST_PRACTICE_PATTERNS = [
-    (re.compile(r"ntp server", re.I), "NTP server"),
-    (re.compile(r"service timestamps", re.I), "log timestamps"),
-    (re.compile(r"logging\s+\S+", re.I), "logging destination or buffer"),
-    (re.compile(r"snmp-server group\s+\S+\s+v3\s+priv", re.I), "SNMPv3 authPriv group"),
-    (re.compile(r"banner\s+(login|motd)", re.I), "login banner"),
+    (re.compile(r"\bntp server\b", re.I), "NTP server"),
+    (re.compile(r"\bservice timestamps\b", re.I), "log timestamps"),
+    (re.compile(r"\blogging\s+\S+", re.I), "logging destination or buffer"),
+    (re.compile(r"\bsnmp-server group\s+\S+\s+v3\s+priv\b", re.I), "SNMPv3 authPriv group"),
+    (re.compile(r"\bbanner\s+(login|motd)\b", re.I), "login banner"),
 ]
 
 def check_security(config: str) -> list[str]:

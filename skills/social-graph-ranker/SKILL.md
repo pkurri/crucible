@@ -1,6 +1,8 @@
 ---
 name: social-graph-ranker
 description: Weighted social-graph ranking for warm intro discovery, bridge scoring, and network gap analysis across X and LinkedIn. Use when the user wants the reusable graph-ranking engine itself, not the broader outreach or network-maintenance workflow layered on top of it.
+metadata:
+  origin: ECC
 ---
 
 # Social Graph Ranker
@@ -62,12 +64,12 @@ Where:
 Second-order expansion:
 
 ```text
-B_ext(m) = B(m) + α · Σ_{m' ∈ N(m) \ M} Σ_{t ∈ T} w(t) · λ^(d(m',t))
+B_ext(m) = B(m) + α · Σ_{m' ∈ N(m) \\ M} Σ_{t ∈ T} w(t) · λ^(d(m',t))
 ```
 
 Where:
 
-- `N(m) \ M` is the set of people the mutual knows that you do not
+- `N(m) \\ M` is the set of people the mutual knows that you do not
 - `α` discounts second-order reach, usually `0.3`
 
 Response-adjusted final ranking:

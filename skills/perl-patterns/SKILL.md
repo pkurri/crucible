@@ -1,6 +1,8 @@
 ---
 name: perl-patterns
-description: Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
+description: Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications. Use when writing or reviewing modern Perl 5.36+ code.
+metadata:
+  origin: ECC
 ---
 
 # Modern Perl Development Patterns
@@ -145,8 +147,7 @@ use Try::Tiny;
 sub fetch_user($id) {
     my $user = try {
         $db->resultset('User')->find($id)
-            // die "User $id not found
-";
+            // die "User $id not found\n";
     }
     catch {
         warn "Failed to fetch user $id: $_";

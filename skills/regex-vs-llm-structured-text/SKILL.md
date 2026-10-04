@@ -1,6 +1,8 @@
 ---
 name: regex-vs-llm-structured-text
 description: Decision framework for choosing between regex and LLM when parsing structured text — start with regex, add LLM only for low-confidence edge cases.
+metadata:
+  origin: ECC
 ---
 
 # Regex vs LLM for Structured Text Parsing
@@ -62,10 +64,8 @@ class ParsedItem:
 def parse_structured_text(content: str) -> list[ParsedItem]:
     """Parse structured text using regex patterns."""
     pattern = re.compile(
-        r"(?P<id>\d+)\.\s*(?P<text>.+?)
-"
-        r"(?P<choices>(?:[A-D]\..+?
-)+)"
+        r"(?P<id>\d+)\.\s*(?P<text>.+?)\n"
+        r"(?P<choices>(?:[A-D]\..+?\n)+)"
         r"Answer:\s*(?P<answer>[A-D])",
         re.MULTILINE | re.DOTALL,
     )
@@ -141,15 +141,9 @@ def validate_with_llm(
         messages=[{
             "role": "user",
             "content": (
-                f"Extract the question, choices, and answer from this text.
-
-"
-                f"Text: {original_text}
-
-"
-                f"Current extraction: {item}
-
-"
+                f"Extract the question, choices, and answer from this text.\n\n"
+                f"Text: {original_text}\n\n"
+                f"Current extraction: {item}\n\n"
                 f"Return corrected JSON if needed, or 'CORRECT' if accurate."
             ),
         }],

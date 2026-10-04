@@ -1,7 +1,8 @@
 ---
 name: santa-method
-description: "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships."
-origin: "Ronald Skelton - Founder, RapportScore.ai"
+description: "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships. Use when output must clear two independent adversarial reviewers before it ships."
+metadata:
+  origin: "Ronald Skelton - Founder, RapportScore.ai"
 ---
 
 # Santa Method
@@ -217,23 +218,11 @@ Subagents provide true context isolation. Each reviewer is a separate process wi
 # Pseudocode for Agent tool invocation
 reviewer_b = Agent(
     description="Santa Review B",
-    prompt=f"Review this output for quality...
-
-RUBRIC:
-{rubric}
-
-OUTPUT:
-{output}"
+    prompt=f"Review this output for quality...\n\nRUBRIC:\n{rubric}\n\nOUTPUT:\n{output}"
 )
 reviewer_c = Agent(
     description="Santa Review C",
-    prompt=f"Review this output for quality...
-
-RUBRIC:
-{rubric}
-
-OUTPUT:
-{output}"
+    prompt=f"Review this output for quality...\n\nRUBRIC:\n{rubric}\n\nOUTPUT:\n{output}"
 )
 ```
 

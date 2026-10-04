@@ -1,7 +1,8 @@
 ---
 name: netmiko-ssh-automation
-description: Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling.
-origin: community
+description: Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling. Use when automating network device access with Python Netmiko, whether collecting state or pushing guarded config changes.
+metadata:
+  origin: community
 ---
 
 # Netmiko SSH Automation
@@ -132,8 +133,7 @@ apply_changes = os.environ.get("APPLY_NETWORK_CHANGES") == "1"
 
 if not apply_changes:
     print("Dry run only. Candidate commands:")
-    print("
-".join(commands))
+    print("\n".join(commands))
 else:
     with ConnectHandler(**device) as conn:
         conn.enable()
