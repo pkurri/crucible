@@ -44791,6 +44791,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlgaePoweredCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Wonder",
+      "reason": "The idea taps into current enthusiasm for sustainable tech while offering visually stunning content: animated algae bioreactors, 3D modeled algae‑powered cityscapes, and behind‑the‑scenes footage of living labs. The niche is fresh enough to avoid saturation yet broad enough to attract eco‑enthusiasts, futurists, and lifestyle audiences. Its hook—showing a city that literally breathes green energy—creates scroll‑stopping curiosity loops and keeps viewers engaged for long viral videos.",
+      "ideas": [
+        "Algae‑Powered Detroit: The First City Without Fossil Fuel – Witness the Rooftop Bioreactor Revolution!",
+        "Inside the 3‑D Algae Headquarters – How a Living Lab Generates Energy for 10,000 Homes!",
+        "From Algae to Electricity: Real‑Time Tesla‑Like Grid Experiments (Live Feed!)"
+      ],
+      "keywords": [
+        "BioluminescentGlow",
+        "HighResAlgaeFields",
+        "VerticalCityscape",
+        "SustainableEnergyLab",
+        "AnimatedPetriDish"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
