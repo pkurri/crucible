@@ -44815,6 +44815,30 @@
         "AnimatedPetriDish"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroWasteCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑Waste Cities capitalize on the explosive public interest in sustainability, climate action, and future‑proof urban living. The concept brings concrete, visual storytelling of entire cities eliminating trash while building thriving communities—an unexpected twist on recycling, heavily veering into architectural wonder and social impact. With wide appeal across students, eco‑activists, tech enthusiasts, and everyday viewers, it offers endless hooks for viral content and a clear path to 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "Zero‑Way City: How One City Turned Trash Into Urban Paradise – Shockingly Effective!",
+        "From Dump to Dream: The Stunning Transformation of a Zero‑Waste City in 3 Minutes!",
+        "Can You Believe This City Generates No Trash? Inside the Ultimate Zero‑Waste Experiment!"
+      ],
+      "keywords": [
+        "UltraHDR",
+        "ArchitecturalMarvel",
+        "EcoFriendly",
+        "Innovation",
+        "FutureTech"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
