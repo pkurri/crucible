@@ -45043,6 +45043,30 @@
         "AstroChef"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedCityExplorations",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche blends cutting‑edge drone tech with the age‑old allure of lost civilizations. Underwater exploration videos are on the rise, yet focused on submerged cities remains thinly covered. The combination of mystery, high‑definition footage, and the promise of uncovering forgotten urban landscapes fuels strong scroll‑stopping hooks and endless viral idea streams.",
+      "ideas": [
+        "We Found a 1,000‑Year‑Old Submerged City – Drone Footage Inside – You Won’t Believe The Structures!",
+        "The Darkest Underwater City Tunnels: Where Light Was Erased by Time (Inside Footage)!",
+        "The Hidden Catacombs of the Lost City Beneath the Sea—Exiting in 30 Seconds!"
+      ],
+      "keywords": [
+        "drone",
+        "submerged",
+        "lost",
+        "archaeology",
+        "time‑lapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

@@ -92478,5 +92478,52 @@
         "duration": 4
       }
     ]
+  },
+  "SubmergedCityExplorations": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 SubmergedCityExplorations secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more SubmergedCityExplorations.",
+    "list": [
+      {
+        "title": "Ancient Ruins",
+        "name": "Sunken Temple of Poseidon",
+        "icon": "🏛️"
+      },
+      {
+        "title": "Lost Treasure",
+        "name": "Gold‑laden Galleon Wreck",
+        "icon": "💰"
+      },
+      {
+        "title": "Marine Life",
+        "name": "Giant Bioluminescent Jellyfish Swarm",
+        "icon": "🪼"
+      },
+      {
+        "title": "Forgotten Tech",
+        "name": "Hydro‑powered Clockwork Mechanism",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Mystery Inscriptions",
+        "name": "Atlantean Glyph Tablet",
+        "icon": "📜"
+      },
+      {
+        "title": "Underwater Forest",
+        "name": "Kelp Cathedral Canopy",
+        "icon": "🌊"
+      },
+      {
+        "title": "Hidden Passage",
+        "name": "Submerged Labyrinth Entrance",
+        "icon": "🕳️"
+      },
+      {
+        "title": "Echoing Sounds",
+        "name": "Whale‑song Resonance Chamber",
+        "icon": "🐋"
+      }
+    ]
   }
 }
