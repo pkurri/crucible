@@ -45019,6 +45019,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The at‑large fascination with space, combined with the universal appeal of cooking shows, creates a niche that feels both fresh and accessible. Zero‑gravity cooking experiments are rarely shown on a large scale, allowing for vivid visual hooks that trigger curiosity and wonder. The faceless format (high‑quality stock footage, animations, voice‑over narration) keeps production costs low while maximizing shareability. Because the concept is intrinsically “wow‑factor” oriented, it naturally lends itself to a high view‑through‑rate and easy scalability—each recipe or experiment can spawn dozens of variations, keeping the channel evergreen and fast‑growing.",
+      "ideas": [
+        "Zero‑Gravity Ramen: Can You Cook Soup Without It Falling? / In this video we take the classic instant ramen and toss it into a spherical 'microgravity kitchen'; watch the noodles floating, the broth forming a perfect sphere, and discover the science of zero‑gravity cooking!",
+        "Space-Ladles & Floating Utensils: The Ultimate Zero‑Gravity Kitchen Set‑up / Learn how to stir, plate, and serve meals when every utensil is a free‑floating risk – and see who can juggle the ladle best!",
+        "Astrochef’s Secret: How to Keep Your Food from Disappearing in Orbit / Dive deep into the physics of floating sauces, emulsified spreads, and the miracle of sticky sauces that actually stick to your plate in zero gravity!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "MicrogravityBites",
+        "SpaceRamen",
+        "AstroChef"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
