@@ -60,7 +60,12 @@ Run these six steps per session, over the approved watchlist only.
    good a name looks.
 3. **Evidence** — Pull quote, price/volume history, fundamentals, reported
    financials, and earnings context through the Robinhood MCP's read tools.
-   Record the age of every quote you use.
+   Record the age of every quote you use. Then run `quality.py` over the quotes
+   and ~30 daily bars per symbol. A symbol it marks unusable (stale or missing
+   quote, gaps in history, an unexplained jump, a split-sized move) gets
+   `NO_TRADE` for the day with the flag as the reason; the gate refuses any
+   proposal on it regardless. Set `catalyst_confirmed` only for a dated event
+   you retrieved through a tool, never for one you inferred.
 4. **Thesis** — State bull, base, and bear cases. Name the catalyst, the
    horizon, the entry condition, and the observation that would invalidate the
    idea.

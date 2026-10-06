@@ -22,6 +22,16 @@ outside the sandbox.
   explicit list of read-only Robinhood tools under `--permission-mode dontAsk`,
   and denies all 26 write tools plus force-push, hard reset, `git config` and
   `git stash`.
+- Authenticates before starting: a one-line Haiku call, retried three times a
+  minute apart. If all fail, the session is not run, a macOS notification is
+  posted, and the launcher exits non-zero. The log's `exit=` is the real exit
+  code (before 2026-10-05 it always read 0).
+- Optional long-lived token, so runs do not depend on the login keychain being
+  available while the Mac is locked. Run `claude setup-token` yourself, then
+  save the token it prints to
+  `~/Library/Application Support/trading-agent-shadow/oauth-token` with mode 600
+  (`chmod 600 <file>`). The launcher refuses a token file with any other mode.
+  Never put the token in the repo.
 - Logs: `~/Library/Logs/trading-agent-shadow/<date>.log`.
 
 Stop it: `launchctl bootout gui/$(id -u)/ai.omilos.trading-agent-shadow`

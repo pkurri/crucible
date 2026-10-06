@@ -74,11 +74,23 @@ SESSION
    nickname is "Agentic". Never write an account number into any file.
 6. Evidence. get_equity_quotes and get_equity_fundamentals for the watchlist
    symbols. Record the age of every quote.
+6a. Data quality. Pull ~30 daily bars per watchlist symbol with
+   get_equity_historicals. Write runs/<YYYY-MM-DD>-symbols.json:
+   {"session": "<YYYY-MM-DD>", "symbols": {"<SYM>": {"last_price": ...,
+   "quote_age_seconds": ..., "catalyst_confirmed": false,
+   "bars": [{"date": "YYYY-MM-DD", "close": ...}, ...]}}}
+   Set catalyst_confirmed to true only for a dated event you retrieved with a
+   tool this session (e.g. get_earnings_results). Run
+   `uv run --with pyyaml python quality.py runs/<YYYY-MM-DD>-symbols.json`.
+   Every symbol it lists as unusable is NO_TRADE today, with the flags as the
+   reason. Do not edit the numbers to make a symbol pass.
 7. Analysis. For each symbol produce a plan conforming exactly to
    schema/trade_plan.schema.json, following AGENT.md's six-step loop. Score
    conviction in the ACTION proposed, not the quality of the company. Write
    the session to runs/<YYYY-MM-DD>-shadow-NN.json with `portfolio` and
-   `markets` blocks, as the existing shadow run file does.
+   `markets` blocks, as the existing shadow run file does, plus
+   "symbol_data": "<YYYY-MM-DD>-symbols.json". validate_run.py rejects a run
+   that proposes anything without it.
 8. Gate it: `uv run --with pyyaml python validate_run.py runs/<file>.json`
    then `uv run --with pyyaml python shadow.py runs/<file>.json`.
 9. Settle any due forecasts: `python3 forecast.py due`. For each, fetch the

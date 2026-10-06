@@ -14,6 +14,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from quality import load_for_run
+
 from policy import (
     BUY,
     NO_TRADE,
@@ -129,6 +131,9 @@ def run_session(run_path: Path) -> int:
     open_ids = tuple(p["id"] for p in live)
     expired = len(state.get("open_proposals", [])) - len(live)
     markets = run.get("markets") or {}
+    quality = load_for_run(run, run_path.parent, policy["max_quote_age_seconds"])
+    if quality is None:
+        print("  WARNING: run names no symbol_data; data-quality gate not applied")
 
     stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
     entries = []
@@ -153,6 +158,7 @@ def run_session(run_path: Path) -> int:
             schema=schema,
             portfolio=portfolio,
             open_proposal_ids=open_ids,
+            data_quality=quality,
         )
         order = plan.get("order") or {}
         pid = verdict.proposal_id or (freeze(order) if order else None)

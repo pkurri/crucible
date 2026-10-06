@@ -305,12 +305,17 @@ def evaluate(
     open_proposal_ids: tuple[str, ...] = (),
     daily_loss_pct: float = 0.0,
     diversified_funds: list[str] | None = None,
+    data_quality: dict[str, dict[str, Any]] | None = None,
 ) -> Verdict:
     """Decide whether a proposal may stand.
 
     A plan that says NO_TRADE is always allowed -- abstaining is never a
     violation. A PROPOSE_ORDER plan must clear every applicable gate, and
     which gates apply depends on whether it adds or reduces exposure.
+
+    ``data_quality`` is quality.py's per-symbol record for the session. When
+    it is given, a proposal needs a usable record for its symbol, buy or sell:
+    a limit price set from a bad quote is wrong in either direction.
     """
     schema = schema if schema is not None else load_schema()
     portfolio = portfolio if portfolio is not None else empty_portfolio()
@@ -380,6 +385,15 @@ def evaluate(
             f"quote is stale: {quote_age}s older than "
             f"{policy['max_quote_age_seconds']}s limit"
         )
+
+    if data_quality is not None:
+        record = data_quality.get(symbol)
+        if record is None:
+            reasons.append(f"no data-quality record for {symbol}")
+        elif not record.get("ok"):
+            reasons.append(
+                f"data quality: {', '.join(record.get('blocking') or ['unusable'])}"
+            )
 
     if proposal_id in open_proposal_ids:
         reasons.append(f"duplicate proposal {proposal_id} is already open")

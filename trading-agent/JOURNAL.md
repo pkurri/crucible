@@ -469,3 +469,26 @@ so session 02 is **not** recorded. Still 1 of 20.
   the Robinhood tools, so a test run saw none. Fixed with an explicit read-only
   allowlist; the rerun's tool audit showed read-only tools only.
 - shadow sessions: 1 of 20.
+
+## 2026-10-05 20:30 ET — Monday session lost to auth; data-quality gate added
+
+- The 15:10 launchd run exited in four seconds with "Not logged in", and the
+  launcher logged `exit=0` because `$(date)` in the same echo reset `$?`. The
+  session is lost, not reconstructed: after the close every quote is stale. A
+  launchd probe at 20:25 authenticated normally, so the failure was transient —
+  most likely the login keychain was unavailable while the Mac was locked.
+  Unproven.
+- Launcher hardened (outside the repo; reference copy in `ops/run.sh`): it reads
+  a long-lived token from a mode-600 file when present, runs an auth preflight
+  with three retries, posts a macOS notification on failure, and logs and
+  returns the real exit code.
+- New `quality.py` (rules 1.0.0), adopted from the reference review in
+  `REFERENCES.md`. `policy.evaluate` takes a per-symbol data-quality record and
+  refuses any proposal, buy or sell, on a symbol whose inputs do not hold
+  together. From 2026-10-06, `validate_run.py` rejects a run that proposes
+  anything without `symbol_data`. Earlier runs replay unchanged. POLICY.yaml
+  limits and mode are unchanged.
+- This changes the session protocol from session 2 onward, so sessions before
+  and after it are not identical evidence. Session 1 recorded no bars, so it
+  cannot be re-checked; it stays as recorded.
+- shadow sessions: 1 of 20.

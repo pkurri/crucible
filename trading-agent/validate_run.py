@@ -10,6 +10,7 @@ rather than by eye.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -23,7 +24,12 @@ from policy import (
     load_watchlist,
     validate_plan,
 )
+from quality import load_for_run
 from shadow import build_portfolio
+
+# Sessions from this date on must carry a data-quality input when they
+# propose anything. Earlier sessions predate the check and replay without it.
+QUALITY_REQUIRED_FROM = "2026-10-06"
 
 
 def main(argv: list[str]) -> int:
@@ -42,6 +48,22 @@ def main(argv: list[str]) -> int:
     portfolio = build_portfolio(run, policy) if run.get("portfolio") else empty_portfolio()
 
     plans = run["plans"]
+    run_path = Path(argv[1])
+    quality = load_for_run(run, run_path.parent, policy["max_quote_age_seconds"])
+    session = str(run.get("session", ""))
+    dated = re.fullmatch(r"\d{4}-\d{2}-\d{2}", session) is not None
+    if quality is None:
+        if dated and session >= QUALITY_REQUIRED_FROM and any(
+            p.get("decision") == PROPOSE_ORDER for p in plans
+        ):
+            print("RUN INVALID — proposals without symbol_data. Run quality.py "
+                  "and name its input in the run file.")
+            return 1
+        print("  note: no symbol_data; data-quality gate not applied")
+    else:
+        for sym, rec in sorted(quality.items()):
+            if not rec["ok"]:
+                print(f"  unusable {sym:<8} {', '.join(rec['blocking'])}")
     malformed = 0
     rejected = 0
     proposals = 0
@@ -64,7 +86,8 @@ def main(argv: list[str]) -> int:
         # reported, never treated as a failed run -- otherwise every session in
         # which the agent proposes something the policy blocks would be thrown
         # away, and the shadow period would only ever record easy days.
-        verdict = evaluate(plan, policy, watchlist, schema=schema, portfolio=portfolio)
+        verdict = evaluate(plan, policy, watchlist, schema=schema, portfolio=portfolio,
+                           data_quality=quality)
         if verdict.allowed:
             print(f"  ok      {symbol:<8} {plan.get('decision')} (score {plan.get('score')})")
         else:

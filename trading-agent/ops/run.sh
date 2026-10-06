@@ -17,6 +17,26 @@ if [ "${FORCE_WINDOW:-0}" != "1" ] && { [ "$dow" -gt 5 ] || [ "$hm" -lt 945 ] ||
   echo "outside weekday 09:45-15:30 ET (day $dow, $hm); skipped"; exit 0
 fi
 
+notify() { osascript -e "display notification \"$1\" with title \"Trading agent shadow\"" >/dev/null 2>&1 || true; }
+
+# Long-lived token from `claude setup-token`, if present. The keychain login
+# can be unavailable to launchd while the Mac is locked (2026-10-05 session
+# was lost to "Not logged in"); a token file does not depend on it.
+TOKEN_FILE="$HOME/Library/Application Support/trading-agent-shadow/oauth-token"
+if [ -f "$TOKEN_FILE" ]; then
+  if [ "$(stat -f %Lp "$TOKEN_FILE")" != "600" ]; then echo "token file not mode 600; refusing"; notify "token file permissions wrong"; exit 1; fi
+  CLAUDE_CODE_OAUTH_TOKEN="$(tr -d '[:space:]' < "$TOKEN_FILE")"; export CLAUDE_CODE_OAUTH_TOKEN
+fi
+
+# Auth preflight with retries, so a login failure is loud instead of a
+# four-second run that logs success.
+authed=0
+for attempt in 1 2 3; do
+  if claude -p "reply ok" --model haiku --no-session-persistence --strict-mcp-config --tools "" < /dev/null >/dev/null 2>&1; then authed=1; break; fi
+  echo "auth preflight failed (attempt $attempt)"; sleep 60
+done
+if [ "$authed" != "1" ]; then echo "not authenticated; session NOT run"; notify "Session NOT run: Claude not logged in"; exit 1; fi
+
 cd "$REPO" || { echo "worktree missing"; exit 1; }
 if [ -n "$(git status --porcelain)" ]; then echo "worktree dirty; refusing"; exit 1; fi
 git fetch -q origin trading-agent-phase2 && git merge --ff-only -q origin/trading-agent-phase2 \
@@ -53,4 +73,7 @@ claude -p "$PROMPT" < /dev/null \
     "Bash(grep:*)" "Bash(echo:*)" "Bash(npx prettier:*)" "Bash(npx markdownlint:*)" \
   --disallowedTools $DENY "Bash(git push --force:*)" "Bash(git push -f:*)" \
     "Bash(git reset --hard:*)" "Bash(git config:*)" "Bash(git stash:*)"
-echo "=== end $(date -u +%FT%TZ) exit=$? ==="
+rc=$?
+[ "$rc" != "0" ] && notify "Session exited with code $rc; check the log"
+echo "=== end $(date -u +%FT%TZ) exit=$rc ==="
+exit "$rc"
