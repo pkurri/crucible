@@ -45199,6 +45199,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ArchaeologicalGastronomy",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "The idea blends the rapid rise of AI-driven historical reconstruction with the evergreen appeal of cooking. Each episode uncovers a genuine ancient text, translates it, and recreates the dish—offering a clear, unique hook and endless content hooks (different civilizations, forgotten ingredients, scientific explanations). The niche is low-saturated yet highly shareable, with strong scroll‑stopping curiosity loops and emotional resonance from food nostalgia intersecting with culture, positioning it for millions of views and rapid subscriber growth.",
+      "ideas": [
+        "Cooking a 3,000-Year-Old Recipe Made From a Mummy's Wrapping / Imagine transforming a mummy's linen into a steaming stew—watch the mystic mashup! ",
+        "We Tried the Dead Sea Scrolls' Breakfast: Spoiler, It's Crazy / Sneak a bite of a script‑written morning—ancient wisdom meets your plate! ",
+        "Recreating a Roman Caesar Salad from Ancient Rome's Cookbook—You Won't Believe the Seasonal Ingredients / Swipe through evidence of the empire’s garden salad tricks."
+      ],
+      "keywords": [
+        "ancient",
+        "cooking",
+        "historical",
+        "sensory",
+        "spice"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
