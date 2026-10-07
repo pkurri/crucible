@@ -45496,6 +45496,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "UnderwaterAurora",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Underwater Aurora is a rare, naturally-generated light phenomenon that combines the mystery of oceanic depths with the awe‑inducing spectacle of auroras. Its scarcity, vivid visual appeal, and the scientific curiosity it sparks make it perfect for scroll‑stopping hooks and curiosity loops. With 8K filming, AI data‑driven discoveries, and live‑streamed drone footage, there’s endless content potential that can be scaled to 25+ unique viral ideas, keeping audiences glued and eager for more.",
+      "ideas": [
+        "5 Hidden Undiscovered Underwater Auroras That Will Blow Your Mind – Only a few people have ever seen these underwater lightning storms, and now we’re revealing them!",
+        "We Tracked an Underwater Aurora Using AI & 8K Cameras – The Result Is Beyond Amazing – Will AI uncover the unseen? Watch what we discovered!",
+        "The Science Behind Underwater Auroras: How Lightning Meets the Sea – Ever wondered why the ocean glows on storm nights? This is the shocking explanation you’ve been waiting for."
+      ],
+      "keywords": [
+        "GlowingWater",
+        "NeonBlue",
+        "SubmergedStorm",
+        "LightSpectacle",
+        "OceanicAurora"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
