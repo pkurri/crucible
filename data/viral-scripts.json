@@ -12455,7 +12455,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12465,43 +12465,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Booster",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Weekly Lifelong Learning Circles",
+        "icon": "🤝"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
       }
     ]
   },
@@ -35643,39 +35649,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Cities that glow brighter than sunrise—impossible? Think again!",
+        "text": "Streets that glow like stars, no electricity needed.",
         "duration": 5
       },
       {
-        "text": "They’re powered by living light, not fossil fuel.",
+        "text": "This could erase our carbon footprint overnight.",
         "duration": 4
       },
       {
-        "text": "Scientists hack firefly genes to paint streets red.",
+        "text": "Bioluminescent algae pumped into skyscraper facades.",
         "duration": 5
       },
       {
-        "text": "Nanotech algae paint walls, turning them into lanterns.",
+        "text": "They replace 80% of streetlights with living light.",
         "duration": 5
       },
       {
-        "text": "Every night, the skyline shifts like a living aurora.",
+        "text": "You could see your city bathe in sustainable neon.",
         "duration": 5
       },
       {
-        "text": "You miss out if you haven’t seen this glow yet.",
+        "text": "What if the night never dims, just grows brighter?",
         "duration": 4
       },
       {
-        "text": "Our planet’s future brightens, but only if we act.",
+        "text": "And what if that glow saves billions in energy?",
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
-        "text": "Next video: how cities harness quantum firefly tech.",
+        "text": "Next reveal: cities powered by quantum algae.",
         "duration": 4
       }
     ]
@@ -40391,7 +40397,7 @@
         "duration": 4
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -93273,6 +93279,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791406905433": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791406905433 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Core Engine",
+        "name": "Quantum Pulse Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Interface",
+        "name": "Neuro‑Sync Dashboard",
+        "icon": "🖥️"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Encryption Shield",
+        "icon": "🔒"
+      },
+      {
+        "title": "Performance",
+        "name": "Adaptive Latency Optimizer",
+        "icon": "🚀"
+      },
+      {
+        "title": "Integration",
+        "name": "Universal API Bridge",
+        "icon": "🌐"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑Time Insight Engine",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "Self‑Healing Workflow Bot",
+        "icon": "🤖"
+      },
+      {
+        "title": "Scalability",
+        "name": "Infinity‑Scale Cluster",
+        "icon": "♾️"
       }
     ]
   }
