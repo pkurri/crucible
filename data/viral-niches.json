@@ -45427,6 +45427,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlgaePoweredCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Algae-powered energy is an untapped, visually stunning sustainability frontier that merges biology, technology, and urban life. The concept promises city‑wide renewable power with lush green visuals, sparking curiosity about future eco‑cities, and it has low competition with high growth potential. Scroll‑stopping hooks (“Imagine a city lit only by algae”) and curiosity loops (step‑by‑step reveals of algae farms) guarantee strong retention. The niche is ideal for 25+ viral ideas ranging from real‑world case studies to speculative future scenarios.",
+      "ideas": [
+        "Algae Power Plants: How One Pond Can Light an Entire City – The Science Behind the Green Revolution",
+        "From Algae to Grid: Inside the First City-Wide Algae-Fueled Power Complex",
+        "Future of Urban Energy? Algae Farms Turning Tide on Fossil Fuels – A 3D Visual Journey"
+      ],
+      "keywords": [
+        "AlgaeForest",
+        "BiomassPower",
+        "SolarGreen",
+        "SustainableCity",
+        "BioReactors"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

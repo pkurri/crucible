@@ -12424,84 +12424,96 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Stealth Data Mining",
+        "name": "Midnight Miner",
+        "icon": "📥"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Unseen Surveillance",
+        "name": "Eye in the Sky",
+        "icon": "👁️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mind Control Scripts",
+        "name": "Neural Override",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Economic Sabotage",
+        "name": "Market Whisperer",
+        "icon": "💰"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Governance Hijack",
+        "name": "Policy Pusher",
+        "icon": "🏛️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social Media Spin",
+        "name": "Trend Manipulator",
+        "icon": "📱"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Healthcare Leak",
+        "name": "Data Doctor",
+        "icon": "⚕️"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Cyberwarps",
+        "name": "Firewall Bypass",
+        "icon": "🛡️"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Diet",
+        "name": "Blue Juice",
+        "icon": "💧"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Morning Walk",
+        "icon": "🚶"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "30‑Min Night",
+        "icon": "🛌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mind",
+        "name": "Micro Med",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electro Hydrate",
+        "icon": "🥤"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Laugh Circles",
+        "icon": "😂"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Gut",
+        "name": "Fermented Foods",
+        "icon": "🥖"
       }
     ]
   },
@@ -12537,7 +12549,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more CryptoBullRunSecrets.",
         "duration": 5
       },
       {
@@ -35640,43 +35652,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Cities that glow brighter than sunrise—impossible? Think again!",
-        "duration": 5
+        "title": "Capital City",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "They’re powered by living light, not fossil fuel.",
-        "duration": 4
+        "title": "River City",
+        "name": "Glowhaven",
+        "icon": "🌊"
       },
       {
-        "text": "Scientists hack firefly genes to paint streets red.",
-        "duration": 5
+        "title": "Mountain City",
+        "name": "Peaklight",
+        "icon": "🏔️"
       },
       {
-        "text": "Nanotech algae paint walls, turning them into lanterns.",
-        "duration": 5
+        "title": "Coastal City",
+        "name": "Seavivid",
+        "icon": "🌊"
       },
       {
-        "text": "Every night, the skyline shifts like a living aurora.",
-        "duration": 5
+        "title": "Forest City",
+        "name": "Sylvan Glow",
+        "icon": "🌲"
       },
       {
-        "text": "You miss out if you haven’t seen this glow yet.",
-        "duration": 4
+        "title": "Desert City",
+        "name": "Sirocco Glow",
+        "icon": "🏜️"
       },
       {
-        "text": "Our planet’s future brightens, but only if we act.",
-        "duration": 4
+        "title": "Isle City",
+        "name": "Isle Dazzle",
+        "icon": "🏝️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next video: how cities harness quantum firefly tech.",
-        "duration": 4
+        "title": "Urban Jungle",
+        "name": "Neon Nexus",
+        "icon": "🌿"
       }
     ]
   },
@@ -92052,43 +92070,49 @@
     ]
   },
   "AlgaePoweredCities": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AlgaePoweredCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Imagine a city that runs on algae, not cars.",
-        "duration": 5
+        "title": "Energy",
+        "name": "BlueSky Solar‑Algae Panels",
+        "icon": "🌞"
       },
       {
-        "text": "It lights the night with bioluminescent glow.",
-        "duration": 4
+        "title": "Water",
+        "name": "AquaClean Algae Filters",
+        "icon": "🚰"
       },
       {
-        "text": "Algae soak up 80% of CO2 each day.",
-        "duration": 5
+        "title": "Food",
+        "name": "UrbanFerment Algae & Spices",
+        "icon": "🍴"
       },
       {
-        "text": "Second: 90% of power comes from a single algae wall.",
-        "duration": 5
+        "title": "Waste",
+        "name": "ReGen Algae Bioreactors",
+        "icon": "♻️"
       },
       {
-        "text": "Twist: the same algae crystals also purify our drinking water.",
-        "duration": 5
+        "title": "Economy",
+        "name": "AlgaeDollar Micro‑Enterprises",
+        "icon": "💰"
       },
       {
-        "text": "Next, watch how to mold an algae power block.",
-        "duration": 4
+        "title": "Health",
+        "name": "AlgaeUbiquity Vitamin Farms",
+        "icon": "💊"
       },
       {
-        "text": "If you miss this, you’ll miss the future of cities.",
-        "duration": 4
+        "title": "Design",
+        "name": "Kinetic Algae Skyline",
+        "icon": "🏙️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next video: how algae can cure plastic waste.",
-        "duration": 4
+        "title": "Vision",
+        "name": "LumenAlgae Smart Grids",
+        "icon": "🌌"
       }
     ]
   },
