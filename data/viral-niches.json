@@ -45451,6 +45451,30 @@
         "BioReactors"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "DroneFarmCities",
+      "platforms": [
+        "youtube",
+        "meta"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Curiosity",
+      "reason": "The concept of autonomous drones creating lush vertical farms in mid-air addresses growing concerns about food scarcity, sustainability, and urban aesthetics. It combines the wow factor of high‑tech drones with the relatable aspiration to grow fresh produce anywhere. The niche is highly visual, offers endless ‘how‑to’ and time‑lapse recipe‑style content, and aligns with current eco‑trends, making it ripe for rapid shareability and long‑term audience growth.",
+      "ideas": [
+        "I Raised a 500‑Plant Garden with 500 Drones – 24‑Hour Time‑Lapse (Watch What Happens!)",
+        "Zero‑Waste Farm: How to Build Drone‑Powered Vertical Gardens with $50 Starting Budget",
+        "Drone Ivy Hack – Turns Your Rooftop into a 10‑Story Greenhouse. No Soil Needed!"
+      ],
+      "keywords": [
+        "drones",
+        "vertical garden",
+        "city skyline",
+        "sustainable farming",
+        "futuristic tech"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
