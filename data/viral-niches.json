@@ -45610,6 +45610,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialArchitecture",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "MicrobialArchitecture taps into the hot convergence of sustainability, tech, and the unseen fungal world. The global drive toward bio‑fabricated, carbon‑neutral construction dovetails with the fascinating mystery of mycelium. Viewers love ‘hidden engines’ that grow buildings, and the visual spectacle of living, translucent fungal walls evokes wonder, making the content highly shareable across Meta and YouTube.",
+      "ideas": [
+        "Glow‑Up! Watch a Skyscraper Grow from Fungal Roots in 60 Seconds – Hook: ‘What if you could grow a city by feeding spores?’",
+        "From Mushroom to Metropolis: How Mycelium Is Building the Next Generation of Eco‑Homes – Hook: ‘We built 10‑story living walls in a week. You won’t believe the output!’",
+        "The Secret Life of Bio‑Fabricated Buildings: Inside the Fungal Lab Creating Living Architecture – Hook: ‘Everything you know about concrete is about to change…’"
+      ],
+      "keywords": [
+        "glowing forest",
+        "living mycelium walls",
+        "bioluminescent fungus",
+        "spore‑powered skyscraper",
+        "fungal network architecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
