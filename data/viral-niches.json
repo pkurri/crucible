@@ -45634,6 +45634,30 @@
         "fungal network architecture"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "PollinatorMetropolis",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.7,
+      "targetEmotion": "Wonder",
+      "reason": "Bee populations are an urgent global crisis, and visualizing an entire city constructed by their collective engineering offers a striking, unique hook that blends science, art, and emotion. The niche is faceless‑friendly, instantly scroll‑stopping with swirling honeycomb skylines, and scales effortlessly to 25+ sub‑topics such as bee traffic routes, pollinator farms, and urban bee symbiosis. The rarity of this angle in current feeds makes it highly differentiable, while the blend of awe‑inducing visuals and climate relevance ensures strong audience retention and virality.",
+      "ideas": [
+        "Bee City: Watch a Colony Build a Metropolis in 60 Seconds – “What if your city grew from a hive?”",
+        "5 Ways Bees Re‑engineered Urban Planning – “Ever wonder how bees could fix traffic?”",
+        "Inside a Self‑Assembling Bee Megacity VR – “Step into the ultimate silver skyline”"
+      ],
+      "keywords": [
+        "bee",
+        "pollinator",
+        "city",
+        "architecture",
+        "honeycomb"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
