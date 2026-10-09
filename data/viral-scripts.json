@@ -12424,43 +12424,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Stealth Data Mining",
+        "name": "Midnight Miner",
+        "icon": "📥"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Unseen Surveillance",
+        "name": "Eye in the Sky",
+        "icon": "👁️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mind Control Scripts",
+        "name": "Neural Override",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Economic Sabotage",
+        "name": "Market Whisperer",
+        "icon": "💰"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Governance Hijack",
+        "name": "Policy Pusher",
+        "icon": "🏛️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social Media Spin",
+        "name": "Trend Manipulator",
+        "icon": "📱"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Healthcare Leak",
+        "name": "Data Doctor",
+        "icon": "⚕️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Cyberwarps",
+        "name": "Firewall Bypass",
+        "icon": "🛡️"
       }
     ]
   },
@@ -12496,7 +12502,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
         "duration": 5
       },
       {
@@ -35643,39 +35649,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Streets that glow like stars, no electricity needed.",
+        "text": "Nobody talks about the truth of BioLuminescentCities.",
         "duration": 5
       },
       {
-        "text": "This could erase our carbon footprint overnight.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "Bioluminescent algae pumped into skyscraper facades.",
-        "duration": 5
-      },
-      {
-        "text": "They replace 80% of streetlights with living light.",
-        "duration": 5
-      },
-      {
-        "text": "You could see your city bathe in sustainable neon.",
-        "duration": 5
-      },
-      {
-        "text": "What if the night never dims, just grows brighter?",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "And what if that glow saves billions in energy?",
-        "duration": 4
-      },
-      {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
-        "text": "Next reveal: cities powered by quantum algae.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -93478,7 +93484,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "If you want to master PollinatorMetropolis, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -93900,6 +93906,53 @@
       {
         "text": "Next up: quantum rhythm that bends time.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791557971566": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791557971566 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Automation",
+        "name": "AutoFlow Engine",
+        "icon": "🤖"
+      },
+      {
+        "title": "Analytics",
+        "name": "DataPulse Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Collaboration",
+        "name": "TeamSync Chat",
+        "icon": "💬"
+      },
+      {
+        "title": "Integration",
+        "name": "Connector Hub",
+        "icon": "🔌"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldGuard Policy",
+        "icon": "🛡️"
+      },
+      {
+        "title": "AI",
+        "name": "Predictive Engine",
+        "icon": "🧠"
+      },
+      {
+        "title": "Mobility",
+        "name": "MobileFlow App",
+        "icon": "📱"
+      },
+      {
+        "title": "Customization",
+        "name": "Script Studio",
+        "icon": "🛠️"
       }
     ]
   }
