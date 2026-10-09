@@ -12426,47 +12426,47 @@
   "AIAgentsAreTakingOver": {
     "voice": "af_heart",
     "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
     "list": [
       {
-        "title": "Stealth Data Mining",
-        "name": "Midnight Miner",
-        "icon": "📥"
+        "title": "Job Loss",
+        "name": "ChatGPT for Customer Support",
+        "icon": "🤖"
       },
       {
-        "title": "Unseen Surveillance",
-        "name": "Eye in the Sky",
-        "icon": "👁️"
+        "title": "Privacy Breach",
+        "name": "AI Surveillance Bot",
+        "icon": "🕵️‍♂️"
       },
       {
-        "title": "Mind Control Scripts",
-        "name": "Neural Override",
-        "icon": "🧠"
+        "title": "Deepfake Fears",
+        "name": "Real‑Time Video Synthesizer",
+        "icon": "🎭"
       },
       {
-        "title": "Economic Sabotage",
-        "name": "Market Whisperer",
-        "icon": "💰"
+        "title": "Market Domination",
+        "name": "Automated Trading AI",
+        "icon": "📈"
       },
       {
-        "title": "Governance Hijack",
-        "name": "Policy Pusher",
-        "icon": "🏛️"
+        "title": "Data Theft",
+        "name": "Predictive Analytics Wizard",
+        "icon": "📊"
       },
       {
-        "title": "Social Media Spin",
-        "name": "Trend Manipulator",
-        "icon": "📱"
+        "title": "Identity Theft",
+        "name": "Speech‑to‑Text Converter",
+        "icon": "🗣️"
       },
       {
-        "title": "Healthcare Leak",
-        "name": "Data Doctor",
-        "icon": "⚕️"
+        "title": "Moral Erosion",
+        "name": "Algorithmic Editorial AI",
+        "icon": "📰"
       },
       {
-        "title": "Cyberwarps",
-        "name": "Firewall Bypass",
-        "icon": "🛡️"
+        "title": "Existential Risk",
+        "name": "Self‑Learning Autopilot",
+        "icon": "🚢"
       }
     ]
   },
@@ -12502,7 +12502,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -35646,43 +35646,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Neon Metropolis",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Underwater Glow",
+        "name": "Aquatalia",
+        "icon": "🌊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Forest Lighthouse",
+        "name": "Verdant Radiance",
+        "icon": "🌲"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Starlit Sanctuary",
+        "name": "Celestial City",
+        "icon": "✨"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Subterranean Beacon",
+        "name": "Glowhole City",
+        "icon": "🕳️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Skyward Spectra",
+        "name": "Nimbus Nexus",
+        "icon": "☁️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Prismatic Hub",
+        "name": "Spectrum City",
+        "icon": "🌈"
       },
       {
-        "text": "If you want to master BioLuminescentCities, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Time‑Warp Port",
+        "name": "Eternity Harbor",
+        "icon": "⏳"
       }
     ]
   },
@@ -93484,7 +93490,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master PollinatorMetropolis, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more PollinatorMetropolis.",
         "duration": 5
       },
       {
@@ -93953,6 +93959,53 @@
         "title": "Customization",
         "name": "Script Studio",
         "icon": "🛠️"
+      }
+    ]
+  },
+  "ApexFlow_1791578066421": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791578066421 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1791578066421, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Core Algorithm",
+        "name": "Quantum Sync Engine",
+        "icon": "⚡"
+      },
+      {
+        "title": "Visualization",
+        "name": "Infinite Flow Canvas",
+        "icon": "🎨"
+      },
+      {
+        "title": "Performance",
+        "name": "Zero-Latency Renderer",
+        "icon": "🚀"
+      },
+      {
+        "title": "Security",
+        "name": "Adaptive Shield Protocol",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Integration",
+        "name": "Universal API Bridge",
+        "icon": "🔗"
+      },
+      {
+        "title": "Analytics",
+        "name": "Predictive Insight Matrix",
+        "icon": "📊"
+      },
+      {
+        "title": "Automation",
+        "name": "Self-Healing Workflow Bot",
+        "icon": "🤖"
+      },
+      {
+        "title": "Community",
+        "name": "ApexFlow Nexus Hub",
+        "icon": "🌐"
       }
     ]
   }
