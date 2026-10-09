@@ -45859,6 +45859,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumMusic",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Quantum science captivates tech lovers and mainstream audiences alike. Merging quantum computing principles with music production offers a fresh, visualizable concept that is both educational and entertaining. The faceless format thrives on animated quantum waveforms, interactive sound experiments, and short, visually stunning demonstrations—perfect for short-form feeds and scrolling platforms. High shareability and low production cost make it ripe for generating 25+ unique video ideas.",
+      "ideas": [
+        "Quantum Waveform: How a Quantum Computer Can Compose Symphonies in 7 Seconds – See the Science Behind It!",
+        "The Quantum Music Experiment: Turning Schrödinger's Cat into a Guitar Solo – Watch What Happens!",
+        "From Qubit to Melody: A Step‑by‑Step Guide to Creating Music with Quantum Computers – You Won’t Believe the Sound!"
+      ],
+      "keywords": [
+        "quantum visuals",
+        "music waveform",
+        "scientific animation",
+        "interactive graphics",
+        "sound lab"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
