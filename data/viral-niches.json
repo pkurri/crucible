@@ -45988,6 +45988,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "PlasticCleanseTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Curiosity",
+      "reason": "Microplastic pollution is a hot activism topic, but few creators show real, hands‑on tech that actually cleans or recycles microplastics. Showing innovative cleanup gadgets in a domestic setting gives viewers a ‘wow’ visual, fuels social sharing, and taps into current environmental curiosity. The format allows repeatable “how‑to” videos, strong hooks, and easy cross‑platform amplification.",
+      "ideas": [
+        "Destroy 1L of Ocean Plastic With a Simple Household Device — Watch the Liquid Turn Transparent",
+        "Turn Your Kitchen Counter Into a Plastic Recycling Lab (Microplastic Clean‑Up at Home!)",
+        "Real‑Time Microscopy Showdown: Watching Microplastics Dissolve Inside a DIY Tide‑Free Cleaner"
+      ],
+      "keywords": [
+        "glowing",
+        "nanoscopic",
+        "hyper‑real",
+        "real‑time",
+        "immersive"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
