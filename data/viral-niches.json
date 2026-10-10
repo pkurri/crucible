@@ -46216,6 +46216,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticMemoryPalaces",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Rapid advances in brain‑computer interfaces, AI‑driven memory enhancement, and sci‑fi fascination with implantable cognition are driving massive search spikes. Audiences crave visually stunning, speculative futures where memories become explorable architecture—perfect for faceless, AI‑generated visuals that spark awe and shareability.",
+      "ideas": [
+        "What If You Could Walk Through Your Own Memories? – A tour of an AI‑crafted neural palace where every hallway stores a childhood birthday.",
+        "The Dark Side of Synthetic Memory Palaces – When AI starts editing your past, creating false corridors you can’t escape.",
+        "Building a Memory Palace for Future Skills – How neuroscientists are using holographic neural lace to download languages overnight."
+      ],
+      "keywords": [
+        "neon neural lace",
+        "glowing memory corridors",
+        "futuristic brain palace",
+        "AI-generated dreamscape",
+        "holographic recall"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
