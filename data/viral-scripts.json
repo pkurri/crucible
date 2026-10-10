@@ -12496,7 +12496,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
         "duration": 5
       },
       {
@@ -35634,43 +35634,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Stop scrolling! 8 cities glow like stars you can't miss.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Streets that glow like stars, no electricity needed.",
-        "duration": 5
+        "title": "Architecture",
+        "name": "NeonNova",
+        "icon": "🏙️"
       },
       {
-        "text": "This could erase our carbon footprint overnight.",
-        "duration": 4
+        "title": "Parks",
+        "name": "Glowing Grove",
+        "icon": "🌿"
       },
       {
-        "text": "Bioluminescent algae pumped into skyscraper facades.",
-        "duration": 5
+        "title": "Streets",
+        "name": "Luminous Lane",
+        "icon": "🌆"
       },
       {
-        "text": "They replace 80% of streetlights with living light.",
-        "duration": 5
+        "title": "Sky",
+        "name": "Aurora Zenith",
+        "icon": "🌌"
       },
       {
-        "text": "You could see your city bathe in sustainable neon.",
-        "duration": 5
+        "title": "Seafront",
+        "name": "Biolume Bay",
+        "icon": "🌊"
       },
       {
-        "text": "What if the night never dims, just grows brighter?",
-        "duration": 4
+        "title": "Transit",
+        "name": "Rail Radiance",
+        "icon": "🚆"
       },
       {
-        "text": "And what if that glow saves billions in energy?",
-        "duration": 4
+        "title": "Markets",
+        "name": "Shimmer Market",
+        "icon": "🛍️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next reveal: cities powered by quantum algae.",
-        "duration": 4
+        "title": "Districts",
+        "name": "Glowpolis",
+        "icon": "🎡"
       }
     ]
   },
@@ -40354,43 +40360,49 @@
     ]
   },
   "BioluminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioluminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioluminescentCities.",
-        "duration": 5
+        "title": "Island Glow",
+        "name": "Puerto Viejo, Costa Rica",
+        "icon": "🌴"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "River Light",
+        "name": "Lake Joy, Oregon",
+        "icon": "🏞️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sea Spark",
+        "name": "Biolum",
+        "icon": "🌊"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Night Harbor",
+        "name": "Havana, Cuba",
+        "icon": "⚓"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sky Bay",
+        "name": "Ha Long, Vietnam",
+        "icon": "✈️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hidden Reef",
+        "name": "Blue Hole, Belize",
+        "icon": "🏖️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Forest Glow",
+        "name": "Akko, Israel",
+        "icon": "🌲"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Moonlit Coast",
+        "name": "St. Simons Island, USA",
+        "icon": "🌙"
       }
     ]
   },
@@ -94336,6 +94348,47 @@
     "lines": [
       {
         "text": "Nobody talks about the truth of ApexFlow_1791651144518.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1791661645335": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791661645335.",
         "duration": 5
       },
       {
