@@ -46066,6 +46066,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialCanvas",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "MicrobialCanvas blends cutting‑edge microbiology with visually stunning time‑lapse art, appealing to both science buffs and art lovers. The niche is technically accessible, content can be produced faceless with stock footage, live‑lab footage, and creative graphics, and it taps into current fascination with bio‑engineering and living material art—an area with few established voices. Short, captivating videos that show microbes literally paint give strong “scroll‑stopping” hooks and keep viewers intrigued with curiosity loops (e.g., \"Which microbe will create a rainbow?\", \"Can cells survive hostile light?\"), making it highly shareable across Meta and YouTube platforms.\n\nThe channel can rapidly generate 25+ ideas by focusing on different microbes, environmental conditions, and artistic themes, ensuring sustained audience engagement and viral growth potential beyond 1M+ subscribers.",
+      "ideas": [
+        "Bacterial Banks: How Bacteria Turn a Plain Canvas into a Living Clock\nHook: \"See a clock made by microbes that ticks for weeks without moving a hand!\"",
+        "5 Bacteria That Paint the Dark: The Surreal Art of Black Micro-Prints\nHook: \"Ever wondered what black looks like in the microscopic world? These microbes change that!\"",
+        "When Fire Meets Fungi: Microbes Creating Art Under Extreme Heat\nHook: \"Watch microbes survive scorching temperatures and leave behind fiery patterns on a foam sheet!\""
+      ],
+      "keywords": [
+        "Microbiology",
+        "LivingArt",
+        "TimeLapse",
+        "Microscopy",
+        "BioEngineering"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
