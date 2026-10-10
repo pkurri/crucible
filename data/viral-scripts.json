@@ -40385,7 +40385,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -94240,6 +94240,53 @@
         "title": "Legacy",
         "name": "Eternal Halo",
         "icon": "🏆"
+      }
+    ]
+  },
+  "ApexFlow_1791641696044": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791641696044 secrets you need to know.",
+    "closing": "If you want to master ApexFlow_1791641696044, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Automation",
+        "name": "Instant Sync Trigger",
+        "icon": "⚡"
+      },
+      {
+        "title": "Data",
+        "name": "Live Metrics Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "One‑Click API Bridge",
+        "icon": "🔗"
+      },
+      {
+        "title": "Optimization",
+        "name": "Smart Load Balancer",
+        "icon": "⚖️"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Vault",
+        "icon": "🔒"
+      },
+      {
+        "title": "Collaboration",
+        "name": "Real‑Time Co‑Edit",
+        "icon": "🤝"
+      },
+      {
+        "title": "Reporting",
+        "name": "AI‑Powered Insight Engine",
+        "icon": "🧠"
+      },
+      {
+        "title": "Scaling",
+        "name": "Elastic Node Fleet",
+        "icon": "🚀"
       }
     ]
   }
