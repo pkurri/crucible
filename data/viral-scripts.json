@@ -94207,5 +94207,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1791613179654": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791613179654 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Initiation",
+        "name": "Prime Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Momentum",
+        "name": "Surge Pulse",
+        "icon": "🔊"
+      },
+      {
+        "title": "Scaling",
+        "name": "Echo Cascade",
+        "icon": "🌊"
+      },
+      {
+        "title": "Fortitude",
+        "name": "Titan Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Insight",
+        "name": "Cipher Lens",
+        "icon": "🔍"
+      },
+      {
+        "title": "Mastery",
+        "name": "Harmony Rift",
+        "icon": "🎶"
+      },
+      {
+        "title": "Transformation",
+        "name": "Nova Shift",
+        "icon": "✨"
+      },
+      {
+        "title": "Legacy",
+        "name": "Eternal Halo",
+        "icon": "🏆"
+      }
+    ]
   }
 }
