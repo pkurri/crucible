@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:37:21.328Z",
+  "generatedAt": "2026-10-11T11:50:48.086Z",
   "platforms": [
     {
       "platform": "youtube",
@@ -8,15 +8,15 @@
     {
       "platform": "facebook",
       "page": "AAK Nation",
-      "followers": 19,
-      "followerEligibilityProgress": 0.0019,
+      "followers": 20,
+      "followerEligibilityProgress": 0.002,
       "monetizationStatus": "not_eligible",
       "note": "In-stream ads eligibility also requires meeting Meta Partner Monetization Policies and a recent watch-time minimum — this only checks the follower count proxy. Verify actual status in Meta Business Suite."
     },
     {
       "platform": "instagram",
       "account": "aak.tion",
-      "followers": 6,
+      "followers": 7,
       "mediaCount": 56,
       "monetizationStatus": "manual_review_required",
       "note": "Instagram monetization (Reels bonuses, subscriptions, brand deals) is invite-only/manual with no public self-serve follower threshold — reporting audience size only, not eligibility."
