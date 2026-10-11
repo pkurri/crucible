@@ -12427,39 +12427,39 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your next paycheck might already be in code.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
         "duration": 4
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
-      },
-      {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
-      },
-      {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
-      },
-      {
-        "text": "Would your desk be next?",
+        "text": "Most will scroll past this and stay behind.",
         "duration": 4
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
-        "text": "Next: the AI that can replace your spouse.",
+        "text": "Next: the method that changes everything.",
         "duration": 4
       }
     ]
@@ -35634,49 +35634,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Neon Metropolis",
-        "name": "Lumenopolis",
-        "icon": "🌆"
+        "text": "Cities that glow brighter than sunrise—impossible? Think again!",
+        "duration": 5
       },
       {
-        "title": "Underwater Glow",
-        "name": "Aquatalia",
-        "icon": "🌊"
+        "text": "They’re powered by living light, not fossil fuel.",
+        "duration": 4
       },
       {
-        "title": "Forest Lighthouse",
-        "name": "Verdant Radiance",
-        "icon": "🌲"
+        "text": "Scientists hack firefly genes to paint streets red.",
+        "duration": 5
       },
       {
-        "title": "Starlit Sanctuary",
-        "name": "Celestial City",
-        "icon": "✨"
+        "text": "Nanotech algae paint walls, turning them into lanterns.",
+        "duration": 5
       },
       {
-        "title": "Subterranean Beacon",
-        "name": "Glowhole City",
-        "icon": "🕳️"
+        "text": "Every night, the skyline shifts like a living aurora.",
+        "duration": 5
       },
       {
-        "title": "Skyward Spectra",
-        "name": "Nimbus Nexus",
-        "icon": "☁️"
+        "text": "You miss out if you haven’t seen this glow yet.",
+        "duration": 4
       },
       {
-        "title": "Prismatic Hub",
-        "name": "Spectrum City",
-        "icon": "🌈"
+        "text": "Our planet’s future brightens, but only if we act.",
+        "duration": 4
       },
       {
-        "title": "Time‑Warp Port",
-        "name": "Eternity Harbor",
-        "icon": "⏳"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next video: how cities harness quantum firefly tech.",
+        "duration": 4
       }
     ]
   },
@@ -40391,7 +40385,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more BioluminescentCities.",
         "duration": 5
       },
       {
@@ -93478,7 +93472,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master PollinatorMetropolis, you're in the right place. Subscribe.",
+        "text": "Don't let the algorithm hide the truth. Follow for more PollinatorMetropolis.",
         "duration": 5
       },
       {
@@ -94879,6 +94873,47 @@
         "title": "Life Support",
         "name": "Closed‑Loop Algae Farms",
         "icon": "🌿"
+      }
+    ]
+  },
+  "ApexFlow_1791750703808": {
+    "voice": "en-US-GuyNeural",
+    "lines": [
+      {
+        "text": "Nobody talks about the truth of ApexFlow_1791750703808.",
+        "duration": 5
+      },
+      {
+        "text": "And that silence is costing you everything.",
+        "duration": 5
+      },
+      {
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
+      },
+      {
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
+      },
+      {
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
+      },
+      {
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
+      },
+      {
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   }

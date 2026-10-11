@@ -46480,6 +46480,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "BioluminescentCities blends cutting‑edge sustainable lighting technology with mesmerizing night‑city visuals, tapping into growing interests in eco‑innovation and sci‑fi aesthetics. The niche offers a fresh, visually stunning perspective on urban life that is both educational and deeply engaging, setting it apart from conventional travel and futuristic city content. Its emotive power (a glowing metropolis feels alive) and scarcity of comparable high‑quality content make it ripe for viral amplification across both mobile and desktop platforms.",
+      "ideas": [
+        "Glowing Metropolises: How Cities Turn Into Natural Light Shows – The Future of Urban Nightlife",
+        "Behind the Algae Glow: The Secret Tech That Lights Up Tomorrow’s Streets Tonight",
+        "DIY Mini Biolux City: Build Your Own Glow‑Powered Park in 7 Days – You Won’t Believe the Results"
+      ],
+      "keywords": [
+        "LuminousSkies",
+        "GlowStreetLights",
+        "NeonWaves",
+        "ElectricDusk",
+        "NightCityscape"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
