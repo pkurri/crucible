@@ -46429,6 +46429,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedCityBlueprints",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "Underwater cities merge the current ecological urgency with high‑concept tech vision, offering endless visual scenarios (floating islands, ocean farms, self‑sustaining habitats) that spark curiosity and awe. The niche is still blank on mainstream platforms, making it ripe for differentiation and scalable content.",
+      "ideas": [
+        "Is a Floating Metropolis Feasible? Inside the Design That Could Sustain 100 Million People",
+        "Underwater Cities Unveiled: The 3 Most Innovative Projects Turning Oceans into Living Palaces",
+        "Future Food on the Sea: How Global Ocean Farms Could Replace Land‑Based Agriculture"
+      ],
+      "keywords": [
+        "underwater",
+        "floating city",
+        "self‑sufficient",
+        "simulation",
+        "ocean farm"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
