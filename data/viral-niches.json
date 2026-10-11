@@ -46504,6 +46504,30 @@
         "NightCityscape"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeuroControl",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "NeuroControl taps into the rapidly growing intersections of neuroscience, consumer electronics, and DIY tech. With the mainstream rise of brain‑computer interface (BCI) kits and open‑source EEG hardware, viewers are genuinely curious about what’s possible. The niche is differentiated from existing topics by focusing purely on real‑time, everyday tech control via brainwaves rather than medical or entertainment applications. Viral hooks are easy: \"I can make a robot dance with my mind!\" The emotional pull—wonder at mind power and fear/curiosity about invisible control—creates a scroll‑stopping hook. Additionally, the visual content (EEG input streams, real‑time action triggered by the viewer’s thought) feeds into incredible retention loops, making it ideal for 100k+ views per upload and potential 1M+ subscribers. The tech is still fresh on mainstream platforms, giving room for original storytelling and demonstrations, and it resonates with multiple communities (tech enthusiasts, gamers, science junkies).",
+      "ideas": [
+        "Controlling a Robot with a Brainwave Requires 3 Items (Tutorial & Live Demo)",
+        "Can I Make This Drone Fly With My Mind? 5‑Second Brainwave Hack!",
+        "How to Edit Your Voice in Real Time Using an EEG – A Beginner’s Guide"
+      ],
+      "keywords": [
+        "Brainwave",
+        "EEG",
+        "Brain-Control",
+        "Remote Tech",
+        "Mind Hacking"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
