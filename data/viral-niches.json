@@ -46330,6 +46330,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlienLanguageDecoder",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Curiosity",
+      "reason": "With the growing popularity of speculative science, unsolved mysteries, and AI-driven content, a faceless channel that literally 'decodes' extraterrestrial or ancient languages promises instant intrigue. It combines slick, AI-generated visual simulations with narrative storytelling, meeting the meta hype for holographic and surreal content while staying anchored in the evergreen fascination with aliens and lost civilizations.",
+      "ideas": [
+        "Unlocking Mars Codex: Watch AI Translate an Alien Script (You’ll Never Guess the Message!)",
+        "Decoding the Voyager Golden Record: Has it Been Smuggled on Earth? The AI Proofs It!",
+        "The Language of the Lost Sea Creatures? AI Uncovers a Subtle Code in Underwater Lights"
+      ],
+      "keywords": [
+        "glowing",
+        "holographic",
+        "neon",
+        "surreal",
+        "pulsating"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
