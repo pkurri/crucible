@@ -46552,6 +46552,30 @@
         "infrared"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicrobialCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The intersection of microbiology, urban planning, and futuristic architecture is a hot, emerging field. Bacterial growth time‑lapses and biofabrication videos are trending on social platforms like TikTok and Instagram, and YouTube audiences crave high‑quality, visually captivating science content. The novelty of microbes building living infrastructure offers endless hooks—\"can bacteria make a skyscraper?\"—which sustain scroll‑stopping curiosity and shareability, while the DIY bio‑hacking angle attracts broader audiences. This niche can scale to 25+ evergreen themed ideas and supports visually stunning editing, making it highly shareable and subscription‑friendly.",
+      "ideas": [
+        "How Bacteria Could Be the Architects of Tomorrow’s Cities /Ever wonder if a wall could be grown overnight?",
+        "Building a Microbial Skyscraper in 4K – The Science Behind Living Concrete /Watch live bacteria build a 'building' in seconds!",
+        "From Bacteria Culture to a Full-Scale City: The Rise of Microbial Urbanism /Can microbes replace concrete? See it step‑by‑step!"
+      ],
+      "keywords": [
+        "Time‑lapse Bacteria Growth",
+        "Bacterial Concrete",
+        "Microbial Architecture",
+        "Living Laboratory",
+        "Bioengineered City"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
