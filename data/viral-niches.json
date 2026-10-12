@@ -46603,6 +46603,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "AIRestoredLanguages",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "AI-driven revival of extinct and endangered languages is a lightning‑powered intersection of machine learning, cultural preservation, and speculative storytelling. The theme taps into the current AI hype, caters to language lovers, historians, and the general curiosity‑driven audience. It offers a clear hook: ‘watch ancient tongues come back to life in seconds’ and is fresh, technically feasible, and highly shareable across text‑based and video formats. Its narrative potential—showing a spoken message recover from mere symbols—creates instant scroll‑stopping moments and opens countless spin‑offs (language games, AI‑voice synthesis, cultural documentaries).",
+      "ideas": [
+        "You’ll Never Believe It! AI Brings Dead Languages Back to Life | Ancient Scripts in Real‑Time Demo",
+        "Watch a Forgotten Language Revive in Seconds with AI – What It Means for Humanity",
+        "From Silence to Speech: AI Reconstructs Ancient Tongues from Fragments (30‑Second Montage)"
+      ],
+      "keywords": [
+        "glowing",
+        "time‑lapse",
+        "hyper‑detailed",
+        "ancient",
+        "neon"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
