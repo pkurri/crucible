@@ -46528,6 +46528,30 @@
         "Mind Hacking"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "GlowPlantMysteries",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The global fascination with nature’s hidden wonders and sustainable bio‑innovation has created a demand for visually stunning, knowledge‑rich content. Bioluminescent plants and fungi offer rare, easy‑to‑produce imagery that instantly captivates viewers, encourages long‑form engagement, and lends itself to scroll‑stopping hooks. This niche aligns with existing trends in eco‑beauty and plant science while remaining uniquely untapped, ensuring high audience retention and scalability.",
+      "ideas": [
+        "The Secret Glow of the Flower: 7 Plants That Light Up in the Dark / Watch Nature’s Hidden Light Show and Imagine What It Could Mean for Future Energy!",
+        "Inside the Living Lantern Tree: How One Rare Species Lights Up the Night / Discover the DNA Trick That Makes These Trees Glow—And Why It’s Shocking!",
+        "Scientists Unearth a Fungus That Brightens Its Host / Explore How This Luminous Fungus Turns Ordinary Plants Into Neon Works of Art and What This Means for Food Security"
+      ],
+      "keywords": [
+        "glow",
+        "neon",
+        "bioluminescent",
+        "fungi",
+        "infrared"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
