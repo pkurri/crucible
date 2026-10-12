@@ -46627,6 +46627,30 @@
         "neon"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The idea marries the awe‑inducing spectacle of bioluminescence with futuristic urban design, tapping into current trends in sustainability, bio‑engineering, and visually stunning content that performs exceptionally well on both meta and youtube. Its intrinsic visual appeal, coupled with a clear real‑world relevance, guarantees scroll‑stopping hooks and curiosity loops.",
+      "ideas": [
+        "Glowing Night Skyscrapers? Inside the World's First BioLuminescent City Design – Watch the Streets Light Up in Real Time!",
+        "Can Cities Shine Without Electricity? Scientists Reveal the Secret Behind BioLuminescent Urban Light!",
+        "From Dull Concrete to Luminous Marvels – The 3‑Step Blueprint for Building a Brighter Future in Your Own Town!"
+      ],
+      "keywords": [
+        "Neon Glow",
+        "Night City",
+        "Stellar Light",
+        "Gleaming Architecture",
+        "Bioluminescence"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
