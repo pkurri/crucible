@@ -95004,5 +95004,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1791786322164": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1791786322164 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Performance",
+        "name": "Turbo Mode",
+        "icon": "⚡"
+      },
+      {
+        "title": "Automation",
+        "name": "Smart Triggers",
+        "icon": "🤖"
+      },
+      {
+        "title": "Analytics",
+        "name": "Real‑time Dashboard",
+        "icon": "📊"
+      },
+      {
+        "title": "Integration",
+        "name": "API Gateway",
+        "icon": "🔗"
+      },
+      {
+        "title": "Security",
+        "name": "Zero‑Trust Shield",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Scalability",
+        "name": "Elastic Clusters",
+        "icon": "📈"
+      },
+      {
+        "title": "Collaboration",
+        "name": "Shared Workspaces",
+        "icon": "👥"
+      },
+      {
+        "title": "Customization",
+        "name": "Theme Builder",
+        "icon": "🎨"
+      }
+    ]
   }
 }
