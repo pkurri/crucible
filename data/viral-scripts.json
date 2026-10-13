@@ -12465,43 +12465,49 @@
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Diet",
+        "name": "Blue Juice",
+        "icon": "💧"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Morning Walk",
+        "icon": "🚶"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "30‑Min Night",
+        "icon": "🛌"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Mind",
+        "name": "Micro Med",
+        "icon": "🧘"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "Resveratrol",
+        "icon": "💊"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electro Hydrate",
+        "icon": "🥤"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Laugh Circles",
+        "icon": "😂"
       },
       {
-        "text": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Gut",
+        "name": "Fermented Foods",
+        "icon": "🥖"
       }
     ]
   },
@@ -40357,39 +40363,39 @@
     "voice": "en-US-JennyNeural",
     "lines": [
       {
-        "text": "Nobody talks about the truth of BioluminescentCities.",
+        "text": "Your city just became an alien neon dream.",
         "duration": 5
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
-      },
-      {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
-      },
-      {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
-      },
-      {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
-      },
-      {
-        "text": "Once you see it, you cannot unsee it.",
+        "text": "Every street glows with million‑cell biolights.",
         "duration": 4
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Scientists harness algae to paint skylines in blue.",
         "duration": 5
       },
       {
-        "text": "Next: the method that changes everything.",
+        "text": "Buildings source power directly from glowing algae.",
+        "duration": 5
+      },
+      {
+        "text": "Soon, your coffee will hum with bioluminescent LEDs.",
+        "duration": 5
+      },
+      {
+        "text": "Imagine walking into a mall that writes its own light shows?",
+        "duration": 4
+      },
+      {
+        "text": "Don’t miss the city that could turn darkness into art.",
+        "duration": 4
+      },
+      {
+        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "duration": 5
+      },
+      {
+        "text": "Next we reveal the city that lives on moonlight.",
         "duration": 4
       }
     ]
@@ -51363,49 +51369,43 @@
     ]
   },
   "QuantumWeather": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 QuantumWeather secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Quantum Doppler Radar",
-        "name": "Ψ-Reflector",
-        "icon": "🔭"
+        "text": "Nobody talks about the truth of QuantumWeather.",
+        "duration": 5
       },
       {
-        "title": "Entanglement Forecasting",
-        "name": "Twin Cloud Predictor",
-        "icon": "🤝"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Zero‑Point Thermometer",
-        "name": "Vacuum Heat Reader",
-        "icon": "🧊"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Superposition Surface Gauge",
-        "name": "Overlap Rain Metric",
-        "icon": "🌧️"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Quantum Wind Tunneler",
-        "name": "Molecule Flow Mediator",
-        "icon": "💨"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Photonic Storm Grid",
-        "name": "Light‑Bolt Detector",
-        "icon": "⚡"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Non‑Local Pressure meter",
-        "name": "Momentum Cloud Sensor",
-        "icon": "📈"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "QuantumAurora Mapper",
-        "name": "Storm Projection Engine",
-        "icon": "🌌"
+        "text": "Don't let the algorithm hide the truth. Follow for more QuantumWeather.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },

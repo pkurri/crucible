@@ -46894,6 +46894,30 @@
         "FutureTech"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "QuantumWeather",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Quantum computing promises near‑instant, hyper‑accurate climate modeling. With wild weather events climbing, audiences crave bite‑size explanations of AI‑forecasted storms. The blend of cutting‑edge tech and unpredictable natural drama fuels curiosity loops and shareability across social feeds.",
+      "ideas": [
+        "The AI That Saw a Hurricane 3 Hours Before It Hit / (you’ll never believe what it showed us)",
+        "Quantum Clouds vs. Real Storms: Watching a Prediction Come To Life / (science that looks like fantasy)",
+        "Can Quantum Computers Stop Tidal Waves? / (the future of disaster pre‑emptive tech revealed)"
+      ],
+      "keywords": [
+        "CelestialRain",
+        "StormSimulation",
+        "QuantumClouds",
+        "HyperBrightLightning",
+        "AIDriftingBeams"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
