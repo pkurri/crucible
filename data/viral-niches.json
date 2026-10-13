@@ -46678,6 +46678,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity cooking blends the fascination of science‑fiction with tangible culinary experiments. The visual spectacle of food behaving unpredictably in microgravity captivates curiosity, invites stargazers and culinary enthusiasts alike, and is highly shareable across TikTok, Instagram, and YouTube. Faceless, animated or drone footage keeps production simple while allowing for dramatic, encoder‑style narration that can hook viewers instantly.",
+      "ideas": [
+        "Zero‑Gravity Kitchen Chaos: Trying to Boil Water in Space! – Watch the noodles defy gravity!",
+        "Frozen Treats of the Cosmos: Making S'mores in a Zero‑g Oven – Marshmallow fluff meets space!",
+        "Space Pizza Party: Does a Flying Slice Stick to the Pan? – The ultimate gravity‑free pizza experiment!"
+      ],
+      "keywords": [
+        "ZeroGravity",
+        "SpaceCooking",
+        "GravityFree",
+        "ExperimentalKitchen",
+        "VisualExperiments"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
