@@ -1,14 +1,20 @@
 {
   "schema_version": "1.0.0",
-  "policy_version": "2.0.0",
+  "policy_version": "3.0.0",
   "mode": "shadow",
-  "last_run_utc": "2026-09-23T19:42:18+00:00",
+  "last_run_utc": "2026-10-13T19:38:06+00:00",
   "sessions_completed": {
     "research": 1,
-    "shadow": 1
+    "shadow": 2
   },
   "last_decisions": {},
-  "open_proposal_ids": ["d9bb337d0e95d81f", "eb5e57c1b84d18d4"],
+  "open_proposal_ids": [
+    "023948d3e9c50bac",
+    "5ec06d82c869309a",
+    "68e7960aa2ce08c9",
+    "e7236a28008d9362",
+    "efa3080b7c227e6e"
+  ],
   "anomalies": [
     {
       "utc": "2026-09-23T19:42:18+00:00",
@@ -23,18 +29,39 @@
   ],
   "open_proposals": [
     {
-      "id": "eb5e57c1b84d18d4",
-      "session": "2026-09-23-shadow-01",
+      "id": "efa3080b7c227e6e",
+      "session": "2026-10-13",
+      "symbol": "IONQ",
+      "tif": "gfd",
+      "filled": true
+    },
+    {
+      "id": "5ec06d82c869309a",
+      "session": "2026-10-13",
+      "symbol": "QS",
+      "tif": "gfd",
+      "filled": true
+    },
+    {
+      "id": "023948d3e9c50bac",
+      "session": "2026-10-13",
       "symbol": "LCID",
       "tif": "gfd",
       "filled": true
     },
     {
-      "id": "d9bb337d0e95d81f",
-      "session": "2026-09-23-shadow-01",
+      "id": "68e7960aa2ce08c9",
+      "session": "2026-10-13",
       "symbol": "AMC",
       "tif": "gfd",
-      "filled": false
+      "filled": true
+    },
+    {
+      "id": "e7236a28008d9362",
+      "session": "2026-10-13",
+      "symbol": "SPCE",
+      "tif": "gfd",
+      "filled": true
     }
   ]
 }

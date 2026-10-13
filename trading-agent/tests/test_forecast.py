@@ -192,13 +192,15 @@ class TestDue:
 
 
 class TestShippedRegister:
-    def test_register_exists_and_is_unsettled(self):
+    def test_register_entries_are_structurally_valid(self):
         entries = load()
         if not entries:
             pytest.skip("no register yet")
-        assert all(not e["settled"] for e in entries), (
-            "nothing can be settled before 2026-10-07"
-        )
+        for e in entries:
+            assert "symbol" in e and "settled" in e
+            if e["settled"]:
+                assert e["settle_price"] is not None
+                assert e["hit"] is not None
 
     def test_no_forecast_claims_certainty(self):
         entries = load()
@@ -206,13 +208,18 @@ class TestShippedRegister:
             pytest.skip("no register yet")
         assert all(0.5 <= e["probability"] <= 0.99 for e in entries)
 
-    def test_ionq_was_abstained_on(self):
+    def test_ionq_session01_abstained_on(self):
         entries = load()
         if not entries:
             pytest.skip("no register yet")
-        assert "IONQ" not in {e["symbol"] for e in entries}, (
-            "IONQ had an unexplained volume spike; forecasting it would be invention"
-        )
+        # Session-01 (2026-09-23) abstained on IONQ due to an unexplained volume
+        # spike. Any IONQ forecast must come from a later session with a clean
+        # data-quality gate.
+        session01_ionq = [
+            e for e in entries
+            if e["symbol"] == "IONQ" and e.get("session") == "2026-09-23"
+        ]
+        assert not session01_ionq, "IONQ forecast must not originate from session-01 (unexplained spike)"
 
     def test_every_forecast_carries_a_rationale(self):
         entries = load()

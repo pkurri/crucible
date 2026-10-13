@@ -1,0 +1,390 @@
+{
+  "session": "2026-10-13",
+  "session_label": "2026-10-13-shadow-02",
+  "market_session": "regular",
+  "agent_version": "AGENT.md Phase 2",
+  "policy_version": "3.0.0",
+  "watchlist_version": "3.0.0",
+  "quote_capture_utc": "2026-10-13T19:14:20Z",
+  "sources": [
+    "get_equity_positions",
+    "get_equity_quotes",
+    "get_equity_fundamentals",
+    "get_equity_historicals",
+    "get_equity_tradability",
+    "get_earnings_results",
+    "get_indexes",
+    "get_index_quotes",
+    "context.py (runs/2026-10-13-market.json)",
+    "quality.py (runs/2026-10-13-symbols.json)"
+  ],
+  "symbol_data": "2026-10-13-symbols.json",
+  "context": {
+    "rules_version": "1.0.0",
+    "trend": "uptrend",
+    "gap_to_50d_pct": 1.29,
+    "volatility": "normal",
+    "vix": 15.46,
+    "last_session_move_pct": -0.06,
+    "drawdown_from_period_high_pct": -0.13,
+    "risk_appetite": "risk_on",
+    "event_shock": false,
+    "entries_supported": true,
+    "sessions_used": 134
+  },
+  "portfolio": {
+    "equity_value": 2233.00,
+    "positions": {
+      "NAIL":  {"quantity": 40.52,       "value": 1049.47},
+      "LULU":  {"quantity": 3.0,         "value": 286.98},
+      "SOLT":  {"quantity": 2.532948,    "value": 160.00},
+      "RVII":  {"quantity": 6.0,         "value": 120.00},
+      "AMC":   {"quantity": 46.54036,    "value": 144.51},
+      "IONQ":  {"quantity": 3.0,         "value": 103.88},
+      "NIO":   {"quantity": 26.0,        "value": 92.17},
+      "HIMZ":  {"quantity": 3.512481,    "value": 80.00},
+      "QS":    {"quantity": 16.0,        "value": 66.48},
+      "FUBO":  {"quantity": 4.916667,    "value": 41.17},
+      "PSFE":  {"quantity": 5.0,         "value": 28.70},
+      "XXRP":  {"quantity": 0.745006,    "value": 27.00},
+      "TSLQ":  {"quantity": 0.70727,     "value": 15.00},
+      "LCID":  {"quantity": 2.1,         "value": 7.08},
+      "SPCE":  {"quantity": 2.75,        "value": 7.30},
+      "KITT":  {"quantity": 1.0,         "value": 3.26},
+      "SRNE":  {"quantity": 3.0,         "value": 0.0},
+      "ARVLF": {"quantity": 1.0,         "value": 0.0},
+      "OTRKQ": {"quantity": 2.0,         "value": 0.0}
+    }
+  },
+  "markets": {
+    "IONQ": {"bid": 34.62, "ask": 34.63, "last": 34.625},
+    "QS":   {"bid": 4.15,  "ask": 4.16,  "last": 4.155},
+    "LCID": {"bid": 3.37,  "ask": 3.38,  "last": 3.370},
+    "AMC":  {"bid": 3.10,  "ask": 3.11,  "last": 3.105},
+    "SPCE": {"bid": 2.65,  "ask": 2.66,  "last": 2.655},
+    "LULU": {"bid": 95.64, "ask": 95.68, "last": 95.66},
+    "NIO":  {"bid": 3.54,  "ask": 3.55,  "last": 3.545},
+    "FUBO": {"bid": 8.37,  "ask": 8.38,  "last": 8.375},
+    "PSFE": {"bid": 5.73,  "ask": 5.75,  "last": 5.740}
+  },
+  "plans": [
+    {
+      "symbol": "VOO",
+      "horizon": "long-term",
+      "thesis": "VOO tracks the S&P 500 in uptrend but is not held; any entry is blocked by the current 19-position breach against a cap of 4.",
+      "evidence": [
+        "SPY SMA50 gap +1.29%: uptrend intact",
+        "VIX 15.46: normal volatility, risk-on regime",
+        "Not currently held in portfolio"
+      ],
+      "counterevidence": [
+        "Position count 19 of 4 cap: hard gate blocks all entries",
+        "Cannot propose a buy while existing breaches remain uncured"
+      ],
+      "catalyst": "none applicable",
+      "entry_condition": "Position count cured to 4 or below",
+      "invalidation": "Trend reversal below SMA50 or VIX spike above 25",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 30,
+      "quote_age_seconds": 20
+    },
+    {
+      "symbol": "VTI",
+      "horizon": "long-term",
+      "thesis": "VTI tracks the total US market in uptrend but is not held; any entry is blocked by the current 19-position breach against a cap of 4.",
+      "evidence": [
+        "Broad market uptrend: SPY +1.29% vs 50d SMA",
+        "VIX 15.46: normal volatility",
+        "Not currently held in portfolio"
+      ],
+      "counterevidence": [
+        "Position count 19 of 4 cap: hard gate blocks all entries",
+        "Cannot propose a buy while existing breaches remain uncured"
+      ],
+      "catalyst": "none applicable",
+      "entry_condition": "Position count cured to 4 or below",
+      "invalidation": "Market downtrend or VIX above 25",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 30,
+      "quote_age_seconds": 20
+    },
+    {
+      "symbol": "SGOV",
+      "horizon": "long-term",
+      "thesis": "SGOV is a 0-3 month T-Bill ETF providing capital preservation; not held and entry blocked by position-count breach.",
+      "evidence": [
+        "SGOV accretes ~0.01-0.02 per day from T-bill yield",
+        "Zero credit risk, max liquidity",
+        "Not currently held in portfolio"
+      ],
+      "counterevidence": [
+        "Position count 19 of 4 cap: hard gate blocks all entries",
+        "Low return vs risk-on uptrend environment"
+      ],
+      "catalyst": "none applicable",
+      "entry_condition": "Position count cured to 4 or below",
+      "invalidation": "Not applicable for this instrument",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 30,
+      "quote_age_seconds": 20
+    },
+    {
+      "symbol": "LULU",
+      "horizon": "swing",
+      "thesis": "LULU has stabilized near post-earnings lows and is bouncing, weakening the case for an exit today.",
+      "evidence": [
+        "Price $95.66, up from Oct 7 low of $91.88: +4.1% bounce off 52-week lows",
+        "P/E 7.76 on trailing basis: deeply discounted vs historical average of 40-50x",
+        "Q2 2026 earnings report (2026-09-03) triggered -17% gap-down; oversold condition may be resolving",
+        "Volume today within normal range: no capitulation signature"
+      ],
+      "counterevidence": [
+        "Sustained downtrend from $121.77 (Sep 3) to $91.88 (Oct 7): -24.5%",
+        "Earnings miss triggered structural repricing; recovery timeline unknown",
+        "Position represents 12.8% of portfolio: above 12% cap (standing breach)",
+        "No fundamental improvement evidenced since earnings"
+      ],
+      "catalyst": "Stabilization and mean-reversion from oversold levels",
+      "entry_condition": "Not applicable: analyzing exit of existing position",
+      "invalidation": "New 52-week low below $91 would eliminate support thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 68,
+      "quote_age_seconds": 45
+    },
+    {
+      "symbol": "IONQ",
+      "horizon": "swing",
+      "thesis": "IONQ is in a clear downtrend from its Sep 25 peak and the position should be closed; 13.2% decline from last settled bar vs a 13.4% 4-sigma threshold keeps the data quality gate open.",
+      "evidence": [
+        "Price $34.625: -24% from Sep 25 peak of $45.48, sustained downtrend across 13 sessions",
+        "Oct 7 and Oct 8 closed at $41.34 and $39.45: accelerating deterioration",
+        "Negative P/E: pre-profitable growth story in a sector rotating out of speculative names",
+        "Held 3.0 shares: full position exit at $34.62 limit = $103.86, within max_order_usd $312",
+        "Quality gate: move 13.2% vs 4-sigma 13.4% — no unexplained_jump flag"
+      ],
+      "counterevidence": [
+        "Quantum computing sector narrative intact; any government contract could reverse the move",
+        "Move from Oct 9 close to today spans Oct 10 and Oct 12 (two missing bars): multi-day drift not a single shock",
+        "Volume in prior sessions was heavy: could signal institutional accumulation"
+      ],
+      "catalyst": "Sector rotation away from speculative quantum names into value in risk-on but selective market",
+      "entry_condition": "Not applicable: analyzing exit of existing position",
+      "invalidation": "Close above $41.34 (Oct 7 high) would signal trend reversal",
+      "max_position_pct": 12,
+      "confidence": "medium",
+      "decision": "PROPOSE_ORDER",
+      "score": 77,
+      "quote_age_seconds": 45,
+      "order": {
+        "action": "sell",
+        "order_type": "limit",
+        "quantity": 3.0,
+        "limit_price": 34.62,
+        "time_in_force": "gfd"
+      }
+    },
+    {
+      "symbol": "QS",
+      "horizon": "swing",
+      "thesis": "QS hit a 52-week intraday low today during the session, confirming a persistent downtrend with no recovery catalyst; the position should be closed.",
+      "evidence": [
+        "Price $4.155: near intraday 52-week low of ~$4.12 seen this session",
+        "Downtrend from $5.59 (Sep 8) to $4.155 today: -25.7% over 25 sessions",
+        "Pre-revenue solid-state battery company: no earnings path, funding risk",
+        "Held 16.0 shares: full position exit at $4.15 limit = $66.40, within max_order_usd $312",
+        "Quality gate: move 9.28% vs 4-sigma 9.28% — right at threshold, no flag triggered"
+      ],
+      "counterevidence": [
+        "52-week low may attract value buyers or serve as technical support",
+        "Broader EV sector recovery could lift QS even without fundamental improvement",
+        "Volume today ~1.5x average: could indicate climactic selling and near-term reversal"
+      ],
+      "catalyst": "Persistent deterioration in EV battery technology stocks; no catalysts on horizon",
+      "entry_condition": "Not applicable: analyzing exit of existing position",
+      "invalidation": "Close above $4.65 (Oct 6 close) would signal support recapture",
+      "max_position_pct": 12,
+      "confidence": "medium",
+      "decision": "PROPOSE_ORDER",
+      "score": 81,
+      "quote_age_seconds": 45,
+      "order": {
+        "action": "sell",
+        "order_type": "limit",
+        "quantity": 16.0,
+        "limit_price": 4.15,
+        "time_in_force": "gfd"
+      }
+    },
+    {
+      "symbol": "LCID",
+      "horizon": "swing",
+      "thesis": "LCID has negative book value and has declined 26% since September 1; the position should be closed to eliminate exposure to a capital-impaired EV manufacturer.",
+      "evidence": [
+        "Price $3.370: -26% from Sep 1 close of $4.55",
+        "P/B -1.28: liabilities exceed assets; no book-value floor on further losses",
+        "Persistent downtrend: Oct 7 close $3.89, Oct 8 close $3.82, Oct 9 close $3.79, now $3.37",
+        "Held 2.1 shares: full position exit at $3.37 limit = $7.08; negligible slippage impact",
+        "Shadow session-01 proposed and simulated fill at $4.15; shadow fill was simulation only, real position unchanged"
+      ],
+      "counterevidence": [
+        "Position is small enough ($7.08) that exit provides minimal portfolio improvement",
+        "A capital raise could reverse negative book value temporarily",
+        "Broader EV recovery could inflate price despite fundamentals"
+      ],
+      "catalyst": "Capital impairment with no earnings trajectory; continued sector deterioration",
+      "entry_condition": "Not applicable: analyzing exit of existing position",
+      "invalidation": "Close above $4.16 (Oct 6 close) would signal trend reversal",
+      "max_position_pct": 12,
+      "confidence": "medium",
+      "decision": "PROPOSE_ORDER",
+      "score": 83,
+      "quote_age_seconds": 45,
+      "order": {
+        "action": "sell",
+        "order_type": "limit",
+        "quantity": 2.1,
+        "limit_price": 3.37,
+        "time_in_force": "gfd"
+      }
+    },
+    {
+      "symbol": "NIO",
+      "horizon": "swing",
+      "thesis": "NIO is near 52-week lows and bouncing +0.98% today; the bounce weakens short-term exit conviction below the minimum score threshold.",
+      "evidence": [
+        "Price $3.545: +0.98% from Oct 9 close of $3.58; bounce in progress",
+        "Long-term downtrend: Sep 1 at $4.06 to recent lows near $3.40",
+        "High volume in recent sessions: potential accumulation signal",
+        "Held 26.0 shares at $3.545 = $92.17 (4.1% of portfolio)"
+      ],
+      "counterevidence": [
+        "Bounce off support reduces exit urgency today",
+        "Strong vol on Oct 9 ($3.58, +4.7% from prior close): could be trend reversal",
+        "NIO fundamentals remain challenged but the stock may be pricing in improvement"
+      ],
+      "catalyst": "Near 52-week low support; bounce signal reduces conviction",
+      "entry_condition": "Not applicable: analyzing exit of existing position",
+      "invalidation": "Close below $3.37 (recent support) would restore exit conviction",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 65,
+      "quote_age_seconds": 45
+    },
+    {
+      "symbol": "FUBO",
+      "horizon": "swing",
+      "thesis": "FUBO has declined from $11.87 (Sep 14) to $8.375 today but today's volume is below average; insufficient conviction for an exit on a low-volume day near potential support.",
+      "evidence": [
+        "Price $8.375: -29.5% from Sep 14 high of $11.87",
+        "Long-term downtrend with some volatility: 3.45% daily sigma",
+        "Held 4.916667 shares at $8.375 = $41.17 (1.8% of portfolio)"
+      ],
+      "counterevidence": [
+        "Volume today 57% of average: low-conviction move; price action may reverse",
+        "FUBO showed +7.5% bounce on Oct 7 ($9.25): support may be forming around $8.50-$9 zone",
+        "Media/sports streaming sector dynamics could produce sudden re-rating"
+      ],
+      "catalyst": "None confirmed; low-volume session weakens exit conviction",
+      "entry_condition": "Not applicable: analyzing exit of existing position",
+      "invalidation": "Volume-backed break above $9.35 (Oct 8 close) would invalidate bear thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 68,
+      "quote_age_seconds": 45
+    },
+    {
+      "symbol": "PSFE",
+      "horizon": "swing",
+      "thesis": "PSFE quote is stale (248 seconds, limit 120); no decision can be made on this position today.",
+      "evidence": [
+        "Last trade 15:10:12 ET; quote age 248 seconds at 15:14:20 ET: exceeds 120-second limit",
+        "PSFE is illiquid (~300K shares/day average): intraday staleness expected"
+      ],
+      "counterevidence": [
+        "No counterevidence evaluated: data quality gate blocks analysis"
+      ],
+      "catalyst": "n/a — stale quote",
+      "entry_condition": "n/a — stale quote",
+      "invalidation": "n/a — stale quote",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 0,
+      "quote_age_seconds": 248
+    },
+    {
+      "symbol": "AMC",
+      "horizon": "swing",
+      "thesis": "AMC is near its 52-week high and has negative book value; today's +3.5% move from Oct 9 close provides a favorable exit point.",
+      "evidence": [
+        "Price $3.105: near Sep 28 52-week high of $3.40, up +4.2% from Oct 9 close of $2.98",
+        "P/B -1.84: liabilities exceed assets; no fundamental floor",
+        "Held 46.540360 shares at $3.105 = $144.51 (6.5% of portfolio)",
+        "Full position exit at $3.10 limit = $144.27, within max_order_usd $312",
+        "High near 52-week high provides favorable exit relative to historical distribution"
+      ],
+      "counterevidence": [
+        "Meme stock dynamics: AMC can trade well above fundamentals for extended periods",
+        "Recent volume heavy (Oct 8: 23.9M shares): potential renewed retail interest",
+        "Exiting near a local high means missing any further momentum"
+      ],
+      "catalyst": "Price at multi-week high; negative book value; favorable exit opportunity",
+      "entry_condition": "Not applicable: analyzing exit of existing position",
+      "invalidation": "Close above $3.40 (Sep 28 52-week high) with strong volume would suggest momentum continuation",
+      "max_position_pct": 12,
+      "confidence": "high",
+      "decision": "PROPOSE_ORDER",
+      "score": 87,
+      "quote_age_seconds": 45,
+      "order": {
+        "action": "sell",
+        "order_type": "limit",
+        "quantity": 46.54036,
+        "limit_price": 3.10,
+        "time_in_force": "gfd"
+      }
+    },
+    {
+      "symbol": "SPCE",
+      "horizon": "swing",
+      "thesis": "SPCE has declined from its Sep session highs and holds negative value as a grounded space-tourism company; the position should be closed.",
+      "evidence": [
+        "Price $2.655: -6.5% from Oct 9 close of $2.84; continuation of downtrend from Sep peak of $3.32",
+        "Virgin Galactic remains grounded with no commercial flight schedule",
+        "Held 2.75 shares at $2.655 = $7.30 (0.3% of portfolio): negligible dollar impact",
+        "Quote age 98 seconds at 15:14:20 ET: within 120-second freshness limit",
+        "4-sigma threshold 13.1% >> 6.5% move: quality gate clear"
+      ],
+      "counterevidence": [
+        "Small position; exit provides minimal portfolio relief",
+        "Speculative news could trigger sharp upward move",
+        "Volume not elevated: move may not be sustained"
+      ],
+      "catalyst": "Continued operational inactivity; downtrend from Sep highs",
+      "entry_condition": "Not applicable: analyzing exit of existing position",
+      "invalidation": "Close above $3.07 (Oct 6 close) would signal reversal",
+      "max_position_pct": 12,
+      "confidence": "medium",
+      "decision": "PROPOSE_ORDER",
+      "score": 73,
+      "quote_age_seconds": 98,
+      "order": {
+        "action": "sell",
+        "order_type": "limit",
+        "quantity": 2.75,
+        "limit_price": 2.65,
+        "time_in_force": "gfd"
+      }
+    }
+  ]
+}

@@ -71,4 +71,6 @@ class TestValidateRun:
         for f in sorted(runs.glob("2026-*.json")):
             if f.name.endswith("-market.json"):
                 continue
+            if f.name.endswith("-symbols.json"):
+                continue
             assert main(["v", str(f)]) == 0, f.name
