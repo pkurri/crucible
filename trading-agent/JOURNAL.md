@@ -492,3 +492,26 @@ so session 02 is **not** recorded. Still 1 of 20.
   and after it are not identical evidence. Session 1 recorded no bars, so it
   cannot be re-checked; it stays as recorded.
 - shadow sessions: 1 of 20.
+
+## 2026-10-13 — sessions blocked for a week; permission and tooling fix
+
+- 2026-10-06: the first session under the new protocol gathered all market data,
+  then was denied every Write and every `uv run`. It stopped without committing,
+  as it should, but logged `exit=0` and left `runs/2026-10-06-market.json`
+  behind. The launcher refused the next four sessions (7, 8, 9 and 12 Oct) over
+  that one untracked file. Five sessions lost; none reconstructed.
+- Cause 1, reproduced in a headless probe: the allow rule
+  `Write(trading-agent/**)` is resolved against the session's current directory.
+  After `cd trading-agent`, which the routine needs, it no longer matched. Rules
+  now also name the absolute worktree path.
+- Cause 2, reproduced: `uv run` inside the session's sandbox cannot write
+  `~/.cache/uv` or reach PyPI. The routine now calls `python3`, and the launcher
+  puts a Python that already has pyyaml and pytest first on PATH. `uv` is no
+  longer allowed.
+- The launcher now moves a failed session's leftovers to a quarantine folder
+  outside the repo, instead of refusing every later day. A session that ends
+  with uncommitted changes is reported as failed (exit 3) and notifies.
+- Verified with a probe using the exact flags: after `cd trading-agent`, Write
+  and Edit succeed, `python3 -m pytest` passes and `validate_run.py` runs, with
+  zero permission denials.
+- shadow sessions: 1 of 20.

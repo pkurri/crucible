@@ -34,6 +34,9 @@ SETUP
 3. Confirm POLICY.yaml says `mode: shadow`. If it does not, stop and report.
 
 HARD RULES
+- Run every script with plain `python3` from inside `trading-agent/`. It
+  already has pyyaml and pytest. Do not use `uv`: the session's sandbox
+  cannot write uv's cache or reach PyPI.
 - Call READ-ONLY Robinhood tools only. Never call any tool that places,
   reviews, cancels or previews an order, and never modify a watchlist, alert
   or scan. If you find yourself reaching for one, stop and report.
@@ -81,7 +84,7 @@ SESSION
    "bars": [{"date": "YYYY-MM-DD", "close": ...}, ...]}}}
    Set catalyst_confirmed to true only for a dated event you retrieved with a
    tool this session (e.g. get_earnings_results). Run
-   `uv run --with pyyaml python quality.py runs/<YYYY-MM-DD>-symbols.json`.
+   `python3 quality.py runs/<YYYY-MM-DD>-symbols.json`.
    Every symbol it lists as unusable is NO_TRADE today, with the flags as the
    reason. Do not edit the numbers to make a symbol pass.
 7. Analysis. For each symbol produce a plan conforming exactly to
@@ -91,8 +94,8 @@ SESSION
    `markets` blocks, as the existing shadow run file does, plus
    "symbol_data": "<YYYY-MM-DD>-symbols.json". validate_run.py rejects a run
    that proposes anything without it.
-8. Gate it: `uv run --with pyyaml python validate_run.py runs/<file>.json`
-   then `uv run --with pyyaml python shadow.py runs/<file>.json`.
+8. Gate it: `python3 validate_run.py runs/<file>.json`
+   then `python3 shadow.py runs/<file>.json`.
 9. Settle any due forecasts: `python3 forecast.py due`. For each, fetch the
    current price and settle it. Register new forecasts only where the evidence
    supports a probability between 0.5 and 0.99 — abstain otherwise.
@@ -101,9 +104,9 @@ SESSION
     anomaly.
 
 BEFORE COMMITTING
-11. `uv run --with pytest --with pyyaml python -m pytest tests/ -q`. All tests
+11. `python3 -m pytest tests/ -q`. All tests
     must pass.
-12. `uv run --with pyyaml python report.py` and include its output in your
+12. `python3 report.py` and include its output in your
     summary.
 13. If ANY step failed, or any test failed, commit NOTHING and report what
     went wrong. A partial session corrupts the evidence the shadow period

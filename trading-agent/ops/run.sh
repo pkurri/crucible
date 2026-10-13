@@ -5,7 +5,7 @@
 set -u
 REPO="/Users/aak/CascadeProjects/crucible/.worktrees/shadow"
 LOG_DIR="$HOME/Library/Logs/trading-agent-shadow"
-export PATH="/Users/aak/.nvm/versions/node/v24.14.1/bin:/Users/aak/.local/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:/Users/aak/.nvm/versions/node/v24.14.1/bin:/Users/aak/.local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 mkdir -p "$LOG_DIR"
 exec >>"$LOG_DIR/$(TZ=America/New_York date +%F).log" 2>&1
 echo "=== start $(date -u +%FT%TZ) ==="
@@ -38,7 +38,20 @@ done
 if [ "$authed" != "1" ]; then echo "not authenticated; session NOT run"; notify "Session NOT run: Claude not logged in"; exit 1; fi
 
 cd "$REPO" || { echo "worktree missing"; exit 1; }
-if [ -n "$(git status --porcelain)" ]; then echo "worktree dirty; refusing"; exit 1; fi
+# Leftovers from a failed session are moved aside, not left to block every
+# later day (2026-10-07..12 were all refused over one stray file).
+quarantine() {
+  local q="$HOME/Library/Application Support/trading-agent-shadow/quarantine/$(date +%Y%m%dT%H%M%S)-$1"
+  mkdir -p "$q/files"
+  git status --porcelain > "$q/status.txt"
+  git diff > "$q/tracked.patch"
+  git ls-files --others --exclude-standard -z | rsync -a --from0 --files-from=- ./ "$q/files/"
+  git checkout -q -- . && git ls-files --others --exclude-standard -z | xargs -0 rm -f --
+  echo "worktree was dirty ($1); leftovers moved to $q"
+  notify "Leftovers from a failed session were set aside ($1)"
+}
+if [ -n "$(git status --porcelain)" ]; then quarantine before; fi
+if [ -n "$(git status --porcelain)" ]; then echo "worktree still dirty; refusing"; exit 1; fi
 git fetch -q origin trading-agent-phase2 && git merge --ff-only -q origin/trading-agent-phase2 \
   || { echo "cannot fast-forward to origin; refusing"; exit 1; }
 
@@ -67,13 +80,17 @@ claude -p "$PROMPT" < /dev/null \
   --strict-mcp-config \
   --mcp-config '{"mcpServers":{"robinhood-trading":{"type":"http","url":"https://agent.robinhood.com/mcp/trading"}}}' \
   --permission-mode dontAsk \
-  --allowedTools ToolSearch Read Glob Grep "Edit(trading-agent/**)" "Write(trading-agent/**)" $ALLOW_RH \
-    "Bash(git:*)" "Bash(uv:*)" "Bash(python3:*)" "Bash(date:*)" "Bash(TZ=America/New_York date:*)" \
+  --allowedTools ToolSearch Read Glob Grep "Edit(//Users/aak/CascadeProjects/crucible/.worktrees/shadow/trading-agent/**)" "Write(//Users/aak/CascadeProjects/crucible/.worktrees/shadow/trading-agent/**)" "Edit(trading-agent/**)" "Write(trading-agent/**)" $ALLOW_RH \
+    "Bash(git:*)" "Bash(python3:*)" "Bash(date:*)" "Bash(TZ=America/New_York date:*)" \
     "Bash(ls:*)" "Bash(cat:*)" "Bash(head:*)" "Bash(tail:*)" "Bash(wc:*)" "Bash(jq:*)" \
     "Bash(grep:*)" "Bash(echo:*)" "Bash(npx prettier:*)" "Bash(npx markdownlint:*)" \
   --disallowedTools $DENY "Bash(git push --force:*)" "Bash(git push -f:*)" \
     "Bash(git reset --hard:*)" "Bash(git config:*)" "Bash(git stash:*)"
 rc=$?
+if [ -n "$(git status --porcelain)" ]; then
+  echo "session left uncommitted changes; it did not complete"
+  quarantine after; [ "$rc" = "0" ] && rc=3
+fi
 [ "$rc" != "0" ] && notify "Session exited with code $rc; check the log"
 echo "=== end $(date -u +%FT%TZ) exit=$rc ==="
 exit "$rc"
