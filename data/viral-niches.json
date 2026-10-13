@@ -46846,6 +46846,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityFishing",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Wonder",
+      "reason": "Zero‑gravity fishing blends cutting‑edge space science with the visual allure of animals defying gravity—an entirely new spectacle that naturally incites curiosity and awe. It’s a concept with abundant visual hooks (floating fish, slow‑motion streams, mirrored water) and can spawn endless variations: each species, each weightless environment, each side‑by‑side comparison with normal gravity.\n\n- **Differentiation**: No mainstream channel yet covers fishing in 0 g; the niche sits neatly at the intersection of marine life, space science, and visual stunts.\n- **Retention Potential**: Every episode drives “scroll‑stopping” elements—phantom fish, impossible trajectories, and cinematic water physics—combined with short curiosity loops such as “watch how this species reacts when there’s no weight.”\n- **Scalability**: Over 25 distinct, sharable angles exist—predator vs. prey, acoustic triggers in weightlessness, time‑lapse of floating schools, vs. simulated zero‑gravity for viewers’ homes, and remote fishing experiments.\n- **Current Trend**: Viral fascination with space experiments, robotics, and a growing appetite for “WOW” visual content. Social feeds are saturated with static fishing content; adding zero‑gravity instantly creates a “never‑before‑seen” factor.\n- **Faceless Viability**: All content can be produced with footage of marine life in a zero‑G tank, CGI overlays, and narrated voice‑overs—no need for on–screen talent.",
+      "ideas": [
+        "Zero‑Gravity Fish Show: Watch a Tuna Float Like It’s Flying—The Ultimate Gravity‑Defying Feast",
+        "Impossible—Where Do These Fish Go? A Slow‑Motion Showcase of Aquatic Weightlessness",
+        "Can Bears and Fish Beat the Force of Gravity? Contrasting Real‑Life 0 G Pipelines vs. Simulated Underwater Scenes"
+      ],
+      "keywords": [
+        "WeightlessAquatics",
+        "ZeroGravityMarine",
+        "FloatingFlesh",
+        "GiantFloatingFish",
+        "SpaceOceanSplash"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
