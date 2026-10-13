@@ -46702,6 +46702,30 @@
         "VisualExperiments"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.1,
+      "targetEmotion": "Awe",
+      "reason": "With the rapid rise of sustainable tech, cities powered by bio‑luminescence combine stunning visual spectacle with a real environmental solution—perfect for scroll‑stopping, curiosity‑driven audiences. The niche is visually rich, lends itself to 4K night‑time footage, and taps into the global demand for climate‑friendly innovations, making it ripe for massive virality across web, social, and video platforms.",
+      "ideas": [
+        "Glow Without Electricity: BioLuminescent Cities Take Over Nighttime – What Would Your City Look Like If It Lit Itself With Pure Light From Within?",
+        "The Secret Power Behind BioLuminescent Skyscrapers Revealed – Can Bio‑Engineered Glowing Walls Replace Street Lamps?",
+        "From Dark to Dazzling: The Rise of Moonlit Cities Everywhere – Here’s What Drives This Spectacular Phenomenon."
+      ],
+      "keywords": [
+        "glowing skyscrapers",
+        "molecular lighting",
+        "bio‑luminescent tech",
+        "nighttime cityscape",
+        "futuristic architecture"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

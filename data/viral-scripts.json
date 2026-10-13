@@ -12427,48 +12427,7 @@
     "voice": "en-US-GuyNeural",
     "lines": [
       {
-        "text": "Your next paycheck might already be in code.",
-        "duration": 5
-      },
-      {
-        "text": "AI agents are stealing white‑collar jobs live.",
-        "duration": 4
-      },
-      {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
-      },
-      {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
-      },
-      {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
-      },
-      {
-        "text": "Would your desk be next?",
-        "duration": 4
-      },
-      {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
-      },
-      {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the AI that can replace your spouse.",
-        "duration": 4
-      }
-    ]
-  },
-  "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
-      {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
+        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12496,12 +12455,59 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "LongevityHacksUnlocked": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "If you want to master LongevityHacksUnlocked, you're in the right place. Subscribe.",
+    "list": [
+      {
+        "title": "Diet",
+        "name": "Blue Juice",
+        "icon": "💧"
+      },
+      {
+        "title": "Movement",
+        "name": "Morning Walk",
+        "icon": "🚶"
+      },
+      {
+        "title": "Sleep",
+        "name": "30‑Min Night",
+        "icon": "🛌"
+      },
+      {
+        "title": "Mind",
+        "name": "Micro Med",
+        "icon": "🧘"
+      },
+      {
+        "title": "Supplements",
+        "name": "Resveratrol",
+        "icon": "💊"
+      },
+      {
+        "title": "Hydration",
+        "name": "Electro Hydrate",
+        "icon": "🥤"
+      },
+      {
+        "title": "Social",
+        "name": "Laugh Circles",
+        "icon": "😂"
+      },
+      {
+        "title": "Gut",
+        "name": "Fermented Foods",
+        "icon": "🥖"
       }
     ]
   },
@@ -35634,43 +35640,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Stop scrolling! 8 cities glow like stars you can't miss.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Cities that glow brighter than sunrise—impossible? Think again!",
-        "duration": 5
+        "title": "Architecture",
+        "name": "NeonNova",
+        "icon": "🏙️"
       },
       {
-        "text": "They’re powered by living light, not fossil fuel.",
-        "duration": 4
+        "title": "Parks",
+        "name": "Glowing Grove",
+        "icon": "🌿"
       },
       {
-        "text": "Scientists hack firefly genes to paint streets red.",
-        "duration": 5
+        "title": "Streets",
+        "name": "Luminous Lane",
+        "icon": "🌆"
       },
       {
-        "text": "Nanotech algae paint walls, turning them into lanterns.",
-        "duration": 5
+        "title": "Sky",
+        "name": "Aurora Zenith",
+        "icon": "🌌"
       },
       {
-        "text": "Every night, the skyline shifts like a living aurora.",
-        "duration": 5
+        "title": "Seafront",
+        "name": "Biolume Bay",
+        "icon": "🌊"
       },
       {
-        "text": "You miss out if you haven’t seen this glow yet.",
-        "duration": 4
+        "title": "Transit",
+        "name": "Rail Radiance",
+        "icon": "🚆"
       },
       {
-        "text": "Our planet’s future brightens, but only if we act.",
-        "duration": 4
+        "title": "Markets",
+        "name": "Shimmer Market",
+        "icon": "🛍️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next video: how cities harness quantum firefly tech.",
-        "duration": 4
+        "title": "Districts",
+        "name": "Glowpolis",
+        "icon": "🎡"
       }
     ]
   },
@@ -93472,7 +93484,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
