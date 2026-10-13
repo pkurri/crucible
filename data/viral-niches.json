@@ -46918,6 +46918,30 @@
         "AIDriftingBeams"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "DigitalAfterlife",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "The rapid rise of generative AI and the cultural obsession with legacy and mortality have converged into a fresh, unexplored concept: digital afterlives. Think of celebrity AI residencies, AI-powered memory vaults, and the ethical questions they raise. The niche is perfect for scroll-stopping hooks—fans love speculation about what life might look like after death, and the visual potential of holographic, neon‑lit interfaces fuels viral content across Meta and YouTube. No current channel is fully occupying this intersection, providing clear differentiation.",
+      "ideas": [
+        "Why the Bank of Digital Souls Is the Next Big Risk (and How to Protect Yours!)",
+        "Are Your Loved Ones Really Gone? The Shocking Truth About AI Reincarnation Apps",
+        "Top 5 Celebrities Who Are Already Living in the Cloud—You Won’t Believe the Tech Behind It"
+      ],
+      "keywords": [
+        "NeonData",
+        "HolographicMemories",
+        "CyberLegacy",
+        "VirtualAfterlife",
+        "DigitalSoul"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
