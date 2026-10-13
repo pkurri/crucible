@@ -46774,6 +46774,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ArtificialOceanReefs",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "With global coral bleaching and rising sea‑levels, the emerging field of bio‑compatible, AI‑driven artificial ocean reefs is capturing eco‑tech hype and public imagination. The blend of architecture, marine biology, and cutting‑edge fabrication creates visually stunning narratives that resonate across audiences—environmental activists, tech enthusiasts, and casual viewers alike—while the emotive ‘restore life’ angle drives strong engagement and viral potential.",
+      "ideas": [
+        "Revealed: The 4‑Minute Time‑Lapse of a Self‑Regenerating Artificial Reef Installing Plastic‑Absorbing Polyethylene – Hook: ‘Watch a reef grow that can actually devour the ocean’s plastic waste!’",
+        "The Future of the Deep: Building a 15‑Story Artificial Reef Using 3D‑Printed Biomimetic Structures – Hook: ‘Can a man‑made reef out‑grow a natural one? Find out in this mind‑blowing proof‑of‑concept!’",
+        "From Dream to Ocean: The AI Blueprint That Designs Tomorrow’s Eco‑Reefs – Hook: ‘Learn how machine learning is drafting the blueprints that could save millions of coral species!’"
+      ],
+      "keywords": [
+        "Time‑Lapse",
+        "Underwater",
+        "Biomimicry",
+        "Reconstruction",
+        "VividColors"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
