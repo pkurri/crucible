@@ -46870,6 +46870,30 @@
         "SpaceOceanSplash"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroDroneDelivery",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Micro‑sized drones performing deliveries combine the fascination of cutting‑edge robotics with the everyday human experience of shopping and food delivery. The juxtaposition of tiny machines navigating complex urban environments creates compelling visual spectacles that are perfect for social‑media rapid consumption. Search trends for drones, logistics automation, and sustainable transport are rising, while the novelty factor (drones smaller than a fingernail) fuels shares and comments. The niche is currently under‑exploited, allowing rapid audience growth and high retention with scroll‑stopping hooks and continuous curiosity loops.",
+      "ideas": [
+        "How Tiny Drones Deliver Food to Your Door in 60 Seconds! (Hook: \"Imagine getting your lunch delivered by a drone that’s smaller than your fingernail…\")",
+        "The Startup Turning Delivery Into a Drone Race with Micro‑Drones (Hook: \"Watch micro drones battling for the fastest route through city streets…\")",
+        "Is This the Future of Shopping? Tiny Drones Delivering Groceries Right to Your Backyard! (Hook: \"Say goodbye to crowds, hello to micro delivery…\")"
+      ],
+      "keywords": [
+        "Microdrone",
+        "NanoDelivery",
+        "UrbanLogistics",
+        "DroneShowcase",
+        "FutureTech"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
