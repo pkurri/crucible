@@ -47095,6 +47095,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities that literally grow out of the earth—powered by fungal networks and bioluminescent spores—captures a uniquely visual, sustainable, and speculative vision that is currently underexploited on social media. With rising interest in eco‑architecture, vertical farms, and crypto‑blooming tech, this niche offers striking imagery, compelling storytelling, and a clear audience of tech‑savvy, green‑enthusiast millennials. The narrative potential ranges from time‑lapse transformations to interviews with pioneering bio‑architects, ensuring strong hook/retention loops and high shareability.",
+      "ideas": [
+        "Tiny Mushrooms Build Tomorrow’s City: Watch 3‑Mtx Fungi Grow a Skyscraper in 30‑Seconds",
+        "Glowing Forest Metropolis: Inside the First Fully Bioluminescent City",
+        "How a Grassroot Movement Is Replacing Concrete with Mycelium: A 24‑Hour Construction Reveal"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "mycelium",
+        "vertical‑farm",
+        "eco‑architecture",
+        "sustainable‑city"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
