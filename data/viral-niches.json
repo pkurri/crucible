@@ -46966,6 +46966,30 @@
         "Reality‑bending"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "BioLuminescentCities merges the trending themes of sustainable urban design, biophilic architecture and visual spectacle. The concept offers inherently stunning, glowing visuals that thrive on storytelling and shareability. It differentiates from existing niches like street art or LED lighting with its living, eco‑friendly glow, supports endless varied episode formats, and fuels curiosity loops around \"how living streets work\" and \"vivid city nightscapes\".",
+      "ideas": [
+        "The City That Never Sleeps: Inside the World of Bioluminescent Streets – Dive into the glowing arteries that power tomorrow’s nightlife!",
+        "From LED to Life: How Bioluminescent Plants Are Replacing City Lights – Witness the revolution of self‑lighting urban jungles.",
+        "Nighttime Time‑Lapse: A Bioluminescent City in 5 Minutes – See a whole week of city evolution in one mesmerizing film."
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "NeonGlow",
+        "CityLights",
+        "UrbanNature",
+        "TimeLapse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
