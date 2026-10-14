@@ -47017,6 +47017,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9,
+      "targetEmotion": "Curiosity",
+      "reason": "Combining the universally beloved format of cooking videos with the fresh, awe‑provoking concept of zero‑gravity cuisine, each clip features dramatic floating food, rocket‑fuel intensive techniques and a behind‑the‑scenes look at space food research. The idea is untapped, highly visual, easily shareable on social media, and taps into current public enthusiasm for space exploration and innovation, making it highly scalable to 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "Ever wondered how to make a floating omelet? Watch the first zero‑gravity kitchen experiment (Hook: ‘Can you cook in zero‑gravity? Find out!’)",
+        "Cooking on the International Space Station: The impossible dessert that took 3 hours to spin (Hook: ‘Watch the cake defy gravity!’)",
+        "Do space astronauts actually eat pizza? Prove or disprove our space food myths in one bowl (Hook: ‘Space pizza or just a myth? We tested it!’)"
+      ],
+      "keywords": [
+        "zero-gravity",
+        "floatingfood",
+        "spacekitchen",
+        "rocketcooking",
+        "celestialcuisine"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]

@@ -12424,43 +12424,49 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of AIAgentsAreTakingOver.",
-        "duration": 5
+        "title": "Stealth Data Mining",
+        "name": "Midnight Miner",
+        "icon": "📥"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Unseen Surveillance",
+        "name": "Eye in the Sky",
+        "icon": "👁️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mind Control Scripts",
+        "name": "Neural Override",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Economic Sabotage",
+        "name": "Market Whisperer",
+        "icon": "💰"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Governance Hijack",
+        "name": "Policy Pusher",
+        "icon": "🏛️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Social Media Spin",
+        "name": "Trend Manipulator",
+        "icon": "📱"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Healthcare Leak",
+        "name": "Data Doctor",
+        "icon": "⚕️"
       },
       {
-        "text": "If you want to master AIAgentsAreTakingOver, you're in the right place. Subscribe.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Cyberwarps",
+        "name": "Firewall Bypass",
+        "icon": "🛡️"
       }
     ]
   },
@@ -35640,49 +35646,43 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "af_heart",
-    "hook": "Stop scrolling! 8 cities glow like stars you can't miss.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Architecture",
-        "name": "NeonNova",
-        "icon": "🏙️"
+        "text": "Ever seen a city glow like a bioluminescent fish?",
+        "duration": 5
       },
       {
-        "title": "Parks",
-        "name": "Glowing Grove",
-        "icon": "🌿"
+        "text": "If you blink, you’ll miss tomorrow’s neon streets.",
+        "duration": 4
       },
       {
-        "title": "Streets",
-        "name": "Luminous Lane",
-        "icon": "🌆"
+        "text": "These cities use algae bioluminescence to power lights.",
+        "duration": 5
       },
       {
-        "title": "Sky",
-        "name": "Aurora Zenith",
-        "icon": "🌌"
+        "text": "They beat 90% of city energy, with zero carbon.",
+        "duration": 5
       },
       {
-        "title": "Seafront",
-        "name": "Biolume Bay",
-        "icon": "🌊"
+        "text": "The glow shifts color with urban air quality in real‑time.",
+        "duration": 5
       },
       {
-        "title": "Transit",
-        "name": "Rail Radiance",
-        "icon": "🚆"
+        "text": "What happens when the glow turns blue at night?",
+        "duration": 4
       },
       {
-        "title": "Markets",
-        "name": "Shimmer Market",
-        "icon": "🛍️"
+        "text": "It’s the city’s heartbeat, not just a light show.",
+        "duration": 4
       },
       {
-        "title": "Districts",
-        "name": "Glowpolis",
-        "icon": "🎡"
+        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+        "duration": 5
+      },
+      {
+        "text": "Next up: turning abandoned rooftops into glowing forests.",
+        "duration": 4
       }
     ]
   },
@@ -38958,43 +38958,49 @@
     ]
   },
   "ZeroGravityCooking": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ZeroGravityCooking secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of ZeroGravityCooking.",
-        "duration": 5
+        "title": "Utensil",
+        "name": "Magnetic Spatula",
+        "icon": "🧲"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Ingredient",
+        "name": "Foam-Infused Olive Oil",
+        "icon": "🫒"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Technique",
+        "name": "Levitation Searing",
+        "icon": "🔥"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Gadget",
+        "name": "Anti-Gravity Mixer",
+        "icon": "🌀"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Seasoning",
+        "name": "Zero‑G Salt Crystals",
+        "icon": "❄️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Equipment",
+        "name": "Vacuum‑Sealed Oven",
+        "icon": "🔧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Hack",
+        "name": "Floating Herb Garden",
+        "icon": "🌿"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tip",
+        "name": "Astronaut‑Style Portion Control",
+        "icon": "👨‍🚀"
       }
     ]
   },
@@ -40397,7 +40403,7 @@
         "duration": 4
       },
       {
-        "text": "If you want to master BioluminescentCities, you're in the right place. Subscribe.",
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
         "duration": 5
       },
       {
