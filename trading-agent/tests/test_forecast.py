@@ -217,7 +217,7 @@ class TestShippedRegister:
         # data-quality gate.
         session01_ionq = [
             e for e in entries
-            if e["symbol"] == "IONQ" and e.get("session") == "2026-09-23"
+            if e["symbol"] == "IONQ" and str(e.get("session", "")).startswith("2026-09-23")
         ]
         assert not session01_ionq, "IONQ forecast must not originate from session-01 (unexplained spike)"
 

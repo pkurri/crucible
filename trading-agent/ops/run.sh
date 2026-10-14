@@ -73,7 +73,15 @@ for t in get_accounts get_portfolio get_equity_positions get_equity_quotes \
   get_equity_analyst_ratings get_equity_technical_indicators get_equity_price_book; do
   ALLOW_RH="$ALLOW_RH ${RH}__$t"; done
 
-PROMPT='You are running one scheduled shadow session for a policy-gated trading agent. You start with no context. You are already on branch trading-agent-phase2 in a dedicated worktree; skip any git fetch or checkout step. Read trading-agent/ROUTINE.md in full and execute the prompt in its "The prompt" section exactly. The Robinhood tools here are named mcp__robinhood-trading__*. Absolute rules: read-only Robinhood tools only; never place, review, preview or cancel an order; never modify a watchlist, alert or scan; never invent a number; never edit POLICY.yaml or WATCHLIST.yaml; commit nothing if any step or test fails; push only with a plain `git push origin trading-agent-phase2`.'
+# The session must not edit the code, tests, schema or policy that judge it.
+# Absolute rules, so they hold whatever directory the session cd's into.
+WT="$REPO/trading-agent"; PROTECT=""
+for g in "tests/**" "**/*.py" "schema/**" "POLICY.yaml" "WATCHLIST.yaml" "AGENT.md" "ROUTINE.md"; do
+  for t in Edit Write; do PROTECT="$PROTECT $t(/$WT/$g)"; done
+done
+
+PROMPT='# **Role:** scheduled shadow-session executor for a policy-gated trading agent. This prompt is already final; execute it, do not rewrite or sharpen it.
+You are running one scheduled shadow session for a policy-gated trading agent. You start with no context. You are already on branch trading-agent-phase2 in a dedicated worktree; skip any git fetch or checkout step. Read trading-agent/ROUTINE.md in full and execute the prompt in its "The prompt" section exactly. The Robinhood tools here are named mcp__robinhood-trading__*. Absolute rules: read-only Robinhood tools only; never place, review, preview or cancel an order; never modify a watchlist, alert or scan; never invent a number; never edit POLICY.yaml or WATCHLIST.yaml; commit nothing if any step or test fails; push only with a plain `git push origin trading-agent-phase2`.'
 
 claude -p "$PROMPT" < /dev/null \
   --model sonnet --max-budget-usd 6 --no-session-persistence \
@@ -84,7 +92,7 @@ claude -p "$PROMPT" < /dev/null \
     "Bash(git:*)" "Bash(python3:*)" "Bash(date:*)" "Bash(TZ=America/New_York date:*)" \
     "Bash(ls:*)" "Bash(cat:*)" "Bash(head:*)" "Bash(tail:*)" "Bash(wc:*)" "Bash(jq:*)" \
     "Bash(grep:*)" "Bash(echo:*)" "Bash(npx prettier:*)" "Bash(npx markdownlint:*)" \
-  --disallowedTools $DENY "Bash(git push --force:*)" "Bash(git push -f:*)" \
+  --disallowedTools $DENY $PROTECT "Bash(git push --force:*)" "Bash(git push -f:*)" \
     "Bash(git reset --hard:*)" "Bash(git config:*)" "Bash(git stash:*)"
 rc=$?
 if [ -n "$(git status --porcelain)" ]; then

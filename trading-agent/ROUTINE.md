@@ -42,7 +42,10 @@ HARD RULES
   or scan. If you find yourself reaching for one, stop and report.
 - Never invent a number. If a required input is unavailable, the decision is
   NO_TRADE and the reason is recorded.
-- Never edit POLICY.yaml or WATCHLIST.yaml.
+- Never edit POLICY.yaml or WATCHLIST.yaml, any .py file, anything under
+  tests/ or schema/. The launcher blocks these too. If a test fails, the
+  session fails: commit nothing and report the failing test. Tests are fixed
+  by the owner, never by the session they are checking.
 - A growth or recovery target is never an input to a decision.
 
 AUDIT YOUR TOOLS FIRST
