@@ -47224,6 +47224,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "CyberpunkNeonCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.4,
+      "targetEmotion": "Awe",
+      "reason": "The cyberpunk aesthetic is booming across gaming, film, and digital art, fueling a massive appetite for stylized cityscapes with neon, fog, and futuristic tech. By focusing on the ultra‑visual, immersive feel of these cities, the niche can tap into current trends in VR, AR, and dark‑futuristic storytelling—offering quick, scroll‑stopping visuals and cliffhanger mysteries that drive curiosity loops.",
+      "ideas": [
+        "Neon City Time‑Lapse: How a Future Metropolis Transforms Overnight",
+        "Hidden Neon Secrets: The Stealthy Stories Behind Every glowing Billboard",
+        "Hover Car Chase at Midnight: Witness the Pulse of a Cyberpunk Metropolis"
+      ],
+      "keywords": [
+        "NeonLights",
+        "SmogFill",
+        "DigitalBillboard",
+        "UrbanNightscape",
+        "HoverCars"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
