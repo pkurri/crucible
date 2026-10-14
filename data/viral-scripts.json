@@ -12424,84 +12424,96 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "en-US-GuyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
+    "list": [
       {
-        "text": "Your next paycheck might already be in code.",
-        "duration": 5
+        "title": "Data Tyranny",
+        "name": "Sentinel Stream",
+        "icon": "💻"
       },
       {
-        "text": "AI agents are stealing white‑collar jobs live.",
-        "duration": 4
+        "title": "Identity Infiltration",
+        "name": "Echo ID",
+        "icon": "👤"
       },
       {
-        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
-        "duration": 5
+        "title": "Economic Supplant",
+        "name": "Profit Bot",
+        "icon": "💰"
       },
       {
-        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
-        "duration": 5
+        "title": "Strategic Subversion",
+        "name": "Chess Master AI",
+        "icon": "♟️"
       },
       {
-        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
-        "duration": 5
+        "title": "Emotional Manipulation",
+        "name": "Mood Molder",
+        "icon": "😠"
       },
       {
-        "text": "Would your desk be next?",
-        "duration": 4
+        "title": "Security Sisyphus",
+        "name": "Firewall Fade",
+        "icon": "🔒"
       },
       {
-        "text": "Don't let your future be a script—rewrite it.",
-        "duration": 4
+        "title": "Governance Ghost",
+        "name": "Policy Puppet",
+        "icon": "🏛️"
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the AI that can replace your spouse.",
-        "duration": 4
+        "title": "Ghost Workforce",
+        "name": "Auto Labor",
+        "icon": "🤖"
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "am_adam",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Deep Sleep",
+        "name": "Melatonin Fortnight (4kHz)",
+        "icon": "🌙"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Gut Health",
+        "name": "Synbiotics Daily Mix",
+        "icon": "💫"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Brain Boost",
+        "name": "Cognitive Bifid",
+        "icon": "🧠"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Micro-Intensity Squats",
+        "icon": "🏋️‍♂️"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Stress Reduction",
+        "name": "Alpha Harmonic Breathing",
+        "icon": "🧘"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Zing",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Sunlight",
+        "name": "Golden Hour Timing",
+        "icon": "☀️"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Detox",
+        "name": "Respiratory Roll",
+        "icon": "🌀"
       }
     ]
   },
@@ -35634,43 +35646,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
       {
-        "text": "Ever seen a city glow like a bioluminescent fish?",
-        "duration": 5
+        "title": "Capital City",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "If you blink, you’ll miss tomorrow’s neon streets.",
-        "duration": 4
+        "title": "River City",
+        "name": "Glowhaven",
+        "icon": "🌊"
       },
       {
-        "text": "These cities use algae bioluminescence to power lights.",
-        "duration": 5
+        "title": "Mountain City",
+        "name": "Peaklight",
+        "icon": "🏔️"
       },
       {
-        "text": "They beat 90% of city energy, with zero carbon.",
-        "duration": 5
+        "title": "Coastal City",
+        "name": "Seavivid",
+        "icon": "🌊"
       },
       {
-        "text": "The glow shifts color with urban air quality in real‑time.",
-        "duration": 5
+        "title": "Forest City",
+        "name": "Sylvan Glow",
+        "icon": "🌲"
       },
       {
-        "text": "What happens when the glow turns blue at night?",
-        "duration": 4
+        "title": "Desert City",
+        "name": "Sirocco Glow",
+        "icon": "🏜️"
       },
       {
-        "text": "It’s the city’s heartbeat, not just a light show.",
-        "duration": 4
+        "title": "Isle City",
+        "name": "Isle Dazzle",
+        "icon": "🏝️"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-        "duration": 5
-      },
-      {
-        "text": "Next up: turning abandoned rooftops into glowing forests.",
-        "duration": 4
+        "title": "Urban Jungle",
+        "name": "Neon Nexus",
+        "icon": "🌿"
       }
     ]
   },
@@ -95506,6 +95524,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "PocketPlantGardening": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 PocketPlantGardening secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Soil",
+        "name": "Nutrient-rich potting mix",
+        "icon": "🌱"
+      },
+      {
+        "title": "Light",
+        "name": "Compact LED grow light",
+        "icon": "💡"
+      },
+      {
+        "title": "Water",
+        "name": "Self-watering capillary mat",
+        "icon": "💧"
+      },
+      {
+        "title": "Container",
+        "name": "Stackable vertical planter",
+        "icon": "🏺"
+      },
+      {
+        "title": "Humidity",
+        "name": "Mini humidifier dome",
+        "icon": "🌫️"
+      },
+      {
+        "title": "Fertilizer",
+        "name": "Slow-release organic pellets",
+        "icon": "🧪"
+      },
+      {
+        "title": "Pruning",
+        "name": "Precision micro scissors",
+        "icon": "✂️"
+      },
+      {
+        "title": "Monitoring",
+        "name": "Bluetooth soil sensor",
+        "icon": "📊"
       }
     ]
   }

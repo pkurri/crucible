@@ -47119,6 +47119,30 @@
         "sustainable‑city"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "PocketPlantGardening",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "Pocket Plant Gardening taps into the booming indoor gardening trend while offering a radically simple, pack‑and‑plant solution that instantly transforms any space. Its near‑instant visual results create scroll‑stopping time‑lapse hooks, and the DIY nature invites community challenges, making it highly shareable across both meta and YouTube. The tiny, modular pods cater to tiny‑home, urban, and climate‑adaptive audiences, ensuring a massive, scalable viewership and rapid subscriber growth.",
+      "ideas": [
+        "Turn Your Window Seat Into a 3‑Minute Farm – the Ultimate Seed‑Pod Challenge",
+        "The Secret Life of a Self‑Growing Seed Pod (Watch It Blossom in 7 Days)",
+        "How This $20 Pocket Garden Can Replace Entire Grocery Trips"
+      ],
+      "keywords": [
+        "vibrant",
+        "timelapse",
+        "microgreens",
+        "instant",
+        "fullcolor"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
