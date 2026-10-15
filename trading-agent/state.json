@@ -2,10 +2,10 @@
   "schema_version": "1.0.0",
   "policy_version": "3.0.0",
   "mode": "shadow",
-  "last_run_utc": "2026-10-15T01:39:57+00:00",
+  "last_run_utc": "2026-10-15T19:58:19+00:00",
   "sessions_completed": {
     "research": 1,
-    "shadow": 3
+    "shadow": 4
   },
   "last_decisions": {},
   "open_proposal_ids": [],
