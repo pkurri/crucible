@@ -47371,6 +47371,30 @@
         "digestive glow"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "EnvisionedClimate",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "AI-generated extreme weather visualizations tap into the thrilling blend of science, creativity, and spectacle. With fully faceless production and endless combinatorial possibilities, each episode can surprise viewers with never-before‑seen cataclysms, hitting powerful retention hooks (e.g., “What if a hurricane hit a floating city?”). The topic is currently hot due to the rise of AI art, climate anxiety, and the success of “AI vs Nature” content, giving it the potential to grow beyond 1 M subs and 100 K views per video.",
+      "ideas": [
+        "AI Tornado vs. Atlas City: The Ultimate Collision! (You Won't Believe the Chaos!)",
+        "Simulated Meteor Blaze Over Metropolis – 3D Explosion Time‑Lapse That Leaves You Speechless",
+        "What If Hurricanes Surfed Into Space? AI Weather in the Void (Mind‑Blowing Effects!)"
+      ],
+      "keywords": [
+        "Thunderstorm",
+        "LightningBolt",
+        "TornadoSpin",
+        "HailStorm",
+        "MeteorImpact"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
