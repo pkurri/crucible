@@ -1,0 +1,337 @@
+{
+  "session": "2026-10-14",
+  "session_label": "2026-10-14-shadow-03",
+  "market_session": "regular",
+  "agent_version": "AGENT.md Phase 2",
+  "policy_version": "3.0.0",
+  "watchlist_version": "3.0.0",
+  "quote_capture_utc": "2026-10-14T20:58:50Z",
+  "sources": [
+    "get_equity_positions",
+    "get_equity_quotes",
+    "get_equity_fundamentals",
+    "get_equity_historicals",
+    "get_indexes",
+    "get_index_quotes",
+    "context.py (runs/2026-10-14-market.json)",
+    "quality.py (runs/2026-10-14-symbols.json)"
+  ],
+  "symbol_data": "2026-10-14-symbols.json",
+  "context": {
+    "rules_version": "1.0.0",
+    "trend": "chop",
+    "gap_to_50d_pct": 0.14,
+    "volatility": "normal",
+    "vix": 16.87,
+    "last_session_move_pct": -1.08,
+    "drawdown_from_period_high_pct": -1.21,
+    "risk_appetite": "risk_on",
+    "event_shock": false,
+    "entries_supported": true,
+    "sessions_used": 136
+  },
+  "portfolio": {
+    "note": "Prices at regular-session close 15:59 ET. Leveraged and excluded positions (NAIL, SOLT, HIMZ, XXRP, TSLQ, RVII, KITT, SRNE, ARVLF, OTRKQ) have no quote fetched this session; their values are not included in equity_value.",
+    "equity_value": 744.07,
+    "positions": {
+      "LULU":  {"quantity": 3.0,         "value": 282.30},
+      "AMC":   {"quantity": 46.54036,    "value": 134.27},
+      "IONQ":  {"quantity": 3.0,         "value": 94.24},
+      "NIO":   {"quantity": 26.0,        "value": 88.14},
+      "QS":    {"quantity": 16.0,        "value": 62.88},
+      "FUBO":  {"quantity": 4.916667,    "value": 40.56},
+      "PSFE":  {"quantity": 5.0,         "value": 27.75},
+      "SPCE":  {"quantity": 2.75,        "value": 7.00},
+      "LCID":  {"quantity": 2.1,         "value": 6.93},
+      "NAIL":  {"quantity": 40.519809,   "value": 0.0},
+      "SOLT":  {"quantity": 2.532948,    "value": 0.0},
+      "HIMZ":  {"quantity": 3.512481,    "value": 0.0},
+      "RVII":  {"quantity": 6.0,         "value": 0.0},
+      "XXRP":  {"quantity": 0.745006,    "value": 0.0},
+      "TSLQ":  {"quantity": 0.70727,     "value": 0.0},
+      "KITT":  {"quantity": 0.166667,    "value": 0.0},
+      "SRNE":  {"quantity": 3.0,         "value": 0.0},
+      "ARVLF": {"quantity": 1.0,         "value": 0.0},
+      "OTRKQ": {"quantity": 2.0,         "value": 0.0}
+    }
+  },
+  "markets": {
+    "LULU": {"bid": 93.70, "ask": 94.00, "last": 94.10},
+    "IONQ": {"bid": 31.57, "ask": 31.64, "last": 31.415},
+    "QS":   {"bid": 3.920, "ask": 3.940, "last": 3.930},
+    "LCID": {"bid": 3.280, "ask": 3.300, "last": 3.300},
+    "NIO":  {"bid": 3.390, "ask": 3.400, "last": 3.390},
+    "FUBO": {"bid": 8.080, "ask": 8.310, "last": 8.250},
+    "PSFE": {"bid": 5.410, "ask": 6.180, "last": 5.550},
+    "AMC":  {"bid": 2.880, "ask": 2.890, "last": 2.885},
+    "SPCE": {"bid": 2.550, "ask": 2.590, "last": 2.545}
+  },
+  "plans": [
+    {
+      "symbol": "VOO",
+      "horizon": "long-term",
+      "thesis": "VOO tracks the S&P 500 in chop territory; not held and entry blocked by both the position-count breach and stale quote data.",
+      "evidence": [
+        "SPY SMA50 gap +0.14%: chop regime",
+        "VIX 16.87: normal volatility",
+        "Entries_supported per context.py",
+        "Not currently held in portfolio"
+      ],
+      "counterevidence": [
+        "Quote age 3532s exceeds max_quote_age_seconds 120s: data unusable",
+        "Position count 19 of 4 cap: hard gate blocks all entries regardless"
+      ],
+      "catalyst": "none applicable",
+      "entry_condition": "Position count cured and fresh quote within 120 seconds",
+      "invalidation": "Trend reversal below SMA50 or VIX spike above 25",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 10,
+      "quote_age_seconds": 3532
+    },
+    {
+      "symbol": "VTI",
+      "horizon": "long-term",
+      "thesis": "VTI tracks the total US market; not held and entry blocked by position-count breach and stale quote.",
+      "evidence": [
+        "Broad market chop: SPY +0.14% vs 50d SMA",
+        "VIX 16.87: normal volatility",
+        "Not currently held in portfolio"
+      ],
+      "counterevidence": [
+        "Quote age 3531s exceeds max_quote_age_seconds 120s: data unusable",
+        "Position count 19 of 4 cap: hard gate blocks all entries"
+      ],
+      "catalyst": "none applicable",
+      "entry_condition": "Position count cured and fresh quote within 120 seconds",
+      "invalidation": "Market downtrend or VIX above 25",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 10,
+      "quote_age_seconds": 3531
+    },
+    {
+      "symbol": "SGOV",
+      "horizon": "long-term",
+      "thesis": "SGOV is a 0-3 month T-Bill ETF; not held and entry blocked by position-count breach and stale quote.",
+      "evidence": [
+        "SGOV accretes from T-bill yield; 30-day SEC yield 3.72%",
+        "Zero credit risk, maximum liquidity",
+        "Not currently held in portfolio"
+      ],
+      "counterevidence": [
+        "Quote age 3531s exceeds max_quote_age_seconds 120s: data unusable",
+        "Position count 19 of 4 cap: hard gate blocks all entries"
+      ],
+      "catalyst": "none applicable",
+      "entry_condition": "Position count cured and fresh quote within 120 seconds",
+      "invalidation": "Not applicable for this instrument",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 10,
+      "quote_age_seconds": 3531
+    },
+    {
+      "symbol": "LULU",
+      "horizon": "swing",
+      "thesis": "LULU held at a large loss; stale quote prevents a valid exit assessment today.",
+      "evidence": [
+        "Price $94.10 at regular close; -24.5% from Sep-3 high of $121.77",
+        "P/E 7.73 trailing: deeply discounted vs historical average",
+        "Held 3 shares at avg cost $214.10; position deeply underwater",
+        "52-week low was $90.38 on Oct 8; small bounce since then"
+      ],
+      "counterevidence": [
+        "Quote age 3531s exceeds max_quote_age_seconds 120s: stale_quote blocks analysis",
+        "Sustained downtrend from Sep 3 earnings gap-down; no recovery catalyst confirmed"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Fresh quote within 120 seconds and exit analysis with score above 70",
+      "invalidation": "Price recovery above $103 would weaken exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 8,
+      "quote_age_seconds": 3531
+    },
+    {
+      "symbol": "IONQ",
+      "horizon": "swing",
+      "thesis": "IONQ held at a large loss; stale quote and -9.55% intraday move from yesterday's close prevent valid analysis today.",
+      "evidence": [
+        "Price $31.415 at regular close; down from 52w high $81.08",
+        "Held 3 shares at avg cost $65.25; deeply underwater",
+        "Large intraday drop of 9.55% today vs yesterday close of $34.73"
+      ],
+      "counterevidence": [
+        "Quote age 3531s exceeds max_quote_age_seconds 120s: stale_quote blocks analysis",
+        "Significant intraday decline today requires fresh data to assess"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Fresh quote within 120 seconds and score above 70",
+      "invalidation": "Price stabilization above $35 would weaken exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 8,
+      "quote_age_seconds": 3531
+    },
+    {
+      "symbol": "QS",
+      "horizon": "swing",
+      "thesis": "QS held at a large loss; stale quote prevents valid analysis. Price at new 52-week low today.",
+      "evidence": [
+        "Price $3.930 at regular close; 52-week low was $3.850 today per fundamentals",
+        "Held 16 shares at avg cost $23.71; deeply underwater",
+        "Continued downtrend from $5.59 (Sep 8) to $3.93 today: -29.7%"
+      ],
+      "counterevidence": [
+        "Quote age 3531s exceeds max_quote_age_seconds 120s: stale_quote blocks analysis",
+        "No commercial product revenue; battery tech development risk remains"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Fresh quote within 120 seconds and score above 70",
+      "invalidation": "Price break above $4.65 would weaken exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 8,
+      "quote_age_seconds": 3531
+    },
+    {
+      "symbol": "LCID",
+      "horizon": "swing",
+      "thesis": "LCID held at a large loss; stale quote prevents valid analysis.",
+      "evidence": [
+        "Price $3.300 at regular close; held 2.1 shares at avg cost $142.53",
+        "Continued downtrend: -27.6% from Sep 1 close of $4.55",
+        "Negative P/B and P/E: deeply distressed valuation"
+      ],
+      "counterevidence": [
+        "Quote age 3531s exceeds max_quote_age_seconds 120s: stale_quote blocks analysis",
+        "Ongoing cash burn; production ramp uncertainty"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Fresh quote within 120 seconds and score above 70",
+      "invalidation": "Price recovery above $4.20 would weaken exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 8,
+      "quote_age_seconds": 3531
+    },
+    {
+      "symbol": "NIO",
+      "horizon": "swing",
+      "thesis": "NIO held at a large loss; stale quote prevents valid analysis.",
+      "evidence": [
+        "Price $3.390 at regular close; held 26 shares at avg cost $22.11",
+        "Down from Sep 1 close of $4.06: -16.5%",
+        "Negative P/E -12.94; China EV sector headwinds persist"
+      ],
+      "counterevidence": [
+        "Quote age 3531s exceeds max_quote_age_seconds 120s: stale_quote blocks analysis",
+        "China macro risk; geopolitical uncertainty weighs on ADR"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Fresh quote within 120 seconds and score above 70",
+      "invalidation": "Price break above $3.80 would weaken exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 8,
+      "quote_age_seconds": 3531
+    },
+    {
+      "symbol": "FUBO",
+      "horizon": "swing",
+      "thesis": "FUBO held at large loss; stale quote prevents valid analysis. Price at new 52-week low today.",
+      "evidence": [
+        "Price $8.250 at regular close; 52-week low $7.910 today per fundamentals",
+        "Held 4.916667 shares at avg cost $191.16; severely underwater",
+        "P/B 0.30: trading well below book value"
+      ],
+      "counterevidence": [
+        "Quote age 3532s exceeds max_quote_age_seconds 120s: stale_quote blocks analysis",
+        "Streaming competition; profitability timeline uncertain"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Fresh quote within 120 seconds and score above 70",
+      "invalidation": "Price break above $9.50 would weaken exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 8,
+      "quote_age_seconds": 3532
+    },
+    {
+      "symbol": "PSFE",
+      "horizon": "swing",
+      "thesis": "PSFE held at loss; stale quote prevents valid analysis.",
+      "evidence": [
+        "Price $5.550 at regular close; held 5 shares at avg cost $42.22",
+        "Down from Sep high of $6.79: -18.3%",
+        "P/B 0.52: trading below book"
+      ],
+      "counterevidence": [
+        "Quote age 3532s exceeds max_quote_age_seconds 120s: stale_quote blocks analysis",
+        "Wide bid-ask spread ($5.41 / $6.18): low liquidity signal"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Fresh quote within 120 seconds and score above 70",
+      "invalidation": "Price break above $6.20 would weaken exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 8,
+      "quote_age_seconds": 3532
+    },
+    {
+      "symbol": "AMC",
+      "horizon": "swing",
+      "thesis": "AMC held at large loss; stale quote prevents valid analysis.",
+      "evidence": [
+        "Price $2.885 at regular close; held 46.54 shares at avg cost $16.19",
+        "Down from Sep 28 high of $3.29: -12.3%",
+        "Negative P/B and P/E: distressed"
+      ],
+      "counterevidence": [
+        "Quote age 3532s exceeds max_quote_age_seconds 120s: stale_quote blocks analysis",
+        "Movie theater industry structural headwinds; debt overhang"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Fresh quote within 120 seconds and score above 70",
+      "invalidation": "Price break above $3.10 would weaken exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 8,
+      "quote_age_seconds": 3532
+    },
+    {
+      "symbol": "SPCE",
+      "horizon": "swing",
+      "thesis": "SPCE held at large loss; stale quote prevents valid analysis.",
+      "evidence": [
+        "Price $2.545 at regular close; held 2.75 shares at avg cost $266.02",
+        "Down from Jun 1 high of $8.90: -71.4%",
+        "Negative P/E -0.78: continued losses"
+      ],
+      "counterevidence": [
+        "Quote age 3532s exceeds max_quote_age_seconds 120s: stale_quote blocks analysis",
+        "Space tourism business model unproven at commercial scale"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Fresh quote within 120 seconds and score above 70",
+      "invalidation": "Price break above $3.00 would weaken exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 8,
+      "quote_age_seconds": 3532
+    }
+  ]
+}

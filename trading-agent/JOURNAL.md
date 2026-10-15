@@ -605,3 +605,34 @@ This is research output, not investment advice, and no order has been placed.
 - The owner's global CLAUDE.md asks every session to rewrite its prompt before
   acting. A probe did exactly that and stopped without acting. The launcher
   prompt now opens with the `# **Role:**` header that rule exempts.
+
+## 2026-10-14 16:58 ET — shadow session 03 (post-close)
+
+- run file: `runs/2026-10-14-shadow-03.json`; symbol data: `runs/2026-10-14-symbols.json`; market data: `runs/2026-10-14-market.json`
+- agent/policy/watchlist version: AGENT.md Phase 2 / 3.0.0 / 3.0.0
+- data sources + freshness:
+  - `get_equity_historicals` (SPY, QQQ, daily, 2026-04-01 to 2026-10-13): 135 bars each; today's SPY close (769.63) added from regular-session quote
+  - `get_index_quotes` (VIX): 16.87, venue_timestamp 2026-10-14T16:15:01 ET (captured at session start)
+  - `get_equity_quotes` on 12 watchlist symbols: regular-session venue_last_trade_time ~2026-10-14T19:59:59Z; quote age at capture ~3531–3532 s; **all quotes stale** (> 120 s limit)
+  - `get_equity_fundamentals` on all 12 symbols: market_date 2026-10-14
+  - `get_equity_historicals` per symbol: 30 bars, 2026-09-01 to 2026-10-13; no gaps, no stale history
+  - `get_equity_positions` on the agentic account (MCP)
+- regime (`context.py`): **chop (+0.14% vs 50d), volatility normal (VIX 16.87), risk_on, -1.21% from period high, no event shock, entries_supported true.** 136 sessions used.
+- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE, AMC, SPCE
+- decisions: NO_TRADE on all 12 — every symbol blocked by `stale_quote` from `quality.py`
+- abstentions + reasons:
+  - VOO, VTI, SGOV: stale_quote (3531–3532 s); also blocked by position-count breach (19 vs cap 4)
+  - LULU, IONQ, QS, LCID, NIO, FUBO, PSFE, AMC, SPCE: stale_quote (3531–3532 s); no analysis performed on stale data
+- notable data points (not used in decisions, for context only):
+  - IONQ down 9.55% on the day ($34.73 → $31.42); QS at new 52w low ($3.85); FUBO at new 52w low ($7.91); SPY down 1.08% from prior close
+  - Session ran at 16:58 ET vs scheduled 15:10 ET window; all regular-session quotes are ~59 minutes old by capture time
+- forecast settlement: nothing due
+- new forecasts: abstained — cannot register forecasts against stale data
+- tool audit: `mcp__robinhood-trading__decline_trade_approval` is available and flagged; it is a mutating tool. Not used.
+- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals, 12 abstentions — run valid
+- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 5 GFD orders expired from prior sessions
+- tests: 325 passed
+- shadow sessions: 3 of 20.
+- anomalies: Session executed after market close (16:58 ET) instead of the scheduled 15:10 ET window. This caused every regular-session quote to exceed the 120 s staleness threshold by ~59 minutes, blocking all analysis. The routine schedule (19:10 UTC / 15:10 ET) should prevent this on subsequent runs. One session consumed; no new evidence produced.
+
+This is research output, not investment advice, and no order has been placed.
