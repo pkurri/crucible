@@ -47395,6 +47395,30 @@
         "MeteorImpact"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "NeonFoodArt",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Glowing and neon food combines the irresistible appeal of food content with vibrant, eye‑catching visuals. These videos trigger a visual wow factor that encourages shares, comments, and algorithm boosts across Meta and YouTube. The niche stands out from traditional cooking channels by blending science, art, and food hacks—making each clip a natural scroll‑stopping hook.",
+      "ideas": [
+        "3D‑Printed Glow Burger That Lights Up Your Feed! (Science Meets Street Food)",
+        "Turn Your Ice Cream Into a Rainbow Light Show—DIY Glow Dessert Hack",
+        "Glowing Steak on the Grill: How to Cook Neon Food That Actually Shines"
+      ],
+      "keywords": [
+        "luminescent",
+        "glowing",
+        "neon",
+        "colorburst",
+        "flashy"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
