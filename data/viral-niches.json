@@ -47467,6 +47467,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ARUrbanTours",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "With the rapid adoption of AR experiences and the popularity of immersive city exploration videos, faceless AR-tour content leverages both the intrigue of virtual overlays in real-world streetscapes and the viral potential of “virtual travel” clips that are easy to share and remix. The niche is low competition yet highly engaging, offering endless creativity in overlaying historical data, hidden stories, or themed visual augmentations that spark curiosity and shareability.",
+      "ideas": [
+        "The FUTURE of Street‑Views: Watch Real Cities Glow with AR – an unseen virtual tour of Paris’ nightscape",
+        "Hidden History Unlocked: AR overlays reveal secret stories of your city while walking straight forward",
+        "106% Immersive City Walk: Three kilometers of AR‑enhanced landmarks – can you spot the hidden clues?"
+      ],
+      "keywords": [
+        "ARVisuals",
+        "Cityscape",
+        "Holographic",
+        "Neon",
+        "Glass"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
