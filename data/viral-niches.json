@@ -47275,6 +47275,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "BioLuminescentCities taps into a unique blend of natural bioluminescence and urban nightlife, offering visually stunning, high‑contrast footage that captivates audiences across multiple platforms. The concept is fresh, highly shareable, and fuels click‑throughs with its promise of never‑before‑seen glowing cityscapes, making it primed for >1M subscribers and 100K+ views per video.",
+      "ideas": [
+        "Midnight Glow‑Up: Witness the City’s Hidden Bioluminescent Nights – It’s Like Walking Through Another Planet!",
+        "From Streetlights to Stars: The Surprising Science Behind Cities that Shine – Don’t Miss the First 30 Seconds!",
+        "7 Breathtaking Bioluminescent Hotspots – You’ll Be Spell‑bound to Your Screen!"
+      ],
+      "keywords": [
+        "Glowing",
+        "Neon",
+        "Luminescence",
+        "Radiant",
+        "Electric"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
