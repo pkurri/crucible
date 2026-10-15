@@ -47491,6 +47491,30 @@
         "Glass"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "TerraformingBlueprints",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.5,
+      "targetEmotion": "Awe",
+      "reason": "TerraformingBlueprints taps into the growing mainstream fascination with space colonisation and sustainable future tech. The niche is untapped, avoids overlap with existing ‘TerraformingGoneWrong’, and offers endless visual storytelling potential with high production value (animation, 3‑D renders, data visualisation). The concept aligns with current creator trends around AI design, simulation, and planet‑planet transformation, making it ripe for 1M+ subscribers and 100K+ views per upload.",
+      "ideas": [
+        "Terraform Mars in 5 Steps: The Blueprint You Never Knew 100M People Asked For! - Ever wondered how to make a barren planet habitable? This isn’t sci‑fi…",
+        "The Hidden Plan to Turn Venus into a Livable Paradise (Animation + Real Data) - Scientists say this could happen in 2030…",
+        "Why Terraforming Earth Might Be Easier Than You Think (Inside the Secret Solar Engineering Plans) - We break down the 3 biggest myths…"
+      ],
+      "keywords": [
+        "CelestialTransformation",
+        "PlanetaryEngineering",
+        "BarrenPlanet",
+        "BiosphereDesign",
+        "SpaceTerraforming"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
