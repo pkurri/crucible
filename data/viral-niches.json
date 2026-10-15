@@ -47347,6 +47347,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroBiomeGlow",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.7,
+      "targetEmotion": "Wonder",
+      "reason": "The tiny world inside us is becoming a hot topic for beauty and health. Microbiome‑based skin hacks fuse science curiosity with tangible results, making it highly shareable and perfect for scroll‑stopping content. The niche is fresh, not saturated, and taps into the booming wellness trend, enabling 1M+ subs and 100k+ views per video.",
+      "ideas": [
+        "Secret 3‑Minute Breakfast That Turns Your Skin into a Lantern | MicroBiome Glow Hack",
+        "How I Grew a Garden Inside My Gut and My Face Shone Like Bioluminescent Coral 🌱",
+        "Microbiome Makeover: The 7‑Day Challenge That Glowed My Complexion (Results Inside)"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "healing",
+        "microflora",
+        "skin glow",
+        "digestive glow"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
