@@ -47743,6 +47743,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NanoPlasticDiamonds",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "The ‘plastic‑to‑diamond’ phenomenon blurs the line between environmental activism and high‑tech marvels. It taps into viewers’ desire to turn everyday waste into luxury, trending on social media with eye‑catching time‑lapse visuals and a clear before‑and‑after narrative. Faceless storytelling (vo‑over + B‑roll) allows rapid episode creation and easy monetisation while the tech‑noir aesthetic differentiates it from existing cleanup or bioluminescent channels.",
+      "ideas": [
+        "Plastic Bubble‑Pop: Watch 2kg of Trash Turn Into a Sparkling Diamond In 30 Seconds – Science Edition",
+        "From Ocean Dump to Jewelry: The DIY Plastic‑to‑Diamond Lab That’s Going Viral",
+        "Can You Believe 5 Seconds of Heat Turns My Plastic Trash Into a 1 Carat Diamond? | Watch Now"
+      ],
+      "keywords": [
+        "Plastic",
+        "Diamond",
+        "Transformation",
+        "Time‑lapse",
+        "Carbonation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
