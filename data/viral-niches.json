@@ -47596,6 +47596,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SubmergedUrbanOasis",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche of planned and speculative floating underwater cities taps into contemporary concerns about sea‑level rise and the push for sustainable megacities. It blends cutting‑edge science, architectural visualization, and sci‑fi fantasies—an intersection with little saturation yet high curiosity. Viewers love the spectacle of ‘underwater skyscrapers,’ the mystery of submerged landscapes, and the imminent reality of oceanic habitats. This hi‑visual, emotionally‑charged content naturally supports scroll‑stopping hooks, endless curiosity loops, and has cross‑platform appeal with easily shareable 3D renders and documentary‑style deep dives. Theoretical city concepts provide endless storylines, readily scalable to 25+ unique videos that I/R travel, tech, and design interests.",
+      "ideas": [
+        "10 Most Impossibly Beautiful Floating Cities That Scientists Plan To Build by 2050 – Watch how ocean technology could reshape our skylines!",
+        "From Sci‑Fi to Reality: The Hidden Design Secrets of Underwater Megacities – Discover the unseen architecture powering water‑based metros!",
+        "Why Earth’s Oceans Will Double as New Megacities — and Who’s Willing to Move Under the Sea? – Meet the pioneers redefining urban living!"
+      ],
+      "keywords": [
+        "Underwater",
+        "Futuristic",
+        "Cityscape",
+        "Glowing",
+        "Sci‑Fi"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
