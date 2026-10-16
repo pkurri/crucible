@@ -47671,6 +47671,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ThermalVisionExploration",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The niche delivers high‑impact, visually stunning infrared footage of everyday objects and environments that no one sees normally. It taps into current trends of 3D‑printing, energy efficiency, and sci‑tech curiosity, facilitating scroll‑stopping hooks (e.g., ‘Heat‑pulsing fridge door!’). The format is truly faceless – no narrators, just compelling visual narratives – making it instantly shareable and highly scalable across platforms. With the unique twist of showing hidden heat signatures, it stands out against existing “bioluminescent” or “under‑the‑microscope” niches, promising steady subscriber growth and recurring viral content.",
+      "ideas": [
+        "Why Your Microwave Is Sizzling 200°C Inside – Infrared Reveal!",
+        "\"Heat Map\" of Your Kitchen: What Your Dishwasher REALLY Does (Infrared)",
+        "The Unknown Warmth of City Streets – Watch a Night Through an IR Lens"
+      ],
+      "keywords": [
+        "infrared",
+        "heatwave",
+        "glow",
+        "thermal",
+        "pulse"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
