@@ -47767,7 +47767,24 @@
         "Carbonation"
       ],
       "voice": "en-US-JennyNeural",
-      "priority": true
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Zero‑gravity cooking combines the irresistible visual allure of weightless food with the universal fascination of space technology. The niche sits at the sweet spot between sustainability, culinary curiosity, and futuristic spectacle—elements that Instagram reels and YouTube Shorts already love. With dramatic “floating” hooks, step‑by‑step experiments, and a clear narrative arc, the content naturally encourages scroll‑stopping and re‑watchability. Moreover, existing space‑agency footage and CGI renders make it easy to produce high‑resolution, faceless videos that can deliver 100k+ views per episode and attract a steady stream of subscribers hungry for the next “out‑of‑this‑world” twist on everyday life.",
+      "ideas": [
+        "Zero‑Gravity Kitchen: What Happens When You Fry an Egg in Space? – Watch the egg crack and swirl in 0g, and learn the science behind it!",
+        "Space Chef: Making Pasta on the ISS—Impossible? Not at All! – Ever seen spaghetti float? We’ll roll it up in zero gravity and taste the results.",
+        "Gravity‑Free Desserts: Creating the Lightest Cake EVER in Zero Gravity – See how a cake rises, falls, and tastes lighter than air.",
+        "Farming in 0g: How Plants Grow in the Space Kitchen? – Discover how green veggies thrive without gravity, and what it could mean for future colonies.",
+        "Zero‑Gravity Chocolate Mousse: The Ultimate Air‑Light Treat? – Dive into the science of whipped mousse in a weightless kitchen."
+      ]
     }
   ]
 }
