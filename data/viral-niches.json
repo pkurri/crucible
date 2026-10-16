@@ -47620,6 +47620,30 @@
         "Sci‑Fi"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "MicroplasticCleanupTech",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Microplastic pollution is a growing environmental crisis that captures global attention, yet effective solutions remain scarce. A faceless YouTube channel dedicated to showcasing cutting‑edge, deployable technologies—robotic scrubbers, advanced filtration systems, polymer‑recycling processes—provides tangible, high‑impact content that appeals to eco‑conscious viewers, tech enthusiasts, and science‑curious audiences alike. The concept taps into urgent climate conversation, offers repeatable “how‑it‑works” stories, and lends itself to rapid, visually striking videos that can go viral on Meta and YouTube.",
+      "ideas": [
+        "How a Tiny Machine is Destroying Microplastics in 30 Minutes – The Future of Ocean Cleanup",
+        "Why Microplastics Are the Greatest Hidden Threat – And We Have the Technology To Fight Them",
+        "From Trash to Treasure: Turning Microplastics Into Useful Material Without Human Hands"
+      ],
+      "keywords": [
+        "Sustainability",
+        "Innovation",
+        "EcoTech",
+        "OceanCleanup",
+        "MicroplasticRemoval"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
