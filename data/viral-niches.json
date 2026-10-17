@@ -47930,6 +47930,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The fusion of cutting-edge bioengineering with urban design is sparking global interest in eco‑futuristic living. Bio‑luminescent cities tap into sustainability, science fiction and the human desire for wonder, providing endless hook‑worthy visual storytelling and educational content. With the boom in green urbana and the viral reach of nighttime cityscape videos, this niche stands out and can scale across multiple content formats.",
+      "ideas": [
+        "Glowing Metropolis: How This City Will Light Up the Future – What You’re Not Seeing in NASA Imagery",
+        "From Fungus to Skyline: The Underground Science Building a Bio‑Luminous City",
+        "3M of Bioluminescence That Keeps Night‑Marshes Alive – See It Live!"
+      ],
+      "keywords": [
+        "bioluminescent",
+        "glowing",
+        "sustainable",
+        "nighttime",
+        "ecology"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
