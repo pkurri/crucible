@@ -47978,6 +47978,30 @@
         "Future"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityCooking",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Curiosity",
+      "reason": "Zero-Gravity Cooking fuses the futuristic allure of space tourism with the universality of food. The niche is rare—no major faceless channels tackle this—yet the visual potential is immense: floating utensils, bouncy sauces, and the dramatic, clean light of the International Space Station. Viewers are drawn to the novelty of seeing recipes defy physics, leading to high click‑through and vertical page time. The high‑production, hyper‑realistic CGI and simple narrator overlay make it a perfect fit for faceless content on both YouTube and meta platforms, ensuring 1M+ subscriber viability and 100K+ views per video. The emotional hook is unmistakable: awe and curiosity about what unfolds when gravity is turned off.",
+      "ideas": [
+        "Throwing Pancakes in Zero Gravity: Can I Keep Them on the Pan? / Watch me defy gravity and flip breakfast upside down!🚀👩‍🍳",
+        "Zero‑Gravity Baking Challenge: Making a Cupcake in Orbit! / Will the batter stay put? See the science of baking beyond Earth! 🪐🥧",
+        "NASA Inspired Space Kitchen: Spaghetti Al Dente in Zero‑G! / No crumbs, no mess, but will it taste right? Find out!"
+      ],
+      "keywords": [
+        "stunning",
+        "surreal",
+        "futuristic",
+        "vibrant",
+        "ethereal"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
