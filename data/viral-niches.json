@@ -47881,6 +47881,28 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityFashion",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Space fashion is trending worldwide as NASA and private companies reveal futuristic garments designed for microgravity, sparking curiosity about how clothing will transform in zero‑gravity environments. The visual spectacle of flowing fabrics in space and the blend of science, design, and technology create endless hook possibilities that appeal to fashion enthusiasts and tech geeks alike. Right now, audiences are intensely interested in cutting‑edge lifestyle content, making this niche primed for high‑velocity virality.",
+      "ideas": [
+        "The First Space‑Station Runway: Wearable Designs That Float! Hook: 'Ever seen a gown spin around without gravity? Watch designers turn zero‑gravity into the ultimate fashion show!','Fashion 2.0: How Zero‑Gravity Apparel is Changing Our Everyday Style Hook: 'From shoes that adapt to your foot to fabrics that flow like water, discover the future of clothing right at home!','The Aquatic Astronaut Wardrobe: Creating Clothes That Move Like Water in Space Hook: 'Scientists blend fabric science with oceanic inspiration—see the demo that proves gravity isn’t the only fluid!"
+      ],
+      "keywords": [
+        "ultra‑glitter",
+        "transparent",
+        "futuristic",
+        "fluidic",
+        "light‑reflective"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
