@@ -48104,6 +48104,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "ZeroGravityFitness",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.9,
+      "targetEmotion": "Awe",
+      "reason": "Zero‑gravity workouts combine the universal love for fitness with the viral appeal of space science. They offer instant visual shocks, scroll‑stopping floating moves, and a mini‑learning curve about motion physics—all of which hook users with curiosity and wonder. The content can be endlessly replicated through variations (different exercises, speed, added props), ensuring 25+ fresh, high‑visual idea streams and strong shareability on both Meta and YouTube.",
+      "ideas": [
+        "Zero‑Gravity Squats: How to Do a Squat While Floating (and Why It Looks Cooler)",
+        "Float & Throw: 3‑Minute Zero‑Gravity HIIT That Works Your Core in 30‑Second Flows",
+        "Weightless Warrior: Learn the Most Breathtaking Yoga Pose in Zero Gravity (with a Twist)"
+      ],
+      "keywords": [
+        "Zero‑G",
+        "Float",
+        "Gravity‑Breaking",
+        "Floating Gym",
+        "Wobble"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
