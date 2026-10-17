@@ -12455,7 +12455,7 @@
         "duration": 4
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+        "text": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
         "duration": 5
       },
       {
@@ -12496,7 +12496,7 @@
         "duration": 4
       },
       {
-        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "text": "Don't let the algorithm hide the truth. Follow for more LongevityHacksUnlocked.",
         "duration": 5
       },
       {
@@ -96860,6 +96860,53 @@
       {
         "text": "Next: the method that changes everything.",
         "duration": 4
+      }
+    ]
+  },
+  "ApexFlow_1792274361933": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1792274361933 secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
+      {
+        "title": "Power",
+        "name": "HyperFlux Core",
+        "icon": "⚡️"
+      },
+      {
+        "title": "AI",
+        "name": "SentientCore",
+        "icon": "🤖"
+      },
+      {
+        "title": "Design",
+        "name": "NanoLattice",
+        "icon": "🧩"
+      },
+      {
+        "title": "Performance",
+        "name": "QuantumPulse",
+        "icon": "🕹️"
+      },
+      {
+        "title": "Security",
+        "name": "ShieldMatrix",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Ecosystem",
+        "name": "MeshNet",
+        "icon": "🌐"
+      },
+      {
+        "title": "Innovation",
+        "name": "FluxEngine",
+        "icon": "🔥"
+      },
+      {
+        "title": "Future",
+        "name": "CycleSync",
+        "icon": "🔁"
       }
     ]
   }
