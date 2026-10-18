@@ -48128,6 +48128,30 @@
         "Wobble"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "AlternateAIHistory",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Curiosity",
+      "reason": "AI-driven alternate history lets viewers see vivid rewrites of pivotal moments in history. The blend of realistic CGI, narrative hooks, and the “what‑if” intrigue offers a scroll‑stopping hook that is both educational and entertaining. It’s a fresh niche that avoids saturation, can produce endless episode ideas, and taps into current fascination with AI storytelling and the age‑old hunger for alternate realities. The high‑resolution visual potential drives social sharing and makes the content ideal for the 100k+ view threshold on YouTube and Meta. ",
+      "ideas": [
+        "What If the Library of Alexandria Was Never Destroyed? AI Recreates the Lost City – Watch the City Come Alive!",
+        "If the Confederacy Won Gettysburg: AI Simulates the Battle as History Turned on Its Head – The Epic Alternate Outcome!",
+        "AI Just Rewrote the Fall of Constantinople – See How the Byzantines Might Have Defended Their Empire!"
+      ],
+      "keywords": [
+        "dramatic",
+        "photorealistic",
+        "epic",
+        "alternate",
+        "suspenseful"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
