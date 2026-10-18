@@ -48281,6 +48281,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "NanoPlasticDiamonds",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 8.8,
+      "targetEmotion": "Curiosity",
+      "reason": "The transformation of everyday micro‑plastic into precious diamonds captures the zeitgeist of environmental activism and cutting‑edge nanotech. The visual process—tiny plastic filament spinning, dissolving, and crystallizing into glittering diamonds—is both mind‑blowing and a tangible promise of a cleaner planet, making it ripe for virality across short‑form and long‑form video platforms.",
+      "ideas": [
+        "Turn Plastic Wreckage into Diamond—Watch the Nano‑Scale Miracle Explained!",
+        "From Trash to Treasure: How a Common Bottle Becomes a 0.01‑Carat Diamond in Minutes",
+        "The Secret Process of Turning Ocean Plastic into Luxury Gems—Revolutionizing Jewelry"
+      ],
+      "keywords": [
+        "NanoTech",
+        "PlasticToDiamond",
+        "MicroplasticRecycling",
+        "SustainableLuxury",
+        "MolecularTransformation"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
