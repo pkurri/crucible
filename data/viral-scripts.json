@@ -12424,90 +12424,90 @@
     ]
   },
   "AIAgentsAreTakingOver": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 AIAgentsAreTakingOver secrets you need to know.",
-    "closing": "Don't let the algorithm hide the truth. Follow for more AIAgentsAreTakingOver.",
-    "list": [
+    "voice": "en-US-GuyNeural",
+    "lines": [
       {
-        "title": "Data Tyranny",
-        "name": "Sentinel Stream",
-        "icon": "💻"
+        "text": "Your next paycheck might already be in code.",
+        "duration": 5
       },
       {
-        "title": "Identity Infiltration",
-        "name": "Echo ID",
-        "icon": "👤"
+        "text": "AI agents are stealing white‑collar jobs live.",
+        "duration": 4
       },
       {
-        "title": "Economic Supplant",
-        "name": "Profit Bot",
-        "icon": "💰"
+        "text": "In just 30 days, a solo entrepreneur lost the whole office.",
+        "duration": 5
       },
       {
-        "title": "Strategic Subversion",
-        "name": "Chess Master AI",
-        "icon": "♟️"
+        "text": "Claude drafts legal briefs in minutes, cutting 10 lawyers.",
+        "duration": 5
       },
       {
-        "title": "Emotional Manipulation",
-        "name": "Mood Molder",
-        "icon": "😠"
+        "text": "Gemini answered a board meeting, leaving CEOs bewildered.",
+        "duration": 5
       },
       {
-        "title": "Security Sisyphus",
-        "name": "Firewall Fade",
-        "icon": "🔒"
+        "text": "Would your desk be next?",
+        "duration": 4
       },
       {
-        "title": "Governance Ghost",
-        "name": "Policy Puppet",
-        "icon": "🏛️"
+        "text": "Don't let your future be a script—rewrite it.",
+        "duration": 4
       },
       {
-        "title": "Ghost Workforce",
-        "name": "Auto Labor",
-        "icon": "🤖"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the AI that can replace your spouse.",
+        "duration": 4
       }
     ]
   },
   "LongevityHacksUnlocked": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 LongevityHacksUnlocked secrets you need to know.",
+    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of LongevityHacksUnlocked.",
-        "duration": 5
+        "title": "Nutrition",
+        "name": "Oyster Omega Fats",
+        "icon": "🦪"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Movement",
+        "name": "Desk Squat Hack",
+        "icon": "🏋️"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Mindset",
+        "name": "Midday Mindfulness Call",
+        "icon": "🧘"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Supplements",
+        "name": "NAD+ Booster",
+        "icon": "⚡"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Sleep",
+        "name": "Blue Light Blocking Glasses",
+        "icon": "🌙"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Hydration",
+        "name": "Electrolyte Infused Water",
+        "icon": "💧"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Social",
+        "name": "Weekly Lifelong Learning Circles",
+        "icon": "🤝"
       },
       {
-        "text": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Tech",
+        "name": "AI Sleep Tracker",
+        "icon": "🚀"
       }
     ]
   },
@@ -35640,43 +35640,49 @@
     ]
   },
   "BioLuminescentCities": {
-    "voice": "en-US-JennyNeural",
-    "lines": [
+    "voice": "af_heart",
+    "hook": "Here are the top 8 BioLuminescentCities secrets you need to know.",
+    "closing": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
+    "list": [
       {
-        "text": "Nobody talks about the truth of BioLuminescentCities.",
-        "duration": 5
+        "title": "Neon Metropolis",
+        "name": "Lumenopolis",
+        "icon": "🌆"
       },
       {
-        "text": "And that silence is costing you everything.",
-        "duration": 5
+        "title": "Underwater Glow",
+        "name": "Aquatalia",
+        "icon": "🌊"
       },
       {
-        "text": "The data shows 97% of people get this wrong.",
-        "duration": 5
+        "title": "Forest Lighthouse",
+        "name": "Verdant Radiance",
+        "icon": "🌲"
       },
       {
-        "text": "The real pattern only 3% ever discover.",
-        "duration": 5
+        "title": "Starlit Sanctuary",
+        "name": "Celestial City",
+        "icon": "✨"
       },
       {
-        "text": "It was hidden in plain sight the entire time.",
-        "duration": 5
+        "title": "Subterranean Beacon",
+        "name": "Glowhole City",
+        "icon": "🕳️"
       },
       {
-        "text": "Once you see it, you cannot unsee it.",
-        "duration": 4
+        "title": "Skyward Spectra",
+        "name": "Nimbus Nexus",
+        "icon": "☁️"
       },
       {
-        "text": "Most will scroll past this and stay behind.",
-        "duration": 4
+        "title": "Prismatic Hub",
+        "name": "Spectrum City",
+        "icon": "🌈"
       },
       {
-        "text": "Don't let the algorithm hide the truth. Follow for more BioLuminescentCities.",
-        "duration": 5
-      },
-      {
-        "text": "Next: the method that changes everything.",
-        "duration": 4
+        "title": "Time‑Warp Port",
+        "name": "Eternity Harbor",
+        "icon": "⏳"
       }
     ]
   },
@@ -93453,49 +93459,43 @@
     ]
   },
   "PollinatorMetropolis": {
-    "voice": "af_heart",
-    "hook": "Here are the top 8 PollinatorMetropolis secrets you need to know.",
-    "closing": "99% miss the hidden pattern. Be the 1% who sees it. Join us.",
-    "list": [
+    "voice": "en-US-JennyNeural",
+    "lines": [
       {
-        "title": "Urban Blooms",
-        "name": "Sky-High Park",
-        "icon": "🌆"
+        "text": "Nobody talks about the truth of PollinatorMetropolis.",
+        "duration": 5
       },
       {
-        "title": "Nectar Nexus",
-        "name": "Moonlit Nectar Festival",
-        "icon": "🌙"
+        "text": "And that silence is costing you everything.",
+        "duration": 5
       },
       {
-        "title": "Pollination Pioneers",
-        "name": "Glowing Honey Lab",
-        "icon": "🔬"
+        "text": "The data shows 97% of people get this wrong.",
+        "duration": 5
       },
       {
-        "title": "Flight Routes",
-        "name": "Luminescent Pathways",
-        "icon": "🌌"
+        "text": "The real pattern only 3% ever discover.",
+        "duration": 5
       },
       {
-        "title": "Honey Rivers",
-        "name": "Golden Cascade",
-        "icon": "🏞️"
+        "text": "It was hidden in plain sight the entire time.",
+        "duration": 5
       },
       {
-        "title": "Scented Skyline",
-        "name": "Blooming Skyrise",
-        "icon": "🏙️"
+        "text": "Once you see it, you cannot unsee it.",
+        "duration": 4
       },
       {
-        "title": "Aliens of Nature",
-        "name": "Stardust Bumble",
-        "icon": "✨"
+        "text": "Most will scroll past this and stay behind.",
+        "duration": 4
       },
       {
-        "title": "Galaxy Gardens",
-        "name": "Orbiting Florale",
-        "icon": "🌠"
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: the method that changes everything.",
+        "duration": 4
       }
     ]
   },
@@ -97135,6 +97135,47 @@
       },
       {
         "text": "Next: the method that changes everything.",
+        "duration": 4
+      }
+    ]
+  },
+  "PlantSymphonies": {
+    "voice": "en-US-JennyNeural",
+    "lines": [
+      {
+        "text": "What if every tree had its own soundtrack?",
+        "duration": 5
+      },
+      {
+        "text": "Imagine hearing the jungle’s heartbeat in real time.",
+        "duration": 4
+      },
+      {
+        "text": "AI decodes pollen vibrations into melodies.",
+        "duration": 5
+      },
+      {
+        "text": "Each bloom writes a chord that syncs with sunrise.",
+        "duration": 5
+      },
+      {
+        "text": "The rhythm shifts daily, turning forests into symphonies.",
+        "duration": 5
+      },
+      {
+        "text": "Hold on—next frame reveals why your ears crave this.",
+        "duration": 4
+      },
+      {
+        "text": "If you skip, you miss nature’s hidden score.",
+        "duration": 4
+      },
+      {
+        "text": "Stop scrolling. This is your sign to level up. Follow.",
+        "duration": 5
+      },
+      {
+        "text": "Next: see which plant is humming the future.",
         "duration": 4
       }
     ]

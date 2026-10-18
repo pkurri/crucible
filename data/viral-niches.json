@@ -48332,6 +48332,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "PlantSymphonies",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Combining premium nature footage with cutting‑edge AI audio generation creates a perfect blend of curiosity and wonder. The videos are visually striking, extremely shareable, and tap into the current trend of bio‑hackery and immersive storytelling, giving it huge scroll‑stopping potential.",
+      "ideas": [
+        "Plants Sing to You? AI Translates Leaf Signals into Beautiful Music – Watch a living symphony unfold in 60 seconds!",
+        "The Quiet Music of Trees: AI Creates Orchestras from Roots and Leaves – From sap to melody in one dazzling clip.",
+        "When Lollipops Turn into Songs? The Futuristic Plant Audio Lab – See sugarcane fans create pop hits in an instant."
+      ],
+      "keywords": [
+        "Luminous",
+        "Chromatic",
+        "Vivid",
+        "Dynamic",
+        "Ethereal"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
