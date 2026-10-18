@@ -48152,6 +48152,30 @@
         "suspenseful"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "FungalFutureCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "The concept of cities built from or integrated with giant fungi and living walls is visually stunning, highly shareable, and taps into current trends in biophilic design, sustainability, and speculative architecture. It offers endless “scroll‑stopping” visuals (giant mushroom roofs, bioluminescent alleyways, underground forest skyscrapers) and a curiosity loop: how do we power, water, and build a metropolis that grows like a plant? With its novelty and cross‑platform appeal (shorts, carousel posts, immersive videos), it can attract both eco‑enthusiasts and sci‑fi fans, driving high engagement and potential for 1M+ subscribers and 100K+ views per video.",
+      "ideas": [
+        "The World's First Mushroom Metropolis: Inside a City That Grows From the Ground Up – Ever wondered what a city made of living fungi would look like? Dive in!",
+        "How Bioluminescent Streets Could End City Lighting Costs Forever – Watch a night in a glow‑stone city and see why this tech might power the planet.",
+        "From Pencent to Skyscraper: Designing Buildings with Mycelium – Discover how architects turn fungal networks into structural marvels, and why you’ll want to see this future."
+      ],
+      "keywords": [
+        "mushroom",
+        "bioluminescent",
+        "underground",
+        "living walls",
+        "giant pillars"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
