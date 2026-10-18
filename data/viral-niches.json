@@ -48230,6 +48230,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "MyceliumSkyline",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "Sustainable architecture is a hot trend, and mycelium‑based construction offers a mesmerizing, living alternative to traditional buildings. The visual spectacle of fungal threads turning into skyscrapers, the promise of self‑healing structures, and the novelty of biophilic mega‑projects make it both differentiation‑rich and highly shareable. Using time‑lapse, macro, and 3D rendering delivers scroll‑stopping hooks that keep viewers glued while the curiosity loop reveals how these living landscapes grow, repair, and adapt.",
+      "ideas": [
+        "Inside a City Built Completely of Fungi: Watch the Skyline Grow in 60 Seconds!",
+        "The First Living Skyscraper: Mycelium Builds a Whole Neighborhood in a Day!",
+        "From Spores to Towers: 4K Time‑lapse of a Mycelium Metropolis in 3 Minutes!"
+      ],
+      "keywords": [
+        "Macro",
+        "Time-lapse",
+        "Immersive",
+        "Bioluminescent",
+        "Hyper‑detail"
+      ],
+      "voice": "en-US-GuyNeural",
       "priority": true
     }
   ]
