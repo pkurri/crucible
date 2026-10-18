@@ -48356,6 +48356,30 @@
         "Ethereal"
       ],
       "voice": "en-US-JennyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioLuminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Awe",
+      "reason": "This niche merges cutting‑edge bio‑engineering with urban fantasy, tapping into growing public interest in sustainable living, biophilic design, and the visual allure of glowing ecosystems. While some channels showcase bioluminescent organisms in isolation, few explore the concept of entire futuristic cities powered by living illumination. The novelty factor, combined with highly shareable visual content (night‑time cityscapes pulsing with natural light) and the universal yearning for wonder, makes it ripe for rapid audience growth. The niche also supports diverse sub‑topics—mycelium‑powered streetlights, algae‑lit skylines, rentable hover‑villages—allowing for 25+ unique viral concepts that can play to scroll‑stopping hooks and curiosity loops.",
+      "ideas": [
+        "The City That Never Sleeps: Inside the First Fully Bioluminescent Metropolis – see what happens when the lights come alive after dusk!",
+        "Glow‑Garden District Revealed: How Mycelium‑powered Bioluminescent Trees Are Turning Urban Streets into Neon Forests",
+        "From Lab to Skyline: The Impossible Blueprint of a Zero‑Carbon City Illuminated by Living Light"
+      ],
+      "keywords": [
+        "Glowing Streets",
+        "Neon Bioluminescence",
+        "Pulsating Lights",
+        "Dreamlike Glow",
+        "Futuristic Neon"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
