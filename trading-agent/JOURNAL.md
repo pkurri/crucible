@@ -608,65 +608,129 @@ This is research output, not investment advice, and no order has been placed.
 
 ## 2026-10-14 16:58 ET — shadow session 03 (post-close)
 
-- run file: `runs/2026-10-14-shadow-03.json`; symbol data: `runs/2026-10-14-symbols.json`; market data: `runs/2026-10-14-market.json`
+- run file: `runs/2026-10-14-shadow-03.json`; symbol data:
+  `runs/2026-10-14-symbols.json`; market data: `runs/2026-10-14-market.json`
 - agent/policy/watchlist version: AGENT.md Phase 2 / 3.0.0 / 3.0.0
 - data sources + freshness:
-  - `get_equity_historicals` (SPY, QQQ, daily, 2026-04-01 to 2026-10-13): 135 bars each; today's SPY close (769.63) added from regular-session quote
-  - `get_index_quotes` (VIX): 16.87, venue_timestamp 2026-10-14T16:15:01 ET (captured at session start)
-  - `get_equity_quotes` on 12 watchlist symbols: regular-session venue_last_trade_time ~2026-10-14T19:59:59Z; quote age at capture ~3531–3532 s; **all quotes stale** (> 120 s limit)
+  - `get_equity_historicals` (SPY, QQQ, daily, 2026-04-01 to 2026-10-13): 135
+    bars each; today's SPY close (769.63) added from regular-session quote
+  - `get_index_quotes` (VIX): 16.87, venue_timestamp 2026-10-14T16:15:01 ET
+    (captured at session start)
+  - `get_equity_quotes` on 12 watchlist symbols: regular-session
+    venue_last_trade_time ~2026-10-14T19:59:59Z; quote age at capture ~3531–3532
+    s; **all quotes stale** (> 120 s limit)
   - `get_equity_fundamentals` on all 12 symbols: market_date 2026-10-14
-  - `get_equity_historicals` per symbol: 30 bars, 2026-09-01 to 2026-10-13; no gaps, no stale history
+  - `get_equity_historicals` per symbol: 30 bars, 2026-09-01 to 2026-10-13; no
+    gaps, no stale history
   - `get_equity_positions` on the agentic account (MCP)
-- regime (`context.py`): **chop (+0.14% vs 50d), volatility normal (VIX 16.87), risk_on, -1.21% from period high, no event shock, entries_supported true.** 136 sessions used.
-- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE, AMC, SPCE
-- decisions: NO_TRADE on all 12 — every symbol blocked by `stale_quote` from `quality.py`
+- regime (`context.py`): **chop (+0.14% vs 50d), volatility normal (VIX 16.87),
+  risk_on, -1.21% from period high, no event shock, entries_supported true.**
+  136 sessions used.
+- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE, AMC,
+  SPCE
+- decisions: NO_TRADE on all 12 — every symbol blocked by `stale_quote` from
+  `quality.py`
 - abstentions + reasons:
-  - VOO, VTI, SGOV: stale_quote (3531–3532 s); also blocked by position-count breach (19 vs cap 4)
-  - LULU, IONQ, QS, LCID, NIO, FUBO, PSFE, AMC, SPCE: stale_quote (3531–3532 s); no analysis performed on stale data
+  - VOO, VTI, SGOV: stale_quote (3531–3532 s); also blocked by position-count
+    breach (19 vs cap 4)
+  - LULU, IONQ, QS, LCID, NIO, FUBO, PSFE, AMC, SPCE: stale_quote (3531–3532 s);
+    no analysis performed on stale data
 - notable data points (not used in decisions, for context only):
-  - IONQ down 9.55% on the day ($34.73 → $31.42); QS at new 52w low ($3.85); FUBO at new 52w low ($7.91); SPY down 1.08% from prior close
-  - Session ran at 16:58 ET vs scheduled 15:10 ET window; all regular-session quotes are ~59 minutes old by capture time
+  - IONQ down 9.55% on the day ($34.73 → $31.42); QS at new 52w low ($3.85);
+    FUBO at new 52w low ($7.91); SPY down 1.08% from prior close
+  - Session ran at 16:58 ET vs scheduled 15:10 ET window; all regular-session
+    quotes are ~59 minutes old by capture time
 - forecast settlement: nothing due
 - new forecasts: abstained — cannot register forecasts against stale data
-- tool audit: `mcp__robinhood-trading__decline_trade_approval` is available and flagged; it is a mutating tool. Not used.
-- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals, 12 abstentions — run valid
-- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 5 GFD orders expired from prior sessions
+- tool audit: `mcp__robinhood-trading__decline_trade_approval` is available and
+  flagged; it is a mutating tool. Not used.
+- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals, 12
+  abstentions — run valid
+- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 5 GFD orders
+  expired from prior sessions
 - tests: 325 passed
 - shadow sessions: 3 of 20.
-- anomalies: Session executed after market close (16:58 ET) instead of the scheduled 15:10 ET window. This caused every regular-session quote to exceed the 120 s staleness threshold by ~59 minutes, blocking all analysis. The routine schedule (19:10 UTC / 15:10 ET) should prevent this on subsequent runs. One session consumed; no new evidence produced.
+- anomalies: Session executed after market close (16:58 ET) instead of the
+  scheduled 15:10 ET window. This caused every regular-session quote to exceed
+  the 120 s staleness threshold by ~59 minutes, blocking all analysis. The
+  routine schedule (19:10 UTC / 15:10 ET) should prevent this on subsequent
+  runs. One session consumed; no new evidence produced.
 
 This is research output, not investment advice, and no order has been placed.
 
 ## 2026-10-15 15:44 ET — shadow session 04
 
-- run file: `runs/2026-10-15-shadow-04.json`; symbol data: `runs/2026-10-15-symbols.json`; market data: `runs/2026-10-15-market.json`
+- run file: `runs/2026-10-15-shadow-04.json`; symbol data:
+  `runs/2026-10-15-symbols.json`; market data: `runs/2026-10-15-market.json`
 - agent/policy/watchlist version: AGENT.md Phase 2 / 3.0.0 / 3.0.0
 - data sources + freshness:
-  - `get_equity_historicals` (SPY, QQQ, daily, 2026-03-30 to 2026-10-14): 138 bars each; today's SPY (772.08) and QQQ (728.98) added from live regular-session quotes at venue_last_trade_time 2026-10-15T19:44Z
-  - `get_index_quotes` (VIX): 16.46, at 15:44:31 ET; captured inside regular session
-  - `get_equity_quotes` on 12 watchlist symbols: venue_last_trade_time 2026-10-15T19:44Z; quote ages 4–44 s; **all quotes fresh** (well under 120 s limit)
+  - `get_equity_historicals` (SPY, QQQ, daily, 2026-03-30 to 2026-10-14): 138
+    bars each; today's SPY (772.08) and QQQ (728.98) added from live
+    regular-session quotes at venue_last_trade_time 2026-10-15T19:44Z
+  - `get_index_quotes` (VIX): 16.46, at 15:44:31 ET; captured inside regular
+    session
+  - `get_equity_quotes` on 12 watchlist symbols: venue_last_trade_time
+    2026-10-15T19:44Z; quote ages 4–44 s; **all quotes fresh** (well under 120 s
+    limit)
   - `get_equity_fundamentals` on all 12 symbols
-  - `get_equity_historicals` per symbol: 42 bars, 2026-08-17 to 2026-10-14; no gaps, no stale history
-  - `get_equity_positions` on the agentic account (nickname "MCP", agentic_allowed=true; ROUTINE.md says "Agentic" — same account, different nickname)
-- regime (`context.py`): **chop (+0.45% vs 50d), volatility normal (VIX 16.46), risk_on, entries_supported true.** 139 sessions used.
-- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE, AMC, SPCE
+  - `get_equity_historicals` per symbol: 42 bars, 2026-08-17 to 2026-10-14; no
+    gaps, no stale history
+  - `get_equity_positions` on the agentic account (nickname "MCP",
+    agentic_allowed=true; ROUTINE.md says "Agentic" — same account, different
+    nickname)
+- regime (`context.py`): **chop (+0.45% vs 50d), volatility normal (VIX 16.46),
+  risk_on, entries_supported true.** 139 sessions used.
+- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE, AMC,
+  SPCE
 - decisions: NO_TRADE on all 12
 - abstentions + reasons:
-  - VOO, VTI, SGOV (score 15): not held; position-count breach (19 vs cap 4) blocks all entries regardless of regime
-  - LULU (score 49): held at large loss (avg $214.10 vs $94.25); broad +0.45% bounce today but no dated exit catalyst confirmed via tool; recent earnings beat (Oct 8 Q3 guide raise) argues against selling at these levels; score 49 < 70
-  - IONQ (score 48): held at large loss (avg $65.25 vs $31.55); recovered +8.45% from session-03 close; Q3 beat and raised guidance (Oct 8) argues against exit; score 48 < 70
-  - QS (score 56): held at large loss (avg $23.71 vs $3.93 session-03; today ~$4.28); bounced +8.78% from new 52w low; no catalyst confirmed via tool; score 56 < 70
-  - LCID (score 53): held at large loss (avg $142.53 vs ~$3.49 today); recovered +5.62% but no dated catalyst confirmed; score 53 < 70
-  - NIO (score 50): held at large loss (avg $22.11 vs ~$3.58 today); China macro headwinds unresolved; no catalyst confirmed; score 50 < 70
-  - FUBO (score 46): held at large loss; new 52w low session-03 ($7.91); slight recovery; no catalyst confirmed; score 46 < 70
-  - PSFE (score 43): held at loss; wide bid-ask spread a recurring liquidity concern; no catalyst confirmed; score 43 < 70
-  - AMC (score 46): held at large loss; distressed balance sheet; no catalyst confirmed; score 46 < 70
-  - SPCE (score 53): held at catastrophic loss (avg $266.02 vs ~$2.68 today); no catalyst confirmed; score 53 < 70
+  - VOO, VTI, SGOV (score 15): not held; position-count breach (19 vs cap 4)
+    blocks all entries regardless of regime
+  - LULU (score 49): held at large loss (avg $214.10 vs $94.25); broad +0.45%
+    bounce today but no dated exit catalyst confirmed via tool; recent earnings
+    beat (Oct 8 Q3 guide raise) argues against selling at these levels; score 49
+    < 70
+  - IONQ (score 48): held at large loss (avg $65.25 vs $31.55); recovered +8.45%
+    from session-03 close; Q3 beat and raised guidance (Oct 8) argues against
+    exit; score 48 < 70
+  - QS (score 56): held at large loss (avg $23.71 vs $3.93 session-03; today
+    ~$4.28); bounced +8.78% from new 52w low; no catalyst confirmed via tool;
+    score 56 < 70
+  - LCID (score 53): held at large loss (avg $142.53 vs ~$3.49 today); recovered
+    +5.62% but no dated catalyst confirmed; score 53 < 70
+  - NIO (score 50): held at large loss (avg $22.11 vs ~$3.58 today); China macro
+    headwinds unresolved; no catalyst confirmed; score 50 < 70
+  - FUBO (score 46): held at large loss; new 52w low session-03 ($7.91); slight
+    recovery; no catalyst confirmed; score 46 < 70
+  - PSFE (score 43): held at loss; wide bid-ask spread a recurring liquidity
+    concern; no catalyst confirmed; score 43 < 70
+  - AMC (score 46): held at large loss; distressed balance sheet; no catalyst
+    confirmed; score 46 < 70
+  - SPCE (score 53): held at catastrophic loss (avg $266.02 vs ~$2.68 today); no
+    catalyst confirmed; score 53 < 70
 - forecast settlement: nothing due (next due 2026-10-27)
-- new forecasts: none — broad bounce today but no symbol-specific thesis meets the 0.50–0.99 probability bar with sufficient confidence
-- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals, 12 abstentions — run valid
-- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 0 policy bypasses, 0 duplicates
-- anomalies: account nickname is "MCP" in API response, not "Agentic" as ROUTINE.md specifies; same agentic_allowed=true account (608120267) — noted, not blocking
+- new forecasts: none — broad bounce today but no symbol-specific thesis meets
+  the 0.50–0.99 probability bar with sufficient confidence
+- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals, 12
+  abstentions — run valid
+- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 0 policy bypasses,
+  0 duplicates
+- anomalies: account nickname is "MCP" in API response, not "Agentic" as
+  ROUTINE.md specifies; same agentic_allowed=true account (608120267) — noted,
+  not blocking
 - shadow sessions: 4 of 20.
 
 This is research output, not investment advice, and no order has been placed.
+
+## 2026-10-19 — sessions 3 and 4 recorded; 16 Oct lost to no network
+
+- Sessions 3 (14 Oct) and 4 (15 Oct) completed. Session 3's own push was refused
+  by its sandbox (SSH and HTTPS both blocked); its commit reached GitHub with
+  session 4's push. Both started late (15:22, 15:25) and session 3 ran past six
+  hours, consistent with the Mac sleeping mid-run.
+- 16 Oct: the auth preflight and the session both failed with "Unable to connect
+  to API"; exit 1 was logged and notified, as designed. Not reconstructed.
+- Launcher: the session now runs under `caffeinate -i` so an idle sleep cannot
+  interrupt it, and the launcher (not sandboxed) pushes any commit the session
+  could not. A failed launcher push exits 4 and notifies.
+- shadow sessions: 4 of 20.
