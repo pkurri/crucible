@@ -34,7 +34,7 @@ async function cloudflareFlux(prompt, seed, outFile) {
   const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${acct}/ai/run/@cf/black-forest-labs/flux-1-schnell`, {
     method: 'POST',
     headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ prompt: prompt.slice(0, 2048), steps: 8, seed }),
+    body: JSON.stringify({ prompt: prompt.slice(0, 2048), steps: 8 }), // schema rejects 'seed'
   });
   const json = await res.json().catch(() => ({}));
   const b64 = json?.result?.image || json?.image;
@@ -59,11 +59,12 @@ function hordeFetch(url, opts) {
   return p;
 }
 
+// Anonymous (0-kudos) requests must stay under ~724x724 px worth of work, hence 512x896 @ 20 steps.
 async function stableHorde(prompt, seed, outFile) {
   const headers = { 'Content-Type': 'application/json', apikey: process.env.STABLE_HORDE_API_KEY || '0000000000' };
   const start = await hordeFetch('https://stablehorde.net/api/v2/generate/async', {
     method: 'POST', headers,
-    body: JSON.stringify({ prompt: prompt.slice(0, 1000), nsfw: false, censor_nsfw: true, params: { width: 576, height: 1024, steps: 25, seed: String(seed), n: 1, sampler_name: 'k_euler_a' } }),
+    body: JSON.stringify({ prompt: prompt.slice(0, 1000), nsfw: false, censor_nsfw: true, params: { width: 512, height: 896, steps: 20, seed: String(seed), n: 1, sampler_name: 'k_euler_a' } }),
   });
   if (!start.id) throw new Error(`Stable Horde: ${start.message || 'no job id'}`);
   for (let i = 0; i < 90; i++) { // up to ~15 min: anonymous jobs queue at low priority
