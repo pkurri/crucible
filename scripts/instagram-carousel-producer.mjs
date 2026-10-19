@@ -8,7 +8,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 
-const META_API = 'https://graph.facebook.com/v21.0';
+const META_API = `https://graph.facebook.com/${process.env.META_API_VERSION || 'v26.0'}`;
 const IG_ACCOUNT_ID = process.env.META_IG_ACCOUNT_ID;
 const ACCESS_TOKEN = process.env.META_ACCESS_TOKEN;
 const STATE_FILE = path.join(process.cwd(), 'data', 'instagram-carousel-state.json');
@@ -72,7 +72,7 @@ Keep under 2000 chars.`;
     // Try Google Gemini first
     if (process.env.GOOGLE_API_KEY) {
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite-001:generateContent?key=${process.env.GOOGLE_API_KEY}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${process.env.GOOGLE_API_KEY}`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },

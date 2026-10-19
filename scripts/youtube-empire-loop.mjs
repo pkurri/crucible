@@ -42,6 +42,18 @@ async function uploadToYouTube(topic, topicDir, state, stateFile) {
   } catch (e) {
     const stderr = e.stderr?.toString() || '';
     const stdout = e.stdout?.toString() || '';
+    const combined = stdout + stderr;
+    // Uploader exits non-zero on API errors, so quota/auth failures land here, not in the success path.
+    if (/exceeded the number of videos|quotaExceeded|uploadLimitExceeded/.test(combined)) {
+      console.log('🛑 QUOTA REACHED [API Level]. Stopping.');
+      const s = loadState(stateFile);
+      s.uploadsToday = MAX;
+      saveState(stateFile, s);
+      return false;
+    }
+    if (/invalid_grant|invalid_client|unauthorized_client/.test(combined)) {
+      throw new Error('YouTube OAuth token is dead (invalid_grant). Run `node scripts/youtube-auth-test.mjs` locally to re-auth and resync YOUTUBE_TOKEN_JSON.');
+    }
     console.error(`❌ [${topic}] YouTube upload FAILED (exit code ${e.status})`);
     if (stdout) console.error(`   stdout: ${stdout.slice(0, 500)}`);
     if (stderr) console.error(`   stderr: ${stderr.slice(0, 500)}`);

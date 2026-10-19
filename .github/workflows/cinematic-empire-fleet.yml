@@ -1,8 +1,7 @@
 name: '🎥 Cinematic Empire (LTX + OpenArt) Fleet'
 
 on:
-  schedule:
-    - cron: '0 */2 * * *'  # Trigger every 2 hours, node script enforces the 4-hour timeframe logic
+  # Schedule retired 2026-10-19: replaced by film-empire-fleet.yml (1 film/day).
   workflow_dispatch:
 
 jobs:

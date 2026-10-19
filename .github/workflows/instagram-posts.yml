@@ -1,9 +1,12 @@
 name: 📸 Instagram Carousel Posts
 
 on:
-  schedule:
-    - cron: '15 */6 * * *'  # Every 6 hours, offset from Reels
+  # Schedule retired 2026-10-19: replaced by film-empire-fleet.yml (1 film/day).
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
   instagram-posts:
@@ -13,11 +16,11 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Install Dependencies
         run: npm install
@@ -34,8 +37,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/instagram-carousel-state.json || true
-          git diff --staged --quiet || git commit -m "chore: update instagram carousel state [skip ci]"
-          git pull --rebase origin main
-          git push origin main
+          git add -f data/instagram-carousel-state.json || true
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: update instagram carousel state [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "Push attempt $i failed, retrying..."; sleep $((i * 15))
+          done
+          echo "::error::Failed to push state after 3 attempts" && exit 1
         continue-on-error: true

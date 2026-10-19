@@ -8,7 +8,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 
-const META_API = 'https://graph.facebook.com/v21.0';
+const META_API = `https://graph.facebook.com/${process.env.META_API_VERSION || 'v26.0'}`;
 const IG_ACCOUNT_ID = process.env.META_IG_ACCOUNT_ID;
 const ACCESS_TOKEN = process.env.META_ACCESS_TOKEN;
 const STATE_FILE = path.join(process.cwd(), 'data', 'instagram-stories-state.json');

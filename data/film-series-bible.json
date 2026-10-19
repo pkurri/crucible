@@ -1,0 +1,20 @@
+{
+  "series": "AAK-tion Files",
+  "premise": "In a rain-soaked near-future harbor city, a night courier delivers sealed packages that each hold one impossible object. Every episode is one delivery and one small mystery, resolved in under a minute.",
+  "character": {
+    "name": "Kai",
+    "description": "a lean courier in her late twenties with a short black undercut, a scar through her left eyebrow, a weathered olive-green hooded rain jacket with a glowing amber strip on the collar, fingerless black gloves, and a battered silver delivery case strapped to her back",
+    "voice": "calm, low, dry humor, speaks in short lines"
+  },
+  "world": "Neon-lit harbor city at night: wet streets, cargo cranes, floating market stalls, tram cables humming overhead, constant light rain.",
+  "visualStyle": "cinematic 35mm look, anamorphic lens flares, teal-and-amber color grade, shallow depth of field, volumetric fog, rain catching neon light",
+  "audioStyle": "rain ambience, distant tram bells, low synth drone; dialogue only from Kai, one or two short lines per scene",
+  "tone": "mysterious, warm, quietly funny; never gory, never political, no real brands or real people",
+  "rules": [
+    "Every episode is fiction; no health, finance or legal advice.",
+    "Kai appears in every scene and is described with the exact character description.",
+    "Each episode introduces one new impossible object and one new recipient.",
+    "End on a small twist or reveal, then one call to action to follow for the next delivery."
+  ],
+  "cta": "Follow for the next delivery."
+}

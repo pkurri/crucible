@@ -1,8 +1,7 @@
 name: '🌌 Akasha Glimpse YouTube Automation'
 
 on:
-  schedule:
-    - cron: '0 10 * * *'  # Runs daily at 10 AM UTC
+  # Schedule retired 2026-10-19: replaced by film-empire-fleet.yml (1 film/day).
   workflow_dispatch:
 
 jobs:

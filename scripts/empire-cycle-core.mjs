@@ -95,6 +95,8 @@ export async function runProductionCycle(opts) {
   if (state.lastUploadDate !== today) {
     state.lastUploadDate = today;
     state.uploadsToday = 0;
+    // Persist the reset now: uploadFn and the success path re-read state from disk.
+    saveState(stateFile, state);
   }
 
   const remaining = maxUploads - state.uploadsToday;
@@ -206,12 +208,12 @@ export async function runProductionCycle(opts) {
     // ── Step 4: Upload (platform-specific callback) ────────────────────
     console.log(`🚀 [${topic}] Uploading to ${platform}... (${state.uploadsToday + 1}/${maxUploads})`);
     const success = await uploadFn(topic, topicDir, state, stateFile);
+    // uploadFn may write the state file (e.g. YouTube marks quota exhausted), so re-sync from disk.
+    Object.assign(state, loadState(stateFile));
     if (success) {
-      const freshState = loadState(stateFile);
-      freshState.uploadsToday++;
-      freshState.history.push({ topic, platform, date: new Date().toISOString() });
-      saveState(stateFile, freshState);
-      state.uploadsToday = freshState.uploadsToday;
+      state.uploadsToday++;
+      state.history.push({ topic, platform, date: new Date().toISOString() });
+      saveState(stateFile, state);
       markNicheUsed(topic, platform); // track per-platform usage for smart picker
       uploaded++;
     }
@@ -220,4 +222,9 @@ export async function runProductionCycle(opts) {
   saveState(stateFile, state);
   console.log(`\n${'═'.repeat(60)}`);
   console.log(`🏆 ${platform.toUpperCase()} CYCLE COMPLETE: ${produced} produced, ${uploaded} uploaded.`);
+  // A green CI run should mean content actually went out.
+  if (produced > 0 && uploaded === 0) {
+    console.error(`❌ ${platform}: produced ${produced} video(s) but uploaded none.`);
+    process.exitCode = 1;
+  }
 }

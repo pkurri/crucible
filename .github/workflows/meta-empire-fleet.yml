@@ -1,9 +1,12 @@
 name: '📸 AAK Nation Instagram Empire Fleet'
 
 on:
-  schedule:
-    - cron: '0 */4 * * *'  # Every 4 hours
+  # Schedule retired 2026-10-19: replaced by film-empire-fleet.yml (1 film/day).
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
   meta-production:
@@ -12,17 +15,17 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Install Node Dependencies
         run: npm install
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -31,6 +34,13 @@ jobs:
 
       - name: Install Edge TTS
         run: pip install edge-tts
+
+      - name: Preflight Meta Token
+        run: node scripts/meta-official-uploader.mjs --verify --target insta
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_IG_ACCOUNT_ID: ${{ secrets.META_IG_ACCOUNT_ID }}
+        continue-on-error: true
 
       - name: Create Data Structure
         run: mkdir -p data/instagram-empire/AAK-Nation/topics
@@ -49,14 +59,6 @@ jobs:
           NODE_ENV: production
           GITHUB_ACTIONS: "true"
 
-      - name: Verify Instagram Upload
-        if: always()
-        run: node scripts/meta-official-uploader.mjs --verify --target insta
-        env:
-          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
-          META_IG_ACCOUNT_ID: ${{ secrets.META_IG_ACCOUNT_ID }}
-        continue-on-error: true
-
       - name: Commit Status Update
         if: always()
         env:
@@ -64,7 +66,11 @@ jobs:
         run: |
           git config --global user.name "Crucible Bot"
           git config --global user.email "bot@crucible.ai"
-          git add data/ scripts/ || echo "No new files to add"
-          git diff --staged --quiet || git commit -m "chore: update instagram upload cycle [skip ci]"
-          git pull --rebase origin main || true
-          git push origin main || echo "Push failed"
+          git add -f scripts/ig-empire-state.json || true
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: update instagram upload cycle [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "Push attempt $i failed, retrying..."; sleep $((i * 15))
+          done
+          echo "::error::Failed to push state after 3 attempts" && exit 1

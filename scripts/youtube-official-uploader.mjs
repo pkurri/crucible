@@ -60,6 +60,10 @@ async function uploadVideo() {
       process.exit(0);
     } catch (err) {
       console.error('❌ [YT] Handshake FAILED: ' + err.message);
+      if (/invalid_grant/.test(err.message)) {
+        console.error('   → Refresh token expired/revoked. Run `node scripts/youtube-auth-test.mjs` locally to re-auth (it resyncs YOUTUBE_TOKEN_JSON).');
+        console.error('   → If this recurs every ~7 days, publish the Google Cloud OAuth consent screen out of "Testing" mode.');
+      }
       process.exit(1);
     }
   }
@@ -110,8 +114,13 @@ async function uploadVideo() {
     }
   }
 
-  const socialCallToAction = buildSocialCallToAction('youtube', topicName);
-  videoData.description = `${videoData.description || ''}\n\n${socialCallToAction}`.trim();
+  // Series episodes carry their own single CTA; don't bolt a sales link onto fiction.
+  if (!videoData.series) {
+    const socialCallToAction = buildSocialCallToAction('youtube', topicName);
+    videoData.description = `${videoData.description || ''}\n\n${socialCallToAction}`.trim();
+  }
+  // YouTube requires disclosure of realistic altered/synthetic media (Data API status.containsSyntheticMedia).
+  const containsSyntheticMedia = Boolean(videoData.synthetic) || process.argv.includes('--synthetic');
 
   const basedirArg = getArg('--basedir');
   const videoFilePath = basedirArg
@@ -137,7 +146,8 @@ async function uploadVideo() {
         },
         status: {
           privacyStatus: 'public',
-          selfDeclaredMadeForKids: channelName === 'PlayfulPixels', 
+          selfDeclaredMadeForKids: channelName === 'PlayfulPixels',
+          containsSyntheticMedia,
         },
       },
       media: {

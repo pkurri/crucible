@@ -1,9 +1,12 @@
 name: 🎬 YouTube Shorts Enhancement
 
 on:
-  schedule:
-    - cron: '0 */8 * * *'  # Every 8 hours
+  # Schedule retired 2026-10-19: replaced by film-empire-fleet.yml (1 film/day).
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
   enhance-shorts:
@@ -11,11 +14,11 @@ jobs:
     timeout-minutes: 45
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Install FFmpeg
         run: |

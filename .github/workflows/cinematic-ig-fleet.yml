@@ -1,8 +1,7 @@
 name: '📸 Cinematic Empire (IG Specific) Fleet'
 
 on:
-  schedule:
-    - cron: '15 */2 * * *'  # Trigger every 2 hours (at XX:15 to offset YouTube), script enforces a 5-hour gap
+  # Schedule retired 2026-10-19: replaced by film-empire-fleet.yml (1 film/day).
   workflow_dispatch:
 
 jobs:

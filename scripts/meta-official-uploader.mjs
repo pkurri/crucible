@@ -25,7 +25,10 @@ const BASE = (() => {
   const idx = process.argv.indexOf('--basedir');
   return idx !== -1 ? process.argv[idx + 1] : path.join(process.cwd(), 'data', 'meta-empire', 'AAK-Nation', 'topics');
 })();
-const META_API = 'https://graph.facebook.com/v19.0';
+// v19.0 expired; Meta silently auto-upgrades expired versions, so pin a current one.
+const META_API_VERSION = process.env.META_API_VERSION || 'v26.0';
+const META_API = `https://graph.facebook.com/${META_API_VERSION}`;
+const META_RUPLOAD = `https://rupload.facebook.com/ig-api-upload/${META_API_VERSION}`;
 
 const USER_ACCESS_TOKEN = process.env.META_ACCESS_TOKEN;
 const IG_ACCOUNT_ID     = process.env.META_IG_ACCOUNT_ID;
@@ -214,7 +217,7 @@ function uploadVideoDirectToFacebook(videoPath, caption, fbPageId, fbPageToken) 
   try {
     console.log(`[FB] Direct multipart upload to Meta API...`);
     const cmd = `curl -s -X POST \
-      "https://graph.facebook.com/v19.0/${fbPageId}/videos?access_token=${fbPageToken}" \
+      "${META_API}/${fbPageId}/videos?access_token=${fbPageToken}" \
       -F "description=<${tmpCaptionFile}" \
       -F "published=true" \
       -F "source=@${videoPath}"`;
@@ -228,45 +231,36 @@ function uploadVideoDirectToFacebook(videoPath, caption, fbPageId, fbPageToken) 
 }
 
 // ═══════════════════════════════════════════════════════
-// 📸 INSTAGRAM REELS UPLOAD (Forced URL Mode)
+// 📸 INSTAGRAM REELS UPLOAD (Resumable upload, URL-pull fallback)
 // ═══════════════════════════════════════════════════════
 async function uploadToInstagram(videoPath, caption) {
   const videoName = path.basename(path.dirname(videoPath)); // topic name
   const publicBaseUrl = process.env.META_VIDEO_BASE_URL;
-  const useUrl = publicBaseUrl && publicBaseUrl.startsWith('http');
+  const reelSettings = { media_type: 'REELS', caption, share_to_feed: true };
 
-  let videoUrl;
-  if (useUrl) {
-    videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
+  let containerId;
+  if (publicBaseUrl && publicBaseUrl.startsWith('http')) {
+    const videoUrl = `${publicBaseUrl.replace(/\/$/, '')}/${videoName}/final-render.mp4`;
     console.log(`[IG] Using provided domain URL: ${videoUrl}`);
+    const initRes = await apiCall(`${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`, 'POST', { ...reelSettings, video_url: videoUrl });
+    containerId = initRes.id;
   } else {
-    videoUrl = uploadToCDN(videoPath);
+    // Resumable upload: push the local file straight to Meta (no public CDN URL needed).
+    try {
+      console.log(`[IG] Creating resumable Reels container...`);
+      const initRes = await apiCall(`${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`, 'POST', { ...reelSettings, upload_type: 'resumable' });
+      containerId = initRes.id;
+      console.log(`[IG] Uploading ${(fs.statSync(videoPath).size / 1e6).toFixed(1)}MB to rupload...`);
+      const up = await uploadVideoFile(videoPath, `${META_RUPLOAD}/${containerId}`);
+      if (up.success === false) throw new Error(`rupload rejected file: ${JSON.stringify(up)}`);
+    } catch (e) {
+      console.warn(`[IG] Resumable upload failed (${e.message}). Falling back to CDN URL-pull...`);
+      const videoUrl = uploadToCDN(videoPath);
+      const initRes = await apiCall(`${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`, 'POST', { ...reelSettings, video_url: videoUrl });
+      containerId = initRes.id;
+    }
   }
 
-  console.log(`[IG] Creating media container (Cloud-Pull mode)...`);
-  
-  // Enhanced Reel settings with multi-language support
-  const reelSettings = {
-    media_type: 'REELS',
-    video_url: videoUrl,
-    caption: caption, // Instagram auto-translates captions for viewers
-    share_to_feed: true,
-    // Optional: Add cover frame (first frame by default)
-    // cover_url: coverImageUrl, // Uncomment if you have custom thumbnails
-    // Optional: Add location (improves discoverability)
-    // location_id: '123456', // Uncomment to add location tagging
-    // Optional: Audio attribution
-    // audio_name: 'Original Audio', // Uncomment for audio credit
-    // Note: Instagram automatically provides "See Translation" for captions
-    // in different languages. Use emojis and universal symbols for better reach.
-  };
-  
-  const initRes = await apiCall(
-    `${META_API}/${IG_ACCOUNT_ID}/media?access_token=${ACCESS_TOKEN}`,
-    'POST',
-    reelSettings
-  );
-  const containerId = initRes.id;
   console.log(`[IG] Container: ${containerId}. Waiting for cloud ingestion...`);
 
   // Step 3: Poll until ready (60 attempts × 10s = 10min max — enough for most videos)
@@ -275,11 +269,12 @@ async function uploadToInstagram(videoPath, caption) {
   while (status === 'IN_PROGRESS' && attempts < 60) {
     await sleep(10000); // 10s interval (was 30s — allows 3-4 uploads per job)
     const check = await apiCall(
-      `${META_API}/${containerId}?fields=status_code&access_token=${ACCESS_TOKEN}`
+      `${META_API}/${containerId}?fields=status_code,status&access_token=${ACCESS_TOKEN}`
     );
     status = check.status_code;
     attempts++;
     console.log(`[IG] Status: ${status} (attempt ${attempts})`);
+    if (status === 'ERROR') throw new Error(`[IG] Container processing error: ${check.status || 'unknown'}`);
   }
   if (status !== 'FINISHED') throw new Error(`[IG] Processing failed or timed out: ${status}`);
 
@@ -413,15 +408,37 @@ async function uploadToMeta() {
         declined.forEach(p => console.log(`   - ${p}`));
       }
 
-      // ── 3. Required scopes check ──────────────────────────────────────
-      const required = ['pages_manage_posts', 'pages_read_engagement', 'pages_show_list'];
+      // ── 2b. Token expiry (user tokens die after ~60 days; System User tokens don't) ──
+      try {
+        const dbg = await apiCall(`${META_API}/debug_token?input_token=${ACCESS_TOKEN}&access_token=${ACCESS_TOKEN}`);
+        const exp = dbg.data?.expires_at;
+        if (dbg.data?.is_valid === false) {
+          console.log(`::error::META_ACCESS_TOKEN is invalid. Regenerate it (prefer a Business Manager System User token).`);
+          exitCode = 1;
+        } else if (!exp) {
+          console.log(`\n⏳ [Token] Never expires (System User / page token).`);
+        } else {
+          const days = (exp * 1000 - Date.now()) / 86400000;
+          console.log(`\n⏳ [Token] Expires ${new Date(exp * 1000).toISOString()} (${days.toFixed(1)} days).`);
+          if (days < 7) console.log(`::warning::META_ACCESS_TOKEN expires in ${days.toFixed(1)} days. Replace it with a non-expiring System User token.`);
+        }
+      } catch (e) {
+        console.warn(`⚠️  [Token] debug_token check failed: ${e.message}`);
+      }
+
+      // ── 3. Required scopes check (per target) ─────────────────────────
+      const verifyTarget = getArg('--target') || 'both';
+      const required = [
+        ...(verifyTarget !== 'insta' ? ['pages_manage_posts', 'pages_read_engagement', 'pages_show_list'] : []),
+        ...(verifyTarget !== 'fb' ? ['instagram_basic', 'instagram_content_publish'] : []),
+      ];
       const missing  = required.filter(r => !granted.includes(r));
       if (missing.length) {
-        console.log(`\n⚠️  [FB] MISSING required permissions: ${missing.join(', ')}`);
+        console.log(`\n⚠️  [Meta] MISSING required permissions: ${missing.join(', ')}`);
         console.log(`   → Regenerate token in Graph Explorer with these scopes.`);
         exitCode = 1;
       } else {
-        console.log(`\n✅ [FB] All required permissions present.`);
+        console.log(`\n✅ [Meta] All required permissions present for target '${verifyTarget}'.`);
       }
 
       // ── 4. Facebook Page token exchange + page info ───────────────────
@@ -503,8 +520,14 @@ async function uploadToMeta() {
     }
   }
 
-  hook.ig = `${hook.ig}\n\n${buildSocialCallToAction('instagram', topicName)}`;
-  hook.fb = `${hook.fb}\n\n${buildSocialCallToAction('facebook', topicName)}`;
+  const seriesMeta = fs.existsSync(METADATA_PATH) ? JSON.parse(fs.readFileSync(METADATA_PATH))[topicName] : null;
+  if (seriesMeta?.series) {
+    // Series episodes: their own caption (already includes the AI disclosure), no hashtag wall, no sales link.
+    hook = { ig: seriesMeta.ig_hook, fb: seriesMeta.fb_hook || seriesMeta.ig_hook };
+  } else {
+    hook.ig = `${hook.ig}\n\n${buildSocialCallToAction('instagram', topicName)}`;
+    hook.fb = `${hook.fb}\n\n${buildSocialCallToAction('facebook', topicName)}`;
+  }
 
   const targetStr = getArg('--target') || 'both';
   const forceRemix = process.argv.includes('--force-remix');
