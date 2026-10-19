@@ -97343,5 +97343,52 @@
         "duration": 4
       }
     ]
+  },
+  "ApexFlow_1792386678320": {
+    "voice": "af_heart",
+    "hook": "Here are the top 8 ApexFlow_1792386678320 secrets you need to know.",
+    "closing": "Stop scrolling. This is your sign to level up. Follow.",
+    "list": [
+      {
+        "title": "Obstacle",
+        "name": "Temporal Rift",
+        "icon": "⏳"
+      },
+      {
+        "title": "Power",
+        "name": "Flux Core",
+        "icon": "⚡"
+      },
+      {
+        "title": "Map",
+        "name": "Lost Archipelago",
+        "icon": "🏝"
+      },
+      {
+        "title": "Weapon",
+        "name": "Stellar Blade",
+        "icon": "⚔️"
+      },
+      {
+        "title": "NPC",
+        "name": "Ethereal Guide",
+        "icon": "👤"
+      },
+      {
+        "title": "Item",
+        "name": "Nebula Lens",
+        "icon": "🔭"
+      },
+      {
+        "title": "Strategy",
+        "name": "Echo Beam Tactics",
+        "icon": "📡"
+      },
+      {
+        "title": "Hidden",
+        "name": "Void Chamber",
+        "icon": "🕳"
+      }
+    ]
   }
 }
