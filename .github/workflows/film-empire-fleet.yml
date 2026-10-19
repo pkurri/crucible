@@ -92,7 +92,7 @@ jobs:
           GITHUB_ACTIONS: 'true'
 
       - name: Upload master for review (no-upload runs)
-        if: inputs.no_upload
+        if: always() && inputs.no_upload
         uses: actions/upload-artifact@v5
         with:
           name: film-master

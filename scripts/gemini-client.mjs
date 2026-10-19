@@ -7,6 +7,8 @@ import fs from 'fs';
 
 export const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta';
 export const TEXT_MODEL = process.env.GEMINI_TEXT_MODEL || 'gemini-3.1-flash-lite';
+// Free-tier fallbacks tried in order when the primary model is overloaded (503) or rate-limited.
+export const TEXT_FALLBACKS = (process.env.GEMINI_TEXT_FALLBACKS || 'gemini-3.5-flash-lite').split(',').map(s => s.trim()).filter(Boolean);
 
 export function apiKey() {
   const key = process.env.GOOGLE_API_KEY || process.env.GEMINI_API_KEY;
@@ -50,8 +52,19 @@ export async function generateText(prompt, { system, json = false, images = [], 
     ...(system ? { systemInstruction: { parts: [{ text: system }] } } : {}),
     generationConfig: { temperature: 0.9, ...(json ? { responseMimeType: 'application/json' } : {}) },
   };
-  const data = await geminiFetch(`${GEMINI_BASE}/models/${model}:generateContent`, { method: 'POST', body: JSON.stringify(body) });
-  const out = data?.candidates?.[0]?.content?.parts?.map(p => p.text || '').join('') || '';
-  if (!out) throw new Error(`Gemini returned no text (finishReason: ${data?.candidates?.[0]?.finishReason || 'unknown'})`);
-  return json ? JSON.parse(out) : out;
+  const models = [model, ...TEXT_FALLBACKS.filter(m => m !== model)];
+  let lastErr;
+  for (const m of models) {
+    try {
+      const data = await geminiFetch(`${GEMINI_BASE}/models/${m}:generateContent`, { method: 'POST', body: JSON.stringify(body) });
+      const out = data?.candidates?.[0]?.content?.parts?.map(p => p.text || '').join('') || '';
+      if (!out) throw new Error(`Gemini returned no text (finishReason: ${data?.candidates?.[0]?.finishReason || 'unknown'})`);
+      return json ? JSON.parse(out) : out;
+    } catch (e) {
+      lastErr = e;
+      if (!/Gemini (429|500|503)/.test(e.message)) throw e; // only fall through on capacity errors
+      console.warn(`   ↪️  ${m} unavailable; trying next model.`);
+    }
+  }
+  throw lastErr;
 }

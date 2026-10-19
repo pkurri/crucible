@@ -80,8 +80,11 @@ function uploadInstagram(master, slug) {
 async function main() {
   const state = loadState(STATE);
   const today = getToday();
-  if (!force && state.history.some(h => h.date?.startsWith(today))) {
-    console.log(`⏭️  Today's episode already exists (${today}). Skipping.`);
+  // Only a published episode counts toward the 1/day cap; failed gates and test runs don't.
+  const publishedToday = state.history.some(h => h.date?.startsWith(today) &&
+    Object.values(h.platforms || {}).some(v => v && v !== 'failed'));
+  if (!force && publishedToday) {
+    console.log(`⏭️  Today's episode is already published (${today}). Skipping.`);
     return;
   }
   console.log(`\n🎬 FILM EMPIRE — ${new Date().toISOString()}`);
