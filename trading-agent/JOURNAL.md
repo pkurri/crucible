@@ -734,3 +734,83 @@ This is research output, not investment advice, and no order has been placed.
   interrupt it, and the launcher (not sandboxed) pushes any commit the session
   could not. A failed launcher push exits 4 and notifies.
 - shadow sessions: 4 of 20.
+
+## 2026-10-19 15:24 ET — shadow session 05
+
+- run file: `runs/2026-10-19-shadow-05.json`; symbol data:
+  `runs/2026-10-19-symbols.json`; market data: `runs/2026-10-19-market.json`
+- agent/policy/watchlist version: AGENT.md Phase 2 / 3.0.0 / 3.0.0
+- data sources + freshness:
+  - `get_equity_historicals` (SPY, QQQ, daily, 2026-04-06 to 2026-10-16): 136
+    bars each; today's SPY (767.64) and QQQ (719.53) added from live
+    regular-session quotes at venue_last_trade_time 2026-10-19T19:10:36Z and
+    2026-10-19T19:11:33Z respectively
+  - `get_index_quotes` (VIX): 18.26, at 15:11:01 ET; captured inside regular
+    session
+  - `get_equity_quotes` on 12 watchlist symbols: fresh batch at
+    2026-10-19T19:13:43–19:14:00Z (symbols.json write); quote ages 61–77 s
+    at write time; **all quotes fresh** (well under 120 s limit); second
+    fetch at 19:24:31–19:24:37Z for bid/ask/last in markets section and
+    plan analysis — all fresh ≤ 68 s except FUBO (last_trade_time 19:23:06Z,
+    144 s at analysis time; bid/ask confirmed live at 19:24:34Z)
+  - `get_equity_historicals` per symbol: 29 bars, 2026-09-08 to 2026-10-16;
+    no gaps, no stale history; all symbols ≥ 21 bars required
+  - `get_equity_positions` on the agentic account (nickname "MCP",
+    agentic_allowed=true)
+- regime (`context.py`): **chop (-0.1% vs 50d), volatility normal (VIX
+  18.26), risk_off, entries_supported true, -1.47% from period high, no
+  event shock.** 137 sessions used.
+- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE,
+  AMC, SPCE
+- decisions: NO_TRADE on all 12
+- abstentions + reasons:
+  - VOO, VTI, SGOV (score 12): not held; position-count breach (19 vs cap
+    4) blocks all entries
+  - LULU (score 43): held at large loss (avg $214.10 vs $96.73 today);
+    -0.38% session, 0.75 sigma; no dated exit catalyst confirmed via tool;
+    score 43 < 70
+  - IONQ (score 45): held at large loss (avg $65.25 vs $31.13 today);
+    -0.48% session, quiet; Q2 FY26 beat (Aug 5) past; next earnings
+    tentatively Nov 4; score 45 < 70
+  - QS (score 50): held at large loss (avg $23.71 vs $3.935 today); -1.87%
+    session, 3.42 sigma; below 5% jump floor; no catalyst confirmed; score
+    50 < 70
+  - LCID (score 44): held at near-total loss (avg $142.53 vs $3.095 today);
+    -1.12% session, 4.43 sigma; position value $6.50, immaterial; no
+    catalyst confirmed; score 44 < 70
+  - NIO (score 47): held at large loss (avg $22.11 vs $3.395 today); -1.02%
+    session, 2.60 sigma; no catalyst confirmed; score 47 < 70
+  - FUBO (score 44): held at large loss; +0.69% session; last_trade_price
+    stale at analysis time (144 s — bid/ask confirmed live); data quality
+    passed via symbols.json (73 s at write); no catalyst; score 44 < 70
+  - PSFE (score 43): held at large loss (avg $42.22 vs $5.595 today); -1.15%
+    session, 2.95 sigma; thin liquidity unchanged; no catalyst; score 43 < 70
+  - AMC (score 52): held at large loss (avg $16.19 vs $3.035 today); +4.30%
+    session (4.76 sigma in quality.py at 19:14Z price; below 5% jump floor);
+    no confirmed catalyst; score 52 < 70
+  - SPCE (score 48): held at catastrophic loss (avg $266.02 vs $2.355 today);
+    -3.09% session, 3.26 sigma; below 5% jump floor; position value $6.48,
+    immaterial; no catalyst; score 48 < 70
+- forecast settlement: nothing due
+- new forecasts: abstained — no symbol-specific evidence meets the 0.50–0.99
+  probability bar; existing Brier score 0.2485 (near coin-flip); weak
+  calibration record argues for further abstention
+- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals, 12
+  abstentions — run valid
+- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 0 policy
+  bypasses, 0 duplicates; **shadow sessions: 5 of 20 required**
+- anomalies:
+  - FUBO last_trade_price stale at plan-write time (144 s); bid/ask confirmed
+    live via 19:24:34Z timestamps; data quality gate passed via symbols.json
+    (73 s at write); NO_TRADE decision unaffected
+  - Account nickname "MCP" in API vs "Agentic" in ROUTINE.md — recurring
+    discrepancy, same account (agentic_allowed=true); noted, not blocking
+  - `mcp__robinhood-trading__decline_trade_approval` present in connector
+    tool list — mutating tool; not called; flagged as allowlist gap
+    (consistent with prior sessions)
+  - Risk appetite shifted to risk_off today (VIX 18.26 vs 16.46 on Oct 15;
+    QQQ underperforming SPY over 20d); regime still entries_supported
+- shadow sessions: 5 of 20.
+
+This is research output, not investment advice, and no order has been placed.
+
