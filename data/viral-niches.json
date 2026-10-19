@@ -48461,6 +48461,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "BioluminescentCities",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.3,
+      "targetEmotion": "Awe",
+      "reason": "The BioluminescentCities niche blends cutting‑edge bio‑engineering with striking visual spectacle. With climate change urgency, burgeoning smart‑city tech, and viral fascination with glow‑in‑the‑dark aesthetics, it offers endless, highly shareable content that blends science, art and future‑vision. Its appeal spans eco‑enthusiasts, architecture buffs, sci‑fi fans and visual artists, ensuring both high reach and strong retention through mesmerizing imagery and mystery‑driven narratives.",
+      "ideas": [
+        "The First Ever Bioluminescent City: Inside Nature’s Neon Metropolis – What Happens When Glow Bugs Build a Smart Town?",
+        "How Scientists Turned Bacteria into City‑Lighting: Watch a Tiny Glow‑Factory Light up an Entire Neighborhood in 8 Seconds!",
+        "The Darkest City Ever Illuminated: 5 Minutes of Hyper‑Real Bioluminescent Skyscrapers (Can We Run a 2024 Mega‑City on Glow?)"
+      ],
+      "keywords": [
+        "Bioluminescence",
+        "NeonForest",
+        "GlowStreetlights",
+        "LiveLED",
+        "EcoCity"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
