@@ -16,5 +16,10 @@
     "Each episode introduces one new impossible object and one new recipient.",
     "End on a small twist or reveal, then one call to action to follow for the next delivery."
   ],
-  "cta": "Follow for the next delivery."
+  "cta": "Follow for the next delivery.",
+  "tts": {
+    "voice": "en-US-AvaNeural",
+    "rate": "-5%",
+    "note": "Free engine narration (Edge TTS), first person as Kai."
+  }
 }

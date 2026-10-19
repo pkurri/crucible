@@ -1,7 +1,10 @@
 name: '🎬 AAK-tion Film Fleet (YouTube + Instagram)'
 
-# One AI short film per day (Veo 3.1 via Gemini API), published natively to
-# YouTube Shorts and Instagram Reels after the automated quality gate passes.
+# One AI short film per day, published natively to YouTube Shorts and
+# Instagram Reels after the automated quality gate passes.
+# Scene engine via repo variable FILM_ENGINE: 'free' (default, $0: Cloudflare
+# Workers AI free tier / Stable Horde stills + Edge TTS) or 'veo' (paid).
+# GOOGLE_API_KEY only needs the Gemini free tier unless FILM_ENGINE=veo.
 
 on:
   schedule:
@@ -32,6 +35,13 @@ jobs:
 
       - name: Install Node Dependencies
         run: npm install
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install Edge TTS (free narration)
+        run: pip install edge-tts
 
       - name: Install FFmpeg + caption font
         run:
@@ -73,6 +83,9 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
           META_IG_ACCOUNT_ID: ${{ secrets.META_IG_ACCOUNT_ID }}
+          FILM_ENGINE: ${{ vars.FILM_ENGINE || 'free' }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           VEO_MODEL: ${{ vars.VEO_MODEL }}
           VEO_MAX_CLIPS_PER_DAY: ${{ vars.VEO_MAX_CLIPS_PER_DAY }}
           GEMINI_TEXT_MODEL: ${{ vars.GEMINI_TEXT_MODEL }}

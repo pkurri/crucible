@@ -66,8 +66,10 @@ the only place the "correct" invocation is guaranteed to be current.
 Since 2026-10-19 the only scheduled YouTube/Instagram publisher is
 `.github/workflows/film-empire-fleet.yml` → `scripts/film-empire-loop.mjs`: one
 AI short film per day for the series in `data/film-series-bible.json`
-(treatment → Veo 3.1 scenes via the Gemini API → ffmpeg assembly →
-`film-quality-gate.mjs` → YouTube + Instagram). Nothing publishes unless the
+(treatment → scenes → ffmpeg assembly → `film-quality-gate.mjs` → YouTube +
+Instagram). Scenes default to the $0 engine (`free-scene-generator.mjs`:
+Cloudflare Flux / Stable Horde stills + Edge TTS); `FILM_ENGINE=veo` switches
+to paid Veo 3.1 (`veo-scene-generator.mjs`). Nothing publishes unless the
 gate passes; a failed day publishes nothing by design. The YouTube/Instagram
 empire, cinematic, akasha, carousel and story workflows below have their
 `schedule:` removed (manual dispatch only) — don't re-enable them without

@@ -4,6 +4,7 @@ import { spawnSync } from 'child_process';
 import { loadState, saveState, getToday } from './empire-cycle-core.mjs';
 import { createTreatment } from './film-treatment-architect.mjs';
 import { generateScenes } from './veo-scene-generator.mjs';
+import { generateFreeScenes } from './free-scene-generator.mjs';
 import { assemble } from './film-assembler.mjs';
 import { runGate } from './film-quality-gate.mjs';
 
@@ -11,7 +12,11 @@ import { runGate } from './film-quality-gate.mjs';
  * 🎬 FILM EMPIRE LOOP — one AI short film per day, published natively to
  * YouTube Shorts and Instagram Reels from the same master.
  *
- *   treatment → Veo scenes → assembly → quality gate → YouTube → Instagram
+ *   treatment → scenes → assembly → quality gate → YouTube → Instagram
+ *
+ * Scene engine (env FILM_ENGINE):
+ *   free (default) — Cloudflare Flux / Stable Horde stills + camera moves + Edge TTS ($0)
+ *   veo            — Veo 3.1 generated video with native audio (paid, ~$0.05-0.40/s)
  *
  * Usage: node scripts/film-empire-loop.mjs [--no-upload] [--force]
  *   --no-upload  produce + gate only (local testing)
@@ -82,7 +87,10 @@ async function main() {
   console.log(`\n🎬 FILM EMPIRE — ${new Date().toISOString()}`);
 
   const { file, treatment } = await createTreatment({ statePath: STATE });
-  await generateScenes({ treatmentPath: file });
+  const engine = (process.env.FILM_ENGINE || 'free').toLowerCase();
+  console.log(`🎛️  Scene engine: ${engine}`);
+  if (engine === 'veo') await generateScenes({ treatmentPath: file });
+  else await generateFreeScenes({ treatmentPath: file });
   const master = assemble({ treatmentPath: file });
 
   const gate = await runGate({ treatment, video: master, history: state.history });

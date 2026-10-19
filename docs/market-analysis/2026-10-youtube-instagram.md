@@ -130,9 +130,29 @@ Track per video (YouTube Analytics + Instagram insights, phase 2):
 
 ## 6. Cost and risks
 
-- Veo is billed per generated second; the daily cap is `VEO_MAX_CLIPS_PER_DAY`
-  (default 6 clips × 8 s). Check current pricing on the Gemini API pricing page
-  before enabling the schedule.
+The pipeline runs **free by default** (`FILM_ENGINE=free`):
+
+| Step           | Free engine (default)                     | Cost |
+| -------------- | ----------------------------------------- | ---- |
+| Treatment      | Gemini 3.1 Flash-Lite, free tier          | $0   |
+| Scene images   | Cloudflare Workers AI Flux (free 10k/day) | $0   |
+| Image fallback | Stable Horde, anonymous                   | $0   |
+| Narration      | Edge TTS                                  | $0   |
+| Motion, edit   | ffmpeg on GitHub Actions                  | $0   |
+| Quality critic | Gemini 3.1 Flash-Lite, free tier          | $0   |
+| Publishing     | YouTube Data API, Instagram Graph API     | $0   |
+
+The Cloudflare free plan hard-stops at its daily allowance, so it cannot bill.
+The trade-off: animated stills with narration instead of generated motion video.
+
+Paid upgrade (`FILM_ENGINE=veo`): Veo 3.1 has no free tier. Per 48 s film: Lite
+720p $2.40, Fast 720p $4.80, Standard $19.20. Cap with `VEO_MAX_CLIPS_PER_DAY`.
+Upgrade only if the 30-day test shows retention worth paying for.
+
+Risks:
+
+- Free tiers can change or throttle; Stable Horde anonymous jobs can queue for
+  many minutes. A day with no images publishes nothing.
 - Veo 3.1 is a preview model; its id is configurable (`VEO_MODEL`).
 - AI-persona advice on health/finance/legal topics is reportedly non-monetizable
   (_unverified_); the series bible keeps stories fictional.
@@ -147,6 +167,8 @@ Track per video (YouTube Analytics + Instagram insights, phase 2):
 - [Instagram algorithm changes 2026 — SocialBu][s6]
 - [Veo 3 comes to YouTube Shorts — Tubefilter][s7]
 - [Veo in the Gemini API — Google AI for Developers][s8]
+- [Gemini API pricing][s9]
+- [Cloudflare Workers AI pricing][s10]
 
 [s1]:
   https://air.io/en/monetization/youtube-monetization-policy-changes-2026-a-complete-dated-timeline
@@ -157,3 +179,5 @@ Track per video (YouTube Analytics + Instagram insights, phase 2):
 [s6]: https://socialbu.com/blog/instagram-algorithm-changes
 [s7]: https://www.tubefilter.com/?p=186877
 [s8]: https://ai.google.dev/gemini-api/docs/veo
+[s9]: https://ai.google.dev/gemini-api/docs/pricing
+[s10]: https://developers.cloudflare.com/workers-ai/platform/pricing/

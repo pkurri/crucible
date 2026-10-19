@@ -45,13 +45,14 @@ STRUCTURE (a ${sceneCount * 8}-second vertical short film, exactly ${sceneCount}
 Each scene is rendered by an AI video model that sees only that scene's text, so every "visual" must describe the full shot on its own:
 subject and action, setting, lighting. Keep each "visual" under 60 words. Put the camera move in "camera" (e.g. "slow dolly-in", "handheld tracking shot").
 "audio" lists sound effects and ambience. "dialogue" is at most one short spoken line (or ""). "caption" is the on-screen text (max 60 chars).
+"narration" is ${bible.character.name}'s first-person voiceover for that scene: one or two sentences, 12-22 words, that carry the story even with the visuals muted.
 
 Return JSON only:
 {
   "title": "episode title (no clickbait, no emojis)",
   "logline": "one sentence",
   "hook": "what the viewer sees in the first 3 seconds",
-  "scenes": [{"visual": "", "camera": "", "audio": "", "dialogue": "", "caption": ""}],
+  "scenes": [{"visual": "", "camera": "", "audio": "", "dialogue": "", "narration": "", "caption": ""}],
   "ytTitle": "YouTube title under 70 chars, ends with #Shorts",
   "ytDescription": "2-3 sentences about this episode, then 3 hashtags",
   "tags": ["5-8 tags"],
