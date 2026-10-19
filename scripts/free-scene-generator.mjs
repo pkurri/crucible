@@ -42,20 +42,37 @@ async function cloudflareFlux(prompt, seed, outFile) {
   fs.writeFileSync(outFile, Buffer.from(b64, 'base64'));
 }
 
+// Stable Horde rate-limits per IP ("2 per 1 second"): serialize calls and retry 429s.
+let hordeChain = Promise.resolve();
+function hordeFetch(url, opts) {
+  const callOnce = async () => {
+    for (let attempt = 0; attempt < 8; attempt++) {
+      const res = await fetch(url, opts);
+      const json = await res.json().catch(() => ({}));
+      if (res.status !== 429 && !/per \d+ second/i.test(json.message || '')) return json;
+      await sleep(1500 * (attempt + 1));
+    }
+    throw new Error('Stable Horde: still rate-limited after retries');
+  };
+  const p = hordeChain.then(callOnce, callOnce);
+  hordeChain = p.then(() => sleep(700), () => sleep(700)); // keep ≥0.7s between requests
+  return p;
+}
+
 async function stableHorde(prompt, seed, outFile) {
   const headers = { 'Content-Type': 'application/json', apikey: process.env.STABLE_HORDE_API_KEY || '0000000000' };
-  const start = await (await fetch('https://stablehorde.net/api/v2/generate/async', {
+  const start = await hordeFetch('https://stablehorde.net/api/v2/generate/async', {
     method: 'POST', headers,
     body: JSON.stringify({ prompt: prompt.slice(0, 1000), nsfw: false, censor_nsfw: true, params: { width: 576, height: 1024, steps: 25, seed: String(seed), n: 1, sampler_name: 'k_euler_a' } }),
-  })).json();
+  });
   if (!start.id) throw new Error(`Stable Horde: ${start.message || 'no job id'}`);
   for (let i = 0; i < 90; i++) { // up to ~15 min: anonymous jobs queue at low priority
     await sleep(10000);
-    const check = await (await fetch(`https://stablehorde.net/api/v2/generate/check/${start.id}`)).json();
+    const check = await hordeFetch(`https://stablehorde.net/api/v2/generate/check/${start.id}`);
     if (check.faulted) throw new Error('Stable Horde job faulted');
     if (check.done) break;
   }
-  const status = await (await fetch(`https://stablehorde.net/api/v2/generate/status/${start.id}`)).json();
+  const status = await hordeFetch(`https://stablehorde.net/api/v2/generate/status/${start.id}`);
   const img = status.generations?.[0]?.img;
   if (!img) throw new Error('Stable Horde: no image returned (timed out?)');
   const buf = img.startsWith('http') ? Buffer.from(await (await fetch(img)).arrayBuffer()) : Buffer.from(img, 'base64');

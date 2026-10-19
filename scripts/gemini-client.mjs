@@ -14,7 +14,10 @@ export function apiKey() {
   return key;
 }
 
-export async function geminiFetch(url, opts = {}) {
+const RETRY_STATUS = new Set([429, 500, 503]);
+
+/** fetch with auth; retries transient overload errors (429/500/503) with backoff. */
+export async function geminiFetch(url, opts = {}, attempt = 0) {
   const res = await fetch(url, {
     ...opts,
     headers: { 'x-goog-api-key': apiKey(), 'Content-Type': 'application/json', ...(opts.headers || {}) },
@@ -22,6 +25,12 @@ export async function geminiFetch(url, opts = {}) {
   const text = await res.text();
   let json;
   try { json = JSON.parse(text); } catch { json = null; }
+  if (!res.ok && RETRY_STATUS.has(res.status) && attempt < 4) {
+    const wait = [5, 15, 30, 60][attempt] * 1000;
+    console.warn(`   ⏳ Gemini ${res.status}, retrying in ${wait / 1000}s...`);
+    await new Promise(r => setTimeout(r, wait));
+    return geminiFetch(url, opts, attempt + 1);
+  }
   if (!res.ok) throw new Error(`Gemini ${res.status}: ${json?.error?.message || text.slice(0, 300)}`);
   return json;
 }
