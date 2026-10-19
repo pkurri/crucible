@@ -48539,6 +48539,30 @@
         "Neural networks"
       ],
       "voice": "en-US-GuyNeural",
+      "priority": false
+    },
+    {
+      "name": "SyntheticMemoryPalaces",
+      "platforms": [
+        "meta",
+        "youtube"
+      ],
+      "viralScore": 9.2,
+      "targetEmotion": "Wonder",
+      "reason": "Synthetic Memory Palaces exploit the growing intersection of AI and cognitive fitness, offering viewers a visually stunning, interactive way to improve memory. The niche is untapped on mainstream channels, yet heavily searchable by users of self‑improvement, gamers, and VR enthusiasts. The concept naturally lends itself to scroll‑stopping, curiosity‑loop content: \"Watch an AI construct a 3,000‑room palace in under a minute.\" Users love seeing the power of AI mapped to tangible performance boosts, ensuring high engagement and repeat viewership. The format scales easily—new AI models, updated memory challenges, or real‑time audience input can generate fresh content while keeping the core hooked formula intact.",
+      "ideas": [
+        "AI Builds a 3,000‑Room Memory Palace in 60 Seconds – You Won’t Believe the Details!",
+        "Turn Your Brain into a 4D Palace: Watch the AI Blueprint in Real Time!",
+        "Testing a Synthetic Memory Palace – Do 100 Facts Stick? #Challenge"
+      ],
+      "keywords": [
+        "AI",
+        "Neural",
+        "Memory",
+        "Palace",
+        "Immersive"
+      ],
+      "voice": "en-US-JennyNeural",
       "priority": true
     }
   ]
