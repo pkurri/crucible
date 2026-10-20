@@ -1,0 +1,365 @@
+{
+  "session": "2026-10-20",
+  "session_label": "2026-10-20-shadow-06",
+  "market_session": "regular",
+  "agent_version": "AGENT.md Phase 2",
+  "policy_version": "3.0.0",
+  "watchlist_version": "3.0.0",
+  "quote_capture_utc": "2026-10-20T19:10:54Z",
+  "sources": [
+    "get_equity_quotes",
+    "get_equity_positions",
+    "get_equity_historicals",
+    "get_equity_fundamentals",
+    "get_accounts",
+    "get_indexes",
+    "get_index_quotes",
+    "context.py (runs/2026-10-20-market.json)",
+    "quality.py (runs/2026-10-20-symbols.json)"
+  ],
+  "symbol_data": "2026-10-20-symbols.json",
+  "context": {
+    "rules_version": "1.0.0",
+    "trend": "chop",
+    "gap_to_50d_pct": 0.07,
+    "volatility": "normal",
+    "vix": 17.45,
+    "last_session_move_pct": 0.31,
+    "drawdown_from_period_high_pct": -1.32,
+    "risk_appetite": "risk_off",
+    "event_shock": false,
+    "entries_supported": true,
+    "sessions_used": 138
+  },
+  "portfolio": {
+    "note": "Prices at live regular-session last-trade quotes captured 19:10:54Z (15:10 ET). Leveraged, excluded and dead positions (NAIL, SOLT, HIMZ, XXRP, TSLQ, RVII, KITT, SRNE, ARVLF, OTRKQ) were not priced for valuation; their values are not included in equity_value. Agentic account identified by agentic_allowed=true; API nickname is MCP, not 'Agentic' as ROUTINE.md says (same account, discrepancy noted in prior sessions).",
+    "equity_value": 769.28,
+    "positions": {
+      "LULU":  {"quantity": 3.0,        "value": 298.29},
+      "AMC":   {"quantity": 46.54036,   "value": 141.25},
+      "IONQ":  {"quantity": 3.0,        "value": 94.65},
+      "NIO":   {"quantity": 26.0,       "value": 89.44},
+      "QS":    {"quantity": 16.0,       "value": 63.96},
+      "FUBO":  {"quantity": 4.916667,   "value": 40.32},
+      "PSFE":  {"quantity": 5.0,        "value": 28.15},
+      "SPCE":  {"quantity": 2.75,       "value": 6.55},
+      "LCID":  {"quantity": 2.1,        "value": 6.67},
+      "NAIL":  {"quantity": 40.519809,  "value": 0.0},
+      "SOLT":  {"quantity": 2.532948,   "value": 0.0},
+      "HIMZ":  {"quantity": 3.512481,   "value": 0.0},
+      "RVII":  {"quantity": 6.0,        "value": 0.0},
+      "XXRP":  {"quantity": 0.745006,   "value": 0.0},
+      "TSLQ":  {"quantity": 0.70727,    "value": 0.0},
+      "KITT":  {"quantity": 0.166667,   "value": 0.0},
+      "SRNE":  {"quantity": 3.0,        "value": 0.0},
+      "ARVLF": {"quantity": 1.0,        "value": 0.0},
+      "OTRKQ": {"quantity": 2.0,        "value": 0.0}
+    }
+  },
+  "markets": {
+    "LULU":  {"bid": 99.40,  "ask": 99.47,  "last": 99.43},
+    "IONQ":  {"bid": 31.54,  "ask": 31.56,  "last": 31.55},
+    "QS":    {"bid": 3.990,  "ask": 4.000,  "last": 3.9973},
+    "LCID":  {"bid": 3.170,  "ask": 3.180,  "last": 3.175},
+    "NIO":   {"bid": 3.440,  "ask": 3.450,  "last": 3.440},
+    "FUBO":  {"bid": 8.190,  "ask": 8.210,  "last": 8.200},
+    "PSFE":  {"bid": 5.610,  "ask": 5.630,  "last": 5.630},
+    "AMC":   {"bid": 3.030,  "ask": 3.040,  "last": 3.035},
+    "SPCE":  {"bid": 2.380,  "ask": 2.390,  "last": 2.3801},
+    "VOO":   {"bid": 706.65, "ask": 706.68, "last": 706.65},
+    "VTI":   {"bid": 377.07, "ask": 377.09, "last": 377.08},
+    "SGOV":  {"bid": 100.60, "ask": 100.61, "last": 100.605}
+  },
+  "plans": [
+    {
+      "symbol": "VOO",
+      "horizon": "long-term",
+      "thesis": "VOO tracks the S&P 500; not held in the Agentic account, and entry is hard-blocked by the 19-position breach (cap 4); no exit possible since not held.",
+      "evidence": [
+        "context.py: chop (+0.07% vs 50d), volatility normal (VIX 17.45), entries_supported true",
+        "Quote age 2s; bid/ask 706.65/706.68",
+        "VOO +0.29% vs the 2026-10-19 official close of 704.60"
+      ],
+      "counterevidence": [
+        "Position count 19 against a cap of 4: the gate blocks every entry",
+        "Not held, so there is no exit to propose",
+        "context.py risk_appetite is risk_off"
+      ],
+      "catalyst": "none applicable; no dated event retrieved this session",
+      "entry_condition": "Position count cured below max_positions; then a quote under 120s old and score above 70",
+      "invalidation": "Sustained trend break below the SPY 50d average or a VIX spike above 25",
+      "max_position_pct": 85,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 12,
+      "quote_age_seconds": 2
+    },
+    {
+      "symbol": "VTI",
+      "horizon": "long-term",
+      "thesis": "VTI tracks the total US market; entry is hard-blocked by the position-count breach and it is not held, so there is no exit.",
+      "evidence": [
+        "context.py: chop, volatility normal (VIX 17.45), entries_supported true",
+        "Quote age 1s; VTI +0.41% vs the 2026-10-19 official close of 375.54"
+      ],
+      "counterevidence": [
+        "Position count 19 against a cap of 4: the gate blocks every entry",
+        "Not held, so there is no exit to propose",
+        "context.py risk_appetite is risk_off"
+      ],
+      "catalyst": "none applicable; no dated event retrieved this session",
+      "entry_condition": "Position count cured and a quote under 120s old",
+      "invalidation": "Market downtrend below the SPY 50d average or VIX above 25",
+      "max_position_pct": 85,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 12,
+      "quote_age_seconds": 1
+    },
+    {
+      "symbol": "SGOV",
+      "horizon": "long-term",
+      "thesis": "SGOV is a short-dated T-bill ETF; entry is blocked by the position-count breach and it is not held, so there is no exit.",
+      "evidence": [
+        "quality.py move 0.01%, sigma 0.06%: a stable instrument",
+        "Quote age 1s; bid/ask 100.60/100.61"
+      ],
+      "counterevidence": [
+        "Position count 19 against a cap of 4: the gate blocks every entry",
+        "Not held, so there is no exit to propose"
+      ],
+      "catalyst": "none applicable; no dated event retrieved this session",
+      "entry_condition": "Position count cured and a quote under 120s old",
+      "invalidation": "Not applicable for this instrument",
+      "max_position_pct": 85,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 12,
+      "quote_age_seconds": 1
+    },
+    {
+      "symbol": "LULU",
+      "horizon": "swing",
+      "thesis": "LULU is held at a large loss; a +1.70% session move to 99.43 with no tool-confirmed catalyst does not support an exit at a conviction clearing 70.",
+      "evidence": [
+        "Quote age 25s; bid/ask 99.40/99.47",
+        "+1.70% vs the 2026-10-19 official close of 97.76; quality.py sigma 1.87%",
+        "Price is 8.0% above the 52-week low of 90.38 (2026-10-08) and 56% below the 52-week high of 225.98",
+        "Held 3 shares at average cost 214.10: unrealized loss about 344 (-53.6%)",
+        "Fundamentals: P/E 8.0, P/B 2.28"
+      ],
+      "counterevidence": [
+        "No catalyst confirmed via tool this session",
+        "Selling at -53.6% without a dated catalyst is not supported by the evidence retrieved",
+        "Bounce off the October lows (92.68 on 10-08 to 99.43) may extend",
+        "Low P/E argues against forced selling"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Score above 70 with a confirmed dated catalyst; any buy also needs the position count cured",
+      "invalidation": "A move above 110 on a confirmed catalyst would weaken an exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 43,
+      "quote_age_seconds": 25
+    },
+    {
+      "symbol": "IONQ",
+      "horizon": "swing",
+      "thesis": "IONQ is held at a large loss; a +2.50% session move to 31.55 with no tool-confirmed catalyst does not support an exit at a conviction clearing 70.",
+      "evidence": [
+        "Quote age 2s; bid/ask 31.54/31.56",
+        "+2.50% vs the 2026-10-19 official close of 30.78; quality.py sigma 4.86%",
+        "Down from 45.48 (2026-09-25) to 30.78 (2026-10-19): -32% in 17 sessions",
+        "Held 3 shares at average cost 65.25: unrealized loss about 101 (-51.7%)",
+        "Fundamentals: P/E -6.77, 52-week range 25.89 to 73.65"
+      ],
+      "counterevidence": [
+        "No catalyst confirmed via tool this session",
+        "Selling at -51.7% into a +2.5% day with no signal is not supported by the evidence",
+        "Price is 21.9% above the 52-week low, so it is not at a fresh low"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Score above 70 with a confirmed dated catalyst; any buy also needs the position count cured",
+      "invalidation": "A recovery above 45 on a confirmed catalyst would weaken an exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 45,
+      "quote_age_seconds": 2
+    },
+    {
+      "symbol": "QS",
+      "horizon": "swing",
+      "thesis": "QS is held at a large loss; a +2.63% session move to 3.9973 with no tool-confirmed catalyst does not support an exit at a conviction clearing 70.",
+      "evidence": [
+        "Quote age 9s; bid/ask 3.99/4.00",
+        "+2.63% vs the 2026-10-19 official close of 3.895; quality.py sigma 3.39%",
+        "Down from 5.59 (2026-09-08) to 3.895 (2026-10-19): -30%; 52-week low 3.80 set 2026-10-15",
+        "Held 16 shares at average cost 23.71: unrealized loss about 315 (-83.1%)",
+        "Fundamentals: P/E -5.82, no profit"
+      ],
+      "counterevidence": [
+        "No catalyst confirmed via tool this session",
+        "Selling at -83% next to the 52-week low without a signal is noise-trading",
+        "Volume does not by itself indicate a corporate distress event"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Score above 70 with a confirmed dated catalyst; any buy also needs the position count cured",
+      "invalidation": "A sustained break above 5.00 would weaken an exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 50,
+      "quote_age_seconds": 9
+    },
+    {
+      "symbol": "LCID",
+      "horizon": "swing",
+      "thesis": "LCID is held at a near-total loss; a +2.58% session move to 3.175 with no tool-confirmed catalyst does not support an exit at a conviction clearing 70.",
+      "evidence": [
+        "Quote age 4s; bid/ask 3.17/3.18",
+        "+2.58% vs the 2026-10-19 official close of 3.095; quality.py sigma 4.18%",
+        "Down from 4.63 (2026-09-08) to 3.095 (2026-10-19): -33%",
+        "Held 2.1 shares at average cost 142.53: unrealized loss about 293 (-97.8%); position value about 6.67",
+        "Fundamentals: P/E -0.23, P/B -1.15"
+      ],
+      "counterevidence": [
+        "Position value of about 6.67 is immaterial",
+        "No catalyst confirmed via tool this session",
+        "Price is 34% above the 52-week low of 2.37 (2026-07-14)"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Score above 70 with a confirmed dated catalyst; any buy also needs the position count cured",
+      "invalidation": "A sustained break below 2.50 would support reconsidering an exit",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 44,
+      "quote_age_seconds": 4
+    },
+    {
+      "symbol": "NIO",
+      "horizon": "swing",
+      "thesis": "NIO is held at a large loss; a +1.47% session move to 3.44 with no tool-confirmed catalyst does not support an exit at a conviction clearing 70.",
+      "evidence": [
+        "Quote age 2s; bid/ask 3.44/3.45",
+        "+1.47% vs the 2026-10-19 official close of 3.39; quality.py sigma 2.60%",
+        "52-week low 3.36 set 2026-10-08; price is 2.4% above it",
+        "Held 26 shares at average cost 22.11: unrealized loss about 485 (-84.4%)",
+        "Fundamentals: P/E -12.32"
+      ],
+      "counterevidence": [
+        "No catalyst confirmed via tool this session",
+        "Selling at -84% in a quiet session with no signal is noise-trading",
+        "Price is within 2.4% of the 52-week low, so the trend is still down"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Score above 70 with a confirmed dated catalyst; any buy also needs the position count cured",
+      "invalidation": "A sustained break above 4.00 on volume would weaken an exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 47,
+      "quote_age_seconds": 2
+    },
+    {
+      "symbol": "FUBO",
+      "horizon": "swing",
+      "thesis": "FUBO is held at a large loss; a +1.86% session move to 8.20 with no tool-confirmed catalyst does not support an exit at a conviction clearing 70.",
+      "evidence": [
+        "Quote age 11s; bid/ask 8.19/8.21",
+        "+1.86% vs the 2026-10-19 official close of 8.05; quality.py sigma 2.93%",
+        "Down from 11.87 (2026-09-14) to 8.05 (2026-10-19): -32%; 52-week low 7.85 set 2026-10-16",
+        "Held 4.916667 shares at average cost 191.16: unrealized loss about 900 (-95.7%)",
+        "Fundamentals: P/B 0.29"
+      ],
+      "counterevidence": [
+        "No catalyst confirmed via tool this session",
+        "Selling next to the 52-week low without a signal is low conviction",
+        "P/B of 0.29 argues against distressed selling, though the P/E field of 1.85 is not trusted without reported earnings"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Score above 70 with a confirmed dated catalyst; any buy also needs the position count cured",
+      "invalidation": "A sustained break above 10.00 would weaken an exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 44,
+      "quote_age_seconds": 11
+    },
+    {
+      "symbol": "PSFE",
+      "horizon": "swing",
+      "thesis": "PSFE is held at a large loss; a -0.53% session move to 5.63 with no tool-confirmed catalyst does not support an exit at a conviction clearing 70.",
+      "evidence": [
+        "Quote age 22s; bid/ask 5.61/5.63",
+        "-0.53% vs the 2026-10-19 official close of 5.66; quality.py sigma 2.76%",
+        "Held 5 shares at average cost 42.22: unrealized loss about 183 (-86.7%)",
+        "Fundamentals: P/B 0.51, P/E -1.48; 52-week low 5.35 set 2026-10-02"
+      ],
+      "counterevidence": [
+        "No catalyst confirmed via tool this session",
+        "Thin liquidity (2-week average volume about 300K shares): an exit could be costly",
+        "P/B of 0.51 argues against distressed selling"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Score above 70 with a confirmed dated catalyst and adequate liquidity",
+      "invalidation": "A sustained break below 5.35 would support reconsidering an exit",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 43,
+      "quote_age_seconds": 22
+    },
+    {
+      "symbol": "AMC",
+      "horizon": "swing",
+      "thesis": "AMC is held at a large loss; a +1.85% session move to 3.035 with no tool-confirmed catalyst does not support an exit at a conviction clearing 70.",
+      "evidence": [
+        "Quote age 8s; bid/ask 3.03/3.04",
+        "+1.85% vs the 2026-10-19 official close of 2.98; quality.py sigma 4.55%",
+        "Held 46.54036 shares at average cost 16.19: unrealized loss about 612 (-81.3%); the largest held-sleeve position by value at about 141",
+        "Fundamentals: P/E -2.80, P/B -1.83; 52-week high 3.40 (2026-09-28)"
+      ],
+      "counterevidence": [
+        "No catalyst confirmed via tool this session",
+        "The 2026-09-28 spike to 3.29 faded within days, so a bounce here may not hold, but that is a pattern and not a dated event",
+        "Negative book value and a negative P/E are structural headwinds"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Score above 70 with a confirmed dated catalyst; any buy also needs the position count cured",
+      "invalidation": "A sustained break above 3.40 on a confirmed catalyst would weaken an exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 52,
+      "quote_age_seconds": 8
+    },
+    {
+      "symbol": "SPCE",
+      "horizon": "swing",
+      "thesis": "SPCE is held at a near-total loss; a +1.71% session move to 2.3801 with no tool-confirmed catalyst does not support an exit at a conviction clearing 70.",
+      "evidence": [
+        "Quote age 16s; bid/ask 2.38/2.39",
+        "+1.71% vs the 2026-10-19 official close of 2.34; quality.py sigma 2.58%",
+        "Down from 3.32 (2026-09-22) to 2.34 (2026-10-19): -30%",
+        "Held 2.75 shares at average cost 266.02: unrealized loss about 725 (-99.1%); position value about 6.55",
+        "Fundamentals: P/B 0.83, P/E -0.69; 52-week low 2.13 set 2026-03-30"
+      ],
+      "counterevidence": [
+        "Position value of about 6.55 is immaterial",
+        "No catalyst confirmed via tool this session",
+        "Price is 11.7% above the 52-week low"
+      ],
+      "catalyst": "none confirmed via tool this session",
+      "entry_condition": "Score above 70 with a confirmed dated catalyst",
+      "invalidation": "A sustained break above 3.50 would weaken an exit thesis",
+      "max_position_pct": 12,
+      "confidence": "low",
+      "decision": "NO_TRADE",
+      "score": 48,
+      "quote_age_seconds": 16
+    }
+  ]
+}

@@ -814,3 +814,65 @@ This is research output, not investment advice, and no order has been placed.
 
 This is research output, not investment advice, and no order has been placed.
 
+## 2026-10-20 15:10 ET — shadow session 06
+
+- run file: `runs/2026-10-20-shadow-06.json`; symbol data:
+  `runs/2026-10-20-symbols.json`; market data: `runs/2026-10-20-market.json`
+- agent/policy/watchlist version: AGENT.md Phase 2 / 3.0.0 / 3.0.0
+- market-traded check: SPY venue_last_trade_time 2026-10-20T19:10:15Z =
+  2026-10-20 15:10 ET, so the market traded today
+- data sources + freshness:
+  - `get_equity_historicals` (SPY, QQQ, daily, 2026-04-06 to 2026-10-19): the
+    2026-10-19 bar is the official close (SPY 766.48, QQQ 718.36); today's SPY
+    (768.82) and QQQ (718.38) added from live regular-session quotes at
+    2026-10-20T19:10:15Z and 19:10:14Z
+  - `get_index_quotes` (VIX): 17.45 at 15:10:16 ET, regular session
+  - `get_equity_quotes` on 12 watchlist symbols, captured 19:10:52–19:10:53Z
+    (clock read 19:10:54Z); quote ages 1–25 s, all well under the 120 s limit
+  - `get_equity_historicals` per symbol: 29 bars, 2026-09-08 to 2026-10-19; no
+    gaps flagged by quality.py
+  - `get_equity_fundamentals` for the 9 operating names; `get_equity_positions`
+    on the agentic account (nickname "MCP")
+- regime (`context.py`): **chop (+0.07% vs 50d), volatility normal (VIX
+  17.45), risk_off, entries_supported true, -1.32% from period high, no event
+  shock.** 138 sessions used.
+- quality.py: all 12 symbols usable, no flags
+- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE,
+  AMC, SPCE
+- decisions: NO_TRADE on all 12
+- abstentions + reasons:
+  - VOO, VTI, SGOV (score 12): not held; position-count breach (19 vs cap 4)
+    blocks all entries
+  - LULU (43): held, -53.6% vs cost; +1.70% session; no catalyst confirmed via
+    tool; below 70
+  - IONQ (45): held, -51.7%; +2.50% session; no catalyst confirmed; below 70
+  - QS (50): held, -83.1%; +2.63% session; no catalyst confirmed; below 70
+  - LCID (44): held, -97.8%; position about 6.67; +2.58% session; no catalyst
+    confirmed; below 70
+  - NIO (47): held, -84.4%; +1.47% session; no catalyst confirmed; below 70
+  - FUBO (44): held, -95.7%; +1.86% session; no catalyst confirmed; below 70
+  - PSFE (43): held, -86.7%; -0.53% session; thin liquidity; no catalyst
+    confirmed; below 70
+  - AMC (52): held, -81.3%; +1.85% session; no catalyst confirmed; below 70
+  - SPCE (48): held, -99.1%; position about 6.55; +1.71% session; no catalyst
+    confirmed; below 70
+- forecast settlement: nothing due
+- new forecasts: abstained; no symbol-specific evidence supports a
+  probability between 0.50 and 0.99
+- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals
+- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 0 policy
+  bypasses, 0 duplicates; **shadow sessions: 6 of 20 required**
+- anomalies:
+  - Tool audit: the connector exposes `mcp__robinhood-trading__decline_trade_approval`
+    (mutating), plus Legend chart/indicator writers (`add_legend_indicator`,
+    `remove_legend_indicator`, `update_legend_indicator`,
+    `set_legend_chart_settings`) and scan/watchlist readers only. No tool that
+    places, reviews, previews or cancels an order was listed. None of the
+    mutating tools were called; flagged as an allowlist gap
+  - Account nickname "MCP" in API vs "Agentic" in ROUTINE.md; same account
+    (agentic_allowed=true)
+  - One inline-Python Bash call was denied by the harness; no data was lost
+    and the session continued using file tools and the repo scripts only
+
+This is research output, not investment advice, and no order has been placed.
+
