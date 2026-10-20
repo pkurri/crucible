@@ -1,9 +1,16 @@
 {
-  "generatedAt": "2026-10-19T11:37:34.088Z",
+  "generatedAt": "2026-10-20T10:41:23.581Z",
   "platforms": [
     {
       "platform": "youtube",
-      "error": "invalid_grant"
+      "channel": "AAK-tion!",
+      "subscribers": 0,
+      "subscribersHidden": false,
+      "totalViews": 52,
+      "videoCount": 5,
+      "subscriberEligibilityProgress": 0,
+      "monetizationStatus": "not_eligible",
+      "note": "Standard YPP track also requires 4,000 public watch hours in the last 12 months OR 500 subs + 3M Shorts views in 90 days. Watch-hour data needs the yt-analytics.readonly OAuth scope, which the current token does not have (upload/force-ssl/readonly only) — re-run the OAuth consent with that scope added to track it."
     },
     {
       "platform": "facebook",
