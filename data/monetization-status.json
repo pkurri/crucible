@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-20T10:41:23.581Z",
+  "generatedAt": "2026-10-21T10:52:13.912Z",
   "platforms": [
     {
       "platform": "youtube",
       "channel": "AAK-tion!",
       "subscribers": 0,
       "subscribersHidden": false,
-      "totalViews": 52,
-      "videoCount": 5,
+      "totalViews": 0,
+      "videoCount": 1,
       "subscriberEligibilityProgress": 0,
       "monetizationStatus": "not_eligible",
       "note": "Standard YPP track also requires 4,000 public watch hours in the last 12 months OR 500 subs + 3M Shorts views in 90 days. Watch-hour data needs the yt-analytics.readonly OAuth scope, which the current token does not have (upload/force-ssl/readonly only) — re-run the OAuth consent with that scope added to track it."
@@ -15,8 +15,8 @@
     {
       "platform": "facebook",
       "page": "AAK Nation",
-      "followers": 20,
-      "followerEligibilityProgress": 0.002,
+      "followers": 21,
+      "followerEligibilityProgress": 0.0021,
       "monetizationStatus": "not_eligible",
       "note": "In-stream ads eligibility also requires meeting Meta Partner Monetization Policies and a recent watch-time minimum — this only checks the follower count proxy. Verify actual status in Meta Business Suite."
     },
