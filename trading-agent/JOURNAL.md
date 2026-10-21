@@ -876,3 +876,72 @@ This is research output, not investment advice, and no order has been placed.
 
 This is research output, not investment advice, and no order has been placed.
 
+## 2026-10-21 15:10 ET — shadow session 07
+
+- run file: `runs/2026-10-21-shadow-07.json`; symbol data:
+  `runs/2026-10-21-symbols.json`; market data: `runs/2026-10-21-market.json`
+- agent/policy/watchlist version: AGENT.md Phase 2 / 3.0.0 / 3.0.0
+- market-traded check: SPY venue_last_trade_time 2026-10-21T19:10:22Z =
+  2026-10-21 15:10 ET, so the market traded today
+- data sources + freshness:
+  - `get_equity_historicals` (SPY, QQQ, daily): 2026-10-20 bar replaced the
+    prior live reading with the official close (SPY 769.05, QQQ 717.63); today's
+    SPY (771.31) and QQQ (723.75) from live regular-session quotes at
+    19:10:22Z and 19:10:28Z
+  - `get_index_quotes` (VIX): 17.18 at 15:10:31 ET, regular session
+  - `get_equity_quotes` on 12 watchlist symbols, captured about 19:10:30Z;
+    quote ages 1-82 s (PSFE 82 s, last trade 19:09:08Z; thin name), all under
+    the 120 s limit. Ages are last-trade time against an assumed 19:10:30Z
+    capture clock, so they are approximate to a few seconds
+  - `get_equity_historicals` per symbol: 31 bars, 2026-09-08 to 2026-10-20; no
+    gaps flagged by quality.py
+  - `get_equity_fundamentals` for the 9 operating names; `get_equity_positions`
+    on the agentic account (nickname "MCP")
+- regime (`context.py`): **chop (+0.39% vs 50d), volatility normal (VIX
+  17.18), risk_off, entries_supported true, -1.0% from period high, no event
+  shock.** 139 sessions used.
+- quality.py: all 12 symbols usable, no flags
+- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE,
+  AMC, SPCE
+- decisions: NO_TRADE on all 12
+- abstentions + reasons:
+  - VOO, VTI, SGOV (score 12): not held; position-count breach (19 vs cap 4)
+    blocks all entries
+  - LULU (43): held, -55.1% vs cost; -3.76% session (about 2 sigma); no
+    catalyst confirmed via tool; below 70
+  - IONQ (45): held, -50.7%; +2.82% session; no catalyst confirmed; below 70
+  - QS (50): held, -83.0%; +1.13% session; no catalyst confirmed; below 70
+  - LCID (44): held, -97.8%; position about 6.73; -1.99% session; no catalyst
+    confirmed; below 70
+  - NIO (47): held, -85.0%; -3.21% session; new 52-week low 3.31 today per
+    fundamentals; no catalyst confirmed; below 70
+  - FUBO (44): held, -95.8%; -1.95% session; no catalyst confirmed; below 70
+  - PSFE (43): held, -86.9%; +0.55% session; thin liquidity; no catalyst
+    confirmed; below 70
+  - AMC (52): held, -81.3%; -1.62% session; no catalyst confirmed; below 70
+  - SPCE (48): held, -99.1%; position about 6.61; +1.48% session; no catalyst
+    confirmed; below 70
+- scores carried unchanged from session 06: no scoring inputs were re-derived
+  numerically; the score formula is not versioned in code, so the carried values
+  are a judgment that nothing moved enough to change them
+- forecast settlement: nothing due
+- new forecasts: abstained; no symbol-specific evidence supports a
+  probability between 0.50 and 0.99
+- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals
+- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 0 policy
+  bypasses, 0 duplicates; **shadow sessions: 7 of 20 required**
+- anomalies:
+  - Tool audit: the connector exposes `mcp__robinhood-trading__decline_trade_approval`
+    (mutating), plus Legend chart/indicator writers (`add_legend_indicator`,
+    `remove_legend_indicator`, `update_legend_indicator`,
+    `set_legend_chart_settings`). No tool that places, reviews, previews or
+    cancels an order was listed. None of the mutating tools were called;
+    flagged as an allowlist gap, as in prior sessions
+  - Account nickname "MCP" in API vs "Agentic" in ROUTINE.md; same account
+    (agentic_allowed=true)
+  - One Bash call that wrote a helper script to $TMPDIR was denied by the
+    harness; the data files were written with the file tool instead and the
+    repo scripts ran normally
+
+This is research output, not investment advice, and no order has been placed.
+
