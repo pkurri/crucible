@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-25T10:25:51.942Z",
+  "generatedAt": "2026-10-26T11:54:58.030Z",
   "platforms": [
     {
       "platform": "youtube",
       "channel": "AAK-tion!",
       "subscribers": 0,
       "subscribersHidden": false,
-      "totalViews": 9,
-      "videoCount": 5,
+      "totalViews": 15,
+      "videoCount": 6,
       "subscriberEligibilityProgress": 0,
       "monetizationStatus": "not_eligible",
       "note": "Standard YPP track also requires 4,000 public watch hours in the last 12 months OR 500 subs + 3M Shorts views in 90 days. Watch-hour data needs the yt-analytics.readonly OAuth scope, which the current token does not have (upload/force-ssl/readonly only) — re-run the OAuth consent with that scope added to track it."
@@ -15,15 +15,15 @@
     {
       "platform": "facebook",
       "page": "AAK Nation",
-      "followers": 24,
-      "followerEligibilityProgress": 0.0024,
+      "followers": 25,
+      "followerEligibilityProgress": 0.0025,
       "monetizationStatus": "not_eligible",
       "note": "In-stream ads eligibility also requires meeting Meta Partner Monetization Policies and a recent watch-time minimum — this only checks the follower count proxy. Verify actual status in Meta Business Suite."
     },
     {
       "platform": "instagram",
       "account": "aak.tion",
-      "followers": 9,
+      "followers": 8,
       "mediaCount": 56,
       "monetizationStatus": "manual_review_required",
       "note": "Instagram monetization (Reels bonuses, subscriptions, brand deals) is invite-only/manual with no public self-serve follower threshold — reporting audience size only, not eligibility."
