@@ -945,3 +945,73 @@ This is research output, not investment advice, and no order has been placed.
 
 This is research output, not investment advice, and no order has been placed.
 
+## 2026-10-26 15:18 ET — shadow session 08
+
+- run file: `runs/2026-10-26-shadow-08.json`; symbol data:
+  `runs/2026-10-26-symbols.json`; market data: `runs/2026-10-26-market.json`
+- agent/policy/watchlist version: AGENT.md Phase 2 / 3.0.0 / 3.0.0
+- market-traded check: SPY venue_last_trade_time 2026-10-26T19:18:06Z =
+  2026-10-26 15:18 ET, so the market traded today
+- data sources + freshness:
+  - `get_equity_historicals` (SPY, QQQ, daily): bars through 2026-10-23, whose
+    close is the official close (SPY 759.97, QQQ 704.40); today's SPY (765.46)
+    and QQQ (713.55) from live regular-session quotes at 19:18:06Z and
+    19:18:10Z
+  - `get_index_quotes` (VIX): 18.34 at 15:18:16 ET, regular session
+  - `get_equity_quotes` on 12 watchlist symbols, captured about 19:18:12Z;
+    quote ages 1-105 s (PSFE 105 s, last trade 19:16:27Z; thin name), all under
+    the 120 s limit. Ages are last-trade time against an assumed 19:18:12Z
+    capture clock, so they are approximate to a few seconds
+  - `get_equity_historicals` per symbol: 30 bars, 2026-09-14 to 2026-10-23; no
+    gaps flagged by quality.py
+  - `get_equity_fundamentals` for the 9 operating names; `get_equity_positions`
+    and `get_portfolio` on the agentic account (nickname "MCP")
+- regime (`context.py`): **chop (-0.28% vs 50d), volatility normal (VIX
+  18.34), risk_off, entries_supported true, -1.75% from period high, no event
+  shock.** 142 sessions used.
+- quality.py: all 12 symbols usable, no flags
+- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE,
+  AMC, SPCE
+- decisions: NO_TRADE on all 12
+- abstentions + reasons:
+  - VOO, VTI, SGOV (score 12): not held; position-count breach (19 vs cap 4)
+    blocks all entries
+  - LULU (43): held, -52.5% vs cost; +2.73% session; no catalyst confirmed via
+    tool; below 70
+  - IONQ (45): held, -52.2%; -0.27% session; no catalyst confirmed; below 70
+  - QS (50): held, -83.3%; -1.99% session; no catalyst confirmed; below 70
+  - LCID (44): held, -97.6%; position about 7.32; -0.99% session; no catalyst
+    confirmed; below 70
+  - NIO (47): held, -85.3%; -0.91% session; 0.6% above the 52-week low of 3.24
+    (2026-10-22); no catalyst confirmed; below 70
+  - FUBO (44): held, -95.9%; -1.13% session; new 52-week low 7.55 today per
+    fundamentals; no catalyst confirmed; below 70
+  - PSFE (43): held, -86.9%; -3.40% session; thin liquidity, quote age 105 s;
+    no catalyst confirmed; below 70
+  - AMC (52): held, -82.3%; -1.21% session; no catalyst confirmed; below 70
+  - SPCE (48): held, -99.0%; position about 6.95; +2.81% session; no catalyst
+    confirmed; below 70
+- scores carried unchanged from session 07: no scoring inputs were re-derived
+  numerically; the score formula is not versioned in code, so the carried values
+  are a judgment that nothing moved enough to change them
+- forecast settlement: nothing due
+- new forecasts: abstained; no symbol-specific evidence supports a
+  probability between 0.50 and 0.99
+- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals
+- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 0 policy
+  bypasses, 0 duplicates; **shadow sessions: 8 of 20 required**
+- anomalies:
+  - Tool audit: the connector exposes `mcp__robinhood-trading__decline_trade_approval`
+    (mutating), plus Legend chart/indicator writers (`add_legend_indicator`,
+    `remove_legend_indicator`, `update_legend_indicator`,
+    `set_legend_chart_settings`). No tool that places, reviews, previews or
+    cancels an order was listed. None of the mutating tools were called;
+    flagged as an allowlist gap, as in prior sessions
+  - Account nickname "MCP" in API vs "Agentic" in ROUTINE.md; same account
+    (agentic_allowed=true)
+  - One Bash call that built the market file with an inline Python script was
+    denied by the harness; the data files were written with the file tool
+    instead and the repo scripts ran normally
+
+This is research output, not investment advice, and no order has been placed.
+
