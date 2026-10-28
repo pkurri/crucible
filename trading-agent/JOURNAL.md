@@ -1096,3 +1096,73 @@ This is research output, not investment advice, and no order has been placed.
 
 This is research output, not investment advice, and no order has been placed.
 
+## 2026-10-28 15:11 ET — shadow session 10
+
+- run file: `runs/2026-10-28-shadow-10.json`; symbol data:
+  `runs/2026-10-28-symbols.json`; market data: `runs/2026-10-28-market.json`
+- agent/policy/watchlist version: AGENT.md Phase 2 / 3.0.0 / 3.0.0
+- market-traded check: SPY venue_last_trade_time 2026-10-28T19:11:30Z =
+  2026-10-28 15:11 ET, so the market traded today
+- data sources + freshness:
+  - `get_equity_historicals` (SPY, QQQ, daily): bars through 2026-10-27, whose
+    close is the official close (SPY 769.66, QQQ 721.25); earlier closes carried
+    from the session 09 market file; today's SPY (770.48) and QQQ (722.45) from
+    live regular-session quotes at 19:11:30Z and 19:11:36Z
+  - `get_index_quotes` (VIX): 17.14 at 15:11:31 ET, regular session
+  - `get_equity_quotes` on 12 watchlist symbols plus SPY/QQQ, captured about
+    19:11:37Z; quote ages 1-21 s (NIO 21 s, FUBO 16 s, SPCE 15 s), all under the
+    120 s limit; approximate to a few seconds against the assumed capture clock
+  - `get_equity_historicals` per symbol: 30 bars, 2026-09-14 to 2026-10-27; no
+    gaps flagged by quality.py
+  - `get_equity_fundamentals` for the 9 operating names; `get_equity_positions`
+    and `get_accounts` for the Agentic account (agentic_allowed=true)
+- regime (`context.py`): **chop (+0.38% vs 50d), volatility normal (VIX
+  17.14), risk_off, entries_supported true, -1.11% from period high, no event
+  shock.** 144 sessions used.
+- quality.py: all 12 symbols usable, no flags
+- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE,
+  AMC, SPCE
+- decisions: NO_TRADE on all 12
+- abstentions + reasons:
+  - VOO, VTI, SGOV (score 12): not held; position-count breach (19 vs cap 4)
+    blocks all entries
+  - LULU (43): held, -51.3% vs cost; -0.27% session; no catalyst confirmed via
+    tool; below 70
+  - IONQ (45): held, -51.3%; -3.51% session (under 1 sigma); no catalyst
+    confirmed; below 70
+  - QS (50): held, -82.5%; -0.48% session; no catalyst confirmed; below 70
+  - LCID (44): held, -97.7%; position about 6.98; +0.37% session; no catalyst
+    confirmed; below 70
+  - NIO (47): held, -85.1%; +0.15% session; 2.3% above the 52-week low of 3.22
+    set 2026-10-27; no catalyst confirmed; below 70
+  - FUBO (44): held, -95.9%; +0.51% session; 3.8% above the 52-week low 7.55;
+    no catalyst confirmed; below 70
+  - PSFE (43): held, -87.4%; -1.02% session; new 52-week low 5.29 set today;
+    thin liquidity; no catalyst confirmed; below 70
+  - AMC (52): held, -81.6%; -0.27% session; no catalyst confirmed; below 70
+  - SPCE (48): held, -99.0%; position about 7.08; -4.28% session (about 1.4
+    sigma, not flagged); no catalyst confirmed; below 70
+- scores carried unchanged from session 09: no scoring inputs were re-derived
+  numerically; the score formula is not versioned in code, so the carried values
+  are a judgment that nothing moved enough to change them
+- forecast settlement: `forecast.py due` reported nothing due for settlement
+- new forecasts: abstained; no symbol-specific evidence supports a probability
+  between 0.50 and 0.99, and the register shows no skill so far (session 09:
+  6/13 directional, Brier 0.2560)
+- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals
+- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 0 policy
+  bypasses, 0 duplicates; **shadow sessions: 10 of 20 required**
+- anomalies:
+  - Tool audit: the connector exposes `mcp__robinhood-trading__decline_trade_approval`
+    (mutating), plus Legend chart/indicator writers (`add_legend_indicator`,
+    `remove_legend_indicator`, `update_legend_indicator`,
+    `set_legend_chart_settings`). No tool that places, reviews, previews or
+    cancels an order was listed. None of the mutating tools were called;
+    flagged as an allowlist gap, as in prior sessions
+  - Account nickname "MCP" in API vs "Agentic" in ROUTINE.md; same account
+    (agentic_allowed=true)
+  - An inline-heredoc Bash call was denied by the harness; data files were
+    written with the file tool instead and the repo scripts ran normally
+
+This is research output, not investment advice, and no order has been placed.
+
