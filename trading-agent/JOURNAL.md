@@ -1166,3 +1166,76 @@ This is research output, not investment advice, and no order has been placed.
 
 This is research output, not investment advice, and no order has been placed.
 
+
+## 2026-10-30 15:22 ET — shadow session 11
+
+- run file: `runs/2026-10-30-shadow-11.json`; symbol data:
+  `runs/2026-10-30-symbols.json`; market data: `runs/2026-10-30-market.json`
+- agent/policy/watchlist version: AGENT.md Phase 2 / 3.0.0 / 3.0.0
+- market-traded check: SPY venue_last_trade_time 2026-10-30T19:21:41Z =
+  2026-10-30 15:21 ET, so the market traded today
+- data sources + freshness:
+  - `get_equity_historicals` (SPY, QQQ, daily): official closes for 2026-10-28
+    (SPY 772.31, QQQ 725.61) and 2026-10-29 (SPY 769.36, QQQ 715.34); today's
+    SPY 752.53 and QQQ 686.41 from live regular-session quotes at 19:21:47Z
+  - `get_index_quotes` (VIX): 21.29 at 15:21:46 ET, regular session
+  - `get_equity_quotes` on 12 watchlist symbols plus SPY/QQQ, captured about
+    19:21:48Z; quote ages 1-15 s except PSFE at 119 s (last trade 19:19:48Z,
+    one second under the 120 s limit; bid/ask stamped 19:21:40Z); ages are
+    approximate against the assumed capture clock
+  - `get_equity_historicals` per symbol: 30 bars, 2026-09-18 to 2026-10-29; no
+    gaps flagged by quality.py
+  - `get_equity_fundamentals` for the 9 operating names; `get_equity_positions`
+    and `get_accounts` for the Agentic account (agentic_allowed=true)
+- regime (`context.py`): **downtrend (-1.94% vs 50d), volatility elevated (VIX
+  21.29), risk_off, -3.41% from period high, EVENT SHOCK (SPY -2.19% on the
+  session), entries_supported false.** 146 sessions used.
+- quality.py: all 12 symbols usable, no flags
+- symbols analyzed: VOO, VTI, SGOV, LULU, IONQ, QS, LCID, NIO, FUBO, PSFE, AMC,
+  SPCE
+- decisions: NO_TRADE on all 12
+- abstentions + reasons:
+  - VOO, VTI (score 8), SGOV (10): not held; event shock and the
+    position-count breach (19 vs cap 4) block all entries
+  - LULU (43): held, about -50% vs cost; -2.75% session, in line with the
+    market; no catalyst confirmed via tool; below 70
+  - IONQ (45): held, about -55%; -7.68% session (about 1.6 sigma); no catalyst
+    confirmed; below 70
+  - QS (50): held, about -83%; -5.00% session; 5% above the 52-week low 3.80;
+    no catalyst confirmed; below 70
+  - LCID (44): held, about -98%; position about 6.24; -7.12% session; no
+    catalyst confirmed; below 70
+  - NIO (47): held, about -86%; new 52-week low 3.16 today; no catalyst
+    confirmed; below 70
+  - FUBO (46): held, about -96%; new 52-week low 7.48 today; no catalyst
+    confirmed; below 70
+  - PSFE (40): held, about -87%; quote at the staleness limit, thin liquidity;
+    no catalyst confirmed; below 70
+  - AMC (52): held, about -81%; -0.28% session; no catalyst confirmed; below 70
+  - SPCE (48): held, about -99%; position about 6.98; -7.04% session; no
+    catalyst confirmed; below 70
+- scores: judgment values, not derived from a coded formula (none is versioned
+  in code); they are close to the session 10 values, adjusted only where
+  today's data moved (VOO/VTI/SGOV lower for the event shock, PSFE lower for
+  quote staleness, FUBO up 2 and LULU unchanged)
+- forecast settlement: `forecast.py due` reported nothing due
+- new forecasts: abstained; during an event shock no symbol-specific evidence
+  supports a probability between 0.50 and 0.99
+- validate_run.py: 12 plans, 12 well-formed, 0 malformed, 0 proposals
+- shadow.py: 0 proposals, 12 abstentions, 0 passed the gate; 0 policy
+  bypasses, 0 duplicates; **shadow sessions: 11 of 20 required**
+- anomalies:
+  - Tool audit: the connector exposes `mcp__robinhood-trading__decline_trade_approval`
+    (mutating), plus Legend chart/indicator writers (`add_legend_indicator`,
+    `remove_legend_indicator`, `update_legend_indicator`,
+    `set_legend_chart_settings`). No tool that places, reviews, previews or
+    cancels an order was listed. None of the mutating tools were called;
+    flagged as an allowlist gap, as in prior sessions
+  - Account nickname "MCP" in API vs "Agentic" in ROUTINE.md; same account
+    (agentic_allowed=true)
+  - First event shock logged in the shadow period (SPY -2.19%, QQQ -4.04% on
+    the session); the shock rule fired and blocked entries as designed
+  - An inline Python heredoc Bash call was denied by the harness; data files
+    were written with the file tool and the repo scripts ran normally
+
+This is research output, not investment advice, and no order has been placed.
