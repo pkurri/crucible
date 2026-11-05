@@ -216,12 +216,13 @@ combination.
 
 ### 🚀 Workflow Skills — Orchestration brains
 
-| Skill                                                                    | What it does                                                           |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-| [`workflow-launch-sequence`](./skills/workflow-launch-sequence/)         | Full product build: intake → architect → build → test → deploy         |
-| [`workflow-feature-cycle`](./skills/workflow-feature-cycle/)             | Feature lifecycle: spec → implement → review → ship                    |
-| [`workflow-multi-agent-build`](./skills/workflow-multi-agent-build/)     | Spawns parallel sub-agents for frontend, backend, tests simultaneously |
-| [`workflow-game-web-production`](./skills/workflow-game-web-production/) | Game/web production: concept → playable slice → QA → release           |
+| Skill                                                                    | What it does                                                                       |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| [`workflow-launch-sequence`](./skills/workflow-launch-sequence/)         | Full product build: intake → architect → build → test → deploy                     |
+| [`workflow-feature-cycle`](./skills/workflow-feature-cycle/)             | Feature lifecycle: spec → implement → review → ship                                |
+| [`workflow-ai-native-sdlc`](./skills/workflow-ai-native-sdlc/)           | AI-native SDLC: INTENT.md → design → build → test → review, as a runnable workflow |
+| [`workflow-multi-agent-build`](./skills/workflow-multi-agent-build/)     | Spawns parallel sub-agents for frontend, backend, tests simultaneously             |
+| [`workflow-game-web-production`](./skills/workflow-game-web-production/) | Game/web production: concept → playable slice → QA → release                       |
 
 ### 🔧 Tool Skills — Tactical power tools
 
