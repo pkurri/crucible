@@ -56,9 +56,11 @@
 
 ---
 
-### 🔄 Workflow Automation (17 skills)
+### 🔄 Workflow Automation (18 skills)
 
 **workflow-agent-orchestration** - Multi-agent workflow coordination  
+**workflow-ai-native-sdlc** - AI-native SDLC playbook: INTENT.md → design →
+build → test → review → maintain (runnable workflow)  
 **workflow-brainstorm** - Ideation and brainstorming facilitator  
 **workflow-creator** - Custom workflow builder  
 **workflow-execute-plans** - Plan execution framework  

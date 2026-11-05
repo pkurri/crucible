@@ -88,9 +88,11 @@ SEO optimization analysis
 
 ---
 
-## 🔄 Workflow Automation (30 skills)
+## 🔄 Workflow Automation (31 skills)
 
 **workflow-agent-orchestration** - Multi-agent workflow coordination  
+**workflow-ai-native-sdlc** - AI-native SDLC playbook: INTENT.md → design →
+build → test → review → maintain (runnable workflow)  
 **workflow-brainstorm** - Ideation and brainstorming facilitator  
 **workflow-creator** - Custom workflow builder  
 **workflow-execute-plans** - Plan execution framework  

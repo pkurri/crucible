@@ -146,3 +146,10 @@ git revert HEAD --no-edit
 pnpm dlx vercel --prod
 # Rollback migration if needed (have rollback SQL ready before shipping)
 ```
+
+## See also
+
+- [`workflow-ai-native-sdlc`](../workflow-ai-native-sdlc/SKILL.md) — the same
+  cycle held in version-controlled intent files, with a human approval stop,
+  real verification and a three-lens review, runnable as the `ai-native-sdlc`
+  workflow.
